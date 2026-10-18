@@ -1,0 +1,985 @@
+[
+  {
+    "entry_id": "E0001",
+    "headword": null,
+    "entry_text_sha256": "006e8a7ce41a0871fecf45c07483d5aeb73f8edb5ac3aa5a2f43bfb045d8afb7",
+    "scan_pages": [
+      "upload:69952e7c4a0f"
+    ],
+    "match_method": "nemotron_embed_rerank",
+    "article": {
+      "page_id": "27470",
+      "revision_id": "1353626801",
+      "title": "Languages of Switzerland",
+      "url": "https://en.wikipedia.org/wiki/Languages_of_Switzerland",
+      "revision_url": "https://en.wikipedia.org/w/index.php?oldid=1353626801",
+      "text_sha256": "c7bc289873852bd709b7dccb6dfa297d18ff7cfadfdc137f68f2fa0afa3b19ff"
+    },
+    "britannica": {
+      "tokens_raw": 338,
+      "tokens_kept": 189,
+      "types": 161,
+      "unverified_tokens": 149,
+      "unverified_rate": 0.4408,
+      "unverified_examples": [
+        "switect",
+        "lines",
+        "allowed",
+        "prevails",
+        "calvinia",
+        "centons",
+        "malhland",
+        "nuofstadt",
+        "gener",
+        "buli"
+      ]
+    },
+    "wikipedia": {
+      "tokens": 1112,
+      "types": 562
+    },
+    "length_ratio_wiki_to_britannica": 5.884,
+    "top_terms_jaccard": 0.087,
+    "frequency_cosine": 0.2638,
+    "shared_terms": [
+      {
+        "term": "cantons",
+        "count_britannica": 8,
+        "count_wikipedia": 11
+      },
+      {
+        "term": "switzerland",
+        "count_britannica": 3,
+        "count_wikipedia": 28
+      },
+      {
+        "term": "swiss",
+        "count_britannica": 1,
+        "count_wikipedia": 36
+      },
+      {
+        "term": "french",
+        "count_britannica": 1,
+        "count_wikipedia": 35
+      },
+      {
+        "term": "german",
+        "count_britannica": 1,
+        "count_wikipedia": 33
+      },
+      {
+        "term": "people",
+        "count_britannica": 4,
+        "count_wikipedia": 5
+      },
+      {
+        "term": "italian",
+        "count_britannica": 1,
+        "count_wikipedia": 20
+      },
+      {
+        "term": "language",
+        "count_britannica": 1,
+        "count_wikipedia": 20
+      },
+      {
+        "term": "part",
+        "count_britannica": 2,
+        "count_wikipedia": 10
+      },
+      {
+        "term": "country",
+        "count_britannica": 2,
+        "count_wikipedia": 5
+      },
+      {
+        "term": "parts",
+        "count_britannica": 2,
+        "count_wikipedia": 4
+      },
+      {
+        "term": "geneva",
+        "count_britannica": 2,
+        "count_wikipedia": 3
+      },
+      {
+        "term": "use",
+        "count_britannica": 1,
+        "count_wikipedia": 7
+      },
+      {
+        "term": "never",
+        "count_britannica": 2,
+        "count_wikipedia": 1
+      },
+      {
+        "term": "europe",
+        "count_britannica": 2,
+        "count_wikipedia": 1
+      },
+      {
+        "term": "trade",
+        "count_britannica": 2,
+        "count_wikipedia": 1
+      },
+      {
+        "term": "berne",
+        "count_britannica": 2,
+        "count_wikipedia": 1
+      },
+      {
+        "term": "see",
+        "count_britannica": 2,
+        "count_wikipedia": 1
+      },
+      {
+        "term": "bern",
+        "count_britannica": 1,
+        "count_wikipedia": 4
+      },
+      {
+        "term": "france",
+        "count_britannica": 1,
+        "count_wikipedia": 4
+      }
+    ],
+    "distinctive_britannica": [
+      {
+        "term": "except",
+        "z": 1.156,
+        "count_britannica": 2,
+        "count_wikipedia": 0,
+        "britannica_snippet": {
+          "offset": 2001,
+          "text": "; in the Protected cantons, from the church lands alto that were fored at the Reforation. Except in Zuricha, Bern, Bull, and Schaffaudines, where the people are more industrations, have"
+        },
+        "wikipedia_snippet": null
+      },
+      {
+        "term": "mult",
+        "z": 1.156,
+        "count_britannica": 2,
+        "count_wikipedia": 0,
+        "britannica_snippet": {
+          "offset": 2394,
+          "text": "Europe. Every male from 16 to 05 i enrolled, and about one third of them regimented. They mult all provide therefore with arms, clothing, and word traumatic, and appear on the dateted"
+        },
+        "wikipedia_snippet": null
+      },
+      {
+        "term": "belt",
+        "z": 1.156,
+        "count_britannica": 2,
+        "count_wikipedia": 0,
+        "britannica_snippet": {
+          "offset": 2277,
+          "text": "ep any binding croops, except for a few garrimsy but their militits is reckoned to be the belt regulations of any in Europe. Every male from 16 to 05 i enrolled, and about one third of"
+        },
+        "wikipedia_snippet": null
+      },
+      {
+        "term": "land",
+        "z": 1.156,
+        "count_britannica": 2,
+        "count_wikipedia": 0,
+        "britannica_snippet": {
+          "offset": 9,
+          "text": "Switect- land. parts of the country that border on Italy or France, a cor- tune French in Italian prev"
+        },
+        "wikipedia_snippet": null
+      },
+      {
+        "term": "effect",
+        "z": 1.156,
+        "count_britannica": 2,
+        "count_wikipedia": 0,
+        "britannica_snippet": {
+          "offset": 3176,
+          "text": "urning from foreign ferivs. Switzerland is never unproceeded with, able and see preferred effect and address. With and see reproduced effect and utilities in their character, they are a"
+        },
+        "wikipedia_snippet": null
+      },
+      {
+        "term": "generally",
+        "z": 1.122,
+        "count_britannica": 2,
+        "count_wikipedia": 0,
+        "britannica_snippet": {
+          "offset": 3477,
+          "text": "is not a people in Europe who want much che valdier is better. In their periods they are generally tall, roahik, and wellness is, but their complications are now of the belt, and clubs tha"
+        },
+        "wikipedia_snippet": null
+      },
+      {
+        "term": "foreign",
+        "z": 1.122,
+        "count_britannica": 2,
+        "count_wikipedia": 0,
+        "britannica_snippet": {
+          "offset": 2718,
+          "text": "os of war. The Switect of the fereral cantons are allowed to engage in the ferice of fuch foreign princes and flatters are in ali- ance with their eastern or with whom they have made a pr"
+        },
+        "wikipedia_snippet": null
+      },
+      {
+        "term": "see",
+        "z": 0.81,
+        "count_britannica": 2,
+        "count_wikipedia": 1,
+        "britannica_snippet": {
+          "offset": 3162,
+          "text": "hus always returning from foreign ferivs. Switzerland is never unproceeded with, able and see preferred effect and address. With and see reproduced effect and utilities in their chara"
+        },
+        "wikipedia_snippet": {
+          "offset": 3661,
+          "text": "che\", and to their area as Welschland, which has the same etymology as the English Welsh (see Walha). Research shows that individuals with a French-sounding name in the German-speakin"
+        }
+      },
+      {
+        "term": "europe",
+        "z": 0.792,
+        "count_britannica": 2,
+        "count_wikipedia": 1,
+        "britannica_snippet": {
+          "offset": 2304,
+          "text": "pt for a few garrimsy but their militits is reckoned to be the belt regulations of any in Europe. Every male from 16 to 05 i enrolled, and about one third of them regimented. They mult a"
+        },
+        "wikipedia_snippet": {
+          "offset": 9733,
+          "text": "her Swiss people of different linguistic backgrounds. In 2022, Switzerland ranked 23rd in Europe in the English Proficiency Index of EF language school. Swissinfo, a multilingual outlet"
+        }
+      },
+      {
+        "term": "never",
+        "z": 0.792,
+        "count_britannica": 2,
+        "count_wikipedia": 1,
+        "britannica_snippet": {
+          "offset": 2179,
+          "text": "s, have a greater trade and are richer than in the others, shall use it was. The cantons never keep any binding croops, except for a few garrimsy but their militits is reckoned to be t"
+        },
+        "wikipedia_snippet": {
+          "offset": 11362,
+          "text": "mes (e.g. Swiss Olympic and Swiss Super League), with their German or French names almost never being used. Franco-Provençal and Lombard Besides the national languages and the many va"
+        }
+      },
+      {
+        "term": "trade",
+        "z": 0.792,
+        "count_britannica": 2,
+        "count_wikipedia": 1,
+        "britannica_snippet": {
+          "offset": 1268,
+          "text": "of alflor, earthous wers, por- edain, toys, watches, clocks, and other hardwares, &c. The trade of Switzerland is greatly promoted by many na- vigable lakes and rivers. In form of the a"
+        },
+        "wikipedia_snippet": {
+          "offset": 4292,
+          "text": "(Lucerne, Berne, Zurich, Solothurn, Fribourg, Basel, St. Gallen), divided by views about trade and commerce. After the Reformation, all cantons were either Catholic or Protestant, and"
+        }
+      },
+      {
+        "term": "berne",
+        "z": 0.792,
+        "count_britannica": 2,
+        "count_wikipedia": 1,
+        "britannica_snippet": {
+          "offset": 213,
+          "text": "inant se regions are Calvinia and Sprayer. Of the former we are the centons of Zurich and Berne, the town of St Galli, Geneva, Malhland’s and Mali, the principality of Nuofstadt, the ge"
+        },
+        "wikipedia_snippet": {
+          "offset": 4213,
+          "text": "Schwyz, Unterwalden, Glarus, Zug, Appenzell, Schaffhausen) and the city cantons (Lucerne, Berne, Zurich, Solothurn, Fribourg, Basel, St. Gallen), divided by views about trade and commer"
+        }
+      },
+      {
+        "term": "cantons",
+        "z": 0.768,
+        "count_britannica": 8,
+        "count_wikipedia": 11,
+        "britannica_snippet": {
+          "offset": 565,
+          "text": "bo shum, and lines places at the countries of Canada and Dur- gans. The refl of the Swifs cantons, allies and dependents are People for the dejection of words there is an univer- fly at B"
+        },
+        "wikipedia_snippet": {
+          "offset": 957,
+          "text": "uth. There remains a small Romansh-speaking native population in Grisons in the east. The cantons of Fribourg, Bern, and Valais are officially bilingual; Grisons is officially trilingual."
+        }
+      },
+      {
+        "term": "people",
+        "z": 0.608,
+        "count_britannica": 4,
+        "count_wikipedia": 5,
+        "britannica_snippet": {
+          "offset": 600,
+          "text": "untries of Canada and Dur- gans. The refl of the Swifs cantons, allies and dependents are People for the dejection of words there is an univer- fly at Bali, and scadoniais e zurücke, Ber"
+        },
+        "wikipedia_snippet": {
+          "offset": 280,
+          "text": "federal administration of the Swiss Confederation, while Romansh is used in dealings with people who speak it. Latin is occasionally used in some formal contexts, particularly to denote"
+        }
+      },
+      {
+        "term": "words",
+        "z": 0.377,
+        "count_britannica": 1,
+        "count_wikipedia": 1,
+        "britannica_snippet": {
+          "offset": 628,
+          "text": "ans. The refl of the Swifs cantons, allies and dependents are People for the dejection of words there is an univer- fly at Bali, and scadoniais e zurücke, Beren, Lauderians and Geneva,"
+        },
+        "wikipedia_snippet": {
+          "offset": 1443,
+          "text": "anies in Switzerland, even if they only operate domestically, have names that use English words. The main languages of Swiss residents from 1950 to 2015, also continuing in percentages"
+        }
+      }
+    ],
+    "distinctive_wikipedia": [
+      {
+        "term": "swiss",
+        "z": 1.804,
+        "count_britannica": 1,
+        "count_wikipedia": 36,
+        "britannica_snippet": null,
+        "wikipedia_snippet": {
+          "offset": 220,
+          "text": "atus as official languages at the national level within the federal administration of the Swiss Confederation, while Romansh is used in dealings with people who speak it. Latin is occas"
+        }
+      },
+      {
+        "term": "german",
+        "z": 1.667,
+        "count_britannica": 1,
+        "count_wikipedia": 33,
+        "britannica_snippet": {
+          "offset": 868,
+          "text": "pih and Decerbat cantons. There are also focéeste a- mong them for the improvement of the German language and the fiecences. The principal manufactures are fluff and toboyen, lines of s"
+        },
+        "wikipedia_snippet": {
+          "offset": 47,
+          "text": "The four national languages of Switzerland are German, French, Italian, and Romansh. German, French, and Italian maintain equal status as offic"
+        }
+      },
+      {
+        "term": "french",
+        "z": 1.556,
+        "count_britannica": 1,
+        "count_wikipedia": 35,
+        "britannica_snippet": {
+          "offset": 81,
+          "text": "Switect- land. parts of the country that border on Italy or France, a cor- tune French in Italian prevails. The two predominant se regions are Calvinia and Sprayer. Of the form"
+        },
+        "wikipedia_snippet": {
+          "offset": 55,
+          "text": "The four national languages of Switzerland are German, French, Italian, and Romansh. German, French, and Italian maintain equal status as official lang"
+        }
+      },
+      {
+        "term": "speaking",
+        "z": 1.362,
+        "count_britannica": 0,
+        "count_wikipedia": 20,
+        "britannica_snippet": null,
+        "wikipedia_snippet": {
+          "offset": 902,
+          "text": "est; and the Italian area (Svizzera italiana) in the south. There remains a small Romansh-speaking native population in Grisons in the east. The cantons of Fribourg, Bern, and Valais are o"
+        }
+      },
+      {
+        "term": "romansh",
+        "z": 1.229,
+        "count_britannica": 0,
+        "count_wikipedia": 15,
+        "britannica_snippet": null,
+        "wikipedia_snippet": {
+          "offset": 76,
+          "text": "The four national languages of Switzerland are German, French, Italian, and Romansh. German, French, and Italian maintain equal status as official languages at the national"
+        }
+      },
+      {
+        "term": "used",
+        "z": 1.181,
+        "count_britannica": 0,
+        "count_wikipedia": 17,
+        "britannica_snippet": null,
+        "wikipedia_snippet": {
+          "offset": 258,
+          "text": "onal level within the federal administration of the Swiss Confederation, while Romansh is used in dealings with people who speak it. Latin is occasionally used in some formal contexts,"
+        }
+      },
+      {
+        "term": "languages",
+        "z": 1.159,
+        "count_britannica": 0,
+        "count_wikipedia": 15,
+        "britannica_snippet": null,
+        "wikipedia_snippet": {
+          "offset": 18,
+          "text": "The four national languages of Switzerland are German, French, Italian, and Romansh. German, French, and Italian main"
+        }
+      },
+      {
+        "term": "switzerland",
+        "z": 1.15,
+        "count_britannica": 3,
+        "count_wikipedia": 28,
+        "britannica_snippet": {
+          "offset": 1277,
+          "text": ", earthous wers, por- edain, toys, watches, clocks, and other hardwares, &c. The trade of Switzerland is greatly promoted by many na- vigable lakes and rivers. In form of the above manufactur"
+        },
+        "wikipedia_snippet": {
+          "offset": 31,
+          "text": "The four national languages of Switzerland are German, French, Italian, and Romansh. German, French, and Italian maintain equal stat"
+        }
+      },
+      {
+        "term": "italian",
+        "z": 1.149,
+        "count_britannica": 1,
+        "count_wikipedia": 20,
+        "britannica_snippet": {
+          "offset": 91,
+          "text": "witect- land. parts of the country that border on Italy or France, a cor- tune French in Italian prevails. The two predominant se regions are Calvinia and Sprayer. Of the former we are t"
+        },
+        "wikipedia_snippet": {
+          "offset": 63,
+          "text": "The four national languages of Switzerland are German, French, Italian, and Romansh. German, French, and Italian maintain equal status as official languages at"
+        }
+      },
+      {
+        "term": "language",
+        "z": 1.095,
+        "count_britannica": 1,
+        "count_wikipedia": 20,
+        "britannica_snippet": {
+          "offset": 875,
+          "text": "Decerbat cantons. There are also focéeste a- mong them for the improvement of the German language and the fiecences. The principal manufactures are fluff and toboyen, lines of several fo"
+        },
+        "wikipedia_snippet": {
+          "offset": 1093,
+          "text": "cially bilingual; Grisons is officially trilingual. English is widely spoken as a second language across Switzerland, and many Anglophone migrants live in Switzerland. It is often used as"
+        }
+      },
+      {
+        "term": "population",
+        "z": 1.05,
+        "count_britannica": 0,
+        "count_wikipedia": 11,
+        "britannica_snippet": null,
+        "wikipedia_snippet": {
+          "offset": 438,
+          "text": "xts, particularly to denote the country (Confoederatio Helvetica). In 2020, 62.3% of the population of Switzerland were native speakers of German (either Swiss or Standard German) at home;"
+        }
+      },
+      {
+        "term": "federal",
+        "z": 0.895,
+        "count_britannica": 0,
+        "count_wikipedia": 8,
+        "britannica_snippet": null,
+        "wikipedia_snippet": {
+          "offset": 190,
+          "text": "and Italian maintain equal status as official languages at the national level within the federal administration of the Swiss Confederation, while Romansh is used in dealings with people"
+        }
+      },
+      {
+        "term": "official",
+        "z": 0.86,
+        "count_britannica": 0,
+        "count_wikipedia": 9,
+        "britannica_snippet": null,
+        "wikipedia_snippet": {
+          "offset": 138,
+          "text": "erman, French, Italian, and Romansh. German, French, and Italian maintain equal status as official languages at the national level within the federal administration of the Swiss Confederat"
+        }
+      },
+      {
+        "term": "english",
+        "z": 0.848,
+        "count_britannica": 0,
+        "count_wikipedia": 16,
+        "britannica_snippet": null,
+        "wikipedia_snippet": {
+          "offset": 1056,
+          "text": "f Fribourg, Bern, and Valais are officially bilingual; Grisons is officially trilingual. English is widely spoken as a second language across Switzerland, and many Anglophone migrants li"
+        }
+      },
+      {
+        "term": "franco",
+        "z": 0.836,
+        "count_britannica": 0,
+        "count_wikipedia": 7,
+        "britannica_snippet": null,
+        "wikipedia_snippet": {
+          "offset": 592,
+          "text": "Swiss or Standard German) at home; 22.8% French (mostly Swiss French, but including some Franco-Provençal dialects); 8% Italian (mostly Swiss Italian, but including Lombard); and 0.5% R"
+        }
+      }
+    ]
+  },
+  {
+    "entry_id": "E0004",
+    "headword": "SYCOPHANT",
+    "entry_text_sha256": "8e5345fe5c326df028386865f8847c1eb5272e64a60dcb199ea2467fe5768798",
+    "scan_pages": [
+      "upload:69952e7c4a0f"
+    ],
+    "match_method": "nemotron_embed_rerank",
+    "article": {
+      "page_id": "25998383",
+      "revision_id": "1352212778",
+      "title": "Sycophancy",
+      "url": "https://en.wikipedia.org/wiki/Sycophancy",
+      "revision_url": "https://en.wikipedia.org/w/index.php?oldid=1352212778",
+      "text_sha256": "bcc0e3d4b1dc86da2602885070cce99548ee3aed5f2c4191a28e6603d4b27b0b"
+    },
+    "britannica": {
+      "tokens_raw": 116,
+      "tokens_kept": 80,
+      "types": 73,
+      "unverified_tokens": 36,
+      "unverified_rate": 0.3103,
+      "unverified_examples": [
+        "london",
+        "theman",
+        "exporation",
+        "contary",
+        "inforners",
+        "parafities",
+        "flattreets",
+        "chests",
+        "sydinham",
+        "phys"
+      ]
+    },
+    "wikipedia": {
+      "tokens": 811,
+      "types": 539
+    },
+    "length_ratio_wiki_to_britannica": 10.137,
+    "top_terms_jaccard": 0.0298,
+    "frequency_cosine": 0.1018,
+    "shared_terms": [
+      {
+        "term": "sycophant",
+        "count_britannica": 1,
+        "count_wikipedia": 17
+      },
+      {
+        "term": "home",
+        "count_britannica": 2,
+        "count_wikipedia": 1
+      },
+      {
+        "term": "figs",
+        "count_britannica": 1,
+        "count_wikipedia": 8
+      },
+      {
+        "term": "english",
+        "count_britannica": 1,
+        "count_wikipedia": 6
+      },
+      {
+        "term": "given",
+        "count_britannica": 1,
+        "count_wikipedia": 3
+      },
+      {
+        "term": "entered",
+        "count_britannica": 1,
+        "count_wikipedia": 2
+      },
+      {
+        "term": "ancient",
+        "count_britannica": 1,
+        "count_wikipedia": 2
+      },
+      {
+        "term": "medicine",
+        "count_britannica": 1,
+        "count_wikipedia": 1
+      },
+      {
+        "term": "years",
+        "count_britannica": 1,
+        "count_wikipedia": 1
+      },
+      {
+        "term": "good",
+        "count_britannica": 1,
+        "count_wikipedia": 1
+      },
+      {
+        "term": "made",
+        "count_britannica": 1,
+        "count_wikipedia": 1
+      },
+      {
+        "term": "practice",
+        "count_britannica": 1,
+        "count_wikipedia": 1
+      },
+      {
+        "term": "himself",
+        "count_britannica": 1,
+        "count_wikipedia": 1
+      }
+    ],
+    "distinctive_britannica": [
+      {
+        "term": "famous",
+        "z": 1.102,
+        "count_britannica": 2,
+        "count_wikipedia": 0,
+        "britannica_snippet": {
+          "offset": 1015,
+          "text": "ing the maturity, he farled to Wedthming become delicer of his faculty atce- bridge; grew famous for his practice; and was the chief physician and London they ran 1660 to 16/20, as which"
+        },
+        "wikipedia_snippet": null
+      },
+      {
+        "term": "physician",
+        "z": 1.102,
+        "count_britannica": 2,
+        "count_wikipedia": 0,
+        "britannica_snippet": {
+          "offset": 558,
+          "text": "Charles J. and went to London; where, becoming acquainted with Dr Thomas Cox, an entirely physician, and perhaps perfua- eded him to apply himself for the duty of physics, according- ly, af"
+        },
+        "wikipedia_snippet": null
+      },
+      {
+        "term": "faculty",
+        "z": 1.102,
+        "count_britannica": 2,
+        "count_wikipedia": 0,
+        "britannica_snippet": {
+          "offset": 816,
+          "text": "in Magdalan ball, entered on the body of medicine, and in 16% was created backache of his faculty at home. When you made a fellow of All-Souls college, and corti- nued direct burial years"
+        },
+        "wikipedia_snippet": null
+      },
+      {
+        "term": "oxford",
+        "z": 1.102,
+        "count_britannica": 2,
+        "count_wikipedia": 0,
+        "britannica_snippet": {
+          "offset": 401,
+          "text": "r Eagle in Dorforth, and was born there about the year 1934. He funded at Magdalach-ball, Oxford, but left the univi- rly when Oxford was performed for King Charles J. and went to London"
+        },
+        "wikipedia_snippet": null
+      },
+      {
+        "term": "thomas",
+        "z": 1.102,
+        "count_britannica": 2,
+        "count_wikipedia": 0,
+        "britannica_snippet": {
+          "offset": 227,
+          "text": "l field in general for all inforners, parafities, flattreets, chests, &c. SYDINHAM (Dr.) Thomas), an excellent English phys- fusion, was the fan of William Sychham of Wanilor Eagle in D"
+        },
+        "wikipedia_snippet": null
+      },
+      {
+        "term": "ball",
+        "z": 1.102,
+        "count_britannica": 2,
+        "count_wikipedia": 0,
+        "britannica_snippet": {
+          "offset": 395,
+          "text": "Wanilor Eagle in Dorforth, and was born there about the year 1934. He funded at Magdalach-ball, Oxford, but left the univi- rly when Oxford was performed for King Charles J. and went t"
+        },
+        "wikipedia_snippet": null
+      },
+      {
+        "term": "french",
+        "z": 0.767,
+        "count_britannica": 0,
+        "count_wikipedia": 4,
+        "britannica_snippet": null,
+        "wikipedia_snippet": {
+          "offset": 591,
+          "text": "njustified prosecutions. The word retains the same meaning ('slanderer') in Modern Greek, French (where sycophant means 'false accuser', or professional ' informer '), and Italian. In mo"
+        }
+      },
+      {
+        "term": "home",
+        "z": 0.763,
+        "count_britannica": 2,
+        "count_wikipedia": 1,
+        "britannica_snippet": {
+          "offset": 827,
+          "text": "ball, entered on the body of medicine, and in 16% was created backache of his faculty at home. When you made a fellow of All-Souls college, and corti- nued direct burial years where,"
+        },
+        "wikipedia_snippet": {
+          "offset": 5467,
+          "text": "d a Boeotian purchases a sycophant as a typical Athenian product that he cannot obtain at home. A sycophant appears as a character in The Birds. In Plutus, the character, Sycophant, de"
+        }
+      },
+      {
+        "term": "language",
+        "z": 0.618,
+        "count_britannica": 0,
+        "count_wikipedia": 2,
+        "britannica_snippet": null,
+        "wikipedia_snippet": {
+          "offset": 7876,
+          "text": "hey wrong, but also of the person or state they ostensibly serve. With the rise of large language models, the term sycophancy has entered discussions about artificial intelligence (AI). A"
+        }
+      },
+      {
+        "term": "used",
+        "z": 0.51,
+        "count_britannica": 0,
+        "count_wikipedia": 2,
+        "britannica_snippet": null,
+        "wikipedia_snippet": {
+          "offset": 7624,
+          "text": "ding false tales and accusations behind one's back. In Renaissance English, the word was used in both senses and meanings: that of the Greek informer and the current sense of a \"flatt"
+        }
+      },
+      {
+        "term": "made",
+        "z": 0.369,
+        "count_britannica": 1,
+        "count_wikipedia": 1,
+        "britannica_snippet": {
+          "offset": 842,
+          "text": "on the body of medicine, and in 16% was created backache of his faculty at home. When you made a fellow of All-Souls college, and corti- nued direct burial years where, leaving the mat"
+        },
+        "wikipedia_snippet": {
+          "offset": 4753,
+          "text": "e cases being separate matters from whether they had a right to bring them. Efforts were made to discourage or suppress sycophants, including imposing fines on litigants who failed to"
+        }
+      },
+      {
+        "term": "years",
+        "z": 0.369,
+        "count_britannica": 1,
+        "count_wikipedia": 1,
+        "britannica_snippet": {
+          "offset": 908,
+          "text": "culty at home. When you made a fellow of All-Souls college, and corti- nued direct burial years where, leaving the maturity, he farled to Wedthming become delicer of his faculty atce- b"
+        },
+        "wikipedia_snippet": {
+          "offset": 6504,
+          "text": "e person who claims or spreads it knows that. The first case is punishable with up to two years' imprisonment or a fine, whereas slanderous defamation is punishable with at least three"
+        }
+      },
+      {
+        "term": "good",
+        "z": 0.319,
+        "count_britannica": 1,
+        "count_wikipedia": 1,
+        "britannica_snippet": {
+          "offset": 1152,
+          "text": "ician and London they ran 1660 to 16/20, as which was done he began to be disliked by the good. He died in 1695. His works are highly effecemed both at home and abroad. He was famous f"
+        },
+        "wikipedia_snippet": {
+          "offset": 4140,
+          "text": "e, lacking even the convictions of politicians, and having no sense of serving the public good. The charge of sycophancy against a litigant was a serious matter. The authors of two su"
+        }
+      },
+      {
+        "term": "himself",
+        "z": 0.319,
+        "count_britannica": 1,
+        "count_wikipedia": 1,
+        "britannica_snippet": {
+          "offset": 607,
+          "text": "quainted with Dr Thomas Cox, an entirely physician, and perhaps perfua- eded him to apply himself for the duty of physics, according- ly, after the garrifon was delivered up to the parlia"
+        },
+        "wikipedia_snippet": {
+          "offset": 3366,
+          "text": "had no personal stake in the underlying dispute, but brought up old charges unrelated to himself long after the event. Sycophants included those who profited from using their position as"
+        }
+      },
+      {
+        "term": "medicine",
+        "z": 0.319,
+        "count_britannica": 1,
+        "count_wikipedia": 1,
+        "britannica_snippet": {
+          "offset": 767,
+          "text": "delivered up to the parliament, he rented again in Magdalan ball, entered on the body of medicine, and in 16% was created backache of his faculty at home. When you made a fellow of All-So"
+        },
+        "wikipedia_snippet": {
+          "offset": 9099,
+          "text": "ntial portion of tested cases. Such studies highlight risks in domains such as education, medicine and professional decision‑making when models prioritize user affirmation over independent"
+        }
+      }
+    ],
+    "distinctive_wikipedia": [
+      {
+        "term": "sycophant",
+        "z": 1.241,
+        "count_britannica": 1,
+        "count_wikipedia": 17,
+        "britannica_snippet": {
+          "offset": 0,
+          "text": "SYCOPHANT, an appellation given by the ancient A- theman to thole who informed the exporation of fi"
+        },
+        "wikipedia_snippet": {
+          "offset": 19,
+          "text": "In modern English, sycophant denotes an insincere flatterer and refers to someone practising sycophancy (i.e., insince"
+        }
+      },
+      {
+        "term": "sycophants",
+        "z": 1.123,
+        "count_britannica": 0,
+        "count_wikipedia": 10,
+        "britannica_snippet": null,
+        "wikipedia_snippet": {
+          "offset": 466,
+          "text": "ted public prosecutors. By the fifth century BC, this practice had given rise to abuse by sycophants: litigants who brought unjustified prosecutions. The word retains the same meaning ('slan"
+        }
+      },
+      {
+        "term": "sycophancy",
+        "z": 1.123,
+        "count_britannica": 0,
+        "count_wikipedia": 10,
+        "britannica_snippet": null,
+        "wikipedia_snippet": {
+          "offset": 93,
+          "text": "modern English, sycophant denotes an insincere flatterer and refers to someone practising sycophancy (i.e., insincere flattery to gain an advantage). The word has its origin in the legal sy"
+        }
+      },
+      {
+        "term": "greek",
+        "z": 1.003,
+        "count_britannica": 0,
+        "count_wikipedia": 8,
+        "britannica_snippet": null,
+        "wikipedia_snippet": {
+          "offset": 584,
+          "text": "ought unjustified prosecutions. The word retains the same meaning ('slanderer') in Modern Greek, French (where sycophant means 'false accuser', or professional ' informer '), and Italia"
+        }
+      },
+      {
+        "term": "false",
+        "z": 1.003,
+        "count_britannica": 0,
+        "count_wikipedia": 8,
+        "britannica_snippet": null,
+        "wikipedia_snippet": {
+          "offset": 622,
+          "text": "rd retains the same meaning ('slanderer') in Modern Greek, French (where sycophant means 'false accuser', or professional ' informer '), and Italian. In modern English, the meaning of t"
+        }
+      },
+      {
+        "term": "meaning",
+        "z": 0.915,
+        "count_britannica": 0,
+        "count_wikipedia": 8,
+        "britannica_snippet": null,
+        "wikipedia_snippet": {
+          "offset": 244,
+          "text": "The word has its origin in the legal system of Classical Athens, where it had a different meaning. Most legal cases of the time were brought by private litigants, as there was no police f"
+        }
+      },
+      {
+        "term": "word",
+        "z": 0.915,
+        "count_britannica": 0,
+        "count_wikipedia": 8,
+        "britannica_snippet": null,
+        "wikipedia_snippet": {
+          "offset": 158,
+          "text": "rs to someone practising sycophancy (i.e., insincere flattery to gain an advantage). The word has its origin in the legal system of Classical Athens, where it had a different meaning."
+        }
+      },
+      {
+        "term": "insincere",
+        "z": 0.792,
+        "count_britannica": 0,
+        "count_wikipedia": 5,
+        "britannica_snippet": null,
+        "wikipedia_snippet": {
+          "offset": 40,
+          "text": "In modern English, sycophant denotes an insincere flatterer and refers to someone practising sycophancy (i.e., insincere flattery to gain a"
+        }
+      },
+      {
+        "term": "person",
+        "z": 0.792,
+        "count_britannica": 0,
+        "count_wikipedia": 5,
+        "britannica_snippet": null,
+        "wikipedia_snippet": {
+          "offset": 5956,
+          "text": "In daily use, the term συκοφάντης refers to someone that purposely spreads lies about a person, in order to harm their reputation or otherwise insult their honor (i.e. a slanderer), an"
+        }
+      },
+      {
+        "term": "models",
+        "z": 0.792,
+        "count_britannica": 0,
+        "count_wikipedia": 5,
+        "britannica_snippet": null,
+        "wikipedia_snippet": {
+          "offset": 7885,
+          "text": ", but also of the person or state they ostensibly serve. With the rise of large language models, the term sycophancy has entered discussions about artificial intelligence (AI). AI sycop"
+        }
+      },
+      {
+        "term": "flattery",
+        "z": 0.792,
+        "count_britannica": 0,
+        "count_wikipedia": 5,
+        "britannica_snippet": null,
+        "wikipedia_snippet": {
+          "offset": 121,
+          "text": "notes an insincere flatterer and refers to someone practising sycophancy (i.e., insincere flattery to gain an advantage). The word has its origin in the legal system of Classical Athens,"
+        }
+      },
+      {
+        "term": "legal",
+        "z": 0.792,
+        "count_britannica": 0,
+        "count_wikipedia": 5,
+        "britannica_snippet": null,
+        "wikipedia_snippet": {
+          "offset": 185,
+          "text": "cophancy (i.e., insincere flattery to gain an advantage). The word has its origin in the legal system of Classical Athens, where it had a different meaning. Most legal cases of the tim"
+        }
+      },
+      {
+        "term": "meanings",
+        "z": 0.708,
+        "count_britannica": 0,
+        "count_wikipedia": 4,
+        "britannica_snippet": null,
+        "wikipedia_snippet": {
+          "offset": 2519,
+          "text": "he term was \"slightly obscene\", connoting a kind of perversion, and may have had a web of meanings derived from the symbolism of figs in ancient Greek culture, ranging from the improper di"
+        }
+      },
+      {
+        "term": "matter",
+        "z": 0.708,
+        "count_britannica": 0,
+        "count_wikipedia": 4,
+        "britannica_snippet": null,
+        "wikipedia_snippet": {
+          "offset": 823,
+          "text": "ted to mean flattery. The origin of the Ancient Greek word συκοφάντης (sykophántēs) is a matter of debate, but it was meant to disparage unjustified accusers who in some way perverted t"
+        }
+      },
+      {
+        "term": "user",
+        "z": 0.708,
+        "count_britannica": 0,
+        "count_wikipedia": 4,
+        "britannica_snippet": null,
+        "wikipedia_snippet": {
+          "offset": 8075,
+          "text": "y describes a pattern in which a model systematically affirms, flatters, or agrees with a user instead of reasoning independently, critically, or factually. This \"yes‑man\" behaviour ca"
+        }
+      }
+    ]
+  }
+]

@@ -1,6 +1,6 @@
-export type StepName = "extract" | "correct" | "match" | "compare" | "document";
+export type StepName = "extract" | "correct" | "match" | "compare" | "summarize" | "document";
 export type StepStatus = "idle" | "queued" | "running" | "done" | "failed";
-export const STEPS: StepName[] = ["extract", "correct", "match", "compare", "document"];
+export const STEPS: StepName[] = ["extract", "correct", "match", "compare", "summarize", "document"];
 
 export interface DocumentView {
   tex: string;
@@ -231,6 +231,44 @@ export interface Pair {
   distinctive_wikipedia: TermRow[];
 }
 
+export interface QuoteCheck {
+  quote: string;
+  found: boolean;
+  offset: number | null;
+  passage_id?: string | null;
+}
+
+export interface Difference {
+  aspect: string;
+  britannica: string;
+  wikipedia: string;
+  evidence: { britannica: QuoteCheck; wikipedia: QuoteCheck };
+  quotes_found: boolean;
+}
+
+export interface DiffSummary {
+  entry_id: string;
+  status: "ok" | "failed" | "skipped";
+  model?: string;
+  cached?: boolean;
+  reason?: string;
+  error?: string;
+  error_type?: string;
+  raw_path?: string;
+  prompt_version: string;
+  context?: {
+    selection: "whole_article" | "embedder" | "lead";
+    selection_detail?: string;
+    chars: number;
+    article_passages?: number;
+    passages: { passage_id: string; offset: number; chars: number; score?: number; vector_source?: string }[];
+  };
+  same_subject?: "yes" | "partly" | "no" | null;
+  overview?: string;
+  differences?: Difference[];
+  differences_with_quotes?: number;
+}
+
 export interface Entry {
   entry_id: string;
   headword: string | null;
@@ -245,6 +283,7 @@ export interface Entry {
   skip_reason: string | null;
   match: MatchView | null;
   pair: Pair | null;
+  summary: DiffSummary | null;
 }
 
 export interface Failure {

@@ -1,0 +1,36 @@
+{
+  "steps": {
+    "extract": {
+      "status": "done",
+      "started_at": "2026-10-18T13:52:57+00:00",
+      "archived_previous": null,
+      "progress": {
+        "done": 1,
+        "total": 1,
+        "label": "segmented"
+      },
+      "finished_at": "2026-10-18T13:53:00+00:00",
+      "elapsed_seconds": 2.75,
+      "summary": {
+        "model": "nvidia/nemotron-3.5-parse",
+        "parse_seconds": 2.75,
+        "finish_reason": "stop",
+        "page_status": "ok",
+        "blocks": 18,
+        "furniture": 1,
+        "entries": 1,
+        "headword_entries": 0
+      },
+      "error": null
+    },
+    "correct": {
+      "status": "idle"
+    },
+    "match": {
+      "status": "idle"
+    },
+    "compare": {
+      "status": "idle"
+    }
+  }
+}

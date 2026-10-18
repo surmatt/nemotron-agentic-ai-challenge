@@ -1,0 +1,142 @@
+[
+  {
+    "entry_id": "E0001",
+    "headword": null,
+    "entry_text_sha256": "006e8a7ce41a0871fecf45c07483d5aeb73f8edb5ac3aa5a2f43bfb045d8afb7",
+    "mode": "model",
+    "queries": [
+      "cantons people switzerland switect land parts country berne geneva part lines trade"
+    ],
+    "query_chars": 1500,
+    "headword_variant": null,
+    "candidate_count": 20,
+    "list_pages_removed_after_fetch": [],
+    "decision": {
+      "status": "accepted",
+      "method": "nemotron_embed_rerank",
+      "thresholds": {
+        "rerank_logit": -10.0,
+        "margin": 0.5,
+        "cosine": 0.15,
+        "title_similarity": 0.0
+      },
+      "page_id": "27470",
+      "title": "Languages of Switzerland",
+      "rerank_logit": -4.199114,
+      "cosine": 0.339319,
+      "margin_to_next": 1.013204,
+      "title_similarity": 0.0
+    },
+    "article": {
+      "page_id": "27470",
+      "revision_id": "1353626801",
+      "title": "Languages of Switzerland",
+      "url": "https://en.wikipedia.org/wiki/Languages_of_Switzerland",
+      "revision_url": "https://en.wikipedia.org/w/index.php?oldid=1353626801",
+      "text_sha256": "c7bc289873852bd709b7dccb6dfa297d18ff7cfadfdc137f68f2fa0afa3b19ff",
+      "chars": 12578
+    }
+  },
+  {
+    "entry_id": "E0002",
+    "headword": "SWIVELS",
+    "entry_text_sha256": "96331833265f45d839a60e641901727f07223aa2d4cf2c8ac405e00736940996",
+    "mode": "model",
+    "queries": [
+      "swivels",
+      "swivel",
+      "swivel ring turn round ship piece tops iron kind made fluids ufed"
+    ],
+    "query_chars": 1012,
+    "headword_variant": "swivel",
+    "candidate_count": 32,
+    "list_pages_removed_after_fetch": [],
+    "decision": {
+      "status": "rejected",
+      "method": "nemotron_embed_rerank",
+      "thresholds": {
+        "rerank_logit": -10.0,
+        "margin": 0.5,
+        "cosine": 0.15,
+        "title_similarity": 0.0
+      },
+      "reason": "rerank_logit < -10.0, margin < 0.5, cosine < 0.15, or title_similarity < 0.0",
+      "page_id": "1933308",
+      "title": "Swivel",
+      "rerank_logit": -6.992615,
+      "cosine": 0.369596,
+      "margin_to_next": 0.394943,
+      "title_similarity": 1.0
+    }
+  },
+  {
+    "entry_id": "E0003",
+    "headword": "SWOONING",
+    "entry_text_sha256": "9ae8aa742f10dd029e3ccff7988ce087ac267fb43476de38c3bc9fc11b9c54f9",
+    "mode": "model",
+    "queries": [
+      "swooning",
+      "swooning blade borne king carried head shoulder manchiss sword effective weapon file"
+    ],
+    "query_chars": 1346,
+    "headword_variant": null,
+    "candidate_count": 32,
+    "list_pages_removed_after_fetch": [],
+    "decision": {
+      "status": "rejected",
+      "method": "nemotron_embed_rerank",
+      "thresholds": {
+        "rerank_logit": -10.0,
+        "margin": 0.5,
+        "cosine": 0.15,
+        "title_similarity": 0.0
+      },
+      "reason": "rerank_logit < -10.0, margin < 0.5, cosine < 0.15, or title_similarity < 0.0",
+      "page_id": "2518274",
+      "title": "Swoon hypothesis",
+      "rerank_logit": -8.298628,
+      "cosine": 0.07203,
+      "margin_to_next": 0.19016,
+      "title_similarity": 0.5217
+    }
+  },
+  {
+    "entry_id": "E0004",
+    "headword": "SYCOPHANT",
+    "entry_text_sha256": "8e5345fe5c326df028386865f8847c1eb5272e64a60dcb199ea2467fe5768798",
+    "mode": "model",
+    "queries": [
+      "sycophant",
+      "sycophant thomas ball oxford london physician faculty home famous appellation given ancient"
+    ],
+    "query_chars": 1351,
+    "headword_variant": null,
+    "candidate_count": 32,
+    "list_pages_removed_after_fetch": [],
+    "decision": {
+      "status": "accepted",
+      "method": "nemotron_embed_rerank",
+      "thresholds": {
+        "rerank_logit": -10.0,
+        "margin": 0.5,
+        "cosine": 0.15,
+        "title_similarity": 0.0
+      },
+      "page_id": "25998383",
+      "title": "Sycophancy",
+      "rerank_logit": -3.571976,
+      "cosine": 0.237396,
+      "margin_to_next": 0.86051,
+      "title_similarity": 1.0
+    },
+    "article": {
+      "page_id": "25998383",
+      "revision_id": "1352212778",
+      "title": "Sycophancy",
+      "url": "https://en.wikipedia.org/wiki/Sycophancy",
+      "revision_url": "https://en.wikipedia.org/w/index.php?oldid=1352212778",
+      "text_sha256": "bcc0e3d4b1dc86da2602885070cce99548ee3aed5f2c4191a28e6603d4b27b0b",
+      "chars": 9897
+    }
+  }
+]

@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nemotron challenge — team brief</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,520;9..144,640&family=IBM+Plex+Mono:wght@400;500&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #1c1612;
+    --ink-soft: #4a4038;
+    --paper: #f3eee4;
+    --card: #faf7f1;
+    --line: #d9cfc0;
+    --rust: #9a3412;
+    --rust-soft: #f3e4d8;
+    --green: #1f5c38;
+    --green-soft: #e5f0e8;
+    --amber: #8a5a12;
+    --amber-soft: #f7edd6;
+    --blue: #1e4a66;
+    --blue-soft: #e6eef3;
+    --shadow: 0 1px 0 rgba(28, 22, 18, 0.06);
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0;
+    color: var(--ink);
+    background:
+      radial-gradient(1200px 500px at 100% -10%, #efe4d2 0%, transparent 55%),
+      var(--paper);
+    font-family: "Source Serif 4", Georgia, serif;
+    font-size: 17px;
+    line-height: 1.5;
+  }
+  a { color: var(--rust); text-underline-offset: 3px; }
+  code, .mono { font-family: "IBM Plex Mono", ui-monospace, monospace; font-size: 0.82em; }
+  header {
+    padding: 40px 24px 28px;
+    border-bottom: 1px solid var(--line);
+  }
+  .wrap { max-width: 1040px; margin: 0 auto; }
+  .kicker {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 12px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--rust);
+    margin: 0 0 10px;
+  }
+  h1 {
+    font-family: Fraunces, Georgia, serif;
+    font-weight: 520;
+    font-size: clamp(36px, 5vw, 56px);
+    line-height: 1.05;
+    letter-spacing: -0.02em;
+    margin: 0 0 12px;
+  }
+  h1 em { font-style: italic; font-weight: 520; }
+  .lede { max-width: 68ch; margin: 0; color: var(--ink-soft); }
+  nav.toc {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 16px;
+    padding: 16px 24px;
+    border-bottom: 1px solid var(--line);
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 12px;
+  }
+  nav.toc a { color: var(--ink); text-decoration: none; }
+  nav.toc a:hover { color: var(--rust); }
+  main { padding: 8px 24px 72px; }
+  section { padding: 28px 0 8px; }
+  h2 {
+    font-family: Fraunces, Georgia, serif;
+    font-weight: 520;
+    font-size: 30px;
+    margin: 0 0 8px;
+    letter-spacing: -0.02em;
+  }
+  h3 {
+    font-family: Fraunces, Georgia, serif;
+    font-weight: 520;
+    font-size: 20px;
+    margin: 0 0 6px;
+  }
+  .sub { margin: 0 0 16px; color: var(--ink-soft); max-width: 72ch; }
+  .strip {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin: 22px 0 0;
+  }
+  .stat {
+    background: var(--card);
+    border: 1px solid var(--line);
+    box-shadow: var(--shadow);
+    padding: 12px 14px 10px;
+  }
+  .stat b {
+    display: block;
+    font-family: Fraunces, Georgia, serif;
+    font-size: 28px;
+    font-weight: 520;
+    line-height: 1;
+    margin-bottom: 4px;
+  }
+  .stat span { font-family: "IBM Plex Mono", monospace; font-size: 11px; color: var(--ink-soft); letter-spacing: 0.02em; }
+  .grid-2 { display: grid; grid-template-columns: 1.15fr 0.85fr; gap: 18px; }
+  .grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--line);
+    padding: 14px 16px 12px;
+    box-shadow: var(--shadow);
+  }
+  .card p { margin: 0; }
+  .card ul { margin: 8px 0 0; padding-left: 18px; }
+  .card li { margin: 3px 0; }
+  table { width: 100%; border-collapse: collapse; background: var(--card); }
+  th, td { text-align: left; vertical-align: top; padding: 8px 10px; border-bottom: 1px solid var(--line); }
+  th {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--ink-soft);
+    background: #efe8dc;
+  }
+  td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
+  .pill {
+    display: inline-block;
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 11px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    padding: 2px 7px;
+    border-radius: 99px;
+    border: 1px solid currentColor;
+  }
+  .done { color: var(--green); background: var(--green-soft); }
+  .wait { color: var(--amber); background: var(--amber-soft); }
+  .info { color: var(--blue); background: var(--blue-soft); }
+  .stage-head { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; }
+  .flow {
+    background: var(--card);
+    border: 1px solid var(--line);
+    padding: 18px 18px 8px;
+  }
+  .rail { list-style: none; margin: 0; padding: 0; }
+  .rail li {
+    display: grid;
+    grid-template-columns: 16px 1fr;
+    gap: 12px;
+  }
+  .rail .mark { position: relative; }
+  .rail .mark::before {
+    content: "";
+    position: absolute;
+    left: 5px;
+    top: 4px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: var(--green);
+    box-shadow: 0 0 0 3px var(--green-soft);
+  }
+  .rail .mark.wait::before { background: var(--amber); box-shadow: 0 0 0 3px var(--amber-soft); }
+  .rail .mark::after {
+    content: "";
+    position: absolute;
+    left: 8px;
+    top: 16px;
+    bottom: -4px;
+    width: 1px;
+    background: #c4b6a6;
+  }
+  .rail li:last-child .mark::after { display: none; }
+  .step { padding: 0 0 16px; }
+  .step strong { font-family: Fraunces, Georgia, serif; font-weight: 520; font-size: 18px; }
+  .step span { display: block; color: var(--ink-soft); font-size: 15px; }
+  .step em { font-style: normal; font-family: "IBM Plex Mono", monospace; font-size: 12px; color: var(--blue); }
+  .note {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 12px;
+    color: var(--ink-soft);
+    margin: 10px 0 0;
+  }
+  ol.steps { margin: 0; padding-left: 20px; }
+  ol.steps li { margin: 6px 0; }
+  .improve { border-left: 3px solid var(--rust); padding-left: 12px; margin: 0 0 14px; }
+  .improve p { margin: 4px 0 0; color: var(--ink-soft); }
+  footer {
+    border-top: 1px solid var(--line);
+    padding: 18px 24px 32px;
+    color: var(--ink-soft);
+    font-size: 14px;
+  }
+  @media (max-width: 800px) {
+    .strip, .grid-2, .grid-3 { grid-template-columns: 1fr; }
+    header, main, nav.toc, footer { padding-left: 16px; padding-right: 16px; }
+  }
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <p class="kicker">Team brief · 18 October 2026 · artifacts through 12:29 UTC</p>
+    <h1>Britannica scans,<br><em>matched to Wikipedia.</em></h1>
+    <p class="lede">Compare 100 historical Encyclopaedia Britannica page scans with a pinned English Wikipedia snapshot. Extract the text, match topics, compare vocabulary, and answer with a Hermes agent that cites both sources. This page is the working brief. It is separate from the submission website.</p>
+    <div class="strip">
+      <div class="stat"><b>4 / 6</b><span>stages have a saved run</span></div>
+      <div class="stat"><b>39</b><span>accepted Wikipedia matches</span></div>
+      <div class="stat"><b>7 / 8</b><span>agent answers passed</span></div>
+      <div class="stat"><b>2</b><span>stages still to run</span></div>
+    </div>
+  </div>
+</header>
+<nav class="toc">
+  <a href="#job">The job</a>
+  <a href="#setup">Setup</a>
+  <a href="#have">Already built</a>
+  <a href="#flow">Workflow</a>
+  <a href="#left">Still to do</a>
+  <a href="#improve">Improvements</a>
+</nav>
+<main class="wrap">
+
+<section id="job">
+  <h2>The job</h2>
+  <p class="sub">The starter has no answer key. The submission is the repository plus a 3 to 5 minute video. Show how a match, a comparison, and a citation were checked.</p>
+  <div class="grid-2">
+    <div class="card">
+      <h3>Required work</h3>
+      <ol class="steps">
+        <li>Extract the 100 shared scans with Parse 3.5. A page can hold several entries. An entry can continue onto the next page. Some scans are blank or hard to read.</li>
+        <li>Find candidate Wikipedia articles and decide which matches to keep.</li>
+        <li>Use the team embedder and reranker in that decision.</li>
+        <li>Compare vocabulary, frequencies, or topics. Cite the source text.</li>
+        <li>Publish a static site whose Britannica text is compiled LaTeX.</li>
+        <li>Run Hermes on Super 3.5 VL with the comparison tools.</li>
+        <li>Keep three success cases and three failure cases from saved runs.</li>
+      </ol>
+    </div>
+    <div class="card">
+      <h3>Models you must use</h3>
+      <table>
+        <tr><th>Role</th><th>Model</th><th>Where</th></tr>
+        <tr><td>OCR</td><td><code>nvidia/nemotron-3.5-parse</code></td><td>Organizer endpoint</td></tr>
+        <tr><td>Embed</td><td><code>llama-nemotron-embed-vl-1b-v2</code></td><td>Team GPU service</td></tr>
+        <tr><td>Rerank</td><td><code>llama-nemotron-rerank-vl-1b-v2</code></td><td>Team GPU service</td></tr>
+        <tr><td>Agent</td><td><code>Nemotron-3.5-Super-VL</code></td><td>Token Factory</td></tr>
+      </table>
+      <p class="note">Embed revision 582e3bf. Rerank revision b8a9987b. Wikipedia snapshot 417c267b. Britannica dataset revision 309f765b.</p>
+    </div>
+  </div>
+</section>
+
+<section id="setup">
+  <h2>Setup</h2>
+  <p class="sub">Python 3.12, uv, and a local <code>.env</code> copied from <code>.env.example</code>. Keys stay out of Git. Nebius AI Cloud and Token Factory are separate accounts.</p>
+  <div class="grid-3">
+    <div class="card">
+      <h3>Local project</h3>
+      <ol class="steps">
+        <li><code>uv sync --locked</code></li>
+        <li><code>cp .env.example .env</code></li>
+        <li><code>uv run nemotron-challenge doctor --offline</code></li>
+        <li><code>uv run nemotron-challenge data fetch</code></li>
+      </ol>
+      <p class="note">The fetch is a pinned Parquet file of about 357 MiB. Images land in <code>data/raw/britannica</code>. Cache stays in <code>data/cache</code>.</p>
+    </div>
+    <div class="card">
+      <h3>Shared services</h3>
+      <p><code>WIKIPEDIA_API_URL</code> is BM25 over 7,182,883 English articles. No key. It returns candidates, not matches.</p>
+      <p style="margin-top:8px"><code>PARSE_BASE_URL</code> is the organizer Parse endpoint. Set <code>PARSE_API_KEY</code> if the endpoint asks for one.</p>
+    </div>
+    <div class="card">
+      <h3>Team services</h3>
+      <p><code>RETRIEVAL_BASE_URL</code> points at the embed and rerank service. Build it from <code>infra/model-service</code> or start the Nebius serverless recipe in <code>docs/model-service.md</code>. Stop the endpoint when idle.</p>
+      <p style="margin-top:8px"><code>SUPER_API_KEY</code> is the Token Factory key for Hermes. Profile lives in <code>data/hermes</code> and stays untracked.</p>
+    </div>
+  </div>
+  <p class="note">Run order: <code>data fetch</code>, then <code>run extract</code>, <code>match</code>, <code>compare</code>, <code>agent</code>, <code>site</code>, <code>evaluate</code>. Each stage writes <code>artifacts/&lt;stage&gt;/summary.json</code> last and reads the earlier files. Failures go to <code>artifacts/runs/failures.jsonl</code>.</p>
+</section>
+
+<section id="have">
+  <h2>Already built</h2>
+  <p class="sub">The six stage modules are implemented. Four of them have a finished run from 18 October. Fixture tests in <code>tests/</code> check the rules. They do not prove OCR or match quality.</p>
+  <div class="grid-2" style="margin-bottom:14px">
+    <article class="card">
+      <div class="stage-head"><h3>Extract</h3><span class="pill done">saved 12:10 UTC</span></div>
+      <p>Parse 3.5 on each scan. Raw replies stay in <code>artifacts/extract/raw/</code>. Headers, footers, and page numbers are removed. A capitalised headword starts an entry. Continuations join only across consecutive rows of one volume.</p>
+      <table>
+        <tr><td>Scans parsed</td><td class="num">98 / 100</td></tr>
+        <tr><td>Page status</td><td class="num">89 ok, 5 plate, 4 sparse</td></tr>
+        <tr><td>Entries</td><td class="num">241 (159 headwords, 82 continuations)</td></tr>
+        <tr><td>Joined across pages</td><td class="num">2</td></tr>
+        <tr><td>Parse failures</td><td>Rows 452 and 2243. Incomplete reply, token budget.</td></tr>
+      </table>
+    </article>
+    <article class="card">
+      <div class="stage-head"><h3>Match</h3><span class="pill done">model mode 12:26 UTC</span></div>
+      <p>Two BM25 searches per entry, then embedder cosine and reranker logits. Accept the reranker top result when its logit is at least −6.0 and the title similarity to the headword is at least 0.75. Full article text is cached with its revision and checksum.</p>
+      <table>
+        <tr><td>Searched / skipped</td><td class="num">188 / 53</td></tr>
+        <tr><td>Accepted / rejected</td><td class="num">39 / 148</td></tr>
+        <tr><td>Errors</td><td class="num">1</td></tr>
+        <tr><td>Repeated articles</td><td class="num">none</td></tr>
+      </table>
+      <p class="note">An earlier uncalibrated GPU run accepted 1 of 188. It is kept in <code>artifacts/runs/match-run1-uncalibrated/</code>. A lexical fallback exists when the retrieval URL is unset. The saved run used the models.</p>
+    </article>
+    <article class="card">
+      <div class="stage-head"><h3>Compare</h3><span class="pill done">saved 12:26 UTC</span></div>
+      <p>Word frequencies and log-odds with a Dirichlet prior. Long s is rewritten when the result is in the vocabulary. Each change is logged. Each distinctive term carries one snippet per side. Plots are SVG files in <code>artifacts/compare/plots/</code>.</p>
+      <table>
+        <tr><td>Pairs</td><td class="num">39, all model matches</td></tr>
+        <tr><td>Long-s / historical fixes</td><td class="num">91 / 0</td></tr>
+        <tr><td>Unverified Britannica tokens</td><td class="num">19.6%</td></tr>
+        <tr><td>Mean top-100 Jaccard</td><td class="num">0.043</td></tr>
+        <tr><td>Mean frequency cosine</td><td class="num">0.188</td></tr>
+      </table>
+    </article>
+    <article class="card">
+      <div class="stage-head"><h3>Agent</h3><span class="pill done">run 122627Z</span></div>
+      <p>Hermes Agent v0.22.2 with Super 3.5 VL. Plugin Doctor passed. Four tools read the artifacts: <code>challenge_search</code>, <code>challenge_compare</code>, <code>challenge_read</code>, <code>challenge_corpus</code>. Policy and questions live in <code>integrations/hermes/questions.json</code>.</p>
+      <table>
+        <tr><td>Questions completed</td><td class="num">8 / 8</td></tr>
+        <tr><td>Automatic pass</td><td class="num">7</td></tr>
+        <tr><td>Automatic fail</td><td>q08-naxos. Expected a wrong-match flag.</td></tr>
+      </table>
+      <p class="note">Automatic checks are text rules. Read each answer before you classify it.</p>
+    </article>
+  </div>
+  <div class="grid-2">
+    <article class="card">
+      <div class="stage-head"><h3>Site</h3><span class="pill wait">code ready, no run</span></div>
+      <p><code>site.py</code> writes one HTML page per scan and per entry, copies images and raw replies, and compiles one LaTeX file per scan with <code>tectonic</code> when it is installed. Source text and generated analysis use separate labelled sections. No <code>artifacts/site/summary.json</code> yet.</p>
+    </article>
+    <article class="card">
+      <div class="stage-head"><h3>Evaluate</h3><span class="pill wait">cases stale</span></div>
+      <p><code>evaluate.py</code> checks quotes in saved answers and writes six case studies. <code>docs/evaluation/cases.json</code> still names run <code>2026-10-18T114003Z</code> and a trial prompt. The current <code>runs.jsonl</code> only contains <code>2026-10-18T122627Z</code>. The stage will stop until the case file names saved runs.</p>
+    </article>
+  </div>
+</section>
+
+<section id="flow">
+  <h2>Workflow</h2>
+  <p class="sub">Read the flow from top to bottom. A green mark has a saved run. An amber mark is implemented and waiting for a run. The retrieval models currently see text. They do not see the scan image.</p>
+  <div class="flow">
+    <ol class="rail">
+      <li><div class="mark"></div><div class="step"><strong>100 scans</strong><span>Pinned Britannica images in <code>data/raw/britannica</code>, each with a page ID and checksum.</span></div></li>
+      <li><div class="mark"></div><div class="step"><strong>Parse 3.5</strong><span><em>Shared endpoint.</em> 98 replies saved unchanged under <code>artifacts/extract/raw/</code>. Two scans hit the token limit.</span></div></li>
+      <li><div class="mark"></div><div class="step"><strong>Segment entries</strong><span>241 entries. Headers and page numbers removed. A capitalised headword starts an entry. Only 2 continuations were joined.</span></div></li>
+      <li><div class="mark"></div><div class="step"><strong>Wikipedia BM25</strong><span><em>Shared index, 7.2 million articles.</em> Two queries per entry: headword, then headword plus keywords. Returns candidates, not matches.</span></div></li>
+      <li><div class="mark"></div><div class="step"><strong>Embed VL and Rerank VL</strong><span><em>Team GPU. Text only in the current run.</em> Accept when the rerank logit is at least −6.0 and the title similarity is at least 0.75. 39 articles cached with revision and checksum.</span></div></li>
+      <li><div class="mark"></div><div class="step"><strong>Compare</strong><span>Word frequencies and log-odds on the 39 pairs. Long-s changes are logged. Each distinctive term has one snippet per side. SVG plots saved.</span></div></li>
+      <li><div class="mark"></div><div class="step"><strong>Hermes and Super 3.5 VL</strong><span><em>Token Factory.</em> Tools: search, read, compare, corpus. Eight questions in run <code>2026-10-18T122627Z</code>. Seven passed the text check. q08 did not.</span></div></li>
+      <li><div class="mark wait"></div><div class="step"><strong>Static site and LaTeX</strong><span>One document per scan. Code is in <code>site.py</code>. The stage has not been run. PDFs need <code>tectonic</code>.</span></div></li>
+      <li><div class="mark wait"></div><div class="step"><strong>Evaluate, then submit</strong><span>Six case studies, the site, and a 3 to 5 minute video. <code>cases.json</code> still names an older run, so evaluate will stop.</span></div></li>
+    </ol>
+    <p class="note">Green marks have a saved run. Amber marks are implemented and waiting. Blue labels are services outside this repository. LanceDB at <code>data/team.lancedb</code> stores stage records. The agent tools read the JSON artifacts.</p>
+  </div>
+</section>
+
+<section id="left">
+  <h2>Still to do</h2>
+  <div class="grid-3">
+    <div class="card">
+      <h3>1. Publish the site</h3>
+      <p>Install <code>tectonic</code>. Run <code>uv run nemotron-challenge run site</code>. Open <code>artifacts/site</code> and check scan links, entry pages, plots, and PDFs.</p>
+    </div>
+    <div class="card">
+      <h3>2. Re-classify the agent</h3>
+      <p>Read the eight answers in run <code>2026-10-18T122627Z</code>. Point <code>docs/evaluation/cases.json</code> at that run. Then run <code>evaluate</code>. q05 now finds the OCR headword PHILLOOGY, so the old “false absence” case may no longer hold. q08 did not flag the match as wrong.</p>
+    </div>
+    <div class="card">
+      <h3>3. Fill the submission</h3>
+      <p>Complete <code>templates/submission.md</code>: commit, commands, model IDs, data revisions, coverage, and the six cases. Record a 3 to 5 minute video of the site and one success and one failure.</p>
+    </div>
+  </div>
+  <p class="note">Also update <code>docs/team-pipeline.md</code> and the limit list inside <code>evaluate.py</code>. Both still describe the first lexical match run. The saved match summary is model mode.</p>
+</section>
+
+<section id="improve">
+  <h2>Improvements worth making</h2>
+  <div class="improve">
+    <h3>Send the scan to the VL models</h3>
+    <p>Embed and rerank currently take entry text against title plus excerpt. Both models accept an image. A crop of the scan can recover a damaged headword such as PHILLOOGY, which text search misses. Keep the image checksum with the vector.</p>
+  </div>
+  <div class="improve">
+    <h3>Check the 39 accepts by hand</h3>
+    <p>The logit floor of −6.0 and the title floor of 0.75 come from one calibration pass. List pages such as “Willin'” can still pass when the title string is close and the page is not labelled “(disambiguation)”. Sample accepted and rejected pairs and record the misses.</p>
+  </div>
+  <div class="improve">
+    <h3>Join more continuations</h3>
+    <p>82 of 241 entries are untitled continuations, and only 2 were joined to a previous page. Most of those 53 skips are short or untitled text. A running header plus consecutive row index can attach more of that text before search.</p>
+  </div>
+  <div class="improve">
+    <h3>Treat the two Parse failures as plates</h3>
+    <p>Rows 452 and 2243 hit the token limit with an incomplete reply. Mark a blank cover or an engraved plate as a page status and stop retrying the same request. The current skip only drops protocol errors.</p>
+  </div>
+  <div class="improve">
+    <h3>Clean the vocabulary before log-odds</h3>
+    <p>19.6% of Britannica tokens sit outside the word list, so OCR noise can dominate the distinctive terms. Historical spelling logged zero changes. Expand printed abbreviations such as “Brit.” before counting. The earlier corpus answer treated “brit” as an OCR fragment. In the source it is the abbreviation in WEIGHTS AND MEASURES.</p>
+  </div>
+  <div class="improve">
+    <h3>Make search tolerate OCR</h3>
+    <p><code>challenge_search</code> uses word overlap. A fuzzy headword, and a second query with the running header, would stop the agent from reporting that an entry is absent. Require <code>challenge_read</code> before the agent explains a corpus term.</p>
+  </div>
+  <div class="improve">
+    <h3>Say what the low overlap means</h3>
+    <p>Mean Jaccard of the top 100 terms is 0.043. That can be real drift between an old encyclopaedia and a modern article, or it can be length and OCR. Report both, with the length ratio already stored on each pair. BERTopic is optional. If you keep word frequencies, say why in the submission.</p>
+  </div>
+</section>
+</main>
+<footer>
+  <div class="wrap">
+    Snapshot of this repository on 18 October 2026. Numbers come from <code>artifacts/extract</code>, <code>artifacts/match</code>, <code>artifacts/compare</code>, and <code>artifacts/agent</code> summaries. Methods are the ones documented at the top of each stage module and in <code>docs/team-pipeline.md</code>.
+  </div>
+</footer>
+</body>
+</html>

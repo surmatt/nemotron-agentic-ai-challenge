@@ -1,0 +1,535 @@
+[
+  {
+    "entry_id": "E0003",
+    "headword": "NAXOS",
+    "entry_text_sha256": "56049c6321f98afb36dc93de5e5cb31e2b75af99b56aa6ab4f0323888ebfaf8b",
+    "scan_pages": [
+      "upload:e5ec9e5b4086"
+    ],
+    "article": {
+      "page_id": "62278",
+      "revision_id": "1351880014",
+      "title": "Naxos",
+      "url": "https://en.wikipedia.org/wiki/Naxos",
+      "revision_url": "https://en.wikipedia.org/w/index.php?oldid=1351880014",
+      "text_sha256": "4963d7ae605e5eb7f8faf249f5c8eaf52c257322bf1564a9cdb9a894732793a8"
+    },
+    "prompt_version": "summarize-v1",
+    "context": {
+      "selection": "whole_article",
+      "chars": 10590,
+      "passages": [
+        {
+          "passage_id": "W62278-all",
+          "offset": 0,
+          "score": null,
+          "vector_source": null,
+          "chars": 10590
+        }
+      ]
+    },
+    "status": "ok",
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "cached": false,
+    "raw_path": "raw/E0003.json",
+    "same_subject": "partly",
+    "overview": "The Britannica entry focuses on the town of Naxos and its religious sees, while the Wikipedia article covers the entire island's geography, history, and culture.",
+    "differences": [
+      {
+        "aspect": "Subject focus",
+        "britannica": "The entry describes the town of Naxos as the capital of the isle.",
+        "wikipedia": "The article describes Naxos as a Greek island and the largest in the Cyclades group.",
+        "evidence": {
+          "britannica": {
+            "quote": "NAXOS, or NAXIA, a considerable town, and capital of the Isle of Naxos,",
+            "found": true,
+            "offset": 0
+          },
+          "wikipedia": {
+            "quote": "Naxos is a Greek island belonging to the Cyclades island group.",
+            "found": false,
+            "offset": null,
+            "passage_id": "W62278-all"
+          }
+        },
+        "quotes_found": false
+      },
+      {
+        "aspect": "Religious administration",
+        "britannica": "The town has two archbishops' sees, one Greek and one Latin.",
+        "wikipedia": "The article does not mention archbishops' sees.",
+        "evidence": {
+          "britannica": {
+            "quote": "with a castle and two archbishops' sees, the one Greek and the other Latin.",
+            "found": true,
+            "offset": 100
+          },
+          "wikipedia": {
+            "quote": "Naxos is a Greek island belonging to the Cyclades island group.",
+            "found": false,
+            "offset": null,
+            "passage_id": "W62278-all"
+          }
+        },
+        "quotes_found": false
+      },
+      {
+        "aspect": "Geographic coordinates",
+        "britannica": "The entry provides longitude 25.51 E and latitude 37.8 N.",
+        "wikipedia": "The article does not provide specific coordinates for the island.",
+        "evidence": {
+          "britannica": {
+            "quote": "Long. 25. 51. E. Lat. 37. 8. N.",
+            "found": true,
+            "offset": 224
+          },
+          "wikipedia": {
+            "quote": "Naxos is a Greek island belonging to the Cyclades island group.",
+            "found": false,
+            "offset": null,
+            "passage_id": "W62278-all"
+          }
+        },
+        "quotes_found": false
+      },
+      {
+        "aspect": "Historical scope",
+        "britannica": "The entry provides no historical narrative beyond basic town facts.",
+        "wikipedia": "The article details history from the Bronze Age through Ottoman rule to modern independence.",
+        "evidence": {
+          "britannica": {
+            "quote": "The greater part of the inhabitants are Greeks.",
+            "found": true,
+            "offset": 176
+          },
+          "wikipedia": {
+            "quote": "During the 8th and 7th centuries BC, Naxos dominated commerce in the Cyclades.",
+            "found": true,
+            "offset": 2839,
+            "passage_id": "W62278-all"
+          }
+        },
+        "quotes_found": true
+      },
+      {
+        "aspect": "Modern details",
+        "britannica": "The entry does not mention modern population, economy, or tourism.",
+        "wikipedia": "The article lists 2021 census figures, agricultural products, and tourist activities.",
+        "evidence": {
+          "britannica": {
+            "quote": "The greater part of the inhabitants are Greeks.",
+            "found": true,
+            "offset": 176
+          },
+          "wikipedia": {
+            "quote": "The largest town and capital of the island is Chora or Naxos City, with 8,897 inhabitants out of the total 20,578 in the island (2021 census).",
+            "found": true,
+            "offset": 159,
+            "passage_id": "W62278-all"
+          }
+        },
+        "quotes_found": true
+      }
+    ],
+    "differences_with_quotes": 2,
+    "inference": "same_subject, overview, and each claim are model inference. quotes_found shows that both quotes occur in the sources, not that they support the claim."
+  },
+  {
+    "entry_id": "E0004",
+    "headword": "NAZARETH",
+    "entry_text_sha256": "a5af2a30a62a80f43dc1b2cd87ca7a266a722ed163a6bb807af0250eca3f91b9",
+    "scan_pages": [
+      "upload:e5ec9e5b4086"
+    ],
+    "article": {
+      "page_id": "21702",
+      "revision_id": "1351716167",
+      "title": "Nazareth",
+      "url": "https://en.wikipedia.org/wiki/Nazareth",
+      "revision_url": "https://en.wikipedia.org/w/index.php?oldid=1351716167",
+      "text_sha256": "3deb991be77c0886aa05b7a6f78e5ae91e07bfe17c9f6fc2a11de56cb0086003"
+    },
+    "prompt_version": "summarize-v1",
+    "context": {
+      "selection": "embedder",
+      "chars": 11949,
+      "article_passages": 48,
+      "passages": [
+        {
+          "passage_id": "W21702-p00",
+          "offset": 0,
+          "score": 0.4233,
+          "vector_source": "embedded",
+          "chars": 1193
+        },
+        {
+          "passage_id": "W21702-p01",
+          "offset": 1043,
+          "score": 0.4005,
+          "vector_source": "embedded",
+          "chars": 1198
+        },
+        {
+          "passage_id": "W21702-p03",
+          "offset": 3141,
+          "score": 0.3846,
+          "vector_source": "embedded",
+          "chars": 1193
+        },
+        {
+          "passage_id": "W21702-p07",
+          "offset": 7337,
+          "score": 0.3709,
+          "vector_source": "embedded",
+          "chars": 1196
+        },
+        {
+          "passage_id": "W21702-p08",
+          "offset": 8386,
+          "score": 0.3717,
+          "vector_source": "embedded",
+          "chars": 1194
+        },
+        {
+          "passage_id": "W21702-p13",
+          "offset": 13640,
+          "score": 0.436,
+          "vector_source": "embedded",
+          "chars": 1197
+        },
+        {
+          "passage_id": "W21702-p14",
+          "offset": 14689,
+          "score": 0.3788,
+          "vector_source": "embedded",
+          "chars": 1197
+        },
+        {
+          "passage_id": "W21702-p35",
+          "offset": 36692,
+          "score": 0.424,
+          "vector_source": "embedded",
+          "chars": 1193
+        },
+        {
+          "passage_id": "W21702-p42",
+          "offset": 44040,
+          "score": 0.4101,
+          "vector_source": "embedded",
+          "chars": 1189
+        },
+        {
+          "passage_id": "W21702-p43",
+          "offset": 45083,
+          "score": 0.4038,
+          "vector_source": "embedded",
+          "chars": 1199
+        }
+      ]
+    },
+    "status": "ok",
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "cached": false,
+    "raw_path": "raw/E0004.json",
+    "same_subject": "yes",
+    "overview": "The Britannica entry describes 18th-century Nazareth as a small, impoverished town under Ottoman rule, while the Wikipedia article covers its modern status as a major Israeli city and its long archaeological and religious history.",
+    "differences": [
+      {
+        "aspect": "Modern population and status",
+        "britannica": "The stationary inhabitants are about 2000, of whom 500 are Catholic Christians, about 300 Maronites, and 200 Mahommedans, the rest being schismatic Greeks.",
+        "wikipedia": "Nazareth is the largest city in the Northern District of Israel. In 2024 its population was 75,704.",
+        "evidence": {
+          "britannica": {
+            "quote": "The stationary inhabitants are about 2000, of whom 500 are Catholic Christians, about 300 Maronites, and 200 Mahommedans, the rest being schismatic Greeks.",
+            "found": true,
+            "offset": 3913
+          },
+          "wikipedia": {
+            "quote": "Nazareth is the largest city in the Northern District of Israel. In 2024 its population was 75,704.",
+            "found": true,
+            "offset": 0,
+            "passage_id": "W21702-p00"
+          }
+        },
+        "quotes_found": true
+      },
+      {
+        "aspect": "Political rulers",
+        "britannica": "Nazareth forms part of the pachalik of Acre, and was reduced to indigence and misery by the oppression of Djezzar Pasha.",
+        "wikipedia": "In the 18th century, Daher al-Umar transformed Nazareth into a large town by encouraging immigration to it.",
+        "evidence": {
+          "britannica": {
+            "quote": "Nazareth forms part of the pachalik of Acre, and was reduced to indigence and misery by the oppression of Djezzar Pasha.",
+            "found": true,
+            "offset": 3618
+          },
+          "wikipedia": {
+            "quote": "In the 18th century, Daher al-Umar transformed Nazareth into a large town by encouraging immigration to it.",
+            "found": true,
+            "offset": 1105,
+            "passage_id": "W21702-p01"
+          }
+        },
+        "quotes_found": true
+      },
+      {
+        "aspect": "Archaeological evidence",
+        "britannica": "It is still adorned with some precious remains of antiquity. Two antique shafts of red granite columns are used as portals to the door-way.",
+        "wikipedia": "Archaeological evidence shows that Nazareth was occupied during the late Hellenistic period, through the Roman period and into the Byzantine period.",
+        "evidence": {
+          "britannica": {
+            "quote": "It is still adorned with some precious remains of antiquity. Two antique shafts of red granite columns are used as portals to the door-way.",
+            "found": true,
+            "offset": 1187
+          },
+          "wikipedia": {
+            "quote": "Archaeological evidence shows that Nazareth was occupied during the late Hellenistic period, through the Roman period and into the Byzantine period.",
+            "found": true,
+            "offset": 7857,
+            "passage_id": "W21702-p07"
+          }
+        },
+        "quotes_found": true
+      },
+      {
+        "aspect": "Geographic setting",
+        "britannica": "It is situated in a deep valley, on the side of a high hill, nearer to its summit than its base, and having a rocky eminence along it.",
+        "wikipedia": "Modern-day Nazareth is nestled in a natural bowl which reaches from 320 metres above sea level to the crest of the hills about 488 metres.",
+        "evidence": {
+          "britannica": {
+            "quote": "It is situated in a deep valley, on the side of a high hill, nearer to its summit than its base, and having a rocky eminence along it.",
+            "found": true,
+            "offset": 99
+          },
+          "wikipedia": {
+            "quote": "Modern-day Nazareth is nestled in a natural bowl which reaches from 320 metres above sea level to the crest of the hills about 488 metres.",
+            "found": true,
+            "offset": 36798,
+            "passage_id": "W21702-p35"
+          }
+        },
+        "quotes_found": true
+      },
+      {
+        "aspect": "Religious sites",
+        "britannica": "Of the public buildings the mosque is the most conspicuous, and is a neat edifice. It is enclosed with a good wall of masonry... The Greeks have a church on the south-eastern edge of the town... and the Maronites have also a church in front of a Franciscan convent.",
+        "wikipedia": "The Church of the Annunciation is considered one of the largest Christian sites of worship in the Middle East. It contains the Grotto of the Annunciation, where, according to Catholic tradition, angel Gabriel appeared to Mary...",
+        "evidence": {
+          "britannica": {
+            "quote": "Of the public buildings the mosque is the most conspicuous, and is a neat edifice. It is enclosed with a good wall of masonry",
+            "found": true,
+            "offset": 550
+          },
+          "wikipedia": {
+            "quote": "The Church of the Annunciation is considered one of the largest Christian sites of worship in the Middle East.",
+            "found": true,
+            "offset": 1518,
+            "passage_id": "W21702-p01"
+          }
+        },
+        "quotes_found": true
+      }
+    ],
+    "differences_with_quotes": 5,
+    "inference": "same_subject, overview, and each claim are model inference. quotes_found shows that both quotes occur in the sources, not that they support the claim."
+  },
+  {
+    "entry_id": "E0005",
+    "headword": "NAZARITE",
+    "entry_text_sha256": "d718a2b5bc44a1bf0778763cde3d3f0b21a83014ea186d05b51fcbf7ef1c2d52",
+    "scan_pages": [
+      "upload:e5ec9e5b4086"
+    ],
+    "article": {
+      "page_id": "533626",
+      "revision_id": "1346710887",
+      "title": "Nazirite",
+      "url": "https://en.wikipedia.org/wiki/Nazirite",
+      "revision_url": "https://en.wikipedia.org/w/index.php?oldid=1346710887",
+      "text_sha256": "b216d4b581ad5f2c068642c7adefbff9642e14d60536dd0ba1debde9b2f3491c"
+    },
+    "prompt_version": "summarize-v1",
+    "context": {
+      "selection": "embedder",
+      "chars": 11968,
+      "article_passages": 21,
+      "passages": [
+        {
+          "passage_id": "W533626-p00",
+          "offset": 0,
+          "score": 0.4586,
+          "vector_source": "embedded",
+          "chars": 1198
+        },
+        {
+          "passage_id": "W533626-p02",
+          "offset": 2100,
+          "score": 0.4467,
+          "vector_source": "embedded",
+          "chars": 1198
+        },
+        {
+          "passage_id": "W533626-p03",
+          "offset": 3149,
+          "score": 0.4221,
+          "vector_source": "embedded",
+          "chars": 1196
+        },
+        {
+          "passage_id": "W533626-p05",
+          "offset": 5255,
+          "score": 0.416,
+          "vector_source": "embedded",
+          "chars": 1199
+        },
+        {
+          "passage_id": "W533626-p13",
+          "offset": 13632,
+          "score": 0.4112,
+          "vector_source": "embedded",
+          "chars": 1194
+        },
+        {
+          "passage_id": "W533626-p14",
+          "offset": 14678,
+          "score": 0.4625,
+          "vector_source": "embedded",
+          "chars": 1196
+        },
+        {
+          "passage_id": "W533626-p15",
+          "offset": 15727,
+          "score": 0.4686,
+          "vector_source": "embedded",
+          "chars": 1198
+        },
+        {
+          "passage_id": "W533626-p16",
+          "offset": 16775,
+          "score": 0.4322,
+          "vector_source": "embedded",
+          "chars": 1193
+        },
+        {
+          "passage_id": "W533626-p17",
+          "offset": 17822,
+          "score": 0.4437,
+          "vector_source": "embedded",
+          "chars": 1197
+        },
+        {
+          "passage_id": "W533626-p18",
+          "offset": 18871,
+          "score": 0.3768,
+          "vector_source": "embedded",
+          "chars": 1199
+        }
+      ]
+    },
+    "status": "ok",
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "cached": false,
+    "raw_path": "raw/E0005.json",
+    "same_subject": "partly",
+    "overview": "The Britannica entry conflates Nazarite with Nazarene and Nazarene with Jesus, while the Wikipedia article focuses on the biblical nazirite vow and its rules, history, and later interpretations.",
+    "differences": [
+      {
+        "aspect": "Subject scope",
+        "britannica": "The entry treats Nazarite, Nazarene, and Nazarene as terms for natives of Nazareth, Jesus, heretics, and vow-takers.",
+        "wikipedia": "The article defines a nazirite as someone who voluntarily took the vow described in Numbers 6:1–21.",
+        "evidence": {
+          "britannica": {
+            "quote": "NAZARITE, or NAZAREAN, or Nazarene, a term which signifies one who is of Nazareth, or any native of the city of Nazareth.",
+            "found": true,
+            "offset": 0
+          },
+          "wikipedia": {
+            "quote": "In the Hebrew Bible, a nazirite or a nazarite (Hebrew: נָזִיר Nāzīr) is an Israelite man or woman who voluntarily took a vow which is described in Numbers 6:1–21.",
+            "found": true,
+            "offset": 0,
+            "passage_id": "W533626-p00"
+          }
+        },
+        "quotes_found": true
+      },
+      {
+        "aspect": "Vow requirements",
+        "britannica": "The entry does not list the specific requirements of the Nazarite vow.",
+        "wikipedia": "The vow requires abstaining from grape products, not cutting hair, and avoiding contact with corpses.",
+        "evidence": {
+          "britannica": {
+            "quote": "one who has laid himself under the obligation of a vow to observe the rules of Nazariteship",
+            "found": true,
+            "offset": 390
+          },
+          "wikipedia": {
+            "quote": "Abstain from wine and strong drink as well as all other grape products, such as vinegar",
+            "found": true,
+            "offset": 199,
+            "passage_id": "W533626-p00"
+          }
+        },
+        "quotes_found": true
+      },
+      {
+        "aspect": "Jesus connection",
+        "britannica": "It states the name Nazarene belongs to Jesus because he lived at Nazareth and the prophets foretold he would be called a Nazarene.",
+        "wikipedia": "It says Jesus was reportedly a wine-drinker, making it doubtful he was a nazirite during his ministry.",
+        "evidence": {
+          "britannica": {
+            "quote": "The name of Nazarene belongs to Jesus Christ, not only because of his having lived the greater part of his life at Nazareth",
+            "found": true,
+            "offset": 871
+          },
+          "wikipedia": {
+            "quote": "makes it doubtful that he, reported to be \"winedrinker\" (Greek οἰνοπότης, oinopotēs), was a nazirite during his ministry",
+            "found": true,
+            "offset": 14715,
+            "passage_id": "W533626-p13"
+          }
+        },
+        "quotes_found": true
+      },
+      {
+        "aspect": "Lifelong examples",
+        "britannica": "It names Samson and John the Baptist as lifelong Nazarites.",
+        "wikipedia": "It names Samson and Samuel as lifelong nazirites, and discusses John the Baptist separately.",
+        "evidence": {
+          "britannica": {
+            "quote": "whether it be for his whole life, as Samson and John the Baptist",
+            "found": true,
+            "offset": 483
+          },
+          "wikipedia": {
+            "quote": "Two prominent Biblical individuals who were nazirites, or similar to nazirites, were Samson (Judges 13:5), and Samuel (1 Samuel 1:11).",
+            "found": true,
+            "offset": 3028,
+            "passage_id": "W533626-p02"
+          }
+        },
+        "quotes_found": true
+      },
+      {
+        "aspect": "Later tradition",
+        "britannica": "The entry mentions a meaning of Nazarite as a man of distinction in a prince's court.",
+        "wikipedia": "The article details Mishna, Talmud, Maimonides, and permanent versus temporary nazirite vows under Jewish law.",
+        "evidence": {
+          "britannica": {
+            "quote": "denotes a man of particular distinction and great dignity in the court of some prince.",
+            "found": true,
+            "offset": 715
+          },
+          "wikipedia": {
+            "quote": "An Israelite (not a gentile) becomes a Nazirite through an intentional verbal declaration.",
+            "found": true,
+            "offset": 5692,
+            "passage_id": "W533626-p05"
+          }
+        },
+        "quotes_found": true
+      }
+    ],
+    "differences_with_quotes": 5,
+    "inference": "same_subject, overview, and each claim are model inference. quotes_found shows that both quotes occur in the sources, not that they support the claim."
+  }
+]

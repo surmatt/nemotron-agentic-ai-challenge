@@ -4,7 +4,7 @@ from typing import Any
 
 from .config import Settings
 
-STAGES = ("extract", "correct", "match", "compare", "index", "agent", "site", "evaluate")
+STAGES = ("extract", "correct", "match", "compare", "index", "summarize", "agent", "site", "evaluate")
 
 
 def extract(settings: Settings, work_dir: Path) -> dict[str, Any]:
@@ -38,6 +38,13 @@ def compare(settings: Settings, work_dir: Path) -> dict[str, Any]:
 def index(settings: Settings, work_dir: Path) -> dict[str, Any]:
     """Embed source passages and store them with vectors in LanceDB. See index.py for the method."""
     from . import index as stage
+
+    return stage.run(settings, work_dir)
+
+
+def summarize(settings: Settings, work_dir: Path) -> dict[str, Any]:
+    """Ask Super VL for the key differences of each compared pair, with checked quotes. See summarize.py."""
+    from . import summarize as stage
 
     return stage.run(settings, work_dir)
 

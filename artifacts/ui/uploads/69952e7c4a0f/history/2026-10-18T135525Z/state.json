@@ -1,0 +1,113 @@
+{
+  "steps": {
+    "extract": {
+      "status": "queued",
+      "started_at": "2026-10-18T13:52:15+00:00",
+      "archived_previous": null,
+      "progress": {
+        "done": 1,
+        "total": 1,
+        "label": "segmented"
+      },
+      "finished_at": "2026-10-18T13:52:19+00:00",
+      "elapsed_seconds": 3.44,
+      "summary": {
+        "model": "nvidia/nemotron-3.5-parse",
+        "parse_seconds": 3.44,
+        "finish_reason": "stop",
+        "page_status": "ok",
+        "blocks": 15,
+        "furniture": 1,
+        "entries": 4,
+        "headword_entries": 3
+      },
+      "error": null
+    },
+    "correct": {
+      "status": "queued",
+      "started_at": "2026-10-18T13:52:19+00:00",
+      "archived_previous": null,
+      "progress": {
+        "done": 14,
+        "total": 14,
+        "label": "block 15"
+      },
+      "finished_at": "2026-10-18T13:52:24+00:00",
+      "elapsed_seconds": 5.55,
+      "summary": {
+        "model": "nvidia/Nemotron-3.5-Super-VL",
+        "variant": "crop_nothink",
+        "blocks_requested": 14,
+        "blocks_corrected": 14,
+        "blocks_failed": 0,
+        "text_decisions": {
+          "super_vl": 12,
+          "parse_fallback+box_too_small": 1,
+          "super_vl+expanded_beyond_parse": 2
+        },
+        "long_s_rule_changed": 2,
+        "entries": 5
+      },
+      "error": null
+    },
+    "match": {
+      "status": "queued",
+      "started_at": "2026-10-18T13:52:24+00:00",
+      "archived_previous": null,
+      "progress": {
+        "done": 4,
+        "total": 4,
+        "label": "SWIVELS"
+      },
+      "finished_at": "2026-10-18T13:52:29+00:00",
+      "elapsed_seconds": 4.98,
+      "summary": {
+        "mode": "model",
+        "mode_detail": "retrieval models verified",
+        "entry_text": "correct",
+        "models": [
+          "nvidia/llama-nemotron-embed-vl-1b-v2",
+          "nvidia/llama-nemotron-rerank-vl-1b-v2"
+        ],
+        "thresholds": {
+          "rerank_logit": -10.0,
+          "margin": 0.5,
+          "cosine": 0.15,
+          "title_similarity": 0.0
+        },
+        "searched": 4,
+        "skipped": 1,
+        "accepted": 3,
+        "rejected": 1,
+        "errors": 0
+      },
+      "error": null
+    },
+    "compare": {
+      "status": "queued",
+      "started_at": "2026-10-18T13:52:29+00:00",
+      "archived_previous": null,
+      "progress": {
+        "done": 3,
+        "total": 3,
+        "label": "done"
+      },
+      "finished_at": "2026-10-18T13:52:29+00:00",
+      "elapsed_seconds": 0.05,
+      "summary": {
+        "method": "word frequencies, log-odds with Dirichlet prior",
+        "entry_text": "correct",
+        "pairs": 3,
+        "mean_top_terms_jaccard": 0.0583,
+        "mean_frequency_cosine": 0.1758,
+        "normalisation_changes": {
+          "abbreviation": 0,
+          "long_s": 0,
+          "historical": 0
+        },
+        "note": "The prior and the reference vocabulary come from the pairs of this scan only."
+      },
+      "error": null
+    }
+  }
+}

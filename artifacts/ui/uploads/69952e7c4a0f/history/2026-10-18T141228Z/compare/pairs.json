@@ -1,0 +1,1456 @@
+[
+  {
+    "entry_id": "E0001",
+    "headword": null,
+    "entry_text_sha256": "15bc2dfbe414b67e3c925d3877a860119e6f630dfb627b1a1fd24bd9a38d8aea",
+    "scan_pages": [
+      "upload:69952e7c4a0f"
+    ],
+    "match_method": "nemotron_embed_rerank",
+    "article": {
+      "page_id": "27470",
+      "revision_id": "1353626801",
+      "title": "Languages of Switzerland",
+      "url": "https://en.wikipedia.org/wiki/Languages_of_Switzerland",
+      "revision_url": "https://en.wikipedia.org/w/index.php?oldid=1353626801",
+      "text_sha256": "c7bc289873852bd709b7dccb6dfa297d18ff7cfadfdc137f68f2fa0afa3b19ff"
+    },
+    "britannica": {
+      "tokens_raw": 315,
+      "tokens_kept": 232,
+      "types": 185,
+      "unverified_tokens": 83,
+      "unverified_rate": 0.2635,
+      "unverified_examples": [
+        "manufactures",
+        "sorts",
+        "allowed",
+        "prevails",
+        "religions",
+        "hlhausen",
+        "biel",
+        "neufchatel",
+        "toggenburg",
+        "glaris"
+      ]
+    },
+    "wikipedia": {
+      "tokens": 1112,
+      "types": 562
+    },
+    "length_ratio_wiki_to_britannica": 4.793,
+    "top_terms_jaccard": 0.0929,
+    "frequency_cosine": 0.2644,
+    "shared_terms": [
+      {
+        "term": "cantons",
+        "count_britannica": 10,
+        "count_wikipedia": 11
+      },
+      {
+        "term": "switzerland",
+        "count_britannica": 4,
+        "count_wikipedia": 28
+      },
+      {
+        "term": "swiss",
+        "count_britannica": 1,
+        "count_wikipedia": 36
+      },
+      {
+        "term": "french",
+        "count_britannica": 1,
+        "count_wikipedia": 35
+      },
+      {
+        "term": "german",
+        "count_britannica": 1,
+        "count_wikipedia": 33
+      },
+      {
+        "term": "language",
+        "count_britannica": 1,
+        "count_wikipedia": 20
+      },
+      {
+        "term": "italian",
+        "count_britannica": 1,
+        "count_wikipedia": 20
+      },
+      {
+        "term": "several",
+        "count_britannica": 4,
+        "count_wikipedia": 3
+      },
+      {
+        "term": "berne",
+        "count_britannica": 4,
+        "count_wikipedia": 1
+      },
+      {
+        "term": "part",
+        "count_britannica": 2,
+        "count_wikipedia": 10
+      },
+      {
+        "term": "people",
+        "count_britannica": 3,
+        "count_wikipedia": 5
+      },
+      {
+        "term": "protestant",
+        "count_britannica": 3,
+        "count_wikipedia": 2
+      },
+      {
+        "term": "zurich",
+        "count_britannica": 3,
+        "count_wikipedia": 1
+      },
+      {
+        "term": "country",
+        "count_britannica": 2,
+        "count_wikipedia": 5
+      },
+      {
+        "term": "parts",
+        "count_britannica": 2,
+        "count_wikipedia": 4
+      },
+      {
+        "term": "basel",
+        "count_britannica": 2,
+        "count_wikipedia": 3
+      },
+      {
+        "term": "geneva",
+        "count_britannica": 2,
+        "count_wikipedia": 3
+      },
+      {
+        "term": "national",
+        "count_britannica": 1,
+        "count_wikipedia": 7
+      },
+      {
+        "term": "schaffhausen",
+        "count_britannica": 2,
+        "count_wikipedia": 2
+      },
+      {
+        "term": "europe",
+        "count_britannica": 2,
+        "count_wikipedia": 1
+      }
+    ],
+    "distinctive_britannica": [
+      {
+        "term": "berne",
+        "z": 1.269,
+        "count_britannica": 4,
+        "count_wikipedia": 1,
+        "britannica_snippet": {
+          "offset": 205,
+          "text": "edominant religions are Calvinism and Popery. Of the former are the cantons of Zurich and Berne, the town of St Gall, Geneva, Mühlhausen, and Biel, the principality of Neufchatel, the g"
+        },
+        "wikipedia_snippet": {
+          "offset": 4213,
+          "text": "Schwyz, Unterwalden, Glarus, Zug, Appenzell, Schaffhausen) and the city cantons (Lucerne, Berne, Zurich, Solothurn, Fribourg, Basel, St. Gallen), divided by views about trade and commer"
+        }
+      },
+      {
+        "term": "except",
+        "z": 1.104,
+        "count_britannica": 2,
+        "count_wikipedia": 0,
+        "britannica_snippet": {
+          "offset": 2000,
+          "text": "n the Protestant cantons, from the church-lands also that were feized at the Reformation. Except in Zurich, Berne, Basel, and Schaffhausen, where the people are more industrious, have a"
+        },
+        "wikipedia_snippet": null
+      },
+      {
+        "term": "chiefly",
+        "z": 1.104,
+        "count_britannica": 2,
+        "count_wikipedia": 0,
+        "britannica_snippet": {
+          "offset": 1493,
+          "text": "rses, black cattle, hides, and flax, the exports are considerable; and as the imports are chiefly grain and salt, with some American and Asiatic goods, there is probably a large balance i"
+        },
+        "wikipedia_snippet": null
+      },
+      {
+        "term": "popish",
+        "z": 1.104,
+        "count_britannica": 2,
+        "count_wikipedia": 0,
+        "britannica_snippet": {
+          "offset": 591,
+          "text": "countries of Baden and Sargans. The rest of the Swiss cantons, allies and dependents, are Popish. For the education of youth there is an university at Basel, and academies at Zurich, Ber"
+        },
+        "wikipedia_snippet": null
+      },
+      {
+        "term": "service",
+        "z": 1.104,
+        "count_britannica": 2,
+        "count_wikipedia": 0,
+        "britannica_snippet": {
+          "offset": 2734,
+          "text": "other implements of war. The Swissers of the several cantons are allowed to engage in the service of such foreign princes and states as are in alliance with those cantons, or with whom th"
+        },
+        "wikipedia_snippet": null
+      },
+      {
+        "term": "best",
+        "z": 1.104,
+        "count_britannica": 2,
+        "count_wikipedia": 0,
+        "britannica_snippet": {
+          "offset": 2310,
+          "text": "any standing troops, except for a few garrisons; but their militia is reckoned to be the best regulated of any in Europe. Every male from 16 to 60 is enrolled, and about one-third of"
+        },
+        "wikipedia_snippet": null
+      },
+      {
+        "term": "salt",
+        "z": 1.104,
+        "count_britannica": 2,
+        "count_wikipedia": 0,
+        "britannica_snippet": {
+          "offset": 1511,
+          "text": ", hides, and flax, the exports are considerable; and as the imports are chiefly grain and salt, with some American and Asiatic goods, there is probably a large balance in their savour."
+        },
+        "wikipedia_snippet": null
+      },
+      {
+        "term": "foreign",
+        "z": 1.059,
+        "count_britannica": 2,
+        "count_wikipedia": 0,
+        "britannica_snippet": {
+          "offset": 2750,
+          "text": "of war. The Swissers of the several cantons are allowed to engage in the service of such foreign princes and states as are in alliance with those cantons, or with whom they have made a p"
+        },
+        "wikipedia_snippet": null
+      },
+      {
+        "term": "generally",
+        "z": 1.059,
+        "count_britannica": 2,
+        "count_wikipedia": 0,
+        "britannica_snippet": {
+          "offset": 3472,
+          "text": "e is not a people in Europe whose national character is better. In their persons they are generally tall, robust, and well-made; but their complexions are none of the best, and those that l"
+        },
+        "wikipedia_snippet": null
+      },
+      {
+        "term": "zurich",
+        "z": 1.024,
+        "count_britannica": 3,
+        "count_wikipedia": 1,
+        "britannica_snippet": {
+          "offset": 194,
+          "text": "The two predominant religions are Calvinism and Popery. Of the former are the cantons of Zurich and Berne, the town of St Gall, Geneva, Mühlhausen, and Biel, the principality of Neufcha"
+        },
+        "wikipedia_snippet": {
+          "offset": 4220,
+          "text": "Unterwalden, Glarus, Zug, Appenzell, Schaffhausen) and the city cantons (Lucerne, Berne, Zurich, Solothurn, Fribourg, Basel, St. Gallen), divided by views about trade and commerce. Afte"
+        }
+      },
+      {
+        "term": "public",
+        "z": 1.024,
+        "count_britannica": 2,
+        "count_wikipedia": 0,
+        "britannica_snippet": {
+          "offset": 1679,
+          "text": "in their savour. In some parts of Switzerland dress is restrained by sumptuary laws. The public revenues are in general very inconsiderable, arising chiefly from the usual regalia, appr"
+        },
+        "wikipedia_snippet": null
+      },
+      {
+        "term": "character",
+        "z": 1.024,
+        "count_britannica": 2,
+        "count_wikipedia": 0,
+        "britannica_snippet": {
+          "offset": 3251,
+          "text": "s never unprovided with able and experienced officers and soldiers. With respect to their character, they are a brave, honest, hospitable, hardy people; very true to their engagements, frie"
+        },
+        "wikipedia_snippet": null
+      },
+      {
+        "term": "made",
+        "z": 1.024,
+        "count_britannica": 2,
+        "count_wikipedia": 0,
+        "britannica_snippet": {
+          "offset": 2839,
+          "text": "foreign princes and states as are in alliance with those cantons, or with whom they have made a previous agreement. Such states, paying an annual subsidy to the respective cantons, ar"
+        },
+        "wikipedia_snippet": null
+      },
+      {
+        "term": "cantons",
+        "z": 0.922,
+        "count_britannica": 10,
+        "count_wikipedia": 11,
+        "britannica_snippet": {
+          "offset": 183,
+          "text": "n prevails. The two predominant religions are Calvinism and Popery. Of the former are the cantons of Zurich and Berne, the town of St Gall, Geneva, Mühlhausen, and Biel, the principality"
+        },
+        "wikipedia_snippet": {
+          "offset": 957,
+          "text": "uth. There remains a small Romansh-speaking native population in Grisons in the east. The cantons of Fribourg, Bern, and Valais are officially bilingual; Grisons is officially trilingual."
+        }
+      },
+      {
+        "term": "several",
+        "z": 0.857,
+        "count_britannica": 4,
+        "count_wikipedia": 3,
+        "britannica_snippet": {
+          "offset": 953,
+          "text": "an language and the sciences. The principal manufactures are snuff and tobacco, linen of several sorts, lace, thread, silk, and worsted flockings, neckcloths, cotton stuffs, gloves, hand"
+        },
+        "wikipedia_snippet": {
+          "offset": 9342,
+          "text": "deral government and expect to receive a Romansh response. Although Romansh is split into several dialects, the federal and cantonal authorities use the standardized version (Romansh Gris"
+        }
+      }
+    ],
+    "distinctive_wikipedia": [
+      {
+        "term": "swiss",
+        "z": 1.986,
+        "count_britannica": 1,
+        "count_wikipedia": 36,
+        "britannica_snippet": {
+          "offset": 549,
+          "text": "part of Solothurn, and some places in the countries of Baden and Sargans. The rest of the Swiss cantons, allies and dependents, are Popish. For the education of youth there is an univer"
+        },
+        "wikipedia_snippet": {
+          "offset": 220,
+          "text": "atus as official languages at the national level within the federal administration of the Swiss Confederation, while Romansh is used in dealings with people who speak it. Latin is occas"
+        }
+      },
+      {
+        "term": "german",
+        "z": 1.885,
+        "count_britannica": 1,
+        "count_wikipedia": 33,
+        "britannica_snippet": {
+          "offset": 859,
+          "text": "sh and Protestant cantons. There are also societies among them for the improvement of the German language and the sciences. The principal manufactures are snuff and tobacco, linen of se"
+        },
+        "wikipedia_snippet": {
+          "offset": 47,
+          "text": "The four national languages of Switzerland are German, French, Italian, and Romansh. German, French, and Italian maintain equal status as offic"
+        }
+      },
+      {
+        "term": "french",
+        "z": 1.791,
+        "count_britannica": 1,
+        "count_wikipedia": 35,
+        "britannica_snippet": {
+          "offset": 77,
+          "text": "Switzerland. parts of the country that border on Italy or France, a corrupt French or Italian prevails. The two predominant religions are Calvinism and Popery. Of the forme"
+        },
+        "wikipedia_snippet": {
+          "offset": 55,
+          "text": "The four national languages of Switzerland are German, French, Italian, and Romansh. German, French, and Italian maintain equal status as official lang"
+        }
+      },
+      {
+        "term": "speaking",
+        "z": 1.531,
+        "count_britannica": 0,
+        "count_wikipedia": 20,
+        "britannica_snippet": null,
+        "wikipedia_snippet": {
+          "offset": 902,
+          "text": "est; and the Italian area (Svizzera italiana) in the south. There remains a small Romansh-speaking native population in Grisons in the east. The cantons of Fribourg, Bern, and Valais are o"
+        }
+      },
+      {
+        "term": "romansh",
+        "z": 1.372,
+        "count_britannica": 0,
+        "count_wikipedia": 15,
+        "britannica_snippet": null,
+        "wikipedia_snippet": {
+          "offset": 76,
+          "text": "The four national languages of Switzerland are German, French, Italian, and Romansh. German, French, and Italian maintain equal status as official languages at the national"
+        }
+      },
+      {
+        "term": "italian",
+        "z": 1.324,
+        "count_britannica": 1,
+        "count_wikipedia": 20,
+        "britannica_snippet": {
+          "offset": 87,
+          "text": "Switzerland. parts of the country that border on Italy or France, a corrupt French or Italian prevails. The two predominant religions are Calvinism and Popery. Of the former are the c"
+        },
+        "wikipedia_snippet": {
+          "offset": 63,
+          "text": "The four national languages of Switzerland are German, French, Italian, and Romansh. German, French, and Italian maintain equal status as official languages at"
+        }
+      },
+      {
+        "term": "languages",
+        "z": 1.306,
+        "count_britannica": 0,
+        "count_wikipedia": 15,
+        "britannica_snippet": null,
+        "wikipedia_snippet": {
+          "offset": 18,
+          "text": "The four national languages of Switzerland are German, French, Italian, and Romansh. German, French, and Italian main"
+        }
+      },
+      {
+        "term": "language",
+        "z": 1.273,
+        "count_britannica": 1,
+        "count_wikipedia": 20,
+        "britannica_snippet": {
+          "offset": 866,
+          "text": "Protestant cantons. There are also societies among them for the improvement of the German language and the sciences. The principal manufactures are snuff and tobacco, linen of several sor"
+        },
+        "wikipedia_snippet": {
+          "offset": 1093,
+          "text": "cially bilingual; Grisons is officially trilingual. English is widely spoken as a second language across Switzerland, and many Anglophone migrants live in Switzerland. It is often used as"
+        }
+      },
+      {
+        "term": "switzerland",
+        "z": 1.197,
+        "count_britannica": 4,
+        "count_wikipedia": 28,
+        "britannica_snippet": {
+          "offset": 0,
+          "text": "Switzerland. parts of the country that border on Italy or France, a corrupt French or Italian prevai"
+        },
+        "wikipedia_snippet": {
+          "offset": 31,
+          "text": "The four national languages of Switzerland are German, French, Italian, and Romansh. German, French, and Italian maintain equal stat"
+        }
+      },
+      {
+        "term": "population",
+        "z": 1.173,
+        "count_britannica": 0,
+        "count_wikipedia": 11,
+        "britannica_snippet": null,
+        "wikipedia_snippet": {
+          "offset": 438,
+          "text": "xts, particularly to denote the country (Confoederatio Helvetica). In 2020, 62.3% of the population of Switzerland were native speakers of German (either Swiss or Standard German) at home;"
+        }
+      },
+      {
+        "term": "used",
+        "z": 1.075,
+        "count_britannica": 0,
+        "count_wikipedia": 17,
+        "britannica_snippet": null,
+        "wikipedia_snippet": {
+          "offset": 258,
+          "text": "onal level within the federal administration of the Swiss Confederation, while Romansh is used in dealings with people who speak it. Latin is occasionally used in some formal contexts,"
+        }
+      },
+      {
+        "term": "english",
+        "z": 1.021,
+        "count_britannica": 0,
+        "count_wikipedia": 16,
+        "britannica_snippet": null,
+        "wikipedia_snippet": {
+          "offset": 1056,
+          "text": "f Fribourg, Bern, and Valais are officially bilingual; Grisons is officially trilingual. English is widely spoken as a second language across Switzerland, and many Anglophone migrants li"
+        }
+      },
+      {
+        "term": "federal",
+        "z": 0.999,
+        "count_britannica": 0,
+        "count_wikipedia": 8,
+        "britannica_snippet": null,
+        "wikipedia_snippet": {
+          "offset": 190,
+          "text": "and Italian maintain equal status as official languages at the national level within the federal administration of the Swiss Confederation, while Romansh is used in dealings with people"
+        }
+      },
+      {
+        "term": "official",
+        "z": 0.977,
+        "count_britannica": 0,
+        "count_wikipedia": 9,
+        "britannica_snippet": null,
+        "wikipedia_snippet": {
+          "offset": 138,
+          "text": "erman, French, Italian, and Romansh. German, French, and Italian maintain equal status as official languages at the national level within the federal administration of the Swiss Confederat"
+        }
+      },
+      {
+        "term": "pro",
+        "z": 0.934,
+        "count_britannica": 0,
+        "count_wikipedia": 7,
+        "britannica_snippet": null,
+        "wikipedia_snippet": {
+          "offset": 12448,
+          "text": "any other language), several Swiss foundations and associations have Latin names, such as Pro Helvetia, Pro Infirmis, Pro Juventute, Pro Natura, Pro Patria, Pro Senectute, Pro Specie"
+        }
+      }
+    ]
+  },
+  {
+    "entry_id": "E0002",
+    "headword": "SWIVELS",
+    "entry_text_sha256": "ff293015bab20a21db84c5c057c106dc515448291d924599ae13410111c4438b",
+    "scan_pages": [
+      "upload:69952e7c4a0f"
+    ],
+    "match_method": "nemotron_embed_rerank",
+    "article": {
+      "page_id": "1933308",
+      "revision_id": "1351532151",
+      "title": "Swivel",
+      "url": "https://en.wikipedia.org/wiki/Swivel",
+      "revision_url": "https://en.wikipedia.org/w/index.php?oldid=1351532151",
+      "text_sha256": "3a184ad03e1ab7ac049483c110e17d6723cba04b8e876b38b6ed1689786e231f"
+    },
+    "britannica": {
+      "tokens_raw": 90,
+      "tokens_kept": 76,
+      "types": 62,
+      "unverified_tokens": 14,
+      "unverified_rate": 0.1556,
+      "unverified_examples": [
+        "moorings",
+        "tethers",
+        "carries",
+        "trunnions",
+        "tained",
+        "croutch",
+        "ter",
+        "minates",
+        "bored",
+        "hoops"
+      ]
+    },
+    "wikipedia": {
+      "tokens": 269,
+      "types": 183
+    },
+    "length_ratio_wiki_to_britannica": 3.539,
+    "top_terms_jaccard": 0.0588,
+    "frequency_cosine": 0.1601,
+    "shared_terms": [
+      {
+        "term": "swivel",
+        "count_britannica": 2,
+        "count_wikipedia": 13
+      },
+      {
+        "term": "swivels",
+        "count_britannica": 1,
+        "count_wikipedia": 5
+      },
+      {
+        "term": "turn",
+        "count_britannica": 2,
+        "count_wikipedia": 1
+      },
+      {
+        "term": "used",
+        "count_britannica": 1,
+        "count_wikipedia": 3
+      },
+      {
+        "term": "support",
+        "count_britannica": 1,
+        "count_wikipedia": 2
+      },
+      {
+        "term": "cylindrical",
+        "count_britannica": 1,
+        "count_wikipedia": 2
+      },
+      {
+        "term": "strong",
+        "count_britannica": 1,
+        "count_wikipedia": 1
+      },
+      {
+        "term": "gun",
+        "count_britannica": 1,
+        "count_wikipedia": 1
+      },
+      {
+        "term": "bow",
+        "count_britannica": 1,
+        "count_wikipedia": 1
+      },
+      {
+        "term": "object",
+        "count_britannica": 1,
+        "count_wikipedia": 1
+      },
+      {
+        "term": "end",
+        "count_britannica": 1,
+        "count_wikipedia": 1
+      },
+      {
+        "term": "half",
+        "count_britannica": 1,
+        "count_wikipedia": 1
+      }
+    ],
+    "distinctive_britannica": [
+      {
+        "term": "ship",
+        "z": 1.077,
+        "count_britannica": 3,
+        "count_wikipedia": 0,
+        "britannica_snippet": {
+          "offset": 93,
+          "text": "VELS, a kind of ring made to turn round in a staple, or other ring. These are used when a ship lies at her moorings; also in tethers for cattle, that they may turn round without unwarp"
+        },
+        "wikipedia_snippet": null
+      },
+      {
+        "term": "iron",
+        "z": 1.077,
+        "count_britannica": 3,
+        "count_wikipedia": 0,
+        "britannica_snippet": {
+          "offset": 465,
+          "text": "n, or bow, and also in her tops. The trunnions of this piece are con- tained in a fort of iron croutch, of which the lower end ter- minates in a cylindrical pivot resting in the socket"
+        },
+        "wikipedia_snippet": null
+      },
+      {
+        "term": "socket",
+        "z": 1.077,
+        "count_britannica": 3,
+        "count_wikipedia": 0,
+        "britannica_snippet": {
+          "offset": 333,
+          "text": "llery belonging to a ship of war, which carries a shot of half a pound, and is fixed in a socket on the top of the ship's side, stern, or bow, and also in her tops. The trunnions of this"
+        },
+        "wikipedia_snippet": null
+      },
+      {
+        "term": "piece",
+        "z": 1.002,
+        "count_britannica": 3,
+        "count_wikipedia": 0,
+        "britannica_snippet": {
+          "offset": 230,
+          "text": "cattle, that they may turn round without unwarping the tether. Swivel-Cannon, is a small piece of artillery belonging to a ship of war, which carries a shot of half a pound, and is fix"
+        },
+        "wikipedia_snippet": null
+      },
+      {
+        "term": "round",
+        "z": 0.879,
+        "count_britannica": 2,
+        "count_wikipedia": 0,
+        "britannica_snippet": {
+          "offset": 37,
+          "text": "SWIVELS, a kind of ring made to turn round in a staple, or other ring. These are used when a ship lies at her moorings; also in teth"
+        },
+        "wikipedia_snippet": null
+      },
+      {
+        "term": "cannon",
+        "z": 0.879,
+        "count_britannica": 2,
+        "count_wikipedia": 0,
+        "britannica_snippet": {
+          "offset": 211,
+          "text": "lso in tethers for cattle, that they may turn round without unwarping the tether. Swivel-Cannon, is a small piece of artillery belonging to a ship of war, which carries a shot of half a"
+        },
+        "wikipedia_snippet": null
+      },
+      {
+        "term": "ring",
+        "z": 0.879,
+        "count_britannica": 2,
+        "count_wikipedia": 0,
+        "britannica_snippet": {
+          "offset": 19,
+          "text": "SWIVELS, a kind of ring made to turn round in a staple, or other ring. These are used when a ship lies at her moo"
+        },
+        "wikipedia_snippet": null
+      },
+      {
+        "term": "tops",
+        "z": 0.879,
+        "count_britannica": 2,
+        "count_wikipedia": 0,
+        "britannica_snippet": {
+          "offset": 402,
+          "text": "d, and is fixed in a socket on the top of the ship's side, stern, or bow, and also in her tops. The trunnions of this piece are con- tained in a fort of iron croutch, of which the lowe"
+        },
+        "wikipedia_snippet": null
+      },
+      {
+        "term": "turn",
+        "z": 0.413,
+        "count_britannica": 2,
+        "count_wikipedia": 1,
+        "britannica_snippet": {
+          "offset": 32,
+          "text": "SWIVELS, a kind of ring made to turn round in a staple, or other ring. These are used when a ship lies at her moorings; also i"
+        },
+        "wikipedia_snippet": {
+          "offset": 212,
+          "text": "e horizontally or vertically. A common design for a swivel is a cylindrical rod that can turn freely within a support structure. The rod is usually prevented from slipping out by a nu"
+        }
+      },
+      {
+        "term": "half",
+        "z": 0.106,
+        "count_britannica": 1,
+        "count_wikipedia": 1,
+        "britannica_snippet": {
+          "offset": 301,
+          "text": "Cannon, is a small piece of artillery belonging to a ship of war, which carries a shot of half a pound, and is fixed in a socket on the top of the ship's side, stern, or bow, and also"
+        },
+        "wikipedia_snippet": {
+          "offset": 1747,
+          "text": "k link to the rode. With most swivels the shaft is nice and tidily embedded in the other half of the swivel as in the example of the stainless steel anchor swivel shown here. When use"
+        }
+      },
+      {
+        "term": "object",
+        "z": 0.082,
+        "count_britannica": 1,
+        "count_wikipedia": 1,
+        "britannica_snippet": {
+          "offset": 856,
+          "text": "swivel, and an iron handle on its cas- cible, the gun may be directed by the hand to any object. It is therefore very necessary in the tops, particularly when loaded with musket-balls,"
+        },
+        "wikipedia_snippet": {
+          "offset": 51,
+          "text": "A swivel is a connection that allows the connected object, such as a gun, chair, swivel caster, or an anchor rode to rotate horizontally or vertica"
+        }
+      },
+      {
+        "term": "strong",
+        "z": 0.082,
+        "count_britannica": 1,
+        "count_wikipedia": 1,
+        "britannica_snippet": {
+          "offset": 629,
+          "text": "esting in the socket, so as to support the weight of the cannon. The socket is bored in a strong piece of oak, reinforced with iron hoops, in order to enable it to sustain the recoil. By"
+        },
+        "wikipedia_snippet": {
+          "offset": 2739,
+          "text": "e of the welds not holding. When a boat swings on a well-embedded anchor, this can cause strong lateral loads on the swivel, causing its jaws to be pried open - thus disconnecting the c"
+        }
+      },
+      {
+        "term": "end",
+        "z": 0.082,
+        "count_britannica": 1,
+        "count_wikipedia": 1,
+        "britannica_snippet": {
+          "offset": 498,
+          "text": "The trunnions of this piece are con- tained in a fort of iron croutch, of which the lower end ter- minates in a cylindrical pivot resting in the socket, so as to support the weight of"
+        },
+        "wikipedia_snippet": {
+          "offset": 738,
+          "text": "it. They are prevented from coming apart by flanges. The device may be attached to either end. A swivel joint for a pipe is often a threaded connection in between which at least one"
+        }
+      },
+      {
+        "term": "bow",
+        "z": 0.082,
+        "count_britannica": 1,
+        "count_wikipedia": 1,
+        "britannica_snippet": {
+          "offset": 381,
+          "text": "a shot of half a pound, and is fixed in a socket on the top of the ship's side, stern, or bow, and also in her tops. The trunnions of this piece are con- tained in a fort of iron crou"
+        },
+        "wikipedia_snippet": {
+          "offset": 2971,
+          "text": "rom Rocna. Some boating schools teach that the anchor should be pulled tight against the bow roller by the windlass. This causes stress to the weakest link (swivel) as the vessel pou"
+        }
+      },
+      {
+        "term": "gun",
+        "z": 0.082,
+        "count_britannica": 1,
+        "count_wikipedia": 1,
+        "britannica_snippet": {
+          "offset": 817,
+          "text": "eans of this frame, which is called the swivel, and an iron handle on its cas- cible, the gun may be directed by the hand to any object. It is therefore very necessary in the tops, pa"
+        },
+        "wikipedia_snippet": {
+          "offset": 69,
+          "text": "A swivel is a connection that allows the connected object, such as a gun, chair, swivel caster, or an anchor rode to rotate horizontally or vertically. A common"
+        }
+      }
+    ],
+    "distinctive_wikipedia": [
+      {
+        "term": "anchor",
+        "z": 1.705,
+        "count_britannica": 0,
+        "count_wikipedia": 11,
+        "britannica_snippet": null,
+        "wikipedia_snippet": {
+          "offset": 102,
+          "text": "a connection that allows the connected object, such as a gun, chair, swivel caster, or an anchor rode to rotate horizontally or vertically. A common design for a swivel is a cylindrical"
+        }
+      },
+      {
+        "term": "swivel",
+        "z": 1.416,
+        "count_britannica": 2,
+        "count_wikipedia": 13,
+        "britannica_snippet": {
+          "offset": 204,
+          "text": "ings; also in tethers for cattle, that they may turn round without unwarping the tether. Swivel-Cannon, is a small piece of artillery belonging to a ship of war, which carries a shot of"
+        },
+        "wikipedia_snippet": {
+          "offset": 2,
+          "text": "A swivel is a connection that allows the connected object, such as a gun, chair, swivel caster, or"
+        }
+      },
+      {
+        "term": "rod",
+        "z": 1.256,
+        "count_britannica": 0,
+        "count_wikipedia": 6,
+        "britannica_snippet": null,
+        "wikipedia_snippet": {
+          "offset": 199,
+          "text": "rode to rotate horizontally or vertically. A common design for a swivel is a cylindrical rod that can turn freely within a support structure. The rod is usually prevented from slippi"
+        }
+      },
+      {
+        "term": "chain",
+        "z": 1.024,
+        "count_britannica": 0,
+        "count_wikipedia": 4,
+        "britannica_snippet": null,
+        "wikipedia_snippet": {
+          "offset": 1210,
+          "text": "oat mooring systems. With yachts, the swivel is most commonly used between the anchor and chain. There is a school of thought that anchor swivels should not be connected to the anchor i"
+        }
+      },
+      {
+        "term": "rode",
+        "z": 1.024,
+        "count_britannica": 0,
+        "count_wikipedia": 4,
+        "britannica_snippet": null,
+        "wikipedia_snippet": {
+          "offset": 109,
+          "text": "ction that allows the connected object, such as a gun, chair, swivel caster, or an anchor rode to rotate horizontally or vertically. A common design for a swivel is a cylindrical rod"
+        }
+      },
+      {
+        "term": "corrosion",
+        "z": 1.024,
+        "count_britannica": 0,
+        "count_wikipedia": 4,
+        "britannica_snippet": null,
+        "wikipedia_snippet": {
+          "offset": 1919,
+          "text": "re. When used in marine applications, and worse in tropical climates, this is a cause for corrosion, even in stainless steel. The chromium in stainless steel creates a passivation layer on"
+        }
+      },
+      {
+        "term": "steel",
+        "z": 1.024,
+        "count_britannica": 0,
+        "count_wikipedia": 4,
+        "britannica_snippet": null,
+        "wikipedia_snippet": {
+          "offset": 1801,
+          "text": "ce and tidily embedded in the other half of the swivel as in the example of the stainless steel anchor swivel shown here. When used in marine applications, and worse in tropical climate"
+        }
+      },
+      {
+        "term": "device",
+        "z": 0.887,
+        "count_britannica": 0,
+        "count_wikipedia": 3,
+        "britannica_snippet": null,
+        "wikipedia_snippet": {
+          "offset": 346,
+          "text": "rod is usually prevented from slipping out by a nut, washer or thickening of the rod. The device can be attached to the ends of the rod or the center. Another common design is a sphere t"
+        }
+      },
+      {
+        "term": "boat",
+        "z": 0.887,
+        "count_britannica": 0,
+        "count_wikipedia": 3,
+        "britannica_snippet": null,
+        "wikipedia_snippet": {
+          "offset": 1119,
+          "text": ": Swivels are also used in the nautical sector as an element of the anchor rode and in a boat mooring systems. With yachts, the swivel is most commonly used between the anchor and cha"
+        }
+      },
+      {
+        "term": "stainless",
+        "z": 0.887,
+        "count_britannica": 0,
+        "count_wikipedia": 3,
+        "britannica_snippet": null,
+        "wikipedia_snippet": {
+          "offset": 1791,
+          "text": "haft is nice and tidily embedded in the other half of the swivel as in the example of the stainless steel anchor swivel shown here. When used in marine applications, and worse in tropical c"
+        }
+      },
+      {
+        "term": "threaded",
+        "z": 0.887,
+        "count_britannica": 0,
+        "count_wikipedia": 3,
+        "britannica_snippet": null,
+        "wikipedia_snippet": {
+          "offset": 781,
+          "text": "flanges. The device may be attached to either end. A swivel joint for a pipe is often a threaded connection in between which at least one of the pipes is curved, often at an angle of 45"
+        }
+      },
+      {
+        "term": "design",
+        "z": 0.887,
+        "count_britannica": 0,
+        "count_wikipedia": 3,
+        "britannica_snippet": null,
+        "wikipedia_snippet": {
+          "offset": 162,
+          "text": ", chair, swivel caster, or an anchor rode to rotate horizontally or vertically. A common design for a swivel is a cylindrical rod that can turn freely within a support structure. The ro"
+        }
+      },
+      {
+        "term": "connection",
+        "z": 0.887,
+        "count_britannica": 0,
+        "count_wikipedia": 3,
+        "britannica_snippet": null,
+        "wikipedia_snippet": {
+          "offset": 14,
+          "text": "A swivel is a connection that allows the connected object, such as a gun, chair, swivel caster, or an anchor rode"
+        }
+      },
+      {
+        "term": "swivels",
+        "z": 0.799,
+        "count_britannica": 1,
+        "count_wikipedia": 5,
+        "britannica_snippet": {
+          "offset": 0,
+          "text": "SWIVELS, a kind of ring made to turn round in a staple, or other ring. These are used when a ship"
+        },
+        "wikipedia_snippet": {
+          "offset": 1032,
+          "text": "or air-tight and then tightened further so that it is in the correct position. Sources: Swivels are also used in the nautical sector as an element of the anchor rode and in a boat moori"
+        }
+      },
+      {
+        "term": "attached",
+        "z": 0.787,
+        "count_britannica": 0,
+        "count_wikipedia": 3,
+        "britannica_snippet": null,
+        "wikipedia_snippet": {
+          "offset": 360,
+          "text": "prevented from slipping out by a nut, washer or thickening of the rod. The device can be attached to the ends of the rod or the center. Another common design is a sphere that is able to r"
+        }
+      }
+    ]
+  },
+  {
+    "entry_id": "E0005",
+    "headword": "SYCOPHANT",
+    "entry_text_sha256": "264f7f32fa4f907248af7ad51d17e73187c51a749d258a8468626274cfa24448",
+    "scan_pages": [
+      "upload:69952e7c4a0f"
+    ],
+    "match_method": "nemotron_embed_rerank",
+    "article": {
+      "page_id": "25998383",
+      "revision_id": "1352212778",
+      "title": "Sycophancy",
+      "url": "https://en.wikipedia.org/wiki/Sycophancy",
+      "revision_url": "https://en.wikipedia.org/w/index.php?oldid=1352212778",
+      "text_sha256": "bcc0e3d4b1dc86da2602885070cce99548ee3aed5f2c4191a28e6603d4b27b0b"
+    },
+    "britannica": {
+      "tokens_raw": 110,
+      "tokens_kept": 88,
+      "types": 77,
+      "unverified_tokens": 22,
+      "unverified_rate": 0.2,
+      "unverified_examples": [
+        "sydenham",
+        "london",
+        "thenians",
+        "formers",
+        "parasites",
+        "flatterers",
+        "cheats",
+        "winford",
+        "dorsetshire",
+        "garrisoned"
+      ]
+    },
+    "wikipedia": {
+      "tokens": 811,
+      "types": 539
+    },
+    "length_ratio_wiki_to_britannica": 9.216,
+    "top_terms_jaccard": 0.0291,
+    "frequency_cosine": 0.1034,
+    "shared_terms": [
+      {
+        "term": "sycophant",
+        "count_britannica": 1,
+        "count_wikipedia": 17
+      },
+      {
+        "term": "study",
+        "count_britannica": 2,
+        "count_wikipedia": 1
+      },
+      {
+        "term": "figs",
+        "count_britannica": 1,
+        "count_wikipedia": 8
+      },
+      {
+        "term": "english",
+        "count_britannica": 1,
+        "count_wikipedia": 6
+      },
+      {
+        "term": "given",
+        "count_britannica": 1,
+        "count_wikipedia": 3
+      },
+      {
+        "term": "entered",
+        "count_britannica": 1,
+        "count_wikipedia": 2
+      },
+      {
+        "term": "used",
+        "count_britannica": 1,
+        "count_wikipedia": 2
+      },
+      {
+        "term": "ancient",
+        "count_britannica": 1,
+        "count_wikipedia": 2
+      },
+      {
+        "term": "made",
+        "count_britannica": 1,
+        "count_wikipedia": 1
+      },
+      {
+        "term": "home",
+        "count_britannica": 1,
+        "count_wikipedia": 1
+      },
+      {
+        "term": "medicine",
+        "count_britannica": 1,
+        "count_wikipedia": 1
+      },
+      {
+        "term": "several",
+        "count_britannica": 1,
+        "count_wikipedia": 1
+      },
+      {
+        "term": "himself",
+        "count_britannica": 1,
+        "count_wikipedia": 1
+      },
+      {
+        "term": "exportation",
+        "count_britannica": 1,
+        "count_wikipedia": 1
+      },
+      {
+        "term": "practice",
+        "count_britannica": 1,
+        "count_wikipedia": 1
+      },
+      {
+        "term": "years",
+        "count_britannica": 1,
+        "count_wikipedia": 1
+      },
+      {
+        "term": "law",
+        "count_britannica": 1,
+        "count_wikipedia": 1
+      }
+    ],
+    "distinctive_britannica": [
+      {
+        "term": "physician",
+        "z": 1.307,
+        "count_britannica": 3,
+        "count_wikipedia": 0,
+        "britannica_snippet": {
+          "offset": 264,
+          "text": "formers, parasites, flatterers, cheats, &c. SYDENHAM (Dr. Thomas), an excellent English physician, was the son of William Sydenham of Winford Eagle in Dorsetshire, and was born there abou"
+        },
+        "wikipedia_snippet": null
+      },
+      {
+        "term": "year",
+        "z": 1.067,
+        "count_britannica": 2,
+        "count_wikipedia": 0,
+        "britannica_snippet": {
+          "offset": 369,
+          "text": "the son of William Sydenham of Winford Eagle in Dorsetshire, and was born there about the year 1624. He studied at Magdalen-hall, Oxford; but left that university when Oxford was garri"
+        },
+        "wikipedia_snippet": null
+      },
+      {
+        "term": "hall",
+        "z": 1.067,
+        "count_britannica": 2,
+        "count_wikipedia": 0,
+        "britannica_snippet": {
+          "offset": 403,
+          "text": "ford Eagle in Dorsetshire, and was born there about the year 1624. He studied at Magdalen-hall, Oxford; but left that university when Oxford was garrisoned for king Charles I. and went"
+        },
+        "wikipedia_snippet": null
+      },
+      {
+        "term": "physic",
+        "z": 1.067,
+        "count_britannica": 2,
+        "count_wikipedia": 0,
+        "britannica_snippet": {
+          "offset": 640,
+          "text": "Cox, an eminent physician, that gentleman persuaded him to apply himself to the study of physic; accordingly, after the garrison was delivered up to the parliament, he retired again to"
+        },
+        "wikipedia_snippet": null
+      },
+      {
+        "term": "oxford",
+        "z": 1.067,
+        "count_britannica": 2,
+        "count_wikipedia": 0,
+        "britannica_snippet": {
+          "offset": 409,
+          "text": "agle in Dorsetshire, and was born there about the year 1624. He studied at Magdalen-hall, Oxford; but left that university when Oxford was garrisoned for king Charles I. and went to Lond"
+        },
+        "wikipedia_snippet": null
+      },
+      {
+        "term": "thomas",
+        "z": 1.067,
+        "count_britannica": 2,
+        "count_wikipedia": 0,
+        "britannica_snippet": {
+          "offset": 234,
+          "text": "ll used in general for all in- formers, parasites, flatterers, cheats, &c. SYDENHAM (Dr. Thomas), an excellent English physician, was the son of William Sydenham of Winford Eagle in Dor"
+        },
+        "wikipedia_snippet": null
+      },
+      {
+        "term": "magdalen",
+        "z": 1.067,
+        "count_britannica": 2,
+        "count_wikipedia": 0,
+        "britannica_snippet": {
+          "offset": 394,
+          "text": "am of Winford Eagle in Dorsetshire, and was born there about the year 1624. He studied at Magdalen-hall, Oxford; but left that university when Oxford was garrisoned for king Charles I. and"
+        },
+        "wikipedia_snippet": null
+      },
+      {
+        "term": "famous",
+        "z": 1.067,
+        "count_britannica": 2,
+        "count_wikipedia": 0,
+        "britannica_snippet": {
+          "offset": 1024,
+          "text": "he university, he settled at Westminster, became doctor of his faculty at Cambridge; grew famous for his practice; and was the chief physician in London from the year 1660 to 1670; at wh"
+        },
+        "wikipedia_snippet": null
+      },
+      {
+        "term": "university",
+        "z": 0.986,
+        "count_britannica": 2,
+        "count_wikipedia": 0,
+        "britannica_snippet": {
+          "offset": 431,
+          "text": "nd was born there about the year 1624. He studied at Magdalen-hall, Oxford; but left that university when Oxford was garrisoned for king Charles I. and went to London: where, becoming acquai"
+        },
+        "wikipedia_snippet": null
+      },
+      {
+        "term": "used",
+        "z": 0.687,
+        "count_britannica": 1,
+        "count_wikipedia": 2,
+        "britannica_snippet": {
+          "offset": 147,
+          "text": "s to those who informed of the exportation of figs contrary to law; and hence it is still used in general for all in- formers, parasites, flatterers, cheats, &c. SYDENHAM (Dr. Thomas)"
+        },
+        "wikipedia_snippet": {
+          "offset": 7624,
+          "text": "ding false tales and accusations behind one's back. In Renaissance English, the word was used in both senses and meanings: that of the Greek informer and the current sense of a \"flatt"
+        }
+      },
+      {
+        "term": "study",
+        "z": 0.682,
+        "count_britannica": 2,
+        "count_wikipedia": 1,
+        "britannica_snippet": {
+          "offset": 631,
+          "text": "Dr Thomas Cox, an eminent physician, that gentleman persuaded him to apply himself to the study of physic; accordingly, after the garrison was delivered up to the parliament, he retired"
+        },
+        "wikipedia_snippet": {
+          "offset": 8836,
+          "text": "d measurement methods and benchmarks to quantify sycophantic behavior; one example is the study SycEval, which describes a framework and datasets for evaluating sycophancy across multip"
+        }
+      },
+      {
+        "term": "french",
+        "z": 0.625,
+        "count_britannica": 0,
+        "count_wikipedia": 4,
+        "britannica_snippet": null,
+        "wikipedia_snippet": {
+          "offset": 591,
+          "text": "njustified prosecutions. The word retains the same meaning ('slanderer') in Modern Greek, French (where sycophant means 'false accuser', or professional ' informer '), and Italian. In mo"
+        }
+      },
+      {
+        "term": "several",
+        "z": 0.516,
+        "count_britannica": 1,
+        "count_wikipedia": 1,
+        "britannica_snippet": {
+          "offset": 904,
+          "text": "lor of physic. Soon after, he was made a fellow of All-Souls college, and continued there several years: when, leaving the university, he settled at Westminster, became doctor of his facu"
+        },
+        "wikipedia_snippet": {
+          "offset": 5145,
+          "text": "cophants. Statutes of limitation were specifically adopted to try to prevent sycophancy. Several of Aristophanes ' comedies feature sycophants as major characters. In The Acharnians, a M"
+        }
+      },
+      {
+        "term": "language",
+        "z": 0.512,
+        "count_britannica": 0,
+        "count_wikipedia": 2,
+        "britannica_snippet": null,
+        "wikipedia_snippet": {
+          "offset": 7876,
+          "text": "hey wrong, but also of the person or state they ostensibly serve. With the rise of large language models, the term sycophancy has entered discussions about artificial intelligence (AI). A"
+        }
+      },
+      {
+        "term": "home",
+        "z": 0.399,
+        "count_britannica": 1,
+        "count_wikipedia": 1,
+        "britannica_snippet": {
+          "offset": 1223,
+          "text": "began to be disabled by the gout. He died in 1689. His works are highly esteemed both at home and abroad. He was famous for his cool regimen in the small-pox; for giving the bark afte"
+        },
+        "wikipedia_snippet": {
+          "offset": 5467,
+          "text": "d a Boeotian purchases a sycophant as a typical Athenian product that he cannot obtain at home. A sycophant appears as a character in The Birds. In Plutus, the character, Sycophant, de"
+        }
+      }
+    ],
+    "distinctive_wikipedia": [
+      {
+        "term": "sycophant",
+        "z": 1.348,
+        "count_britannica": 1,
+        "count_wikipedia": 17,
+        "britannica_snippet": {
+          "offset": 0,
+          "text": "SYCOPHANT, an appellation given by the ancient A- thenians to those who informed of the exportation"
+        },
+        "wikipedia_snippet": {
+          "offset": 19,
+          "text": "In modern English, sycophant denotes an insincere flatterer and refers to someone practising sycophancy (i.e., insince"
+        }
+      },
+      {
+        "term": "sycophants",
+        "z": 1.201,
+        "count_britannica": 0,
+        "count_wikipedia": 10,
+        "britannica_snippet": null,
+        "wikipedia_snippet": {
+          "offset": 466,
+          "text": "ted public prosecutors. By the fifth century BC, this practice had given rise to abuse by sycophants: litigants who brought unjustified prosecutions. The word retains the same meaning ('slan"
+        }
+      },
+      {
+        "term": "sycophancy",
+        "z": 1.201,
+        "count_britannica": 0,
+        "count_wikipedia": 10,
+        "britannica_snippet": null,
+        "wikipedia_snippet": {
+          "offset": 93,
+          "text": "modern English, sycophant denotes an insincere flatterer and refers to someone practising sycophancy (i.e., insincere flattery to gain an advantage). The word has its origin in the legal sy"
+        }
+      },
+      {
+        "term": "greek",
+        "z": 1.073,
+        "count_britannica": 0,
+        "count_wikipedia": 8,
+        "britannica_snippet": null,
+        "wikipedia_snippet": {
+          "offset": 584,
+          "text": "ought unjustified prosecutions. The word retains the same meaning ('slanderer') in Modern Greek, French (where sycophant means 'false accuser', or professional ' informer '), and Italia"
+        }
+      },
+      {
+        "term": "false",
+        "z": 1.073,
+        "count_britannica": 0,
+        "count_wikipedia": 8,
+        "britannica_snippet": null,
+        "wikipedia_snippet": {
+          "offset": 622,
+          "text": "rd retains the same meaning ('slanderer') in Modern Greek, French (where sycophant means 'false accuser', or professional ' informer '), and Italian. In modern English, the meaning of t"
+        }
+      },
+      {
+        "term": "word",
+        "z": 1.073,
+        "count_britannica": 0,
+        "count_wikipedia": 8,
+        "britannica_snippet": null,
+        "wikipedia_snippet": {
+          "offset": 158,
+          "text": "rs to someone practising sycophancy (i.e., insincere flattery to gain an advantage). The word has its origin in the legal system of Classical Athens, where it had a different meaning."
+        }
+      },
+      {
+        "term": "meaning",
+        "z": 0.989,
+        "count_britannica": 0,
+        "count_wikipedia": 8,
+        "britannica_snippet": null,
+        "wikipedia_snippet": {
+          "offset": 244,
+          "text": "The word has its origin in the legal system of Classical Athens, where it had a different meaning. Most legal cases of the time were brought by private litigants, as there was no police f"
+        }
+      },
+      {
+        "term": "flattery",
+        "z": 0.847,
+        "count_britannica": 0,
+        "count_wikipedia": 5,
+        "britannica_snippet": null,
+        "wikipedia_snippet": {
+          "offset": 121,
+          "text": "notes an insincere flatterer and refers to someone practising sycophancy (i.e., insincere flattery to gain an advantage). The word has its origin in the legal system of Classical Athens,"
+        }
+      },
+      {
+        "term": "insincere",
+        "z": 0.847,
+        "count_britannica": 0,
+        "count_wikipedia": 5,
+        "britannica_snippet": null,
+        "wikipedia_snippet": {
+          "offset": 40,
+          "text": "In modern English, sycophant denotes an insincere flatterer and refers to someone practising sycophancy (i.e., insincere flattery to gain a"
+        }
+      },
+      {
+        "term": "person",
+        "z": 0.847,
+        "count_britannica": 0,
+        "count_wikipedia": 5,
+        "britannica_snippet": null,
+        "wikipedia_snippet": {
+          "offset": 5956,
+          "text": "In daily use, the term συκοφάντης refers to someone that purposely spreads lies about a person, in order to harm their reputation or otherwise insult their honor (i.e. a slanderer), an"
+        }
+      },
+      {
+        "term": "legal",
+        "z": 0.847,
+        "count_britannica": 0,
+        "count_wikipedia": 5,
+        "britannica_snippet": null,
+        "wikipedia_snippet": {
+          "offset": 185,
+          "text": "cophancy (i.e., insincere flattery to gain an advantage). The word has its origin in the legal system of Classical Athens, where it had a different meaning. Most legal cases of the tim"
+        }
+      },
+      {
+        "term": "models",
+        "z": 0.847,
+        "count_britannica": 0,
+        "count_wikipedia": 5,
+        "britannica_snippet": null,
+        "wikipedia_snippet": {
+          "offset": 7885,
+          "text": ", but also of the person or state they ostensibly serve. With the rise of large language models, the term sycophancy has entered discussions about artificial intelligence (AI). AI sycop"
+        }
+      },
+      {
+        "term": "matter",
+        "z": 0.758,
+        "count_britannica": 0,
+        "count_wikipedia": 4,
+        "britannica_snippet": null,
+        "wikipedia_snippet": {
+          "offset": 823,
+          "text": "ted to mean flattery. The origin of the Ancient Greek word συκοφάντης (sykophántēs) is a matter of debate, but it was meant to disparage unjustified accusers who in some way perverted t"
+        }
+      },
+      {
+        "term": "meanings",
+        "z": 0.758,
+        "count_britannica": 0,
+        "count_wikipedia": 4,
+        "britannica_snippet": null,
+        "wikipedia_snippet": {
+          "offset": 2519,
+          "text": "he term was \"slightly obscene\", connoting a kind of perversion, and may have had a web of meanings derived from the symbolism of figs in ancient Greek culture, ranging from the improper di"
+        }
+      },
+      {
+        "term": "making",
+        "z": 0.758,
+        "count_britannica": 0,
+        "count_wikipedia": 4,
+        "britannica_snippet": null,
+        "wikipedia_snippet": {
+          "offset": 1502,
+          "text": "stone's Commentaries repeats this story, but adds an additional take—that there were laws making it a capital offense to break into a garden and steal figs, and that the law was so odiou"
+        }
+      }
+    ]
+  }
+]

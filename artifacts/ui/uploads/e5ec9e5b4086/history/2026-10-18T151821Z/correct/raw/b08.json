@@ -1,0 +1,93 @@
+{
+  "variant": "crop_nothink",
+  "page_id": "upload:e5ec9e5b4086",
+  "block_index": 8,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T14:37:46+00:00",
+  "elapsed_seconds": 1.31,
+  "finish_reason": "stop",
+  "parse_text": "NAXIA, the ancient Nazos, is one of the largest and most fertile of the islands in the Archeology, known as the Cyclades. Its greatest length from north to south is several miles, and its greatest breadth about twelve miles. The north point is in latitude 37.12. Although there was one of a most qualitative opportunity yet the island is divertified by hills, valleys, and plains, and is well wooded and western. Besides the city of the name, it contains thirty- five villages, and a population of about 17,000 persons. It produces core equal to our monthly consumption, and a square of the fruits, and cheese. Large quantities of oranges and lemons are exported. There is no port on the island for July later.",
+  "corrected_text": "NAXIA, the ancient Naxos, is one of the largest and most fertile of the islands in the Archipelago, known as the Cyclades. Its greatest length from north to south is seventeen miles, and its greatest breadth about twelve miles. The north point is in latitude 37. 12. Although the rocks are of a most repulsive appearance, yet the island is diversified by hills, valleys, and plains, and is well wooded and watered. Besides the city of its name, it contains thirty-five villages, and a population of about 17,000 persons. It produces corn equal to six months' consumption, and a surplus of oil, fruits, and cheese. Large quantities of oranges and lemons are exported. There is no port on the island for ships to enter.",
+  "reasoning_tokens": 0,
+  "usage": {
+    "completion_tokens": 171,
+    "prompt_tokens": 917,
+    "total_tokens": 1088,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 576
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 3000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows this region of the page. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\nNAXIA, the ancient Nazos, is one of the largest and most fertile of the islands in the Archeology, known as the Cyclades. Its greatest length from north to south is several miles, and its greatest breadth about twelve miles. The north point is in latitude 37.12. Although there was one of a most qualitative opportunity yet the island is divertified by hills, valleys, and plains, and is well wooded and western. Besides the city of the name, it contains thirty- five villages, and a population of about 17,000 persons. It produces core equal to our monthly consumption, and a square of the fruits, and cheese. Large quantities of oranges and lemons are exported. There is no port on the island for July later.",
+  "response": {
+    "id": "chatcmpl-acc362539dae0186",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "NAXIA, the ancient Naxos, is one of the largest and most fertile of the islands in the Archipelago, known as the Cyclades. Its greatest length from north to south is seventeen miles, and its greatest breadth about twelve miles. The north point is in latitude 37. 12. Although the rocks are of a most repulsive appearance, yet the island is diversified by hills, valleys, and plains, and is well wooded and watered. Besides the city of its name, it contains thirty-five villages, and a population of about 17,000 persons. It produces corn equal to six months' consumption, and a surplus of oil, fruits, and cheese. Large quantities of oranges and lemons are exported. There is no port on the island for ships to enter.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792334266,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 171,
+      "prompt_tokens": 917,
+      "total_tokens": 1088,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 576
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

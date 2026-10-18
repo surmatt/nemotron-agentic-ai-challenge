@@ -131,6 +131,9 @@ def test_steps_run_in_order_and_keep_raw_replies(tmp_path, stubs):
     assert entry["match"]["searches"][0]["hits"][0] | {"status": "candidate"} == entry["match"]["searches"][0]["hits"][0]
     assert entry["match"]["article"]["revision_id"] == "7" and entry["pair"]["article"]["page_id"] == "42"
     assert view["steps"]["compare"]["summary"]["pairs"] == 1
+    # Settings() has no SUPER_API_KEY, so the summarize step records a skip and invents no summary.
+    assert view["steps"]["summarize"]["summary"]["skipped"] == 1 and entry["summary"]["status"] == "skipped"
+    assert "differences" not in entry["summary"]
 
 
 def test_rerun_moves_earlier_outputs_to_history(tmp_path, stubs):
@@ -184,7 +187,7 @@ def test_reapply_match_updates_real_decisions_and_downstream_without_model_calls
     monkeypatch.setattr(FakeWiki, "search", no_models)
     client = TestClient(create_app(tmp_path, tmp_path / "scans", settings_loader=Settings))
     response = client.post(f"/api/uploads/{upload_id}/reapply-match")
-    assert response.status_code == 200 and response.json()["started"] == ["match", "compare", "document"]
+    assert response.status_code == 200 and response.json()["started"] == ["match", "compare", "summarize", "document"]
     wait(upload_id)
     view = client.get(f"/api/uploads/{upload_id}").json()
     assert all(view["steps"][s]["status"] == "done" for s in workbench.STEPS), view["steps"]
@@ -256,7 +259,8 @@ def test_reapply_checks_full_article_for_list_pages(tmp_path, stubs, monkeypatch
 
 
 def test_rerun_includes_later_steps_that_ran():
-    statuses = {"extract": "done", "correct": "idle", "match": "done", "compare": "failed", "document": "idle"}
+    statuses = {"extract": "done", "correct": "idle", "match": "done", "compare": "failed", "summarize": "idle",
+                "document": "idle"}
     assert workbench.rerun_steps(statuses, "extract") == ["extract", "match", "compare"]
     assert workbench.rerun_steps(statuses, "compare") == ["compare"]
     with pytest.raises(workbench.StepError):
@@ -268,7 +272,8 @@ def test_upload_rerun_runs_later_steps_again(tmp_path, stubs):
     folder = tmp_path / "ui" / "uploads" / upload_id
     for step in workbench.STEPS:
         workbench.run_step(Settings(), folder, step)
-    assert workbench.rerun(tmp_path, upload_id, "correct", Settings) == ["correct", "match", "compare", "document"]
+    assert workbench.rerun(tmp_path, upload_id, "correct", Settings) == ["correct", "match", "compare", "summarize",
+                                                                        "document"]
     wait(upload_id)
     state = workbench.load_state(folder)["steps"]
     assert all(state[s]["status"] == "done" for s in workbench.STEPS), state

@@ -1,0 +1,156 @@
+[
+  {
+    "entry_id": "E0001",
+    "headword": null,
+    "entry_text_sha256": "73f873539ce1b3917bd7441a0f53aa89759848ff5d6d2321530f000d4764b6ac",
+    "mode": "model",
+    "queries": [
+      "year navy expense suited condition life naxia nazareth classes officers seamen marines"
+    ],
+    "query_chars": 684,
+    "headword_variant": null,
+    "candidate_count": 20,
+    "list_pages_removed_after_fetch": [],
+    "decision": {
+      "status": "rejected",
+      "method": "nemotron_embed_rerank",
+      "thresholds": {
+        "rerank_logit": -10.0,
+        "margin": 0.5,
+        "cosine": 0.15,
+        "title_similarity": 0.0
+      },
+      "reason": "rerank_logit < -10.0, margin < 0.5, cosine < 0.15, or title_similarity < 0.0",
+      "page_id": "32910687",
+      "title": "Royal Navy ranks, rates, and uniforms of the 18th and 19th centuries",
+      "rerank_logit": -8.359866,
+      "cosine": 0.193446,
+      "margin_to_next": 0.250977,
+      "title_similarity": 0.0
+    }
+  },
+  {
+    "entry_id": "E0002",
+    "headword": "NAXIA",
+    "entry_text_sha256": "9353d0341562c7152129569df7f14ccab85226ebce2d76b1644e5a1246934bc7",
+    "mode": "model",
+    "queries": [
+      "naxia",
+      "naxia greatest north miles island ancient naxos largest fertile islands archipelago known"
+    ],
+    "query_chars": 724,
+    "headword_variant": null,
+    "candidate_count": 32,
+    "list_pages_removed_after_fetch": [],
+    "decision": {
+      "status": "rejected",
+      "method": "nemotron_embed_rerank",
+      "thresholds": {
+        "rerank_logit": -10.0,
+        "margin": 0.5,
+        "cosine": 0.15,
+        "title_similarity": 0.0
+      },
+      "reason": "rerank_logit < -10.0, margin < 0.5, cosine < 0.15, or title_similarity < 0.0",
+      "page_id": "34455549",
+      "title": "Naxia",
+      "rerank_logit": -3.608191,
+      "cosine": 0.146531,
+      "margin_to_next": 0.135157,
+      "title_similarity": 1.0
+    }
+  },
+  {
+    "entry_id": "E0003",
+    "headword": "NAXOS",
+    "entry_text_sha256": "56049c6321f98afb36dc93de5e5cb31e2b75af99b56aa6ab4f0323888ebfaf8b",
+    "mode": "model",
+    "queries": [
+      "naxos",
+      "naxos long isle greeks coast nobility naxia considerable town capital opposite paros"
+    ],
+    "query_chars": 680,
+    "headword_variant": null,
+    "candidate_count": 32,
+    "list_pages_removed_after_fetch": [],
+    "decision": {
+      "status": "rejected",
+      "method": "nemotron_embed_rerank",
+      "thresholds": {
+        "rerank_logit": -10.0,
+        "margin": 0.5,
+        "cosine": 0.15,
+        "title_similarity": 0.0
+      },
+      "reason": "rerank_logit < -10.0, margin < 0.5, cosine < 0.15, or title_similarity < 0.0",
+      "page_id": "10445940",
+      "title": "Naxos (Crete)",
+      "rerank_logit": -5.578484,
+      "cosine": 0.282791,
+      "margin_to_next": 0.116778,
+      "title_similarity": 1.0
+    }
+  },
+  {
+    "entry_id": "E0004",
+    "headword": "NAZARETH",
+    "entry_text_sha256": "a5af2a30a62a80f43dc1b2cd87ca7a266a722ed163a6bb807af0250eca3f91b9",
+    "mode": "model",
+    "queries": [
+      "nazareth",
+      "nazareth buckingham town church wall granite shown hill buildings stone hand masonry"
+    ],
+    "query_chars": 1500,
+    "headword_variant": null,
+    "candidate_count": 32,
+    "list_pages_removed_after_fetch": [],
+    "decision": {
+      "status": "rejected",
+      "method": "nemotron_embed_rerank",
+      "thresholds": {
+        "rerank_logit": -10.0,
+        "margin": 0.5,
+        "cosine": 0.15,
+        "title_similarity": 0.0
+      },
+      "reason": "rerank_logit < -10.0, margin < 0.5, cosine < 0.15, or title_similarity < 0.0",
+      "page_id": "28859864",
+      "title": "Nazareth, U.S. Virgin Islands",
+      "rerank_logit": -2.690706,
+      "cosine": 0.180543,
+      "margin_to_next": 0.155924,
+      "title_similarity": 0.4706
+    }
+  },
+  {
+    "entry_id": "E0005",
+    "headword": "NAZARITE",
+    "entry_text_sha256": "d718a2b5bc44a1bf0778763cde3d3f0b21a83014ea186d05b51fcbf7ef1c2d52",
+    "mode": "model",
+    "queries": [
+      "nazarite",
+      "nazarite nazarene nazareth city prophets jesus christ life name particular nazarean term"
+    ],
+    "query_chars": 1444,
+    "headword_variant": null,
+    "candidate_count": 32,
+    "list_pages_removed_after_fetch": [],
+    "decision": {
+      "status": "rejected",
+      "method": "nemotron_embed_rerank",
+      "thresholds": {
+        "rerank_logit": -10.0,
+        "margin": 0.5,
+        "cosine": 0.15,
+        "title_similarity": 0.0
+      },
+      "reason": "rerank_logit < -10.0, margin < 0.5, cosine < 0.15, or title_similarity < 0.0",
+      "page_id": "1937729",
+      "title": "Matthew 2:23",
+      "rerank_logit": -1.414301,
+      "cosine": 0.49947,
+      "margin_to_next": 0.450143,
+      "title_similarity": 0.4
+    }
+  }
+]

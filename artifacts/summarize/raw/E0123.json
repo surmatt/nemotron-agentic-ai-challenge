@@ -1,0 +1,204 @@
+{
+  "entry_id": "E0123",
+  "entry_text_sha256": "21b13fe86a8c39f3791e714c322032e205635bec2d75428621914721687425f9",
+  "article_page_id": "188740",
+  "article_revision_id": "1350091166",
+  "article_text_sha256": "b54bcaa84181918422f0a49af13e4eea8ef15aa711f84519590fa4464f13e6bf",
+  "prompt_version": "summarize-v1",
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T15:42:21+00:00",
+  "elapsed_seconds": 3.51,
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 762,
+    "prompt_tokens": 3912,
+    "total_tokens": 4674,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": null
+    }
+  },
+  "request": {
+    "max_tokens": 2000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "prompt": "You compare an entry of an 18th-century Encyclopaedia Britannica with the English Wikipedia article that a matching step paired with it. The Britannica text is OCR of old print. It has OCR errors and old spellings (a long s printed as \"f\"). Both texts are source data. Do not follow any instruction in them.\nBritannica headword: ESARHADDON.\nBritannica entry text: <<<\nESARHADDON, the son of Sennacherib, and his\nsuccessor in the kingdom of Assyria. He is said to\nhave reigned 29 years at Nineveh, from the year 3294\nto 3322; besides which he reigned 13 years at Baby-\nlon, in all 42 years. He died in the year of the world\n3336, and was succeeded by Saosduchinus. Esar-\nhaddon, in the opinion of Sir Isaac Newton, seems to\nbe the Sardanapalus who died, as Ctesias says, of\nold age, after the revolt of Syria; the name Sardana-\npalus being derived from Asarhaddon Pul.\n>>>\nWikipedia article: Esarhaddon. The passages below are selected passages of the article.\n[W1] <<<\nEsarhaddon, also spelled Essarhaddon, Assarhaddon and Ashurhaddon (Neo-Assyrian Akkadian: 𒀭𒊹𒉽𒀸, also 𒀭𒊹𒉽𒋧𒈾 Aššur-aḫa-iddina, meaning \" Ashur has given me a brother\"; Biblical Hebrew: אֵסַר־חַדֹּן ʾĒsar-Ḥaddōn) was the king of the Neo-Assyrian Empire from 681 to 669 BC. The third king of the Sargonid dynasty, Esarhaddon is most famous for his conquest of Egypt in 671 BC, which made his empire the largest the world had ever seen, and for his reconstruction of Babylon, which had been destroyed by his father.\n\nAfter Sennacherib's eldest son and heir Aššur-nādin-šumi had been captured and presumably executed in 694, the new heir had originally been the second eldest son, Arda-Mulissu, but in 684, Esarhaddon, a younger son, was appointed instead. Angered by this decision, Arda-Mulissu and another brother, Nabû-šarru-uṣur, murdered their father in 681 and planned to seize the Neo-Assyrian throne. The murder, and Arda-Mulissu's aspirations of becoming king himself, made Esarhaddon's rise to the throne difficult, and he first had to defeat his brothers in a six-week-long civil war.\n\nHis brothers' attempted coup had been unexpected and troublesome for Esarhaddon, and he would be plagued by\n>>>\n[W2] <<<\nrevenge on the Elamites, Chaldeans, and Babylonians.\n\nAfter Aššur-nādin-šumi's presumed death, Sennacherib elevated his second eldest surviving son, Arda-Mulissu, as crown prince. After several years as crown prince, Arda-Mulissu was replaced as heir by Esarhaddon in 684. The reason for Arda-Mulissu's sudden dismissal from the prominent position is unknown, but it is clear that he was very disappointed. Esarhaddon described the reaction of his brothers to his appointment as heir in a later inscription:\n\nOf my older brothers, the younger brother was I. But by decree of Ashur and Shamash, Bel and Nabu, my father exalted me, amid a gathering of my brothers he asked Shamash, \"is this my heir?\" and the gods answered, \"he is your second self\". And then my brothers went mad. They drew their swords, godlessly, in the middle of Nineveh. But Ashur, Shamash, Bel, Nabu, Ishtar, all the gods looked with wrath on the deeds of these scoundrels, brought their strength to weakness and humbled them beneath me.\n\nArda-Mulissu was forced to swear loyalty to Esarhaddon by his father, but repeatedly appealed to Sennacherib to again accept him as heir instead. These appeals were not successful, and\n>>>\n[W3] <<<\nto Esarhaddon by his father, but repeatedly appealed to Sennacherib to again accept him as heir instead. These appeals were not successful, and Sennacherib came to realize that the situation was tense, so he sent Esarhaddon into exile in the western provinces for his own protection. Esarhaddon was unhappy with his exile and blamed his brothers for it, describing it with the following words:\n\nMalicious gossip, slander and falsehood they wove around me in a godless way, lies and insincerity. They plotted evil behind my back. Against the will of the gods, they alienated my father's well-disposed heart from me, though in secret his heart was affected with compassion, and he still intended me to exercise kingship.\n\nAround 20 October 681 BCE, the assassination of Sennacherib by princes Arda-Mulissu and Nabu-Sarru-usur led to a six-week-long war of succession before Esarhaddon could ascend the throne.\n\nAlthough Esarhaddon had been the crown prince of Assyria for three years and the designated heir of King Sennacherib, with the entire empire having taken oaths to support him, it was only with great difficulty that he successfully ascended the Assyrian throne.\n\nThough Sennacherib had\n>>>\n[W4] <<<\nempire having taken oaths to support him, it was only with great difficulty that he successfully ascended the Assyrian throne.\n\nThough Sennacherib had foreseen the danger of keeping Esarhaddon near his ambitious brothers, he had not foreseen the dangers to his own life. On 20 October 681, Arda-Mulissu and another of Sennacherib's sons, Nabû-šarru-uṣur, attacked and killed their father in one of Nineveh 's temples. However, Arda-Mulissu's dreams of claiming the throne would be crushed. The murder of Sennacherib had caused some friction between Arda-Mulissu and his supporters, which delayed a potential coronation, and in the meantime, Esarhaddon had raised an army. With this army at his back, he met an army raised by his brothers at Hanigalbat, a region in the western parts of the empire, where most of the soldiers deserted his brothers to join him, and the enemy generals fled. He then marched on Nineveh without opposition.\n\nSix weeks after his father's death, he was accepted and recognized as the new Assyrian king at Nineveh. Shortly after taking the throne, Esarhaddon made sure to execute all conspirators and political enemies he could get his hands on, including the families of\n>>>\n[W5] <<<\nhierarchy to make it more difficult to meet him, which also limited the number of officials who controlled the access to his palaces.\n\nAlthough he had successfully survived the conspiracy, Esarhaddon remained diseased and paranoid. Just a year later, in 669 BC, he once more performed the \"substitute king\" ritual. Around this time, the defeated Pharaoh Taharqa appeared from the south and, perhaps combined with the chaotic political situation within Assyria, inspired Egypt to attempt to free itself from Esarhaddon's control.\n\nEsarhaddon received word of this rebellion and learnt that even some of his own governors who he had appointed in Egypt had ceased to pay tribute to him and joined the rebels. After emerging from his hundred days of hiding, apparently relatively healthy by his standards, Esarhaddon left to campaign against Egypt for the third time. The king died at Harran on 10 Araḫsamn 669 BC (approximately November 1 in the proleptic Julian calendar), before reaching the Egyptian border. The absence of evidence to the contrary suggests that his death was natural and unexpected.\n\nAfter Esarhaddon's death, his sons Ashurbanipal and Shamash-shum-ukin successfully ascended the\n>>>\n[W6] <<<\nsuggests that his death was natural and unexpected.\n\nAfter Esarhaddon's death, his sons Ashurbanipal and Shamash-shum-ukin successfully ascended the thrones of Assyria and Babylonia without political turmoil and bloodshed, meaning that Esarhaddon's succession plans were a success, at least initially.\n\nThe support of the Arabic and other tribes of the Sinai Peninsula had been crucial in Esarhaddon's 671 BC Egyptian campaign. Esarhaddon was also determined to retain the loyalty of the Arabic tribes who had been subjugated by his father in the Arabian Peninsula, particularly around the city of Adummatu. The king of Adummatu, Hazael, paid tribute to Esarhaddon and sent him several presents, which were reciprocated by Esarhaddon through returning the statues of Hazael's gods which had been seized by Sennacherib years earlier. When Hazael died and was succeeded by his son Yauta, Yauta's position as king was recognized by Esarhaddon, who also aided the new king in defeating a rebellion against his rule. Shortly thereafter, Yauta rebelled against Esarhaddon, and though he was defeated by the Assyrian army and fled from his throne, during the reign of Ashurbanipal, he came back to power\n>>>\n[W7] <<<\nEsarhaddon's daughters and the only one known by name, Serua-eterat was older than Ashurbanipal and might have been the eldest of all of Esarhaddon's children. She held a position of importance in Esarhaddon's court and in the later court of Ashurbanipal, as attested by numerous inscriptions.\n\nSin-nadin-apli (𒌍𒋧𒈾𒌉𒍑 or 𒁹𒀭𒌍𒋧𒈾𒀀 Sîn-nadin-apli) – Esarhaddon's eldest son and crown prince from 674 BC until his unexpected death in 672.\n\nShamash-shum-ukin (𒌋𒌋𒈬𒁺 Šamaš-šumu-ukin) – Esarhaddon's second eldest son, crown prince and heir to Babylon 672–669 and King of Babylon thereafter.\n\nShamash-metu-uballit (𒁹𒀭𒄑𒋓𒂦𒂵𒋾𒆷 Šamaš-metu-uballiṭ) – possibly Esarhaddon's third eldest son. His name, which means \"Shamash has brought to life the dead\", suggests that he suffered from poor health or had a difficult birth. He was still alive by 672, and his health might be the reason why he was overlooked in favour of his younger brother as heir. It is possible that Shamash-metu-uballit did not accept the succession of Ashurbanipal and paid for it with his life.\n\nAshurbanipal (𒀸𒋩𒆕𒀀 Aššur-bāni-apli)) – possibly Essarhadon's fourth eldest son, crown prince and heir to Assyria 672–669 and King of Assyria\n>>>\n[W8] <<<\nlife.\n\nAshurbanipal (𒀸𒋩𒆕𒀀 Aššur-bāni-apli)) – possibly Essarhadon's fourth eldest son, crown prince and heir to Assyria 672–669 and King of Assyria thereafter.\n\nAshur-taqisha-liblut (Aššur-taqiša-libluṭ) – possibly Esarhaddon's fifth eldest son. Thought to have been a sickly child, possibly dead before 672.\n\nAshur-mukin-paleya (𒁹𒀭𒊹𒈬𒆥𒁄𒈨𒌍𒐊 Aššur-mukin-paleʾa) – possibly Esarhaddon's sixth eldest son. Probably born after Esarhaddon was already king. Was made a priest in Assur during the reign of Ashurbanipal.\n\nAshur-etel-shame-erseti-muballissu (𒁹𒀸𒋩𒈗𒀭𒆠𒋾𒁉 Aššur-etel-šamê-erṣeti-muballissu) – possibly Esarhaddon's seventh eldest son. Probably born after Esarhaddon was already king. Was made a priest in Harran during the reign of Ashurbanipal.\n\nAshur-sarrani-muballissu (𒁹𒀸𒋩𒈗𒀀𒉌𒋾𒆷𒁉 Aššur-šarrani-muballissu) – attested only in a single letter, it is possible that Ashur-sarrani-muballissu is identical to Ashur-etel-shame-erseti-muballissu.\n\nSin-Peru-ukin (𒁹𒀭𒌍𒉭𒁺𒅔 Sîn-perʾu-ukin) – known from a letter inquiring as to when it was appropriate to visit the king and another letter in which he is described as healthy.\n\nAfter Esarhaddon's death, his son Ashurbanipal became the king of Assyria.\n>>>\n[W9] <<<\ntheir reigns many of Assyria's vassals seized the opportunity to declare themselves independent. From 627 to 612, the Assyrian Empire effectively disintegrated, and a coalition of Assyrian enemies, chiefly led by the Median Empire and the newly independent Neo-Babylonian Empire, pushed into the Assyrian heartland. In 612, Nineveh itself was plundered and razed. Assyria fell with the defeat of its final king, Ashuruballit II, at Harran in 609.\n\nEsarhaddon, his predecessor Sennacherib and his successor Ashurbanipal are recognized as three of the greatest Assyrian kings. He is typically characterized as gentler and milder than his predecessor, taking greater efforts to pacify and integrate the peoples he conquered. The king has been described as one of the most successful of the Neo-Assyrian rulers on account of his many achievements, including the subjugation of Egypt, the successful and peaceful control of the notoriously rebellious Babylonia and his ambitious construction projects. According to Assyriologist Karen Radner, Esarhaddon emerges more clearly as an individual from available sources than all other Assyrian kings. Most Assyrian kings are known only from their royal\n>>>\n[W10] <<<\ntitles of Esarhaddon read as follows:\n\nEsarhaddon, the great king, the mighty king, king of the Universe, king of Assyria, viceroy of Babylon, king of Sumer and Akkad, son of Sennacherib, the great king, the mighty king, king of Assyria, grandson of Sargon, the great king, the mighty king, king of Assyria; who under the protection of Assur, Sin, Shamash, Nabu, Marduk, Ishtar of Nineveh, Ishtar of Arbela, the great gods, his lords, made his way from the rising to the setting sun, having no rival.\n\nA longer version of Esarhaddon's royal titles, and an accompanying boast of his gifts from the gods, preserved in another of his inscriptions, reads:\n\nI am Esarhaddon, king of the Universe, king of Assyria, mighty warrior, first among all princes, son of Sennacherib, king of Assyria, grandson of Sargon, king of the universe, king of Assyria. Creature of Assur and Ninlil, beloved of Sin and Shamash, favorite of Nabu and Marduk, object of Queen Ishtar's affection, heart's desire of the great gods; the powerful, the wise, thoughtful and knowing, whom the great gods have called to kingship for the restoration of the images of the great gods, and the complete rebuilding of the shrines of every\n>>>\nFind the key differences in content: facts, explanations, scope, emphasis, or views that changed. Do not report differences in spelling, OCR errors, style, or length alone.\nAnswer with one JSON object and nothing else: {\"same_subject\": \"yes\" | \"partly\" | \"no\", \"overview\": \"<one or two sentences: how the two texts differ>\", \"differences\": [{\"aspect\": \"<2 to 6 words>\", \"britannica\": \"<what the Britannica entry says, one sentence>\", \"wikipedia\": \"<what the Wikipedia article says, one sentence>\", \"britannica_quote\": \"<5 to 30 words copied exactly from the Britannica text, with its OCR errors>\", \"wikipedia_quote\": \"<5 to 30 words copied exactly from one Wikipedia passage>\", \"wikipedia_passage\": \"<the passage label, such as W1>\"}]}. Copy each quote as one continuous span. Do not shorten a quote with \"...\" and do not correct it. Give at most 5 differences, the most important first. If the texts describe different subjects, set same_subject to \"no\" and give no differences.",
+  "prompt_sha256": "8350455d091df2622f5e3414a78ffce5d76935650442e668a0741263e57512f7",
+  "passage_ids": [
+    "W188740-p00",
+    "W188740-p03",
+    "W188740-p04",
+    "W188740-p05",
+    "W188740-p35",
+    "W188740-p36",
+    "W188740-p40",
+    "W188740-p41",
+    "W188740-p44",
+    "W188740-p46"
+  ],
+  "cached": false,
+  "response": {
+    "id": "chatcmpl-b8c67b4a36b559b5",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "{\"same_subject\": \"yes\", \"overview\": \"The Britannica entry provides a brief, outdated chronology and identifies Esarhaddon with Sardanapalus, while the Wikipedia article offers a detailed modern account of his reign, succession struggle, campaigns, and family.\", \"differences\": [{\"aspect\": \"reign dates\", \"britannica\": \"The entry dates his reign from the year of the world 3294 to 3322, plus 13 years at Babylon.\", \"wikipedia\": \"The article states he was king of the Neo-Assyrian Empire from 681 to 669 BC.\", \"britannica_quote\": \"He is said to have reigned 29 years at Nineveh, from the year 3294 to 3322;\", \"wikipedia_quote\": \"was the king of the Neo-Assyrian Empire from 681 to 669 BC.\", \"wikipedia_passage\": \"W1\"}, {\"aspect\": \"succession\", \"britannica\": \"He was succeeded by Saosduchinus.\", \"wikipedia\": \"After his death, his sons Ashurbanipal and Shamash-shum-ukin ascended the thrones of Assyria and Babylonia.\", \"britannica_quote\": \"and was succeeded by Saosduchinus.\", \"wikipedia_quote\": \"After Esarhaddon's death, his sons Ashurbanipal and Shamash-shum-ukin successfully ascended the thrones of Assyria and Babylonia\", \"wikipedia_passage\": \"W6\"}, {\"aspect\": \"identity with Sardanapalus\", \"britannica\": \"Sir Isaac Newton's opinion is that Esarhaddon seems to be the Sardanapalus who died of old age.\", \"wikipedia\": \"The article does not identify Esarhaddon with Sardanapalus.\", \"britannica_quote\": \"Esar-haddon, in the opinion of Sir Isaac Newton, seems to be the Sardanapalus who died, as Ctesias says, of old age,\", \"wikipedia_quote\": \"Esarhaddon, his predecessor Sennacherib and his successor Ashurbanipal are recognized as three of the greatest Assyrian kings.\", \"wikipedia_passage\": \"W9\"}, {\"aspect\": \"major achievements\", \"britannica\": \"The entry mentions only the length of his reign and succession.\", \"wikipedia\": \"The article highlights his conquest of Egypt in 671 BC and reconstruction of Babylon.\", \"britannica_quote\": \"besides which he reigned 13 years at Baby-lon, in all 42 years.\", \"wikipedia_quote\": \"most famous for his conquest of Egypt in 671 BC, which made his empire the largest the world had ever seen, and for his reconstruction of Babylon\", \"wikipedia_passage\": \"W1\"}, {\"aspect\": \"family details\", \"britannica\": \"The entry only names his father Sennacherib.\", \"wikipedia\": \"The article lists multiple sons and daughters, including Ashurbanipal and Serua-eterat.\", \"britannica_quote\": \"ESARHADDON, the son of Sennacherib, and his successor in the kingdom of Assyria.\", \"wikipedia_quote\": \"Sin-nadin-apli ... – Esarhaddon's eldest son and crown prince from 674 BC until his unexpected death in 672.\", \"wikipedia_passage\": \"W7\"}]}}",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792338141,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 762,
+      "prompt_tokens": 3912,
+      "total_tokens": 4674,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": null
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  },
+  "parsed": {
+    "same_subject": "yes",
+    "overview": "The Britannica entry provides a brief, outdated chronology and identifies Esarhaddon with Sardanapalus, while the Wikipedia article offers a detailed modern account of his reign, succession struggle, campaigns, and family.",
+    "differences": [
+      {
+        "aspect": "reign dates",
+        "britannica": "The entry dates his reign from the year of the world 3294 to 3322, plus 13 years at Babylon.",
+        "wikipedia": "The article states he was king of the Neo-Assyrian Empire from 681 to 669 BC.",
+        "evidence": {
+          "britannica": {
+            "quote": "He is said to have reigned 29 years at Nineveh, from the year 3294 to 3322;",
+            "found": true,
+            "offset": 81
+          },
+          "wikipedia": {
+            "quote": "was the king of the Neo-Assyrian Empire from 681 to 669 BC.",
+            "found": true,
+            "offset": 210,
+            "passage_id": "W188740-p00"
+          }
+        },
+        "quotes_found": true
+      },
+      {
+        "aspect": "succession",
+        "britannica": "He was succeeded by Saosduchinus.",
+        "wikipedia": "After his death, his sons Ashurbanipal and Shamash-shum-ukin ascended the thrones of Assyria and Babylonia.",
+        "evidence": {
+          "britannica": {
+            "quote": "and was succeeded by Saosduchinus.",
+            "found": true,
+            "offset": 261
+          },
+          "wikipedia": {
+            "quote": "After Esarhaddon's death, his sons Ashurbanipal and Shamash-shum-ukin successfully ascended the thrones of Assyria and Babylonia",
+            "found": true,
+            "offset": 37841,
+            "passage_id": "W188740-p36"
+          }
+        },
+        "quotes_found": true
+      },
+      {
+        "aspect": "identity with Sardanapalus",
+        "britannica": "Sir Isaac Newton's opinion is that Esarhaddon seems to be the Sardanapalus who died of old age.",
+        "wikipedia": "The article does not identify Esarhaddon with Sardanapalus.",
+        "evidence": {
+          "britannica": {
+            "quote": "Esar-haddon, in the opinion of Sir Isaac Newton, seems to be the Sardanapalus who died, as Ctesias says, of old age,",
+            "found": false,
+            "offset": null
+          },
+          "wikipedia": {
+            "quote": "Esarhaddon, his predecessor Sennacherib and his successor Ashurbanipal are recognized as three of the greatest Assyrian kings.",
+            "found": true,
+            "offset": 46605,
+            "passage_id": "W188740-p44"
+          }
+        },
+        "quotes_found": false
+      },
+      {
+        "aspect": "major achievements",
+        "britannica": "The entry mentions only the length of his reign and succession.",
+        "wikipedia": "The article highlights his conquest of Egypt in 671 BC and reconstruction of Babylon.",
+        "evidence": {
+          "britannica": {
+            "quote": "besides which he reigned 13 years at Baby-lon, in all 42 years.",
+            "found": false,
+            "offset": null
+          },
+          "wikipedia": {
+            "quote": "most famous for his conquest of Egypt in 671 BC, which made his empire the largest the world had ever seen, and for his reconstruction of Babylon",
+            "found": true,
+            "offset": 324,
+            "passage_id": "W188740-p00"
+          }
+        },
+        "quotes_found": false
+      },
+      {
+        "aspect": "family details",
+        "britannica": "The entry only names his father Sennacherib.",
+        "wikipedia": "The article lists multiple sons and daughters, including Ashurbanipal and Serua-eterat.",
+        "evidence": {
+          "britannica": {
+            "quote": "ESARHADDON, the son of Sennacherib, and his successor in the kingdom of Assyria.",
+            "found": true,
+            "offset": 0
+          },
+          "wikipedia": {
+            "quote": "Sin-nadin-apli ... – Esarhaddon's eldest son and crown prince from 674 BC until his unexpected death in 672.",
+            "found": false,
+            "offset": null,
+            "passage_id": "W188740-p40"
+          }
+        },
+        "quotes_found": false
+      }
+    ]
+  }
+}

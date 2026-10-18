@@ -1,0 +1,1268 @@
+{
+  "entry_id": "E0002",
+  "headword": "NAXIA",
+  "entry_text_sha256": "9353d0341562c7152129569df7f14ccab85226ebce2d76b1644e5a1246934bc7",
+  "mode": "model",
+  "search_terms": {
+    "frequency": [
+      "north",
+      "miles",
+      "island",
+      "ancient",
+      "fertile",
+      "archipelago"
+    ],
+    "dictionary_filter": true,
+    "llm": {
+      "status": "ok",
+      "model": "nvidia/Nemotron-3.5-Super-VL",
+      "title": "Naxos",
+      "terms": [
+        "cyclades",
+        "archipelago",
+        "greek islands",
+        "aegean sea",
+        "naxos town"
+      ],
+      "cached": false,
+      "raw_path": "terms/E0002.json"
+    }
+  },
+  "queries": [
+    "naxia",
+    "naxia north miles island ancient fertile archipelago",
+    "Naxos cyclades archipelago greek islands aegean sea town"
+  ],
+  "searches": [
+    {
+      "id": "q0",
+      "query": "naxia",
+      "kind": "headword",
+      "top_k": 20,
+      "excerpt_chars": 1200,
+      "hits": [
+        {
+          "page_id": "34455549",
+          "title": "Naxia",
+          "url": "https://en.wikipedia.org/wiki/Naxia",
+          "rank": 1,
+          "bm25": 26.4766,
+          "removed": null
+        },
+        {
+          "page_id": "60721222",
+          "title": "Naxia (Caria)",
+          "url": "https://en.wikipedia.org/wiki/Naxia_(Caria)",
+          "rank": 2,
+          "bm25": 25.6504,
+          "removed": null
+        },
+        {
+          "page_id": "48286461",
+          "title": "Aristotelia naxia",
+          "url": "https://en.wikipedia.org/wiki/Aristotelia_naxia",
+          "rank": 3,
+          "bm25": 25.5306,
+          "removed": null
+        },
+        {
+          "page_id": "9063025",
+          "title": "Naxia tumida",
+          "url": "https://en.wikipedia.org/wiki/Naxia_tumida",
+          "rank": 4,
+          "bm25": 25.3768,
+          "removed": null
+        },
+        {
+          "page_id": "25312654",
+          "title": "Adelpha",
+          "url": "https://en.wikipedia.org/wiki/Adelpha",
+          "rank": 5,
+          "bm25": 14.1506,
+          "removed": null
+        },
+        {
+          "page_id": "51159973",
+          "title": "Church of Panagia Protothronos",
+          "url": "https://en.wikipedia.org/wiki/Church_of_Panagia_Protothronos",
+          "rank": 6,
+          "bm25": 13.9506,
+          "removed": null
+        },
+        {
+          "page_id": "6931073",
+          "title": "Majidae",
+          "url": "https://en.wikipedia.org/wiki/Majidae",
+          "rank": 7,
+          "bm25": 13.8916,
+          "removed": null
+        },
+        {
+          "page_id": "28472021",
+          "title": "Panagia, Lemnos",
+          "url": "https://en.wikipedia.org/wiki/Panagia,_Lemnos",
+          "rank": 8,
+          "bm25": 13.4916,
+          "removed": null
+        },
+        {
+          "page_id": "59469503",
+          "title": "Dolichopoda",
+          "url": "https://en.wikipedia.org/wiki/Dolichopoda",
+          "rank": 9,
+          "bm25": 11.9369,
+          "removed": null
+        },
+        {
+          "page_id": "14533366",
+          "title": "Aristotelia (moth)",
+          "url": "https://en.wikipedia.org/wiki/Aristotelia_(moth)",
+          "rank": 10,
+          "bm25": 8.652,
+          "removed": null
+        },
+        {
+          "page_id": "79077420",
+          "title": "Stenotaenia (centipede)",
+          "url": "https://en.wikipedia.org/wiki/Stenotaenia_(centipede)",
+          "rank": 11,
+          "bm25": 8.4952,
+          "removed": null
+        },
+        {
+          "page_id": "647483",
+          "title": "Duchy of the Archipelago",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_the_Archipelago",
+          "rank": 12,
+          "bm25": 7.7098,
+          "removed": null
+        },
+        {
+          "page_id": "12693373",
+          "title": "Naxos (city)",
+          "url": "https://en.wikipedia.org/wiki/Naxos_(city)",
+          "rank": 13,
+          "bm25": 4.842,
+          "removed": null
+        },
+        {
+          "page_id": "51327347",
+          "title": "Lunafreya Nox Fleuret",
+          "url": "https://en.wikipedia.org/wiki/Lunafreya_Nox_Fleuret",
+          "rank": 14,
+          "bm25": 4.7531,
+          "removed": null
+        },
+        {
+          "page_id": "41584932",
+          "title": "List of butterflies of Belize",
+          "url": "https://en.wikipedia.org/wiki/List_of_butterflies_of_Belize",
+          "rank": 15,
+          "bm25": 4.7031,
+          "removed": null
+        },
+        {
+          "page_id": "49510186",
+          "title": "List of vulnerable insects",
+          "url": "https://en.wikipedia.org/wiki/List_of_vulnerable_insects",
+          "rank": 16,
+          "bm25": 3.5166,
+          "removed": null
+        },
+        {
+          "page_id": "56788318",
+          "title": "List of Tychius species",
+          "url": "https://en.wikipedia.org/wiki/List_of_Tychius_species",
+          "rank": 17,
+          "bm25": 3.0211,
+          "removed": null
+        },
+        {
+          "page_id": "41587789",
+          "title": "List of butterflies of Mexico",
+          "url": "https://en.wikipedia.org/wiki/List_of_butterflies_of_Mexico",
+          "rank": 18,
+          "bm25": 2.6536,
+          "removed": null
+        },
+        {
+          "page_id": "49508521",
+          "title": "List of vulnerable arthropods",
+          "url": "https://en.wikipedia.org/wiki/List_of_vulnerable_arthropods",
+          "rank": 19,
+          "bm25": 2.3373,
+          "removed": null
+        },
+        {
+          "page_id": "38085381",
+          "title": "List of Lepidoptera of Honduras",
+          "url": "https://en.wikipedia.org/wiki/List_of_Lepidoptera_of_Honduras",
+          "rank": 20,
+          "bm25": 1.9168,
+          "removed": null
+        }
+      ]
+    },
+    {
+      "id": "q1",
+      "query": "naxia north miles island ancient fertile archipelago",
+      "kind": "headword + keywords",
+      "top_k": 20,
+      "excerpt_chars": 1200,
+      "hits": [
+        {
+          "page_id": "60721222",
+          "title": "Naxia (Caria)",
+          "url": "https://en.wikipedia.org/wiki/Naxia_(Caria)",
+          "rank": 1,
+          "bm25": 32.3892,
+          "removed": null
+        },
+        {
+          "page_id": "48286461",
+          "title": "Aristotelia naxia",
+          "url": "https://en.wikipedia.org/wiki/Aristotelia_naxia",
+          "rank": 2,
+          "bm25": 29.8452,
+          "removed": null
+        },
+        {
+          "page_id": "2379811",
+          "title": "Davidof Island",
+          "url": "https://en.wikipedia.org/wiki/Davidof_Island",
+          "rank": 3,
+          "bm25": 27.9932,
+          "removed": null
+        },
+        {
+          "page_id": "2927869",
+          "title": "Fournoi Korseon",
+          "url": "https://en.wikipedia.org/wiki/Fournoi_Korseon",
+          "rank": 4,
+          "bm25": 27.6501,
+          "removed": null
+        },
+        {
+          "page_id": "28472021",
+          "title": "Panagia, Lemnos",
+          "url": "https://en.wikipedia.org/wiki/Panagia,_Lemnos",
+          "rank": 5,
+          "bm25": 26.9305,
+          "removed": null
+        },
+        {
+          "page_id": "34455549",
+          "title": "Naxia",
+          "url": "https://en.wikipedia.org/wiki/Naxia",
+          "rank": 6,
+          "bm25": 26.4766,
+          "removed": null
+        },
+        {
+          "page_id": "2027284",
+          "title": "Mingan Archipelago",
+          "url": "https://en.wikipedia.org/wiki/Mingan_Archipelago",
+          "rank": 7,
+          "bm25": 26.4061,
+          "removed": null
+        },
+        {
+          "page_id": "1642131",
+          "title": "Mount Liamuiga",
+          "url": "https://en.wikipedia.org/wiki/Mount_Liamuiga",
+          "rank": 8,
+          "bm25": 26.0174,
+          "removed": null
+        },
+        {
+          "page_id": "1863592",
+          "title": "Tuscan Archipelago",
+          "url": "https://en.wikipedia.org/wiki/Tuscan_Archipelago",
+          "rank": 9,
+          "bm25": 25.9933,
+          "removed": null
+        },
+        {
+          "page_id": "7006008",
+          "title": "Žirje, Croatia",
+          "url": "https://en.wikipedia.org/wiki/%C5%BDirje,_Croatia",
+          "rank": 10,
+          "bm25": 25.8955,
+          "removed": null
+        },
+        {
+          "page_id": "622364",
+          "title": "The Archipelago",
+          "url": "https://en.wikipedia.org/wiki/The_Archipelago",
+          "rank": 11,
+          "bm25": 25.7537,
+          "removed": null
+        },
+        {
+          "page_id": "20388",
+          "title": "Geography of Myanmar",
+          "url": "https://en.wikipedia.org/wiki/Geography_of_Myanmar",
+          "rank": 12,
+          "bm25": 25.6667,
+          "removed": null
+        },
+        {
+          "page_id": "14108112",
+          "title": "Spider Islands",
+          "url": "https://en.wikipedia.org/wiki/Spider_Islands",
+          "rank": 13,
+          "bm25": 25.4621,
+          "removed": null
+        },
+        {
+          "page_id": "15018655",
+          "title": "Cuyo Archipelago",
+          "url": "https://en.wikipedia.org/wiki/Cuyo_Archipelago",
+          "rank": 14,
+          "bm25": 25.4382,
+          "removed": null
+        },
+        {
+          "page_id": "1834714",
+          "title": "Pontine Islands",
+          "url": "https://en.wikipedia.org/wiki/Pontine_Islands",
+          "rank": 15,
+          "bm25": 25.4217,
+          "removed": null
+        },
+        {
+          "page_id": "9063025",
+          "title": "Naxia tumida",
+          "url": "https://en.wikipedia.org/wiki/Naxia_tumida",
+          "rank": 16,
+          "bm25": 25.3768,
+          "removed": null
+        },
+        {
+          "page_id": "58073816",
+          "title": "Linua",
+          "url": "https://en.wikipedia.org/wiki/Linua",
+          "rank": 17,
+          "bm25": 25.1275,
+          "removed": null
+        },
+        {
+          "page_id": "16190803",
+          "title": "Temoe",
+          "url": "https://en.wikipedia.org/wiki/Temoe",
+          "rank": 18,
+          "bm25": 24.913,
+          "removed": null
+        },
+        {
+          "page_id": "473724",
+          "title": "Mainland, Orkney",
+          "url": "https://en.wikipedia.org/wiki/Mainland,_Orkney",
+          "rank": 19,
+          "bm25": 24.9126,
+          "removed": null
+        },
+        {
+          "page_id": "40545895",
+          "title": "Bonvouloir Islands",
+          "url": "https://en.wikipedia.org/wiki/Bonvouloir_Islands",
+          "rank": 20,
+          "bm25": 24.7494,
+          "removed": null
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "query": "Naxos cyclades archipelago greek islands aegean sea town",
+      "kind": "LLM title + terms",
+      "top_k": 20,
+      "excerpt_chars": 1200,
+      "hits": [
+        {
+          "page_id": "6592",
+          "title": "Cyclades",
+          "url": "https://en.wikipedia.org/wiki/Cyclades",
+          "rank": 1,
+          "bm25": 64.9009,
+          "removed": null
+        },
+        {
+          "page_id": "47153804",
+          "title": "Lesser Cyclades",
+          "url": "https://en.wikipedia.org/wiki/Lesser_Cyclades",
+          "rank": 2,
+          "bm25": 64.7634,
+          "removed": null
+        },
+        {
+          "page_id": "31090298",
+          "title": "Naxos (regional unit)",
+          "url": "https://en.wikipedia.org/wiki/Naxos_(regional_unit)",
+          "rank": 3,
+          "bm25": 60.3891,
+          "removed": null
+        },
+        {
+          "page_id": "647483",
+          "title": "Duchy of the Archipelago",
+          "url": "https://en.wikipedia.org/wiki/Duchy_of_the_Archipelago",
+          "rank": 4,
+          "bm25": 59.8081,
+          "removed": null
+        },
+        {
+          "page_id": "62278",
+          "title": "Naxos",
+          "url": "https://en.wikipedia.org/wiki/Naxos",
+          "rank": 5,
+          "bm25": 58.3471,
+          "removed": null
+        },
+        {
+          "page_id": "31297430",
+          "title": "Naxos and Lesser Cyclades",
+          "url": "https://en.wikipedia.org/wiki/Naxos_and_Lesser_Cyclades",
+          "rank": 6,
+          "bm25": 58.2349,
+          "removed": null
+        },
+        {
+          "page_id": "12693373",
+          "title": "Naxos (city)",
+          "url": "https://en.wikipedia.org/wiki/Naxos_(city)",
+          "rank": 7,
+          "bm25": 57.1044,
+          "removed": null
+        },
+        {
+          "page_id": "613710",
+          "title": "Marco I Sanudo",
+          "url": "https://en.wikipedia.org/wiki/Marco_I_Sanudo",
+          "rank": 8,
+          "bm25": 56.596,
+          "removed": null
+        },
+        {
+          "page_id": "182236",
+          "title": "Andros, Greece",
+          "url": "https://en.wikipedia.org/wiki/Andros,_Greece",
+          "rank": 9,
+          "bm25": 56.1685,
+          "removed": null
+        },
+        {
+          "page_id": "1483113",
+          "title": "Naxos (disambiguation)",
+          "url": "https://en.wikipedia.org/wiki/Naxos_(disambiguation)",
+          "rank": 10,
+          "bm25": 55.6662,
+          "removed": "disambiguation page"
+        },
+        {
+          "page_id": "15440356",
+          "title": "History of the Cyclades",
+          "url": "https://en.wikipedia.org/wiki/History_of_the_Cyclades",
+          "rank": 11,
+          "bm25": 55.236,
+          "removed": null
+        },
+        {
+          "page_id": "6218183",
+          "title": "Koufonisia",
+          "url": "https://en.wikipedia.org/wiki/Koufonisia",
+          "rank": 12,
+          "bm25": 52.9798,
+          "removed": null
+        },
+        {
+          "page_id": "427887",
+          "title": "Aegean Islands",
+          "url": "https://en.wikipedia.org/wiki/Aegean_Islands",
+          "rank": 13,
+          "bm25": 51.5736,
+          "removed": null
+        },
+        {
+          "page_id": "276987",
+          "title": "Syros",
+          "url": "https://en.wikipedia.org/wiki/Syros",
+          "rank": 14,
+          "bm25": 51.2276,
+          "removed": null
+        },
+        {
+          "page_id": "48333940",
+          "title": "Islands (Roman province)",
+          "url": "https://en.wikipedia.org/wiki/Islands_(Roman_province)",
+          "rank": 15,
+          "bm25": 50.6548,
+          "removed": null
+        },
+        {
+          "page_id": "460902",
+          "title": "South Aegean",
+          "url": "https://en.wikipedia.org/wiki/South_Aegean",
+          "rank": 16,
+          "bm25": 50.1558,
+          "removed": null
+        },
+        {
+          "page_id": "182237",
+          "title": "Milos",
+          "url": "https://en.wikipedia.org/wiki/Milos",
+          "rank": 17,
+          "bm25": 50.1042,
+          "removed": null
+        },
+        {
+          "page_id": "842",
+          "title": "Aegean Sea",
+          "url": "https://en.wikipedia.org/wiki/Aegean_Sea",
+          "rank": 18,
+          "bm25": 49.8212,
+          "removed": null
+        },
+        {
+          "page_id": "6218129",
+          "title": "Irakleia (Cyclades)",
+          "url": "https://en.wikipedia.org/wiki/Irakleia_(Cyclades)",
+          "rank": 19,
+          "bm25": 49.7304,
+          "removed": null
+        },
+        {
+          "page_id": "341865",
+          "title": "Cycladic culture",
+          "url": "https://en.wikipedia.org/wiki/Cycladic_culture",
+          "rank": 20,
+          "bm25": 49.4089,
+          "removed": null
+        }
+      ]
+    }
+  ],
+  "query_chars": 724,
+  "headword_variant": null,
+  "candidate_count": 32,
+  "list_pages_removed_after_fetch": [],
+  "decision": {
+    "status": "rejected",
+    "method": "nemotron_embed_rerank",
+    "thresholds": {
+      "rerank_logit": -10.0,
+      "margin": 0.5,
+      "cosine": 0.15,
+      "title_similarity": 0.0
+    },
+    "reason": "rerank_logit < -10.0, margin < 0.5, cosine < 0.15, or title_similarity < 0.0",
+    "page_id": "34455549",
+    "title": "Naxia",
+    "rerank_logit": -3.608191,
+    "cosine": 0.146531,
+    "margin_to_next": 0.135157,
+    "title_similarity": 1.0
+  },
+  "candidates": [
+    {
+      "page_id": "34455549",
+      "revision_id": "1343669506",
+      "title": "Naxia",
+      "url": "https://en.wikipedia.org/wiki/Naxia",
+      "excerpt": "Naxia is a genus of crabs in the family Majidae, containing the following species:\n\nNaxia aries (H. Milne-Edwards, 1834)\n\nNaxia aurita (Latreille, 1825)\n\nNaxia spinosa (Hess, 1865)\n\nNaxia tumida (Dana, 1851)",
+      "excerpt_offset": 0,
+      "total_chars": 207,
+      "bm25": {
+        "q0": {
+          "rank": 1,
+          "score": 26.4766
+        },
+        "q1": {
+          "rank": 6,
+          "score": 26.4766
+        }
+      },
+      "best_rank": 1,
+      "title_similarity": 1.0,
+      "context_overlap": 0.0588,
+      "cosine": 0.146531,
+      "rerank_logit": -3.608191,
+      "rerank_position": 1
+    },
+    {
+      "page_id": "60721222",
+      "revision_id": "1345060513",
+      "title": "Naxia (Caria)",
+      "url": "https://en.wikipedia.org/wiki/Naxia_(Caria)",
+      "excerpt": "Naxia (Ancient Greek: Ναξία) was a town of ancient Caria. It was a polis (city-state) and a member of the Delian League.\n\nIts site is tentatively located near Bağarcık, Aydın Province, Turkey.",
+      "excerpt_offset": 0,
+      "total_chars": 192,
+      "bm25": {
+        "q0": {
+          "rank": 2,
+          "score": 25.6504
+        },
+        "q1": {
+          "rank": 1,
+          "score": 32.3892
+        }
+      },
+      "best_rank": 1,
+      "title_similarity": 1.0,
+      "context_overlap": 0.1579,
+      "cosine": 0.185914,
+      "rerank_logit": -3.743348,
+      "rerank_position": 2
+    },
+    {
+      "page_id": "6592",
+      "revision_id": "1352866097",
+      "title": "Cyclades",
+      "url": "https://en.wikipedia.org/wiki/Cyclades",
+      "excerpt": "The Cyclades (/ ˈ s ɪ k l ə d iː z /; Greek: Κυκλάδες, romanized: Kykládes, IPA:) are an island group in the Aegean Sea, southeast of mainland Greece and a former administrative prefecture of Greece. They are one of the island groups which constitute the Aegean archipelago. The name (Κυκλάδες νήσοι, Kykládes nísoi, ' encircling islands ') refers to the archipelago forming a circle around the sacred island of Delos. The largest island of the Cyclades is Naxos; the most populated, however, is Syros.\n\nThe significant Late Neolithic and Early Bronze Age Cycladic culture is best known for its schematic, flat sculptures carved out of the islands' pure white marble centuries before the great Middle Bronze Age Minoan civilization arose in Crete to the south. These figures have been looted from burials to satisfy a thriving Cycladic antiquities market since the early 20th century.\n\nA distinctive Neolithic culture amalgamating Anatolian and mainland Greek elements arose in the western Aegean before 4000 BCE, based on emmer and wild-type barley, sheep and goats, pigs, and tuna that were apparently speared from small boats (Rutter). Excavated sites include Chalandriani, Phylakopi, Skarkos, Sal",
+      "excerpt_offset": 0,
+      "total_chars": 5436,
+      "bm25": {
+        "q2": {
+          "rank": 1,
+          "score": 64.9009
+        }
+      },
+      "best_rank": 1,
+      "title_similarity": 0.1667,
+      "context_overlap": 0.0968,
+      "cosine": 0.292639,
+      "rerank_logit": -5.958103,
+      "rerank_position": 12
+    },
+    {
+      "page_id": "48286461",
+      "revision_id": "1343691840",
+      "title": "Aristotelia naxia",
+      "url": "https://en.wikipedia.org/wiki/Aristotelia_naxia",
+      "excerpt": "Aristotelia naxia is a moth of the family Gelechiidae. It was described by Edward Meyrick in 1926. It is found on the Galápagos Islands.\n\nThe length of the forewings is 4.3-5.5 mm. The forewings are grey with dark brown markings. Adults are on wing most of the year, except June and August.",
+      "excerpt_offset": 0,
+      "total_chars": 290,
+      "bm25": {
+        "q0": {
+          "rank": 3,
+          "score": 25.5306
+        },
+        "q1": {
+          "rank": 2,
+          "score": 29.8452
+        }
+      },
+      "best_rank": 2,
+      "title_similarity": 0.4545,
+      "context_overlap": 0.125,
+      "cosine": 0.145541,
+      "rerank_logit": -6.735579,
+      "rerank_position": 16
+    },
+    {
+      "page_id": "47153804",
+      "revision_id": "1308200598",
+      "title": "Lesser Cyclades",
+      "url": "https://en.wikipedia.org/wiki/Lesser_Cyclades",
+      "excerpt": "The Lesser Cyclades or Small Cyclades (Greek: Μικρές Κυκλάδες) is an island complex in the Aegean Sea, inside the archipelago of the Cyclades. It is located to the south-east of Naxos and comprises 32 islands and rocks. The main islands are Ano Koufonisi, Kato Koufonisi, Irakleia, Schoinoussa, Donousa and Keros. The largest of them is Irakleia with an area of 18 km 2 and the most populated is Ano Koufonisi with a population of 399, according to the 2011 census. Only four of them are inhabited, Ano Koufonisi, Irakleia, Donousa and Schoinoussa. The islet of Kato Antikeri has also two inhabitants. Administratively, the islands belong to the Naxos and Lesser Cyclades municipality apart from the islets of Ano and Kato Antikeri that belong to Amorgos municipality.\n\nDuring the last ice age most of the islands of the Cyclades were united into a big landmass. After the sea level rose in ca. 9,000 B.C. the Aegean flooded the landmass to form the many small islands: this is when the archipelago acquired its modern form.\n\nThe Lesser Cyclades have been inhabited since the Stone Age. The islands flourished during the early Bronze Age, when the Cycladic culture appeared. The island of Keros was o",
+      "excerpt_offset": 0,
+      "total_chars": 1961,
+      "bm25": {
+        "q2": {
+          "rank": 2,
+          "score": 64.7634
+        }
+      },
+      "best_rank": 2,
+      "title_similarity": 0.1053,
+      "context_overlap": 0.1475,
+      "cosine": 0.255533,
+      "rerank_logit": -6.839961,
+      "rerank_position": 18
+    },
+    {
+      "page_id": "2379811",
+      "revision_id": "1340551720",
+      "title": "Davidof Island",
+      "url": "https://en.wikipedia.org/wiki/Davidof_Island",
+      "excerpt": "Davidof Island (Qanan-tanax̂ in Aleut) is an island in the Rat Islands archipelago of the Western Aleutian Islands, Alaska, United States. Davidof Island is irregular in shape with a north–south length of 2 miles and a greatest width of 0.7 mile. The high point in the south part is 1,074 feet, and the summit in the north part is 922 feet high. Rocks on the north part of the island are hydrothermally altered. The projecting E point of the island is marked by a prominent cone-shaped grayish-tan summit.\n\nDavidof island is believed to be part of a circular complex of island remnants of an ancient twin-coned volcano that was destroyed in a catastrophic eruption during the late Tertiary period — Davidof, and its smaller companions Lopy and Pyramid Islands, are remnants of the ancient caldera rim while Khvostof Island is a remnant of the western portion of the cone. Davidof Island has steep rocky shores that rise to an interior plateau to a maximum elevation of 328 m). Much of its coastline comprises steep slopes or beaches of boulder and pebbles while Crater Bay coast on the southwest contains sandy beach.\n\nDavidof Island supports a substantial colony of tufted puffins and horned puffins",
+      "excerpt_offset": 0,
+      "total_chars": 1201,
+      "bm25": {
+        "q1": {
+          "rank": 3,
+          "score": 27.9932
+        }
+      },
+      "best_rank": 3,
+      "title_similarity": 0.1053,
+      "context_overlap": 0.1379,
+      "cosine": 0.045805,
+      "rerank_logit": -8.518437,
+      "rerank_position": 27
+    },
+    {
+      "page_id": "31090298",
+      "revision_id": "1344786863",
+      "title": "Naxos (regional unit)",
+      "url": "https://en.wikipedia.org/wiki/Naxos_(regional_unit)",
+      "excerpt": "Naxos (Greek: Περιφερειακή ενότητα Νάξου) is one of the regional units of Greece. It is part of the region of South Aegean. The regional unit covers the islands of Naxos, Amorgos, Donousa, Irakleia, Schoinoussa, the Koufonisia islands and several smaller islands in the Aegean Sea.\n\nAs a part of the 2011 Kallikratis government reform, the regional unit Naxos was created out of part of the former Cyclades Prefecture. It is subdivided into 2 municipalities. These are (number as in the map in the infobox):\n\nAmorgos (2)\n\nNaxos and Lesser Cyclades (Naxos & Mikres Kyklades, 13)\n\nThe province of Naxos (Greek: Επαρχία Νάξου) was one of the provinces of the Cyclades Prefecture. It had the same territory as the present regional unit. It was abolished in 2006.",
+      "excerpt_offset": 0,
+      "total_chars": 758,
+      "bm25": {
+        "q2": {
+          "rank": 3,
+          "score": 60.3891
+        }
+      },
+      "best_rank": 3,
+      "title_similarity": 0.6667,
+      "context_overlap": 0.1,
+      "cosine": 0.213971,
+      "rerank_logit": -5.521636,
+      "rerank_position": 6
+    },
+    {
+      "page_id": "9063025",
+      "revision_id": "1279364082",
+      "title": "Naxia tumida",
+      "url": "https://en.wikipedia.org/wiki/Naxia_tumida",
+      "excerpt": "Naxia tumida, the little seaweed crab, dresser crab, or decorator crab, is a small crab of the family Majidae (with a carapace up to 4 centimetres or 1.6 inches in diameter) that is common in rocky intertidal and subtidal areas on the temperate coasts of Australia, including parts of Victoria, New South Wales, Tasmania, South Australia and Western Australia. It is usually found covered in seaweed that acts as camouflage, attached to the hooks on its shell. It attaches the algae or seaweed with a secretion that becomes adhesive when hardened.\n\nNaxia tumida was discovered by the United States Exploring Expedition and described by James Dwight Dana, originally under the name Halimus tumidus. The syntypes appear to have been lost.",
+      "excerpt_offset": 0,
+      "total_chars": 736,
+      "bm25": {
+        "q0": {
+          "rank": 4,
+          "score": 25.3768
+        },
+        "q1": {
+          "rank": 16,
+          "score": 25.3768
+        }
+      },
+      "best_rank": 4,
+      "title_similarity": 0.5882,
+      "context_overlap": 0.05,
+      "cosine": 0.073796,
+      "rerank_logit": -6.744753,
+      "rerank_position": 17
+    },
+    {
+      "page_id": "647483",
+      "revision_id": "1350633124",
+      "title": "Duchy of the Archipelago",
+      "url": "https://en.wikipedia.org/wiki/Duchy_of_the_Archipelago",
+      "excerpt": "nudo after a five or six weeks' siege, despite the assistance rendered to the Greeks by the Genoese, Venice's main competitors.\n\nWith the entire island occupied in 1210, Sanudo and his associates soon conquered Melos and the rest of the islands of the Cyclades, and he established himself as Duke of Naxia, or Duke of the Archipelago, with his headquarters on Naxos. Sanudo rebuilt a strong fortress and divided the island into 56 provinces, which he shared out as fiefs among the leaders of his men, most of whom were highly autonomous and paid their own expenses. Navigajoso had been granted his island domain by Henry of Flanders and was technically a vassal of the Latin Empire; Sanudo himself recognized the Latin Empire's authority rather than making the Duchy a vassal of Venice. The conqueror himself ruled for twenty years (1207–27). He held in his personal possession Paros, Antiparos, Milos, Sifnos, Kythnos, Ios, Amorgos, Kimolos, Sikinos, Syros, and Pholegandros.\n\nSanudo's fellow crusaders conquered lordships of their own, sometimes as vassals of Sanudo, e.g. Dandolo on Andros. Although they are often considered to have become Sanudo's vassals as well, the Ghisi brothers, who held T",
+      "excerpt_offset": 1920,
+      "total_chars": 8180,
+      "bm25": {
+        "q0": {
+          "rank": 12,
+          "score": 7.7098
+        },
+        "q2": {
+          "rank": 4,
+          "score": 59.8081
+        }
+      },
+      "best_rank": 4,
+      "title_similarity": 0.2069,
+      "context_overlap": 0.1099,
+      "cosine": 0.301944,
+      "rerank_logit": -4.686517,
+      "rerank_position": 3
+    },
+    {
+      "page_id": "2927869",
+      "revision_id": "1304490818",
+      "title": "Fournoi Korseon",
+      "url": "https://en.wikipedia.org/wiki/Fournoi_Korseon",
+      "excerpt": "Fournoi Korseon (Greek: Φούρνοι Κορσεών), more commonly simplified as Fournoi (Greek: Φούρνοι), anciently known as Corsiae or Korsiai (Ancient Greek: Κορσίαι), Corseae or Korseai (Κορσεαί), Corsia or Korsia (Κορσία), and Corassiae (Κορασσίαι), form a complex or archipelago of small Greek islands that lie between Ikaria, Samos and Patmos in Ikaria regional unit, North Aegean region. The two largest islands of the complex, the main isle of Fournoi 31 square kilometres (12 square miles) and the isle of Thymaina 10 square kilometres (3.9 square miles), are inhabited, as is Agios Minas Island 2.3 square kilometres (0.9 square miles) to the east. The municipality has an area of 45.247 km 2. On the main isle Fournoi (town) is the largest settlement and then Chrysomilia in the north the second largest (and third largest overall, after Thymaina). Fournoi (town) proper is the main ferry harbour, with ferries also landing on Thymaina.\n\nMany of the inhabitants are fishermen, although during the summer season the population is also occupied in tourist activities, mostly room rentals and catering. On the main island are a number of beaches such as Vlychada, Vitsilia, Petrokopio, Elidaki, and Bal",
+      "excerpt_offset": 0,
+      "total_chars": 2359,
+      "bm25": {
+        "q1": {
+          "rank": 4,
+          "score": 27.6501
+        }
+      },
+      "best_rank": 4,
+      "title_similarity": 0.2,
+      "context_overlap": 0.137,
+      "cosine": 0.248024,
+      "rerank_logit": -7.517783,
+      "rerank_position": 24
+    },
+    {
+      "page_id": "25312654",
+      "revision_id": "1180314126",
+      "title": "Adelpha",
+      "url": "https://en.wikipedia.org/wiki/Adelpha",
+      "excerpt": "ski, 1999\n\nAdelpha atlantica Willmott, 2003\n\nAdelpha attica (C. & R. Felder, 1867) – Attica sister\n\nAdelpha boeotia (C. & R. Felder, 1867) – Felder's sister\n\nAdelpha cytherea (Linnaeus, 1758) – smooth-banded sister\n\nAdelpha demialba (Butler, 1872) – white-spotted sister\n\nAdelpha delinita Fruhstorfer, 1913 – Fruhstorfer's Sister or delineated sister\n\nAdelpha diazi Beutelspacher, 1975 – Diaz's sister\n\nAdelpha ethelda (Hewitson, 1867) – silver-banded sister\n\nAdelpha epione (Godart, 1824) – white-barred sister\n\nAdelpha fessonia (Hewitson, 1847) – Mexican sister, band-celled sister\n\nAdelpha gelania (Godart, 1824) – Antillean sister\n\nAdelpha heraclea (C. & R. Felder, 1867) – Heraclea sister\n\nAdelpha hesterbergi Willmott & Hall, 1999\n\nAdelpha leuceria (Druce, 1874) – orange-striped sister\n\nAdelpha leucerioides Beutelspacher, 1975 – Veracruz sister\n\nAdelpha malea (C. & R. Felder, 1861) – Venezuelan sister\n\nAdelpha melona (Hewitson, 1847) – Mellona sister\n\nAdelpha naxia (C. & R. Felder, 1867) – Naxia sister, three-part sister\n\nAdelpha pollina Fruhstorfer, 1915\n\nAdelpha salmoneus (Butler, 1866) – golden-banded sister\n\nAdelpha syma (Godart, 1824) – Syma sister\n\nAdelpha viola Fruhstorfer, 1913",
+      "excerpt_offset": 3495,
+      "total_chars": 4695,
+      "bm25": {
+        "q0": {
+          "rank": 5,
+          "score": 14.1506
+        }
+      },
+      "best_rank": 5,
+      "title_similarity": 0.3333,
+      "context_overlap": 0.0185,
+      "cosine": 0.093071,
+      "rerank_logit": -5.902122,
+      "rerank_position": 11
+    },
+    {
+      "page_id": "28472021",
+      "revision_id": "1253163550",
+      "title": "Panagia, Lemnos",
+      "url": "https://en.wikipedia.org/wiki/Panagia,_Lemnos",
+      "excerpt": "foot of the hill Alepotrypes (Αλεπότρυπες).\n\nIn 1874, it had 30 families. In another work of the same year, Panagia was mentioned as Tsiftlikia (Τσηφτλίκια). Apparently the name Panagia was not in use yet. It was first mentioned on a map in 1904 by Fredrich, together with the two nearby settlements Naxia and Petsa. In 1865, the first inhabitants built a church of Panagia (Our Lady) in the location of the old monastery. Later they built a newer church with a gift of $6,500 from Anastasios Diamantis, an immigrant from the USA. In 1887, a community school was founded in nearby Plaka, which also served pupils from Panagia. In 1903, a school was founded in Panagia. The school building was built between 1929 and 1932.\n\nIn spite of being situated in a remote part of Lemnos, the village grew between World Wars I and II, because several refugee families from Asia Minor settled there. The fertility of the soil also contributed to the growth, and in 1928 Panagia had 406 inhabitants. After World War II, the agricultural fields produced 407 tons of cotton and 700 tons of wheat. In 1961, it had 697 inhabitants. Later the population declined, but it is still one of the most lively villages on the",
+      "excerpt_offset": 1386,
+      "total_chars": 2663,
+      "bm25": {
+        "q0": {
+          "rank": 8,
+          "score": 13.4916
+        },
+        "q1": {
+          "rank": 5,
+          "score": 26.9305
+        }
+      },
+      "best_rank": 5,
+      "title_similarity": 0.4444,
+      "context_overlap": 0.0563,
+      "cosine": 0.245715,
+      "rerank_logit": -7.003266,
+      "rerank_position": 21
+    },
+    {
+      "page_id": "62278",
+      "revision_id": "1351880014",
+      "title": "Naxos",
+      "url": "https://en.wikipedia.org/wiki/Naxos",
+      "excerpt": "Naxos (/ ˈ n æ k s ɒ s, - s oʊ s /; Greek: Νάξος, pronounced) is a Greek island belonging to the Cyclades island group. It is the largest island in the group. The largest town and capital of the island is Chora or Naxos City, with 8,897 inhabitants out of the total 20,578 in the island (2021 census). The main villages are Filoti, Apiranthos, Vivlos, Agios Arsenios, Koronos and Glynado. It was an important centre during the Bronze Age Cycladic Culture and in the Ancient Greek Archaic Period. The island is famous as a source of emery, a rock rich in corundum, which until modern times was one of the best abrasives available.\n\nAccording to Greek mythology, the young Zeus was raised in a cave on Mt. Zas (\" Zas \" meaning \" Zeus \"). Homer mentions \" Dia \"; literally the sacred island \"of the Goddess\". Károly Kerényi explains:\n\nThis name, Dia, which means 'heavenly' or 'divine', was applied to several small craggy islands in our sea, all of them lying close to larger islands, such as Crete or Naxos. The name \"Dia\" was even transferred to the island of Naxos itself, since it was more widely supposed than any other to have been the nuptial isle of Dionysus.\n\nOne legend has it that in the Her",
+      "excerpt_offset": 0,
+      "total_chars": 10590,
+      "bm25": {
+        "q2": {
+          "rank": 5,
+          "score": 58.3471
+        }
+      },
+      "best_rank": 5,
+      "title_similarity": 0.6667,
+      "context_overlap": 0.1071,
+      "cosine": 0.391249,
+      "rerank_logit": -5.092309,
+      "rerank_position": 4
+    },
+    {
+      "page_id": "51159973",
+      "revision_id": "1293702274",
+      "title": "Church of Panagia Protothronos",
+      "url": "https://en.wikipedia.org/wiki/Church_of_Panagia_Protothronos",
+      "excerpt": "lanked by the chapel of Saint Akindynos to the north and a vaulted rectangular room to the south.\n\nAccording to an architrave inscription probably from the templon, the church was renovated in 1052. The inscription also mentions the names of Bishop Leo, Niketas, \" protospatharios and tourmarches of Naxia\" and Count Stephen Kamilaris. Other 16th and 17th-century inscriptions refer to subsequent repairs. The church interior is decorated in five successive layers dating to the early Christian period; the 9th century (non-figurative decoration); and the 10th, 11th, and 13th centuries. Some of these were detached and then repositioned once the earliest layer had been removed, so frescoes from different periods are now visible.\n\nThe first layer of frescoes dates to the 7th century - apostles adorn the bottom of the conch, while the side of the window has a depiction of St. Isidore. The second layer painted over the Apostles in the conch consisted of non-figurative decoration, with crosses in the arcades, and dates to the Iconoclast period in the 9th century.\n\nThe two superimposed layers uncovered in the dome have been dated to 1052 and 1056 respectively, as they have been linked to the a",
+      "excerpt_offset": 509,
+      "total_chars": 2538,
+      "bm25": {
+        "q0": {
+          "rank": 6,
+          "score": 13.9506
+        }
+      },
+      "best_rank": 6,
+      "title_similarity": 0.2353,
+      "context_overlap": 0.0541,
+      "cosine": 0.122853,
+      "rerank_logit": -6.197295,
+      "rerank_position": 14
+    },
+    {
+      "page_id": "31297430",
+      "revision_id": "1300535695",
+      "title": "Naxos and Lesser Cyclades",
+      "url": "https://en.wikipedia.org/wiki/Naxos_and_Lesser_Cyclades",
+      "excerpt": "Naxos and Lesser Cyclades (Greek: Νάξος και Μικρές Κυκλάδες) is a municipality in the Naxos regional unit, South Aegean region, Greece. The seat of the municipality is the town Naxos (city). The municipality consists of the Cycladic island of Naxos and the islands of the Lesser Cyclades: Donousa, Irakleia, Koufonisia, Schoinoussa and several smaller islands. The municipality has an area of 495.867 km 2.\n\nThe municipality Naxos and Lesser Cyclades was formed at the 2011 local government reform by the merger of the following 6 former municipalities, that became municipal units:\n\nDonousa\n\nDrymalia\n\nIrakleia\n\nKoufonisia\n\nNaxos (city)\n\nSchoinoussa",
+      "excerpt_offset": 0,
+      "total_chars": 650,
+      "bm25": {
+        "q2": {
+          "rank": 6,
+          "score": 58.2349
+        }
+      },
+      "best_rank": 6,
+      "title_similarity": 0.2857,
+      "context_overlap": 0.1622,
+      "cosine": 0.254267,
+      "rerank_logit": -5.524036,
+      "rerank_position": 7
+    },
+    {
+      "page_id": "6931073",
+      "revision_id": "1285558668",
+      "title": "Majidae",
+      "url": "https://en.wikipedia.org/wiki/Majidae",
+      "excerpt": "athus Rathbun, 1932\n\nCyclax Dana, 1851\n\nEntomonyx Miers, 1884\n\nEurynome Leach, 1814\n\nJacquinotia Rathbun, 1915\n\nKasagia Richer de Forges & Ng, 2007\n\nKimbla Griffin & Tranter, 1986\n\nLeptomithrax Miers, 1876\n\nMaiopsis Faxon, 1893\n\nMaja Lamarck, 1801\n\nMajella Ortmann, 1893\n\nMicrohalimus Haswell, 1880\n\nNaxia Latreille, 1825\n\nNotomithrax Griffin, 1963\n\nParaentomonyx T. Sakai, 1983\n\nParamithrax H. Milne-Edwards, 1837\n\nPippacirama Griffin & Tranter, 1986\n\nPrismatopus Ward, 1933\n\nSchizophroida T. Sakai, 1933\n\nSchizophrys White, 1848\n\nSeiitaoides Griffin & Tranter, 1986\n\nTemnonotus A. Milne-Edwards, 1875\n\nTeratomaia Griffin & Tranter, 1986\n\nThersandrus Rathbun, 1897\n\nTumulosternum McCulloch, 1913\n\nWilsonimaia † Blow & Manning, 1996\n\nMicromaiinae † Beurlen, 1930\n\nMicromaia † Bittner, 1875\n\nMithracia † Bell, 1858\n\nPisomaja † Lőrenthey, in Lőrenthey & Beurlen, 1929\n\nMithracinae MacLeay, 1838\n\nAla Lockington, 1877\n\nAntarctomithrax † Feldmann, 1994\n\nCoelocerus A. Milne-Edwards, 1875\n\nCyclocoeloma Miers, 1880\n\nCyphocarcinus A. Milne-Edwards, 1868\n\nLeptopisa Stimpson, 1871\n\nMacrocoeloma Miers, 1879\n\nMicippa Leach, 1817\n\nMicrophrys Milne-Edwards, 1851\n\nMithraculus White, 1847\n\nMithrax A. G. Desmare",
+      "excerpt_offset": 634,
+      "total_chars": 2111,
+      "bm25": {
+        "q0": {
+          "rank": 7,
+          "score": 13.8916
+        }
+      },
+      "best_rank": 7,
+      "title_similarity": 0.5,
+      "context_overlap": 0.0139,
+      "cosine": 0.08582,
+      "rerank_logit": -5.678424,
+      "rerank_position": 9
+    },
+    {
+      "page_id": "12693373",
+      "revision_id": "1300390450",
+      "title": "Naxos (city)",
+      "url": "https://en.wikipedia.org/wiki/Naxos_(city)",
+      "excerpt": "y and marble, it was able to become one of the most prominent Greek city-states in the archaic period. The city was powerful enough to exert its control over several of the neighboring islands. During the Archaic era, Naxos was also among the first places in Greece where marble sculpture developed. Naxian sculpture from this era has been found all over Greece. The Naxians are even known to have dedicated sculptures and other works in Ancient Greek sanctuaries such as Delos and Delphi.\n\nAround 546 BC, after a period of social struggles, an aristocrat named Lygdamis, initially representing the rural population of the island's hinterland, was able to assume power on the island with the support of the tyrant of Athens, Peisistratos. During his rule, several temples and infrastructure projects are known to have been constructed in the city and elsewhere on the island, such as the temple of Apollo on the islet Palatia, the temple of Demeter in Sangri and an aqueduct that provided water to the city. Lygdamis was removed from power in 524 BC by the Peloponnesian League, a military alliance led by Sparta, and some of his building projects remained unfinished, famously including the temple o",
+      "excerpt_offset": 1057,
+      "total_chars": 16531,
+      "bm25": {
+        "q0": {
+          "rank": 13,
+          "score": 4.842
+        },
+        "q2": {
+          "rank": 7,
+          "score": 57.1044
+        }
+      },
+      "best_rank": 7,
+      "title_similarity": 0.6667,
+      "context_overlap": 0.0875,
+      "cosine": 0.286162,
+      "rerank_logit": -5.15219,
+      "rerank_position": 5
+    },
+    {
+      "page_id": "2027284",
+      "revision_id": "1309223757",
+      "title": "Mingan Archipelago",
+      "url": "https://en.wikipedia.org/wiki/Mingan_Archipelago",
+      "excerpt": "The Mingan Archipelago is an archipelago located east of Quebec, Canada. It consists of a chain of about 40 islands.\n\nStarting but 124 miles from the end of the road along the north shore of the St. Lawrence River (Le Fleuve), the Mingan Archipelago National Park Reserve of Canada spreads about 109 miles eastward as it dots the coastline with over 2,000 islands and islets. To the southwest a 9 to 10 hour drive away lies Quebec City. Due south across a 12-mile channel is Anticosti Island and below Anticosti another 25 miles is the eastern tip of the Gaspé Peninsula. To the east is a roadless coastline all the way to Newfoundland and Labrador. To the north are tundra, lakes, bog and rock. In late June it is still Spring. Politically, most of the islands lie in the town of Havre-Saint-Pierre, but the westernmost of the chain lie in the municipality of Longue-Pointe-de-Mingan.\n\nThe archipelago includes Île Niapiskau and its limestone monoliths.",
+      "excerpt_offset": 0,
+      "total_chars": 954,
+      "bm25": {
+        "q1": {
+          "rank": 7,
+          "score": 26.4061
+        }
+      },
+      "best_rank": 7,
+      "title_similarity": 0.3478,
+      "context_overlap": 0.0986,
+      "cosine": 0.134087,
+      "rerank_logit": -8.879745,
+      "rerank_position": 29
+    },
+    {
+      "page_id": "1642131",
+      "revision_id": "1283567977",
+      "title": "Mount Liamuiga",
+      "url": "https://en.wikipedia.org/wiki/Mount_Liamuiga",
+      "excerpt": "Mount Liamuiga is a 1,156-metre (3,792 ft) stratovolcano which forms the north-western part of the island of Saint Kitts. The peak is the highest point on the island of Saint Kitts, in the federation of Saint Kitts and Nevis, and in the entire British Leeward Islands, as well as one of the tallest peaks in the eastern Caribbean archipelago. The peak is topped by a 1-kilometre (0.6 mi) wide summit crater, which contained a shallow crater lake until 1959. As of 2006, the crater lake had re-formed. The last verified eruptions from the volcano were about 1,800 years ago, while reports of possible eruptions in 1692 and 1843 are considered uncertain.\n\nMount Liamuiga was formerly named Mount Misery. The renaming took place on the date of St. Kitts' independence, September 19, 1983. However, many older citizens still refer to it as Mount Misery. The name Liamuiga is derived from the Kalinago name for the entire island of St. Kitts, which means, \"fertile land.\"\n\nThe mountainsides are covered in farmland and small villages up to a height of 460 metres (1,500 ft), after which lush tropical rainforests drape the slopes until cloud forest takes over at 900 m (3,000 ft). The mountain can be hike",
+      "excerpt_offset": 0,
+      "total_chars": 1372,
+      "bm25": {
+        "q1": {
+          "rank": 8,
+          "score": 26.0174
+        }
+      },
+      "best_rank": 8,
+      "title_similarity": 0.3158,
+      "context_overlap": 0.1111,
+      "cosine": 0.131047,
+      "rerank_logit": -9.095911,
+      "rerank_position": 31
+    },
+    {
+      "page_id": "613710",
+      "revision_id": "1341971871",
+      "title": "Marco I Sanudo",
+      "url": "https://en.wikipedia.org/wiki/Marco_I_Sanudo",
+      "excerpt": "Marco Sanudo (c. 1153 Eraclea – between 1220 and 1230, most probably 1227) was the creator and first Duke of the Duchy of the Archipelago, in Italian: \"Duca del Mare Egeo e Re di Candia\", Barone delle Isole di Nasso, Pario, Milo, Marine ed Andri, duchy granted by the Republic of Venice to him and all his descendants. After the Fourth Crusade his lineage became named Sanudo de Candia.\n\nMaternal nephew of Venetian doge Enrico Dandolo, he was a participant in the Fourth Crusade (1204). He was part of the negotiations when the Republic of Venice bought the island of Crete from Boniface of Montferrat.\n\nBetween 1205 and 1207, or a little after 1213-1214, he gathered a fleet and captured the island of Naxos, laying the foundations of the Duchy of the Archipelago. He built a new capital city on the island, Kastro (now the main port). During his reign, he blended the Byzantine and Venetian organizations.\n\nHe became vassal of the Latin Emperor Henry of Flanders around 1210 or 1216. For his lord, he fought against the Empire of Nicaea. But for Venice, he took part in the Cretan expedition of 1211.\n\nAll biographies of Marco Sanudo were written in the centuries after the facts they tell. Most o",
+      "excerpt_offset": 0,
+      "total_chars": 24402,
+      "bm25": {
+        "q2": {
+          "rank": 8,
+          "score": 56.596
+        }
+      },
+      "best_rank": 8,
+      "title_similarity": 0.1053,
+      "context_overlap": 0.0617,
+      "cosine": 0.184017,
+      "rerank_logit": -6.558317,
+      "rerank_position": 15
+    },
+    {
+      "page_id": "59469503",
+      "revision_id": "1322661358",
+      "title": "Dolichopoda",
+      "url": "https://en.wikipedia.org/wiki/Dolichopoda",
+      "excerpt": "mpini & Di Russo, 2008\n\nDolichopoda kalithea Di Russo & Rampini, 2012\n\nDolichopoda kikladica Di Russo & Rampini, 2018\n\nDolichopoda kiriakii Rampini & Di Russo, 2008\n\nDolichopoda laetitiae Minozzi, 1920\n\nDolichopoda linderii (Dufour, 1861)\n\nDolichopoda lycia (Galvagni, 2006)\n\nDolichopoda margiolis Di Russo & Rampini, 2018\n\nDolichopoda matsakisi Boudou-Saltet, 1972\n\nDolichopoda naxia Boudou-Saltet, 1973\n\nDolichopoda noctivaga Di Russo & Rampini, 2007\n\nDolichopoda palpata (Sulzer, 1776)\n\nDolichopoda paraskevi Boudou-Saltet, 1973\n\nDolichopoda patrizii Chopard, 1964\n\nDolichopoda pavesii Galvagni, 2002\n\nDolichopoda pusilla Bolívar, 1899\n\nDolichopoda sbordonii Di Russo & Rampini, 2006\n\nDolichopoda steriotisi Boudou-Saltet, 1973\n\nDolichopoda sutini Rampini & Taylan, 2012\n\nDolichopoda thasosensis Chopard, 1964\n\nDolichopoda unicolor Chopard, 1964\n\nDolichopoda (Petrochilosina) Boudou-Saltet, 1980\n\nDolichopoda cassagnaui Boudou-Saltet, 1971\n\nDolichopoda insignis Chopard, 1955\n\nDolichopoda makrykapa Boudou-Saltet, 1980\n\nDolichopoda ochtoniai Rampini & Di Russo, 2015\n\nDolichopoda petrochilosi Chopard, 1954\n\nDolichopoda saraolacosi Rampini & Di Russo, 2015\n\nDolichopoda vandeli Boudou-Saltet, 1970",
+      "excerpt_offset": 2088,
+      "total_chars": 3288,
+      "bm25": {
+        "q0": {
+          "rank": 9,
+          "score": 11.9369
+        }
+      },
+      "best_rank": 9,
+      "title_similarity": 0.125,
+      "context_overlap": 0.0238,
+      "cosine": 0.093519,
+      "rerank_logit": -5.525995,
+      "rerank_position": 8
+    },
+    {
+      "page_id": "1863592",
+      "revision_id": "1345630542",
+      "title": "Tuscan Archipelago",
+      "url": "https://en.wikipedia.org/wiki/Tuscan_Archipelago",
+      "excerpt": "The Tuscan Archipelago (or Etruscan Islands) is a chain of islands between the Ligurian Sea and Tyrrhenian Sea, west of Tuscany, Italy.\n\nThe islands' proximity to several major cities has made them a favourite tourist location. History and literature have ensured that most people are familiar with the islands of Elba and Montecristo.\n\nLegends says the archipelago originates from a necklace that Venus, the Roman goddess of beauty and sensuality, lost while emerging from the Tyrrhenian sea. In this myth, the seven islands are the seven pearls the goddess was unable to retrieve.\n\nThe Tuscan Archipelago lies between Corsica and the Tuscan coast and contains seven major islands (Capraia, Elba, Giannutri, Giglio, Gorgona, Montecristo and Pianosa); all are protected as part of the Arcipelago Toscano National Park. The Archipelago extends 166 kilometres (103 mi) from the northernmost island (Gorgona) to the southernmost (Giannutri) and 56 kilometres (35 mi) from the westernmost (Capraia) to the Tuscan coast.\n\nMain Islands (from north to south):\n\nThere are several islets in the archipelago including:\n\nCerboli (Piombino Channel)\n\nFormiche di Grosseto (Grosseto)\n\nIsola della Cappa (Giglio)\n\nI",
+      "excerpt_offset": 0,
+      "total_chars": 9826,
+      "bm25": {
+        "q1": {
+          "rank": 9,
+          "score": 25.9933
+        }
+      },
+      "best_rank": 9,
+      "title_similarity": 0.3478,
+      "context_overlap": 0.0789,
+      "cosine": 0.142149,
+      "rerank_logit": -8.302351,
+      "rerank_position": 26
+    },
+    {
+      "page_id": "182236",
+      "revision_id": "1344786647",
+      "title": "Andros, Greece",
+      "url": "https://en.wikipedia.org/wiki/Andros,_Greece",
+      "excerpt": "Andros (Greek: Άνδρος, pronounced) is the northernmost island of the Greek Cyclades archipelago, about 10 km (6 mi) southeast of Euboea, and about 3 km (2 mi) north of Tinos. It is nearly 40 km (25 mi) long, and its greatest breadth is 16 km (10 mi). It is for the most part mountainous, with many fruitful and well-watered valleys. The municipality, which includes the island Andros and several small, uninhabited islands, has an area of 380 km 2 (147 sq mi). The largest towns are Andros, Gavrio, Batsi, and Ormos Korthiou.\n\nPalaeopolis, the ancient capital, was built into a steep hillside, and the breakwater of its harbor can still be seen underwater. At the village of Apoikia, there is the notable spring of Sariza, where the water flows from a sculpted stone lion's head. Andros also offers hiking options with many new paths being added each year.\n\nDuring the Final Neolithic, Andros had a fortified village on its west coast, which archaeologists have named Strofilas, after the plateau on which it was built. Final Neolithic in the Cycladic area is now dated around 4500–4000 BC. Strofilas was related to the \"Attica-Kephala\" culture, coinciding with the beginning of the Cycladic culture ",
+      "excerpt_offset": 0,
+      "total_chars": 13619,
+      "bm25": {
+        "q2": {
+          "rank": 9,
+          "score": 56.1685
+        }
+      },
+      "best_rank": 9,
+      "title_similarity": 0.1176,
+      "context_overlap": 0.1481,
+      "cosine": 0.347168,
+      "rerank_logit": -7.345974,
+      "rerank_position": 23
+    },
+    {
+      "page_id": "14533366",
+      "revision_id": "1150426461",
+      "title": "Aristotelia (moth)",
+      "url": "https://en.wikipedia.org/wiki/Aristotelia_(moth)",
+      "excerpt": "1923\n\nAristotelia mesoxysta Meyrick, 1913\n\nAristotelia mirabilis (Christoph, 1888)\n\nAristotelia mirandella (Chretien, 1908)\n\nAristotelia modulatrix Meyrick, 1938\n\nAristotelia molestella (Zeller, 1873)\n\nAristotelia monilella Barnes & Busck, 1920\n\nAristotelia montarcella A. Schmidt, 1941\n\nAristotelia naxia Meyrick, 1926\n\nAristotelia nesiotatos Park, 2014\n\nAristotelia ochreella (Rebel, 1927)\n\nAristotelia ochrostephana Turner, 1933\n\nAristotelia ochroxysta Meyrick, 1929\n\nAristotelia oribatis Meyrick, 1917\n\nAristotelia ouedella (Chrétien, 1908)\n\nAristotelia pachnopis Meyrick, 1939\n\nAristotelia palamota Meyrick, 1926\n\nAristotelia pamphaea Meyrick, 1904\n\nAristotelia pancaliella (Staudinger, 1871)\n\nAristotelia pantalaena (Walsingham, 1911)\n\nAristotelia paphia Meyrick, 1917\n\nAristotelia paradesma (Meyrick, 1885)\n\nAristotelia parephoria Clarke, 1951\n\nAristotelia paterata Meyrick, 1914\n\nAristotelia penicillata (Walsingham, 1897)\n\nAristotelia perfossa Meyrick, 1917\n\nAristotelia perplexa Clarke, 1951\n\nAristotelia planitia Braun, 1925\n\nAristotelia primipilana Meyrick, 1923\n\nAristotelia probolopis Meyrick, 1923\n\nAristotelia psoraleae Braun, 1930\n\nAristotelia ptilastis Meyrick, 1909\n\nAristotelia pu",
+      "excerpt_offset": 3278,
+      "total_chars": 6350,
+      "bm25": {
+        "q0": {
+          "rank": 10,
+          "score": 8.652
+        }
+      },
+      "best_rank": 10,
+      "title_similarity": 0.375,
+      "context_overlap": 0.0208,
+      "cosine": 0.100007,
+      "rerank_logit": -6.122939,
+      "rerank_position": 13
+    },
+    {
+      "page_id": "7006008",
+      "revision_id": "1331822496",
+      "title": "Žirje, Croatia",
+      "url": "https://en.wikipedia.org/wiki/%C5%BDirje,_Croatia",
+      "excerpt": "Žirje (pronounced) is an island and a settlement in the Croatian part of the Adriatic Sea. It is situated in the Šibenik archipelago, about 22 kilometres (14 miles) southwest of Šibenik, which makes it the most remote permanently inhabited island in the Šibenik archipelago. Its area is 15.08 km 2, and it has a population of 103 (2011 census). Its population is steadily decreasing (720 residents in 1953, 207 residents in 1981, and 124 residents in 2001).\n\nThe island is composed of two limestone ridges. Nestled between them is a fertile valley. The vegetation of the island is mainly composed of maquis shrubland, with some farm land in the central parts of the island. Main industries are agriculture (grapes, olives, plums, figs and sour cherries) and fishing. Fish are abundant in the waters around Žirje. Tourism on Žirje has remained largely undeveloped in comparison to the other islands in the Croatian Adriatic.\n\nIn the 12th and 13th centuries the island was defended by fortresses and walls constructed on the foundations of an earlier Byzantine fortress from the 6th century. Due to its use by the Yugoslav People's Army, the southern and south-western parts of the island were off limi",
+      "excerpt_offset": 0,
+      "total_chars": 1386,
+      "bm25": {
+        "q1": {
+          "rank": 10,
+          "score": 25.8955
+        }
+      },
+      "best_rank": 10,
+      "title_similarity": 0.3529,
+      "context_overlap": 0.0909,
+      "cosine": 0.140207,
+      "rerank_logit": -8.870892,
+      "rerank_position": 28
+    },
+    {
+      "page_id": "79077420",
+      "revision_id": "1326357804",
+      "title": "Stenotaenia (centipede)",
+      "url": "https://en.wikipedia.org/wiki/Stenotaenia_(centipede)",
+      "excerpt": "in the genus Stenotaenia can be distinguished from their relatives in the genus Tuoba, however, based on other traits. For example, the basal article of the forcipule is wider than long in Stenotaenia but about as wide as long in Tuoba, and the ultimate article of the forcipule features a basal tubercle in Tuoba but not in Stenotaenia. Furthermore, the sterna in the anterior trunk segments feature carpophagus sockets in Tuoba but not in Stenotaenia. Moreover, the anterior margin of the ultimate leg-bearing segment is much wider than the posterior margin in Tuoba but not in Stenotaenia, and the coxal glands on each of the ultimate legs usually open into two pouches in Stenotaenia but only one pouch in Tuoba.\n\nThis genus includes the following species:\n\nStenotaenia antecribellata (Verhoeff, 1898)\n\nStenotaenia asiaeminoris (Verhoeff, 1898)\n\nStenotaenia cribelliger (Verhoeff, 1898)\n\nStenotaenia fimbriata (Verhoeff, 1934)\n\nStenotaenia linearis (C.L. Koch, 1835)\n\nStenotaenia naxia (Verhoeff, 1901)\n\nStenotaenia palpiger (Attems, 1903)\n\nStenotaenia rhodopensis (Kaczmarek, 1970)\n\nStenotaenia romana (Silvestri, 1895)\n\nStenotaenia sorrentina (Attems, 1903)\n\nStenotaenia sturanyi (Attems, 1903)",
+      "excerpt_offset": 6055,
+      "total_chars": 7255,
+      "bm25": {
+        "q0": {
+          "rank": 11,
+          "score": 8.4952
+        }
+      },
+      "best_rank": 11,
+      "title_similarity": 0.5,
+      "context_overlap": 0.0175,
+      "cosine": 0.020993,
+      "rerank_logit": -7.252541,
+      "rerank_position": 22
+    },
+    {
+      "page_id": "622364",
+      "revision_id": "1320126832",
+      "title": "The Archipelago",
+      "url": "https://en.wikipedia.org/wiki/The_Archipelago",
+      "excerpt": "The Archipelago is a township in central Ontario, Canada, along the Georgian Bay in the Parry Sound District.\n\nThe municipality consists of two non-contiguous parts, separated by Carling and the Parry Sound. The northern part includes the village of Pointe au Baril on the mainland and most of the geographic townships of Shawanaga and Harrison. This covers the islands and shoreline of Georgian Bay from the Twin Sisters (at the northern boundary of Carling Township) north to Charles Inlet and the Naiscoot River, a few miles south of Britt. The southern part consists of the geographic townships of Cowper and Conger that includes the islands and shoreline of Georgian Bay southwest of Parry Sound, from Twelve Mile Bay (at the District of Muskoka boundary) to Wasauksing First Nation and up the South Channel almost to the town of Parry Sound. Almost a third of the population of the southern part lives on the islands in the Sans Souci and Copperhead area, centred on Frying Pan Island.\n\nThe township is characterized by numerous islands (hence its name) and bays that attract large numbers of vacationers and boaters in the summer. Much of its area is undeveloped and crown-owned land: in the n",
+      "excerpt_offset": 0,
+      "total_chars": 3484,
+      "bm25": {
+        "q1": {
+          "rank": 11,
+          "score": 25.7537
+        }
+      },
+      "best_rank": 11,
+      "title_similarity": 0.3,
+      "context_overlap": 0.1235,
+      "cosine": 0.185987,
+      "rerank_logit": -7.94914,
+      "rerank_position": 25
+    },
+    {
+      "page_id": "15440356",
+      "revision_id": "1352277014",
+      "title": "History of the Cyclades",
+      "url": "https://en.wikipedia.org/wiki/History_of_the_Cyclades",
+      "excerpt": "The Cyclades (Greek: Κυκλάδες Kykládes) are Greek islands located in the southern part of the Aegean Sea. The archipelago contains some 2,200 islands, islets and rocks; just 33 islands are inhabited. For the ancients, they formed a circle (κύκλος / kyklos in Greek) around the sacred island of Delos, hence the name of the archipelago. The best-known are, from north to south and from east to west: Andros, Tinos, Mykonos, Naxos, Amorgos, Syros, Paros and Antiparos, Ios, Santorini, Anafi, Kea, Kythnos, Serifos, Sifnos, Folegandros and Sikinos, Milos and Kimolos; to these can be added the little Cyclades: Irakleia, Schoinoussa, Koufonisi, Keros and Donoussa, as well as Makronisos between Kea and Attica, Gyaros, which lies before Andros, and Polyaigos to the east of Kimolos and Thirassia, before Santorini. At times they were also called by the generic name of Archipelago.\n\nThe islands are located at the crossroads between Europe and Asia Minor and the Near East as well as between Europe and Africa. In antiquity, when navigation consisted only of cabotage and sailors sought never to lose sight of land, they played an essential role as a stopover. Into the 20th century, this situation made",
+      "excerpt_offset": 0,
+      "total_chars": 86916,
+      "bm25": {
+        "q2": {
+          "rank": 11,
+          "score": 55.236
+        }
+      },
+      "best_rank": 11,
+      "title_similarity": 0.0741,
+      "context_overlap": 0.1348,
+      "cosine": 0.302306,
+      "rerank_logit": -5.832852,
+      "rerank_position": 10
+    },
+    {
+      "page_id": "20388",
+      "revision_id": "1342112737",
+      "title": "Geography of Myanmar",
+      "url": "https://en.wikipedia.org/wiki/Geography_of_Myanmar",
+      "excerpt": "Myanmar (also known as Burma) is the northwesternmost country of Mainland Southeast Asia. Its land area covers 261,228 square miles (676,580 km 2), which makes it the second-largest country in Southeast Asia and the largest on Mainland Southeast Asia. The kite-shaped country stretches from 10'N to 20'N for 1,275 miles (2,052 km), with a long tail running along the west coast of the Malay Peninsula.\n\nMyanmar lies along the Indian and Eurasian plates and to the southeast of the Tibetan Plateau. The Bay of Bengal is to the southwest, and the Andaman Sea is to the south. Nearly half of the land is mountainous, forming a horseshoe around the central lowlands. The Arakan Mountains are on the west and the Shan Hills dominate the east. The central valley follows the Irrawaddy River. The basin has around 39.5 million people and the largest city Yangon. There are 135 officially-recognised ethnic groups. It is near major shipping lanes of the Indian Ocean. There was a silk road from the Bay of Bengal to China. The neighbouring countries are China in the north, India and Bangladesh to the west, and Laos and Thailand to the east.\n\nTotal: 261,228 square miles (676,580 km 2)\n\nCountry rank in the ",
+      "excerpt_offset": 0,
+      "total_chars": 14375,
+      "bm25": {
+        "q1": {
+          "rank": 12,
+          "score": 25.6667
+        }
+      },
+      "best_rank": 12,
+      "title_similarity": 0.16,
+      "context_overlap": 0.0854,
+      "cosine": 0.085481,
+      "rerank_logit": -8.91112,
+      "rerank_position": 30
+    },
+    {
+      "page_id": "6218183",
+      "revision_id": "1340807741",
+      "title": "Koufonisia",
+      "url": "https://en.wikipedia.org/wiki/Koufonisia",
+      "excerpt": "The Koufonisia (Greek: Κουφονήσια) are a small island complex and a former community in the Cyclades, Greece. Since the 2011 local government reform, it has been part of the Municipality of Naxos and Lesser Cyclades, within which it functions as a municipal unit. The municipal unit has an area of 26.025 km 2.\n\nKoufonisia includes three main islands:\n\nEpano, Pano or Ano Koufonisi (for Upper) often merely called Koufonisi (in Greek: επάνω κουφονήσι)\n\nKato Koufonisi (for Lower) (in Greek: Κάτω Κουφονήσι) and\n\nKeros or Karos (in Greek: Κέρος)\n\nGeographically, they are located on the south-southeast side of Naxos and on the west-northwest of Amorgos and belong to the archipelago of the Lesser East Cyclades. Uninhabited Keros is a protected archaeological site from which many ancient Cycladic art pieces were excavated in the 20th century.\n\nThere are two proposed explanations for the origin of the name of the island. According to the first, Koufonisia was the ancient name of the gulf between Koufonisia and Glaronisi. The full name was \"Koufos Limin\", which means lee port, where ships can anchor. According to the second version, which is supported by Manesis, this name was chosen because o",
+      "excerpt_offset": 0,
+      "total_chars": 6603,
+      "bm25": {
+        "q2": {
+          "rank": 12,
+          "score": 52.9798
+        }
+      },
+      "best_rank": 12,
+      "title_similarity": 0.4,
+      "context_overlap": 0.1351,
+      "cosine": 0.275758,
+      "rerank_logit": -6.894086,
+      "rerank_position": 20
+    },
+    {
+      "page_id": "14108112",
+      "revision_id": "1337682149",
+      "title": "Spider Islands",
+      "url": "https://en.wikipedia.org/wiki/Spider_Islands",
+      "excerpt": "The Spider Islands are a small archipelago in the north basin of Lake Winnipeg in Manitoba, Canada. The archipelago is situated near the eastern shoreline of the lake, north of the mouth of the Belanger River.\n\nThe archipelago consists of eight small islands, and together with reefs the islands form a chain that reaches nearly four kilometers or two and a half miles into the north basin.",
+      "excerpt_offset": 0,
+      "total_chars": 390,
+      "bm25": {
+        "q1": {
+          "rank": 13,
+          "score": 25.4621
+        }
+      },
+      "best_rank": 13,
+      "title_similarity": 0.1111,
+      "context_overlap": 0.1379,
+      "cosine": 0.024667,
+      "rerank_logit": -9.234138,
+      "rerank_position": 32
+    },
+    {
+      "page_id": "427887",
+      "revision_id": "1352299565",
+      "title": "Aegean Islands",
+      "url": "https://en.wikipedia.org/wiki/Aegean_Islands",
+      "excerpt": "The Aegean Islands are the group of islands in the Aegean Sea, with mainland Greece to the west and north and Turkey to the east; the island of Crete delimits the sea to the south, those of Rhodes, Karpathos and Kasos to the southeast. The ancient Greek name of the Aegean Sea, Archipelago (ἀρχιπέλαγος, archipelagos), was later applied to the islands it contains and is now used more generally, to refer to any island group.\n\nThe vast majority of the Aegean Islands belong to Greece, being split among nine administrative regions. The only sizable possessions of Turkey in the Aegean Sea are Imbros (Gökçeada) and Tenedos (Bozcaada), in the northeastern part of the sea. Various smaller islets off Turkey's western coast are also under Turkish sovereignty.\n\nThe islands have hot summers and mild winters, a hot-summer Mediterranean climate (Csa in the Köppen climate classification).\n\nThe Aegean Islands are traditionally subdivided into seven groups, from north to south:\n\nNortheastern Aegean Islands\n\nEuboea\n\nSporades (Northern Sporades)\n\nCyclades\n\nSaronic Islands\n\nDodecanese (Southern Sporades)\n\nCrete\n\nThe term Italian Islands of the Aegean (Italian: Isole Italiane dell’Egeo) is sometimes used",
+      "excerpt_offset": 0,
+      "total_chars": 1556,
+      "bm25": {
+        "q2": {
+          "rank": 13,
+          "score": 51.5736
+        }
+      },
+      "best_rank": 13,
+      "title_similarity": 0.2222,
+      "context_overlap": 0.1125,
+      "cosine": 0.130277,
+      "rerank_logit": -6.858239,
+      "rerank_position": 19
+    }
+  ]
+}
