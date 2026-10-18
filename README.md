@@ -6,6 +6,83 @@ Work with your coding agent to complete the project stages.
 This starter supplies setup code, model clients, source data contracts, and checks.
 Your team builds the extraction workflow, article matching, comparisons, agent tools, and website.
 
+## Team solution and results
+
+Our pipeline has seven stages. Run each one with `uv run nemotron-challenge run <stage>`.
+[docs/team-pipeline.md](docs/team-pipeline.md) describes the method of each stage.
+
+| Stage | What it does | Models |
+| --- | --- | --- |
+| `extract` | Parses each scan, keeps the raw reply, removes page furniture, and splits entries at headwords | Parse 3.5 |
+| `correct` | Corrects the Parse text of each block from an enlarged crop of the scan | Super 3.5 VL |
+| `match` | Gets BM25 candidates, ranks them with the reranker, and accepts by calibrated thresholds | Embed VL, Rerank VL |
+| `compare` | Compares word frequencies with log-odds and cites a snippet from both sources | – |
+| `agent` | Runs Hermes with four team tools (search, compare, read, corpus) and evidence rules | Super 3.5 VL |
+| `site` | Builds a static website and one compiled LaTeX document per scan | – |
+| `evaluate` | Checks quotes against tool results and writes three success and three failure cases | – |
+
+### 1. Super VL correction of the Parse text
+
+After Parse 3.5, Super 3.5 VL reads each text block again: an enlarged crop of the block's box, together with the Parse text.
+We measured the result against hand transcriptions of 30 blocks from 15 scans
+([docs/evaluation/ocr-correction.md](docs/evaluation/ocr-correction.md)).
+
+| Text | Character error rate | Word error rate | Blocks better than Parse |
+| --- | --- | --- | --- |
+| Parse 3.5 | 12.2% | 25.1% | – |
+| Parse 3.5 + Super VL (block crop) | 1.8% | 3.0% | 28 of 29 |
+| ... + dictionary long-s rule (used) | 1.8% | 2.9% | 28 of 29 |
+
+- The character error rate falls 6.8 times.
+- Reasoning off is better and about 12 times faster than reasoning on. The whole page instead of a block crop does not work.
+- The correction also improves the later stages. With the same match rule, accepted matches rose from 53 to 80,
+  and Britannica tokens outside the vocabulary fell from 18.8% to 10.6%.
+- Example: the headword "WILLIN" became "WILLIAM", and NAXOS now reads "capital of the Isle of Naxos" instead of "capital of the lake of Naoxe".
+
+### 2. Calibrated matching with the embedder and reranker
+
+We labelled 60 entries by hand, with the model scores hidden, and calibrated the accept rule on them
+([docs/evaluation/match-calibration.md](docs/evaluation/match-calibration.md)).
+
+| Ranker | First candidate correct (43 labelled entries) |
+| --- | --- |
+| BM25 | 28% |
+| Embedder cosine | 49% |
+| Reranker logit | 65% |
+
+| Accept rule | Precision | Recall | F1 |
+| --- | --- | --- | --- |
+| Headword and title rule | 0.71 | 0.47 | 0.56 |
+| Reranker first candidate, margin ≥ 0.5, cosine ≥ 0.15 (cross-validated) | 0.62 | 0.56 | 0.59 |
+
+- The full run accepted 86 of 201 searched entries with the model rule.
+- The reranker found articles that the title rule missed. For example, COINAGE matches "Coining (mint)".
+- It also rejected wrong title matches, such as NAXOS → "Naxos (Crete)".
+- It still makes errors: it rejected HEAT → "Heat" because the margin to the second candidate was 0.15.
+
+### 3. Hermes agent on the improved evidence
+
+Hermes runs `nvidia/Nemotron-3.5-Super-VL` through Nebius Token Factory with the four team tools.
+The latest run (`artifacts/agent/runs/2026-10-18T124947Z/`) completed all 8 questions, and 6 passed the automatic checks.
+The other 2 gave the expected answer in words that the text rules do not detect.
+
+- With the corrected text, the agent quotes readable sources. For NAXOS it quotes "capital of the Isle of Naxos, opposite the Isle of Paros" and places the town in the Cyclades, not in Crete.
+- It questions weak matches: it reports that the accepted PHILOLOGY pair and the WILLIAM pair do not describe the same subject.
+- When an entry has no accepted match (HEAT), it says that the comparison evidence is missing.
+- [docs/evaluation/cases.json](docs/evaluation/cases.json) lists the three success cases and three failure cases from the saved runs.
+
+### 4. Overall effect
+
+| Measure | First run (Parse text, title rule) | Now (Super VL text, model rule) |
+| --- | --- | --- |
+| Entries | 241 | 249 |
+| Matched pairs | 53 | 86 |
+| Britannica tokens outside the vocabulary | 18.8% | 7.5% |
+| Mean word-frequency cosine of the pairs | 0.14 | 0.24 |
+
+The vocabulary and cosine numbers are proxies, not accuracy measurements.
+The gold transcriptions and match labels come from one labeller (the coding agent) and have no second review.
+
 ## Infrastructure
 
 Britannica scans enter your CPU workspace for ingestion and caching.

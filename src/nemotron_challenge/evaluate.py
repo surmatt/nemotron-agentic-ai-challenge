@@ -98,7 +98,38 @@ def git(*args: str) -> str:
     return done.stdout.strip()
 
 
-def case_study(case: dict[str, Any], run: dict[str, Any], quotes: list[dict[str, Any]], revision: str) -> str:
+def repaired_section(repair: dict[str, Any], run: dict[str, Any], quotes: list[dict[str, Any]]) -> str:
+    """The repaired run, kept separate from the failed run that the classification describes."""
+    checks = run["checks"]
+    quote_lines = "\n".join(f"- {q['support']}: \"{q['quote'][:160]}\"" for q in quotes) or "- No quoted passages."
+    return f"""
+## Repaired run
+
+The classification above describes the failed run. This section records a later run after a repair.
+
+Run record: `{run['events_path']}` (run `{run['run_id']}`, question `{run['question_id']}`, Hermes session `{run['session_id']}`)
+Repair outcome: {repair['outcome']}
+
+- Tool calls, in order: {', '.join(run['tool_calls']) or 'none'}
+- Britannica entry IDs cited: {', '.join(checks['cited_entry_ids']) or 'none'}
+- Wikipedia revision IDs cited: {', '.join(checks['cited_revision_ids']) or 'none'}
+- Cited IDs absent from tool results: {', '.join(checks['unsupported_entry_ids'] + checks['unsupported_revision_ids']) or 'none'}
+- Automatic check: {'pass' if checks['auto_pass'] else 'fail'}
+- Quoted passages checked against the tool results of this run:
+{quote_lines}
+
+{repair['note']}
+
+<details><summary>Repaired agent answer</summary>
+
+{run['answer']}
+
+</details>
+"""
+
+
+def case_study(case: dict[str, Any], run: dict[str, Any], quotes: list[dict[str, Any]], revision: str,
+               repaired: str = "") -> str:
     checks = run["checks"]
     quote_lines = "\n".join(f"- {q['support']}: \"{q['quote'][:160]}\"" for q in quotes) or "- No quoted passages."
     calls = ", ".join(run["tool_calls"]) or "none"
@@ -137,7 +168,7 @@ Automatic check: {'pass' if checks['auto_pass'] else 'fail'}. The automatic chec
 {run['answer']}
 
 </details>
-"""
+{repaired}"""
 
 
 def run(settings: Settings, work_dir: Path) -> dict[str, Any]:
@@ -164,11 +195,20 @@ def run(settings: Settings, work_dir: Path) -> dict[str, Any]:
         if key not in by_key:
             missing.append(case["case_id"])
             continue
-        document = case_study(case, by_key[key], quotes_by_key[key], revision)
+        repaired, repair = "", case.get("repaired_run")
+        if repair:
+            repair_key = (repair["run_id"], repair["question_id"])
+            if repair_key not in by_key:
+                missing.append(f"{case['case_id']} (repaired run)")
+                continue
+            repaired = repaired_section(repair, by_key[repair_key], quotes_by_key[repair_key])
+        document = case_study(case, by_key[key], quotes_by_key[key], revision, repaired)
         write_text(out / "cases" / f"{case['case_id']}.md", document)
         cases.append({"case_id": case["case_id"], "classification": case["classification"],
                       "run": f"{case['run_id']}/{case['question_id']}", "auto_pass": by_key[key]["checks"]["auto_pass"],
-                      "unsupported_quotes": sum(q["support"] == "unsupported" for q in quotes_by_key[key])})
+                      "unsupported_quotes": sum(q["support"] == "unsupported" for q in quotes_by_key[key]),
+                      "repaired_run": f"{repair['run_id']}/{repair['question_id']}" if repair else None,
+                      "repair_outcome": repair["outcome"] if repair else None})
     if missing:
         raise ValueError(f"cases name runs that are not saved: {missing}")
     counts = {kind: sum(c["classification"] == kind for c in cases) for kind in ("success", "failure")}
@@ -196,15 +236,19 @@ def run(settings: Settings, work_dir: Path) -> dict[str, Any]:
         f"{stage.get('compare', {}).get('britannica_unverified_rate')} of Britannica tokens are outside the vocabulary.",
         f"Parse looped on {len(stage.get('extract', {}).get('failed_scans', []))} scans (a blank cover and an "
         "engraved plate) and hit its token limit. These scans have no extracted text.",
-        "Some accepted Wikipedia pages are lists of other articles (for example \"Coinage\" and \"Willin'\") "
-        "without \"(disambiguation)\" in the title. The matcher does not detect them.",
-        "Entry segmentation uses capitalised headwords. OCR errors in headwords (PHILLOOGY) break search and matching.",
+        "The first match run accepted list pages (\"Coinage\", \"Willin'\") that lack \"(disambiguation)\" in the "
+        "title. The repaired rule removes pages that open with \"may refer to\". When the right article is not a "
+        "BM25 candidate (\"Coining (mint)\"), the entry now has no match.",
+        "OCR-damaged headwords get a dictionary variant only when one close word exists (PHILLOOGY -> philology). "
+        "Ambiguous damage (WILLIN) and damage below the 0.85 ratio still break search and matching.",
+        "The lexical rule still accepts wrong senses with the same title (\"Naxos (Crete)\" for the Aegean island).",
         "Automatic agent checks pass answers with unsupported metadata or wrong inferences. Manual review is needed.",
     ]
     report = {"stage": "evaluate", "finished_at": utc_now(), "cases": cases, "counts": counts,
               "runs_checked": len(checked), "runs_with_unsupported_quotes": [
                   f"{c['run_id']}/{c['question_id']}" for c in checked if c["unsupported_quotes"]],
               "quote_check_review": spec.get("quote_check_review", []),
+              "observations_after_repair": spec.get("observations_after_repair", []),
               "reproduction": reproduction, "known_limits": limits,
               "outputs": {"cases": str(out / "cases"), "quote_checks": str(out / "quote_checks.json")}}
     write_json(out / "quote_checks.json", checked)

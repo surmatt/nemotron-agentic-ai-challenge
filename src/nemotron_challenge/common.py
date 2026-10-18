@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 from datetime import datetime, timezone
+from functools import lru_cache
 import hashlib
 import json
 import os
@@ -78,6 +79,12 @@ def with_retry(call: Callable[[], T], *, attempts: int = 4, base_delay: float = 
     raise AssertionError("unreachable")
 
 
+def text_dir(work_dir: Path) -> Path:
+    """The stage folder with the entry text to use: the Super VL correction when it exists, else Parse."""
+    corrected = work_dir / "correct"
+    return corrected if (corrected / "entries.jsonl").is_file() else work_dir / "extract"
+
+
 def scan_reference(page: dict[str, Any], manifest: dict[str, Any]) -> SourceReference:
     return SourceReference(
         dataset=manifest["dataset"], dataset_revision=manifest["revision"], source_id=page["page_id"],
@@ -91,3 +98,14 @@ def wiki_reference(article: dict[str, Any]) -> SourceReference:
         source_id=f"enwiki:{article['page_id']}:{article['revision_id']}", source_url=article["revision_url"],
         content_sha256=article["text_sha256"], license="CC-BY-SA-4.0",
     )
+
+
+WORD_LIST = Path("/usr/share/dict/words")
+
+
+@lru_cache(maxsize=1)
+def system_words() -> frozenset[str]:
+    """The system word list in lower case, or an empty set when the system has none."""
+    if not WORD_LIST.is_file():
+        return frozenset()
+    return frozenset(w.lower() for w in WORD_LIST.read_text(encoding="utf-8", errors="ignore").split())

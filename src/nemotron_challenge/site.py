@@ -18,7 +18,7 @@ import shutil
 import subprocess
 from typing import Any
 
-from .common import read_json, read_jsonl, sha256_text, utc_now, write_json, write_text
+from .common import text_dir, read_json, read_jsonl, sha256_text, utc_now, write_json, write_text
 from .config import Settings
 from .data import load_manifest
 
@@ -58,6 +58,26 @@ def page(title: str, body: str, depth: int = 0) -> str:
             f"contributors, CC BY-SA 4.0, revision links on each page. Generated {esc(utc_now())}.</p></body></html>")
 
 
+def text_note(scan: dict[str, Any]) -> str:
+    sources = {b.get("text_source", "parse") for b in scan["blocks"]}
+    if "super_vl" in sources:
+        return ("Parse 3.5 extracted the text. Super 3.5 VL corrected it from an enlarged crop of each block. "
+                "It can still contain recognition errors.")
+    return "The text below is Parse 3.5 OCR output. It contains recognition errors."
+
+
+def correction_item(scan: dict[str, Any]) -> str:
+    counts: dict[str, int] = {}
+    for block in scan["blocks"]:
+        counts[block.get("text_source", "parse")] = counts.get(block.get("text_source", "parse"), 0) + 1
+    if "super_vl" not in counts:
+        return ""
+    stem = Path(scan["filename"]).stem
+    return (f"\\item[Correction] model \\texttt{{nvidia/Nemotron-3.5-Super-VL}}, block crops, raw replies "
+            f"\\texttt{{correct/raw/crop\\_nothink/{tex(stem)}-b*.json}}; "
+            + ", ".join(f"{tex(k)}: {v}" for k, v in sorted(counts.items())))
+
+
 def latex_document(scan: dict[str, Any], entries: list[dict[str, Any]], manifest: dict[str, Any]) -> str:
     """Fill the structure of templates/page.tex with the extracted entries of one scan."""
     parts = []
@@ -77,8 +97,8 @@ def latex_document(scan: dict[str, Any], entries: list[dict[str, Any]], manifest
 \\sloppy
 \\begin{{document}}
 \\section*{{Historical source}}
-Encyclopaedia Britannica scan, source row {scan['row_index']}. The text below is Parse 3.5 OCR output.
-It contains recognition errors. Page headers, footers, and page numbers are removed.
+Encyclopaedia Britannica scan, source row {scan['row_index']}. {text_note(scan)}
+Page headers, footers, and page numbers are removed.
 
 {body}
 \\section*{{Source record}}
@@ -89,6 +109,7 @@ It contains recognition errors. Page headers, footers, and page numbers are remo
 \\item[Dataset] {tex(manifest['dataset'])} at revision \\texttt{{{manifest['revision']}}} ({tex(manifest['license']['spdx'])})
 \\item[Extraction] model \\texttt{{nvidia/nemotron-3.5-parse}}, raw reply \\texttt{{{tex(scan['raw_path'])}}}
 \\item[Raw reply SHA-256] \\texttt{{{scan['raw_content_sha256']}}}
+{correction_item(scan)}
 \\item[Running header] {tex(scan['running_header'] or 'none')}
 \\end{{description}}
 \\end{{document}}
@@ -128,8 +149,9 @@ def terms_table(rows: list[dict[str, Any]], side: str) -> str:
 def run(settings: Settings, work_dir: Path, raw_scans: Path = Path("data/raw/britannica")) -> dict[str, Any]:
     del settings
     manifest = load_manifest()
-    scans = read_jsonl(work_dir / "extract" / "pages.jsonl")
-    entries = read_jsonl(work_dir / "extract" / "entries.jsonl")
+    source = text_dir(work_dir)
+    scans = read_jsonl(source / "pages.jsonl")
+    entries = read_jsonl(source / "entries.jsonl")
     matches = {m["entry_id"]: m for m in read_jsonl(work_dir / "match" / "matches.jsonl")}
     pairs = {p["entry_id"]: p for p in read_jsonl(work_dir / "compare" / "pairs.jsonl")}
     summaries = {s: read_json(work_dir / s / "summary.json") for s in ("extract", "match", "compare")}
@@ -170,8 +192,11 @@ def run(settings: Settings, work_dir: Path, raw_scans: Path = Path("data/raw/bri
                          for e in here)
         pdf = (f"<a href=\"../latex/{stem}.pdf\">PDF</a>" if (tex_dir / f"{stem}.pdf").is_file()
                else "PDF not compiled")
-        blocks = "".join(f"<tr><td>{b['index']}</td><td>{esc(b['cls'])}</td><td class=\"muted\">{b['bbox']}</td>"
-                         f"<td>{esc(b['text'][:600])}</td></tr>" for b in scan["blocks"])
+        blocks = "".join(
+            f"<tr><td>{b['index']}</td><td>{esc(b['cls'])}</td><td class=\"muted\">{b['bbox']}</td>"
+            f"<td class=\"muted\">{esc(b.get('parse_text', b['text'])[:600])}</td><td>{esc(b['text'][:600])}</td>"
+            f"<td class=\"muted\">{esc(b.get('text_source', 'parse'))}"
+            f"{(' · ' + esc(b['review_flag'])) if b.get('review_flag') else ''}</td></tr>" for b in scan["blocks"])
         furniture = ", ".join(f"{esc(b['cls'])}: {esc(b['text'])}" for b in scan["furniture"]) or "none"
         body = (f"<p>Scan ID <code>{esc(scan['page_id'])}</code><br>Image SHA-256 <code>{scan['image_sha256']}</code><br>"
                 f"Status: {esc(scan['status'])}. Running header: {esc(scan['running_header'] or 'none')} "
@@ -179,8 +204,9 @@ def run(settings: Settings, work_dir: Path, raw_scans: Path = Path("data/raw/bri
                 f"<p>{pdf} · <a href=\"../raw/{stem}.json\">raw Parse reply</a> · <a href=\"../latex/{stem}.tex\">LaTeX</a>"
                 f"</p><p>Entries: {links or 'none'}</p>"
                 f"<img class=\"scan\" src=\"../img/{esc(scan['filename'])}\" alt=\"Scan {scan['row_index']}\">"
-                f"<div class=\"label\">Extracted blocks (OCR, source order)</div>"
-                f"<table><tr><th>#</th><th>Class</th><th>Box</th><th>Text</th></tr>{blocks}</table>")
+                f"<div class=\"label\">Extracted blocks (source order): Parse 3.5 text and the text used</div>"
+                f"<table><tr><th>#</th><th>Class</th><th>Box</th><th>Parse 3.5</th><th>Used text</th><th>Source</th></tr>"
+                f"{blocks}</table>")
         write_text(site / "scans" / f"{scan['row_index']}.html", page(f"Scan {scan['row_index']}", body, 1))
         scan_rows.append(f"<tr><td><a href=\"scans/{scan['row_index']}.html\">{scan['row_index']}</a></td>"
                          f"<td>{esc(scan['status'])}</td><td>{esc(scan['running_header'])}</td><td>{len(here)}</td>"
@@ -196,7 +222,7 @@ def run(settings: Settings, work_dir: Path, raw_scans: Path = Path("data/raw/bri
                                for p in entry["pages"])
         body = [f"<p>{scans_links}. Text SHA-256 <code>{entry['text_sha256']}</code>. Start: {esc(entry['start_kind'])}"
                 f"{' (joined across pages)' if len(entry['pages']) > 1 else ''}.</p>",
-                "<div class=\"label\">Source text: Britannica, Parse 3.5 OCR</div>",
+                f"<div class=\"label\">Source text: Britannica, {'Parse 3.5 OCR corrected by Super 3.5 VL' if source.name == 'correct' else 'Parse 3.5 OCR'}</div>",
                 f"<div class=\"source\">{esc(entry['text'])}</div>",
                 "<div class=\"label\">Generated: match decision</div>",
                 f"<div class=\"generated\"><pre>{esc(json.dumps(decision, indent=1))}</pre>"

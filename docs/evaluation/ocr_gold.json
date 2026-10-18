@@ -1,0 +1,466 @@
+{
+  "transcriber": "Claude Code (coding agent), from enlarged crops with the block box drawn. Not reviewed by a person.",
+  "transcribed_at": "2026-10-18",
+  "blind_to": "Parse text and Super VL output for these blocks. Exception: none of these blocks was in the first probe (scan 1032).",
+  "rules": [
+    "Transcribe every full text line inside the drawn box. A line cut through its upper half by the box edge is left out.",
+    "Leave out page headers, page numbers, signature marks, catchwords, and margin notes.",
+    "Write the long s as s. Keep the original spelling and punctuation.",
+    "Join a word split by a line-break hyphen.",
+    "Write small capitals as capitals. Scoring ignores case.",
+    "A box with no text has the value null. It counts as an empty-region case, not in CER."
+  ],
+  "known_limits": "One transcriber, no second review. Small print at 600 px width makes some letters uncertain (for example the footnote mark after Meroe in G07 is left out).",
+  "blocks": [
+    {
+      "gold_id": "G01",
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:251",
+      "row_index": 251,
+      "filename": "page-0251-69952e7c4a0f.jpg",
+      "block_index": 3,
+      "cls": "Text",
+      "bbox": [
+        0.083,
+        0.2359,
+        0.5029,
+        0.4094
+      ],
+      "text": "The principal manufactures are snuff and tobacco, linen of several sorts, lace, thread, silk, and worsted stockings, neckcloths, cotton stuffs, gloves, handkerchiefs, silks of several sorts, gold and silver brocades, a variety of woollen manufactures, hats, paper, leather of all sorts, earthen wares, porcelain, toys, watches, clocks, and other hardwares, &c. The trade of Switzerland is greatly promoted by many navigable lakes and rivers. In some of the above manufactures, and in cheese, butter, sheep, horses, black cattle, hides, and skins, the exports are considerable; and as the imports are chiefly grain and salt, with some American and Asiatic goods, there is probably a large balance in their favour. In some parts of Switzerland dress is restrained by sumptuary laws."
+    },
+    {
+      "gold_id": "G02",
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:251",
+      "row_index": 251,
+      "filename": "page-0251-69952e7c4a0f.jpg",
+      "block_index": 4,
+      "cls": "Text",
+      "bbox": [
+        0.085,
+        0.4102,
+        0.501,
+        0.5281
+      ],
+      "text": "The public revenues are in general very inconsiderable, arising chiefly from the usual regalia, appropriated everywhere to the sovereign, the demesnes, and public granaries, voluntary contributions, the sale of salt, and a land-tax; in the Protestant cantons, from the church-lands also that were seized at the Reformation. Except in Zurich, Berne, Basil, and Schaffhausen, where the people are more industrious, have a greater trade, and are richer than in the others, they defray the ordinary charges, and that is all."
+    },
+    {
+      "gold_id": "G03",
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:257",
+      "row_index": 257,
+      "filename": "page-0257-012cf5a82a33.jpg",
+      "block_index": 0,
+      "cls": "Text",
+      "bbox": [
+        0.04,
+        0.0375,
+        0.5195,
+        0.2
+      ],
+      "text": "in his power to provide for him otherwise, Swift left his patron (1694) in discontent; having previously taken his master's degree at Oxford, by means of a testimonial from Dublin, in which the words of disgrace were omitted. He was resolved to enter into the church, where his first preferment was only L. 100 a-year, being the prebend of Kilroot in Conner; which some time afterwards, upon Sir William Temple's earnestly inviting him back to his house at Moorpark, he resigned in favour of a clergyman far advanced in years and burdened with a numerous family. For this man he solicited the prebend, to which he himself inducted him."
+    },
+    {
+      "gold_id": "G04",
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:257",
+      "row_index": 257,
+      "filename": "page-0257-012cf5a82a33.jpg",
+      "block_index": 1,
+      "cls": "Text",
+      "bbox": [
+        0.0986,
+        0.1992,
+        0.5244,
+        0.4125
+      ],
+      "text": "In 1699 Swift lost his patron Sir William Temple, who left him a legacy in money, with the property of his manuscripts; and, on his death-bed, obtained for him a promise from the king of the first prebend that should become vacant at Westminster or Canterbury. That this promise might not be forgotten, Swift dedicated to the king the posthumous works with which he was entrusted, and for a while attended the court; but soon found his solicitations hopeless. He was then invited by the earl of Berkeley to accompany him into Ireland, where, after suffering some cruel disappointments, he obtained the livings of Laracor and Rathbeggin in the diocese of Meath; and soon afterwards invited over the unfortunate Stella, a young woman of the name of Johnson, whose life he contrived to embitter, and whose days, though he certainly loved her, we may confidently affirm that he shortened by his caprice."
+    },
+    {
+      "gold_id": "G05",
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:258",
+      "row_index": 258,
+      "filename": "page-0258-631a7ae7df34.jpg",
+      "block_index": 4,
+      "cls": "Text",
+      "bbox": [
+        0.5342,
+        0.007,
+        0.958,
+        0.1102
+      ],
+      "text": "prised by the nabob of Bengal, who took it, and put most of those that had made resistance into a place called the Black Hole, where most of them were smothered. This nabob was afterwards killed, and another set up in his room, more friendly to the English; and the factory was re-established. E. Long. 86. 0. N. Lat. 22. 27."
+    },
+    {
+      "gold_id": "G06",
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:258",
+      "row_index": 258,
+      "filename": "page-0258-631a7ae7df34.jpg",
+      "block_index": 5,
+      "cls": "Text",
+      "bbox": [
+        0.5352,
+        0.1164,
+        0.957,
+        0.2633
+      ],
+      "text": "WILLIAMSBURG, a town of North America, in Virginia, and formerly capital of that state. It is situated between two creeks; one falling into James, and the other into York River. The distance of each landing place is about a mile from the town, which, with the disadvantage of not being able to bring up large vessels, and the want of enterprise in the inhabitants, has occasioned its decay. Here is a college, designed for the education of the Indians, but which, on account of their aversion to learning, never answered the purpose. It is 60 miles east of Richmond. W. Long. 76. 30. N. Lat. 37. 10."
+    },
+    {
+      "gold_id": "G07",
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:403",
+      "row_index": 403,
+      "filename": "page-0403-44f912e1c323.jpg",
+      "block_index": 4,
+      "cls": "Text",
+      "bbox": [
+        0.4619,
+        0.0594,
+        0.873,
+        0.1484
+      ],
+      "text": "περι των εν Μεροη ιερων γραμματων, concerning the sacred letters in the island of Meroe; and another concerning the sacred letters in Babylon. Had these books survived the ravages of time, they would, in this age of research and curiosity, have determined not only the point under our consideration, but likewise the affinity of sacred rites amongst the Chaldeans, Ethiopians, and Egyptians."
+    },
+    {
+      "gold_id": "G08",
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:403",
+      "row_index": 403,
+      "filename": "page-0403-44f912e1c323.jpg",
+      "block_index": 10,
+      "cls": "Footnote",
+      "bbox": [
+        0.0527,
+        0.8758,
+        0.8672,
+        0.9016
+      ],
+      "text": "\"were the sacred characters of the Egyptians.\" Cassiodorus likewise assures us, \"that the letters inscribed upon the Egyptian obelisks were Chaldean.\" But recent discoveries have refuted these and other similar statements."
+    },
+    {
+      "gold_id": "G09",
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:681",
+      "row_index": 681,
+      "filename": "page-0681-c2be06f2d615.jpg",
+      "block_index": 1,
+      "cls": "Text",
+      "bbox": [
+        0.0117,
+        0.0375,
+        0.4473,
+        0.0938
+      ],
+      "text": "the eye at o: so that none of the rays that fall above b, or below i, can be reflected to the eye at o; and the distance between b and i is equal to half the length of the object AB."
+    },
+    {
+      "gold_id": "G10",
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:681",
+      "row_index": 681,
+      "filename": "page-0681-c2be06f2d615.jpg",
+      "block_index": 10,
+      "cls": "Text",
+      "bbox": [
+        0.458,
+        0.6484,
+        0.8877,
+        0.8781
+      ],
+      "text": "If a beam of light SF, (No. 32.) that comes from the sun, passes into a dark room through F a round hole in a window shutter EG; this beam proceeding straight forwards, and falling upon a paper at Y, would there make a round picture of the sun. This picture would be a confused one indeed, if the hole is a large one and there is no lens in the hole. However, as this round spot of light is a picture of the sun, we shall hereafter, notwithstanding its confusion, call it by this name. Now if a glass prism ABC is placed between the hole in the windowshutter and the paper at Y, the rays of this beam, by the refraction which they suffer in the prism, will be bent from their strait course, and instead of going on so as to fall upon the paper at Y, they will be turned upwards, and the picture of the sun produced by them will fall upon a paper MN that is placed above Y. If all the rays"
+    },
+    {
+      "gold_id": "G11",
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:756",
+      "row_index": 756,
+      "filename": "page-0756-33eb91fcbe8d.jpg",
+      "block_index": 14,
+      "cls": "Text",
+      "bbox": [
+        0.4707,
+        0.6414,
+        0.8564,
+        0.8023
+      ],
+      "text": "2. Each of the magnets A and B, in either of the positions represented in fig. 12. would alone attract the piece of common iron C. But when placed together, the south pole of A tends to render the upper end of C a north pole; while the north pole of B tends to make it a south pole. If their actions be nearly equal, the weight of C cannot be supported by the magnetism induced by any difference of action that may remain. While C is hanging by B alone, let A be gradually brought near; it gradually destroys the action of the north pole of B, so that C gradually loses its magnetism and polarity, and its weight prevails."
+    },
+    {
+      "gold_id": "G12",
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:756",
+      "row_index": 756,
+      "filename": "page-0756-33eb91fcbe8d.jpg",
+      "block_index": 15,
+      "cls": "Text",
+      "bbox": [
+        0.4717,
+        0.8016,
+        0.8545,
+        0.9227
+      ],
+      "text": "3. In all those cases where the induction of magnetism is slow, the attraction is weak in proportion. This is particularly remarked by Dr Gilbert. If we take pieces of common iron, and of steel of different tempers, but all of the same size and form, we shall find that the iron is much more strongly attracted than any of the rest, and that the attraction for each of them is weaker in proportion as they are harder. This diversity is so accurately observed, that when the piece is thoroughly"
+    },
+    {
+      "gold_id": "G13",
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1017",
+      "row_index": 1017,
+      "filename": "page-1017-5395deb0e141.jpg",
+      "block_index": 5,
+      "cls": "Text",
+      "bbox": [
+        0.0615,
+        0.5555,
+        0.4766,
+        0.6922
+      ],
+      "text": "HELLEBORUS, HELLEBORE, in botany, a genus of the polyandria polygynia class. It has no calix; the petals are five or more; the nectarium is tubular and bilabiated; and the capsule contains many seeds. There are five species, two of them natives of Britain, viz. the foetidus, or great bastard black hellebore; and the viridis, or wild black hellebore. The hellebore, when taken in large quantities, is poisonous; but the root, in small doses, is supposed to attenuate the humours, and to promote urinary and uterine discharges."
+    },
+    {
+      "gold_id": "G14",
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1017",
+      "row_index": 1017,
+      "filename": "page-1017-5395deb0e141.jpg",
+      "block_index": 18,
+      "cls": "Text",
+      "bbox": [
+        0.5,
+        0.5289,
+        0.8916,
+        0.582
+      ],
+      "text": "The freemen of Sparta were forbidden the exercise of any mean or mechanical employment, and therefore the whole care of supplying the city with necessaries devolved upon the Helots."
+    },
+    {
+      "gold_id": "G15",
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1166",
+      "row_index": 1166,
+      "filename": "page-1166-ec9dc1d6c2c9.jpg",
+      "block_index": 4,
+      "cls": "Text",
+      "bbox": [
+        0.042,
+        0.2422,
+        0.458,
+        0.3172
+      ],
+      "text": "This is capable of being rigidly demonstrated. No benefit is obtained by making choice of a man who is well qualified to serve the people, and also well inclined to serve them, if you place him in a situation in which he will have preponderant motives to serve himself at their expense."
+    },
+    {
+      "gold_id": "G16",
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1166",
+      "row_index": 1166,
+      "filename": "page-1166-ec9dc1d6c2c9.jpg",
+      "block_index": 11,
+      "cls": "Text",
+      "bbox": [
+        0.4678,
+        0.0805,
+        0.8945,
+        0.1461
+      ],
+      "text": "One thing more is necessary, and so necessary, that if it is wanting, the other might as well be wanting also. The publication of the proceedings tells what is done. This, however, is useless, unless a correct judgment is passed upon what is done."
+    },
+    {
+      "gold_id": "G17",
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1250",
+      "row_index": 1250,
+      "filename": "page-1250-2e0c75f85418.jpg",
+      "block_index": 3,
+      "cls": "Text",
+      "bbox": [
+        0.1514,
+        0.1664,
+        0.5361,
+        0.2367
+      ],
+      "text": "Coin, in architecture, a kind of dye cut diagonalwise, after the manner of a flight of a stair-case, serving at bottom to support columns in a level, and at top to correct the inclination of an entablature supporting a vault."
+    },
+    {
+      "gold_id": "G18",
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1250",
+      "row_index": 1250,
+      "filename": "page-1250-2e0c75f85418.jpg",
+      "block_index": 4,
+      "cls": "Text",
+      "bbox": [
+        0.1523,
+        0.2359,
+        0.5371,
+        0.3008
+      ],
+      "text": "Coin is also used for a solid angle composed of two surfaces inclined towards each other, whether that angle be exterior, as the coin of a wall, a tree, &c. or interior, as the coin of a chamber or chimney. See Quoin."
+    },
+    {
+      "gold_id": "G19",
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1324",
+      "row_index": 1324,
+      "filename": "page-1324-2cfbaa25a150.jpg",
+      "block_index": 2,
+      "cls": "Text",
+      "bbox": [
+        0.0869,
+        0.8187,
+        0.4707,
+        0.9383
+      ],
+      "text": "Warmth is undoubtedly as beneficial to hedges as trees; and the walls give an effectual shelter, which in exposed situations is absolutely necessary for rearing young hedges; and they likewise preserve a proper degree of moisture about the roots. If the hedges have been planted for six or seven years before the wall is built, cut them over to two or three inches above the ground with a sharp tool, either in October or November, or early in the spring; and erect the"
+    },
+    {
+      "gold_id": "G20",
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1324",
+      "row_index": 1324,
+      "filename": "page-1324-2cfbaa25a150.jpg",
+      "block_index": 5,
+      "cls": "Text",
+      "bbox": [
+        0.4717,
+        0.8047,
+        0.9219,
+        0.9398
+      ],
+      "text": "Much has been said of the excellency of the holly as a material for hedges; and indeed the beauty of the plant, with its extreme closeness, and continuing green throughout the winter, evidently give it the preference to all others; and could it be raised with equal ease, there is no doubt that it would come into universal practice. Besides the above properties, the holly will thrive almost upon any soil; but thin-soiled stony heights seem to be its natural situation: and it may properly enough be said, that holly will grow"
+    },
+    {
+      "gold_id": "G21",
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1614",
+      "row_index": 1614,
+      "filename": "page-1614-ea352b487d65.jpg",
+      "block_index": 3,
+      "cls": "Text",
+      "bbox": [
+        0.5156,
+        0.0727,
+        0.5273,
+        0.1273
+      ],
+      "text": null
+    },
+    {
+      "gold_id": "G22",
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1614",
+      "row_index": 1614,
+      "filename": "page-1614-ea352b487d65.jpg",
+      "block_index": 7,
+      "cls": "Text",
+      "bbox": [
+        0.1201,
+        0.4406,
+        0.5186,
+        0.5891
+      ],
+      "text": "The ordinary or common ensign worn by the knights, is a star of four silver points, and over them a green circle, bordered and lettered with gold, containing the said motto, and in the centre is a thistle proper; all which is embroidered on their left breast, and worn with the collar, with a green ribband over the left shoulder, and brought under the right arm; pendent thereto is the image of St Andrew, with his cross, in a purple robe, within an oval of gold enamelled vert, with the former motto: but sometimes they wear, encircled in the same manner, a thistle crowned."
+    },
+    {
+      "gold_id": "G23",
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2001",
+      "row_index": 2001,
+      "filename": "page-2001-93040a5ab362.jpg",
+      "block_index": 2,
+      "cls": "Text",
+      "bbox": [
+        0.4668,
+        0.0672,
+        0.8633,
+        0.2023
+      ],
+      "text": "As to the revenue, the excise here is levied only in the walled towns, being on the same footing as in the marquisate of Brandenburg; but in the rest of the country the contributions are fixed, and the same both in peace and war. The several branches of the revenue are under the management of the war and domain offices of Breslaw and Glogau. The whole revenue arising to the king of Prussia from Silesia and the county of Glatz amounts to about four millions of rix-dollars per annum."
+    },
+    {
+      "gold_id": "G24",
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2001",
+      "row_index": 2001,
+      "filename": "page-2001-93040a5ab362.jpg",
+      "block_index": 3,
+      "cls": "Text",
+      "bbox": [
+        0.4678,
+        0.2031,
+        0.8623,
+        0.3187
+      ],
+      "text": "Silesia is divided into Upper and Lower, and each of these again into principalities and lordships; of some of which both the property and jurisdiction belong immediately to the sovereign, but of others to his subjects and vassals. In regard to the character of the people, the boors are accounted very dull and stupid; but of those of a higher rank, many have distinguished themselves by their wit and learning, as well as by their military and political talents."
+    },
+    {
+      "gold_id": "G25",
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2171",
+      "row_index": 2171,
+      "filename": "page-2171-f8869fa95f19.jpg",
+      "block_index": 5,
+      "cls": "Text",
+      "bbox": [
+        0.1221,
+        0.2289,
+        0.5283,
+        0.3086
+      ],
+      "text": "ATCHIEVEMENT, in heraldry, denotes the arms of a person, or family, together with all the exterior ornaments of the shield; as helmet, mantle, crest, scrolls, and motto, together with such quarterings as may have been acquired by alliances, all marshalled in order."
+    },
+    {
+      "gold_id": "G26",
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2171",
+      "row_index": 2171,
+      "filename": "page-2171-f8869fa95f19.jpg",
+      "block_index": 8,
+      "cls": "Text",
+      "bbox": [
+        0.1191,
+        0.5484,
+        0.5273,
+        0.6281
+      ],
+      "text": "ATEGUA, or ATTEGUA, an ancient town of Spain, placed by some in the road from Antiquara, now Antequera, to Hispalis, or Seville; by others near Alcala Real; which last is the more probable situation, because the flumen salsum, now the Salado, was in its neighbourhood. Now Tebala Vieja, or Teivela."
+    },
+    {
+      "gold_id": "G27",
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2250",
+      "row_index": 2250,
+      "filename": "page-2250-75315f455009.jpg",
+      "block_index": 2,
+      "cls": "Text",
+      "bbox": [
+        0.0479,
+        0.1187,
+        0.4736,
+        0.1859
+      ],
+      "text": "BUTTRESS, a kind of butment built archwise, or a mass of stone or brick, serving to prop or support the sides of a building, wall, &c. on the outside, where it is either very high, or has any considerable load to sustain on the other side, as a bank of earth, &c."
+    },
+    {
+      "gold_id": "G28",
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2250",
+      "row_index": 2250,
+      "filename": "page-2250-75315f455009.jpg",
+      "block_index": 3,
+      "cls": "Text",
+      "bbox": [
+        0.0488,
+        0.1852,
+        0.4746,
+        0.2969
+      ],
+      "text": "Buttresses are used against the angles of steeples and other buildings of stone, &c. on the outside, and along the walls of such buildings as have great and heavy roofs, which would be subject to thrust the walls out, unless very thick, if no buttresses were placed against them. They are also placed for a support and butment against the feet of some arches, that are turned across great halls in old palaces, abbeys, &c."
+    },
+    {
+      "gold_id": "G29",
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2424",
+      "row_index": 2424,
+      "filename": "page-2424-dd2506be16cf.jpg",
+      "block_index": 12,
+      "cls": "Text",
+      "bbox": [
+        0.4883,
+        0.0711,
+        0.8682,
+        0.1797
+      ],
+      "text": "owner, and his skill in so managing the commissariat, as to secure throughout the year a sufficiency of suitable food for the stock on hand. Unless this is attended to, he may find himself necessitated to sell his cattle before they are fat, and when markets are glutted. Whenever they have attained to what is technically called ripe fatness, and prices are at their average rate, it is generally more profitable forthwith to dispose of them, than to speculate upon a rise in the markets."
+    },
+    {
+      "gold_id": "G30",
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2424",
+      "row_index": 2424,
+      "filename": "page-2424-dd2506be16cf.jpg",
+      "block_index": 16,
+      "cls": "Text",
+      "bbox": [
+        0.4854,
+        0.8133,
+        0.9092,
+        0.8883
+      ],
+      "text": "Lincolns.—These were at one time very large, ungainly animals, with an immense fleece of very long wool. By crossing them with the Leicesters the character of the breed has been entirely changed, and very greatly for the better. It is now, in fact, a subvariety of the Leicester, with larger frame and heavier fleece than the pure breed. Sheep of"
+    }
+  ]
+}

@@ -11,9 +11,14 @@ Method (team choice):
      Accept the top reranked candidate if its logit >= RERANK_ACCEPT and cosine >= COSINE_ACCEPT.
    - lexical mode (no retrieval service): accept the candidate whose title matches the headword
      (similarity >= TITLE_ACCEPT). Prefer a plain title to one with a qualifier in brackets.
-     Reject titles of modern media (albums, films, magazines). Record the excerpt vocabulary overlap.
+     Reject titles of modern media (albums, films, magazines), name pages, and numbered objects. Record the excerpt vocabulary overlap.
      The record labels these matches "provisional_lexical".
-   Disambiguation pages are removed from the candidates.
+   Disambiguation pages and list pages ("X may refer to: ...") are removed from the candidates,
+   also when the title has no "(disambiguation)" qualifier. The full text of an accepted article is
+   checked again, and a list page there sends the decision to the next candidate.
+5. OCR-tolerant headword: a headword word of HEADWORD_VARIANT_MIN letters or more that is not in the
+   system word list gets a variant when exactly one dictionary word is close (ratio >= HEADWORD_VARIANT_RATIO),
+   for example PHILLOOGY -> philology. The variant adds one search and counts for title similarity.
 4. Read the full text of each accepted article, verify its checksum, and cache it with its revision.
 """
 from __future__ import annotations
@@ -27,8 +32,9 @@ from typing import Any
 
 from .clients import RetrievalClient, ServiceError, WikiClient
 from .common import (
-    append_jsonl, read_json, read_jsonl, scan_reference, sha256_text, utc_now, wiki_reference, with_retry, write_json,
-    write_jsonl,
+    text_dir,
+    append_jsonl, read_json, read_jsonl, scan_reference, sha256_text, system_words, utc_now, wiki_reference,
+    with_retry, write_json, write_jsonl,
 )
 from .config import EMBED_MODEL, RERANK_MODEL, WIKIPEDIA_REVISION, Settings
 from .contracts import ArtifactRecord
@@ -39,10 +45,18 @@ MIN_UNTITLED_CHARS = 500
 TOP_K = 20
 EXCERPT_CHARS = 1200
 TITLE_ACCEPT = 0.85
-# Modern media titles share names with old topics but cannot describe them.
+# Modern media titles, name lists, and numbered objects (minor planets such as "342 Endymion") share
+# names with old topics but cannot describe them.
 MEDIA_QUALIFIER = re.compile(
     r"\((?:[^)]*\b)?(?:album|song|single|film|band|magazine|journal|novel|TV series|television|EP|video game|"
-    r"comics|play|opera|musical|manga|anime|character|rapper|singer|newspaper|company|ship)\b[^)]*\)", re.IGNORECASE)
+    r"comics|play|opera|musical|manga|anime|character|rapper|singer|newspaper|company|ship|surname|given name|"
+    r"name|artist|musician|footballer|wrestler|horse)\b[^)]*\)|^\d", re.IGNORECASE)
+# A list page names other articles. It cannot support a topic comparison.
+LIST_PAGE = re.compile(r"\b(?:may|might|can|could) (?:also )?refer to\b", re.IGNORECASE)
+LIST_PAGE_HEAD_CHARS = 600
+HEADWORD_VARIANT_MIN = 6
+HEADWORD_VARIANT_RATIO = 0.85
+MAX_DECISIONS = 3
 # Thresholds for model mode. Calibrate them on checked pairs after the first GPU run.
 RERANK_ACCEPT = 0.0
 COSINE_ACCEPT = 0.30
@@ -96,22 +110,49 @@ def context_overlap(entry_words: set[str], excerpt: str) -> float:
     return round(len(entry_words & candidate) / len(candidate), 4) if candidate else 0.0
 
 
-def queries(entry: dict[str, Any]) -> list[str]:
-    head = re.sub(r"[^A-Za-z' -]", " ", entry["headword"] or "").strip().lower()
-    head = " ".join(head.split())
+def clean_headword(headword: str | None) -> str:
+    return " ".join(re.sub(r"[^A-Za-z' -]", " ", headword or "").lower().split())
+
+
+def headword_variant(headword: str | None, vocabulary: frozenset[str] | set[str] | None = None) -> str | None:
+    """Replace OCR-damaged headword words with their only close dictionary word. None if nothing changes."""
+    vocabulary = system_words() if vocabulary is None else vocabulary
+    if not vocabulary:
+        return None
+    changed, result = False, []
+    for word in clean_headword(headword).split():
+        if len(word) >= HEADWORD_VARIANT_MIN and word not in vocabulary:
+            pool = [w for w in vocabulary if w[:1] == word[:1] and abs(len(w) - len(word)) <= 2]
+            close = difflib.get_close_matches(word, pool, n=2, cutoff=HEADWORD_VARIANT_RATIO)
+            if len(close) == 1:
+                word, changed = close[0], True
+        result.append(word)
+    return " ".join(result) if changed else None
+
+
+def is_list_page(text: str) -> bool:
+    return bool(LIST_PAGE.search(text[:LIST_PAGE_HEAD_CHARS]))
+
+
+def queries(entry: dict[str, Any], variant: str | None = None) -> list[str]:
+    head = clean_headword(entry["headword"])
     keys = [k for k in keywords(entry["text"]) if k not in head.split()]
     result = []
     if head:
         result.append(head)
-    combined = " ".join([head] + keys).strip()
+    if variant and variant != head:
+        result.append(variant)
+    combined = " ".join([variant or head] + keys).strip()
     if combined and combined not in result:
         result.append(" ".join(combined.split()[:64])[:512])
     return result
 
 
 def candidates(wiki: WikiClient, entry: dict[str, Any]) -> tuple[list[str], list[dict[str, Any]]]:
+    """Merge BM25 hits of all queries. Remove disambiguation pages and list pages."""
     merged: dict[str, dict[str, Any]] = {}
-    used = queries(entry)
+    variant = headword_variant(entry["headword"])
+    used = queries(entry, variant)
     for query_index, query in enumerate(used):
         result = with_retry(lambda: wiki.search(query, top_k=TOP_K, excerpt_chars=EXCERPT_CHARS))
         for hit in result.hits:
@@ -122,11 +163,12 @@ def candidates(wiki: WikiClient, entry: dict[str, Any]) -> tuple[list[str], list
             })
             row["bm25"][f"q{query_index}"] = {"rank": hit.rank, "score": round(hit.bm25_score, 4)}
             row["best_rank"] = min(row["best_rank"], hit.rank)
-    # A disambiguation page lists other articles. It cannot support a topic comparison.
-    rows = sorted((r for r in merged.values() if "(disambiguation)" not in r["title"]), key=lambda r: r["best_rank"])
+    rows = sorted((r for r in merged.values() if "(disambiguation)" not in r["title"]
+                   and not (r["excerpt_offset"] == 0 and is_list_page(r["excerpt"]))), key=lambda r: r["best_rank"])
     entry_words = set(words(entry["text"]))
     for row in rows:
-        row["title_similarity"] = title_similarity(entry["headword"], row["title"])
+        row["title_similarity"] = max(title_similarity(entry["headword"], row["title"]),
+                                      title_similarity(variant, row["title"]))
         row["context_overlap"] = context_overlap(entry_words, row["excerpt"])
     return used, rows
 
@@ -142,20 +184,45 @@ def document_text(row: dict[str, Any]) -> str:
     return f"{row['title']}\n{row['excerpt']}"[:8000]
 
 
-def model_scores(retrieval: RetrievalClient, entry: dict[str, Any], rows: list[dict[str, Any]]) -> None:
-    """Add embedder cosine and reranker logits to each candidate row."""
+QUERY_FALLBACK_CHARS = (700, 300)
+
+
+def model_scores(retrieval: RetrievalClient, entry: dict[str, Any], rows: list[dict[str, Any]]) -> int:
+    """Add embedder cosine and reranker logits to each candidate row. Return the query length used.
+
+    The embedder accepts 512 query tokens. Text full of numbers can pass that limit in 1,500 characters,
+    and the service answers HTTP 422. Then the query is shortened and sent again.
+    """
     rows[:] = rows[:32]
-    query = query_text(entry)
-    [query_vector] = with_retry(lambda: retrieval.embed([query], "query"))
+    for limit in (QUERY_TEXT_CHARS, *QUERY_FALLBACK_CHARS):
+        query = query_text(entry)[:limit]
+        try:
+            [query_vector] = with_retry(lambda: retrieval.embed([query], "query"))
+            ranked = with_retry(lambda: retrieval.rerank(query, [document_text(r) for r in rows]))
+            break
+        except ServiceError as exc:
+            if exc.status_code != 422 or limit == QUERY_FALLBACK_CHARS[-1]:
+                raise
     for start in range(0, len(rows), 16):
         batch = rows[start:start + 16]
         vectors = with_retry(lambda: retrieval.embed([{"text": document_text(r)} for r in batch], "document"))
         for row, vector in zip(batch, vectors, strict=True):
             row["cosine"] = round(sum(a * b for a, b in zip(query_vector, vector)), 6)
-    ranked = with_retry(lambda: retrieval.rerank(query, [document_text(r) for r in rows]))
     for position, result in enumerate(ranked, start=1):
         rows[result["index"]]["rerank_logit"] = round(result["relevance_score"], 6)
         rows[result["index"]]["rerank_position"] = position
+    return len(query)
+
+
+THRESHOLD_FILE = Path(__file__).resolve().parents[2] / "docs" / "evaluation" / "match_thresholds.json"
+
+
+def model_thresholds() -> dict[str, float]:
+    """Calibrated thresholds from docs/evaluation/match_thresholds.json, else the uncalibrated defaults."""
+    if THRESHOLD_FILE.is_file():
+        data = read_json(THRESHOLD_FILE)
+        return {"rerank_logit": data["rerank_logit"], "margin": data["margin"], "cosine": data["cosine"]}
+    return {"rerank_logit": RERANK_ACCEPT, "margin": 0.0, "cosine": COSINE_ACCEPT}
 
 
 def decide(entry: dict[str, Any], rows: list[dict[str, Any]], mode: str) -> dict[str, Any]:
@@ -167,10 +234,13 @@ def decide(entry: dict[str, Any], rows: list[dict[str, Any]], mode: str) -> dict
         margin = round(best["rerank_logit"] - others[0], 6) if others else None
         evidence = {"page_id": best["page_id"], "title": best["title"], "rerank_logit": best["rerank_logit"],
                     "cosine": best["cosine"], "margin_to_next": margin, "title_similarity": best["title_similarity"]}
-        if best["rerank_logit"] >= RERANK_ACCEPT and best["cosine"] >= COSINE_ACCEPT:
-            return {"status": "accepted", "method": "nemotron_embed_rerank", **evidence}
-        return {"status": "rejected", "method": "nemotron_embed_rerank",
-                "reason": f"rerank_logit < {RERANK_ACCEPT} or cosine < {COSINE_ACCEPT}", **evidence}
+        limits = model_thresholds()
+        gap = margin if margin is not None else float("inf")
+        if best["rerank_logit"] >= limits["rerank_logit"] and gap >= limits["margin"] and best["cosine"] >= limits["cosine"]:
+            return {"status": "accepted", "method": "nemotron_embed_rerank", "thresholds": limits, **evidence}
+        return {"status": "rejected", "method": "nemotron_embed_rerank", "thresholds": limits,
+                "reason": (f"rerank_logit < {limits['rerank_logit']}, margin < {limits['margin']}, "
+                           f"or cosine < {limits['cosine']}"), **evidence}
     eligible = [r for r in rows if not MEDIA_QUALIFIER.search(r["title"])]
     best = max(eligible or rows, key=lambda r: (
         r["title_similarity"] >= TITLE_ACCEPT, "(" not in r["title"], r["title_similarity"],
@@ -219,7 +289,8 @@ def retrieval_mode(settings: Settings) -> tuple[str, str]:
 def run(settings: Settings, work_dir: Path) -> dict[str, Any]:
     from .storage import LanceArtifactStore
 
-    entries = read_jsonl(work_dir / "extract" / "entries.jsonl")
+    source = text_dir(work_dir)
+    entries = read_jsonl(source / "entries.jsonl")
     out = work_dir / "match"
     mode, mode_detail = retrieval_mode(settings)
     selected, skipped = [], []
@@ -240,14 +311,27 @@ def run(settings: Settings, work_dir: Path) -> dict[str, Any]:
                 record["queries"] = used
                 if mode == "model" and rows:
                     with RetrievalClient(settings.retrieval_base_url, settings.retrieval_api_key) as retrieval:
-                        model_scores(retrieval, entry, rows)
-                record["decision"] = decide(entry, rows, mode)
+                        record["query_chars"] = model_scores(retrieval, entry, rows)
+                record["headword_variant"] = headword_variant(entry["headword"])
                 record["candidate_count"] = len(rows)
-                write_json(out / "candidates" / f"{entry['entry_id']}.json", {**record, "candidates": rows})
-                if record["decision"]["status"] == "accepted":
+                record["list_pages_removed_after_fetch"] = []
+                remaining = list(rows)
+                for _ in range(MAX_DECISIONS):
+                    record["decision"] = decide(entry, remaining, mode)
+                    if record["decision"]["status"] != "accepted":
+                        break
                     article = fetch_article(wiki, record["decision"]["page_id"], out / "articles")
-                    record["article"] = {k: article[k] for k in (
-                        "page_id", "revision_id", "title", "url", "revision_url", "text_sha256", "chars")}
+                    if not is_list_page(article["text"]):
+                        record["article"] = {k: article[k] for k in (
+                            "page_id", "revision_id", "title", "url", "revision_url", "text_sha256", "chars")}
+                        break
+                    record["list_pages_removed_after_fetch"].append(
+                        {"page_id": article["page_id"], "title": article["title"]})
+                    remaining = [r for r in remaining if r["page_id"] != article["page_id"]]
+                else:
+                    record["decision"] = {"status": "rejected", "method": record["decision"].get("method"),
+                                          "reason": f"{MAX_DECISIONS} accepted candidates were list pages"}
+                write_json(out / "candidates" / f"{entry['entry_id']}.json", {**record, "candidates": rows})
         except (ServiceError, ValueError) as exc:
             record["decision"] = {"status": "error", "error_type": type(exc).__name__, "error": str(exc)}
             append_jsonl(work_dir / "runs" / "failures.jsonl", {
@@ -277,13 +361,15 @@ def run(settings: Settings, work_dir: Path) -> dict[str, Any]:
     accepted = [r for r in records if r["decision"]["status"] == "accepted"]
     repeats = Counter(r["article"]["page_id"] for r in accepted)
     summary = {
-        "stage": "match", "finished_at": utc_now(), "mode": mode, "mode_detail": mode_detail,
+        "stage": "match", "finished_at": utc_now(), "entry_text": source.name, "mode": mode, "mode_detail": mode_detail,
         "models": [EMBED_MODEL, RERANK_MODEL] if mode == "model" else [],
         "wikipedia_revision": WIKIPEDIA_REVISION,
         "thresholds": {"title_similarity": TITLE_ACCEPT} if mode == "lexical"
-        else {"rerank_logit": RERANK_ACCEPT, "cosine": COSINE_ACCEPT},
+        else model_thresholds(),
         "entries": len(entries), "skipped": len(skipped), "searched": len(records), "accepted": len(accepted),
         "rejected": sum(r["decision"]["status"] == "rejected" for r in records),
+        "headword_variants": {r["entry_id"]: r["headword_variant"] for r in records if r.get("headword_variant")},
+        "list_pages_removed_after_fetch": sum(len(r.get("list_pages_removed_after_fetch", [])) for r in records),
         "errors": sum(r["decision"]["status"] == "error" for r in records),
         "repeated_articles": {page: count for page, count in repeats.items() if count > 1},
         "outputs": {"matches": str(out / "matches.jsonl"), "candidates": str(out / "candidates"),
