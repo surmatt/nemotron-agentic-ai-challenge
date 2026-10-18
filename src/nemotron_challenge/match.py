@@ -8,7 +8,11 @@ Method (team choice):
 3. Score the merged candidates:
    - model mode (retrieval service ready): Nemotron embedder cosine between the entry text and
      each candidate (title + excerpt), then Nemotron reranker raw logits on the same pairs.
-     Accept the top reranked candidate if its logit >= RERANK_ACCEPT and cosine >= COSINE_ACCEPT.
+     Accept the top reranked candidate if its logit >= RERANK_ACCEPT and its title matches the
+     headword (similarity >= MODEL_TITLE_ACCEPT). The cosine is recorded as evidence only.
+     Calibration (first model run, 187 entries): raw logits for OCR text against modern excerpts
+     were mostly negative (median -6.1). No logit threshold alone separated right from wrong
+     top-1 candidates, so the reranker choice must also agree with the headword.
    - lexical mode (no retrieval service): accept the candidate whose title matches the headword
      (similarity >= TITLE_ACCEPT). Prefer a plain title to one with a qualifier in brackets.
      Reject titles of modern media (albums, films, magazines). Record the excerpt vocabulary overlap.
@@ -43,9 +47,9 @@ TITLE_ACCEPT = 0.85
 MEDIA_QUALIFIER = re.compile(
     r"\((?:[^)]*\b)?(?:album|song|single|film|band|magazine|journal|novel|TV series|television|EP|video game|"
     r"comics|play|opera|musical|manga|anime|character|rapper|singer|newspaper|company|ship)\b[^)]*\)", re.IGNORECASE)
-# Thresholds for model mode. Calibrate them on checked pairs after the first GPU run.
-RERANK_ACCEPT = 0.0
-COSINE_ACCEPT = 0.30
+# Thresholds for model mode, set from the first GPU run. Check them again on hand-checked pairs.
+RERANK_ACCEPT = -6.0
+MODEL_TITLE_ACCEPT = 0.75
 QUERY_TEXT_CHARS = 1500
 STOPWORDS = set("""
 a about above after again against all also am an and any are as at be because been before being below between
@@ -167,10 +171,10 @@ def decide(entry: dict[str, Any], rows: list[dict[str, Any]], mode: str) -> dict
         margin = round(best["rerank_logit"] - others[0], 6) if others else None
         evidence = {"page_id": best["page_id"], "title": best["title"], "rerank_logit": best["rerank_logit"],
                     "cosine": best["cosine"], "margin_to_next": margin, "title_similarity": best["title_similarity"]}
-        if best["rerank_logit"] >= RERANK_ACCEPT and best["cosine"] >= COSINE_ACCEPT:
+        if best["rerank_logit"] >= RERANK_ACCEPT and best["title_similarity"] >= MODEL_TITLE_ACCEPT:
             return {"status": "accepted", "method": "nemotron_embed_rerank", **evidence}
         return {"status": "rejected", "method": "nemotron_embed_rerank",
-                "reason": f"rerank_logit < {RERANK_ACCEPT} or cosine < {COSINE_ACCEPT}", **evidence}
+                "reason": f"rerank_logit < {RERANK_ACCEPT} or title_similarity < {MODEL_TITLE_ACCEPT}", **evidence}
     eligible = [r for r in rows if not MEDIA_QUALIFIER.search(r["title"])]
     best = max(eligible or rows, key=lambda r: (
         r["title_similarity"] >= TITLE_ACCEPT, "(" not in r["title"], r["title_similarity"],
@@ -281,7 +285,7 @@ def run(settings: Settings, work_dir: Path) -> dict[str, Any]:
         "models": [EMBED_MODEL, RERANK_MODEL] if mode == "model" else [],
         "wikipedia_revision": WIKIPEDIA_REVISION,
         "thresholds": {"title_similarity": TITLE_ACCEPT} if mode == "lexical"
-        else {"rerank_logit": RERANK_ACCEPT, "cosine": COSINE_ACCEPT},
+        else {"rerank_logit": RERANK_ACCEPT, "title_similarity": MODEL_TITLE_ACCEPT},
         "entries": len(entries), "skipped": len(skipped), "searched": len(records), "accepted": len(accepted),
         "rejected": sum(r["decision"]["status"] == "rejected" for r in records),
         "errors": sum(r["decision"]["status"] == "error" for r in records),

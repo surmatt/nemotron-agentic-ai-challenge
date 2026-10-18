@@ -47,5 +47,9 @@ Open `http://127.0.0.1:8791/` in a browser.
 
 - The first full run used the lexical match rule. The embedder and reranker were not available.
   Run `match` and the later stages again after you set `RETRIEVAL_BASE_URL`.
-- Calibrate `RERANK_ACCEPT` and `COSINE_ACCEPT` in `match.py` on checked pairs after the first model run.
+- The first model run used `RERANK_ACCEPT = 0.0` and `COSINE_ACCEPT = 0.30` and accepted 1 of 188 entries.
+  Its output is in `artifacts/runs/match-run1-uncalibrated/`.
+  The current rule accepts the reranker top-1 if its logit is at least -6.0 and its title similarity to the headword is at least 0.75.
+  Check `RERANK_ACCEPT` and `MODEL_TITLE_ACCEPT` again on hand-checked pairs.
+- Entries without a headword cannot pass the model rule.
 - `artifacts/evaluate/summary.json` lists the other known limits.
