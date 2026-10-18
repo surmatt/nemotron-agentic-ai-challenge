@@ -271,16 +271,25 @@ a.btn { text-decoration: none; }
 .step--running { box-shadow: 0 0 0 3px color-mix(in srgb, var(--warn-soft) 70%, transparent); }
 .step__numeral { font: 500 1.9rem/1 var(--serif); font-style: italic; color: var(--oxblood); min-width: 34px; }
 .step--done .step__numeral { color: var(--ok); }
-.step__body { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 6px; }
+.step__body { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 6px; container: step-body / inline-size; }
 .step__head { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; flex-wrap: wrap; }
 .step__head h3 { margin: 0; font: 600 1.08rem/1.2 var(--serif); }
 .step__models { display: flex; flex-wrap: wrap; gap: 4px; }
 .step__summary { margin: 0; font: 0.72rem/1.4 var(--mono); color: var(--ink-2); }
 .step__error { margin: 0; font: 0.72rem/1.4 var(--mono); color: var(--bad); word-break: break-word; }
 .step__note, .step__blocked { margin: 0; font: 0.7rem/1.4 var(--mono); color: var(--ink-3); }
-.step__foot { display: flex; justify-content: space-between; align-items: center; margin-top: auto; padding-top: 4px; gap: 6px; }
+.step__foot { display: flex; flex-direction: column; align-items: stretch; gap: 6px; margin-top: auto; padding-top: 4px; }
+.step__foot .btn { justify-content: center; white-space: nowrap; }
 .step__plus { margin-left: 2px; padding: 1px 5px; border-radius: 999px; background: var(--paper-2); color: var(--ink-3); font-size: 0.62rem; }
-.step__time { font: 0.68rem var(--mono); color: var(--ink-3); display: inline-flex; gap: 4px; align-items: center; }
+.step__time { font: 0.68rem/1.35 var(--mono); color: var(--ink-3); display: flex; flex-wrap: wrap; align-items: center; gap: 2px 8px; }
+.step__elapsed { display: inline-flex; gap: 4px; align-items: center; white-space: nowrap; }
+.step__saved { min-width: 0; }
+.step__stamp { display: inline-block; max-width: 100%; }
+.step__stamp > span { white-space: nowrap; }
+@container step-body (min-width: 280px) {
+  .step__foot { flex-direction: row; justify-content: space-between; align-items: center; }
+  .step__foot .btn { margin-left: auto; }
+}
 .progress { display: flex; flex-direction: column; gap: 4px; }
 .progress__track { height: 5px; border-radius: 3px; background: var(--rule); overflow: hidden; }
 .progress__fill { height: 100%; background: var(--warn); border-radius: 3px; transition: width 400ms var(--ease); }
