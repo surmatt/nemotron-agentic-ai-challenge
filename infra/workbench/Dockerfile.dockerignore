@@ -1,0 +1,17 @@
+# Send only what the workbench image needs. Keep keys and caches out of the build context.
+*
+!pyproject.toml
+!uv.lock
+!README.md
+!src/
+!docs/evaluation/
+!templates/
+!ui/
+ui/node_modules/
+ui/dist/
+!artifacts-e2e3/
+!data/raw/britannica/
+**/__pycache__/
+**/.DS_Store
+**/.env
+**/.env.*

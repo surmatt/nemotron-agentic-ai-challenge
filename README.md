@@ -276,6 +276,37 @@ The Corpus tab needs `uv run nemotron-challenge data fetch` and the saved stage 
 
 Other targets: `make install`, `make build`, and `make test`.
 
+### Public deployment on Nebius
+
+The team chose open access with no password.
+Anyone with the URL can upload scans and run the live steps.
+Each run uses the team's Parse, Super VL, and retrieval quota.
+Stop the endpoint when you do not need it.
+
+The image in `infra/workbench/` holds the built UI, the saved corpus run from `artifacts-e2e3/`, and the pinned scans.
+It holds no keys.
+Uploads stay in the container file system and are lost when the endpoint restarts.
+
+Build the image from the repository root.
+
+```sh
+docker buildx build --platform linux/amd64 --load -f infra/workbench/Dockerfile -t nemotron-workbench:local .
+```
+
+Use `--build-arg ARTIFACTS_DIR=<folder>` to ship a different saved run.
+Test it on your computer with the keys from `.env`.
+
+```sh
+docker run --rm -p 127.0.0.1:8790:8790 --env-file .env nemotron-workbench:local
+```
+
+Push the image to your Nebius Container Registry and create a CPU endpoint with the values from `.env`.
+The script puts the API keys in a MysteryBox secret and passes the URLs as plain variables.
+
+```sh
+REGION_ID=uk-south2 REGISTRY_PATH=<registry ID without registry-> infra/workbench/deploy.sh
+```
+
 ## Check the foundation
 
 ```sh
