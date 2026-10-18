@@ -1,0 +1,72 @@
+{
+  "note": "Source evidence for the facts in video/script.md. Britannica quotes were checked by eye against the scan crops. Wikipedia text came from the shared Wikipedia API (WikiClient) on 2026-10-18.",
+  "wikipedia_dataset_revision": "417c267bb457fa645c22eb3b5c77764963194c70",
+  "facts": [
+    {
+      "fact_id": "energy",
+      "britannica": {
+        "entry_id": "E0037",
+        "headword": "ENERGY",
+        "edition_from_dataset_meta": "Second edition, Volume 4, D-F - EB.4",
+        "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:523",
+        "image_sha256": "a583606e375ad92d79af8ad8b4fabc4fa22632e6ccbeea6e20f0fa47a27e2858",
+        "block_index": 9,
+        "entry_text_sha256": "64ed81ae26f64290fa868bc07b5dbd3d0aef860bcc5fda387ec4bd3c90984411",
+        "quote": "ENERGY, a term of Greek origin, signifying the power, virtue, or efficacy of a thing. It is also used, figuratively, to denote emphasis of speech."
+      },
+      "wikipedia": {
+        "page_id": "11470059",
+        "title": "History of energy",
+        "revision_id": "1315594974",
+        "revision_url": "https://en.wikipedia.org/w/index.php?oldid=1315594974",
+        "text_sha256": "bb17ed9a870535691bbb9a50dd9b5f7133007791b7a42ea99f025d9f2a2334fc",
+        "quotes": [
+          {"offset": 2200, "text": "In 1802 lectures to the Royal Society, Thomas Young was the first to use the term energy to refer to kinetic energy in its modern sense, instead of vis viva."},
+          {"offset": 436, "text": "energy cannot be created or destroyed, only transformed"}
+        ]
+      },
+      "pipeline_status": "Not a pipeline pair. The match stage skipped E0037: fewer than 150 characters (artifacts/match/skipped.jsonl). The team found the Wikipedia article by a manual API search.",
+      "unsourced": "The publication years of the second edition (1777-1784) are general knowledge. The dataset meta gives no year."
+    },
+    {
+      "fact_id": "exercise",
+      "britannica": {
+        "entry_id": "E0163",
+        "headword": "EXERCISE",
+        "edition_from_dataset_meta": "Fourth edition, Volume 8 Part 1, ELE-FAI - EB.9",
+        "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1805",
+        "image_sha256": "2268854083181b93f7bf134647f2e3214aacdd4ce0279092f4743cf113d32abd",
+        "block_index": 19,
+        "entry_text_sha256": "247fff6d8a3cb3b31efb9ce30e64df1933e9b11050d2ec1604f8ed21f864ddbc",
+        "quote": "Exercise may be said to be either active or passive. The active is walking, hunting, dancing, playing at bowls, and the like; as also speaking, and other labour of the body and mind. The passive is riding in a coach, on horseback, or in any other manner."
+      },
+      "wikipedia": {
+        "page_id": "189037",
+        "title": "Exercise",
+        "revision_id": "1348682182",
+        "revision_url": "https://en.wikipedia.org/w/index.php?oldid=1348682182",
+        "text_sha256": "f32d24685598bc5414d6e5f4e7c15e0e8e087192cdfdf204b818bbbb94b453dd",
+        "quotes": [
+          {"offset": 29668, "text": "bus drivers had a sedentary occupation and a higher incidence of heart disease, while bus conductors were forced to move continually and had a lower incidence of heart disease."}
+        ]
+      },
+      "pipeline_status": "Not a pipeline pair. The reranker put Wikipedia \"Exercise\" first (logit -2.72, cosine 0.35), but the margin to the second candidate was 0.015, below the 0.5 rule. The match stage rejected it (artifacts/match/candidates). This is a false negative."
+    },
+    {
+      "fact_id": "erie-blooper",
+      "britannica": {
+        "entry_id": "E0243",
+        "headword": "ERIE",
+        "edition_from_dataset_meta": "First edition, 1771, Volume 2, C-L - EB.1",
+        "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2473",
+        "image_sha256": "b849fb7f25f25b39685069d12c13b17d47169beeea958446bdff439c230a0f65",
+        "block_index": 18,
+        "scan_reads": "ERIE, a vast lake to the westward of Pensilvania, in North America",
+        "parse_3_5": "ERRI, a wall take to the wellhead of Penfilivana, in North America",
+        "super_vl": "ERIE, a salt lake to the westward of Pennsylvania, in North America",
+        "super_vl_raw_reply": "artifacts/correct/raw/crop_nothink/page-2473-b849fb7f25f2-b18.json"
+      },
+      "finding": "Super VL changed \"vast\" to \"salt\" and modernised \"Pensilvania\". The scan is the authority. Lake Erie is a freshwater lake (general knowledge, no Wikipedia citation saved yet)."
+    }
+  ]
+}
