@@ -15,6 +15,7 @@ Method (team choice):
 """
 from __future__ import annotations
 
+from concurrent.futures import ThreadPoolExecutor
 import json
 import os
 from pathlib import Path
@@ -134,6 +135,11 @@ def check(question: dict[str, Any], parsed: dict[str, Any]) -> dict[str, Any]:
     return checks
 
 
+def agent_workers() -> int:
+    """Questions that run at the same time. Set CHALLENGE_AGENT_WORKERS=1 to run them one by one."""
+    return int(os.environ.get("CHALLENGE_AGENT_WORKERS", "4"))
+
+
 def resolve_entries(question: dict[str, Any], entries: list[dict[str, Any]]) -> dict[str, Any]:
     """Find the question's entry IDs from its headwords. IDs are sequential and shift between runs."""
     if not question.get("headwords"):
@@ -154,12 +160,10 @@ def run(settings: Settings, work_dir: Path, only: list[str] | None = None) -> di
     out = work_dir / "agent"
     run_dir = out / "runs" / run_id
     sandbox = outside_git_folder()
-    rows = []
     entries = read_jsonl(text_dir(work_dir) / "entries.jsonl")
-    for question in spec["questions"]:
-        if only and question["id"] not in only:
-            continue
-        question = resolve_entries(question, entries)
+    selected = [resolve_entries(q, entries) for q in spec["questions"] if not only or q["id"] in only]
+
+    def ask(question: dict[str, Any]) -> dict[str, Any]:
         started = utc_now()
         command = [hermes, "chat", "-q", question["question"], "--oneshot",
                    "--format", "stream-json", "-t", "nemotron_challenge",
@@ -174,19 +178,23 @@ def run(settings: Settings, work_dir: Path, only: list[str] | None = None) -> di
         write_text(run_dir / f"{question['id']}.stderr.txt", stderr)
         parsed = parse_events([line for line in stdout.splitlines() if line.strip()])
         checks = check(question, parsed)
-        row = {"run_id": run_id, "question_id": question["id"], "question": question["question"],
-               "expect": question["expect"], "entries": question.get("entries", []), "started_at": started,
-               "finished_at": utc_now(),
-               "process_exit_code": code, "events_path": str(run_dir / f"{question['id']}.jsonl"),
-               "model": parsed["model"], "session_id": parsed["session_id"],
-               "tool_calls": [c["name"] for c in parsed["tool_calls"]], "answer": parsed["answer"], "checks": checks,
-               "soul_sha256": profile["soul_sha256"]}
         if not checks["completed"]:
             append_jsonl(work_dir / "runs" / "failures.jsonl", {
                 "stage": "agent", "run_id": run_id, "question_id": question["id"], "process_exit_code": code,
                 "error": stderr[-600:], "at": utc_now()})
+        return {"run_id": run_id, "question_id": question["id"], "question": question["question"],
+                "expect": question["expect"], "entries": question.get("entries", []), "started_at": started,
+                "finished_at": utc_now(),
+                "process_exit_code": code, "events_path": str(run_dir / f"{question['id']}.jsonl"),
+                "model": parsed["model"], "session_id": parsed["session_id"],
+                "tool_calls": [c["name"] for c in parsed["tool_calls"]], "answer": parsed["answer"], "checks": checks,
+                "soul_sha256": profile["soul_sha256"]}
+
+    # Each question runs in its own Hermes process, so they can run at the same time.
+    with ThreadPoolExecutor(max_workers=max(1, agent_workers())) as pool:
+        rows = list(pool.map(ask, selected))
+    for row in rows:
         append_jsonl(out / "runs.jsonl", row)
-        rows.append(row)
     summary = {
         "stage": "agent", "finished_at": utc_now(), "run_id": run_id, "model": SUPER_MODEL, **profile,
         "questions": len(rows), "completed": sum(r["checks"]["completed"] for r in rows),
