@@ -46,7 +46,7 @@ STEPS = ("extract", "correct", "match", "compare", "document")
 NEEDS = {"extract": (), "correct": ("extract",), "match": ("extract",), "compare": ("match",),
          "document": ("extract",)}
 STEP_MODELS = {"extract": [PARSE_MODEL], "correct": [SUPER_MODEL],
-               "match": ["Wikipedia BM25 API", EMBED_MODEL, RERANK_MODEL], "compare": [], "document": ["LaTeX · tectonic"]}
+               "match": ["Wikipedia BM25 API", SUPER_MODEL, EMBED_MODEL, RERANK_MODEL], "compare": [], "document": ["LaTeX · tectonic"]}
 CORPUS_STAGE = {"document": "site"}
 UPLOAD_ID = re.compile(r"[0-9a-f]{12}")
 MAX_UPLOAD_BYTES = 30 * 1024 * 1024
@@ -369,6 +369,8 @@ def entry_source(folder: Path) -> str:
 def step_match(settings: Settings, folder: Path, progress: Progress) -> dict[str, Any]:
     source = entry_source(folder)
     entries = read_json(folder / source / "entries.json")
+    page = read_json(folder / source / "page.json")
+    pages = {page["page_id"]: page}
     mode, mode_detail = match_stage.retrieval_mode(settings)
     out = folder / "match"
     selected = [e for e in entries if not match_stage.skip_reason(e)]
@@ -379,7 +381,8 @@ def step_match(settings: Settings, folder: Path, progress: Progress) -> dict[str
 
     def one(entry: dict[str, Any]) -> dict[str, Any]:
         nonlocal done
-        record = match_stage.match_entry(settings, entry, mode, out, folder / "failures.jsonl")
+        record = match_stage.match_entry(settings, entry, mode, out, folder / "failures.jsonl",
+                                         pages=pages, scan_dir=folder)
         with lock:
             done += 1
             progress(done, len(selected), entry["headword"] or entry["entry_id"])
@@ -390,8 +393,13 @@ def step_match(settings: Settings, folder: Path, progress: Progress) -> dict[str
     write_json(out / "matches.json", records)
     write_json(out / "skipped.json", skipped)
     statuses = Counter(r["decision"]["status"] for r in records)
+    llm = Counter(r["search_terms"]["llm"]["status"] for r in records if r.get("search_terms"))
     return {"mode": mode, "mode_detail": mode_detail, "entry_text": source,
-            "models": [EMBED_MODEL, RERANK_MODEL] if mode == "model" else [],
+            "models": ([EMBED_MODEL, RERANK_MODEL] if mode == "model" else []) + ([SUPER_MODEL] if llm["ok"] else []),
+            "terms_model": SUPER_MODEL,
+            "llm_terms": {"ok": llm["ok"], "failed": llm["failed"], "skipped": llm["skipped"],
+                          "cached": sum(1 for r in records
+                                        if r.get("search_terms") and r["search_terms"]["llm"].get("cached"))},
             "thresholds": match_stage.model_thresholds() if mode == "model" else {"title_similarity": match_stage.TITLE_ACCEPT},
             "searched": len(records), "skipped": len(skipped), "accepted": statuses["accepted"],
             "rejected": statuses["rejected"], "errors": statuses["error"]}
@@ -626,7 +634,7 @@ def match_view(record: dict[str, Any] | None, candidates_file: Path, articles: P
     saved = read_json(candidates_file) if candidates_file.is_file() else {}
     rows = saved.get("candidates", [])
     view = {k: record.get(k) for k in ("mode", "queries", "headword_variant", "candidate_count", "query_chars",
-                                       "decision", "list_pages_removed_after_fetch")}
+                                       "decision", "list_pages_removed_after_fetch", "search_terms")}
     view["searches"], view["searches_complete"] = search_view({**record, **saved}, rows)
     view["model_query"] = model_query_view(record, entry, len(rows)) if record.get("mode") == "model" else None
     rows = sorted(rows, key=lambda r: (r.get("rerank_position") or 10_000, r.get("best_rank") or 10_000))

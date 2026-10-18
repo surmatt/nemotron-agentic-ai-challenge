@@ -39,7 +39,33 @@ Accept the reranker's first candidate when:
 The grid search over logit, margin, cosine, and title similarity chose these values for the best F1 on all 60 entries.
 The grid includes the rule from the first GPU run on `main` (logit ≥ -6.0 and title similarity ≥ 0.75). A title test did not raise F1.
 
+## Method update: LLM terms and F2 fitting
+
+The queries changed. The match stage now also sends the Super VL title guess and its terms as a fourth
+BM25 query. That query returns pages the labeller never saw, so the scoring and the fit changed:
+
+- Before the new run, `calibrate.snapshot_judged` stores the candidate page IDs of each labelled entry
+  in `docs/evaluation/match_judged.json`. That file keeps the set of pages the labeller saw.
+- An accepted page that is not in the accept list counts as a false positive only when the labeller saw
+  it. A page outside the judged set counts as `unjudged` and stays out of the precision count.
+- The grid search now fits the thresholds for the best F2, so recall weighs twice precision. It reports
+  the unjudged accepts with their titles for a person to label.
+- `match_thresholds.json` records the objective, the unjudged accepts, and the label coverage: the share
+  of labelled accept pages that the new candidate list still contains, and the count of new candidates
+  per entry outside the judged set.
+
+To re-run: take the judged snapshot once, run the match stage, then run the calibration.
+
+```sh
+uv run python -c "from pathlib import Path; from nemotron_challenge.calibrate import snapshot_judged; snapshot_judged(Path('artifacts'))"
+uv run nemotron-challenge run match
+uv run python -c "from pathlib import Path; from nemotron_challenge.calibrate import run; run(Path('artifacts'))"
+```
+
 ## Results
+
+The results below come from the previous run: the F1 fit on the old candidate set, before the LLM terms
+query existed. New results follow the next run.
 
 | Rule | Accepted | Correct | Wrong | Precision | Recall | F1 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -69,6 +95,8 @@ The grid includes the rule from the first GPU run on `main` (logit ≥ -6.0 and 
 
 ## Limits
 
-- The labels cover only the BM25 candidates. An article that BM25 did not return cannot be found or labelled.
+- The labels cover only the BM25 candidates of the old run. An article that BM25 did not return cannot be found or labelled.
+- The labels judge only the old candidate set. An unjudged accept can be right or wrong; a person must label it before we know the real precision.
+- F2 favours recall, so the new rule accepts more entries and will also accept more wrong ones.
 - The margin rule rejects a correct article when a second candidate scores close to it (HEAT).
 - One labeller; no second review.

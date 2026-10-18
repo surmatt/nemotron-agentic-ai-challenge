@@ -1,6 +1,8 @@
 """Fixture tests for the match calibration rules. They prove the scoring, not match quality."""
 import json
 
+import pytest
+
 from nemotron_challenge import calibrate, match
 
 
@@ -14,6 +16,33 @@ def test_score_counts_wrong_accepts_as_false_positives():
     result = calibrate.score({"E1": "1", "E2": "9", "E3": "5"}, labels)
     assert (result["true_positive"], result["false_positive"], result["positives"]) == (1, 2, 2)
     assert result["precision"] == 0.333 and result["recall"] == 0.5
+
+
+def test_score_counts_unjudged_accepts_apart_from_false_positives():
+    labels = {"E1": ["1"], "E2": ["2"]}
+    judged = {"E1": {"pages": ["1", "7"]}, "E2": {"pages": ["2", "8"]}}
+    result = calibrate.score({"E1": "9", "E2": "8"}, labels, judged)
+    assert (result["true_positive"], result["false_positive"], result["unjudged"]) == (0, 1, 1)
+    assert result["precision"] == 0.0 and result["f2"] == 0.0
+    result = calibrate.score({"E1": "1", "E2": "8"}, labels, judged)
+    assert (result["true_positive"], result["false_positive"]) == (1, 1)
+    assert result["f2"] == round(5 * 0.5 * 0.5 / (4 * 0.5 + 0.5), 3)
+
+
+def test_snapshot_judged_writes_the_seen_pages_and_refuses_to_overwrite(tmp_path, monkeypatch):
+    monkeypatch.setattr(calibrate, "LABELS", tmp_path / "labels.json")
+    monkeypatch.setattr(calibrate, "JUDGED", tmp_path / "judged.json")
+    (tmp_path / "labels.json").write_text(json.dumps(
+        {"entries": [{"entry_id": "E1", "accept": ["1"], "split": "calibrate"}]}))
+    path = tmp_path / "match" / "candidates" / "E1.json"
+    path.parent.mkdir(parents=True)
+    path.write_text(json.dumps({"entry_id": "E1", "candidates": [{"page_id": "1"}, {"page_id": "2"}]}))
+    judged = calibrate.snapshot_judged(tmp_path)
+    assert judged["E1"]["pages"] == ["1", "2"] and len(judged["E1"]["candidates_sha256"]) == 64
+    assert judged["E1"]["source"] == str(path)
+    with pytest.raises(ValueError):
+        calibrate.snapshot_judged(tmp_path)
+    assert calibrate.snapshot_judged(tmp_path, force=True)["E1"]["pages"] == ["1", "2"]
 
 
 def test_model_choice_needs_logit_margin_and_cosine():

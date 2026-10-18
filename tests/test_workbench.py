@@ -127,6 +127,7 @@ def test_steps_run_in_order_and_keep_raw_replies(tmp_path, stubs):
     assert entry["headword"] == "HEAT" and entry["match"]["decision"]["status"] == "accepted"
     assert entry["match"]["searches_complete"] is True
     assert [s["kind"] for s in entry["match"]["searches"]] == ["headword", "headword + keywords"]
+    assert entry["match"]["search_terms"]["llm"]["status"] == "skipped"
     assert entry["match"]["searches"][0]["hits"][0] | {"status": "candidate"} == entry["match"]["searches"][0]["hits"][0]
     assert entry["match"]["article"]["revision_id"] == "7" and entry["pair"]["article"]["page_id"] == "42"
     assert view["steps"]["compare"]["summary"]["pairs"] == 1

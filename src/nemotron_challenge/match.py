@@ -3,8 +3,11 @@
 Method (team choice):
 1. Skip entries with fewer than MIN_ENTRY_CHARS characters, and continuations without a known
    title and fewer than MIN_UNTITLED_CHARS characters. Record each skip.
-2. Search the shared BM25 index twice: the headword alone, then the headword with text keywords.
-   An entry without a headword uses the keywords only.
+2. Search the shared BM25 index with up to four queries: the headword, an OCR headword variant when
+   one exists, the headword with the 6 most frequent dictionary words of the whole entry text and the
+   running headers (long s repaired first), and the Super VL title guess with its
+   terms (terms.py). An entry without a headword uses the keywords only for the third query.
+   A failed or missing Super VL call removes only the fourth query.
 3. Score the merged candidates:
    - model mode (retrieval service ready): Nemotron embedder cosine between the entry text and
      each candidate (title + excerpt), then Nemotron reranker raw logits on the same pairs.
@@ -35,13 +38,15 @@ from pathlib import Path
 import re
 from typing import Any
 
-from .clients import RetrievalClient, ServiceError, WikiClient
+from . import terms as terms_stage
+from .clients import ChatClient, RetrievalClient, ServiceError, WikiClient
 from .common import (
     text_dir,
     append_jsonl, read_json, read_jsonl, scan_reference, sha256_text, system_words, utc_now, wiki_reference,
     with_retry, write_json, write_jsonl,
 )
-from .config import EMBED_MODEL, RERANK_MODEL, WIKIPEDIA_REVISION, Settings
+from .config import EMBED_MODEL, RERANK_MODEL, SUPER_MODEL, WIKIPEDIA_REVISION, Settings
+from .ocr_eval import fix_long_s
 from .contracts import ArtifactRecord
 from .data import load_manifest
 
@@ -68,6 +73,7 @@ RERANK_ACCEPT = -6.0
 MODEL_TITLE_ACCEPT = 0.75
 COSINE_ACCEPT = 0.0
 QUERY_TEXT_CHARS = 1500
+FREQUENCY_KEYWORDS = 6
 STOPWORDS = set("""
 a about above after again against all also am an and any are as at be because been before being below between
 both but by can could did do does doing down during each either else ever every few for from further had has have
@@ -83,8 +89,20 @@ def words(text: str) -> list[str]:
     return [w for w in re.findall(r"[a-z]+", text.lower()) if len(w) >= 3 and w not in STOPWORDS]
 
 
-def keywords(text: str, limit: int = 12) -> list[str]:
-    counts = Counter(w for w in words(text[:4000]) if len(w) >= 4)
+def keyword_source(entry: dict[str, Any], pages: dict[str, dict[str, Any]] | None = None) -> str:
+    """The text the frequency keywords come from: headword, running headers, and the entry text."""
+    headers = [(pages.get(p["page_id"]) or {}).get("running_header") or "" for p in entry.get("pages", [])] \
+        if pages else []
+    return " ".join([entry.get("headword") or "", *headers, entry["text"]])
+
+
+def keywords(text: str, limit: int = FREQUENCY_KEYWORDS,
+             vocabulary: frozenset[str] | set[str] | None = None) -> list[str]:
+    """The most frequent dictionary words of length >= 4. No dictionary means no filter."""
+    vocabulary = system_words() if vocabulary is None else vocabulary
+    if vocabulary:
+        text = fix_long_s(text, vocabulary)
+    counts = Counter(w for w in words(text) if len(w) >= 4 and (not vocabulary or w in vocabulary))
     return [word for word, _ in counts.most_common(limit)]
 
 
@@ -141,17 +159,35 @@ def is_list_page(text: str) -> bool:
     return bool(LIST_PAGE.search(text[:LIST_PAGE_HEAD_CHARS]))
 
 
-def queries(entry: dict[str, Any], variant: str | None = None) -> list[str]:
+def llm_query(llm: dict[str, Any], head: str, variant: str | None) -> str | None:
+    """The q3 query from a Super VL terms result: title guess (or headword) plus the terms."""
+    if not llm or llm.get("status") != "ok" or not (llm.get("title") or llm.get("terms")):
+        return None
+    seen, kept = set(), []
+    for word in " ".join([llm.get("title") or variant or head, *(llm.get("terms") or [])]).split():
+        if word.lower() not in seen:
+            seen.add(word.lower())
+            kept.append(word)
+    return " ".join(kept[:64])[:512] if kept else None
+
+
+def queries(entry: dict[str, Any], variant: str | None = None, *, pages: dict[str, dict[str, Any]] | None = None,
+            llm: dict[str, Any] | None = None) -> list[tuple[str, str]]:
+    """The BM25 queries of one entry as (query, kind) pairs, at most 64 words and 512 characters."""
     head = clean_headword(entry["headword"])
-    keys = [k for k in keywords(entry["text"]) if k not in head.split()]
+    keys = [k for k in keywords(keyword_source(entry, pages)) if k not in head.split()]
     result = []
     if head:
-        result.append(head)
+        result.append((head, "headword"))
     if variant and variant != head:
-        result.append(variant)
+        result.append((variant, "OCR headword variant"))
     combined = " ".join([variant or head] + keys).strip()
-    if combined and combined not in result:
-        result.append(" ".join(combined.split()[:64])[:512])
+    if combined and combined not in [q for q, _ in result]:
+        result.append((" ".join(combined.split()[:64])[:512],
+                       "headword + keywords" if head else "keywords"))
+    extra = llm_query(llm or {}, head, variant)
+    if extra and extra not in [q for q, _ in result]:
+        result.append((extra, "LLM title + terms"))
     return result
 
 
@@ -172,17 +208,20 @@ def query_kind(query: str, entry: dict[str, Any], variant: str | None) -> str:
 
 
 def candidates(wiki: WikiClient, entry: dict[str, Any],
-               searches: list[dict[str, Any]] | None = None) -> tuple[list[str], list[dict[str, Any]]]:
+               searches: list[dict[str, Any]] | None = None, *,
+               pages: dict[str, dict[str, Any]] | None = None,
+               llm: dict[str, Any] | None = None) -> tuple[list[str], list[dict[str, Any]]]:
     """Merge BM25 hits of all queries. Remove disambiguation pages and list pages.
 
     When `searches` is a list, append each query with every hit it returned, in rank order."""
     merged: dict[str, dict[str, Any]] = {}
     variant = headword_variant(entry["headword"])
-    used = queries(entry, variant)
-    for query_index, query in enumerate(used):
+    pairs = queries(entry, variant, pages=pages, llm=llm)
+    used = [q for q, _ in pairs]
+    for query_index, (query, kind) in enumerate(pairs):
         result = with_retry(lambda: wiki.search(query, top_k=TOP_K, excerpt_chars=EXCERPT_CHARS))
         if searches is not None:
-            searches.append({"id": f"q{query_index}", "query": query, "kind": query_kind(query, entry, variant),
+            searches.append({"id": f"q{query_index}", "query": query, "kind": kind,
                              "top_k": TOP_K, "excerpt_chars": EXCERPT_CHARS,
                              "hits": [{"page_id": h.page_id, "title": h.title, "url": h.url, "rank": h.rank,
                                        "bm25": round(h.bm25_score, 4),
@@ -332,14 +371,42 @@ def skip_reason(entry: dict[str, Any]) -> str | None:
     return None
 
 
-def match_entry(settings: Settings, entry: dict[str, Any], mode: str, out: Path, failures: Path) -> dict[str, Any]:
+def llm_terms(settings: Settings, entry: dict[str, Any], pages: dict[str, dict[str, Any]],
+              scan_dir: Path, out: Path, failures: Path) -> dict[str, Any]:
+    """The Super VL title guess and terms for one entry, or a skip/failure result. Never raises."""
+    if not settings.super_api_key:
+        return {"status": "skipped", "reason": "SUPER_API_KEY is not set"}
+    path = out / "terms" / f"{entry['entry_id']}.json"
+    try:
+        with ChatClient(settings.super_base_url, settings.super_api_key, settings.super_model) as client:
+            record = terms_stage.suggest(client, entry, pages, scan_dir, path)
+        return {"status": "ok", "model": record["model"], "title": record["parsed"].get("title"),
+                "terms": record["parsed"]["terms"], "cached": record.get("cached", False),
+                "raw_path": f"terms/{entry['entry_id']}.json"}
+    except (ServiceError, ValueError, OSError) as exc:
+        append_jsonl(failures, {"stage": "match_terms", "entry_id": entry["entry_id"],
+                                "error_type": type(exc).__name__, "error": str(exc), "at": utc_now()})
+        result: dict[str, Any] = {"status": "failed", "error_type": type(exc).__name__, "error": str(exc)}
+        if path.is_file():
+            result["raw_path"] = f"terms/{entry['entry_id']}.json"
+        return result
+
+
+def match_entry(settings: Settings, entry: dict[str, Any], mode: str, out: Path, failures: Path,
+                pages: dict[str, dict[str, Any]] | None = None, scan_dir: Path | None = None) -> dict[str, Any]:
     """Search, score, and decide one entry. Write its candidates to out/candidates and articles to out/articles."""
     record: dict[str, Any] = {"entry_id": entry["entry_id"], "headword": entry["headword"],
                               "entry_text_sha256": entry["text_sha256"], "mode": mode}
     try:
+        record["search_terms"] = {
+            "frequency": keywords(keyword_source(entry, pages)),
+            "dictionary_filter": bool(system_words()),
+            "llm": (llm_terms(settings, entry, pages, scan_dir, out, failures)
+                    if pages and scan_dir else {"status": "skipped", "reason": "no page records or scan directory"}),
+        }
         with WikiClient(settings.wikipedia_api_url) as wiki:
             searches: list[dict[str, Any]] = []
-            used, rows = candidates(wiki, entry, searches)
+            used, rows = candidates(wiki, entry, searches, pages=pages, llm=record["search_terms"]["llm"])
             record["queries"] = used
             record["searches"] = searches
             if mode == "model" and rows:
@@ -372,11 +439,12 @@ def match_entry(settings: Settings, entry: dict[str, Any], mode: str, out: Path,
     return record
 
 
-def run(settings: Settings, work_dir: Path) -> dict[str, Any]:
+def run(settings: Settings, work_dir: Path, raw_scans: Path = Path("data/raw/britannica")) -> dict[str, Any]:
     from .storage import LanceArtifactStore
 
     source = text_dir(work_dir)
     entries = read_jsonl(source / "entries.jsonl")
+    pages = {p["page_id"]: p for p in read_jsonl(source / "pages.jsonl")}
     out = work_dir / "match"
     mode, mode_detail = retrieval_mode(settings)
     selected, skipped = [], []
@@ -389,12 +457,13 @@ def run(settings: Settings, work_dir: Path) -> dict[str, Any]:
 
     failures = work_dir / "runs" / "failures.jsonl"
     with ThreadPoolExecutor(max_workers=4) as pool:
-        records = list(pool.map(lambda entry: match_entry(settings, entry, mode, out, failures), selected))
+        records = list(pool.map(
+            lambda entry: match_entry(settings, entry, mode, out, failures, pages, raw_scans), selected))
     write_jsonl(out / "matches.jsonl", records)
     write_jsonl(out / "skipped.jsonl", skipped)
 
     manifest = load_manifest()
-    pages = {p["page_id"]: p for p in manifest["pages"]}
+    manifest_pages = {p["page_id"]: p for p in manifest["pages"]}
     by_entry = {e["entry_id"]: e for e in entries}
     match_records = []
     for record in records:
@@ -403,16 +472,26 @@ def run(settings: Settings, work_dir: Path) -> dict[str, Any]:
         article = read_json(out / "articles" / f"{record['article']['page_id']}.json")
         match_records.append(ArtifactRecord(
             record_id=f"match:{record['entry_id']}", stage="match", artifact_path=str(out / "matches.jsonl"),
-            sources=[scan_reference(pages[p["page_id"]], manifest) for p in by_entry[record["entry_id"]]["pages"]]
+            sources=[scan_reference(manifest_pages[p["page_id"]], manifest)
+                     for p in by_entry[record["entry_id"]]["pages"]]
             + [wiki_reference(article)],
             metadata={"method": record["decision"]["method"], "title": article["title"]},
         ))
     provenance = LanceArtifactStore(settings.db_path, work_dir).replace_stage("match", match_records)
     accepted = [r for r in records if r["decision"]["status"] == "accepted"]
     repeats = Counter(r["article"]["page_id"] for r in accepted)
+    llm_results = [r["search_terms"]["llm"] for r in records if r.get("search_terms")]
+    models = [EMBED_MODEL, RERANK_MODEL] if mode == "model" else []
+    if any(r["status"] == "ok" for r in llm_results):
+        models = [*models, SUPER_MODEL]
     summary = {
         "stage": "match", "finished_at": utc_now(), "entry_text": source.name, "provenance": provenance, "mode": mode, "mode_detail": mode_detail,
-        "models": [EMBED_MODEL, RERANK_MODEL] if mode == "model" else [],
+        "models": models,
+        "terms_model": SUPER_MODEL,
+        "llm_terms": {"ok": sum(r["status"] == "ok" for r in llm_results),
+                      "cached": sum(1 for r in llm_results if r.get("cached")),
+                      "failed": sum(r["status"] == "failed" for r in llm_results),
+                      "skipped": sum(r["status"] == "skipped" for r in llm_results)},
         "wikipedia_revision": WIKIPEDIA_REVISION,
         "thresholds": {"title_similarity": TITLE_ACCEPT} if mode == "lexical"
         else model_thresholds(),

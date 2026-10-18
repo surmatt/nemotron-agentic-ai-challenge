@@ -15,7 +15,7 @@ Our pipeline has eight stages. Run each one with `uv run nemotron-challenge run 
 | --- | --- | --- |
 | `extract` | Parses each scan, keeps the raw reply, removes page furniture, and splits entries at headwords | Parse 3.5 |
 | `correct` | Corrects the Parse text of each block from an enlarged crop of the scan | Super 3.5 VL |
-| `match` | Gets BM25 candidates, ranks them with the reranker, and accepts by calibrated thresholds | Embed VL, Rerank VL |
+| `match` | Gets BM25 candidates (headword, cleaned frequency keywords, Super VL terms), ranks them with the reranker, and accepts by calibrated thresholds | Super 3.5 VL, Embed VL, Rerank VL |
 | `compare` | Compares word frequencies with log-odds and cites a snippet from both sources | – |
 | `index` | Embeds Britannica and Wikipedia passages and stores them with citations in LanceDB | Embed VL |
 | `agent` | Runs Hermes with five team tools (search, semantic search, compare, read, corpus) and evidence rules | Super 3.5 VL |
@@ -42,8 +42,8 @@ We measured the result against hand transcriptions of 30 blocks from 15 scans
 
 ### 2. Calibrated matching with the embedder and reranker
 
-We labelled 60 entries by hand, with the model scores hidden, and calibrated the accept rule on them
-([docs/evaluation/match-calibration.md](docs/evaluation/match-calibration.md)).
+We labelled 60 entries by hand, with the model scores hidden, and fitted the accept rule on them for the
+best F2 score ([docs/evaluation/match-calibration.md](docs/evaluation/match-calibration.md)).
 
 | Ranker | First candidate correct (43 labelled entries) |
 | --- | --- |

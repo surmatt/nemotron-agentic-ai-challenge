@@ -83,6 +83,33 @@ export function MatchTab({ view, focus }: { view: WorkspaceView; focus: string |
             One search per query. The pages of all searches merge into one candidate list. Disambiguation and list pages
             leave the list.
           </p>
+          {m.search_terms && (
+            <div>
+              <p className="small muted">Frequency words · whole entry + headers</p>
+              <p className="badges">
+                {m.search_terms.frequency.map((w) => (
+                  <Chip key={w}>{w}</Chip>
+                ))}
+              </p>
+              {m.search_terms.llm.status === "ok" ? (
+                <>
+                  <SourceLabel kind="generated">
+                    {m.search_terms.llm.model ?? "Super VL"} · title guess and search terms
+                  </SourceLabel>
+                  <p className="badges">
+                    {m.search_terms.llm.title && <Chip tone="ok">{m.search_terms.llm.title}</Chip>}
+                    {(m.search_terms.llm.terms ?? []).map((w) => (
+                      <Chip key={w}>{w}</Chip>
+                    ))}
+                  </p>
+                </>
+              ) : (
+                <p className="small muted">
+                  {m.search_terms.llm.error ?? m.search_terms.llm.reason ?? "no Super VL terms"}
+                </p>
+              )}
+            </div>
+          )}
           <div className="search-grid">
             {m.searches.map((s) => (
               <article key={s.id} className="search">
