@@ -7,7 +7,7 @@ The outputs include a static website, compiled LaTeX documents, saved model repl
 
 - Team: Surmatotron
 - Repository: <https://github.com/surmatt/nemotron-agentic-ai-challenge>. Final commit: pending.
-- Video (3 to 5 minutes): pending.
+- Video: <https://www.loom.com/share/b45c5e3e8a8c4c4c98bb941131c42465>
 - Static website: [artifacts/site/index.html](artifacts/site/index.html), from the Saved run.
 - Compiled LaTeX documents: [artifacts/site/latex/](artifacts/site/latex/), 98 PDFs with their `.tex` sources.
 - Case studies: [three successes and three failures](#case-studies).

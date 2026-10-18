@@ -2,7 +2,7 @@
 
 Team: Surmatotron
 Repository URL and commit: <https://github.com/surmatt/nemotron-agentic-ai-challenge>, commit [`ed22b37`](https://github.com/surmatt/nemotron-agentic-ai-challenge/tree/ed22b37cc4d3fbb8f39710b7de6c97d03b3637b5) on `main`
-Video URL, 3 to 5 minutes: TODO, the video is in production (script: [video/script.md](video/script.md))
+Video URL, 3 to 5 minutes: <https://www.loom.com/share/b45c5e3e8a8c4c4c98bb941131c42465> (script: [video/script.md](video/script.md))
 Static website URL: <https://port8790-bmwqhj74ax00h6q.tunnel.applications.uk-south2.nebius.cloud/site/index.html>. The same site is in the repository at [artifacts/site/index.html](artifacts/site/index.html).
 The hosted site is built from the end-to-end rerun in `artifacts-e2e3/` (13:52 UTC: 248 entry pages, 8 agent runs). The numbers below come from `artifacts/` (249 entries, 45 agent runs).
 Live workbench: <https://port8790-bmwqhj74ax00h6q.tunnel.applications.uk-south2.nebius.cloud/> (Nebius CPU endpoint, open access)
