@@ -289,7 +289,7 @@ Anyone with the URL can upload scans and run the live steps.
 Each run uses the team's Parse, Super VL, and retrieval quota.
 Stop the endpoint when you do not need it.
 
-The image in `infra/workbench/` holds the built UI, the saved corpus run from `artifacts-e2e3/`, and the pinned scans.
+The image in `infra/workbench/` holds the built UI, the saved corpus run from `artifacts/`, and the pinned scans.
 It holds no keys.
 Uploads stay in the container file system and are lost when the endpoint restarts.
 

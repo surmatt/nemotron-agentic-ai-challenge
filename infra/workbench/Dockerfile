@@ -35,7 +35,7 @@ RUN uv sync --locked --no-dev --extra ui
 
 COPY --from=ui /ui/dist ui/dist
 # Saved corpus run and the pinned scans. The workbench shows them read-only.
-ARG ARTIFACTS_DIR=artifacts-e2e3
+ARG ARTIFACTS_DIR=artifacts
 COPY ${ARTIFACTS_DIR}/ artifacts/
 COPY data/raw/britannica/ data/raw/britannica/
 RUN chown -R app:app /app
