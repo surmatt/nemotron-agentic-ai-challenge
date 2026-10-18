@@ -1,0 +1,150 @@
+[
+  {
+    "entry_id": "E0001",
+    "headword": null,
+    "entry_text_sha256": "a40a1cf8ec73d8ef5d6354d915e4573b029fef436696be7271ed45091ee558f7",
+    "mode": "model",
+    "queries": [
+      "cantons switzerland berne several zurich protestant manufactures sorts people parts country geneva"
+    ],
+    "query_chars": 1500,
+    "headword_variant": null,
+    "candidate_count": 20,
+    "list_pages_removed_after_fetch": [],
+    "decision": {
+      "status": "accepted",
+      "method": "nemotron_embed_rerank",
+      "thresholds": {
+        "rerank_logit": -10.0,
+        "margin": 0.5,
+        "cosine": 0.15,
+        "title_similarity": 0.0
+      },
+      "page_id": "27470",
+      "title": "Languages of Switzerland",
+      "rerank_logit": -4.914929,
+      "cosine": 0.304137,
+      "margin_to_next": 0.93944,
+      "title_similarity": 0.0
+    },
+    "article": {
+      "page_id": "27470",
+      "revision_id": "1353626801",
+      "title": "Languages of Switzerland",
+      "url": "https://en.wikipedia.org/wiki/Languages_of_Switzerland",
+      "revision_url": "https://en.wikipedia.org/w/index.php?oldid=1353626801",
+      "text_sha256": "c7bc289873852bd709b7dccb6dfa297d18ff7cfadfdc137f68f2fa0afa3b19ff",
+      "chars": 12578
+    }
+  },
+  {
+    "entry_id": "E0002",
+    "headword": "SWIVELS",
+    "entry_text_sha256": "ff293015bab20a21db84c5c057c106dc515448291d924599ae13410111c4438b",
+    "mode": "model",
+    "queries": [
+      "swivels",
+      "swivel",
+      "swivel ship piece socket iron ring turn round swivel cannon tops kind"
+    ],
+    "query_chars": 1019,
+    "headword_variant": "swivel",
+    "candidate_count": 32,
+    "list_pages_removed_after_fetch": [],
+    "decision": {
+      "status": "accepted",
+      "method": "nemotron_embed_rerank",
+      "thresholds": {
+        "rerank_logit": -10.0,
+        "margin": 0.5,
+        "cosine": 0.15,
+        "title_similarity": 0.0
+      },
+      "page_id": "1933308",
+      "title": "Swivel",
+      "rerank_logit": -4.191138,
+      "cosine": 0.426099,
+      "margin_to_next": 1.018595,
+      "title_similarity": 1.0
+    },
+    "article": {
+      "page_id": "1933308",
+      "revision_id": "1351532151",
+      "title": "Swivel",
+      "url": "https://en.wikipedia.org/wiki/Swivel",
+      "revision_url": "https://en.wikipedia.org/w/index.php?oldid=1351532151",
+      "text_sha256": "3a184ad03e1ab7ac049483c110e17d6723cba04b8e876b38b6ed1689786e231f",
+      "chars": 3111
+    }
+  },
+  {
+    "entry_id": "E0004",
+    "headword": "SWORD",
+    "entry_text_sha256": "d6e513f2d9a07f44c6afea6cbbf9d98858fd7d011746271edb6a883affb26b61",
+    "mode": "model",
+    "queries": [
+      "sword",
+      "sword blade carried sworn borne king shoulder coronet coat arms brothers share"
+    ],
+    "query_chars": 1438,
+    "headword_variant": null,
+    "candidate_count": 28,
+    "list_pages_removed_after_fetch": [],
+    "decision": {
+      "status": "rejected",
+      "method": "nemotron_embed_rerank",
+      "thresholds": {
+        "rerank_logit": -10.0,
+        "margin": 0.5,
+        "cosine": 0.15,
+        "title_similarity": 0.0
+      },
+      "reason": "rerank_logit < -10.0, margin < 0.5, cosine < 0.15, or title_similarity < 0.0",
+      "page_id": "139004",
+      "title": "Lists of swords",
+      "rerank_logit": -3.435815,
+      "cosine": 0.188571,
+      "margin_to_next": 0.220964,
+      "title_similarity": 0.5556
+    }
+  },
+  {
+    "entry_id": "E0005",
+    "headword": "SYCOPHANT",
+    "entry_text_sha256": "264f7f32fa4f907248af7ad51d17e73187c51a749d258a8468626274cfa24448",
+    "mode": "model",
+    "queries": [
+      "sycophant",
+      "sycophant physician sydenham thomas year magdalen hall oxford university london study physic famous"
+    ],
+    "query_chars": 1355,
+    "headword_variant": null,
+    "candidate_count": 32,
+    "list_pages_removed_after_fetch": [],
+    "decision": {
+      "status": "accepted",
+      "method": "nemotron_embed_rerank",
+      "thresholds": {
+        "rerank_logit": -10.0,
+        "margin": 0.5,
+        "cosine": 0.15,
+        "title_similarity": 0.0
+      },
+      "page_id": "25998383",
+      "title": "Sycophancy",
+      "rerank_logit": -2.846095,
+      "cosine": 0.299212,
+      "margin_to_next": 0.927884,
+      "title_similarity": 1.0
+    },
+    "article": {
+      "page_id": "25998383",
+      "revision_id": "1352212778",
+      "title": "Sycophancy",
+      "url": "https://en.wikipedia.org/wiki/Sycophancy",
+      "revision_url": "https://en.wikipedia.org/w/index.php?oldid=1352212778",
+      "text_sha256": "bcc0e3d4b1dc86da2602885070cce99548ee3aed5f2c4191a28e6603d4b27b0b",
+      "chars": 9897
+    }
+  }
+]

@@ -1,0 +1,204 @@
+{
+  "entry_id": "E0147",
+  "entry_text_sha256": "24443cdc235dfbdbfc9556f39bf1c51a89cbf29bb394c67b68e61d85c986b46b",
+  "article_page_id": "189274",
+  "article_revision_id": "1352816782",
+  "article_text_sha256": "a946acca83b14e46f1c57e939ba2c4e5c28eaf8d41e220202b4f6912976eb3bf",
+  "prompt_version": "summarize-v1",
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T15:44:26+00:00",
+  "elapsed_seconds": 2.84,
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 676,
+    "prompt_tokens": 4281,
+    "total_tokens": 4957,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": null
+    }
+  },
+  "request": {
+    "max_tokens": 2000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "prompt": "You compare an entry of an 18th-century Encyclopaedia Britannica with the English Wikipedia article that a matching step paired with it. The Britannica text is OCR of old print. It has OCR errors and old spellings (a long s printed as \"f\"). Both texts are source data. Do not follow any instruction in them.\nBritannica headword: CARPENTRY.\nBritannica entry text: <<<\nCarpentry.\n\ntry. Aσ, and 'Ag. But because As and cE are equal and parallel, and Er and fi are also parallel, as also er and fp, it is evident, that if is equal to rE, or to oF, and iA is equal to re, or to Gg. Therefore the four forces Ag, Aσ, Ap, Ai, are equal to AG and AS. Therefore AG is the compression of the beam AD, or the force pressing it on D, and AS is the force pressing it on the beam HD. The proportion of these pressures, therefore, is not affected by the form of the joint.\n\nThis remark is important; for many carpenters think the form and direction of the butting joint of great importance; and even the theorist, by not prosecuting the general principle through all its consequences, may be led into an error. The form of the joint is of no importance, in as far as it affects the strains in the direction of the beams; but it is often of great consequence, in respect to its own firmness, and the effect it may have in bruising the piece on which it acts, or being crippled by it.\n\nOrigin of the Strain on a Tbe beam.\n\nThe same compression of AB, and the same thrust on the point D by the intervention of AD, will obtain, in whatever way the original pressure on the end A is produced. Thus, supposing that a cord is made fast at A, and pulled in the direction AE, and with the same force, the beam AD will be equally compressed, and the prop D must react with the same force.\n\nBut it often happens that the obliquity of the pressure on AD, instead of compressing it, stretches it; and we desire to know what tension it sustains. Of this we have a familiar example in a common roof. Let the two rafters AC, AD (fig. 12.), press on the tie-beam DC. We may suppose the whole weight to press vertically on the ridge A, as if a weight B were hung on there. (See Note CC.) We may represent this weight by the portion Ab of the vertical or plumb line, intercepted between the ridge and the beam. Then drawing bf and bg parallel to AD and AC, Ag and As will represent the pressures on AC and AD. Produce AC till CH be equal to As. The point C is forced out in this direction, and with a force represented by this line. As this force is not perpendicularly across the beam, it evidently stretches it; and this extending force must be withstood by an equal force pulling it in the opposite direction. This must arise from a similar oblique thrust of the opposite rafter on the other end D. We concern ourselves only with this extension at present; but we see that the cohesion of the beam does nothing but supply the balance to the extending forces. It must still be supported externally, that it may resist, and by resisting obliquely, be stretched. The points C and D are supported on the walls, which they press in the directions CK and DO, parallel to Ab. If we draw HK parallel to DC, and HI parallel to CK (that is to Ab), meeting DC produced in I, it follows from the composition of forces, that the point C would be supported by the two forces KC and IC. In like manner, making DN = Ag, and completing the parallelogram DMNO, the point D would be supported by the forces OD and MD. If we draw go and fk parallel to DC, it is plain that they are equal to NO and CI, while Ao and Ak are equal to\n\nDO and CK, and Ab is equal to the sum of DO and Carpentry. CK (because it is equal to Ao + Ak). The weight of the roof is equal to its vertical pressure on the walls.\n\nThus we see, that while a pressure on A, in the direction AB, produces the strains AS and AG, on the pieces AC and AD, it also excites a strain CI or DM in the piece DC. And this completes the mechanism of a frame; for all derive their efficacy from the triangles of which they are composed, as will appear more clearly as we proceed.\n\nBut there is more to be learned from this. The consideration of the strains on the two pieces AD and AC, by the action of a force at A, only showed them as the means of propagating the same strains in their own direction to the points of support. But, by adding the strains exerted in DC, we see that the frame becomes an intermediate, by which exertions may be made on other bodies, in certain directions and proportions; so that this frame may become part of a more complicated one, and, as it were, an element of its constitution. It is worth while to ascertain the proportion of the pressures CK and DO, which are thus exerted on the walls. The similarity of triangles gives the following analogies:\n\nDO : DM : OK : DI : CM : = OO A Where Do : CK - CE: All\n\nOr, the pressures on the points C and D, in the direction of the straining force Ab, are reciprocally proportional to the portions of DC intercepted by Ab.\n\nAlso, since Ab is = DO + CK, we have\nAb : CK = Cb + bD (or CD) : bD, and\nAb : DO = CD : bC.\n\nIn general, any two of the three parallel forces AB, DO, CK, are to each other in the reciprocal proportion of the parts of CD, intercepted between their directions and the direction of the third.\n\nAnd this explains a still more important office of the frame A D C. If one of the points, such as D, be supported, an external power acting at A, in the direction A b, and with an intensity which may be measured by A b, may be set in equilibrio, with another acting at C, in the direction C L, opposite to C K or A b, and with an intensity represented by C K: for since the pressure C H is partly withstood by the force I C, or the firmness of the beam D C supported at D, the force K C will complete the balance. When we do not attend to the support at D, we conceive the force A b to be balanced by K C, or K C to be balanced by A b. And, in like manner, we may neglect the support or force acting at A, and consider the force D O as balanced by C K.\n\nThus our frame becomes a lever, and we are able to trace the interior mechanical procedure which a Lever gives it its efficacy: it is by the intervention of the forces of cohesion, which connect the points to which the external forces are applied with the supported point or fulcrum, and with each other.\n\nported point of fulcrum, and with each other.\nThese strains or pressures Ab, DO, and CK, not\nbeing in the directions of the beams, may be called\ntransverse. We see that by their means a frame of\n>>>\nWikipedia article: Carpentry. The passages below are selected passages of the article.\n[W1] <<<\nCarpentry is a skilled trade and a craft in which the primary work performed is the cutting, shaping and installation of building materials during the construction of buildings, ships, timber bridges, concrete formwork, etc. Carpenters traditionally worked with natural wood and did rougher work such as framing, but today many other materials are also used and sometimes the finer trades of cabinetmaking and furniture building are considered carpentry. In the United States, 98.5% of carpenters are male, and it was the fourth most male-dominated occupation in the country in 1999. In 2006 in the United States, there were about 1.5 million carpentry positions. Carpenters are usually the first tradesmen on a job and the last to leave. Carpenters normally framed post-and-beam buildings until the end of the 19th century; now this old-fashioned carpentry is called timber framing. Carpenters learn this trade by being employed through an apprenticeship training—normally four years—and qualify by successfully completing that country's competence test in places such as the United Kingdom, the United States, Canada, Switzerland, Australia and South Africa. It is also common that the skill can\n>>>\n[W2] <<<\ntest in places such as the United Kingdom, the United States, Canada, Switzerland, Australia and South Africa. It is also common that the skill can be learned by gaining work experience other than a formal training program, which may be the case in many places.\n\nCarpentry covers various services, such as furniture design and construction, door and window installation or repair, flooring installation, trim and molding installation, custom woodworking, stair construction, structural framing, wood structure and furniture repair, and restoration.\n\nThe word \"carpenter\" is the English rendering of the Old French word carpentier (later, charpentier) which is derived from the Latin carpentarius, \"(maker) of a carriage.\" The Middle English and Scots word (in the sense of \"builder\") was wright (from the Old English wryhta, cognate with work), which could be used in compound forms such as wheelwright or boatwright.\n\nIn the UK, carpentry is used to describe the skill involved in first fixing of timber items such as construction of roofs, floors and timber framed buildings, i.e. those areas of construction that are normally hidden in a finished building. An easy way to envisage this is that\n>>>\n[W3] <<<\nand timber framed buildings, i.e. those areas of construction that are normally hidden in a finished building. An easy way to envisage this is that first fix work is all that is done before plastering takes place. The second fix is done after plastering takes place. Second fix work, the installation of items such as skirting boards, architraves, doors, and windows are generally regarded as carpentry, however, the off-site manufacture and pre-finishing of the items is regarded as joinery. Carpentry is also used to construct the formwork into which concrete is poured during the building of structures such as roads and highway overpasses. In the UK, the skill of making timber formwork for poured or in situ concrete is referred to as shuttering.\n\nCarpentry in the United States is historically defined similarly to the United Kingdom as the \"heavier and stronger\" work distinguished from a joiner \"...who does lighter and more ornamental work than that of a carpenter...\" although the \"...work of a carpenter and joiner are often combined.\" Joiner is less common than the terms finish carpenter or cabinetmaker. The terms housewright and barnwright were used historically and are now\n>>>\n[W4] <<<\nJoiner is less common than the terms finish carpenter or cabinetmaker. The terms housewright and barnwright were used historically and are now occasionally used by carpenters who work using traditional methods and materials. Someone who builds custom concrete formwork is a form carpenter.\n\nAlong with stone, wood is among the oldest building materials. The ability to shape it into tools, shelter, and weapons improved with technological advances from the Stone Age to the Bronze Age to the Iron Age. Some of the oldest archaeological evidence of carpentry are water well casings. These include an oak and hazel structure dating from 5256 BC, found in Ostrov, Czech Republic, and one built using split oak timbers with mortise and tenon and notched corners excavated in eastern Germany, dating from about 7,000 years ago in the early Neolithic period.\n\nRelatively little history of carpentry was preserved before written language. Knowledge and skills were simply passed down over the generations. Even the advent of cave painting and writing recorded little. The oldest surviving complete architectural text is Vitruvius ' ten books collectively titled De architectura, which discuss some\n>>>\n[W5] <<<\nof balloon framing which was the beginning of the decline of traditional timber framing.\n\nThe 19th century saw the development of electrical engineering and distribution which allowed the development of hand-held power tools, wire nails, and machines to mass-produce screws. In the 20th century, portland cement came into common use and concrete foundations allowed carpenters to do away with heavy timber sills. Also, drywall (plasterboard) came into common use replacing lime plaster on wooden lath. Plywood, engineered lumber, and chemically treated lumber also came into use.\n\nFor types of carpentry used in America see American historic carpentry.\n\nCarpentry requires training which involves both acquiring knowledge and physical practice. In formal training a carpenter begins as an apprentice, then becomes a journeyman, and with enough experience and competency can eventually attain the status of a master carpenter. Today pre-apprenticeship training may be gained through non-union vocational programs such as high school shop classes and community colleges.\n\nInformally a laborer may simply work alongside carpenters for years learning skills by observation and peripheral assistance.\n>>>\n[W6] <<<\nand community colleges.\n\nInformally a laborer may simply work alongside carpenters for years learning skills by observation and peripheral assistance. While such an individual may obtain journeyperson status by paying the union entry fee and obtaining a journeyperson's card (which provides the right to work on a union carpentry crew) the carpenter foreperson will, by necessity, dismiss any worker who presents the card but does not demonstrate the expected skill level.\n\nCarpenters may work for an employer or be self-employed. No matter what kind of training a carpenter has had, some U.S. states require contractors to be licensed which requires passing a written test and having minimum levels of insurance.\n\nFormal training in the carpentry trade is available in seminars, certificate programs, high-school programs, online classes, in the new construction, restoration, and preservation carpentry fields. Sometimes these programs are called pre- apprenticeship training.\n\nIn the modern British construction industry, carpenters are trained through apprenticeship schemes where general certificates of secondary education (GCSE) in Mathematics, English, and Technology help but are not\n>>>\n[W7] <<<\nrequired to travel, and the term now refers to a level of proficiency and skill. Union carpenters in the United States, that is, members of the United Brotherhood of Carpenters and Joiners of America, are required to pass a skills test to be granted official journeyperson status, but uncertified professional carpenters may also be known as journeypersons based on their skill level, years of experience, or simply because they support themselves in the trade and not due to any certification or formal woodworking education.\n\nProfessional status as a journeyperson carpenter in the United States may be obtained in a number of ways. Formal training is acquired in a four-year apprenticeship program administered by the United Brotherhood of Carpenters and Joiners of America, in which journeyperson status is obtained after successful completion of twelve weeks of pre-apprenticeship training, followed by four years of on-the-job field training working alongside journeyperson carpenters. The Timber Framers Guild also has a formal apprenticeship program for traditional timber framing. Training is also available in groups like the Kim Bồng woodworking village in Vietnam where apprentices live\n>>>\n[W8] <<<\nas Germany, Iceland and Japan, this is an arduous and expensive process, requiring extensive knowledge (including economic and legal knowledge) and skill to achieve master certification; these countries generally require master status for anyone employing and teaching apprentices in the craft. In others, like the United States, 'master carpenter' can be a loosely used term to describe any skilled carpenter.\n\nFully trained carpenters and joiners will often move into related trades such as shop fitting, scaffolding, bench joinery, maintenance and system installation.\n\nCarpenters traditionally worked with natural wood which has been prepared by splitting (riving), hewing, or sawing with a pit saw or sawmill called lumber (American English) or timber (British English). Today natural and engineered lumber and many other building materials carpenters may use are typically prepared by others and delivered to the job site. In 2013 the carpenters union in America used the term carpenter for a catch-all position. Tasks performed by union carpenters include installing \"...flooring, windows, doors, interior trim, cabinetry, solid surface, roofing, framing, siding, flooring,\n>>>\n[W9] <<<\nknown in the U.S. as a \"preservation\" or \"restoration\"; a carpenter who works in historic preservation, maintaining structures as they were built or restoring them to that condition.\n\nCooper, a barrel maker.\n\nFormwork carpenter creates the shuttering and falsework used in concrete construction, and reshores as necessary.\n\nFramer is a carpenter who builds the skeletal structure or wooden framework of buildings, most often in the platform framing method. A framer who specializes in building with timbers and traditional joints rather than studs is known as a timber framer.\n\nLog builder builds structures of stacked horizontal logs with limited joints.\n\nJoiner (a traditional name now rare in North America), is one who does cabinetry, furniture making, fine woodworking, model building, instrument making, parquetry, joinery, or other carpentry where exact joints and minimal margins of error are important. Various types of joinery include:\n\nCabinetmaker is a carpenter who does fine and detailed work specializing in the making of cabinets made from wood, wardrobes, dressers, storage chests, and other furniture designed for storage.\n\nFinish carpenter (North America), also trim carpenter,\n>>>\n[W10] <<<\nto vessels afloat. When assigned to a ship's crew would they would be known as a \"Ship's Carpenter\". Such a carpenter patrols the vessel's carpenter's walk to examine the hull for leaks.\n\nJapanese carpentry, daiku is the simple term for carpenter, a Miya-daiku (temple carpenter) performs the work of both architect and builder of shrines and temples, and a sukiya-daiku works on teahouse construction and houses. Sashimono-shi build furniture and tateguya do interior finishing work.\n\nGreen carpentry specializes in the use of environmentally friendly, energy-efficient and sustainable sources of building materials for use in construction projects. They also practice building methods that require using less material and material that has the same structural soundness.\n\nRecycled (reclaimed, repurposed) carpentry is carpentry that uses scrap wood and parts of discarded or broken furniture to build new wood products.\n>>>\nFind the key differences in content: facts, explanations, scope, emphasis, or views that changed. Do not report differences in spelling, OCR errors, style, or length alone.\nAnswer with one JSON object and nothing else: {\"same_subject\": \"yes\" | \"partly\" | \"no\", \"overview\": \"<one or two sentences: how the two texts differ>\", \"differences\": [{\"aspect\": \"<2 to 6 words>\", \"britannica\": \"<what the Britannica entry says, one sentence>\", \"wikipedia\": \"<what the Wikipedia article says, one sentence>\", \"britannica_quote\": \"<5 to 30 words copied exactly from the Britannica text, with its OCR errors>\", \"wikipedia_quote\": \"<5 to 30 words copied exactly from one Wikipedia passage>\", \"wikipedia_passage\": \"<the passage label, such as W1>\"}]}. Copy each quote as one continuous span. Do not shorten a quote with \"...\" and do not correct it. Give at most 5 differences, the most important first. If the texts describe different subjects, set same_subject to \"no\" and give no differences.",
+  "prompt_sha256": "9d48a0897da458ce19c6a3c5a8b33aacab801433cce65c93b5bfcfb842e96c87",
+  "passage_ids": [
+    "W189274-p00",
+    "W189274-p01",
+    "W189274-p02",
+    "W189274-p03",
+    "W189274-p05",
+    "W189274-p06",
+    "W189274-p09",
+    "W189274-p11",
+    "W189274-p14",
+    "W189274-p16"
+  ],
+  "cached": false,
+  "response": {
+    "id": "chatcmpl-a774962e479656d0",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "{\"same_subject\": \"partly\", \"overview\": \"The Britannica entry focuses on the statics and mechanics of carpentry, analyzing forces, beams, and frames, while the Wikipedia article describes carpentry as a modern skilled trade, covering its history, training, materials, and specializations.\", \"differences\": [{\"aspect\": \"Subject focus\", \"britannica\": \"The text explains the mechanical strains and pressures on beams and frames in carpentry.\", \"wikipedia\": \"The article defines carpentry as a skilled trade involving cutting, shaping, and installing building materials.\", \"britannica_quote\": \"Therefore AG is the compression of the beam AD, or the force pressing it on D,\", \"wikipedia_passage\": \"W1\", \"wikipedia_quote\": \"Carpentry is a skilled trade and a craft in which the primary work performed is the cutting, shaping and installation of building materials\"}, {\"aspect\": \"Training and apprenticeship\", \"britannica\": \"The entry does not mention how carpenters are trained or certified.\", \"wikipedia\": \"The article details apprenticeship programs, journeyman status, and master carpenter certification.\", \"britannica_quote\": \"This remark is important; for many carpenters think the form and direction of the butting joint of great importance;\", \"wikipedia_passage\": \"W5\", \"wikipedia_quote\": \"Carpentry requires training which involves both acquiring knowledge and physical practice.\"}, {\"aspect\": \"Historical scope\", \"britannica\": \"The text discusses theoretical physics applied to structural joints and roof supports.\", \"wikipedia\": \"The article traces carpentry from the Stone Age and Neolithic period through modern power tools and materials.\", \"britannica_quote\": \"But it often happens that the obliquity of the pressure on AD, instead of compressing it, stretches it;\", \"wikipedia_passage\": \"W4\", \"wikipedia_quote\": \"Along with stone, wood is among the oldest building materials.\"}, {\"aspect\": \"Materials and tools\", \"britannica\": \"The entry focuses on beams, rafters, tie-beams, and props within a mechanical context.\", \"wikipedia\": \"The article mentions natural wood, engineered lumber, plywood, drywall, and power tools.\", \"britannica_quote\": \"Let the two rafters AC, AD (fig. 12.), press on the tie-beam DC.\", \"wikipedia_passage\": \"W5\", \"wikipedia_quote\": \"Plywood, engineered lumber, and chemically treated lumber also came into use.\"}, {\"aspect\": \"Specializations\", \"britannica\": \"The text does not list specific types of carpenters or trade roles.\", \"wikipedia\": \"The article identifies roles such as framers, formwork carpenters, joiners, and ship's carpenters.\", \"britannica_quote\": \"The points C and D are supported on the walls, which they press in the directions CK and DO,\", \"wikipedia_passage\": \"W9\", \"wikipedia_quote\": \"Framer is a carpenter who builds the skeletal structure or wooden framework of buildings,\"}]}",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792338267,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 676,
+      "prompt_tokens": 4281,
+      "total_tokens": 4957,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": null
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  },
+  "parsed": {
+    "same_subject": "partly",
+    "overview": "The Britannica entry focuses on the statics and mechanics of carpentry, analyzing forces, beams, and frames, while the Wikipedia article describes carpentry as a modern skilled trade, covering its history, training, materials, and specializations.",
+    "differences": [
+      {
+        "aspect": "Subject focus",
+        "britannica": "The text explains the mechanical strains and pressures on beams and frames in carpentry.",
+        "wikipedia": "The article defines carpentry as a skilled trade involving cutting, shaping, and installing building materials.",
+        "evidence": {
+          "britannica": {
+            "quote": "Therefore AG is the compression of the beam AD, or the force pressing it on D,",
+            "found": true,
+            "offset": 276
+          },
+          "wikipedia": {
+            "quote": "Carpentry is a skilled trade and a craft in which the primary work performed is the cutting, shaping and installation of building materials",
+            "found": true,
+            "offset": 0,
+            "passage_id": "W189274-p00"
+          }
+        },
+        "quotes_found": true
+      },
+      {
+        "aspect": "Training and apprenticeship",
+        "britannica": "The entry does not mention how carpenters are trained or certified.",
+        "wikipedia": "The article details apprenticeship programs, journeyman status, and master carpenter certification.",
+        "evidence": {
+          "britannica": {
+            "quote": "This remark is important; for many carpenters think the form and direction of the butting joint of great importance;",
+            "found": true,
+            "offset": 492
+          },
+          "wikipedia": {
+            "quote": "Carpentry requires training which involves both acquiring knowledge and physical practice.",
+            "found": true,
+            "offset": 5901,
+            "passage_id": "W189274-p05"
+          }
+        },
+        "quotes_found": true
+      },
+      {
+        "aspect": "Historical scope",
+        "britannica": "The text discusses theoretical physics applied to structural joints and roof supports.",
+        "wikipedia": "The article traces carpentry from the Stone Age and Neolithic period through modern power tools and materials.",
+        "evidence": {
+          "britannica": {
+            "quote": "But it often happens that the obliquity of the pressure on AD, instead of compressing it, stretches it;",
+            "found": true,
+            "offset": 1398
+          },
+          "wikipedia": {
+            "quote": "Along with stone, wood is among the oldest building materials.",
+            "found": true,
+            "offset": 3437,
+            "passage_id": "W189274-p03"
+          }
+        },
+        "quotes_found": true
+      },
+      {
+        "aspect": "Materials and tools",
+        "britannica": "The entry focuses on beams, rafters, tie-beams, and props within a mechanical context.",
+        "wikipedia": "The article mentions natural wood, engineered lumber, plywood, drywall, and power tools.",
+        "evidence": {
+          "britannica": {
+            "quote": "Let the two rafters AC, AD (fig. 12.), press on the tie-beam DC.",
+            "found": true,
+            "offset": 1603
+          },
+          "wikipedia": {
+            "quote": "Plywood, engineered lumber, and chemically treated lumber also came into use.",
+            "found": true,
+            "offset": 5749,
+            "passage_id": "W189274-p05"
+          }
+        },
+        "quotes_found": true
+      },
+      {
+        "aspect": "Specializations",
+        "britannica": "The text does not list specific types of carpenters or trade roles.",
+        "wikipedia": "The article identifies roles such as framers, formwork carpenters, joiners, and ship's carpenters.",
+        "evidence": {
+          "britannica": {
+            "quote": "The points C and D are supported on the walls, which they press in the directions CK and DO,",
+            "found": true,
+            "offset": 2662
+          },
+          "wikipedia": {
+            "quote": "Framer is a carpenter who builds the skeletal structure or wooden framework of buildings,",
+            "found": true,
+            "offset": 14979,
+            "passage_id": "W189274-p14"
+          }
+        },
+        "quotes_found": true
+      }
+    ]
+  }
+}

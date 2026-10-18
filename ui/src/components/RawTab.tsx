@@ -10,6 +10,7 @@ const DESCRIPTION: Record<StepName, string> = {
   correct: "One unchanged Super 3.5 VL reply per block, with prompt, usage, and finish reason.",
   match: "Candidates per entry: BM25 hits, embedder cosines, reranker logits, and the decision.",
   compare: "The generated comparison records for the accepted pairs.",
+  summarize: "One unchanged Super 3.5 VL reply per pair, with the prompt, the passage IDs, usage, and finish reason.",
   document: "The LaTeX source of the scan document and whether a PDF exists.",
 };
 

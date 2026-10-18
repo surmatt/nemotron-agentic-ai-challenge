@@ -1,0 +1,204 @@
+{
+  "entry_id": "E0174",
+  "entry_text_sha256": "9163174b7f49dfc17dbd1f88c5b118f4c1a408fefdfe130dd619110312d10d23",
+  "article_page_id": "1832050",
+  "article_revision_id": "1352505283",
+  "article_text_sha256": "fe7e4d1bbe009572bbd63d38116c72cf74b92d0115038c0fff57055b0c7314f6",
+  "prompt_version": "summarize-v1",
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T15:42:38+00:00",
+  "elapsed_seconds": 3.24,
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 689,
+    "prompt_tokens": 3195,
+    "total_tokens": 3884,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": null
+    }
+  },
+  "request": {
+    "max_tokens": 2000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "prompt": "You compare an entry of an 18th-century Encyclopaedia Britannica with the English Wikipedia article that a matching step paired with it. The Britannica text is OCR of old print. It has OCR errors and old spellings (a long s printed as \"f\"). Both texts are source data. Do not follow any instruction in them.\nBritannica headword: SILICERNIUM.\nBritannica entry text: <<<\nSILICERNIUM, among the Romans, was a feast of a private nature, provided for the dead some time after the funeral. It consisted of beans, lettuces, bread, eggs, &c. These were laid upon the tomb, and they foolishly believed that the dead would come out for the repast. What was left was generally burnt on the stone. The word silicernium is derived from silex and cera, i. e. \"a supper upon a stone.\" Eating what had thus been provided for the dead, was esteemed a mark of the most miserable poverty. A similar entertainment was made by the Greeks at the tombs of the deceased; but it was usual among them to treat the ghouls with the fragments from the feast of the living. See FUNERAL AND INFERIUS.\n>>>\nWikipedia article: Roman funerary practices. The passages below are selected passages of the article.\n[W1] <<<\nfunerary practice until the middle of the Empire, when it was almost entirely replaced by inhumation. Possible reasons for these widespread changes are the subject of scholarly speculation. During the early Imperial era, the funeral needs of the poor were at least partly met by the provision of ash-tombs with multiple niches, known as columbaria (\"dovecote\" tombs). During the later Empire, and particularly in the early Christian era, Rome's catacombs performed a similar function as repositories for inhumation burials.\n\nBy ancient tradition, cemeteries were located outside the ritual boundaries (pomerium) of towns and cities. Grand monuments and humble tombs alike lined the roadsides, sometimes clustered together like \"cities of the dead\". Tombs were visited regularly by living relatives with offerings to the deceased of food and wine, and special observances during particular Roman festivals and anniversaries; with correct funerary observances and continuity of care from one generation to the next, the shades of departed generations were believed to remain well disposed towards their living descendants. Families who could afford it spent lavishly on tombs and memorials. A Roman\n>>>\n[W2] <<<\nwere believed to remain well disposed towards their living descendants. Families who could afford it spent lavishly on tombs and memorials. A Roman sarcophagus could be an elaborately crafted artwork, decorated with relief sculpture depicting a scene that was allegorical, mythological, or historical, or a scene from everyday life. Some tombs are very well preserved, and their imagery and inscriptions are an important source of information for individuals, families and significant events.\n\nIn Greco-Roman antiquity, the bodies of the dead were regarded as polluting. At the same time, loving duty toward one's ancestors (pietas) was a fundamental part of ancient Roman culture. The care of the dead negotiated these two emotionally opposed attitudes. When properly honoured with funeral rites and memorials by the living, the spirits of the dead were thought to become benevolent ancestors and protect their descendants. Those who died \"before their natural term\" or without proper funeral rites were thought to wander the earth, and haunt the living as vengeful, vagrant ghosts (Lemures). In Horace 's Ode 1.28, the shade of a drowned, unburied sailor, trapped through no fault of his own\n>>>\n[W3] <<<\nto avoid the physical and ritual pollution of the living by the dead. Cicero (in De Legibus, 2, 23, 58) categorises this as one of Rome's ancient Laws of Twelve Tables. Some prominent statesmen might have a right of burial in long-established family tombs within the ritual boundary (pomerium) of the city; but this was a rare privilege, and was seldom exercised.\n\nA portable altar was set up at the place of burial or cremation pyre, and the heir offered sacrifice of a pig in the presence of the deceased, usually to Ceres, Rome's principal grain, harvest and field goddess. Though not an underworld deity, Ceres was doorwarden between the realms of the living and the dead. The shade of the deceased could not pass into the underworld or afterlife without her consent. The sacrificial victim was consecrated by sprinkling with mola salsa, a sacred mixture of salt and grain or flour, then stunned or killed with an axe or hammer, turned on its back and gutted. The guts (exta), the \"divine portion\" of the sacrifice, were placed in an earthenware pot (olla) and examined.\n\nAbnormality in the exta indicated divine rejection of the offering, in which case the sacrifice must be repeated with a\n>>>\n[W4] <<<\npot (olla) and examined.\n\nAbnormality in the exta indicated divine rejection of the offering, in which case the sacrifice must be repeated with a fresh victim. If all seemed satisfactory, the victim was cut up, and distributed between the presiding goddess, the mourners and the shade of the deceased. The di Manes were given their portion separately; it was believed that the living who shared a meal with the di Manes effectively offered themselves to the dead, and could suffer consequences. On the other hand, families and the departed could share anniversary and festive meals. Almost all sacrificial meat was given to the mourners, roasted and eaten. At funeral meals, a small portion for the deceased was cremated on a spit with the body or, if a burial, placed alongside it. The exta were burned on the portable altar, consumed by the flames as Ceres' portion. As far as Cicero was concerned, unless a sow had been sacrificed a burial was not religious and a grave was not a grave.\n\nSacrifice had to be offered and accepted to secure an afterlife and resting place for the deceased. The highest status funerals might sacrifice a more costly domestic animal, such as an ox, or several victims\n>>>\n[W5] <<<\nand resting place for the deceased. The highest status funerals might sacrifice a more costly domestic animal, such as an ox, or several victims of different kinds; and while animal sacrifice was preferred, those who could not afford it could offer a libation of wine, and grain or other foodstuffs; a less potent offering than animal sacrifice but Ovid says that Ceres is content with little, as long as the offering is pure.\n\nAt a cremation funeral, the heir lit the pyre with a torch, his face averted. Once the corpse had been consumed in the fire, the spirit of the deceased was thought to have begun its separation from the world of the living. After a cremation, the heir sprinkled the ashes with wine, gathered them along with any traces of bone, placed them in a cremation urn and interred them. This was sometimes done by the wife of the deceased; Livia did so with the ashes of her husband, the emperor Augustus.\n\nThe ashes were interred either in or next to the cremation site (in which case the funeral place was a bustum) or interred elsewhere, in which case the cremation place was known as ustrinum (plural, ustrina); the deceased could be commemorated both at the ustrinum and the\n>>>\n[W6] <<<\nelsewhere, in which case the cremation place was known as ustrinum (plural, ustrina); the deceased could be commemorated both at the ustrinum and the place of ash-burial. A single ustrinum, usually stone-built, could accommodate many successive cremations, and usually belonged to a single family. Some were several storeys high, and functioned as a chimney, whose fires could be fed from beneath. Mass cremations, in which several bodies were burned simultaneously in the same pyre were efficient but were used only for the poor, or during epidemics, or on battlefields. Otherwise the ustrinum was supposed to be cleared after use, to avoid the mixing of ashes from different bodies, though a few cases are known in which this was deliberately done. Caracalla deliberately mixed the ashes of his brother Geta with those of his executed supporters, as a final insult. On the other hand, a few examples are known of couples whose ashes were contained in the same vessel, as an expression of love.\n\nInhumation was practiced regularly in archaic Rome, but in the Mid- to Late Republic and the Empire into the 1st and 2nd centuries, cremation became the most common burial practice. Toynbee describes\n>>>\n[W7] <<<\nto Christianity's preservation of the body, following the example of Jesus' entombment, anticipating resurrection: the veneration of martyrs' physical remains: the proscriptions and preferences of mystery religions, the sheer cost of cremation, compared to burial: or the philosophical influence by the wealthier class in the Roman empire.\n\nA second funeral feast and rites called the novendialis or novemdialis were held nine days or more after death. Another sacrifice was often made, to the Manes of the deceased (or possibly, the family Penates – Cicero has a ram sacrificed as an offering to the family Lares). As a recipient of sacrifice, the deceased was now a deity, albeit one of the numberless underworld dii manes. The entire body of the sacrificial victim was burned on the ground, and a libation to the Manes of the deceased was poured onto the grave. The sacrificial meat was not shared between the living and the dead. Purification rites were held, using \"fire and water\", to finally separate the deceased from the world of the living. This concluded the period of full mourning and released the family from their funeral obligations. Mourning dress was put aside, open house was\n>>>\n[W8] <<<\nPliny claims in his Historia Naturalis can cure toothaches and other ailments. Bells, especially tintinnabuli helped to drive away evil and avert the evil eye. Bells were also set into the mortar of the Roman Catacombs as a protective device over children's tombs. This was especially common in the fourth century.\n\nThe care and cultivation of the dead did not end with the funeral and formal period of mourning, but was a perpetual obligation. Cicero states that the main and overriding function of the priesthood with respect to the dead accorded with universal, natural law: to keep alive the memory of the deceased, by holding the traditional rites. Ancient votive deposits to the noble dead of Latium and Rome suggest elaborate and costly funeral offerings and banquets in the company of the deceased, an expectation of afterlife and their personal association with the gods. As Roman society developed, its Republican nobility tended to invest less in spectacular funerals and extravagant housing for their dead, and more on monumental endowments to the community, such as the donation of a temple or public building whose donor was durably commemorated by their statue and inscribed name.\n>>>\n[W9] <<<\nfor friends and family; this may have been on the last day of the novendialis. Similar gladiatora munera became a core event at elite Roman funeral games. In the late Republic, a munus held for the funeral of the ex-consul and Pontifex Maximus Publius Licinius in 183 BC involved 120 gladiators fighting over 3 days, public distribution of meat (visceratio data) and the crowding of the forum with dining couches and tents as venue for the feast.\n\nGladiator munera became very popular, but they were also thought luxurious, self-indulgent and potentially corrupting. The host (editor) of a munus stood to gain votes in his political career for even the promise of funeral games. Sulla broke his own sumptuary laws during his stint as praetor to honour his dead wife, Metella, with an exceptionally lavish gladiator munus. The gladiators themselves could be admired for their courage, and despised for the bloodiness of their profession, whose function could approximate that of an executioner. The insulting term bustuarius (\"tomb-man\") was sometimes used for the lower class of gladiator, who might be perceived as no more than provider of living blood to the spirits of the dead. Julius Caesar\n>>>\n[W10] <<<\nthere was little or no pressure for burial space. Orientation of the grave was generally east – west, with the head to the east. Flanged tiles (or tegulae) were sometimes used to enclose and protect the remains in a box-like or gabled ceramic tomb, known in modern archaeology as Alla cappuccina (\"like a Capuchin monk 's hood\"). Libations during ceremonies honouring the dead were sometimes given through a tube or funnel that pierced the tomb, and could be stoppered when not in use. Grave goods were often deposited along with the body; a pillow of tufa or wood might be provided for the comfort of the deceased.\n\n\"House tombs\" for well-off, prominent but in most cases, probably sub-elite families were often contained within a low-walled exterior precinct, which might include a garden. The exterior of such tombs could be highly decorative, designed to provoke the notice and curiosity of passers-by, rather like the semi-public atria of private town-houses in function, if not appearance. Most had a decorated room for banqueting, complete with shelving, cooking facilities and stone-built banqueting couches or space for couches to be brought in, and either sarcophagi containing the immured\n>>>\nFind the key differences in content: facts, explanations, scope, emphasis, or views that changed. Do not report differences in spelling, OCR errors, style, or length alone.\nAnswer with one JSON object and nothing else: {\"same_subject\": \"yes\" | \"partly\" | \"no\", \"overview\": \"<one or two sentences: how the two texts differ>\", \"differences\": [{\"aspect\": \"<2 to 6 words>\", \"britannica\": \"<what the Britannica entry says, one sentence>\", \"wikipedia\": \"<what the Wikipedia article says, one sentence>\", \"britannica_quote\": \"<5 to 30 words copied exactly from the Britannica text, with its OCR errors>\", \"wikipedia_quote\": \"<5 to 30 words copied exactly from one Wikipedia passage>\", \"wikipedia_passage\": \"<the passage label, such as W1>\"}]}. Copy each quote as one continuous span. Do not shorten a quote with \"...\" and do not correct it. Give at most 5 differences, the most important first. If the texts describe different subjects, set same_subject to \"no\" and give no differences.",
+  "prompt_sha256": "75e7ca54f0abfd0739fa426b4c0a13cba455e7f847076c9cd9c153bdc1d3c3f7",
+  "passage_ids": [
+    "W1832050-p02",
+    "W1832050-p03",
+    "W1832050-p31",
+    "W1832050-p32",
+    "W1832050-p33",
+    "W1832050-p34",
+    "W1832050-p39",
+    "W1832050-p43",
+    "W1832050-p45",
+    "W1832050-p65"
+  ],
+  "cached": false,
+  "response": {
+    "id": "chatcmpl-845e3bc26ce13fd8",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "{\"same_subject\": \"partly\", \"overview\": \"Britannica defines the specific private feast silicernium, while Wikipedia discusses broader Roman funerary practices, including ongoing tomb meals and the novendialis rites.\", \"differences\": [{\"aspect\": \"Specific feast named\", \"britannica\": \"The entry defines silicernium as a private feast for the dead held after the funeral.\", \"wikipedia\": \"The article does not mention the term silicernium but describes general tomb offerings and anniversary meals.\", \"britannica_quote\": \"SILICERNIUM, among the Romans, was a feast of a private nature, provided for the dead some time after the funeral.\", \"wikipedia_quote\": \"Tombs were visited regularly by living relatives with offerings to the deceased of food and wine, and special observances during particular Roman festivals and anniversaries;\", \"wikipedia_passage\": \"W1\"}, {\"aspect\": \"Foods listed\", \"britannica\": \"The feast consisted of beans, lettuces, bread, eggs, and similar items.\", \"wikipedia\": \"The passages mention wine, grain, foodstuffs, and sacrificial meat, but not this specific combination.\", \"britannica_quote\": \"It consisted of beans, lettuces, bread, eggs, &c.\", \"wikipedia_quote\": \"those who could not afford it could offer a libation of wine, and grain or other foodstuffs;\", \"wikipedia_passage\": \"W5\"}, {\"aspect\": \"Disposal of leftovers\", \"britannica\": \"What was left was generally burnt on the stone.\", \"wikipedia\": \"Wikipedia describes burning portions on altars or spits, but not leftovers burned on a stone after a silicernium.\", \"britannica_quote\": \"What was left was generally burnt on the stone.\", \"wikipedia_quote\": \"At funeral meals, a small portion for the deceased was cremated on a spit with the body or, if a burial, placed alongside it.\", \"wikipedia_passage\": \"W4\"}, {\"aspect\": \"Belief about the dead eating\", \"britannica\": \"Romans foolishly believed the dead would come out for the repast.\", \"wikipedia\": \"Spirits were thought to become benevolent ancestors if honoured, or vengeful ghosts if not, without this specific belief.\", \"britannica_quote\": \"and they foolishly believed that the dead would come out for the repast.\", \"wikipedia_quote\": \"When properly honoured with funeral rites and memorials by the living, the spirits of the dead were thought to become benevolent ancestors and protect their descendants.\", \"wikipedia_passage\": \"W2\"}, {\"aspect\": \"Timed post-funeral rites\", \"britannica\": \"The entry only mentions the silicernium some time after the funeral.\", \"wikipedia\": \"A second funeral feast called the novendialis was held nine days or more after death.\", \"britannica_quote\": \"provided for the dead some time after the funeral.\", \"wikipedia_quote\": \"A second funeral feast and rites called the novendialis or novemdialis were held nine days or more after death.\", \"wikipedia_passage\": \"W7\"}]}",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792338158,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 689,
+      "prompt_tokens": 3195,
+      "total_tokens": 3884,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": null
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  },
+  "parsed": {
+    "same_subject": "partly",
+    "overview": "Britannica defines the specific private feast silicernium, while Wikipedia discusses broader Roman funerary practices, including ongoing tomb meals and the novendialis rites.",
+    "differences": [
+      {
+        "aspect": "Specific feast named",
+        "britannica": "The entry defines silicernium as a private feast for the dead held after the funeral.",
+        "wikipedia": "The article does not mention the term silicernium but describes general tomb offerings and anniversary meals.",
+        "evidence": {
+          "britannica": {
+            "quote": "SILICERNIUM, among the Romans, was a feast of a private nature, provided for the dead some time after the funeral.",
+            "found": true,
+            "offset": 0
+          },
+          "wikipedia": {
+            "quote": "Tombs were visited regularly by living relatives with offerings to the deceased of food and wine, and special observances during particular Roman festivals and anniversaries;",
+            "found": true,
+            "offset": 2847,
+            "passage_id": "W1832050-p02"
+          }
+        },
+        "quotes_found": true
+      },
+      {
+        "aspect": "Foods listed",
+        "britannica": "The feast consisted of beans, lettuces, bread, eggs, and similar items.",
+        "wikipedia": "The passages mention wine, grain, foodstuffs, and sacrificial meat, but not this specific combination.",
+        "evidence": {
+          "britannica": {
+            "quote": "It consisted of beans, lettuces, bread, eggs, &c.",
+            "found": true,
+            "offset": 115
+          },
+          "wikipedia": {
+            "quote": "those who could not afford it could offer a libation of wine, and grain or other foodstuffs;",
+            "found": true,
+            "offset": 34839,
+            "passage_id": "W1832050-p33"
+          }
+        },
+        "quotes_found": true
+      },
+      {
+        "aspect": "Disposal of leftovers",
+        "britannica": "What was left was generally burnt on the stone.",
+        "wikipedia": "Wikipedia describes burning portions on altars or spits, but not leftovers burned on a stone after a silicernium.",
+        "evidence": {
+          "britannica": {
+            "quote": "What was left was generally burnt on the stone.",
+            "found": true,
+            "offset": 269
+          },
+          "wikipedia": {
+            "quote": "At funeral meals, a small portion for the deceased was cremated on a spit with the body or, if a burial, placed alongside it.",
+            "found": true,
+            "offset": 34234,
+            "passage_id": "W1832050-p32"
+          }
+        },
+        "quotes_found": true
+      },
+      {
+        "aspect": "Belief about the dead eating",
+        "britannica": "Romans foolishly believed the dead would come out for the repast.",
+        "wikipedia": "Spirits were thought to become benevolent ancestors if honoured, or vengeful ghosts if not, without this specific belief.",
+        "evidence": {
+          "britannica": {
+            "quote": "and they foolishly believed that the dead would come out for the repast.",
+            "found": true,
+            "offset": 196
+          },
+          "wikipedia": {
+            "quote": "When properly honoured with funeral rites and memorials by the living, the spirits of the dead were thought to become benevolent ancestors and protect their descendants.",
+            "found": true,
+            "offset": 3902,
+            "passage_id": "W1832050-p03"
+          }
+        },
+        "quotes_found": true
+      },
+      {
+        "aspect": "Timed post-funeral rites",
+        "britannica": "The entry only mentions the silicernium some time after the funeral.",
+        "wikipedia": "A second funeral feast called the novendialis was held nine days or more after death.",
+        "evidence": {
+          "britannica": {
+            "quote": "provided for the dead some time after the funeral.",
+            "found": true,
+            "offset": 64
+          },
+          "wikipedia": {
+            "quote": "A second funeral feast and rites called the novendialis or novemdialis were held nine days or more after death.",
+            "found": true,
+            "offset": 41257,
+            "passage_id": "W1832050-p39"
+          }
+        },
+        "quotes_found": true
+      }
+    ]
+  }
+}

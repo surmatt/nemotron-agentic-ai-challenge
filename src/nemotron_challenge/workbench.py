@@ -11,6 +11,7 @@ artifacts, in <work_dir>/ui/uploads/<upload_id>/:
     correct/              raw Super VL replies per block, corrected page, entries
     match/                candidates per entry, cached Wikipedia articles, decisions
     compare/              word-frequency comparison of accepted pairs
+    summarize/            Super VL difference summaries of the pairs, with raw replies
     failures.jsonl        failed model calls with their error details
     history/<time>/       earlier outputs, moved here when a step runs again
 
@@ -35,6 +36,7 @@ from . import correct as correct_stage
 from . import extract as extract_stage
 from . import match as match_stage
 from . import site as site_stage
+from . import summarize as summarize_stage
 from .clients import ChatClient, ParseClient, RetrievalClient, ServiceError, WikiClient
 from .common import (append_jsonl, read_json, read_jsonl, sha256_bytes, sha256_text, text_dir, utc_now, write_json,
                      write_text)
@@ -42,11 +44,12 @@ from .config import EMBED_MODEL, PARSE_MODEL, RERANK_MODEL, SUPER_MODEL, Configu
 from .data import load_manifest
 from .ocr_eval import TEXT_CLASSES, word_list
 
-STEPS = ("extract", "correct", "match", "compare", "document")
+STEPS = ("extract", "correct", "match", "compare", "summarize", "document")
 NEEDS = {"extract": (), "correct": ("extract",), "match": ("extract",), "compare": ("match",),
-         "document": ("extract",)}
+         "summarize": ("compare",), "document": ("extract",)}
 STEP_MODELS = {"extract": [PARSE_MODEL], "correct": [SUPER_MODEL],
-               "match": ["Wikipedia BM25 API", SUPER_MODEL, EMBED_MODEL, RERANK_MODEL], "compare": [], "document": ["LaTeX · tectonic"]}
+               "match": ["Wikipedia BM25 API", SUPER_MODEL, EMBED_MODEL, RERANK_MODEL], "compare": [],
+               "summarize": [SUPER_MODEL, EMBED_MODEL], "document": ["LaTeX · tectonic"]}
 CORPUS_STAGE = {"document": "site"}
 UPLOAD_ID = re.compile(r"[0-9a-f]{12}")
 MAX_UPLOAD_BYTES = 30 * 1024 * 1024
@@ -445,6 +448,23 @@ def step_compare(settings: Settings, folder: Path, progress: Progress) -> dict[s
             "note": "The prior and the reference vocabulary come from the pairs of this scan only."}
 
 
+def step_summarize(settings: Settings, folder: Path, progress: Progress) -> dict[str, Any]:
+    source = entry_source(folder)
+    entries = {e["entry_id"]: e for e in read_json(folder / source / "entries.json")}
+    pairs = read_json(folder / "compare" / "pairs.json")
+    if not pairs:
+        write_json(folder / "summarize" / "summaries.json", [])
+        return {"pairs": 0, "note": "the compare step wrote no pairs, so nothing was summarized"}
+    articles = {pid: read_json(folder / "match" / "articles" / f"{pid}.json")
+                for pid in {p["article"]["page_id"] for p in pairs}}
+    progress(0, len(pairs), "Super 3.5 VL summarizes the differences")
+    records = summarize_stage.summarize_pairs(settings, entries, pairs, articles, folder / "summarize",
+                                              folder / "failures.jsonl", progress=progress)
+    write_json(folder / "summarize" / "summaries.json", records)
+    return {"model": SUPER_MODEL, "prompt_version": summarize_stage.PROMPT_VERSION, "entry_text": source,
+            **summarize_stage.counts(records)}
+
+
 def step_document(settings: Settings, folder: Path, progress: Progress) -> dict[str, Any]:
     """Write one LaTeX document for the scan with the site stage code, then compile it with tectonic."""
     del settings
@@ -473,7 +493,7 @@ def step_document(settings: Settings, folder: Path, progress: Progress) -> dict[
 
 STEP_RUNNERS: dict[str, Callable[[Settings, Path, Progress], dict[str, Any]]] = {
     "extract": step_extract, "correct": step_correct, "match": step_match, "compare": step_compare,
-    "document": step_document}
+    "summarize": step_summarize, "document": step_document}
 
 
 # ---------------------------------------------------------------- re-runs
@@ -680,12 +700,12 @@ def match_view(record: dict[str, Any] | None, candidates_file: Path, articles: P
 
 
 def entry_view(entry: dict[str, Any], page_id: str, match: dict[str, Any] | None,
-               pair: dict[str, Any] | None) -> dict[str, Any]:
+               pair: dict[str, Any] | None, summary: dict[str, Any] | None = None) -> dict[str, Any]:
     return {**{k: entry.get(k) for k in ("entry_id", "headword", "start_kind", "headword_source", "continued",
                                          "chars", "text", "text_sha256")},
             "pages": [{k: p.get(k) for k in ("page_id", "filename", "row_index")} for p in entry["pages"]],
             "block_indexes": [p["block_index"] for p in entry["parts"] if p["page_id"] == page_id],
-            "skip_reason": match_stage.skip_reason(entry), "match": match, "pair": pair}
+            "skip_reason": match_stage.skip_reason(entry), "match": match, "pair": pair, "summary": summary}
 
 
 def page_view(page: dict[str, Any], corrections: dict[int, dict[str, Any]]) -> dict[str, Any]:
@@ -759,11 +779,13 @@ def upload_view(work_dir: Path, upload_id: str) -> dict[str, Any]:
     view["entry_text"] = entry_source(folder)
     matches = {m["entry_id"]: m for m in read_json(folder / "match" / "matches.json")} if "match" in done else {}
     pairs = {p["entry_id"]: p for p in read_json(folder / "compare" / "pairs.json")} if "compare" in done else {}
+    summaries = {s["entry_id"]: s for s in read_json(folder / "summarize" / "summaries.json")} \
+        if "summarize" in done else {}
     view["entries"] = [entry_view(e, page["page_id"],
                                   match_view(matches.get(e["entry_id"]),
                                              folder / "match" / "candidates" / f"{e['entry_id']}.json",
                                              folder / "match" / "articles", e),
-                                  pairs.get(e["entry_id"])) for e in entries]
+                                  pairs.get(e["entry_id"]), summaries.get(e["entry_id"])) for e in entries]
     return view
 
 
@@ -777,6 +799,8 @@ def upload_raw(work_dir: Path, upload_id: str, step: str) -> Any:
         return [read_json(p) for p in sorted((folder / "match" / "candidates").glob("*.json"))]
     if step == "compare":
         return read_json(folder / "compare" / "pairs.json")
+    if step == "summarize":
+        return [read_json(p) for p in sorted((folder / "summarize" / "raw").glob("*.json"))]
     if step == "document":
         return {"file": "document/scan.tex", "tex": (folder / "document" / "scan.tex").read_text(encoding="utf-8"),
                 "pdf": (folder / "document" / "scan.pdf").is_file()}
@@ -819,7 +843,8 @@ def corpus_index(work_dir: Path) -> dict[str, Any]:
     for entry in entries:
         for p in entry["pages"]:
             per_page.setdefault(p["page_id"], []).append(entry["entry_id"])
-    summaries = {s: summary(work_dir, s) for s in ("extract", "correct", "match", "compare", "agent", "site", "evaluate")}
+    summaries = {s: summary(work_dir, s) for s in ("extract", "correct", "match", "compare", "summarize", "agent", "site",
+                                                    "evaluate")}
     failed = set((summaries["extract"] or {}).get("failed_scans", []))
     rows = []
     for item in manifest["pages"]:
@@ -882,12 +907,13 @@ def corpus_page(work_dir: Path, row_index: int, raw_scans: Path = Path("data/raw
     view["page"] = page_view(page, corrections)
     matches = {m["entry_id"]: m for m in jsonl(work_dir / "match" / "matches.jsonl")}
     pairs = {p["entry_id"]: p for p in jsonl(work_dir / "compare" / "pairs.jsonl")}
+    summaries = {s["entry_id"]: s for s in jsonl(work_dir / "summarize" / "summaries.jsonl")}
     here = [e for e in jsonl(source / "entries.jsonl") if any(p["page_id"] == item["page_id"] for p in e["pages"])]
     view["entries"] = [entry_view(e, item["page_id"],
                                   match_view(matches.get(e["entry_id"]),
                                              work_dir / "match" / "candidates" / f"{e['entry_id']}.json",
                                              work_dir / "match" / "articles", e),
-                                  pairs.get(e["entry_id"])) for e in here]
+                                  pairs.get(e["entry_id"]), summaries.get(e["entry_id"])) for e in here]
     return view
 
 
@@ -905,6 +931,9 @@ def corpus_raw(work_dir: Path, row_index: int, step: str) -> Any:
                 if (work_dir / "match" / "candidates" / f"{i}.json").is_file()]
     if step == "compare":
         return [p for p in jsonl(work_dir / "compare" / "pairs.jsonl") if p["entry_id"] in ids]
+    if step == "summarize":
+        return [read_json(work_dir / "summarize" / "raw" / f"{i}.json") for i in ids
+                if (work_dir / "summarize" / "raw" / f"{i}.json").is_file()]
     if step == "document":
         tex = work_dir / "site" / "latex" / f"{stem}.tex"
         return {"file": str(tex), "tex": tex.read_text(encoding="utf-8"), "pdf": tex.with_suffix(".pdf").is_file()}

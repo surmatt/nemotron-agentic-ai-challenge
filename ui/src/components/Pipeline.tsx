@@ -19,6 +19,10 @@ function summaryLine(step: StepName, state: StepState): string | null {
       return `${s.accepted ?? 0} accepted · ${s.rejected ?? 0} rejected${s.errors ? ` · ${s.errors} errors` : ""} · ${s.mode} mode`;
     case "compare":
       return s.pairs ? `${s.pairs} pairs · mean cosine ${s.mean_frequency_cosine}` : (s.note as string) ?? "no pairs";
+    case "summarize":
+      return s.pairs
+        ? `${s.ok} of ${s.pairs} pairs summarized${s.failed ? ` · ${s.failed} failed` : ""}${s.skipped ? ` · ${s.skipped} skipped` : ""} · ${s.differences_with_quotes}/${s.differences} with both quotes`
+        : (s.note as string) ?? "no pairs";
     case "document":
       if (s.latex)
         return `${s.latex.compiled} of ${s.scan_pages} PDFs compiled · ${s.entry_pages} entry pages · static site`;
@@ -31,6 +35,7 @@ const NEEDS: Record<StepName, StepName[]> = {
   correct: ["extract"],
   match: ["extract"],
   compare: ["match"],
+  summarize: ["compare"],
   document: ["extract"],
 };
 const REUSABLE: StepName[] = ["extract", "correct"];

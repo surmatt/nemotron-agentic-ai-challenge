@@ -1,0 +1,93 @@
+{
+  "variant": "crop_nothink",
+  "page_id": "upload:69952e7c4a0f",
+  "block_index": 10,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T13:52:21+00:00",
+  "elapsed_seconds": 1.39,
+  "finish_reason": "stop",
+  "parse_text": "_Sraod of State,_ which is borne before the king, lords,\nand governors of counties, cities or boroughs, &c. For\nbe before the King, if weights to be carried upright; the bill\nas so we as the batter's wait, the blade up between the\nyou. For or before a dake, the blade muit decline from the head,\nand be carried between the neck and the right shoulder.\nFor or before an sail, the blade is to the carrier between the\npouts of the shoulder and the elbow, and for or before a ba-\nros, the blade is to be borne in the head of the arm. This\ndetermined, from no Heil denotes the digerity of a governor\nthan the consent let on his cost of arms.",
+  "corrected_text": "Sword of State, which is borne before the king, lords,\nand governors of counties, cities, or boroughs, &c. For\nor before the king, it ought to be carried upright; the hilt\nas low as the bearer's waist, the blade up between his eyes.\nFor or before a duke, the blade must decline from the head,\nand be carried between the neck and the right shoulder.\nFor or before an earl, the blade is to be carried between the\npoint of the shoulder and the elbow: and for or before a ba-\nron, the blade is to be borne in the bend of the arm. This\nceremonial form no less denotes the dignity of a governor\nthan the coronet set on his coat of arms.",
+  "reasoning_tokens": 0,
+  "usage": {
+    "completion_tokens": 159,
+    "prompt_tokens": 667,
+    "total_tokens": 826,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 327
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 3000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows this region of the page. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\n_Sraod of State,_ which is borne before the king, lords,\nand governors of counties, cities or boroughs, &c. For\nbe before the King, if weights to be carried upright; the bill\nas so we as the batter's wait, the blade up between the\nyou. For or before a dake, the blade muit decline from the head,\nand be carried between the neck and the right shoulder.\nFor or before an sail, the blade is to the carrier between the\npouts of the shoulder and the elbow, and for or before a ba-\nros, the blade is to be borne in the head of the arm. This\ndetermined, from no Heil denotes the digerity of a governor\nthan the consent let on his cost of arms.",
+  "response": {
+    "id": "chatcmpl-b2c1130a8e4169bd",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "Sword of State, which is borne before the king, lords,\nand governors of counties, cities, or boroughs, &c. For\nor before the king, it ought to be carried upright; the hilt\nas low as the bearer's waist, the blade up between his eyes.\nFor or before a duke, the blade must decline from the head,\nand be carried between the neck and the right shoulder.\nFor or before an earl, the blade is to be carried between the\npoint of the shoulder and the elbow: and for or before a ba-\nron, the blade is to be borne in the bend of the arm. This\nceremonial form no less denotes the dignity of a governor\nthan the coronet set on his coat of arms.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792331541,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 159,
+      "prompt_tokens": 667,
+      "total_tokens": 826,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 327
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "stage": "summarize",
+  "finished_at": "2026-10-18T15:44:38+00:00",
+  "entry_text": "correct",
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "passage_model": "nvidia/llama-nemotron-embed-vl-1b-v2",
+  "prompt_version": "summarize-v1",
+  "wiki_chars": 12000,
+  "index_vectors_available": 0,
+  "pairs": 86,
+  "ok": 86,
+  "failed": 0,
+  "skipped": 0,
+  "cached": 76,
+  "differences": 339,
+  "differences_with_quotes": 320,
+  "same_subject": {
+    "partly": 32,
+    "yes": 45,
+    "no": 9
+  },
+  "context_selection": {
+    "embedder": 29,
+    "whole_article": 57
+  },
+  "seconds": 27.5,
+  "outputs": {
+    "summaries": "artifacts/summarize/summaries.jsonl",
+    "raw": "artifacts/summarize/raw"
+  }
+}

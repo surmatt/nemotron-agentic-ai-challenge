@@ -1,0 +1,86 @@
+{
+  "steps": {
+    "extract": {
+      "status": "done",
+      "finished_at": "2026-10-18T14:12:28+00:00",
+      "summary": {
+        "model": "nvidia/nemotron-3.5-parse",
+        "parse_seconds": 4.05,
+        "finish_reason": "stop",
+        "page_status": "ok",
+        "blocks": 15,
+        "furniture": 1,
+        "entries": 4,
+        "headword_entries": 3
+      },
+      "error": null,
+      "seeded_from": {
+        "kind": "saved corpus run",
+        "path": "artifacts/extract/raw/page-0251-69952e7c4a0f.json",
+        "saved_at": "2026-10-18T13:29:20+00:00"
+      }
+    },
+    "correct": {
+      "status": "idle"
+    },
+    "match": {
+      "status": "done",
+      "started_at": "2026-10-18T14:12:28+00:00",
+      "archived_previous": null,
+      "progress": {
+        "done": 4,
+        "total": 4,
+        "label": "SYCOPHANT"
+      },
+      "finished_at": "2026-10-18T14:12:32+00:00",
+      "elapsed_seconds": 3.92,
+      "summary": {
+        "mode": "model",
+        "mode_detail": "retrieval models verified",
+        "entry_text": "extract",
+        "models": [
+          "nvidia/llama-nemotron-embed-vl-1b-v2",
+          "nvidia/llama-nemotron-rerank-vl-1b-v2"
+        ],
+        "thresholds": {
+          "rerank_logit": -10.0,
+          "margin": 0.5,
+          "cosine": 0.15,
+          "title_similarity": 0.0
+        },
+        "searched": 4,
+        "skipped": 0,
+        "accepted": 2,
+        "rejected": 2,
+        "errors": 0
+      },
+      "error": null
+    },
+    "compare": {
+      "status": "done",
+      "started_at": "2026-10-18T14:12:32+00:00",
+      "archived_previous": null,
+      "progress": {
+        "done": 2,
+        "total": 2,
+        "label": "done"
+      },
+      "finished_at": "2026-10-18T14:12:32+00:00",
+      "elapsed_seconds": 0.06,
+      "summary": {
+        "method": "word frequencies, log-odds with Dirichlet prior",
+        "entry_text": "extract",
+        "pairs": 2,
+        "mean_top_terms_jaccard": 0.0584,
+        "mean_frequency_cosine": 0.1828,
+        "normalisation_changes": {
+          "abbreviation": 0,
+          "long_s": 7,
+          "historical": 0
+        },
+        "note": "The prior and the reference vocabulary come from the pairs of this scan only."
+      },
+      "error": null
+    }
+  }
+}

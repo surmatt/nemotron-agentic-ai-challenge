@@ -20,3 +20,5 @@
 {"stage": "match", "entry_id": "E0182", "error_type": "ServiceError", "error": "service returned HTTP 422", "at": "2026-10-18T12:38:12+00:00"}
 {"stage": "match", "entry_id": "E0182", "error_type": "ServiceError", "error": "service returned HTTP 422", "at": "2026-10-18T12:45:20+00:00"}
 {"stage": "correct", "variant": "crop_nothink", "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2093", "block_index": 9, "error_type": "ValueError", "error": "incomplete Super VL reply: finish_reason=length", "at": "2026-10-18T13:13:49+00:00"}
+{"stage": "summarize", "entry_id": "E0109", "error_type": "ValueError", "error": "Super VL summary reply is not a JSON object", "at": "2026-10-18T15:42:17+00:00"}
+{"stage": "summarize_passages", "entry_id": "E0215", "error_type": "ServiceError", "error": "service returned HTTP 422", "at": "2026-10-18T15:42:54+00:00"}

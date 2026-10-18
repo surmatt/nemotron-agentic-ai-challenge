@@ -1,0 +1,93 @@
+{
+  "variant": "crop_nothink",
+  "page_id": "upload:69952e7c4a0f",
+  "block_index": 7,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T13:52:20+00:00",
+  "elapsed_seconds": 1.71,
+  "finish_reason": "stop",
+  "parse_text": "_Switet-Canonas_, is a fault piece of artillery belonging to\na filing of way which carries a flux of half a pound, and is\nfixed in a locked on the top of the ship's ride, then, or how,\nand also in her tops. The renumion of this piece are con-\ntained in a fara of iron roots, of which the lowest tre-\nminutes in a cylindrical pivot rolling in the locket, fo as to\nfupport the weight of the canon.\" the footer is born in\nthe living place of sky, resulting with from hoops in order\nto cable it to fulltain the recoil. By means of this frame,\nwhich called the _hybrid_, and as iron heads on its caf-\nsible, the game be directed by the head to any object.\nIt is therefore very necellary in the tops, particularly when\nloaded with multiclusls, to fire down on the upper decks\nof the shelter in an area.",
+  "corrected_text": "Swivel-Cannon, is a small piece of artillery belonging to\na ship of war, which carries a shot of half a pound, and is\nfixed in a focket on the top of the ship's side, stern, or bow,\nand also in her tops. The trunnions of this piece are con-\ntained in a fort of iron croutch, of which the lower end ter-\nminates in a cylindrical pivot resting in the focket, so as to\nsupport the weight of the cannon. The focket is bored in\na strong piece of oak, reinforced with iron hoops, in order\nto enable it to sustain the recoil. By means of this frame,\nwhich is called the swivel, and an iron handle on its cas-\ncible, the gun may be directed by the hand to any object.\nIt is therefore very necessary in the tops, particularly when\nloaded with musket-balls, to fire down on the upper decks\nof the adversary in action.",
+  "reasoning_tokens": 0,
+  "usage": {
+    "completion_tokens": 206,
+    "prompt_tokens": 781,
+    "total_tokens": 987,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 402
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 3000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows this region of the page. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\n_Switet-Canonas_, is a fault piece of artillery belonging to\na filing of way which carries a flux of half a pound, and is\nfixed in a locked on the top of the ship's ride, then, or how,\nand also in her tops. The renumion of this piece are con-\ntained in a fara of iron roots, of which the lowest tre-\nminutes in a cylindrical pivot rolling in the locket, fo as to\nfupport the weight of the canon.\" the footer is born in\nthe living place of sky, resulting with from hoops in order\nto cable it to fulltain the recoil. By means of this frame,\nwhich called the _hybrid_, and as iron heads on its caf-\nsible, the game be directed by the head to any object.\nIt is therefore very necellary in the tops, particularly when\nloaded with multiclusls, to fire down on the upper decks\nof the shelter in an area.",
+  "response": {
+    "id": "chatcmpl-a986f1108cf11636",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "Swivel-Cannon, is a small piece of artillery belonging to\na ship of war, which carries a shot of half a pound, and is\nfixed in a focket on the top of the ship's side, stern, or bow,\nand also in her tops. The trunnions of this piece are con-\ntained in a fort of iron croutch, of which the lower end ter-\nminates in a cylindrical pivot resting in the focket, so as to\nsupport the weight of the cannon. The focket is bored in\na strong piece of oak, reinforced with iron hoops, in order\nto enable it to sustain the recoil. By means of this frame,\nwhich is called the swivel, and an iron handle on its cas-\ncible, the gun may be directed by the hand to any object.\nIt is therefore very necessary in the tops, particularly when\nloaded with musket-balls, to fire down on the upper decks\nof the adversary in action.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792331541,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 206,
+      "prompt_tokens": 781,
+      "total_tokens": 987,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 402
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

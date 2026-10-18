@@ -8,7 +8,7 @@ Your team builds the extraction workflow, article matching, comparisons, agent t
 
 ## Team solution and results
 
-Our pipeline has eight stages. Run each one with `uv run nemotron-challenge run <stage>`.
+Our pipeline has nine stages. Run each one with `uv run nemotron-challenge run <stage>`.
 [docs/team-pipeline.md](docs/team-pipeline.md) describes the method of each stage.
 
 | Stage | What it does | Models |
@@ -18,6 +18,7 @@ Our pipeline has eight stages. Run each one with `uv run nemotron-challenge run 
 | `match` | Gets BM25 candidates (headword, cleaned frequency keywords, Super VL terms), ranks them with the reranker, and accepts by calibrated thresholds | Super 3.5 VL, Embed VL, Rerank VL |
 | `compare` | Compares word frequencies with log-odds and cites a snippet from both sources | – |
 | `index` | Embeds Britannica and Wikipedia passages and stores them with citations in LanceDB | Embed VL |
+| `summarize` | Lists the key differences of each pair with one quote per side, and checks each quote against the source | Super 3.5 VL, Embed VL |
 | `agent` | Runs Hermes with five team tools (search, semantic search, compare, read, corpus) and evidence rules | Super 3.5 VL |
 | `site` | Builds a static website and one compiled LaTeX document per scan | – |
 | `evaluate` | Checks quotes against tool results and writes three success and three failure cases | – |
