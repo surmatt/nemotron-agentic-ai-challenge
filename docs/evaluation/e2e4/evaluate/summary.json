@@ -1,0 +1,109 @@
+{
+  "stage": "evaluate",
+  "finished_at": "2026-10-18T15:46:40+00:00",
+  "cases": [],
+  "counts": {
+    "success": 0,
+    "failure": 0
+  },
+  "cases_not_in_this_work_dir": [
+    "S1-heat",
+    "S2-willin-wrong-match",
+    "S3-locomotive-missing",
+    "F1-philology-false-absence",
+    "F2-corpus-brit-inference",
+    "F3-heat-no-rules-edition"
+  ],
+  "runs_checked": 8,
+  "runs_with_unsupported_quotes": [
+    "2026-10-18T154454Z/q05-philology"
+  ],
+  "quote_check_review": [
+    {
+      "run": "2026-10-18T114003Z/q02-huguenots",
+      "quote_start": "in common use by around 1550).",
+      "verdict": "checker false alarm",
+      "reason": "The line has an odd number of quote marks, so the checker paired the wrong marks. The quoted Wikipedia phrase 'was in common use by around 1550' occurs in the tool result."
+    },
+    {
+      "run": "2026-10-18T114003Z/q05-philology",
+      "quote_start": "the philology (did-dialyksia menus",
+      "verdict": "checker false alarm",
+      "reason": "The source has an OCR line-break hyphen ('di-\\ndialyksia'). The agent joined the parts. Ratio 0.846 is just below the 0.85 limit."
+    },
+    {
+      "run": "2026-10-18T115609Z/q01-heat",
+      "quote_start": "heat in the body ... is only motion",
+      "verdict": "checker false alarm",
+      "reason": "The ellipsis and a page-break hyphen ('par- ticular') lower the ratio to 0.762. The words occur in the source."
+    }
+  ],
+  "observations_after_repair": [
+    {
+      "run": "2026-10-18T115609Z/q08-naxos",
+      "finding": "regression, not caused by the repairs",
+      "detail": "The match for E0100 did not change (Naxos (Crete)). The earlier run flagged it as wrong. This run says both sources describe the same Cretan town, although the Britannica coordinates (25.13 E, 37.6 N, OCR) point to the Aegean island (inference). The agent answer varies between runs."
+    },
+    {
+      "run": "2026-10-18T115609Z/q06-locomotive",
+      "finding": "incomplete run",
+      "detail": "Hermes exited with code 1 after 20 tool calls, probably at the --max-turns 12 limit. The final text correctly reports missing evidence. The failure is in runs/failures.jsonl."
+    },
+    {
+      "run": "2026-10-18T115609Z/q03-coinage",
+      "finding": "expected change",
+      "detail": "The match stage now rejects the list page \"Coinage\". The agent describes the Britannica entry and reports that no Wikipedia comparison exists. The article on the process (\"Coining (mint)\") is not a BM25 candidate."
+    },
+    {
+      "run": "2026-10-18T115609Z/q03-coinage",
+      "finding": "altered quotes",
+      "detail": "The agent says it quotes the OCR as printed, but four quotes silently correct the OCR: \"uniform and exact thickness\" (source: \"thickensful\"), \"coining engine\" (source: \"cooling engine\"), \"remains ... marked\" (source: \"remains damaged\"). The quote check flags them as unsupported. A later rule could require [brackets] for every correction."
+    }
+  ],
+  "reproduction": {
+    "code_revision": "61e8d2908a9711e20c0f8431ee7bc0039c9da2f3 + uncommitted changes",
+    "python": "3.12.0",
+    "platform": "macOS-14.3-arm64-arm-64bit",
+    "models": {
+      "parse": "nvidia/nemotron-3.5-parse",
+      "embed": "nvidia/llama-nemotron-embed-vl-1b-v2@582e3bf72aee355e3c59ed89de53543c5b0657ee",
+      "rerank": "nvidia/llama-nemotron-rerank-vl-1b-v2@b8a9987b05b75db5ad949c825cbcbf6eb7c48b5a",
+      "agent": "nvidia/Nemotron-3.5-Super-VL",
+      "embed_rerank_used": true
+    },
+    "data": {
+      "britannica_dataset": "NationalLibraryOfScotland/encyclopaedia_britannica_illustrated",
+      "britannica_revision": "309f765b1ecc83e0a7f7762e44b4a927a7555443",
+      "manifest_sha256": "779542e078756874f23fa6971d7d8a2d8635ad6d9d9484e1deb607d94a28e396",
+      "wikipedia_revision": "417c267bb457fa645c22eb3b5c77764963194c70"
+    },
+    "tools": {
+      "hermes": "Hermes Agent v0.22.2 (2026.9.24) · stable · local d923a5eb487a",
+      "latex": "Tectonic 0.17.0"
+    },
+    "commands": [
+      "uv sync --locked",
+      "uv run nemotron-challenge data fetch",
+      "uv run nemotron-challenge run extract",
+      "uv run nemotron-challenge run correct",
+      "uv run nemotron-challenge run match",
+      "uv run nemotron-challenge run compare",
+      "uv run nemotron-challenge run agent",
+      "uv run nemotron-challenge run site",
+      "uv run nemotron-challenge run evaluate"
+    ]
+  },
+  "known_limits": [
+    "The match stage ran in model mode with thresholds {'rerank_logit': -10.0, 'cosine': 0.15, 'title_similarity': 0.0} from docs/evaluation/match_thresholds.json, calibrated on 60 labels by one labeller (cross-validated F1 0.59).",
+    "Scans are 600 x 874 pixels. Parse OCR has many errors; about 0.069 of Britannica tokens are outside the vocabulary.",
+    "Parse looped on 2 scans (a blank cover and an engraved plate) and hit its token limit. These scans have no extracted text.",
+    "The first match run accepted list pages (\"Coinage\", \"Willin'\") that lack \"(disambiguation)\" in the title. The repaired rule removes pages that open with \"may refer to\". When the right article is not a BM25 candidate (\"Coining (mint)\"), the entry now has no match.",
+    "OCR-damaged headwords get a dictionary variant only when one close word exists (PHILLOOGY -> philology). Ambiguous damage (WILLIN) and damage below the 0.85 ratio still break search and matching.",
+    "The lexical rule still accepts wrong senses with the same title (\"Naxos (Crete)\" for the Aegean island).",
+    "Automatic agent checks pass answers with unsupported metadata or wrong inferences. Manual review is needed."
+  ],
+  "outputs": {
+    "cases": "artifacts-e2e4/evaluate/cases",
+    "quote_checks": "artifacts-e2e4/evaluate/quote_checks.json"
+  }
+}

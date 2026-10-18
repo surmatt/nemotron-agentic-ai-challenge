@@ -1,0 +1,38 @@
+{
+  "stage": "extract",
+  "finished_at": "2026-10-18T15:36:15+00:00",
+  "model": "nvidia/nemotron-3.5-parse",
+  "scans": 100,
+  "parsed": 98,
+  "failed_scans": [
+    "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:452",
+    "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2243"
+  ],
+  "parse_calls_this_run": {
+    "requested": 100,
+    "failed": 2
+  },
+  "page_status": {
+    "ok": 89,
+    "plate": 5,
+    "blank_or_sparse": 4
+  },
+  "incomplete_replies": [],
+  "failure_details": {
+    "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:452": "chat response is incomplete; inspect the token budget and finish_reason",
+    "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2243": "chat response is incomplete; inspect the token budget and finish_reason"
+  },
+  "entries": 241,
+  "headword_entries": 159,
+  "continuation_entries": 82,
+  "joined_across_pages": 2,
+  "provenance": {
+    "removed": 0,
+    "written": 241
+  },
+  "outputs": {
+    "raw": "artifacts-e2e4/extract/raw",
+    "pages": "artifacts-e2e4/extract/pages.jsonl",
+    "entries": "artifacts-e2e4/extract/entries.jsonl"
+  }
+}

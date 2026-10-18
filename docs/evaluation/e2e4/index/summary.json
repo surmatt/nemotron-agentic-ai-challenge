@@ -1,0 +1,59 @@
+{
+  "stage": "index",
+  "finished_at": "2026-10-18T15:44:51+00:00",
+  "entry_text": "correct",
+  "model": "nvidia/llama-nemotron-embed-vl-1b-v2@582e3bf72aee355e3c59ed89de53543c5b0657ee",
+  "dimensions": 2048,
+  "db": "data/team.lancedb",
+  "tables": {
+    "britannica_passages": "britannica_passages__artifacts_e2e4",
+    "wikipedia_passages": "wikipedia_passages__artifacts_e2e4"
+  },
+  "britannica_passages": 687,
+  "wikipedia_passages": 1948,
+  "wikipedia_articles": 171,
+  "articles_cut_at_passages": {
+    "limit": 24,
+    "page_ids": [
+      "124259",
+      "17158563",
+      "18011",
+      "1832050",
+      "188740",
+      "192420",
+      "192754",
+      "19593167",
+      "19716",
+      "21244",
+      "21492663",
+      "21702",
+      "22483",
+      "26748",
+      "2724826",
+      "27692",
+      "27863",
+      "30027",
+      "3376041",
+      "34460",
+      "355173",
+      "36626070",
+      "59594801",
+      "59639",
+      "61344",
+      "650405",
+      "69670",
+      "75899",
+      "838801",
+      "897",
+      "91234",
+      "9481"
+    ]
+  },
+  "passages_embedded_this_run": 2635,
+  "passages_reused": 0,
+  "seconds": 48.1,
+  "provenance": {
+    "removed": 0,
+    "written": 421
+  }
+}

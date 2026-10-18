@@ -1,0 +1,51 @@
+{
+  "stage": "agent",
+  "finished_at": "2026-10-18T15:45:54+00:00",
+  "run_id": "2026-10-18T154454Z",
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "plugin_doctor": "ok",
+  "hermes_version": "Hermes Agent v0.22.2 (2026.9.24) · stable · local d923a5eb487a",
+  "soul_sha256": "566b9455303da7cf8f8efc4d3b427566e0d7235f03c020ea91bb4a4f8813a4cc",
+  "questions": 8,
+  "completed": 8,
+  "auto_pass": 5,
+  "results": {
+    "q01-heat": {
+      "auto_pass": false,
+      "tools": 5
+    },
+    "q02-huguenots": {
+      "auto_pass": true,
+      "tools": 8
+    },
+    "q03-coinage": {
+      "auto_pass": true,
+      "tools": 8
+    },
+    "q04-corpus": {
+      "auto_pass": true,
+      "tools": 2
+    },
+    "q05-philology": {
+      "auto_pass": true,
+      "tools": 5
+    },
+    "q06-locomotive": {
+      "auto_pass": false,
+      "tools": 7
+    },
+    "q07-william": {
+      "auto_pass": true,
+      "tools": 6
+    },
+    "q08-naxos": {
+      "auto_pass": false,
+      "tools": 5
+    }
+  },
+  "outputs": {
+    "runs": "artifacts-e2e4/agent/runs.jsonl",
+    "events": "artifacts-e2e4/agent/runs/2026-10-18T154454Z"
+  },
+  "note": "Automatic checks are text rules. Read each answer before you classify it."
+}

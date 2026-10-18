@@ -1,0 +1,10 @@
+{"stage": "extract", "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:452", "filename": "page-0452-233256cb3c3c.jpg", "error_type": "ProtocolError", "error": "chat response is incomplete; inspect the token budget and finish_reason", "at": "2026-10-18T15:35:24+00:00"}
+{"stage": "extract", "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2243", "filename": "page-2243-0bd9a3e05239.jpg", "error_type": "ProtocolError", "error": "chat response is incomplete; inspect the token budget and finish_reason", "at": "2026-10-18T15:36:09+00:00"}
+{"stage": "correct", "variant": "crop_nothink", "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:563", "block_index": 0, "error_type": "ValueError", "error": "incomplete Super VL reply: finish_reason=length", "at": "2026-10-18T15:37:46+00:00"}
+{"stage": "match_terms", "entry_id": "E0054", "error_type": "ProtocolError", "error": "chat response is incomplete; inspect the token budget and finish_reason", "at": "2026-10-18T15:40:55+00:00"}
+{"stage": "match_terms", "entry_id": "E0092", "error_type": "ProtocolError", "error": "chat response is incomplete; inspect the token budget and finish_reason", "at": "2026-10-18T15:41:26+00:00"}
+{"stage": "match_terms", "entry_id": "E0144", "error_type": "ProtocolError", "error": "chat response is incomplete; inspect the token budget and finish_reason", "at": "2026-10-18T15:42:22+00:00"}
+{"stage": "match_terms", "entry_id": "E0209", "error_type": "ProtocolError", "error": "chat response is incomplete; inspect the token budget and finish_reason", "at": "2026-10-18T15:43:23+00:00"}
+{"stage": "match_terms", "entry_id": "E0234", "error_type": "ProtocolError", "error": "chat response is incomplete; inspect the token budget and finish_reason", "at": "2026-10-18T15:43:45+00:00"}
+{"stage": "summarize", "entry_id": "E0068", "error_type": "ValueError", "error": "Super VL summary reply is not a JSON object", "at": "2026-10-18T16:13:22+00:00"}
+{"stage": "summarize", "entry_id": "E0133", "error_type": "ValueError", "error": "Super VL summary reply is not a JSON object", "at": "2026-10-18T16:13:52+00:00"}

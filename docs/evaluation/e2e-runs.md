@@ -18,7 +18,7 @@ Before the run, do `uv run --locked pytest` and `uv run nemotron-challenge docto
 
 ## e2e4: main at `61e8d29`, 2026-10-18
 
-- Code: `main` at `61e8d29` (merge of PR #8, match-llm-terms: Super VL search terms, no margin gate).
+- Code: `main` at `61e8d29` (merge of PR #8, match-llm-terms: Super VL search terms, no margin gate). The evaluate record adds "+ uncommitted changes".
 - Work dir: `artifacts-e2e4/`.
 - Time: 15:35 to 15:46 UTC, about 12 minutes. All eight stages exited with code 0.
 - Before the run: 169 tests passed. `doctor --live` reported wikipedia, parse, retrieval, and super as ok.
@@ -42,7 +42,7 @@ Super VL terms: 196 ok, 5 failed.
 
 ### Failures
 
-`artifacts-e2e4/runs/failures.jsonl` has 8 records. All are model replies cut at the token limit:
+`artifacts-e2e4/runs/failures.jsonl` has 8 records. All are incomplete model replies (`finish_reason` is not "stop"). The correct record gives `finish_reason=length`:
 
 | Stage | Count | Error |
 | --- | --- | --- |
@@ -59,3 +59,18 @@ The pipeline continued without these results.
 - Agent question `q01-heat` passed in e2e3 and failed the automatic check in e2e4. Read the answer before you classify it.
 - The quote checker flagged `2026-10-18T154454Z/q05-philology`. Read the quote to decide if it is a checker false alarm.
 - Evaluate found 0 cases. The six selected cases point to runs in `artifacts/`, not to this work dir. This is the same as in e2e3.
+
+### Later stage: summarize on the e2e4 work dir
+
+The `summarize` stage ran on `artifacts-e2e4/` in about 2 minutes and finished at 16:14 UTC, after the eight-stage run.
+Inference: it used the code of commit `6944d4d` (added summarizer, 15:49 UTC). The summary does not record the commit.
+
+- 176 pairs: 174 ok, 2 failed. Both failures are `ValueError`: Super VL summary reply is not a JSON object (E0068, E0133).
+- 658 differences. Both quotes were found in the sources for 612 of them.
+- Subject judgment: 75 yes, 78 partly, 21 no.
+- Context: 104 whole articles, 72 passage selections by the embedder.
+
+### Copies in the repository
+
+`docs/evaluation/e2e4/` holds a copy of each stage `summary.json` and `runs/failures.jsonl` from `artifacts-e2e4/`.
+The copy has 10 failure records: the 8 above and the 2 summarize failures.

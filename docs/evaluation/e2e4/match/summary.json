@@ -1,0 +1,66 @@
+{
+  "stage": "match",
+  "finished_at": "2026-10-18T15:44:00+00:00",
+  "entry_text": "correct",
+  "provenance": {
+    "removed": 0,
+    "written": 176
+  },
+  "mode": "model",
+  "mode_detail": "retrieval models verified",
+  "models": [
+    "nvidia/llama-nemotron-embed-vl-1b-v2",
+    "nvidia/llama-nemotron-rerank-vl-1b-v2",
+    "nvidia/Nemotron-3.5-Super-VL"
+  ],
+  "terms_model": "nvidia/Nemotron-3.5-Super-VL",
+  "llm_terms": {
+    "ok": 196,
+    "cached": 0,
+    "failed": 5,
+    "skipped": 0
+  },
+  "wikipedia_revision": "417c267bb457fa645c22eb3b5c77764963194c70",
+  "thresholds": {
+    "rerank_logit": -10.0,
+    "cosine": 0.15,
+    "title_similarity": 0.0
+  },
+  "entries": 250,
+  "skipped": 49,
+  "searched": 201,
+  "accepted": 176,
+  "rejected": 25,
+  "headword_variants": {
+    "E0008": "swivel",
+    "E0021": "philology",
+    "E0051": "ambitus",
+    "E0068": "ovolo",
+    "E0069": "outlaugh",
+    "E0114": "haughtily",
+    "E0118": "adier dragoons and guard",
+    "E0140": "thomist",
+    "E0158": "exedra",
+    "E0178": "silvius italicus caius",
+    "E0189": "achievement",
+    "E0193": "atellan",
+    "E0208": "byrrus",
+    "E0222": "cabalist",
+    "E0249": "hindustani",
+    "E0250": "abyssinian"
+  },
+  "list_pages_removed_after_fetch": 0,
+  "errors": 0,
+  "repeated_articles": {
+    "339558": 2,
+    "838801": 2,
+    "603624": 2,
+    "469788": 2,
+    "82889": 2
+  },
+  "outputs": {
+    "matches": "artifacts-e2e4/match/matches.jsonl",
+    "candidates": "artifacts-e2e4/match/candidates",
+    "articles": "artifacts-e2e4/match/articles"
+  }
+}

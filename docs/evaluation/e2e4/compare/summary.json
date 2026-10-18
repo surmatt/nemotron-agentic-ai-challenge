@@ -1,0 +1,38 @@
+{
+  "stage": "compare",
+  "finished_at": "2026-10-18T15:44:02+00:00",
+  "entry_text": "correct",
+  "method": "word frequencies, log-odds with Dirichlet prior",
+  "pairs": 176,
+  "britannica_documents": 176,
+  "wikipedia_documents": 171,
+  "match_methods": {
+    "nemotron_embed_rerank": 176
+  },
+  "normalisation_changes": {
+    "abbreviation": 55,
+    "long_s": 89,
+    "historical": 3
+  },
+  "britannica_unverified_rate": 0.069,
+  "vocabulary_sources": [
+    {
+      "source": "cached Wikipedia articles",
+      "documents": 171,
+      "words": 33579
+    },
+    {
+      "source": "/usr/share/dict/words",
+      "sha256": "be41ad97963bf8dabedd5871d5d691596175269d540956b0f9965a885c2bbab9",
+      "words": 234456
+    }
+  ],
+  "mean_top_terms_jaccard": 0.059,
+  "mean_frequency_cosine": 0.2223,
+  "outputs": {
+    "pairs": "artifacts-e2e4/compare/pairs.jsonl",
+    "corpus": "artifacts-e2e4/compare/corpus.json",
+    "normalisation_log": "artifacts-e2e4/compare/normalisation_log.jsonl",
+    "plots": "artifacts-e2e4/compare/plots"
+  }
+}
