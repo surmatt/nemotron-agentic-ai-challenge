@@ -28,8 +28,10 @@ import time
 from typing import Any
 
 from .clients import ChatClient, ServiceError
-from .common import append_jsonl, read_json, read_jsonl, utc_now, with_retry, write_json, write_jsonl
+from .common import append_jsonl, read_json, read_jsonl, scan_reference, utc_now, with_retry, write_json, write_jsonl
 from .config import SUPER_MODEL, Settings
+from .contracts import ArtifactRecord
+from .data import load_manifest
 from .extract import segment
 from .ocr_eval import TEXT_CLASSES, crop_block, error_rates, fix_long_s, normalise, word_list
 
@@ -249,9 +251,23 @@ def run(settings: Settings, work_dir: Path, raw_scans: Path = Path("data/raw/bri
     out = work_dir / "correct"
     write_jsonl(out / "pages.jsonl", corrected_pages)
     write_jsonl(out / "entries.jsonl", entries)
+    from .storage import LanceArtifactStore
+
+    manifest = load_manifest()
+    by_id = {p["page_id"]: p for p in manifest["pages"]}
+    sources_by_block = {(p["page_id"], b["index"]): b.get("text_source", "parse")
+                        for p in corrected_pages for b in p["blocks"]}
+    provenance = LanceArtifactStore(settings.db_path, work_dir).replace_stage("correct", (ArtifactRecord(
+        record_id=f"correct:{entry['entry_id']}", stage="correct", artifact_path=str(out / "entries.jsonl"),
+        sources=[scan_reference(by_id[p["page_id"]], manifest) for p in entry["pages"]],
+        metadata={"headword": entry["headword"], "text_sha256": entry["text_sha256"], "model": SUPER_MODEL,
+                  "variant": variant, "text_sources": sorted({sources_by_block.get((part["page_id"], part["block_index"]),
+                                                                                   "parse") for part in entry["parts"]})},
+    ) for entry in entries))
     evaluation = out / "eval.json"
     summary = {
         "stage": "correct", "finished_at": utc_now(), "model": SUPER_MODEL, "variant": variant,
+        "provenance": provenance,
         "text_blocks": len(wanted), "blocks_requested": len(jobs), "blocks_corrected": len(results),
         "blocks_failed": len(jobs) - len(results), "text_decisions": decisions,
         "post_process": {"long_s_rule": "ocr_eval.fix_long_s with the system word list", "blocks_changed": long_s_changes},

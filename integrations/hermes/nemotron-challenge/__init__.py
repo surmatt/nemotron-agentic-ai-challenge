@@ -13,6 +13,7 @@ import json
 import os
 from pathlib import Path
 import re
+import subprocess
 from typing import Any
 
 TOOLSET = "nemotron_challenge"
@@ -201,6 +202,35 @@ def handle_corpus(params: dict[str, Any], **kwargs: Any) -> str:
     })
 
 
+def handle_semantic_search(params: dict[str, Any], **kwargs: Any) -> str:
+    """Search the LanceDB passage index by meaning. The project Python runs the search, because this
+    Hermes runtime has no LanceDB. The agent stage sets CHALLENGE_PYTHON and CHALLENGE_REPO."""
+    del kwargs
+    query = str(params.get("query", "")).strip()
+    source = str(params.get("source", "both"))
+    limit = max(1, min(int(params.get("limit", 8)), 20))
+    if not query or source not in {"both", "britannica", "wikipedia"}:
+        return _error("give a query and a source of both, britannica, or wikipedia")
+    python, repo = os.environ.get("CHALLENGE_PYTHON"), os.environ.get("CHALLENGE_REPO")
+    if not python or not repo:
+        return _error("CHALLENGE_PYTHON and CHALLENGE_REPO are not set. Run Hermes through the agent stage.")
+    command = [python, "-m", "nemotron_challenge.search", "--query", query[:2000], "--source", source,
+               "--limit", str(limit), "--work-dir", str(_work_dir())]
+    try:
+        done = subprocess.run(command, cwd=repo, capture_output=True, text=True, timeout=120,
+                              env={k: v for k, v in os.environ.items() if not k.startswith(("PYTHON", "VIRTUAL_ENV"))})
+    except (subprocess.TimeoutExpired, OSError) as exc:
+        return _error(f"semantic search failed: {type(exc).__name__}")
+    try:
+        result = json.loads(done.stdout.strip().splitlines()[-1])
+    except (ValueError, IndexError):
+        tail = (done.stderr.strip().splitlines() or ["no output"])[-1][:300]
+        return _error(f"semantic search failed: exit {done.returncode}: {tail}")
+    if isinstance(result, dict) and result.get("status") == "ok":
+        result["note"] = f"{result.get('note', '')} {SOURCE_NOTE}".strip()
+    return _result(result)
+
+
 def _schema(name: str, description: str, properties: dict[str, Any], required: list[str]) -> dict[str, Any]:
     return {"name": name, "description": description,
             "parameters": {"type": "object", "properties": properties, "required": required,
@@ -225,6 +255,16 @@ TOOLS = [
     (_schema("challenge_corpus", "Get the corpus-level vocabulary comparison of all matched Britannica entries "
              "against all matched Wikipedia articles.", {}, []), handle_corpus),
 ]
+
+
+TOOLS.append(
+    (_schema("challenge_semantic_search", "Search passages by meaning, not by exact words, in the Britannica entries "
+             "and the matched Wikipedia articles. Use it when challenge_search finds nothing, when an OCR error may "
+             "hide a headword, or to find the passage that answers a question. Returns passages with entry, scan, "
+             "page, and revision IDs and a cosine score.",
+             {"query": {"type": "string", "minLength": 1, "maxLength": 2000},
+              "source": {"type": "string", "enum": ["both", "britannica", "wikipedia"]},
+              "limit": {"type": "integer", "minimum": 1, "maximum": 20}}, ["query"]), handle_semantic_search))
 
 
 def register(ctx: Any) -> None:

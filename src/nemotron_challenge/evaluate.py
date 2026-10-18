@@ -209,8 +209,7 @@ def run(settings: Settings, work_dir: Path) -> dict[str, Any]:
                       "unsupported_quotes": sum(q["support"] == "unsupported" for q in quotes_by_key[key]),
                       "repaired_run": f"{repair['run_id']}/{repair['question_id']}" if repair else None,
                       "repair_outcome": repair["outcome"] if repair else None})
-    if missing:
-        raise ValueError(f"cases name runs that are not saved: {missing}")
+    # A fresh work dir has new agent runs. Cases name saved runs, so list the ones this work dir lacks.
     counts = {kind: sum(c["classification"] == kind for c in cases) for kind in ("success", "failure")}
 
     stage = {s: read_json(work_dir / s / "summary.json") for s in ("extract", "match", "compare", "agent", "site")
@@ -226,12 +225,16 @@ def run(settings: Settings, work_dir: Path) -> dict[str, Any]:
         "tools": {"hermes": stage.get("agent", {}).get("hermes_version"),
                   "latex": stage.get("site", {}).get("latex", {}).get("engine")},
         "commands": ["uv sync --locked", "uv run nemotron-challenge data fetch",
-                     *[f"uv run nemotron-challenge run {s}" for s in ("extract", "match", "compare", "agent", "site",
-                                                                       "evaluate")]],
+                     *[f"uv run nemotron-challenge run {s}" for s in ("extract", "correct", "match", "compare", "agent",
+                                                                       "site", "evaluate")]],
     }
+    match_summary = stage.get("match", {})
     limits = [
-        "The match stage ran in lexical mode. The Nemotron embedder and reranker were not reachable, so every "
-        "match is provisional_lexical and needs the model check.",
+        (f"The match stage ran in model mode with thresholds {match_summary.get('thresholds')} from "
+         "docs/evaluation/match_thresholds.json, calibrated on 60 labels by one labeller (cross-validated F1 0.59)."
+         if match_summary.get("mode") == "model" else
+         "The match stage ran in lexical mode. The Nemotron embedder and reranker were not reachable, so every "
+         "match is provisional_lexical and needs the model check."),
         "Scans are 600 x 874 pixels. Parse OCR has many errors; about "
         f"{stage.get('compare', {}).get('britannica_unverified_rate')} of Britannica tokens are outside the vocabulary.",
         f"Parse looped on {len(stage.get('extract', {}).get('failed_scans', []))} scans (a blank cover and an "
@@ -245,6 +248,7 @@ def run(settings: Settings, work_dir: Path) -> dict[str, Any]:
         "Automatic agent checks pass answers with unsupported metadata or wrong inferences. Manual review is needed.",
     ]
     report = {"stage": "evaluate", "finished_at": utc_now(), "cases": cases, "counts": counts,
+              "cases_not_in_this_work_dir": missing,
               "runs_checked": len(checked), "runs_with_unsupported_quotes": [
                   f"{c['run_id']}/{c['question_id']}" for c in checked if c["unsupported_quotes"]],
               "quote_check_review": spec.get("quote_check_review", []),
