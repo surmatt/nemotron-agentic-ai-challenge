@@ -1,0 +1,93 @@
+{
+  "variant": "crop_nothink",
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1430",
+  "block_index": 5,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T12:22:37+00:00",
+  "elapsed_seconds": 2.4,
+  "finish_reason": "stop",
+  "parse_text": "With the land-forces Seofitsi marched against the Ethiopian and Trojoldietten, whom are overcame, and obliged him to pay him a tritir of gold, ohony and ivory. From theme he proceeded as far as the pro-mony of Uma, which lay near the finest of Babelmaded, when lay the pillar with an inforticipation in faced characters. He then marched on to the country where cinnamon grows, or as leath to form country where cinnamon is that time to brought, probably fome place in India’s and here, he in like manner fet y pilnas, what were to be free for many ages after. At to his farther conquels, it is agreed by almost all authors of antiquity, that he over-one and pillaged the whole continent of Arab, and fome part of Europe. He crotified the Ganges, and credited pillars on its banks; and from theme he is fail to now reached outward to the very extremist yet the African continent. Returning from friends, he invaded the Sey- thana and Thincians; but all authors do not give that he conquered them. Some some affirm, that he was overthrown by them with great daughters, and ob-glied to abandon a great part of his body and military forces. But whether he had good or bad faces in thefe parts, it in a common opinion that he fetted a colony in Colombia. Freedomey, who gives the most popular account of the conquests of this monarch, does not fay whether the colony was designated, planted by Seefitsi's, or whether part of his army lowered behind the rell, and took up their residence in that region. From his own knowledge, he afferts, that the inhabitants of that country were undoubtedly of Egyptian defects. This was evident from the personal referendure they bore to the Egypu",
+  "corrected_text": "With the land-forces Sesostris marched against the Ethiopians and Troglodytes; whom he overcame, and obliged them to pay him a tribute of gold, ebony, and ivory. From thence he proceeded as far as the promontory of Dira, which lay near the straits of Babelmandel, where he set up a pillar with an inscription in faced characters. He then marched on to the country where cinnamon grows, or at least to some country where cinnamon at that time was brought, probably some place in India; and here he in like manner set up pillars, which were to be seen for many ages after. As to his farther conquests, it is agreed by almost all authors of antiquity, that he over-ran and pillaged the whole continent of Asia, and some part of Europe. He crofted the Ganges, and erected pillars on its banks; and from thence he is said to have marched eastward to the very extremity of the Asiatic continent. Returning from thence, he invaded the Scythians and Thracians; but all authors do not agree that he conquered them. Some even affirm, that he was overthrown by them with great slaughter, and obliged to abandon a great part of his booty and military forces. But whether he had good or bad success in these parts, it is a common opinion that he settled a colony in Colchis. Herodotus, however, who gives the most particular account of the conquests of this monarch, does not say whether the colony was designedly planted by Sesostris; or whether part of his army loitered behind the rest, and took up their residence in that region. From his own knowledge, he asserts, that the inhabitants of that country were undoubtedly of Egyptian descent. This was evident from the personal resemblance they bore to the Egyp-",
+  "reasoning_tokens": 0,
+  "usage": {
+    "completion_tokens": 387,
+    "prompt_tokens": 1355,
+    "total_tokens": 1742,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 784
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 3000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows this region of the page. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\nWith the land-forces Seofitsi marched against the Ethiopian and Trojoldietten, whom are overcame, and obliged him to pay him a tritir of gold, ohony and ivory. From theme he proceeded as far as the pro-mony of Uma, which lay near the finest of Babelmaded, when lay the pillar with an inforticipation in faced characters. He then marched on to the country where cinnamon grows, or as leath to form country where cinnamon is that time to brought, probably fome place in India’s and here, he in like manner fet y pilnas, what were to be free for many ages after. At to his farther conquels, it is agreed by almost all authors of antiquity, that he over-one and pillaged the whole continent of Arab, and fome part of Europe. He crotified the Ganges, and credited pillars on its banks; and from theme he is fail to now reached outward to the very extremist yet the African continent. Returning from friends, he invaded the Sey- thana and Thincians; but all authors do not give that he conquered them. Some some affirm, that he was overthrown by them with great daughters, and ob-glied to abandon a great part of his body and military forces. But whether he had good or bad faces in thefe parts, it in a common opinion that he fetted a colony in Colombia. Freedomey, who gives the most popular account of the conquests of this monarch, does not fay whether the colony was designated, planted by Seefitsi's, or whether part of his army lowered behind the rell, and took up their residence in that region. From his own knowledge, he afferts, that the inhabitants of that country were undoubtedly of Egyptian defects. This was evident from the personal referendure they bore to the Egypu",
+  "response": {
+    "id": "chatcmpl-97dc84ca87e01f47",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "With the land-forces Sesostris marched against the Ethiopians and Troglodytes; whom he overcame, and obliged them to pay him a tribute of gold, ebony, and ivory. From thence he proceeded as far as the promontory of Dira, which lay near the straits of Babelmandel, where he set up a pillar with an inscription in faced characters. He then marched on to the country where cinnamon grows, or at least to some country where cinnamon at that time was brought, probably some place in India; and here he in like manner set up pillars, which were to be seen for many ages after. As to his farther conquests, it is agreed by almost all authors of antiquity, that he over-ran and pillaged the whole continent of Asia, and some part of Europe. He crofted the Ganges, and erected pillars on its banks; and from thence he is said to have marched eastward to the very extremity of the Asiatic continent. Returning from thence, he invaded the Scythians and Thracians; but all authors do not agree that he conquered them. Some even affirm, that he was overthrown by them with great slaughter, and obliged to abandon a great part of his booty and military forces. But whether he had good or bad success in these parts, it is a common opinion that he settled a colony in Colchis. Herodotus, however, who gives the most particular account of the conquests of this monarch, does not say whether the colony was designedly planted by Sesostris; or whether part of his army loitered behind the rest, and took up their residence in that region. From his own knowledge, he asserts, that the inhabitants of that country were undoubtedly of Egyptian descent. This was evident from the personal resemblance they bore to the Egyp-",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792326158,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 387,
+      "prompt_tokens": 1355,
+      "total_tokens": 1742,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 784
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

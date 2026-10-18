@@ -1,0 +1,93 @@
+{
+  "variant": "crop_nothink",
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:713",
+  "block_index": 1,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T12:21:23+00:00",
+  "elapsed_seconds": 2.04,
+  "finish_reason": "stop",
+  "parse_text": "1. Aries, or ram and fleep, the horos of which are flu- ped like a half moon, and compreffed. This animal is perhaps the molt gentle and notifintive, and at the fame time the molt timid and fliquid, of all quadrupeds. In a flock of fleep, there is always a leader, whole flesh the cell amplified and blindly follow. If the men over a precipice, the whole flock follow his example, and cannot be reiftained though evident defiruation be the confe- engence. The finalist buffs, if uncommon, makes them run precipitantly against each other, without knowing the cause of their danger, or belogable to extricate them, folves. In favor, they remain fixed in the fate fots and continue disbursing in this situation, under they are forced to move by the flhepherd or his dog. But through daftally in itself, though altro devoid of feminine and mental qualities, this animal is of the molt extective uitality to man. It infacts on both the and climbing, fer- files the advantages we derive from its milk, its flow, and its rollow.",
+  "corrected_text": "1. Aries, or ram and sheep, the horns of which are flapped like a half moon, and compressed. This animal is perhaps the most gentle and inoffensive, and at the same time the most timid and stupid, of all quadrupeds. In a flock of sheep, there is always a leader, whose steps the rest implicitly and blindly follow. If he runs over a precipice, the whole flock follow his example, and cannot be restrained though evident destruction be the consequence. The slightest noise, if uncommon, makes them run precipitantly against each other, without knowing the cause of their danger, or being able to extricate themselves. In snow, they remain fixed in the same spot, and continue obstinately in that situation, unless they are forced to move by the shepherd or his dog. But though dullardly in itself, though almost devoid of sentiment and mental qualities, this animal is of the most extensive utility to man. It affords us both food and clothing, besides the advantages we derive from its milk, its fleece, and its tallow.",
+  "reasoning_tokens": 0,
+  "usage": {
+    "completion_tokens": 224,
+    "prompt_tokens": 1004,
+    "total_tokens": 1228,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 574
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 3000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows this region of the page. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\n1. Aries, or ram and fleep, the horos of which are flu- ped like a half moon, and compreffed. This animal is perhaps the molt gentle and notifintive, and at the fame time the molt timid and fliquid, of all quadrupeds. In a flock of fleep, there is always a leader, whole flesh the cell amplified and blindly follow. If the men over a precipice, the whole flock follow his example, and cannot be reiftained though evident defiruation be the confe- engence. The finalist buffs, if uncommon, makes them run precipitantly against each other, without knowing the cause of their danger, or belogable to extricate them, folves. In favor, they remain fixed in the fate fots and continue disbursing in this situation, under they are forced to move by the flhepherd or his dog. But through daftally in itself, though altro devoid of feminine and mental qualities, this animal is of the molt extective uitality to man. It infacts on both the and climbing, fer- files the advantages we derive from its milk, its flow, and its rollow.",
+  "response": {
+    "id": "chatcmpl-b25bd38072e46286",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "1. Aries, or ram and sheep, the horns of which are flapped like a half moon, and compressed. This animal is perhaps the most gentle and inoffensive, and at the same time the most timid and stupid, of all quadrupeds. In a flock of sheep, there is always a leader, whose steps the rest implicitly and blindly follow. If he runs over a precipice, the whole flock follow his example, and cannot be restrained though evident destruction be the consequence. The slightest noise, if uncommon, makes them run precipitantly against each other, without knowing the cause of their danger, or being able to extricate themselves. In snow, they remain fixed in the same spot, and continue obstinately in that situation, unless they are forced to move by the shepherd or his dog. But though dullardly in itself, though almost devoid of sentiment and mental qualities, this animal is of the most extensive utility to man. It affords us both food and clothing, besides the advantages we derive from its milk, its fleece, and its tallow.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792326084,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 224,
+      "prompt_tokens": 1004,
+      "total_tokens": 1228,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 574
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

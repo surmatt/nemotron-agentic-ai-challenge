@@ -1,0 +1,706 @@
+{
+  "entry_id": "E0113",
+  "headword": "HUGHILY",
+  "entry_text_sha256": "f31ef7ed3167eca88063570c27d9db26b139583e5712d5c725a0240078dd3308",
+  "mode": "model",
+  "queries": [
+    "hughily",
+    "haughtily",
+    "haughtily brought long france town afia kingdom bengal seated westerly branch ganges"
+  ],
+  "query_chars": 776,
+  "headword_variant": "haughtily",
+  "candidate_count": 32,
+  "list_pages_removed_after_fetch": [],
+  "decision": {
+    "status": "rejected",
+    "method": "nemotron_embed_rerank",
+    "thresholds": {
+      "rerank_logit": -10.0,
+      "margin": 0.5,
+      "cosine": 0.15,
+      "title_similarity": 0.0
+    },
+    "reason": "rerank_logit < -10.0, margin < 0.5, cosine < 0.15, or title_similarity < 0.0",
+    "page_id": "34040",
+    "title": "West Bengal",
+    "rerank_logit": -7.57888,
+    "cosine": 0.165768,
+    "margin_to_next": 0.151536,
+    "title_similarity": 0.2222
+  },
+  "candidates": [
+    {
+      "page_id": "2498648",
+      "revision_id": "1347082010",
+      "title": "Maryus Jones",
+      "url": "https://en.wikipedia.org/wiki/Maryus_Jones",
+      "excerpt": "ber 1, 1908 to September 1, 1912. Jones was born in Gloucester County, Virginia at Marlfield Plantation. He was a direct descendant of Roger Jones, who came to Virginia in 1680 with Lord Colepeper. Prior to serving as mayor, he was a colonel in the Confederate Army. He took part in the dedication of a memorial to Confederate soldiers at Greenlawn Cemetery in 1909.\n\nJones fought in several battles in the American Civil War with the 24th Virginia Cavalry, including the Battle of Saint Mary's Church and the First Battle of Deep Bottom, where he was captured. Following the war, he attended the University of Virginia.\n\nIn a retrospective discussion of slavery in the South, Jones stated in a letter that \"The great slave owners in no manner resembled what I have read of the barons of the fourteenth century who haughtily received the trembling vassals; on the contrary the old Virginia gentlemen were courteous and polite to all classes, not only to the whites, but to the slaves themselves.\"\n\nJones was buried at Abingdon Church, following his death in Newport News. Jones had moved to Newport News in 1899, where in addition to serving as mayor built a law practice and was a prominent Baptist.",
+      "excerpt_offset": 98,
+      "total_chars": 1298,
+      "bm25": {
+        "q1": {
+          "rank": 1,
+          "score": 14.8245
+        }
+      },
+      "best_rank": 1,
+      "title_similarity": 0.2105,
+      "context_overlap": 0.0116,
+      "cosine": 0.0436,
+      "rerank_logit": -8.958373,
+      "rerank_position": 31
+    },
+    {
+      "page_id": "34308138",
+      "revision_id": "1334516316",
+      "title": "Chola Expedition of the Ganges",
+      "url": "https://en.wikipedia.org/wiki/Chola_Expedition_of_the_Ganges",
+      "excerpt": "The Medieval Chola emperor Rajendra Chola I led an Chola Expedition of the Ganges between 1019 and 1021. The expedition traversed the states of Vengi, Kalinga, Madhya Pradesh, Jharkhand, Odisha, Bengal, Bihar and Uttar Pradesh culminating with their arrival at the Ganges river. The Chola victory over the Pala king Mahipala I is considered to be the climax of the expedition. In 1019 CE, Rajendra's forces marched through Kalinga towards the river Ganga. In Kalinga the Chola forces defeated Indraratha the ruler of the Somavamsi dynasty. The Chola army eventually reached the Pala kingdom of Bengal where they defeated Mahipala. The Chola army also defeated the last ruler of the Kamboja Pala dynasty Dharmapala of Dandabhukti. The Chola army went on to raid East Bengal and defeated Govindachandra of the Chandra dynasty and invaded Bastar region.\n\nThe expedition is believed to have been necessitated by a succession dispute in the Eastern Chalukya kingdom where the claims of Rajaraja Narendra, the son of Vimaladitya, the previous king, and his queen Kundavai, were contested by Vishnuvardana Vijayaditya VII, a son of Vimaladitya through another wife. Vishnuvardhana Vijayaditya VII was suppor",
+      "excerpt_offset": 0,
+      "total_chars": 6279,
+      "bm25": {
+        "q2": {
+          "rank": 1,
+          "score": 28.3171
+        }
+      },
+      "best_rank": 1,
+      "title_similarity": 0.2105,
+      "context_overlap": 0.0533,
+      "cosine": 0.142149,
+      "rerank_logit": -7.936652,
+      "rerank_position": 7
+    },
+    {
+      "page_id": "43331634",
+      "revision_id": "1310537997",
+      "title": "Gennaro Maldarelli",
+      "url": "https://en.wikipedia.org/wiki/Gennaro_Maldarelli",
+      "excerpt": "corations in a Pompeian Grottesque style for Neapolitan nobility, including the palaces of Ruffo della Scaletta, Doria d'Angri, Colonna di Stigliano, and San Teodoro. He painted frescoes (1837) for the large oval dome of the church of San Carlo all'Arena. The British diplomat and critic Lord Napier haughtily disdained this work as disfiguring the face of Naples.\n\nMaldarelli was very active for the restored Bourbon monarchy and decorated some rooms of the Royal Palace of Naples and in what is now the Biblioteca Nazionale. In 1845, he helped decorate the ceiling of the throne room of the Reggia di Caserta depicting the Ceremony of the Placement of the First Stone. For the Hall of Alexander, he painted a large canvas depicting Charles of Bourbon Abdicating For His Son Ferdinand.\n\nAmong the works that have been lost are a canvas of The Annunciation for the church of Mater Dei; a theater curtain (sipario) for the Teatro San Carlo (1844); some decorations for the Villa Favorita at Ercolano; three canvases depicting the Creation for the Zoological Cabinet at the University of Naples; and the ceiling decorations for the great hall of Royal Meteorologic Observatory at Vesuvius.\n\nMaldarelli ",
+      "excerpt_offset": 248,
+      "total_chars": 1471,
+      "bm25": {
+        "q1": {
+          "rank": 2,
+          "score": 14.4378
+        }
+      },
+      "best_rank": 2,
+      "title_similarity": 0.16,
+      "context_overlap": 0.0341,
+      "cosine": 0.058477,
+      "rerank_logit": -8.520773,
+      "rerank_position": 20
+    },
+    {
+      "page_id": "33949842",
+      "revision_id": "1179632872",
+      "title": "Barharwa–Azimganj–Katwa loop",
+      "url": "https://en.wikipedia.org/wiki/Barharwa%E2%80%93Azimganj%E2%80%93Katwa_loop",
+      "excerpt": " this line to Bandel Junction on the Howrah–Bardhaman main line, it is also known as the B.B Loop Line. This 170 kilometres (110 mi) line is under the jurisdiction of Eastern Railway. The majority of this line passes through the Purba Bardhaman and Murshidabad districts, in the Indian state of West Bengal, and lies on the west bank of the Bhagirathi river.\n\nIn 1913, the Barharwa–Azimganj–Katwa Railway constructed the Barharwa–Azimganj–Katwa loop line. This line connected Barharwa Junction one the Sahibganj loop with the Katwa Junction in what was then the Hooghly–Katwa Railway.\n\nIn 1863, the Indian Branch Railway Company, a private company constructed the Nalhati-Azimganj branch line. The line was 27 miles (43 km) long and was constructed with a unique rail gauge of 4 ft (1,219 mm). The Indian Branch Railway Company was purchased by the Government of India in 1872 and the line was renamed as the Nalhati State Railway and was converted into 5 ft 6 in (1,676 mm) broad gauge. It became a part of the East Indian Railway Company in 1892.\n\nWith the partition of India in 1947, the connection to North Bengal was lost since a major portion of the Calcutta-Siliguri line ran through East Paki",
+      "excerpt_offset": 155,
+      "total_chars": 3348,
+      "bm25": {
+        "q2": {
+          "rank": 2,
+          "score": 27.1568
+        }
+      },
+      "best_rank": 2,
+      "title_similarity": 0.2703,
+      "context_overlap": 0.0984,
+      "cosine": 0.095227,
+      "rerank_logit": -7.964838,
+      "rerank_position": 8
+    },
+    {
+      "page_id": "30298126",
+      "revision_id": "1345117956",
+      "title": "Tom Crowe",
+      "url": "https://en.wikipedia.org/wiki/Tom_Crowe",
+      "excerpt": "BBC's Third Programme in 1952 discovering his job was \"simply a mouth opening and shutting in this tiny little studio in the double basement of Broadcasting House\". He left in 1960, but returned in 1964 when attitudes were changing; the Third's announcers were now sharing office space with broadcasters from the Light Programme.\n\nHe wrote the biography of the Arabist Owen Tweedy titled Gathering Moss, published 1967. During the 1970s, he became one of the most familiar voices on Radio 3, and \"an accident-prone but haughtily unflappable persona\" evolved. Hans Keller recalled Crowe's \"inspired\" opening of the network in June 1971 with the words: \"Good morning to you. It's seven O'clock I'm afraid\". On another occasion, when the Greenwich Time Signal was accidentally heard over The Hebrides overture (aka, Fingal's Cave) he commented: \"I do hope the Mendelssohn didn't spoil your enjoyment of the pips\".\n\nCrowe retired from the BBC in 1982. Later he worked for the South African Broadcasting Corporation where he presented a classical music programme for three months each year.\n\nHe died at his home in Pickering, North Yorkshire, England where he lived with his second wife, Elizabeth Cooper.",
+      "excerpt_offset": 390,
+      "total_chars": 1590,
+      "bm25": {
+        "q1": {
+          "rank": 3,
+          "score": 14.0484
+        }
+      },
+      "best_rank": 3,
+      "title_similarity": 0.1111,
+      "context_overlap": 0.0102,
+      "cosine": 0.048198,
+      "rerank_logit": -8.729524,
+      "rerank_position": 28
+    },
+    {
+      "page_id": "14410440",
+      "revision_id": "1349645028",
+      "title": "Varendra",
+      "url": "https://en.wikipedia.org/wiki/Varendra",
+      "excerpt": "Varendra (Bengali: বরেন্দ্র), also known as Barind (Bengali: বারিন্দ), was an ancient and historical territory of Northern Bengal, now split between Bangladesh and the Indian state of West Bengal with parts in Eastern Bihar.\n\nIt formed part of the Pundravardhana or Pundra Kingdom region currently part of the Rajshahi and Rangpur Division of Bangladesh and included the districts of Bogra, Rajshahi, Pabna and Dinajpur of Bangladesh and the districts of Uttar Dinajpur, Dakshin Dinajpur and Malda of West Bengal, India. According to Cunningham, the boundary of Varendra was the Ganges and the Kosi river on the west, the Karatoya on the east, the Padma River on the south and the land between Cooch Behar and included the Terai.\n\nAccording to R. C. Majumdar, the term Varendra-mandala occurs in the Ramacharitam, which places it between the Ganges and Karatoya rivers. He writes, \"Its inclusion with Pundravardhana is proved by the Silimpur, Tarpandighi and Madhainagar inscriptions. The Tabaquat-i-nasiri mentions Barind as the wing of the territory of Lakhnawati on the eastern side of Ganges\".\n\nHistorical evidence attests significant presence of Brahmins in Bengal during the Maurya period. The ",
+      "excerpt_offset": 0,
+      "total_chars": 1697,
+      "bm25": {
+        "q2": {
+          "rank": 3,
+          "score": 26.5504
+        }
+      },
+      "best_rank": 3,
+      "title_similarity": 0.1176,
+      "context_overlap": 0.0649,
+      "cosine": 0.122513,
+      "rerank_logit": -7.846659,
+      "rerank_position": 4
+    },
+    {
+      "page_id": "964649",
+      "revision_id": "1311656286",
+      "title": "Mstislav III of Kiev",
+      "url": "https://en.wikipedia.org/wiki/Mstislav_III_of_Kiev",
+      "excerpt": "lensk (1197–?), Belgorod (1206), Galich (?–?) and Grand Prince of Kiev (1212–1223). He was the son of Roman Rostislavich.\n\nMstislav defeated an invading Hungarian army in 1221. In April 1223, the Mongols of Genghis Khan sent an envoy of ten ambassadors to negotiate a surrender or alliance. The Rus' haughtily executed them all. The Mongol commanders Subutai and Jebe defeated and captured him three days after the Battle of the Kalka River at a palisade on a nearby hill. According to the Novgorod First Chronicle, of the large Kievan Rus' army sent out to fight the Mongols, only \"every tenth returned to his home.\" For the first time since the attack of the Huns on Europe over seven centuries earlier, an Asian force had invaded Europe and utterly annihilated a major army.\n\nAn account of Mstislav's execution after the battle is described in Jack Weatherford's historical book Genghis Khan and the Making of the Modern World:\n\nAt the end of the campaign, Subutai and Jebe led their soldiers down to spend a relaxing spring in the Crimea on the Black Sea. They celebrated their victory with a great drunken party that lasted for days. The guest of honor was the defeated Prince Mstislav and his t",
+      "excerpt_offset": 73,
+      "total_chars": 1934,
+      "bm25": {
+        "q1": {
+          "rank": 4,
+          "score": 13.4103
+        }
+      },
+      "best_rank": 4,
+      "title_similarity": 0.2069,
+      "context_overlap": 0.0333,
+      "cosine": 0.087034,
+      "rerank_logit": -8.316072,
+      "rerank_position": 13
+    },
+    {
+      "page_id": "29108454",
+      "revision_id": "1335224513",
+      "title": "Mats Wester",
+      "url": "https://en.wikipedia.org/wiki/Mats_Wester",
+      "excerpt": "Mats Wester (born September 1, 1964 in Botkyrka, Sweden) is a musician and plays the nyckelharpa. Mats studied at Adolf Fredriks Musik Skola in Stockholm. Together with the singer Håkan Hemlin he operates the musical group Nordman. During Nordman's long pause Mats created another group together with Py Bäckman (lyrics) and Elenor Ågeryd (vocals).Mats has also written a song for the group Garmarna \"En gång ska han gråta\" (Once he will cry). As many times before Py Bäckman wrote the lyrics to the song.\n\nMats Wester was one of four musicians brought together by blues rock singer/guitar player Joe Bonamassa to perform on a variety of instruments in a July 3, 2012 acoustic concert at the Vienna Opera House. None of the five had ever worked together nor even met until they arrived in Vienna where three days later they put on a live performance. The event was released on March 12, 2013 on CD&DVD/Blu-Ray titled An Acoustic Evening At The Vienna Opera House and in 2014 was broadcast on a PBS special.\n\nAccording to Nordman's Website, Mats is the musical mastermind of the group, and that the music is his passion, hobby and life.",
+      "excerpt_offset": 0,
+      "total_chars": 1135,
+      "bm25": {
+        "q2": {
+          "rank": 4,
+          "score": 26.5249
+        }
+      },
+      "best_rank": 4,
+      "title_similarity": 0.2,
+      "context_overlap": 0.0345,
+      "cosine": -0.047644,
+      "rerank_logit": -9.243877,
+      "rerank_position": 32
+    },
+    {
+      "page_id": "11206460",
+      "revision_id": "1352580367",
+      "title": "Nicolaus Gallus",
+      "url": "https://en.wikipedia.org/wiki/Nicolaus_Gallus",
+      "excerpt": ". He worked there for almost seventeen years, and the effects of his activity were felt far beyond the borders of the town. In the disputes of the following years he fought faithfully on the side of Flacius. Like him he tried to influence Melanchthon by letters, but the latter treated Gallus rather haughtily. It probably angered him that Gallus had republished (1554) his Sententiae veterum de coena Domini, which was directed against Oecolampadius. In 1561 Gallus warned the princes convened at Naumburg of the spreading Calvinistic doctrine of the Lord's Supper (see: Crypto-Calvinism). He also got into a dispute with Brenz, whom he suspected of leanings toward Philippism. From 1562 to 1566 he furnished a refuge to Flacius, who had been expelled from Jena. Melanchthon reproached Gallus for fighting continually against the Evangelicals, instead of combating Romanism. However, during the diet in 1556, Gallus preached against the Roman Catholics, and there are still extant manuscripts containing theses of disputation against the Ingolstadt Catholics. In this connection may be mentioned Gallus' writing directed against Corpus Christi day: Vom abgöttischen Fest, Frohnleichnams-Tag genannt ",
+      "excerpt_offset": 1401,
+      "total_chars": 2677,
+      "bm25": {
+        "q1": {
+          "rank": 5,
+          "score": 12.5016
+        }
+      },
+      "best_rank": 5,
+      "title_similarity": 0.3636,
+      "context_overlap": 0.0333,
+      "cosine": 0.03418,
+      "rerank_logit": -8.479939,
+      "rerank_position": 18
+    },
+    {
+      "page_id": "34289512",
+      "revision_id": "1352832896",
+      "title": "Nor'westers",
+      "url": "https://en.wikipedia.org/wiki/Nor%27westers",
+      "excerpt": "The Nor'westers are a localised rainfall and thunderstorm event which occurs in the region of Eastern South Asia. This includes the region of Bengal (Bangladesh and West Bengal) and the regions of Odisha, Tripura, Assam, Bihar, Jharkhand in East India and Northeast India and the adjacent regions of Nepal during the summer months. These storms generally occur in the afternoon or just before sunset, when thick dark black clouds start appearing over the sky and then bring gale-speed wind with torrential rain, often with hail, but spanning only a short period of time.\n\nThey are also known as kalboisakhi or kalbaisakhi (Bengali: কালবৈশাখী, romanized: Kālbôiśākhī, pronounced; Odia: କାଳ ବୈଶାଖୀ, romanized: Kāḷa Baiśākhī, pronounced), and as bordoisila (Assamese: বৰদৈচিলা, romanized: Bôrdôisilā, pronounced).\n\nIn these languages, the term kālbôiśākhī refers to a \"fateful thing\" which occurs in the Hindu month of Baishakh. The term nor'wester is more commonly used in English newspapers since these storms travel from northwest to southeast. In Assamese, the event is known as a bôrdôisilā, which is derived from the Bodo word bôrdôisikhlā, in which bôr means wind, dôi means water and sikhlā mean",
+      "excerpt_offset": 0,
+      "total_chars": 3024,
+      "bm25": {
+        "q2": {
+          "rank": 5,
+          "score": 25.7729
+        }
+      },
+      "best_rank": 5,
+      "title_similarity": 0.1053,
+      "context_overlap": 0.0116,
+      "cosine": 0.082412,
+      "rerank_logit": -8.56024,
+      "rerank_position": 23
+    },
+    {
+      "page_id": "14612923",
+      "revision_id": "1352730195",
+      "title": "The Man from Home (1922 film)",
+      "url": "https://en.wikipedia.org/wiki/The_Man_from_Home_(1922_film)",
+      "excerpt": "ince Kinsillo has had an affair with the flower girl Faustina (Benson), and she discovers his attentions to the American heiress. Her unsuspecting husband (Ruben) adores her, but she wants only her noble lover. One night, while the husband is gone, she invites the Prince to her home and stabs him, and he kills her. Meanwhile, Daniel has arrived in Italy, helped the King (Miltern) of a neighboring principality who was traveling incognito with some motor trouble, and, not knowing he is consorting with royalty, is the King's guest at the hotel where his wards are staying. Genevieve takes Daniels's interference haughtily until the Prince's true character is finally disclosed through the efforts of her guardian. She acknowledges her love for him and they plan to return to the United States together.\n\nJames Kirkwood as Daniel Forbes Pike\n\nAnna Q. Nilsson as Genevieve Granger-Simpson\n\nGeoffrey Kerr as Horace Granger-Simpson\n\nNorman Kerry as Prince Kinsillo\n\nDorothy Cumming as Princess Sabina\n\nJosé Ruben as Ribière\n\nAnnette Benson as Faustina Ribière\n\nJohn Miltern as The King\n\nEdward Dagnall as Father\n\nClifford Grey as Secretary to the King\n\nSeveral scenes were filmed on location in Italy.",
+      "excerpt_offset": 1321,
+      "total_chars": 2521,
+      "bm25": {
+        "q1": {
+          "rank": 6,
+          "score": 12.2593
+        }
+      },
+      "best_rank": 6,
+      "title_similarity": 0.2308,
+      "context_overlap": 0.0,
+      "cosine": 0.014375,
+      "rerank_logit": -8.332195,
+      "rerank_position": 14
+    },
+    {
+      "page_id": "79226476",
+      "revision_id": "1277698541",
+      "title": "Maritime history of Bengal",
+      "url": "https://en.wikipedia.org/wiki/Maritime_history_of_Bengal",
+      "excerpt": "The Maritime history of Bengal (Bengali: বাংলার সামুদ্রিক ইতিহাস; Bānglāra Sāmudrika Itihāsa), represents the era of recorded human interaction with the sea in the southern region of Bengal, including shipping and shipbuilding, shipwrecks, naval warfare, and military installations and lighthouses, which were built to protect or assist navigation and development in Bengal. The Bay of Bengal is located to the south of the Bengal and there are navigable rivers that have greatly facilitated the influence of maritime transport and trade.\n\nThe maritime trade of Bengal was centered on the Bay of Bengal. For most of the 16th and 17th centuries, the major ports of Bengal, Satgaon and Chittagong, and later Hooghly, maintained significant commercial links with Burma, Malacca and Aceh. The second trade route connected Bengal with Sri Lanka, the Maldives and the Malabar Coast, and the third, subsidiary route connected Bengal with Gujarat and West Asia. Bengal's coastal trade with the Karamandal was equally important, which depended on Bengal's annual grain imports. The main exports of Bengal's coastal and overseas transport were various types of manufactured goods and agricultural products—clot",
+      "excerpt_offset": 0,
+      "total_chars": 2566,
+      "bm25": {
+        "q2": {
+          "rank": 6,
+          "score": 25.7714
+        }
+      },
+      "best_rank": 6,
+      "title_similarity": 0.2286,
+      "context_overlap": 0.0476,
+      "cosine": 0.2044,
+      "rerank_logit": -7.730416,
+      "rerank_position": 2
+    },
+    {
+      "page_id": "15183077",
+      "revision_id": "1277326520",
+      "title": "Movses Baghramian",
+      "url": "https://en.wikipedia.org/wiki/Movses_Baghramian",
+      "excerpt": "med struggle for the freedom of their homeland. Some scholars have interpreted Hordorak as calling for a constitutional monarchy, while others argue that it is calling for the establishment of an Armenian democratic republic.\n\nBaghramian's work was received extremely negatively by the Armenian Catholicos Simeon of Yerevan, who saw the book's ideas as dangerous. Simeon excommunicated Baghramian from the Armenian Church. Baghramian spent the next seven years in exile in Persia, Yemen and Egypt, working as a commercial agent for Shahamir Shahamirian. The excommunication was lifted by Simeon's successor Ghukas Karnetsi in 1780 after Shahamirian's repeated requests. Movses later moved to Bombay, apparently having become wealthy as Shahamirian's agent. At one point, he was visited by his relative Joseph Emin, who writes in his autobiography that he found Movses \"transformed, behaving imperiously and haughtily.\" In 1795 Baghramian published articles in the Madras Armenian periodical Azdarar (1794–96) under the pseudonym Hay vordi Hayi ('Armenian, son of an Armenian'). According to Tadevos Avdalbegyan, he also wrote the extended appendix to a 1796 publication of Abraham of Crete's history.",
+      "excerpt_offset": 1783,
+      "total_chars": 2983,
+      "bm25": {
+        "q1": {
+          "rank": 7,
+          "score": 11.8334
+        }
+      },
+      "best_rank": 7,
+      "title_similarity": 0.32,
+      "context_overlap": 0.0,
+      "cosine": 0.04213,
+      "rerank_logit": -8.572548,
+      "rerank_position": 24
+    },
+    {
+      "page_id": "76049501",
+      "revision_id": "1308774240",
+      "title": "Kaliyaganj railway station",
+      "url": "https://en.wikipedia.org/wiki/Kaliyaganj_railway_station",
+      "excerpt": "Kaliyaganj railway station is an Indian train station which serves Kaliaganj in Uttar Dinajpur district, West Bengal.\n\nKatihar was connected to Parbatipur, now in Bangladesh, in 1889, by Assam Behar State Railway.\n\nWith the partition of India, links with East Pakistan were lost. The Barsoi–Radhikapur sector became a branch line. In the early 1960s, when Farakka Barrage was being constructed, a more radical change was made. Indian Railways created a new broad-gauge rail link from Calcutta.\n\nThe 2,240 m (7,350 ft) -long Farakka Barrage carries a rail-cum-road bridge across the Ganges. The rail bridge was opened in 1971 thereby linking the Barharwa–Azimganj–Katwa loop to Mala Town, New Jalpaiguri and other railway stations in North Bengal.\n\nThere are a total of 2 platforms and 3 tracks. The platforms are connected by two foot overbridge.\n\nIn 2006, the Barsoi–Radhikapur branch line had a meter gauge line which was replaced broad gauge line. In 2023 the electrification of this line was completed. It is a single electric-line. In 2023, Prime Minister Narendra Modi launched the Amrit Bharat Station Scheme. According to the scheme, the Ministry of Railways will redevelop railway stations a",
+      "excerpt_offset": 0,
+      "total_chars": 1331,
+      "bm25": {
+        "q2": {
+          "rank": 7,
+          "score": 25.6682
+        }
+      },
+      "best_rank": 7,
+      "title_similarity": 0.2424,
+      "context_overlap": 0.069,
+      "cosine": 0.104281,
+      "rerank_logit": -8.442959,
+      "rerank_position": 16
+    },
+    {
+      "page_id": "18591857",
+      "revision_id": "1348568529",
+      "title": "2008 Kunming bus bombings",
+      "url": "https://en.wikipedia.org/wiki/2008_Kunming_bus_bombings",
+      "excerpt": "arty, claimed to have carried out bomb attacks on the buses in Kunming, along with an attack in May 2008 in Shanghai. The Washington -based IntelCenter, which monitors terrorism communications, claimed the group released a video entitled Our Blessed Jihad in Yunnan. In it, the group's leader, Commander Seyfullah, claimed credit for several attacks and threatened this month's Olympics. \"Despite the Turkestan Islamic Party's repeated warnings to China and international community about stopping the 29th Olympics in Beijing, the Chinese have haughtily ignored our warnings,\" IntelCenter quoted him as saying. \"The Turkestan Islamic Party volunteers who had gone through special preparations have started urgent actions.\"\n\nHowever, China's foreign ministry said that it examined IntelCenter's claims and dismissed the claims, concluding that the group was not behind the attack.\n\nAfter a premature bombing of Salvador's Cafe (a popular cafe and restaurant amongst expats) on Christmas Eve that year failed to kill anyone but injured the bomber, Police interrogated the man responsible, Li Yan, and determined that he was also behind the bus bombings over the summer. The bomber died of his injuries.",
+      "excerpt_offset": 1571,
+      "total_chars": 2771,
+      "bm25": {
+        "q1": {
+          "rank": 8,
+          "score": 11.7393
+        }
+      },
+      "best_rank": 8,
+      "title_similarity": 0.2308,
+      "context_overlap": 0.0111,
+      "cosine": 0.004911,
+      "rerank_logit": -8.549152,
+      "rerank_position": 22
+    },
+    {
+      "page_id": "19948053",
+      "revision_id": "1350512760",
+      "title": "Afia Nathaniel",
+      "url": "https://en.wikipedia.org/wiki/Afia_Nathaniel",
+      "excerpt": "Afia Serena Nathaniel (born 1974) is an independent Pakistani filmmaker who works primarily as a writer, director, producer and editor. She is a graduate of the Film Division at the Columbia University School of the Arts (2006).\n\nAfia Nathaniel was born in Quetta, Pakistan. She is the eldest of three girls. Her father was in the Armed Forces and her mother a professor of English. Afia was brought up and educated in Lahore.\n\nAfia did her Senior Cambridge from the Convent of Jesus and Mary, Lahore. She then attended Kinnaird College from 1991 to 1994, graduating with a BSc degree. She majored in Mathematics with a minor in Physics. In college, Afia participated actively in debating forums, poetry competitions and dramatics. She was elected the President of Science Club by the students at Kinnaird. Afia was awarded the prestigious Mangat Rai Gold Medal in 1994 in recognition of her outstanding academic record and extracurricular achievements.\n\nIn August 1994, Afia joined Lahore University of Management Sciences (LUMS) to pursue a BSc in Computer Science. She graduated from LUMS in 1997.\n\nIn 2001, Columbia University offered Afia Nathaniel a two-year Dean's fellowship enabling her to j",
+      "excerpt_offset": 0,
+      "total_chars": 5730,
+      "bm25": {
+        "q2": {
+          "rank": 8,
+          "score": 25.6409
+        }
+      },
+      "best_rank": 8,
+      "title_similarity": 0.3478,
+      "context_overlap": 0.0235,
+      "cosine": 0.061,
+      "rerank_logit": -8.662332,
+      "rerank_position": 26
+    },
+    {
+      "page_id": "43833195",
+      "revision_id": "1343796933",
+      "title": "A Piece of Sky (1980 film)",
+      "url": "https://en.wikipedia.org/wiki/A_Piece_of_Sky_(1980_film)",
+      "excerpt": "eedom from Armenia's repressive society of the 1930s. The boy takes over the business upon his uncle's death. As he grows up, his aunt tries to find him a wife. However, due to his job and status, no woman in the village wants to marry him.\n\nA trio of prostitutes arrive in town, as men begin pacing haughtily outside the brothel door, sneaking in while no one is looking. Torik enters, where he meets a beautiful prostitute named Anjel. He falls in love with her, and declares to his aunt that he wants this prostitute as his wife. The young man is forced to stand up against town bigotry and insist on his own way of life, as he is willing to do anything to forge his own happiness. Together, these two marginalised characters are redeemed and brought back into society through traditional rites.\n\nFrunzik Mkrtchyan – Grigor-agha\n\nSofiko Chiaureli – Turvanda\n\nAshot Adamyan – Torik\n\nGalina Belyayeva – Anjel\n\nTigran Voskanyan – Teenage Torik\n\nArsen Kuyumjyan – Young Torik\n\nArshavir Geodakyan – Asatur, butcher\n\nArmen Khostikyan – Factory worker\n\nMarie Rose Abousefian – Factory worker's wife\n\nGalya Novents – Hovakim's wife\n\nHarutyun Movsisyan – Arsen, butcher's apprentice\n\nAzat Sherents – Priest",
+      "excerpt_offset": 521,
+      "total_chars": 2810,
+      "bm25": {
+        "q1": {
+          "rank": 9,
+          "score": 11.6009
+        }
+      },
+      "best_rank": 9,
+      "title_similarity": 0.2609,
+      "context_overlap": 0.0198,
+      "cosine": 0.009445,
+      "rerank_logit": -8.688386,
+      "rerank_position": 27
+    },
+    {
+      "page_id": "49165882",
+      "revision_id": "1346920355",
+      "title": "Nana Afia Kobi Serwaa Ampem II",
+      "url": "https://en.wikipedia.org/wiki/Nana_Afia_Kobi_Serwaa_Ampem_II",
+      "excerpt": "Nana Afia Kobi Serwaa Ampem II (1907 – 15 November 2016) was the Queen mother (Ohemaa) of the Ashanti Kingdom and mother of the current Asantehene, Otumfuo Nana Osei Tutu II, who is the youngest son of her five children. She was the 13th Queen mother of the Ashanti Kingdom.\n\nNana Afia Kobi Serwaa Ampem II died on 15 November 2016 aged 109. She may be the longest-lived member of any royal family. She was buried at dawn in a full ceremony at the Breman Royal Mausoleum (Ban mu) on 20 January 2017, after her remains were removed from the Bantama Royal Mausoleum in order to receive final traditional rites.\n\nBefore her death, she was the Asantehemaa (Queen mother) of the Ashanti Kingdom for 39 years. The Ashanti people believe that the Queen mother, buried first in the Bantama Mausoleum, must meet first with the royal ancestors before moving on the final resting place.\n\nThe late Queen mother was laid in state for three days and buried on Thursday, 19 January 2017. A curfew was placed on the citizens of Kumasi, everyone was supposed to stay indoors from 8pm to 4am. This directive was announced by the chief linguist of Otumfuo Nana Osei Tutu II, Nana Nsuase Agyeman Poku Agyemang III on Fri",
+      "excerpt_offset": 0,
+      "total_chars": 1335,
+      "bm25": {
+        "q2": {
+          "rank": 9,
+          "score": 25.4731
+        }
+      },
+      "best_rank": 9,
+      "title_similarity": 0.1026,
+      "context_overlap": 0.0526,
+      "cosine": 0.041334,
+      "rerank_logit": -8.189441,
+      "rerank_position": 10
+    },
+    {
+      "page_id": "8621621",
+      "revision_id": "1333701517",
+      "title": "Thuppariyum Sambu",
+      "url": "https://en.wikipedia.org/wiki/Thuppariyum_Sambu",
+      "excerpt": " same Director eventually summons him to recover a lost pearl necklace. In another story Sambu traps the same corrupt manager who used to take great pleasure in referring to him at work as \"that idiot\". Sambu's best moments are when he walks into his old office on the case of the pearl necklace and haughtily ignores his former colleagues who once showed him scant respect.\n\nIn the late 1980s Thuppariyum Sambu was made into a popular TV serial with Kathadi Ramamurthy as Sambu and Delhi Ganesh as the Inspector. In one of the last episodes Sambu visits London and meets with Scotland Yard sleuths and solves a crime for them, too, and on his return from the UK, he is heartily welcomed. His wife also delivers their daughter.\n\nIn early 1990s, Thuupariyum Sambu was made into a TV serial with Y. G. Mahendra as Sambu and A. R. Srinivasan as the inspector Gopalan.\n\nThe concept was also adapted into comics form created by Gopulu in Ananda Vikatan.\n\nShikari Shambu, a forest ranger character created by India Book House for their Tinkle series, is loosely based on Thuppariyum Shambu. Besides the name, Shikari Shambu borrows the concept where lady luck plays a key role in helping Shikari in many an",
+      "excerpt_offset": 2205,
+      "total_chars": 3416,
+      "bm25": {
+        "q1": {
+          "rank": 10,
+          "score": 10.8878
+        }
+      },
+      "best_rank": 10,
+      "title_similarity": 0.3333,
+      "context_overlap": 0.0215,
+      "cosine": 0.081015,
+      "rerank_logit": -8.912957,
+      "rerank_position": 30
+    },
+    {
+      "page_id": "7418579",
+      "revision_id": "1353850233",
+      "title": "Murshidabad district",
+      "url": "https://en.wikipedia.org/wiki/Murshidabad_district",
+      "excerpt": "Murshidabad district is a district in the Indian state of West Bengal. Situated on the left bank of the river Ganges, the district is very fertile. Covering an area of 5,341 km 2 (2,062 sq mi) and having a population 7.103 million (according to 2011 census), it is a densely populated district and the ninth most populous in India (out of 640). Berhampore city is the headquarters of the district.\n\nThe Murshidabad city, which lends its name to the district, was the seat of power of the Nawabs of Bengal. All of Bengal was once governed from this city. A few years after Nawab Siraj-ud-Daula lost to the British at the Battle of Plassey, the capital of Bengal was moved to the newly founded city of Calcutta, now called Kolkata.\n\nThe district is named after the historical town of Murshidabad, which was named after Nawab Murshid Quli Khan.\n\nThe capital city of Shashanka, the great king of Gauḍa region (comprising most of Bengal) in the seventh century CE and perhaps that of Mahipala, one of the later Pala kings of Bengal, were in this district. The earliest evidences of the history of the district date back to the prehistoric days, perhaps as early as circa 1500 BCE.\n\nThe district got its pr",
+      "excerpt_offset": 0,
+      "total_chars": 23300,
+      "bm25": {
+        "q2": {
+          "rank": 10,
+          "score": 25.4374
+        }
+      },
+      "best_rank": 10,
+      "title_similarity": 0.2759,
+      "context_overlap": 0.0789,
+      "cosine": 0.198125,
+      "rerank_logit": -7.898452,
+      "rerank_position": 6
+    },
+    {
+      "page_id": "33021800",
+      "revision_id": "1305486651",
+      "title": "Berlin Blondes",
+      "url": "https://en.wikipedia.org/wiki/Berlin_Blondes",
+      "excerpt": "ne produced album Berlin Blondes was released much later in the year (September 1980) along with the single \"Framework\"/\"Zero Song\". However, sales did not live up to expectations and the band was dropped from the label. Trouser Press reviewed the album (years after its original release) and rather haughtily describes it as \"undistinguished, danceable hybrid synth/bass/drums clichés, occasionally adding colorful Sparks -like vocals for character.\" In truth, Bonomi's vocal style owed much more to Bryan Ferry and Cockney Rebel (Judy Teen era) than it did to Russell Mael. Many fans believed the album did not capture the power of the band's live performances whilst Robert Farrell stated that (as it was one of the first 'Futurist/New Musik' albums released) people were \"not ready for it\".\n\nTheir last incarnation saw them adding drummer Brian Miller and bassist Alasdair Gowans and releasing their last single \"Marseille\"/\"The Poet\" on independent label Scratch Records in 1981 before finally disbanding indefinitely.\n\nSteven Bonomi is now an award-winning chef and restaurateur in Glasgow.\n\nRobert Farrell went on to play with The Wedding (among others) and is still in the music business. He ",
+      "excerpt_offset": 1898,
+      "total_chars": 3641,
+      "bm25": {
+        "q1": {
+          "rank": 11,
+          "score": 10.3291
+        }
+      },
+      "best_rank": 11,
+      "title_similarity": 0.2,
+      "context_overlap": 0.0097,
+      "cosine": -0.028745,
+      "rerank_logit": -8.813601,
+      "rerank_position": 29
+    },
+    {
+      "page_id": "57786961",
+      "revision_id": "1344026524",
+      "title": "Ganges (1778 EIC ship)",
+      "url": "https://en.wikipedia.org/wiki/Ganges_(1778_EIC_ship)",
+      "excerpt": "Ganges was launched in 1778 as an East Indiaman. She made six voyages for the British East India Company (EIC), and one voyage as a transport for a naval expedition. She was last listed in 1796.\n\nCaptain George Richardson sailed from Portsmouth on 7 May 1779, bound for Madras and Bengal. Ganges was at Madeira on 5 April and Gorée on 10 May. She reached Madras on 18 September and arrived at Kedgeree on 11 November. Homeward bound, she was at Barrabulla (near Kedgeree) on 10 January 1780. She was again at Madras on 24 February, and reached St Augustine's Bay (Madagascar), on 14 June, and the Cape of Good Hope on 25 August. She was at St Helena on 29 October, and reached Crookhaven on 9 January 1781. She arrived art The Downs on 8 February.\n\nCaptain John Hamilton Dempster sailed from Portsmouth on 6 February 1782, bound for Madras, Bombay, Bengal, and China. Ganges was at Rio de Janeiro on 29 April. She reached Bombay on 6 September and Madras on 19 October, and arrived at Culpee, on the Hooghli River, on 21 January 1783. Ganges was at Sagar Island on 29 April, and Bombay again on 3 August. Bound for China, she was at Anjengo on 19 October, Bencoolen on 11 November, and Batavia on 21 ",
+      "excerpt_offset": 0,
+      "total_chars": 3841,
+      "bm25": {
+        "q2": {
+          "rank": 11,
+          "score": 25.1533
+        }
+      },
+      "best_rank": 11,
+      "title_similarity": 0.2857,
+      "context_overlap": 0.0455,
+      "cosine": 0.164877,
+      "rerank_logit": -7.773929,
+      "rerank_position": 3
+    },
+    {
+      "page_id": "44616660",
+      "revision_id": "1341623293",
+      "title": "Chandni Chowk (film)",
+      "url": "https://en.wikipedia.org/wiki/Chandni_Chowk_(film)",
+      "excerpt": "ng takes place, Nawab Safdarjung is informed by Ibrahim Beg (Jeevan) that Akbar is, in fact, the gardener's son. The plot to introduce Akbar as a Nawab was conceived by Ibrahim to teach the arrogant Nawab a lesson when he refused his newly rich neighbour, Yusuf's (Agha) proposal to marry Zarina, by haughtily declining it for him being a mere vegetable vendor. Angry on learning about the subterfuge, the Nawab calls off the marriage. Zarina however, decides to go to her in-laws' house as she now considers Akbar her husband. Akbar leaves for Egypt in the hope of earning money. He finds a job there and soon gets entangled with a dancer Noorie (Smriti Biswas), who falls in love with him. Noorie creates grave misunderstandings in Zarina's life when she reads Zarina's letter to Akbar. She sends off a wire informing the in-laws that Akbar is dead. Finally, Noorie dies telling Akbar about the misunderstanding created, and Akbar returns home to his bride.\n\nMeena Kumari as Zarina\n\nShekhar as Akbar\n\nJeevan as Ibrahim\n\nAgha as Yusuf\n\nSunder as Kallan\n\nKumar as Nawab Safdar Jung\n\nYashodra Kathju as Shabnam\n\nTun Tun\n\nSmriti Biswas as Noorie\n\nPratima Devi as Akbar's mother\n\nAchala Sachdev as Begum",
+      "excerpt_offset": 1279,
+      "total_chars": 3628,
+      "bm25": {
+        "q1": {
+          "rank": 12,
+          "score": 10.1399
+        }
+      },
+      "best_rank": 12,
+      "title_similarity": 0.2727,
+      "context_overlap": 0.0106,
+      "cosine": -0.004932,
+      "rerank_logit": -8.400442,
+      "rerank_position": 15
+    },
+    {
+      "page_id": "14474841",
+      "revision_id": "1307481489",
+      "title": "Jalangi River",
+      "url": "https://en.wikipedia.org/wiki/Jalangi_River",
+      "excerpt": "Jalangi River (Bengali: জলঙ্গী নদী), is a branch of the Ganges river in Murshidabad and Nadia districts in the Indian state of West Bengal. It flows into the Bhagirathi river and strengthens its lower channel, the Hooghly.\n\nThe river below the point where the Jalangi meets the Ganges is known as the Hooghly and the course above it, from the point of its separation from the main flow of the Ganges to its confluence with the Jalangi, is called the Bhagirathi.\n\nGhurni, a neighbourhood of Krishnanagar, a centre for the production of clay dolls, often referred to as Krishnanagar clay dolls, is located on the banks of the Jalangi. Nabadwip, the birthplace of Chaitanya Mahaprabhu is located in the west bank of the Bhagirathi. Mayapur is located at the confluence of the Jalanagi and Bhagirathi.\n\nThe name Jalangi derives from two Bengali words Jal (Water) and Angi (who (female) possess body). ‘Jalangi’ is a Bengali word meaning ‘watery body’ or ‘the body is made of water’. However, the name ‘Jalangi’ has been derived from that very settlement ‘Jalangi’ in P.S. Jalangi of Murshidabad district, at which, the river would take-off its supply from river Padma (Majumder, 1995, p-37)\n\nJalangi is a",
+      "excerpt_offset": 0,
+      "total_chars": 4917,
+      "bm25": {
+        "q2": {
+          "rank": 12,
+          "score": 24.9842
+        }
+      },
+      "best_rank": 12,
+      "title_similarity": 0.2727,
+      "context_overlap": 0.0625,
+      "cosine": 0.192212,
+      "rerank_logit": -8.528191,
+      "rerank_position": 21
+    },
+    {
+      "page_id": "67162451",
+      "revision_id": "1337653166",
+      "title": "Metropolitan Opera National Company",
+      "url": "https://en.wikipedia.org/wiki/Metropolitan_Opera_National_Company",
+      "excerpt": "e bulk of the company's finances during it operational history. While Metropolitan Opera director Rudolf Bing publicly expressed support for the project, privately he derided the idea and resented the board's actions in creating the company. In his 1972 autobiography, 5000 Nights at the Opera, Bing haughtily devalued the National Company as \"an expression of the typical American weakness for doing something -- anything -- for education and the young.\"\n\nAs director of the Met, Bing was responsible for establishing the leadership of the MONC, and he appointed Met mezzo-soprano Risë Stevens and Michael Manuel, a long time stage manager and director at the Met, as directors of the company in 1963. Stevens, who retired from the stage in 1961, was the Artistic Director and musical director of the company who exhibited a passion for mentoring the young artists in the company. Manuel took over the administrative duties of the company, served as stage manager and coordinator of the physical aspects of the company's sets, costumes, and supportive staff.\n\nStevens and Manuel spent a year auditioning singers before the MONC finally began rehearsals in the summer of 1965. Among the young singers",
+      "excerpt_offset": 925,
+      "total_chars": 3922,
+      "bm25": {
+        "q1": {
+          "rank": 13,
+          "score": 10.1052
+        }
+      },
+      "best_rank": 13,
+      "title_similarity": 0.2273,
+      "context_overlap": 0.0128,
+      "cosine": 0.008793,
+      "rerank_logit": -8.613609,
+      "rerank_position": 25
+    },
+    {
+      "page_id": "34040",
+      "revision_id": "1353875491",
+      "title": "West Bengal",
+      "url": "https://en.wikipedia.org/wiki/West_Bengal",
+      "excerpt": "West Bengal is a state in the eastern part of India. It is situated along the Bay of Bengal. It had a population of over 91 million inhabitants within an area of 88,752 km 2 (34,267 sq mi) as of 2011. The population estimate as of 2026 is 106 million. West Bengal is the fourth-most populous and thirteenth-largest state by area in India, as well as the eighth-most populous country subdivision of the world. As a part of the Bengal region of the Indian subcontinent, it borders Bangladesh in the east, and Nepal and Bhutan in the north. It also borders the Indian states of Jharkhand, Odisha, Bihar, Sikkim and Assam. The state capital is Kolkata, the third-largest metropolis, and seventh largest city by population in India. West Bengal includes the Darjeeling Himalayan hill region, the Ganges delta, the Rarh region, the coastal Sundarbans and the Bay of Bengal. The state's main ethnic group are the Bengalis.\n\nThe area's early history featured a succession of Indian empires, internal squabbling, and a tussle between Hinduism and Buddhism for dominance. Ancient Bengal was the site of several major Janapadas, while the earliest cities date back to the Vedic period. The region was part of se",
+      "excerpt_offset": 0,
+      "total_chars": 57043,
+      "bm25": {
+        "q2": {
+          "rank": 13,
+          "score": 24.8517
+        }
+      },
+      "best_rank": 13,
+      "title_similarity": 0.2222,
+      "context_overlap": 0.0759,
+      "cosine": 0.165768,
+      "rerank_logit": -7.57888,
+      "rerank_position": 1
+    },
+    {
+      "page_id": "31176526",
+      "revision_id": "1341625286",
+      "title": "Shanghai Blues",
+      "url": "https://en.wikipedia.org/wiki/Shanghai_Blues",
+      "excerpt": "hbour is Gwok-man. One day, Aak-syu's teenage maid at the club is molested by a pervert and Aak-syu herself is beaten for helping her and in the farcical chaos, she is bundled on stage and sings in an impromptu number, which attracts a plutocrat's attention. This man wants to marry her, but Aak-syu haughtily refuses him.\n\nDang-zai takes part in a beauty contest to be the city's \"Calendar Queen\" quite by chance, thinking that she is going to be interviewed for the position of kindergarten teacher. Accidentally, she is chosen as the winner by the wealthy old lady who sponsors the contest, because Dang-zai looks plainer than the rest and she does not want her husband to seduce the new \"Calendar Queen\". At the same time, \"Shanghai Blues\", a song composed by Gwok-man, is chosen by a famous singer Zau Siu-sin, and suddenly becomes a smash hit with the Shanghai people. One day it rains very heavily, Gwok-man and Aak-syu share an umbrella, they return to Gwok-man's home together, but are encountered by Dang-zai, who is in love with Gwok-man unrequitedly. Another day, Gwok-man saves Ask-syu when she is annoyed by some ruffians.\n\nGwok-man and Aak-suk later find a job as street performers to ",
+      "excerpt_offset": 1256,
+      "total_chars": 3805,
+      "bm25": {
+        "q1": {
+          "rank": 14,
+          "score": 9.924
+        }
+      },
+      "best_rank": 14,
+      "title_similarity": 0.5455,
+      "context_overlap": 0.0,
+      "cosine": 0.015575,
+      "rerank_logit": -8.236238,
+      "rerank_position": 12
+    },
+    {
+      "page_id": "34577140",
+      "revision_id": "1334106777",
+      "title": "Barauni–Guwahati line",
+      "url": "https://en.wikipedia.org/wiki/Barauni%E2%80%93Guwahati_line",
+      "excerpt": "The Barauni–Guwahati railway line connects Barauni, Saharsa, Purnia and Katihar in the Indian state of Bihar and Bongaigaon, Kamakhya and Guwahati in Assam via Siliguri, Jalpaiguri, Cooch Behar and Alipurduar in West Bengal. It is a linkage of prime importance for Northeastern India with Capital of india.\n\nThe 784 km (487 mi) -long trunk line, been treated in more detail in smaller sections:\n\nBarauni–Katihar section\n\nKatihar–New Jalpaiguri Section\n\nNew Jalpaiguri–New Bongaigaon section\n\nNew Bongaigaon–Guwahati section\n\nThe earliest railway tracks in Assam were laid in the Dibrugarh area in 1882 for the transportation of tea and coal. The first passenger railway was also in that area.\n\nLinking Guwahati was the challenge. In response to the demands of tea planters in Assam for a rail link to Chittagong port, the Assam Bengal Railway started construction of a railway track on the eastern side of Bengal in 1891. A 150 km (93 mi) track between Chittagong and Comilla was opened to traffic in 1895. The Comilla–Akhaura–Kulaura–Badarpur section was opened in 1896–1898 and finally extended to Lumding in 1903. The Assam Bengal Railway constructed a branch line to Guwahati, connecting the city",
+      "excerpt_offset": 0,
+      "total_chars": 4364,
+      "bm25": {
+        "q2": {
+          "rank": 14,
+          "score": 24.8324
+        }
+      },
+      "best_rank": 14,
+      "title_similarity": 0.3333,
+      "context_overlap": 0.0556,
+      "cosine": 0.142133,
+      "rerank_logit": -8.05441,
+      "rerank_position": 9
+    },
+    {
+      "page_id": "23894397",
+      "revision_id": "1341634824",
+      "title": "Marionettes (film)",
+      "url": "https://en.wikipedia.org/wiki/Marionettes_(film)",
+      "excerpt": "he latter immediately recognizes him, but his initial terror is quickly replaced with confidence once he realizes that his position is unassailable. Prince Do's glamorous fiancée, the singer and actress Mi (Valentina Tokarskaya) arrives from abroad and is shocked to find So in the royal apartments, haughtily ordering around Do, who awkwardly tries to preserve his dignity in front of Mi. The cabal schemes to touch off a Boufferian-Soviet war by having a border artillery battery launch an unprovoked surprise attack against the USSR; simultaneously, prince Do finally loses his temper and assaults So for his insolence, chasing him around the palace. At the exact moment the cannon at the border fortress fires, the irate real prince beans the impostor over the head with a heavy volume entitled \" The Philosophy Of Fascism,\" presented to him earlier by an intellectual sycophant.\n\nAt this point, the film transitions to the same tableau being enacted by marionettes, which freeze in position. The master of ceremonies appears again and assures the viewers that all they have seen is just a petty display of absurdity, and the marionettes fall lifeless as the unseen puppeteer above lets go of the",
+      "excerpt_offset": 3093,
+      "total_chars": 4779,
+      "bm25": {
+        "q1": {
+          "rank": 15,
+          "score": 9.9018
+        }
+      },
+      "best_rank": 15,
+      "title_similarity": 0.2105,
+      "context_overlap": 0.0,
+      "cosine": -0.002968,
+      "rerank_logit": -8.476889,
+      "rerank_position": 17
+    },
+    {
+      "page_id": "38701777",
+      "revision_id": "1311329522",
+      "title": "Raiganj railway station",
+      "url": "https://en.wikipedia.org/wiki/Raiganj_railway_station",
+      "excerpt": "Raiganj railway station serves Raiganj city in Uttar Dinajpur district in the Indian state of West Bengal.\n\nKatihar was connected to Parbatipur, now in Bangladesh, in 1889, by Assam Behar State Railway.\n\nWith the partition of India, links with East Pakistan were lost. The Barsoi–Radhikapur sector became a branch line. In the early 1960s, when Farakka Barrage was being constructed, a more radical change was made. Indian Railways created a new broad-gauge rail link from Calcutta.\n\nThe 2,240 m (7,350 ft) -long Farakka Barrage carries a rail-cum-road bridge across the Ganges. The rail bridge was opened in 1971, linking the Barharwa–Azimganj–Katwa loop to Mala Town, New Jalpaiguri and other railway stations in North Bengal.\n\nRaiganj railway station is on the Barsoi–Radhikapur branch line. One express train Radhikapur Express & Kulik Express are available for reaching Kolkata. Delhi Bound Daily link express also available from Raiganj which service is postponed after COVID-19 lockdown. Besides these couple of Katihar bound 3 local passenger trains and a Siliguri-bound DMU passenger and Radhikapur–Telta DMU can also be availed. Present C.M. of West Bengal Mamata Banerjee during her reign ",
+      "excerpt_offset": 0,
+      "total_chars": 2398,
+      "bm25": {
+        "q2": {
+          "rank": 15,
+          "score": 24.7564
+        }
+      },
+      "best_rank": 15,
+      "title_similarity": 0.2667,
+      "context_overlap": 0.0899,
+      "cosine": 0.131495,
+      "rerank_logit": -8.18976,
+      "rerank_position": 11
+    },
+    {
+      "page_id": "64277233",
+      "revision_id": "1341863325",
+      "title": "Marcus Bassaeus Rufus",
+      "url": "https://en.wikipedia.org/wiki/Marcus_Bassaeus_Rufus",
+      "excerpt": "fus had a caller while he was engaged in pruning a vine that grew upon a tree; when Rufus did not climb down at the first summons, the man had rebuked him and said: \"Come now, prefect, get down.\" Dio explains, \"That is, he had used this title in speaking to him as to one who was now bearing himself haughtily but had formerly been of lowly station; and it was precisely this title that Fortune subsequently gave him.\" In the second, Rufus was present when Marcus Aurelius was talking in Latin to someone in Latin, but neither the man addressed nor anyone else nearby, either, understood the emperor; Rufus then exclaimed: \"No wonder, Caesar, that he does not know what you said; for he does not understand Greek either.\" Dio explains that even Rufus was ignorant of what Marcus Aurelius said. Karol Kłodziński notes that not only of \"five praetorian prefects of the Antonines, whose full cursus honorum is known, only Marcius Turbo and Bassaeus Rufus achieved the praetorian prefecture without holding equestrian tres militiae \", and in addition \"both got promotion to ordo equester through the primipilat \".\n\nHis career is recorded in an inscription recovered at Rome, but since its publication has",
+      "excerpt_offset": 458,
+      "total_chars": 4769,
+      "bm25": {
+        "q1": {
+          "rank": 16,
+          "score": 9.7171
+        }
+      },
+      "best_rank": 16,
+      "title_similarity": 0.1481,
+      "context_overlap": 0.0119,
+      "cosine": 0.042327,
+      "rerank_logit": -8.483074,
+      "rerank_position": 19
+    },
+    {
+      "page_id": "483690",
+      "revision_id": "1335767419",
+      "title": "Aurich",
+      "url": "https://en.wikipedia.org/wiki/Aurich",
+      "excerpt": "Aurich (German pronunciation:; East Frisian Low Saxon: Auerk; Saterland Frisian: Aurk) is a town in the East Frisian region of Lower Saxony, Germany. It is the capital of the district of Aurich and is the second largest City in East Frisia, both in population, after Emden, and in area, after Wittmund.\n\nCounty of East Frisia 1464–1744 Kingdom of Prussia 1744–1808 Kingdom of Holland 1808–1810 First French Empire 1810–1813 Kingdom of Prussia 1813–1815 Kingdom of Hanover 1815–1866 Kingdom of Prussia 1866–1871 German Empire 1871–1918 Weimar Republic 1918–1933 Nazi Germany 1933–1945 Allied-occupied Germany 1945–1949 West Germany 1949–1990 Germany 1990–present\n\nThe history of Aurich dates back to the 13th century, when the settlement of Aurechove was mentioned in a Frisian document called the Brokmerbrief in 1276. There are various hypotheses about the interpretation of the city name. It either refers to a person (Affo, East Frisian first name) and his property (Reich) or it refers to waterworks on the fertile, water-rich lowland of the Aa (or Ehe) river, upon which the city was built; medieval realizations were Aurichove, Aurike, Aurikehove, Auerk, Auryke, Auwerckhove, Auwerick, Auwerck,",
+      "excerpt_offset": 0,
+      "total_chars": 3023,
+      "bm25": {
+        "q2": {
+          "rank": 16,
+          "score": 24.3679
+        }
+      },
+      "best_rank": 16,
+      "title_similarity": 0.4,
+      "context_overlap": 0.0548,
+      "cosine": 0.164202,
+      "rerank_logit": -7.868844,
+      "rerank_position": 5
+    }
+  ]
+}

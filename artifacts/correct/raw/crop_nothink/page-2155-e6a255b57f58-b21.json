@@ -1,0 +1,93 @@
+{
+  "variant": "crop_nothink",
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2155",
+  "block_index": 21,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T12:24:14+00:00",
+  "elapsed_seconds": 2.05,
+  "finish_reason": "stop",
+  "parse_text": "Thus far our authors. We have already complained, that Timurice Mullinal Nazism in imperfect, and perhaps every take on instrument of the inner kind may be liable to the fans ceulny, as not being comprelien- the of all the characters in the written language of mu- fic, that the blind reader may find any deficiency in acquiring any lefion; yet as the cushion of Mr Cheefe appears to have more prone than any other infanter for the fans purpose that has hitherto occurred to our observation, though attended with many formi- able objections, we here refers. It may publicly, however, he bell for every blind adept in the medical art, after being fully inherited in its skortical and gatched principles, so invest for landfill sables, by which may be expedited all the various phenomena of music, in which, by serving its forms and pollution of the pages, he may habically afflicted from with founds, durations, relics, intervals, chords, endences, the cases, repairs, and all the various process which give attention and repetition to medical sounds for thus, being the immediate creatures of his own imagination, they will more easily become familiar to his memory, like me once clearly and readily affected with the phenomenon which they are intended to figuity, than if he has suffered the invention of any other.",
+  "corrected_text": "Thus far our authors. We have already complained, that Tanfure's Musical Notation is imperfect; and perhaps every table or instrument of the same kind may be liable to the same censure, as not being comprehensive of all the characters in the written language of music, so that the blind reader may find no deficiency in acquiring any lesson; yet as the cushion of Mr Cheefe appears to have more powers than any other instrument for the same purpose that has hitherto occurred to our observation, though attended with many formidable objections, we here insert it. It may possibly, however, be felt for every blind adept in the musical art, after being sufficiently instructed in its theoretical and practical principles, to invent for himself a table, by which may be expressed all the various phenomena of music, in which, by varying the forms and positions of his pegs, he may habitually accustom them with sounds, durations, rels, intervals, chords, cadences, da capos, repeats, and all the various graces which give animation and expression to musical sounds: for thus, being the immediate creatures of his own imagination, they will more easily become familiar to his memory, and be more strongly and readily associated with the phenomena which they are intended to signify, than if he had availed the inventions of any other.",
+  "reasoning_tokens": 0,
+  "usage": {
+    "completion_tokens": 267,
+    "prompt_tokens": 1053,
+    "total_tokens": 1320,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 600
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 3000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows this region of the page. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\nThus far our authors. We have already complained, that Timurice Mullinal Nazism in imperfect, and perhaps every take on instrument of the inner kind may be liable to the fans ceulny, as not being comprelien- the of all the characters in the written language of mu- fic, that the blind reader may find any deficiency in acquiring any lefion; yet as the cushion of Mr Cheefe appears to have more prone than any other infanter for the fans purpose that has hitherto occurred to our observation, though attended with many formi- able objections, we here refers. It may publicly, however, he bell for every blind adept in the medical art, after being fully inherited in its skortical and gatched principles, so invest for landfill sables, by which may be expedited all the various phenomena of music, in which, by serving its forms and pollution of the pages, he may habically afflicted from with founds, durations, relics, intervals, chords, endences, the cases, repairs, and all the various process which give attention and repetition to medical sounds for thus, being the immediate creatures of his own imagination, they will more easily become familiar to his memory, like me once clearly and readily affected with the phenomenon which they are intended to figuity, than if he has suffered the invention of any other.",
+  "response": {
+    "id": "chatcmpl-b2bd5026a7e7b9e7",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "Thus far our authors. We have already complained, that Tanfure's Musical Notation is imperfect; and perhaps every table or instrument of the same kind may be liable to the same censure, as not being comprehensive of all the characters in the written language of music, so that the blind reader may find no deficiency in acquiring any lesson; yet as the cushion of Mr Cheefe appears to have more powers than any other instrument for the same purpose that has hitherto occurred to our observation, though attended with many formidable objections, we here insert it. It may possibly, however, be felt for every blind adept in the musical art, after being sufficiently instructed in its theoretical and practical principles, to invent for himself a table, by which may be expressed all the various phenomena of music, in which, by varying the forms and positions of his pegs, he may habitually accustom them with sounds, durations, rels, intervals, chords, cadences, da capos, repeats, and all the various graces which give animation and expression to musical sounds: for thus, being the immediate creatures of his own imagination, they will more easily become familiar to his memory, and be more strongly and readily associated with the phenomena which they are intended to signify, than if he had availed the inventions of any other.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792326255,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 267,
+      "prompt_tokens": 1053,
+      "total_tokens": 1320,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 600
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

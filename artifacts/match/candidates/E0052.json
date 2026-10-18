@@ -1,0 +1,431 @@
+{
+  "entry_id": "E0052",
+  "headword": null,
+  "entry_text_sha256": "613b591842218fb62959d77e5002543fd130083430de6053f58f4aa205e609df",
+  "mode": "model",
+  "queries": [
+    "image page text region header leave headers shows rule letters look transcribe"
+  ],
+  "query_chars": 1500,
+  "headword_variant": null,
+  "candidate_count": 19,
+  "list_pages_removed_after_fetch": [],
+  "decision": {
+    "status": "rejected",
+    "method": "nemotron_embed_rerank",
+    "thresholds": {
+      "rerank_logit": -10.0,
+      "margin": 0.5,
+      "cosine": 0.15,
+      "title_similarity": 0.0
+    },
+    "reason": "rerank_logit < -10.0, margin < 0.5, cosine < 0.15, or title_similarity < 0.0",
+    "page_id": "34998941",
+    "title": "Page footer",
+    "rerank_logit": -2.095369,
+    "cosine": 0.08891,
+    "margin_to_next": 0.113022,
+    "title_similarity": 0.0
+  },
+  "candidates": [
+    {
+      "page_id": "664255",
+      "revision_id": "1270831885",
+      "title": "Page header",
+      "url": "https://en.wikipedia.org/wiki/Page_header",
+      "excerpt": "In typography and word processing, a page header (or simply header) is text that is separated from the body text and appears at the top of a printed page. Word-processing programs usually allow for the configuration of page headers, which are typically identical throughout a work except in aspects such as page numbers.\n\nThe counterpart at the bottom of the page is called a page footer (or simply footer); its content is typically similar and often complementary to that of the page header.\n\nIn publishing and certain types of academic writing, a running head, less often called a running header, running headline or running title, is a header that appears on each standard page. Running heads do not usually appear on display pages such as title pages, or on other front or back matter. Running heads in a book typically consist of the title on the left-hand (verso) page, and the chapter title on the right-hand (recto) page; or the chapter title on the verso and subsection title/subhead on the recto, aiding the reader's navigation by showing what content exists within the two-page spread at hand.\n\nA special case of the latter is in dictionaries, whose running heads are called guide words; t",
+      "excerpt_offset": 0,
+      "total_chars": 1521,
+      "bm25": {
+        "q0": {
+          "rank": 1,
+          "score": 43.9886
+        }
+      },
+      "best_rank": 1,
+      "title_similarity": 0.0,
+      "context_overlap": 0.3,
+      "cosine": 0.152913,
+      "rerank_logit": -2.208391,
+      "rerank_position": 2
+    },
+    {
+      "page_id": "1674267",
+      "revision_id": "1306197379",
+      "title": "Content negotiation",
+      "url": "https://en.wikipedia.org/wiki/Content_negotiation",
+      "excerpt": "mechanisms defined as a part of HTTP that make it possible to serve different versions of a document (or more generally, representations of a resource) at the same URI, so that user agents can specify which version fits their capabilities the best. One classical use of this mechanism is to serve an image in GIF or PNG format, so that a browser that cannot display PNG images (e.g. MS Internet Explorer 4) will be served the GIF version.\n\nA resource may be available in several different representations; for example, it might be available in different languages or different media types. One way of selecting the most appropriate choice is to give the user an index page and let them select the most appropriate choice; however it is often possible to automate the choice based on some selection criteria.\n\nHTTP provides for several different content negotiation mechanisms including: server-driven (or proactive), agent-driven (or reactive), transparent, and/or hybrid combinations thereof.\n\nServer-driven or proactive content negotiation is performed by algorithms on the server which choose among the possible variant representations. This is commonly performed based on user agent-provided acce",
+      "excerpt_offset": 44,
+      "total_chars": 4772,
+      "bm25": {
+        "q0": {
+          "rank": 2,
+          "score": 42.5761
+        }
+      },
+      "best_rank": 2,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1184,
+      "cosine": 0.027232,
+      "rerank_logit": -3.07169,
+      "rerank_position": 12
+    },
+    {
+      "page_id": "4531789",
+      "revision_id": "1305280282",
+      "title": "Image Cytometry Standard",
+      "url": "https://en.wikipedia.org/wiki/Image_Cytometry_Standard",
+      "excerpt": "The Image Cytometry Standard (ICS) is a digital multidimensional image file format used in life sciences microscopy. It stores not only the image data, but also the microscopic parameters describing the optics during the acquisition.\n\nICS was first proposed in: P. Dean, L. Mascio, D. Ow, D. Sudar, J. Mullikin, Proposed standard for image cytometry data files, Cytometry, n. 11, pp. 561–569, 1990.\n\nThe original ICS file format actually uses two separate files: a text header file with.ics extension and other, much bigger and with the actual image data, with.ids extension. This allows the compression of the data while leaving the header file accessible. On the other hand, the newer ICS2 file format uses only one single.ics file with both the header and the data together.\n\nThe.ics in the two-file format is a text file with fields separated by tabs, and lines ending with a newline character. In the newer ICS2 format this text header precedes the binary data.\n\nThe ICS format is capable of storing:\n\nmultidimensional and multichannel data\n\nimages in 8, 16, 32 or 64 bit integer, 32 or 64 bit floating point and floating point complex data\n\nall microscopic parameters directly relevant to the i",
+      "excerpt_offset": 0,
+      "total_chars": 1234,
+      "bm25": {
+        "q0": {
+          "rank": 3,
+          "score": 41.5051
+        }
+      },
+      "best_rank": 3,
+      "title_similarity": 0.0,
+      "context_overlap": 0.127,
+      "cosine": 0.064465,
+      "rerank_logit": -3.137951,
+      "rerank_position": 13
+    },
+    {
+      "page_id": "468001",
+      "revision_id": "1341315731",
+      "title": "FASTA format",
+      "url": "https://en.wikipedia.org/wiki/FASTA_format",
+      "excerpt": "In bioinformatics and biochemistry, the FASTA format is a text-based format for representing either nucleotide sequences or amino acid (protein) sequences, in which nucleotides or amino acids are represented using single-letter codes.\n\nThe format allows for sequence names and comments to precede the sequences. It originated from the FASTA software package and has since become a near-universal standard in bioinformatics.\n\nThe simplicity of FASTA format makes it easy to manipulate and parse sequences using text-processing tools and scripting languages.\n\nA sequence begins with a greater-than character (\">\") followed by a description of the sequence (all in a single line). The lines immediately following the description line are the sequence representation, with one letter per amino acid or nucleic acid, and are typically no more than 80 characters in length.\n\nFor example:\n\nThe original FASTA/ Pearson format is described in the documentation for the FASTA suite of programs. It can be downloaded with any free distribution of FASTA (see fasta20.doc, fastaVN.doc, or fastaVN.me—where VN is the Version Number).\n\nIn the original format, a sequence was represented as a series of lines, each o",
+      "excerpt_offset": 0,
+      "total_chars": 7423,
+      "bm25": {
+        "q0": {
+          "rank": 4,
+          "score": 39.4305
+        }
+      },
+      "best_rank": 4,
+      "title_similarity": 0.0,
+      "context_overlap": 0.0986,
+      "cosine": -0.018542,
+      "rerank_logit": -3.159739,
+      "rerank_position": 15
+    },
+    {
+      "page_id": "19045",
+      "revision_id": "1325826209",
+      "title": "MIME",
+      "url": "https://en.wikipedia.org/wiki/MIME",
+      "excerpt": "Multipurpose Internet Mail Extensions (MIME) is a standard that extends the format of email messages to support text in character sets other than ASCII, as well as attachments of audio, video, images, and application programs. Message bodies may consist of multiple parts, and header information may be specified in non-ASCII character sets. Email messages with MIME formatting are typically transmitted with standard protocols, such as the Simple Mail Transfer Protocol (SMTP), the Post Office Protocol (POP), and the Internet Message Access Protocol (IMAP).\n\nMIME is an Internet standard – specified in the following request for comments (RFC) publications: RFC 2045, RFC 2046, RFC 2047, RFC 4288, RFC 4289 and RFC 2049. The integration with SMTP email is specified in RFC 1521 and RFC 1522.\n\nAlthough the MIME formalism was designed mainly for SMTP, its content types are also important in other communication protocols. In the Hypertext Transfer Protocol (HTTP) for the World Wide Web, servers insert a MIME header field at the beginning of any Web transmission. Clients use the content type or media type header to select an appropriate viewer application for the type of data indicated.\n\nMIME o",
+      "excerpt_offset": 0,
+      "total_chars": 17780,
+      "bm25": {
+        "q0": {
+          "rank": 5,
+          "score": 39.1584
+        }
+      },
+      "best_rank": 5,
+      "title_similarity": 0.0,
+      "context_overlap": 0.0519,
+      "cosine": 0.011706,
+      "rerank_logit": -3.010202,
+      "rerank_position": 8
+    },
+    {
+      "page_id": "26543385",
+      "revision_id": "1309326425",
+      "title": "UdiWWW",
+      "url": "https://en.wikipedia.org/wiki/UdiWWW",
+      "excerpt": "ter ceased development, stating \"let Microsoft with the ActiveX Development Kit do the rest.\"\n\nUdiWWW was among the first web browsers to support the then proposed HTML 3.0 standard. In doing so, it was also among the first browsers to support the specifications html math, html figures, and the PNG image format, which other leading browsers at the time such as Netscape and Internet Explorer 2.0 did not. The browser gained some popularity during 1996, but after development was abandoned, the browser fell out of favor.\n\nThe browser is no longer available from its original homepage. However, it (and its source) can still be downloaded from mirror sites.\n\nUdiWWW was created for the UDINE Projekt (Universal Document Information and Navigation Environment). UDINE was started in 1992 and the goal was to \"create a flexible, multimedia information system that is able to show different files (text, picture, audio, and video) with a similar user interface on different systems.\" To be able to read \"web information\" the UDINE project was expanded by a web browser. It was not able to integrate common browsers like the NCSA Mosaic because of the client-server architecture without modification. Th",
+      "excerpt_offset": 250,
+      "total_chars": 2953,
+      "bm25": {
+        "q0": {
+          "rank": 6,
+          "score": 38.5971
+        }
+      },
+      "best_rank": 6,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1235,
+      "cosine": 0.010759,
+      "rerank_logit": -3.056369,
+      "rerank_position": 11
+    },
+    {
+      "page_id": "157923",
+      "revision_id": "1327900782",
+      "title": "Tabula recta",
+      "url": "https://en.wikipedia.org/wiki/Tabula_recta",
+      "excerpt": "r was published by Johannes Trithemius in his book Polygraphia, which is credited with being the first published printed work on cryptology.\n\nTrithemius used the tabula recta to define a polyalphabetic cipher, which was equivalent to Leon Battista Alberti 's cipher disk except that the order of the letters in the target alphabet is not mixed. The tabula recta is often referred to in discussing pre-computer ciphers, including the Vigenère cipher and Blaise de Vigenère 's less well-known autokey cipher. All polyalphabetic ciphers based on the Caesar cipher can be described in terms of the tabula recta.\n\nThe tabula recta uses a letter square with the 26 letters of the alphabet followed by 26 rows of additional letters, each shifted once to the left from the one above it. This, in essence, creates 26 different Caesar ciphers.\n\nThe resulting ciphertext appears as a random string or block of data. Due to the variable shifting, natural letter frequencies are hidden. However, if a codebreaker is aware that this method has been used, it becomes easy to break. The cipher is vulnerable to attack because it lacks a key, thus violating Kerckhoffs's principle of cryptology.\n\nIn 1553, an importan",
+      "excerpt_offset": 297,
+      "total_chars": 4732,
+      "bm25": {
+        "q0": {
+          "rank": 7,
+          "score": 38.5131
+        }
+      },
+      "best_rank": 7,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1125,
+      "cosine": 0.101539,
+      "rerank_logit": -3.020401,
+      "rerank_position": 9
+    },
+    {
+      "page_id": "26808274",
+      "revision_id": "1348261825",
+      "title": "HTML attribute",
+      "url": "https://en.wikipedia.org/wiki/HTML_attribute",
+      "excerpt": "Hypertext markup language attributes are special words used to adjust the behavior or display of an HTML element. An attribute either modifies the default functionality of an element type or provides functionality to certain element types unable to function correctly without them. In HTML syntax, an attribute is added to an HTML start tag.\n\nSeveral basic attributes types have been recognized, including: (1) required attributes needed by a particular element type for that element type to function correctly; (2) optional attributes used to modify the default functionality of an element type; (3) standard attributes supported by many element types; and (4) event attributes used to cause element types to specify scripts to be run under specific circumstances.\n\nDoctype HTML is a declaration that tells the browser what version of HTML the document is written in.\n\nSome attribute types function differently when used to modify different element types. For example, the attribute name is used by several element types, but has slightly different functions in each.\n\nHTML attributes generally appear as name–value pairs, separated by =, and are written within the start tag of an element, after th",
+      "excerpt_offset": 0,
+      "total_chars": 10723,
+      "bm25": {
+        "q0": {
+          "rank": 9,
+          "score": 37.744
+        }
+      },
+      "best_rank": 9,
+      "title_similarity": 0.0,
+      "context_overlap": 0.0476,
+      "cosine": -0.018264,
+      "rerank_logit": -2.938075,
+      "rerank_position": 7
+    },
+    {
+      "page_id": "65063",
+      "revision_id": "1348810751",
+      "title": "Portable Executable",
+      "url": "https://en.wikipedia.org/wiki/Portable_Executable",
+      "excerpt": "Mach-O format found in macOS and iOS.\n\nMicrosoft first introduced the PE format with Windows NT 3.1, replacing the older 16-bit New Executable (NE) format. Soon after, Windows 95, 98, ME, and the Win32s extension for Windows 3.1x, all adopted the PE structure. Each PE file includes a DOS executable header, which generally displays the message \"This program cannot be run in DOS mode\". However, this DOS section can be replaced by a fully functional DOS program, as demonstrated in the Windows 98 SE installer. Developers can add such a program using the /STUB switch with Microsoft's linker, effectively creating a fat binary.\n\nOver time, the PE format has grown with the Windows platform. Notable extensions include the.NET PE format for managed code, PE32+ for 64-bit address space support, and a specialized version for Windows CE.\n\nTo determine whether a PE file is intended for 32-bit or 64-bit architectures, one can examine the Machine field in the IMAGE_FILE_HEADER. Common machine values are 0x014c for 32-bit Intel processors and 0x8664 for x64 processors. Additionally, the Magic field in the IMAGE_OPTIONAL_HEADER reveals whether addresses are 32-bit or 64-bit. A value of 0x10B indicat",
+      "excerpt_offset": 1320,
+      "total_chars": 6845,
+      "bm25": {
+        "q0": {
+          "rank": 10,
+          "score": 37.6846
+        }
+      },
+      "best_rank": 10,
+      "title_similarity": 0.0,
+      "context_overlap": 0.0519,
+      "cosine": -0.030563,
+      "rerank_logit": -3.230089,
+      "rerank_position": 18
+    },
+    {
+      "page_id": "245025",
+      "revision_id": "1312837977",
+      "title": "Proxomitron",
+      "url": "https://en.wikipedia.org/wiki/Proxomitron",
+      "excerpt": "development of the program was ceased in 2003 one year before its author's death on 1 May 2004. Proxomitron is still viable and used on later Windows platforms such as Vista and Windows 10.\n\nThe program is generally used to block pop-ups and banners, to remove embedded sounds and animation from web pages, to alter or block JavaScript, and to modify the appearance and content of web pages.\n\nProperly configured, Proxomitron intercepts HTTP traffic between the user's browser and web servers. The program is capable of altering web page content by removing or adding text. Additionally, it can add, modify, or delete HTTP message headers, be configured to block connections or redirect requests based on the web page address, and be configured to route connections through a remote proxy. The user can monitor connections and filter activations, if desired.\n\nProgram operation is dictated through the use of a configuration file containing specialized filters which can be written, edited, deleted, enabled or disabled by the user via the program's graphical user interface. (Third-party filters can also be imported, or \"merged\", into the configuration.) The filters utilize a \"matching\" language s",
+      "excerpt_offset": 165,
+      "total_chars": 7593,
+      "bm25": {
+        "q0": {
+          "rank": 11,
+          "score": 37.5942
+        }
+      },
+      "best_rank": 11,
+      "title_similarity": 0.0,
+      "context_overlap": 0.0824,
+      "cosine": 0.03263,
+      "rerank_logit": -2.829031,
+      "rerank_position": 5
+    },
+    {
+      "page_id": "34998941",
+      "revision_id": "1270831177",
+      "title": "Page footer",
+      "url": "https://en.wikipedia.org/wiki/Page_footer",
+      "excerpt": "In typography and word processing, the page footer (or simply footer) of a printed page is a section located under the main text, or body. It is typically used as the space for the page number. In the earliest printed books it also contained the first words of the next page; in this case they preferred to place the page number in the page header, in the top margin. Because of the lack of a set standard, in modern times the header and footer are sometimes interchangeable. In some instances, there are elements of the header inserted into the footer, such as the book or chapter title, the name of the author or other information. In the publishing industry the page footer is traditionally known as the running foot, whereas the page header is the running head.\n\nIn desktop publishing applications, the footer identifies the space at the bottom of a page displayed on a computer or other device. Some software automatically inserts certain information in the footer, including the page number and the date and time of creation or editing the document, data which can be removed or changed. If desired, the user can add a logo or company name, the name of the author, title or other useful informa",
+      "excerpt_offset": 0,
+      "total_chars": 1648,
+      "bm25": {
+        "q0": {
+          "rank": 12,
+          "score": 37.4763
+        }
+      },
+      "best_rank": 12,
+      "title_similarity": 0.0,
+      "context_overlap": 0.2179,
+      "cosine": 0.08891,
+      "rerank_logit": -2.095369,
+      "rerank_position": 1
+    },
+    {
+      "page_id": "1411489",
+      "revision_id": "1220388300",
+      "title": "X-Face",
+      "url": "https://en.wikipedia.org/wiki/X-Face",
+      "excerpt": "An X-Face is a small bitmap (48 × 48 pixels, black and white) image which is added to a Usenet posting or e-mail message, typically showing a picture of the author's face. The image data is included in the posting as encoded text, and attached with an 'X-Face' header. It was devised by James Ashton.\n\nIt is one of the outgrowths of the Vismon program developed at Bell Labs in the 1980s. While many programs support X-Face, most of them are free software and based on Unix or its variations, such as KMail or Sylpheed. The most common email programs though, as used in business and most domestic environments, do not handle X-Face natively, and the information is silently ignored. Even where Unix is widely used (university and research environments), it has never been adopted to maximum potential (for example, by searching for senders by X-Face).\n\nA further development is the Face header developed in 2005, which also allows for color images in PNG format, and can be used by the Thunderbird addon Display Contact Photo, as well as some other mail readers.\n\nAnother approach to include the sender's picture in an e-mail was used by Apple: Mail displayed the picture if the mail included the X-I",
+      "excerpt_offset": 0,
+      "total_chars": 1448,
+      "bm25": {
+        "q0": {
+          "rank": 13,
+          "score": 37.2942
+        }
+      },
+      "best_rank": 13,
+      "title_similarity": 0.0,
+      "context_overlap": 0.0741,
+      "cosine": 0.03543,
+      "rerank_logit": -3.138088,
+      "rerank_position": 14
+    },
+    {
+      "page_id": "472401",
+      "revision_id": "1277943236",
+      "title": "Header (computing)",
+      "url": "https://en.wikipedia.org/wiki/Header_(computing)",
+      "excerpt": "In information technology, header is supplemental data placed at the beginning of a block of data being stored or transmitted. In data transmission, the data following the header is sometimes called the payload or body.\n\nIt is vital that header composition follows a clear and unambiguous specification or format, to allow for parsing.\n\nE-mail header: The text (body) is preceded by header lines indicating sender, recipient, subject, sending time stamp, receiving time stamps of all intermediate and the final mail transfer agents, and much more.\n\nSimilar headers are used in Usenet (NNTP) messages, and HTTP headers.\n\nIn a data packet sent via the Internet, the data (payload) are preceded by header information such as the sender's and the recipient's IP addresses, the protocol governing the format of the payload and several other formats. The header's format is specified in the Internet Protocol, see IP header.\n\nIn data packets sent by wireless communication, and in sectors of data stored on magnetic media, typically the header begins with a syncword to allow the receiver to adapt to analog amplitude and speed variations and for frame synchronization.\n\nIn graphics file formats, the heade",
+      "excerpt_offset": 0,
+      "total_chars": 1547,
+      "bm25": {
+        "q0": {
+          "rank": 14,
+          "score": 36.6768
+        }
+      },
+      "best_rank": 14,
+      "title_similarity": 0.0,
+      "context_overlap": 0.0886,
+      "cosine": 0.052081,
+      "rerank_logit": -2.57786,
+      "rerank_position": 3
+    },
+    {
+      "page_id": "3097853",
+      "revision_id": "1351412602",
+      "title": "Data Interchange Format",
+      "url": "https://en.wikipedia.org/wiki/Data_Interchange_Format",
+      "excerpt": "Data Interchange Format (.dif) is a text file format used to import/export single spreadsheets between spreadsheet programs.\n\nApplications that still support the DIF format are Collabora Online, Excel, Gnumeric, and LibreOffice Calc. Historical applications that used to support it until they became end of life or no longer acknowledge support of the format are dBase, FileMaker, Framework, Lotus 1-2-3, Multiplan, OpenOffice.org Calc and StarCalc.\n\nA limitation with DIF format is that it cannot handle multiple spreadsheets in a single workbook. Due to the similarity in abbreviation and in age (both date to the early 1980s), the DIF spreadsheet format it is often confused with Navy DIF; Navy DIF, however, is an unrelated \"document interchange format\" for word processors.\n\nDIF was developed by Software Arts, Inc. (the developers of the VisiCalc program) in the early 1980s. The specification was included in many copies of VisiCalc, and published in Byte Magazine. Bob Frankston developed the format, with input from others, including Mitch Kapor, who helped so that it could work with his VisiPlot program. (Kapor later went on to found Lotus and make Lotus 1-2-3 happen.) The specification ",
+      "excerpt_offset": 0,
+      "total_chars": 3893,
+      "bm25": {
+        "q0": {
+          "rank": 15,
+          "score": 36.4678
+        }
+      },
+      "best_rank": 15,
+      "title_similarity": 0.0,
+      "context_overlap": 0.0366,
+      "cosine": -0.028122,
+      "rerank_logit": -2.908655,
+      "rerank_position": 6
+    },
+    {
+      "page_id": "17345761",
+      "revision_id": "1337175787",
+      "title": "List of image-sharing websites",
+      "url": "https://en.wikipedia.org/wiki/List_of_image-sharing_websites",
+      "excerpt": "This article presents a non-exhaustive list of notable image-sharing websites.\n\nThese also include sites that may still operate, but do not accept new users. Listed in chronological order of shutdown.\n\nLegend:\n\nFile formats: the image or video formats allowed for uploading\n\nIPTC support: support for the IPTC image header\n\nYes - IPTC headers are read upon upload and exposed via the web interface; properties such as captions and keywords are written back to the IPTC header and saved along with the photo when downloading or e-mailing it\n\nSome - IPTC headers are read but information added via the web interface is not saved back to the IPTC header; or, IPTC headers are lost on resizing\n\nTags/keywords: the ability to add to and search by tags or keywords\n\nComments: the ability of users to leave comments on the photo\n\nYes - full control over who can leave comments (friends, registered users, non-registered users)\n\nSome - users must register with the website to leave comments\n\nRating:\n\nYes - star rating: the ability to rate photos numerically, usually on a scale from 1 to 5\n\nSome - thumbs up/down rating, \"mark as favorite\", or a rating system accessible only to logged-in users\n\nDownload or",
+      "excerpt_offset": 0,
+      "total_chars": 1701,
+      "bm25": {
+        "q0": {
+          "rank": 16,
+          "score": 36.3485
+        }
+      },
+      "best_rank": 16,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1299,
+      "cosine": 0.012779,
+      "rerank_logit": -3.445738,
+      "rerank_position": 19
+    },
+    {
+      "page_id": "24746",
+      "revision_id": "1346050816",
+      "title": "PCX",
+      "url": "https://en.wikipedia.org/wiki/PCX",
+      "excerpt": "PCX, standing for PiCture eXchange, is an image file format developed by the now-defunct ZSoft Corporation of Marietta, Georgia, United States. It was the native file format for PC Paintbrush and became one of the first widely accepted DOS imaging standards, although it has since been succeeded by more sophisticated image formats, such as BMP, JPEG, and PNG. PCX files commonly store palette-indexed images ranging from 2 or 4 colors to 16 and 256 colors, although the format has been extended to record true-color (24-bit) images as well.\n\nPCX was designed during the early development of PC display hardware and most of the formats are no longer used. The table below shows a list of the most commonly used PCX formats. Contemporary image editing programs may not read PCX files that match older hardware.\n\nPCX is understood and produced by common image processing software including ACDSee, FastStone, GIMP, ImageMagick, IrfanView, LView, Netpbm, PaintShop Pro, Photoshop, Visio, PMview, XnView and GraphicConverter. In version 2.1.4 FFmpeg could encode and decode the PCX pixel formats rgb24, rgb8, bgr8, rgb4_byte, bgr4_byte, gray, pal8, and monob.\n\nThere is a multi-page version of PCX, used ",
+      "excerpt_offset": 0,
+      "total_chars": 5793,
+      "bm25": {
+        "q0": {
+          "rank": 17,
+          "score": 36.266
+        }
+      },
+      "best_rank": 17,
+      "title_similarity": 0.0,
+      "context_overlap": 0.043,
+      "cosine": 0.020079,
+      "rerank_logit": -3.221731,
+      "rerank_position": 17
+    },
+    {
+      "page_id": "31512849",
+      "revision_id": "1351331155",
+      "title": "Cache manifest in HTML5",
+      "url": "https://en.wikipedia.org/wiki/Cache_manifest_in_HTML5",
+      "excerpt": "The cache manifest in HTML5 is an obsolete web browser feature which provided the ability to access a web application even without a network connection. It became part of the W3C Recommendation on 28 October 2014.\n\nWeb pages could specify static cache manifests listing all resources used by the page. The browser could download every resource in advance and store it for offline use. In practice, the simple and rigid declarative nature of the format worked well only for very simple pages, falling apart for many interactive websites. In response to this demand, Google Chrome 40 introduced Service Worker API which allows websites to create programmable caches aware of the specifics of its main application logic. Shortly after introduction or Service Workers, browsers deprecated cache manifests. Since 2021, cache manifests are no longer widely available. Browser vendors recommend using service workers instead.\n\nCache manifests are distinct from web application manifests, a different technology which aims to improve discoverability of progressive web apps and associated metadata.\n\nCache manifests enabled web pages to statically declare all resources used by the page. The browser could do",
+      "excerpt_offset": 0,
+      "total_chars": 8017,
+      "bm25": {
+        "q0": {
+          "rank": 18,
+          "score": 36.1497
+        }
+      },
+      "best_rank": 18,
+      "title_similarity": 0.0,
+      "context_overlap": 0.0706,
+      "cosine": -0.037816,
+      "rerank_logit": -3.200595,
+      "rerank_position": 16
+    },
+    {
+      "page_id": "352996",
+      "revision_id": "1352192895",
+      "title": "Magic number (programming)",
+      "url": "https://en.wikipedia.org/wiki/Magic_number_(programming)",
+      "excerpt": "the file). Also, a number that is relatively uniquely associated with a particular concept, such as a universally unique identifier, might be classified as a magic number.\n\nA magic number or magic constant is a numeric literal in source code which has a special meaning that is less than clear in context. This is considered an anti-pattern and breaks one of the oldest rules of programming, dating back to the COBOL, FORTRAN and PL/1 manuals of the 1960s.\n\nFor example, in the following code that computes a price after tax, 1.05 is a magic number since the value encodes the sales tax rate, 5%, in a way that is less than obvious.\n\nThe use of magic numbers in code obscures the developers' intent in choosing that number, increases opportunities for subtle errors, and makes it more difficult for the program to be adapted and extended in the future. As an example, it is difficult to tell whether every digit in 3.14159265358979323846 is correctly typed, or if this constant for pi can be truncated to 3.14159 without affecting the functionality of the program with its reduced precision. Replacing all significant magic numbers with named constants (also called explanatory variables) makes progr",
+      "excerpt_offset": 432,
+      "total_chars": 21934,
+      "bm25": {
+        "q0": {
+          "rank": 19,
+          "score": 36.1417
+        }
+      },
+      "best_rank": 19,
+      "title_similarity": 0.0,
+      "context_overlap": 0.0789,
+      "cosine": 0.018532,
+      "rerank_logit": -3.0217,
+      "rerank_position": 10
+    },
+    {
+      "page_id": "18933600",
+      "revision_id": "1349559642",
+      "title": "File format",
+      "url": "https://en.wikipedia.org/wiki/File_format",
+      "excerpt": "it and byte layout as well high-level organization such as markup and tabular structure. A file format may be standardized (which can be proprietary or open) or it can be an ad hoc convention.\n\nSome file formats are designed for very particular types of data: PNG files, for example, store bitmapped images using lossless data compression. Other file formats, however, are designed for storage of several different types of data: the Ogg format can act as a container for different types of multimedia including any combination of audio and video, with or without text (such as subtitles), and metadata. A text file can contain any stream of characters, including possible control characters, and is encoded in one of various character encoding schemes. Some file formats, such as HTML, scalable vector graphics, and the source code of computer software are text files with defined syntaxes that allow them to be used for specific purposes.\n\nSome file formats have a published specification describing the format and possibly how to verify the correctness of data in that format. Such a document is not available for every format (sometimes because the format is considered a trade secret, and someti",
+      "excerpt_offset": 168,
+      "total_chars": 25397,
+      "bm25": {
+        "q0": {
+          "rank": 20,
+          "score": 35.7744
+        }
+      },
+      "best_rank": 20,
+      "title_similarity": 0.0,
+      "context_overlap": 0.037,
+      "cosine": -0.007693,
+      "rerank_logit": -2.624113,
+      "rerank_position": 4
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "variant": "crop_nothink",
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:115",
+  "block_index": 11,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T12:19:50+00:00",
+  "elapsed_seconds": 1.89,
+  "finish_reason": "stop",
+  "parse_text": "252. The oxygenated lawprepare in this way is Dr. Charmen\nvery affection in blending the fluff which are ime\nmeried in), but it is the flame that perfiles an colour\nfoilingcasting so to render its die pipelines and even\nvarious the Northern employed in the project,\nshould any of it ecape. \"I have witened, (days\nreflickly) in an extensive monodology over Paris, the\ncrraft findings experienced by the wetted wounders,\nfrom their fascinating reports; I have denem roll-\ning on the ground in the speech of going. Precut-\nly even fewer elonders are the consequence of the fruit\neffects produced by the oxygenated injury.\" She p.Rolly\nburner gives a long account of the fifattings which Egia\nhe underwent in his course of experiments with this\nacid. It produces frytomor compelled\nthose of a violent cold, but which go off in a day or\nnow after having definite from relief of the liquor.",
+  "corrected_text": "252. The oxygenated liquor prepared in this way is very effectual in bleaching the fluffs which are immersed in it, but it at the same time polishes an odour so foetid as to render its use unpleasant and even injurious to the workmen employed in the process, should any of it escape. \"I have witnessed, (says O'Reilly) in an extensive manufactory near Paris, the cruel sufferings experienced by the wretched workmen, from the fuliginating vapours; I have seen them rolling on the ground in the excess of agony. Frequently even fevere disorders are the consequence of the first effects produced by the oxygenated liquor.\" De Charme gives a long account of the sufferings which he underwent in his course of experiments with this acid. It produces symptoms completely resembling those of a violent cold, but which go off in a day or two after having defiled from the use of the liquor.",
+  "reasoning_tokens": 0,
+  "usage": {
+    "completion_tokens": 200,
+    "prompt_tokens": 822,
+    "total_tokens": 1022,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 427
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 3000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows this region of the page. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\n252. The oxygenated lawprepare in this way is Dr. Charmen\nvery affection in blending the fluff which are ime\nmeried in), but it is the flame that perfiles an colour\nfoilingcasting so to render its die pipelines and even\nvarious the Northern employed in the project,\nshould any of it ecape. \"I have witened, (days\nreflickly) in an extensive monodology over Paris, the\ncrraft findings experienced by the wetted wounders,\nfrom their fascinating reports; I have denem roll-\ning on the ground in the speech of going. Precut-\nly even fewer elonders are the consequence of the fruit\neffects produced by the oxygenated injury.\" She p.Rolly\nburner gives a long account of the fifattings which Egia\nhe underwent in his course of experiments with this\nacid. It produces frytomor compelled\nthose of a violent cold, but which go off in a day or\nnow after having definite from relief of the liquor.",
+  "response": {
+    "id": "chatcmpl-902565dc87e0d0f2",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "252. The oxygenated liquor prepared in this way is very effectual in bleaching the fluffs which are immersed in it, but it at the same time polishes an odour so foetid as to render its use unpleasant and even injurious to the workmen employed in the process, should any of it escape. \"I have witnessed, (says O'Reilly) in an extensive manufactory near Paris, the cruel sufferings experienced by the wretched workmen, from the fuliginating vapours; I have seen them rolling on the ground in the excess of agony. Frequently even fevere disorders are the consequence of the first effects produced by the oxygenated liquor.\" De Charme gives a long account of the sufferings which he underwent in his course of experiments with this acid. It produces symptoms completely resembling those of a violent cold, but which go off in a day or two after having defiled from the use of the liquor.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792325991,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 200,
+      "prompt_tokens": 822,
+      "total_tokens": 1022,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 427
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "variant": "crop_nothink",
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1430",
+  "block_index": 3,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T12:22:36+00:00",
+  "elapsed_seconds": 2.79,
+  "finish_reason": "stop",
+  "parse_text": "After an unknown interval of time from this monarchy existed Sofifris. He on the thrill great war-arian whole conquests are recorded with any other words of difficultés. In what age of the world he lived, is uncertain. Some choralogers, among those is Sir!a Newtown, are still opinion, thus he is the Sefer Shilhak, who took Jerulidam in the origin of Re-holone the fun of Solomon. Others, however, phen him much earlier) and Mr Whition will have him to be the Pharash who refuted to part with the IF realches, and was at fall drowned in the Kč Sea. Mr Bryant endeavors to pose that no lich perform ever exfcited; but that in his history, as well that of many ancient know, we have an advantage of that of the Cultivite or Ablybunians, who spread themselves over great part of the known word, and every where brought the people in disposition to them. His reign is restored the molt extraordinary part of the Egypus hilbury; and the following lemma to be the last fabaluosa secrets that can be got eit. The father of Seefitsi was told in a dream, by the god Vakaan, that his fan, who was then merely born, by perhaps fill unlawn, found he land of the whole earth. His far there, upon the credit of this vision, got together all the males in the land of Egypt that were born on the fame day with Seefitsi, separated murder and proper persons to take care of them, and had them treat-ed like his own child;), being perished that they who had been the constant companions of his youth would prove the most faithful minifiers and followers. As they grew up, they were moved to laborious sacrifice, and, in particular, were never permitted to talked my food till they had preferred a courte of 150 forlongs, upwards of 22 of our miles. When the old king imagined they were sufficiently educated in the martial way he deliged them to follow, they were sent by way",
+  "corrected_text": "After an unknown interval of time from this monarchy existed Sefistris. He was the first great warrior whose conquests are recorded with any degree of difficulties. In what age of the world he lived, is uncertain. Some chronologers, among whom is Sir Isaac Newton, are of opinion, that he is the Sefac or Shishak, who took Jerusalem in the reign of Rehoboam the son of Solomon. Others, however, place him much earlier; and Mr Whiston will have him to be the Pharaoh who refused to part with the Israelites, and was at last drowned in the Red Sea. Mr Bryant endeavours to prove that no such person ever existed; but that in his history, as well as that of many ancient heroes, we have an abridgement of that of the Cushites or Babylonians, who spread themselves over great part of the known world, and every where brought the people in subjection to them. His reign is reckoned the most extraordinary part of the Egyptian history; and the following seems to be the least fabulous account that can be got of it. The father of Sefistris was told in a dream, by the god Vulcan, that his son, who was then newly born, or perhaps still unborn, should be lord of the whole earth. His father, upon the credit of this vision, got together all the males in the land of Egypt that were born on the same day with Sefistris; appointed nurses and proper persons to take care of them, and had them treated like his own child; being persuaded that they who had been the constant companions of his youth would prove the most faithful ministers and soldiers. As they grew up, they were inured to laborious exercises; and, in particular, were never permitted to take any food till they had performed a course of 180 furlongs, upwards of 22 of our miles. When the old king imagined they were sufficiently educated in the martial way he designed them to follow, they were sent by way",
+  "reasoning_tokens": 0,
+  "usage": {
+    "completion_tokens": 422,
+    "prompt_tokens": 1494,
+    "total_tokens": 1916,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 876
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 3000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows this region of the page. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\nAfter an unknown interval of time from this monarchy existed Sofifris. He on the thrill great war-arian whole conquests are recorded with any other words of difficultés. In what age of the world he lived, is uncertain. Some choralogers, among those is Sir!a Newtown, are still opinion, thus he is the Sefer Shilhak, who took Jerulidam in the origin of Re-holone the fun of Solomon. Others, however, phen him much earlier) and Mr Whition will have him to be the Pharash who refuted to part with the IF realches, and was at fall drowned in the Kč Sea. Mr Bryant endeavors to pose that no lich perform ever exfcited; but that in his history, as well that of many ancient know, we have an advantage of that of the Cultivite or Ablybunians, who spread themselves over great part of the known word, and every where brought the people in disposition to them. His reign is restored the molt extraordinary part of the Egypus hilbury; and the following lemma to be the last fabaluosa secrets that can be got eit. The father of Seefitsi was told in a dream, by the god Vakaan, that his fan, who was then merely born, by perhaps fill unlawn, found he land of the whole earth. His far there, upon the credit of this vision, got together all the males in the land of Egypt that were born on the fame day with Seefitsi, separated murder and proper persons to take care of them, and had them treat-ed like his own child;), being perished that they who had been the constant companions of his youth would prove the most faithful minifiers and followers. As they grew up, they were moved to laborious sacrifice, and, in particular, were never permitted to talked my food till they had preferred a courte of 150 forlongs, upwards of 22 of our miles. When the old king imagined they were sufficiently educated in the martial way he deliged them to follow, they were sent by way",
+  "response": {
+    "id": "chatcmpl-ad310ad053606b9a",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "After an unknown interval of time from this monarchy existed Sefistris. He was the first great warrior whose conquests are recorded with any degree of difficulties. In what age of the world he lived, is uncertain. Some chronologers, among whom is Sir Isaac Newton, are of opinion, that he is the Sefac or Shishak, who took Jerusalem in the reign of Rehoboam the son of Solomon. Others, however, place him much earlier; and Mr Whiston will have him to be the Pharaoh who refused to part with the Israelites, and was at last drowned in the Red Sea. Mr Bryant endeavours to prove that no such person ever existed; but that in his history, as well as that of many ancient heroes, we have an abridgement of that of the Cushites or Babylonians, who spread themselves over great part of the known world, and every where brought the people in subjection to them. His reign is reckoned the most extraordinary part of the Egyptian history; and the following seems to be the least fabulous account that can be got of it. The father of Sefistris was told in a dream, by the god Vulcan, that his son, who was then newly born, or perhaps still unborn, should be lord of the whole earth. His father, upon the credit of this vision, got together all the males in the land of Egypt that were born on the same day with Sefistris; appointed nurses and proper persons to take care of them, and had them treated like his own child; being persuaded that they who had been the constant companions of his youth would prove the most faithful ministers and soldiers. As they grew up, they were inured to laborious exercises; and, in particular, were never permitted to take any food till they had performed a course of 180 furlongs, upwards of 22 of our miles. When the old king imagined they were sufficiently educated in the martial way he designed them to follow, they were sent by way",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792326157,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 422,
+      "prompt_tokens": 1494,
+      "total_tokens": 1916,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 876
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

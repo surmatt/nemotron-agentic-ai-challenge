@@ -1,0 +1,93 @@
+{
+  "variant": "crop_nothink",
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1214",
+  "block_index": 6,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T12:21:59+00:00",
+  "elapsed_seconds": 2.21,
+  "finish_reason": "stop",
+  "parse_text": "A much more important consideration than the formation of damps, however, is the proper method of avoiding their practical effects. The inflammation lies at one kind develops on eye methods of preventing it from accumulating, viz., by letting fire to it. This may be done with flying under it has been offered to get too far before the very moment is made: I’m the insan- hammable air, being much lighter than any other kind will naturally fit to the day so that a man, ly- ing flat on the ground to avoid the force of the ex- plofion, and holding up a lighted candle fixed upon a pole, you at once fee the mine from fetch a trouble- home goodt. But where it has been allowed to ac- cumulise in too great quantity, fo that this method causes be ufeid, or in the other kind, which is not in- flannable, the method commonly justified is to pro- duce a confluent circulation of air as much as possible through all parts of the mine. To procure this they make a perpendicular opening, which they call _haunk_ or _flaqls_, to that the mine may have two or more openings; and thus by realtion of the difference of em- perature between the open atmosphere and that in the mine, there is a constant danger of air through them both. This current will always be fronger in proportion to the difference between the external at- mendapre and that of the mine; and likewise in pro- portion to the difference between the depth of the two thafts. But as the temperature of the atmosphere is variable, it happens, at certain feafons of the year, that there is not a sufficient difference between that",
+  "corrected_text": "A much more important consideration than the formation of damps, however, is the proper method of avoiding their pernicious effects. The inflammability of one kind affords an easy method of preventing it from accumulating, viz. by letting fire to it. This may be done with safety, unless it has been suffered to go too far before the experiment is made: for the inflammable air, being much lighter than any other kind, will naturally rise to the top; so that a man, lying flat on the ground to avoid the force of the explosion, and holding up a lighted candle fixed upon a pole, may at once free the mine from such a troublesome guest. But where it has been allowed to accumulate in too great quantity, so that this method cannot be used, or in the other kind, which is not inflammable, the method commonly practised is to produce a continual circulation of air as much as possible through all parts of the mine. To procure this, they make a perpendicular opening, which they call a flank or flight, so that the mine may have two or more openings; and thus by reason of the difference of temperature between the open atmosphere and that in the mine, there is a continual draught of air through them both. This current will always be stronger in proportion to the difference between the external atmosphere and that of the mine; and likewise in proportion to the difference between the depth of the two shafts. But as the temperature of the atmosphere is variable, it happens, at certain seasons of the year, that there is not a sufficient difference between that",
+  "reasoning_tokens": 0,
+  "usage": {
+    "completion_tokens": 320,
+    "prompt_tokens": 1280,
+    "total_tokens": 1600,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 746
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 3000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows this region of the page. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\nA much more important consideration than the formation of damps, however, is the proper method of avoiding their practical effects. The inflammation lies at one kind develops on eye methods of preventing it from accumulating, viz., by letting fire to it. This may be done with flying under it has been offered to get too far before the very moment is made: I’m the insan- hammable air, being much lighter than any other kind will naturally fit to the day so that a man, ly- ing flat on the ground to avoid the force of the ex- plofion, and holding up a lighted candle fixed upon a pole, you at once fee the mine from fetch a trouble- home goodt. But where it has been allowed to ac- cumulise in too great quantity, fo that this method causes be ufeid, or in the other kind, which is not in- flannable, the method commonly justified is to pro- duce a confluent circulation of air as much as possible through all parts of the mine. To procure this they make a perpendicular opening, which they call _haunk_ or _flaqls_, to that the mine may have two or more openings; and thus by realtion of the difference of em- perature between the open atmosphere and that in the mine, there is a constant danger of air through them both. This current will always be fronger in proportion to the difference between the external at- mendapre and that of the mine; and likewise in pro- portion to the difference between the depth of the two thafts. But as the temperature of the atmosphere is variable, it happens, at certain feafons of the year, that there is not a sufficient difference between that",
+  "response": {
+    "id": "chatcmpl-9c2c32974af0fe5b",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "A much more important consideration than the formation of damps, however, is the proper method of avoiding their pernicious effects. The inflammability of one kind affords an easy method of preventing it from accumulating, viz. by letting fire to it. This may be done with safety, unless it has been suffered to go too far before the experiment is made: for the inflammable air, being much lighter than any other kind, will naturally rise to the top; so that a man, lying flat on the ground to avoid the force of the explosion, and holding up a lighted candle fixed upon a pole, may at once free the mine from such a troublesome guest. But where it has been allowed to accumulate in too great quantity, so that this method cannot be used, or in the other kind, which is not inflammable, the method commonly practised is to produce a continual circulation of air as much as possible through all parts of the mine. To procure this, they make a perpendicular opening, which they call a flank or flight, so that the mine may have two or more openings; and thus by reason of the difference of temperature between the open atmosphere and that in the mine, there is a continual draught of air through them both. This current will always be stronger in proportion to the difference between the external atmosphere and that of the mine; and likewise in proportion to the difference between the depth of the two shafts. But as the temperature of the atmosphere is variable, it happens, at certain seasons of the year, that there is not a sufficient difference between that",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792326120,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 320,
+      "prompt_tokens": 1280,
+      "total_tokens": 1600,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 746
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

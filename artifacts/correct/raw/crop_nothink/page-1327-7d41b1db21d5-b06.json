@@ -1,0 +1,93 @@
+{
+  "variant": "crop_nothink",
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1327",
+  "block_index": 6,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T12:22:20+00:00",
+  "elapsed_seconds": 2.53,
+  "finish_reason": "stop",
+  "parse_text": "HUET (Peter Daniel), a very learned French wri-\nter, born at Caen in Normandy, on the 8th of Re-\nburry 1659. He discovered, from his infantry a\ngreat inclination in the duty of palies literature and\nthe fencences, and at first applied himself to the law;\nbut De Carteri principles and Boehart served goes\ngraphy made him change his duties for thalo of phi-\nhophyly, mathematics, the languages, and antiqui-\nries. His timismo is Boeharachism him delicious\nof knowing him. He contened a very fact friend-\nhip with him, and consomata that fared men to\nSweder. Here Chihlen would have engaged him\nher teries; but the, feasible of her incumbent temper,\nreturned to France. All be brought with him was a\ncopy of a MSI, of Oregon, which he sacrificed at\nStockholm. He refuelle federal offers from Chitlina\nafter the billions and went to Rome, and from Ga-\ntivers as far freeders. In 1670, the defining age\npointed by the king perception to the daughn, his\nmajor, chief of the Hustic for his collegary with our\ntitle of _this practice_ on the prices. It was he dust\nformed the plan of the commemoration _in often Dul._\n_pliant_, and directed the execution. His intentions of\npiety determined him to enter into holy orders, which\nhe did at the war we 44.6. Soon after this, he was per-\nfetted by the long, no has abby of January and in\n168s was nominated to the hillopric of Sollions, which\nhe exchange for the free of Armouth. After go-\nverning their director ten years, his religious, and any\nmade about of Pontesny near Caen. His love to his\nmassive place determined him to the there. But that\nfinis coming upon him, he retired to Paris, and lodged\namong the Jefuits in the _Maifon Profiffe_, whom he",
+  "corrected_text": "HUET (Peter Daniel), a very learned French writer, born at Caen in Normandy, on the 8th of February 1630. He discovered, from his infancy, a great inclination to the study of polite literature and the sciences, and at first applied himself to the law; but Des Cartes's principles, and Bochart's sacred geography, made him change his studies for those of philosophy, mathematics, the languages, and antiquities. His admiration for Bochart made him desirous of knowing him. He contracted a very strict friendship with him, and accompanied that learned man to Sweden. Here Christina would have engaged him in her service; but he, sensible of her inconstant temper, returned to France. All he brought with him was a copy of a MS. of Origen, which he transcribed at Stockholm. He refused several offers from Christina after she abdicated and went to Rome, and from Gustavus her successor. In 1670, Mr. Boileau being appointed by the king preceptor to the dauphin, his majesty chose Mr. Huet for his colleague, with the title of sub-preceptor to the prince. It was he that formed the plan of the commentaries in usum Delphini, and directed the execution. His sentiments of piety determined him to enter into holy orders, which he did at the age of 46. Soon after this, he was preferred by the king to the abbey of Aunay; and in 1685 was nominated to the bishopric of Soissons, which he exchanged for the see of Avranches. After governing that diocese ten years, he resigned, and was made abbot of Fontenay near Caen. His love to his native place determined him to fix there. But lawsuits coming upon him, he retired to Paris, and lodged among the Jesuits in the Maison Professe, whom he",
+  "reasoning_tokens": 0,
+  "usage": {
+    "completion_tokens": 396,
+    "prompt_tokens": 1419,
+    "total_tokens": 1815,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 784
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 3000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows this region of the page. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\nHUET (Peter Daniel), a very learned French wri-\nter, born at Caen in Normandy, on the 8th of Re-\nburry 1659. He discovered, from his infantry a\ngreat inclination in the duty of palies literature and\nthe fencences, and at first applied himself to the law;\nbut De Carteri principles and Boehart served goes\ngraphy made him change his duties for thalo of phi-\nhophyly, mathematics, the languages, and antiqui-\nries. His timismo is Boeharachism him delicious\nof knowing him. He contened a very fact friend-\nhip with him, and consomata that fared men to\nSweder. Here Chihlen would have engaged him\nher teries; but the, feasible of her incumbent temper,\nreturned to France. All be brought with him was a\ncopy of a MSI, of Oregon, which he sacrificed at\nStockholm. He refuelle federal offers from Chitlina\nafter the billions and went to Rome, and from Ga-\ntivers as far freeders. In 1670, the defining age\npointed by the king perception to the daughn, his\nmajor, chief of the Hustic for his collegary with our\ntitle of _this practice_ on the prices. It was he dust\nformed the plan of the commemoration _in often Dul._\n_pliant_, and directed the execution. His intentions of\npiety determined him to enter into holy orders, which\nhe did at the war we 44.6. Soon after this, he was per-\nfetted by the long, no has abby of January and in\n168s was nominated to the hillopric of Sollions, which\nhe exchange for the free of Armouth. After go-\nverning their director ten years, his religious, and any\nmade about of Pontesny near Caen. His love to his\nmassive place determined him to the there. But that\nfinis coming upon him, he retired to Paris, and lodged\namong the Jefuits in the _Maifon Profiffe_, whom he",
+  "response": {
+    "id": "chatcmpl-8c0565d2a0206310",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "HUET (Peter Daniel), a very learned French writer, born at Caen in Normandy, on the 8th of February 1630. He discovered, from his infancy, a great inclination to the study of polite literature and the sciences, and at first applied himself to the law; but Des Cartes's principles, and Bochart's sacred geography, made him change his studies for those of philosophy, mathematics, the languages, and antiquities. His admiration for Bochart made him desirous of knowing him. He contracted a very strict friendship with him, and accompanied that learned man to Sweden. Here Christina would have engaged him in her service; but he, sensible of her inconstant temper, returned to France. All he brought with him was a copy of a MS. of Origen, which he transcribed at Stockholm. He refused several offers from Christina after she abdicated and went to Rome, and from Gustavus her successor. In 1670, Mr. Boileau being appointed by the king preceptor to the dauphin, his majesty chose Mr. Huet for his colleague, with the title of sub-preceptor to the prince. It was he that formed the plan of the commentaries in usum Delphini, and directed the execution. His sentiments of piety determined him to enter into holy orders, which he did at the age of 46. Soon after this, he was preferred by the king to the abbey of Aunay; and in 1685 was nominated to the bishopric of Soissons, which he exchanged for the see of Avranches. After governing that diocese ten years, he resigned, and was made abbot of Fontenay near Caen. His love to his native place determined him to fix there. But lawsuits coming upon him, he retired to Paris, and lodged among the Jesuits in the Maison Professe, whom he",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792326141,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 396,
+      "prompt_tokens": 1419,
+      "total_tokens": 1815,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 784
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

@@ -1,0 +1,452 @@
+{
+  "entry_id": "E0006",
+  "headword": null,
+  "entry_text_sha256": "2fcc37f9585a52f17bb90f2872f2e7b29d2e302c799256383d61101c3aef42b5",
+  "mode": "model",
+  "queries": [
+    "author mountain crater dreadful cone volcano manner found several ashes traveller terror"
+  ],
+  "query_chars": 1500,
+  "headword_variant": null,
+  "candidate_count": 20,
+  "list_pages_removed_after_fetch": [],
+  "decision": {
+    "status": "rejected",
+    "method": "nemotron_embed_rerank",
+    "thresholds": {
+      "rerank_logit": -10.0,
+      "margin": 0.5,
+      "cosine": 0.15,
+      "title_similarity": 0.0
+    },
+    "reason": "rerank_logit < -10.0, margin < 0.5, cosine < 0.15, or title_similarity < 0.0",
+    "page_id": "465235",
+    "title": "Mount Mazama",
+    "rerank_logit": -5.950979,
+    "cosine": 0.127411,
+    "margin_to_next": 0.020296,
+    "title_similarity": 0.0
+  },
+  "candidates": [
+    {
+      "page_id": "73287647",
+      "revision_id": "1352673091",
+      "title": "Ol Doinyo Lengai",
+      "url": "https://en.wikipedia.org/wiki/Ol_Doinyo_Lengai",
+      "excerpt": "Ol Doinyo Lengai is an active volcano in northern Tanzania. It consists of a volcanic cone with two craters, the northern of which has erupted during historical time. Uniquely for volcanoes on Earth, it has erupted natrocarbonatite, an unusually low temperature and highly fluid type of magma. Eruptions in 2007–2008 affected the surrounding region.\n\nThe Maasai and Sonjo people refer to the volcano as \"The Mountain of God\", associated with a myth of the abode of the god Engai, who withdrew there after being hit by a hunter with an arrow. Other names are Basanjo, Donjo Ngai, Duenjo Ngai, Mongogogura, Mungogo wa Bogwe, and Oldonyo L'Engai.\n\nOl Doinyo Lengai lies in the Arusha region of Tanzania, 16 kilometres (9.9 mi) south of Lake Natron and 120 kilometres (75 mi) northwest of the city of Arusha. The summit was first explored between 1904 and 1915. As of 2012, about 300,000 people live in the region, and livestock farming is the most important economic activity, although tourism is increasingly important.\n\nOl Doinyo Lengai is a symmetric cone that rises more than 1,800 metres (5,900 ft) above the surrounding rift valley. It has two craters on either side of the mountain summit, which ",
+      "excerpt_offset": 0,
+      "total_chars": 10538,
+      "bm25": {
+        "q0": {
+          "rank": 1,
+          "score": 46.8303
+        }
+      },
+      "best_rank": 1,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1447,
+      "cosine": 0.235994,
+      "rerank_logit": -6.266807,
+      "rerank_position": 12
+    },
+    {
+      "page_id": "5515807",
+      "revision_id": "1134173502",
+      "title": "Mount Quincan",
+      "url": "https://en.wikipedia.org/wiki/Mount_Quincan",
+      "excerpt": "Mount Quincan is a volcanic mountain near Yungaburra on the Atherton Tableland in Far North Queensland, Australia.\n\nThe extinct volcano is one of many cinder cones in the Atherton Tableland region. Its crater is approximately 500 m across, with the main cone being to the northwest. Several of the nearby Seven Sisters cinder cones also have their craters to the southeast, which is possibly due to the ash and scoria being blown to the northwest by the prevailing SE winds. Swamp deposits within the crater were dated at 7250 years old, making that the minimum age for Mt Quincan. The scoria deposits also contain abundant mantle xenoliths of peridotite.\n\nQuincan, a type of Scoria, is mined from the south west quadrant of the mountain. Quincan is used in road construction, driveways, weed control and domestic gardening.",
+      "excerpt_offset": 0,
+      "total_chars": 824,
+      "bm25": {
+        "q0": {
+          "rank": 2,
+          "score": 45.9989
+        }
+      },
+      "best_rank": 2,
+      "title_similarity": 0.0,
+      "context_overlap": 0.2097,
+      "cosine": 0.156281,
+      "rerank_logit": -6.158338,
+      "rerank_position": 8
+    },
+    {
+      "page_id": "493636",
+      "revision_id": "1352939822",
+      "title": "Volcán de Colima",
+      "url": "https://en.wikipedia.org/wiki/Volc%C3%A1n_de_Colima",
+      "excerpt": " Colima, 4,260 m (13,980 ft), also known as Volcán de Fuego, is part of the Colima Volcanic Complex (CVC) consisting of Volcán de Colima, Nevado de Colima (Spanish pronunciation:) and the eroded El Cántaro (listed as extinct). It is the youngest of the three and as of 2015 is one of the most active volcanoes in Mexico and in North America. Having been active for nearly 5 million years, and with frequent eruptions, the Volcán de Colima is considered a stratovolcano. \"Volcán de Fuego is an active stratovolcano, the most explosive and dangerous of all of Mexico\" (Colima). It has erupted more than 40 times since 1576. One of the largest eruptions was on January 20–24, 1913. Nevado de Colima, also known as Tzapotépetl, lies 5 kilometres (3.1 mi) north of its more active neighbor and is the taller of the two at 4,271 meters (14,012 feet). It is the 25th-most prominent peak in North America.\n\nDespite its name, only a fraction of the volcano's surface area is in the state of Colima; the majority of its surface area lies over the border in the neighboring state of Jalisco, toward the western end of the Trans-Mexican Volcanic Belt. It is about 485 km (301 mi) west of Mexico City and 125 km (",
+      "excerpt_offset": 13,
+      "total_chars": 4298,
+      "bm25": {
+        "q0": {
+          "rank": 3,
+          "score": 45.7324
+        }
+      },
+      "best_rank": 3,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1406,
+      "cosine": 0.140377,
+      "rerank_logit": -6.106049,
+      "rerank_position": 6
+    },
+    {
+      "page_id": "467487",
+      "revision_id": "1328740011",
+      "title": "Belknap Crater",
+      "url": "https://en.wikipedia.org/wiki/Belknap_Crater",
+      "excerpt": "Belknap Crater is a shield volcano in the Cascade Range in the U.S. state of Oregon. Located in Linn County, it is associated with lava fields and numerous subfeatures including the Little Belknap and South Belknap volcanic cones. It lies north of McKenzie Pass and forms part of the Mount Washington Wilderness. Belknap is not forested and most of its lava flows are not vegetated, though there is some wildlife in the area around the volcano, as well as a number of tree molds formed by its eruptive activity.\n\nBelknap was named for J. H. Belknap, whose father R. S. Belknap developed Belknap Springs. Early routes through the area extended near Belknap and its lava fields, and in the early 20th century, herds of sheep were moved to the two steptoes that lie among the Little Belknap lava flows to graze. The Oregon Skyline Trail, which runs to the west of Belknap's lava flows, follows paths used by Native American populations, who harvested huckleberries in the area. Today, there are a number of trails that run near Belknap, including ones that extend to Little Belknap and Belknap Crater. Belknap can be seen by tourists at the Dee Wright Observatory, which was built in-part with lava bloc",
+      "excerpt_offset": 0,
+      "total_chars": 29987,
+      "bm25": {
+        "q0": {
+          "rank": 4,
+          "score": 45.1681
+        }
+      },
+      "best_rank": 4,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1905,
+      "cosine": 0.105958,
+      "rerank_logit": -6.313465,
+      "rerank_position": 13
+    },
+    {
+      "page_id": "465235",
+      "revision_id": "1349948369",
+      "title": "Mount Mazama",
+      "url": "https://en.wikipedia.org/wiki/Mount_Mazama",
+      "excerpt": "Mount Mazama (Klamath: Tum-sum-ne) is a complex volcano in the western U.S. state of Oregon, in a segment of the Cascade Volcanic Arc and Cascade Range. The volcano is in Klamath County, in the southern Cascades, 60 miles (97 km) north of the Oregon– California border. Its collapse, due to the eruption of magma emptying the underlying magma chamber, formed a caldera that holds Crater Lake (Giiwas in the Klamath language). Mount Mazama originally had an elevation of approximately 12,000 feet (3,700 m), but following its climactic eruption this was reduced to 8,157 feet (2,486 m). Crater Lake is 1,943 feet (592 m) deep, the deepest freshwater body in the United States and the second deepest in North America after Great Slave Lake in Canada.\n\nMount Mazama formed as a group of overlapping volcanic edifices such as shield volcanoes and small composite cones, becoming active intermittently until its climactic eruption 7,700 years ago. This eruption, the largest known within the Cascade Volcanic Arc in a million years, destroyed Mazama's summit, reducing its approximate 12,000-foot (3,700 m) height by about 1 mile (1,600 m). Much of the edifice fell into the volcano's partially emptied ne",
+      "excerpt_offset": 0,
+      "total_chars": 52444,
+      "bm25": {
+        "q0": {
+          "rank": 5,
+          "score": 45.0983
+        }
+      },
+      "best_rank": 5,
+      "title_similarity": 0.0,
+      "context_overlap": 0.175,
+      "cosine": 0.127411,
+      "rerank_logit": -5.950979,
+      "rerank_position": 1
+    },
+    {
+      "page_id": "11701232",
+      "revision_id": "1292397075",
+      "title": "Pasochoa",
+      "url": "https://en.wikipedia.org/wiki/Pasochoa",
+      "excerpt": "Pasochoa (4,200 metres) is an extinct volcano located in the Guayllabamba river basin in the Ecuadorian Andes. The current mountain form is a collapsed crater with a semicircular shape. This structure emerged approximately 100 thousand years ago due to an eruption which destroyed the crater and occidental slope of the previous volcanic cone.\n\nLava and ash increased the fertility of the ground in the Pasochoa region, encouraging the growth of a vibrant forest ecosystem. Despite the fertile soil, difficult accessibility and an uneven surface made the area inappropriate for extensive agriculture. The Pasochoa Wildlife Refuge, established in 1996, contains one of the few remaining original Andean forests. Fundacion Natura used to manage the Pasochoa and offer programs on the natural resource conservation and environmental education and sponsors scientific research. Recently, the mountain's management has passed to the hands of the Ministerio del Ambiente. The mountain has a wonderful variety of wildlife, including pumas, foxes, skunks, a very diverse collection of birds, and a wonderful collection of plants.\n\nToday the volcano is well known as a travel destination.",
+      "excerpt_offset": 0,
+      "total_chars": 1179,
+      "bm25": {
+        "q0": {
+          "rank": 6,
+          "score": 44.7769
+        }
+      },
+      "best_rank": 6,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1122,
+      "cosine": 0.167599,
+      "rerank_logit": -6.165951,
+      "rerank_position": 9
+    },
+    {
+      "page_id": "6507996",
+      "revision_id": "1313494723",
+      "title": "Kambalny",
+      "url": "https://en.wikipedia.org/wiki/Kambalny",
+      "excerpt": "Kambalny (Russian: Камбальный) is a stratovolcano located in the southern part of the Kamchatka Peninsula, Russia. It is the southernmost active volcano of Kamchatka. It has erupted mafic rocks. It has a summit crater as well as five cinder cones on its flanks which are the source of lava flows.\n\nThe volcano probably formed during the early Holocene and aside from the summit crater also features an explosion crater on the southwestern side of the summit. Three large collapses of the edifice occurred around 6300 BP; between the first two volcanic activity restored the cone, while the third occurred on the ridge on which Kambalny was constructed. The longest of these landslides travelled 20 kilometres (12 mi). The total volume of these landslides, 5–10 cubic kilometres (1.2–2.4 cu mi), is the largest of all Holocene landslides, but it was buried at Kambalny proper by later volcanic activity. The collapse scar in the ridge is still visible and was the site of later landslides when Kambalny volcano was active.\n\nKambalny is part of a group of volcanoes from the late Pleistocene and the Holocene that surround the Kurile Lake caldera. Other volcanoes in that group are Diky Greben, Ilyinsk",
+      "excerpt_offset": 0,
+      "total_chars": 3737,
+      "bm25": {
+        "q0": {
+          "rank": 7,
+          "score": 44.5356
+        }
+      },
+      "best_rank": 7,
+      "title_similarity": 0.0,
+      "context_overlap": 0.137,
+      "cosine": 0.102888,
+      "rerank_logit": -6.363071,
+      "rerank_position": 16
+    },
+    {
+      "page_id": "876326",
+      "revision_id": "1348002783",
+      "title": "Mount Tongariro",
+      "url": "https://en.wikipedia.org/wiki/Mount_Tongariro",
+      "excerpt": "Mount Tongariro (/ ˈ t ɒ ŋ ɡ ə r ɪr oʊ /; Māori:) is a compound volcano in the Taupō Volcanic Zone of the North Island of New Zealand. It is located 20 km (12 mi) to the southwest of Lake Taupō, and is the northernmost of the three active volcanoes that dominate the landscape of the central North Island.\n\nMount Tongariro is part of the Tongariro volcanic centre, which consists of four massifs made of andesite: Tongariro, Kakaramea-Tihia Massif, Pihanga,and Ruapehu at the southern end of the North Island Volcanic Plateau. The andesitic eruptions formed Tongariro, a steep stratovolcano, reaching a height of 1,978 m (6,490 ft). Tongariro is composed of layers of both lava and tephra and the eruptions that built the current stratovolcano commenced about 275,000 years ago.\n\nTongariro consists of at least 12 cones. Ngauruhoe, while often regarded as a separate mountain, is geologically a cone of Tongariro. It is also the most active vent, having erupted more than 70 times since 1839, the last episode in 1973 to 1975.\n\nActivity has also been recorded at other vents in recent history. Te Māri Craters erupted in 2012, for the first time since 1897. Red Crater last erupted ash in 1926 and co",
+      "excerpt_offset": 0,
+      "total_chars": 8025,
+      "bm25": {
+        "q0": {
+          "rank": 8,
+          "score": 44.0866
+        }
+      },
+      "best_rank": 8,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1867,
+      "cosine": 0.189279,
+      "rerank_logit": -6.1748,
+      "rerank_position": 10
+    },
+    {
+      "page_id": "58296777",
+      "revision_id": "1343769984",
+      "title": "Ubehebe Craters",
+      "url": "https://en.wikipedia.org/wiki/Ubehebe_Craters",
+      "excerpt": "The Ubehebe Craters are a volcanic field in the northern Death Valley of California, consisting of 14–16 craters in a 3-square-kilometre (1.2 sq mi) area. The largest of the craters is the 800 metres (2,600 ft) wide and 235 metres (771 ft) deep Ubehebe Crater. Many of the craters, though, are partially buried and thus hardly recognizable. Other volcanic features there include a remnant of a scoria cone and a tuff cone.\n\nThe Ubehebe Craters are associated with a fault system that runs across them. The region has been affected by volcanism for the last 10 million years. The volcanic field is in the Death Valley National Park and is accessible to tourists. The fault system is within the tectonically active Basin and Range Province physiographic region.\n\nVarious estimates have been put forward for the age of the craters. Recent research has shown that the Ubehebe Craters all formed in a single phreatomagmatic eruption episode about 2,100 years ago, making it one of the most recent volcanic events in southern California. The risk of renewed volcanic activity is low.\n\n\"Ubehebe\" is pronounced as YOU-bee-HEE-bee and its etymology is unclear; it may mean \"woman's breast\" (hïbí-bici) in Owen",
+      "excerpt_offset": 0,
+      "total_chars": 11187,
+      "bm25": {
+        "q0": {
+          "rank": 9,
+          "score": 44.0804
+        }
+      },
+      "best_rank": 9,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1266,
+      "cosine": 0.102634,
+      "rerank_logit": -6.12704,
+      "rerank_position": 7
+    },
+    {
+      "page_id": "20897",
+      "revision_id": "1348760102",
+      "title": "Mount Baker",
+      "url": "https://en.wikipedia.org/wiki/Mount_Baker",
+      "excerpt": "Mount Baker, also known as Koma Kulshan or simply Kulshan, is a 10,781-foot (3,286 m) active glacier -covered andesitic stratovolcano in the Cascade Volcanic Arc and the North Cascades of Washington State in the United States. Mount Baker has the second-most thermally active crater in the Cascade Range after Mount St. Helens. About 30 miles (48 km) due east of the city of Bellingham, Whatcom County, Mount Baker is the youngest volcano in the Mount Baker volcanic field. While volcanism has persisted here for some 1.5 million years, the current volcanic cone is likely no more than 140,000 years old, and possibly no older than 80–90,000 years. Older volcanic edifices have mostly eroded away due to glaciation.\n\nAfter Mount Rainier, Mount Baker has the heaviest glacier cover of the Cascade Range volcanoes; the volume of snow and ice on Mount Baker, 0.43 cu mi (1.79 km 3) is greater than that of all the other Cascades volcanoes (except Rainier) combined. It is also one of the snowiest places in the world; in 1999, Mount Baker Ski Area, located 9 mi (14.5 km) to the northeast, set the world record for recorded snowfall in a single season— 1,140 in (29 m; 95 ft).\n\nMount Baker is the third-",
+      "excerpt_offset": 0,
+      "total_chars": 20002,
+      "bm25": {
+        "q0": {
+          "rank": 10,
+          "score": 44.0209
+        }
+      },
+      "best_rank": 10,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1351,
+      "cosine": 0.115055,
+      "rerank_logit": -6.321697,
+      "rerank_position": 14
+    },
+    {
+      "page_id": "399766",
+      "revision_id": "1334126469",
+      "title": "Mount Thielsen",
+      "url": "https://en.wikipedia.org/wiki/Mount_Thielsen",
+      "excerpt": "Mount Thielsen (Klamath: hisc’akwaleeʔas), is an extinct shield volcano in the Oregon High Cascades, near Mount Bailey. Because eruptive activity ceased 250,000 years ago, glaciers have heavily eroded the volcano's structure, creating precipitous slopes and a horn-like peak. The spire-like shape of Thielsen attracts lightning strikes and creates fulgurite, an unusual mineral. The prominent horn forms a centerpiece for the Mount Thielsen Wilderness, a reserve for recreational activities such as skiing and hiking. Thielsen is one of Oregon's Matterhorns.\n\nThielsen was produced by subduction of the Juan de Fuca Plate under the North American Plate. Volcanism near the Cascades dates back to 55 million years ago (mya), and extends from British Columbia to California. Thielsen is part of the High Cascades, a branch of the main Cascades range that includes several Oregon volcanoes less than 3.5 million years old; it is also a member of a group of extinct volcanoes distinguished by their sharp peaks.\n\nThe area surrounding the volcano was originally inhabited by Klamath Native Americans, and was later encountered by settlers. One of the visitors was Jon Hurlburt, an early explorer of the ar",
+      "excerpt_offset": 0,
+      "total_chars": 11030,
+      "bm25": {
+        "q0": {
+          "rank": 11,
+          "score": 43.8693
+        }
+      },
+      "best_rank": 11,
+      "title_similarity": 0.0,
+      "context_overlap": 0.0889,
+      "cosine": 0.149019,
+      "rerank_logit": -6.08254,
+      "rerank_position": 5
+    },
+    {
+      "page_id": "5134988",
+      "revision_id": "1331346410",
+      "title": "Danan (volcano)",
+      "url": "https://en.wikipedia.org/wiki/Danan_(volcano)",
+      "excerpt": "Danan (uncertain derivation) was one of the three volcanic cones (the others being Perboewatan and Rakata) on the island of Krakatoa, in the Sunda Strait, in Indonesia. It stood 450 metres (1,480 ft), lay in the central area of the island, and may have been a twin volcano. Danan was almost entirely destroyed in the 1883 eruption of Krakatoa; only a rocky islet named Bootsmansrots remains of it.\n\nNot much information can be found about Danan; the interior of Krakatoa was little explored or surveyed. There were several peaks, and Verbeek surmised that it formed a \"ring-shaped crater wall\". In one of the photographs of Perboewatan erupting in May 1883, Danan's irregular shape can be seen in the background, partially obscured by the ash cloud arising from Perboewatan.\n\nDanan apparently joined Perboewatan in eruption sometime after May 1680, when Perboewatan started erupting. A returning Dutch traveler saw both cones erupting in February 1681. Perboewatan started erupting in May 1883. In June, a black cloud hung over the islands for five days, and when it lifted on 24 June, an ash column could be seen issuing apparently from an area between Perboewatan and Danan. By the time Captain Fer",
+      "excerpt_offset": 0,
+      "total_chars": 2191,
+      "bm25": {
+        "q0": {
+          "rank": 12,
+          "score": 43.654
+        }
+      },
+      "best_rank": 12,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1842,
+      "cosine": 0.174599,
+      "rerank_logit": -5.971275,
+      "rerank_position": 2
+    },
+    {
+      "page_id": "1330100",
+      "revision_id": "1342026603",
+      "title": "Mount Shishaldin",
+      "url": "https://en.wikipedia.org/wiki/Mount_Shishaldin",
+      "excerpt": "Shishaldin Volcano, or Mount Shishaldin (/ ʃ ɪ ˈ ʃ æ l d ən /), is one of six active volcanoes on Unimak Island in the eastern Aleutian Islands of Alaska. It is the highest mountain peak of the Aleutian Islands, rising to a height of 9,373 ft (2,857 m) above sea level. Shishaldin's magma supply is generated via flux melting above the Aleutian Trench, where the Pacific Plate subducts beneath the North American Plate. Due to its remote location and frequently inclement weather, the Alaska Volcano Observatory (AVO) monitors the volcano remotely via satellite and a seismic network deployed in 1997. Shishaldin is one of the most active volcanoes in the Aleutian Islands, with 40 confirmed eruptions in the last 11,700 years. Notably, Shishaldin produced a sub-Plinian (VEI 3) eruption in 1999.\n\nThe Aleuts named the volcano Sisquk or Sisagux, meaning \"mountain which points the way when I am lost.\" The spelling Shishaldin comes from the Russian version, Шишалдина, of the Aleut name.\n\nShishaldin is located on Unimak Island, the easternmost of the Aleutian Islands. The nearest settlement to the volcano is False Pass (population ~100) at 45 km away. The view of Shishaldin from False Pass is obs",
+      "excerpt_offset": 0,
+      "total_chars": 9229,
+      "bm25": {
+        "q0": {
+          "rank": 13,
+          "score": 43.5878
+        }
+      },
+      "best_rank": 13,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1625,
+      "cosine": 0.067017,
+      "rerank_logit": -6.499293,
+      "rerank_position": 20
+    },
+    {
+      "page_id": "75701649",
+      "revision_id": "1348398279",
+      "title": "Mount Okmok",
+      "url": "https://en.wikipedia.org/wiki/Mount_Okmok",
+      "excerpt": "Mount Okmok is a volcano on eastern Umnak Island, in the central-eastern Aleutian Islands of Alaska. Part of the Aleutian Volcanic Arc, it was formed by the subduction of the oceanic Pacific Plate under the North American Plate. Okmok is a large shield volcano capped by a 10-kilometer (6.2 mi) wide caldera. The caldera contains numerous cinder cones, their lava flows, and a few lakes. Okmok erupts mainly basaltic lava, mostly from the cones within the caldera.\n\nActivity began in the Pleistocene. Two large caldera-forming eruptions took place during the Holocene, with a volcanic explosivity index (VEI) of 6; the second of these occurred in 43 BCE and caused a volcanic winter that might have changed the history of Egypt. After this second caldera-forming eruption a crater lake formed in the caldera, and drained in one of the largest known floods of the Holocene. Okmok is one of the most active volcanoes of North America; numerous eruptions have produced lava flows within the caldera, and the 1817 eruption destroyed an Aleut village.\n\nThe last eruption was in 2008 and produced several new vents in the caldera. This eruption, which occurred with little forewarning, yielded a volcanic c",
+      "excerpt_offset": 0,
+      "total_chars": 28607,
+      "bm25": {
+        "q0": {
+          "rank": 14,
+          "score": 43.534
+        }
+      },
+      "best_rank": 14,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1842,
+      "cosine": 0.077576,
+      "rerank_logit": -6.486154,
+      "rerank_position": 19
+    },
+    {
+      "page_id": "1765459",
+      "revision_id": "1320238667",
+      "title": "Cerro Azul (Chile volcano)",
+      "url": "https://en.wikipedia.org/wiki/Cerro_Azul_(Chile_volcano)",
+      "excerpt": "Cerro Azul (Spanish pronunciation:, blue hill in Spanish), sometimes referred to as Quizapu, is an active stratovolcano in the Maule Region of central Chile, immediately south of Descabezado Grande. Part of the South Volcanic Zone of the Andes, its summit is 3,788 meters (12,428 ft) above sea level, and is capped by a summit crater that is 500 meters (1,600 ft) wide and opens to the north. Beneath the summit, the volcano features numerous scoria cones and flank vents.\n\nCerro Azul is responsible for several of South America's largest recorded eruptions, in 1846 and 1932. In 1846, an effusive eruption formed the vent at the site of present-day Quizapu crater on the northern flank of Cerro Azul and sent lava flowing down the sides of the volcano, creating a lava field 8–9 square kilometres (3–3.5 square miles) in area. Phreatic and Strombolian volcanism between 1907 and 1932 excavated this crater. In 1932, one of the largest explosive eruptions of the 20th century occurred at Quizapu Crater and sent 9.5 cubic kilometers (2.3 cu mi) of ash into the atmosphere. The volcano's most recent eruption was in 1967.\n\nThe South Volcanic Zone has a long history of eruptions and poses a threat to ",
+      "excerpt_offset": 0,
+      "total_chars": 16373,
+      "bm25": {
+        "q0": {
+          "rank": 15,
+          "score": 43.3532
+        }
+      },
+      "best_rank": 15,
+      "title_similarity": 0.0,
+      "context_overlap": 0.175,
+      "cosine": 0.147104,
+      "rerank_logit": -6.212038,
+      "rerank_position": 11
+    },
+    {
+      "page_id": "322343",
+      "revision_id": "1352696140",
+      "title": "Mono–Inyo Craters",
+      "url": "https://en.wikipedia.org/wiki/Mono%E2%80%93Inyo_Craters",
+      "excerpt": "The Mono–Inyo Craters are a volcanic chain of craters, domes and lava flows in Mono County, Eastern California, United States. The chain stretches 25 miles (40 km) from the northwest shore of Mono Lake to the south of Mammoth Mountain. The Mono Lake Volcanic Field forms the northernmost part of the chain and consists of two volcanic islands in the lake and one cinder cone volcano on its northwest shore. Most of the Mono Craters, which make up the bulk of the northern part of the Mono–Inyo chain, are phreatic (steam explosion) volcanoes that have since been either plugged or over-topped by rhyolite domes and lava flows. The Inyo volcanic chain form much of the southern part of the chain and consist of phreatic explosion pits, and rhyolitic lava flows and domes. The southernmost part of the chain consists of fumaroles and explosion pits on Mammoth Mountain and a set of cinder cones south of the mountain; the latter are called the Red Cones.\n\nEruptions along the narrow fissure system under the chain began in the west moat of Long Valley Caldera 400,000 to 60,000 years ago. Mammoth Mountain was formed during this period. Multiple eruptions from 40,000 to 600 years ago created the Mono ",
+      "excerpt_offset": 0,
+      "total_chars": 24636,
+      "bm25": {
+        "q0": {
+          "rank": 16,
+          "score": 43.2881
+        }
+      },
+      "best_rank": 16,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1912,
+      "cosine": 0.078164,
+      "rerank_logit": -6.341877,
+      "rerank_position": 15
+    },
+    {
+      "page_id": "1169882",
+      "revision_id": "1305024481",
+      "title": "Pisgah Crater",
+      "url": "https://en.wikipedia.org/wiki/Pisgah_Crater",
+      "excerpt": "Pisgah Crater, or Pisgah Volcano, is a young volcanic cinder cone rising above a lava plain in the Mojave Desert, between Barstow and Needles, California in San Bernardino County, California. The volcanic peak is around 2.5 miles (4.0 km) south of historic U.S. Route 66 - National Old Trails Highway and of Interstate 40, and west of the town of Ludlow. The volcano had a historic elevation of 2,638 feet (804 m), but has been reduced to 2,545 feet (776 m) due to mining.\n\nThe volcano was the site of the Mount Pisgah Volcanic Cinders Mine, a cinder quarry that produced pumice for commercial use, the primary end product being railroad ballast for the Santa Fe Railroad. The mountain is currently owned by Can-Cal Resources Limited, a Canadian company specializing in exploration of precious minerals in California.\n\nMining has had a severe environmental impact; the top of the mountain has been removed and the sides of this historically symmetrical mountain have been scoured into an irregular shape. The mountain is still occasionally quarried for various cinder products, and sand from the mountain was used to depict the black sands of Iwo Jima in the film Letters from Iwo Jima.\n\nCurrently, t",
+      "excerpt_offset": 0,
+      "total_chars": 4749,
+      "bm25": {
+        "q0": {
+          "rank": 17,
+          "score": 43.1173
+        }
+      },
+      "best_rank": 17,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1685,
+      "cosine": 0.145767,
+      "rerank_logit": -6.029961,
+      "rerank_position": 3
+    },
+    {
+      "page_id": "28865457",
+      "revision_id": "1218687495",
+      "title": "Waitomokia",
+      "url": "https://en.wikipedia.org/wiki/Waitomokia",
+      "excerpt": "Waitomokia (also Moerangi, Gabriel Hill or Mount Gabriel) is a volcano in the Auckland volcanic field. Waitomokia's 600 m (2,000 ft) wide tuff crater contained three small scoria cones up to 20 m (66 ft) high, one with a crater, which were quarried in the 1950s.\n\nThe volcano erupted an estimated 20,300 years ago, based on volcanic ash samples found at Pūkaki Lagoon. The volcano consisted of an elliptical explosion crater, with three small cones surrounded by a 15-25 metre tuff ring. The cones, each approximately 30 metres in height, were produced by explosive eruptions from three vents in the centre of the crater. The two eastern cones were conical, while the south-western peak was a spatter cone with an 18-metre deep crater. After the initial eruptions, the crater formed a freshwater swamp.\n\nThe crater lake and swamp were given the name Waitomokia (\"Water Seeping into the Ground\") by Tāmaki Māori, while three cones were called Moerangi. The volcano, alongside Māngere Lagoon, Crater Hill, Kohuora, Pukaki Lagoon and Robertson Hill, is one of the volcanic features collectively referred to as Nga Tapuwae a Mataoho (\"The Sacred Footprints of Mataoho \"), referring to the deity who was i",
+      "excerpt_offset": 0,
+      "total_chars": 2083,
+      "bm25": {
+        "q0": {
+          "rank": 18,
+          "score": 43.0668
+        }
+      },
+      "best_rank": 18,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1818,
+      "cosine": 0.174526,
+      "rerank_logit": -6.464176,
+      "rerank_position": 18
+    },
+    {
+      "page_id": "9100027",
+      "revision_id": "1322356212",
+      "title": "Panum Crater",
+      "url": "https://en.wikipedia.org/wiki/Panum_Crater",
+      "excerpt": "Panum Crater is a volcanic cone that is part of the Mono–Inyo Craters, a chain of recent volcanic cones south of Mono Lake and east of the Sierra Nevada, in California, United States. Panum Crater is between 600 and 700 years old, and it exhibits all of the characteristics of the textbook rhyolitic lava dome.\n\nRhyolitic volcanoes are characterized by having large amounts of silica (quartz) in their lava. The content of silica at Panum is about 76 percent. It makes the lava very viscous, or thick, and very glassy. Products of this rhyolitic eruption are pumice and obsidian, the volcanic glass that Native Americans used to make arrow points and scrapers.\n\nPanum Crater formed in a sequence of events. The first event was caused by magma rising from deep within the Earth's crust. When this extremely hot, liquid rock made contact with water just below the surface, the water expanded into steam and a large, violent eruption occurred. The material that was thrown into the air by the steam, mainly old lake bottom sediments, was deposited around the new vent in little mounds. So much debris was blown out that a gaping crater was left behind.\n\nOnce this debris was blown out, a fountain of cin",
+      "excerpt_offset": 0,
+      "total_chars": 3520,
+      "bm25": {
+        "q0": {
+          "rank": 19,
+          "score": 43.0082
+        }
+      },
+      "best_rank": 19,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1848,
+      "cosine": 0.189295,
+      "rerank_logit": -6.451249,
+      "rerank_position": 17
+    },
+    {
+      "page_id": "63567",
+      "revision_id": "1349235018",
+      "title": "Mount Ruapehu",
+      "url": "https://en.wikipedia.org/wiki/Mount_Ruapehu",
+      "excerpt": "Mount Ruapehu (Māori:; English / ˈ r uː ə ˌ p eɪ h uː /) is an active stratovolcano at the southern end of the Taupō Volcanic Zone and North Island volcanic plateau in New Zealand. It is 23 km (14 mi) northeast of Ohakune and 23 km (14 mi) southwest of the southern shore of Lake Taupō, within Tongariro National Park. The North Island 's major ski resorts and only glaciers are on its slopes.\n\nRuapehu, the largest active volcano in New Zealand, has the highest point in the North Island and has three major peaks: Tahurangi (2,797 m), Te Heuheu (2,755 m) and Paretetaitonga (2,751 m). The deep, active crater is between the peaks and fills with water between major eruptions, being known as Crater Lake (Māori: Te Wai ā-moe). The name Ruapehu means \"pit of noise\" or \"exploding pit\" in Māori.\n\nRuapehu is located in the centre of the North Island of New Zealand, 23 km (14 mi) northeast of Ohakune, New Zealand, and 23 km (14 mi) southwest of the southern shore of Lake Taupō, within Tongariro National Park. Ruapehu is the largest and southernmost volcano in the national park, with an estimated volume of 110 km 3. The volcano is surrounded by a ring plain of volcanic material, made from lahar d",
+      "excerpt_offset": 0,
+      "total_chars": 28296,
+      "bm25": {
+        "q0": {
+          "rank": 20,
+          "score": 42.9531
+        }
+      },
+      "best_rank": 20,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1311,
+      "cosine": 0.163456,
+      "rerank_logit": -6.057079,
+      "rerank_position": 4
+    }
+  ]
+}

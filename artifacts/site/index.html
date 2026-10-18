@@ -1,0 +1,18 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Britannica and Wikipedia</title><link rel="stylesheet" href="style.css"></head><body><nav><a href="index.html">Overview</a><a href="scans.html">Scans</a><a href="entries.html">Entries</a><a href="agent.html">Agent runs</a></nav><h1>Britannica and Wikipedia</h1>
+<p>This site compares 100 historical Encyclopaedia Britannica scans with Wikipedia. Brown sections show
+Britannica source text, blue sections show Wikipedia source text, and grey sections show generated analysis.</p>
+<h2>Coverage</h2><table>
+<tr><td>Scans</td><td>100 (98 parsed; 2 Parse failures; status {&#x27;ok&#x27;: 89, &#x27;plate&#x27;: 5, &#x27;blank_or_sparse&#x27;: 4})</td></tr>
+<tr><td>Entries</td><td>241 (159 with a headword, 82 continuations,
+2 joined across pages)</td></tr>
+<tr><td>Match</td><td>mode model: 201 searched, 86 accepted,
+115 rejected, 48 skipped, 0 errors. retrieval models verified</td></tr>
+<tr><td>Compare</td><td>86 pairs; mean top-terms Jaccard 0.0609;
+mean frequency cosine 0.2365; unverified Britannica tokens 0.0753</td></tr>
+<tr><td>LaTeX</td><td>98 of 98 documents compiled (Tectonic 0.17.0)</td></tr>
+<tr><td>Agent</td><td>45 saved runs</td></tr></table>
+<h2>Vocabulary across matched pairs</h2>
+<p><img src="plots/distinctive-britannica.svg" alt="Terms more frequent in Britannica" style="max-width:100%"></p>
+<p><img src="plots/distinctive-wikipedia.svg" alt="Terms more frequent in Wikipedia" style="max-width:100%"></p>
+<p class="muted">Matches with method "provisional_lexical" come from headword and title rules without the
+Nemotron embedder and reranker. They need the model check.</p><p class="muted">Britannica scans: National Library of Scotland, CC0 1.0. Wikipedia text: Wikipedia contributors, CC BY-SA 4.0, revision links on each page. Generated 2026-10-18T13:26:14+00:00.</p></body></html>

@@ -1,0 +1,93 @@
+{
+  "variant": "crop_nothink",
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1805",
+  "block_index": 20,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T12:23:22+00:00",
+  "elapsed_seconds": 0.8,
+  "finish_reason": "stop",
+  "parse_text": "Exercile increase the circulation of the blood, attte-mates and divides the fluids, and promotes a regular prefieren, as well as due therefore of all the ha-mures y for it accelerates the animal fruits, and facilitates their distribution into all the flavor of the body, therefore the parts, creates an appetite, and helps de-gellion. Where is states, the thief who asculom thanking to exercise are generally very robust, and fell-dom subject to diabetes.",
+  "corrected_text": "Exercise increases the circulation of the blood, attenuates and divides the fluids, and promotes a regular perspiration, as well as a due secretion of all the humours; for it accelerates the animal spirits, and facilitates their distribution into all the fibres of the body, strengthens the parts, creates an appetite, and helps digestion. Whence it arises, that those who accustom themselves to exercise are generally very robust, and seldom subject to diseases.",
+  "reasoning_tokens": 0,
+  "usage": {
+    "completion_tokens": 92,
+    "prompt_tokens": 553,
+    "total_tokens": 645,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 277
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 3000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows this region of the page. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\nExercile increase the circulation of the blood, attte-mates and divides the fluids, and promotes a regular prefieren, as well as due therefore of all the ha-mures y for it accelerates the animal fruits, and facilitates their distribution into all the flavor of the body, therefore the parts, creates an appetite, and helps de-gellion. Where is states, the thief who asculom thanking to exercise are generally very robust, and fell-dom subject to diabetes.",
+  "response": {
+    "id": "chatcmpl-9dc5975f96a1da4c",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "Exercise increases the circulation of the blood, attenuates and divides the fluids, and promotes a regular perspiration, as well as a due secretion of all the humours; for it accelerates the animal spirits, and facilitates their distribution into all the fibres of the body, strengthens the parts, creates an appetite, and helps digestion. Whence it arises, that those who accustom themselves to exercise are generally very robust, and seldom subject to diseases.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792326202,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 92,
+      "prompt_tokens": 553,
+      "total_tokens": 645,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 277
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

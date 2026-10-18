@@ -1,0 +1,93 @@
+{
+  "variant": "crop_nothink",
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2446",
+  "block_index": 8,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T12:24:46+00:00",
+  "elapsed_seconds": 1.79,
+  "finish_reason": "stop",
+  "parse_text": "We mention just now, that the acid of the alum quirs its balls, in order to form a fulphur by combining with the phoglition of the coal. This little we know to be an earth outside of being converted into lime, and that it is actually converted into quick-line by the calcination receifty to produce the phofhorus. We know that new made line, faith the property of writing with water to readily, that it thereby contradicts a very great degree of heat. Now when this phofhorus, which is partly continued of the basis of the alarm contained into quick-lines, is stopped to the salt, the time infanulty athetis the moilture of which the air is always full, and by this means, probably, grows to hot as to fire the fulphur which it is mixed. Perhaps also the acid of the alum is not totally changed into fulphur. Some parts thereof may be, only half-disfangged from its lands, and in that condition be capable of attracting flowingly the humidity of the air, of growing very hot likemically by up- bibing the moilture, and fo of contributing to the accen- fon of the phofhorus.",
+  "corrected_text": "We mentioned just now, that the acid of the alum quits its balls, in order to form a sulphur by combining with the phlogiston of the coal. This basis we know to be an earth capable of being converted into lime; and that it is actually converted into quick-lime by the calcination necessary to produce the phosphorus. We know that new made lime hath the property of uniting with water so readily, that it thereby contracts a very great degree of heat. Now when this phosphorus, which is partly constituted of the basis of the alum converted into quick-lime, is exposed to the air, the lime instantly attracts the moisture of which the air is always full, and by this means, probably, grows so hot as to fire the sulphur with which it is mixed. Perhaps also the acid of the alum is not totally changed into sulphur: some parts thereof may be only half-disengaged from its basis, and in that condition be capable of attracting strongly the humidity of the air, of growing very hot likewise by imbibing the moisture, and so of contributing to the accession of the phosphorus.",
+  "reasoning_tokens": 0,
+  "usage": {
+    "completion_tokens": 228,
+    "prompt_tokens": 1033,
+    "total_tokens": 1261,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 600
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 3000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows this region of the page. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\nWe mention just now, that the acid of the alum quirs its balls, in order to form a fulphur by combining with the phoglition of the coal. This little we know to be an earth outside of being converted into lime, and that it is actually converted into quick-line by the calcination receifty to produce the phofhorus. We know that new made line, faith the property of writing with water to readily, that it thereby contradicts a very great degree of heat. Now when this phofhorus, which is partly continued of the basis of the alarm contained into quick-lines, is stopped to the salt, the time infanulty athetis the moilture of which the air is always full, and by this means, probably, grows to hot as to fire the fulphur which it is mixed. Perhaps also the acid of the alum is not totally changed into fulphur. Some parts thereof may be, only half-disfangged from its lands, and in that condition be capable of attracting flowingly the humidity of the air, of growing very hot likemically by up- bibing the moilture, and fo of contributing to the accen- fon of the phofhorus.",
+  "response": {
+    "id": "chatcmpl-b6e1fa2ebc6fd568",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "We mentioned just now, that the acid of the alum quits its balls, in order to form a sulphur by combining with the phlogiston of the coal. This basis we know to be an earth capable of being converted into lime; and that it is actually converted into quick-lime by the calcination necessary to produce the phosphorus. We know that new made lime hath the property of uniting with water so readily, that it thereby contracts a very great degree of heat. Now when this phosphorus, which is partly constituted of the basis of the alum converted into quick-lime, is exposed to the air, the lime instantly attracts the moisture of which the air is always full, and by this means, probably, grows so hot as to fire the sulphur with which it is mixed. Perhaps also the acid of the alum is not totally changed into sulphur: some parts thereof may be only half-disengaged from its basis, and in that condition be capable of attracting strongly the humidity of the air, of growing very hot likewise by imbibing the moisture, and so of contributing to the accession of the phosphorus.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792326287,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 228,
+      "prompt_tokens": 1033,
+      "total_tokens": 1261,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 600
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

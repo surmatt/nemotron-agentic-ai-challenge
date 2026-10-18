@@ -13,15 +13,15 @@ data/cache/
 data/raw/
 data/hermes/
 data/*.lancedb/
-reports/
-runs/
+/reports/
+/runs/
 .venv-model-contract/
-site/
+/site/
 .DS_Store
 .secrets/
 *.key
 *.pem
 
-# Stage outputs: raw model replies, cached articles, site build
-artifacts/
+# Scratch stage outputs from test runs. artifacts/ is tracked for the submission.
 artifacts-*/
+artifacts/.claude/

@@ -1,0 +1,93 @@
+{
+  "variant": "crop_nothink",
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:513",
+  "block_index": 6,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T12:20:53+00:00",
+  "elapsed_seconds": 1.86,
+  "finish_reason": "stop",
+  "parse_text": "pofed to thofe enormous exactions which had been formerly required. He remitted the wardship of mi- nors and allowed guardians to be appointed, who should be adwarefully, the truth. He promised not to difpole of any heirrels in marriage but by advice of all the barons; and if any banin intended to give his daughter, silver, minor, or kidnomas, in marriage, it should only be necefitary for him to confuls the king, who promised to take on money for his content, nor ever to seife primiffion, unlike the person to whom it was propounded to marry her fhoould happen to be his enemy. He granted his barons and military tenants the power of begotating by will their money over per- fanal elates; and if they neglected to make a will, he promised that their hero態 forced to them. He renounced the right of imposing monogerage, and of le- ying races at yielding, on the farm which the barons kept in their own hands. He made fome general pro- fiums of modernizing lines, I offered a portion for all offices; and remitted all delux due to the crown. He alfo required, that the vafial of the barons should enjoy the farm privileges which he granted his own horses and he promised a general confirmation and observance of the _lavsy of_ king _Edward_ . To give \"See Enda greater authenticity to the classifications, a copy of the Syllem, charter are logged in form ababy of each country.",
+  "corrected_text": "pofed to thofe enormous exactions which had been formerly required. He remitted the wardship of minors; and allowed guardians to be appointed, who should be answerable for the truth. He promised not to dispose of any heiress in marriage but by advice of all the barons; and if any baron intended to give his daughter, sister, niece, or kinswoman, in marriage, it should only be necessary for him to consult the king, who promised to take no money for his consent, nor ever to refuse permission, unless the person to whom it was proposed to marry her should happen to be his enemy. He granted his barons and military tenants the power of bequeathing by will their money or personal estates; and if they neglected to make a will, he promised that their heirs should succeed to them. He renounced the right of imposing moneyage, and of levying taxes at pleasure, on the farms which the barons kept in their own hands. He made some general professions of moderating fines; he offered a pardon for all offences; and remitted all debts due to the crown. He also required, that the vassals of the barons should enjoy the same privileges which he granted to his own barons; and he promised a general confirmation and observance of the laws of king Edward. To give greater authenticity to these concessions, a copy of the Syllem, charter was lodged in some abbey of each county.",
+  "reasoning_tokens": 0,
+  "usage": {
+    "completion_tokens": 301,
+    "prompt_tokens": 1294,
+    "total_tokens": 1595,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 786
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 3000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows this region of the page. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\npofed to thofe enormous exactions which had been formerly required. He remitted the wardship of mi- nors and allowed guardians to be appointed, who should be adwarefully, the truth. He promised not to difpole of any heirrels in marriage but by advice of all the barons; and if any banin intended to give his daughter, silver, minor, or kidnomas, in marriage, it should only be necefitary for him to confuls the king, who promised to take on money for his content, nor ever to seife primiffion, unlike the person to whom it was propounded to marry her fhoould happen to be his enemy. He granted his barons and military tenants the power of begotating by will their money over per- fanal elates; and if they neglected to make a will, he promised that their hero態 forced to them. He renounced the right of imposing monogerage, and of le- ying races at yielding, on the farm which the barons kept in their own hands. He made fome general pro- fiums of modernizing lines, I offered a portion for all offices; and remitted all delux due to the crown. He alfo required, that the vafial of the barons should enjoy the farm privileges which he granted his own horses and he promised a general confirmation and observance of the _lavsy of_ king _Edward_ . To give \"See Enda greater authenticity to the classifications, a copy of the Syllem, charter are logged in form ababy of each country.",
+  "response": {
+    "id": "chatcmpl-bd15548526771287",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "pofed to thofe enormous exactions which had been formerly required. He remitted the wardship of minors; and allowed guardians to be appointed, who should be answerable for the truth. He promised not to dispose of any heiress in marriage but by advice of all the barons; and if any baron intended to give his daughter, sister, niece, or kinswoman, in marriage, it should only be necessary for him to consult the king, who promised to take no money for his consent, nor ever to refuse permission, unless the person to whom it was proposed to marry her should happen to be his enemy. He granted his barons and military tenants the power of bequeathing by will their money or personal estates; and if they neglected to make a will, he promised that their heirs should succeed to them. He renounced the right of imposing moneyage, and of levying taxes at pleasure, on the farms which the barons kept in their own hands. He made some general professions of moderating fines; he offered a pardon for all offences; and remitted all debts due to the crown. He also required, that the vassals of the barons should enjoy the same privileges which he granted to his own barons; and he promised a general confirmation and observance of the laws of king Edward. To give greater authenticity to these concessions, a copy of the Syllem, charter was lodged in some abbey of each county.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792326054,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 301,
+      "prompt_tokens": 1294,
+      "total_tokens": 1595,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 786
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

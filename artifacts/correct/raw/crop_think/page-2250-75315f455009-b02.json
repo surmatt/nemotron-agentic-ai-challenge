@@ -1,0 +1,90 @@
+{
+  "variant": "crop_think",
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2250",
+  "block_index": 2,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T12:17:00+00:00",
+  "elapsed_seconds": 7.13,
+  "finish_reason": "stop",
+  "parse_text": "BUTTRESS, a kind of batment built archwife, or a mals of flouse or birds, ferving to prop of flapper the fides of a building, wall, 6e, on the outside, where it is either very high, or has any considerable load to fultain on the other fide, as a bank of earth, eC",
+  "corrected_text": "BUTTRESS, a kind of butment built archwise, or a\nmass of stone or brick, serving to prop or support the\nsides of a building, wall, &c. on the outside, where\nit is either very high, or has any considerable load to\nsustain on the other side, as a bank of earth, &c.",
+  "reasoning_tokens": 2206,
+  "usage": {
+    "completion_tokens": 2284,
+    "prompt_tokens": 546,
+    "total_tokens": 2830,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 2206,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 290
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 12000,
+    "temperature": 0
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows this region of the page. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\nBUTTRESS, a kind of batment built archwife, or a mals of flouse or birds, ferving to prop of flapper the fides of a building, wall, 6e, on the outside, where it is either very high, or has any considerable load to fultain on the other fide, as a bank of earth, eC",
+  "response": {
+    "id": "chatcmpl-a4b5fa942ecf11b8",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "BUTTRESS, a kind of butment built archwise, or a\nmass of stone or brick, serving to prop or support the\nsides of a building, wall, &c. on the outside, where\nit is either very high, or has any considerable load to\nsustain on the other side, as a bank of earth, &c.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": "The user wants me to correct the OCR text based on the provided image.\n\n**1. Analyze the Image:**\n- The image shows a snippet of text from an old encyclopedia.\n- The text is in an 18th/19th-century font (likely using long 's').\n- I need to transcribe the visible text exactly as it appears, correcting the OCR errors.\n\n**2. Transcription - Line by Line:**\n\n*   **Line 1:** \"long. and between 60° and 66° N. lat.\" -> Wait, looking at the very top edge, there is a fragment \"long. and between 60° and 66° N. lat.\". The prompt says \"Ignore lines cut at the top or bottom edge of the image.\" This line is cut off at the top. I should ignore it. Let's look at the main block.\n*   **Line 2 (Main start):** \"BUTTRESS, a kind of butment built archwise, or a\"\n    *   OCR said: \"BUTTRESS, a kind of butment built archwife, or a\" -> \"archwife\" is wrong. Image says \"archwise\". \"butment\" looks correct.\n*   **Line 3:** \"mass of stone or brick, serving to prop or support the\"\n    *   OCR said: \"mafs of flone or brick, ferving to prop or fupport the\" -> Long 's' needs to be converted to 's'. \"mafs\" -> \"mass\". \"flone\" -> \"stone\". \"ferving\" -> \"serving\". \"fupport\" -> \"support\".\n*   **Line 4:** \"sides of a building, wall, &c. on the outside, where\"\n    *   OCR said: \"fides of a building, wall, &c. on the outfide, where\" -> \"fides\" -> \"sides\". \"outfide\" -> \"outside\". The ampersand is visible.\n*   **Line 5:** \"it is either very high, or has any considerable load to\"\n    *   OCR said: \"it is either very high, or has any confiderable load to\" -> \"confiderable\" -> \"considerable\".\n*   **Line 6:** \"sustain on the other side, as a bank of earth, &c.\"\n    *   OCR said: \"fustain on the other fide, as a bank of earth, &c.\" -> \"fustain\" -> \"sustain\". \"fide\" -> \"side\".\n\n**3. Refining the Transcription:**\n\nLet's look closely at the image again to be precise about spelling and punctuation.\n\n-   **Line 1 (visible part):** \"BUTTRESS, a kind of butment built archwise, or a\"\n    -   Wait, let's look at the first visible full line. The text starts with \"BUTTRESS...\".\n    -   Above it is a cut-off line: \"long. and between 60° and 66° N. lat.\" -> Ignore per rules.\n-   **Line 2:** \"BUTTRESS, a kind of butment built archwise, or a\"\n    -   \"butment\" - looks like \"butment\".\n    -   \"archwise\" - looks like \"archwise\".\n-   **Line 3:** \"mass of stone or brick, serving to prop or support the\"\n    -   \"mass\" - long s used.\n    -   \"stone\" - long s used.\n    -   \"serving\" - long s used.\n    -   \"support\" - long s used.\n-   **Line 4:** \"sides of a building, wall, &c. on the outside, where\"\n    -   \"sides\" - long s used.\n    -   \"&c.\" - visible.\n    -   \"outside\" - long s used.\n-   **Line 5:** \"it is either very high, or has any considerable load to\"\n    -   \"considerable\" - long s used.\n-   **Line 6:** \"sustain on the other side, as a bank of earth, &c.\"\n    -   \"sustain\" - long s used.\n    -   \"side\" - long s used.\n    -   \"&c.\" - visible.\n\n**4. Formatting Rules:**\n-   Write long s as 's'.\n-   Keep original spelling, capitals, punctuation.\n-   Join a word that a line-break hyphen splits. (None visible here).\n-   Leave out page headers, page numbers, catchwords, and margin notes. (The top line is cut off, so ignore).\n-   Ignore lines cut at the top or bottom edge. (The top line is cut).\n-   Do not add any word that you cannot see.\n-   Write [?] for an illegible word.\n\n**5. Final Assembly:**\n\nBUTTRESS, a kind of butment built archwise, or a\nmass of stone or brick, serving to prop or support the\nsides of a building, wall, &c. on the outside, where\nit is either very high, or has any considerable load to\nsustain on the other side, as a bank of earth, &c.\n\nLet's double check the first line visible.\nThe image shows:\nTop fragment: \"long. and between 60° and 66° N. lat.\" -> Ignore.\nNext line: \"BUTTRESS, a kind of butment built archwise, or a\"\nNext line: \"mass of stone or brick, serving to prop or support the\"\nNext line: \"sides of a building, wall, &c. on the outside, where\"\nNext line: \"it is either very high, or has any considerable load to\"\nNext line: \"sustain on the other side, as a bank of earth, &c.\"\n\nWait, looking at the very bottom, is there more text?\nThe image cuts off after \"&c.\" on the last line. It looks like the end of the entry or just a cut off. The prompt says \"Ignore lines cut at the top or bottom edge\". The last line \"sustain on the other side, as a bank of earth, &c.\" seems complete enough, though the text continues presumably. But looking at the image, the line ends with \"&c.\" and then there is blank space below. Wait, let me look at the full crop.\nThe image provided is a crop.\nThe text block is:\n\"BUTTRESS, a kind of butment built archwise, or a\"\n\"mass of stone or brick, serving to prop or support the\"\n\"sides of a building, wall, &c. on the outside, where\"\n\"it is either very high, or has any considerable load to\"\n\"sustain on the other side, as a bank of earth, &c.\"\n\nLet's re-read the first line of the main block carefully.\n\"BUTTRESS, a kind of butment built archwise, or a\"\nIs it \"butment\"? Yes.\nIs it \"archwise\"? Yes.\n\nLet's check the OCR provided in the prompt to see what errors I need to fix.\nOCR: \"BUTTRESS, a kind of butment built archwife, or a\" -> archwife -> archwise.\nOCR: \"mafs of flone or brick, ferving to prop or fupport the\" -> mass, stone, serving, support.\nOCR: \"fides of a building, wall, &c. on the outfide, where\" -> sides, outside.\nOCR: \"it is either very high, or has any confiderable load to\" -> considerable.\nOCR: \"fustain on the other fide, as a bank of earth, &c.\" -> sustain, side.\n\nThe top line in the image \"long. and between 60° and 66° N. lat.\" is cut off at the top. The rule says \"Ignore lines cut at the top or bottom edge of the image.\" So I will exclude that line.\n\nFinal text construction:\nBUTTRESS, a kind of butment built archwise, or a\nmass of stone or brick, serving to prop or support the\nsides of a building, wall, &c. on the outside, where\nit is either very high, or has any considerable load to\nsustain on the other side, as a bank of earth, &c.\n\nOne detail: \"Join a word that a line-break hyphen splits.\"\nLooking at line 1 end: \"or a\". Line 2 start: \"mass\". No hyphen.\nLooking at line 2 end: \"the\". Line 3 start: \"sides\". No hyphen.\nLooking at line 3 end: \"where\". Line 4 start: \"it\". No hyphen.\nLooking at line 4 end: \"to\". Line 5 start: \"sustain\". No hyphen.\nLooking at line 5 end: \"&c.\". End of text block.\n\nSo just straight transcription.\n\nOne check on \"butment\". In old texts, it might be \"butment\" or \"buttressment\". The image clearly shows \"butment\".\nOne check on \"archwise\". The image shows \"archwise\".\n\nLet's verify the text \"long. and between 60° and 66° N. lat.\" is indeed cut off. Yes, the top of the letters is cut off by the image border. So ignore.\n\nFinal check of the text:\nBUTTRESS, a kind of butment built archwise, or a\nmass of stone or brick, serving to prop or support the\nsides of a building, wall, &c. on the outside, where\nit is either very high, or has any considerable load to\nsustain on the other side, as a bank of earth, &c.\n\nWait, looking at the very bottom of the image, is there a sliver of another line?\nThe image ends after \"&c.\" on the last line. It looks like the end of the paragraph.\nActually, looking at the full image provided, there is a faint line below \"&c.\"? No, it looks like just noise or the edge of the paper. The text seems to end there.\n\nLet's assemble the final string."
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792325821,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 2284,
+      "prompt_tokens": 546,
+      "total_tokens": 2830,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 2206,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 290
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

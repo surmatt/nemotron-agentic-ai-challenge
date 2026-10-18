@@ -1,0 +1,93 @@
+{
+  "variant": "crop_nothink",
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2093",
+  "block_index": 6,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T12:24:01+00:00",
+  "elapsed_seconds": 1.98,
+  "finish_reason": "stop",
+  "parse_text": "Before the facilities excitedly external objects, there are others also which could pain and pleasure. If the effects of the models be foreign only and obterical, and not continued to as to fatigue us, it enables pleasure. On the contrary, when this section is situated with a kind of illibides, inflation, difficulty, and difficulty, is cru-\nfes just more or left. In fine, various blues and aflecoins of the mind, fach as the exercise of memory imagination, and judgment, nearly for familiar reasons, are founders painful, in other times agreeable. “Aminn affection, qui model great certain, welcomesness, not graves the ditture, butuye partner acor certain vive frangust j, business intention thatum eatingumi, fac-\nplus longa valetiation macarant.. Somul ealmas, que uat exhaustiv vies redefendig egemas, cercifin, vi de es fehlt, et annon et corporti — D'Addin, five asimií five corporais antirigue vies languefuct) ni mini sarecrisions hind minu benefutur. Statute provadi term paresv, ut fingularme porttima, et uni- verdi corpus anisimique vies ufu roborentur et acuin-",
+  "corrected_text": "Besides the sensations excited by external objects, there are others also which cause pain and pleasure. If the action of the muscles be strong, easy, and cheerful, and not continued so as to fatigue us, it causes pleasure. On the contrary, when this action is attended with a sense of littleness, inaptitude, difficulty, and debility, it causes pain more or less. In fine, various states and affections of the mind, such as the exercise of memory, imagination, and judgment, nearly for similar reasons, are sometimes painful, at other times agreeable. “Animi affectus, qui modici grato excitant, vehementes, aut graves et diuturni, hujus pariter ac corporis vires frangunt; hominem intersum flatim extinguunt, fœdus longa valetudine macerant. Somni etiam, quo ud exhaustas vires reficiendas egemus, excessus, vel defectus, et animo et corpori nocet.”—Defid. five animi five corporis, utrisque vires languentes: nimia exercitatione haud minus laeduntur. Statuit enim provida rerum parens, ut fingularum partium, et universi corporis animique vires usu roborentur et acuan-",
+  "reasoning_tokens": 0,
+  "usage": {
+    "completion_tokens": 283,
+    "prompt_tokens": 891,
+    "total_tokens": 1174,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 442
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 3000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows this region of the page. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\nBefore the facilities excitedly external objects, there are others also which could pain and pleasure. If the effects of the models be foreign only and obterical, and not continued to as to fatigue us, it enables pleasure. On the contrary, when this section is situated with a kind of illibides, inflation, difficulty, and difficulty, is cru-\nfes just more or left. In fine, various blues and aflecoins of the mind, fach as the exercise of memory imagination, and judgment, nearly for familiar reasons, are founders painful, in other times agreeable. “Aminn affection, qui model great certain, welcomesness, not graves the ditture, butuye partner acor certain vive frangust j, business intention thatum eatingumi, fac-\nplus longa valetiation macarant.. Somul ealmas, que uat exhaustiv vies redefendig egemas, cercifin, vi de es fehlt, et annon et corporti — D'Addin, five asimií five corporais antirigue vies languefuct) ni mini sarecrisions hind minu benefutur. Statute provadi term paresv, ut fingularme porttima, et uni- verdi corpus anisimique vies ufu roborentur et acuin-",
+  "response": {
+    "id": "chatcmpl-b0c8db261f1da38d",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "Besides the sensations excited by external objects, there are others also which cause pain and pleasure. If the action of the muscles be strong, easy, and cheerful, and not continued so as to fatigue us, it causes pleasure. On the contrary, when this action is attended with a sense of littleness, inaptitude, difficulty, and debility, it causes pain more or less. In fine, various states and affections of the mind, such as the exercise of memory, imagination, and judgment, nearly for similar reasons, are sometimes painful, at other times agreeable. “Animi affectus, qui modici grato excitant, vehementes, aut graves et diuturni, hujus pariter ac corporis vires frangunt; hominem intersum flatim extinguunt, fœdus longa valetudine macerant. Somni etiam, quo ud exhaustas vires reficiendas egemus, excessus, vel defectus, et animo et corpori nocet.”—Defid. five animi five corporis, utrisque vires languentes: nimia exercitatione haud minus laeduntur. Statuit enim provida rerum parens, ut fingularum partium, et universi corporis animique vires usu roborentur et acuan-",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792326242,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 283,
+      "prompt_tokens": 891,
+      "total_tokens": 1174,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 442
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

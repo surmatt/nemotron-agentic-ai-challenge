@@ -1,0 +1,90 @@
+{
+  "variant": "crop_think",
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1250",
+  "block_index": 4,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T12:16:28+00:00",
+  "elapsed_seconds": 7.35,
+  "finish_reason": "stop",
+  "parse_text": "Coin is allo uled for a field angle compofol of two surfaces inclined towards each other, whether that angle be exterior, as the coin of a wall, a tree, fcc or interior, as the coin of a chamber or chimary. See Qouo.",
+  "corrected_text": "COIN is also used for a solid angle composed of two surfaces inclined towards each other, whether that angle be exterior, as the coin of a wall, a tree, &c. or interior, as the coin of a chamber or chimney. See QUOIN.",
+  "reasoning_tokens": 1704,
+  "usage": {
+    "completion_tokens": 1760,
+    "prompt_tokens": 523,
+    "total_tokens": 2283,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 1704,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 290
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 12000,
+    "temperature": 0
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows this region of the page. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\nCoin is allo uled for a field angle compofol of two surfaces inclined towards each other, whether that angle be exterior, as the coin of a wall, a tree, fcc or interior, as the coin of a chamber or chimary. See Qouo.",
+  "response": {
+    "id": "chatcmpl-afc2e283e31a2b28",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "COIN is also used for a solid angle composed of two surfaces inclined towards each other, whether that angle be exterior, as the coin of a wall, a tree, &c. or interior, as the coin of a chamber or chimney. See QUOIN.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": "The user wants me to correct the OCR text based on the provided image.\n\n**1. Analyze the Image:**\n- The image shows a snippet of text from an old encyclopedia.\n- The text is in an old font with long 's' (ſ) which needs to be converted to 's' according to the rules.\n- The text reads:\n    - \"COIN is alſo uſed for a ſolid angle compofed of two\"\n    - \"ſurfaces inclined towards each other, whether that\"\n    - \"angle be exterior, as the coin of a wall, a tree, &c. or\"\n    - \"interior, as the coin of a chamber or chimney. See\"\n    - \"QUOIN.\"\n    - \"COINAGE, or COINING, the art of making mo.\" (This part is cut off at the bottom, but the prompt says \"Ignore lines cut at the top or bottom edge of the image.\" Wait, let's look closer. The bottom line \"COINAGE...\" is partially visible but cut off. The prompt says \"Ignore lines cut at the top or bottom edge of the image.\" However, the main block of text is fully visible. Let's look at the OCR provided.)\n\n**2. Analyze the OCR text provided:**\n- \"Coin is allo uled for a field angle compofol of two surfaces inclined towards each other, whether that angle be exterior, as the coin of a wall, a tree, fcc or interior, as the coin of a chamber or chimary. See Qouo.\"\n- This OCR is very poor. \"allo uled\" -> \"also used\". \"field angle\" -> \"solid angle\". \"composol\" -> \"composed\". \"fcc\" -> \"&c.\". \"chimary\" -> \"chimney\". \"Qouo\" -> \"QUOIN\".\n\n**3. Transcribe from Image:**\n- Line 1: \"COIN is alſo uſed for a ſolid angle compoſed of two\" -> \"COIN is also used for a solid angle composed of two\" (converting long s to s).\n- Line 2: \"ſurfaces inclined towards each other, whether that\" -> \"surfaces inclined towards each other, whether that\"\n- Line 3: \"angle be exterior, as the coin of a wall, a tree, &c. or\" -> \"angle be exterior, as the coin of a wall, a tree, &c. or\"\n- Line 4: \"interior, as the coin of a chamber or chimney. See\" -> \"interior, as the coin of a chamber or chimney. See\"\n- Line 5: \"QUOIN.\" -> \"QUOIN.\"\n- Line 6: \"COINAGE, or COINING, the art of making mo.\" -> This line is cut off at the bottom. The rule says \"Ignore lines cut at the top or bottom edge of the image.\" So I should probably stop before this line or exclude it if it's considered cut off. Looking at the image, the bottom line is clearly cut off (\"mo.\" is visible but the rest is gone). The main paragraph ends at \"QUOIN.\"\n\nLet's re-read the rule: \"Ignore lines cut at the top or bottom edge of the image.\"\nThe line \"COINAGE, or COINING...\" is cut off at the bottom. So I will exclude it.\nThe text block to transcribe is the paragraph ending with \"QUOIN.\"\n\n**4. Formatting:**\n- \"write the long s as 's'.\" -> Done.\n- \"Keep the original spelling, capitals, and punctuation.\" -> \"COIN\" is capitalized. \"QUOIN\" is capitalized.\n- \"Join a word that a line-break hyphen splits.\" -> No hyphenated splits visible in the main block.\n- \"Leave out page headers, page numbers, catchwords, and margin notes.\" -> N/A.\n- \"Do not add any word that you cannot see in the image.\" -> N/A.\n- \"Write [?] for an illegible word.\" -> N/A.\n\n**5. Final Text Construction:**\nCOIN is also used for a solid angle composed of two surfaces inclined towards each other, whether that angle be exterior, as the coin of a wall, a tree, &c. or interior, as the coin of a chamber or chimney. See QUOIN.\n\nWait, let's look at the capitalization in the image.\nLine 1 starts with \"COIN\".\nLine 5 is \"QUOIN.\"\nThe rest is lowercase.\n\nLet's double check the transcription against the image pixels.\n- \"COIN is alſo uſed\" -> \"COIN is also used\"\n- \"for a ſolid angle compoſed of two\" -> \"for a solid angle composed of two\"\n- \"ſurfaces inclined towards each other, whether that\" -> \"surfaces inclined towards each other, whether that\"\n- \"angle be exterior, as the coin of a wall, a tree, &c. or\" -> \"angle be exterior, as the coin of a wall, a tree, &c. or\"\n- \"interior, as the coin of a chamber or chimney. See\" -> \"interior, as the coin of a chamber or chimney. See\"\n- \"QUOIN.\" -> \"QUOIN.\"\n\nThe OCR text provided in the prompt is just a reference for what needs correcting, not a template to follow strictly if it's wrong. I must use the image as authority.\n\nThe text in the image:\n\"COIN is alſo uſed for a ſolid angle compoſed of two\nſurfaces inclined towards each other, whether that\nangle be exterior, as the coin of a wall, a tree, &c. or\ninterior, as the coin of a chamber or chimney. See\nQUOIN.\"\n\nI will combine these lines into a single paragraph as is standard for text correction unless line breaks are significant. The prompt asks to \"Correct the OCR text of a region\". Usually, this implies producing the clean text. I will output it as a block of text.\n\nLet's check the bottom line again. \"COINAGE, or COINING, the art of making mo.\" It is definitely cut off. I will ignore it.\n\nFinal check on spelling:\n- \"alſo\" -> \"also\"\n- \"uſed\" -> \"used\"\n- \"ſolid\" -> \"solid\"\n- \"compoſed\" -> \"composed\"\n- \"ſurfaces\" -> \"surfaces\"\n- \"&c.\" is visible.\n- \"chimney\" is visible.\n- \"QUOIN.\" is visible.\n\nOne detail: \"Keep the original spelling\". So \"chimney\" stays \"chimney\". \"coin\" stays \"coin\" (lowercase in middle of sentence).\n\nLet's assemble the string.\n\"COIN is also used for a solid angle composed of two surfaces inclined towards each other, whether that angle be exterior, as the coin of a wall, a tree, &c. or interior, as the coin of a chamber or chimney. See QUOIN.\"\n\nWait, looking at the very bottom line \"COINAGE...\". Is it cut off? Yes, the bottom of the letters is cut off by the image border. So I ignore it.\n\nOne detail on punctuation: The image has \"&c.\".\nThe image has \"See QUOIN.\" on a separate line visually, but it's part of the sentence flow. I will just write it as continuous text.\n\nLet's verify the first word. It looks like \"COIN\".\nLet's verify the last word of the paragraph. \"QUOIN.\"\n\nFinal string:\nCOIN is also used for a solid angle composed of two surfaces inclined towards each other, whether that angle be exterior, as the coin of a wall, a tree, &c. or interior, as the coin of a chamber or chimney. See QUOIN."
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792325788,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 1760,
+      "prompt_tokens": 523,
+      "total_tokens": 2283,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 1704,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 290
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

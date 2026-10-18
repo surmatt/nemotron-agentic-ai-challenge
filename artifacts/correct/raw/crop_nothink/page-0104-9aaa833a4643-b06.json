@@ -1,0 +1,93 @@
+{
+  "variant": "crop_nothink",
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:104",
+  "block_index": 6,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T12:19:42+00:00",
+  "elapsed_seconds": 1.34,
+  "finish_reason": "stop",
+  "parse_text": "Sometimes are two sorts of pounds, piese nottile lbs, and tpes grossosibb. The latter at teeth pert here's than the far visited the central 100 ha, per section 30-929 lb, avoids, or the station of 100 lac. peso grosso = 76-88. The latter is of for bed, very small, and the former for girls, given, and articles of small bulk. The palms o al 4722 Brit. inches, and then resta the canna posed by possessions of pinit, the cumma genus of the merc-ots = 12 pat, and the national tenants ema a realmal. Of tournaments 98 matches a sport i must = 23-18 bushals. Also 100 points a 2 barliar 1 mezzarols of wine = 32-67 is, gil; and 64 quarterout a 4 quarter + idul battle = 14 22 is gali.",
+  "corrected_text": "ud for bulky commodities, and the former for gold, silver, and articles of small bulk. The palmo = 9-725 Brit. inches, and 203 palmi = 1 braccio. The canna is of three sorts : the canna piccola used by tradesmen = 9 palmi, the canna grossa of the merchants = 12 palmi, and the custom-house canna = 10 palmi. Of corn measure, 96 gombette = 8 quarti = 1 mina = 3-31 Brit. bushels. Also 100 pints = 2 barili = 1 mezzarola of wine = 32-67 imp. gall. ; and 64 quateroni = 4 quarti = 1 oil barile = 14-23 imp. gall.",
+  "reasoning_tokens": 0,
+  "usage": {
+    "completion_tokens": 188,
+    "prompt_tokens": 682,
+    "total_tokens": 870,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 282
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 3000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows this region of the page. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\nSometimes are two sorts of pounds, piese nottile lbs, and tpes grossosibb. The latter at teeth pert here's than the far visited the central 100 ha, per section 30-929 lb, avoids, or the station of 100 lac. peso grosso = 76-88. The latter is of for bed, very small, and the former for girls, given, and articles of small bulk. The palms o al 4722 Brit. inches, and then resta the canna posed by possessions of pinit, the cumma genus of the merc-ots = 12 pat, and the national tenants ema a realmal. Of tournaments 98 matches a sport i must = 23-18 bushals. Also 100 points a 2 barliar 1 mezzarols of wine = 32-67 is, gil; and 64 quarterout a 4 quarter + idul battle = 14 22 is gali.",
+  "response": {
+    "id": "chatcmpl-80298334299a50a4",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "ud for bulky commodities, and the former for gold, silver, and articles of small bulk. The palmo = 9-725 Brit. inches, and 203 palmi = 1 braccio. The canna is of three sorts : the canna piccola used by tradesmen = 9 palmi, the canna grossa of the merchants = 12 palmi, and the custom-house canna = 10 palmi. Of corn measure, 96 gombette = 8 quarti = 1 mina = 3-31 Brit. bushels. Also 100 pints = 2 barili = 1 mezzarola of wine = 32-67 imp. gall. ; and 64 quateroni = 4 quarti = 1 oil barile = 14-23 imp. gall.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792325982,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 188,
+      "prompt_tokens": 682,
+      "total_tokens": 870,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 282
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

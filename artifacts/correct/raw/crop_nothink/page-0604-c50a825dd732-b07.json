@@ -1,0 +1,93 @@
+{
+  "variant": "crop_nothink",
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:604",
+  "block_index": 7,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T12:21:15+00:00",
+  "elapsed_seconds": 2.59,
+  "finish_reason": "stop",
+  "parse_text": "From 1604, when the first night books of De Than’s History appeared, the author was received with declaration by all the reading public of Europe, as the first historian of the age. During this life there appears everybody back of it in all, and the remainder, forming in all one hundred and thirty-eight books, were published in 1620. The space view which his record extends, if from one 1644 to 1607; from the closing years of Francis I. till nearly the completion of the reign of Henry IV. It has all the fril-ness and freshness of a marative, written as a man who was a principal actor in six scenes which is his business to chronicle; it has, besides, the rare month of being argueably impacted, the author recognising with uncommon framhances the excellence and ever economic superiority of racismen and citizens who were moved rists to the nation which it was both his duty and his pride to honour and Lara. But it is much more upon the excellence of the workmanship that De Than’s History lives, then upon the counterparty accuracy and fulfillness of its recorded facts. While the style of the work certainly displays abonance of easy, flowing clouence, it is perhaps delicient in the highest quality of vivid judgements. The language in which it was written was Latini and the author has pared neither time nor honor to make its severely classical. That is does not come quite up to this ideal is perhaps, not to be wondered at... The best English edition of Thous. History is that in 7 vols by Samuel Buckley, 1723. De Thion likewise works on number of Latin papers, one of which, entitled _De Rio Accipitraria_ (On Hawking), prepared in 1684. The Life of this author has been freqently written. The advice noted that has gathered from an autobiography, which remains an 1601, and from Col- linans _Life of Thousand_, London 1897.",
+  "corrected_text": "From 1604, when the first eighteen books of De Thou's History appeared, the author was received with acclamation by all the reading public of Europe, as the first historian of the age. During his life there appeared eighty books of it in all, and the remainder, forming in all one hundred and thirty-eight books, were published in 1620. The space over which his record extends, is from the year 1544 to 1607; from the closing years of Francis I. till nearly the completion of the reign of Henry IV. It has all the liveliness and freshness of a narrative, written by a man who was a principal actor in the scenes which it is his business to chronicle; it has, besides, the rare merit of being singularly impartial, the author recognising with uncommon frankness the excellence and even occasional superiority of statesmen and citizens who were avowed rivals to the nation which it was both his duty and his pride to honour and exalt. But it is much more upon the excellence of the workmanship that De Thou's History lives, than upon the comparative accuracy and faithfulness of its recorded facts. While the style of the work certainly displays abundance of easy, flowing eloquence, it is perhaps deficient in the higher quality of vivid picturesqueness. The language in which it was written was Latin; and the author has spared neither time nor labour to make it severely classical. That it does not come quite up to this ideal is, perhaps, not to be wondered at. The best English edition of De Thou's History is that in 7 vols. by Samuel Buckley, 1733. De Thou likewise wrote a number of Latin poems, one of which, entitled De Re Accipitraria (On Hawking), appeared in 1584. The Life of this author has been frequently written. The above notice has been gathered from his autobiography, which terminates in 1601, and from Collinson's Life of Thuanus, London, 1807.",
+  "reasoning_tokens": 0,
+  "usage": {
+    "completion_tokens": 432,
+    "prompt_tokens": 1377,
+    "total_tokens": 1809,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 770
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 3000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows this region of the page. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\nFrom 1604, when the first night books of De Than’s History appeared, the author was received with declaration by all the reading public of Europe, as the first historian of the age. During this life there appears everybody back of it in all, and the remainder, forming in all one hundred and thirty-eight books, were published in 1620. The space view which his record extends, if from one 1644 to 1607; from the closing years of Francis I. till nearly the completion of the reign of Henry IV. It has all the fril-ness and freshness of a marative, written as a man who was a principal actor in six scenes which is his business to chronicle; it has, besides, the rare month of being argueably impacted, the author recognising with uncommon framhances the excellence and ever economic superiority of racismen and citizens who were moved rists to the nation which it was both his duty and his pride to honour and Lara. But it is much more upon the excellence of the workmanship that De Than’s History lives, then upon the counterparty accuracy and fulfillness of its recorded facts. While the style of the work certainly displays abonance of easy, flowing clouence, it is perhaps delicient in the highest quality of vivid judgements. The language in which it was written was Latini and the author has pared neither time nor honor to make its severely classical. That is does not come quite up to this ideal is perhaps, not to be wondered at... The best English edition of Thous. History is that in 7 vols by Samuel Buckley, 1723. De Thion likewise works on number of Latin papers, one of which, entitled _De Rio Accipitraria_ (On Hawking), prepared in 1684. The Life of this author has been freqently written. The advice noted that has gathered from an autobiography, which remains an 1601, and from Col- linans _Life of Thousand_, London 1897.",
+  "response": {
+    "id": "chatcmpl-bb902c534205cd0e",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "From 1604, when the first eighteen books of De Thou's History appeared, the author was received with acclamation by all the reading public of Europe, as the first historian of the age. During his life there appeared eighty books of it in all, and the remainder, forming in all one hundred and thirty-eight books, were published in 1620. The space over which his record extends, is from the year 1544 to 1607; from the closing years of Francis I. till nearly the completion of the reign of Henry IV. It has all the liveliness and freshness of a narrative, written by a man who was a principal actor in the scenes which it is his business to chronicle; it has, besides, the rare merit of being singularly impartial, the author recognising with uncommon frankness the excellence and even occasional superiority of statesmen and citizens who were avowed rivals to the nation which it was both his duty and his pride to honour and exalt. But it is much more upon the excellence of the workmanship that De Thou's History lives, than upon the comparative accuracy and faithfulness of its recorded facts. While the style of the work certainly displays abundance of easy, flowing eloquence, it is perhaps deficient in the higher quality of vivid picturesqueness. The language in which it was written was Latin; and the author has spared neither time nor labour to make it severely classical. That it does not come quite up to this ideal is, perhaps, not to be wondered at. The best English edition of De Thou's History is that in 7 vols. by Samuel Buckley, 1733. De Thou likewise wrote a number of Latin poems, one of which, entitled De Re Accipitraria (On Hawking), appeared in 1584. The Life of this author has been frequently written. The above notice has been gathered from his autobiography, which terminates in 1601, and from Collinson's Life of Thuanus, London, 1807.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792326076,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 432,
+      "prompt_tokens": 1377,
+      "total_tokens": 1809,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 770
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

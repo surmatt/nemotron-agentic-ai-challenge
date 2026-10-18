@@ -1,0 +1,495 @@
+{
+  "entry_id": "E0120",
+  "headword": "VII",
+  "entry_text_sha256": "28cc1131e514b7a1e5e1c7c79e05d3ba841d622a521e5db15231b7000bdcb020",
+  "mode": "model",
+  "queries": [
+    "vii",
+    "vii literature reason education designed mercantile employment particularly languages compositions necessary merchant writing"
+  ],
+  "query_chars": 1500,
+  "headword_variant": null,
+  "candidate_count": 22,
+  "list_pages_removed_after_fetch": [],
+  "decision": {
+    "status": "rejected",
+    "method": "nemotron_embed_rerank",
+    "thresholds": {
+      "rerank_logit": -10.0,
+      "margin": 0.5,
+      "cosine": 0.15,
+      "title_similarity": 0.0
+    },
+    "reason": "rerank_logit < -10.0, margin < 0.5, cosine < 0.15, or title_similarity < 0.0",
+    "page_id": "41600090",
+    "title": "Mankind in the Making",
+    "rerank_logit": -4.48667,
+    "cosine": 0.162675,
+    "margin_to_next": 0.006647,
+    "title_similarity": 0.1667
+  },
+  "candidates": [
+    {
+      "page_id": "2331387",
+      "revision_id": "1332210875",
+      "title": "Belles-lettres",
+      "url": "https://en.wikipedia.org/wiki/Belles-lettres",
+      "excerpt": "Belles-lettres (French pronunciation:) is a category of writing, originally meaning beautiful or fine writing. In the modern narrow sense, it is a label for literary works that do not fall into the major categories such as fiction, poetry, or drama. The phrase is sometimes used pejoratively for writing that focuses on the aesthetic qualities of language rather than its practical application. A writer of belles-lettres is a belletrist.\n\nLiterally, belles-lettres is a French phrase meaning 'beautiful' or 'fine' writing. In this sense, therefore, it includes all literary works—especially fiction, poetry, drama, or essays—valued for their aesthetic qualities and originality of style and tone. The term thus can be used to refer to literature generally. The Nuttall Encyclopedia, for example, described belles-lettres as the \"department of literature which implies literary culture and belongs to the domain of art, whatever the subject may be or the special form; it includes poetry, the drama, fiction, and criticism,\" while the Encyclopædia Britannica Eleventh Edition describes it as \"the more artistic and imaginative forms of literature, as poetry or romance, as opposed to more pedestrian ",
+      "excerpt_offset": 0,
+      "total_chars": 4404,
+      "bm25": {
+        "q1": {
+          "rank": 1,
+          "score": 36.432
+        }
+      },
+      "best_rank": 1,
+      "title_similarity": 0.0,
+      "context_overlap": 0.0811,
+      "cosine": 0.212177,
+      "rerank_logit": -4.565825,
+      "rerank_position": 5
+    },
+    {
+      "page_id": "225945",
+      "revision_id": "1350686074",
+      "title": "Hugh Blair",
+      "url": "https://en.wikipedia.org/wiki/Hugh_Blair",
+      "excerpt": "e volume endorsement of practical Christian morality, and Lectures on Rhetoric and Belles Lettres, a prescriptive guide on composition, Blair was a valuable part of the Scottish Enlightenment.\n\nBlair was born in Edinburgh into an educated Presbyterian family. His father was John Blair, an Edinburgh merchant. From an early age it was clear that Blair, a weakly child, should be educated for a life in the church. Schooled at the High School, Blair studied moral philosophy and literature at the University of Edinburgh, where he graduated M.A. at the age of twenty-one. His thesis, \"Dissertatio Philosophica Inauguralis de fundamentis et obligatione legis naturae\", serves as a precursor to the later published Sermons in its discussion of the principles of morality and virtue.\n\nIn 1741, two years after the publication of his thesis, Blair received his license as a Presbyterian preacher. Shortly thereafter, the Earl of Leven heard of Blair's popularity and presented him to the Parish Church of Collessie in Fife, as their minister.\n\nBy 1743 Blair was elected as the second charge of the Canongate Kirk, under Rev James Walker in first charge. Although some records say he reached \"first charge\"",
+      "excerpt_offset": 420,
+      "total_chars": 16464,
+      "bm25": {
+        "q1": {
+          "rank": 2,
+          "score": 30.5876
+        }
+      },
+      "best_rank": 2,
+      "title_similarity": 0.1538,
+      "context_overlap": 0.0588,
+      "cosine": 0.181554,
+      "rerank_logit": -4.664301,
+      "rerank_position": 6
+    },
+    {
+      "page_id": "4259402",
+      "revision_id": "1348719470",
+      "title": "Composition studies",
+      "url": "https://en.wikipedia.org/wiki/Composition_studies",
+      "excerpt": "Composition studies (also referred to as composition and rhetoric, rhetoric and composition, writing studies, or simply composition) is the professional field of writing, research, and instruction, focusing especially on writing at the college level in the United States.\n\nIn most US and some Canadian colleges and universities, undergraduates take freshman or higher-level composition courses. To support the effective administration of these courses, there are developments of basic and applied research on the acquisition of writing skills, and an understanding of the history of the uses and transformation of writing systems and writing technologies (among many other subareas of research), over 70 American universities offer doctoral study in rhetoric and composition. These programs of study usually include composition pedagogical theory, linguistics, professional and technical communication, qualitative and quantitative research methods, the history of rhetoric, as well as the influence of different writing conventions and genres on writers' composing processes more generally.\n\nComposition scholars also publish in the fields of teaching English as a second or foreign language (TESOL)",
+      "excerpt_offset": 0,
+      "total_chars": 20840,
+      "bm25": {
+        "q1": {
+          "rank": 3,
+          "score": 30.3503
+        }
+      },
+      "best_rank": 3,
+      "title_similarity": 0.1905,
+      "context_overlap": 0.0556,
+      "cosine": 0.080144,
+      "rerank_logit": -4.493317,
+      "rerank_position": 2
+    },
+    {
+      "page_id": "4972816",
+      "revision_id": "1353618934",
+      "title": "AP English Literature and Composition",
+      "url": "https://en.wikipedia.org/wiki/AP_English_Literature_and_Composition",
+      "excerpt": "Advanced Placement (AP) English Literature and Composition (also known as Senior AP English, AP Lit, APENG, or AP English IV) is a course and examination offered by the College Board as part of the Advanced Placement Program in the United States.\n\nDesignated for motivated students with a command of standard English, an interest in exploring and analyzing challenging classical and contemporary literature, and a desire to analyze and interpret dominant literary genres and themes, it is often offered to high school seniors and the other AP English course, AP English Language and Composition, to juniors. The College Board does not restrict courses by grade. Students learn and apply methods of literary analysis and write with a variety of purposes to increase precision in expression. Students in AP English Literature and Composition typically sit for the national AP examination administered each May for the College Board by the Educational Testing Service. The College Board publishes changing information about all AP courses and examinations on its web site.\n\nOn one of the three essays students write as part of the examination, students choose a work of literature they will write about.",
+      "excerpt_offset": 0,
+      "total_chars": 2520,
+      "bm25": {
+        "q1": {
+          "rank": 4,
+          "score": 30.2698
+        }
+      },
+      "best_rank": 4,
+      "title_similarity": 0.1,
+      "context_overlap": 0.0845,
+      "cosine": 0.124359,
+      "rerank_logit": -4.956977,
+      "rerank_position": 11
+    },
+    {
+      "page_id": "11175219",
+      "revision_id": "1223323927",
+      "title": "Fred Newton Scott",
+      "url": "https://en.wikipedia.org/wiki/Fred_Newton_Scott",
+      "excerpt": "60 – 1931) was an American writer, educator and rhetorician. Scott received his A.B., A.M, and Ph.D from the University of Michigan. In the preface to The New Composition Rhetoric, Newton Scott states “that composition is…a social act, and the student therefore constantly led to think of himself as writing or speaking for a specified audience. Thus not mere expression but communication as well is made the business of composition.” Fred Newton Scott saw rhetoric as an intellectually challenging subject. He looked to English departments to balance work in rhetoric and linguistics in addition to literary study.\n\nRhetoric in the 1890s was full of vigorous experimentation in rhetorical theory and practice. The Harvard Reports of 1892, 1895, and 1897 generated much public interest and concern about the teaching of writing. At this time, composition was shifting away from an emphasis on oratory skills. The 19th-century American University was experiencing a major transformation in its educational purposes. Education was opening up to everyone, including women. Classical rhetoric was being displaced as schools responded to more practical needs, like preparing their students to be excellent",
+      "excerpt_offset": 21,
+      "total_chars": 10822,
+      "bm25": {
+        "q1": {
+          "rank": 5,
+          "score": 29.6887
+        }
+      },
+      "best_rank": 5,
+      "title_similarity": 0.0,
+      "context_overlap": 0.0941,
+      "cosine": 0.166117,
+      "rerank_logit": -5.201571,
+      "rerank_position": 16
+    },
+    {
+      "page_id": "1096980",
+      "revision_id": "1351092194",
+      "title": "National Council of Teachers of English",
+      "url": "https://en.wikipedia.org/wiki/National_Council_of_Teachers_of_English",
+      "excerpt": "The National Council of Teachers of English (NCTE) is a United States professional organization dedicated to \"improving the teaching and learning of English and the language arts at all levels of education. Since 1911, NCTE has provided a forum for the profession, an array of opportunities for teachers to continue their professional growth throughout their careers, and a framework for cooperation to deal with issues that affect the teaching of English.\" In addition, the NCTE describes its mission as follows:\n\nThe Council promotes the development of literacy, the use of language to construct personal and public worlds and to achieve full participation in society, through the learning and teaching of English and the related arts and sciences of language.\n\nThe NCTE is involved in publishing journals (such as College Composition and Communication and College English) and books that address the concerns of English language arts educators. Since the 1970s, it has issued annual Doublespeak Awards and Orwell Awards. It also issues the NCTE Intellectual Freedom Award.\n\nAs stated on the official NCTE website, the National Council of Teachers of English was founded in 1911 by a group of educa",
+      "excerpt_offset": 0,
+      "total_chars": 11219,
+      "bm25": {
+        "q1": {
+          "rank": 6,
+          "score": 28.7489
+        }
+      },
+      "best_rank": 6,
+      "title_similarity": 0.0976,
+      "context_overlap": 0.0405,
+      "cosine": 0.082015,
+      "rerank_logit": -5.174699,
+      "rerank_position": 15
+    },
+    {
+      "page_id": "19708",
+      "revision_id": "1350970659",
+      "title": "Mercantilism",
+      "url": "https://en.wikipedia.org/wiki/Mercantilism",
+      "excerpt": "Mercantilism is a form of economic system and nationalist economic policy that is designed to maximize the exports and minimize the imports of an economy. It seeks to maximize the accumulation of resources within the country and use those resources for one-sided trade.\n\nThe concept aims to reduce a possible current account deficit or reach a current account surplus, and it includes measures aimed at accumulating monetary reserves by a positive balance of trade, especially of finished goods. Historically, such policies may have contributed to war and motivated colonial expansion. Mercantilist theory varies in sophistication from one writer to another and has evolved over time.\n\nMercantilism promotes government regulation of a nation's economy for the purpose of augmenting and bolstering state power at the expense of rival national powers. High tariffs, especially on manufactured goods, were almost universally a feature of mercantilist policy. Before it fell into decline, mercantilism was dominant in modernized parts of Europe and some areas in Africa from the 16th to the 19th centuries, a period of proto-industrialization. Some commentators argue that it is still practised in the ec",
+      "excerpt_offset": 0,
+      "total_chars": 35205,
+      "bm25": {
+        "q1": {
+          "rank": 7,
+          "score": 28.6686
+        }
+      },
+      "best_rank": 7,
+      "title_similarity": 0.2667,
+      "context_overlap": 0.0562,
+      "cosine": 0.106165,
+      "rerank_logit": -4.539137,
+      "rerank_position": 3
+    },
+    {
+      "page_id": "48547992",
+      "revision_id": "1337948418",
+      "title": "King Haakon VII 1905–1930 Jubilee Medal",
+      "url": "https://en.wikipedia.org/wiki/King_Haakon_VII_1905%E2%80%931930_Jubilee_Medal",
+      "excerpt": "The King Haakon VII 1905–1930 Jubilee Medal (Norwegian: Kong Haakon VIIs jubileumsmedalje 1905–1930), also known as the King's Jubilee Medal (Norwegian: Kongens jubileumsmedalje), is a Norwegian award instituted in 1930 by Haakon VII of Norway in honor of the 25th anniversary of his accession to the throne. The medal has been conferred upon 397 people.\n\nThe King Haakon VII 1905–1930 Jubilee Medal is made of silver and is 33 mm in diameter. The obverse depicts King Haakon VII with the inscription \"HAAKON VII NORGES KONGE \" (Haakon VII King of Norway). The reverse shows the royal monogram. The medal was created by the engraver Ivar Throndsen. The medal is fitted to a royal crown and hangs from a red medal ribbon. The medal ribbon has a silver clasp reading \"1905–1930.\"\n\nLater the King Haakon VII 1905–1955 Jubilee Medal (Norwegian: Kong Haakon VIIs jubileumsmedalje 1905-1955), the King Haakon VII Commemorative Medal (Norwegian: Kong Haakon VIIs minnemedalje), and the King Haakon VII Centennial Medal (Norwegian: Kong Haakon VIIs 100-årsmedalje) were given the same design as the King Haakon VII 1905–1930 Jubilee Medal, but the ribbon clasps and inscriptions were modified to match the oc",
+      "excerpt_offset": 0,
+      "total_chars": 1220,
+      "bm25": {
+        "q0": {
+          "rank": 8,
+          "score": 10.8929
+        }
+      },
+      "best_rank": 8,
+      "title_similarity": 0.1875,
+      "context_overlap": 0.037,
+      "cosine": -0.042215,
+      "rerank_logit": -4.781368,
+      "rerank_position": 8
+    },
+    {
+      "page_id": "80147235",
+      "revision_id": "1347473484",
+      "title": "Students' Right to Their Own Language",
+      "url": "https://en.wikipedia.org/wiki/Students%27_Right_to_Their_Own_Language",
+      "excerpt": "eme of \"Statements on Social and Linguistic and Antiracist Pedagogies.\"\n\nProgressive social movements shaped the development and political significance of the resolution. The SRTOL resolution, approved in 1974, was initially a response to the increasing diversification of the student body in higher education. With the implementation of 'open admissions' policies, universities saw a surge in students from diverse backgrounds, particularly international students. Traditional writing courses are now often employed as an institutional response to 'standard challenges. However, the political resonance of the SRTOL was also undeniably linked to 1960s progressive activism and such activism elevated the concern for protecting a student's language into the broader realm of class politics.\n\nOriginally adopted in 1974, the SRTOL resolution was revised and reaffirmed in 2003 by the CCCC. The 2003 CCCC called for schools and teachers to respect students' linguistic diversity and take it as \"both a right and a resource.\" In 2008, in an anthology titled Affirming Students' Right to Their Own Language: Bridging Language Policies and Pedagogical Practice, editors described the STROL resolution as a",
+      "excerpt_offset": 1167,
+      "total_chars": 9311,
+      "bm25": {
+        "q1": {
+          "rank": 8,
+          "score": 28.4641
+        }
+      },
+      "best_rank": 8,
+      "title_similarity": 0.1143,
+      "context_overlap": 0.0658,
+      "cosine": 0.067628,
+      "rerank_logit": -5.104202,
+      "rerank_position": 14
+    },
+    {
+      "page_id": "41600090",
+      "revision_id": "1288233537",
+      "title": "Mankind in the Making",
+      "url": "https://en.wikipedia.org/wiki/Mankind_in_the_Making",
+      "excerpt": "ll be equally available for application in the British Empire and the United States.\" He notes an \"especial indebtedness to my friend, Mr. Graham Wallas.\"\n\nRenouncing any claim to an \"absolute truth\" on the ethical, social, and political questions addressed in this volume, Wells says his views are \"designed first for those who are predisposed for their reception.\" He proposes as a \"general principle\" a doctrine he dubs \"New Republicanism,\" based on a view of life as \"a tissue and succession of births.\" Only in the 19th century, with the idea of organic evolution, has such a view become \"definite and pervading,\" \"alter the perspective of every human affair\" and enabling a criterion of judgment based on \"wholesome and hopeful births.\" No existing political party is based on such a view. New Republicanism, then, exists \"to get better births and a better result from the births we get.\"\n\nBecause of \"an absolute want of knowledge\" in the domain of the \"missing science of heredity,\" Wells rejects the notion, advanced by followers of Francis Galton like Max Nordau, that the state should try to breed human beings selectively: \"we are, as a matter of fact, not a bit clear what points to bree",
+      "excerpt_offset": 886,
+      "total_chars": 16419,
+      "bm25": {
+        "q1": {
+          "rank": 9,
+          "score": 28.3062
+        }
+      },
+      "best_rank": 9,
+      "title_similarity": 0.1667,
+      "context_overlap": 0.0556,
+      "cosine": 0.162675,
+      "rerank_logit": -4.48667,
+      "rerank_position": 1
+    },
+    {
+      "page_id": "4972807",
+      "revision_id": "1353542715",
+      "title": "AP English Language and Composition",
+      "url": "https://en.wikipedia.org/wiki/AP_English_Language_and_Composition",
+      "excerpt": "quially known as Lang, is an American course and examination offered by the College Board as part of the Advanced Placement Program.\n\nAP English Language and Composition is a course in the study of rhetoric taken in high school. Many schools offer this course primarily to juniors and the AP English Literature and Composition course to seniors. Other schools reverse the order, and some offer both courses to both juniors and seniors. The College Board advises that students choosing AP English Language and Composition be interested in studying and writing various kinds of analytic or persuasive essays on non-fiction topics, while students choosing AP English Literature and Composition be interested in studying literature of various periods and mediums (fiction, poetry, drama) and using this wide reading knowledge in discussions of literary topics.\n\nThe AP English Language and Composition exam is typically administered on a Tuesday or Wednesday morning in the second week of May. The exam consists of two sections: a one-hour multiple-choice section, and a two-hour fifteen-minute free-response section. The exam is further divided as follows:\n\nThe multiple-choice section of the test featu",
+      "excerpt_offset": 146,
+      "total_chars": 6542,
+      "bm25": {
+        "q1": {
+          "rank": 10,
+          "score": 28.2902
+        }
+      },
+      "best_rank": 10,
+      "title_similarity": 0.1053,
+      "context_overlap": 0.1067,
+      "cosine": 0.113362,
+      "rerank_logit": -4.735912,
+      "rerank_position": 7
+    },
+    {
+      "page_id": "9256830",
+      "revision_id": "1311794405",
+      "title": "Bona fide occupational qualification",
+      "url": "https://en.wikipedia.org/wiki/Bona_fide_occupational_qualification",
+      "excerpt": "In employment law, a bona fide occupational qualification (BFOQ) (US), bona fide occupational requirement (BFOR) (Canada), or genuine occupational qualification (GOQ) (UK) is a quality or an attribute that employers are allowed to consider when making decisions on the hiring and retention of employees—a quality that when considered in other contexts would constitute discrimination in violation of civil rights employment law. A BFOQ can legally justify discrimination if it is directly related to the realization of the business's function, supported by reliable evidence, validated through widely accepted research consensus, and if proving that a prospective hire is an exception to the recognized consensus would cause undue hardship for the employer. Such qualifications must be listed in the employment advertisement.\n\nThe law of Canada regarding bona fide occupational requirements was considered in a 1985 Canadian court case involving an employee of the Canadian National Railway, K. S. Bhinder, a Sikh whose religion required that he wear a turban, lost his challenge of the CNR policy that required him to wear a hard hat. In 1990, in deciding another case, the Supreme Court of Canada a",
+      "excerpt_offset": 0,
+      "total_chars": 7531,
+      "bm25": {
+        "q1": {
+          "rank": 11,
+          "score": 28.2579
+        }
+      },
+      "best_rank": 11,
+      "title_similarity": 0.1026,
+      "context_overlap": 0.0123,
+      "cosine": 0.008781,
+      "rerank_logit": -5.232559,
+      "rerank_position": 18
+    },
+    {
+      "page_id": "67530397",
+      "revision_id": "1349686777",
+      "title": "Ancient scripts of the Indian subcontinent",
+      "url": "https://en.wikipedia.org/wiki/Ancient_scripts_of_the_Indian_subcontinent",
+      "excerpt": "Ancient Indian scripts have been used in the history of the Indian subcontinent as writing systems. The Indian subcontinent consists of various separate linguistic communities, each of which share a common language and culture. The people of the ancient India wrote in many scripts which largely have common roots.\n\nThe Indus script (also known as the Harappan script) is a corpus of symbols produced by the Indus Valley Civilization, in Harrapa and Kot Diji.Most inscriptions containing these symbols are extremely short, making it difficult to judge whether or not these symbols constituted a script used to record a language, or even symbolise a writing system. In spite of many attempts, the 'script' has not yet been deciphered, but efforts are ongoing. It was used during time period of 2700–1900 BCE\n\nThe Gupta script (sometimes referred to as Gupta Brahmi script or Late Brahmi script) was used for writing Sanskrit and is associated with the Gupta Empire of India, which was a period of material prosperity and great religious and scientific developments. The Gupta script was descended from Brāhmī and gave rise to the Nāgarī, Śāradā and Siddhaṃ scripts. These scripts in turn gave rise to ",
+      "excerpt_offset": 0,
+      "total_chars": 5729,
+      "bm25": {
+        "q1": {
+          "rank": 12,
+          "score": 28.1603
+        }
+      },
+      "best_rank": 12,
+      "title_similarity": 0.1053,
+      "context_overlap": 0.08,
+      "cosine": 0.05754,
+      "rerank_logit": -5.203482,
+      "rerank_position": 17
+    },
+    {
+      "page_id": "2033659",
+      "revision_id": "1353247129",
+      "title": "Second language writing",
+      "url": "https://en.wikipedia.org/wiki/Second_language_writing",
+      "excerpt": "Second language writing is the study of writing performed by non-native speakers/writers of a language as a second or foreign language. The process of second language writing has been an area of research in applied linguistics and second language acquisition theory since the middle of the 20th century. The focus has been mainly on second-language writing in academic settings.\n\nIn terms of instructional practices, the focus of second language writing instruction has traditionally been on achieving grammatical accuracy. However, this changed under the influence of compositional studies, which focused on conceptual and structural properties. Recently, particular attention has been paid to the integration of written texts with other media (multimodality) and to the mixing of languages in online media.\n\nBefore the 1960s, the focus of English language teaching was on producing or preparing graduates of ESL schools who successfully can pass citizenship tests to be able to work. During industrialization, the most needed skills were reading and speaking skills. Although immigrants struggled with writing in their second language, it was not the necessary skill needed by industrialization at ",
+      "excerpt_offset": 0,
+      "total_chars": 11825,
+      "bm25": {
+        "q1": {
+          "rank": 13,
+          "score": 27.9879
+        }
+      },
+      "best_rank": 13,
+      "title_similarity": 0.1538,
+      "context_overlap": 0.0822,
+      "cosine": 0.081174,
+      "rerank_logit": -4.832489,
+      "rerank_position": 9
+    },
+    {
+      "page_id": "79868129",
+      "revision_id": "1335589365",
+      "title": "Literary commentary in the French baccalaureate",
+      "url": "https://en.wikipedia.org/wiki/Literary_commentary_in_the_French_baccalaureate",
+      "excerpt": "The literary commentary is one of the two topics offered in the written portion of the preliminary French exam for the baccalaureate in France, along with the essay. This type of exam is also practiced, though with a stronger stylistic focus, in university-level literature programs.\n\nFormerly known as the commentaire composé or commentaire de texte, the literary commentary is, according to the French National Education curriculum, \"the space for expressing a personal judgment on a text, using precise and relevant vocabulary that allows for its specific characterization.\" The purpose is to highlight the literary uniqueness of the passage under study through a rigorous method. Though it is a longstanding exam, it was more formally instituted in 1902.\n\nThe literary commentary is specific to exercises proposed in general and technological high school programs since 1972. Graded out of 20 points, it carries a coefficient of 5 in the baccalaureate for both tracks. It is an optional task for the written exam but mandatory for the oral, which takes the form of a line-by-line explanation, regardless of the student's academic track.\n\nTo begin, the commentary requires a careful and analytical",
+      "excerpt_offset": 0,
+      "total_chars": 34495,
+      "bm25": {
+        "q1": {
+          "rank": 14,
+          "score": 27.9835
+        }
+      },
+      "best_rank": 14,
+      "title_similarity": 0.08,
+      "context_overlap": 0.0617,
+      "cosine": 0.109764,
+      "rerank_logit": -5.442983,
+      "rerank_position": 21
+    },
+    {
+      "page_id": "24330902",
+      "revision_id": "1311249169",
+      "title": "Junction grammar",
+      "url": "https://en.wikipedia.org/wiki/Junction_grammar",
+      "excerpt": "on:\n\nSome of the cruces in descriptive linguistics have been due to the search for a constituent analysis in sentence types where this does not exist because the sentences are transformationally derived from each other\n\nChomsky's model of syntax - transformational grammar -picked up on this line of reasoning and added a supplementary set of transformations (T-rules). T-rules effected combinations and permutations of words in step-wise fashion to fill in structural gaps where P-rules alone could not generate the sentences which Harris had pointed out as problems. The structural forms generated by P-rules alone were said to constitute deep structure. Surface structure was then derived transformationally by T-rules from the kernel structures first generated by the operation of P-rules. In this way, Chomsky proposed to generate an infinite number of sentences using finite means (the closed sets of P-rules and T-rules). Syntax-based models of this vintage set semantics and phonology apart as linguistic processes to be approached separately.\n\nEnter from the sidelines under these circumstances junction grammar (JG), a model of natural language created by Eldon Lytle in the late 1960s and ",
+      "excerpt_offset": 977,
+      "total_chars": 26419,
+      "bm25": {
+        "q1": {
+          "rank": 15,
+          "score": 27.9681
+        }
+      },
+      "best_rank": 15,
+      "title_similarity": 0.1053,
+      "context_overlap": 0.0625,
+      "cosine": 0.051236,
+      "rerank_logit": -5.266352,
+      "rerank_position": 19
+    },
+    {
+      "page_id": "37532188",
+      "revision_id": "1349300036",
+      "title": "Thunchath Ezhuthachan Malayalam University",
+      "url": "https://en.wikipedia.org/wiki/Thunchath_Ezhuthachan_Malayalam_University",
+      "excerpt": "e Service cadre, who retired as the Chief Secretary of Kerala on 31 October 2012, prepared the Project Report of the university. He is the first Vice-Chancellor of Malayalam University.\n\nThe university is named after Thunchaththu Ramanujan Ezhuthachan, a 16th-century CE Malayalam litterateure whose writings helped develop Malayalam as a language with a script of 51 letters, vocabulary, and literature. Thunchath Ezhuthachan was born at Trikkantiyur in Thunchan Parambu in Tirur, in the state of Kerala.\n\nAt the time of its inauguration Malayalam University had no infrastructure in the form land and buildings. According to the newly appointed vice-chancellor the university offices will start functioning in temporary structures erected in the premises of Thunchan Memorial Govt College, Tirur.\n\nAccording to its website, the objectives of the university are as follows:\n\nTo implement programmes concerning the mother tongue and to encourage studies among Malayalies.\n\nImparting education at the post graduate level on Malayalam literature, science, humanities, social science and technology through Malayalam Medium, Malayalam language and linguistics, comparative literature, Malayalam criticis",
+      "excerpt_offset": 416,
+      "total_chars": 7297,
+      "bm25": {
+        "q1": {
+          "rank": 16,
+          "score": 27.8804
+        }
+      },
+      "best_rank": 16,
+      "title_similarity": 0.0889,
+      "context_overlap": 0.05,
+      "cosine": 0.100303,
+      "rerank_logit": -5.311499,
+      "rerank_position": 20
+    },
+    {
+      "page_id": "2324104",
+      "revision_id": "1351098290",
+      "title": "Formalism (literature)",
+      "url": "https://en.wikipedia.org/wiki/Formalism_(literature)",
+      "excerpt": "lude not only grammar and syntax but also literary devices such as meter and tropes. The formalistic approach reduces the importance of a text's historical, biographical, and cultural context.\n\nFormalism rose to prominence in the early twentieth century as a reaction against Romanticist theories of literature, which centered on the artist and individual creative genius, once again placing the text itself in the spotlight to show how the text was indebted to forms and other works that had preceded it. Two schools of formalist literary criticism developed, Russian formalism, and soon after Anglo-American New Criticism. Formalism was the dominant mode of academic literary study in the US at least from the end of the Second World War through the 1970s, especially as embodied in René Wellek and Austin Warren 's Theory of Literature (1948, 1955, 1962).\n\nBeginning in the late 1970s, formalism was substantially displaced by various approaches (often with political aims or assumptions) that were suspicious of the idea that a literary work could be separated from its origins or uses. The term has often had a pejorative cast and has been used by opponents to indicate either aridity or ideolog",
+      "excerpt_offset": 574,
+      "total_chars": 7992,
+      "bm25": {
+        "q1": {
+          "rank": 17,
+          "score": 27.7946
+        }
+      },
+      "best_rank": 17,
+      "title_similarity": 0.1667,
+      "context_overlap": 0.0581,
+      "cosine": 0.136448,
+      "rerank_logit": -4.976791,
+      "rerank_position": 12
+    },
+    {
+      "page_id": "2086315",
+      "revision_id": "1351530840",
+      "title": "Laṇḍā scripts",
+      "url": "https://en.wikipedia.org/wiki/La%E1%B9%87%E1%B8%8D%C4%81_scripts",
+      "excerpt": "The Laṇḍā scripts, from the term laṇḍā meaning \"without a tail\", is a Punjabi word used to refer to writing systems used in Punjab and adjoining areas. In Sindhi, it was known as 'Wāṇiko' or 'Baniyañ'.\n\nLaṇḍā is a script that evolved from the Sharada script during the 10th century. It was widely used in the northern and northwestern Indian subcontinent, in the Indus River plain, and adjoining areas, comprising Punjab, Sindh, Kashmir, and some parts of Balochistan and Khyber Pakhtunkhwa. It was used to write languages including Punjabi in its various dialects and registers, languages of Haryana, Sindhi, Balochi, Kashmiri, and Pashto.\n\nThe Laṇḍā scripts form a \"typologically distinct group,\" and are closer in norms to its predecessor Brāhmī than they are to the Nāgarī scripts to the east, in their general avoidance of conjunct glyphs or marking of the Middle Indo-Aryan geminations distinctive of Panjābī. While possessing full sets of consonants, even separate letters for the common Lahndā consonant clusters tr and dr, their indication of vowels is less regular; they possess three vowel letters to indicate initial /ə ɪ ʊ/, but no letters or signs in other positions, thus being \"alphab",
+      "excerpt_offset": 0,
+      "total_chars": 10448,
+      "bm25": {
+        "q1": {
+          "rank": 18,
+          "score": 27.517
+        }
+      },
+      "best_rank": 18,
+      "title_similarity": 0.1667,
+      "context_overlap": 0.0575,
+      "cosine": 0.020683,
+      "rerank_logit": -5.569901,
+      "rerank_position": 22
+    },
+    {
+      "page_id": "4895396",
+      "revision_id": "1339489159",
+      "title": "Filippo Sassetti",
+      "url": "https://en.wikipedia.org/wiki/Filippo_Sassetti",
+      "excerpt": "Filippo Sassetti (1540–1588) was a traveller and merchant from a long-established Florentine mercantile family, who was born in Florence in 1540. Though his father had sold family interests and he had to commence as a clerk in a merchant business, Sassetti enrolled in 1568 at the University of Pisa and was imbued with a humanist education; he was proficient in botany, geography, astronomy and cosmography and was curious about philology and the classical languages.\n\nSettling in Lisbon in 1578-82, he travelled to the Indian subcontinent, reaching Cochin in November 1583, and remained in Cochin and Goa and the Malabar coast that joins the two, until his death. He is known to posterity from the thirty-two detailed letters he sent home to members of the Florentine patriciate and the Grand Duke of Tuscany; they were not published until centuries after his death. Sassetti, an attentive observer of people and customs, was among the first European observers to study the ancient Indian language, Sanskrit. Writing privately to fellow Florentine Bernardo Davanzati in 1585, he noted some word similarities between Sanskrit and Italian (e.g. deva/dio 'God', sarpa/serpe 'snake', sapta/sette 'seven",
+      "excerpt_offset": 0,
+      "total_chars": 1422,
+      "bm25": {
+        "q1": {
+          "rank": 19,
+          "score": 27.4865
+        }
+      },
+      "best_rank": 19,
+      "title_similarity": 0.2105,
+      "context_overlap": 0.1124,
+      "cosine": 0.190415,
+      "rerank_logit": -5.084475,
+      "rerank_position": 13
+    },
+    {
+      "page_id": "7620009",
+      "revision_id": "1302077630",
+      "title": "Oflag VII-D",
+      "url": "https://en.wikipedia.org/wiki/Oflag_VII-D",
+      "excerpt": "Oflag VII-D was a World War II German prisoner-of-war camp for officers (Offizierlager) located in Tittmoning Castle in south-eastern Bavaria.\n\nThe camp was opened as Oflag VII-D in February 1941, but in November 1941 became a sub-camp of Oflag VII-C, and was redesignated Oflag VII-C/Z. During their internment the activities of the prisoners included putting on performances of plays and sketches, including a performance of Shakespeare's Hamlet. In February 1942 the prisoners were transferred to Oflag VII-B in Eichstätt, and the castle then became an internment camp (Internierungslager) for men from the British Channel Islands of Jersey and Guernsey. As a sub-camp of Ilag VII, it was designated Ilag VII/Z. The camp was liberated in May 1945.",
+      "excerpt_offset": 0,
+      "total_chars": 750,
+      "bm25": {
+        "q0": {
+          "rank": 20,
+          "score": 10.8233
+        }
+      },
+      "best_rank": 20,
+      "title_similarity": 0.4286,
+      "context_overlap": 0.0444,
+      "cosine": 0.001245,
+      "rerank_logit": -4.539531,
+      "rerank_position": 4
+    },
+    {
+      "page_id": "21138276",
+      "revision_id": "1344210337",
+      "title": "Writing across the curriculum",
+      "url": "https://en.wikipedia.org/wiki/Writing_across_the_curriculum",
+      "excerpt": "Writing across the curriculum (WAC) is a movement within contemporary composition studies that concerns itself with writing in classes beyond composition, literature, and other English courses. According to a comprehensive survey performed in 2006–2007, approximately half of American institutes of higher learning have something that can be identified as a WAC program. In 2010, Thaiss and Porter defined WAC as \"a program or initiative used to 'assist teachers across disciplines in using student writing as an instructional tool in their teaching'\". WAC, then, is a programmatic effort to introduce multiple instructional uses of writing beyond assessment. WAC has also been part of the student-centered pedagogies movement (student-centered learning) seeking to replace teaching via one-way transmission of knowledge from teacher to student with more interactive strategies that enable students to interact with and participate in creating knowledge in the classroom. This page principally concerns itself with WAC in American colleges and universities. WAC has also been important in Britain, but primarily at the K–12 level.\n\nDavid Russell traces the history of WAC in the United States to the ",
+      "excerpt_offset": 0,
+      "total_chars": 28061,
+      "bm25": {
+        "q1": {
+          "rank": 20,
+          "score": 27.4799
+        }
+      },
+      "best_rank": 20,
+      "title_similarity": 0.1481,
+      "context_overlap": 0.0513,
+      "cosine": 0.05092,
+      "rerank_logit": -4.9398,
+      "rerank_position": 10
+    }
+  ]
+}

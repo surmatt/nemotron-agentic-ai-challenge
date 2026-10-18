@@ -1,0 +1,452 @@
+{
+  "entry_id": "E0142",
+  "headword": null,
+  "entry_text_sha256": "78746dfb7d868f1069f2e2611dabb76585940dcf7c3f0a318759de431c21cbed",
+  "mode": "model",
+  "queries": [
+    "among military distinction arms introduced order cavalry body influence armour different discipline"
+  ],
+  "query_chars": 1500,
+  "headword_variant": null,
+  "candidate_count": 20,
+  "list_pages_removed_after_fetch": [],
+  "decision": {
+    "status": "rejected",
+    "method": "nemotron_embed_rerank",
+    "thresholds": {
+      "rerank_logit": -10.0,
+      "margin": 0.5,
+      "cosine": 0.15,
+      "title_similarity": 0.0
+    },
+    "reason": "rerank_logit < -10.0, margin < 0.5, cosine < 0.15, or title_similarity < 0.0",
+    "page_id": "653194",
+    "title": "Man-at-arms",
+    "rerank_logit": -5.035713,
+    "cosine": 0.223,
+    "margin_to_next": 0.096834,
+    "title_similarity": 0.0
+  },
+  "candidates": [
+    {
+      "page_id": "2655555",
+      "revision_id": "1347550347",
+      "title": "Military of the Sasanian Empire",
+      "url": "https://en.wikipedia.org/wiki/Military_of_the_Sasanian_Empire",
+      "excerpt": "The Sasanian army was the primary military body of the Sasanian armed forces, serving alongside the Sasanian navy. The birth of the army dates back to the rise of Ardashir I (r. 224–241), the founder of the Sasanian Empire, to the throne. Ardashir aimed at the revival of the Persian Empire, and to further this aim, he reformed the military by forming a standing army which was under his personal command and whose officers were separate from satraps, local princes and nobility. He restored the Achaemenid military organizations, retained the Parthian cavalry model, and employed new types of armour and siege warfare techniques. This was the beginning for a military system which served him and his successors for over 400 years, during which the Sasanian Empire was, along with the Roman Empire and later the Eastern Roman Empire, one of the two superpowers of Late Antiquity in Western Eurasia. During the reign of Khosrow the Sasanian army underwent major reforms. The Sasanian army protected Eranshahr (\"the realm of Iran\") from the East against the incursions of central Asiatic nomads like the Hephthalites and Turks, while in the west it was engaged in a recurrent struggle against the Roma",
+      "excerpt_offset": 0,
+      "total_chars": 21093,
+      "bm25": {
+        "q0": {
+          "rank": 1,
+          "score": 39.037
+        }
+      },
+      "best_rank": 1,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1566,
+      "cosine": 0.127376,
+      "rerank_logit": -5.778065,
+      "rerank_position": 12
+    },
+    {
+      "page_id": "57755462",
+      "revision_id": "1349948529",
+      "title": "Indian armour",
+      "url": "https://en.wikipedia.org/wiki/Indian_armour",
+      "excerpt": "ttery culture (OCP)/ Copper Hoard Culture, which was contemporaneous with the Late Harappan culture reviled several wooden coffin burials, which included copper swords, helmets, bow and arrow and wooden carts with solid disk wheels and protected by copper sheets.\n\nThe Vedic age recorded in-fighting among Indian clans for supremacy over the upper Indo-Gangetic Plain. In the Battle of the Ten Kings prominent Vedic clans clashed along the Ravi River. The Vedas and the other texts of the period record these struggles in detail and provide a clear picture of the military set up of during those periods.\n\nThe concept of a warrior class had already gained ground and the kshatriya claimed to have originated from the arms of Purusha. They tried to maintain this distinct identity of their own through their garments and attire. The common attire (when they are not situated at the battlefield) for the kshatriya warrior was deer skin. Their under-garments were made cloak dyed with Indian maddar. They also wore hemp thread and a bow string as a mark of distinction.\n\nArmour was prominently mentioned in the Rigveda:\n\nThe warrior's look is like a thunderous rain-cloud's, when, armed with mail, he se",
+      "excerpt_offset": 337,
+      "total_chars": 9816,
+      "bm25": {
+        "q0": {
+          "rank": 2,
+          "score": 38.4686
+        }
+      },
+      "best_rank": 2,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1,
+      "cosine": 0.189381,
+      "rerank_logit": -5.819667,
+      "rerank_position": 13
+    },
+    {
+      "page_id": "15068",
+      "revision_id": "1348065502",
+      "title": "Infantry",
+      "url": "https://en.wikipedia.org/wiki/Infantry",
+      "excerpt": "y with the invention of more accurate and powerful weapons.\n\nIn English, use of the term infantry began about the 1570s, describing soldiers who march and fight on foot. The word derives from Middle French infanterie, from older Italian (also Spanish) infanteria (foot soldiers too inexperienced for cavalry), from Latin īnfāns (without speech, newborn, foolish), from which English also gets infant. The individual-soldier term infantryman was not coined until 1837. In modern usage, foot soldiers of any era are now considered infantry and infantrymen. Some military forces, such as the Canadian Army, use the term \"infanteer\" as opposed to \"infantryman\" to refer to an individual soldier of the infantry\n\nFrom the mid-18th century until 1881, the British Army named its infantry as numbered regiments \"of Foot\" to distinguish them from cavalry and dragoon regiments (see List of Regiments of Foot).\n\nInfantry equipped with special weapons were often named after that weapon, such as grenadiers for their grenades, or fusiliers for their fusils. These names can persist long after the weapon speciality; examples of infantry units that retained such names are the Royal Irish Fusiliers and the Gren",
+      "excerpt_offset": 606,
+      "total_chars": 19705,
+      "bm25": {
+        "q0": {
+          "rank": 3,
+          "score": 37.4089
+        }
+      },
+      "best_rank": 3,
+      "title_similarity": 0.0,
+      "context_overlap": 0.12,
+      "cosine": 0.209374,
+      "rerank_logit": -5.640028,
+      "rerank_position": 8
+    },
+    {
+      "page_id": "653194",
+      "revision_id": "1342148039",
+      "title": "Man-at-arms",
+      "url": "https://en.wikipedia.org/wiki/Man-at-arms",
+      "excerpt": "A man-at-arms was a soldier of the High Medieval to Renaissance periods who was typically well-versed in the use of arms and served as a fully- armoured heavy cavalryman. A man-at-arms could be a knight, or nobleman, a member of a knight's or nobleman's retinue, or a mercenary in a company serving under a captain. Such men could serve for pay or through a feudal obligation. The terms knight and man-at-arms are often used interchangeably, but while all knights equipped for war were men-at-arms, not all men-at-arms were knights.\n\nThough in English the term man-at-arms is a fairly straightforward rendering of the French homme d'armes, in the Middle Ages, there were numerous terms for this type of soldier, referring to the type of arms he would be expected to provide: In France, he might be known as a lance or glaive, while in Germany, Spieß, Helm or Gleve, and in various places, a bascinet. In Italy, the term barbuta was used, and in England from the late 14th century, men-at-arms were known as lances or spears.\n\nIn the Early Medieval period, any well-equipped horseman could be described as a \"knight\", or in Latin, miles. In the course of the 12th century knighthood became a social ra",
+      "excerpt_offset": 0,
+      "total_chars": 19204,
+      "bm25": {
+        "q0": {
+          "rank": 4,
+          "score": 37.1324
+        }
+      },
+      "best_rank": 4,
+      "title_similarity": 0.0,
+      "context_overlap": 0.175,
+      "cosine": 0.223,
+      "rerank_logit": -5.035713,
+      "rerank_position": 1
+    },
+    {
+      "page_id": "5406110",
+      "revision_id": "1338876122",
+      "title": "Byzantine army (Komnenian era)",
+      "url": "https://en.wikipedia.org/wiki/Byzantine_army_(Komnenian_era)",
+      "excerpt": "ing the 12th century by his successors John II Komnenos and Manuel I Komnenos. From necessity, following extensive territorial loss and a near disastrous defeat by the Normans of southern Italy at Dyrrachion in 1081, Alexios constructed a new army from the ground up. This new army was significantly different from previous forms of the Byzantine army, especially in the methods used for the recruitment and maintenance of soldiers. The army was characterised by an increased reliance on the military capabilities of the immediate imperial household, the relatives of the ruling dynasty and the provincial Byzantine aristocracy. Another distinctive element of the new army was an expansion of the employment of foreign mercenary troops and their organisation into more permanent units. However, continuity in equipment, unit organisation, tactics and strategy from earlier times is evident. The Komnenian army was instrumental in creating the territorial integrity and stability that allowed the Komnenian restoration of the Byzantine Empire. It was deployed in the Balkans, Italy, Hungary, Russia, Anatolia, Syria, the Holy Land and Egypt.\n\nAt the beginning of the Komnenian period in 1081, the Byza",
+      "excerpt_offset": 191,
+      "total_chars": 65899,
+      "bm25": {
+        "q0": {
+          "rank": 5,
+          "score": 36.6417
+        }
+      },
+      "best_rank": 5,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1395,
+      "cosine": 0.167025,
+      "rerank_logit": -5.76251,
+      "rerank_position": 11
+    },
+    {
+      "page_id": "82978415",
+      "revision_id": "1353592742",
+      "title": "Skoutatoi",
+      "url": "https://en.wikipedia.org/wiki/Skoutatoi",
+      "excerpt": "The Skoutatoi (Medieval Greek: σκουτάτοι) were heavy infantry troops of the Byzantine Empire, prominent from around the 7th to 11th centuries. Emerging during a period of military transformation, the Skoutatoi represented the continuation and adaptation of Roman infantry traditions into the medieval era, operating within a military system that increasingly emphasized combined-arms tactics.\n\nIn battle, the skoutatoi functioned as the main core of the Byzantine army. They were typically deployed in the center of the formation, where their task was to absorb enemy assaults and prevent breakthroughs. This made them particularly effective against cavalry charges, as their shields and disciplined ranks could blunt the momentum of mounted attacks.\n\nThe term Skoutatoi derives from the Greek word skouton (σκούτον), meaning “shield.” The name reflects their defining battlefield characteristic: the use of a large shield as part of tightly organized infantry formations. In essence, the skoutatoi were “those of the shield,” emphasizing their role as a defensive core, similarly to the Hoplites.\n\nThe equipment of the skoutatoi reflects their role as Byzantine heavy infantry designed for disciplin",
+      "excerpt_offset": 0,
+      "total_chars": 16422,
+      "bm25": {
+        "q0": {
+          "rank": 6,
+          "score": 36.4271
+        }
+      },
+      "best_rank": 6,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1235,
+      "cosine": 0.098228,
+      "rerank_logit": -6.057217,
+      "rerank_position": 19
+    },
+    {
+      "page_id": "4463232",
+      "revision_id": "1353723640",
+      "title": "Heavy cavalry",
+      "url": "https://en.wikipedia.org/wiki/Heavy_cavalry",
+      "excerpt": "Heavy cavalry was a class of cavalry intended to deliver a battlefield charge and also to act as a tactical reserve; they are also often termed shock cavalry. Although their equipment differed greatly depending on the region and historical period, heavy cavalry were generally mounted on large powerful warhorses, wore body armor, and armed with either lances, swords, maces, flails (disputed), battle axes, or war hammers; their mounts may also have been protected by barding. They were distinct from light cavalry, who were intended for raiding, reconnaissance, screening, skirmishing, patrolling, and tactical communications.\n\nIranian tribes such as the Massagetae were believed to be the originator of the class of heavy cavalry known as cataphract. During the time of Achaemenid Persia cavalry was the elite arm of service (as was the case in most civilizations), and many Persian horsemen such as the bodyguard unit of Cyrus the Younger were rather heavily armoured by the standards of the era. By the time of Alexander's invasion cataphract units with both men and beasts being fully encased in armour were already in use by the Persians.\n\nThe Parthian Empire of Ancient Iran marks an early re",
+      "excerpt_offset": 0,
+      "total_chars": 22949,
+      "bm25": {
+        "q0": {
+          "rank": 7,
+          "score": 36.3471
+        }
+      },
+      "best_rank": 7,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1183,
+      "cosine": 0.215074,
+      "rerank_logit": -5.398036,
+      "rerank_position": 5
+    },
+    {
+      "page_id": "2089573",
+      "revision_id": "1333963081",
+      "title": "Black beret",
+      "url": "https://en.wikipedia.org/wiki/Black_beret",
+      "excerpt": "The black beret is a coloured beret, commonly worn by paramilitaries and militaries around the world, particularly armored forces such as the British Army 's Royal Tank Regiment (RTR), the Royal Canadian Armoured Corps (RCAC), and Royal Australian Armoured Corps (RAAC) and the Indian Army Armoured Corps.\n\nNotable non-armored military units to wear the black beret include the non-military police and non-special forces elements of the Irish Defence Forces, Russian Naval Infantry (and formerly Soviet) and Russian OMON units, the majority of the United States Army, and United States Air Force (USAF) Tactical Air Control Parties (TACPs).\n\nThe usage of black berets by militaries dates to World War I. During the war, the French Army 's Chasseurs Alpins wore large black berets as a forage cap. In 1918, near the end of the war, British Army officers Hugh Elles and J. F. C. Fuller decided to outfit members of the Royal Tank Corps with black berets as the colour was least likely to show oil stains. The decision was approved by King George V on 5 March 1924, and black berets were used exclusively within the British Armed Forces as the headdress of the Royal Tank Corps during the interwar perio",
+      "excerpt_offset": 0,
+      "total_chars": 15246,
+      "bm25": {
+        "q0": {
+          "rank": 8,
+          "score": 35.8195
+        }
+      },
+      "best_rank": 8,
+      "title_similarity": 0.0,
+      "context_overlap": 0.0568,
+      "cosine": 0.100419,
+      "rerank_logit": -6.193414,
+      "rerank_position": 20
+    },
+    {
+      "page_id": "81588735",
+      "revision_id": "1343059739",
+      "title": "Uniforms of the Malaysian Army",
+      "url": "https://en.wikipedia.org/wiki/Uniforms_of_the_Malaysian_Army",
+      "excerpt": "The uniforms of the Malaysian Army are divided into two main categories: numbered orders of dress and combat uniforms. There are currently nine types of numbered orders of dress in use, following the discontinuation of No. 4 Dress. As a member of the Commonwealth and a former British colony, the Malaysian Army has inherited many aspects of its dress and traditions from the British Armed Forces and other Commonwealth militaries. The beret serves as the principal headdress and is worn with most categories of uniform.\n\nThe Malaysian Armed Forces inherited many of their uniform styles and traditions from the United Kingdom and other Commonwealth nations such as Australia and New Zealand. These countries played significant roles both before and after Malaysia's independence, particularly during major conflicts involving Malaysia, such as the Second World War, the Malayan Emergency, and the Communist Insurgency in Malaysia.\n\nAs a result of these influences, Malaysian Army uniforms are classified into two types. Numbered orders of dress is worn for daily duties, parades, and ceremonial occasions, while combat uniforms are used for operational and field duties.\n\nTo prevent the uniforms fro",
+      "excerpt_offset": 0,
+      "total_chars": 45127,
+      "bm25": {
+        "q0": {
+          "rank": 9,
+          "score": 35.8177
+        }
+      },
+      "best_rank": 9,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1159,
+      "cosine": 0.12586,
+      "rerank_logit": -6.010756,
+      "rerank_position": 18
+    },
+    {
+      "page_id": "2175187",
+      "revision_id": "1339409445",
+      "title": "Chinese armour",
+      "url": "https://en.wikipedia.org/wiki/Chinese_armour",
+      "excerpt": "Chinese armour is any of various types of protective gear used in China prior to the modern era. Lamellar armour predominated from the Warring States period (481 BC–221 BC) until the Ming dynasty (1368–1644). Before lamellar, personal armour in China consisted of animal parts such as rhinoceros hide, rawhide, and turtle shells. Lamellar armour was supplemented by other forms of armour such as scale since the Warring States period or earlier. Large metal plates worn over the chest and back, known as \"cord and plaque\" armour, was used from the Northern and Southern dynasties (420–589) to the Tang dynasty (618–907). Evidence of mail and mountain pattern armour started appearing from the Tang dynasty onward, although they never supplanted lamellar as the primary type of body armour. Chain mail had been known since the Han dynasty (202 BC – 220 AD), but did not see widespread production. Mail was used infrequently and may have been seen as \"exotic foreign armor\" used to display the wealth of rich officers and soldiers. During the Ming dynasty (1368–1644), brigandine began to supplant lamellar armour and was used to a great degree into the Qing dynasty (1644–1912). By the 19th century mo",
+      "excerpt_offset": 0,
+      "total_chars": 36350,
+      "bm25": {
+        "q0": {
+          "rank": 10,
+          "score": 35.4792
+        }
+      },
+      "best_rank": 10,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1139,
+      "cosine": 0.153616,
+      "rerank_logit": -5.758992,
+      "rerank_position": 10
+    },
+    {
+      "page_id": "17967344",
+      "revision_id": "1291821044",
+      "title": "Types of military forces in the Napoleonic Wars",
+      "url": "https://en.wikipedia.org/wiki/Types_of_military_forces_in_the_Napoleonic_Wars",
+      "excerpt": "The types of military forces in the Napoleonic Wars represented the unique tactical use of distinct military units, or their origin within different European regions. By and large the military forces during the period had not changed significantly from those of the 18th century, although their employment would differ significantly.\n\nMilitary forces during the Napoleonic Wars consisted largely of the three principal combat arms, and several combat support services, and included the infantry, cavalry, artillery, engineers, and logistics troops which were called the army train during the period. The period gave a start to what are today military staffs to help administer and organise forces in the field and in garrisons, and supervise training of conscripts and recruits. Much of the staff work was performed by staff officers and often aide-de-camps to senior officers, and included the officers of the quartermaster general.\n\nAlthough certain units, such as the French chasseurs, combined certain functions of light infantry (chasseurs à pied) or light cavalry (chasseurs à cheval), armies during the Napoleonic Wars were generally formed by distinct infantry, cavalry, and artillery units, ",
+      "excerpt_offset": 0,
+      "total_chars": 10144,
+      "bm25": {
+        "q0": {
+          "rank": 11,
+          "score": 35.4546
+        }
+      },
+      "best_rank": 11,
+      "title_similarity": 0.0,
+      "context_overlap": 0.2162,
+      "cosine": 0.216247,
+      "rerank_logit": -5.315214,
+      "rerank_position": 4
+    },
+    {
+      "page_id": "60981",
+      "revision_id": "1344658909",
+      "title": "Military tactics",
+      "url": "https://en.wikipedia.org/wiki/Military_tactics",
+      "excerpt": "Military tactics encompasses the art of organizing and employing fighting forces on or near the battlefield. They involve the application of four battlefield functions which are closely related – kinetic or firepower, mobility, protection or security, and shock action. Tactics are a separate function from command and control and logistics. In contemporary military science, tactics are the lowest of three levels of warfighting, the higher levels being the strategic and operational levels. Throughout history, there has been a shifting balance between the four tactical functions, generally based on the application of military technology, which has led to one or more of the tactical functions being dominant for a period of time, usually accompanied by the dominance of an associated fighting arm deployed on the battlefield, such as infantry, artillery, cavalry or tanks.\n\nBeginning with the use of melee and missile weapons such as clubs and spears, the kinetic or firepower function of tactics has developed along with technological advances so that the emphasis has shifted over time from the close-range melee and missile weapons to longer-range projectile weapons. Kinetic effects were gen",
+      "excerpt_offset": 0,
+      "total_chars": 11099,
+      "bm25": {
+        "q0": {
+          "rank": 12,
+          "score": 35.3597
+        }
+      },
+      "best_rank": 12,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1039,
+      "cosine": 0.242922,
+      "rerank_logit": -5.522464,
+      "rerank_position": 7
+    },
+    {
+      "page_id": "231125",
+      "revision_id": "1353833633",
+      "title": "Cataphract",
+      "url": "https://en.wikipedia.org/wiki/Cataphract",
+      "excerpt": "A cataphract was a form of armoured heavy cavalry that originated in Persia and was fielded in ancient warfare throughout Eurasia and Northern Africa.\n\nHistorically, the cataphract was a very heavily armoured horseman, with both the rider and mount almost completely covered in scale or lamellar armour over chain mail, and typically wielding a kontos (lance) as his primary weapon.\n\nCataphracts served as the elite cavalry force for most empires and nations that fielded them, primarily used for charges to break through opposing heavy cavalry and infantry formations. Chronicled by many historians from the earliest days of antiquity up until the High Middle Ages, they may have influenced the later European knights, through contact with the Eastern Roman Empire.\n\nPeoples and states deploying cataphracts at some point in their history included: the Scythians, Sarmatians, Alans, Medes, Parthians, Achaemenids, Sakas, Indians, Armenians, Seleucids, Attalid, Pontus, Greco-Bactrian, Sassanids, Romans, Goths, Byzantines, Georgians, Chinese, Koreans, Jurchens, Mongols, Tanguts and Songhai.\n\nIn Europe, the fashion for heavily armoured Roman cavalry seems to have been a response to the Eastern cam",
+      "excerpt_offset": 0,
+      "total_chars": 39695,
+      "bm25": {
+        "q0": {
+          "rank": 13,
+          "score": 35.2087
+        }
+      },
+      "best_rank": 13,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1616,
+      "cosine": 0.216217,
+      "rerank_logit": -5.148301,
+      "rerank_position": 3
+    },
+    {
+      "page_id": "2147",
+      "revision_id": "1350620254",
+      "title": "Armour",
+      "url": "https://en.wikipedia.org/wiki/Armour",
+      "excerpt": "Armour (Commonwealth English) or armor (American English; see spelling differences) is a covering used to protect an object, individual, or vehicle from physical injury or damage, especially direct contact weapons or projectiles during combat, or from a potentially dangerous environment or activity (e.g. cycling, construction sites, etc.). Personal armour is used to protect soldiers and war animals. Vehicle armour is used on warships, armoured fighting vehicles, and some combat aircraft, mostly ground attack aircraft.\n\nA second use of the term armour describes armoured forces, armoured weapons, and their role in combat. After the development of armoured warfare, tanks and mechanised infantry and their combat formations came to be referred to collectively as \"armour\".\n\nThe word \"armour\" began to appear in the Middle Ages as a derivative of Old French. It is dated from 1297 as a \"mail, defensive covering worn in combat\". The word originates from the Old French armure, itself derived from the Latin armatura meaning \"arms and/or equipment\", with the root armare meaning \"arms or gear\".\n\nArmour has been used throughout recorded history. It has been made from a variety of materials, begin",
+      "excerpt_offset": 0,
+      "total_chars": 20292,
+      "bm25": {
+        "q0": {
+          "rank": 14,
+          "score": 34.9616
+        }
+      },
+      "best_rank": 14,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1047,
+      "cosine": 0.133491,
+      "rerank_logit": -5.132547,
+      "rerank_position": 2
+    },
+    {
+      "page_id": "3143700",
+      "revision_id": "1349972371",
+      "title": "Byzantine battle tactics",
+      "url": "https://en.wikipedia.org/wiki/Byzantine_battle_tactics",
+      "excerpt": "ut it became considerably more sophisticated in strategy, tactics and organization. The language of the army was still Latin, although later (especially after the 6th century) Greek dominated, as it became the official language of the entire empire. Unlike the Roman legions, its strength was in its cavalry, especially the armoured cataphracts, which evolved from the clibanarii of the late empire. Infantry were still used but mainly as a base of maneuver for the cavalry, as well as in specialized roles. Most of the foot-soldiers of the empire were the armoured skutatoi and later on, kontarioi (plural of the singular kontarios), with the remainder being the light infantry and archers of the psiloi. The Byzantines valued intelligence and discipline in their soldiers far more than bravery or brawn. The \"Ρωμαίοι στρατιώται\"(rōmaíoi stratiōta i) were a loyal force composed of citizens willing to fight to defend their homes and their state to the death, augmented by mercenaries. The training was very much like that of the legionaries, with the soldiers taught close combat techniques with their swords, spears and axes, along with the extensive practice of archery.\n\nOver the course of its l",
+      "excerpt_offset": 139,
+      "total_chars": 30414,
+      "bm25": {
+        "q0": {
+          "rank": 15,
+          "score": 34.957
+        }
+      },
+      "best_rank": 15,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1928,
+      "cosine": 0.157471,
+      "rerank_logit": -5.974997,
+      "rerank_position": 17
+    },
+    {
+      "page_id": "25078394",
+      "revision_id": "1331697926",
+      "title": "Equites cataphractarii",
+      "url": "https://en.wikipedia.org/wiki/Equites_cataphractarii",
+      "excerpt": "Equites cataphractarii, or simply cataphractarii, were the most heavily armoured type of Roman cavalry in the Imperial Roman army and Late Roman army. The term derives from a Greek word, κατάφρακτος kataphraktos, meaning \"covered over\" or \"completely covered\" (see Cataphract).\n\nHeavily armoured cataphract cavalry, usually armed with a long lance (contus), were adopted by the Roman army to counter Parthian troops of this kind on the eastern frontier and similar Sarmatian cavalry in on the Danubian frontier. Unlike both Parthian and Sarmatian cataphracts, who represented a wealthy feudal or tribal elite equipped for war, Roman cataphracts had no social dimension, being composed of professional soldiers like any other troop type of the Roman army. The Romans also used the terms contarii for lance-armed cavalry, and clibanarii for heavily armoured cavalry. It is uncertain whether these terms were used interchangeably with 'cataphract', or whether they implied differences of equipment and role.\n\nModelled on the cataphracts of Parthia, they were armoured from neck-to-toe by a variety of armour types, probably including: scale armour (lorica squamata), mail armour (lorica hamata), and lam",
+      "excerpt_offset": 0,
+      "total_chars": 6338,
+      "bm25": {
+        "q0": {
+          "rank": 16,
+          "score": 34.8166
+        }
+      },
+      "best_rank": 16,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1282,
+      "cosine": 0.182389,
+      "rerank_logit": -5.471051,
+      "rerank_position": 6
+    },
+    {
+      "page_id": "18288340",
+      "revision_id": "1352173110",
+      "title": "12th Cavalry (Frontier Force)",
+      "url": "https://en.wikipedia.org/wiki/12th_Cavalry_(Frontier_Force)",
+      "excerpt": "The 12th Cavalry Sam Browne's Cavalry (Frontier Force) is an armoured regiment of Pakistan Army. It was formed in the British Indian army in 1922 by the amalgamation of 22nd Sam Browne's Cavalry (Frontier Force) and 25th Cavalry (Frontier Force).\n\nThe 22nd Sam Browne's Cavalry (Frontier Force) was raised in 1849 at Lahore by Lieutenant Samuel J. Browne as the 2nd Punjab Irregular Cavalry. It was one of five regiments of Punjab Cavalry raised to guard the North West Frontier of India, soon part of the Punjab Frontier Force or the \"Piffers\". Over the next decades, the regiment saw extensive service on the Frontier. During the Indian Mutiny of 1857, the regiment was engaged in the Siege of Delhi, Relief of Lucknow, the Battle of Agra and the Campaign in Rohilkhand. In one of the actions, their commandant, Captain Sam Browne was awarded the Victoria Cross. His citation reads:\n\nIn an engagement with the rebels, Captain Browne, whilst advancing upon the enemy's position, pushed on with one orderly sowar upon a 9-pounder gun and attacked the gunners, preventing them from re-loading and attacking the infantry who were advancing to the attack. In the conflict which ensued, Captain Browne re",
+      "excerpt_offset": 0,
+      "total_chars": 7704,
+      "bm25": {
+        "q0": {
+          "rank": 17,
+          "score": 34.5698
+        }
+      },
+      "best_rank": 17,
+      "title_similarity": 0.0,
+      "context_overlap": 0.0704,
+      "cosine": 0.167333,
+      "rerank_logit": -5.959442,
+      "rerank_position": 15
+    },
+    {
+      "page_id": "10174574",
+      "revision_id": "1344507276",
+      "title": "Coat of plates",
+      "url": "https://en.wikipedia.org/wiki/Coat_of_plates",
+      "excerpt": "A coat of plates is a form of segmented torso armour consisting of overlapping metal plates riveted inside a cloth or leather garment. The coat of plates is considered part of the era of transitional armour and was normally worn as part of a full knightly harness. The coat saw its introduction in Europe among the warring elite in the 1180s or 1220s and was well established by the 1250s. It was in very common usage by the 1290s. By the 1350s it was universal among infantry militias as well. After about 1340, the plates covering the chest were combined to form an early breastplate, replacing the coat of plates. After 1370, the breastplate covered the entire torso. Different forms of the coat of plates, known as the brigandine and jack of plates, remained in use until the late 16th century.\n\nThe plates number anywhere from eight or ten to the hundreds depending on their size. The plates overlap, usually enough to guarantee full coverage even when moving around and fighting. The coat of plates is similar to several other armours such as lamellar, scale and brigandine. Unlike scale armour which has plates on the outside or splint armour in which plates can be inside or outside, a coat o",
+      "excerpt_offset": 0,
+      "total_chars": 7651,
+      "bm25": {
+        "q0": {
+          "rank": 18,
+          "score": 34.4838
+        }
+      },
+      "best_rank": 18,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1688,
+      "cosine": 0.130906,
+      "rerank_logit": -5.933275,
+      "rerank_position": 14
+    },
+    {
+      "page_id": "82905177",
+      "revision_id": "1353335259",
+      "title": "Mirosław Różański",
+      "url": "https://en.wikipedia.org/wiki/Miros%C5%82aw_R%C3%B3%C5%BCa%C5%84ski",
+      "excerpt": "Mirosław Różański (born 1 December 1962 in Głogów) is Polish military officer and politician. He served as a Lieutenant general of the Polish Armed Forces, is a doctor of defence sciences, and was the Commander General of the Branches of the Armed Forces in 2015–2017. Since 2023, Różański has been a member of the 11th term of the Polish Senate.\n\nRóżański graduated from the Higher Officers' School of Mechanized Forces with distinction in 1986. In 1989 he completed the battalion commanders' course at the Centre for Officer Improvement. In the years 1992–1993 he completed second-degree studies at the National Defence University of Warsaw. At the same university in 1998 he completed a tactical-operational course, and in 2000 he graduated from the Postgraduate Study of Defence Policy (presenting a thesis entitled Professional armed forces as the basic factor of national security). In 2011, at the Faculty of Management and Command of the National Defence University, he obtained a doctoral degree in the field of defence sciences based on a dissertation entitled Effectiveness of operations of Polish military contingents formed from regular units in expeditionary operations.\n\nHe began his m",
+      "excerpt_offset": 0,
+      "total_chars": 9477,
+      "bm25": {
+        "q0": {
+          "rank": 19,
+          "score": 34.2189
+        }
+      },
+      "best_rank": 19,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1194,
+      "cosine": 0.058448,
+      "rerank_logit": -5.97387,
+      "rerank_position": 16
+    },
+    {
+      "page_id": "206394",
+      "revision_id": "1341358109",
+      "title": "Sipahi",
+      "url": "https://en.wikipedia.org/wiki/Sipahi",
+      "excerpt": "The sipahi (Ottoman Turkish: سپاهی,, Turkish pronunciation:) were professional cavalrymen of the Ottoman Empire. Sipahi units included the land grant –holding (timar) provincial timarli sipahi, which constituted most of the army, and the salaried regular kapikulu sipahi, or palace troops. However, the irregular light cavalry akıncı (\"raiders\") were not considered to be sipahi. The sipahi formed their own distinctive social classes and were rivals to the Janissaries, the elite infantry corps of the sultans.\n\nThe sipahi held a state-owned land tenure known as timar in exchange for tax collection, security, and active military service.\n\nThe sipahi were introduced to the Ottoman army from the Seljuk Sultanate of Rum, being developed as a standing cavalry force at the end of the 14th century. The Timar land tenure system was standardized in the second half of the 15th century, originating in the Byzantine pronoia. The Timar territory included arable land, given to sipahi (also referred to as Turkish: tımarlı sipahi or \"timariot\") to supervise (as the ownership of the land, miri, was held by the Ottoman state), in exchange for tax collection, security, and active military service. The pe",
+      "excerpt_offset": 0,
+      "total_chars": 10747,
+      "bm25": {
+        "q0": {
+          "rank": 20,
+          "score": 34.1685
+        }
+      },
+      "best_rank": 20,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1781,
+      "cosine": 0.214176,
+      "rerank_logit": -5.700921,
+      "rerank_position": 9
+    }
+  ]
+}

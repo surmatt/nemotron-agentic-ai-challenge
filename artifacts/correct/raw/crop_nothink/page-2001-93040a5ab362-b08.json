@@ -1,0 +1,93 @@
+{
+  "variant": "crop_nothink",
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2001",
+  "block_index": 8,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T12:23:55+00:00",
+  "elapsed_seconds": 1.56,
+  "finish_reason": "stop",
+  "parse_text": "SILLIUS TALIOLOS, CAUS, an ancient Roman poet, and author of an epic poem in 17 books, which con-tains an hilloy of the second Ponte was, to famous for having decided the empire of the world in favour of the Romanes. He was born in the reign of Thierius, and is fogoped to have derived the name of _Italica_ from the place of his birth; but whether he was born at Italica in Spain, or at Cerdinam in Italy, which, according to Scheba, had the name of _Italica_ given it during the Social war, is a point which cannot be known: though, it is his first had happened at either of those places, the grammarina would tell us, that he found have been called _Italicaeta_, and wol _Italica_. When he came to Rome, he applied himself to the bay; and, by a choi institution of Greece, succeeded fo well, like he became a celebrated advocate and molt accomplished senior. His sacred, and charader recommended him to the high- ethnics in the republic, even to the confidity, of which he was poffied when Nono died. He is field to",
+  "corrected_text": "SILIUS ITALICUS, CAIUS, an ancient Roman poet, and author of an epic poem in 17 books, which contains an history of the second Punic war, so famous for having decided the empire of the world in favour of the Romans. He was born in the reign of Tiberius, and is supposed to have derived the name of Italicus from the place of his birth; but whether he was born at Italica in Spain, or at Corfinium in Italy, which, according to Strabo, had the name of Italica given it during the Social war, is a point which cannot be known: though, if his birth had happened at either of those places, the grammarians would tell us, that he should have been called Italicensis, and not Italicus. When he came to Rome, he applied himself to the bar; and, by a close imitation of Cicero, succeeded so well, that he became a celebrated advocate and most accomplished orator. His merit and character recommended him to the highest offices in the republic, even to the consulship, of which he was possessed when Nero died. He is said to",
+  "reasoning_tokens": 0,
+  "usage": {
+    "completion_tokens": 239,
+    "prompt_tokens": 921,
+    "total_tokens": 1160,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 485
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 3000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows this region of the page. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\nSILLIUS TALIOLOS, CAUS, an ancient Roman poet, and author of an epic poem in 17 books, which con-tains an hilloy of the second Ponte was, to famous for having decided the empire of the world in favour of the Romanes. He was born in the reign of Thierius, and is fogoped to have derived the name of _Italica_ from the place of his birth; but whether he was born at Italica in Spain, or at Cerdinam in Italy, which, according to Scheba, had the name of _Italica_ given it during the Social war, is a point which cannot be known: though, it is his first had happened at either of those places, the grammarina would tell us, that he found have been called _Italicaeta_, and wol _Italica_. When he came to Rome, he applied himself to the bay; and, by a choi institution of Greece, succeeded fo well, like he became a celebrated advocate and molt accomplished senior. His sacred, and charader recommended him to the high- ethnics in the republic, even to the confidity, of which he was poffied when Nono died. He is field to",
+  "response": {
+    "id": "chatcmpl-bdd067bfc24aa908",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "SILIUS ITALICUS, CAIUS, an ancient Roman poet, and author of an epic poem in 17 books, which contains an history of the second Punic war, so famous for having decided the empire of the world in favour of the Romans. He was born in the reign of Tiberius, and is supposed to have derived the name of Italicus from the place of his birth; but whether he was born at Italica in Spain, or at Corfinium in Italy, which, according to Strabo, had the name of Italica given it during the Social war, is a point which cannot be known: though, if his birth had happened at either of those places, the grammarians would tell us, that he should have been called Italicensis, and not Italicus. When he came to Rome, he applied himself to the bar; and, by a close imitation of Cicero, succeeded so well, that he became a celebrated advocate and most accomplished orator. His merit and character recommended him to the highest offices in the republic, even to the consulship, of which he was possessed when Nero died. He is said to",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792326236,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 239,
+      "prompt_tokens": 921,
+      "total_tokens": 1160,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 485
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

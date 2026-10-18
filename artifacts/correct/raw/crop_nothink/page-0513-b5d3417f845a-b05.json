@@ -1,0 +1,93 @@
+{
+  "variant": "crop_nothink",
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:513",
+  "block_index": 5,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T12:20:53+00:00",
+  "elapsed_seconds": 1.5,
+  "finish_reason": "stop",
+  "parse_text": "The beginning of King Henry's regim promised to be favorable to the English liberty; owing chiefly to his fear of his brother. To constitute the affections of his objetsk, he paffed a charity embalted to remove many of the grievous oppréffions which had been completed during the reign of his father and brother. He promised, that, at the death of any ab-bot or bihhop, he never would farze the revenant of the fee or abby during the vacation, but would leave the whole to be repayed by the fuscifor; and that would never be to form any eectifical benefits, or difpole of it for money. To the laiy he promised, thas, up- on the death of any evil, bron, or military tenant, his her fought his admired to the profiofion of his affairs on paying a jult and lawful relief; without being ex-",
+  "corrected_text": "The beginning of King Henry's reign promised to be favourable to the English liberty; owing chiefly to his fear of his brother. To conciliate the affections of his subjects, he passed a charter calculated to remove many of the grievous oppressions which had been complained of during the reigns of his father and brother. He promised, that, at the death of any abbot or bishop, he never would seize the revenues of the fee or abbey during the vacancy, but would leave the whole to be reaped by the successor; and that he would never let to farm any ecclesiastical benefice, or dispose of it for money. To the laity he promised, that, upon the death of any earl, baron, or military tenant, his heir should be admitted to the possession of his estate, on paying a just and lawful relief; without being ex-",
+  "reasoning_tokens": 0,
+  "usage": {
+    "completion_tokens": 179,
+    "prompt_tokens": 784,
+    "total_tokens": 963,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 410
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 3000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows this region of the page. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\nThe beginning of King Henry's regim promised to be favorable to the English liberty; owing chiefly to his fear of his brother. To constitute the affections of his objetsk, he paffed a charity embalted to remove many of the grievous oppréffions which had been completed during the reign of his father and brother. He promised, that, at the death of any ab-bot or bihhop, he never would farze the revenant of the fee or abby during the vacation, but would leave the whole to be repayed by the fuscifor; and that would never be to form any eectifical benefits, or difpole of it for money. To the laiy he promised, thas, up- on the death of any evil, bron, or military tenant, his her fought his admired to the profiofion of his affairs on paying a jult and lawful relief; without being ex-",
+  "response": {
+    "id": "chatcmpl-af1fc2b781eb264b",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "The beginning of King Henry's reign promised to be favourable to the English liberty; owing chiefly to his fear of his brother. To conciliate the affections of his subjects, he passed a charter calculated to remove many of the grievous oppressions which had been complained of during the reigns of his father and brother. He promised, that, at the death of any abbot or bishop, he never would seize the revenues of the fee or abbey during the vacancy, but would leave the whole to be reaped by the successor; and that he would never let to farm any ecclesiastical benefice, or dispose of it for money. To the laity he promised, that, upon the death of any earl, baron, or military tenant, his heir should be admitted to the possession of his estate, on paying a just and lawful relief; without being ex-",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792326054,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 179,
+      "prompt_tokens": 784,
+      "total_tokens": 963,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 410
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

@@ -1,0 +1,2261 @@
+{
+  "stage": "split_eval",
+  "finished_at": "2026-10-18T13:35:32+00:00",
+  "model": "nvidia/nemotron-3.5-parse",
+  "gold": "/Users/oleksiisurnin/Dropbox/SurMat/surmatotron/.claude/worktrees/page-split/docs/evaluation/ocr_gold.json",
+  "whole_pages": "/Users/oleksiisurnin/Dropbox/SurMat/surmatotron/artifacts/extract/pages.jsonl",
+  "gold_scans": 15,
+  "split_scans_parsed": 15,
+  "failures": [],
+  "split_finish_reasons": {
+    "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1017": "stop",
+    "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1166": "stop",
+    "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1250": "stop",
+    "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1324": "stop",
+    "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1614": "stop",
+    "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2001": "stop",
+    "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2171": "stop",
+    "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2250": "stop",
+    "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2424": "stop",
+    "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:251": "stop",
+    "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:257": "stop",
+    "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:258": "stop",
+    "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:403": "stop",
+    "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:681": "stop",
+    "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:756": "stop"
+  },
+  "split_angles": {
+    "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1017": 0.5,
+    "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1166": 0.5,
+    "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1250": -0.75,
+    "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1324": -0.5,
+    "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1614": 0.0,
+    "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2001": 0.0,
+    "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2171": 0.0,
+    "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2250": 0.0,
+    "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2424": 0.0,
+    "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:251": 0.0,
+    "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:257": 0.0,
+    "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:258": 0.0,
+    "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:403": 0.5,
+    "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:681": 0.0,
+    "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:756": 0.0
+  },
+  "scores_on_blocks_scored_by_both": {
+    "whole_exact_block": {
+      "blocks": 29,
+      "cer": 0.1216,
+      "wer": 0.2507,
+      "words_not_in_gold_per_100": 21.1
+    },
+    "whole_overlap_window": {
+      "blocks": 29,
+      "cer": 0.1284,
+      "wer": 0.2493,
+      "words_not_in_gold_per_100": 20.0
+    },
+    "split_overlap_window": {
+      "blocks": 29,
+      "cer": 0.2022,
+      "wer": 0.3144,
+      "words_not_in_gold_per_100": 21.6
+    }
+  },
+  "split_better": 7,
+  "split_worse": 22,
+  "blocks": [
+    {
+      "gold_id": "G01",
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:251",
+      "filename": "page-0251-69952e7c4a0f.jpg",
+      "bbox": [
+        0.083,
+        0.2359,
+        0.5029,
+        0.4094
+      ],
+      "whole_blocks": [
+        3
+      ],
+      "whole_window": "the principal manufactures are fluff and toboyen, lines of several forks, here, threads, folk, and worried fleidings, neckoloths cotton fluffy, gloves, handkerchiefs, flisks of feveralters, cold and five brecords, a variety of woollen manufactures, lats, paper, leather of alflor, earthous wers, poredain, toys, watches, clocks, and other hardwares, &c. the trade of switzerland is greatly promoted by many navigable lakes and rivers. in form of the above manufacture, and in dieels, butter, fleep, horfes, black cattle, hides, and flans, the experts are considerable and as the imports of the chiely granulated fish, with some americans at arielie goods, there is probably a large balance in their favour. in fome parts of switzerland dests is obtained by",
+      "exact_block": {
+        "ref_chars": 780,
+        "char_edits": 106,
+        "cer": 0.1359,
+        "ref_words": 120,
+        "word_edits": 44,
+        "wer": 0.3667,
+        "words_not_in_reference": 39,
+        "examples_not_in_reference": [
+          "fluff",
+          "toboyen,",
+          "lines",
+          "forks,",
+          "here,",
+          "threads,",
+          "folk,",
+          "worried"
+        ]
+      },
+      "whole": {
+        "ref_chars": 780,
+        "char_edits": 117,
+        "cer": 0.15,
+        "ref_words": 120,
+        "word_edits": 44,
+        "wer": 0.3667,
+        "words_not_in_reference": 37,
+        "examples_not_in_reference": [
+          "fluff",
+          "toboyen,",
+          "lines",
+          "forks,",
+          "here,",
+          "threads,",
+          "folk,",
+          "worried"
+        ]
+      },
+      "split_blocks": [
+        2
+      ],
+      "split_window": "the principal manufactures are fluff and tobomba then of several forks, face, threads, fills, and worked flockings, neckoloths, cotton fluffs, gloves, handkerchiets, filks of feveralters, gold and five horses, is, variety of wooden manufactures, lists, paper, leather, of alf forks, cartier wares, porcabin, toys, watches, clocks, and other hardwares, &c. there exist of switzerland is greatly promoted by many navigable lakes and rivers. in four of the above manufacture, and in cheeks, butter, fleep, horse, black cattle, hides, and flaces, the experts are comfortable and at the projects are echigly granulated fish with form. amercado and black goods, there is precisely a large balance is their favour. in some parts of switzerland this is",
+      "split": {
+        "ref_chars": 780,
+        "char_edits": 157,
+        "cer": 0.2013,
+        "ref_words": 120,
+        "word_edits": 51,
+        "wer": 0.425,
+        "words_not_in_reference": 39,
+        "examples_not_in_reference": [
+          "fluff",
+          "tobomba",
+          "then",
+          "forks,",
+          "face,",
+          "threads,",
+          "fills,",
+          "worked"
+        ]
+      }
+    },
+    {
+      "gold_id": "G02",
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:251",
+      "filename": "page-0251-69952e7c4a0f.jpg",
+      "bbox": [
+        0.085,
+        0.4102,
+        0.501,
+        0.5281
+      ],
+      "whole_blocks": [
+        4
+      ],
+      "whole_window": "the public revenues are in general very incredible, arising chiefly from the usual regular, appropriated every where to the foreignee, the domestic, and they gradually, voluntary contributions, the fate of falls, and a land tax; in the protected cantons, from the church lands alto that were fored at the reforation. except in zuricha, bern, bull, and schaffaudines, where the people are more industrations, have a greater trade and are richer than in the others,",
+      "exact_block": {
+        "ref_chars": 520,
+        "char_edits": 104,
+        "cer": 0.2,
+        "ref_words": 80,
+        "word_edits": 33,
+        "wer": 0.4125,
+        "words_not_in_reference": 25,
+        "examples_not_in_reference": [
+          "incredible,",
+          "regular,",
+          "every",
+          "foreignee,",
+          "domestic,",
+          "gradually,",
+          "fate",
+          "falls,"
+        ]
+      },
+      "whole": {
+        "ref_chars": 520,
+        "char_edits": 114,
+        "cer": 0.2192,
+        "ref_words": 80,
+        "word_edits": 33,
+        "wer": 0.4125,
+        "words_not_in_reference": 21,
+        "examples_not_in_reference": [
+          "incredible,",
+          "regular,",
+          "every",
+          "foreignee,",
+          "domestic,",
+          "gradually,",
+          "fate",
+          "falls,"
+        ]
+      },
+      "split_blocks": [
+        3
+      ],
+      "split_window": "the public creatures are in general very inconfortable, arting chiefly from the usual regalia, appropriated everywire to the foreign, the american, and public parties, voluntary contributions the future of life, and a had text; i., the protected cantons, from the church lands alo that were foret at the federation. except in zurich, abern, ball, and schallflanties, where the people are more industrations, large a greater trade and are rider than in the others, they deiry if the ordinary charges, and that is all.",
+      "split": {
+        "ref_chars": 520,
+        "char_edits": 86,
+        "cer": 0.1654,
+        "ref_words": 80,
+        "word_edits": 28,
+        "wer": 0.35,
+        "words_not_in_reference": 26,
+        "examples_not_in_reference": [
+          "creatures",
+          "inconfortable,",
+          "arting",
+          "everywire",
+          "foreign,",
+          "american,",
+          "parties,",
+          "future"
+        ]
+      }
+    },
+    {
+      "gold_id": "G03",
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:257",
+      "filename": "page-0257-012cf5a82a33.jpg",
+      "bbox": [
+        0.04,
+        0.0375,
+        0.5195,
+        0.2
+      ],
+      "whole_blocks": [
+        0
+      ],
+      "whole_window": "in his power to provide him indarwify. swift that person (10/3) in different, having previously taken his matter's degree at oxford, by means of a tellimonal from dublin, in which the world of debates were omitted. he was referred to enter into the church, where he felt great, forward was only l 100 aways, being the preband of kife rose in comey, which form time afterwards upon six wilson. i may hope's currently writing this back, but his house at moopark, he required in favour of a clergyman far advanced in years and burdened with a narrow family. for this man he folclicked the pretend, to which",
+      "exact_block": {
+        "ref_chars": 635,
+        "char_edits": 140,
+        "cer": 0.2205,
+        "ref_words": 109,
+        "word_edits": 44,
+        "wer": 0.4037,
+        "words_not_in_reference": 35,
+        "examples_not_in_reference": [
+          "indarwify.",
+          "that",
+          "person",
+          "(10/3)",
+          "different,",
+          "matter's",
+          "tellimonal",
+          "world"
+        ]
+      },
+      "whole": {
+        "ref_chars": 635,
+        "char_edits": 147,
+        "cer": 0.2315,
+        "ref_words": 109,
+        "word_edits": 43,
+        "wer": 0.3945,
+        "words_not_in_reference": 32,
+        "examples_not_in_reference": [
+          "indarwify.",
+          "that",
+          "person",
+          "(10/3)",
+          "different,",
+          "matter's",
+          "tellimonal",
+          "world"
+        ]
+      },
+      "split_blocks": [
+        1
+      ],
+      "split_window": "in his power to provide for him saturday, swift left his patron (105) in different, having previously taken his mother's degree at oxford, by means of a tellimional from dublin, in which the world didgues were omitted. he was reviewed to enter into church, where he felt pro-fetment was only lt00 away, being the prend of kil- was in comery, which form time attempts upon its wlfirm yumel's a meeting meeting back to his house at moorpek, he regained in favour of a clergyman far advanced in years and burdened with a numerous family. five this man he followed the priveled, in which",
+      "split": {
+        "ref_chars": 635,
+        "char_edits": 146,
+        "cer": 0.2299,
+        "ref_words": 109,
+        "word_edits": 37,
+        "wer": 0.3394,
+        "words_not_in_reference": 27,
+        "examples_not_in_reference": [
+          "saturday,",
+          "(105)",
+          "different,",
+          "mother's",
+          "tellimional",
+          "world",
+          "didgues",
+          "reviewed"
+        ]
+      }
+    },
+    {
+      "gold_id": "G04",
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:257",
+      "filename": "page-0257-012cf5a82a33.jpg",
+      "bbox": [
+        0.0986,
+        0.1992,
+        0.5244,
+        0.4125
+      ],
+      "whole_blocks": [
+        1
+      ],
+      "whole_window": "in his parents sir william temple, who left him a legacy in many, with the grocery of his manuscript; and, on his death-bed, obtained for him a proform for the long or for first petrol that should houses one can at wittenurle or overburnt. that this provides might not be forgotten, swift dedicated to the king the author among people with which he we weretrafed, and for a while attended the court;) but found found his obligation hopefuls. he was then invited by the end of berkeley to accompany him into friends, when after effective crew rapid fruppments, he obtained the brings of laurens and kathbeggin in the discredited march; i and soon afterwards invited over the enthusiast skullin a young woman of other sense of johnson, whole life be controlled to emballers, and whole days, though he certainly loved her, we may confondently afirm that he forecred by",
+      "exact_block": {
+        "ref_chars": 899,
+        "char_edits": 200,
+        "cer": 0.2225,
+        "ref_words": 152,
+        "word_edits": 56,
+        "wer": 0.3684,
+        "words_not_in_reference": 47,
+        "examples_not_in_reference": [
+          "i",
+          "love",
+          "swiffly",
+          "parents",
+          "many,",
+          "grocery",
+          "manuscript;",
+          "proform"
+        ]
+      },
+      "whole": {
+        "ref_chars": 899,
+        "char_edits": 210,
+        "cer": 0.2336,
+        "ref_words": 152,
+        "word_edits": 55,
+        "wer": 0.3618,
+        "words_not_in_reference": 43,
+        "examples_not_in_reference": [
+          "parents",
+          "many,",
+          "grocery",
+          "manuscript;",
+          "proform",
+          "long",
+          "petrol",
+          "houses"
+        ]
+      },
+      "split_blocks": [
+        2
+      ],
+      "split_window": "is copp swift in his patron sir william temple, who lets him singers in money with the prosynet frips, and, on his death-bed, obtained for him a pro profile from the long or the first pendard should that because one can at netchuller or everton, that this provides might not be forgotten, swift dedicated to the king the polline movie works with which we are created, and for a while attended the worst a but now found his following legends. he was then invited by the end of berkley to accompany him into friends, when, after effective over credit rripo pointments, but obtained the things of lenance and ralbeggin in the absence of mesht, and from afterwards invited over the enthusiastic muslim a young woman of the state of johan, whole life be contrived to embirates, and whose days, thoughhe certainly lived her, we may confundently afirm that he directed by",
+      "split": {
+        "ref_chars": 899,
+        "char_edits": 233,
+        "cer": 0.2592,
+        "ref_words": 152,
+        "word_edits": 64,
+        "wer": 0.4211,
+        "words_not_in_reference": 48,
+        "examples_not_in_reference": [
+          "is",
+          "copp",
+          "lets",
+          "singers",
+          "prosynet",
+          "frips,",
+          "pro",
+          "profile"
+        ]
+      }
+    },
+    {
+      "gold_id": "G05",
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:258",
+      "filename": "page-0258-631a7ae7df34.jpg",
+      "bbox": [
+        0.5342,
+        0.007,
+        0.958,
+        0.1102
+      ],
+      "whole_blocks": [
+        4
+      ],
+      "whole_window": "pulled by the nahoof bengal, who took its, and put met of those that had made resilience into place called the blak hels, where most of them were foreshored. this nahob was afterwards killed, and another fet up in his room, more friendly to the english, and the factory was re-fits-bilined. to loneg 86, o. n. las 22, 27.",
+      "exact_block": {
+        "ref_chars": 325,
+        "char_edits": 42,
+        "cer": 0.1292,
+        "ref_words": 61,
+        "word_edits": 20,
+        "wer": 0.3279,
+        "words_not_in_reference": 14,
+        "examples_not_in_reference": [
+          "pulled",
+          "nahoof",
+          "its,",
+          "met",
+          "resilience",
+          "blak",
+          "hels,",
+          "foreshored."
+        ]
+      },
+      "whole": {
+        "ref_chars": 325,
+        "char_edits": 42,
+        "cer": 0.1292,
+        "ref_words": 61,
+        "word_edits": 20,
+        "wer": 0.3279,
+        "words_not_in_reference": 14,
+        "examples_not_in_reference": [
+          "pulled",
+          "nahoof",
+          "its,",
+          "met",
+          "resilience",
+          "blak",
+          "hels,",
+          "foreshored."
+        ]
+      },
+      "split_blocks": [
+        4,
+        5,
+        6
+      ],
+      "split_window": "prified by the nahob of bengal, who took it, and put meth of their that had made additional into a place called the black friday, where none of them were fondered. the nahob was afterwards killed, and another for up in his own more friendly to the flagship, and the factory was re-efa­ bished. r. long: 86, 30, n.l. 22, 27.",
+      "split": {
+        "ref_chars": 325,
+        "char_edits": 62,
+        "cer": 0.1908,
+        "ref_words": 61,
+        "word_edits": 21,
+        "wer": 0.3443,
+        "words_not_in_reference": 17,
+        "examples_not_in_reference": [
+          "prified",
+          "nahob",
+          "meth",
+          "their",
+          "additional",
+          "friday,",
+          "none",
+          "fondered."
+        ]
+      }
+    },
+    {
+      "gold_id": "G06",
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:258",
+      "filename": "page-0258-631a7ae7df34.jpg",
+      "bbox": [
+        0.5352,
+        0.1164,
+        0.957,
+        0.2633
+      ],
+      "whole_blocks": [
+        5
+      ],
+      "whole_window": "willlamsburg, e town of north america, in virginia, and formerly capital of that fact. it is fuated between two rocks; one falling into james, and the other into york river. the distance of each landing place is about a mile from the town, which, with the chief advantage of not being able to bring large wells, and she want of enterprin in the inhabitants, has occhedinal as decay. here is a college, designed for the education of the indians, but which, as account of their services to learning, overau-fered the purple. it is 60 miles east of richmond. w. long, 76, 30, n. las 27, 10.",
+      "exact_block": {
+        "ref_chars": 599,
+        "char_edits": 58,
+        "cer": 0.0968,
+        "ref_words": 107,
+        "word_edits": 23,
+        "wer": 0.215,
+        "words_not_in_reference": 18,
+        "examples_not_in_reference": [
+          "willlamsburg,",
+          "e",
+          "fact.",
+          "fuated",
+          "rocks;",
+          "chief",
+          "advantage",
+          "wells,"
+        ]
+      },
+      "whole": {
+        "ref_chars": 599,
+        "char_edits": 58,
+        "cer": 0.0968,
+        "ref_words": 107,
+        "word_edits": 23,
+        "wer": 0.215,
+        "words_not_in_reference": 18,
+        "examples_not_in_reference": [
+          "willlamsburg,",
+          "e",
+          "fact.",
+          "fuated",
+          "rocks;",
+          "chief",
+          "advantage",
+          "wells,"
+        ]
+      },
+      "split_blocks": [
+        6,
+        7
+      ],
+      "split_window": "wellliamburgs, at town of north america in virginia, and formerly op of the date. it is limited between two creaks - one falling into james, and the other into york river. the dilance, of each landing place is about a mile from the town, which with the discourage of not being able to bring up large velfish, and the want of enterprise in the inhabitants, has occasionally be desary. here is an college; designed for the education of the indians, but which, on account of their attention to learning, never ana­ fvered the purports. it is 60 miles east of richmond. w.",
+      "split": {
+        "ref_chars": 599,
+        "char_edits": 91,
+        "cer": 0.1519,
+        "ref_words": 107,
+        "word_edits": 29,
+        "wer": 0.271,
+        "words_not_in_reference": 18,
+        "examples_not_in_reference": [
+          "wellliamburgs,",
+          "at",
+          "op",
+          "date.",
+          "limited",
+          "creaks",
+          "-",
+          "dilance,"
+        ]
+      }
+    },
+    {
+      "gold_id": "G07",
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:403",
+      "filename": "page-0403-44f912e1c323.jpg",
+      "bbox": [
+        0.4619,
+        0.0594,
+        0.873,
+        0.1484
+      ],
+      "whole_blocks": [
+        4
+      ],
+      "whole_window": "regi ruse le mopoe oppaar oppaarna, concerning the sacred last. chahidic ties in the island of morce 1 and another concerning the language, sacred therein. had these books survived the ravages of time, they would, in this age of research and consisary, have determined not only the point under the consideration, but likewise the affinity of sacred rites amongst the chaldeana, ethiopians, and",
+      "exact_block": {
+        "ref_chars": 391,
+        "char_edits": 83,
+        "cer": 0.2123,
+        "ref_words": 62,
+        "word_edits": 19,
+        "wer": 0.3065,
+        "words_not_in_reference": 16,
+        "examples_not_in_reference": [
+          "regi",
+          "ruse",
+          "le",
+          "mopoe",
+          "oppaar",
+          "oppaarna,",
+          "last.",
+          "chahidic"
+        ]
+      },
+      "whole": {
+        "ref_chars": 391,
+        "char_edits": 91,
+        "cer": 0.2327,
+        "ref_words": 62,
+        "word_edits": 19,
+        "wer": 0.3065,
+        "words_not_in_reference": 15,
+        "examples_not_in_reference": [
+          "regi",
+          "ruse",
+          "le",
+          "mopoe",
+          "oppaar",
+          "oppaarna,",
+          "last.",
+          "chahidic"
+        ]
+      },
+      "split_blocks": [
+        11
+      ],
+      "split_window": "requi vou le mopo lepeu spopnatau, concerning the sacred let. chalakic in in the island of there; and another concerning the language's sacred letters in babysus. that these books",
+      "split": {
+        "ref_chars": 391,
+        "char_edits": 279,
+        "cer": 0.7136,
+        "ref_words": 62,
+        "word_edits": 49,
+        "wer": 0.7903,
+        "words_not_in_reference": 12,
+        "examples_not_in_reference": [
+          "requi",
+          "vou",
+          "le",
+          "mopo",
+          "lepeu",
+          "spopnatau,",
+          "let.",
+          "chalakic"
+        ]
+      }
+    },
+    {
+      "gold_id": "G08",
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:403",
+      "filename": "page-0403-44f912e1c323.jpg",
+      "bbox": [
+        0.0527,
+        0.8758,
+        0.8672,
+        0.9016
+      ],
+      "whole_blocks": [
+        10
+      ],
+      "whole_window": "were the sacred characters of the egyptians.\" casslodorus likewise sesurs us, \"that the letters inserted upon the egyptian cheliska were the palestry.\" intentery discovers have refused these and other similar statements.",
+      "exact_block": {
+        "ref_chars": 222,
+        "char_edits": 31,
+        "cer": 0.1396,
+        "ref_words": 31,
+        "word_edits": 10,
+        "wer": 0.3226,
+        "words_not_in_reference": 8,
+        "examples_not_in_reference": [
+          "casslodorus",
+          "sesurs",
+          "inserted",
+          "cheliska",
+          "palestry.\"",
+          "intentery",
+          "discovers",
+          "refused"
+        ]
+      },
+      "whole": {
+        "ref_chars": 222,
+        "char_edits": 31,
+        "cer": 0.1396,
+        "ref_words": 31,
+        "word_edits": 10,
+        "wer": 0.3226,
+        "words_not_in_reference": 8,
+        "examples_not_in_reference": [
+          "casslodorus",
+          "sesurs",
+          "inserted",
+          "cheliska",
+          "palestry.\"",
+          "intentery",
+          "discovers",
+          "refused"
+        ]
+      },
+      "split_blocks": [
+        5,
+        6,
+        16
+      ],
+      "split_window": "does the same each characters of the egyptians.\" castoldora likes were chaldus.\". but recent discoveries have refused these and other",
+      "split": {
+        "ref_chars": 222,
+        "char_edits": 110,
+        "cer": 0.4955,
+        "ref_words": 31,
+        "word_edits": 19,
+        "wer": 0.6129,
+        "words_not_in_reference": 7,
+        "examples_not_in_reference": [
+          "does",
+          "same",
+          "each",
+          "castoldora",
+          "likes",
+          "chaldus.\".",
+          "refused"
+        ]
+      }
+    },
+    {
+      "gold_id": "G09",
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:681",
+      "filename": "page-0681-c2be06f2d615.jpg",
+      "bbox": [
+        0.0117,
+        0.0375,
+        0.4473,
+        0.0938
+      ],
+      "whole_blocks": [
+        1
+      ],
+      "whole_window": "the eye at a: fo that none of the rays that fall above h on below i, can be reflected to the eye at o; and the dif. stance between 6 and i is equal to half the length of the object ab.",
+      "exact_block": {
+        "ref_chars": 182,
+        "char_edits": 9,
+        "cer": 0.0495,
+        "ref_words": 42,
+        "word_edits": 7,
+        "wer": 0.1667,
+        "words_not_in_reference": 7,
+        "examples_not_in_reference": [
+          "a:",
+          "fo",
+          "h",
+          "on",
+          "dif.",
+          "stance",
+          "6"
+        ]
+      },
+      "whole": {
+        "ref_chars": 182,
+        "char_edits": 9,
+        "cer": 0.0495,
+        "ref_words": 42,
+        "word_edits": 7,
+        "wer": 0.1667,
+        "words_not_in_reference": 7,
+        "examples_not_in_reference": [
+          "a:",
+          "fo",
+          "h",
+          "on",
+          "dif.",
+          "stance",
+          "6"
+        ]
+      },
+      "split_blocks": [
+        1
+      ],
+      "split_window": "the eye at e: fo that none of the rays that fall above h on below, can be reflected to the eye at o; and the diftance between 6 and 1 is equal to half the length of the object. ab.",
+      "split": {
+        "ref_chars": 182,
+        "char_edits": 11,
+        "cer": 0.0604,
+        "ref_words": 42,
+        "word_edits": 10,
+        "wer": 0.2381,
+        "words_not_in_reference": 7,
+        "examples_not_in_reference": [
+          "e:",
+          "fo",
+          "h",
+          "on",
+          "diftance",
+          "6",
+          "1"
+        ]
+      }
+    },
+    {
+      "gold_id": "G10",
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:681",
+      "filename": "page-0681-c2be06f2d615.jpg",
+      "bbox": [
+        0.458,
+        0.6484,
+        0.8877,
+        0.8781
+      ],
+      "whole_blocks": [
+        10
+      ],
+      "whole_window": "if a beam of light sf, (no. 32.) that comes from the fun, paths into a dark room through f a round hole in a window fluter eg; this beam proceeding straight forwards, and falling upon a paper as y, would there make a round picture of the fun. this picture would be a confufed one indeed, if the hole is a large one and there is no lens in the hole. however, as this round f spotlight a a picture of the fun, we shall hereafter, notwithflanking its condition, call it by this name. now it a glafs prifm abc is placed between the hole in the window-fluiter and the paper at y, the rays of this term; by the refraction which they differ in the prifm, will be bent from their fruit courte, and instead of going to io as to fall upon the paper at y, they will be turned upwards, and the picture of the fun produced by them will fall upon a paper mn that is placed above y. if all the rays",
+      "exact_block": {
+        "ref_chars": 888,
+        "char_edits": 46,
+        "cer": 0.0518,
+        "ref_words": 179,
+        "word_edits": 25,
+        "wer": 0.1397,
+        "words_not_in_reference": 19,
+        "examples_not_in_reference": [
+          "fun,",
+          "paths",
+          "fluter",
+          "fun.",
+          "confufed",
+          "spotlight",
+          "fun,",
+          "notwithflanking"
+        ]
+      },
+      "whole": {
+        "ref_chars": 888,
+        "char_edits": 46,
+        "cer": 0.0518,
+        "ref_words": 179,
+        "word_edits": 25,
+        "wer": 0.1397,
+        "words_not_in_reference": 19,
+        "examples_not_in_reference": [
+          "fun,",
+          "paths",
+          "fluter",
+          "fun.",
+          "confufed",
+          "spotlight",
+          "fun,",
+          "notwithflanking"
+        ]
+      },
+      "split_blocks": [
+        14
+      ],
+      "split_window": "if a beam of light sp, (no. 32) that comes from the fun, paffes into a dark room through f a round hole in a window thutter eg; this beam proceeding straight forwards, and falling upon a paper at y, would there make a round picture of the fun. this picture would be a confused one indeed, if the hole is a large one and there is no lens in the hole. however, as this round fpot of light is a picture of the fun, we shall hereafter, neverthelessing its confusion, call it by this name. now if a glats prim abc is placed between the hole in the windowshurer and the paper at y, the rays of this beam, by the refraction which they differ in the prin, will be bent from their first counts, and instead of going on fo as to fall upon the paper at y, they will be turned upwards, and the picture of the fun produced by them will fall upon a paper mn that is placed above y. if all the rays",
+      "split": {
+        "ref_chars": 888,
+        "char_edits": 35,
+        "cer": 0.0394,
+        "ref_words": 179,
+        "word_edits": 18,
+        "wer": 0.1006,
+        "words_not_in_reference": 17,
+        "examples_not_in_reference": [
+          "sp,",
+          "fun,",
+          "paffes",
+          "thutter",
+          "fun.",
+          "fpot",
+          "fun,",
+          "neverthelessing"
+        ]
+      }
+    },
+    {
+      "gold_id": "G11",
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:756",
+      "filename": "page-0756-33eb91fcbe8d.jpg",
+      "bbox": [
+        0.4707,
+        0.6414,
+        0.8564,
+        0.8023
+      ],
+      "whole_blocks": [
+        14
+      ],
+      "whole_window": "a each of the magnets a and b, in either of the positions reprefened in fig. 12. would alone attract the piece of common iron. but when placed together, the fourth pole of 8 tends to render the upper end of c a north pole; while the north pole of b tends to take it a south pole. if there actions be nearly equal, the weight of c cannot be supposedly be the magnifin induced by any difference of action that may remain. while c is hanging d i alone, let. a be gradually enough tree, it gradually thorley the action of the north pole of b, to that c gradually lofos its magnifin and polarity, and its weight",
+      "exact_block": {
+        "ref_chars": 622,
+        "char_edits": 51,
+        "cer": 0.082,
+        "ref_words": 121,
+        "word_edits": 21,
+        "wer": 0.1736,
+        "words_not_in_reference": 15,
+        "examples_not_in_reference": [
+          "reprefened",
+          "fourth",
+          "8",
+          "take",
+          "there",
+          "supposedly",
+          "magnifin",
+          "d"
+        ]
+      },
+      "whole": {
+        "ref_chars": 622,
+        "char_edits": 57,
+        "cer": 0.0916,
+        "ref_words": 121,
+        "word_edits": 21,
+        "wer": 0.1736,
+        "words_not_in_reference": 14,
+        "examples_not_in_reference": [
+          "reprefened",
+          "fourth",
+          "8",
+          "take",
+          "there",
+          "supposedly",
+          "magnifin",
+          "d"
+        ]
+      },
+      "split_blocks": [
+        15
+      ],
+      "split_window": "such of the magues a and b, in either of the politions represented in fig. 12, would alone attract the piece of common iron c. but when placed together, the fault of side of a tends to reduce the upper end of c a north pole; while the north pole of b tends to make a of both good. if their actions he nearly equal, the weight of c cannot depend by the magnetic induced by any difference of action that may remain. while c is hanging by b along, it does, it is the gradually length tears; it gradually destroys the action of the north pole of b, fo that i gradually lotes in magnetic and polarity and its weight prevails.",
+      "split": {
+        "ref_chars": 622,
+        "char_edits": 73,
+        "cer": 0.1174,
+        "ref_words": 121,
+        "word_edits": 31,
+        "wer": 0.2562,
+        "words_not_in_reference": 19,
+        "examples_not_in_reference": [
+          "such",
+          "magues",
+          "politions",
+          "fault",
+          "side",
+          "reduce",
+          "both",
+          "good."
+        ]
+      }
+    },
+    {
+      "gold_id": "G12",
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:756",
+      "filename": "page-0756-33eb91fcbe8d.jpg",
+      "bbox": [
+        0.4717,
+        0.8016,
+        0.8545,
+        0.9227
+      ],
+      "whole_blocks": [
+        15
+      ],
+      "whole_window": "§. he all three cases where the induction of magnetifism is flow, the attraction is weak in proportion. this is particularly remarked by dr gilbers. if we take piece of common iron, and of fleet of different temps, but all of the fame fine and form, we shall find that the iron is much more thought attracted than any of the rel, and that the attraction for each of them a weaker proportion as they are harder. this liberty is to accurately observed, that when the piece is thoroughly",
+      "exact_block": {
+        "ref_chars": 493,
+        "char_edits": 35,
+        "cer": 0.071,
+        "ref_words": 90,
+        "word_edits": 17,
+        "wer": 0.1889,
+        "words_not_in_reference": 15,
+        "examples_not_in_reference": [
+          "§.",
+          "he",
+          "three",
+          "magnetifism",
+          "flow,",
+          "gilbers.",
+          "fleet",
+          "temps,"
+        ]
+      },
+      "whole": {
+        "ref_chars": 493,
+        "char_edits": 35,
+        "cer": 0.071,
+        "ref_words": 90,
+        "word_edits": 17,
+        "wer": 0.1889,
+        "words_not_in_reference": 15,
+        "examples_not_in_reference": [
+          "§.",
+          "he",
+          "three",
+          "magnetifism",
+          "flow,",
+          "gilbers.",
+          "fleet",
+          "temps,"
+        ]
+      },
+      "split_blocks": [
+        16
+      ],
+      "split_window": "3. it is all these exits where the induction of magnetic is flow, the attraction is weak in proportion. this is particularly remarked by dr gilters. if we take pieces of common iron, and of feel of different tempers, but all of the fame fine and form, we shall find that the iron is much more strongly attracted than any of the red, and that the attraction for each of them is weaker in proportion as they are harder. this liberty is to accurately obferred, that when the piece is thoroughly",
+      "split": {
+        "ref_chars": 493,
+        "char_edits": 28,
+        "cer": 0.0568,
+        "ref_words": 90,
+        "word_edits": 14,
+        "wer": 0.1556,
+        "words_not_in_reference": 13,
+        "examples_not_in_reference": [
+          "it",
+          "these",
+          "exits",
+          "magnetic",
+          "flow,",
+          "gilters.",
+          "feel",
+          "fame"
+        ]
+      }
+    },
+    {
+      "gold_id": "G13",
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1017",
+      "filename": "page-1017-5395deb0e141.jpg",
+      "bbox": [
+        0.0615,
+        0.5555,
+        0.4766,
+        0.6922
+      ],
+      "whole_blocks": [
+        5
+      ],
+      "whole_window": "helleborus, helleborr, in botany, a genus of the polyandria polygynia clafs. i has an cally, the perais are five or more; the reclaim is tubular and blue biarded; and the capital contains many feeds. there are five species, two of them native of britain, viz. the females, or great balham black hellebore; and the visida, or wild black hellebore. the hellebors, when taken in large quantities, is polinous; but the root, in final dates, is fuppeded to attenuate the humours, and to promote urinary and uterine",
+      "exact_block": {
+        "ref_chars": 527,
+        "char_edits": 52,
+        "cer": 0.0987,
+        "ref_words": 86,
+        "word_edits": 21,
+        "wer": 0.2442,
+        "words_not_in_reference": 21,
+        "examples_not_in_reference": [
+          "helleborr,",
+          "clafs.",
+          "i",
+          "an",
+          "cally,",
+          "perais",
+          "reclaim",
+          "blue"
+        ]
+      },
+      "whole": {
+        "ref_chars": 527,
+        "char_edits": 63,
+        "cer": 0.1195,
+        "ref_words": 86,
+        "word_edits": 21,
+        "wer": 0.2442,
+        "words_not_in_reference": 20,
+        "examples_not_in_reference": [
+          "helleborr,",
+          "clafs.",
+          "i",
+          "an",
+          "cally,",
+          "perais",
+          "reclaim",
+          "blue"
+        ]
+      },
+      "split_blocks": [
+        3
+      ],
+      "split_window": "heilenions, in matters of language, a pharfe in the idiom, genius, or confirmation of the greek tongue. this word is why fueled when freelance of the authors who, writing in different language, express themfulves in a phrafecology peculiar to the",
+      "split": {
+        "ref_chars": 527,
+        "char_edits": 388,
+        "cer": 0.7362,
+        "ref_words": 86,
+        "word_edits": 75,
+        "wer": 0.8721,
+        "words_not_in_reference": 23,
+        "examples_not_in_reference": [
+          "heilenions,",
+          "matters",
+          "language,",
+          "pharfe",
+          "idiom,",
+          "genius,",
+          "confirmation",
+          "greek"
+        ]
+      }
+    },
+    {
+      "gold_id": "G14",
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1017",
+      "filename": "page-1017-5395deb0e141.jpg",
+      "bbox": [
+        0.5,
+        0.5289,
+        0.8916,
+        0.582
+      ],
+      "whole_blocks": [
+        18
+      ],
+      "whole_window": "the femme of sparta were forbidden the excerite of any mean on mechanical employment, and therefore the whole care of fupplying the city with necefairs develop upon the",
+      "exact_block": {
+        "ref_chars": 181,
+        "char_edits": 21,
+        "cer": 0.116,
+        "ref_words": 29,
+        "word_edits": 7,
+        "wer": 0.2414,
+        "words_not_in_reference": 7,
+        "examples_not_in_reference": [
+          "femme",
+          "excerite",
+          "on",
+          "fupplying",
+          "necefairs",
+          "develop",
+          "filters."
+        ]
+      },
+      "whole": {
+        "ref_chars": 181,
+        "char_edits": 24,
+        "cer": 0.1326,
+        "ref_words": 29,
+        "word_edits": 7,
+        "wer": 0.2414,
+        "words_not_in_reference": 6,
+        "examples_not_in_reference": [
+          "femme",
+          "excerite",
+          "on",
+          "fupplying",
+          "necefairs",
+          "develop"
+        ]
+      },
+      "split_blocks": [
+        14
+      ],
+      "split_window": "the freemen of sparta were forbidden the excerofa of any men or mechanical emption, and therefore the whole care of fogploying the city with necflatives devolved upon the helots.",
+      "split": {
+        "ref_chars": 181,
+        "char_edits": 21,
+        "cer": 0.116,
+        "ref_words": 29,
+        "word_edits": 5,
+        "wer": 0.1724,
+        "words_not_in_reference": 5,
+        "examples_not_in_reference": [
+          "excerofa",
+          "men",
+          "emption,",
+          "fogploying",
+          "necflatives"
+        ]
+      }
+    },
+    {
+      "gold_id": "G15",
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1166",
+      "filename": "page-1166-ec9dc1d6c2c9.jpg",
+      "bbox": [
+        0.042,
+        0.2422,
+        0.458,
+        0.3172
+      ],
+      "whole_blocks": [
+        4
+      ],
+      "whole_window": "this is capable of being rightly demonstrated. no benedit is obtained by making choices of a man who as well qualified to serve the people, and also well inclined to were them, if you place him in an situation in which we will have preponderant motives to serve himself at their expense.",
+      "exact_block": {
+        "ref_chars": 286,
+        "char_edits": 9,
+        "cer": 0.0315,
+        "ref_words": 52,
+        "word_edits": 7,
+        "wer": 0.1346,
+        "words_not_in_reference": 7,
+        "examples_not_in_reference": [
+          "rightly",
+          "benedit",
+          "choices",
+          "as",
+          "were",
+          "an",
+          "we"
+        ]
+      },
+      "whole": {
+        "ref_chars": 286,
+        "char_edits": 9,
+        "cer": 0.0315,
+        "ref_words": 52,
+        "word_edits": 7,
+        "wer": 0.1346,
+        "words_not_in_reference": 7,
+        "examples_not_in_reference": [
+          "rightly",
+          "benedit",
+          "choices",
+          "as",
+          "were",
+          "an",
+          "we"
+        ]
+      },
+      "split_blocks": [
+        3
+      ],
+      "split_window": "this is capable of being rapidly demonstrated. no be-side is obtained by making choices of a nota who is well qualified to serve the people, and also well inclined to serve them, if you place him in a situation in which he will be prependent motives to serve himself at their expense.",
+      "split": {
+        "ref_chars": 286,
+        "char_edits": 18,
+        "cer": 0.0629,
+        "ref_words": 52,
+        "word_edits": 6,
+        "wer": 0.1154,
+        "words_not_in_reference": 6,
+        "examples_not_in_reference": [
+          "rapidly",
+          "be-side",
+          "choices",
+          "nota",
+          "be",
+          "prependent"
+        ]
+      }
+    },
+    {
+      "gold_id": "G16",
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1166",
+      "filename": "page-1166-ec9dc1d6c2c9.jpg",
+      "bbox": [
+        0.4678,
+        0.0805,
+        0.8945,
+        0.1461
+      ],
+      "whole_blocks": [
+        11
+      ],
+      "whole_window": "one thing more is necessary, and so necessary, that if it is wanting, the other might as well be wanting also. the publishes of the proceeding tells me that it alone. this, however, is useless, unless a correct judgment is passed upon what is done.",
+      "exact_block": {
+        "ref_chars": 247,
+        "char_edits": 14,
+        "cer": 0.0567,
+        "ref_words": 44,
+        "word_edits": 6,
+        "wer": 0.1364,
+        "words_not_in_reference": 4,
+        "examples_not_in_reference": [
+          "publishes",
+          "proceeding",
+          "me",
+          "alone."
+        ]
+      },
+      "whole": {
+        "ref_chars": 247,
+        "char_edits": 14,
+        "cer": 0.0567,
+        "ref_words": 44,
+        "word_edits": 6,
+        "wer": 0.1364,
+        "words_not_in_reference": 4,
+        "examples_not_in_reference": [
+          "publishes",
+          "proceeding",
+          "me",
+          "alone."
+        ]
+      },
+      "split_blocks": [
+        11
+      ],
+      "split_window": "one thing more is necessary; and so necessary, that if it is wanting, the other might as well be wanting also. the publication of the proceedings tells what is done. this, however, in useless, unless is correct judgment is passed upon what is done.",
+      "split": {
+        "ref_chars": 247,
+        "char_edits": 4,
+        "cer": 0.0162,
+        "ref_words": 44,
+        "word_edits": 3,
+        "wer": 0.0682,
+        "words_not_in_reference": 1,
+        "examples_not_in_reference": [
+          "in"
+        ]
+      }
+    },
+    {
+      "gold_id": "G17",
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1250",
+      "filename": "page-1250-2e0c75f85418.jpg",
+      "bbox": [
+        0.1514,
+        0.1664,
+        0.5361,
+        0.2367
+      ],
+      "whole_blocks": [
+        3
+      ],
+      "whole_window": "coin, in architecture, a kind of are cut diagonal, wife, after the manner of a flight of a fluid-cafe, fering in bottom to support columns in a level, and at top to correct the inclination of an entalature fuipputting a",
+      "exact_block": {
+        "ref_chars": 225,
+        "char_edits": 24,
+        "cer": 0.1067,
+        "ref_words": 40,
+        "word_edits": 9,
+        "wer": 0.225,
+        "words_not_in_reference": 8,
+        "examples_not_in_reference": [
+          "are",
+          "diagonal,",
+          "wife,",
+          "fluid-cafe,",
+          "fering",
+          "entalature",
+          "fuipputting",
+          "room."
+        ]
+      },
+      "whole": {
+        "ref_chars": 225,
+        "char_edits": 26,
+        "cer": 0.1156,
+        "ref_words": 40,
+        "word_edits": 9,
+        "wer": 0.225,
+        "words_not_in_reference": 7,
+        "examples_not_in_reference": [
+          "are",
+          "diagonal,",
+          "wife,",
+          "fluid-cafe,",
+          "fering",
+          "entalature",
+          "fuipputting"
+        ]
+      },
+      "split_blocks": [
+        3
+      ],
+      "split_window": "coix, in architecture, a kind of dye cut diagonalwife after the manner of a fliphe of allerded for -ving as bottom to support columns in a level, and at top to correct the tachination of an entaltature fupporting a",
+      "split": {
+        "ref_chars": 225,
+        "char_edits": 33,
+        "cer": 0.1467,
+        "ref_words": 40,
+        "word_edits": 11,
+        "wer": 0.275,
+        "words_not_in_reference": 10,
+        "examples_not_in_reference": [
+          "coix,",
+          "diagonalwife",
+          "fliphe",
+          "allerded",
+          "for",
+          "-ving",
+          "as",
+          "tachination"
+        ]
+      }
+    },
+    {
+      "gold_id": "G18",
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1250",
+      "filename": "page-1250-2e0c75f85418.jpg",
+      "bbox": [
+        0.1523,
+        0.2359,
+        0.5371,
+        0.3008
+      ],
+      "whole_blocks": [
+        4
+      ],
+      "whole_window": "coin is allo uled for a field angle compofol of two surfaces inclined towards each other, whether that angle be exterior, as the coin of a wall, a tree, fcc or interior, as the coin of a chamber or chimary. see",
+      "exact_block": {
+        "ref_chars": 217,
+        "char_edits": 16,
+        "cer": 0.0737,
+        "ref_words": 42,
+        "word_edits": 7,
+        "wer": 0.1667,
+        "words_not_in_reference": 7,
+        "examples_not_in_reference": [
+          "allo",
+          "uled",
+          "field",
+          "compofol",
+          "fcc",
+          "chimary.",
+          "qouo."
+        ]
+      },
+      "whole": {
+        "ref_chars": 217,
+        "char_edits": 20,
+        "cer": 0.0922,
+        "ref_words": 42,
+        "word_edits": 7,
+        "wer": 0.1667,
+        "words_not_in_reference": 6,
+        "examples_not_in_reference": [
+          "allo",
+          "uled",
+          "field",
+          "compofol",
+          "fcc",
+          "chimary."
+        ]
+      },
+      "split_blocks": [
+        4
+      ],
+      "split_window": "coix is lilo useful for a folid angle compoofed two surfaces inclined towards each other, whether that angle be exterior, as the coin of a wall, a tree, arc or interior, as the coin of a chamber or chimney. see",
+      "split": {
+        "ref_chars": 217,
+        "char_edits": 23,
+        "cer": 0.106,
+        "ref_words": 42,
+        "word_edits": 8,
+        "wer": 0.1905,
+        "words_not_in_reference": 6,
+        "examples_not_in_reference": [
+          "coix",
+          "lilo",
+          "useful",
+          "folid",
+          "compoofed",
+          "arc"
+        ]
+      }
+    },
+    {
+      "gold_id": "G19",
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1324",
+      "filename": "page-1324-2cfbaa25a150.jpg",
+      "bbox": [
+        0.0869,
+        0.8187,
+        0.4707,
+        0.9383
+      ],
+      "whole_blocks": [
+        2
+      ],
+      "whole_window": "warnish is undoubtedly an beneficial to hedges as trees; and the walls give an efficient holder, which in expected titanium is absolutely necessary for resting young hedges; and they likewise prefere a proper degree of smaller income about the treats. if the hedges have been planted for six or even years before the wall is bulk, cut them over to two or three inches above the ground with a sharp root, either in october or november, or early in the spring; and crack the",
+      "exact_block": {
+        "ref_chars": 469,
+        "char_edits": 47,
+        "cer": 0.1002,
+        "ref_words": 83,
+        "word_edits": 15,
+        "wer": 0.1807,
+        "words_not_in_reference": 14,
+        "examples_not_in_reference": [
+          "warnish",
+          "efficient",
+          "holder,",
+          "expected",
+          "titanium",
+          "resting",
+          "prefere",
+          "smaller"
+        ]
+      },
+      "whole": {
+        "ref_chars": 469,
+        "char_edits": 47,
+        "cer": 0.1002,
+        "ref_words": 83,
+        "word_edits": 15,
+        "wer": 0.1807,
+        "words_not_in_reference": 14,
+        "examples_not_in_reference": [
+          "warnish",
+          "efficient",
+          "holder,",
+          "expected",
+          "titanium",
+          "resting",
+          "prefere",
+          "smaller"
+        ]
+      },
+      "split_blocks": [
+        3
+      ],
+      "split_window": "warmth is undoubtedly as beneficial to hedges as 14 s, and the walls give an official flutes, which in speed function is molotley seclary for resting young hedges; and they likewise prefer a proper degree of mollure about the roots. if the hedger has been placed for for every years before the wall is bulk, cut them over to two or three inches above the ground with a sharp tool, either in october or november, or only in the frying 5 and credit the",
+      "split": {
+        "ref_chars": 469,
+        "char_edits": 67,
+        "cer": 0.1429,
+        "ref_words": 83,
+        "word_edits": 22,
+        "wer": 0.2651,
+        "words_not_in_reference": 20,
+        "examples_not_in_reference": [
+          "14",
+          "s,",
+          "official",
+          "flutes,",
+          "speed",
+          "function",
+          "molotley",
+          "seclary"
+        ]
+      }
+    },
+    {
+      "gold_id": "G20",
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1324",
+      "filename": "page-1324-2cfbaa25a150.jpg",
+      "bbox": [
+        0.4717,
+        0.8047,
+        0.9219,
+        0.9398
+      ],
+      "whole_blocks": [
+        5
+      ],
+      "whole_window": "much has been laid of the excellence of the holly red me as a material of hedges and indeed the beauty of what of plants with its extreme cloleres, and containing and rolling green throughout the winter, evidently gives the peo only for ference to all others and could it be rafted with equal hedges, they, is no doubt that it would come into our vertical practice. hidden the above properties, the holly will thrive almost upon any foil; but thin-folded flowy heights (em to be its natural fiturions; and it may plogely enough be fail, that holly will grow",
+      "exact_block": {
+        "ref_chars": 528,
+        "char_edits": 88,
+        "cer": 0.1667,
+        "ref_words": 92,
+        "word_edits": 33,
+        "wer": 0.3587,
+        "words_not_in_reference": 25,
+        "examples_not_in_reference": [
+          "laid",
+          "excellence",
+          "red",
+          "me",
+          "what",
+          "plants",
+          "cloleres,",
+          "containing"
+        ]
+      },
+      "whole": {
+        "ref_chars": 528,
+        "char_edits": 88,
+        "cer": 0.1667,
+        "ref_words": 92,
+        "word_edits": 33,
+        "wer": 0.3587,
+        "words_not_in_reference": 25,
+        "examples_not_in_reference": [
+          "laid",
+          "excellence",
+          "red",
+          "me",
+          "what",
+          "plants",
+          "cloleres,",
+          "containing"
+        ]
+      },
+      "split_blocks": [
+        9,
+        10
+      ],
+      "split_window": "much has been laid of the excellence of the holly better as a material for hedges and indeed the beauty of the old the plant, with the extreme deferred, and continuing planting green throughout the winter, especially great the pretty for reference to all others; and could it be needed with equal localgeeafs, there is no doubt that it would come into unterial practices. besides the above properties, the holly will thrive almost upon any fall but in life-federal they heights form to be its natural situation; and it may properly enough be full, that holly will grow",
+      "split": {
+        "ref_chars": 528,
+        "char_edits": 104,
+        "cer": 0.197,
+        "ref_words": 92,
+        "word_edits": 26,
+        "wer": 0.2826,
+        "words_not_in_reference": 20,
+        "examples_not_in_reference": [
+          "laid",
+          "excellence",
+          "better",
+          "old",
+          "deferred,",
+          "planting",
+          "especially",
+          "great"
+        ]
+      }
+    },
+    {
+      "gold_id": "G21",
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1614",
+      "filename": "page-1614-ea352b487d65.jpg",
+      "bbox": [
+        0.5156,
+        0.0727,
+        0.5273,
+        0.1273
+      ],
+      "whole_blocks": [
+        3
+      ],
+      "whole_window": null,
+      "exact_block": null,
+      "whole": null,
+      "split_blocks": null,
+      "split_window": null,
+      "split": null
+    },
+    {
+      "gold_id": "G22",
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1614",
+      "filename": "page-1614-ea352b487d65.jpg",
+      "bbox": [
+        0.1201,
+        0.4406,
+        0.5186,
+        0.5891
+      ],
+      "whole_blocks": [
+        7
+      ],
+      "whole_window": "the ordinary or common origin worn by the knights, is a flat of four river points, and over them a green circled, borders and offered through pink, containing the find motto, and in the camera is a thilfe proper, all which is embroidered on their left breastf, and womb with the collay, with a great method over the shoulder, and brought under the right arm i pender thereto is the iimage of st andrew, with his crois, in a purple robe, within an oral of gold canamelled very, with the former motto - but femonettes they were, existed in the june manner, a hittle crowned.",
+      "exact_block": {
+        "ref_chars": 576,
+        "char_edits": 84,
+        "cer": 0.1458,
+        "ref_words": 104,
+        "word_edits": 33,
+        "wer": 0.3173,
+        "words_not_in_reference": 29,
+        "examples_not_in_reference": [
+          "origin",
+          "flat",
+          "river",
+          "circled,",
+          "borders",
+          "offered",
+          "through",
+          "pink,"
+        ]
+      },
+      "whole": {
+        "ref_chars": 576,
+        "char_edits": 84,
+        "cer": 0.1458,
+        "ref_words": 104,
+        "word_edits": 33,
+        "wer": 0.3173,
+        "words_not_in_reference": 29,
+        "examples_not_in_reference": [
+          "origin",
+          "flat",
+          "river",
+          "circled,",
+          "borders",
+          "offered",
+          "through",
+          "pink,"
+        ]
+      },
+      "split_blocks": [
+        5
+      ],
+      "split_window": "the ordinary or common cnfg worn by the knights, is a flat of four filter points, and over them a green circle, borders and flerted wildpeld, containing the field mootes, and in the course is a little proper, all which is embroided to doin left breastf, and wom with the collars, who a greater than one the let shoulder, and brought under the right arm | pendent thereto is the image of st andrew, with his crofs, in a purple robe, within an order of gold canamelled vert, with the former motto - but femenates they were, excited in the flame maners, a white crowned.",
+      "split": {
+        "ref_chars": 576,
+        "char_edits": 89,
+        "cer": 0.1545,
+        "ref_words": 104,
+        "word_edits": 36,
+        "wer": 0.3462,
+        "words_not_in_reference": 32,
+        "examples_not_in_reference": [
+          "cnfg",
+          "flat",
+          "filter",
+          "borders",
+          "flerted",
+          "wildpeld,",
+          "field",
+          "mootes,"
+        ]
+      }
+    },
+    {
+      "gold_id": "G23",
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2001",
+      "filename": "page-2001-93040a5ab362.jpg",
+      "bbox": [
+        0.4668,
+        0.0672,
+        0.8633,
+        0.2023
+      ],
+      "whole_blocks": [
+        2
+      ],
+      "whole_window": "as to the revenue, the excife here in levied only in the walled towns, being on the fame footing as in the mmunific of brandenburg; but in the rest of the coun-try the contributions are fixed, and the time both in peace and var. the several branches of the revenues are under the management of the war and domain offices of berlher and clugas. the whole revenue arling to the king of praffia from sfislio and the country of glatz amounts to about four millions of rix-dollars per",
+      "exact_block": {
+        "ref_chars": 486,
+        "char_edits": 41,
+        "cer": 0.0844,
+        "ref_words": 89,
+        "word_edits": 15,
+        "wer": 0.1685,
+        "words_not_in_reference": 13,
+        "examples_not_in_reference": [
+          "excife",
+          "fame",
+          "mmunific",
+          "coun-try",
+          "time",
+          "var.",
+          "revenues",
+          "berlher"
+        ]
+      },
+      "whole": {
+        "ref_chars": 486,
+        "char_edits": 42,
+        "cer": 0.0864,
+        "ref_words": 89,
+        "word_edits": 15,
+        "wer": 0.1685,
+        "words_not_in_reference": 12,
+        "examples_not_in_reference": [
+          "excife",
+          "fame",
+          "mmunific",
+          "coun-try",
+          "time",
+          "var.",
+          "revenues",
+          "berlher"
+        ]
+      },
+      "split_blocks": [
+        3
+      ],
+      "split_window": "as to the revenus, the excile here is levied only in the walled towns, being on the faming foras in the mumphine of brandenburg but in the end of the country the contributions are lived, and the fame both in peace and war. the overall branches of the revenue are under the management of the war and domain offices of bertha and glasgow. the whole revenus arising to the king of praufia from silela and the county of gliant amounts to about four millions of rix-dollars per annum.",
+      "split": {
+        "ref_chars": 486,
+        "char_edits": 47,
+        "cer": 0.0967,
+        "ref_words": 89,
+        "word_edits": 17,
+        "wer": 0.191,
+        "words_not_in_reference": 15,
+        "examples_not_in_reference": [
+          "revenus,",
+          "excile",
+          "faming",
+          "foras",
+          "mumphine",
+          "end",
+          "lived,",
+          "fame"
+        ]
+      }
+    },
+    {
+      "gold_id": "G24",
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2001",
+      "filename": "page-2001-93040a5ab362.jpg",
+      "bbox": [
+        0.4678,
+        0.2031,
+        0.8623,
+        0.3187
+      ],
+      "whole_blocks": [
+        3
+      ],
+      "whole_window": "sliela is divided into upper and lower, and each of their again into principalities and localities; of some of which both the property and justifiable belong, purity diately to the foreigners, but of others to his subjects and walks. in regard to the character of the employ the bears are accurate very dull and lupid; but of thofo of a higher rank, many have dilinguished themselves by their virtual learning, as well as by their military and political talents.",
+      "exact_block": {
+        "ref_chars": 464,
+        "char_edits": 60,
+        "cer": 0.1293,
+        "ref_words": 79,
+        "word_edits": 17,
+        "wer": 0.2152,
+        "words_not_in_reference": 14,
+        "examples_not_in_reference": [
+          "sliela",
+          "localities;",
+          "justifiable",
+          "purity",
+          "diately",
+          "foreigners,",
+          "walks.",
+          "employ"
+        ]
+      },
+      "whole": {
+        "ref_chars": 464,
+        "char_edits": 60,
+        "cer": 0.1293,
+        "ref_words": 79,
+        "word_edits": 17,
+        "wer": 0.2152,
+        "words_not_in_reference": 14,
+        "examples_not_in_reference": [
+          "sliela",
+          "localities;",
+          "justifiable",
+          "purity",
+          "diately",
+          "foreigners,",
+          "walks.",
+          "employ"
+        ]
+      },
+      "split_blocks": [
+        4
+      ],
+      "split_window": "silana is divided into upper and lower, and each of these again into principalities and landlings, of force of which but the property and profitifals belong primarily to the foreverign, but of others to his subjects and walks. in regard to the character of the people, the boxes are assumed very dull and liquid, but not ofhole of a higher rank, many have diltinguified themselves by their vit and learning, as well as by their military and political",
+      "split": {
+        "ref_chars": 464,
+        "char_edits": 72,
+        "cer": 0.1552,
+        "ref_words": 79,
+        "word_edits": 16,
+        "wer": 0.2025,
+        "words_not_in_reference": 14,
+        "examples_not_in_reference": [
+          "silana",
+          "landlings,",
+          "force",
+          "profitifals",
+          "primarily",
+          "foreverign,",
+          "walks.",
+          "boxes"
+        ]
+      }
+    },
+    {
+      "gold_id": "G25",
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2171",
+      "filename": "page-2171-f8869fa95f19.jpg",
+      "bbox": [
+        0.1221,
+        0.2289,
+        0.5283,
+        0.3086
+      ],
+      "whole_blocks": [
+        5
+      ],
+      "whole_window": "atchievement, in heralyly denotes the arms of a person, or family, together with all the exterior ornament of the fluid; as helmes, mantle, credit, fcrolls, and motto, together with fuch quarterings as may have been acquired by aliiances, all marhalled in order.",
+      "exact_block": {
+        "ref_chars": 265,
+        "char_edits": 16,
+        "cer": 0.0604,
+        "ref_words": 42,
+        "word_edits": 9,
+        "wer": 0.2143,
+        "words_not_in_reference": 9,
+        "examples_not_in_reference": [
+          "heralyly",
+          "ornament",
+          "fluid;",
+          "helmes,",
+          "credit,",
+          "fcrolls,",
+          "fuch",
+          "aliiances,"
+        ]
+      },
+      "whole": {
+        "ref_chars": 265,
+        "char_edits": 16,
+        "cer": 0.0604,
+        "ref_words": 42,
+        "word_edits": 9,
+        "wer": 0.2143,
+        "words_not_in_reference": 9,
+        "examples_not_in_reference": [
+          "heralyly",
+          "ornament",
+          "fluid;",
+          "helmes,",
+          "credit,",
+          "fcrolls,",
+          "fuch",
+          "aliiances,"
+        ]
+      },
+      "split_blocks": [
+        5,
+        6
+      ],
+      "split_window": "ufed in turky, and worth only one third of the english penny. atchieven. this term is derived from the french acharne, i.e., to find to make an end of, but figuties, in",
+      "split": {
+        "ref_chars": 265,
+        "char_edits": 192,
+        "cer": 0.7245,
+        "ref_words": 42,
+        "word_edits": 38,
+        "wer": 0.9048,
+        "words_not_in_reference": 25,
+        "examples_not_in_reference": [
+          "ufed",
+          "turky,",
+          "worth",
+          "only",
+          "one",
+          "third",
+          "english",
+          "penny."
+        ]
+      }
+    },
+    {
+      "gold_id": "G26",
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2171",
+      "filename": "page-2171-f8869fa95f19.jpg",
+      "bbox": [
+        0.1191,
+        0.5484,
+        0.5273,
+        0.6281
+      ],
+      "whole_blocks": [
+        8
+      ],
+      "whole_window": "ategua, or ategua, an ancient town of spain, placed by fame in the road from antiquars, now antquers, a filipin, or seville, or others near aleala reil; which left in the more probable fi-tuation, because the flumen fallum, now the salado, was in its neighborhood. now teleda prins, or",
+      "exact_block": {
+        "ref_chars": 298,
+        "char_edits": 41,
+        "cer": 0.1376,
+        "ref_words": 50,
+        "word_edits": 18,
+        "wer": 0.36,
+        "words_not_in_reference": 14,
+        "examples_not_in_reference": [
+          "fame",
+          "antiquars,",
+          "antquers,",
+          "a",
+          "filipin,",
+          "aleala",
+          "reil;",
+          "left"
+        ]
+      },
+      "whole": {
+        "ref_chars": 298,
+        "char_edits": 44,
+        "cer": 0.1477,
+        "ref_words": 50,
+        "word_edits": 18,
+        "wer": 0.36,
+        "words_not_in_reference": 13,
+        "examples_not_in_reference": [
+          "fame",
+          "antiquars,",
+          "antquers,",
+          "a",
+          "filipin,",
+          "aleala",
+          "reil;",
+          "left"
+        ]
+      },
+      "split_blocks": [
+        8
+      ],
+      "split_window": "ategua, or ategua, an ancient town of spain, placed by fame in the road from antigura, now antquera, hipplaix, or scivilis. in others near aleala real, which left in the more probable fituation, because the flumen fallum, now the salado, was in its neighborhood. now tebalei vieja, or",
+      "split": {
+        "ref_chars": 298,
+        "char_edits": 40,
+        "cer": 0.1342,
+        "ref_words": 50,
+        "word_edits": 17,
+        "wer": 0.34,
+        "words_not_in_reference": 11,
+        "examples_not_in_reference": [
+          "fame",
+          "antigura,",
+          "antquera,",
+          "hipplaix,",
+          "scivilis.",
+          "aleala",
+          "left",
+          "fituation,"
+        ]
+      }
+    },
+    {
+      "gold_id": "G27",
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2250",
+      "filename": "page-2250-75315f455009.jpg",
+      "bbox": [
+        0.0479,
+        0.1187,
+        0.4736,
+        0.1859
+      ],
+      "whole_blocks": [
+        2
+      ],
+      "whole_window": "buttress, a kind of batment built archwife, or a mals of flouse or birds, ferving to prop of flapper the fides of a building, wall, 6e, on the outside, where it is either very high, or has any considerable load to fultain on the other fide, as a bank of earth,",
+      "exact_block": {
+        "ref_chars": 263,
+        "char_edits": 27,
+        "cer": 0.1027,
+        "ref_words": 52,
+        "word_edits": 13,
+        "wer": 0.25,
+        "words_not_in_reference": 12,
+        "examples_not_in_reference": [
+          "batment",
+          "archwife,",
+          "mals",
+          "flouse",
+          "birds,",
+          "ferving",
+          "flapper",
+          "fides"
+        ]
+      },
+      "whole": {
+        "ref_chars": 263,
+        "char_edits": 29,
+        "cer": 0.1103,
+        "ref_words": 52,
+        "word_edits": 13,
+        "wer": 0.25,
+        "words_not_in_reference": 11,
+        "examples_not_in_reference": [
+          "batment",
+          "archwife,",
+          "mals",
+          "flouse",
+          "birds,",
+          "ferving",
+          "flapper",
+          "fides"
+        ]
+      },
+      "split_blocks": [
+        2
+      ],
+      "split_window": "buttress, a kind of butment built archwife, or a mals of flore or brick, ferry to prop you ifuppers the fides of a building, wall, oc, on the outside, where it is either very high, or has any considerable load to fulfillan on the other side, as a bank of earth,",
+      "split": {
+        "ref_chars": 263,
+        "char_edits": 30,
+        "cer": 0.1141,
+        "ref_words": 52,
+        "word_edits": 10,
+        "wer": 0.1923,
+        "words_not_in_reference": 9,
+        "examples_not_in_reference": [
+          "archwife,",
+          "mals",
+          "flore",
+          "ferry",
+          "you",
+          "ifuppers",
+          "fides",
+          "oc,"
+        ]
+      }
+    },
+    {
+      "gold_id": "G28",
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2250",
+      "filename": "page-2250-75315f455009.jpg",
+      "bbox": [
+        0.0488,
+        0.1852,
+        0.4746,
+        0.2969
+      ],
+      "whole_blocks": [
+        3
+      ],
+      "whole_window": "butteflies are used against the angles of fleeples and other buildings of flone, 6e, on the confiile, and along the walls of fuch buildings at have great and heavy roofs, which would be subject to shrull the walls once, unless very thick, if no butteffes were placed againft them. they are also placed for a lupport and bammer against the feet of fine arches, that are turned around great halls in old palaces,",
+      "exact_block": {
+        "ref_chars": 422,
+        "char_edits": 43,
+        "cer": 0.1019,
+        "ref_words": 75,
+        "word_edits": 17,
+        "wer": 0.2267,
+        "words_not_in_reference": 17,
+        "examples_not_in_reference": [
+          "butteflies",
+          "fleeples",
+          "flone,",
+          "6e,",
+          "confiile,",
+          "fuch",
+          "at",
+          "shrull"
+        ]
+      },
+      "whole": {
+        "ref_chars": 422,
+        "char_edits": 52,
+        "cer": 0.1232,
+        "ref_words": 75,
+        "word_edits": 17,
+        "wer": 0.2267,
+        "words_not_in_reference": 15,
+        "examples_not_in_reference": [
+          "butteflies",
+          "fleeples",
+          "flone,",
+          "6e,",
+          "confiile,",
+          "fuch",
+          "at",
+          "shrull"
+        ]
+      },
+      "split_blocks": [
+        3
+      ],
+      "split_window": "butterfits are cited against the age of, fleeples and other buildings of flone, oc, on the outside, and along the walls of fish buildings we have great and heavy roofs, which would be subject to shrutl the walls once, unless very thick, if no butterfee were placed againft them. they are alfo placed for a lupport and bummer again the feet of foam arches, that are turned around great balls in old palaces,",
+      "split": {
+        "ref_chars": 422,
+        "char_edits": 61,
+        "cer": 0.1445,
+        "ref_words": 75,
+        "word_edits": 22,
+        "wer": 0.2933,
+        "words_not_in_reference": 19,
+        "examples_not_in_reference": [
+          "butterfits",
+          "cited",
+          "age",
+          "fleeples",
+          "flone,",
+          "oc,",
+          "fish",
+          "we"
+        ]
+      }
+    },
+    {
+      "gold_id": "G29",
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2424",
+      "filename": "page-2424-dd2506be16cf.jpg",
+      "bbox": [
+        0.4883,
+        0.0711,
+        0.8682,
+        0.1797
+      ],
+      "whole_blocks": [
+        12
+      ],
+      "whole_window": "owner, and his skill in so managing the commissariat, as to livestock. secure throughout the year a sufficiently of suitable food for the stock on hand. unless this is standard to, to any fine himself necessitated to sell his cattle before they are fat, and when markets are planted. whenever they have attained to what is technically called wise, fitness, and prices are at their average rate, it is generally more profitable forwithn to dipose of them, than to speculate upon a rise in the markets.",
+      "exact_block": {
+        "ref_chars": 489,
+        "char_edits": 34,
+        "cer": 0.0695,
+        "ref_words": 85,
+        "word_edits": 11,
+        "wer": 0.1294,
+        "words_not_in_reference": 10,
+        "examples_not_in_reference": [
+          "livestock.",
+          "sufficiently",
+          "standard",
+          "any",
+          "fine",
+          "planted.",
+          "wise,",
+          "fitness,"
+        ]
+      },
+      "whole": {
+        "ref_chars": 489,
+        "char_edits": 34,
+        "cer": 0.0695,
+        "ref_words": 85,
+        "word_edits": 11,
+        "wer": 0.1294,
+        "words_not_in_reference": 10,
+        "examples_not_in_reference": [
+          "livestock.",
+          "sufficiently",
+          "standard",
+          "any",
+          "fine",
+          "planted.",
+          "wise,",
+          "fitness,"
+        ]
+      },
+      "split_blocks": [
+        14
+      ],
+      "split_window": "owner, and his skill in so managing the commissariat, as to livebook. secure throughout the years a selfies of suitable food for the stock or hand, but like this is attended to, to my fair himself necessitated to sell his cattle before they are fat, and when markets are granted. whenever they have attained to what is technically called type, illness, and prices are at their average rate, it is generally more profitable forthwith to dispose of them; than to speculate upon a rise in the markets.",
+      "split": {
+        "ref_chars": 489,
+        "char_edits": 42,
+        "cer": 0.0859,
+        "ref_words": 85,
+        "word_edits": 14,
+        "wer": 0.1647,
+        "words_not_in_reference": 11,
+        "examples_not_in_reference": [
+          "livebook.",
+          "years",
+          "selfies",
+          "or",
+          "but",
+          "like",
+          "my",
+          "fair"
+        ]
+      }
+    },
+    {
+      "gold_id": "G30",
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2424",
+      "filename": "page-2424-dd2506be16cf.jpg",
+      "bbox": [
+        0.4854,
+        0.8133,
+        0.9092,
+        0.8883
+      ],
+      "whole_blocks": [
+        16
+      ],
+      "whole_window": "these were at one time very large, unpainly lincoln animals, with an immense threat of very long wolf. by breed, crossing them with the leicester the character of the breed has been entirely changed, and very greatly for the better. it is now, in fact, a minority of the leicester, with larger frame and heavier fleece than the pure breed. sheep of",
+      "exact_block": {
+        "ref_chars": 346,
+        "char_edits": 40,
+        "cer": 0.1156,
+        "ref_words": 60,
+        "word_edits": 9,
+        "wer": 0.15,
+        "words_not_in_reference": 7,
+        "examples_not_in_reference": [
+          "another...",
+          "these",
+          "unpainly",
+          "lincoln",
+          "threat",
+          "wolf.",
+          "minority"
+        ]
+      },
+      "whole": {
+        "ref_chars": 346,
+        "char_edits": 40,
+        "cer": 0.1156,
+        "ref_words": 60,
+        "word_edits": 8,
+        "wer": 0.1333,
+        "words_not_in_reference": 6,
+        "examples_not_in_reference": [
+          "these",
+          "unpainly",
+          "lincoln",
+          "threat",
+          "wolf.",
+          "minority"
+        ]
+      },
+      "split_blocks": [
+        18
+      ],
+      "split_window": "these work at some time very large, originally danish animals with an immense fences of your living wool. by breed, crossing them with the leicester to the character of the breed has been entirely changed, and very greatly for the better. it is now, in fact, a subvariety of the infected with larger frame and heavier fleece than the pure breed. sheep of",
+      "split": {
+        "ref_chars": 346,
+        "char_edits": 55,
+        "cer": 0.159,
+        "ref_words": 60,
+        "word_edits": 13,
+        "wer": 0.2167,
+        "words_not_in_reference": 10,
+        "examples_not_in_reference": [
+          "these",
+          "work",
+          "some",
+          "originally",
+          "danish",
+          "fences",
+          "your",
+          "living"
+        ]
+      }
+    }
+  ]
+}

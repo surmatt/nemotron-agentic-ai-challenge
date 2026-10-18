@@ -1,0 +1,90 @@
+{
+  "variant": "crop_think",
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1017",
+  "block_index": 18,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T12:16:11+00:00",
+  "elapsed_seconds": 8.66,
+  "finish_reason": "stop",
+  "parse_text": "The femme of Sparta were forbidden the excerite of any mean on mechanical employment, and therefore the whole care of fupplying the city with necefairs develop upon the filters.",
+  "corrected_text": "The freemen of Sparta were forbidden the exercise of any mean or mechanical employment, and therefore the whole care of supplying the city with necessaries devolved upon the Helots.",
+  "reasoning_tokens": 1820,
+  "usage": {
+    "completion_tokens": 1857,
+    "prompt_tokens": 489,
+    "total_tokens": 2346,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 1820,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 274
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 12000,
+    "temperature": 0
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows this region of the page. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\nThe femme of Sparta were forbidden the excerite of any mean on mechanical employment, and therefore the whole care of fupplying the city with necefairs develop upon the filters.",
+  "response": {
+    "id": "chatcmpl-bcbbd23d6d8dc432",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "The freemen of Sparta were forbidden the exercise of any mean or mechanical employment, and therefore the whole care of supplying the city with necessaries devolved upon the Helots.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": "The user wants me to correct the OCR text based on the provided image.\n\n**1. Analyze the Image:**\n- The image shows a snippet of text from an old book (18th or 19th century).\n- The text is in English, using the long 's' (ſ) which looks like an 'f' without the crossbar or with a small nub.\n- I need to transcribe the visible text exactly as it appears, correcting the OCR errors.\n- Rules:\n    - Write long s as 's'.\n    - Keep original spelling, capitals, punctuation.\n    - Join hyphenated words across line breaks (though here it looks like a single block).\n    - Leave out headers, page numbers, etc.\n    - Ignore cut lines.\n    - No added words.\n    - [?] for illegible.\n    - Text only.\n\n**2. Transcribe the Image Line by Line:**\n\n*   **Line 1 (partial):** \"them into the condition of slaves.\" -> Wait, looking at the very top edge, there is a line cut off. The rule says \"Ignore lines cut at the top or bottom edge of the image.\" The first visible full line starts with \"The freemen...\". Let's look closely at the top.\n    - Top line visible: \"them into the condition of slaves.\" This line is cut off at the top? No, it looks like the bottom half of letters. Actually, looking at the crop, the very top line is \"them into the condition of slaves.\" It seems partially cut but readable. However, the rule says \"Ignore lines cut at the top or bottom edge\". Let's look at the main block.\n    - The main block starts with \"The freemen of Sparta were forbidden the exercise\".\n    - Let's re-read the OCR provided: \"The femme of Sparta were forbidden the excerite of any mean on mechanical employment, and therefore the whole care of fupplying the city with necefairs develop upon the filters.\" This is clearly wrong.\n\n*   **Let's transcribe from the image directly.**\n\n    *   **Line 1 (Top visible fragment):** \"them into the condition of slaves.\" -> This line is cut off at the top. I should probably ignore it based on \"Ignore lines cut at the top or bottom edge of the image.\" But let's look at the next lines.\n    *   **Line 2:** \"The freemen of Sparta were forbidden the exercise\"\n        - \"The freemen of Sparta were forbidden the exercise\"\n    *   **Line 3:** \"of any mean or mechanical employment, and therefore\"\n        - \"of any mean or mechanical employment, and therefore\"\n    *   **Line 4:** \"the whole care of supplying the city with necessaries\"\n        - \"the whole care of supplying the city with necessaries\" (Note: \"supplying\" has long s, \"necessaries\" has long s).\n    *   **Line 5:** \"devolved upon the Helots.\"\n        - \"devolved upon the Helots.\"\n\n    *   Wait, let's look at the very bottom. There is a line \"HELSINGFORD...\". That is cut off at the bottom. Ignore it.\n\n    *   Let's check the first visible line again. \"them into the condition of slaves.\" It is cut off at the top. The tops of the letters are missing. So I should ignore it.\n\n    *   So the text block to transcribe starts with \"The freemen of Sparta...\".\n\n    *   **Transcription:**\n        The freemen of Sparta were forbidden the exercise\n        of any mean or mechanical employment, and therefore\n        the whole care of supplying the city with necessaries\n        devolved upon the Helots.\n\n    *   Let's check spelling and punctuation carefully against the image.\n        - \"The freemen of Sparta were forbidden the exercise\" -> Looks correct. \"exercise\" ends with 'e'.\n        - \"of any mean or mechanical employment, and therefore\" -> \"mean\" is singular. \"employment,\" has a comma.\n        - \"the whole care of supplying the city with necessaries\" -> \"supplying\" (long s in suppling? No, looks like 'supplying'). \"necessaries\" ends with 's'.\n        - \"devolved upon the Helots.\" -> Ends with a period.\n\n    *   Let's check the OCR text provided in the prompt to see what needs correcting.\n        - OCR: \"The femme of Sparta...\" -> Image: \"The freemen of Sparta...\"\n        - OCR: \"...excerite...\" -> Image: \"...exercise...\"\n        - OCR: \"...of any mean on mechanical...\" -> Image: \"...of any mean or mechanical...\"\n        - OCR: \"...fupplying...\" -> Image: \"...supplying...\" (long s looks like f).\n        - OCR: \"...necefairs...\" -> Image: \"...necessaries...\"\n        - OCR: \"...develop upon the filters.\" -> Image: \"...devolved upon the Helots.\"\n\n    *   Wait, let's look at the very top line again. \"them into the condition of slaves.\" Is it cut off? Yes, the tops of the letters are sliced off. So I ignore it.\n    *   Let's look at the bottom line \"HELSINGFORD...\". It is cut off at the bottom. Ignore it.\n\n    *   So the text is:\n        The freemen of Sparta were forbidden the exercise\n        of any mean or mechanical employment, and therefore\n        the whole care of supplying the city with necessaries\n        devolved upon the Helots.\n\n    *   Let's refine the transcription based on visual details.\n        - Line 1: \"The freemen of Sparta were forbidden the exercise\"\n        - Line 2: \"of any mean or mechanical employment, and therefore\"\n        - Line 3: \"the whole care of supplying the city with necessaries\"\n        - Line 4: \"devolved upon the Helots.\"\n\n    *   Wait, is \"mean\" actually \"mean\"? Or \"men\"? It looks like \"mean\". \"any mean or mechanical employment\".\n    *   Is \"necessaries\" spelled with one 's' or two at the end? \"necessaries\".\n    *   Is \"supplying\" spelled with long s? \"ſupplying\". Rule: write long s as 's'. So \"supplying\".\n\n    *   Let's assemble the final string.\n    \"The freemen of Sparta were forbidden the exercise of any mean or mechanical employment, and therefore the whole care of supplying the city with necessaries devolved upon the Helots.\"\n\n    *   Wait, let's look at the first line visible in the image again.\n    The image shows:\n    Line 1 (top edge): \"them into the condition of slaves.\" -> Tops of letters are cut. Ignore.\n    Line 2: \"The freemen of Sparta were forbidden the exercise\"\n    Line 3: \"of any mean or mechanical employment, and therefore\"\n    Line 4: \"the whole care of supplying the city with necessaries\"\n    Line 5: \"devolved upon the Helots.\"\n    Line 6 (bottom edge): \"HELSINGFORD...\" -> Cut off. Ignore.\n\n    So the text is just lines 2-5.\n\n    Let's double check spelling.\n    - \"freemen\"\n    - \"Sparta\"\n    - \"forbidden\"\n    - \"exercise\"\n    - \"mean\" (singular)\n    - \"mechanical\"\n    - \"employment,\"\n    - \"and\"\n    - \"therefore\"\n    - \"whole\"\n    - \"care\"\n    - \"of\"\n    - \"supplying\" (The image shows 'ſupplying' -> supplying)\n    - \"the\"\n    - \"city\"\n    - \"with\"\n    - \"necessaries\"\n    - \"devolved\"\n    - \"upon\"\n    - \"the\"\n    - \"Helots.\"\n\n    Punctuation: Comma after employment. Period after Helots.\n\n    Final check on \"mean\". The text says \"any mean or mechanical employment\". This is slightly odd English (\"any mean\" usually implies \"any means\"), but I must follow the image. The image clearly shows \"mean\".\n\n    Final check on \"necessaries\". The image shows \"neceſsaries\". So \"necessaries\".\n\n    Final check on \"devolved\". The image shows \"devolved\".\n\n    Final check on \"Helots\". Capital H.\n\n    Construct the final output."
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792325772,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 1857,
+      "prompt_tokens": 489,
+      "total_tokens": 2346,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 1820,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 274
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

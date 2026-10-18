@@ -1,0 +1,675 @@
+{
+  "entry_id": "E0225",
+  "headword": "CABIN",
+  "entry_text_sha256": "eb0d57665f404f8f68c521237dfa6301abe272b8eaf579b47132dc9be6db3239",
+  "mode": "model",
+  "queries": [
+    "cabin",
+    "cabin great ship chief language small room apartment several parts particularly quarter"
+  ],
+  "query_chars": 336,
+  "headword_variant": null,
+  "candidate_count": 30,
+  "list_pages_removed_after_fetch": [],
+  "decision": {
+    "status": "accepted",
+    "method": "nemotron_embed_rerank",
+    "thresholds": {
+      "rerank_logit": -10.0,
+      "margin": 0.5,
+      "cosine": 0.15,
+      "title_similarity": 0.0
+    },
+    "page_id": "1468228",
+    "title": "Cabin (ship)",
+    "rerank_logit": 0.23639,
+    "cosine": 0.601422,
+    "margin_to_next": 5.004766,
+    "title_similarity": 1.0
+  },
+  "article": {
+    "page_id": "1468228",
+    "revision_id": "1326520528",
+    "title": "Cabin (ship)",
+    "url": "https://en.wikipedia.org/wiki/Cabin_(ship)",
+    "revision_url": "https://en.wikipedia.org/w/index.php?oldid=1326520528",
+    "text_sha256": "6057ba635221c8126768cde2656d1435d0d8104064e5f032c1b5355aa92b5025",
+    "chars": 3793
+  },
+  "candidates": [
+    {
+      "page_id": "56543512",
+      "revision_id": "1346394865",
+      "title": "MV Robert Ley",
+      "url": "https://en.wikipedia.org/wiki/MV_Robert_Ley",
+      "excerpt": "MV Robert Ley was a cruise ship of the Nazi Party leisure organization Kraft durch Freude (Strength Through Joy). She was considered the flagship of the KdF fleet.\n\nThe ship, which was named after the Nazi politician Robert Ley, was designed exclusively for cruises. The keel was laid on behalf of the Nazi organisation Deutsche Arbeitsfront (German Labour Front) at Howaldtswerke Hamburg. Robert Ley was owned by the DAF and was managed, crewed and maintained by the Hamburg-Amerikanische Packetfahrt-Actien-Gesellschaft (HAPAG).\n\nThe interior design was commissioned by architect Woldemar Brinkmann. Accommodation on board the ship was single-class in 463 two- and four-bed cabins. Additionally, two 30-bed dormitories were for members of Nazi youth organizations. There was a single luxury suite referred to as the Apartment for Adolf Hitler, though he never used it. Unusually, the crew accommodation was built to the same standard as that for the passengers.\n\nThe launch took place on 29 March 1938 in the presence of Adolf Hitler. The commissioning took place on 24 March 1939.\n\nThe ship was designed for about 1750 passengers in addition to the crew members.\n\nThe decks of Robert Ley consisted",
+      "excerpt_offset": 0,
+      "total_chars": 3459,
+      "bm25": {
+        "q1": {
+          "rank": 1,
+          "score": 33.7493
+        }
+      },
+      "best_rank": 1,
+      "title_similarity": 0.1111,
+      "context_overlap": 0.0238,
+      "cosine": 0.206943,
+      "rerank_logit": -5.93049,
+      "rerank_position": 21
+    },
+    {
+      "page_id": "76561539",
+      "revision_id": "1352969800",
+      "title": "Titanic navigation bridge",
+      "url": "https://en.wikipedia.org/wiki/Titanic_navigation_bridge",
+      "excerpt": "On the British ocean liner RMS Titanic, the navigation bridge (or command bridge) was a superstructure where the ship's command was exercised. From this location, the officer of the watch determined the ship's geographical position, gave all orders regarding navigation and speed, and received information about everything happening on board.\n\nThe bridge was composed of various compartments: a navigation shelter where watch was kept, and the wheelhouse where a wheel was located, known as the helm in maritime language, which steered the rudder and transmitted orders to the engines, also called a chadburn. On either side to starboard and port of the navigation shelter, two exterior wings allowed for manoeuvres. There was also a chart room and the captain's watch room. The bridge was also connected to the officers' cabins, which varied in comfort according to rank. It was also close to the wireless telegraphy room. Six officers took turns on watch duty on the bridge, accompanied by quartermasters and other members of the deck crew. The second officer and the captain could also be present if the situation so required.\n\nOn 14 April 1912, around 11:40 p.m., decisions to attempt to avoid th",
+      "excerpt_offset": 0,
+      "total_chars": 20165,
+      "bm25": {
+        "q1": {
+          "rank": 2,
+          "score": 32.9832
+        }
+      },
+      "best_rank": 2,
+      "title_similarity": 0.2667,
+      "context_overlap": 0.0875,
+      "cosine": 0.33076,
+      "rerank_logit": -5.455737,
+      "rerank_position": 5
+    },
+    {
+      "page_id": "1468228",
+      "revision_id": "1326520528",
+      "title": "Cabin (ship)",
+      "url": "https://en.wikipedia.org/wiki/Cabin_(ship)",
+      "excerpt": "A cabin or berthing is an enclosed space generally on a ship or an aircraft. A cabin which protrudes above the level of a ship's deck may be referred to as a deckhouse.\n\nIn sailing ships, the officers and paying passengers would have an individual or shared cabin. The captain or commanding officer would occupy the \"great cabin\" that normally spanned the width of the stern and had large windows.\n\nOn a warship, it was a privileged area, separate from the rest of the ship, for the exclusive use of the captain. In large warships, the cabin was subdivided into day and night cabins (bedrooms) by movable panels, called bulk-heads, that could be removed in time of battle to leave the cabin clear for the gunners to use the stern chasers several of which were usually stationed in the cabin.\n\nOn large three decker warships in the age of sail the captain's cabin was sometimes appropriated by the Admiral. The captain would be consigned to the cabin below on the middle gun-deck. On smaller stations, where the flagship would sometimes be a frigate, the frigate would be modified by adding a cabin on the weather deck (poop deck) to serve as living space for a commodore or admiral.\n\nIn most modern w",
+      "excerpt_offset": 0,
+      "total_chars": 3793,
+      "bm25": {
+        "q0": {
+          "rank": 3,
+          "score": 11.4479
+        },
+        "q1": {
+          "rank": 3,
+          "score": 30.9429
+        }
+      },
+      "best_rank": 3,
+      "title_similarity": 1.0,
+      "context_overlap": 0.0897,
+      "cosine": 0.601422,
+      "rerank_logit": 0.23639,
+      "rerank_position": 1
+    },
+    {
+      "page_id": "11551405",
+      "revision_id": "1337934573",
+      "title": "SS Otway",
+      "url": "https://en.wikipedia.org/wiki/SS_Otway",
+      "excerpt": "SS Otway was a UK steam ocean liner owned by the Orient Line, built by Fairfield Shipbuilding and Engineering Company of Glasgow, Scotland, launched in 1908 and completed in 1909.\n\nShe was one of five sister ships, along with Orsova, Osterley, Otranto and Orvieto. They were later joined by RMS Orama, which was slightly larger and had different machinery. With these ships the Orient Line offered the travelling public fixed sailings every other week to Australia and New Zealand. Requisitioned by the Royal Navy and deployed as an armed merchant cruiser, Otway was torpedoed and sunk by German U-boat SM UC-49 off the Hebrides on 23 July 1917 in World War I, with the loss of 10 lives.\n\nShe was launched on 21 November 1908 from the yards of the Fairfield Shipbuilding and Engineering Company, Ltd, the christening ceremony being performed by Mrs Frederick Green. The vessel was named after the well-known headland on the Victorian coast, Cape Otway.\n\nOrient Line registered Otway at Glasgow. Her UK official number was 128282 and her code letters were HPFC.\n\nImmediately before her arrival at Sydney at the end of her maiden voyage 21 August 1909, a reporter described the ship: \"The Otway is equa",
+      "excerpt_offset": 0,
+      "total_chars": 11520,
+      "bm25": {
+        "q1": {
+          "rank": 4,
+          "score": 30.6204
+        }
+      },
+      "best_rank": 4,
+      "title_similarity": 0.1538,
+      "context_overlap": 0.0109,
+      "cosine": 0.10107,
+      "rerank_logit": -6.236401,
+      "rerank_position": 27
+    },
+    {
+      "page_id": "14426224",
+      "revision_id": "1327175148",
+      "title": "MS Nordkapp",
+      "url": "https://en.wikipedia.org/wiki/MS_Nordkapp",
+      "excerpt": "MS Nordkapp is a Hurtigruten ship built in 1996 by Kleven Verft AS, Norway, for Ofotens og Vesteraalens Dampskibsselskab for use in Hurtigruten ferry service along the coast of Norway. She is a sister ship of MS Polarlys and MS Nordnorge. Nordkapp is one of 11 ships that travel the Norwegian coast from Bergen to Kirkenes.\n\nMS Nordkapp (North Cape) is named after the North Cape on the island of Magerøya in Northern Norway.\n\nThe ship has a speed of 15 knots, is 123.3 meters (404.5 feet), and weights about 11,386 gross tons.\n\nThe ship has seven decks:\n\nDecks 2–3, 5–6 are passenger cabins.\n\nDeck 4 contains the restaurant, a lounge, a small library, two conference rooms, and a café open 24-hours.\n\nDeck 7 features a bar/lounge and a panorama lounge.\n\nDeck 1 is crew quarters and is off limits to passenger guests.\n\nPassengers can access outside decks for lounging or viewing the scenery. These can be found on:\n\nall sides of deck 5,\n\nthe stern of deck 6, and\n\nfrom the sundeck and panorama lounge in the bow and stern of deck 7.\n\nIn addition to standard amenities on the ship, there an exercise room, a sauna and a children's play room/ball room.\n\nThere are 481 beds and has a passenger capacity ",
+      "excerpt_offset": 0,
+      "total_chars": 2988,
+      "bm25": {
+        "q1": {
+          "rank": 5,
+          "score": 30.5421
+        }
+      },
+      "best_rank": 5,
+      "title_similarity": 0.125,
+      "context_overlap": 0.05,
+      "cosine": 0.172123,
+      "rerank_logit": -6.020415,
+      "rerank_position": 25
+    },
+    {
+      "page_id": "1137772",
+      "revision_id": "1330934968",
+      "title": "State room",
+      "url": "https://en.wikipedia.org/wiki/State_room",
+      "excerpt": "A state room or stateroom in a large European mansion is usually one of a suite of very grand rooms which were designed for use when entertaining royalty. The term was most widely used in the 17th and 18th centuries. They were the most lavishly decorated in the house and contained the finest works of art. State rooms were usually only found in the houses of the upper echelons of the aristocracy, those who were likely to entertain a head of state. They were generally to accommodate and entertain distinguished guests, especially a monarch and/or a royal consort, or other high-ranking aristocrats and state officials, hence the name. In their original form a set of state rooms made up a state apartment, which always included a bedroom. However, a state apartment could also refer to a single room, since in the 18th century the word \"apartment\" was a noble term for a room in an aristocratic mansion. The word is derived from the French language.\n\nIn Great Britain and Ireland in particular, state rooms in country houses were used occasionally, and only rarely all round the year. The occupier of the house and his family actually lived in other apartments in the house. And unlike the main re",
+      "excerpt_offset": 0,
+      "total_chars": 3555,
+      "bm25": {
+        "q1": {
+          "rank": 6,
+          "score": 30.0365
+        }
+      },
+      "best_rank": 6,
+      "title_similarity": 0.1333,
+      "context_overlap": 0.05,
+      "cosine": 0.230325,
+      "rerank_logit": -6.090633,
+      "rerank_position": 26
+    },
+    {
+      "page_id": "58786123",
+      "revision_id": "1333140464",
+      "title": "Palmyra Boy Scout Cabin",
+      "url": "https://en.wikipedia.org/wiki/Palmyra_Boy_Scout_Cabin",
+      "excerpt": "The Palmyra Boy Scout Cabin is a log cabin at 105 N. 1st Street in Palmyra, Wisconsin. Palmyra's Boy Scout Troop 14 built the cabin from 1935 to 1937. At the time, building a troop cabin was a popular activity for Boy Scouts and encouraged by the national organization; the Boy Scout Handbook included instructions on how to build a cabin, and Boys Life magazine featured completed cabins. Scouts and their fathers built the cabin; the Palmyra cabin took two years to complete on account of the Great Depression, which limited the troop's funds for building supplies, and many of the cabin's materials were donated. The one-room cabin measures 22 by 32 feet (6.7 by 9.8 m) and uses saddle notch corners, which are designed to tighten over time as the building settles. The Boy Scouts have used the cabin continuously since it was built, and the cabin was renovated in the 2000s.\n\nThe cabin was added to the State and the National Register of Historic Places in 2017.",
+      "excerpt_offset": 0,
+      "total_chars": 966,
+      "bm25": {
+        "q0": {
+          "rank": 7,
+          "score": 11.3895
+        }
+      },
+      "best_rank": 7,
+      "title_similarity": 0.3571,
+      "context_overlap": 0.0526,
+      "cosine": 0.086242,
+      "rerank_logit": -5.668973,
+      "rerank_position": 10
+    },
+    {
+      "page_id": "7584597",
+      "revision_id": "1330367412",
+      "title": "ROCS Ma Kong",
+      "url": "https://en.wikipedia.org/wiki/ROCS_Ma_Kong",
+      "excerpt": "OCN base.\n\nShe was formerly the American Kidd -class destroyer USS Chandler (DDG-996) which was decommissioned from the United States Navy in September 1999 and sold to the Republic of China Navy on 30 May 2003.\n\nOn January 1, 2015, the Republic of China Navy invited journalists to board the Magong ship to participate in a maritime exercise off the southwest coast of Taiwan and interview the officers and soldiers on board. The ship's kitchen is mainly heated by steam discharged from the boiler. The ship's kitchen has a deep fryer but it will be closed during navigation to prevent the hot oil in the pot from capsizing due to strong winds and waves at sea. The female officers and soldiers' quarters \"Soldier Cabin 1\" are converted from male officers and soldiers' quarters, with independent washing machines, water dispensers, dormitories and fitness equipment. The first soldier cabin is designed with independence and safety in mind. There are entrances and exits on both sides of the cabin. There are monitoring systems above the entrances and exits. Someone monitors the entry and exit of the cabin around the clock to ensure the safety of female officers and soldiers.\n\nDuring the 2022 Ta",
+      "excerpt_offset": 222,
+      "total_chars": 1962,
+      "bm25": {
+        "q1": {
+          "rank": 7,
+          "score": 29.9447
+        }
+      },
+      "best_rank": 7,
+      "title_similarity": 0.3529,
+      "context_overlap": 0.0482,
+      "cosine": 0.242698,
+      "rerank_logit": -5.037758,
+      "rerank_position": 4
+    },
+    {
+      "page_id": "47929605",
+      "revision_id": "1330562948",
+      "title": "The Cabin Sydney",
+      "url": "https://en.wikipedia.org/wiki/The_Cabin_Sydney",
+      "excerpt": "The Cabin Sydney is an outpatient addiction treatment clinic. The facility has been recognized as the first multinational addiction treatment provider in Australia. The Cabin Sydney is an affiliate of The Cabin Addiction Services Group. The Cabin Addiction Services Group also owns The Cabin Chiang Mai inpatient rehab. The Cabin Sydney opened in July 2015 and is located in Sydney, Australia. In July 2016, The Cabin Sydney completed a study which found that 70% of crystal methamphetamine addicts required rehabilitation rather than jail. The Cabin Addiction Services Group also operates the Cabin Melbourne.",
+      "excerpt_offset": 0,
+      "total_chars": 610,
+      "bm25": {
+        "q0": {
+          "rank": 8,
+          "score": 11.3833
+        }
+      },
+      "best_rank": 8,
+      "title_similarity": 0.4762,
+      "context_overlap": 0.0294,
+      "cosine": 0.128361,
+      "rerank_logit": -4.768376,
+      "rerank_position": 2
+    },
+    {
+      "page_id": "28354050",
+      "revision_id": "1340358653",
+      "title": "SS Doric (1922)",
+      "url": "https://en.wikipedia.org/wiki/SS_Doric_(1922)",
+      "excerpt": "SS Doric was a British ocean liner operated by White Star Line. She was put into service in 1923. She was the second ship of the company to bear this name. Built by Harland and Wolff in Belfast, she was the company's second and last ship to be exclusively powered by turbines, after SS Vedic.\n\nA liner of medium size and low speed for the time, and divided into two classes, she was designed to serve Canadian routes, which she did from her being put into service in June 1923 until 1932. She was accompanied on this route by a similar vessel, SS Regina, which was originally operated by the Dominion Line. This decade of Canadian service unfolded without major incident. When the White Star Line abandoned this route, the Doric was assigned to cruises, meeting with great success with young passengers of the time.\n\nWhen the company merged with its rival, the Cunard Line, Doric was retained in the new fleet. However, a collision with another ship in September 1935 sealed her fate. Severely damaged and economically irreparable, despite her young age, the company decided to scrap the ship, which commenced later that year.\n\nThe Doric was a medium-sized ocean liner for its time, 183 metres (600 f",
+      "excerpt_offset": 0,
+      "total_chars": 6760,
+      "bm25": {
+        "q1": {
+          "rank": 8,
+          "score": 29.5305
+        }
+      },
+      "best_rank": 8,
+      "title_similarity": 0.1538,
+      "context_overlap": 0.0256,
+      "cosine": 0.067122,
+      "rerank_logit": -6.362324,
+      "rerank_position": 29
+    },
+    {
+      "page_id": "861071",
+      "revision_id": "1345132096",
+      "title": "MS Gabriella",
+      "url": "https://en.wikipedia.org/wiki/MS_Gabriella",
+      "excerpt": "MS Gabriella is a cruiseferry sailing on a route connecting Helsinki, Finland and Stockholm, Sweden for Viking Line. She was built in 1992 in Brodosplit, Croatia as Frans Suell for service with Euroway. Between 1994 and 1997 she sailed as Silja Scandinavia for Silja Line. Gabriella has sister ships Mega Victoria operated by Corsica Ferries, Isabelle operated by Tallink, and a third one, Crown Seaways, operated by DFDS Seaways.\n\nEuroway was a concept developed during the latter half of the 1980s by the Sweden -based Sea-Link Shipping. The new brand was planned to operate two state-of-the-art cruiseferries between Malmö in Sweden and Lübeck in Germany via Travemünde in Germany, with the service aimed in particular at conference groups. Sea-link decided to order the ships from Brodosplit in Croatia, which at that time still was part of the Socialist Federal Republic of Yugoslavia. The ships were based on the same design as the Amorella and Isabella that had been built by the same shipyard for the Finland -based SF Line for Viking Line traffic in 1988 and 1989, respectively. The Euroway sisters were designed with a somewhat different layout of public spaces and cabins, as well as an ad",
+      "excerpt_offset": 0,
+      "total_chars": 11741,
+      "bm25": {
+        "q1": {
+          "rank": 9,
+          "score": 28.9762
+        }
+      },
+      "best_rank": 9,
+      "title_similarity": 0.3529,
+      "context_overlap": 0.012,
+      "cosine": 0.087121,
+      "rerank_logit": -5.847687,
+      "rerank_position": 19
+    },
+    {
+      "page_id": "38953278",
+      "revision_id": "1302559024",
+      "title": "Knapp Cabin",
+      "url": "https://en.wikipedia.org/wiki/Knapp_Cabin",
+      "excerpt": "Knapp Cabin is a historic cabin located in Kings Canyon National Park, west of Cedar Grove, in Fresno County, California.\n\nThe one-room cabin was built in 1925 by George Owen Knapp, founder of Union Carbide. Knapp used the cabin for storage while camping in the area. After Knapp stopped camping in 1928, he no longer used the cabin.\n\nThe cabin saw occasional use until the creation of Kings Canyon National Park in 1940. In the 1950s, the National Park Service assumed maintenance of the cabin.\n\nThe Knapp Cabin was added to the National Register of Historic Places on December 20, 1978.",
+      "excerpt_offset": 0,
+      "total_chars": 588,
+      "bm25": {
+        "q0": {
+          "rank": 11,
+          "score": 11.3383
+        }
+      },
+      "best_rank": 11,
+      "title_similarity": 0.625,
+      "context_overlap": 0.0526,
+      "cosine": 0.117497,
+      "rerank_logit": -5.518433,
+      "rerank_position": 7
+    },
+    {
+      "page_id": "24009609",
+      "revision_id": "1338359502",
+      "title": "SS Henry Steinbrenner",
+      "url": "https://en.wikipedia.org/wiki/SS_Henry_Steinbrenner",
+      "excerpt": "The lake freighter SS Henry Steinbrenner was a 427-foot (130 m) long, 50-foot (15 m) wide, and 28-foot (8.5 m) deep, dry bulk freighter of typical construction style for the early 1900s, primarily designed for the iron ore, coal, and grain trades on the Great Lakes. Commissioned by the Kinsman Transit Co. of Cleveland, Ohio she was launched as hull number 14 by Jenks Ship Building Co. of Port Huron, Michigan. Her design featured a forward forecastle containing crew cabins topped with an additional cabin and pilot house. The mid section was a long nearly flat deck over the cargo holds only interrupted by 12 hatches fitted with telescoping type hatch covers. The aft end featured a large cabin situated over the engine room containing the galley, mess rooms, and crew quarters and was topped with a smoke stack and air vents. The Steinbrenner later featured a \"doghouse\" cabin aft of her smoke stack to house added crew from a change in the crew watch system on the Great Lakes.\n\nThe Steinbrenner had an eventful first two decades on the Great Lakes. On December 6, 1909 the Steinbrenner was downbound loaded with iron ore when she was involved in a collision on St. Marys River with the nearly",
+      "excerpt_offset": 0,
+      "total_chars": 5124,
+      "bm25": {
+        "q1": {
+          "rank": 11,
+          "score": 28.0578
+        }
+      },
+      "best_rank": 11,
+      "title_similarity": 0.1538,
+      "context_overlap": 0.0652,
+      "cosine": 0.172145,
+      "rerank_logit": -5.636184,
+      "rerank_position": 9
+    },
+    {
+      "page_id": "34468472",
+      "revision_id": "1339333031",
+      "title": "MS Viking Grace",
+      "url": "https://en.wikipedia.org/wiki/MS_Viking_Grace",
+      "excerpt": "MS Viking Grace is a cruiseferry constructed at STX Europe Turku Shipyard, Finland for the Finland -based ferry company Viking Line. The ship was delivered to her owners on 10 January 2013, and entered service on 13 January 2013. She is the first large-scale passenger ferry to be powered by liquefied natural gas (LNG) as well as being fitted with a rotor sail.\n\nViking Grace replaced MS Isabella (now known as MS Isabelle) on the Turku-Långnäs-Stockholm route. Viking Grace is twinned by MS Viking Glory, which entered service in March 2022.\n\nViking Line and STX Finland made a contract of building the ship (shipyard project number NB 1376) on 25 October 2010, and the contract went into force on 22 December 2010. The contract price was about 240 million euro, and the ship was delivered in January 2013. The contract included an option of an additional ship. Constructing the ship took 2600 man-years.\n\nViking Grace has a length of 218 m (715 ft 3 in), beam of 31.8 m (104 ft 4 in) and maximum summer draft of 6.80 m (22 ft 4 in). The ship has a deadweight tonnage of 6,107 DWT and a gross tonnage of 57,565 GT, which gives maximum passenger capacity for 2,800 people. The vessel has 880 rooms, ",
+      "excerpt_offset": 0,
+      "total_chars": 15084,
+      "bm25": {
+        "q1": {
+          "rank": 12,
+          "score": 27.9704
+        }
+      },
+      "best_rank": 12,
+      "title_similarity": 0.2,
+      "context_overlap": 0.0135,
+      "cosine": 0.084254,
+      "rerank_logit": -5.791612,
+      "rerank_position": 17
+    },
+    {
+      "page_id": "58430519",
+      "revision_id": "1302934300",
+      "title": "John A. O'Farrell Cabin",
+      "url": "https://en.wikipedia.org/wiki/John_A._O%27Farrell_Cabin",
+      "excerpt": "The John A. O'Farrell Cabin was built by John A. O'Farrell in Boise, Idaho, in 1863. The cabin is considered the first family home in Boise.\n\nThe 200 sq ft (19 m 2) cabin was built of cottonwood logs near the entrance to the reconstructed Fort Boise in 1863, and it precedes the original plat of Boise City. O'Farrell made improvements to the cabin in 1864, including glass windows, a hinged door, and a shingle roof. Catholic services were held at the cabin from 1863 until 1870, and the O'Farrells lived in the cabin until 1872.\n\nIn 1910 the cabin was moved 200 ft (61 m) to its current location, and it became the property of the Daughters of the American Revolution. The DAR restored the cabin in 1911. In 1958 a protective cover was added, then in 1993 the cabin became the property of Boise Parks and Recreation, and it was restored again in 2002.\n\nThe cabin was listed on the National Register of Historic Places December 3, 1999.",
+      "excerpt_offset": 0,
+      "total_chars": 937,
+      "bm25": {
+        "q0": {
+          "rank": 13,
+          "score": 11.3299
+        }
+      },
+      "best_rank": 13,
+      "title_similarity": 0.3704,
+      "context_overlap": 0.0185,
+      "cosine": 0.088164,
+      "rerank_logit": -5.629574,
+      "rerank_position": 8
+    },
+    {
+      "page_id": "68736609",
+      "revision_id": "1345673935",
+      "title": "German fleet tender Hela",
+      "url": "https://en.wikipedia.org/wiki/German_fleet_tender_Hela",
+      "excerpt": "The Hela was a command ship of the Kriegsmarine, sometimes also known as an aviso. She was equipped with everything a fleet or squadron command staff needed, and the superstructures mainly contained work and accommodation rooms for a large staff.\n\nThe previously used fleet tender Hela, a former M1935 minesweeper, had become too small for the fleet staff, so a replacement was included in the 1936 state budget under the name of Ersatz Hela.\n\nThe ship had a length of 99.8 m over all or 92.5 m in the waterline and was 12.8 m wide, with a side height of 7.45 m and a maximum draft of 4.05 m maximum 2,520 tonnes (standard 2,113 tn.l.). The armament consisted of two 10.5-cm SK L / 45 C32 rapid-loading cannons, a 3.7-cm SK C / 30 and two 2.0-cm Flak C / 30 automatic cannons. There was a large crane amidships behind the funnel which was used for recovering the various barges and dinghies and loading ammunition and supplies. The original plans called for the Hela to carry an Arado Ar 196 A-1 seaplane launched by a catapult, but this was not implemented and the space was instead used for a staff car.\n\nThe procurement of the initially planned four MAN 9-cylinder four-stroke marine diesel engine",
+      "excerpt_offset": 0,
+      "total_chars": 7460,
+      "bm25": {
+        "q1": {
+          "rank": 13,
+          "score": 27.8055
+        }
+      },
+      "best_rank": 13,
+      "title_similarity": 0.1379,
+      "context_overlap": 0.0375,
+      "cosine": 0.162119,
+      "rerank_logit": -6.283736,
+      "rerank_position": 28
+    },
+    {
+      "page_id": "21528446",
+      "revision_id": "1309570541",
+      "title": "Rolston cabin",
+      "url": "https://en.wikipedia.org/wiki/Rolston_cabin",
+      "excerpt": "Constructed between the years of 1938 and 1939 the Rolston Cabin is located within Holly Recreation Area in Holly, Michigan. It is one of the few remaining rustic cabins within the state parks of Michigan.\n\nIn 1938, William Rolston built a rustic log cabin on land he had purchased from a friend, Mr. Chandler. His wife Francis Rolston and friends John and Ruth Gaskin also helped with the construction. For years to come it was the site of a turkey shoot, gatherings of friends and family and campfires. The cabin was a place for fun and adventure. Bill Rolston was often seen around the cabin dressed in frontier garb hunting for dinner.\n\nThe cabin is within the woods and has its own secluded pond. It is a semi-rustic cabin. There is electricity, lighting and a kitchen that has a refrigerator, microwave, stove and kitchen table. The living space includes a fold out couch, television and fireplace. The cabin also includes a loft above that has an additional four beds. There is an outhouse, hand pump, fire pit, picnic table and grill are also available directly outside the cabin.\n\nThe cabin is available all year round. Heat is provided by a fireplace during the winter. During the summer th",
+      "excerpt_offset": 0,
+      "total_chars": 1855,
+      "bm25": {
+        "q0": {
+          "rank": 14,
+          "score": 11.3255
+        }
+      },
+      "best_rank": 14,
+      "title_similarity": 0.5556,
+      "context_overlap": 0.0116,
+      "cosine": 0.088922,
+      "rerank_logit": -5.985985,
+      "rerank_position": 23
+    },
+    {
+      "page_id": "31805256",
+      "revision_id": "1344704754",
+      "title": "Cliff House, Thiruvananthapuram",
+      "url": "https://en.wikipedia.org/wiki/Cliff_House,_Thiruvananthapuram",
+      "excerpt": "Cliff House is the official residence of the Chief Minister of Kerala, located at Nanthancode in the state capital Thiruvananthapuram. The Cliff House is part of Cliff House compound, which houses four other ministerial residences and is located within the state ministerial residential zone.\n\nHowever, the house is a statutory-only official residence, as Indian laws and protocols do not stipulate that ministers live in any particular residence; rather the law defines the minister's actual residence, whether owned privately or by government, as the official residence. Cliff House is preferred as official residence by most of Chief Ministers of Kerala.\n\nCliff House was constructed during the monarchy days of Travancore as the official residence of Diwan Peshkar (Secretary of the state) in charge of Devaswom affairs. Since the headquarters of Travancore Devaswom Office was commissioned at Nanthancode, it was decided to construct official residence of the Peshkar near to it. Post independence, the state PWD took over the house and surrounding land and refurnished as state Guest house. In 1956, it was reclassified as a ministerial residence.\n\nWhen Kerala was formed in 1957, the first Chi",
+      "excerpt_offset": 0,
+      "total_chars": 3865,
+      "bm25": {
+        "q1": {
+          "rank": 14,
+          "score": 27.7041
+        }
+      },
+      "best_rank": 14,
+      "title_similarity": 0.1714,
+      "context_overlap": 0.0159,
+      "cosine": 0.096793,
+      "rerank_logit": -6.808178,
+      "rerank_position": 30
+    },
+    {
+      "page_id": "3074473",
+      "revision_id": "1311199022",
+      "title": "Scadding Cabin",
+      "url": "https://en.wikipedia.org/wiki/Scadding_Cabin",
+      "excerpt": "Scadding Cabin (or Simcoe Cabin) is a 1794 log cabin on the grounds of Exhibition Place in Toronto, Ontario, Canada. It was constructed for John Scadding and is now the oldest surviving building in Toronto.\n\nThe cabin was originally built on the property of John Scadding, an immigrant from Devonshire, in order to fulfill his settlement duties to the Crown. The cabin stood at the east side of the Don River south of Queen Street East on a 253-acre land grant that stretched north from Lake Ontario to present-day Danforth Avenue. Scadding lived in the cabin until he returned to England in 1796.\n\nWhen Scadding returned to York in 1818, he sold his property, and cabin, to a farmer named William Smith, who used the cabin as an outbuilding. The cabin remained in the Smith family until 1879 when the cabin was offered to the York Pioneers. Henry Scadding, son of John Scadding, was a founding member of the historical society.\n\nIn 1879 John Smith, the owner of the Scadding property, gave Scadding Cabin to the York Pioneers. In 1879, the Toronto Industrial Exhibition began (later the Canadian National Exhibition (CNE)) and the York Pioneers worked with the Exhibition's founders to move the Cabi",
+      "excerpt_offset": 0,
+      "total_chars": 2382,
+      "bm25": {
+        "q0": {
+          "rank": 15,
+          "score": 11.3249
+        }
+      },
+      "best_rank": 15,
+      "title_similarity": 0.625,
+      "context_overlap": 0.0263,
+      "cosine": 0.114961,
+      "rerank_logit": -5.483051,
+      "rerank_position": 6
+    },
+    {
+      "page_id": "18990653",
+      "revision_id": "1332668968",
+      "title": "SS Cymric",
+      "url": "https://en.wikipedia.org/wiki/SS_Cymric",
+      "excerpt": "SS Cymric was a steamship of the White Star Line built by Harland & Wolff in Belfast and launched on 12 October 1897.\n\nCymric had originally been intended to be an enlarged version of SS Georgic, being a combination of a passenger liner and livestock carrier, with accommodation for only First Class passengers. During the stages of her design layout, it became clearer to the designers at Harland & Wolff that combining passengers and livestock had become rather unpopular, so the spaces designated for cattle were reconfigured into Third Class accommodations. Cymric retained her relatively small and lower-powered machinery, intended to drive the ship at the slower, more economical speeds of a cargo-liner. When her livestock spaces were removed in favour of more passenger accommodation, the high internal volume provided by the former cargo space and the relatively small machinery space (as opposed to the more speed-orientated passenger liners of the time, which dedicated a large proportion of their hull space to boilers and engines) produced a ship that was relatively slow for a passenger liner but with much more interior space and an uncommonly high degree of comfort. The less powerful",
+      "excerpt_offset": 0,
+      "total_chars": 5473,
+      "bm25": {
+        "q1": {
+          "rank": 15,
+          "score": 27.4485
+        }
+      },
+      "best_rank": 15,
+      "title_similarity": 0.2857,
+      "context_overlap": 0.0256,
+      "cosine": 0.148498,
+      "rerank_logit": -5.791008,
+      "rerank_position": 16
+    },
+    {
+      "page_id": "39760837",
+      "revision_id": "1302558526",
+      "title": "Kennicott Cabin",
+      "url": "https://en.wikipedia.org/wiki/Kennicott_Cabin",
+      "excerpt": "The Kennicott Cabin is a log house located at State Highway 69, north of Westcliffe, Colorado. The cabin was constructed in 1869 by Frank Kennicott, one of the first settlers in the Wet Mountain Valley. The cabin's design reflects cabin construction methods popular in the Eastern United States rather than common Western designs, possibly because Kennicott was from Illinois. In addition, the cabin is an unusual example of a two-story log cabin.\n\nThe cabin was added to the National Register of Historic Places on February 14, 1997.",
+      "excerpt_offset": 0,
+      "total_chars": 534,
+      "bm25": {
+        "q0": {
+          "rank": 16,
+          "score": 11.3215
+        }
+      },
+      "best_rank": 16,
+      "title_similarity": 0.5,
+      "context_overlap": 0.025,
+      "cosine": 0.099818,
+      "rerank_logit": -5.836195,
+      "rerank_position": 18
+    },
+    {
+      "page_id": "4373072",
+      "revision_id": "1291517941",
+      "title": "Accommodation of Crews (Supplementary Provisions) Convention, 1970",
+      "url": "https://en.wikipedia.org/wiki/Accommodation_of_Crews_(Supplementary_Provisions)_Convention,_1970",
+      "excerpt": "modation of Crews (Supplementary Provisions) Convention, 1970 is an International Labour Organization Convention. It was ratified by the ILO's Governing Body in Geneva October 14, 1970, as a supplement to the Accommodation of Crews Convention (Revised), 1949.\n\nThe earlier convention considered such shipboard matters as:\n\nsleeping accommodation,\n\nmess and recreation rooms,\n\nventilation,\n\nheating,\n\nlighting, and\n\nsanitary facilities.\n\nThe supplementary provisions were needed because of significant changes in the construction and operation of merchant vessels.\n\nThe provisions apply to sea-going ships, publicly or privately owned, engaged in cargo transport, passengers trade, or any other commercial purpose, registered in a territory which ratified the convention. It does not apply to ships built before the provisions came into force, and to some classes of vessels such as ships of less than 1,000 tons, ships primarily propelled by sail, ships engaged in fishing or whaling, and hydrofoils and air-cushion craft.\n\nArticles 1 through 4 of the provisions cover which vessels are subject to the provisions, definitions, and certain legal requirements for countries which adopt the Convention.\n",
+      "excerpt_offset": 5,
+      "total_chars": 3355,
+      "bm25": {
+        "q1": {
+          "rank": 16,
+          "score": 27.1924
+        }
+      },
+      "best_rank": 16,
+      "title_similarity": 0.2162,
+      "context_overlap": 0.013,
+      "cosine": 0.245145,
+      "rerank_logit": -4.901422,
+      "rerank_position": 3
+    },
+    {
+      "page_id": "43055638",
+      "revision_id": "1302574459",
+      "title": "Rock Cabin",
+      "url": "https://en.wikipedia.org/wiki/Rock_Cabin",
+      "excerpt": "The Rock Cabin is in North Cascades National Park, in the U.S. state of Washington. Constructed by trapper John Dayo in the 1920s, the cabin was placed on the National Register of Historic Places in 1989.\n\nRock Cabin is a three-sided wood cabin which was built against a cliff, with one side of the cabin being the cliff face. The cabin is 9.5 ft (2.9 m) wide at front and 15 ft (4.6 m) long. The cabin has saddle-notched corners and a wood shake roof which abuts the cliff face. The shelter is on the Fisher Creek trail.",
+      "excerpt_offset": 0,
+      "total_chars": 521,
+      "bm25": {
+        "q0": {
+          "rank": 17,
+          "score": 11.3104
+        }
+      },
+      "best_rank": 17,
+      "title_similarity": 0.6667,
+      "context_overlap": 0.0571,
+      "cosine": 0.105886,
+      "rerank_logit": -5.782373,
+      "rerank_position": 15
+    },
+    {
+      "page_id": "23909026",
+      "revision_id": "1327108254",
+      "title": "SS Oregon (1883)",
+      "url": "https://en.wikipedia.org/wiki/SS_Oregon_(1883)",
+      "excerpt": "stest liner on the Atlantic in 1884. She was sold to the Cunard Line after a few voyages and continued to improve her passage times for her new owner. In 1885, Oregon was chartered to the Royal Navy as an auxiliary cruiser, and her success in this role resulted in the Admiralty subsidizing suitable ships for quick conversion in the event of a crisis. She returned to Cunard service in November 1885 and four months later collided with a schooner while approaching New York. Virtually all persons on board were rescued before Oregon sank. Her wreck, 18 miles south of Long Island, remains a popular diving site.\n\nArizona and Alaska only allowed the Guion Line to schedule fortnightly sailings with express liners in each direction. On alternate weeks, Guion's sailings used ships that were considerably slower. Guion needed two additional ships for a balanced weekly service. When Cunard started to build a new fleet for its weekly Liverpool – New York express service, Guion Line ordered Oregon to retain the Atlantic records won by Alaska. As with her predecessors, Oregon was built at the Fairfield Yard of John Elder & Company of Glasgow, Scotland, and cost $1,250,000.\n\nOregon was 6.5% larger a",
+      "excerpt_offset": 109,
+      "total_chars": 8741,
+      "bm25": {
+        "q1": {
+          "rank": 17,
+          "score": 27.0109
+        }
+      },
+      "best_rank": 17,
+      "title_similarity": 0.1429,
+      "context_overlap": 0.0,
+      "cosine": 0.118476,
+      "rerank_logit": -5.673984,
+      "rerank_position": 12
+    },
+    {
+      "page_id": "20216635",
+      "revision_id": "1301884394",
+      "title": "Upper Park Creek Patrol Cabin",
+      "url": "https://en.wikipedia.org/wiki/Upper_Park_Creek_Patrol_Cabin",
+      "excerpt": "The Upper Park Creek Patrol Cabin in Glacier National Park is a rustic backcountry log cabin. Built in 1928, the cabin has a single room. The cabin was built to National Park Service design G913, and adaptation of cabins used at Yellowstone National Park, which had been modeled on those used by the U.S. Forest Service, which in turn were derivations of backwoods trappers' cabins. The Upper Park Creek cabin was more difficult than most to construct, due to its high, remote location.",
+      "excerpt_offset": 0,
+      "total_chars": 486,
+      "bm25": {
+        "q0": {
+          "rank": 18,
+          "score": 11.3076
+        }
+      },
+      "best_rank": 18,
+      "title_similarity": 0.2941,
+      "context_overlap": 0.0645,
+      "cosine": 0.082782,
+      "rerank_logit": -5.743715,
+      "rerank_position": 14
+    },
+    {
+      "page_id": "36802488",
+      "revision_id": "1350472526",
+      "title": "First-class facilities of the Titanic",
+      "url": "https://en.wikipedia.org/wiki/First-class_facilities_of_the_Titanic",
+      "excerpt": " time. In contrast to her French and German competitors, whose interiors were extravagantly decorated and heavily adorned, the Titanic emphasized comfort and subdued elegance more in the style of a British country manor or luxury hotel. Titanic's enormous size enabled her to feature unusually large rooms, all equipped with the latest technologies for comfort, hygiene, and convenience. Staterooms and public spaces recreated historic styles with a painstaking attention to detail and accuracy. There was a wide range of recreational and sporting facilities in addition which provided ample opportunity for amusement during a voyage.\n\nAlthough closely similar to her sister ship and predecessor RMS Olympic, Titanic featured additional First-Class staterooms, augmented public rooms, and myriad minor improvements to enhance luxury and comfort.\n\nThe bulk of First-Class facilities and accommodation was located on the upper decks within the superstructure of the Titanic, where the vibrations and noise of the engines were at their lowest. The entirety of A-Deck was devoted to First-Class recreation accommodation, along with most of B and C Decks.\n\nThe Titanic and her sister the Olympic offered s",
+      "excerpt_offset": 185,
+      "total_chars": 47544,
+      "bm25": {
+        "q1": {
+          "rank": 18,
+          "score": 26.8975
+        }
+      },
+      "best_rank": 18,
+      "title_similarity": 0.2,
+      "context_overlap": 0.0233,
+      "cosine": 0.235157,
+      "rerank_logit": -5.726984,
+      "rerank_position": 13
+    },
+    {
+      "page_id": "22531599",
+      "revision_id": "1346381123",
+      "title": "Joaquin Miller Cabin",
+      "url": "https://en.wikipedia.org/wiki/Joaquin_Miller_Cabin",
+      "excerpt": "The Joaquin Miller Cabin is an historic structure situated in Washington, DC 's Rock Creek Park. Built by the American poet, essayist and fabulist Joaquin Miller, it represents the only known example of late 19th century Rustic-style log cabin in Washington, D.C. It is a Classified Structure within Rock Creek Park.\n\nIn 1883, Joaquin Miller (1837–1913) moved to Washington, DC to get involved in politics, which proved unsuccessful. He built the cabin near the intersection of 16th and Belmont Streets, NW across from present day Meridian Hill Park to find rustic peace and \"find his muse\". Miller lived here from 1883 to late 1885 when he left for California. He sold the cabin for $5,100 in 1887.\n\nIn 1911, the area near Meridian Hill Park was being developed and Henry White, the former ambassador to France, was building an estate on land that included the cabin. The state of California and the Columbia Historical Society sought to save the structure from demolition and have it moved to Rock Creek Park. The board of the National Park Service refused the request but Senator John D. Works, and Joseph R. Knowland of California successfully intervened to force the Park Service to move the cab",
+      "excerpt_offset": 0,
+      "total_chars": 3355,
+      "bm25": {
+        "q0": {
+          "rank": 19,
+          "score": 11.3072
+        }
+      },
+      "best_rank": 19,
+      "title_similarity": 0.4,
+      "context_overlap": 0.0127,
+      "cosine": 0.099236,
+      "rerank_logit": -5.984631,
+      "rerank_position": 22
+    },
+    {
+      "page_id": "12874119",
+      "revision_id": "1351367929",
+      "title": "Bonnington (sternwheeler)",
+      "url": "https://en.wikipedia.org/wiki/Bonnington_(sternwheeler)",
+      "excerpt": "Bonnington was a sternwheel steamboat that ran on the Arrow Lakes in British Columbia from 1911 to 1931. Bonnington and two sisterships were the largest sternwheelers ever built in British Columbia. Bonnington was partially dismantled in the 1950s, and later sank, making the vessel the largest freshwater wreck site in British Columbia.\n\nSteam navigation on the inland lakes of British Columbia was dominated by the River and Lake Service of the Canadian Pacific Railway. Since the early 1890s the River and Lake Service had maintained steamboat service on Okanagan, Arrow and Kootenay lakes. By 1910, with the important exceptions of the composite-hulled Moyie on Kootenay Lake and Minto on the Arrow Lakes, the wooden-hulled steamers of the River and Lake Service were starting to wear out and would need replacement. This time however the hulls of the replacements would be made of steel, although the cabins would be built of wood. It was also planned to greatly increase the passenger capacity of the vessels. The goal was to develop the entire Kootenay and Arrow Lakes area into a major tourist destination, as the C.P.R. had done with Banff\n\nBonnington was a near twin of the steamers Naskook",
+      "excerpt_offset": 0,
+      "total_chars": 9657,
+      "bm25": {
+        "q1": {
+          "rank": 19,
+          "score": 26.8791
+        }
+      },
+      "best_rank": 19,
+      "title_similarity": 0.4,
+      "context_overlap": 0.0,
+      "cosine": 0.063236,
+      "rerank_logit": -6.009785,
+      "rerank_position": 24
+    },
+    {
+      "page_id": "45221864",
+      "revision_id": "1302686558",
+      "title": "Blackwell-Paisley Cabin",
+      "url": "https://en.wikipedia.org/wiki/Blackwell-Paisley_Cabin",
+      "excerpt": "The Blackwell-Paisley Cabin is a historic summer cabin on Suits-Us Drive in Bella Vista, Arkansas. It is a 1 + 1 ⁄ 2 -storey wood-frame structure, facing west, with a front gable roof. A carport is attached to the south facade of the main cabin, and projects forward of it, with its own gable roof. The rear of the carport is screened to provide a sitting area. Bedrooms on two levels are sheltered only by screens on three sides. The cabin was built in 1924 by Roy Cunningham, who built many summer retreat cabins in Bella Vista. This cabin is one of the few surviving and relatively unaltered cabins in the area from the period.\n\nThe cabin was listed on the National Register of Historic Places in 1988.",
+      "excerpt_offset": 0,
+      "total_chars": 705,
+      "bm25": {
+        "q0": {
+          "rank": 20,
+          "score": 11.3053
+        }
+      },
+      "best_rank": 20,
+      "title_similarity": 0.3571,
+      "context_overlap": 0.0204,
+      "cosine": 0.103322,
+      "rerank_logit": -5.672843,
+      "rerank_position": 11
+    },
+    {
+      "page_id": "1091470",
+      "revision_id": "1350899956",
+      "title": "SS Imperator",
+      "url": "https://en.wikipedia.org/wiki/SS_Imperator",
+      "excerpt": "SS Imperator (known as RMS Berengaria for most of her career) was a German ocean liner built for the Hamburg America Line, launched in 1912. At the time of her completion in June 1913, she was the largest passenger ship in the world, surpassing the new White Star liner Olympic.\n\nImperator was the first of a trio of successively larger Hamburg America liners that included Vaterland (later the United States Liner Leviathan) and Bismarck (later the White Star Line Majestic) all of which were seized as war reparations.\n\nImperator served for 14 months on HAPAG's transatlantic route, until the outbreak of World War I, after which she remained in port in Hamburg. After the war, she was briefly commissioned into the United States Navy as USS Imperator (ID-4080) and employed as a transport, returning American troops from Europe. Following her service with the U.S. Navy, Imperator was purchased jointly by Britain's Cunard Line and White Star Line as part of war reparations, due to the loss of the RMS Lusitania, where she sailed as the flagship RMS Berengaria for the last 20 years of her career. William H. Miller wrote that \"despite her German heritage and the barely disguised Teutonic tone o",
+      "excerpt_offset": 0,
+      "total_chars": 13879,
+      "bm25": {
+        "q1": {
+          "rank": 20,
+          "score": 26.7503
+        }
+      },
+      "best_rank": 20,
+      "title_similarity": 0.1176,
+      "context_overlap": 0.0123,
+      "cosine": 0.12535,
+      "rerank_logit": -5.893235,
+      "rerank_position": 20
+    }
+  ]
+}

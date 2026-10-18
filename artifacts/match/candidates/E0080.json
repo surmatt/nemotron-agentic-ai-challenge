@@ -1,0 +1,453 @@
+{
+  "entry_id": "E0080",
+  "headword": "HELMINTHOLITHUS",
+  "entry_text_sha256": "ae42f1f6af6807377d98c81656fbe372b52adf1e546b21dbe7635509401f36ec",
+  "mode": "model",
+  "queries": [
+    "helmintholithus",
+    "helmintholithus petrified natural history name given linnaeus bodies resembling worms reckons four"
+  ],
+  "query_chars": 276,
+  "headword_variant": null,
+  "candidate_count": 20,
+  "list_pages_removed_after_fetch": [],
+  "decision": {
+    "status": "rejected",
+    "method": "nemotron_embed_rerank",
+    "thresholds": {
+      "rerank_logit": -10.0,
+      "margin": 0.5,
+      "cosine": 0.15,
+      "title_similarity": 0.0
+    },
+    "reason": "rerank_logit < -10.0, margin < 0.5, cosine < 0.15, or title_similarity < 0.0",
+    "page_id": "61202",
+    "title": "Vermes",
+    "rerank_logit": -6.470328,
+    "cosine": 0.300291,
+    "margin_to_next": 0.368236,
+    "title_similarity": 0.2105
+  },
+  "candidates": [
+    {
+      "page_id": "61202",
+      "revision_id": "1348178970",
+      "title": "Vermes",
+      "url": "https://en.wikipedia.org/wiki/Vermes",
+      "excerpt": "Vermes (\"vermin/vermes\") is an obsolete taxon used by Carl Linnaeus and Jean-Baptiste Lamarck for non- arthropod invertebrate animals.\n\nIn Linnaeus's Systema Naturae, the Vermes had the rank of class, occupying the 6th (and last) slot of his animal systematics. It was divided into the following orders, all except the Lithophyta containing (in modern terms) organisms from a variety of phyla:\n\nIntestina, including horsehair worms, earthworms, roundworms, liver flukes, leeches, hagfishes, and shipworms\n\nMollusca, including slugs, sea slugs, polychaetes, sea mice, priapulids, salps, jellyfish, starfish, and sea urchins\n\nTestacea, including chitons, barnacles, clams, cockles, nautiluses, snails and serpulid worms\n\nLithophyta, including various corals\n\nZoophyta, including bryozoans, coralline algae, Hydra, sea pens, tapeworms, and Volvox\n\nApart from the Mollusca, understood very differently from the modern phylum of that name, Linnaeus included a very diverse and rather mismatched assemblage of animals in the categories. The Intestina group encompassed various parasitic animals, among them the hagfish, which Linnaeus would have found in dead fish. Shelled molluscs were placed in the Test",
+      "excerpt_offset": 0,
+      "total_chars": 2766,
+      "bm25": {
+        "q1": {
+          "rank": 1,
+          "score": 33.5723
+        }
+      },
+      "best_rank": 1,
+      "title_similarity": 0.2105,
+      "context_overlap": 0.0521,
+      "cosine": 0.300291,
+      "rerank_logit": -6.470328,
+      "rerank_position": 1
+    },
+    {
+      "page_id": "28734047",
+      "revision_id": "1326906325",
+      "title": "Animalia Paradoxa",
+      "url": "https://en.wikipedia.org/wiki/Animalia_Paradoxa",
+      "excerpt": "Animalia Paradoxa (Latin for \"contradictory animals\"; cf. paradox) are the mythical, magical, or otherwise suspect animals mentioned in the first five editions of Carl Linnaeus 's seminal work Systema Naturae under the header Paradoxa. It lists fantastic creatures found in medieval bestiaries and some animals reported by explorers from abroad and explains why they are excluded from Systema Naturae. According to Swedish historian Gunnar Broberg, it was to offer a natural explanation and demystify the world of superstition. Paradoxa was dropped from Linnaeus' classification system as of the 6th edition (1748).\n\nThese 10 taxa appear in the 1st to 5th editions:\n\nHydra: Linnaeus wrote: \"Hydra: body of a snake, with two feet, seven necks and the same number of heads, lacking wings, preserved in Hamburg, similar to the description of the Hydra of the Apocalypse of St.John chapters 12 and 13. And it is provided by very many as a true species of animal, but falsely. Nature for itself and always the similar, never naturally makes multiple heads on one body. Fraud and artifice, as we ourselves saw teeth of a weasel, different from teeth of an Amphibian, easily detected.\" See Carl Linnaeus#Doc",
+      "excerpt_offset": 0,
+      "total_chars": 6180,
+      "bm25": {
+        "q1": {
+          "rank": 2,
+          "score": 31.5501
+        }
+      },
+      "best_rank": 2,
+      "title_similarity": 0.1935,
+      "context_overlap": 0.0337,
+      "cosine": 0.32143,
+      "rerank_logit": -7.095259,
+      "rerank_position": 4
+    },
+    {
+      "page_id": "19180096",
+      "revision_id": "1344755233",
+      "title": "Worm",
+      "url": "https://en.wikipedia.org/wiki/Worm",
+      "excerpt": "Worms are many different distantly related bilateral animals that typically have a long cylindrical tube-like body, no limbs, and usually no eyes.\n\nWorms vary in size from microscopic to over 1 metre (3.3 ft) in length for marine polychaete worms (bristle worms); 6.7 metres (22 ft) for the African giant earthworm, Microchaetus rappi; and 58 metres (190 ft) for the marine nemertean worm (bootlace worm), Lineus longissimus. Various types of worm occupy a small variety of parasitic niches, living inside the bodies of other animals. Free-living worm species do not live on land but instead live in marine or freshwater environments or underground by burrowing.\n\nIn biology, \"worm\" refers to an obsolete taxon, Vermes, used by Carolus Linnaeus and Jean-Baptiste Lamarck for all non- arthropod invertebrate animals, now seen to be paraphyletic. The name stems from the Old English word wyrm. Most animals called \"worms\" are invertebrates, but the term is also used for the amphibian caecilians and the slowworm Anguis, a legless burrowing lizard. Invertebrate animals commonly called \"worms\" include annelids, nematodes, flatworms, nemerteans, chaetognaths, priapulids, and insect larvae such as grub",
+      "excerpt_offset": 0,
+      "total_chars": 5298,
+      "bm25": {
+        "q1": {
+          "rank": 3,
+          "score": 31.4262
+        }
+      },
+      "best_rank": 3,
+      "title_similarity": 0.1111,
+      "context_overlap": 0.0426,
+      "cosine": 0.228959,
+      "rerank_logit": -6.838564,
+      "rerank_position": 2
+    },
+    {
+      "page_id": "27241906",
+      "revision_id": "1315344782",
+      "title": "Smooth trunkfish",
+      "url": "https://en.wikipedia.org/wiki/Smooth_trunkfish",
+      "excerpt": "Lactophrys triqueter the smooth trunkfish, is a species of marine ray-finned fish belonging to the family Ostraciidae, the boxfishes. The smooth trunkfish is found in the Western Atlantic Ocean.\n\nThe smooth trunkfish was first formally described as Ostracion triqueter in 1758 by Carl Linnaeus in the 10th edition of Systema Naturae with its type locality given as \"India\", in error for the Western Atlantic. The 5th edition of Fishes of the World classifies the genus Lactophrys within the family Ostraciidae in the suborder Ostracioidea within the order Tetraodontiformes.\n\nThe smooth trunkfish is a member of the genus Lactophrys, a name which is a compound of lactaria, meaning a \"milkcow\", and ophrys, meaning \"eyebrow\", a reference to the spines above the eyes resembling the horns of a cow. Some fishes in this family are known as cowfishes. The specific name, triqueter, means \"three angled\", a reference to this fish's triangular body when viewed head on.\n\nThe smooth trunkfish has an angular body sheathed in plate-like scales, growing to a maximum length of 47 centimetres (19 in), though 20 cm (8 in) is a more normal size. The body is enclosed in a bony carapace and, when viewed from th",
+      "excerpt_offset": 0,
+      "total_chars": 2910,
+      "bm25": {
+        "q1": {
+          "rank": 4,
+          "score": 30.5392
+        }
+      },
+      "best_rank": 4,
+      "title_similarity": 0.3333,
+      "context_overlap": 0.0667,
+      "cosine": 0.111732,
+      "rerank_logit": -9.242371,
+      "rerank_position": 20
+    },
+    {
+      "page_id": "34360904",
+      "revision_id": "1328619580",
+      "title": "Kuphus",
+      "url": "https://en.wikipedia.org/wiki/Kuphus",
+      "excerpt": "Kuphus is a genus of shipworms, marine bivalve molluscs in the family Teredinidae. While there are four extinct species in the genus, the only extant species is Kuphus polythalamius (also incorrectly spelled as Kuphus polythalamia). It is the longest bivalve mollusc in the world, where the only known permanent natural habitat is Kalamansig, Sultan Kudarat in the Philippines.\n\nMembers of this genus secrete calcareous tubes. Based only on the calcareous tube, this species was originally thought by Linnaeus to be a tube worm, so he placed it in the genus Serpula. Despite the fact that Kuphus polythalamius is now known to be a mollusc, its common name is the giant tube worm. Since 1981 however, the name \"giant tube worm\" has also been applied to the hydrothermal vent species Riftia pachyptila, which is indeed a worm, an annelid.\n\nThe sole living species is:\n\nKuphus polythalamius\n\nExtinct species are:\n\n† Kuphus arenarius\n\n† Kuphus incrassatus\n\n† Kuphus fistula\n\n† Kuphus melitensis\n\nLarge, tusk-shaped, calcareous tubes were occasionally washed up on beaches. There was disagreement among zoologists in the 18th century as to whether the creature which made one of these was a polychaete tub",
+      "excerpt_offset": 0,
+      "total_chars": 3480,
+      "bm25": {
+        "q1": {
+          "rank": 5,
+          "score": 29.8205
+        }
+      },
+      "best_rank": 5,
+      "title_similarity": 0.2105,
+      "context_overlap": 0.0563,
+      "cosine": 0.280556,
+      "rerank_logit": -8.289375,
+      "rerank_position": 12
+    },
+    {
+      "page_id": "3169611",
+      "revision_id": "1343343770",
+      "title": "Invertebrate zoology",
+      "url": "https://en.wikipedia.org/wiki/Invertebrate_zoology",
+      "excerpt": " zoology that consists of the study of invertebrates, animals without a backbone (a structure which is found only in fish, amphibians, reptiles, birds and mammals).\n\nInvertebrates are a vast and very diverse group of animals that includes sponges, echinoderms, tunicates, numerous different phyla of worms, molluscs, arthropods and many additional phyla. Single-celled organisms or protists are usually not included within the same group as invertebrates.\n\nInvertebrates represent 97% of all named animal species, and because of that fact, this subdivision of zoology has many further subdivisions, including but not limited to:\n\nArthropodology - the study of arthropods, which includes\n\nArachnology - the study of spiders and other arachnids\n\nEntomology - the study of insects\n\nCarcinology - the study of crustaceans\n\nMyriapodology - the study of centipedes, millipedes, and other myriapods\n\nCnidariology - the study of Cnidaria\n\nHelminthology - the study of parasitic worms.\n\nMalacology - the study of mollusks, which includes\n\nConchology - the study of Mollusk shells.\n\nLimacology - the study of slugs.\n\nTeuthology - the study of cephalopods.\n\nInvertebrate paleontology - the study of fossil inver",
+      "excerpt_offset": 44,
+      "total_chars": 8785,
+      "bm25": {
+        "q1": {
+          "rank": 6,
+          "score": 29.2237
+        }
+      },
+      "best_rank": 6,
+      "title_similarity": 0.2941,
+      "context_overlap": 0.0563,
+      "cosine": 0.174994,
+      "rerank_logit": -7.226479,
+      "rerank_position": 5
+    },
+    {
+      "page_id": "347834",
+      "revision_id": "1306191688",
+      "title": "Anguis",
+      "url": "https://en.wikipedia.org/wiki/Anguis",
+      "excerpt": "Slow worms (also called blindworms and hazelworms) are a small genus (Anguis) of snake-like legless lizards in the family Anguidae. The genus contains five extant living species, including the common slow worm (A. fragilis), the eastern slow worm (A. colchica), the Greek slow worm (A. graeca), the Peloponnese slow worm (A. cephalonnica), and the Italian slow worm (A. veronensis). There are also known fossil species.\n\nSlow worms are typically grey-brown, with the females having a coppery sheen and two lateral black stripes, and the males displaying electric blue spots, particularly in the breeding season. They give birth to live young, which are about 4 cm (1.6 in) long at birth and generally have golden stripes.\n\nSlow worms are slow-moving and can be easily caught, which has given rise to the folk etymology that the \"slow\" in slow worm is the same as the English adjective slow; the actual origin is a proto-Germanic root which simply means \"slowworm\" (cf. German Schleiche). Like many lizards, slow worms can shed their tails to distract predators. The tail regrows, but never fully. Principal predators are birds, badgers, hedgehogs, foxes, and domestic cats.\n\nThe average British slow ",
+      "excerpt_offset": 0,
+      "total_chars": 3636,
+      "bm25": {
+        "q1": {
+          "rank": 7,
+          "score": 28.925
+        }
+      },
+      "best_rank": 7,
+      "title_similarity": 0.1053,
+      "context_overlap": 0.0217,
+      "cosine": 0.233332,
+      "rerank_logit": -7.897103,
+      "rerank_position": 8
+    },
+    {
+      "page_id": "1262227",
+      "revision_id": "1336537104",
+      "title": "Fet-Mats",
+      "url": "https://en.wikipedia.org/wiki/Fet-Mats",
+      "excerpt": "Fet-Mats or Fat Mats (born Mats Israelsson; died 1677) was a natural mummy found in Sweden in 1719.\n\nIn 1719, miners in the Falun Mine found an intact dead body in a water-filled, long-unused tunnel. When the body was put on display, it was identified by his former fiancée, Margaret Olsdotter, as Fet-Mats Israelsson, a native of Boda, Svärdsjö, Kopparberg County, who had disappeared 42 years earlier.\n\nOn 2 December 1719, miners discovered a dead man in the water-filled shaft known as Mårdskinnsfallet, in a part of the mine that had not been used for a long time. Both legs of the dead man were amputated and missing, but neither clothes, hands nor face showed signs of decay, which made it appear as if he had recently died; the find became a mystery because no person was reported as missing. When the body was raised to ground level, it began to dry and became \"hard as wood\" according to a contemporary description. According to others, the body had rather turned into stone, giving rise to the epithet \"the petrified miner\".\n\nAfter the body was put on display in Stora Kopparberget, Margaret Olsdotter identified it as belonging to Fet-Mats Israelsson, her fiancé who disappeared in March 1",
+      "excerpt_offset": 0,
+      "total_chars": 2935,
+      "bm25": {
+        "q1": {
+          "rank": 8,
+          "score": 28.5244
+        }
+      },
+      "best_rank": 8,
+      "title_similarity": 0.2727,
+      "context_overlap": 0.0471,
+      "cosine": 0.30083,
+      "rerank_logit": -7.842032,
+      "rerank_position": 7
+    },
+    {
+      "page_id": "50565395",
+      "revision_id": "1314748681",
+      "title": "Lactophrys trigonus",
+      "url": "https://en.wikipedia.org/wiki/Lactophrys_trigonus",
+      "excerpt": "Lactophrys trigonus, the buffalo trunkfish or trunkfish, is a species of marine ray-finned fish belonging to the family Ostraciidae, the boxfishes. The buffalo trunkfish is found in the Western Atlantic Ocean.\n\nLactophrys trigonus was first formally described as Ostracion trigonus in 1758 by Carl Linnaeus in the 10th edition of Systema Naturae with its type locality given as the Western Atlantic. In 1839 William Swainson proposed a new subgenus of Ostracion he called Lactophrys and in 1865 Pieter Bleeker designated this species, O. trigonus as the type species of Lactophrys. The 5th edition of Fishes of the World classifies the genus Lactophrys within the family Ostraciidae in the suborder Ostracioidea within the order Tetraodontiformes.\n\nLactophrys trigonus is a member of the genus Lactophrys, a name which is a compound of lactaria, meaning a \"milkcow\", and ophrys, meaning \"eyebrow\", a reference to the spines above the eyes resembling the horns of a cow. Some fishes in this family are known as cowfishes. The specific name, trigonus, means \"three angles\", a reference to this fish's triangular body when viewed head on.\n\nThe trunkfish has small diffuse white spots. Two areas, located",
+      "excerpt_offset": 0,
+      "total_chars": 1946,
+      "bm25": {
+        "q1": {
+          "rank": 9,
+          "score": 28.387
+        }
+      },
+      "best_rank": 9,
+      "title_similarity": 0.2581,
+      "context_overlap": 0.0685,
+      "cosine": 0.097529,
+      "rerank_logit": -9.066438,
+      "rerank_position": 19
+    },
+    {
+      "page_id": "27990793",
+      "revision_id": "1349788207",
+      "title": "Thylacodes arenarius",
+      "url": "https://en.wikipedia.org/wiki/Thylacodes_arenarius",
+      "excerpt": "enarius are irregular, and can reach a length of about 100–200 millimetres (3.9–7.9 in). The diameter of the round opening reach 11–15 millimetres (0.43–0.59 in). The inner surface is smooth and shiny. These shells are cemented onto a hard surface and resemble the calcareous tubes of certain marine worms, for example worms in the polychaete family Serpulidae. The visible part of the body is red with cream markings. The foot of this mollusk is atrophied and it has lost its function of movement.\n\nThis species can be found in the Mediterranean Sea - Eastern Basin and in the North Atlantic Ocean - European waters.\n\nLemintina arenaria (Linnaeus, 1758)\n\nLemintina selecta (Monterosato, 1878)\n\nLemintina selecta var. arborea Monterosato, 1884\n\nSerpula arenaria Linnaeus, 1758 (original combination. Not Polychaeta, transferred to Vermetidae Mollusca)\n\nSerpulorbis arenarius (Linnaeus, 1758)\n\nSerpulorbis polyphragma Sasso, 1827\n\nSerpulus arenarius var. gracilior Mörch, 1859 (infrasubspecific)\n\nThylacodus polyphragma (Sasso, 1827)\n\nThylacodus polyphragma var. aletes Mörch, 1862 (synonym)\n\nVermetus arenarius (Linnaeus, 1758)\n\nVermetus arenarius var. minor Sacco, 1896 (junior primary homonym)\n\nVer",
+      "excerpt_offset": 149,
+      "total_chars": 2935,
+      "bm25": {
+        "q1": {
+          "rank": 10,
+          "score": 28.0973
+        }
+      },
+      "best_rank": 10,
+      "title_similarity": 0.3125,
+      "context_overlap": 0.0494,
+      "cosine": 0.243974,
+      "rerank_logit": -7.32847,
+      "rerank_position": 6
+    },
+    {
+      "page_id": "53321675",
+      "revision_id": "1170148010",
+      "title": "Puyango Petrified Forest",
+      "url": "https://en.wikipedia.org/wiki/Puyango_Petrified_Forest",
+      "excerpt": "Puyango Petrified Forest is a fossil deposit of petrified wood located in the middle basin of the Puyango River, between the Ecuadorian provinces of El Oro and Loja. The area covers 2,658 hectares and its sediments are divided into four geological formations, dating from the late Cretaceous period. These deposits are rich in both fossilized trunks and leaves - which belonged to the typical Mesozoic flora - as well as fossils of invertebrates such as bivalves, ammonites, echinoderms, among others.\n\nThe forest is located between 360 and 500 meters above sea level and has an average temperature of 22.5 °C. The most appropriate season to visit is the dry season from May to December. During the winter season the area receives more than 900 mm of rain that change the landscape considerably, making the visit interesting also in these months. Puyango is one of the few remnants of dry tropical forest in the southwest of Ecuador where strong slopes and ravines have preserved the natural and complete natural vegetation of this type of ecosystem and other areas of secondary forest that are in recovery.\n\nPuyango was formerly a sea; the oldest fossils correspond to marine organisms. This sea dri",
+      "excerpt_offset": 0,
+      "total_chars": 2848,
+      "bm25": {
+        "q1": {
+          "rank": 11,
+          "score": 27.9351
+        }
+      },
+      "best_rank": 11,
+      "title_similarity": 0.1667,
+      "context_overlap": 0.0357,
+      "cosine": 0.124868,
+      "rerank_logit": -8.245399,
+      "rerank_position": 11
+    },
+    {
+      "page_id": "58039827",
+      "revision_id": "1306410737",
+      "title": "Lepidonotus squamatus",
+      "url": "https://en.wikipedia.org/wiki/Lepidonotus_squamatus",
+      "excerpt": "Lepidonotus squamatus is a species of polychaete worm, commonly known as a \"scale worm\", in the family Polynoidae. This species occurs in both the Atlantic and the Pacific Oceans. It was first described by the Swedish naturalist Carl Linnaeus in 1758 as Aphrodita squamata but was later transferred to the genus Lepidonotus.\n\nThe prostomium has two lobes and bears several pairs of antennae, a pair of palps and two pairs of eyes. The dorsal surface of the body, which has uniform width, is completely concealed by two rows of overlapping scales, resembling fish scales. These scales are modified cirri and are supported on short stalks. They are covered in tubercles of varying sizes, and have a fringe of papillae. This worm has 26 segments and grows to a length of about 5 cm (2 in); it is some shade of grey, drab brown or yellow, often being covered with mud.\n\nLepidonotus squamatus occurs in Western Europe, including the North Sea, the Skagerrak, the Kattegat, the Öresund Strait and the western Baltic Sea. It is also present on the eastern seaboard of North America from Labrador southward to New Jersey and on the western seaboard from Alaska to California. It occurs in the littoral zone a",
+      "excerpt_offset": 0,
+      "total_chars": 1844,
+      "bm25": {
+        "q1": {
+          "rank": 12,
+          "score": 27.9174
+        }
+      },
+      "best_rank": 12,
+      "title_similarity": 0.2424,
+      "context_overlap": 0.0227,
+      "cosine": 0.290299,
+      "rerank_logit": -7.959121,
+      "rerank_position": 9
+    },
+    {
+      "page_id": "16072343",
+      "revision_id": "1341372522",
+      "title": "Linnaeus's flower clock",
+      "url": "https://en.wikipedia.org/wiki/Linnaeus%27s_flower_clock",
+      "excerpt": "Linnaeus's flower clock was a garden plan hypothesized by Carl Linnaeus that would take advantage of several plants that open or close their flowers at particular times of the day to accurately indicate the time. According to Linnaeus's autobiographical notes, he discovered and developed the floral clock in 1748. It builds on the fact that there are species of plants that open or close their flowers at set times of day. He proposed the concept in his 1751 publication Philosophia Botanica, calling it the horologium florae (lit. ' flower clock '). His observations of how plants changed over time are summarised in several publications. Calendarium florae (the Flower Almanack) describes the seasonal changes in nature and the botanic garden during the year 1755. In Somnus plantarum (the Sleep of Plants), he describes how different plants prepare for sleep during the night, and in Vernatio arborum he gives an account of the timing of leaf-bud burst in different trees and bushes. He may never have planted such a garden, but the idea was attempted by several botanical gardens in the early 19th century, with mixed success. Many plants exhibit a strong circadian rhythm (see also Chronobiolog",
+      "excerpt_offset": 0,
+      "total_chars": 2464,
+      "bm25": {
+        "q1": {
+          "rank": 13,
+          "score": 27.8161
+        }
+      },
+      "best_rank": 13,
+      "title_similarity": 0.2778,
+      "context_overlap": 0.012,
+      "cosine": 0.170979,
+      "rerank_logit": -8.836216,
+      "rerank_position": 17
+    },
+    {
+      "page_id": "26948342",
+      "revision_id": "1326118605",
+      "title": "Tritonium",
+      "url": "https://en.wikipedia.org/wiki/Tritonium",
+      "excerpt": "Tritonium is a genus of sea snails, marine gastropod mollusks in the family Cancellariidae, commonly known as the nutmeg snails.\n\nThe genus name Tritonium has been given twice to species with a different type species :\n\nTritonium O.F. Müller, 1776 : type species Buccinum undatum Linnaeus, 1758 (given by Stewart in 1926); this makes this name an objective synonym of Buccinum.\n\nTritonium Röding, 1798 : type species : Murex tritonis Linnaeus, 1758 (given by Cossman in 1903); this makes this name an objective synonym of Charonia Gistel, 1847.\n\nNeither of these original names is valid. Confusion increased when, during the 18th and 19th century, authors added species but didn't specify to which Tritonium they belonged. The authors of the World Register of Marine Species (WoRMS) have arbitrarily attributed the species now placed in Buccinidae, Muricidae, and other neogastropod families, to Tritonium O.F. Müller, 1776. The species now placed in Ranellidae and Bursidae, have been attributed to Tritonium Röding, 1798.\n\nSome of the species that used to be included within the genus Tritonium :\n\nTritonium clathratus (Linnaeus, 1767): synonym off Boreotrophon clathratus (Linnaeus, 1767)\n\nTritoni",
+      "excerpt_offset": 0,
+      "total_chars": 1252,
+      "bm25": {
+        "q1": {
+          "rank": 14,
+          "score": 27.6538
+        }
+      },
+      "best_rank": 14,
+      "title_similarity": 0.3478,
+      "context_overlap": 0.0667,
+      "cosine": 0.1986,
+      "rerank_logit": -9.010713,
+      "rerank_position": 18
+    },
+    {
+      "page_id": "28579539",
+      "revision_id": "1286666560",
+      "title": "Flora Lapponica",
+      "url": "https://en.wikipedia.org/wiki/Flora_Lapponica",
+      "excerpt": "Flora Lapponica (Amsterdam, 1737) is an account of the plants of Lapland written by botanist, zoologist and naturalist Carl Linnaeus (1707–1788) following his expedition to Lapland.\n\nOver the period from 12 May 1732 to 10 September 1732, and with a grant from the Royal Society of Sciences in Uppsala for his journey, Linnaeus was able to combine his interest in medicine with that of natural history to travel for five months in Lapland collecting animals, plants, and minerals.\n\nIn Flora Lapponica Linnaeus's ideas about nomenclature and classification were first used in a practical way, making this the first proto-modern Flora. The account covered 534 species, used the Linnaean classification system and included, for the described species, geographical distribution and taxonomic notes. It was Augustin Pyramus de Candolle who attributed Linnaeus with Flora Lapponica as the first example in the botanical genre of Flora writing. Botanical historian E.L. Greene described Flora Lapponica as “the most classic and delightful of Linnaeus’s writings”.\n\nA Lapland plant, Linnaea borealis, was named by the eminent botanist Jan Frederik Gronovius in commemoration of Linnaeus's achievements. In the",
+      "excerpt_offset": 0,
+      "total_chars": 1938,
+      "bm25": {
+        "q1": {
+          "rank": 15,
+          "score": 27.4921
+        }
+      },
+      "best_rank": 15,
+      "title_similarity": 0.1379,
+      "context_overlap": 0.0395,
+      "cosine": 0.233791,
+      "rerank_logit": -8.074673,
+      "rerank_position": 10
+    },
+    {
+      "page_id": "55224677",
+      "revision_id": "1304011711",
+      "title": "Olympus Geological History Museum",
+      "url": "https://en.wikipedia.org/wiki/Olympus_Geological_History_Museum",
+      "excerpt": "The Olympus Geological History Museum (Greek: Μουσείο Γεωλογικής Ιστορίας Ολύμπου, Mouseio Geologikis Istorias Olympou) is a geological museum in the town of Leptokarya at the foot of Mount Olympus in northern Greece. It presents in several exhibition rooms, rocks and minerals from the region and fossils from the Olympus and from the surrounding area. It was established with the help of the Geology faculty of the Aristotle University of Thessaloniki.\n\nWhile finds from the whole of Greece are exhibited in the classrooms, a separate exhibition room is devoted exclusively to Mount Olympus. The history of the formation of the mountains is shown. Various types of fossilized plants and fossils are exhibited.\n\nThe geological development of Greece will be explained with the help of folders. Using a model of the Olympus, the distribution of the various types of rock in the mountain range is shown. All known types of rocks occurring in the Olympus region are exhibited in showcases.\n\nAs a result of the displacement of the continental plates, Olympus is still pushed up by one to four millimeters per year. This is the reason why there are petrified marine animals at a height of around 1000 to 1",
+      "excerpt_offset": 0,
+      "total_chars": 2449,
+      "bm25": {
+        "q1": {
+          "rank": 16,
+          "score": 26.8395
+        }
+      },
+      "best_rank": 16,
+      "title_similarity": 0.2174,
+      "context_overlap": 0.0533,
+      "cosine": 0.226053,
+      "rerank_logit": -8.578127,
+      "rerank_position": 14
+    },
+    {
+      "page_id": "9475794",
+      "revision_id": "1329081571",
+      "title": "Ogcocephalus vespertilio",
+      "url": "https://en.wikipedia.org/wiki/Ogcocephalus_vespertilio",
+      "excerpt": " a species of marine ray-finned fish belonging to the family Ogcocephalidae, the deep sea batfishes. This species is found in the Western Atlantic Ocean. The Brazilian batfish is the type species of the genus Ogcocephalus.\n\nOgcocephalus vespertilio is the type species of the genus Ogcocephalus, the name of which is a combination of ogkos, which means \"hook\", and cephalus, meaning \"head\", an allusion to the pointed rostrum on the snout of the type species. The specific name vespertilio, means \" bat \", this probably goes back to the name \"Sea Bat\", a common name probably first mentioned in Patrick Browne;s Civil and Natural History of Jamaica published in 1756, which said \"by the extension of its side-fins and its small ventrals, represents a bat in some measure, whence its name\".\n\nOgcocephalus vespertilio was first formally described as Lophius vespertilio by Carl Linnaeus in the 10th edition of Systema Naturae with its type locality given as the \"American Ocean\". In 1813 Gotthelf Fischer von Waldheim proposed the genus Ogcocephalus and in 1896 David Starr Jordan and Barton Warren Evermann designated Linnaeus's L. vespertilio as the type species of this genus. The genus Ogcocephalus",
+      "excerpt_offset": 63,
+      "total_chars": 4719,
+      "bm25": {
+        "q1": {
+          "rank": 17,
+          "score": 26.7461
+        }
+      },
+      "best_rank": 17,
+      "title_similarity": 0.2703,
+      "context_overlap": 0.0759,
+      "cosine": 0.176955,
+      "rerank_logit": -8.405898,
+      "rerank_position": 13
+    },
+    {
+      "page_id": "4394717",
+      "revision_id": "1321364505",
+      "title": "Body plan",
+      "url": "https://en.wikipedia.org/wiki/Body_plan",
+      "excerpt": "early Palaeozoic. Recent studies in animals and plants started to investigate whether evolutionary constraints on body plan structures can explain the presence of developmental constraints during embryogenesis such as the phenomenon referred to as phylotypic stage.\n\nAmong the pioneering zoologists, Linnaeus identified two body plans outside the vertebrates; Cuvier identified three; and Haeckel had four, as well as the Protista with eight more, for a total of twelve. For comparison, the number of phyla recognised by modern zoologists has risen to 36.\n\nIn his 1735 book Systema Naturæ, Swedish botanist Linnaeus grouped the animals into quadrupeds, birds, \"amphibians\" (including tortoises, lizards and snakes), fish, \"insects\" (Insecta, in which he included arachnids, crustaceans and centipedes) and \"worms\" (Vermes). Linnaeus's Vermes included effectively all other groups of animals, not only tapeworms, earthworms and leeches but molluscs, sea urchins and starfish, jellyfish, squid and cuttlefish.\n\nIn his 1817 work, Le Règne Animal, French zoologist Georges Cuvier combined evidence from comparative anatomy and palaeontology to divide the animal kingdom into four body plans. Taking the c",
+      "excerpt_offset": 713,
+      "total_chars": 4941,
+      "bm25": {
+        "q1": {
+          "rank": 18,
+          "score": 26.6287
+        }
+      },
+      "best_rank": 18,
+      "title_similarity": 0.1739,
+      "context_overlap": 0.033,
+      "cosine": 0.300166,
+      "rerank_logit": -7.055429,
+      "rerank_position": 3
+    },
+    {
+      "page_id": "53956524",
+      "revision_id": "1341862564",
+      "title": "Cysticercus",
+      "url": "https://en.wikipedia.org/wiki/Cysticercus",
+      "excerpt": "Cysticercus (pl. cysticerci) is a scientific name given to the young tapeworms (larvae) belonging to the genus Taenia. It is a small, sac-like vesicle resembling a bladder; hence, it is also known as bladder worm. It is filled with fluid, in which the main body of the larva, called scolex (which will eventually form the head of the tapeworm), resides. It normally develops from the eggs, which are ingested by the intermediate hosts, such as pigs and cattle. The tissue infection is called cysticercosis. Inside such hosts, they settle in the muscles. When humans eat raw or undercooked pork or beef that is contaminated with cysticerci, the larvae grow into adult worms inside the intestine. Under certain circumstances, specifically for the pork tapeworm, the eggs can be accidentally eaten by humans through contaminated foodstuffs. In such case, the eggs hatch inside the body, generally moving to muscles as well as inside the brain. Such brain infection can lead to a serious medical condition called neurocysticercosis. This disease is the leading cause of acquired epilepsy.\n\nCysticercus was discovered in the late 17th century CE as a parasitic bladder worm. It was believed to be a differ",
+      "excerpt_offset": 0,
+      "total_chars": 3166,
+      "bm25": {
+        "q1": {
+          "rank": 19,
+          "score": 26.5463
+        }
+      },
+      "best_rank": 19,
+      "title_similarity": 0.1667,
+      "context_overlap": 0.0471,
+      "cosine": 0.162059,
+      "rerank_logit": -8.680304,
+      "rerank_position": 15
+    },
+    {
+      "page_id": "25471958",
+      "revision_id": "1218132764",
+      "title": "Amphisbaena ridleyi",
+      "url": "https://en.wikipedia.org/wiki/Amphisbaena_ridleyi",
+      "excerpt": "Amphisbaena ridleyi, known by the common names Ridley's worm lizard or the Noronha worm lizard, is a species of amphisbaenian in the family Amphisbaenidae. The species is endemic to the island of Fernando de Noronha off the coast of Brazil. It is one of two indigenous reptiles on the island.\n\nItalian explorer Amerigo Vespucci may have visited Fernando de Noronha in 1503. In an account of his voyage, the authenticity of which is doubtful, he records \"some snakes\" from the island. Although Amphisbaena ridleyi is not a snake, the difference would be clear only to a herpetologist, and it is likely that Vespucci's men actually saw A. ridleyi. He also recorded \"lizards with two tails\" and \"very big rats\", which can be identified with Trachylepis atlantica and Noronhomys vespuccii.\n\nIn 1887, botanist Henry Nicholas Ridley collected 16 specimens on Fernando de Noronha, which were deposited in the British Museum of Natural History, and in 1890, George Albert Boulenger officially described it as Amphisbaena ridleyi, naming it after Ridley. The generic name Amphisbaena is a compound of two Greek words: αμφις (amphis), meaning \"both ways\", and βαινειν (bainein), meaning \"to go\". This is in ref",
+      "excerpt_offset": 0,
+      "total_chars": 3320,
+      "bm25": {
+        "q1": {
+          "rank": 20,
+          "score": 26.503
+        }
+      },
+      "best_rank": 20,
+      "title_similarity": 0.2424,
+      "context_overlap": 0.0526,
+      "cosine": 0.187127,
+      "rerank_logit": -8.699134,
+      "rerank_position": 16
+    }
+  ]
+}

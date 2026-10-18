@@ -1,0 +1,93 @@
+{
+  "variant": "crop_nothink",
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1250",
+  "block_index": 9,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T12:22:03+00:00",
+  "elapsed_seconds": 2.33,
+  "finish_reason": "stop",
+  "parse_text": "tal, out of the mould into which they are cafts, they do not best them on the avril, as was formerly done, but they make them pals and repuls between the fe- veral rollers of the laminating engine, which being gradually brought before and defer to the other pro- fently give the lamina its uniform and exact thickensful. Indeed of dividing the lamina can final figures, they at once even clean out of it as many plantaches as it can contain, by means of a sharp fleet trepan, of a roun- dill figure, hollow within, and of a properizationable diameter, to shape and cut of the pieces at one unit the fames times. After theft glances have been prepared and weighed with witharded pieces, flid or forged to get of the greythours part of the metal, and then boiled and made clear, they arrive, at half, at the mas- chine (fig. r.), which marks them when the edge's and flaming the mail (fig. z). which, squeezing each of them flying between the two dyes, brought near each other with one blow, forces the two furfaces or fields of the piece to fill exactly all the vacations of the two figures engraved hollow. The engine which favors to laminate lead, gives a sufficient notion of that which ferns to flatter gold and fiber: laminae between rollers of a kifefer.",
+  "corrected_text": "tal, out of the mould into which they are cast, they do not beat them on the anvil, as was formerly done, but they make them pas and repass between the several rollers of the laminating engine, which being gradually brought closer and closer to each other, frequently give the lamina its uniform and exact thickness. Instead of dividing the lamina into small squares, they at once cut clean out of it as many planchets as it can contain, by means of a sharp steel trepan, of a roundish figure, hollow within, and of a proportionable diameter, to shape and cut off the piece at one and the same time. After these planchets have been prepared and weighed with standard pieces, filed or forged to get off the superfluous part of the metal, and then boiled and made clean, they arrive, at last, at the machine (fig. 1.), which marks them upon the edge; and finally, the mill (fig. 2.), which, squeezing each of them finely between the two dyes, brought near each other with one blow, forces the two surfaces or fields of the piece to fill exactly all the vacancies of the two figures engraved hollow. The engine which serves to laminate lead, gives a sufficient notion of that which serves to flatten gold and silver. laminae between rollers of a lesser size.",
+  "reasoning_tokens": 0,
+  "usage": {
+    "completion_tokens": 275,
+    "prompt_tokens": 1045,
+    "total_tokens": 1320,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 577
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 3000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows this region of the page. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\ntal, out of the mould into which they are cafts, they do not best them on the avril, as was formerly done, but they make them pals and repuls between the fe- veral rollers of the laminating engine, which being gradually brought before and defer to the other pro- fently give the lamina its uniform and exact thickensful. Indeed of dividing the lamina can final figures, they at once even clean out of it as many plantaches as it can contain, by means of a sharp fleet trepan, of a roun- dill figure, hollow within, and of a properizationable diameter, to shape and cut of the pieces at one unit the fames times. After theft glances have been prepared and weighed with witharded pieces, flid or forged to get of the greythours part of the metal, and then boiled and made clear, they arrive, at half, at the mas- chine (fig. r.), which marks them when the edge's and flaming the mail (fig. z). which, squeezing each of them flying between the two dyes, brought near each other with one blow, forces the two furfaces or fields of the piece to fill exactly all the vacations of the two figures engraved hollow. The engine which favors to laminate lead, gives a sufficient notion of that which ferns to flatter gold and fiber: laminae between rollers of a kifefer.",
+  "response": {
+    "id": "chatcmpl-ba265c21dce58923",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "tal, out of the mould into which they are cast, they do not beat them on the anvil, as was formerly done, but they make them pas and repass between the several rollers of the laminating engine, which being gradually brought closer and closer to each other, frequently give the lamina its uniform and exact thickness. Instead of dividing the lamina into small squares, they at once cut clean out of it as many planchets as it can contain, by means of a sharp steel trepan, of a roundish figure, hollow within, and of a proportionable diameter, to shape and cut off the piece at one and the same time. After these planchets have been prepared and weighed with standard pieces, filed or forged to get off the superfluous part of the metal, and then boiled and made clean, they arrive, at last, at the machine (fig. 1.), which marks them upon the edge; and finally, the mill (fig. 2.), which, squeezing each of them finely between the two dyes, brought near each other with one blow, forces the two surfaces or fields of the piece to fill exactly all the vacancies of the two figures engraved hollow. The engine which serves to laminate lead, gives a sufficient notion of that which serves to flatten gold and silver. laminae between rollers of a lesser size.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792326125,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 275,
+      "prompt_tokens": 1045,
+      "total_tokens": 1320,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 577
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

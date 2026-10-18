@@ -1,0 +1,93 @@
+{
+  "variant": "crop_nothink",
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2155",
+  "block_index": 6,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T12:24:11+00:00",
+  "elapsed_seconds": 2.01,
+  "finish_reason": "stop",
+  "parse_text": "\" Let A—B be a Smooth board, 3 or 4 feet long, 1 inch thick, and 9 inches wide, with 7 figures ledges glued thoron each being half an inch alunder, half inch wide, and half an inch high, which tilting edges reprefront our 5 lines of moiic, and their faces; and the top outward lines, being made a little more, my few a large lines, as creation. The cypliers reprefeent to many holes lined into every line and paper, half an inch slunder > wherein pegs if different shapes are to feet, to reprend the federal forts of notes and characters of the tunes, which pegs the blind perform may know by feeling, as well as he does his keys of the organ or harphdon’s. To this, by keeping his fingers on the 2 lines, he feels the ferrugpas as they come on, and see for, to reprend the femoral loss of notes, on both line and faces; whilst his right hand flicks the respective key, kc. for left knowing the names of all his keys, hit lines, figures, and the mark of every peg. Let each peg be about half an inch high, when it is very fair. (N. B). The blind perken mault fril be taught the names of the above and places in both the treble and bals cliffs; and that he multi fed his treble and his system hand, and has had with the left hand; each being courtesy, as you may fee by the letters of the above table, A and B; and the learnt past spignants.",
+  "corrected_text": "Let A—B be a Smooth board, 3 or 4 feet long, 1 inch thick, and 9 inches wide, with 5 square ledges glued thereon, each being half an inch asunder, half an inch wide, and half an inch high; which rifling ledges represent our 5 lines of music, and their spaces: and the two outward lines, being made a little lower, may serve as leger lines, on occasion. The cyphers represent so many holes bored into every line and space, half an inch asunder; wherein pegs of different shapes are to be set, to represent the several sorts of notes and characters of the tune: which pegs the blind person may know by feeling, as well as he does his keys of the organ or harpsichord: so that, by keeping his fingers on the 5 lines, he feels the several pegs as they come on, and are set to represent the several sorts of notes, on both line and space; whilst his right hand strikes the respective key, &c. he first knowing the names of all his keys, his lines, spaces, and the mark of every peg. Let each peg be about half an inch high, when set in very fast. [N. B. The blind person must first be taught the names of the above lines and spaces in both the treble and bass cliffs; and that he must feel his treble with his right hand, and his bass with the left hand; each being contrary, as you may see by the letters of the above table, A and B; and must learn each part separate.]",
+  "reasoning_tokens": 0,
+  "usage": {
+    "completion_tokens": 337,
+    "prompt_tokens": 1144,
+    "total_tokens": 1481,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 623
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 3000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows this region of the page. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\n\" Let A—B be a Smooth board, 3 or 4 feet long, 1 inch thick, and 9 inches wide, with 7 figures ledges glued thoron each being half an inch alunder, half inch wide, and half an inch high, which tilting edges reprefront our 5 lines of moiic, and their faces; and the top outward lines, being made a little more, my few a large lines, as creation. The cypliers reprefeent to many holes lined into every line and paper, half an inch slunder > wherein pegs if different shapes are to feet, to reprend the federal forts of notes and characters of the tunes, which pegs the blind perform may know by feeling, as well as he does his keys of the organ or harphdon’s. To this, by keeping his fingers on the 2 lines, he feels the ferrugpas as they come on, and see for, to reprend the femoral loss of notes, on both line and faces; whilst his right hand flicks the respective key, kc. for left knowing the names of all his keys, hit lines, figures, and the mark of every peg. Let each peg be about half an inch high, when it is very fair. (N. B). The blind perken mault fril be taught the names of the above and places in both the treble and bals cliffs; and that he multi fed his treble and his system hand, and has had with the left hand; each being courtesy, as you may fee by the letters of the above table, A and B; and the learnt past spignants.",
+  "response": {
+    "id": "chatcmpl-ac30468b8c63ef53",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "Let A—B be a Smooth board, 3 or 4 feet long, 1 inch thick, and 9 inches wide, with 5 square ledges glued thereon, each being half an inch asunder, half an inch wide, and half an inch high; which rifling ledges represent our 5 lines of music, and their spaces: and the two outward lines, being made a little lower, may serve as leger lines, on occasion. The cyphers represent so many holes bored into every line and space, half an inch asunder; wherein pegs of different shapes are to be set, to represent the several sorts of notes and characters of the tune: which pegs the blind person may know by feeling, as well as he does his keys of the organ or harpsichord: so that, by keeping his fingers on the 5 lines, he feels the several pegs as they come on, and are set to represent the several sorts of notes, on both line and space; whilst his right hand strikes the respective key, &c. he first knowing the names of all his keys, his lines, spaces, and the mark of every peg. Let each peg be about half an inch high, when set in very fast. [N. B. The blind person must first be taught the names of the above lines and spaces in both the treble and bass cliffs; and that he must feel his treble with his right hand, and his bass with the left hand; each being contrary, as you may see by the letters of the above table, A and B; and must learn each part separate.]",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792326252,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 337,
+      "prompt_tokens": 1144,
+      "total_tokens": 1481,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 623
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

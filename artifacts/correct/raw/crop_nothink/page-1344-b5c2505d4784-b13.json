@@ -1,0 +1,93 @@
+{
+  "variant": "crop_nothink",
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1344",
+  "block_index": 13,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T12:22:26+00:00",
+  "elapsed_seconds": 0.88,
+  "finish_reason": "stop",
+  "parse_text": "_Light Horns_ are regiments of cavalry mounted on\nlight fruit horches, which may see final and lightly ac-\ncutout. They were first infed in 1757). The deno-\nmanism and hence, chat anxietly they were lightly\narmed, in comparison of the royal guards, which were\narned at all points.",
+  "corrected_text": "Light-Horse, are regiments of cavalry, mounted on\nlight swift horses, whose men are small and lightly ac-\ncoutred. They were first raised in 1757. The deno-\nmination arose hence, that anciently they were lightly\narmed, in comparison of the royal guards, which were\narmed at all points.",
+  "reasoning_tokens": 0,
+  "usage": {
+    "completion_tokens": 72,
+    "prompt_tokens": 534,
+    "total_tokens": 606,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 282
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 3000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows this region of the page. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\n_Light Horns_ are regiments of cavalry mounted on\nlight fruit horches, which may see final and lightly ac-\ncutout. They were first infed in 1757). The deno-\nmanism and hence, chat anxietly they were lightly\narmed, in comparison of the royal guards, which were\narned at all points.",
+  "response": {
+    "id": "chatcmpl-b87c8d2b172654d1",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "Light-Horse, are regiments of cavalry, mounted on\nlight swift horses, whose men are small and lightly ac-\ncoutred. They were first raised in 1757. The deno-\nmination arose hence, that anciently they were lightly\narmed, in comparison of the royal guards, which were\narmed at all points.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792326147,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 72,
+      "prompt_tokens": 534,
+      "total_tokens": 606,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 282
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

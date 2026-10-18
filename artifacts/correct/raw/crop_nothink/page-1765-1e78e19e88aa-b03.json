@@ -1,0 +1,93 @@
+{
+  "variant": "crop_nothink",
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1765",
+  "block_index": 3,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T12:23:11+00:00",
+  "elapsed_seconds": 1.38,
+  "finish_reason": "stop",
+  "parse_text": "Nothing can be more prudent than that exercife of hospitality pretplied by understanding: is it so the greatest advantage to those among them who travel heroés their defers; and each individual who protatles it, may rely only keeping the bundle of it wherever he goes. A Kulinar provided with a hard, with arms and equipage, may enable from one place to anchor for three months together, without taking with him either money or problems. Wherever he comes he finds either dibant relations or friends, to whom he is attacked by the ties of holopitality, from whom he meets with the kindled receipation, and is concerned in the belt manner their circumstances afford. Perhaps he lodges in the full discovery costge he ends upon his road; and hence has be entered it, but his wants are fuppled with the molt affectionate cordiality. Every frunger, of whichever nature, never fails to be well received by a Kalmus; and he may depend upon ha-ving his effects in the greatest faculty the moment he has put himself under the protection of his holl; for to rob a quilt soundbordered by the Kalmus as the molt abonnable of all crimes.",
+  "corrected_text": "Nothing can be more prudent than that exercise of hospitality practised by wandering nations: it is of the greatest advantage to those among them who travel across their deserts; and each individual who practises it, may rely on reaping the benefit of it wherever he goes. A Kalmuc provided with a horse, with arms and equipage, may ramble from one place to another for three months together, without taking with him either money or provisions. Wherever he comes he finds either distant relations or friends, to whom he is attached by the ties of hospitality, from whom he meets with the kindest reception, and is entertained in the best manner their circumstances afford. Perhaps he lodges in the first unknown cottage he finds upon his road; and scarce has he entered it, but his wants are supplied with the most affectionate cordiality. Every stranger, of whatsoever nation, never fails to be well received by a Kalmuc; and he may depend upon having his effects in the greatest security the moment he has put himself under the protection of his host: for to rob a guest is considered by the Kalmucs as the most abominable of all crimes.",
+  "reasoning_tokens": 0,
+  "usage": {
+    "completion_tokens": 240,
+    "prompt_tokens": 979,
+    "total_tokens": 1219,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 554
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 3000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows this region of the page. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\nNothing can be more prudent than that exercife of hospitality pretplied by understanding: is it so the greatest advantage to those among them who travel heroés their defers; and each individual who protatles it, may rely only keeping the bundle of it wherever he goes. A Kulinar provided with a hard, with arms and equipage, may enable from one place to anchor for three months together, without taking with him either money or problems. Wherever he comes he finds either dibant relations or friends, to whom he is attacked by the ties of holopitality, from whom he meets with the kindled receipation, and is concerned in the belt manner their circumstances afford. Perhaps he lodges in the full discovery costge he ends upon his road; and hence has be entered it, but his wants are fuppled with the molt affectionate cordiality. Every frunger, of whichever nature, never fails to be well received by a Kalmus; and he may depend upon ha-ving his effects in the greatest faculty the moment he has put himself under the protection of his holl; for to rob a quilt soundbordered by the Kalmus as the molt abonnable of all crimes.",
+  "response": {
+    "id": "chatcmpl-bbfccd626c564ac6",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "Nothing can be more prudent than that exercise of hospitality practised by wandering nations: it is of the greatest advantage to those among them who travel across their deserts; and each individual who practises it, may rely on reaping the benefit of it wherever he goes. A Kalmuc provided with a horse, with arms and equipage, may ramble from one place to another for three months together, without taking with him either money or provisions. Wherever he comes he finds either distant relations or friends, to whom he is attached by the ties of hospitality, from whom he meets with the kindest reception, and is entertained in the best manner their circumstances afford. Perhaps he lodges in the first unknown cottage he finds upon his road; and scarce has he entered it, but his wants are supplied with the most affectionate cordiality. Every stranger, of whatsoever nation, never fails to be well received by a Kalmuc; and he may depend upon having his effects in the greatest security the moment he has put himself under the protection of his host: for to rob a guest is considered by the Kalmucs as the most abominable of all crimes.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792326192,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 240,
+      "prompt_tokens": 979,
+      "total_tokens": 1219,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 554
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

@@ -1,0 +1,721 @@
+{
+  "entry_id": "E0049",
+  "headword": "AMICABLE",
+  "entry_text_sha256": "cc529a3c95ee46afcb6da75233426248a20742a14ee2725fb83f73193c42aecb",
+  "mode": "model",
+  "queries": [
+    "amicable",
+    "amicable numbers equal aliquot parts together general sense denotes thing done friendly"
+  ],
+  "query_chars": 682,
+  "headword_variant": null,
+  "candidate_count": 32,
+  "list_pages_removed_after_fetch": [],
+  "decision": {
+    "status": "accepted",
+    "method": "nemotron_embed_rerank",
+    "thresholds": {
+      "rerank_logit": -10.0,
+      "margin": 0.5,
+      "cosine": 0.15,
+      "title_similarity": 0.0
+    },
+    "page_id": "3259",
+    "title": "Amicable numbers",
+    "rerank_logit": -1.172812,
+    "cosine": 0.424646,
+    "margin_to_next": 2.975931,
+    "title_similarity": 0.6957
+  },
+  "article": {
+    "page_id": "3259",
+    "revision_id": "1334397093",
+    "title": "Amicable numbers",
+    "url": "https://en.wikipedia.org/wiki/Amicable_numbers",
+    "revision_url": "https://en.wikipedia.org/w/index.php?oldid=1334397093",
+    "text_sha256": "93dd329825c9214688384c39a65e6a400c6ac173e9e2350a73b0f21303cc8da8",
+    "chars": 10139
+  },
+  "candidates": [
+    {
+      "page_id": "3259",
+      "revision_id": "1334397093",
+      "title": "Amicable numbers",
+      "url": "https://en.wikipedia.org/wiki/Amicable_numbers",
+      "excerpt": "In mathematics, the amicable numbers are two different natural numbers related in such a way that the sum of the proper divisors of each is equal to the other number. That is, s (a)= b and s (b)= a, where s (n)=σ(n) − n is equal to the sum of positive divisors of n except n itself (see also divisor function).\n\nThe smallest pair of amicable numbers is (220, 284). They are amicable because the proper divisors of 220 are 1, 2, 4, 5, 10, 11, 20, 22, 44, 55 and 110, of which the sum is 284; and the proper divisors of 284 are 1, 2, 4, 71 and 142, of which the sum is 220.\n\nThe first ten amicable pairs are: (220, 284), (1184, 1210), (2620, 2924), (5020, 5564), (6232, 6368), (10744, 10856), (12285, 14595), (17296, 18416), (63020, 76084), and (66928, 66992) (sequence A259180 in the OEIS). It is unknown if there are infinitely many pairs of amicable numbers.\n\nA pair of amicable numbers constitutes an aliquot sequence of period 2. A related concept is that of a perfect number, which is a number that equals the sum of its own proper divisors, in other words a number which forms an aliquot sequence of period 1. Numbers that are members of an aliquot sequence with period greater than 2 are known ",
+      "excerpt_offset": 0,
+      "total_chars": 10139,
+      "bm25": {
+        "q0": {
+          "rank": 6,
+          "score": 14.6284
+        },
+        "q1": {
+          "rank": 1,
+          "score": 42.0548
+        }
+      },
+      "best_rank": 1,
+      "title_similarity": 0.6957,
+      "context_overlap": 0.1667,
+      "cosine": 0.424646,
+      "rerank_logit": -1.172812,
+      "rerank_position": 1
+    },
+    {
+      "page_id": "12374274",
+      "revision_id": "1328749187",
+      "title": "Aliquot sum",
+      "url": "https://en.wikipedia.org/wiki/Aliquot_sum",
+      "excerpt": "In number theory, the aliquot sum s (n) of a positive integer n is the sum of all proper divisors of n, that is, all divisors of n other than n itself.That is, s (n) = ∑ d | n, d ≠ n d. {\\displaystyle s(n)=\\sum _{{d|n,} \\atop {d\\neq n}}d\\,.}\n\nIt can be used to characterize the prime numbers, perfect numbers, sociable numbers, deficient numbers, abundant numbers, and untouchable numbers, and to define the aliquot sequence of a number.\n\nFor example, the proper divisors of 12 (that is, the positive divisors of 12 that are not equal to 12) are 1, 2, 3, 4, and 6, so the aliquot sum of 12 is 16 i.e. (1 + 2 + 3 + 4 + 6).\n\nThe values of s (n) for n = 1, 2, 3,... are:\n\n0, 1, 1, 3, 1, 6, 1, 7, 4, 8, 1, 16, 1, 10, 9, 15, 1, 21, 1, 22, 11, 14, 1, 36, 6, 16, 13, 28, 1, 42, 1, 31, 15, 20, 13, 55, 1, 22, 17, 50, 1, 54, 1, 40, 33, 26, 1, 76, 8, 43,... (sequence A001065 in the OEIS)\n\nThe aliquot sum function can be used to characterize several notable classes of numbers:\n\n1 is the only number whose aliquot sum is 0.\n\nA number is prime if and only if its aliquot sum is 1.\n\nThe aliquot sums of perfect, deficient, and abundant numbers are equal to, less than, and greater than the number itself respect",
+      "excerpt_offset": 0,
+      "total_chars": 2526,
+      "bm25": {
+        "q1": {
+          "rank": 2,
+          "score": 40.8704
+        }
+      },
+      "best_rank": 2,
+      "title_similarity": 0.2105,
+      "context_overlap": 0.1515,
+      "cosine": 0.266001,
+      "rerank_logit": -5.38137,
+      "rerank_position": 17
+    },
+    {
+      "page_id": "16992056",
+      "revision_id": "1338987442",
+      "title": "Amice",
+      "url": "https://en.wikipedia.org/wiki/Amice",
+      "excerpt": "The amice is a liturgical vestment used mainly in the Roman Catholic church, Western Orthodox church, Lutheran church, and some Anglican, Armenian, and Polish National Catholic churches.\n\nThe amice consists of a white cloth connected to two long ribbon-like attachments by which it is fastened. The garment is draped over the shoulders with the ribbons crossed over the chest, brought around to the back, and then brought forward again to be tied in front around the waist. The results can vary from being tight around the neck to leaving a deep v-neck opening.Before the liturgical reforms of 1972, its use was mandatory for all Roman Catholic Masses, but it is only required today if the alb does not cover the priest's ordinary clothing. Many priests choose to wear the amice for reasons of tradition or to prevent damage to their other vestments due to perspiration.\n\nCertain mendicant orders, such as the Dominicans and Franciscans, and some other orders with hooded habits, often donned the amice over the raised hood. The priest, or minister, then fastened the ribbons – crossed at the chest – behind his chest. The alb was donned over the hood and amice, and fastened. The hood/amice could th",
+      "excerpt_offset": 0,
+      "total_chars": 2525,
+      "bm25": {
+        "q0": {
+          "rank": 3,
+          "score": 14.6872
+        }
+      },
+      "best_rank": 3,
+      "title_similarity": 0.7692,
+      "context_overlap": 0.0127,
+      "cosine": 0.052824,
+      "rerank_logit": -6.124956,
+      "rerank_position": 30
+    },
+    {
+      "page_id": "59747263",
+      "revision_id": "1319830634",
+      "title": "Amicable triple",
+      "url": "https://en.wikipedia.org/wiki/Amicable_triple",
+      "excerpt": "In mathematics, an amicable triple is a set of three different numbers so related that the restricted sum of the divisors of each is equal to the sum of other two numbers.\n\nIn another equivalent characterization, an amicable triple is a set of three different numbers so related that the sum of the divisors of each is equal to the sum of the three numbers.\n\nSo a triple (a, b, c) of natural numbers is called amicable if s (a) = b + c, s (b) = a + c and s (c) = a + b, or equivalently if σ(a) = σ(b) = σ(c) = a + b + c. Here σ(n) is the sum of all positive divisors, and s (n) = σ(n) − n is the aliquot sum. The smallest amicable triple is (1980, 2016, 2556).",
+      "excerpt_offset": 0,
+      "total_chars": 660,
+      "bm25": {
+        "q0": {
+          "rank": 5,
+          "score": 14.6438
+        },
+        "q1": {
+          "rank": 3,
+          "score": 39.3762
+        }
+      },
+      "best_rank": 3,
+      "title_similarity": 0.6957,
+      "context_overlap": 0.3158,
+      "cosine": 0.289242,
+      "rerank_logit": -4.305727,
+      "rerank_position": 3
+    },
+    {
+      "page_id": "61278068",
+      "revision_id": "1297828215",
+      "title": "Amice, Countess of Rochefort",
+      "url": "https://en.wikipedia.org/wiki/Amice,_Countess_of_Rochefort",
+      "excerpt": "Amice (died 1215) was a Countess of Rochefort and suo jure countess of Leicester. She is associated with England but is thought to have spent most of her life in France.\n\nShe was the daughter of Robert de Beaumont, 3rd Earl of Leicester and Petronilla de Grandmesnil.\n\nAmice is remembered as the Countess of Leicester. Her brother was Robert, 4th Earl of Leicester; when he died, under the French rules of inheritance, his lands were divided between his two sisters. Amice was the elder and received the city and title of Leicester whilst Margaret inherited Winchester.\n\nAmice had married Simon de Montfort at some time and that marriage ended when she became a widow in 1188/1189. Their children included:\n\nSimon de Montfort, 5th Earl of Leicester\n\nGuy de Montfort, Lord of Sidon\n\nPetronilla (Pernel) de Montfort, who became the wife of Barthélemy de Roye\n\nAmice then married William des Barres.\n\nAmice died in 1215 on 3 September and was buried at Priory of Haute-Bruyère where other de Montforts were buried. Amice and her descendants never exploited their ownership of Leicester because of hostilities between England and France. However the family continued their claim and it was proven by the ",
+      "excerpt_offset": 0,
+      "total_chars": 1228,
+      "bm25": {
+        "q0": {
+          "rank": 4,
+          "score": 14.6824
+        }
+      },
+      "best_rank": 4,
+      "title_similarity": 0.3125,
+      "context_overlap": 0.0141,
+      "cosine": 0.055753,
+      "rerank_logit": -5.439571,
+      "rerank_position": 20
+    },
+    {
+      "page_id": "332307",
+      "revision_id": "1299665687",
+      "title": "Sociable number",
+      "url": "https://en.wikipedia.org/wiki/Sociable_number",
+      "excerpt": "In mathematics, sociable numbers are numbers whose aliquot sums form a periodic sequence. They are generalizations of the concepts of perfect numbers and amicable numbers. The first two sociable sequences, or sociable chains, were discovered and named by the Belgian mathematician Paul Poulet in 1918. In a sociable sequence, each number is the sum of the proper divisors of the preceding number, i.e., the sum excludes the preceding number itself. For the sequence to be sociable, the sequence must be cyclic and return to its starting point.\n\nThe period of the sequence, or order of the set of sociable numbers, is the number of numbers in this cycle.\n\nIf the period of the sequence is 1, the number is a sociable number of order 1, or a perfect number —for example, the proper divisors of 6 are 1, 2, and 3, whose sum is again 6. A pair of amicable numbers is a set of sociable numbers of order 2. There are no known sociable numbers of order 3, and searches for them have been made up to 5 × 10 7 {\\displaystyle 5\\times 10^{7}} as of 1970.\n\nIt is an open question whether all numbers end up at either a sociable number or at a prime (and hence 1), or, equivalently, whether there exist numbers wh",
+      "excerpt_offset": 0,
+      "total_chars": 3647,
+      "bm25": {
+        "q1": {
+          "rank": 4,
+          "score": 38.3913
+        }
+      },
+      "best_rank": 4,
+      "title_similarity": 0.4348,
+      "context_overlap": 0.1042,
+      "cosine": 0.337141,
+      "rerank_logit": -5.129849,
+      "rerank_position": 11
+    },
+    {
+      "page_id": "486266",
+      "revision_id": "1334478394",
+      "title": "Aliquot sequence",
+      "url": "https://en.wikipedia.org/wiki/Aliquot_sequence",
+      "excerpt": "In mathematics, an aliquot sequence is a sequence of positive integers in which each term is the sum of the proper divisors of the previous term. If the sequence reaches the number 1, it ends, since the sum of the proper divisors of 1 is 0.\n\nThe aliquot sequence starting with a positive integer k can be defined formally in terms of the sum-of-divisors function σ or the aliquot sum function s in the following way: s 0 = k s n = s (s n − 1) = σ 1 (s n − 1) − s n − 1 if s n − 1 > 0 s n = 0 if s n − 1 = 0 s (0) = undefined {\\displaystyle {\\begin{aligned}s_{0}&=k\\\\s_{n}&=s(s_{n-1})=\\sigma _{1}(s_{n-1})-s_{n-1}\\quad {\\text{if}}\\quad s_{n-1}>0\\\\s_{n}&=0\\quad {\\text{if}}\\quad s_{n-1}=0\\\\s(0)&={\\text{undefined}}\\end{aligned}}} If the s = 0 condition is added, then the terms after 0 are all 0, and all aliquot sequences would be infinite, and we can conjecture that all aliquot sequences are either convergent (the limit of these sequences are usually 0 or 6) or eventually periodic.\n\nFor example, the aliquot sequence of 10 is 10, 8, 7, 1, 0 because:\n\nσ 1 (10) − 10 = 5 + 2 + 1 = 8, σ 1 (8) − 8 = 4 + 2 + 1 = 7, σ 1 (7) − 7 = 1, σ 1 (1) − 1 = 0. {\\displaystyle {\\begin{aligned}\\sigma _{1}(10)-10&=5",
+      "excerpt_offset": 0,
+      "total_chars": 5914,
+      "bm25": {
+        "q1": {
+          "rank": 5,
+          "score": 37.5882
+        }
+      },
+      "best_rank": 5,
+      "title_similarity": 0.3333,
+      "context_overlap": 0.075,
+      "cosine": 0.220603,
+      "rerank_logit": -5.266009,
+      "rerank_position": 15
+    },
+    {
+      "page_id": "37417233",
+      "revision_id": "1343430299",
+      "title": "Betrothed numbers",
+      "url": "https://en.wikipedia.org/wiki/Betrothed_numbers",
+      "excerpt": "In mathematics, specifically number theory, betrothed numbers or quasi-amicable numbers are two positive integers such that the sum of the proper divisors of either number is one more than the value of the other number. In other words, (m, n) are a pair of betrothed numbers if s (m) = n + 1 and s(n) = m + 1, where s(n) is the aliquot sum of n: an equivalent condition is that σ(m) = σ(n) = m + n + 1, where σ denotes the sum-of-divisors function.\n\nThe first few pairs of betrothed numbers are: (48, 75), (140, 195), (1050, 1925), (1575, 1648), (2024, 2295), (5775, 6128), which (removing brackets) may be sorted by magnitude (sequence A005276 in the OEIS).\n\nAll known pairs of betrothed numbers have opposite parity. Any pair of the same parity must exceed 10 13.\n\nQuasi-sociable numbers or reduced sociable numbers are numbers whose aliquot sums minus one form a cyclic sequence that begins and ends with the same number. They are generalizations of the concepts of betrothed numbers and quasiperfect numbers. The first quasi-sociable sequences, or quasi-sociable chains, were discovered by Mitchell Dickerman in 1997:\n\n1215571544 = 2 3 ⋅ 11 ⋅ 13813313 {\\displaystyle 1215571544=2^{3}\\cdot 11\\cdot",
+      "excerpt_offset": 0,
+      "total_chars": 1903,
+      "bm25": {
+        "q1": {
+          "rank": 6,
+          "score": 33.8431
+        }
+      },
+      "best_rank": 6,
+      "title_similarity": 0.2727,
+      "context_overlap": 0.12,
+      "cosine": 0.308772,
+      "rerank_logit": -5.003516,
+      "rerank_position": 9
+    },
+    {
+      "page_id": "72432731",
+      "revision_id": "1351568237",
+      "title": "Amic Energy",
+      "url": "https://en.wikipedia.org/wiki/Amic_Energy",
+      "excerpt": "Amic Energy (stylized as AMIC ENERGY) is an Austrian company that operates a network of over 470 mobile and stationary filling stations and 55 charging stations for electric vehicles in Austria, Latvia, Lithuania, Poland, and Ukraine. The company is headquartered in Vienna. As of 2020, Amic Energy was the fifth-largest network in Ukraine by sales volume and held a 6.7% share of the Ukrainian retail fuel market.\n\nAmic Energy Management GmbH was founded in 2013. It started as an investment company looking for low-cost and problematic assets for further restructuring. One of the company's strategic goals was to invest in undervalued assets in Central and Eastern Europe, particularly in the energy infrastructure sector. Initially, the company considered investing in power plants in Romania and Bulgaria, as well as other projects in Poland. However, when Lukoil announced the sale of its assets in Eastern Europe in 2014, Amic Energy became interested in the possibility of acquiring a filling station network in Ukraine. When Lukoil's management commented on its plans to sell in July 2014, it said that it wanted to focus on Russian projects, as international sanctions on Russia made it dif",
+      "excerpt_offset": 0,
+      "total_chars": 24781,
+      "bm25": {
+        "q0": {
+          "rank": 7,
+          "score": 14.5926
+        }
+      },
+      "best_rank": 7,
+      "title_similarity": 0.5263,
+      "context_overlap": 0.0,
+      "cosine": 0.082277,
+      "rerank_logit": -5.140301,
+      "rerank_position": 12
+    },
+    {
+      "page_id": "63402283",
+      "revision_id": "1335045948",
+      "title": "Israel Amice",
+      "url": "https://en.wikipedia.org/wiki/Israel_Amice",
+      "excerpt": "Israel Amice (or Amyce, c.1548 - 1607) was an MP in Cornwall, representing St Mawes constituency. He was elected in the 1571 English general election but did not return to Parliament after the next election.\n\nAmice produced a survey map of Castle Hedingham in 1592 at the request of Lord Burghley, who employed him at the time.",
+      "excerpt_offset": 0,
+      "total_chars": 327,
+      "bm25": {
+        "q0": {
+          "rank": 8,
+          "score": 14.5798
+        }
+      },
+      "best_rank": 8,
+      "title_similarity": 0.5,
+      "context_overlap": 0.0417,
+      "cosine": 0.018397,
+      "rerank_logit": -4.84015,
+      "rerank_position": 6
+    },
+    {
+      "page_id": "10949251",
+      "revision_id": "1299010089",
+      "title": "Sample (material)",
+      "url": "https://en.wikipedia.org/wiki/Sample_(material)",
+      "excerpt": "In general, a sample is a limited quantity of something which is intended to be similar to and represent a larger amount of that thing(s). The things could be countable objects such as individual items available as units for sale, or an uncountable material. Even though the word \"sample\" implies a smaller quantity taken from a larger amount, sometimes full biological or mineralogical specimens are called samples if they are taken for analysis, testing, or investigation like other samples. They are also considered samples in the sense that even whole specimens are \"samples\" of the full population of many individual organisms. The act of obtaining a sample is called \"sampling\" and can be performed manually by a person or by automatic process. Samples of material can be taken or provided for testing, analysis, investigation, quality control, demonstration, or trial use. Sometimes, sampling may be performed continuously.\n\nIn science, a representative liquid sample taken from a larger amount of liquid is sometimes called an aliquot or aliquot part where the sample is an exact divisor of the whole. For example, 10mL would be an aliquot part of a 100mL sample.\n\nThe material may be solid, ",
+      "excerpt_offset": 0,
+      "total_chars": 2152,
+      "bm25": {
+        "q1": {
+          "rank": 8,
+          "score": 30.9935
+        }
+      },
+      "best_rank": 8,
+      "title_similarity": 0.5714,
+      "context_overlap": 0.0615,
+      "cosine": 0.067397,
+      "rerank_logit": -5.616344,
+      "rerank_position": 24
+    },
+    {
+      "page_id": "80936892",
+      "revision_id": "1311034601",
+      "title": "Sylvain Amic",
+      "url": "https://en.wikipedia.org/wiki/Sylvain_Amic",
+      "excerpt": "Sylvain Amic (26 April 1967 – 31 August 2025) was a Senegalese-born French art historian. A member of the Academy of Sciences, Belles-Lettres and Arts of Rouen, he served as president of the Musée d'Orsay and the Musée de l'Orangerie from 2024 to 2025.\n\nAmic was born in Dakar. He worked as a teacher before training as a curator at the National Institute of Cultural Heritage, graduating in 1997. He specialized in modern and contemporary art.\n\nBetween 2016 and 2022 Amic directed the Réunion des Musées Métropolitains Rouen Normandie (RMM), an umbrella institution of museums of the Métropole Rouen Normandie. In 2018 he was tasked, together with the curator Olivia Voisin, by then-Minister of Culture Françoise Nyssen with developing a project for the circulation of artworks between the French regions.\n\nAmic had already been a candidate as president of the Musée d'Orsay in 2017, at which time the position went to Laurence des Cars.\n\nAmic died from a heart attack on 31 August 2025, at his vacation home in Bagnols-sur-Cèze, Gard, at the age of 58.",
+      "excerpt_offset": 0,
+      "total_chars": 1054,
+      "bm25": {
+        "q0": {
+          "rank": 9,
+          "score": 14.5712
+        }
+      },
+      "best_rank": 9,
+      "title_similarity": 0.4,
+      "context_overlap": 0.0135,
+      "cosine": 0.06559,
+      "rerank_logit": -4.928975,
+      "rerank_position": 7
+    },
+    {
+      "page_id": "58598671",
+      "revision_id": "1313662554",
+      "title": "1980 (number)",
+      "url": "https://en.wikipedia.org/wiki/1980_(number)",
+      "excerpt": "1980 is the natural number following 1979 and preceding 1981.\n\n1980 is a pronic number, a highly abundant number, an e-perfect number and a coreful perfect number. Not only is it highly abundant, but it also has a greater aliquot sum than any smaller number.\n\n1980 is the fourth number with 36 divisors. It forms an amicable triple with 2016 and 2556, since σ(1980) = σ(2016) = σ(2556) and 6552 = 1980 + 2016 + 2556.",
+      "excerpt_offset": 0,
+      "total_chars": 416,
+      "bm25": {
+        "q1": {
+          "rank": 9,
+          "score": 29.7411
+        }
+      },
+      "best_rank": 9,
+      "title_similarity": 0.0,
+      "context_overlap": 0.2222,
+      "cosine": 0.180669,
+      "rerank_logit": -5.07071,
+      "rerank_position": 10
+    },
+    {
+      "page_id": "52176683",
+      "revision_id": "1312455529",
+      "title": "Haplothrix amicator",
+      "url": "https://en.wikipedia.org/wiki/Haplothrix_amicator",
+      "excerpt": "Haplothrix amicator is a species of beetle in the family Cerambycidae. It was described by Charles Joseph Gahan in 1888.",
+      "excerpt_offset": 0,
+      "total_chars": 120,
+      "bm25": {
+        "q0": {
+          "rank": 10,
+          "score": 14.5596
+        }
+      },
+      "best_rank": 10,
+      "title_similarity": 0.3704,
+      "context_overlap": 0.0,
+      "cosine": 0.010601,
+      "rerank_logit": -5.367839,
+      "rerank_position": 16
+    },
+    {
+      "page_id": "391887",
+      "revision_id": "1345711146",
+      "title": "77 (number)",
+      "url": "https://en.wikipedia.org/wiki/77_(number)",
+      "excerpt": "77 (seventy-seven) is the natural number following 76 and preceding 78. Seventy-seven is the smallest positive integer requiring five syllables in English.\n\n77 is:\n\nthe 22nd discrete semiprime and the first of the (7.q) family, where q is a higher prime.\n\nwith a prime aliquot sum of 19 within an aliquot sequence (77, 19, 1, 0) to the Prime in the 19 -aliquot tree. 77 is the second composite member of the 19 -aliquot tree with 65\n\na Blum integer since both 7 and 11 are Gaussian primes.\n\nthe sum of three consecutive squares, 4 2 + 5 2 + 6 2.\n\nthe sum of the first eight prime numbers.\n\nthe number of integer partitions of the number 12.\n\nthe largest number that cannot be written as a sum of distinct numbers whose reciprocals sum to 1.\n\nthe number of digits of the 12th perfect number.\n\nIt is possible for a sudoku puzzle to have as many as 77 givens, yet lack a unique solution.\n\nIt and 49 are the only 2-digit numbers whose home primes (in base 10) have not been calculated.\n\nDuring World War II in Sweden at the border with Norway, \"77\" was used as a shibboleth (password), because the tricky pronunciation in Swedish made it easy to instantly discern whether the speaker was native Swedish, ",
+      "excerpt_offset": 0,
+      "total_chars": 2300,
+      "bm25": {
+        "q1": {
+          "rank": 10,
+          "score": 29.4919
+        }
+      },
+      "best_rank": 10,
+      "title_similarity": 0.0,
+      "context_overlap": 0.0597,
+      "cosine": 0.162441,
+      "rerank_logit": -5.505315,
+      "rerank_position": 21
+    },
+    {
+      "page_id": "391879",
+      "revision_id": "1352751967",
+      "title": "86 (number)",
+      "url": "https://en.wikipedia.org/wiki/86_(number)",
+      "excerpt": "86 (eighty-six) is the natural number following 85 and preceding 87.\n\n86 is:\n\nnontotient and a noncototient;\n\nthe 25th distinct semiprime and the 13th of the form (2 q);\n\ntogether with 85 and 87, forms the middle semiprime in the 2nd cluster of three consecutive semiprimes; the first comprising 33, 34, 35;\n\nan Erdős–Woods number, since it is possible to find sequences of 86 consecutive integers such that each inner member shares a factor with either the first or the last member;\n\na happy number and a self number in base 10;\n\nwith an aliquot sum of 46; itself a semiprime, within an aliquot sequence of seven members (86, 46, 26, 16, 15, 9, 4, 3, 1, 0) in the prime 3 -aliquot tree.\n\nIt appears in the Padovan sequence, preceded by the terms 37, 49, 65 (it is the sum of the first two of these).\n\nIt is conjectured that 86 is the largest n for which the decimal expansion of 2 n contains no 0.\n\n86 = (8 × 6 = 48) + (4 × 8 = 32) + (3 × 2 = 6). That is, 86 is equal to the sum of the numbers formed in calculating its multiplicative persistence.\n\nIn American English, and particularly in the food service industry, 86 has become a slang term referring to an item being out of stock or discontinued",
+      "excerpt_offset": 0,
+      "total_chars": 1601,
+      "bm25": {
+        "q1": {
+          "rank": 11,
+          "score": 28.7287
+        }
+      },
+      "best_rank": 11,
+      "title_similarity": 0.0,
+      "context_overlap": 0.0896,
+      "cosine": 0.138899,
+      "rerank_logit": -5.430797,
+      "rerank_position": 19
+    },
+    {
+      "page_id": "31408743",
+      "revision_id": "1306800963",
+      "title": "Amicable Society for a Perpetual Assurance Office",
+      "url": "https://en.wikipedia.org/wiki/Amicable_Society_for_a_Perpetual_Assurance_Office",
+      "excerpt": "Amicable Society for a Perpetual Assurance Office (a.k.a. Amicable Society) is considered the first life insurance company in the world. It was acquired by Norwich Union Life Insurance Society in 1866, this required an act of Parliament.\n\nAmicable Society, The charters, acts of Parliament, and by-laws of the corporation of the Amicable Society for a perpetual assurance office, Gilbert and Rivington, 1854\n\nAnzovin, Steven, Famous First Facts 2000, item # 2422, H. W. Wilson Company, ISBN 0-8242-0958-3\n\nBaynes, Thomas Spencer, The Encyclopædia Britannica: a dictionary of arts, sciences, and general literature, Volume 13, H.G. Allen, 1888\n\nPrice, Richard, Observations on reversionary payments: on schemes for providing annuities for widows, and for persons in old age; on the method of calculating the values of assurances on lives; and on the national debt, T. Cadell & W. Davies, 1812",
+      "excerpt_offset": 0,
+      "total_chars": 891,
+      "bm25": {
+        "q0": {
+          "rank": 12,
+          "score": 14.4627
+        }
+      },
+      "best_rank": 12,
+      "title_similarity": 0.2807,
+      "context_overlap": 0.0317,
+      "cosine": 0.118989,
+      "rerank_logit": -4.148743,
+      "rerank_position": 2
+    },
+    {
+      "page_id": "40157186",
+      "revision_id": "1325501269",
+      "title": "Paul Poulet",
+      "url": "https://en.wikipedia.org/wiki/Paul_Poulet",
+      "excerpt": "Paul Poulet (1887–1946) was a self-taught Belgian mathematician who made several important contributions to number theory, including the discovery of sociable numbers in 1918. He found the 495th amicable pair, 666030256 = 2 4.19.331.6619 and 696630544 = 2 4.199.331.661, and is also remembered for calculating the pseudoprimes to base two, first up to 50 million in 1926, then up to 100 million in 1938. These are now often called Poulet numbers in his honour (they are also known as Fermatians or Sarrus numbers). In 1925, he published forty-three new multiperfect numbers, including the first two known octo-perfect numbers. His achievements are particularly remarkable given that he worked without the aid of modern computers and calculators.\n\nPoulet published at least two books about his mathematical work, Parfaits, amiables et extensions (1918) (Perfect and Amicable Numbers and Their Extensions) and La chasse aux nombres (1929) (The Hunt for Numbers). He wrote the latter in the French village of Lambres-lez-Aire in the Pas-de-Calais, a short distance across the border with Belgium. Both were published by éditions Stevens of Brussels.\n\nIn a sociable chain, or aliquot cycle, a sequence of",
+      "excerpt_offset": 0,
+      "total_chars": 4546,
+      "bm25": {
+        "q1": {
+          "rank": 12,
+          "score": 28.3451
+        }
+      },
+      "best_rank": 12,
+      "title_similarity": 0.3158,
+      "context_overlap": 0.0533,
+      "cosine": 0.237871,
+      "rerank_logit": -4.749795,
+      "rerank_position": 5
+    },
+    {
+      "page_id": "50973904",
+      "revision_id": "1342001705",
+      "title": "Yvette Amice",
+      "url": "https://en.wikipedia.org/wiki/Yvette_Amice",
+      "excerpt": "Yvette Amice (4 June 1936 – 4 July 1993) was a French mathematician whose research concerned number theory and p -adic analysis. She was the second woman president of the Société mathématique de France. She wrote a textbook on the p -adic number system, published in 1975 in France.\n\nAmice studied mathematics at the École normale supérieure de jeunes filles in Sèvres, from 1956, earning her agrégation in 1959. She became an assistant at the Faculté des sciences de Paris until 1964, when she completed a state doctorate under the supervision of Charles Pisot. Her dissertation was Interpolation p-adique.\n\nOn completing her doctorate, Amice became maître de conférences (lecturer) at the University of Poitiers. In 1966, she was appointed professor at the University of Bordeaux and gave the Cours Peccot lecture series at the Collège de France.\n\nAmice returned to Poitiers in 1968, then in 1970 became one of the founding professors of Paris Diderot University, where she was vice president from 1978 to 1981. She was director of a seminar on number theory at the university.\n\nIn 1975 she became president of the Société mathématique de France. She had been one of three vice-presidents to the so",
+      "excerpt_offset": 0,
+      "total_chars": 2104,
+      "bm25": {
+        "q0": {
+          "rank": 13,
+          "score": 14.4595
+        }
+      },
+      "best_rank": 13,
+      "title_similarity": 0.5,
+      "context_overlap": 0.0137,
+      "cosine": 0.093879,
+      "rerank_logit": -5.385288,
+      "rerank_position": 18
+    },
+    {
+      "page_id": "30491687",
+      "revision_id": "1293147553",
+      "title": "Ablative (Latin)",
+      "url": "https://en.wikipedia.org/wiki/Ablative_(Latin)",
+      "excerpt": " is sometimes called the adverbial case, since phrases in the ablative can be translated as adverbs: incrēdibilī celeritāte, 'with incredible speed', or 'very quickly'.\n\nSome uses of the ablative descend from the Proto-Indo-European ablative case.\n\nAblative of separation implies that some person or thing is separated from another. No active movement from one location to the next occurs; furthermore, ablatives of separation sometimes lack a preposition, particularly with certain verbs like careō or līberō. For example, Cicerō hostēs ab urbe prohibuit, \"Cicero kept the enemy away from the city\"; eōs timōre līberāvit, \"he freed them from fear\".\n\nAblative of place from which describes active motion away from a place. Nouns, either proper or common, are almost always used in this sense with accompanying prepositions ab/ā/abs, \"from\"; ex/ē, \"out of\"; or dē, \"down from\". For example, ex agrīs, \"from the fields\"; ex Graeciā in Italiam nāvigāvērunt, \"They sailed from Greece to Italy.\"\n\nIt can also be used for the whole to which a certain number belongs or is a part. Example: ex eīs ūnus \"one of them\".\n\nCities and small islands, as well as the word domus, use this ablative even without a pre",
+      "excerpt_offset": 350,
+      "total_chars": 5694,
+      "bm25": {
+        "q1": {
+          "rank": 13,
+          "score": 28.2924
+        }
+      },
+      "best_rank": 13,
+      "title_similarity": 0.5,
+      "context_overlap": 0.0449,
+      "cosine": 0.122451,
+      "rerank_logit": -6.381103,
+      "rerank_position": 32
+    },
+    {
+      "page_id": "38698934",
+      "revision_id": "1214598187",
+      "title": "Birmingham Musical and Amicable Society",
+      "url": "https://en.wikipedia.org/wiki/Birmingham_Musical_and_Amicable_Society",
+      "excerpt": "The Birmingham Musical and Amicable Society was a musical society formed by James Kempson and Michael Broome in 1762 in Birmingham, England. Most of its members were drawn from the choirs of St Philip's Church and St. Bartholemew's Chapel, who had met at Cooke's Coffee Shop in the Cherry Orchard in Birmingham since the 1730s.\n\nThe Musical and Amicable Society was influential in the establishment of the Birmingham Triennial Music Festival in 1768, its members forming the festival's first chorus, but it was also concerned with conviviality, as was indicated by the preamble to its first printed rules: \"May the catch and the glass go about and about / And another succeed to the bottle that's out\".",
+      "excerpt_offset": 0,
+      "total_chars": 702,
+      "bm25": {
+        "q0": {
+          "rank": 14,
+          "score": 14.3477
+        }
+      },
+      "best_rank": 14,
+      "title_similarity": 0.3404,
+      "context_overlap": 0.0488,
+      "cosine": 0.166841,
+      "rerank_logit": -4.746889,
+      "rerank_position": 4
+    },
+    {
+      "page_id": "2109197",
+      "revision_id": "1340033212",
+      "title": "Moderatus of Gades",
+      "url": "https://en.wikipedia.org/wiki/Moderatus_of_Gades",
+      "excerpt": "s had made no additions to the views of their founder, but had merely borrowed and altered the phraseology.\n\nModeratus was from Gades, in Andalusia. He was probably a relative of the writer Columella (Lucius Junius Moderatus Columella), who shared the same cognomen and was also from Gades. Almost nothing is known about the life of Moderatus. The only concrete clue is provided by Plutarch, who reports that when he, Plutarch, returned to Rome after a long absence, Lucius, a disciple of Moderatus, who came from Etruria, was attending a banquet hosted by Sextius Sulla, a friend of Plutarch's. Since the banquet took place around 90 AD, it can be assumed that the teaching activity of Moderatus fell in the second half of the 1st century.Moderatus lived in Rome, at least part of the time. According to Plutarch's description, Lucius adhered to the rules of the Pythagorean way of life, so he valued the practice of a lifestyle oriented towards philosophical goals. It is unclear whether this is due to the influence of his teacher, Moderatus, and thus no concrete conclusions can be drawn about his adherence to this lifestyle.\n\nThe writings of the Moderatus have been lost except for fragments. I",
+      "excerpt_offset": 281,
+      "total_chars": 12750,
+      "bm25": {
+        "q1": {
+          "rank": 14,
+          "score": 28.0617
+        }
+      },
+      "best_rank": 14,
+      "title_similarity": 0.25,
+      "context_overlap": 0.013,
+      "cosine": 0.108865,
+      "rerank_logit": -5.561021,
+      "rerank_position": 22
+    },
+    {
+      "page_id": "29760859",
+      "revision_id": "1285256879",
+      "title": "Autologous matrix-induced chondrogenesis",
+      "url": "https://en.wikipedia.org/wiki/Autologous_matrix-induced_chondrogenesis",
+      "excerpt": "Autologous matrix-induced chondrogenesis (AMIC) is a treatment for articular cartilage damage. It combines microfracture surgery with the application of a bi-layer collagen I/III membrane. The 2017 assession determine tentative short to medium term benefits of AMIC.\n\nThe initialism AMIC, often used as a genericized trademark, is a registered trademark of Ed. Geistlich Söhne AG, protected by German Registration No. 30255356 and international Registration No. 840373.\n\nAutologous Matrix Induced Chondrogenesis (AMIC) surgery is a single step procedure. After arthroscopic evaluation of the cartilage damage and decision for an AMIC procedure a mini arthrotomy is performed. An all-arthroscopic AMIC procedure for repair of cartilage defects of the knee is also possible.\n\nThe AMIC procedure was first proposed by Behrens in 2003. it aims to extend the use of microfracture surgery to larger cartilage lesions > 2.5 cm2. Its clinical efficiency in autologous chondrocyte implantation (ACI), another cartilage repair technique for larger cartilage lesions, has been studied.\n\nIn general various factors have been identified as potentially crucial to the aftermath of the cartilage repair, regardless ",
+      "excerpt_offset": 0,
+      "total_chars": 1901,
+      "bm25": {
+        "q0": {
+          "rank": 15,
+          "score": 14.2556
+        }
+      },
+      "best_rank": 15,
+      "title_similarity": 0.2273,
+      "context_overlap": 0.0278,
+      "cosine": 0.055793,
+      "rerank_logit": -6.082324,
+      "rerank_position": 29
+    },
+    {
+      "page_id": "1403190",
+      "revision_id": "1348307684",
+      "title": "Law of identity",
+      "url": "https://en.wikipedia.org/wiki/Law_of_identity",
+      "excerpt": "In logic, the law of identity states that each thing is identical with itself, or symbolically a = a. It applies to singular terms, and is a tautology.\n\nIdentity was discussed since antiquity in philosophy, but as a principle in logic was not discussed until much later.\n\nWilliam Hamilton offers a history of the so called \" laws of thought \". About the law of identity he states \"it was not explicated as a coordinate principle till a comparatively recent period. The earliest author in whom I have found this done, is Antonius Andreas, a scholar of Scotus, who flourished at the end of the thirteenth and beginning of the fourteenth century. The schoolman, in the fourth book of his Commentary of Aristotle's Metaphysics – a commentary which is full of the most ingenious and original views – not only asserts to the law of Identity a coordinate dignity with the law of Contradiction, but against Aristotle, he maintains that the principle of Identity is the one absolutely first. The formula in which Andreas expressed it was Ens est ens. Subsequently to this author, the question concerning the relative priority of the two laws of Identity and of Contradiction became one much agitated in the sc",
+      "excerpt_offset": 0,
+      "total_chars": 5937,
+      "bm25": {
+        "q1": {
+          "rank": 15,
+          "score": 27.7249
+        }
+      },
+      "best_rank": 15,
+      "title_similarity": 0.2609,
+      "context_overlap": 0.0441,
+      "cosine": 0.048319,
+      "rerank_logit": -5.744815,
+      "rerank_position": 26
+    },
+    {
+      "page_id": "73219814",
+      "revision_id": "1311514175",
+      "title": "Scottish Amicable Life Assurance",
+      "url": "https://en.wikipedia.org/wiki/Scottish_Amicable_Life_Assurance",
+      "excerpt": "The Scottish Amicable Life Assurance Society, commonly known as Scottish Amicable, was a Scottish mutual life insurance company based in Glasgow. It was founded in 1826 and became the sixth largest mutual life assurance institution in the UK with 1.9 million policy holders in the mid-1990s before being acquired.\n\nAfter Scottish Amicable announced a plan to demutualise the company in early 1997, a bidding war, which also involved Abbey National and AMP Limited, took place. Scottish Amicable was acquired by Prudential Assurance, in a deal worth £2.8 billion (US $4.5 billion) (US $ 10 billion at current prices) two months later. It was regarded as a major transaction at the time and the Wall Street Journal said, that with this deal, \"Mergermania Has Hit European Companies\".\n\nIn 1823, James Duncan, a Glasgow accountant, founded the West of Scotland Fire Insurance Company. The initial capital was raised from Duncan's friends and local merchants. At the first annual general meeting Duncan proposed the formation of a life office to operate in tandem with the fire company. The life company, West of Scotland Life Insurance, was founded in 1826. with Duncan manager of both companies. In 1832",
+      "excerpt_offset": 0,
+      "total_chars": 7959,
+      "bm25": {
+        "q0": {
+          "rank": 16,
+          "score": 14.1849
+        }
+      },
+      "best_rank": 16,
+      "title_similarity": 0.4,
+      "context_overlap": 0.0263,
+      "cosine": 0.119446,
+      "rerank_logit": -5.170986,
+      "rerank_position": 14
+    },
+    {
+      "page_id": "379525",
+      "revision_id": "1352991092",
+      "title": "35 (number)",
+      "url": "https://en.wikipedia.org/wiki/35_(number)",
+      "excerpt": "35 (thirty-five) is the natural number following 34 and preceding 36.\n\n35 is the sum of the first five triangular numbers, making it a tetrahedral number.\n\n35 is the 10th discrete semiprime (5 × 7 {\\displaystyle 5\\times 7}) and the first with 5 as the lowest non-unitary factor, thus being the first of the form (5.q) where q is a higher prime.\n\n35 has two prime factors, (5 and 7) which also form its main factor pair (5 x 7) and comprise the second twin-prime distinct semiprime pair.\n\nThe aliquot sum of 35 is 13, within an aliquot sequence of only one composite number (35, 13, 1,0) to the Prime in the 13 -aliquot tree. 35 is the second composite number with the aliquot sum 13; the first being the cube 27.\n\n35 is the last member of the first triple cluster of semiprimes 33, 34, 35. The second such triple distinct semiprime cluster is 85, 86, and 87.\n\n35 is the number of ways that three things can be selected from a set of seven unique things, also known as the \" combination of seven things taken three at a time\".\n\nThe sentence \"This sentence is thirty-five letters long\" is 35 letters long (excluding spaces and hyphen), otherwise known as an autogram.\n\n35 is a centered cube number, a c",
+      "excerpt_offset": 0,
+      "total_chars": 1904,
+      "bm25": {
+        "q1": {
+          "rank": 16,
+          "score": 27.3879
+        }
+      },
+      "best_rank": 16,
+      "title_similarity": 0.0,
+      "context_overlap": 0.0702,
+      "cosine": 0.129345,
+      "rerank_logit": -5.587341,
+      "rerank_position": 23
+    },
+    {
+      "page_id": "21336048",
+      "revision_id": "1347589935",
+      "title": "Amical Club Marie Galante",
+      "url": "https://en.wikipedia.org/wiki/Amical_Club_Marie_Galante",
+      "excerpt": "Amical Club is a football club based in the city of Capesterre-de-Marie-Galante, Marie Galante, Guadeloupe.\n\nFounded in 1966 in the city of Marie-Galante, it is one of the most important teams in Guadeloupe, having won the championship for the first time in its history in the 2018-19 season.\n\nAt the international level they would participate in the CONCACAF Caribbean Club Shield in 2020. However, it would be cancelled due to the coronavirus pandemic.\n\nGuadeloupe Championnat National: 1\n\n2019\n\nCoupe de Guadeloupe: 2\n\n2006, 2021",
+      "excerpt_offset": 0,
+      "total_chars": 532,
+      "bm25": {
+        "q0": {
+          "rank": 17,
+          "score": 14.1733
+        }
+      },
+      "best_rank": 17,
+      "title_similarity": 0.4848,
+      "context_overlap": 0.0,
+      "cosine": 0.034617,
+      "rerank_logit": -5.143245,
+      "rerank_position": 13
+    },
+    {
+      "page_id": "208254",
+      "revision_id": "1353687834",
+      "title": "16 (number)",
+      "url": "https://en.wikipedia.org/wiki/16_(number)",
+      "excerpt": "eceding 17. It is the fourth power of two.\n\n16 is the ninth composite number, and a square number: 4 2 = 4 × 4 (the first non-unitary fourth-power prime of the form p 4). It is the smallest number with exactly five divisors, its proper divisors being 1, 2, 4 and 8.\n\nSixteen is the only integer that equals m n and n m, for some unequal integers m and n (m = 4 {\\displaystyle m=4}, n = 2 {\\displaystyle n=2}, or vice versa). It has this property because 2 2 = 2 × 2 {\\displaystyle 2^{2}=2\\times 2}. It is also equal to 3 2 (see tetration).\n\nThe aliquot sum of 16 is 15, within an aliquot sequence of four composite members (16, 15, 9, 4, 3, 1, 0) that belong to the prime 3 -aliquot tree.\n\nSixteen is the largest known integer n, for which 2 n + 1 {\\displaystyle 2^{n}+1} is prime.\n\nIt is the first Erdős–Woods number.\n\nThere are 16 partially ordered sets with four unlabeled elements.\n\n16 is the only number that can be both the perimeter and area of the same square, due to 4 2 {\\displaystyle 4^{2}} being equal to 4 × 4. {\\displaystyle 4\\times 4.}\n\nThe sedenions form a 16-dimensional hypercomplex number system.\n\nSixteen is the base of the hexadecimal number system, which is used extensively in ",
+      "excerpt_offset": 54,
+      "total_chars": 2765,
+      "bm25": {
+        "q1": {
+          "rank": 17,
+          "score": 27.0776
+        }
+      },
+      "best_rank": 17,
+      "title_similarity": 0.0,
+      "context_overlap": 0.0714,
+      "cosine": 0.150035,
+      "rerank_logit": -5.62476,
+      "rerank_position": 25
+    },
+    {
+      "page_id": "31882346",
+      "revision_id": "1296006653",
+      "title": "Jean-Luc Lambourde",
+      "url": "https://en.wikipedia.org/wiki/Jean-Luc_Lambourde",
+      "excerpt": "Jean-Luc Lambourde (born 10 April 1980) is a French football manager and former player who manages Guadeloupe Division d'Honneur club Amical Club. He is a former member of the Guadeloupe national team. He is one of a few players in the team to have participated in all three of the team's appearances as the CONCACAF Gold Cup.\n\nA centre-back or defensive midfielder, Lambourde began his career playing for amateur club Avion in 2002. After spending three seasons with the club, Lambourde ventured to his native homeland joining Amical Club. In his second season with the club, he won the Coupe de Guadeloupe.\n\nWhile at Amical Club, Lambourde had been twice voted player of the month by February 2008. In June 2009 he scored the decisive goal in Amical Club's 1–0 win against La Gauloise, keeping his club in the Guadeloupe Division d'Honneur. He had turned down a call-up from the France national beach soccer team to play the match. In November he scored two goals while Amical Club lost 3–2 against Championnat de France Amateur 2 side Vendée Poiré-sur-Vie Football in the 7th round of the 2009–10 Coupe de France.\n\nAs Amical Club manager, Lambourde suffered relegation from the Guadeloupe Division",
+      "excerpt_offset": 0,
+      "total_chars": 1652,
+      "bm25": {
+        "q0": {
+          "rank": 18,
+          "score": 14.0959
+        }
+      },
+      "best_rank": 18,
+      "title_similarity": 0.3077,
+      "context_overlap": 0.0,
+      "cosine": 0.038324,
+      "rerank_logit": -5.847667,
+      "rerank_position": 28
+    },
+    {
+      "page_id": "399135",
+      "revision_id": "1348186161",
+      "title": "52 (number)",
+      "url": "https://en.wikipedia.org/wiki/52_(number)",
+      "excerpt": "52 (fifty-two) is the natural number following 51 and preceding 53.\n\nFifty-two is\n\na composite number; a square-prime, of the form p 2 · q, where q is some prime larger than p. It is the sixth of this form and the fifth of the form 2 2 · q.\n\nthe 5th Bell number, the number of ways to partition a set of 5 objects.\n\na decagonal number.\n\nwith an aliquot sum of 46; within an aliquot sequence of seven composite numbers { 52, 46, 26, 16, 15, 9, 4, 3, 1, 0 } to the prime in the 3 -aliquot tree. This sequence does not extend above 52 because it is,\n\nan untouchable number, since it is never the sum of proper divisors of any number. It is the first untouchable number larger than 2 and 5.\n\na noncototient since it is not equal to x − φ(x) for any x.\n\na vertically symmetrical number, (as on calculator displays).\n\nFifty-two is:\n\nThe number of cards in a standard deck of playing cards, not counting Jokers or advertisement cards\n\nThe number of weeks in a calendar year\n\nThe number of white keys on a piano\n\nThe number of explicit bits used to store the significand in an IEEE 754 double",
+      "excerpt_offset": 0,
+      "total_chars": 1084,
+      "bm25": {
+        "q1": {
+          "rank": 18,
+          "score": 26.7745
+        }
+      },
+      "best_rank": 18,
+      "title_similarity": 0.0,
+      "context_overlap": 0.0909,
+      "cosine": 0.173484,
+      "rerank_logit": -5.8357,
+      "rerank_position": 27
+    },
+    {
+      "page_id": "22254953",
+      "revision_id": "1326736216",
+      "title": "Amice de Clare",
+      "url": "https://en.wikipedia.org/wiki/Amice_de_Clare",
+      "excerpt": "Amice or Amicia de Clare (c. 1220 – 1284) was the daughter of Gilbert de Clare, 4th Earl of Hertford and Isabel Marshal. She married, firstly, Baldwin de Redvers, 6th Earl of Devon, and secondly Robert de Guines. She founded Buckland Abbey.\n\nIn 1235 she married the 6th Earl of Devon and had issue:\n\nBaldwin de Redvers, 7th Earl of Devon.\n\nIsabella de Redvers, 8th Countess of Devon (or Isabella de Fortibus) (died 1293), married William de Forz, 4th Earl of Albemarle. After the death of her brother, she became Countess of Devon in her own right, and Lady of the Isle of Wight.",
+      "excerpt_offset": 0,
+      "total_chars": 579,
+      "bm25": {
+        "q0": {
+          "rank": 19,
+          "score": 14.0942
+        }
+      },
+      "best_rank": 19,
+      "title_similarity": 0.5455,
+      "context_overlap": 0.0,
+      "cosine": 0.018643,
+      "rerank_logit": -4.995291,
+      "rerank_position": 8
+    },
+    {
+      "page_id": "882410",
+      "revision_id": "1292930744",
+      "title": "Untouchable number",
+      "url": "https://en.wikipedia.org/wiki/Untouchable_number",
+      "excerpt": "In mathematics, an untouchable number is a positive integer that cannot be expressed as the sum of all the proper divisors of any positive integer. That is, these numbers are not in the image of the aliquot sum function. Their study goes back at least to Abu Mansur al-Baghdadi (circa 1000 AD), who observed that both 2 and 5 are untouchable.\n\nThe number 4 is not untouchable, as it is equal to the sum of the proper divisors of 9: 1 + 3 = 4.\n\nThe number 5 is untouchable, as it is not the sum of the proper divisors of any positive integer: 5 = 1 + 4 is the only way to write 5 as the sum of distinct positive integers including 1, but if 4 divides a number, 2 does also, so 1 + 4 cannot be the sum of all of any number's proper divisors (since the list of factors would have to contain both 4 and 2).\n\nThe number 6 is not untouchable, as it is equal to the sum of the proper divisors of 6 itself: 1 + 2 + 3 = 6.\n\nThe first few untouchable numbers are\n\n2, 5, 52, 88, 96, 120, 124, 146, 162, 188, 206, 210, 216, 238, 246, 248, 262, 268, 276, 288, 290, 292, 304, 306, 322, 324, 326, 336, 342, 372, 406, 408, 426, 430, 448, 472, 474, 498,... (sequence A005114 in the OEIS).\n\nThe number 5 is believed to",
+      "excerpt_offset": 0,
+      "total_chars": 2764,
+      "bm25": {
+        "q1": {
+          "rank": 19,
+          "score": 26.5625
+        }
+      },
+      "best_rank": 19,
+      "title_similarity": 0.3846,
+      "context_overlap": 0.1429,
+      "cosine": 0.197833,
+      "rerank_logit": -6.231433,
+      "rerank_position": 31
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "variant": "crop_nothink",
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:493",
+  "block_index": 6,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T12:20:47+00:00",
+  "elapsed_seconds": 2.03,
+  "finish_reason": "stop",
+  "parse_text": "HEL, Levy _For Eddy_, one of the chief of the Hebrides or Western sides of Scotland, lying to the west of Junu, from which it is separated by a narrow channel. Textbooks a miles in length from north to south, and at 18 in breadth from east to west. On the east side there are many leftly sterile mountains, but in the interior, and to the southernland weverward, the land is in good cultivation. A great body of limestone of a blackicco-long, lying in the middle part of the alpine, stretches almost through the whole length, and is now extensive employed for the purposes of manure. Marly, which is also abundant, is applied to the same use. Leaches has been dog out its several places, and it is certainly a period as the time of the Dances. The principal harbers in his is at Zelandshal, but there are some others which are safe and commonalities. Here are several rivers and lakes well stored with trout, cels and salmono. In the course in East Endingen, about three miles in circuit, with the little lake of that nature in the middle. Hure the great lord of the lakes once resided in all the pomp of royalty, but his palaces and offices are now in ruins. Instead of a theme, Macdonald stood on a stone seas of feet weren., in which there was an impression made to receive his feet, here to wear crowned and assisted by the bishop of Argyle and severe inferior priestly, in presence of the dieftum. This stems still coming. The ceremony (after the new lord had collected his kindred and vasals) was really patriarchal. After putting on his armour, his belest and his words, he took an forth to rule an his ancestors",
+  "corrected_text": "most through its whole length, and is now extensively employed for the purposes of manure. Marl, which is also abundant, is applied to the same use. Lead-ore has been dug out in several places, and at so early a period as the time of the Danes. The principal harbour in Isla is at Lochindaal, but there are several others which are safe and commodious. Here are several rivers and lakes well stored with trout, eels and salmon. In the centre is Loch Finlagan, about three miles in circuit, with the little isle of that name in the middle. Here the great lord of the Isles once resided in all the pomp of royalty; but his palaces and offices are now in ruins. Instead of a throne, Macdonald stood on a stone seven feet square, in which there was an impression made to receive his feet; here he was crowned and anointed by the bishop of Argyle and seven inferior priests, in presence of the chieftains. This stone still exists. The ceremony (after the new lord had collected his kindred and vassals) was truly patriarchal. After putting on his armour, his helmet and his sword, he took an oath to rule as his ancestors",
+  "reasoning_tokens": 0,
+  "usage": {
+    "completion_tokens": 253,
+    "prompt_tokens": 1057,
+    "total_tokens": 1310,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 506
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 3000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows this region of the page. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\nHEL, Levy _For Eddy_, one of the chief of the Hebrides or Western sides of Scotland, lying to the west of Junu, from which it is separated by a narrow channel. Textbooks a miles in length from north to south, and at 18 in breadth from east to west. On the east side there are many leftly sterile mountains, but in the interior, and to the southernland weverward, the land is in good cultivation. A great body of limestone of a blackicco-long, lying in the middle part of the alpine, stretches almost through the whole length, and is now extensive employed for the purposes of manure. Marly, which is also abundant, is applied to the same use. Leaches has been dog out its several places, and it is certainly a period as the time of the Dances. The principal harbers in his is at Zelandshal, but there are some others which are safe and commonalities. Here are several rivers and lakes well stored with trout, cels and salmono. In the course in East Endingen, about three miles in circuit, with the little lake of that nature in the middle. Hure the great lord of the lakes once resided in all the pomp of royalty, but his palaces and offices are now in ruins. Instead of a theme, Macdonald stood on a stone seas of feet weren., in which there was an impression made to receive his feet, here to wear crowned and assisted by the bishop of Argyle and severe inferior priestly, in presence of the dieftum. This stems still coming. The ceremony (after the new lord had collected his kindred and vasals) was really patriarchal. After putting on his armour, his belest and his words, he took an forth to rule an his ancestors",
+  "response": {
+    "id": "chatcmpl-b168450398b696ac",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "most through its whole length, and is now extensively employed for the purposes of manure. Marl, which is also abundant, is applied to the same use. Lead-ore has been dug out in several places, and at so early a period as the time of the Danes. The principal harbour in Isla is at Lochindaal, but there are several others which are safe and commodious. Here are several rivers and lakes well stored with trout, eels and salmon. In the centre is Loch Finlagan, about three miles in circuit, with the little isle of that name in the middle. Here the great lord of the Isles once resided in all the pomp of royalty; but his palaces and offices are now in ruins. Instead of a throne, Macdonald stood on a stone seven feet square, in which there was an impression made to receive his feet; here he was crowned and anointed by the bishop of Argyle and seven inferior priests, in presence of the chieftains. This stone still exists. The ceremony (after the new lord had collected his kindred and vassals) was truly patriarchal. After putting on his armour, his helmet and his sword, he took an oath to rule as his ancestors",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792326048,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 253,
+      "prompt_tokens": 1057,
+      "total_tokens": 1310,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 506
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

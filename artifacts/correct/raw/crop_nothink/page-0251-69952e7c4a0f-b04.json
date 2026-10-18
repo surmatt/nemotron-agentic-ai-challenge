@@ -1,0 +1,93 @@
+{
+  "variant": "crop_nothink",
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:251",
+  "block_index": 4,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T12:15:05+00:00",
+  "elapsed_seconds": 1.49,
+  "finish_reason": "stop",
+  "parse_text": "The public revenues are in general very incredible,\narising chiefly from the usual regular, appropriated every\nwhere to the foreignee, the domestic, and they gradually,\nvoluntary contributions, the fate of falls, and a land tax; in\nthe Protected cantons, from the church lands alto that were\nfored at the Reforation. Except in Zuricha, Bern, Bull,\nand Schaffaudines, where the people are more industrations,\nhave a greater trade and are richer than in the others, shall\nuse it was.",
+  "corrected_text": "The public revenues are in general very inconsiderable,\narising chiefly from the usual regalia, appropriated every-\nwhere to the foreigne, the demesnes, and public granaries,\nvoluntary contributions, the sale of salt, and a land-tax; in\nthe Protestant cantons, from the church-lands also that were\nfeized at the Reformation. Except in Zurich, Berne, Basel,\nand Schaffhausen, where the people are more industrious,\nhave a greater trade, and are richer than in the others, they\ndefray the ordinary charges, and that is all.",
+  "reasoning_tokens": 0,
+  "usage": {
+    "completion_tokens": 125,
+    "prompt_tokens": 577,
+    "total_tokens": 702,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 288
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 3000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows this region of the page. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\nThe public revenues are in general very incredible,\narising chiefly from the usual regular, appropriated every\nwhere to the foreignee, the domestic, and they gradually,\nvoluntary contributions, the fate of falls, and a land tax; in\nthe Protected cantons, from the church lands alto that were\nfored at the Reforation. Except in Zuricha, Bern, Bull,\nand Schaffaudines, where the people are more industrations,\nhave a greater trade and are richer than in the others, shall\nuse it was.",
+  "response": {
+    "id": "chatcmpl-8cb773c8b73190cd",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "The public revenues are in general very inconsiderable,\narising chiefly from the usual regalia, appropriated every-\nwhere to the foreigne, the demesnes, and public granaries,\nvoluntary contributions, the sale of salt, and a land-tax; in\nthe Protestant cantons, from the church-lands also that were\nfeized at the Reformation. Except in Zurich, Berne, Basel,\nand Schaffhausen, where the people are more industrious,\nhave a greater trade, and are richer than in the others, they\ndefray the ordinary charges, and that is all.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792325706,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 125,
+      "prompt_tokens": 577,
+      "total_tokens": 702,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 288
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

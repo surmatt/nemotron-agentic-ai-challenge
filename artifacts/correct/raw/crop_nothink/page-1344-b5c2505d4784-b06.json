@@ -1,0 +1,93 @@
+{
+  "variant": "crop_nothink",
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1344",
+  "block_index": 6,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T12:22:24+00:00",
+  "elapsed_seconds": 3.16,
+  "finish_reason": "stop",
+  "parse_text": "_Wars Horas._ The proper rules for choosing a horfe\nfor carrier in war, are neither he should be tall in fiat-\nture, with a county break, and out-fwelling forecechs\nHis eye should be bright and parbling, and the white\npart of it covered by the eye brow. The cats should\nbe final, thin, there, and pinkking , or if longer, the\nshould be manhole with rafa, and well carried. The\nneck should be deep, and the breath large and fewling.\nThe ribs bending, the either bound and flagging, and\nthe buttons round and fall. The tail though be high\nand broad, neither too thick nor too thin; the thigh\nwellings; the leg broad and like, and the pallon them.\nWhen fush a horse he chodey, he must be kept high de-\nring the time of his teaching, that he may be full of\nvigore. His bondmilt be free to any good and clean out\nor two parts of cats and one part, feeding our prefer,\nwell dried and hardened. The quantity should be half\na peck in the oneming, and the have quantity at now\nand in the evening. Upon his cutting days he is to be\ndrifted, between five and the less than morning, and\nel at times or rights, to the evening he is to be dificult\nat four, and watered about five, and he mull always\nhave provided given him into after evening; he must be\nlittered about sight, and then muff the food gli-\nven him for all night. The night before he is ridden\nall last hay is to be has a way about nine of checks, and\nhe mull have a handful or two of cats also took four\nthe morning; when he has eaten theirly leis to do\nturned upon the traffic, and indeed very well with dry\nwilps. Then fadidlek, and made it for his exercise.\nWhen he has performed this, is to the boven\nfreezing into the thlile, and tribbed down with dry\nwifps. When this has been done, the fiddle is to be\ntant and, and he is to be crbbedded down with the clothes\nthe houling cloth is then to be had on) and the double\nbeing again kid on, he is to be walked gently about\ntill thoroughly cool. After that, he mull fixed with\nout meat two or three hours, then he mull be fed, yet\nin the afternoon he is to be rubbed and dreified as be-\nfore, and waccent in the ritual menor.",
+  "corrected_text": "War-Horse. The proper rules for choosing a horse for service in war, are these: he should be tall in stature, with a comely head, and out-swelling forehead. His eye should be bright and sparkling, and the white part of it covered by the eye brow. The ears should be small, thin, short, and pricking; or if long, they should be moveable with ease, and well carried. The neck should be deep, and the breath large and swelling. The ribs bending, the chine broad and straight, and the buttocks round and full. The tail should be high and broad, neither too thick nor too thin; the thigh swelling; the leg broad and flat, and the pastern short. When such a horse is chosen, he must be kept high during the time of his teaching, that he may be full of vigour. His food must be sweet hay, and good clean oats, or two parts of oats and one part of beans or pease, well dried and hardened. The quantity should be half a peck in the morning, and the same quantity at noon and in the evening. Upon his resting days he is to be drest between five and six in the morning, and watered at seven or eight. In the evening he is to be drest at four, and watered about five, and he must always have provender given him after watering; he must be littered about eight, and then must have food given him for all night. The night before he is ridden all his hay is to be taken away about nine o'clock, and he must have a handful or two of oats about four in the morning; when he has eaten these, he is to be turned upon the straw, and rubbed very well with dry cloths; then saddled, and made fit for his exercise. When he has performed this, he is to be brought sweating into the stable, and rubbed down with dry whips. When this has been done, the saddle is to be taken off, and he is to be rubbed down with dry cloths; the housing cloth is then to be laid on; and the saddle being again laid on, he is to be walked gently about till thoroughly cool. After this, he must stand without meat two or three hours, then he must be fed; and in the afternoon he is to be rubbed and drest as before, and watered in the usual manner.",
+  "reasoning_tokens": 0,
+  "usage": {
+    "completion_tokens": 507,
+    "prompt_tokens": 1662,
+    "total_tokens": 2169,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 922
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 3000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows this region of the page. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\n_Wars Horas._ The proper rules for choosing a horfe\nfor carrier in war, are neither he should be tall in fiat-\nture, with a county break, and out-fwelling forecechs\nHis eye should be bright and parbling, and the white\npart of it covered by the eye brow. The cats should\nbe final, thin, there, and pinkking , or if longer, the\nshould be manhole with rafa, and well carried. The\nneck should be deep, and the breath large and fewling.\nThe ribs bending, the either bound and flagging, and\nthe buttons round and fall. The tail though be high\nand broad, neither too thick nor too thin; the thigh\nwellings; the leg broad and like, and the pallon them.\nWhen fush a horse he chodey, he must be kept high de-\nring the time of his teaching, that he may be full of\nvigore. His bondmilt be free to any good and clean out\nor two parts of cats and one part, feeding our prefer,\nwell dried and hardened. The quantity should be half\na peck in the oneming, and the have quantity at now\nand in the evening. Upon his cutting days he is to be\ndrifted, between five and the less than morning, and\nel at times or rights, to the evening he is to be dificult\nat four, and watered about five, and he mull always\nhave provided given him into after evening; he must be\nlittered about sight, and then muff the food gli-\nven him for all night. The night before he is ridden\nall last hay is to be has a way about nine of checks, and\nhe mull have a handful or two of cats also took four\nthe morning; when he has eaten theirly leis to do\nturned upon the traffic, and indeed very well with dry\nwilps. Then fadidlek, and made it for his exercise.\nWhen he has performed this, is to the boven\nfreezing into the thlile, and tribbed down with dry\nwifps. When this has been done, the fiddle is to be\ntant and, and he is to be crbbedded down with the clothes\nthe houling cloth is then to be had on) and the double\nbeing again kid on, he is to be walked gently about\ntill thoroughly cool. After that, he mull fixed with\nout meat two or three hours, then he mull be fed, yet\nin the afternoon he is to be rubbed and dreified as be-\nfore, and waccent in the ritual menor.",
+  "response": {
+    "id": "chatcmpl-afac37f7aecc62b8",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "War-Horse. The proper rules for choosing a horse for service in war, are these: he should be tall in stature, with a comely head, and out-swelling forehead. His eye should be bright and sparkling, and the white part of it covered by the eye brow. The ears should be small, thin, short, and pricking; or if long, they should be moveable with ease, and well carried. The neck should be deep, and the breath large and swelling. The ribs bending, the chine broad and straight, and the buttocks round and full. The tail should be high and broad, neither too thick nor too thin; the thigh swelling; the leg broad and flat, and the pastern short. When such a horse is chosen, he must be kept high during the time of his teaching, that he may be full of vigour. His food must be sweet hay, and good clean oats, or two parts of oats and one part of beans or pease, well dried and hardened. The quantity should be half a peck in the morning, and the same quantity at noon and in the evening. Upon his resting days he is to be drest between five and six in the morning, and watered at seven or eight. In the evening he is to be drest at four, and watered about five, and he must always have provender given him after watering; he must be littered about eight, and then must have food given him for all night. The night before he is ridden all his hay is to be taken away about nine o'clock, and he must have a handful or two of oats about four in the morning; when he has eaten these, he is to be turned upon the straw, and rubbed very well with dry cloths; then saddled, and made fit for his exercise. When he has performed this, he is to be brought sweating into the stable, and rubbed down with dry whips. When this has been done, the saddle is to be taken off, and he is to be rubbed down with dry cloths; the housing cloth is then to be laid on; and the saddle being again laid on, he is to be walked gently about till thoroughly cool. After this, he must stand without meat two or three hours, then he must be fed; and in the afternoon he is to be rubbed and drest as before, and watered in the usual manner.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792326146,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 507,
+      "prompt_tokens": 1662,
+      "total_tokens": 2169,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 922
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

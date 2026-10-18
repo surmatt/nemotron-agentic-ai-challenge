@@ -1,0 +1,93 @@
+{
+  "variant": "crop_nothink",
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2307",
+  "block_index": 3,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T12:24:31+00:00",
+  "elapsed_seconds": 3.3,
+  "finish_reason": "stop",
+  "parse_text": "By this proudgism armament, the Algerines were thrown into the utmost confianeration. The city was fur- rounded only by a wall with force any outwalks. The whole grandma could if 80o Tinka and Ooco Moors, without fire-arms, and poorly displined and acoustic tret; the reflet of their forces being dipedled in the oro they provoted of the kingdom, to key the final chance on the Arabs and Moore. The Spaniards landed with out oppositions and immediately built a fort, under the unions of which they exempted, and directed the courte of a spring which fupplied the city with water. Being now reduced to the utmost difrets, Haffan received a immune to formative art direction, on pain of being put to the fword with all the garrition. The kanal was ordered to send the full power of the empre! body for and land, and to cahar him to return to the Christian religion. But to this Haffan only rreified, that he must be animals who would pee tand to advise an enemy, and that the dividend mill fill act more madly who would take counsel of such an ad- viter. He was, however, on the point of farredering the city, upon an witness towards him that the forces belonging to the wellern government were in full marach towards the places, upon which it was referred to de fent to the utmost. Charles, in the meantime, reloing upon a general affault, kept a constant firing upon the towns; which, from the weak defense made by the garrition, he looked soon as already in his hands. But while the obvious, or Algerine female, were deli- bordering on the mollit proper means of obtaining an bouncable captivities, and probably afforded by a multitude of people, entered the affembly, and fore told the flying distribution of the Spaniards before the end of the moon, extending the inhabitants to hold our till that time. This prediction was foon accomplished in a very fulfilling and unexpected manner: for, on the 39% of October 1541s a deadful from of wind, rain, and hail, arole from the north, accompanied with white flocks of earthquakes, and a dindi and univerful darkade both by the sand had; so that the fun, moon, and elements, forced to combine together for the dethration of the Spaniards. In fact one night, force in first than half an hour, 86 things and is greatly were defrtedy, with all their crews and military flores; by which the army on there was deprived of all means of diluting in their people. Their campsite as which spread lifel along the plain under the fort, was laid quite under water, the overre which defend from the neighboring hills. Many of the troops, by trying to remove into force better situation, were cut in pieces by the Moors and Arabes, while fever, pylley, and other reptiles, endeavouring to gentlem go under the canals, were immediately plunder- ed, and their crew ensulfants by the inhabitants.",
+  "corrected_text": "By this prodigious armament, the Algerines were thrown into the utmost consternation. The city was furrounded only by a wall with force any outworks. The whole garrison consisted of 800 Turks and 6000 Moors, without fire-arms, and poorly disciplined and accoutred; the rest of their forces being dispersed in the other provinces of the kingdom, to levy the usual tribute on the Arabs and Moors. The Spaniards landed without opposition, and immediately built a fort, under the cannon of which they encamped, and diverted the course of a spring which supplied the city with water. Being now reduced to the utmost distress, Hassan received a summons to surrender at discretion, on pain of being put to the sword with all the garrison. The herald was ordered to exert the whole power of the emperor both by sea and land, and to exhort him to return to the Christian religion. But to this Hassan only replied, that he must be a madman who would pretend to advise an enemy, and that the advised must act more madly who would take counsel of such an adviser. He was, however, on the point of surrendering the city, when advice was brought him that the forces belonging to the western government were in full march towards the place; upon which it was resolved to defend it to the utmost. Charles, in the meantime, revolving upon a general assault, kept a constant firing upon the town; which, from the weak defence made by the garrison, he looked upon as already in his hands. But while the divan, or Algerine senate, were deliberating on the most proper means of obtaining an honourable capitulation, a mad prophet, attended by a multitude of people, entered the assembly, and foretold the speedy destruction of the Spaniards before the end of the moon, exhorting the inhabitants to hold out till that time. This prediction was soon accomplished in a very surprising and unexpected manner: for, on the 28th of October 1541, a dreadful storm of wind, rain, and hail, arose from the north, accompanied with violent flocks of earthquakes, and a dismal and universal darkness both by sea and land; so that the sun, moon, and elements, seemed to combine together for the destruction of the Spaniards. In that one night, less than half an hour, 86 ships and 15 galleys were destroyed, with all their crews and military stores; by which the army on shore was deprived of all means of subsistence in those parts. Their camp also, which spread itself along the plain under the fort, was laid quite under water by the torrents which descended from the neighbouring hills. Many of the troops, by trying to remove into some better situation, were cut in pieces by the Moors and Arabs; while several galleys, and other vessels, endeavouring to gain some neighbouring creeks along the coasts, were immediately plundered, and their crews massacred by the inhabitants.",
+  "reasoning_tokens": 0,
+  "usage": {
+    "completion_tokens": 630,
+    "prompt_tokens": 2186,
+    "total_tokens": 2816,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 1346
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 3000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows this region of the page. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\nBy this proudgism armament, the Algerines were thrown into the utmost confianeration. The city was fur- rounded only by a wall with force any outwalks. The whole grandma could if 80o Tinka and Ooco Moors, without fire-arms, and poorly displined and acoustic tret; the reflet of their forces being dipedled in the oro they provoted of the kingdom, to key the final chance on the Arabs and Moore. The Spaniards landed with out oppositions and immediately built a fort, under the unions of which they exempted, and directed the courte of a spring which fupplied the city with water. Being now reduced to the utmost difrets, Haffan received a immune to formative art direction, on pain of being put to the fword with all the garrition. The kanal was ordered to send the full power of the empre! body for and land, and to cahar him to return to the Christian religion. But to this Haffan only rreified, that he must be animals who would pee tand to advise an enemy, and that the dividend mill fill act more madly who would take counsel of such an ad- viter. He was, however, on the point of farredering the city, upon an witness towards him that the forces belonging to the wellern government were in full marach towards the places, upon which it was referred to de fent to the utmost. Charles, in the meantime, reloing upon a general affault, kept a constant firing upon the towns; which, from the weak defense made by the garrition, he looked soon as already in his hands. But while the obvious, or Algerine female, were deli- bordering on the mollit proper means of obtaining an bouncable captivities, and probably afforded by a multitude of people, entered the affembly, and fore told the flying distribution of the Spaniards before the end of the moon, extending the inhabitants to hold our till that time. This prediction was foon accomplished in a very fulfilling and unexpected manner: for, on the 39% of October 1541s a deadful from of wind, rain, and hail, arole from the north, accompanied with white flocks of earthquakes, and a dindi and univerful darkade both by the sand had; so that the fun, moon, and elements, forced to combine together for the dethration of the Spaniards. In fact one night, force in first than half an hour, 86 things and is greatly were defrtedy, with all their crews and military flores; by which the army on there was deprived of all means of diluting in their people. Their campsite as which spread lifel along the plain under the fort, was laid quite under water, the overre which defend from the neighboring hills. Many of the troops, by trying to remove into force better situation, were cut in pieces by the Moors and Arabes, while fever, pylley, and other reptiles, endeavouring to gentlem go under the canals, were immediately plunder- ed, and their crew ensulfants by the inhabitants.",
+  "response": {
+    "id": "chatcmpl-a2acd62aa524400f",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "By this prodigious armament, the Algerines were thrown into the utmost consternation. The city was furrounded only by a wall with force any outworks. The whole garrison consisted of 800 Turks and 6000 Moors, without fire-arms, and poorly disciplined and accoutred; the rest of their forces being dispersed in the other provinces of the kingdom, to levy the usual tribute on the Arabs and Moors. The Spaniards landed without opposition, and immediately built a fort, under the cannon of which they encamped, and diverted the course of a spring which supplied the city with water. Being now reduced to the utmost distress, Hassan received a summons to surrender at discretion, on pain of being put to the sword with all the garrison. The herald was ordered to exert the whole power of the emperor both by sea and land, and to exhort him to return to the Christian religion. But to this Hassan only replied, that he must be a madman who would pretend to advise an enemy, and that the advised must act more madly who would take counsel of such an adviser. He was, however, on the point of surrendering the city, when advice was brought him that the forces belonging to the western government were in full march towards the place; upon which it was resolved to defend it to the utmost. Charles, in the meantime, revolving upon a general assault, kept a constant firing upon the town; which, from the weak defence made by the garrison, he looked upon as already in his hands. But while the divan, or Algerine senate, were deliberating on the most proper means of obtaining an honourable capitulation, a mad prophet, attended by a multitude of people, entered the assembly, and foretold the speedy destruction of the Spaniards before the end of the moon, exhorting the inhabitants to hold out till that time. This prediction was soon accomplished in a very surprising and unexpected manner: for, on the 28th of October 1541, a dreadful storm of wind, rain, and hail, arose from the north, accompanied with violent flocks of earthquakes, and a dismal and universal darkness both by sea and land; so that the sun, moon, and elements, seemed to combine together for the destruction of the Spaniards. In that one night, less than half an hour, 86 ships and 15 galleys were destroyed, with all their crews and military stores; by which the army on shore was deprived of all means of subsistence in those parts. Their camp also, which spread itself along the plain under the fort, was laid quite under water by the torrents which descended from the neighbouring hills. Many of the troops, by trying to remove into some better situation, were cut in pieces by the Moors and Arabs; while several galleys, and other vessels, endeavouring to gain some neighbouring creeks along the coasts, were immediately plundered, and their crews massacred by the inhabitants.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792326272,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 630,
+      "prompt_tokens": 2186,
+      "total_tokens": 2816,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 1346
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

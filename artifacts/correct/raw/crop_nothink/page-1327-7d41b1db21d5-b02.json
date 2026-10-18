@@ -1,0 +1,93 @@
+{
+  "variant": "crop_nothink",
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1327",
+  "block_index": 2,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T12:22:18+00:00",
+  "elapsed_seconds": 2.14,
+  "finish_reason": "stop",
+  "parse_text": "der legant all fill it rises gradually to the surface,\nand gradually reverted its heights, thinking ama-\ningly, and flinging up great flows. After attin-\ning its greatest height, it gradually falls till it to\ndaily disappoint. Building _life drama_ and boiling\nfipings are frequent in molt parts of the island. In many years they replied to the otherup if one he\nnaive? The molt capital is that which is called Gray\nor Ccyfer, in a plain rifling into final hills, and in the\nmulti of an amphitheater, bounded by the molt marg-\ninfeces and various shaped the mountains’s among\nwhich the three-headed Hechs fears pre-eminent. See\nTerLANN, N 4——Their there's not confined\nto the land, they rife in the very few, and form\nfeuling fourstairs amidth the waves. Their dithers\nfrom the land is unknown, but she ever vulnerable,\ntwelve molds off the point of Kickeness, emitting fire\nand froke, proves that the observations fires and wa-\nters extend to that space; for those avoid effects safe\nfrom the united fury of their two elements.",
+  "corrected_text": "der begins to fill; it rises gradually to the surface, and gradually encreases its height, smoking amazingly, and flinging up great stones. After attaining its greatest height it gradually sinks till it totally disappears. Boiling jets d'eaux and boiling springs are frequent in most parts of the island. In many parts they are applied to the culinary uses of the natives. The most capital is that which is called Geyer or Geyfer, in a plain rifing into small hills, and in the midst of an amphitheatre, bounded by the most magnificent and various-shaped icy mountains; among which the three-headed Hecla fora pre-eminent. See Iceland, N° 4.—The fires are not confined to the land; they rise in the very sea, and form fountains amidst the waves. Their distance from the land is unknown; but the new volcanic isle, twelve miles off the point of Reickenes, emitting fire and smoke, proves that the subterraneous fires and waters extend to that space; for those awful effects arise from the united fury of the two elements.",
+  "reasoning_tokens": 0,
+  "usage": {
+    "completion_tokens": 228,
+    "prompt_tokens": 916,
+    "total_tokens": 1144,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 485
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 3000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows this region of the page. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\nder legant all fill it rises gradually to the surface,\nand gradually reverted its heights, thinking ama-\ningly, and flinging up great flows. After attin-\ning its greatest height, it gradually falls till it to\ndaily disappoint. Building _life drama_ and boiling\nfipings are frequent in molt parts of the island. In many years they replied to the otherup if one he\nnaive? The molt capital is that which is called Gray\nor Ccyfer, in a plain rifling into final hills, and in the\nmulti of an amphitheater, bounded by the molt marg-\ninfeces and various shaped the mountains’s among\nwhich the three-headed Hechs fears pre-eminent. See\nTerLANN, N 4——Their there's not confined\nto the land, they rife in the very few, and form\nfeuling fourstairs amidth the waves. Their dithers\nfrom the land is unknown, but she ever vulnerable,\ntwelve molds off the point of Kickeness, emitting fire\nand froke, proves that the observations fires and wa-\nters extend to that space; for those avoid effects safe\nfrom the united fury of their two elements.",
+  "response": {
+    "id": "chatcmpl-80d3996c250af689",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "der begins to fill; it rises gradually to the surface, and gradually encreases its height, smoking amazingly, and flinging up great stones. After attaining its greatest height it gradually sinks till it totally disappears. Boiling jets d'eaux and boiling springs are frequent in most parts of the island. In many parts they are applied to the culinary uses of the natives. The most capital is that which is called Geyer or Geyfer, in a plain rifing into small hills, and in the midst of an amphitheatre, bounded by the most magnificent and various-shaped icy mountains; among which the three-headed Hecla fora pre-eminent. See Iceland, N° 4.—The fires are not confined to the land; they rise in the very sea, and form fountains amidst the waves. Their distance from the land is unknown; but the new volcanic isle, twelve miles off the point of Reickenes, emitting fire and smoke, proves that the subterraneous fires and waters extend to that space; for those awful effects arise from the united fury of the two elements.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792326139,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 228,
+      "prompt_tokens": 916,
+      "total_tokens": 1144,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 485
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

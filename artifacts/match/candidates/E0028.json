@@ -1,0 +1,452 @@
+{
+  "entry_id": "E0028",
+  "headword": null,
+  "entry_text_sha256": "2f8b9073482115edc92e7301e4b43f812972f5ecde56d07a51a6fbbdebb15034",
+  "mode": "model",
+  "queries": [
+    "king william brother henry promised death robert tyrrel winchester prince treasure england"
+  ],
+  "query_chars": 1500,
+  "headword_variant": null,
+  "candidate_count": 20,
+  "list_pages_removed_after_fetch": [],
+  "decision": {
+    "status": "rejected",
+    "method": "nemotron_embed_rerank",
+    "thresholds": {
+      "rerank_logit": -10.0,
+      "margin": 0.5,
+      "cosine": 0.15,
+      "title_similarity": 0.0
+    },
+    "reason": "rerank_logit < -10.0, margin < 0.5, cosine < 0.15, or title_similarity < 0.0",
+    "page_id": "33918",
+    "title": "William II of England",
+    "rerank_logit": -5.525884,
+    "cosine": 0.437843,
+    "margin_to_next": 0.04373,
+    "title_similarity": 0.0
+  },
+  "candidates": [
+    {
+      "page_id": "23525382",
+      "revision_id": "1303924935",
+      "title": "William of Breteuil",
+      "url": "https://en.wikipedia.org/wiki/William_of_Breteuil",
+      "excerpt": "William of Breteuil or William de Breteuil (French: Guillaume de Breteuil; d. 12 January 1103) was a Norman magnate who held extensive lands in central Normandy as the lord of Breteuil at the end of the reign of King William I and during the chaotic period afterwards when William's eldest son Robert Curthose, duke of Normandy, contested with his younger brother William Rufus, king of England.\n\nUpon the death of William Rufus while hunting in the New Forest, Lord William attempted — but failed — to block Prince Henry seizing the crown jewels from the Winchester treasury and declaring himself king in preference to the crusading Robert. Lord William was later abducted and tortured by a French noble who wanted to marry his illegitimate daughter Isabel.\n\nWilliam was the first-born son of William FitzOsbern, a companion of Duke William II of Normandy during his conquest of England in 1066. Following the conquest, the father became the 1st earl of Hereford. Upon his father's death in 1071 he inherited extensive estates in central Normandy including the lordship of Breteuil and Pacy in Eure.\n\nDuring the turbulent period following the death of the new English king in 1087, his sons Robert C",
+      "excerpt_offset": 0,
+      "total_chars": 3224,
+      "bm25": {
+        "q0": {
+          "rank": 1,
+          "score": 46.5757
+        }
+      },
+      "best_rank": 1,
+      "title_similarity": 0.0,
+      "context_overlap": 0.3919,
+      "cosine": 0.336147,
+      "rerank_logit": -5.569614,
+      "rerank_position": 2
+    },
+    {
+      "page_id": "52500133",
+      "revision_id": "1314130213",
+      "title": "Timothy Tyrrell (died 1632)",
+      "url": "https://en.wikipedia.org/wiki/Timothy_Tyrrell_(died_1632)",
+      "excerpt": "Sir Timothy Tyrrell (also spelled Tirrell; c. 1575 –1632) was an Englishman who served as Master of the Buckhounds to Henry Frederick, Prince of Wales, and King Charles I. His fee as master of the buckhounds in 1616 was £20 yearly.\n\nTyrrell was born in Oakley, Buckinghamshire, the son of Sir Edward Tyrrell, Member of Parliament for Buckingham, by his second wife, Margaret. He was the brother of politician and judge Thomas Tyrrell.\n\nHe married Eleanor Kingsmill, daughter of Sir William Kingsmill (died 1618) of Sydmonton and Anne Wilkes, on 22 August 1613 in Marsworth, Buckinghamshire. They had seven children:\n\nSir Timothy Tyrrell (1617–1701), also Master of the Hounds to King Charles\n\nWilliam, killed in the English Civil War at the Siege of Chester in 1644\n\nHenry, ranger of Whaddon Chase\n\nCharles, died unmarried, 1694\n\nEleanor, married first to Sir Peter Temple; secondly to Richard Grenville of Wotton, with whom she had Richard Grenville, M.P.\n\nBridget, died unmarried\n\nMary, married to Sir Walter Pye\n\nTyrrell was granted the rangership of Shotover Forest after a freak hunting accident early in the 17th century, in which he was maimed by the teenaged Henry, Prince of Wales, eldest so",
+      "excerpt_offset": 0,
+      "total_chars": 2172,
+      "bm25": {
+        "q0": {
+          "rank": 2,
+          "score": 44.3586
+        }
+      },
+      "best_rank": 2,
+      "title_similarity": 0.0,
+      "context_overlap": 0.2597,
+      "cosine": 0.235176,
+      "rerank_logit": -7.161068,
+      "rerank_position": 17
+    },
+    {
+      "page_id": "14808492",
+      "revision_id": "1340313348",
+      "title": "1100s in England",
+      "url": "https://en.wikipedia.org/wiki/1100s_in_England",
+      "excerpt": "Events from the 1100s in the Kingdom of England.\n\nMonarch – William II (until 2 August 1100), then Henry I\n\n1100\n\n2 August – King William II dies in a hunting accident in the New Forest; his brother Henry I claims the throne.\n\n5 August – coronation of Henry I at Westminster Abbey. He issues the Charter of Liberties to mark his coronation.\n\n23 September – Archbishop of Canterbury Anselm returns from exile at the invitation of Henry I.\n\n11 November – Henry I marries Matilda of Scotland, daughter of King Malcolm III of Scotland, at Westminster Abbey.\n\n1101\n\n3 February – Ranulf Flambard, bishop of Durham, escapes from the Tower of London and flees to Normandy where he joins Robert Curthose, duke of Normandy, who has just returned from the Crusades.\n\n20 July – Robert Curthose lands at Portsmouth to claim the English throne.\n\n2 August – By the Treaty of Alton, ratified at Winchester, Robert recognises his younger brother Henry I as King of England.\n\n1102\n\nHenry I has a series of charges drawn up against the rebel Robert of Bellême, Earl of Shrewsbury (particularly relating to unlicensed castle building), and, when Robert refuses to answer to them, persuades Robert's former vassal and all",
+      "excerpt_offset": 0,
+      "total_chars": 5439,
+      "bm25": {
+        "q0": {
+          "rank": 3,
+          "score": 44.2406
+        }
+      },
+      "best_rank": 3,
+      "title_similarity": 0.0,
+      "context_overlap": 0.3457,
+      "cosine": 0.333191,
+      "rerank_logit": -5.579203,
+      "rerank_position": 3
+    },
+    {
+      "page_id": "33918",
+      "revision_id": "1351399765",
+      "title": "William II of England",
+      "url": "https://en.wikipedia.org/wiki/William_II_of_England",
+      "excerpt": "William II (Anglo-Norman: Williame; c. 1057 – 2 August 1100) was King of England from 26 September 1087 until his death in 1100, with powers over Normandy and influence in Scotland. He was less successful in extending his control into Wales. The third son of William the Conqueror, he is commonly referred to as William Rufus (Rufus being Latin for \"the Red\"), perhaps because of his ruddy appearance or, more likely, because he had red hair.\n\nWilliam was a figure of complex temperament, capable of both bellicosity and flamboyance. He did not marry or have children, which – along with contemporary accounts – has led some historians to speculate on his sexuality. He died after being hit by an arrow while hunting. Circumstantial evidence in the behaviour of those around him – including his younger brother Henry I – raises strong but unproven suspicions of murder. Upon William's death, Henry immediately seized the treasury and had himself crowned king.\n\nHistorian Frank Barlow writes that William was a \"rumbustious, devil-may-care soldier, without natural dignity or social graces, with no cultivated tastes and little show of conventional religious piety or morality – indeed, according to h",
+      "excerpt_offset": 0,
+      "total_chars": 19258,
+      "bm25": {
+        "q0": {
+          "rank": 4,
+          "score": 43.5416
+        }
+      },
+      "best_rank": 4,
+      "title_similarity": 0.0,
+      "context_overlap": 0.2472,
+      "cosine": 0.437843,
+      "rerank_logit": -5.525884,
+      "rerank_position": 1
+    },
+    {
+      "page_id": "4199915",
+      "revision_id": "1349805033",
+      "title": "Walter Tirel",
+      "url": "https://en.wikipedia.org/wiki/Walter_Tirel",
+      "excerpt": "Walter Tirel III (1065 –1136), nicknamed the \" Red Knight of Normandie \", was an Anglo-Norman nobleman. He is infamous for allegedly accidentally killing King William II of England.\n\nWalter Tirel was born in Tonbridge, Kent, the son of Norman Walter Tirel, and was lord of Poix-de-Picardie in Ponthieu (now in France), and of Langham, Essex (as appears in the Domesday Survey). By marriage, he became linked to the English royal family, having wed Adeliza, the daughter of royal kinsman Richard Fitz Gilbert, who was of the family of Clare. Tirel's father-in-law owned lands in Essex, which he enfeoffed to Tirel. He died in 1136. He was a friend of St Anselm's.\n\nThe grandson of Walter and Adeliza, Hugh Tyrrel, took part in the Norman Conquest of Ireland and became the first baron of Castleknock.\n\nOn 2 August 1100, Tirel was among a party of noblemen who joined King William II for a hunt in the New Forest. The hunt began at an unusually late hour; it was after midday lunch instead of the customary early morning. Among the hunting party were Henry (William's younger brother, future King Henry I), Robert de Beaumont (Count of Meulan), Henry de Beaumont (Earl of Warwick, Robert's brother), Ro",
+      "excerpt_offset": 0,
+      "total_chars": 10449,
+      "bm25": {
+        "q0": {
+          "rank": 5,
+          "score": 43.4655
+        }
+      },
+      "best_rank": 5,
+      "title_similarity": 0.0,
+      "context_overlap": 0.2857,
+      "cosine": 0.466267,
+      "rerank_logit": -6.183391,
+      "rerank_position": 6
+    },
+    {
+      "page_id": "681315",
+      "revision_id": "1340449279",
+      "title": "Henry of Blois",
+      "url": "https://en.wikipedia.org/wiki/Henry_of_Blois",
+      "excerpt": "Henry of Blois (c. 1096 – 8 August 1171), often known as Henry of Winchester, was Abbot of Glastonbury Abbey from 1126, and Bishop of Winchester from 1129 to his death.\n\nHe was the son of Stephen II, Count of Blois and Adela of Normandy, a younger brother of Stephen, King of England, and a grandson of William the Conqueror. Henry was also a major patron of the arts, funding the Winchester Bible and the font in Winchester Cathedral. He founded the Hospital of St Cross and built much of Wolvesey Castle.\n\nHenry was one of five sons of Stephen II, Count of Blois, by Adela of Normandy (daughter of William the Conqueror) and the younger brother of King Stephen. His birth date is uncertain, along with his siblings but he was the 4th or youngest son and he was most likely born at Blois c.1096, before his father left on the first crusade, or possibly c.1100, soon after his father's return. Henry's father died in 1102 while on crusade during the Second Battle of Ramla, leaving an estate with more than 350 castles and large properties in France including Chartres.\n\nHenry was educated at Cluny and adhered to the principles of Cluniac reform, which included a sense of intellectual freedom and h",
+      "excerpt_offset": 0,
+      "total_chars": 6724,
+      "bm25": {
+        "q0": {
+          "rank": 6,
+          "score": 43.446
+        }
+      },
+      "best_rank": 6,
+      "title_similarity": 0.0,
+      "context_overlap": 0.2432,
+      "cosine": 0.211375,
+      "rerank_logit": -6.6963,
+      "rerank_position": 7
+    },
+    {
+      "page_id": "105832",
+      "revision_id": "1349126154",
+      "title": "James Tyrrell",
+      "url": "https://en.wikipedia.org/wiki/James_Tyrrell",
+      "excerpt": "Sir James Tyrrell (c. 1455 – 6 May 1502) was an English knight who was a trusted servant of King Richard III of England. He is known for allegedly confessing to the murders of the Princes in the Tower under Richard's orders. In his 1593 play Richard III, William Shakespeare portrays Tyrrell as the man who organises the princes' murders.\n\nJames Tyrrell was the eldest son of William Tyrrell of Gipping in Suffolk, and Margaret Darcy, the daughter of Robert Darcy of Maldon, and the grandson of Sir John Tyrrell.\n\nTyrrell's father was beheaded on Tower Hill on 23 February 1462, together with Sir Thomas Tuddenham and John Montgomery. John de Vere, 12th Earl of Oxford, and his eldest son and heir, Aubrey, were beheaded on 26 February and 20 February, respectively, after the discovery of an alleged plot to murder Edward IV. No records of the trials of the alleged conspirators have survived to shed light on what part, if any, Tyrrell's father played in the alleged conspiracy. He was not attainted, and his eldest son and heir's wardship and the custody of his lands were granted to Cecily Neville, Duchess of York, who sold them to William Tyrrell's widow in March 1463 for £50.\n\nJames Tyrrell f",
+      "excerpt_offset": 0,
+      "total_chars": 5982,
+      "bm25": {
+        "q0": {
+          "rank": 7,
+          "score": 42.764
+        }
+      },
+      "best_rank": 7,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1867,
+      "cosine": 0.255978,
+      "rerank_logit": -6.843951,
+      "rerank_position": 12
+    },
+    {
+      "page_id": "456802",
+      "revision_id": "1321382903",
+      "title": "Roger de Quincy, 2nd Earl of Winchester",
+      "url": "https://en.wikipedia.org/wiki/Roger_de_Quincy,_2nd_Earl_of_Winchester",
+      "excerpt": "Roger de Quincy, 2nd Earl of Winchester (c. 1195 – 25 April 1264), and the hereditary Constable of Scotland, was a nobleman of Anglo-Norman and Scottish descent who was prominent in both England and Scotland, at his death having one of the largest baronial landholdings in the two kingdoms.\n\nThe de Quincy family, originating from the village of Cuinchy in Artois, had been prominent in England and Scotland from about 1130. Roger, second son and eventual heir of Saer de Quincy, 1st Earl of Winchester, and his wife Margaret, younger daughter of Robert de Beaumont, 3rd Earl of Leicester. Roger was likely the son that Saer handed over to King John in 1213 as a Scottish hostage to ensure the Anglo-Scottish treaty of 1212. He first became involved in politics in 1215, when he, along with Saer and the leaders of the baronial rebellion against John, was excommunicated by Innocent III. However, he did not play a major role in the civil war that erupted after the king's death. Roger probably joined his father on the Fifth Crusade, during which the elder de Quincy fell sick in Egypt and died. Since Roger's older brother Robert had died a few years earlier, he inherited his father's estates on h",
+      "excerpt_offset": 0,
+      "total_chars": 3909,
+      "bm25": {
+        "q0": {
+          "rank": 8,
+          "score": 42.5602
+        }
+      },
+      "best_rank": 8,
+      "title_similarity": 0.0,
+      "context_overlap": 0.2297,
+      "cosine": 0.19919,
+      "rerank_logit": -6.870739,
+      "rerank_position": 14
+    },
+    {
+      "page_id": "2912191",
+      "revision_id": "1333508580",
+      "title": "John Tyrrell (died 1437)",
+      "url": "https://en.wikipedia.org/wiki/John_Tyrrell_(died_1437)",
+      "excerpt": "Sir John Tyrrell (c.1382 – 2 April 1437), of Heron in the Essex parish of East Horndon, was a prominent English landowner, lawyer, administrator, and politician during the reigns of Henry V and Henry VI. A trusted royal servant, he was elected three times as Speaker of the House of Commons, served repeatedly as knight of the shire for Essex and Hertfordshire, and held senior offices including Treasurer of the Royal Household.\n\nJohn Tyrrell was the eldest son of Walter Tyrrell of Avon Tyrrell, Hampshire, by his wife Eleanor Flambard (died 29 March 1422), daughter and heiress of Edmund Flambard of Shepreth, Cambridgeshire, by his wife Elizabeth FitzRalph, daughter of Richard FitzRalph. After the death of Walter Tyrrell, Eleanor remarried to Sir Nicholas Haute (1357–c. 1415), MP, of Wadden Hall in Waltham, Kent.\n\nJohn was the grandson and heir of Sir Thomas Tyrrell (died 1382) who was buried at Downham, Essex, in 1382, and was survived by his wife, Alice.\n\nTyrrell had the following four brothers:\n\nEdward Tyrrell (died 17 December 1442), Esquire, of Downham, who married Anne Pashley, widow of John Bassingbourne and daughter of Sir Robert Pashley by his wife Philippe Sergeaux (sister-in",
+      "excerpt_offset": 0,
+      "total_chars": 7218,
+      "bm25": {
+        "q0": {
+          "rank": 9,
+          "score": 42.3973
+        }
+      },
+      "best_rank": 9,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1905,
+      "cosine": 0.198409,
+      "rerank_logit": -6.855503,
+      "rerank_position": 13
+    },
+    {
+      "page_id": "40243",
+      "revision_id": "1353384906",
+      "title": "Edward the Confessor",
+      "url": "https://en.wikipedia.org/wiki/Edward_the_Confessor",
+      "excerpt": "Edward the Confessor (1003/1005 – 5 January 1066) was King of the English from 1042 until his death in 1066. He was the last reigning monarch of the House of Wessex.\n\nEdward was the son of Æthelred the Unready and Emma of Normandy. He succeeded Cnut the Great's son – and his own half-brother – Harthacnut. He restored the rule of the House of Wessex after the period of Danish rule since Cnut conquered England in 1016. When Edward died in 1066, he was succeeded by his brother-in-law Harold Godwinson, who was defeated and killed in the same year at the Battle of Hastings by the Normans under William the Conqueror. Edward's young great-nephew Edgar Ætheling of the House of Wessex was proclaimed king after the Battle of Hastings, but was never crowned and was peacefully deposed after about eight weeks.\n\nHistorians disagree about Edward's fairly long 24-year reign. His nickname reflects the traditional image of him as unworldly and pious. The epithet \" Confessor \" reflects his reputation as a saint who did not suffer martyrdom as opposed to his uncle, King Edward the Martyr. Some portray Edward the Confessor's reign as leading to the disintegration of royal power in England and the advan",
+      "excerpt_offset": 0,
+      "total_chars": 26567,
+      "bm25": {
+        "q0": {
+          "rank": 10,
+          "score": 42.2296
+        }
+      },
+      "best_rank": 10,
+      "title_similarity": 0.0,
+      "context_overlap": 0.2105,
+      "cosine": 0.21742,
+      "rerank_logit": -5.897255,
+      "rerank_position": 4
+    },
+    {
+      "page_id": "230546",
+      "revision_id": "1351029441",
+      "title": "Richard III (1995 film)",
+      "url": "https://en.wikipedia.org/wiki/Richard_III_(1995_film)",
+      "excerpt": "Richard III is a 1995 film adaptation of William Shakespeare 's play of the same name. Directed by Richard Loncraine, the film adapts the play's story and characters to a setting based on 1930s Great Britain, with Richard depicted as a fascist plotting to usurp the throne. Ian McKellen portrays the title character, as well as co-writing the screenplay with Loncraine.\n\nThe cast also includes Annette Bening as Queen Elizabeth, Jim Broadbent as the Duke of Buckingham, Robert Downey Jr. as Rivers, Kristin Scott Thomas as Anne Neville, Nigel Hawthorne as the Duke of Clarence, Maggie Smith as the Duchess of York, John Wood as King Edward IV, Tim McInnerny as Sir William Catesby, and Dominic West (in his film debut) as Henry, Earl of Richmond.\n\nRichard III premiered in Brazil on 20 August 1995, and was released in the United States on 29 December 1995, and in the United Kingdom on 26 April of the following year. While unsuccessful at the box office, it received critical acclaim, and won several accolades. At the 50th British Academy Film Awards, it won the awards for Best Production Design and Best Costume Design, with nominations for Best British Film, Best Adapted Screenplay, and Best A",
+      "excerpt_offset": 0,
+      "total_chars": 10193,
+      "bm25": {
+        "q0": {
+          "rank": 11,
+          "score": 41.6076
+        }
+      },
+      "best_rank": 11,
+      "title_similarity": 0.0,
+      "context_overlap": 0.102,
+      "cosine": 0.095281,
+      "rerank_logit": -7.144956,
+      "rerank_position": 16
+    },
+    {
+      "page_id": "3934820",
+      "revision_id": "1334577897",
+      "title": "Treaty of Wallingford",
+      "url": "https://en.wikipedia.org/wiki/Treaty_of_Wallingford",
+      "excerpt": "The Treaty of Wallingford, also known as the Treaty of Winchester or the Treaty of Westminster, was an agreement reached in England in the summer of 1153. It effectively ended a civil war known as The Anarchy (1138–54), caused by a dispute over the English crown between King Stephen and Empress Matilda. The Treaty of Wallingford allowed Stephen to keep the throne until his death (which was to come in October 1154), but ensured that he would be succeeded by Matilda's son Henry II.\n\nIn 1153, the Anarchy had dragged on for nearly 15 years of armed combat, in which neither King Stephen nor Empress Matilda could achieve victory in the struggle for the English throne. This long period was characterised by a breakdown in law and order and allowed rebel barons to acquire ever greater power in northern England and in East Anglia, with widespread devastation in the regions of major fighting. By the early 1150s the barons and the Church mostly wanted a long-term peace.\n\nKing Stephen, however, targeted Matilda's supporter Brien FitzCount at Wallingford Castle by building countercastles near Wallingford. Matilda's son Henry Curtmantle launched attacks on those countercastles, and a battle betwe",
+      "excerpt_offset": 0,
+      "total_chars": 3277,
+      "bm25": {
+        "q0": {
+          "rank": 12,
+          "score": 41.5369
+        }
+      },
+      "best_rank": 12,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1923,
+      "cosine": 0.202553,
+      "rerank_logit": -6.785629,
+      "rerank_position": 10
+    },
+    {
+      "page_id": "25890857",
+      "revision_id": "1343031760",
+      "title": "John Blount, 3rd Baron Mountjoy",
+      "url": "https://en.wikipedia.org/wiki/John_Blount,_3rd_Baron_Mountjoy",
+      "excerpt": "nt, 1st Baron Mountjoy, by his first wife, Helena Byron, the daughter of Sir John Byron of Clayton, Lancashire.\n\nBlount was appointed Lieutenant of Hammes in the Pale of Calais on 6 April 1470. Blount's father died on 1 August 1474, and was buried at the Greyfriars, London. His eldest son and heir, William Blount, had died of wounds received at the Battle of Barnet on 14 April 1471, and William's underage son, Edward, succeeded as 2nd Baron Mountjoy. When Edward died without male issue on 1 December 1476, John Blount inherited the barony as the next male heir.\n\nMountjoy was knighted in January 1478 at the marriage of Edward IV's young son, Richard of Shrewsbury, 1st Duke of York. When Richard III became King, he appointed Mountjoy Constable of Guînes, after which time, according to Horrox, Mountjoy 'left Hammes to his younger brother, James, who had been granted the office jointly with him in May 1476'.\n\nBy 14 August 1484 Mountjoy was gravely ill, and Sir Thomas Montgomery, who later married Mountjoy's widow, was authorized to act as his deputy at Guînes, while Mountjoy's brother, James Blount, took over as captain of Hammes. A tense, even dramatic confrontation then unfolded withi",
+      "excerpt_offset": 180,
+      "total_chars": 4202,
+      "bm25": {
+        "q0": {
+          "rank": 13,
+          "score": 41.3404
+        }
+      },
+      "best_rank": 13,
+      "title_similarity": 0.0,
+      "context_overlap": 0.2469,
+      "cosine": 0.194507,
+      "rerank_logit": -7.310065,
+      "rerank_position": 20
+    },
+    {
+      "page_id": "70600",
+      "revision_id": "1352861173",
+      "title": "Princes in the Tower",
+      "url": "https://en.wikipedia.org/wiki/Princes_in_the_Tower",
+      "excerpt": "The Princes in the Tower refers to the mystery of the fate of the deposed English King Edward V and his younger brother Prince Richard of Shrewsbury, Duke of York, heirs to the throne of King Edward IV. The brothers were the only sons of the king by his queen, Elizabeth Woodville, who were aged 12 and 9 years old, respectively, at the time of their father's death in 1483. They were lodged in the Tower of London by their paternal uncle and England's regent, Richard, Duke of Gloucester, in preparation for Edward V's forthcoming coronation. Before the young king's coronation, however, he and his brother were declared illegitimate by Parliament. Gloucester ascended the throne instead as Richard III.\n\nIt is unclear what happened to the two princes after the last recorded sighting of them in the tower. It is generally assumed that they were murdered; a common hypothesis is that the murder was commissioned by Richard III in an attempt to secure his hold on the throne. Their deaths may have occurred sometime in 1483, but apart from their disappearance, the only evidence is circumstantial. As a result, several other theories about their fates have been proposed, including the suggestion tha",
+      "excerpt_offset": 0,
+      "total_chars": 42447,
+      "bm25": {
+        "q0": {
+          "rank": 14,
+          "score": 40.7001
+        }
+      },
+      "best_rank": 14,
+      "title_similarity": 0.0,
+      "context_overlap": 0.2338,
+      "cosine": 0.183066,
+      "rerank_logit": -7.094139,
+      "rerank_position": 15
+    },
+    {
+      "page_id": "2657779",
+      "revision_id": "1332819057",
+      "title": "William of Winchester, Lord of Lunenburg",
+      "url": "https://en.wikipedia.org/wiki/William_of_Winchester,_Lord_of_Lunenburg",
+      "excerpt": "William of Winchester (11 April 1184 – 13 December 1213), also called William of Lunenburg (German: Wilhelm von Lüneburg) or William Longsword, a member of the House of Welf, was heir to his family's allodial lands in the Duchy of Saxony after the deposition of his father, Duke Henry the Lion in 1180.\n\nWilliam was the fifth and youngest son of Henry the Lion and Matilda, the eldest daughter of King Henry II of England and Eleanor of Aquitaine. He was born in Winchester, England during his father's exile; he probably remained there when Henry returned to Saxony and was raised at his uncle King Richard I 's court.\n\nAfter his unsuccessful uprising, Henry had submitted to the Hohenstaufen emperor Frederick Barbarossa and though he had to leave Germany, he could retain the Welf possessions around Lüneburg, Brunswick, and Haldensleben. He finally reconciled with Frederick's son and successor Emperor Henry VI in 1194 and surrendered his younger sons William and Otto as hostages for the payment of the ransom for the release of their uncle King Richard. William was extradited to Duke Leopold V of Austria and temporarily held in Hungary.\n\nWhen Henry the Lion died in 1195, William, Otto and t",
+      "excerpt_offset": 0,
+      "total_chars": 2999,
+      "bm25": {
+        "q0": {
+          "rank": 15,
+          "score": 40.569
+        }
+      },
+      "best_rank": 15,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1867,
+      "cosine": 0.271027,
+      "rerank_logit": -6.731449,
+      "rerank_position": 9
+    },
+    {
+      "page_id": "74287097",
+      "revision_id": "1350156414",
+      "title": "Thomas Pott",
+      "url": "https://en.wikipedia.org/wiki/Thomas_Pott",
+      "excerpt": ".\n\nPott appears in Scottish records as a huntsman serving James VI. He was sent to France with a diplomatic gift of horses and riding equipment made by Abraham Abercromby. Horses sent from France as gifts were delivered to him upon their arrival. In January 1603, he was appointed \"Master Hunter\" to Prince Henry by a letter under the privy seal. Although some of the royal huntsmen in Scotland—such as Cuthbert Rayne —were men from the north of England, Pott appears to have been Scottish.\n\nJames VI usually went buck hunting in August, and an English ambassador William Asheby compared him to \"chaste and continent Hippolytus, spending the time in Diana 's exercise\". Robert Walker, who like Pott came to England, was keeper of the buckhounds in 1598. While there are many records relating to the king's dogs, his horses, and their feed, the fine detail of hunting practice in Scotland was not recorded in the accounts of expenses, and it is not clear how much the forms used resembled coursing, Par force, or other kinds of early modern and medieval hunting and fowling. Research continues into these courtly activities, royal parks and reserves, and the progresses made by James during which he t",
+      "excerpt_offset": 129,
+      "total_chars": 5521,
+      "bm25": {
+        "q0": {
+          "rank": 16,
+          "score": 39.9364
+        }
+      },
+      "best_rank": 16,
+      "title_similarity": 0.0,
+      "context_overlap": 0.2,
+      "cosine": 0.250859,
+      "rerank_logit": -7.270001,
+      "rerank_position": 19
+    },
+    {
+      "page_id": "28953",
+      "revision_id": "1352668859",
+      "title": "Stephen, King of England",
+      "url": "https://en.wikipedia.org/wiki/Stephen,_King_of_England",
+      "excerpt": "Stephen (1092 or 1096 – 25 October 1154), often referred to as Stephen of Blois, was King of England from 22 December 1135 to his death in 1154. He was Count of Boulogne jure uxoris from 1125 until 1147 and Duke of Normandy from 1135 until 1144. His reign was marked by the Anarchy, a civil war with his cousin and rival, the Empress Matilda, whose son, Henry II, succeeded Stephen as the first of the Angevin kings of England.\n\nStephen was born in the County of Blois in central France as the fourth son of Stephen-Henry, Count of Blois, and Adela, daughter of William the Conqueror. His father died as a crusader while Stephen was still young, and he was brought up by his mother. Placed into the court of his uncle Henry I of England, Stephen rose in prominence and was granted extensive lands. He married Matilda of Boulogne, inheriting additional estates in Kent and Boulogne that made the couple one of the wealthiest in England. Stephen narrowly escaped drowning with Henry I's son, William Adelin, in the sinking of the White Ship in 1120; William's death left the succession of the English throne open to challenge. When Henry died in 1135, Stephen quickly crossed the English Channel and to",
+      "excerpt_offset": 0,
+      "total_chars": 69105,
+      "bm25": {
+        "q0": {
+          "rank": 17,
+          "score": 39.8564
+        }
+      },
+      "best_rank": 17,
+      "title_similarity": 0.0,
+      "context_overlap": 0.2338,
+      "cosine": 0.267338,
+      "rerank_logit": -6.11138,
+      "rerank_position": 5
+    },
+    {
+      "page_id": "266966",
+      "revision_id": "1302977387",
+      "title": "Robert Brackenbury",
+      "url": "https://en.wikipedia.org/wiki/Robert_Brackenbury",
+      "excerpt": "Sir Robert Brackenbury (died 22 August 1485) was an English courtier, who was Constable of the Tower of London during the reign of Richard III. He is believed to have been responsible for enabling the (presumed) murders of the Princes in the Tower, though there is no conclusive evidence to prove it. He died defending the King at the Battle of Bosworth Field in 1485.\n\nHis date of birth is unknown. He was a younger son of Thomas Brackenbury of Denton, County Durham, England. This was a family which had been known in Durham since the end of the 12th century. They were lords of the manors of Burne Hall, Denton and Saleby. Robert inherited Saleby; in the immediate vicinity of Barnard Castle. Barnard Castle had passed to the Duke of Gloucester (later Richard III) in the right of his wife, Anne Neville in about 1474. Richard III and Brackenbury, were therefore, close neighbours. Indeed, a tower of Barnard Castle is still called Brackenbury Tower.\n\nBrackenbury was one of Richard III's close associates. He was treasurer of Richard's household when he was Duke of Gloucester. When King Edward IV died Brackenbury was almost certainly one of the Northerners who accompanied Richard to London. Sh",
+      "excerpt_offset": 0,
+      "total_chars": 5110,
+      "bm25": {
+        "q0": {
+          "rank": 18,
+          "score": 39.8289
+        }
+      },
+      "best_rank": 18,
+      "title_similarity": 0.0,
+      "context_overlap": 0.2394,
+      "cosine": 0.163054,
+      "rerank_logit": -7.189841,
+      "rerank_position": 18
+    },
+    {
+      "page_id": "1300606",
+      "revision_id": "1327897092",
+      "title": "Ranulf de Gernon, 4th Earl of Chester",
+      "url": "https://en.wikipedia.org/wiki/Ranulf_de_Gernon,_4th_Earl_of_Chester",
+      "excerpt": "Ranulf II (also known as Ranulf de Gernon), 4th Earl of Chester (1099–1153), was an Anglo-Norman baron who inherited the honour of the palatine county of Chester and the viscountcy of Avranches upon the death of his father Ranulf le Meschin, 3rd Earl of Chester. He was descended from the Counts of Bessin in Normandy.\n\nIn 1136 David I of Scotland invaded England as far as Durham, which led Stephen of England to negotiate treaties that involved granting Ranulf's lands around Carlisle to Scotland. Thereafter, Ranulf allied himself to Matilda to further his cause. He took Lincoln Castle in 1141, which was retaken by Stephen in a siege in which Ranulf was forced to flee for his life. Ranulf enlisted the help of Robert, 1st Earl of Gloucester to retake the castle and succeeded when King Stephen surrendered to him at Lincoln. While Matilda ruled England, Stephen's queen Matilda of Boulogne managed to defeat Ranulf and his allies at Winchester, which eventually resulted in Stephen being able to resume the throne.\n\nRanulf was born in Normandy at the Château Guernon, in 1099. He was the son of Ranulf Meschin, 3rd Earl of Chester and Lucy of Bolingbroke, who were both significant landowners w",
+      "excerpt_offset": 0,
+      "total_chars": 11428,
+      "bm25": {
+        "q0": {
+          "rank": 19,
+          "score": 39.728
+        }
+      },
+      "best_rank": 19,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1948,
+      "cosine": 0.111077,
+      "rerank_logit": -6.714849,
+      "rerank_position": 8
+    },
+    {
+      "page_id": "35123079",
+      "revision_id": "1350052113",
+      "title": "William Haute (MP)",
+      "url": "https://en.wikipedia.org/wiki/William_Haute_(MP)",
+      "excerpt": "William Haute (1390–1462) of Bishopsbourne, Kent, was an English politician.\n\nHaute was born 1390 in Waddenhall, Kent, the eldest son of Sir Nicholas Haute, MP, of Wadden Hall in Waltham, Kent, and Alice, daughter of Sir Thomas Couen or Cawne of Ightham Mote and his wife Lora (Moraunt). William's mother having died in March 1400, leaving him as her heir, his father remarried to Eleanor Flambard (daughter of Edmund Flambard of Shepreth, Cambridgeshire), formerly the wife of Walter Tyrrell of Avon (between Ringwood and Christchurch), Hampshire.\n\nWilliam Haute thus became stepbrother to Sir John Tyrrell of East Horndon, later to be Speaker of the House of Commons and Treasurer of the Royal Household. In 1415, for Henry V 's expedition to France, both Sir Nicholas Haute and his son William were mustered to join the retinue of Humphrey, Duke of Gloucester. William chose to enlist not in his father's company but in that of Tyrrell his stepbrother, and in that capacity was at the Battle of Agincourt. Nicholas is thought to have died, perhaps of wounds, within a year or so after his return to England: William had succeeded to him by 1417, and Eleanor died in 1422.\n\nHaute was a Member of Pa",
+      "excerpt_offset": 0,
+      "total_chars": 7163,
+      "bm25": {
+        "q0": {
+          "rank": 20,
+          "score": 39.5216
+        }
+      },
+      "best_rank": 20,
+      "title_similarity": 0.0,
+      "context_overlap": 0.2152,
+      "cosine": 0.236923,
+      "rerank_logit": -6.818708,
+      "rerank_position": 11
+    }
+  ]
+}

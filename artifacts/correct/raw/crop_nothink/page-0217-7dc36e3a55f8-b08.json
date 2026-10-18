@@ -1,0 +1,93 @@
+{
+  "variant": "crop_nothink",
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:217",
+  "block_index": 8,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T12:19:55+00:00",
+  "elapsed_seconds": 1.94,
+  "finish_reason": "stop",
+  "parse_text": "With fach opportunities of improvement, even to\nformation within field, and with advantages of pro-\nfect into the country about, in a female farm may\ndoubtledly be delightful. It will be particularly ac-\nmodities to the owner, if in be dude to his park or in\ngarder; the objects which ultimately took him of\nhis rank, impede a kind of confrontant; and he feels\nhimelf relieved, by resting frontants from the flipla-\nfore of East into the majority of a farm; it is more\nthan a variety of fence; it is a temporary change of\nfunction in life, which has the theories of novelty,\neife, and tranquility, to reconocuted it. A places,\ntherefore, can hardly be deemed perfed, which is not\nprovided with facts or retreat. But it is be the whole\nof the place, it forms inadequate to the manñon: a vi-\nfloor is disappointed; the milieu is disdisified, he is inaufilius diffungulhge, he is tennis; the\nmilffes the appendages incidental to his feat and his\nstructure; and it must at the Ministry of his grounds\nwith the country about them. A payload is an an-\ncient farm in a little down the common level; but e-\nern thefe, if brought clop as the door, let the\nhole of a field, where it always appears to be neglected\nand naked. Some degree of polish and ornament\nis expected in his immediate extremism, and a gender,\nthough it do not but a final cure, found the interpoted be-\ntween the manñion and any facies of farm.",
+  "corrected_text": "With such opportunities of improvement, even to decoration within itself, and with advantages of prospect into the country about it, a simple farm may undoubtedly be delightful. It will be particularly acceptable to the owner, if it be close to his park or his garden: the objects which constantly remind him of his rank, impose a kind of constraint; and he feels himself relieved, by retiring sometimes from the splendour of a seat into the simplicity of a farm: it is more than a variety of scene; it is a temporary change of situation in life, which has all the charms of novelty, ease, and tranquillity, to recommend it. A place, therefore, can hardly be deemed perfect, which is not provided with such a retreat. But if it be the whole of the place, it seems inadequate to the mansion: a visitor is disappointed; the master is dissatisfied; he is not sufficiently distinguished from his tenants; he misses the appendages incidental to his state and his fortune; and is hurt at the familiarity of his grounds with the country about them. A paddock is an ancient farm in a little above the common level; but even these, if brought close up at the door, set the house in a field, where it always appears to be neglected and naked. Some degree of polish and ornament is expected in its immediate environs; and a garden, though it be but a small one, should be interposed between the mansion and any species of farm.",
+  "reasoning_tokens": 0,
+  "usage": {
+    "completion_tokens": 299,
+    "prompt_tokens": 1178,
+    "total_tokens": 1477,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 646
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 3000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows this region of the page. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\nWith fach opportunities of improvement, even to\nformation within field, and with advantages of pro-\nfect into the country about, in a female farm may\ndoubtledly be delightful. It will be particularly ac-\nmodities to the owner, if in be dude to his park or in\ngarder; the objects which ultimately took him of\nhis rank, impede a kind of confrontant; and he feels\nhimelf relieved, by resting frontants from the flipla-\nfore of East into the majority of a farm; it is more\nthan a variety of fence; it is a temporary change of\nfunction in life, which has the theories of novelty,\neife, and tranquility, to reconocuted it. A places,\ntherefore, can hardly be deemed perfed, which is not\nprovided with facts or retreat. But it is be the whole\nof the place, it forms inadequate to the manñon: a vi-\nfloor is disappointed; the milieu is disdisified, he is inaufilius diffungulhge, he is tennis; the\nmilffes the appendages incidental to his feat and his\nstructure; and it must at the Ministry of his grounds\nwith the country about them. A payload is an an-\ncient farm in a little down the common level; but e-\nern thefe, if brought clop as the door, let the\nhole of a field, where it always appears to be neglected\nand naked. Some degree of polish and ornament\nis expected in his immediate extremism, and a gender,\nthough it do not but a final cure, found the interpoted be-\ntween the manñion and any facies of farm.",
+  "response": {
+    "id": "chatcmpl-a8cf2f4b53e4b398",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "With such opportunities of improvement, even to decoration within itself, and with advantages of prospect into the country about it, a simple farm may undoubtedly be delightful. It will be particularly acceptable to the owner, if it be close to his park or his garden: the objects which constantly remind him of his rank, impose a kind of constraint; and he feels himself relieved, by retiring sometimes from the splendour of a seat into the simplicity of a farm: it is more than a variety of scene; it is a temporary change of situation in life, which has all the charms of novelty, ease, and tranquillity, to recommend it. A place, therefore, can hardly be deemed perfect, which is not provided with such a retreat. But if it be the whole of the place, it seems inadequate to the mansion: a visitor is disappointed; the master is dissatisfied; he is not sufficiently distinguished from his tenants; he misses the appendages incidental to his state and his fortune; and is hurt at the familiarity of his grounds with the country about them. A paddock is an ancient farm in a little above the common level; but even these, if brought close up at the door, set the house in a field, where it always appears to be neglected and naked. Some degree of polish and ornament is expected in its immediate environs; and a garden, though it be but a small one, should be interposed between the mansion and any species of farm.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792325996,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 299,
+      "prompt_tokens": 1178,
+      "total_tokens": 1477,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 646
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

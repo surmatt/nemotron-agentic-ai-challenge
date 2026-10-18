@@ -1,0 +1,93 @@
+{
+  "variant": "crop_nothink",
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2569",
+  "block_index": 3,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T12:25:18+00:00",
+  "elapsed_seconds": 1.43,
+  "finish_reason": "stop",
+  "parse_text": "On second time the reservation in which this tower and ideal were held by the Arabilians, Mr Bruce supposes that the thought was first suggested of making the emoments of the trade between India and Africa as , but Abra, in order to divert it into another chapel, built a very long temps; near the Indian ocean in the country of the Homeries (and, to encourage the resort of people to this one temps), be bestowed upon all all the privilege of the former which stood in the city of Mecca. The tribe of Arabians named _Kevield_, in whose country Mecca stood, being enoughly alarmed at the historic temple deserted, entered the new one in the night, burned all that could be economic, and bonsent the remains with human occurrences. Abra, provoked us this any college, assembled a considerable army, with which he invested Mecca, himself appearing on a white elephant from whence the war took its massive already mentioned.",
+  "corrected_text": "On account of the veneration in which this tower and idol were held by the Arabians, Mr Bruce supposes that the thought was first suggested of making it the emporium of the trade between India and Africa; but Abra, in order to divert it into another channel, built a very large temple near the Indian ocean in the country of the Homerites; and, to encourage the resort of people to this new temple, he bestowed upon it all the privileges of the former which stood in the city of Mecca. The tribe of Arabians named Koreish, in whose country Mecca stood, being exceedingly alarmed at the thoughts of having their temple deserted, entered the new one in the night, burned all that could be consumed, and besmeared the remains with human excrements. Abra, provoked at this sacrilege, assembled a considerable army, with which he",
+  "reasoning_tokens": 0,
+  "usage": {
+    "completion_tokens": 183,
+    "prompt_tokens": 809,
+    "total_tokens": 992,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 434
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 3000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows this region of the page. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\nOn second time the reservation in which this tower and ideal were held by the Arabilians, Mr Bruce supposes that the thought was first suggested of making the emoments of the trade between India and Africa as , but Abra, in order to divert it into another chapel, built a very long temps; near the Indian ocean in the country of the Homeries (and, to encourage the resort of people to this one temps), be bestowed upon all all the privilege of the former which stood in the city of Mecca. The tribe of Arabians named _Kevield_, in whose country Mecca stood, being enoughly alarmed at the historic temple deserted, entered the new one in the night, burned all that could be economic, and bonsent the remains with human occurrences. Abra, provoked us this any college, assembled a considerable army, with which he invested Mecca, himself appearing on a white elephant from whence the war took its massive already mentioned.",
+  "response": {
+    "id": "chatcmpl-984efb08cde919a6",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "On account of the veneration in which this tower and idol were held by the Arabians, Mr Bruce supposes that the thought was first suggested of making it the emporium of the trade between India and Africa; but Abra, in order to divert it into another channel, built a very large temple near the Indian ocean in the country of the Homerites; and, to encourage the resort of people to this new temple, he bestowed upon it all the privileges of the former which stood in the city of Mecca. The tribe of Arabians named Koreish, in whose country Mecca stood, being exceedingly alarmed at the thoughts of having their temple deserted, entered the new one in the night, burned all that could be consumed, and besmeared the remains with human excrements. Abra, provoked at this sacrilege, assembled a considerable army, with which he",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792326319,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 183,
+      "prompt_tokens": 809,
+      "total_tokens": 992,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 434
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

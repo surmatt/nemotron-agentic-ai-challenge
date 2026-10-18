@@ -1,0 +1,93 @@
+{
+  "variant": "crop_nothink",
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1904",
+  "block_index": 1,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T12:23:28+00:00",
+  "elapsed_seconds": 1.55,
+  "finish_reason": "stop",
+  "parse_text": "Lyre, which he ufd to frequent, at the foot of a mountain in Arcadill. In all as he was going in, he found a tor- tulofe finding at the entrance of his case: he killed him poor creature, and perhaps, vat the flesh of it. As he was diverting himself with the flesh, he was migliedly pleafed with the molle of great from his concave figure. He had puffily been cunning enough to find one, that a thong pulled fruit and affected is each end, when freds by things you take aird mudiculous. How ever that was, he went immediately to work, and eut feveral things out of the links he had lately flolen, and afected them as right as we could on the field of the tortofie and, in playing with them, made a new kind of mute with them to divert himself in his retreat. This, considered only as an account of the first inven- tion of the lyre, is not altogether for unsurals?",
+  "corrected_text": "which he used to frequent, at the foot of a mountain in Arcadia. Just as he was going in, he found a tortoise feeding at the entrance of his cave: he killed the poor creature, and, perhaps, eat the flesh of it. As he was diverting himself with the shell, he was mightily pleased with the noise it gave from its concave figure. He had possibly been cunning enough to find out, that a thong pulled tight and fastened at each end, when struck by the finger, made a sort of musical found. However that was, he went immediately to work, and cut several things out of the hides he had lately stolen, and fastened them as tight as he could to the shell of this tortoise; and, in playing with them, made a new kind of music with them to divert himself in his retreat. This, considered only as an account of the first invention of the lyre, is not altogether unnatural.",
+  "reasoning_tokens": 0,
+  "usage": {
+    "completion_tokens": 197,
+    "prompt_tokens": 882,
+    "total_tokens": 1079,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 488
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 3000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows this region of the page. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\nLyre, which he ufd to frequent, at the foot of a mountain in Arcadill. In all as he was going in, he found a tor- tulofe finding at the entrance of his case: he killed him poor creature, and perhaps, vat the flesh of it. As he was diverting himself with the flesh, he was migliedly pleafed with the molle of great from his concave figure. He had puffily been cunning enough to find one, that a thong pulled fruit and affected is each end, when freds by things you take aird mudiculous. How ever that was, he went immediately to work, and eut feveral things out of the links he had lately flolen, and afected them as right as we could on the field of the tortofie and, in playing with them, made a new kind of mute with them to divert himself in his retreat. This, considered only as an account of the first inven- tion of the lyre, is not altogether for unsurals?",
+  "response": {
+    "id": "chatcmpl-ab4ee8739df6086b",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "which he used to frequent, at the foot of a mountain in Arcadia. Just as he was going in, he found a tortoise feeding at the entrance of his cave: he killed the poor creature, and, perhaps, eat the flesh of it. As he was diverting himself with the shell, he was mightily pleased with the noise it gave from its concave figure. He had possibly been cunning enough to find out, that a thong pulled tight and fastened at each end, when struck by the finger, made a sort of musical found. However that was, he went immediately to work, and cut several things out of the hides he had lately stolen, and fastened them as tight as he could to the shell of this tortoise; and, in playing with them, made a new kind of music with them to divert himself in his retreat. This, considered only as an account of the first invention of the lyre, is not altogether unnatural.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792326209,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 197,
+      "prompt_tokens": 882,
+      "total_tokens": 1079,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 488
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

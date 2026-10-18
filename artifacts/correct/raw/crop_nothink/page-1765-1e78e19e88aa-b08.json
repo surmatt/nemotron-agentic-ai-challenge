@@ -1,0 +1,93 @@
+{
+  "variant": "crop_nothink",
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1765",
+  "block_index": 8,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T12:23:13+00:00",
+  "elapsed_seconds": 1.49,
+  "finish_reason": "stop",
+  "parse_text": "The moveable habitations of the Kalmus are thoef felt huts with a conical roof in the among all the roaming Alates. The trend ingousin attention of thefe tents was undoubtedly conceived in the eastern parts of Afis, and molt probably by the Mongol na-tions. As they can be entirely blackout to pieces and folded in a small compals, they are very useful, and perfectly served with the migratory life of their people, who are still ignorant of the use of earrings. The frame of thefe huts, and the felt they are covered with, though made as light to paddle, yet are a fluffed food for a stand or two war. But the capacity of these huts, their warmth in winter, their strength in riffing rempels and excluding rain, abundantly com-peride for this inconvenience. The wood defines many years; and though the felt begins to break into holes in the found year, the common people, who do not consider in the different to have them wonderland and patched, make them ferve a good deal longer. The huts are in general for from the prime down to the present Kalmus, differing only in fine and in the en-bellithments within. In winter, they are warm even when heated with the dried excrucments of their cats, to which they are often obliged to have recounts for",
+  "corrected_text": "The moveable habitations of the Kalmus are those felt huts with a conical roof in use among all the roaming Asiatics. The truly ingenious invention of these tents was undoubtedly conceived in the eastern parts of Asia, and most probably by the Mongol nations. As they can be entirely taken to pieces and folded in a small compass, they are very useful, and perfectly agree with the migratory life of these people, who are still ignorant of the use of carriages. The frame of these huts, and the felt they are covered with, though made as light as possible, yet are a sufficient load for a camel or two oxen. But the capacity of these huts, their warmth in winter, their strength in resisting tempests and excluding rain, abundantly compensate for this inconvenience. The wood endures many years; and though the felt begins to break into holes in the second year, the common people, who do not consider it as disgraceful to have them mended and patched, make them serve a good deal longer. The huts are in general use from the prince down to the meanest Kalmuc, differing only in size and in the embellishments within. In winter, they are warm even when heated with the dried excrements of their cattle, to which they are often obliged to have recourse, for",
+  "reasoning_tokens": 0,
+  "usage": {
+    "completion_tokens": 273,
+    "prompt_tokens": 1063,
+    "total_tokens": 1336,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 600
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 3000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows this region of the page. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\nThe moveable habitations of the Kalmus are thoef felt huts with a conical roof in the among all the roaming Alates. The trend ingousin attention of thefe tents was undoubtedly conceived in the eastern parts of Afis, and molt probably by the Mongol na-tions. As they can be entirely blackout to pieces and folded in a small compals, they are very useful, and perfectly served with the migratory life of their people, who are still ignorant of the use of earrings. The frame of thefe huts, and the felt they are covered with, though made as light to paddle, yet are a fluffed food for a stand or two war. But the capacity of these huts, their warmth in winter, their strength in riffing rempels and excluding rain, abundantly com-peride for this inconvenience. The wood defines many years; and though the felt begins to break into holes in the found year, the common people, who do not consider in the different to have them wonderland and patched, make them ferve a good deal longer. The huts are in general for from the prime down to the present Kalmus, differing only in fine and in the en-bellithments within. In winter, they are warm even when heated with the dried excrucments of their cats, to which they are often obliged to have recounts for",
+  "response": {
+    "id": "chatcmpl-8ed13af93197f6a2",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "The moveable habitations of the Kalmus are those felt huts with a conical roof in use among all the roaming Asiatics. The truly ingenious invention of these tents was undoubtedly conceived in the eastern parts of Asia, and most probably by the Mongol nations. As they can be entirely taken to pieces and folded in a small compass, they are very useful, and perfectly agree with the migratory life of these people, who are still ignorant of the use of carriages. The frame of these huts, and the felt they are covered with, though made as light as possible, yet are a sufficient load for a camel or two oxen. But the capacity of these huts, their warmth in winter, their strength in resisting tempests and excluding rain, abundantly compensate for this inconvenience. The wood endures many years; and though the felt begins to break into holes in the second year, the common people, who do not consider it as disgraceful to have them mended and patched, make them serve a good deal longer. The huts are in general use from the prince down to the meanest Kalmuc, differing only in size and in the embellishments within. In winter, they are warm even when heated with the dried excrements of their cattle, to which they are often obliged to have recourse, for",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792326194,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 273,
+      "prompt_tokens": 1063,
+      "total_tokens": 1336,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 600
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

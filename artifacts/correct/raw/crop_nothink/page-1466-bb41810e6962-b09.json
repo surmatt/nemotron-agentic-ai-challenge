@@ -1,0 +1,93 @@
+{
+  "variant": "crop_nothink",
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1466",
+  "block_index": 9,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T12:22:41+00:00",
+  "elapsed_seconds": 1.72,
+  "finish_reason": "stop",
+  "parse_text": "As to the ore which contains gold adhering to and Ores of this furrounded by flony particles, r. We mult reduce a deter-metal pro-mined weight to an impulsive powdery texture and pretty da-alitarian. Then let the powdery weighted forvolume, for boiled in aqua regis, as long as any thing is taken, by the mediums), after which, let the exhausted ore, well washed, be collected, refecuted to spinism, and weighed. Let the clear features (the colour of which, in forens above affords a method of judging) be precipitated in the natural way by martial virtvel; the precipitate well washed, dried, and weighed, flows the gold, which, added to the weight of the exhausted ore, might to be equal to the original weight, unless fenome what has been dispersed by the pulverification, or beliefs force of the mattons has entered the meltdown. The former of thefts delivered by comparing the weights before and after pulverification; the latter by precipitants.",
+  "corrected_text": "As to the ore which contains gold adhering to and surrounded by flony particles, r. We must reduce a determined weight to an impalpable powder by triture and elutriation. Then let the powder, weighed a second time, be boiled in aqua regia, as long as any thing is taken up by the menstruum; after which, let the exhausted ore, well washed, be collected, exsiccated to ignition, and weighed. Let the clear solution (the colour of which, in some degree, affords a method of judging) be precipitated in the usual way by martial vitriol; the precipitate well washed, dried, and weighed, shows the gold, which, added to the weight of the exhausted ore, ought to be equal to the original weight, unless somewhat has been dispersed by the pulverisation, or unless some of the matrice has entered the menstruum. The former of these is discovered by comparing the weights before and after pulverisation; the latter by precipitants.",
+  "reasoning_tokens": 0,
+  "usage": {
+    "completion_tokens": 208,
+    "prompt_tokens": 833,
+    "total_tokens": 1041,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 439
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 3000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows this region of the page. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\nAs to the ore which contains gold adhering to and Ores of this furrounded by flony particles, r. We mult reduce a deter-metal pro-mined weight to an impulsive powdery texture and pretty da-alitarian. Then let the powdery weighted forvolume, for boiled in aqua regis, as long as any thing is taken, by the mediums), after which, let the exhausted ore, well washed, be collected, refecuted to spinism, and weighed. Let the clear features (the colour of which, in forens above affords a method of judging) be precipitated in the natural way by martial virtvel; the precipitate well washed, dried, and weighed, flows the gold, which, added to the weight of the exhausted ore, might to be equal to the original weight, unless fenome what has been dispersed by the pulverification, or beliefs force of the mattons has entered the meltdown. The former of thefts delivered by comparing the weights before and after pulverification; the latter by precipitants.",
+  "response": {
+    "id": "chatcmpl-96805b38145e92b8",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "As to the ore which contains gold adhering to and surrounded by flony particles, r. We must reduce a determined weight to an impalpable powder by triture and elutriation. Then let the powder, weighed a second time, be boiled in aqua regia, as long as any thing is taken up by the menstruum; after which, let the exhausted ore, well washed, be collected, exsiccated to ignition, and weighed. Let the clear solution (the colour of which, in some degree, affords a method of judging) be precipitated in the usual way by martial vitriol; the precipitate well washed, dried, and weighed, shows the gold, which, added to the weight of the exhausted ore, ought to be equal to the original weight, unless somewhat has been dispersed by the pulverisation, or unless some of the matrice has entered the menstruum. The former of these is discovered by comparing the weights before and after pulverisation; the latter by precipitants.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792326162,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 208,
+      "prompt_tokens": 833,
+      "total_tokens": 1041,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 439
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

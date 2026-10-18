@@ -1,0 +1,93 @@
+{
+  "variant": "crop_nothink",
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:268",
+  "block_index": 7,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T12:20:30+00:00",
+  "elapsed_seconds": 2.39,
+  "finish_reason": "stop",
+  "parse_text": "The _perfus_, or _alligator_ pear tree,is cultivated universally in the Well Infinity all ranks of people. The fruit is pear-shaped, and from one too two pounds in weight, to removing a green film or covering, we come to a yellow bayrayous dishanty, and in the heart find a large round feed or above, which is inequitible the fun-ice, and exceedingly hard and woody. This fruit is ripe in August and September, as coilitates one of the melt agreeable articles of diet for fix or eight weeks to the progress. Thefe pears, with a little fat and aplanar or one, affect a heavy meal. They are derived by at the tables of white people as choice fruit. When the pear is ripe, the yellow or enable influence a farmer than butter-gray tailts fumes whatlike lutter and marces. Hence it is called by from the vegetable marrow. But however excellent this fruit is when ripe, it is very dangerous when pulled and eaten before maturity. Or Wight fight, he has repeatedly known it to produce fever and dyreterty, which were removed with difficulty—the lease of this tree and hude of the backvine or wild limporare made into pectoral decoction by the common people—The large flora is used for marking lines. The clearly teet for hold over the flows, and the letters are picked out by a needle through the check and into the feet. The flain is a reddish brown, which never washes out— The buds of the allgance tree can fail to be cold with fucsels in pillars and the overall effects. An infusion of them in water, denks in the morning falls is already recommended for didlodging congrula-ted blood in the florals produced by a fall or a few eroks on the important central. \"The wild boar's in the Laft Indies (days Labat) eat gracefully of the manners and revacide peas, which give their flesh a infection and moll' agreciable farmers?",
+  "corrected_text": "The perfus, or alligator pear tree, is cultivated universally in the West Indies by all ranks of people. The fruit is pear-shaped, and from one to two pounds in weight. On removing a green skin or covering, we come to a yellow butyraceous substance; and in the heart find a large round feed or stone, which is unequal in the surface, and exceedingly hard and woody. This fruit is ripe in August and September, and constitutes one of the most agreeable articles of diet for six or eight weeks to the negroes. These pears, with a little fat and a plantain or two, afford a hearty meal. They are also served up at the tables of white people as choice fruit. When the pear is ripe, the yellow or eatable substance is firmer than butter, and tastes somewhat like butter or marrow: hence it is called by some the vegetable marrow. But however excellent this fruit is when ripe, it is very dangerous when pulled and eaten before maturity. Dr Wright says, he has repeatedly known it to produce fever and dysentery, which were removed with difficulty.—The leaves of this tree and the bark of the bead-vine or wild liquorice are made into pectoral decoctions by the common people.—The large stone is used for marking linen. The cloth is tied or held over the stone, and the letters are pricked out by a needle through the cloth and into the feed. The stain is a reddish brown, which never washes out.—The buds of the alligator tree are said to be used with succels as pifans against the venereal disease. An infusion of them in water, drank in the morning fasting, is strongly recommended for dislodging coagulated blood in the stomach produced by a fall or a few strokes on that important entrail. \"The wild boars in the East Indies (says Labat) eat greedily of the mammees and avocado pears, which give their flesh a juicy and most agreeable favour.\"",
+  "reasoning_tokens": 0,
+  "usage": {
+    "completion_tokens": 419,
+    "prompt_tokens": 1468,
+    "total_tokens": 1887,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 866
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 3000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows this region of the page. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\nThe _perfus_, or _alligator_ pear tree,is cultivated universally in the Well Infinity all ranks of people. The fruit is pear-shaped, and from one too two pounds in weight, to removing a green film or covering, we come to a yellow bayrayous dishanty, and in the heart find a large round feed or above, which is inequitible the fun-ice, and exceedingly hard and woody. This fruit is ripe in August and September, as coilitates one of the melt agreeable articles of diet for fix or eight weeks to the progress. Thefe pears, with a little fat and aplanar or one, affect a heavy meal. They are derived by at the tables of white people as choice fruit. When the pear is ripe, the yellow or enable influence a farmer than butter-gray tailts fumes whatlike lutter and marces. Hence it is called by from the vegetable marrow. But however excellent this fruit is when ripe, it is very dangerous when pulled and eaten before maturity. Or Wight fight, he has repeatedly known it to produce fever and dyreterty, which were removed with difficulty—the lease of this tree and hude of the backvine or wild limporare made into pectoral decoction by the common people—The large flora is used for marking lines. The clearly teet for hold over the flows, and the letters are picked out by a needle through the check and into the feet. The flain is a reddish brown, which never washes out— The buds of the allgance tree can fail to be cold with fucsels in pillars and the overall effects. An infusion of them in water, denks in the morning falls is already recommended for didlodging congrula-ted blood in the florals produced by a fall or a few eroks on the important central. \"The wild boar's in the Laft Indies (days Labat) eat gracefully of the manners and revacide peas, which give their flesh a infection and moll' agreciable farmers?",
+  "response": {
+    "id": "chatcmpl-9de83b9e9c96ae7f",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "The perfus, or alligator pear tree, is cultivated universally in the West Indies by all ranks of people. The fruit is pear-shaped, and from one to two pounds in weight. On removing a green skin or covering, we come to a yellow butyraceous substance; and in the heart find a large round feed or stone, which is unequal in the surface, and exceedingly hard and woody. This fruit is ripe in August and September, and constitutes one of the most agreeable articles of diet for six or eight weeks to the negroes. These pears, with a little fat and a plantain or two, afford a hearty meal. They are also served up at the tables of white people as choice fruit. When the pear is ripe, the yellow or eatable substance is firmer than butter, and tastes somewhat like butter or marrow: hence it is called by some the vegetable marrow. But however excellent this fruit is when ripe, it is very dangerous when pulled and eaten before maturity. Dr Wright says, he has repeatedly known it to produce fever and dysentery, which were removed with difficulty.—The leaves of this tree and the bark of the bead-vine or wild liquorice are made into pectoral decoctions by the common people.—The large stone is used for marking linen. The cloth is tied or held over the stone, and the letters are pricked out by a needle through the cloth and into the feed. The stain is a reddish brown, which never washes out.—The buds of the alligator tree are said to be used with succels as pifans against the venereal disease. An infusion of them in water, drank in the morning fasting, is strongly recommended for dislodging coagulated blood in the stomach produced by a fall or a few strokes on that important entrail. \"The wild boars in the East Indies (says Labat) eat greedily of the mammees and avocado pears, which give their flesh a juicy and most agreeable favour.\"",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792326031,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 419,
+      "prompt_tokens": 1468,
+      "total_tokens": 1887,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 866
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "variant": "crop_nothink",
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:611",
+  "block_index": 8,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T12:21:19+00:00",
+  "elapsed_seconds": 1.83,
+  "finish_reason": "stop",
+  "parse_text": "Or? it. Therefore the perform in any point D swife from the translation in the part y F, and from the particles which are in the canal MD : as their left move along the surface of the body, the force g, de- flyerted in every particle, is composed around of two others, one in the direction of the inferior, and the other spec pedicular to it; call thick p and j. The point D is perfect perpendicular to the surface MD, yth, by all the forces j in the curve MD; z; i, by the theory ed- ing on the fingle point D. This may be neglected in compulsion of the indefinite number of the others therefore taking in the such MAB, an infinitely small portion Nw,=i, the prefine on D, perpendicular to the surface of the body, will be = fjf, and this flu- ent mail bo fo taken as to be = din the point M. Cox . Therefore, to find the precise on D, we must find the force j on any point N. Let a be the velocity of the particle N, in the direction Nw in any infant, and a q-a its velocity in the following infant:",
+  "corrected_text": "Cor. 1. Therefore the pressure in any point D arises both from the retardations in the part F, and from the particles which are in the canal MD: as they all move along the surface of the body, the force a, destroyed in every particle, is compounded of two others, one in the direction of the surface, and the other perpendicular to it; call these p and q. The point D is pressed perpendicularly to the surface MD; first, by all the forces p in the curve MD; secondly, by the force q acting on the single point D. This may be neglected in comparison of the indefinite number of the others; therefore taking in the arc MD, an infinitely small portion Nm = s, the pressure on D, perpendicular to the surface of the body, will be = ∫p s; and this fluent must be so taken as to be = 0 in the point M.\n\nCor. 2. Therefore, to find the pressure on D, we must find the force p on any point N. Let u be the velocity of the particle N, in the direction Nm in any instant, and u + u its velocity in the following instant;",
+  "reasoning_tokens": 0,
+  "usage": {
+    "completion_tokens": 243,
+    "prompt_tokens": 913,
+    "total_tokens": 1156,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 486
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 3000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows this region of the page. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\nOr? it. Therefore the perform in any point D swife from the translation in the part y F, and from the particles which are in the canal MD : as their left move along the surface of the body, the force g, de- flyerted in every particle, is composed around of two others, one in the direction of the inferior, and the other spec pedicular to it; call thick p and j. The point D is perfect perpendicular to the surface MD, yth, by all the forces j in the curve MD; z; i, by the theory ed- ing on the fingle point D. This may be neglected in compulsion of the indefinite number of the others therefore taking in the such MAB, an infinitely small portion Nw,=i, the prefine on D, perpendicular to the surface of the body, will be = fjf, and this flu- ent mail bo fo taken as to be = din the point M. Cox . Therefore, to find the precise on D, we must find the force j on any point N. Let a be the velocity of the particle N, in the direction Nw in any infant, and a q-a its velocity in the following infant:",
+  "response": {
+    "id": "chatcmpl-b58b03968953dc5a",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "Cor. 1. Therefore the pressure in any point D arises both from the retardations in the part F, and from the particles which are in the canal MD: as they all move along the surface of the body, the force a, destroyed in every particle, is compounded of two others, one in the direction of the surface, and the other perpendicular to it; call these p and q. The point D is pressed perpendicularly to the surface MD; first, by all the forces p in the curve MD; secondly, by the force q acting on the single point D. This may be neglected in comparison of the indefinite number of the others; therefore taking in the arc MD, an infinitely small portion Nm = s, the pressure on D, perpendicular to the surface of the body, will be = ∫p s; and this fluent must be so taken as to be = 0 in the point M.\n\nCor. 2. Therefore, to find the pressure on D, we must find the force p on any point N. Let u be the velocity of the particle N, in the direction Nm in any instant, and u + u its velocity in the following instant;",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792326080,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 243,
+      "prompt_tokens": 913,
+      "total_tokens": 1156,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 486
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

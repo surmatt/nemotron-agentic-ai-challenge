@@ -1,0 +1,93 @@
+{
+  "variant": "crop_nothink",
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2524",
+  "block_index": 6,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T12:25:15+00:00",
+  "elapsed_seconds": 1.58,
+  "finish_reason": "stop",
+  "parse_text": "Of the Hindu paintings the chief merit is brillany of Palm colony, rather than taste in the design on livesiness of sexpression. They imitate most exactly, and are excellent dragstones; and they draw specimens of natural history with main mediastinal and secretory. \"The behavior as acentness with which they imitate every feather of a bird,\" says Tennant, \"For the smallest three on the kind of a plant, vendors them valuable assistants in this department; but further than this they cannot advance one step. If your bird is to be planted on a week on the beach of tree, the draughmanas is at a stand; the object is not be foreshure, and he can supply nothing.\" Since this period, however, the Hindus knew almost attractive in the art of painting; and some of their portraits display taste and expression that would now describe European artists.",
+  "corrected_text": "Of the Hindu paintings the chief merit is brilliancy of colour, rather than taste in the design or liveliness of expression. They imitate most exactly, and are excellent draughtsmen; and they draw specimens of natural history with much neatness and accuracy. \"The laborious exactness with which they imitate every feather of a bird,\" says Tennant, \"or the smallest fibre on the leaf of a plant, renders them valuable assistants in this department; but farther than this they cannot advance one step. If your bird is to be placed on a rock or upon the branch of a tree, the draughtsman is at a stand; the object is not before him, and he can supply nothing.\" Since this period, however, the Hindus have made great advances in the art of painting; and some of their portraits display taste and expression that would not discredit European artists.",
+  "reasoning_tokens": 0,
+  "usage": {
+    "completion_tokens": 183,
+    "prompt_tokens": 759,
+    "total_tokens": 942,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 402
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 3000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows this region of the page. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\nOf the Hindu paintings the chief merit is brillany of Palm colony, rather than taste in the design on livesiness of sexpression. They imitate most exactly, and are excellent dragstones; and they draw specimens of natural history with main mediastinal and secretory. \"The behavior as acentness with which they imitate every feather of a bird,\" says Tennant, \"For the smallest three on the kind of a plant, vendors them valuable assistants in this department; but further than this they cannot advance one step. If your bird is to be planted on a week on the beach of tree, the draughmanas is at a stand; the object is not be foreshure, and he can supply nothing.\" Since this period, however, the Hindus knew almost attractive in the art of painting; and some of their portraits display taste and expression that would now describe European artists.",
+  "response": {
+    "id": "chatcmpl-8d8319c842f42ad8",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "Of the Hindu paintings the chief merit is brilliancy of colour, rather than taste in the design or liveliness of expression. They imitate most exactly, and are excellent draughtsmen; and they draw specimens of natural history with much neatness and accuracy. \"The laborious exactness with which they imitate every feather of a bird,\" says Tennant, \"or the smallest fibre on the leaf of a plant, renders them valuable assistants in this department; but farther than this they cannot advance one step. If your bird is to be placed on a rock or upon the branch of a tree, the draughtsman is at a stand; the object is not before him, and he can supply nothing.\" Since this period, however, the Hindus have made great advances in the art of painting; and some of their portraits display taste and expression that would not discredit European artists.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792326316,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 183,
+      "prompt_tokens": 759,
+      "total_tokens": 942,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 402
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

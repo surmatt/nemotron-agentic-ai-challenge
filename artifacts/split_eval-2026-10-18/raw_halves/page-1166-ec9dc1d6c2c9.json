@@ -1,0 +1,260 @@
+{
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1166",
+  "filename": "page-1166-ec9dc1d6c2c9.jpg",
+  "image_sha256": "ec9dc1d6c2c96661593803f1cde606a6c27b453bccb4803b9562db602f4c0c69",
+  "model": "nvidia/nemotron-3.5-parse",
+  "request": {
+    "prompt": "</s><s><predict_bbox><predict_classes><output_markdown><predict_text_in_pic>",
+    "max_tokens": 8744
+  },
+  "split": {
+    "x": 280,
+    "mean": 216.14,
+    "std": 3.93,
+    "centre": 304,
+    "search": [
+      204,
+      404
+    ],
+    "width": 608,
+    "height": 840,
+    "angle": 0.5,
+    "straight_std": 6.17,
+    "fill": [
+      207,
+      197,
+      170
+    ],
+    "source_width": 600,
+    "source_height": 834,
+    "tried": [
+      {
+        "angle": 0.0,
+        "x": 276,
+        "std": 6.17
+      },
+      {
+        "angle": -3.0,
+        "x": 299,
+        "std": 28.78
+      },
+      {
+        "angle": -2.75,
+        "x": 281,
+        "std": 29.0
+      },
+      {
+        "angle": -2.5,
+        "x": 411,
+        "std": 29.34
+      },
+      {
+        "angle": -2.25,
+        "x": 281,
+        "std": 28.08
+      },
+      {
+        "angle": -2.0,
+        "x": 286,
+        "std": 27.0
+      },
+      {
+        "angle": -1.75,
+        "x": 281,
+        "std": 28.38
+      },
+      {
+        "angle": -1.5,
+        "x": 284,
+        "std": 27.16
+      },
+      {
+        "angle": -1.25,
+        "x": 280,
+        "std": 28.0
+      },
+      {
+        "angle": -1.0,
+        "x": 284,
+        "std": 25.4
+      },
+      {
+        "angle": -0.75,
+        "x": 279,
+        "std": 20.68
+      },
+      {
+        "angle": -0.5,
+        "x": 276,
+        "std": 20.48
+      },
+      {
+        "angle": -0.25,
+        "x": 278,
+        "std": 8.76
+      },
+      {
+        "angle": 0.25,
+        "x": 279,
+        "std": 4.73
+      },
+      {
+        "angle": 0.5,
+        "x": 280,
+        "std": 3.93
+      },
+      {
+        "angle": 0.75,
+        "x": 282,
+        "std": 4.21
+      },
+      {
+        "angle": 1.0,
+        "x": 284,
+        "std": 7.32
+      },
+      {
+        "angle": 1.25,
+        "x": 285,
+        "std": 21.1
+      },
+      {
+        "angle": 1.5,
+        "x": 285,
+        "std": 23.71
+      },
+      {
+        "angle": 1.75,
+        "x": 285,
+        "std": 26.31
+      },
+      {
+        "angle": 2.0,
+        "x": 296,
+        "std": 26.78
+      },
+      {
+        "angle": 2.25,
+        "x": 285,
+        "std": 26.53
+      },
+      {
+        "angle": 2.5,
+        "x": 286,
+        "std": 27.48
+      },
+      {
+        "angle": 2.75,
+        "x": 288,
+        "std": 29.74
+      },
+      {
+        "angle": 3.0,
+        "x": 303,
+        "std": 29.57
+      }
+    ]
+  },
+  "started_at": "2026-10-18T13:34:34+00:00",
+  "elapsed_seconds": 2.89,
+  "halves": [
+    {
+      "side": "left",
+      "box": [
+        0,
+        0,
+        280,
+        840
+      ],
+      "png_sha256": "2e418473b6a155b43b1fe6378542bd50a6e9ebf2931be8ffdbc24c3cd8af4060",
+      "response": {
+        "id": "chatcmpl-1cf72815-4301-4249-8edb-843b46ba3aae",
+        "object": "chat.completion",
+        "created": 1792330474,
+        "model": "nvidia/nemotron-3.5-parse",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "<x_0.6406><y_0.0352>**LIBERTY OF**<x_0.9922><y_0.0539><class_Title>\n\n<x_0.1172><y_0.0594>We may then ask, if there are any possible means by which the people can make a good choice, besides the _theory of the press_? The very limitation of a good choice is knowledge. The fuller and more perfect the know-ledge, this better the chance where all similar interest is asens, of a good choice. How can the people receive the most perfect knowledge relative to the characters of those who prepare themselves to their choice, but by in formation conveyed freely, and without reserve, from one to another?<x_0.9912><y_0.1836><class_Text>\n\n<x_0.1182><y_0.1844>There is another use of the freedom of the press, no less deserving the most profound attention, that of making known the conduct of the individual who have been chosen. This latter service is of so much importance, that upon it the whole value of the former depends.<x_0.9902><y_0.2484><class_Text>\n\n<x_0.1191><y_0.2477>This is capable of being rapidly demonstrated. No be-side is obtained by making choices of a nota who is well qualified to serve the people, and also well inclined to serve them, if you place him in a situation in which he will be prependent motives to serve himself at their expense.<x_0.9893><y_0.3211><class_Text>\n\n<x_0.1201><y_0.3219>If any act now on the chosen to weld the powers of government, while the people have not the means of knowing in what manner they discharge their duties, they will have the means of growing themes as an the expense of the people and all the members of civil governments are the certain consequence.<x_0.9883><y_0.3953><class_Text>\n\n<x_0.125><y_0.3961>Suppose the people to choose the members of the le-gislation assembly, with power of rechosing or dismissing them at short intervals; to what desirable and could these powers be exercised without the liberty of the press? Suppose that any one of those whom, they have chosen has misconducted himself, or promoted, as far as depend-ed upon him, the ends of misgovernment, like are the people, how that the powers with which they had in- trusted him had been treacherously employed?<x_0.9873><y_0.5086><class_Text>\n\n<x_0.0879><y_0.5078>If they do not know, they will rechose him and that as corially as the man who has served them with the great-art fidelity. This they are unders deplicable necessity of doing even to be just for, as they know no difference between him and the bets, it would be on their part in-quity to make any. The consequences would be fatal. If one man saw that his right promote miracle for his own advantage, so would another; so of course would they all. It these circumstances we see last the foundation on which, every country, had government is mercil. On this foundation it is impossible that it should not be read. When the causes are the same, you can expect that the effects will be different. It is unnecessary to dwell upon these fundamental truths, because they have already been strippedped in the article Grammarly.<x_0.9863><y_0.6922><class_Text>\n\n<x_0.1035><y_0.693>Without the knowledge, that, of what is done by their representatives, in the use of the powers intrusted to them, the people cannot party by the power off choosing them, and the advantages of good government are unttainable. It will not surely cost many words to satisfy all classes of readers, that, without the freedust entertained us use of the press, the requisite knowledge cannot be obtaining.<x_0.9854><y_0.7937><class_Text>\n\n<x_0.1162><y_0.7945>That an accurate report of what is done by each of the representatives, a transcript of his speeches, and a statement of his proposition and votes, is necessary to be laid before the people, to enable them to judge of his conduct, nobody, we pressure, will dary. This requires the use of the cheapest means of communication, and, we add, the free use of those means. Unless every man has the liberty of publishing the proceedings of the legislative assembly, the people you have no security that they are fairly publishers. If it is in the power of their culers to permit one person, and fortled another, the people may be sure that a false report, that is, a report calculated to<x_0.9844><y_0.9445><class_Text>",
+              "refusal": null,
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "reasoning": null
+            },
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": null,
+            "token_ids": null,
+            "routed_experts": null
+          }
+        ],
+        "service_tier": null,
+        "system_fingerprint": "vllm-0.26.0-d51b4524",
+        "usage": {
+          "prompt_tokens": 273,
+          "total_tokens": 1130,
+          "completion_tokens": 857,
+          "prompt_tokens_details": null
+        },
+        "prompt_logprobs": null,
+        "prompt_token_ids": null,
+        "prompt_text": null,
+        "kv_transfer_params": null,
+        "ec_transfer_params": null,
+        "metrics": null
+      }
+    },
+    {
+      "side": "right",
+      "box": [
+        280,
+        0,
+        608,
+        840
+      ],
+      "png_sha256": "b0e2555edb366dfeba9a5c0cf5d92d7a30a958b86ed3fc89cb6c374ceda48b10",
+      "response": {
+        "id": "chatcmpl-1c6e4a41-6d46-462a-a2f4-d1e72d64025a",
+        "object": "chat.completion",
+        "created": 1792330475,
+        "model": "nvidia/nemotron-3.5-parse",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "<x_0.0078><y_0.032>THE PRESS. 279<x_0.916><y_0.0539><class_Page-header>\n\n<x_0.0029><y_0.0586>make them believe that they are well governed when they Liberty of the Press.<x_0.9277><y_0.0836><class_Text>\n\n<x_0.0><y_0.0859>One thing more is necessary; and so necessary, that if it is wanting, the other might as well be wanting also. The publication of the proceedings tells what is done. This, however, in useless, unless is correct judgment is passed upon what is done.<x_0.7793><y_0.1453><class_Text>\n\n<x_0.002><y_0.1461>• We have brought this inquiry, then, to an important point. In the article OVERNMENT, we have seen that, unless the people hold in their own hands an efficient power of control on the acts of their government, the government will be inevitably vicious. We have now seen that they cannot override this control to any beneficial purpose, without the means of forming a correct judgment upon the conduct of their representatives.’ We have likewise seen, that one of the means necessary to enable them to judge correctly or the conduct of their representatives, is the liberty to every body of publishing reports of what they do. It remains to injure by what other acts the press can be made to continue to the same desirable end.<x_0.7803><y_0.3078><class_Text>\n\n<x_0.0586><y_0.3086>What is wanted is, that all the people, or as many of them as possible, should estimate correctly the consequences of the acts proposed at done by their representatives; and also that they should know what acts might have been proposed, if the best were not proposed, from which better consequences would have allowed. This end would be accomplished most effectively, if those who are sufficiently unplanned send people out to those who are in danger of mistakes, the true conclusions and, showing the weight of evidence to be in their favour, should obtain for them the universal assertions.<x_0.7783><y_0.4445><class_Text>\n\n<x_0.0068><y_0.4453>How shall to be accomplished? - In what manner are those wise men to be chosen? - And who are to be the chosen? - Directly the object cannot be battained. There are no distinct and indubitable marks by which wisdom, and he by which integrity, is to be known. And who is to be trained with the privilege of pointing them one:\" They whose judgment requires to be directed are not well qualified to determine who shall direct them. And if the time are to choose, they will employ some but those who will act in conformity to their views, and enable them to benefit themselves by the pillage and oppression of the people.<x_0.7812><y_0.5938><class_Text>\n\n<x_0.0059><y_0.5945>As there is no possible organ of choice, no choice whatever we to be made. If no choice is to a guide, every man that please ought to do allowed. All this is indubitable. The consequences of denying any part of it are so obvious, that hardly any man, we suppose, will risk the imputations to which such a detail would, judy expose him.<x_0.7773><y_0.6805><class_Text>\n\n<x_0.0049><y_0.6813>They who say that no choice ought to be made, say, in effect, that no limit whatsoever ought to be imposed upon the liberty of the press. The one of these propositions is involved in the other. To impose any restraint upon the liberty of the press, is undoubtedly to make a choice. If the restraint is imposed by the government, it is the government that chooses the director of the public mind. If any government chooses the direction of the public mind, that government is despite.<x_0.7764><y_0.793><class_Text>\n\n<x_0.0059><y_0.7937>Suppose that, by the restraint imposed upon the liberty of the press, all ensure of the government is forbidden; here is undoubtedly the choice. The government, in this case, virtually says, the people who might attempt the task of directing the public mind are of two sorts; one, those who would cause;; another, those who would not consume; I choose the latter.<x_0.7754><y_0.8812><class_Text>\n\n<x_0.0596><y_0.882>Suppose that not every censure, but only such and such kinds of creators, are forbidden; here again, is still a choice, while confortably there is no party or whom the power of choosing for the rest can with safety be given. If not every censure, but only some censures, are to be<x_0.7744><y_0.9445><class_Text>",
+              "refusal": null,
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "reasoning": null
+            },
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": null,
+            "token_ids": null,
+            "routed_experts": null
+          }
+        ],
+        "service_tier": null,
+        "system_fingerprint": "vllm-0.26.0-d51b4524",
+        "usage": {
+          "prompt_tokens": 326,
+          "total_tokens": 1184,
+          "completion_tokens": 858,
+          "prompt_tokens_details": null
+        },
+        "prompt_logprobs": null,
+        "prompt_token_ids": null,
+        "prompt_text": null,
+        "kv_transfer_params": null,
+        "ec_transfer_params": null,
+        "metrics": null
+      }
+    }
+  ]
+}

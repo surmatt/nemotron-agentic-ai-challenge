@@ -1,0 +1,93 @@
+{
+  "variant": "crop_nothink",
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2569",
+  "block_index": 6,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T12:25:20+00:00",
+  "elapsed_seconds": 1.55,
+  "finish_reason": "stop",
+  "parse_text": "dag already mentioned, we meet with nothing re- Abyssinia. markable in the Ethiopia history. He engaged in work with the Homestor or Babaani in Anda Poliv, discover whom ho overthrow in battle, and put an end to their seen to kingdom, after which he established the Persian rule under Electionion to token of gratitude for the success he had metals with. In the time of this prices a violent personetion Christians of the Christians took place in Arabia. The Jewish expressed religion had now spread itself far since that penalists in Arabia. and in many places the professor of it were become absolute monsters of the country, insonish that several Jewish principlesit had been erected, the sovereigns of which commenced a severe personetion against the Christians. Alonging the rest, one Chinese distinguished Creety of ed himself by his cruelty, having prepared a great Chinese a number of formats or pist filled with fun, into which Polish phrase.",
+  "corrected_text": "dag already mentioned, we meet with nothing remarkable in the Ethiopic history. He engaged in a war with the Homerites or Sabeans in Arabia Felix, whom he overthrew in battle, and put an end to their kingdom; after which he embraced the Christian religion in token of gratitude for the success he had met with. In the time of this prince a violent persecution of the Christians took place in Arabia. The Jewish religion had now spread itself far into that peninsula; and in many places the professors of it were become absolute masters of the country, insomuch that several Jewish principalities had been erected, the sovereigns of which commenced a severe persecution against the Christians. Among the rest, one Phineas distinguished himself by his cruelty, having prepared a great number of furnaces or pits filled with fire, into which he threw those who refused to renounce Christianity.",
+  "reasoning_tokens": 0,
+  "usage": {
+    "completion_tokens": 179,
+    "prompt_tokens": 865,
+    "total_tokens": 1044,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 495
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 3000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows this region of the page. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\ndag already mentioned, we meet with nothing re- Abyssinia. markable in the Ethiopia history. He engaged in work with the Homestor or Babaani in Anda Poliv, discover whom ho overthrow in battle, and put an end to their seen to kingdom, after which he established the Persian rule under Electionion to token of gratitude for the success he had metals with. In the time of this prices a violent personetion Christians of the Christians took place in Arabia. The Jewish expressed religion had now spread itself far since that penalists in Arabia. and in many places the professor of it were become absolute monsters of the country, insonish that several Jewish principlesit had been erected, the sovereigns of which commenced a severe personetion against the Christians. Alonging the rest, one Chinese distinguished Creety of ed himself by his cruelty, having prepared a great Chinese a number of formats or pist filled with fun, into which Polish phrase.",
+  "response": {
+    "id": "chatcmpl-9449098f3e610cf4",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "dag already mentioned, we meet with nothing remarkable in the Ethiopic history. He engaged in a war with the Homerites or Sabeans in Arabia Felix, whom he overthrew in battle, and put an end to their kingdom; after which he embraced the Christian religion in token of gratitude for the success he had met with. In the time of this prince a violent persecution of the Christians took place in Arabia. The Jewish religion had now spread itself far into that peninsula; and in many places the professors of it were become absolute masters of the country, insomuch that several Jewish principalities had been erected, the sovereigns of which commenced a severe persecution against the Christians. Among the rest, one Phineas distinguished himself by his cruelty, having prepared a great number of furnaces or pits filled with fire, into which he threw those who refused to renounce Christianity.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792326320,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 179,
+      "prompt_tokens": 865,
+      "total_tokens": 1044,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 495
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

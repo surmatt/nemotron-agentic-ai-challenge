@@ -1,0 +1,93 @@
+{
+  "variant": "crop_nothink",
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:914",
+  "block_index": 2,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T12:21:38+00:00",
+  "elapsed_seconds": 2.5,
+  "finish_reason": "stop",
+  "parse_text": "in the purifit of an invitible foe, who forns his efforts, and fairly reposis in the heart of the burning follicle. The area and defines of the Bedowners are not only the disparard of their own freedom, but the barriers alio of the Huppy Arabia, whole hublishing, remains from way, we canvated by the leaves of the lid and climate. The regions of Angulfus meled away in difc eafe and lailitude; and it is only by a natural power that the reflection of Yemen has been facedtically attempt. ed. When Mahomer excited his holy fhandard, that Kingdom was a province of the Perian empire , yet few princes of the Thomas still regned in the mountains and the viegeregent of Chofroes was tempat ed to forget his distant country and his unfortunate matter. The influence of the age of Julianian pyr-ion the flux of the independant Arabia, who were divided by interlt or affection in the long quarral of the Eafs, the tribe of Caffan was allowed to exem on the Syrian territory: the princes of Fira were per mitted to form a city about forty miles to the south ward of the ruins if theybaby. Their favorite in the field was Ipeels and vigorous but their friendship was venal, their faith incoulant, their enemy capricions - it was an offer talk to excite them to dither these roving babarian's i and, in the familiar intercourse of war, they learned to fee, and to defiple, the fifandf weakeland both of Rome and of Parties. From Meec to the Euphrates, the Arabian tribes were confounded by the Greeks and Latinas, under the general ap- pellation of Saracens; a name which every Christian mouth has been taught to pronounce with termur and abonance.",
+  "corrected_text": "in the pursuit of an invisible foe, who forms his efforts, and fairly reposes in the heart of the burning folitude. The arms and defarts of the Bedoweeens are not only the disparard of their own freedom, but the barriers alio of the Happy Arabia, whole hublishing, remains from way, we canvated by the leaves of the lid and climate. The regions of Angulfus meled away in difc eafe and lailitude; and it is only by a natural power that the reflection of Yemen has been facedtically attempt. ed. When Mahomer excited his holy fhandard, that Kingdom was a province of the Perian empire , yet few princes of the Thomas still regned in the mountains and the viegeregent of Chofroes was tempt ed to forget his distant country and his unfortunate matter. The influence of the age of Julianian pyr-ion the flux of the independant Arabia, who were divided by interlt or affection in the long quarral of the Eafs, the tribe of Caffan was allowed to exem on the Syrian territory: the princes of Fira were per mitted to form a city about forty miles to the south ward of the ruins if theybaby. Their favorite in the field was Ipeels and vigorous but their friendship was venal, their faith incoulant, their enemy capricions - it was an offer talk to excite them to dither these roving babarian's i and, in the familiar intercourse of war, they learned to fee, and to defiple, the fifandf weakeland both of Rome and of Parties. From Meec to the Euphrates, the Arabian tribes were confounded by the Greeks and Latinas, under the general ap- pellation of Saracens; a name which every Christian mouth has been taught to pronounce with termur and abonance.",
+  "reasoning_tokens": 0,
+  "usage": {
+    "completion_tokens": 394,
+    "prompt_tokens": 1458,
+    "total_tokens": 1852,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 886
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 3000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows this region of the page. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\nin the purifit of an invitible foe, who forns his efforts, and fairly reposis in the heart of the burning follicle. The area and defines of the Bedowners are not only the disparard of their own freedom, but the barriers alio of the Huppy Arabia, whole hublishing, remains from way, we canvated by the leaves of the lid and climate. The regions of Angulfus meled away in difc eafe and lailitude; and it is only by a natural power that the reflection of Yemen has been facedtically attempt. ed. When Mahomer excited his holy fhandard, that Kingdom was a province of the Perian empire , yet few princes of the Thomas still regned in the mountains and the viegeregent of Chofroes was tempat ed to forget his distant country and his unfortunate matter. The influence of the age of Julianian pyr-ion the flux of the independant Arabia, who were divided by interlt or affection in the long quarral of the Eafs, the tribe of Caffan was allowed to exem on the Syrian territory: the princes of Fira were per mitted to form a city about forty miles to the south ward of the ruins if theybaby. Their favorite in the field was Ipeels and vigorous but their friendship was venal, their faith incoulant, their enemy capricions - it was an offer talk to excite them to dither these roving babarian's i and, in the familiar intercourse of war, they learned to fee, and to defiple, the fifandf weakeland both of Rome and of Parties. From Meec to the Euphrates, the Arabian tribes were confounded by the Greeks and Latinas, under the general ap- pellation of Saracens; a name which every Christian mouth has been taught to pronounce with termur and abonance.",
+  "response": {
+    "id": "chatcmpl-b8bea793f8a6ada4",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "in the pursuit of an invisible foe, who forms his efforts, and fairly reposes in the heart of the burning folitude. The arms and defarts of the Bedoweeens are not only the disparard of their own freedom, but the barriers alio of the Happy Arabia, whole hublishing, remains from way, we canvated by the leaves of the lid and climate. The regions of Angulfus meled away in difc eafe and lailitude; and it is only by a natural power that the reflection of Yemen has been facedtically attempt. ed. When Mahomer excited his holy fhandard, that Kingdom was a province of the Perian empire , yet few princes of the Thomas still regned in the mountains and the viegeregent of Chofroes was tempt ed to forget his distant country and his unfortunate matter. The influence of the age of Julianian pyr-ion the flux of the independant Arabia, who were divided by interlt or affection in the long quarral of the Eafs, the tribe of Caffan was allowed to exem on the Syrian territory: the princes of Fira were per mitted to form a city about forty miles to the south ward of the ruins if theybaby. Their favorite in the field was Ipeels and vigorous but their friendship was venal, their faith incoulant, their enemy capricions - it was an offer talk to excite them to dither these roving babarian's i and, in the familiar intercourse of war, they learned to fee, and to defiple, the fifandf weakeland both of Rome and of Parties. From Meec to the Euphrates, the Arabian tribes were confounded by the Greeks and Latinas, under the general ap- pellation of Saracens; a name which every Christian mouth has been taught to pronounce with termur and abonance.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792326099,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 394,
+      "prompt_tokens": 1458,
+      "total_tokens": 1852,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 886
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

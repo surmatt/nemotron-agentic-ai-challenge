@@ -1,0 +1,93 @@
+{
+  "variant": "crop_nothink",
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1473",
+  "block_index": 5,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T12:22:43+00:00",
+  "elapsed_seconds": 1.86,
+  "finish_reason": "stop",
+  "parse_text": "ESCAPE, in how a violent or privyvation out of\nhome lawful reflrant, without being delivered by due\ncourse of low. There are two lots of escape, valent\nbay and negligent. Voluntary, when a amreth\nanother for folony, or other crime, and afterwards lets\nhim go freely by conting, in which cafe, the party\nthat permits fich escapes and dailyly commended\nand multi author for it. Negligent eleceps, on the con-\ntrany, in where one is arrested, and afterwards deepas\nagainst the will of the perform that arred him, and is\nnot purified with fresh guards, and treaken before the\nperson containing lands left fight or him. By fast, it\noy Will. III: C. 26., the keepers of priform conviving at\nefecapes final (forter) crois; and in civil cases the flee\nrifi's a preferable for the debt.",
+  "corrected_text": "ESCAPE, in law, a violent or privy evasion out of\nsome lawful restraint, without being delivered by due\ncourse of law. There are two sorts of escapes, volun-\ntary and negligent. Voluntary, when a man arrests\nanother for felony, or other crime, and afterwards lets\nhim go freely by consent; in which case, the party\nthat permits such escape is held guilty, committed,\nand must answer for it. Negligent escape, on the con-\ntrary, is where one is arrested, and afterwards escapes\nagainst the will of the person that arrested him, and is\nnot pursued with fresh suit, and retaken before the\nperson purloining hath lost fight of him. By stat. 8 and\n9 Will. III. c. 26. the keepers of prisons conniving at\nescapes shall forfeit 500l.; and in civil cases the sher-\niff is answerable for the debt.",
+  "reasoning_tokens": 0,
+  "usage": {
+    "completion_tokens": 211,
+    "prompt_tokens": 755,
+    "total_tokens": 966,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 370
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 3000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows this region of the page. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\nESCAPE, in how a violent or privyvation out of\nhome lawful reflrant, without being delivered by due\ncourse of low. There are two lots of escape, valent\nbay and negligent. Voluntary, when a amreth\nanother for folony, or other crime, and afterwards lets\nhim go freely by conting, in which cafe, the party\nthat permits fich escapes and dailyly commended\nand multi author for it. Negligent eleceps, on the con-\ntrany, in where one is arrested, and afterwards deepas\nagainst the will of the perform that arred him, and is\nnot purified with fresh guards, and treaken before the\nperson containing lands left fight or him. By fast, it\noy Will. III: C. 26., the keepers of priform conviving at\nefecapes final (forter) crois; and in civil cases the flee\nrifi's a preferable for the debt.",
+  "response": {
+    "id": "chatcmpl-8efc1fd535598ec7",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "ESCAPE, in law, a violent or privy evasion out of\nsome lawful restraint, without being delivered by due\ncourse of law. There are two sorts of escapes, volun-\ntary and negligent. Voluntary, when a man arrests\nanother for felony, or other crime, and afterwards lets\nhim go freely by consent; in which case, the party\nthat permits such escape is held guilty, committed,\nand must answer for it. Negligent escape, on the con-\ntrary, is where one is arrested, and afterwards escapes\nagainst the will of the person that arrested him, and is\nnot pursued with fresh suit, and retaken before the\nperson purloining hath lost fight of him. By stat. 8 and\n9 Will. III. c. 26. the keepers of prisons conniving at\nescapes shall forfeit 500l.; and in civil cases the sher-\niff is answerable for the debt.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792326164,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 211,
+      "prompt_tokens": 755,
+      "total_tokens": 966,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 370
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

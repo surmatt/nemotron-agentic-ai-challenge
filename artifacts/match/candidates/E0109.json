@@ -1,0 +1,460 @@
+{
+  "entry_id": "E0109",
+  "headword": null,
+  "entry_text_sha256": "7b934fbd80638cac1637ef7a236dfbb001ad73e20b5100e0336d20ac0c17bdf7",
+  "mode": "model",
+  "queries": [
+    "gradually hier height boiling parts fires land hucft begins fill rises surface"
+  ],
+  "query_chars": 1039,
+  "headword_variant": null,
+  "candidate_count": 20,
+  "list_pages_removed_after_fetch": [],
+  "decision": {
+    "status": "accepted",
+    "method": "nemotron_embed_rerank",
+    "thresholds": {
+      "rerank_logit": -10.0,
+      "margin": 0.5,
+      "cosine": 0.15,
+      "title_similarity": 0.0
+    },
+    "page_id": "13034",
+    "title": "Geyser",
+    "rerank_logit": -8.591977,
+    "cosine": 0.343652,
+    "margin_to_next": 0.574947,
+    "title_similarity": 0.0
+  },
+  "article": {
+    "page_id": "13034",
+    "revision_id": "1345191553",
+    "title": "Geyser",
+    "url": "https://en.wikipedia.org/wiki/Geyser",
+    "revision_url": "https://en.wikipedia.org/w/index.php?oldid=1345191553",
+    "text_sha256": "dc37dce00d291936e110ef9ed1f550c652865d9522762fff39e253cc4962db70",
+    "chars": 19239
+  },
+  "candidates": [
+    {
+      "page_id": "2766531",
+      "revision_id": "1324614327",
+      "title": "Continuous distillation",
+      "url": "https://en.wikipedia.org/wiki/Continuous_distillation",
+      "excerpt": "lation, is an ongoing separation in which a mixture is continuously (without interruption) fed into the process and separated fractions are removed continuously as output streams. Distillation is the separation or partial separation of a liquid feed mixture into components or fractions by selective boiling (or evaporation) and condensation. The process produces at least two output fractions. These fractions include at least one volatile distillate fraction, which has boiled and been separately captured as a vapor condensed to a liquid, and practically always a bottoms (or residuum) fraction, which is the least volatile residue that has not been separately captured as a condensed vapor.\n\nAn alternative to continuous distillation is batch distillation, where the mixture is added to the unit at the start of the distillation, distillate fractions are taken out sequentially in time (one after another) during the distillation, and the remaining bottoms fraction is removed at the end. Because each of the distillate fractions are taken out at different times, only one distillate exit point (location) is needed for a batch distillation and the distillate can just be switched to a different ",
+      "excerpt_offset": 41,
+      "total_chars": 17516,
+      "bm25": {
+        "q0": {
+          "rank": 1,
+          "score": 29.9279
+        }
+      },
+      "best_rank": 1,
+      "title_similarity": 0.0,
+      "context_overlap": 0.0357,
+      "cosine": 0.010612,
+      "rerank_logit": -9.839586,
+      "rerank_position": 9
+    },
+    {
+      "page_id": "26028486",
+      "revision_id": "1330922162",
+      "title": "Vertical fire-tube boiler",
+      "url": "https://en.wikipedia.org/wiki/Vertical_fire-tube_boiler",
+      "excerpt": "A vertical fire-tube boiler or vertical multitubular boiler is a vertical boiler where the heating surface is composed of multiple small fire-tubes, arranged vertically.\n\nThese boilers were not common, owing to drawbacks with excessive wear in service. The more common form of vertical boiler, which was very similar in external appearance, instead used a single flue and water-filled cross-tubes. Another form used horizontal fire-tubes, even where this added complexity, such as the Cochran boiler.\n\nWhere a sustained high evaporative capacity (i.e. power) was required, vertical tubes were used, but rarely. These cases were mostly for locomotives, either railway locomotives or road steam wagons.\n\nIn any boiler, one of the most prone locations for tube and plate wastage is around the water level, where agitation and boiling is most active. This is particularly so when this level is also part of the heated surface, where boiling is most intense (water-tube boiler designs also strive to submerge their directly heated surface beneath the water level, for the same reason).\n\nIn this design of boiler, the erosion area affected is part-way up the fire-tubes. Although such tubes are usually des",
+      "excerpt_offset": 0,
+      "total_chars": 4395,
+      "bm25": {
+        "q0": {
+          "rank": 2,
+          "score": 29.8507
+        }
+      },
+      "best_rank": 2,
+      "title_similarity": 0.0,
+      "context_overlap": 0.0641,
+      "cosine": 0.099875,
+      "rerank_logit": -10.209662,
+      "rerank_position": 13
+    },
+    {
+      "page_id": "25556837",
+      "revision_id": "1337788420",
+      "title": "Giantess Geyser",
+      "url": "https://en.wikipedia.org/wiki/Giantess_Geyser",
+      "excerpt": "st 2021\n\nGiantess Geyser was one of the seven geysers named during the Washburn–Langford–Doane Expedition to the park region in 1870. Walter Trumbull, a member of the expedition described Giantess in his diary:\n\nOne of the most remarkable geysers was \"The Giantess.\" for yards around the ground rose gradually to its crater, but immediately about it was no formation rising above the surface, as was the case with all the other geysers which we saw in active operation. When quiet, it was a clear, beautiful pool, caught in a subsilica urn, or vase, with a hollow, bottomless stem, through which the steam came bubbling, just like the effervescence of champagne from the bottom of a long, hollow-necked glass. The mouth of the vase, represented by the surface, was twenty feet by thirty; and the neck, fifty feet below, was fifteen feet by ten. The water, at times, retired to the level of the neck, or vent, and at other times rose nearly to the surface. When in action, \"The Giantess\" became a fountain with five jets, shooting the spray to a height of two hundred feet. At the surface the largest jet was about two feet in diameter, and it kept in solid column for more than a hundred and fifty fe",
+      "excerpt_offset": 680,
+      "total_chars": 4958,
+      "bm25": {
+        "q0": {
+          "rank": 3,
+          "score": 29.4606
+        }
+      },
+      "best_rank": 3,
+      "title_similarity": 0.0,
+      "context_overlap": 0.0723,
+      "cosine": 0.298265,
+      "rerank_logit": -9.329345,
+      "rerank_position": 4
+    },
+    {
+      "page_id": "1448782",
+      "revision_id": "1347979184",
+      "title": "Hiers-Brouage",
+      "url": "https://en.wikipedia.org/wiki/Hiers-Brouage",
+      "excerpt": "Hiers-Brouage (French pronunciation:) is a former commune in the Charente-Maritime department, southwestern France. It is a member of Les Plus Beaux Villages de France (The Most Beautiful Villages of France) Association. On 1 January 2019, it was merged into the new commune Marennes-Hiers-Brouage.\n\nBrouage was founded in 1555 by Jacques de Pons on the Bay of Biscay facing the Atlantic Ocean. The town was founded on swampy land which had previously been underwater. Its name, \"Brouage,\" comes from the surrounding mixture of water and clay, which was called \"broue\".\n\nIts economy was based on salt and access to the sea. Brouage was known for producing salt that was black in colour, which was often sold to the royal family. Brouage exported large quantities of salt by land and sea as early as the 15th century.\n\nThe town was fortified between 1630 and 1640 by Cardinal Richelieu as a Catholic bastion in order to fight against the neighbouring Protestant town of La Rochelle. Gradually the harbour silted up in the last part of the 17th century, leaving the town stranded and useless as a port. It fell into ruin.\n\nThe town's most celebrated person is the French navigator Samuel de Champlain, ",
+      "excerpt_offset": 0,
+      "total_chars": 2170,
+      "bm25": {
+        "q0": {
+          "rank": 4,
+          "score": 26.6444
+        }
+      },
+      "best_rank": 4,
+      "title_similarity": 0.0,
+      "context_overlap": 0.0465,
+      "cosine": 0.044553,
+      "rerank_logit": -10.406891,
+      "rerank_position": 17
+    },
+    {
+      "page_id": "27934495",
+      "revision_id": "1320330366",
+      "title": "Mist lift",
+      "url": "https://en.wikipedia.org/wiki/Mist_lift",
+      "excerpt": " the level it drops to using rising steam which is combined into a multiphase flow. Independent of energy production, the technique can be used simply as a thermally powered pump used to raise ocean water from depths for unspecified uses.\n\nAs in other open cycle OTEC schemes, the technique involves boiling seawater under low atmospheric pressure. The scheme can take many forms so for illustration a particular form will be described and a section below will list details of alternate forms. The prerequisite for mist lift is that a significant thermal gradient exists. Typically warm surface water is expected to be near 25 °C (77 °F). Cold water from depth needs to be in the vicinity of 5 °C (41 °F). A common set of embodiments uses a floating concrete vessel most of which is submerged below the surface. Large volumes of warm surface seawater fall by gravity from a substantial height such as 100 metres (330 ft) to generate electricity from a hydro-electric turbine at the base of the structure. \"Mist lift\" gets its name by the gas lift technique used to pump the water back out of the structure. Due to the partial vacuum within the structure, warm sea water from the surface boils, creati",
+      "excerpt_offset": 221,
+      "total_chars": 4634,
+      "bm25": {
+        "q0": {
+          "rank": 5,
+          "score": 26.3428
+        }
+      },
+      "best_rank": 5,
+      "title_similarity": 0.0,
+      "context_overlap": 0.0769,
+      "cosine": 0.143702,
+      "rerank_logit": -9.613791,
+      "rerank_position": 5
+    },
+    {
+      "page_id": "45022198",
+      "revision_id": "1339524203",
+      "title": "Hard Boiled (1919 film)",
+      "url": "https://en.wikipedia.org/wiki/Hard_Boiled_(1919_film)",
+      "excerpt": "Hard Boiled is a 1919 American comedy silent film directed by Victor Schertzinger and written by John Lynch and R. Cecil Smith. The film stars Dorothy Dalton, Billy Mason, William Courtright, Gertrude Claire, Walter Hiers, and Nona Thomas. The film was released on February 2, 1919, by Paramount Pictures.\n\nDorothy Dalton as Corinne Melrose\n\nBilly Mason as Billy Penrose\n\nWilliam Courtright as Deacon Simpson\n\nGertrude Claire as Aunt Tiny Colvin\n\nWalter Hiers as Hiram Short\n\nNona Thomas as Daisy May\n\nA print survives in the Archives du Filmdu CNC(Bois d'Arcy) France.",
+      "excerpt_offset": 0,
+      "total_chars": 569,
+      "bm25": {
+        "q0": {
+          "rank": 6,
+          "score": 26.2367
+        }
+      },
+      "best_rank": 6,
+      "title_similarity": 0.0,
+      "context_overlap": 0.0,
+      "cosine": -0.021324,
+      "rerank_logit": -10.717806,
+      "rerank_position": 18
+    },
+    {
+      "page_id": "2189618",
+      "revision_id": "1234533442",
+      "title": "Lake Shala",
+      "url": "https://en.wikipedia.org/wiki/Lake_Shala",
+      "excerpt": "Lake Shala (also spelled Shalla) is an alkaline lake located in the Ethiopian Rift Valley, in the Abijatta-Shalla National Park.\n\nThe lake is 28 kilometers long and 12 wide, with a surface area of 329 square kilometers. It has a maximum depth of 266 meters and is at an elevation of 1,558 meters. As such, it is the deepest of Ethiopia's Rift Valley lakes.\n\nKnown for the sulphur springs on the lake bed, its islands are inhabited by great white pelicans, one being known as Pelican Island.\n\nLake Shala is surrounded by hot springs filled with boiling water, and the earth surrounding the lake is filled with cracks due to erosion and earthquakes. Due to steam rising from the boiling water in the springs, the atmosphere around the lake is relatively foggy. Various species of flamingoes and birds that frequent the lake are found at its southern end.",
+      "excerpt_offset": 0,
+      "total_chars": 852,
+      "bm25": {
+        "q0": {
+          "rank": 7,
+          "score": 26.1942
+        }
+      },
+      "best_rank": 7,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1311,
+      "cosine": 0.197796,
+      "rerank_logit": -10.148079,
+      "rerank_position": 11
+    },
+    {
+      "page_id": "52636",
+      "revision_id": "1351235931",
+      "title": "Boiling",
+      "url": "https://en.wikipedia.org/wiki/Boiling",
+      "excerpt": "Boiling or ebullition is the rapid phase transition from liquid to gas or vapour; the reverse of boiling is condensation. Boiling occurs when a liquid is heated to its boiling point, so that the vapour pressure of the liquid is equal to the pressure exerted on the liquid by the surrounding atmosphere. Boiling and evaporation are the two main forms of liquid vapourization.\n\nThere are two main types of boiling: nucleate boiling, where small bubbles of vapour form at discrete points; and critical heat flux boiling, where the boiling surface is heated above a certain critical temperature and a film of vapour forms on the surface. Transition boiling is an intermediate, unstable form of boiling with elements of both types. The boiling point of water is 100 °C or 212 °F, but is lower with the decreased atmospheric pressure found at higher altitudes.\n\nBoiling water is used as a method of making it potable by killing microbes and viruses that may be present. The sensitivity of different micro-organisms to heat varies, but if water is held at 100 °C (212 °F) for one minute, most micro-organisms and viruses are inactivated. Ten minutes at a temperature of 70 °C (158 °F) is also sufficient to ",
+      "excerpt_offset": 0,
+      "total_chars": 10788,
+      "bm25": {
+        "q0": {
+          "rank": 8,
+          "score": 26.1634
+        }
+      },
+      "best_rank": 8,
+      "title_similarity": 0.0,
+      "context_overlap": 0.0923,
+      "cosine": 0.165572,
+      "rerank_logit": -9.166924,
+      "rerank_position": 2
+    },
+    {
+      "page_id": "13034",
+      "revision_id": "1345191553",
+      "title": "Geyser",
+      "url": "https://en.wikipedia.org/wiki/Geyser",
+      "excerpt": "rbulently and accompanied by steam. The formation of geysers is fairly rare and is caused by particular hydrogeological conditions that exist only in a few places on Earth.\n\nGenerally, geyser field sites are located near active volcanic areas, and the geyser effect is due to the proximity of magma. Surface water works its way down to an average depth of around 2,000 metres (6,600 ft) where it contacts hot rocks. The pressurized water boils, and this causes the geyser effect of hot water and steam spraying out of the geyser's surface vent.\n\nA geyser's eruptive activity may change or cease due to ongoing deposition of minerals within their plumbing, exchange of functions with nearby hot springs, earthquake influences, and human intervention. Like many other natural phenomena, geysers are not unique to Earth. Jet-like eruptions, often called cryogeysers, have been observed on several of the moons of the outer Solar System. Due to the low ambient pressures, these eruptions consist of vapour without liquid; they are made more easily visible by particles of dust and ice carried aloft by the gas. Water vapour jets have been observed near the south pole of Saturn 's moon Enceladus, while n",
+      "excerpt_offset": 107,
+      "total_chars": 19239,
+      "bm25": {
+        "q0": {
+          "rank": 9,
+          "score": 26.0244
+        }
+      },
+      "best_rank": 9,
+      "title_similarity": 0.0,
+      "context_overlap": 0.0532,
+      "cosine": 0.343652,
+      "rerank_logit": -8.591977,
+      "rerank_position": 1
+    },
+    {
+      "page_id": "40959252",
+      "revision_id": "1318531062",
+      "title": "Package boiler",
+      "url": "https://en.wikipedia.org/wiki/Package_boiler",
+      "excerpt": " In operation the stack gasses are cooler and less corrosive than solid fuels. They may be vented using an existing masonry chimney, or an insulated coaxial steel tube chimney. Because the burner’s blower delivers combustion air, the over-fire draught negative pressure required is nearly nil. Stack height need only be sufficient for structure safety and to clear the nuisance of the exhaust fumes. The tall chimney needed to provide a large negative pressure to draw combustion air through a bed of solid fuel is not required. In most installations a barometric damper is used to maintain a constant over-fire draught so that the air to fuel ratio remains constant instead of increasing with the increasing draught available at the stack as the outdoor temperature falls.\n\nPackage boilers are commonly called water or fire tube Boilers. Water tube boilers use convection heating, which draws the heat from the fire source, and passes against the generating tubes of the boiler, causing water inside those tubes to boil off into steam. The fire tube boiler arrangement utilizes conduction heating which transfers heat from physical contact. Water tube boilers are not commonly used due to their meth",
+      "excerpt_offset": 1180,
+      "total_chars": 6751,
+      "bm25": {
+        "q0": {
+          "rank": 10,
+          "score": 25.9265
+        }
+      },
+      "best_rank": 10,
+      "title_similarity": 0.0,
+      "context_overlap": 0.0235,
+      "cosine": 0.087123,
+      "rerank_logit": -9.738055,
+      "rerank_position": 7
+    },
+    {
+      "page_id": "11625477",
+      "revision_id": "1321863272",
+      "title": "Oil heater",
+      "url": "https://en.wikipedia.org/wiki/Oil_heater",
+      "excerpt": "An oil heater, also known as an oil-filled heater, oil-filled radiator, or column heater, is a common form of convection heater used in domestic heating. Although filled with oil, it is electrically heated and does not involve burning any oil fuel; the oil is used as a heat reservoir (buffer).\n\nOil heaters consist of metal columns with cavities inside, where heat-transfer oil flows freely around the heater. A heating element at the base of the heater heats the diathermic oil, which flows around the cavities of the heater by convection. The oil has a relatively high specific heat capacity and a high boiling point. The high specific heat capacity allows the oil to effectively transfer thermal energy from the heating element, while the oil's high boiling point allows it to remain in the liquid phase for heating, so that the heater does not have to be a high-pressure vessel.\n\nThe heating element heats the oil, which transfers heat to the metal wall through convection, through the walls via conduction, and then to the surroundings via air convection and thermal radiation. The columns of oil heaters are typically constructed as thin fins, such that the surface area of the metal columns i",
+      "excerpt_offset": 0,
+      "total_chars": 5648,
+      "bm25": {
+        "q0": {
+          "rank": 11,
+          "score": 25.8482
+        }
+      },
+      "best_rank": 11,
+      "title_similarity": 0.0,
+      "context_overlap": 0.0615,
+      "cosine": 0.111959,
+      "rerank_logit": -10.391953,
+      "rerank_position": 16
+    },
+    {
+      "page_id": "351806",
+      "revision_id": "1305626398",
+      "title": "Fractionating column",
+      "url": "https://en.wikipedia.org/wiki/Fractionating_column",
+      "excerpt": "A fractionating column or fractional column is equipment used in the distillation of liquid mixtures to separate the mixture into its component parts, or fractions, based on their differences in volatility. Fractionating columns are used in small-scale laboratory distillations as well as large-scale industrial distillations.\n\nA laboratory fractionating column is a piece of glassware used to separate vaporized mixtures of liquid compounds with close volatility. Most commonly used is either a Vigreux column or a straight column packed with glass beads or metal pieces such as Raschig rings. Fractionating columns help to separate the mixture by allowing the mixed vapors to cool, condense, and vaporize again in accordance with Raoult's law. With each condensation -vaporization cycle, the vapors are enriched in a certain component. A larger surface area allows more cycles, improving separation. This is the rationale for a Vigreux column or a packed fractionating column. Spinning band distillation achieves the same outcome by using a rotating band within the column to force the rising vapors and descending condensate into close contact, achieving equilibrium more quickly.\n\nIn a typical fr",
+      "excerpt_offset": 0,
+      "total_chars": 6641,
+      "bm25": {
+        "q0": {
+          "rank": 12,
+          "score": 25.7281
+        }
+      },
+      "best_rank": 12,
+      "title_similarity": 0.0,
+      "context_overlap": 0.0519,
+      "cosine": 0.025198,
+      "rerank_logit": -10.374477,
+      "rerank_position": 15
+    },
+    {
+      "page_id": "466463",
+      "revision_id": "1344198625",
+      "title": "Varenyky",
+      "url": "https://en.wikipedia.org/wiki/Varenyky",
+      "excerpt": "Varenyky (Ukrainian: вареники, sg.: varenyk) are traditional Ukrainian dumplings made from unleavened dough and filled with sweet or savoury ingredients. They are regarded as one of the most emblematic dishes of Ukrainian cuisine and are closely related to other East European dumplings such as Polish pierogi. A key distinction made between the Ukrainian varenyky and the Polish pierogi is that the former has thinner, softer dough and traditionally simpler filling, most often only consisting of potato.\n\nThe term varenyky derives from the Ukrainian verb varýty (to boil), referring to their primary cooking method.\n\nVarenyky have been documented in Ukrainian culinary traditions for centuries and appear in folklore, ritual practices, and literature. They were commonly prepared for festive occasions, harvest celebrations, and religious holidays.\n\nReferences to varenyky appear in Ukrainian folk songs and humour, where the dish symbolises abundance, warmth, and hospitality.\n\nVarenyky are usually prepared by:\n\nRolling dough into thin sheets\n\nCutting into circles\n\nAdding filling\n\nFolding and sealing\n\nBoiling until the dumplings rise to the surface\n\nThis method is widely documented in Ukrainia",
+      "excerpt_offset": 0,
+      "total_chars": 3255,
+      "bm25": {
+        "q0": {
+          "rank": 13,
+          "score": 25.4598
+        }
+      },
+      "best_rank": 13,
+      "title_similarity": 0.0,
+      "context_overlap": 0.0488,
+      "cosine": 0.002189,
+      "rerank_logit": -11.504714,
+      "rerank_position": 20
+    },
+    {
+      "page_id": "213614",
+      "revision_id": "1346013293",
+      "title": "Fractional distillation",
+      "url": "https://en.wikipedia.org/wiki/Fractional_distillation",
+      "excerpt": "Fractional distillation is the separation of a mixture into its component parts, or fractions. Chemical compounds are separated by heating them to a temperature at which one or more fractions of the mixture will vaporize. It uses distillation to fractionate. Generally the component parts have boiling points that differ by less than 25 °C (45 °F) from each other under a pressure of one atmosphere. If the difference in boiling points is greater than 25 °C, a simple distillation is typically used.\n\nA crude oil distillation unit uses fractional distillation in the process of refining crude oil.\n\nThe fractional distillation of organic substances played an important role in the 9th-century works attributed to the Islamic alchemist Jabir ibn Hayyan, as for example in the Kitāb al-Sabʿīn ('The Book of Seventy'), translated into Latin by Gerard of Cremona (c. 1114–1187) under the title Liber de septuaginta. The Jabirian experiments with fractional distillation of animal and vegetable substances, and to a lesser degree also of mineral substances, formed the main topic of the De anima in arte alkimiae, an originally Arabic work falsely attributed to Avicenna that was translated into Latin and",
+      "excerpt_offset": 0,
+      "total_chars": 13279,
+      "bm25": {
+        "q0": {
+          "rank": 14,
+          "score": 25.137
+        }
+      },
+      "best_rank": 14,
+      "title_similarity": 0.0,
+      "context_overlap": 0.0405,
+      "cosine": 0.088119,
+      "rerank_logit": -10.347067,
+      "rerank_position": 14
+    },
+    {
+      "page_id": "11169828",
+      "revision_id": "1329034275",
+      "title": "Middelzee",
+      "url": "https://en.wikipedia.org/wiki/Middelzee",
+      "excerpt": "The Middelzee (Dutch for \"middle sea\"; West Frisian: Middelsee), also called Bordine, was the estuary mouth of the River Boorne (West Frisian: Boarn) now in the Dutch province of Friesland. It ran from as far south as Sneek northward to the Wadden Sea and marked the border between main Frisian regions of Westergoa (Westergo) and Eastergoa (Oostergo). Other historical names for the Middelzee include Bordaa, Borndiep, Boerdiep, and Bordena. The names like Bordine, mean \"border\".\n\nBack in the Pleistocene the Boorne was a river that had a drainage basin in Friesland, Drenthe, and Groningen. It flowed from Saalien glacial till plateau in a southwest direction, and met the sea west of Het Bildt. The Boorne passed the current location of Akkrum and Rauwerd. The connection to the Wadden Sea became blocked by sand dunes in the Weichselian time period, and the mouth of the river was forced more and more easterly, until it was heading in a north-northwest direction from Akkrum. In the Holocene, the sea rose flooding the valley to form an estuary. Before 7000 years ago, the sea was rising at a rate of 0.75 meters per century, and the rising sea was faster than the sedimentation There are still",
+      "excerpt_offset": 0,
+      "total_chars": 4577,
+      "bm25": {
+        "q0": {
+          "rank": 15,
+          "score": 24.8343
+        }
+      },
+      "best_rank": 15,
+      "title_similarity": 0.0,
+      "context_overlap": 0.046,
+      "cosine": 0.054642,
+      "rerank_logit": -9.806293,
+      "rerank_position": 8
+    },
+    {
+      "page_id": "25985632",
+      "revision_id": "1119856308",
+      "title": "Vertical cross-tube boiler",
+      "url": "https://en.wikipedia.org/wiki/Vertical_cross-tube_boiler",
+      "excerpt": "dependent power of winches, steam cranes etc.\n\nThe boiler has the advantage of simple robust construction, in particular requiring little regular maintenance. It is relatively inefficient, which was not a serious drawback to the purposes for which it was used. However it was also of limited heating surface, thus limiting its sustained output power, compared to other boiler designs. For that reason it was rarely used when power was required continuously, such as for locomotives. However as the boiler is of relatively large internal volume relative to its power, this acts as a transient reserve of steam. Applications such as cranes only require steam intermittently, allowing the boiler to recover pressure between lifts.\n\nThe boiler consists of a cylindrical vertical external shell, with a large firebox inside this, filling perhaps half of the total height. A single large vertical flue or uptake leads to an external chimney. Some boilers use vertical rod stays between the firebox crown and top of the boiler shell.\n\nThe main evaporative surface is provided by a pair of large water-filled cross-tubes across this firebox and directly exposed to the radiant heat of the fire. As these tube",
+      "excerpt_offset": 151,
+      "total_chars": 3077,
+      "bm25": {
+        "q0": {
+          "rank": 16,
+          "score": 24.7651
+        }
+      },
+      "best_rank": 16,
+      "title_similarity": 0.0,
+      "context_overlap": 0.0349,
+      "cosine": 0.069676,
+      "rerank_logit": -10.208604,
+      "rerank_position": 12
+    },
+    {
+      "page_id": "20973546",
+      "revision_id": "1350434564",
+      "title": "Mariana Trench Marine National Monument",
+      "url": "https://en.wikipedia.org/wiki/Mariana_Trench_Marine_National_Monument",
+      "excerpt": "The Mariana Trench Marine National Monument is a United States National Monument created by President George W. Bush by the presidential proclamation no. 8335 on January 6, 2009. The monument includes no dry land area, but protects 95,216 square miles (246,610 km 2) of submerged lands and waters in various places around the Mariana Archipelago, including part of the Mariana Trench and submerged volcanos.\n\nThe Mariana Trench Marine National Monument consists of 95,216 square miles (60,938,240 acres). The monument consists of submerged lands and waters of the Mariana Archipelago. It includes three units:\n\nIslands Unit – the waters and submerged lands of the three northernmost Mariana Islands (Farallon de Pajaros or Uracas, Maug, and Asuncion)\n\nVolcanic Unit (Mariana Arc of Fire National Wildlife Refuge) – the submerged lands within 1 nautical mile of 21 designated volcanic sites\n\nTrench Unit (Mariana Trench National Wildlife Refuge) – the submerged lands extending from the northern limit of the Exclusive Economic Zone of the United States in the Commonwealth of the Northern Mariana Islands (CNMI) to the southern limit of the Exclusive Economic Zone of the United States in the Guam.\n\n",
+      "excerpt_offset": 0,
+      "total_chars": 4522,
+      "bm25": {
+        "q0": {
+          "rank": 17,
+          "score": 24.7121
+        }
+      },
+      "best_rank": 17,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1148,
+      "cosine": 0.091375,
+      "rerank_logit": -9.735387,
+      "rerank_position": 6
+    },
+    {
+      "page_id": "164596",
+      "revision_id": "1222602995",
+      "title": "Storm track",
+      "url": "https://en.wikipedia.org/wiki/Storm_track",
+      "excerpt": "Storm tracks are the relatively narrow zones in seas and oceans where storms travel driven by the prevailing winds.\n\nThe Atlantic and Pacific have storm tracks along which most Atlantic or Pacific extratropical cyclones or tropical cyclones travel. The storm tracks usually begin in the westernmost parts of Atlantic and Pacific, where the large temperature contrasts between land and sea cause cyclones to form, particularly in winter. Surface friction cause these cyclones to quickly fill up and decay as soon as they reach land at the eastern end of the basins, accounting for the easternmost edges of the storm tracks.\n\nStorm tracks can shift position, causing important climatic patterns. As an example, during La Niña the Atlantic storm track shifts north causing droughts in Palestine, while during El Niño it shifts south bringing heavy rains to the same region.\n\nAnother example of a storm track is the circumpolar storm track in the Antarctic, however land-sea contrasts play no role in its formation.\n\nGiven a grid point field of geopotential height, storm tracks can be visualized by contouring its average standard deviation, after the data has been band-pass filtered.",
+      "excerpt_offset": 0,
+      "total_chars": 1182,
+      "bm25": {
+        "q0": {
+          "rank": 18,
+          "score": 24.5019
+        }
+      },
+      "best_rank": 18,
+      "title_similarity": 0.0,
+      "context_overlap": 0.0976,
+      "cosine": 0.026389,
+      "rerank_logit": -9.855297,
+      "rerank_position": 10
+    },
+    {
+      "page_id": "20135689",
+      "revision_id": "1294710033",
+      "title": "Boilover",
+      "url": "https://en.wikipedia.org/wiki/Boilover",
+      "excerpt": "A boilover (or boil-over) is an extremely hazardous phenomenon in which a layer of water under a pool fire (e.g., an open-top tank fire) starts boiling, which results in a significant increase in fire intensity accompanied by violent expulsion of burning fluid to the surrounding areas. Boilover can only occur if the liquid fluid is a mixture of different chemical species with sufficiently diverse boiling points, although a so-called thin-layer boilover – a far less hazardous phenomenon – can arise from any water-immiscible liquid fuel. Crude oil, kerosene and some diesel oils are examples of fuels giving rise to boilover.\n\nBoilovers at industrial scale are rare but can lead to serious plant damage. Given the sudden and not easily predictable onset of the phenomenon, fatalities can occur, especially among firefighters and bystanders that have not been made to leave the area.\n\nSlopover and frothover are phenomena similar to boilover but distinct from it. A slopover occurs when pouring water over a liquid pool fire, which may result in sudden expulsion of blazing fluid as well as considerable flame growth if the fire is small, as is the case when dousing water over a chip pan fire. A ",
+      "excerpt_offset": 0,
+      "total_chars": 14181,
+      "bm25": {
+        "q0": {
+          "rank": 19,
+          "score": 24.424
+        }
+      },
+      "best_rank": 19,
+      "title_similarity": 0.0,
+      "context_overlap": 0.0682,
+      "cosine": 0.150692,
+      "rerank_logit": -9.329193,
+      "rerank_position": 3
+    },
+    {
+      "page_id": "48830787",
+      "revision_id": "1344373079",
+      "title": "The Unwanteds (novel)",
+      "url": "https://en.wikipedia.org/wiki/The_Unwanteds_(novel)",
+      "excerpt": "The Unwanteds is a fantasy novel by Lisa McMann and published by Aladdin in 2011. It is recommended for ages 8–15.\n\nOn the island of Quill, anyone who displays artistic talent is Unwanted and sent to the Death Farm for execution when they turn thirteen. Alex Stowe, the son of two 'Necessaries', has two strikes against him and has known his fate since the age of ten. On the day of the annual Purge, he is declared an 'Unwanted' and sent to his death, along with twenty other young teens. Meanwhile, his twin brother, Aaron is declared a 'Wanted' and sent to the University for training as one of Quill's leaders.\n\nWhen Alex and the other Unwanteds are dropped off at The Great Lake Of Boiling Oil, however, they are shocked to find themselves welcomed into the magical land of Artimè, created, hidden, and led by a mage called Mr. Today, with the help of his many staff. While Alex and his new friends learn magic from art and creativity, Aaron displays loyalty and usefulness by creating the Favored Farm, an exclusive farm intended to provide the Wanteds of Quill with an abundance of healthy plants and animals. Through this action, he attracts the notice of High Priest Justine and rises to the",
+      "excerpt_offset": 0,
+      "total_chars": 2048,
+      "bm25": {
+        "q0": {
+          "rank": 20,
+          "score": 24.3836
+        }
+      },
+      "best_rank": 20,
+      "title_similarity": 0.0,
+      "context_overlap": 0.0652,
+      "cosine": 0.106358,
+      "rerank_logit": -10.819624,
+      "rerank_position": 19
+    }
+  ]
+}

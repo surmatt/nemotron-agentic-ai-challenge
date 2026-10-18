@@ -1,0 +1,90 @@
+{
+  "variant": "crop_think",
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:258",
+  "block_index": 5,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T12:15:26+00:00",
+  "elapsed_seconds": 11.79,
+  "finish_reason": "stop",
+  "parse_text": "WILLLAMSBURG, e town of North America, in Virginia, and formerly capital of that fact. It is fuated between two rocks; one falling into James, and the other into York River. The distance of each landing place is about a mile from the town, which, with the chief advantage of not being able to bring large wells, and she want of enterprin in the inhabitants, has occhedinal as decay. Here is a college, designed for the education of the Indians, but which, as account of their services to learning, overau-fered the purple. It is 60 miles east of Richmond. W. Long, 76, 30, N. Las 27, 10.",
+  "corrected_text": "WILLIAMSBURG, a town of North America, in Virginia, and formerly capital of that state. It is situated between two creeks ; one falling into James, and the other into York River. The distance of each landing place is about a mile from the town, which, with the disadvantage of not being able to bring up large vessels, and the want of enterprise in the inhabitants, has occasioned its decay. Here is a college, designed for the education of the Indians, but which, on account of their aversion to learning, never answered the purpose. It is 60 miles east of Richmond. W. Long. 76. 30. N. Lat. 37. 10.",
+  "reasoning_tokens": 3023,
+  "usage": {
+    "completion_tokens": 3176,
+    "prompt_tokens": 659,
+    "total_tokens": 3835,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 3023,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 327
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 12000,
+    "temperature": 0
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows this region of the page. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\nWILLLAMSBURG, e town of North America, in Virginia, and formerly capital of that fact. It is fuated between two rocks; one falling into James, and the other into York River. The distance of each landing place is about a mile from the town, which, with the chief advantage of not being able to bring large wells, and she want of enterprin in the inhabitants, has occhedinal as decay. Here is a college, designed for the education of the Indians, but which, as account of their services to learning, overau-fered the purple. It is 60 miles east of Richmond. W. Long, 76, 30, N. Las 27, 10.",
+  "response": {
+    "id": "chatcmpl-8554ce78143d7022",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "WILLIAMSBURG, a town of North America, in Virginia, and formerly capital of that state. It is situated between two creeks ; one falling into James, and the other into York River. The distance of each landing place is about a mile from the town, which, with the disadvantage of not being able to bring up large vessels, and the want of enterprise in the inhabitants, has occasioned its decay. Here is a college, designed for the education of the Indians, but which, on account of their aversion to learning, never answered the purpose. It is 60 miles east of Richmond. W. Long. 76. 30. N. Lat. 37. 10.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": "The user wants me to correct the OCR text based on the provided image.\n\n**1. Analyze the Image:**\n- The image shows a snippet of text from an old encyclopedia.\n- The text starts with \"WILLIAMSBURG, a town of North America, in Virginia...\".\n- I need to transcribe the text exactly as it appears in the image, following specific rules.\n\n**2. Rules Checklist:**\n- Write long s as 's'. (The image uses standard 's' mostly, but I need to be careful if there are long s's. Looking closely, the font looks like a standard serif font, possibly with long s. Let's look at words like \"situated\", \"creeks\", \"distance\". The 's' looks like a standard short 's' in most places, but let's check for long s. Actually, looking at \"situated\", the first 's' looks like a long s? No, it looks like a standard 's'. Wait, let's look at \"fleet\" in OCR vs image. Image says \"state\". OCR said \"flate\". Let's look at the image text carefully.)\n- Keep original spelling, capitals, and punctuation.\n- Join a word that a line-break hyphen splits. (I need to check for hyphens at line ends).\n- Leave out page headers, page numbers, catchwords, and margin notes. (The top line \"Sweet-WILLIAM. See DIANTHUS.\" seems to be a header/cross-reference. I should probably exclude it if it's a header. The prompt says \"Leave out page headers...\". The text block starts clearly with \"WILLIAMSBURG\".)\n- Ignore lines cut at the top or bottom edge. (The bottom line \"Long. 76. 30. N. Lat. 37. 10.\" is cut off at the bottom? No, it's visible. Wait, the very bottom line \"WILLIAMSTADT...\" is cut off. I should ignore that.)\n- Do not add any word that you cannot see.\n- Write [?] for an illegible word.\n- Answer with text only.\n\n**3. Transcription Process (Line by Line):**\n\n*   **Line 1:** \"WILLIAMSBURG, a town of North America, in\" -> Matches image.\n*   **Line 2:** \"Virginia, and formerly capital of that state. It is situated\" -> OCR said \"flate\", image says \"state\". OCR said \"fuated\", image says \"situated\".\n*   **Line 3:** \"between two creeks ; one falling into James, and the other\" -> OCR said \"rocks\", image says \"creeks\". Punctuation: semicolon after creeks.\n*   **Line 4:** \"into York River. The distance of each landing place is\" -> Matches.\n*   **Line 5:** \"about a mile from the town, which, with the disadvantage\" -> OCR said \"difadvantage\", image says \"disadvantage\".\n*   **Line 6:** \"of not being able to bring up large vessels, and the want of\" -> OCR said \"wells\", image says \"vessels\".\n*   **Line 7:** \"enterprise in the inhabitants, has occasioned its decay. Here\" -> OCR said \"enterprin\", \"occhedinal\". Image: \"enterprise\", \"occasioned\".\n*   **Line 8:** \"is a college, designed for the education of the Indians, but\" -> Matches.\n*   **Line 9:** \"which, on account of their aversion to learning, never an-\" -> Hyphen at end. Need to join with next line. Word is \"another\"? Let's check next line.\n*   **Line 10:** \"swered the purpose. It is 60 miles east of Richmond. W.\" -> So line 9 ends with \"an-\" and line 10 starts with \"swered\". Joined: \"answered\".\n*   **Line 11:** \"Long. 76. 30. N. Lat. 37. 10.\" -> This is the last full line.\n*   **Line 12 (Bottom cut off):** \"WILLIAMSTADT...\" -> Ignore as per rule \"Ignore lines cut at the top or bottom edge\". Wait, is it cut? Yes, the bottom of the letters is cut off.\n\n**4. Refining the Text:**\n\nLet's assemble the full paragraph.\n\n\"WILLIAMSBURG, a town of North America, in Virginia, and formerly capital of that state. It is situated between two creeks ; one falling into James, and the other into York River. The distance of each landing place is about a mile from the town, which, with the disadvantage of not being able to bring up large vessels, and the want of enterprise in the inhabitants, has occasioned its decay. Here is a college, designed for the education of the Indians, but which, on account of their aversion to learning, never answered the purpose. It is 60 miles east of Richmond. W. Long. 76. 30. N. Lat. 37. 10.\"\n\n**5. Checking specific details:**\n- \"state\" vs \"flate\": Image clearly shows \"state\".\n- \"creeks\" vs \"rocks\": Image clearly shows \"creeks\".\n- \"situated\": Image shows \"situated\".\n- \"disadvantage\": Image shows \"disadvantage\".\n- \"vessels\": Image shows \"vessels\".\n- \"enterprise\": Image shows \"enterprise\".\n- \"occasioned\": Image shows \"occasioned\".\n- \"aversion\": Image shows \"aversion\".\n- \"answered\": Split across lines \"an-\" and \"swered\". Rule: Join a word that a line-break hyphen splits. So \"answered\".\n- Coordinates: \"Long. 76. 30. N. Lat. 37. 10.\"\n\n**6. Formatting:**\n- The top line \"Sweet-WILLIAM. See DIANTHUS.\" is a header/cross reference. Rule: \"Leave out page headers...\". I will exclude it.\n- The bottom line starting with \"WILLIAMSTADT\" is cut off. Rule: \"Ignore lines cut at the top or bottom edge\". I will exclude it.\n\n**Final Text Construction:**\nWILLIAMSBURG, a town of North America, in Virginia, and formerly capital of that state. It is situated between two creeks ; one falling into James, and the other into York River. The distance of each landing place is about a mile from the town, which, with the disadvantage of not being able to bring up large vessels, and the want of enterprise in the inhabitants, has occasioned its decay. Here is a college, designed for the education of the Indians, but which, on account of their aversion to learning, never answered the purpose. It is 60 miles east of Richmond. W. Long. 76. 30. N. Lat. 37. 10.\n\nWait, let's look at the punctuation in the image carefully.\nLine 3: \"between two creeks ; one falling...\" -> There is a space before the semicolon? Or just a semicolon. It looks like \"creeks ;\".\nLine 9/10: \"never an- / swered\". Joined: \"answered\".\n\nLet's double check the \"long s\" rule. \"write the long s as 's'\". In the image, do I see long s?\nIn \"situated\", the 's' looks like a standard s.\nIn \"creeks\", standard s.\nIn \"distance\", standard s.\nIn \"place\", standard s.\nIn \"disadvantage\", standard s.\nIn \"vessels\", standard s.\nIn \"inhabitants\", standard s.\nIn \"occasioned\", standard s.\nIn \"college\", standard s.\nIn \"Indians\", standard s.\nIn \"account\", standard s.\nIn \"aversion\", standard s.\nIn \"learning\", standard s.\nIn \"answered\", standard s.\nIn \"miles\", standard s.\nIt seems the font doesn't use long s, or it's very subtle. I will just transcribe the characters as they appear, which are standard 's'.\n\nOne detail: \"W. Long. 76. 30. N. Lat. 37. 10.\"\nThe OCR had \"W. Long, 76, 30, N. Las 27, 10.\"\nImage: \"W. Long. 76. 30. N. Lat. 37. 10.\" (The last digit looks like a 10, maybe cut off slightly but readable). Actually, looking at the very bottom crop, \"Lat. 37. 10.\" is visible.\n\nLet's re-read the full text block to ensure flow.\n\"WILLIAMSBURG, a town of North America, in Virginia, and formerly capital of that state. It is situated between two creeks ; one falling into James, and the other into York River. The distance of each landing place is about a mile from the town, which, with the disadvantage of not being able to bring up large vessels, and the want of enterprise in the inhabitants, has occasioned its decay. Here is a college, designed for the education of the Indians, but which, on account of their aversion to learning, never answered the purpose. It is 60 miles east of Richmond. W. Long. 76. 30. N. Lat. 37. 10.\"\n\nWait, looking at line 9 end: \"never an-\". Line 10 start: \"swered the purpose.\"\nSo \"never answered the purpose.\"\n\nLet's check the header again. \"Sweet-WILLIAM. See DIANTHUS.\" is at the very top. It is distinct from the main block. I will omit it.\n\nFinal check on punctuation.\n\"creeks ;\" -> semicolon.\n\"state. It\" -> period.\n\"River. The\" -> period.\n\"place is\" -> no punctuation.\n\"town, which,\" -> commas.\n\"decay. Here\" -> period.\n\"Indians, but\" -> comma.\n\"learning, never\" -> comma.\n\"purpose. It\" -> period.\n\"Richmond. W.\" -> period.\n\nThe text seems solid.\n\nOne small check on \"Long. 76. 30. N. Lat. 37. 10.\"\nThe image shows:\n\"Long. 76. 30. N. Lat. 37. 10.\"\nThe OCR had \"W. Long, 76, 30, N. Las 27, 10.\"\nThe image clearly has periods after Long, 76, 30, N, Lat. And 37. 10.\nWait, let's look at the \"W.\" before Long.\nLine 10 ends with \"Richmond. W.\"\nLine 11 starts with \"Long. 76. 30. N. Lat. 37. 10.\"\nSo it flows: \"...Richmond. W. Long. 76. 30. N. Lat. 37. 10.\"\n\nLet's verify the text \"Sweet-WILLIAM. See DIANTHUS.\"\nIt is at the top. It looks like a running head or a previous entry tail. The rule says \"Leave out page headers...\". This fits.\n\nFinal check on the split word \"an- / swered\".\nLine 9 ends: \"which, on account of their aversion to learning, never an-\"\nLine 10 starts: \"swered the purpose. It is 60 miles east of Richmond. W.\"\nSo joined: \"answered\".\n\nFinal check on the bottom line.\n\"WILLIAMSTADT...\" is cut off at the bottom. Ignore.\n\nThe text to output:\nWILLIAMSBURG, a town of North America, in Virginia, and formerly capital of that state. It is situated between two creeks ; one falling into James, and the other into York River. The distance of each landing place is about a mile from the town, which, with the disadvantage of not being able to bring up large vessels, and the want of enterprise in the inhabitants, has occasioned its decay. Here is a college, designed for the education of the Indians, but which, on account of their aversion to learning, never answered the purpose. It is 60 miles east of Richmond. W. Long. 76. 30. N. Lat. 37. 10.\n\nOne detail: \"creeks ;\" - is there a space? In old typography, sometimes there is a space before semicolon. Looking at crop 2, \"creeks ;\" looks like there might be a small space, or it's just the kerning. I will transcribe it as \"creeks ;\" if it looks like it, or just \"creeks;\". Looking closely at crop 2, there is a distinct gap. \"creeks ;\". I will include the space if it's distinct, but standard transcription usually tightens it unless it's clearly a space. Let's look at the OCR provided: \"between two rocks ;\". The OCR has a space. I will keep the space to be faithful to the visual spacing if it's obvious, but usually, I just write the text. Let's look at the image again. \"creeks ;\". Yes, there is a space.\nAlso \"James, and the other\".\n\"York River. The\".\n\"landing place is\".\n\"town, which,\".\n\"disadvantage of\".\n\"vessels, and the\".\n\"inhabitants, has\".\n\"decay. Here\".\n\"Indians, but\".\n\"learning, never\".\n\"purpose. It\".\n\"Richmond. W.\"\n\nLet's assemble."
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792325727,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 3176,
+      "prompt_tokens": 659,
+      "total_tokens": 3835,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 3023,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 327
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

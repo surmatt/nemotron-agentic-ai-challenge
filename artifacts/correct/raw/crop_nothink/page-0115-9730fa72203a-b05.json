@@ -1,0 +1,93 @@
+{
+  "variant": "crop_nothink",
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:115",
+  "block_index": 5,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T12:19:49+00:00",
+  "elapsed_seconds": 1.41,
+  "finish_reason": "stop",
+  "parse_text": "\"Nevertheless, as the lists which connect the adopter\nwith the rester of downward different towards the end\nof the operation, it would be more proident to leave\nevery thing in its place, for fear of damaging thief\nhates. This danger is greater when the adopters is of\nlead, because the great length of this additional piece\ntends to force the hitting full now on the account.\nIf it be required to proceed immediately to a new dif\nutilities, the reason or basis with a capable e pan\nmult be immediately taken from the furnace, and un-\nthe fluidbulated in its place ready prepared during the\nformer distillation. This specifically requires a double\nfet of veffels.",
+  "corrected_text": "Nevertheless, as the lutes which connect the adopter with the retort are somewhat loosened towards the end of the operation, it would be more prudent to leave every thing in its place, for fear of deranging the lutes. This danger is greater when the adopter is of lead, because the great length of this additional piece tends to force the luting fill more on that account. If it be required to proceed immediately to a new distillation, the retort or bottle with its capsule or pan must be immediately taken from the furnace, and another substituted in its place ready prepared during the former distillation. This necessarily requires a double set of vessels.",
+  "reasoning_tokens": 0,
+  "usage": {
+    "completion_tokens": 133,
+    "prompt_tokens": 634,
+    "total_tokens": 767,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 310
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 3000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows this region of the page. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\n\"Nevertheless, as the lists which connect the adopter\nwith the rester of downward different towards the end\nof the operation, it would be more proident to leave\nevery thing in its place, for fear of damaging thief\nhates. This danger is greater when the adopters is of\nlead, because the great length of this additional piece\ntends to force the hitting full now on the account.\nIf it be required to proceed immediately to a new dif\nutilities, the reason or basis with a capable e pan\nmult be immediately taken from the furnace, and un-\nthe fluidbulated in its place ready prepared during the\nformer distillation. This specifically requires a double\nfet of veffels.",
+  "response": {
+    "id": "chatcmpl-be62fc0279751e52",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "Nevertheless, as the lutes which connect the adopter with the retort are somewhat loosened towards the end of the operation, it would be more prudent to leave every thing in its place, for fear of deranging the lutes. This danger is greater when the adopter is of lead, because the great length of this additional piece tends to force the luting fill more on that account. If it be required to proceed immediately to a new distillation, the retort or bottle with its capsule or pan must be immediately taken from the furnace, and another substituted in its place ready prepared during the former distillation. This necessarily requires a double set of vessels.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792325989,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 133,
+      "prompt_tokens": 634,
+      "total_tokens": 767,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 310
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

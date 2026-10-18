@@ -1,0 +1,93 @@
+{
+  "variant": "crop_nothink",
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:493",
+  "block_index": 9,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T12:20:49+00:00",
+  "elapsed_seconds": 2.11,
+  "finish_reason": "stop",
+  "parse_text": "Besides those already mentioned, the lords had a house and church at Logan, on the south side of Cochin-dal, a strong condition on rock in the near a Danne walk, at the north-east end of the country, fire they made this island their residence after their explication from that of Man in 1204—There is a tendency that while the site of Man may part of the Kingdom of the Ides, the rents were far a time paid in this country: these in seven were paid on a red, still called Org- _acanton_, or the revel of the silver rust;? the other, _Org-a-amrgel,_ or \"the rock of mean in kind.\" These lie opposite to each other, at the month of a harbour on the south side of this island. There are several force built on the idea in fresh water takes, and divers covered in different parts of the island, which have been used occasionally as places of strength. The island is divided into four parishes, viz. Kildahon, Kildahon, and Kildamore. The products is born of different kinds ; such as bears, which sometimes yields eleven folds and non-sig fold. Much flag is raised here, and about 2000, worth the end out of the island in yarn, which might better be manufactured on the spay, is give employ the poet native. Notwithstanding the experiences of the land, above 1000, worth of meal is annually imported (A). Ale is frequently made in this island the young top of earth, mixing technique due to that plant with one of mal, sometimes adding hops. Boththis relates, that this lifepe was much not among the Piesis yet and when that nation was estimated by the Scenic, the secret of marking it perished with them. Numbers of cattle are bred here, and about 1700 are annually exported as the",
+  "corrected_text": "Besides those already mentioned, the lords had a house and chapel at Lagau, on the south side of Lochindaal: a strong castle on a rock in the sea, at Dunowalk, at the south-east end of the country; for they made this island their residence after their expulsion from that of Man in 1304.—There is a tradition, that while the isle of Man was part of the kingdom of the Isles, the rents were for a time paid in this country: those in silver were paid on a rock, still called Creig-a-nione, or \"the rock of the silver rent;\" the other, Creig-a-nairgid, or \"the rock of rents in kind.\" These lie opposite to each other, at the mouth of a harbour on the south side of this island. There are several forts built on the isles in fresh water lakes, and divers caverns in different parts of the island, which have been used occasionally as places of strength. The island is divided into four parishes, viz. Kildalton, Killarow, Kilchoman, and Kilmenie. The produce is corn of different kinds; such as bear, which sometimes yields eleven fold; and oats six fold. Much flax is raised here, and about 2000l. worth sold out of the island in yarn, which might better be manufactured on the spot, to give employ to the poor natives. Notwithstanding the excellence of the land, above 1000l. worth of meal is annually imported (A). Ale is frequently made in this island of the young tops of heath, mixing two-thirds of that plant with one of malt, sometimes adding hops. Boethius relates, that this liquor was much used among the Picts; but when that nation was extirpated by the Scots, the secret of making it perished with them. Numbers of cattle are bred here, and about 1700 are annually exported at the",
+  "reasoning_tokens": 0,
+  "usage": {
+    "completion_tokens": 417,
+    "prompt_tokens": 1362,
+    "total_tokens": 1779,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 784
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 3000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows this region of the page. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\nBesides those already mentioned, the lords had a house and church at Logan, on the south side of Cochin-dal, a strong condition on rock in the near a Danne walk, at the north-east end of the country, fire they made this island their residence after their explication from that of Man in 1204—There is a tendency that while the site of Man may part of the Kingdom of the Ides, the rents were far a time paid in this country: these in seven were paid on a red, still called Org- _acanton_, or the revel of the silver rust;? the other, _Org-a-amrgel,_ or \"the rock of mean in kind.\" These lie opposite to each other, at the month of a harbour on the south side of this island. There are several force built on the idea in fresh water takes, and divers covered in different parts of the island, which have been used occasionally as places of strength. The island is divided into four parishes, viz. Kildahon, Kildahon, and Kildamore. The products is born of different kinds ; such as bears, which sometimes yields eleven folds and non-sig fold. Much flag is raised here, and about 2000, worth the end out of the island in yarn, which might better be manufactured on the spay, is give employ the poet native. Notwithstanding the experiences of the land, above 1000, worth of meal is annually imported (A). Ale is frequently made in this island the young top of earth, mixing technique due to that plant with one of mal, sometimes adding hops. Boththis relates, that this lifepe was much not among the Piesis yet and when that nation was estimated by the Scenic, the secret of marking it perished with them. Numbers of cattle are bred here, and about 1700 are annually exported as the",
+  "response": {
+    "id": "chatcmpl-b839f13646251aba",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "Besides those already mentioned, the lords had a house and chapel at Lagau, on the south side of Lochindaal: a strong castle on a rock in the sea, at Dunowalk, at the south-east end of the country; for they made this island their residence after their expulsion from that of Man in 1304.—There is a tradition, that while the isle of Man was part of the kingdom of the Isles, the rents were for a time paid in this country: those in silver were paid on a rock, still called Creig-a-nione, or \"the rock of the silver rent;\" the other, Creig-a-nairgid, or \"the rock of rents in kind.\" These lie opposite to each other, at the mouth of a harbour on the south side of this island. There are several forts built on the isles in fresh water lakes, and divers caverns in different parts of the island, which have been used occasionally as places of strength. The island is divided into four parishes, viz. Kildalton, Killarow, Kilchoman, and Kilmenie. The produce is corn of different kinds; such as bear, which sometimes yields eleven fold; and oats six fold. Much flax is raised here, and about 2000l. worth sold out of the island in yarn, which might better be manufactured on the spot, to give employ to the poor natives. Notwithstanding the excellence of the land, above 1000l. worth of meal is annually imported (A). Ale is frequently made in this island of the young tops of heath, mixing two-thirds of that plant with one of malt, sometimes adding hops. Boethius relates, that this liquor was much used among the Picts; but when that nation was extirpated by the Scots, the secret of making it perished with them. Numbers of cattle are bred here, and about 1700 are annually exported at the",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792326050,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 417,
+      "prompt_tokens": 1362,
+      "total_tokens": 1779,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 784
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

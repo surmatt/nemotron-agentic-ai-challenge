@@ -1,0 +1,93 @@
+{
+  "variant": "crop_nothink",
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:217",
+  "block_index": 3,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T12:19:53+00:00",
+  "elapsed_seconds": 2.56,
+  "finish_reason": "stop",
+  "parse_text": "As much wood ij efential to the charter, a foot\nmay raily be found, where tourists may go above the ice\nveri, or tone reaches low within it, may have the re-\nfemblance of a callle or an abby. The partial conceal\nmuch should deceifney to buy! I sent accord with\nthe age, the building mullk fees to be entire i the\nruins of them belong to litter days; the digdle is,\nhowever, advantageous to them as objects; none can\nbe imagined more petturique, than oyster bolomed\nin units, or a chalic appearing between the flora and\nthe branches. But the figurefictions of the times far\nnib other objects which are mean within compats’s\nbermatages over their very; foliage chapped were com-\nmonos : many of the Springs of the coming beyond\nhedoly wells, were diltinguished by little Gothic doma\nhall over there , and every hinder had its croti's even\nthis, when puffs/Aft can no like roller pilts, and that\nraised upon a bafe of circular fleeps, may in home forms\nbe considerable - in a frustrate en to found the a Abys-\npole, whence it would not change indicate if well on every view\nthat allo might not be improper; and an ancient church,\nhowever unwellance it may be when it breaks into the\ndefense of a walk or a garden in fach a farm as this\nwould be a four-tone sections: nor would the old year\nin the church park be indifferent; it would be a me-\nmorial of the times when it was inferior.",
+  "corrected_text": "As much wood is essential to the character, a spot may easily be found, where turrets rising above the covert, or some arches seen within it, may have the resemblance of a castle or an abbey. The partial concealment is almost necessary to both; for to accord with the age, the buildings must seem to be entire; the ruins of them belong to later days; the difficulty is, however, advantageous to them as objects; none can be imagined more picturesque, than a tower bosomed in trees, or a cluster appearing between the elms and the branches. But the superfluities of the times furnish other objects which are more within compass; hermitages were then real; foliary chapels were common; many of the springs of the country being deemed holy wells, were distinguished by little Gothic domes built over them; and every hamlet had its cross; even this, when perfect, set on a little rustic pillar, and that raised upon a base of circular steps, may in some scenes be considerable: if a situation can be found for a May-pole, whence it would not obtrude itself on every view, that also might not be improper; and an ancient church, however unwelcome it may be when it breaks into the design of a park or a garden, in such a farm as this would be a fortunate accident: nor would the old yew in the church-yard be indifferent; it would be a memorial of the times when it was useful.",
+  "reasoning_tokens": 0,
+  "usage": {
+    "completion_tokens": 304,
+    "prompt_tokens": 1156,
+    "total_tokens": 1460,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 623
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 3000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows this region of the page. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\nAs much wood ij efential to the charter, a foot\nmay raily be found, where tourists may go above the ice\nveri, or tone reaches low within it, may have the re-\nfemblance of a callle or an abby. The partial conceal\nmuch should deceifney to buy! I sent accord with\nthe age, the building mullk fees to be entire i the\nruins of them belong to litter days; the digdle is,\nhowever, advantageous to them as objects; none can\nbe imagined more petturique, than oyster bolomed\nin units, or a chalic appearing between the flora and\nthe branches. But the figurefictions of the times far\nnib other objects which are mean within compats’s\nbermatages over their very; foliage chapped were com-\nmonos : many of the Springs of the coming beyond\nhedoly wells, were diltinguished by little Gothic doma\nhall over there , and every hinder had its croti's even\nthis, when puffs/Aft can no like roller pilts, and that\nraised upon a bafe of circular fleeps, may in home forms\nbe considerable - in a frustrate en to found the a Abys-\npole, whence it would not change indicate if well on every view\nthat allo might not be improper; and an ancient church,\nhowever unwellance it may be when it breaks into the\ndefense of a walk or a garden in fach a farm as this\nwould be a four-tone sections: nor would the old year\nin the church park be indifferent; it would be a me-\nmorial of the times when it was inferior.",
+  "response": {
+    "id": "chatcmpl-9c8c9cfac7a8807b",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "As much wood is essential to the character, a spot may easily be found, where turrets rising above the covert, or some arches seen within it, may have the resemblance of a castle or an abbey. The partial concealment is almost necessary to both; for to accord with the age, the buildings must seem to be entire; the ruins of them belong to later days; the difficulty is, however, advantageous to them as objects; none can be imagined more picturesque, than a tower bosomed in trees, or a cluster appearing between the elms and the branches. But the superfluities of the times furnish other objects which are more within compass; hermitages were then real; foliary chapels were common; many of the springs of the country being deemed holy wells, were distinguished by little Gothic domes built over them; and every hamlet had its cross; even this, when perfect, set on a little rustic pillar, and that raised upon a base of circular steps, may in some scenes be considerable: if a situation can be found for a May-pole, whence it would not obtrude itself on every view, that also might not be improper; and an ancient church, however unwelcome it may be when it breaks into the design of a park or a garden, in such a farm as this would be a fortunate accident: nor would the old yew in the church-yard be indifferent; it would be a memorial of the times when it was useful.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792325994,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 304,
+      "prompt_tokens": 1156,
+      "total_tokens": 1460,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 623
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

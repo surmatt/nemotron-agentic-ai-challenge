@@ -1,0 +1,93 @@
+{
+  "variant": "crop_nothink",
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:403",
+  "block_index": 5,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T12:20:39+00:00",
+  "elapsed_seconds": 2.14,
+  "finish_reason": "stop",
+  "parse_text": "We knew now down that the Ethiopians were a colony Modern of Cushines; that the Cushies were originally sovereigns of Ethiopie Shame and Charles, and consequently spoke other Chaldaic, _burgues_ - or a dialect of the tongue that their colonies must have used the same languages; and that the ancient Ethiopians were a people highly published, and celebrated in the next early ages on account of their virtue and piety. It has ever appeared that the citizens letters of that people were the sacred characters of the Companies. These letters, we incing, were the Cupile (; for some account ofwhich see the section on the Arabic). When the way were descendants, and the modern letters substituted in their room, cannot be deter- mined; nor is it, we apprehend, a matter of much importance. We shall therefore say that part of the subject, and refer our curious and impulsive readers to the favored Jod Ladol's excellent grammen and dictionary of the Abyssian or ees tongue; where they will find every thing worth knowing or that subject. We shall endeavour to grafity on readers with a very brief account of the modern Ethnic of Avisosion tonges, few whatso we are principally indebted to that learned, indetatigable, and adventurous travelice. Bruce , who, by his observations on that country, which he made in person, often at the board of hisft, has discovered, as it were, a new world both to Europe and Asia.",
+  "corrected_text": "We have now shown that the Ethiopians were a colony of Cushites; that the Cushites were originally sovereigns of Ethiopia, Shinar, or Chaldea, and consequently spoke either Chaldaic, or a dialect of that tongue; that their colonists must have used the same language; and that the ancient Ethiopians were a people highly polished, and celebrated in the most early ages on account of their virtue and piety. It has likewise appeared that the common letters of that people were the sacred characters of the Egyptians. These letters, we imagine, were the Cushic; for some account of which see the section on the Arabic. When they were discarded, and the modern letters substituted in their room, cannot be determined; nor is it, we apprehend, a matter of much importance. We shall therefore drop that part of the subject, and refer our curious and inquisitive readers to the very learned Job Ludolf's excellent grammar and dictionary of the Abyssinian or Geez tongue, where they will find every thing worth knowing on that subject. We shall endeavour to gratify our readers with a very brief account of the modern Ethiopic or Abyssinian tongue; for which we are principally indebted to that learned, indefatigable, and adventurous traveller, Bruce; who, by his observations on that country, which he made in person, often at the hazard of his life, has discovered, as it were, a new world both to Europe and Asia.",
+  "reasoning_tokens": 0,
+  "usage": {
+    "completion_tokens": 309,
+    "prompt_tokens": 1116,
+    "total_tokens": 1425,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 626
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 3000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows this region of the page. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\nWe knew now down that the Ethiopians were a colony Modern of Cushines; that the Cushies were originally sovereigns of Ethiopie Shame and Charles, and consequently spoke other Chaldaic, _burgues_ - or a dialect of the tongue that their colonies must have used the same languages; and that the ancient Ethiopians were a people highly published, and celebrated in the next early ages on account of their virtue and piety. It has ever appeared that the citizens letters of that people were the sacred characters of the Companies. These letters, we incing, were the Cupile (; for some account ofwhich see the section on the Arabic). When the way were descendants, and the modern letters substituted in their room, cannot be deter- mined; nor is it, we apprehend, a matter of much importance. We shall therefore say that part of the subject, and refer our curious and impulsive readers to the favored Jod Ladol's excellent grammen and dictionary of the Abyssian or ees tongue; where they will find every thing worth knowing or that subject. We shall endeavour to grafity on readers with a very brief account of the modern Ethnic of Avisosion tonges, few whatso we are principally indebted to that learned, indetatigable, and adventurous travelice. Bruce , who, by his observations on that country, which he made in person, often at the board of hisft, has discovered, as it were, a new world both to Europe and Asia.",
+  "response": {
+    "id": "chatcmpl-8a696698d2532335",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "We have now shown that the Ethiopians were a colony of Cushites; that the Cushites were originally sovereigns of Ethiopia, Shinar, or Chaldea, and consequently spoke either Chaldaic, or a dialect of that tongue; that their colonists must have used the same language; and that the ancient Ethiopians were a people highly polished, and celebrated in the most early ages on account of their virtue and piety. It has likewise appeared that the common letters of that people were the sacred characters of the Egyptians. These letters, we imagine, were the Cushic; for some account of which see the section on the Arabic. When they were discarded, and the modern letters substituted in their room, cannot be determined; nor is it, we apprehend, a matter of much importance. We shall therefore drop that part of the subject, and refer our curious and inquisitive readers to the very learned Job Ludolf's excellent grammar and dictionary of the Abyssinian or Geez tongue, where they will find every thing worth knowing on that subject. We shall endeavour to gratify our readers with a very brief account of the modern Ethiopic or Abyssinian tongue; for which we are principally indebted to that learned, indefatigable, and adventurous traveller, Bruce; who, by his observations on that country, which he made in person, often at the hazard of his life, has discovered, as it were, a new world both to Europe and Asia.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792326040,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 309,
+      "prompt_tokens": 1116,
+      "total_tokens": 1425,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 626
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}
