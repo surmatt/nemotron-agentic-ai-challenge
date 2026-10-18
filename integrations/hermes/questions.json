@@ -11,7 +11,10 @@
       "entries_before_correction": [
         "E0087"
       ],
-      "expect_before_model_match": "answer"
+      "expect_before_model_match": "answer",
+      "headwords": [
+        "HEAT"
+      ]
     },
     {
       "id": "q02-huguenots",
@@ -22,6 +25,9 @@
       ],
       "entries_before_correction": [
         "E0113"
+      ],
+      "headwords": [
+        "HUGUENOTS"
       ]
     },
     {
@@ -35,7 +41,10 @@
       "entries_before_correction": [
         "E0097"
       ],
-      "expect_before_model_match": "missing_evidence"
+      "expect_before_model_match": "missing_evidence",
+      "headwords": [
+        "COINAGE"
+      ]
     },
     {
       "id": "q04-corpus",
@@ -53,6 +62,9 @@
       "expect_before_repair": "missing_evidence",
       "entries_before_correction": [
         "E0019"
+      ],
+      "headwords": [
+        "PHILLOOGY"
       ]
     },
     {
@@ -73,7 +85,10 @@
         "E0012"
       ],
       "question_before_correction": "Compare the Britannica entry WILLIN with its matched Wikipedia article. Is the match correct?",
-      "expect_before_model_match": "missing_evidence"
+      "expect_before_model_match": "missing_evidence",
+      "headwords": [
+        "WILLIAM"
+      ]
     },
     {
       "id": "q08-naxos",
@@ -85,8 +100,11 @@
       "entries_before_correction": [
         "E0100"
       ],
-      "expect_before_model_match": "flag_wrong_match"
+      "expect_before_model_match": "flag_wrong_match",
+      "headwords": [
+        "NAXOS"
+      ]
     }
   ],
-  "expect_note": "expect follows the repaired match decisions (2026-10-18). Coinage and Willin' are list pages, so E0097 and E0012 have no comparison. E0019 matches Philology. Entry IDs follow the Super VL corrected text (2026-10-18): the correction changed the segmentation, so IDs shifted. The OCR headword WILLIN is now WILLIAM. Since the model match rule (2026-10-18, docs/evaluation/match_thresholds.json): HEAT is rejected (margin 0.15 < 0.5, a false negative), COINAGE matches Coining (mint), WILLIAM matches the list of people named William, and NAXOS is rejected."
+  "expect_note": "expect follows the repaired match decisions (2026-10-18). Coinage and Willin' are list pages, so E0097 and E0012 have no comparison. E0019 matches Philology. Entry IDs follow the Super VL corrected text (2026-10-18): the correction changed the segmentation, so IDs shifted. The OCR headword WILLIN is now WILLIAM. Since the model match rule (2026-10-18, docs/evaluation/match_thresholds.json): HEAT is rejected (margin 0.15 < 0.5, a false negative), COINAGE matches Coining (mint), WILLIAM matches the list of people named William, and NAXOS is rejected. Entry IDs are sequential and shift when the segmentation changes, so the agent stage resolves each question's entries from its headwords at run time. The entries field records the IDs of the saved run in artifacts/."
 }

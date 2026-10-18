@@ -27,7 +27,7 @@ from typing import Any
 
 from dotenv import dotenv_values
 
-from .common import text_dir, append_jsonl, read_json, sha256_text, utc_now, write_json, write_text
+from .common import text_dir, read_jsonl, append_jsonl, read_json, sha256_text, utc_now, write_json, write_text
 from .config import SUPER_MODEL, Settings
 
 REPO = Path(__file__).resolve().parents[2]
@@ -134,6 +134,14 @@ def check(question: dict[str, Any], parsed: dict[str, Any]) -> dict[str, Any]:
     return checks
 
 
+def resolve_entries(question: dict[str, Any], entries: list[dict[str, Any]]) -> dict[str, Any]:
+    """Find the question's entry IDs from its headwords. IDs are sequential and shift between runs."""
+    if not question.get("headwords"):
+        return question
+    ids = [e["entry_id"] for e in entries if e["headword"] in question["headwords"]]
+    return {**question, "entries": ids, "entries_resolved_from": question["headwords"]}
+
+
 def run(settings: Settings, work_dir: Path, only: list[str] | None = None) -> dict[str, Any]:
     for needed in (f"{text_dir(work_dir).name}/entries.jsonl", "match/matches.jsonl", "compare/pairs.jsonl"):
         if not (work_dir / needed).is_file():
@@ -147,9 +155,11 @@ def run(settings: Settings, work_dir: Path, only: list[str] | None = None) -> di
     run_dir = out / "runs" / run_id
     sandbox = outside_git_folder()
     rows = []
+    entries = read_jsonl(text_dir(work_dir) / "entries.jsonl")
     for question in spec["questions"]:
         if only and question["id"] not in only:
             continue
+        question = resolve_entries(question, entries)
         started = utc_now()
         command = [hermes, "chat", "-q", question["question"], "--oneshot",
                    "--format", "stream-json", "-t", "nemotron_challenge",
@@ -165,7 +175,8 @@ def run(settings: Settings, work_dir: Path, only: list[str] | None = None) -> di
         parsed = parse_events([line for line in stdout.splitlines() if line.strip()])
         checks = check(question, parsed)
         row = {"run_id": run_id, "question_id": question["id"], "question": question["question"],
-               "expect": question["expect"], "started_at": started, "finished_at": utc_now(),
+               "expect": question["expect"], "entries": question.get("entries", []), "started_at": started,
+               "finished_at": utc_now(),
                "process_exit_code": code, "events_path": str(run_dir / f"{question['id']}.jsonl"),
                "model": parsed["model"], "session_id": parsed["session_id"],
                "tool_calls": [c["name"] for c in parsed["tool_calls"]], "answer": parsed["answer"], "checks": checks,
