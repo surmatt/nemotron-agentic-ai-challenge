@@ -11,10 +11,10 @@ Method (team choice):
 3. Score the merged candidates:
    - model mode (retrieval service ready): Nemotron embedder cosine between the entry text and
      each candidate (title + excerpt), then Nemotron reranker raw logits on the same pairs.
-     Accept the reranker's first candidate when its logit, its margin to the second candidate, its
-     cosine, and its title similarity pass the thresholds in docs/evaluation/match_thresholds.json.
+     Accept the reranker's first candidate when its logit, cosine, and title similarity pass the
+     thresholds in docs/evaluation/match_thresholds.json. The runner-up's score does not affect acceptance.
      calibrate.py fits them on 60 hand-labelled entries (docs/evaluation/match-calibration.md).
-     The current fit is margin >= 0.5 and cosine >= 0.15; the title test is off.
+     The current cosine threshold is 0.15; the title test is off. Legacy margin thresholds are ignored.
      Without the file, the first GPU-run rule applies: logit >= RERANK_ACCEPT (-6.0) and title
      similarity >= MODEL_TITLE_ACCEPT (0.75). Raw logits on OCR text were mostly negative (median -6.1).
    - lexical mode (no retrieval service): accept the candidate whose title matches the headword
@@ -290,12 +290,12 @@ THRESHOLD_FILE = Path(__file__).resolve().parents[2] / "docs" / "evaluation" / "
 
 
 def model_thresholds() -> dict[str, float]:
-    """Calibrated thresholds from docs/evaluation/match_thresholds.json, else the uncalibrated defaults."""
+    """Load the absolute score thresholds, ignoring legacy margin values, or use the defaults."""
     if THRESHOLD_FILE.is_file():
         data = read_json(THRESHOLD_FILE)
-        return {"rerank_logit": data["rerank_logit"], "margin": data["margin"], "cosine": data["cosine"],
+        return {"rerank_logit": data["rerank_logit"], "cosine": data["cosine"],
                 "title_similarity": data.get("title_similarity", 0.0)}
-    return {"rerank_logit": RERANK_ACCEPT, "margin": 0.0, "cosine": COSINE_ACCEPT,
+    return {"rerank_logit": RERANK_ACCEPT, "cosine": COSINE_ACCEPT,
             "title_similarity": MODEL_TITLE_ACCEPT}
 
 
@@ -304,18 +304,19 @@ def decide(entry: dict[str, Any], rows: list[dict[str, Any]], mode: str) -> dict
         return {"status": "rejected", "reason": "no BM25 candidates"}
     if mode == "model":
         best = min(rows, key=lambda r: r["rerank_position"])
+        # Keep the score gap as diagnostic evidence, not an acceptance threshold.
         others = sorted((r["rerank_logit"] for r in rows if r is not best), reverse=True)
         margin = round(best["rerank_logit"] - others[0], 6) if others else None
         evidence = {"page_id": best["page_id"], "title": best["title"], "rerank_logit": best["rerank_logit"],
                     "cosine": best["cosine"], "margin_to_next": margin, "title_similarity": best["title_similarity"]}
         limits = model_thresholds()
-        gap = margin if margin is not None else float("inf")
-        if (best["rerank_logit"] >= limits["rerank_logit"] and gap >= limits["margin"]
+        if (best["rerank_logit"] >= limits["rerank_logit"]
                 and best["cosine"] >= limits["cosine"] and best["title_similarity"] >= limits["title_similarity"]):
             return {"status": "accepted", "method": "nemotron_embed_rerank", "thresholds": limits, **evidence}
+        failed = [f"{key} {best[key]:.6f} < {limit:g}" for key, limit in limits.items()
+                  if best[key] < limit]
         return {"status": "rejected", "method": "nemotron_embed_rerank", "thresholds": limits,
-                "reason": (f"rerank_logit < {limits['rerank_logit']}, margin < {limits['margin']}, "
-                           f"cosine < {limits['cosine']}, or title_similarity < {limits['title_similarity']}"),
+                "reason": "; ".join(failed),
                 **evidence}
     eligible = [r for r in rows if not MEDIA_QUALIFIER.search(r["title"])]
     best = max(eligible or rows, key=lambda r: (
@@ -349,6 +350,58 @@ def fetch_article(wiki: WikiClient, page_id: str, cache: Path) -> dict[str, Any]
     }
     write_json(path, article)
     return article
+
+
+def finish_match(wiki: WikiClient, entry: dict[str, Any], rows: list[dict[str, Any]],
+                 record: dict[str, Any], out: Path) -> None:
+    """Decide from scored candidates and fetch the selected article before accepting it."""
+    record.pop("article", None)
+    record.setdefault("list_pages_removed_after_fetch", [])
+    remaining = list(rows)
+    for _ in range(MAX_DECISIONS):
+        record["decision"] = decide(entry, remaining, record["mode"])
+        if record["decision"]["status"] != "accepted":
+            break
+        article = fetch_article(wiki, record["decision"]["page_id"], out / "articles")
+        if not is_list_page(article["text"]):
+            record["article"] = {k: article[k] for k in (
+                "page_id", "revision_id", "title", "url", "revision_url", "text_sha256", "chars")}
+            break
+        record["list_pages_removed_after_fetch"].append(
+            {"page_id": article["page_id"], "title": article["title"]})
+        remaining = [r for r in remaining if r["page_id"] != article["page_id"]]
+    else:
+        record["decision"] = {"status": "rejected", "method": record["decision"].get("method"),
+                              "reason": f"{MAX_DECISIONS} accepted candidates were list pages"}
+    write_json(out / "candidates" / f"{entry['entry_id']}.json", {**record, "candidates": rows})
+
+
+def validate_saved_scores(entry: dict[str, Any], saved: dict[str, Any]) -> None:
+    if saved.get("entry_id") != entry["entry_id"] or saved.get("entry_text_sha256") != entry["text_sha256"]:
+        raise ValueError("entry text differs from the saved scores; re-run Match")
+    if saved.get("mode") != "model" or saved.get("decision", {}).get("status") == "error":
+        raise ValueError("a completed model match run is required; re-run Match")
+    if "candidates" not in saved or any(
+            not {"rerank_position", "rerank_logit", "cosine", "title_similarity"} <= row.keys()
+            for row in saved["candidates"]):
+        raise ValueError("saved candidates have no model scores; re-run Match")
+
+
+def reapply_entry(settings: Settings, entry: dict[str, Any], saved: dict[str, Any],
+                  out: Path, failures: Path) -> dict[str, Any]:
+    """Apply the current rule to saved scores. Do not search or call any model."""
+    validate_saved_scores(entry, saved)
+    record = {k: v for k, v in saved.items() if k != "candidates"}
+    record["decision_reapplied_at"] = utc_now()
+    try:
+        with WikiClient(settings.wikipedia_api_url) as wiki:
+            finish_match(wiki, entry, saved["candidates"], record, out)
+    except (ServiceError, ValueError) as exc:
+        record.pop("article", None)
+        record["decision"] = {"status": "error", "error_type": type(exc).__name__, "error": str(exc)}
+        append_jsonl(failures, {"stage": "match", "step": "reapply", "entry_id": entry["entry_id"],
+                                "error_type": type(exc).__name__, "error": str(exc), "at": utc_now()})
+    return record
 
 
 def retrieval_mode(settings: Settings) -> tuple[str, str]:
@@ -415,23 +468,7 @@ def match_entry(settings: Settings, entry: dict[str, Any], mode: str, out: Path,
             record["headword_variant"] = headword_variant(entry["headword"])
             record["candidate_count"] = len(rows)
             record["list_pages_removed_after_fetch"] = []
-            remaining = list(rows)
-            for _ in range(MAX_DECISIONS):
-                record["decision"] = decide(entry, remaining, mode)
-                if record["decision"]["status"] != "accepted":
-                    break
-                article = fetch_article(wiki, record["decision"]["page_id"], out / "articles")
-                if not is_list_page(article["text"]):
-                    record["article"] = {k: article[k] for k in (
-                        "page_id", "revision_id", "title", "url", "revision_url", "text_sha256", "chars")}
-                    break
-                record["list_pages_removed_after_fetch"].append(
-                    {"page_id": article["page_id"], "title": article["title"]})
-                remaining = [r for r in remaining if r["page_id"] != article["page_id"]]
-            else:
-                record["decision"] = {"status": "rejected", "method": record["decision"].get("method"),
-                                      "reason": f"{MAX_DECISIONS} accepted candidates were list pages"}
-            write_json(out / "candidates" / f"{entry['entry_id']}.json", {**record, "candidates": rows})
+            finish_match(wiki, entry, rows, record, out)
     except (ServiceError, ValueError) as exc:
         record["decision"] = {"status": "error", "error_type": type(exc).__name__, "error": str(exc)}
         append_jsonl(failures, {"stage": "match", "entry_id": entry["entry_id"], "error_type": type(exc).__name__,

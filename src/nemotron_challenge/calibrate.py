@@ -3,10 +3,10 @@
 Method (team choice):
 - Labels: docs/evaluation/match_labels.json (60 entries, half for calibration, half for test).
 - Rule: take the candidate that the reranker ranks first. Accept it when its raw logit >= L, its
-  margin to the next candidate >= M, its embedder cosine >= C, and its title similarity to the
-  headword >= T. T = 0 turns the title test off. The grid includes the first GPU-run rule
+  embedder cosine >= C, and its title similarity to the headword >= T. The score gap to the runner-up
+  does not affect acceptance. T = 0 turns the title test off. The grid includes the first GPU-run rule
   (L = -6.0, T = 0.75, no margin, no cosine) from main.
-- Out-of-sample estimate: two-fold cross-validation. Fit (L, M, C) on one half, apply it to the other
+- Out-of-sample estimate: two-fold cross-validation. Fit (L, C, T) on one half, apply it to the other
   half, and pool the two held-out halves.
 - Final thresholds: the best F2 on all labelled entries, so recall weighs twice precision. Their
   in-sample score is optimistic; report the cross-validated score.
@@ -25,7 +25,6 @@ from .common import read_json, sha256_bytes, utc_now, write_json
 from . import match
 
 LOGITS = [x / 2 for x in range(-20, 7)]
-MARGINS = [x / 4 for x in range(0, 13)]
 COSINES = [x / 20 for x in range(0, 9)]
 TITLES = [0.0, 0.5, 0.75, 0.85]
 LABELS = Path("docs/evaluation/match_labels.json")
@@ -74,14 +73,12 @@ def top(rows: list[dict[str, Any]], key: Callable[[dict[str, Any]], Any]) -> dic
     return max(rows, key=key) if rows else None
 
 
-def model_choice(rows: list[dict[str, Any]], logit: float, margin: float, cosine: float,
+def model_choice(rows: list[dict[str, Any]], logit: float, cosine: float,
                  title: float = 0.0) -> str | None:
     if not rows:
         return None
-    ranked = sorted(rows, key=lambda r: r["rerank_position"])
-    best = ranked[0]
-    gap = best["rerank_logit"] - ranked[1]["rerank_logit"] if len(ranked) > 1 else float("inf")
-    ok = (best["rerank_logit"] >= logit and gap >= margin and best["cosine"] >= cosine
+    best = min(rows, key=lambda r: r["rerank_position"])
+    ok = (best["rerank_logit"] >= logit and best["cosine"] >= cosine
           and best["title_similarity"] >= title)
     return best["page_id"] if ok else None
 
@@ -104,14 +101,14 @@ def run(work_dir: Path) -> dict[str, Any]:
         def key(params):
             result = score({e: model_choice(rows[e], *params) for e in part_labels}, part_labels, judged)
             return result["f2"], result["precision"], -params[0], -params[1], -params[2]
-        return max(product(LOGITS, MARGINS, COSINES, TITLES), key=key)
+        return max(product(LOGITS, COSINES, TITLES), key=key)
 
     held_out, folds = {}, []
     for train, held in ((cal, test), (test, cal)):
         params = fit(train)
         folds.append(params)
         held_out.update({e: model_choice(rows[e], *params) for e in held})
-    logit, margin, cosine, title = fit(labels)
+    logit, cosine, title = fit(labels)
 
     def always(choose: Callable[[list[dict[str, Any]]], dict[str, Any] | None], part_labels):
         return score({e: (c["page_id"] if (c := choose(rows[e])) else None) for e in part_labels},
@@ -134,13 +131,13 @@ def run(work_dir: Path) -> dict[str, Any]:
         comparison[name] = {
             **{k: always(f, labels_part) for k, f in rankers.items()},
             "lexical_title_rule": lexical(labels_part),
-            "model_rule_calibrated": score({e: model_choice(rows[e], logit, margin, cosine, title)
+            "model_rule_calibrated": score({e: model_choice(rows[e], logit, cosine, title)
                                             for e in labels_part}, labels_part, judged),
-            "first_gpu_run_rule": score({e: model_choice(rows[e], -6.0, 0.0, -1.0, 0.75) for e in labels_part},
+            "first_gpu_run_rule": score({e: model_choice(rows[e], -6.0, -1.0, 0.75) for e in labels_part},
                                         labels_part, judged),
         }
     cross_validated = score(held_out, labels, judged)
-    final_choices = {e: model_choice(rows[e], logit, margin, cosine, title) for e in labels}
+    final_choices = {e: model_choice(rows[e], logit, cosine, title) for e in labels}
     unjudged_accepts = [
         {"entry_id": e, "page_id": p,
          "title": next((r["title"] for r in rows[e] if r["page_id"] == p), None)}
@@ -156,7 +153,7 @@ def run(work_dir: Path) -> dict[str, Any]:
         "new_candidates_per_entry": {e: len(candidate_ids[e] - set(judged.get(e, {}).get("pages", ())))
                                      for e in labels} if judged else None,
     }
-    thresholds = {"rerank_logit": logit, "margin": margin, "cosine": cosine, "title_similarity": title,
+    thresholds = {"rerank_logit": logit, "cosine": cosine, "title_similarity": title,
                   "objective": "F2", "calibrated_at": utc_now(), "labels": str(LABELS),
                   "judged_snapshot": str(JUDGED) if judged else None,
                   "fit_on": "all labelled entries", "in_sample": comparison["all"]["model_rule_calibrated"],

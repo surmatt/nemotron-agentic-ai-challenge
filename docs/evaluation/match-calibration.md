@@ -31,13 +31,27 @@ The reranker ranks best. Its raw logits are low even for correct pairs (median a
 
 Accept the reranker's first candidate when:
 
-- its margin to the second candidate is at least **0.5**,
 - its embedder cosine is at least **0.15**,
 - its logit is at least -10 (no effective bar),
 - no title-similarity test (threshold 0).
 
-The grid search over logit, margin, cosine, and title similarity chose these values for the best F1 on all 60 entries.
+The score gap to the second candidate is not an acceptance condition. A close or tied runner-up does
+not reject the first candidate. If the first candidate fails another threshold, the entry stays
+rejected rather than falling back to a lower-ranked page. The existing list-page exclusion still
+applies.
+
+The previous rule also required a margin of 0.5. The original grid search over logit, margin, cosine,
+and title similarity chose those thresholds for the best F1 on all 60 entries.
 The grid includes the rule from the first GPU run on `main` (logit ≥ -6.0 and title similarity ≥ 0.75). A title test did not raise F1.
+
+The current rule keeps the other thresholds and ignores legacy `margin` values in threshold files.
+Future calibration fits only logit, cosine, and title similarity. The score gap stays in raw decision
+records as diagnostic evidence. It is no longer a pass/fail gauge in the Workbench.
+Saved runs keep their original decisions and metrics. In an upload's Matching tab, use **Apply current
+rule (reuse scores)** to update them without new search or model calls. This checks the entry checksum,
+fetches any newly selected article, saves the previous outputs in history, and rebuilds later outputs
+that ran. If the entry changed, re-run Match instead. The previous run's results below do not measure
+the change.
 
 ## Method update: LLM terms and F2 fitting
 
@@ -64,8 +78,8 @@ uv run python -c "from pathlib import Path; from nemotron_challenge.calibrate im
 
 ## Results
 
-The results below come from the previous run: the F1 fit on the old candidate set, before the LLM terms
-query existed. New results follow the next run.
+The results below come from the previous run: the F1 fit with a margin threshold on the old candidate
+set, before the LLM terms query existed. New results follow the next run.
 
 | Rule | Accepted | Correct | Wrong | Precision | Recall | F1 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -98,5 +112,6 @@ query existed. New results follow the next run.
 - The labels cover only the BM25 candidates of the old run. An article that BM25 did not return cannot be found or labelled.
 - The labels judge only the old candidate set. An unjudged accept can be right or wrong; a person must label it before we know the real precision.
 - F2 favours recall, so the new rule accepts more entries and will also accept more wrong ones.
-- The margin rule rejects a correct article when a second candidate scores close to it (HEAT).
+- The previous margin rule rejected correct articles with a close second candidate (HEAT). Without
+  it, ambiguous wrong matches can also pass. The other thresholds still apply.
 - One labeller; no second review.

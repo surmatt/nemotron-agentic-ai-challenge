@@ -6,7 +6,12 @@ import { Chip, Empty, Gauge, SourceLabel, num } from "./common";
 const NOT_SCORED = "The models score the first 32 candidates in BM25 rank order. This page came later.";
 const tone = (status?: string) => (status === "accepted" ? "ok" : status === "error" ? "bad" : "muted");
 
-export function MatchTab({ view, focus }: { view: WorkspaceView; focus: string | null }) {
+export function MatchTab({ view, focus, onApplyRule, busy = false }: {
+  view: WorkspaceView;
+  focus: string | null;
+  onApplyRule?: () => void;
+  busy?: boolean;
+}) {
   const searched = useMemo(() => view.entries.filter((e) => e.match), [view.entries]);
   const [selected, setSelected] = useState<string | null>(focus);
   useEffect(() => {
@@ -63,10 +68,30 @@ export function MatchTab({ view, focus }: { view: WorkspaceView; focus: string |
         {m.mode === "model" && d.status !== "error" && (
           <div className="gauges">
             <Gauge label="Reranker logit" value={d.rerank_logit} threshold={t.rerank_logit} min={-12} max={4} />
-            <Gauge label="Margin to 2nd" value={d.margin_to_next ?? null} threshold={t.margin} min={0} max={6} />
-            <Gauge label="Embedder cosine" value={d.cosine} threshold={t.cosine} min={-0.1} max={0.7} />
+            <Gauge label="Embedder cosine" value={d.cosine} threshold={t.cosine} min={-0.1} max={0.7} format={(v) => num(v, 4)} />
             <Gauge label="Title similarity" value={d.title_similarity} threshold={t.title_similarity || undefined} min={0} max={1} />
           </div>
+        )}
+        {m.mode === "model" && d.status !== "error" && (
+          <p className="small muted flowstep__lede">
+            The top reranked page must pass the logit, cosine, and title-similarity thresholds.
+            A close second candidate does not cause rejection.
+            {t.margin !== undefined && (
+              onApplyRule
+                ? " This saved decision used the previous margin rule. Apply the current rule below to update it."
+                : " This saved decision used the previous margin rule. Re-run Match to apply the current rule."
+            )}
+          </p>
+        )}
+        {m.mode === "model" && onApplyRule && (
+          <button
+            className="btn btn--ghost"
+            onClick={onApplyRule}
+            disabled={busy}
+            title="Recheck this scan's saved scores, fetch accepted articles, and rebuild later outputs. No model calls."
+          >
+            <Icon name="refresh" size={14} /> Apply current rule (reuse scores)
+          </button>
         )}
         {m.mode === "lexical" && d.status !== "error" && (
           <div className="gauges">

@@ -222,7 +222,8 @@ def blocking_step(state: dict[str, Any], step: str) -> str | None:
     return next((need for need in NEEDS[step] if state["steps"][need]["status"] != "done"), None)
 
 
-def start(work_dir: Path, upload_id: str, steps: list[str], settings_loader: Callable[[], Settings]) -> list[str]:
+def start(work_dir: Path, upload_id: str, steps: list[str], settings_loader: Callable[[], Settings], *,
+          reuse_match_scores: bool = False) -> list[str]:
     """Run steps in a background thread, in order. Each step must have its earlier steps done or queued."""
     folder = upload_dir(work_dir, upload_id)
     if upload_id in _RUNNING and _RUNNING[upload_id].is_alive():
@@ -244,7 +245,7 @@ def start(work_dir: Path, upload_id: str, steps: list[str], settings_loader: Cal
                 if blocking_step(load_state(folder), step):
                     reset_step(folder, step, "idle")
                     continue
-                run_step(settings, folder, step)
+                run_step(settings, folder, step, reuse_match_scores=reuse_match_scores and step == "match")
         except (ConfigurationError, OSError) as exc:
             for step in steps:
                 if load_state(folder)["steps"][step]["status"] == "queued":
@@ -264,7 +265,7 @@ def remaining_steps(work_dir: Path, upload_id: str) -> list[str]:
     return list(STEPS[STEPS.index(todo[0]):]) if todo else list(STEPS)
 
 
-def run_step(settings: Settings, folder: Path, step: str) -> None:
+def run_step(settings: Settings, folder: Path, step: str, *, reuse_match_scores: bool = False) -> None:
     """Run one step on an upload. Record the outcome in state.json. Earlier outputs go to history/."""
     archived = archive_from(folder, step)
     started, clock = utc_now(), time.monotonic()
@@ -275,7 +276,12 @@ def run_step(settings: Settings, folder: Path, step: str) -> None:
         update_step(folder, step, progress={"done": done, "total": total, "label": label})
 
     try:
-        summary = STEP_RUNNERS[step](settings, folder, progress)
+        if reuse_match_scores and step == "match":
+            if archived is None:
+                raise StepError("saved match scores are missing; re-run Match")
+            summary = step_match(settings, folder, progress, saved_match=folder / "history" / archived / "match")
+        else:
+            summary = STEP_RUNNERS[step](settings, folder, progress)
         update_step(folder, step, status="done", finished_at=utc_now(),
                     elapsed_seconds=round(time.monotonic() - clock, 2), summary=summary, error=None)
     except Exception as exc:  # noqa: BLE001 - the background thread is the error boundary; record every failure
@@ -366,13 +372,19 @@ def entry_source(folder: Path) -> str:
     return "correct" if (folder / "correct" / "entries.json").is_file() else "extract"
 
 
-def step_match(settings: Settings, folder: Path, progress: Progress) -> dict[str, Any]:
+def step_match(settings: Settings, folder: Path, progress: Progress, *,
+               saved_match: Path | None = None) -> dict[str, Any]:
     source = entry_source(folder)
     entries = read_json(folder / source / "entries.json")
     page = read_json(folder / source / "page.json")
     pages = {page["page_id"]: page}
-    mode, mode_detail = match_stage.retrieval_mode(settings)
+    mode, mode_detail = ("model", "saved model scores; current decision rule") if saved_match else \
+        match_stage.retrieval_mode(settings)
     out = folder / "match"
+    if saved_match:
+        for name in ("articles", "terms"):
+            if (saved_match / name).is_dir():
+                shutil.copytree(saved_match / name, out / name, dirs_exist_ok=True)
     selected = [e for e in entries if not match_stage.skip_reason(e)]
     skipped = [{"entry_id": e["entry_id"], "reason": match_stage.skip_reason(e)} for e in entries
                if match_stage.skip_reason(e)]
@@ -381,8 +393,12 @@ def step_match(settings: Settings, folder: Path, progress: Progress) -> dict[str
 
     def one(entry: dict[str, Any]) -> dict[str, Any]:
         nonlocal done
-        record = match_stage.match_entry(settings, entry, mode, out, folder / "failures.jsonl",
-                                         pages=pages, scan_dir=folder)
+        if saved_match:
+            saved = read_json(saved_match / "candidates" / f"{entry['entry_id']}.json")
+            record = match_stage.reapply_entry(settings, entry, saved, out, folder / "failures.jsonl")
+        else:
+            record = match_stage.match_entry(settings, entry, mode, out, folder / "failures.jsonl",
+                                             pages=pages, scan_dir=folder)
         with lock:
             done += 1
             progress(done, len(selected), entry["headword"] or entry["entry_id"])
@@ -394,7 +410,7 @@ def step_match(settings: Settings, folder: Path, progress: Progress) -> dict[str
     write_json(out / "skipped.json", skipped)
     statuses = Counter(r["decision"]["status"] for r in records)
     llm = Counter(r["search_terms"]["llm"]["status"] for r in records if r.get("search_terms"))
-    return {"mode": mode, "mode_detail": mode_detail, "entry_text": source,
+    return {"mode": mode, "mode_detail": mode_detail, "entry_text": source, "scores_reused": saved_match is not None,
             "models": ([EMBED_MODEL, RERANK_MODEL] if mode == "model" else []) + ([SUPER_MODEL] if llm["ok"] else []),
             "terms_model": SUPER_MODEL,
             "llm_terms": {"ok": llm["ok"], "failed": llm["failed"], "skipped": llm["skipped"],
@@ -474,6 +490,25 @@ def rerun(work_dir: Path, upload_id: str, step: str, settings_loader: Callable[[
     state = load_state(upload_dir(work_dir, upload_id))
     return start(work_dir, upload_id, rerun_steps({s: state["steps"][s]["status"] for s in STEPS}, step),
                  settings_loader)
+
+
+def reapply_match(work_dir: Path, upload_id: str, settings_loader: Callable[[], Settings]) -> list[str]:
+    """Reapply match thresholds to saved scores, then rebuild the downstream outputs that ran."""
+    folder = upload_dir(work_dir, upload_id)
+    state = load_state(folder)
+    if state["steps"]["match"]["status"] != "done":
+        raise StepError("a completed match run is required")
+    entries = read_json(folder / entry_source(folder) / "entries.json")
+    for entry in entries:
+        if match_stage.skip_reason(entry):
+            continue
+        saved = read_json(folder / "match" / "candidates" / f"{entry['entry_id']}.json")
+        try:
+            match_stage.validate_saved_scores(entry, saved)
+        except ValueError as exc:
+            raise StepError(str(exc)) from exc
+    return start(work_dir, upload_id, rerun_steps({s: state["steps"][s]["status"] for s in STEPS}, "match"),
+                 settings_loader, reuse_match_scores=True)
 
 
 def mark_seeded(work_dir: Path, folder: Path, step: str, source: Path, summary_row: dict[str, Any]) -> None:
