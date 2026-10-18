@@ -4,12 +4,19 @@ from typing import Any
 
 from .config import Settings
 
-STAGES = ("extract", "match", "compare", "agent", "site", "evaluate")
+STAGES = ("extract", "correct", "match", "compare", "agent", "site", "evaluate")
 
 
 def extract(settings: Settings, work_dir: Path) -> dict[str, Any]:
     """Parse each scan, keep the raw reply, and segment entries. See extract.py for the method."""
     from . import extract as stage
+
+    return stage.run(settings, work_dir)
+
+
+def correct(settings: Settings, work_dir: Path) -> dict[str, Any]:
+    """Correct Parse text with Super VL from block crops. See correct.py for the method."""
+    from . import correct as stage
 
     return stage.run(settings, work_dir)
 

@@ -2,7 +2,9 @@
 
 Method (team choice):
 1. Tokenise both texts: lower case, letters only, at least 3 letters, without stop words.
-2. Normalise Britannica tokens and log each change:
+2. Normalise Britannica text and tokens and log each change:
+   - abbreviations: printed abbreviations such as "Brit." expand before counting ("Brit." -> "British").
+     Source snippets keep the printed form.
    - long s: old print uses a long s that OCR reads as "f" ("perfons"). Replace "f" with "s" when the
      result is in the reference vocabulary and the original is not.
    - historical spelling: a short fixed table ("connexion" -> "connection").
@@ -25,7 +27,9 @@ from pathlib import Path
 import re
 from typing import Any
 
-from .common import read_json, read_jsonl, sha256_bytes, sha256_text, utc_now, write_json, write_jsonl, write_text
+from .common import (
+    WORD_LIST, read_json, read_jsonl, sha256_bytes, sha256_text, text_dir, utc_now, write_json, write_jsonl, write_text,
+)
 from .config import Settings
 from .match import STOPWORDS
 
@@ -41,7 +45,6 @@ HISTORICAL = {
 }
 
 
-WORD_LIST = Path("/usr/share/dict/words")
 
 
 def reference_vocabulary(articles: dict[str, dict[str, Any]]) -> tuple[set[str], list[dict[str, Any]]]:
@@ -54,6 +57,22 @@ def reference_vocabulary(articles: dict[str, dict[str, Any]]) -> tuple[set[str],
         vocabulary |= listed
         sources.append({"source": str(WORD_LIST), "sha256": sha256_bytes(data), "words": len(listed)})
     return vocabulary, sources
+
+
+# Printed abbreviation -> full word. OCR can read the full stop as another punctuation mark ("Brit;").
+ABBREVIATIONS = {"Brit.": "British"}
+
+
+def expand_abbreviations(text: str, log: Counter) -> str:
+    for short, full in ABBREVIATIONS.items():
+        text, count = re.subn(rf"\b{re.escape(short[:-1])}(?=[.;:,])", full, text)
+        if count:
+            log[("abbreviation", short, full)] += count
+    return text
+
+
+def britannica_tokens(text: str, log: Counter) -> list[str]:
+    return tokens(expand_abbreviations(text, log))
 
 
 def tokens(text: str) -> list[str]:
@@ -131,7 +150,7 @@ def term_rows(scores: dict[str, float], count_b: Counter, count_w: Counter,
 
 def compare_pair(entry: dict[str, Any], article: dict[str, Any], vocabulary: set[str],
                  prior: Counter, log: Counter) -> dict[str, Any]:
-    raw_b = tokens(entry["text"])
+    raw_b = britannica_tokens(entry["text"], log)
     words_b, unverified = normalise(raw_b, vocabulary, log)
     words_w = tokens(article["text"])
     count_b, count_w = Counter(words_b), Counter(words_w)
@@ -176,7 +195,8 @@ def bar_chart(path: Path, title: str, rows: list[tuple[str, float]], colour: str
 
 def run(settings: Settings, work_dir: Path) -> dict[str, Any]:
     del settings
-    entries = {e["entry_id"]: e for e in read_jsonl(work_dir / "extract" / "entries.jsonl")}
+    source = text_dir(work_dir)
+    entries = {e["entry_id"]: e for e in read_jsonl(source / "entries.jsonl")}
     matches = [m for m in read_jsonl(work_dir / "match" / "matches.jsonl") if m["decision"]["status"] == "accepted"]
     if not matches:
         raise ValueError("The match stage accepted no pairs. Nothing to compare.")
@@ -185,7 +205,7 @@ def run(settings: Settings, work_dir: Path) -> dict[str, Any]:
     vocabulary, vocabulary_sources = reference_vocabulary(articles)
     prior = Counter(w for a in articles.values() for w in tokens(a["text"]))
     for entry_id in {m["entry_id"] for m in matches}:
-        prior.update(tokens(entries[entry_id]["text"]))
+        prior.update(britannica_tokens(entries[entry_id]["text"], Counter()))
     log: Counter = Counter()
     out = work_dir / "compare"
     pairs = []
@@ -207,7 +227,7 @@ def run(settings: Settings, work_dir: Path) -> dict[str, Any]:
     corpus_b: Counter = Counter()
     corpus_unverified = corpus_raw = 0
     for entry_id in used_entries:
-        raw = tokens(entries[entry_id]["text"])
+        raw = britannica_tokens(entries[entry_id]["text"], Counter())
         kept, unverified = normalise(raw, vocabulary, Counter())
         corpus_b.update(kept)
         corpus_raw += len(raw)
@@ -240,11 +260,11 @@ def run(settings: Settings, work_dir: Path) -> dict[str, Any]:
               f"Terms more frequent in Wikipedia ({len(articles)} articles vs {len(used_entries)} entries)",
               [(r["term"], r["z"]) for r in corpus["distinctive_wikipedia"][:20]], "#2b5a8a")
     summary = {
-        "stage": "compare", "finished_at": utc_now(), "method": "word frequencies, log-odds with Dirichlet prior",
+        "stage": "compare", "finished_at": utc_now(), "entry_text": source.name, "method": "word frequencies, log-odds with Dirichlet prior",
         "pairs": len(pairs), "britannica_documents": len(used_entries), "wikipedia_documents": len(articles),
         "match_methods": dict(Counter(p["match_method"] for p in pairs)),
         "normalisation_changes": {kind: sum(n for (k, _, _), n in log.items() if k == kind)
-                                  for kind in ("long_s", "historical")},
+                                  for kind in ("abbreviation", "long_s", "historical")},
         "britannica_unverified_rate": corpus["britannica_unverified_rate"], "vocabulary_sources": vocabulary_sources,
         "mean_top_terms_jaccard": round(sum(p["top_terms_jaccard"] for p in pairs) / len(pairs), 4),
         "mean_frequency_cosine": round(sum(p["frequency_cosine"] for p in pairs) / len(pairs), 4),

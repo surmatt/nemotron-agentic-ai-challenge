@@ -1,0 +1,525 @@
+{
+  "labeller": "Claude Code (coding agent). Not reviewed by a person.",
+  "labelled_at": "2026-10-18",
+  "blind_to": "Embedder cosine, reranker logits, and match decisions. Candidates were shown in BM25 order.",
+  "text": "Super VL corrected entry text (artifacts/correct/entries.jsonl), first 500 characters.",
+  "selection": "60 of the 200 entries scored by the models, seed 20261019. Half for calibration, half for test (split field).",
+  "rule": "accept lists every candidate that describes the subject of the entry text. A broader article counts when no exact article exists. An empty list means no candidate fits.",
+  "entries": [
+    {
+      "entry_id": "E0001",
+      "headword": "SHIP BUILDING",
+      "split": "calibrate",
+      "accept": [],
+      "note": "Ship framing continuation; no shipbuilding article among candidates"
+    },
+    {
+      "entry_id": "E0002",
+      "headword": "WEIGHTS AND MEASURES",
+      "split": "calibrate",
+      "accept": [
+        "2752651",
+        "1241988"
+      ],
+      "note": "French metric units; history or system of measurement"
+    },
+    {
+      "entry_id": "E0006",
+      "headword": null,
+      "split": "test",
+      "accept": [],
+      "note": "Etna continuation; Mount Etna not among candidates"
+    },
+    {
+      "entry_id": "E0008",
+      "headword": "SWIVELS",
+      "split": "calibrate",
+      "accept": [
+        "1933308",
+        "1503093"
+      ],
+      "note": "Swivel ring; entry also covers swivel cannon"
+    },
+    {
+      "entry_id": "E0011",
+      "headword": "SYCOPHANT",
+      "split": "calibrate",
+      "accept": [
+        "25998383"
+      ],
+      "note": "Sycophant; segment also holds the start of SYDENHAM"
+    },
+    {
+      "entry_id": "E0019",
+      "headword": null,
+      "split": "test",
+      "accept": [
+        "62143"
+      ],
+      "note": "Rains and rivers of Abyssinia"
+    },
+    {
+      "entry_id": "E0021",
+      "headword": "PHILLOOGY",
+      "split": "calibrate",
+      "accept": [
+        "23193"
+      ],
+      "note": "Philology article, Ethiopian language section"
+    },
+    {
+      "entry_id": "E0022",
+      "headword": "CONCHOLOGY",
+      "split": "test",
+      "accept": [
+        "847900"
+      ],
+      "note": ""
+    },
+    {
+      "entry_id": "E0033",
+      "headword": "ENDOWMENT",
+      "split": "test",
+      "accept": [
+        "3044226"
+      ],
+      "note": "Endowment in law means settling a dower"
+    },
+    {
+      "entry_id": "E0036",
+      "headword": "ENERGUMENS",
+      "split": "calibrate",
+      "accept": [
+        "45936",
+        "28569941"
+      ],
+      "note": "Energumens: possessed persons; broader articles only"
+    },
+    {
+      "entry_id": "E0042",
+      "headword": "ENGENDERING",
+      "split": "test",
+      "accept": [
+        "31169734"
+      ],
+      "note": ""
+    },
+    {
+      "entry_id": "E0046",
+      "headword": "ENGLAND",
+      "split": "test",
+      "accept": [
+        "2313050"
+      ],
+      "note": "Geography of England; no England article among candidates"
+    },
+    {
+      "entry_id": "E0047",
+      "headword": null,
+      "split": "calibrate",
+      "accept": [],
+      "note": "Botanical description of an unnamed genus; no candidate"
+    },
+    {
+      "entry_id": "E0059",
+      "headword": "THRAPSTON",
+      "split": "calibrate",
+      "accept": [
+        "326405"
+      ],
+      "note": ""
+    },
+    {
+      "entry_id": "E0071",
+      "headword": "OPTICS",
+      "split": "test",
+      "accept": [
+        "22483",
+        "5732433"
+      ],
+      "note": "Optics, part on reflection by curved mirrors"
+    },
+    {
+      "entry_id": "E0075",
+      "headword": "HELLEBORUS, HELLEBORE",
+      "split": "calibrate",
+      "accept": [
+        "874539"
+      ],
+      "note": ""
+    },
+    {
+      "entry_id": "E0083",
+      "headword": "HELOTS",
+      "split": "test",
+      "accept": [
+        "236213"
+      ],
+      "note": ""
+    },
+    {
+      "entry_id": "E0089",
+      "headword": null,
+      "split": "calibrate",
+      "accept": [],
+      "note": "Hales on the force of the blood in the heart; no blood pressure article among candidates"
+    },
+    {
+      "entry_id": "E0090",
+      "headword": "HEAT",
+      "split": "calibrate",
+      "accept": [
+        "19593167"
+      ],
+      "note": ""
+    },
+    {
+      "entry_id": "E0095",
+      "headword": null,
+      "split": "calibrate",
+      "accept": [
+        "505455",
+        "5030863"
+      ],
+      "note": "Damps in mines: firedamp explosion"
+    },
+    {
+      "entry_id": "E0096",
+      "headword": "DAMSEL",
+      "split": "test",
+      "accept": [],
+      "note": "Damsel as a noble title; no candidate"
+    },
+    {
+      "entry_id": "E0099",
+      "headword": null,
+      "split": "test",
+      "accept": [
+        "7558"
+      ],
+      "note": "Coin values and coin in architecture"
+    },
+    {
+      "entry_id": "E0102",
+      "headword": "NAXIA",
+      "split": "test",
+      "accept": [
+        "62278"
+      ],
+      "note": "Island of Naxos"
+    },
+    {
+      "entry_id": "E0104",
+      "headword": "NAZARETH",
+      "split": "calibrate",
+      "accept": [],
+      "note": "Nazareth town not among candidates"
+    },
+    {
+      "entry_id": "E0105",
+      "headword": "NAZARITE",
+      "split": "test",
+      "accept": [
+        "24915375",
+        "366888"
+      ],
+      "note": "Nazarene as a title and as a sect"
+    },
+    {
+      "entry_id": "E0107",
+      "headword": "EDWARDS",
+      "split": "calibrate",
+      "accept": [],
+      "note": "Bryan Edwards biography; no candidate"
+    },
+    {
+      "entry_id": "E0108",
+      "headword": null,
+      "split": "test",
+      "accept": [
+        "1635682"
+      ],
+      "note": "Making hedges and fences"
+    },
+    {
+      "entry_id": "E0112",
+      "headword": "HUESNE",
+      "split": "test",
+      "accept": [
+        "165564"
+      ],
+      "note": "Segment is mostly HUET (Pierre Daniel Huet); the headword HUESNE (Hven) has no candidate"
+    },
+    {
+      "entry_id": "E0113",
+      "headword": "HUGHILY",
+      "split": "test",
+      "accept": [],
+      "note": "Hooghly town not among candidates"
+    },
+    {
+      "entry_id": "E0117",
+      "headword": "ADIER, DRAGOONS, and GUARDS",
+      "split": "test",
+      "accept": [
+        "9538578"
+      ],
+      "note": "Light horse regiments; broader article only"
+    },
+    {
+      "entry_id": "E0121",
+      "headword": null,
+      "split": "calibrate",
+      "accept": [],
+      "note": "Shepherd kings of Egypt; Hyksos not among candidates"
+    },
+    {
+      "entry_id": "E0122",
+      "headword": null,
+      "split": "calibrate",
+      "accept": [],
+      "note": "Chemical assay procedure; no candidate on the subject"
+    },
+    {
+      "entry_id": "E0126",
+      "headword": "ESCAPE",
+      "split": "test",
+      "accept": [],
+      "note": "Escape in law; no candidate on the subject"
+    },
+    {
+      "entry_id": "E0138",
+      "headword": "THOMISM",
+      "split": "test",
+      "accept": [
+        "838801"
+      ],
+      "note": ""
+    },
+    {
+      "entry_id": "E0142",
+      "headword": null,
+      "split": "test",
+      "accept": [],
+      "note": "Chivalry continuation; no chivalry article among candidates"
+    },
+    {
+      "entry_id": "E0147",
+      "headword": "CARPENTRY",
+      "split": "calibrate",
+      "accept": [
+        "189274"
+      ],
+      "note": "Carpentry, mechanics of framing"
+    },
+    {
+      "entry_id": "E0153",
+      "headword": "EXECUTIVE POWER",
+      "split": "test",
+      "accept": [
+        "30876385"
+      ],
+      "note": "Executive power of the king; royal prerogative"
+    },
+    {
+      "entry_id": "E0154",
+      "headword": "EXECUTOR",
+      "split": "test",
+      "accept": [
+        "603624"
+      ],
+      "note": ""
+    },
+    {
+      "entry_id": "E0167",
+      "headword": null,
+      "split": "calibrate",
+      "accept": [
+        "61344",
+        "2449741"
+      ],
+      "note": "Lightning, returning stroke"
+    },
+    {
+      "entry_id": "E0168",
+      "headword": "ORATORY",
+      "split": "calibrate",
+      "accept": [
+        "3822296"
+      ],
+      "note": "Oratory, figures of speech; the rhetoric glossary is the closest article"
+    },
+    {
+      "entry_id": "E0170",
+      "headword": "PHARMACY",
+      "split": "test",
+      "accept": [],
+      "note": "Pharmacy preparations; no pharmacy-as-subject article among candidates"
+    },
+    {
+      "entry_id": "E0171",
+      "headword": null,
+      "split": "calibrate",
+      "accept": [
+        "673887",
+        "16139161"
+      ],
+      "note": "Lighting the cross-hairs of a transit telescope"
+    },
+    {
+      "entry_id": "E0177",
+      "headword": "SILIUS ITALICUS, CAIUS",
+      "split": "calibrate",
+      "accept": [
+        "996527"
+      ],
+      "note": ""
+    },
+    {
+      "entry_id": "E0179",
+      "headword": "BRITAIN",
+      "split": "test",
+      "accept": [
+        "158019"
+      ],
+      "note": "Britain article, history section on peace talks with Bonaparte"
+    },
+    {
+      "entry_id": "E0180",
+      "headword": null,
+      "split": "calibrate",
+      "accept": [],
+      "note": "Attention and absorption of mind; no candidate on the subject"
+    },
+    {
+      "entry_id": "E0181",
+      "headword": null,
+      "split": "test",
+      "accept": [
+        "49254973"
+      ],
+      "note": "Convention of Klosterzeven, Hanoverian army"
+    },
+    {
+      "entry_id": "E0185",
+      "headword": "ATARAXY",
+      "split": "test",
+      "accept": [
+        "17796289"
+      ],
+      "note": "Ataraxy; Ataraxia not among candidates, Equanimity is closest"
+    },
+    {
+      "entry_id": "E0193",
+      "headword": "ATERNUM",
+      "split": "test",
+      "accept": [
+        "13770710"
+      ],
+      "note": ""
+    },
+    {
+      "entry_id": "E0200",
+      "headword": "BUXTON",
+      "split": "test",
+      "accept": [
+        "124259"
+      ],
+      "note": ""
+    },
+    {
+      "entry_id": "E0201",
+      "headword": "BUXUS",
+      "split": "calibrate",
+      "accept": [
+        "334850"
+      ],
+      "note": ""
+    },
+    {
+      "entry_id": "E0209",
+      "headword": "BYSSUS",
+      "split": "calibrate",
+      "accept": [
+        "469788"
+      ],
+      "note": ""
+    },
+    {
+      "entry_id": "E0215",
+      "headword": null,
+      "split": "calibrate",
+      "accept": [
+        "232244",
+        "46521228"
+      ],
+      "note": "Comparative anatomy of sacral vertebrae"
+    },
+    {
+      "entry_id": "E0218",
+      "headword": null,
+      "split": "calibrate",
+      "accept": [],
+      "note": "Preparing Homberg's phosphorus from excrement; no candidate on the subject"
+    },
+    {
+      "entry_id": "E0224",
+      "headword": "CABIDOS",
+      "split": "calibrate",
+      "accept": [
+        "16040029"
+      ],
+      "note": ""
+    },
+    {
+      "entry_id": "E0226",
+      "headword": "CABINET",
+      "split": "test",
+      "accept": [],
+      "note": "Cabinet as a room; no candidate on the subject"
+    },
+    {
+      "entry_id": "E0227",
+      "headword": "CABIRI",
+      "split": "calibrate",
+      "accept": [
+        "82889"
+      ],
+      "note": "Cabeiri"
+    },
+    {
+      "entry_id": "E0228",
+      "headword": "CABIRIA",
+      "split": "test",
+      "accept": [
+        "82889"
+      ],
+      "note": "Festival of the Cabeiri; the article Cabiria is a 1914 film"
+    },
+    {
+      "entry_id": "E0239",
+      "headword": "ERFURT",
+      "split": "calibrate",
+      "accept": [
+        "9481"
+      ],
+      "note": ""
+    },
+    {
+      "entry_id": "E0244",
+      "headword": "ERIGERON",
+      "split": "test",
+      "accept": [
+        "523235"
+      ],
+      "note": ""
+    },
+    {
+      "entry_id": "E0247",
+      "headword": "CHEMISTRY",
+      "split": "calibrate",
+      "accept": [],
+      "note": "Chemistry, sulphate of magnesia; no candidate on the subject"
+    }
+  ]
+}

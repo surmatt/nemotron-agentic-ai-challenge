@@ -42,7 +42,7 @@ def test_stages_list_reports_last_saved_run(tmp_path, capsys):
     (tmp_path / "extract" / "summary.json").write_text('{"finished_at": "2026-10-18T00:00:00+00:00"}')
     assert main(["stages", "--work-dir", str(tmp_path)]) == 0
     rows = {row["stage"]: row for row in json.loads(capsys.readouterr().out)}
-    assert len(rows) == 6 and all(row["status"] == "implemented" for row in rows.values())
+    assert len(rows) == 7 and all(row["status"] == "implemented" for row in rows.values())
     assert rows["extract"]["last_run"] == "2026-10-18T00:00:00+00:00" and rows["match"]["last_run"] is None
 
 

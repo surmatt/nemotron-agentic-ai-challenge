@@ -5,7 +5,8 @@ Use Hermes Agent to run the comparison agent that your team builds.
 
 The team plugin registers four native Hermes tools: `challenge_search`, `challenge_compare`, `challenge_read`, and `challenge_corpus`.
 The tools read the saved stage artifacts in `CHALLENGE_WORK_DIR` (default `artifacts`).
-The evidence rules and the question set are in `integrations/hermes/questions.json`.
+The evidence rules are in `integrations/hermes/SOUL.md`. Hermes loads `SOUL.md` from the profile as the agent identity.
+The question set is in `integrations/hermes/questions.json`.
 `uv run nemotron-challenge run agent` prepares this profile and runs the question set.
 
 ## Set up a separate profile
@@ -21,7 +22,12 @@ export HERMES_HOME="$PWD/data/hermes"
 mkdir -p "$HERMES_HOME/plugins"
 cp integrations/hermes/config.example.yaml "$HERMES_HOME/config.yaml"
 cp -R integrations/hermes/nemotron-challenge "$HERMES_HOME/plugins/"
+cp integrations/hermes/SOUL.md "$HERMES_HOME/SOUL.md"
 ```
+
+`SOUL.md` replaces the default Hermes identity in this profile.
+Copy it again after you change the rules.
+Do not use `--ignore-rules`. That flag also turns off `SOUL.md`.
 
 Keep `data/hermes` out of Git.
 It can contain conversations and credentials.
@@ -46,15 +52,20 @@ hermes plugins list
 [Plugin Doctor](https://github.com/NousResearch/hermes-agent/blob/main/website/docs/developer-guide/plugins/index.md#validate-with-plugin-doctor) checks discovery, imports, and registration.
 It does not call `handle_compare` or check comparison quality.
 
-Start Hermes from the shell that set `HERMES_HOME`:
+Start Hermes from the shell that set `HERMES_HOME`.
+Hermes loads every `AGENTS.md` from the git root to its working folder.
+This repository's `AGENTS.md` is a guide for coding agents, not for the comparison agent.
+The command below starts Hermes in an empty folder outside the repository:
 
 ```bash
 uv run python - <<'PY'
 import os
+import tempfile
 from dotenv import load_dotenv
 
 load_dotenv(".env", override=False)
-os.execvp("hermes", ["hermes", "chat", "--toolsets", "nemotron_challenge"])
+os.environ["CHALLENGE_WORK_DIR"] = os.path.abspath("artifacts")
+os.execvp("hermes", ["hermes", "chat", "--toolsets", "nemotron_challenge", "--in", tempfile.mkdtemp()])
 PY
 ```
 

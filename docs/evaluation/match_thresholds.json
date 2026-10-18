@@ -1,0 +1,41 @@
+{
+  "rerank_logit": -10.0,
+  "margin": 0.5,
+  "cosine": 0.15,
+  "title_similarity": 0.0,
+  "calibrated_at": "2026-10-18T13:01:10+00:00",
+  "labels": "docs/evaluation/match_labels.json",
+  "fit_on": "all labelled entries",
+  "in_sample": {
+    "accepted": 28,
+    "true_positive": 23,
+    "false_positive": 5,
+    "positives": 43,
+    "precision": 0.821,
+    "recall": 0.535,
+    "f1": 0.648
+  },
+  "two_fold_cross_validated": {
+    "accepted": 39,
+    "true_positive": 24,
+    "false_positive": 15,
+    "positives": 43,
+    "precision": 0.615,
+    "recall": 0.558,
+    "f1": 0.585
+  },
+  "fold_params": [
+    [
+      -10.0,
+      0.0,
+      0.2,
+      0.0
+    ],
+    [
+      -10.0,
+      0.5,
+      0.0,
+      0.0
+    ]
+  ]
+}

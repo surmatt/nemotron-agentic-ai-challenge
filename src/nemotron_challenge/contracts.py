@@ -31,7 +31,7 @@ class SourceReference(Contract):
 
 class ArtifactRecord(Contract):
     record_id: str = Field(min_length=1, max_length=200)
-    stage: Literal["extract", "match", "compare", "agent", "site", "evaluate"]
+    stage: Literal["extract", "correct", "match", "compare", "agent", "site", "evaluate"]
     sources: list[SourceReference] = Field(min_length=1)
     artifact_path: str = Field(min_length=1)
     metadata: dict[str, Any] = Field(default_factory=dict)

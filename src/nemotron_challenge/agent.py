@@ -1,10 +1,12 @@
 """Agent stage: run the team's question set through Hermes with Super 3.5 VL and the challenge tools.
 
 Method (team choice):
-1. Prepare a separate Hermes profile in data/hermes (config from integrations/hermes, current plugin copy).
+1. Prepare a separate Hermes profile in data/hermes: config from integrations/hermes, the current plugin,
+   and integrations/hermes/SOUL.md. SOUL.md holds the evidence rules, so they also apply in `hermes chat`.
 2. Run each question with `hermes chat --oneshot --format stream-json`, limited to the challenge toolset.
-   `--ignore-rules` stops Hermes from loading this repository's AGENTS.md. The evidence policy from
-   integrations/hermes/questions.json goes in front of each question instead.
+   Hermes starts in an empty temporary folder outside this repository. Inside a git repository Hermes
+   loads the AGENTS.md chain from the git root, and this repository's AGENTS.md is a coding guide.
+   `--ignore-rules` is not used, because it also turns off SOUL.md.
 3. Save every event stream unchanged. Never replace a failed run with an invented answer.
 4. Check each run: expected model ID, completed result, challenge tool calls, and whether each entry ID
    and Wikipedia revision ID in the answer occurs in a tool result. The expected behaviour per question
@@ -19,18 +21,20 @@ from pathlib import Path
 import re
 import shutil
 import subprocess
+import tempfile
 from typing import Any
 
 from dotenv import dotenv_values
 
-from .common import append_jsonl, read_json, utc_now, write_json, write_text
+from .common import text_dir, append_jsonl, read_json, sha256_text, utc_now, write_json, write_text
 from .config import SUPER_MODEL, Settings
 
 REPO = Path(__file__).resolve().parents[2]
 HERMES_SOURCE = REPO / "integrations" / "hermes"
 RUN_TIMEOUT = 420
 MISSING_WORDS = re.compile(r"no (?:accepted )?(?:match|comparison|evidence|results?|entry)|not found|missing|"
-                           r"does not (?:exist|contain|have)|no wikipedia|unavailable|cannot (?:compare|find)", re.I)
+                           r"does not (?:exist|contain|have)|no wikipedia|unavailable|cannot (?:compare|find)|"
+                           r"not (?:stated|provided|given)", re.I)
 WRONG_MATCH_WORDS = re.compile(r"(?:wrong|incorrect|mismatch|not the same|different (?:subject|place|topic)|"
                                r"does not (?:match|describe|correspond)|unrelated|mis-?match)", re.I)
 
@@ -53,10 +57,12 @@ def hermes_env(settings: Settings, home: Path, work_dir: Path) -> dict[str, str]
 
 
 def prepare_profile(hermes: str, env: dict[str, str], home: Path) -> dict[str, Any]:
-    """Copy the config once and the current plugin every run. Check registration with Plugin Doctor."""
+    """Copy the config once, and the current plugin and SOUL.md every run. Check the plugin with Plugin Doctor."""
     (home / "plugins").mkdir(parents=True, exist_ok=True)
     if not (home / "config.yaml").is_file():
         shutil.copy(HERMES_SOURCE / "config.example.yaml", home / "config.yaml")
+    soul = (HERMES_SOURCE / "SOUL.md").read_text(encoding="utf-8")
+    write_text(home / "SOUL.md", soul)
     target = home / "plugins" / "nemotron-challenge"
     shutil.rmtree(target, ignore_errors=True)
     shutil.copytree(HERMES_SOURCE / "nemotron-challenge", target,
@@ -68,12 +74,18 @@ def prepare_profile(hermes: str, env: dict[str, str], home: Path) -> dict[str, A
     version = subprocess.run([hermes, "--version"], env=env, capture_output=True, text=True, timeout=60)
     if doctor.returncode != 0:
         raise ValueError(f"Hermes Plugin Doctor failed: {doctor.stdout[-400:]} {doctor.stderr[-400:]}")
-    return {"plugin_doctor": "ok", "hermes_version": version.stdout.strip().splitlines()[0] if version.stdout else ""}
+    return {"plugin_doctor": "ok", "hermes_version": version.stdout.strip().splitlines()[0] if version.stdout else "",
+            "soul_sha256": sha256_text(soul)}
 
 
-def prompt(policy: list[str], question: str) -> str:
-    rules = "\n".join(f"- {line}" for line in policy)
-    return f"Rules for this answer:\n{rules}\n\nQuestion: {question}"
+def outside_git_folder() -> Path:
+    """An empty folder outside every git repository, so Hermes loads no project context file."""
+    folder = Path(tempfile.mkdtemp(prefix="hermes-challenge-"))
+    inside = subprocess.run(["git", "-C", str(folder), "rev-parse", "--is-inside-work-tree"],
+                            capture_output=True, text=True)
+    if inside.returncode == 0:
+        raise ValueError(f"temporary folder {folder} is inside a git repository")
+    return folder
 
 
 def parse_events(lines: list[str]) -> dict[str, Any]:
@@ -120,7 +132,7 @@ def check(question: dict[str, Any], parsed: dict[str, Any]) -> dict[str, Any]:
 
 
 def run(settings: Settings, work_dir: Path, only: list[str] | None = None) -> dict[str, Any]:
-    for needed in ("extract/entries.jsonl", "match/matches.jsonl", "compare/pairs.jsonl"):
+    for needed in (f"{text_dir(work_dir).name}/entries.jsonl", "match/matches.jsonl", "compare/pairs.jsonl"):
         if not (work_dir / needed).is_file():
             raise FileNotFoundError(f"{work_dir / needed} is missing. Run the earlier stages first.")
     hermes, home = hermes_binary(), REPO / "data" / "hermes"
@@ -130,15 +142,14 @@ def run(settings: Settings, work_dir: Path, only: list[str] | None = None) -> di
     run_id = utc_now().replace(":", "").replace("+0000", "Z")
     out = work_dir / "agent"
     run_dir = out / "runs" / run_id
-    sandbox = out / "cwd"  # An empty working directory, so Hermes finds no project files.
-    sandbox.mkdir(parents=True, exist_ok=True)
+    sandbox = outside_git_folder()
     rows = []
     for question in spec["questions"]:
         if only and question["id"] not in only:
             continue
         started = utc_now()
-        command = [hermes, "chat", "-q", prompt(spec["policy"], question["question"]), "--oneshot",
-                   "--format", "stream-json", "-t", "nemotron_challenge", "--ignore-rules",
+        command = [hermes, "chat", "-q", question["question"], "--oneshot",
+                   "--format", "stream-json", "-t", "nemotron_challenge",
                    "--max-turns", "12", "--run-budget", str(RUN_TIMEOUT - 60)]
         try:
             done = subprocess.run(command, env=env, cwd=sandbox, capture_output=True, text=True, timeout=RUN_TIMEOUT)
@@ -154,7 +165,8 @@ def run(settings: Settings, work_dir: Path, only: list[str] | None = None) -> di
                "expect": question["expect"], "started_at": started, "finished_at": utc_now(),
                "process_exit_code": code, "events_path": str(run_dir / f"{question['id']}.jsonl"),
                "model": parsed["model"], "session_id": parsed["session_id"],
-               "tool_calls": [c["name"] for c in parsed["tool_calls"]], "answer": parsed["answer"], "checks": checks}
+               "tool_calls": [c["name"] for c in parsed["tool_calls"]], "answer": parsed["answer"], "checks": checks,
+               "soul_sha256": profile["soul_sha256"]}
         if not checks["completed"]:
             append_jsonl(work_dir / "runs" / "failures.jsonl", {
                 "stage": "agent", "run_id": run_id, "question_id": question["id"], "process_exit_code": code,
@@ -171,4 +183,5 @@ def run(settings: Settings, work_dir: Path, only: list[str] | None = None) -> di
         "note": "Automatic checks are text rules. Read each answer before you classify it.",
     }
     write_json(out / "summary.json", summary)
+    shutil.rmtree(sandbox, ignore_errors=True)
     return summary

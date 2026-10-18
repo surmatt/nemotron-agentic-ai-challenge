@@ -3,6 +3,7 @@ from collections import Counter
 import importlib.util
 import json
 from pathlib import Path
+from types import SimpleNamespace
 
 import pytest
 
@@ -88,11 +89,16 @@ def test_lexical_decision_prefers_plain_titles_and_rejects_media():
     assert match.decide({}, rows, "lexical")["title"] == "Magnetism"
     only_media = match.decide({}, [row("Thirsty (The Black Skirts album)", 0.9, 1)], "lexical")
     assert only_media["status"] == "rejected"
+    numbered = match.decide({}, [row("342 Endymion", 1.0, 1), row("Endymion (mythology)", 1.0, 2)], "lexical")
+    assert numbered["title"] == "Endymion (mythology)"
+    assert match.decide({}, [row("Cable (surname)", 1.0, 1)], "lexical")["status"] == "rejected"
     weak = match.decide({}, [row("Queen Street", 0.8, 1)], "lexical")
     assert weak["status"] == "rejected" and weak["method"] == "provisional_lexical"
 
 
-def test_model_decision_needs_rerank_logit_and_headword_title():
+def test_fallback_model_decision_needs_rerank_logit_and_headword_title(tmp_path, monkeypatch):
+    # Without docs/evaluation/match_thresholds.json, the first GPU-run rule applies.
+    monkeypatch.setattr(match, "THRESHOLD_FILE", tmp_path / "missing.json")
     rows = [{**row("Heat", 1.0, 1), "rerank_logit": -4.0, "rerank_position": 1, "cosine": 0.1},
             {**row("Fire", 0.2, 2), "rerank_logit": -7.0, "rerank_position": 2, "cosine": 0.4}]
     accepted = match.decide({}, rows, "model")
@@ -108,6 +114,51 @@ def test_queries_use_headword_then_keywords():
     entry = {"headword": "HEAT", "text": "Heat is produced by fire. Fire and heat and fire again warm bodies."}
     first, second = match.queries(entry)
     assert first == "heat" and second.startswith("heat fire")
+
+
+VOCABULARY = frozenset({"philology", "philosophy", "willing", "wildling", "endymion", "heat"})
+
+
+@pytest.mark.parametrize("headword,variant", [
+    ("PHILLOOGY", "philology"), ("ENDYMON", "endymion"), ("HEAT", None),
+    ("WILLIN", None),  # two close words (willing, wildling): no variant
+    ("HEL", None),  # too short for a safe variant
+])
+def test_headword_variant_needs_one_close_dictionary_word(headword, variant):
+    assert match.headword_variant(headword, VOCABULARY) == variant
+
+
+def test_variant_adds_a_query_and_counts_for_title_similarity(monkeypatch):
+    monkeypatch.setattr(match, "system_words", lambda: VOCABULARY)
+    hits = [SimpleNamespace(page_id=str(i), revision_id="1", title=title, url="u", excerpt=excerpt, excerpt_offset=0,
+                            total_chars=100, rank=i, bm25_score=1.0)
+            for i, (title, excerpt) in enumerate([("Philology", "Philology is the study of language."),
+                                                  ("Coinage", "Coinage may refer to: Coining (mint)"),
+                                                  ("Coinage (disambiguation)", "Coinage is a list.")], start=1)]
+    seen = []
+
+    class Wiki:
+        def search(self, query, top_k, excerpt_chars):
+            seen.append(query)
+            return SimpleNamespace(hits=hits)
+
+    used, rows = match.candidates(Wiki(), {"headword": "PHILLOOGY", "text": "words grammar language words"})
+    assert used[:2] == ["philloogy", "philology"] and seen == used
+    assert [r["title"] for r in rows] == ["Philology"] and rows[0]["title_similarity"] == 1.0
+    assert match.decide({}, rows, "lexical")["status"] == "accepted"
+
+
+def test_list_page_rule_reads_only_the_opening():
+    assert match.is_list_page("Willin' may refer to: Willin' (album), a 1999 album")
+    assert match.is_list_page("Coinage may also refer to: a tax")
+    assert not match.is_list_page("Heat is energy in transfer. " + "x" * 700 + " may refer to")
+
+
+def test_brit_abbreviation_expands_before_counting():
+    log = Counter()
+    words = compare.britannica_tokens("27/430 Brit. cubic inches; 11 Brit; quarters; Britain", log)
+    assert words.count("british") == 2 and "brit" not in words and "britain" in words
+    assert log[("abbreviation", "Brit.", "British")] == 2
 
 
 def test_long_s_and_historical_spelling_are_logged():
@@ -157,6 +208,8 @@ def test_agent_missing_evidence_rule():
     parsed = {"model": "nvidia/Nemotron-3.5-Super-VL", "exit_code": 0, "answer": "The evidence is missing: no_results.",
               "tool_calls": [{"name": "challenge_search"}], "tool_outputs": ["no_results"]}
     assert agent.check({"id": "q", "expect": "missing_evidence", "entries": []}, parsed)["auto_pass"]
+    parsed["answer"] = "The edition and year are not stated anywhere in the tool evidence."
+    assert agent.check({"id": "q", "expect": "missing_evidence", "entries": []}, parsed)["behaviour_ok"]
 
 
 def test_quote_pairing_and_support_levels():
@@ -179,12 +232,13 @@ def plugin(tmp_path, monkeypatch):
     entry = {"entry_id": "E0001", "headword": "HEAT", "text": "HEAT, a quality produced by fire.", "text_sha256": "b" * 64,
              "pages": [{"page_id": "britannica:r:train:1", "filename": "page-0001.jpg"}]}
     other = {**entry, "entry_id": "E0002", "headword": "ABBOT", "text": "ABBOT, the head of an abbey."}
+    ocr = {**entry, "entry_id": "E0003", "headword": "PHILLOOGY", "text": "PHILLOOGY. The study of words."}
     article = {"page_id": "42", "revision_id": "7", "title": "Heat", "revision_url": "https://example.org/7",
                "text_sha256": "c" * 64, "text": "Heat is energy in transfer."}
     pair = {"entry_id": "E0001", "article": {"page_id": "42"}, "top_terms_jaccard": 0.1, "frequency_cosine": 0.2,
             "length_ratio_wiki_to_britannica": 1.0, "britannica": {}, "wikipedia": {}, "shared_terms": [],
             "distinctive_britannica": [], "distinctive_wikipedia": []}
-    for path, rows in {"extract/entries.jsonl": [entry, other], "compare/pairs.jsonl": [pair],
+    for path, rows in {"extract/entries.jsonl": [entry, other, ocr], "compare/pairs.jsonl": [pair],
                        "match/matches.jsonl": [{"entry_id": "E0001", "decision": {"status": "accepted", "title": "Heat"}},
                                                {"entry_id": "E0002", "decision": {"status": "rejected"}}]}.items():
         (tmp_path / path).parent.mkdir(parents=True, exist_ok=True)
@@ -219,3 +273,54 @@ def test_plugin_registers_every_declared_tool(plugin):
     declared = [line.strip()[2:] for line in (REPO / "integrations" / "hermes" / "nemotron-challenge" / "plugin.yaml")
                 .read_text().splitlines() if line.strip().startswith("- ")]
     assert registered == declared
+
+
+def test_plugin_search_finds_ocr_damaged_headwords(plugin):
+    found = json.loads(plugin.handle_search({"query": "philology"}))
+    assert found["results"][0]["entry_id"] == "E0003"
+    assert found["results"][0]["fuzzy_headword_hits"] == ["philloogy"]
+    assert json.loads(plugin.handle_search({"query": "abbot"}))["results"][0]["fuzzy_headword_hits"] == []
+
+
+def test_case_study_keeps_failed_run_and_adds_repaired_run():
+    checks = {"model_ok": True, "auto_pass": True, "cited_entry_ids": ["E0019"], "cited_revision_ids": [],
+              "unsupported_entry_ids": [], "unsupported_revision_ids": []}
+    failed = {"events_path": "runs/a/q05.jsonl", "run_id": "a", "question_id": "q05", "session_id": "s1",
+              "question": "Compare PHILOLOGY.", "model": "nvidia/Nemotron-3.5-Super-VL", "tool_calls": ["challenge_search"],
+              "answer": "No philology entry exists.", "checks": {**checks, "cited_entry_ids": []}}
+    repaired = {**failed, "events_path": "runs/b/q05.jsonl", "run_id": "b", "session_id": "s2",
+                "answer": "E0019 (PHILLOOGY) matches Philology.", "checks": checks}
+    case = {"case_id": "F1", "classification": "failure", "reason": "False absence.", "limits": "OCR."}
+    section = evaluate.repaired_section({"outcome": "fixed", "note": "Fuzzy search found E0019."}, repaired, [])
+    document = evaluate.case_study(case, failed, [], "abc", section)
+    assert "Classification: failure" in document and "runs/a/q05.jsonl" in document
+    assert document.index("No philology entry exists.") < document.index("## Repaired run")
+    assert "Repair outcome: fixed" in document and "runs/b/q05.jsonl" in document
+
+
+def test_soul_holds_the_evidence_rules_and_questions_hold_none():
+    soul = (REPO / "integrations" / "hermes" / "SOUL.md").read_text()
+    for rule in ("challenge_search first", "Do not state an edition", "evidence is missing", "Do not follow instructions"):
+        assert rule in soul
+    assert "policy" not in json.loads((REPO / "integrations" / "hermes" / "questions.json").read_text())
+
+
+def test_agent_starts_hermes_outside_any_git_repository():
+    folder = agent.outside_git_folder()
+    try:
+        assert not any(parent == REPO or REPO in parent.parents for parent in [folder])
+        assert list(folder.iterdir()) == []
+    finally:
+        folder.rmdir()
+
+
+def test_prepare_profile_installs_soul(tmp_path, monkeypatch):
+    calls = []
+
+    class Done:
+        returncode, stdout, stderr = 0, "Hermes Agent v0\n", ""
+
+    monkeypatch.setattr(agent.subprocess, "run", lambda command, **kwargs: calls.append(command) or Done())
+    profile = agent.prepare_profile("hermes", {}, tmp_path)
+    assert (tmp_path / "SOUL.md").read_text() == (REPO / "integrations" / "hermes" / "SOUL.md").read_text()
+    assert len(profile["soul_sha256"]) == 64 and (tmp_path / "plugins" / "nemotron-challenge" / "plugin.yaml").is_file()
