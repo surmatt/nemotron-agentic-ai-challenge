@@ -10,6 +10,7 @@ const MODELS: Record<string, string> = {
   correct: "Nemotron-3.5-Super-VL · Token Factory",
   match: "BM25 + embed-vl-1b-v2 + rerank-vl-1b-v2",
   compare: "local statistics",
+  summarize: "Nemotron-3.5-Super-VL + embed-vl-1b-v2",
   document: "LaTeX · tectonic",
 };
 
@@ -106,6 +107,7 @@ export function Overview({
   const cor = s.correct as Record<string, any> | null | undefined;
   const mat = s.match as Record<string, any> | null | undefined;
   const com = s.compare as Record<string, any> | null | undefined;
+  const sum = s.summarize as Record<string, any> | null | undefined;
   const sit = s.site as Record<string, any> | null | undefined;
   const stats: [string, string | number, string][] = [
     ["Scans parsed", ext ? `${ext.parsed}/${ext.scans}` : "—", ext ? `${(ext.failed_scans ?? []).length} Parse failures` : "no saved run"],
@@ -113,6 +115,7 @@ export function Overview({
     ["Blocks corrected", cor ? cor.blocks_corrected : "—", cor ? `of ${cor.blocks_requested} sent to Super VL` : "no saved run"],
     ["Accepted matches", mat ? mat.accepted : "—", mat ? `${mat.searched} searched · ${mat.mode} mode` : "no saved run"],
     ["Compared pairs", com ? com.pairs : "—", com ? `mean cosine ${com.mean_frequency_cosine}` : "no saved run"],
+    ["Summarized pairs", sum ? sum.ok : "—", sum ? `${sum.differences_with_quotes} of ${sum.differences} differences with both quotes found` : "no saved run"],
     ["LaTeX PDFs", sit ? sit.latex.compiled : "—", sit ? `of ${sit.scan_pages} scan documents` : "no saved run"],
   ];
   return (
@@ -123,7 +126,7 @@ export function Overview({
           Follow a page <em>from ink to evidence.</em>
         </h1>
         <p className="hero__lede">
-          Drop a scan into the workbench and run the five stages one at a time, or all at once. Every step keeps its raw model
+          Drop a scan into the workbench and run the six stages one at a time, or all at once. Every step keeps its raw model
           output, so you can check each box, correction, match, and term against the source.
         </p>
         <div className="hero__cta">

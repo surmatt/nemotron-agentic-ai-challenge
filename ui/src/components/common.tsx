@@ -35,8 +35,16 @@ export const STEP_META: Record<StepName, { numeral: string; title: string; verb:
       "Word frequencies with long-s and historical spelling normalised. Log-odds z-scores with an informative Dirichlet prior show distinctive terms.",
     module: "compare.py",
   },
-  document: {
+  summarize: {
     numeral: "V",
+    title: "Summarize differences",
+    verb: "Summarize",
+    method:
+      "Super 3.5 VL reads the entry and the closest Wikipedia passages and lists the key differences. Each difference quotes both sources, and the code checks each quote.",
+    module: "summarize.py",
+  },
+  document: {
+    numeral: "VI",
     title: "LaTeX document",
     verb: "Typeset",
     method:

@@ -1,0 +1,131 @@
+{
+  "steps": {
+    "extract": {
+      "status": "queued",
+      "started_at": "2026-10-18T15:18:21+00:00",
+      "archived_previous": "2026-10-18T151821Z",
+      "progress": {
+        "done": 1,
+        "total": 1,
+        "label": "segmented"
+      },
+      "finished_at": "2026-10-18T15:18:24+00:00",
+      "elapsed_seconds": 2.82,
+      "summary": {
+        "model": "nvidia/nemotron-3.5-parse",
+        "parse_seconds": 2.78,
+        "finish_reason": "stop",
+        "page_status": "ok",
+        "blocks": 13,
+        "furniture": 3,
+        "entries": 6,
+        "headword_entries": 5
+      },
+      "error": null
+    },
+    "correct": {
+      "status": "queued",
+      "started_at": "2026-10-18T15:18:24+00:00",
+      "archived_previous": null,
+      "progress": {
+        "done": 13,
+        "total": 13,
+        "label": "block 12"
+      },
+      "finished_at": "2026-10-18T15:18:28+00:00",
+      "elapsed_seconds": 3.82,
+      "summary": {
+        "model": "nvidia/Nemotron-3.5-Super-VL",
+        "variant": "crop_nothink",
+        "blocks_requested": 13,
+        "blocks_corrected": 13,
+        "blocks_failed": 0,
+        "text_decisions": {
+          "super_vl": 13
+        },
+        "long_s_rule_changed": 0,
+        "entries": 5
+      },
+      "error": null
+    },
+    "match": {
+      "status": "queued",
+      "started_at": "2026-10-18T15:18:28+00:00",
+      "archived_previous": null,
+      "progress": {
+        "done": 5,
+        "total": 5,
+        "label": "NAZARITE"
+      },
+      "finished_at": "2026-10-18T15:18:35+00:00",
+      "elapsed_seconds": 7.74,
+      "summary": {
+        "mode": "model",
+        "mode_detail": "retrieval models verified",
+        "entry_text": "correct",
+        "models": [
+          "nvidia/llama-nemotron-embed-vl-1b-v2",
+          "nvidia/llama-nemotron-rerank-vl-1b-v2",
+          "nvidia/Nemotron-3.5-Super-VL"
+        ],
+        "terms_model": "nvidia/Nemotron-3.5-Super-VL",
+        "llm_terms": {
+          "ok": 5,
+          "failed": 0,
+          "skipped": 0,
+          "cached": 0
+        },
+        "thresholds": {
+          "rerank_logit": -10.0,
+          "margin": 0.5,
+          "cosine": 0.15,
+          "title_similarity": 0.0
+        },
+        "searched": 5,
+        "skipped": 0,
+        "accepted": 0,
+        "rejected": 5,
+        "errors": 0
+      },
+      "error": null
+    },
+    "compare": {
+      "status": "queued",
+      "started_at": "2026-10-18T15:18:35+00:00",
+      "archived_previous": null,
+      "progress": {
+        "done": 0,
+        "total": 0,
+        "label": "word frequencies and log-odds"
+      },
+      "finished_at": "2026-10-18T15:18:35+00:00",
+      "elapsed_seconds": 0.0,
+      "summary": {
+        "pairs": 0,
+        "note": "the match step accepted no pairs, so nothing was compared"
+      },
+      "error": null
+    },
+    "document": {
+      "status": "queued",
+      "started_at": "2026-10-18T15:18:35+00:00",
+      "archived_previous": null,
+      "progress": {
+        "done": 1,
+        "total": 1,
+        "label": "done"
+      },
+      "finished_at": "2026-10-18T15:18:36+00:00",
+      "elapsed_seconds": 0.4,
+      "summary": {
+        "entry_text": "correct",
+        "entries": 5,
+        "tex_sha256": "0586451679daa444191f2d4081c5d285de2bc988d2ddc9e31061a66f00444167",
+        "pdf": true,
+        "engine": "Tectonic 0.17.0",
+        "note": null
+      },
+      "error": null
+    }
+  }
+}

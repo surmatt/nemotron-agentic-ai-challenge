@@ -1,5 +1,5 @@
 import { useMemo, useState } from "react";
-import type { Pair, TermRow, WorkspaceView } from "../types";
+import type { DiffSummary, Pair, TermRow, WorkspaceView } from "../types";
 import { Chip, Empty, SourceLabel, num } from "./common";
 
 function Bars({ rows, side, onPick, picked }: { rows: TermRow[]; side: "b" | "w"; onPick: (t: TermRow) => void; picked?: string }) {
@@ -30,6 +30,96 @@ function Highlight({ text, term }: { text: string; term: string }) {
     <>
       {parts.map((p, i) => (i % 2 ? <mark key={i}>{p}</mark> : <span key={i}>{p}</span>))}
     </>
+  );
+}
+
+const SAME_SUBJECT: Record<string, [string, string]> = {
+  yes: ["same subject", "ok"],
+  partly: ["partly the same subject", "warn"],
+  no: ["different subjects", "bad"],
+};
+const SELECTION: Record<string, string> = {
+  whole_article: "the whole article",
+  embedder: "the Wikipedia passages closest to the entry by embedder cosine",
+  lead: "the first Wikipedia passages (no embedder ranking)",
+};
+
+function Check({ ok, what }: { ok: boolean; what: string }) {
+  return <span className={`diff-item__check ${ok ? "is-pass" : "is-fail"}`}>{ok ? `quote found in the ${what}` : `quote not found in the ${what}`}</span>;
+}
+
+function DiffSummaryPanel({ summary }: { summary: DiffSummary | null | undefined }) {
+  if (!summary) return <Empty title="No difference summary">Run step V after the compare step.</Empty>;
+  if (summary.status !== "ok")
+    return (
+      <div className="summary">
+        <SourceLabel kind="generated">difference summary · {summary.status}</SourceLabel>
+        <div className="summary__body">
+          <p className="mono small">{summary.status === "skipped" ? summary.reason : `${summary.error_type}: ${summary.error}`}</p>
+          {summary.raw_path && <p className="mono small muted">Raw reply: {summary.raw_path}</p>}
+        </div>
+      </div>
+    );
+  const diffs = summary.differences ?? [];
+  const same = summary.same_subject ? SAME_SUBJECT[summary.same_subject] : null;
+  const ctx = summary.context;
+  return (
+    <div className="summary">
+      <SourceLabel kind="generated">
+        key differences by {summary.model} · {summary.differences_with_quotes ?? 0} of {diffs.length} with both quotes found
+        {summary.cached ? " · saved reply" : ""}
+      </SourceLabel>
+      <div className="summary__body">
+        <div className="summary__meta">
+          {same && <Chip tone={same[1]} title="Model inference, without a citation">{same[0]} (inference)</Chip>}
+          {ctx && (
+            <span className="mono small muted">
+              Read {SELECTION[ctx.selection] ?? ctx.selection}: {ctx.passages.length} passage{ctx.passages.length === 1 ? "" : "s"}, {ctx.chars} characters
+              {ctx.selection_detail ? ` · ${ctx.selection_detail}` : ""}
+            </span>
+          )}
+        </div>
+        {summary.overview && (
+          <p className="summary__overview" title="Model inference, without a citation">
+            {summary.overview} <span className="mono small muted">(inference)</span>
+          </p>
+        )}
+        <p className="mono small muted">
+          The claims are model inference. A found quote shows that the words occur in the source, not that they support the claim.
+        </p>
+        {diffs.length === 0 ? (
+          <p className="mono small muted">The model reported no differences.</p>
+        ) : (
+          <ol className="diffs">
+            {diffs.map((d, i) => (
+              <li key={i} className={`diff-item ${d.quotes_found ? "" : "diff-item--unsupported"}`}>
+                <div className="diff-item__head">
+                  <h4>{d.aspect}</h4>
+                  <Chip tone={d.quotes_found ? "ok" : "bad"}>{d.quotes_found ? "both quotes found" : "quote not found"}</Chip>
+                </div>
+                <div className="diff-item__sides">
+                  <div>
+                    <p className="diff-item__claim" title="Model inference"><span className="tint-b">Britannica:</span> {d.britannica}</p>
+                    <SourceLabel kind="britannica">quote{d.evidence.britannica.offset !== null ? ` · offset ${d.evidence.britannica.offset}` : ""}</SourceLabel>
+                    <p className="diff-item__quote text-source">“{d.evidence.britannica.quote}”</p>
+                    <Check ok={d.evidence.britannica.found} what="entry text" />
+                  </div>
+                  <div>
+                    <p className="diff-item__claim" title="Model inference"><span className="tint-w">Wikipedia:</span> {d.wikipedia}</p>
+                    <SourceLabel kind="wikipedia">
+                      quote{d.evidence.wikipedia.passage_id ? ` · ${d.evidence.wikipedia.passage_id}` : ""}
+                      {d.evidence.wikipedia.offset !== null ? ` · offset ${d.evidence.wikipedia.offset}` : ""}
+                    </SourceLabel>
+                    <p className="diff-item__quote text-wiki">“{d.evidence.wikipedia.quote}”</p>
+                    <Check ok={d.evidence.wikipedia.found} what="article text" />
+                  </div>
+                </div>
+              </li>
+            ))}
+          </ol>
+        )}
+      </div>
+    </div>
   );
 }
 
@@ -68,6 +158,7 @@ export function CompareTab({ view }: { view: WorkspaceView }) {
           · matched by {pair.match_method}
         </p>
       </header>
+      <DiffSummaryPanel summary={view.entries.find((e) => e.entry_id === pair.entry_id)?.summary} />
       <SourceLabel kind="generated">word-frequency comparison, log-odds z-scores with an informative Dirichlet prior</SourceLabel>
       <div className="metrics">
         <div className="metric">
