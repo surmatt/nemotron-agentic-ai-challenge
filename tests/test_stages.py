@@ -328,3 +328,10 @@ def test_prepare_profile_installs_soul(tmp_path, monkeypatch):
     profile = agent.prepare_profile("hermes", {}, tmp_path)
     assert (tmp_path / "SOUL.md").read_text() == (REPO / "integrations" / "hermes" / "SOUL.md").read_text()
     assert len(profile["soul_sha256"]) == 64 and (tmp_path / "plugins" / "nemotron-challenge" / "plugin.yaml").is_file()
+
+
+def test_agent_questions_find_entries_by_headword():
+    entries = [{"entry_id": "E0089", "headword": "HEAT"}, {"entry_id": "E0090", "headword": "HEDGE"}]
+    question = {"id": "q01", "entries": ["E0090"], "headwords": ["HEAT"]}
+    assert agent.resolve_entries(question, entries)["entries"] == ["E0089"]
+    assert agent.resolve_entries({"id": "q04", "entries": []}, entries)["entries"] == []

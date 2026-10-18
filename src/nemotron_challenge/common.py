@@ -63,8 +63,13 @@ def append_jsonl(path: Path, row: dict[str, Any]) -> None:
         stream.write(json.dumps(row, ensure_ascii=False) + "\n")
 
 
-def with_retry(call: Callable[[], T], *, attempts: int = 4, base_delay: float = 2.0) -> T:
-    """Retry transient service errors with a bounded number of attempts."""
+def with_retry(call: Callable[[], T], *, attempts: int = 6, base_delay: float = 2.0) -> T:
+    """Retry transient service errors with a bounded number of attempts and exponential back-off.
+
+    The retrieval service runs one request at a time and queues four. Under parallel load it answers
+    HTTP 429 with Retry-After: 1, so a wait of only Retry-After is too short. Wait at least that long,
+    and at least base_delay * 2 ** (attempt - 1).
+    """
     for attempt in range(1, attempts + 1):
         try:
             return call()
@@ -74,8 +79,8 @@ def with_retry(call: Callable[[], T], *, attempts: int = 4, base_delay: float = 
             transient = exc.status_code in RETRY_STATUS or exc.status_code is None
             if not transient or attempt == attempts:
                 raise
-            delay = float(exc.retry_after) if (exc.retry_after or "").isdigit() else base_delay * attempt
-            time.sleep(min(delay, 30))
+            hinted = float(exc.retry_after) if (exc.retry_after or "").isdigit() else 0.0
+            time.sleep(min(max(hinted, base_delay * 2 ** (attempt - 1)), 30))
     raise AssertionError("unreachable")
 
 

@@ -12,6 +12,7 @@ uv run nemotron-challenge run extract
 uv run nemotron-challenge run correct
 uv run nemotron-challenge run match
 uv run nemotron-challenge run compare
+uv run nemotron-challenge run index
 uv run nemotron-challenge run agent
 uv run nemotron-challenge run site
 uv run nemotron-challenge run evaluate
@@ -20,6 +21,8 @@ uv run nemotron-challenge stages
 
 Each stage writes to `artifacts/<stage>/` and writes `summary.json` last.
 Each stage reads the files of the earlier stages.
+LanceDB (`CHALLENGE_DB_PATH`, default `data/team.lancedb`) holds the provenance records and the passage vectors.
+Each stage replaces its own provenance records, so old runs leave no stale records. Each work dir has its own tables.
 After `correct` has run, `match`, `compare`, the agent tools, and `site` use the corrected text.
 Failed model calls go to `artifacts/runs/failures.jsonl` with their error details.
 
@@ -34,7 +37,8 @@ The site stage compiles LaTeX with `tectonic` when it is installed. Without it, 
 | Correct | `correct.py`, `ocr_eval.py` | Super 3.5 VL reads an enlarged crop of each Parse block with the Parse text and returns corrected text. Reasoning is off. Raw replies stay unchanged in `correct/raw/`. Parse text stays when the box is too small or the call fails. Gold-set results: [ocr-correction.md](evaluation/ocr-correction.md). |
 | Match | `match.py` | Two BM25 searches per entry (headword, then headword with keywords). With the retrieval service: the reranker ranks the candidates, and its first candidate is accepted when the margin and the embedder cosine pass the thresholds calibrated on 60 hand-labelled entries ([match-calibration.md](evaluation/match-calibration.md)). Without it: a headword and title rule, labelled `provisional_lexical`. |
 | Compare | `compare.py` | Word frequencies. Long s and historical spelling are normalised and logged. Log-odds z-scores with an informative Dirichlet prior. Each distinctive term has one source snippet per side. |
-| Agent | `agent.py`, `integrations/hermes/` | Hermes with Super 3.5 VL and four tools: search, compare, read, corpus. The evidence rules are in `integrations/hermes/SOUL.md`; the questions are in `integrations/hermes/questions.json`. |
+| Index | `index.py`, `search.py`, `storage.py` | Splits Britannica entries and accepted Wikipedia articles into passages of about 1,200 characters, embeds them with Embed VL, and writes them with their citations to LanceDB (`britannica_passages`, `wikipedia_passages`). Stored vectors are reused. Search: `uv run python -m nemotron_challenge.search --query "..."`. |
+| Agent | `agent.py`, `integrations/hermes/` | Hermes with Super 3.5 VL and five tools: search, semantic search (LanceDB), compare, read, corpus. The evidence rules are in `integrations/hermes/SOUL.md`; the questions are in `integrations/hermes/questions.json`. |
 | Site | `site.py` | Static HTML and one LaTeX document per scan. Source text and generated analysis have separate, labelled sections. |
 | Evaluate | `evaluate.py`, `evaluation/cases.json` | The team classifies six saved runs by hand. The stage checks quotes against the tool results and writes the case studies. |
 

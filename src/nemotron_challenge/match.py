@@ -396,21 +396,22 @@ def run(settings: Settings, work_dir: Path) -> dict[str, Any]:
     manifest = load_manifest()
     pages = {p["page_id"]: p for p in manifest["pages"]}
     by_entry = {e["entry_id"]: e for e in entries}
-    store = LanceArtifactStore(settings.db_path)
+    match_records = []
     for record in records:
         if record["decision"]["status"] != "accepted":
             continue
         article = read_json(out / "articles" / f"{record['article']['page_id']}.json")
-        store.put(ArtifactRecord(
+        match_records.append(ArtifactRecord(
             record_id=f"match:{record['entry_id']}", stage="match", artifact_path=str(out / "matches.jsonl"),
             sources=[scan_reference(pages[p["page_id"]], manifest) for p in by_entry[record["entry_id"]]["pages"]]
             + [wiki_reference(article)],
             metadata={"method": record["decision"]["method"], "title": article["title"]},
         ))
+    provenance = LanceArtifactStore(settings.db_path, work_dir).replace_stage("match", match_records)
     accepted = [r for r in records if r["decision"]["status"] == "accepted"]
     repeats = Counter(r["article"]["page_id"] for r in accepted)
     summary = {
-        "stage": "match", "finished_at": utc_now(), "entry_text": source.name, "mode": mode, "mode_detail": mode_detail,
+        "stage": "match", "finished_at": utc_now(), "entry_text": source.name, "provenance": provenance, "mode": mode, "mode_detail": mode_detail,
         "models": [EMBED_MODEL, RERANK_MODEL] if mode == "model" else [],
         "wikipedia_revision": WIKIPEDIA_REVISION,
         "thresholds": {"title_similarity": TITLE_ACCEPT} if mode == "lexical"

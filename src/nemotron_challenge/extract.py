@@ -234,14 +234,12 @@ def run(settings: Settings, work_dir: Path, raw_scans: Path = Path("data/raw/bri
     write_jsonl(out / "pages.jsonl", pages)
     write_jsonl(out / "entries.jsonl", entries)
 
-    store = LanceArtifactStore(settings.db_path)
     by_id = {p["page_id"]: p for p in manifest["pages"]}
-    for entry in entries:
-        store.put(ArtifactRecord(
-            record_id=f"extract:{entry['entry_id']}", stage="extract", artifact_path=str(out / "entries.jsonl"),
-            sources=[scan_reference(by_id[p["page_id"]], manifest) for p in entry["pages"]],
-            metadata={"headword": entry["headword"], "text_sha256": entry["text_sha256"]},
-        ))
+    provenance = LanceArtifactStore(settings.db_path, work_dir).replace_stage("extract", (ArtifactRecord(
+        record_id=f"extract:{entry['entry_id']}", stage="extract", artifact_path=str(out / "entries.jsonl"),
+        sources=[scan_reference(by_id[p["page_id"]], manifest) for p in entry["pages"]],
+        metadata={"headword": entry["headword"], "text_sha256": entry["text_sha256"]},
+    ) for entry in entries))
     status_counts: dict[str, int] = {}
     for page in pages:
         status_counts[page["status"]] = status_counts.get(page["status"], 0) + 1
@@ -254,6 +252,7 @@ def run(settings: Settings, work_dir: Path, raw_scans: Path = Path("data/raw/bri
         "entries": len(entries), "headword_entries": sum(e["start_kind"] == "headword" for e in entries),
         "continuation_entries": sum(e["start_kind"] == "continuation" for e in entries),
         "joined_across_pages": sum(len(e["pages"]) > 1 for e in entries),
+        "provenance": provenance,
         "outputs": {"raw": str(out / "raw"), "pages": str(out / "pages.jsonl"), "entries": str(out / "entries.jsonl")},
     }
     write_json(out / "summary.json", summary)

@@ -23,13 +23,16 @@ from __future__ import annotations
 
 import base64
 from concurrent.futures import ThreadPoolExecutor
+import os
 from pathlib import Path
 import time
 from typing import Any
 
 from .clients import ChatClient, ServiceError
-from .common import append_jsonl, read_json, read_jsonl, utc_now, with_retry, write_json, write_jsonl
+from .common import append_jsonl, read_json, read_jsonl, scan_reference, utc_now, with_retry, write_json, write_jsonl
 from .config import SUPER_MODEL, Settings
+from .contracts import ArtifactRecord
+from .data import load_manifest
 from .extract import segment
 from .ocr_eval import TEXT_CLASSES, crop_block, error_rates, fix_long_s, normalise, word_list
 
@@ -139,8 +142,13 @@ def raw_path(work_dir: Path, variant: str, page: dict[str, Any], block_index: in
     return work_dir / "correct" / "raw" / variant / f"{Path(page['filename']).stem}-b{block_index:02d}.json"
 
 
+def correct_workers() -> int:
+    """Parallel Super VL calls. Token Factory serves many at once; HTTP 429 replies back off in with_retry."""
+    return int(os.environ.get("CHALLENGE_CORRECT_WORKERS", "8"))
+
+
 def run_blocks(settings: Settings, work_dir: Path, jobs: list[tuple[str, dict[str, Any], dict[str, Any]]],
-               raw_scans: Path, workers: int = 4) -> dict[tuple[str, str, int], dict[str, Any]]:
+               raw_scans: Path, workers: int | None = None) -> dict[tuple[str, str, int], dict[str, Any]]:
     """Correct (variant, page, block) jobs in parallel. Record each failure with its error."""
     results: dict[tuple[str, str, int], dict[str, Any]] = {}
 
@@ -156,7 +164,7 @@ def run_blocks(settings: Settings, work_dir: Path, jobs: list[tuple[str, dict[st
                 "stage": "correct", "variant": variant, "page_id": page["page_id"], "block_index": block["index"],
                 "error_type": type(exc).__name__, "error": str(exc), "at": utc_now()})
 
-    with ThreadPoolExecutor(max_workers=workers) as pool:
+    with ThreadPoolExecutor(max_workers=workers or correct_workers()) as pool:
         list(pool.map(one, jobs))
     return results
 
@@ -269,9 +277,23 @@ def run(settings: Settings, work_dir: Path, raw_scans: Path = Path("data/raw/bri
     out = work_dir / "correct"
     write_jsonl(out / "pages.jsonl", corrected_pages)
     write_jsonl(out / "entries.jsonl", entries)
+    from .storage import LanceArtifactStore
+
+    manifest = load_manifest()
+    by_id = {p["page_id"]: p for p in manifest["pages"]}
+    sources_by_block = {(p["page_id"], b["index"]): b.get("text_source", "parse")
+                        for p in corrected_pages for b in p["blocks"]}
+    provenance = LanceArtifactStore(settings.db_path, work_dir).replace_stage("correct", (ArtifactRecord(
+        record_id=f"correct:{entry['entry_id']}", stage="correct", artifact_path=str(out / "entries.jsonl"),
+        sources=[scan_reference(by_id[p["page_id"]], manifest) for p in entry["pages"]],
+        metadata={"headword": entry["headword"], "text_sha256": entry["text_sha256"], "model": SUPER_MODEL,
+                  "variant": variant, "text_sources": sorted({sources_by_block.get((part["page_id"], part["block_index"]),
+                                                                                   "parse") for part in entry["parts"]})},
+    ) for entry in entries))
     evaluation = out / "eval.json"
     summary = {
         "stage": "correct", "finished_at": utc_now(), "model": SUPER_MODEL, "variant": variant,
+        "provenance": provenance,
         "text_blocks": len(wanted), "blocks_requested": len(jobs), "blocks_corrected": len(results),
         "blocks_failed": len(jobs) - len(results), "text_decisions": decisions,
         "post_process": {"long_s_rule": "ocr_eval.fix_long_s with the system word list", "blocks_changed": long_s_changes},
