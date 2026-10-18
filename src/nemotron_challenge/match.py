@@ -8,7 +8,12 @@ Method (team choice):
 3. Score the merged candidates:
    - model mode (retrieval service ready): Nemotron embedder cosine between the entry text and
      each candidate (title + excerpt), then Nemotron reranker raw logits on the same pairs.
-     Accept the top reranked candidate if its logit >= RERANK_ACCEPT and cosine >= COSINE_ACCEPT.
+     Accept the reranker's first candidate when its logit, its margin to the second candidate, its
+     cosine, and its title similarity pass the thresholds in docs/evaluation/match_thresholds.json.
+     calibrate.py fits them on 60 hand-labelled entries (docs/evaluation/match-calibration.md).
+     The current fit is margin >= 0.5 and cosine >= 0.15; the title test is off.
+     Without the file, the first GPU-run rule applies: logit >= RERANK_ACCEPT (-6.0) and title
+     similarity >= MODEL_TITLE_ACCEPT (0.75). Raw logits on OCR text were mostly negative (median -6.1).
    - lexical mode (no retrieval service): accept the candidate whose title matches the headword
      (similarity >= TITLE_ACCEPT). Prefer a plain title to one with a qualifier in brackets.
      Reject titles of modern media (albums, films, magazines), name pages, and numbered objects. Record the excerpt vocabulary overlap.
@@ -57,9 +62,11 @@ LIST_PAGE_HEAD_CHARS = 600
 HEADWORD_VARIANT_MIN = 6
 HEADWORD_VARIANT_RATIO = 0.85
 MAX_DECISIONS = 3
-# Thresholds for model mode. Calibrate them on checked pairs after the first GPU run.
-RERANK_ACCEPT = 0.0
-COSINE_ACCEPT = 0.30
+# Fallback thresholds for model mode when docs/evaluation/match_thresholds.json is absent.
+# They come from the first GPU run (raw logits mostly negative on OCR text, median -6.1).
+RERANK_ACCEPT = -6.0
+MODEL_TITLE_ACCEPT = 0.75
+COSINE_ACCEPT = 0.0
 QUERY_TEXT_CHARS = 1500
 STOPWORDS = set("""
 a about above after again against all also am an and any are as at be because been before being below between
@@ -221,8 +228,10 @@ def model_thresholds() -> dict[str, float]:
     """Calibrated thresholds from docs/evaluation/match_thresholds.json, else the uncalibrated defaults."""
     if THRESHOLD_FILE.is_file():
         data = read_json(THRESHOLD_FILE)
-        return {"rerank_logit": data["rerank_logit"], "margin": data["margin"], "cosine": data["cosine"]}
-    return {"rerank_logit": RERANK_ACCEPT, "margin": 0.0, "cosine": COSINE_ACCEPT}
+        return {"rerank_logit": data["rerank_logit"], "margin": data["margin"], "cosine": data["cosine"],
+                "title_similarity": data.get("title_similarity", 0.0)}
+    return {"rerank_logit": RERANK_ACCEPT, "margin": 0.0, "cosine": COSINE_ACCEPT,
+            "title_similarity": MODEL_TITLE_ACCEPT}
 
 
 def decide(entry: dict[str, Any], rows: list[dict[str, Any]], mode: str) -> dict[str, Any]:
@@ -236,11 +245,13 @@ def decide(entry: dict[str, Any], rows: list[dict[str, Any]], mode: str) -> dict
                     "cosine": best["cosine"], "margin_to_next": margin, "title_similarity": best["title_similarity"]}
         limits = model_thresholds()
         gap = margin if margin is not None else float("inf")
-        if best["rerank_logit"] >= limits["rerank_logit"] and gap >= limits["margin"] and best["cosine"] >= limits["cosine"]:
+        if (best["rerank_logit"] >= limits["rerank_logit"] and gap >= limits["margin"]
+                and best["cosine"] >= limits["cosine"] and best["title_similarity"] >= limits["title_similarity"]):
             return {"status": "accepted", "method": "nemotron_embed_rerank", "thresholds": limits, **evidence}
         return {"status": "rejected", "method": "nemotron_embed_rerank", "thresholds": limits,
                 "reason": (f"rerank_logit < {limits['rerank_logit']}, margin < {limits['margin']}, "
-                           f"or cosine < {limits['cosine']}"), **evidence}
+                           f"cosine < {limits['cosine']}, or title_similarity < {limits['title_similarity']}"),
+                **evidence}
     eligible = [r for r in rows if not MEDIA_QUALIFIER.search(r["title"])]
     best = max(eligible or rows, key=lambda r: (
         r["title_similarity"] >= TITLE_ACCEPT, "(" not in r["title"], r["title_similarity"],

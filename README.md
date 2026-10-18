@@ -53,6 +53,7 @@ We labelled 60 entries by hand, with the model scores hidden, and calibrated the
 | Accept rule | Precision | Recall | F1 |
 | --- | --- | --- | --- |
 | Headword and title rule | 0.71 | 0.47 | 0.56 |
+| Reranker first candidate, logit ≥ -6, title ≥ 0.75 (first GPU run) | 0.79 | 0.44 | 0.57 |
 | Reranker first candidate, margin ≥ 0.5, cosine ≥ 0.15 (cross-validated) | 0.62 | 0.56 | 0.59 |
 
 - The full run accepted 86 of 201 searched entries with the model rule.

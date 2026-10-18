@@ -33,20 +33,24 @@ Accept the reranker's first candidate when:
 
 - its margin to the second candidate is at least **0.5**,
 - its embedder cosine is at least **0.15**,
-- its logit is at least -10 (no effective bar).
+- its logit is at least -10 (no effective bar),
+- no title-similarity test (threshold 0).
 
-The grid search (logit, margin, cosine) chose these values for the best F1 on all 60 entries.
+The grid search over logit, margin, cosine, and title similarity chose these values for the best F1 on all 60 entries.
+The grid includes the rule from the first GPU run on `main` (logit ≥ -6.0 and title similarity ≥ 0.75). A title test did not raise F1.
 
 ## Results
 
 | Rule | Accepted | Correct | Wrong | Precision | Recall | F1 |
 | --- | --- | --- | --- | --- | --- | --- |
 | Lexical title rule (no fitting) | 28 | 20 | 8 | 0.71 | 0.47 | 0.56 |
+| First GPU-run rule: logit ≥ -6.0, title ≥ 0.75 (not fitted on these labels) | 24 | 19 | 5 | 0.79 | 0.44 | 0.57 |
 | Model rule, two-fold cross-validation | 39 | 24 | 15 | 0.62 | 0.56 | **0.59** |
 | Model rule, fitted on all 60 (optimistic) | 28 | 23 | 5 | 0.82 | 0.53 | 0.65 |
 
 - Cross-validation fits the thresholds on one half and tests them on the other half. That row is the honest estimate.
-- The model rule finds more correct pairs than the lexical rule, with lower precision.
+- The model rule finds more correct pairs than the lexical rule and the first GPU-run rule, with lower precision.
+- On the full run (201 entries), the calibrated rule accepts 86 entries and the first GPU-run rule 73.
 - 30 entries per half is a small sample. The two folds chose different thresholds: (margin 0.0, cosine 0.2) and (margin 0.5, cosine 0.0).
 
 ## Examples from the full run

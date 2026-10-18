@@ -2,7 +2,8 @@
   "rerank_logit": -10.0,
   "margin": 0.5,
   "cosine": 0.15,
-  "calibrated_at": "2026-10-18T12:43:30+00:00",
+  "title_similarity": 0.0,
+  "calibrated_at": "2026-10-18T13:01:10+00:00",
   "labels": "docs/evaluation/match_labels.json",
   "fit_on": "all labelled entries",
   "in_sample": {
@@ -27,11 +28,13 @@
     [
       -10.0,
       0.0,
-      0.2
+      0.2,
+      0.0
     ],
     [
       -10.0,
       0.5,
+      0.0,
       0.0
     ]
   ]

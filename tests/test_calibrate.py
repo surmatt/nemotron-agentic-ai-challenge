@@ -22,11 +22,12 @@ def test_model_choice_needs_logit_margin_and_cosine():
     assert calibrate.model_choice(rows, 0.0, 1.0, 0.2) is None  # margin 0.8 is too small
     assert calibrate.model_choice(rows, 0.0, 0.5, 0.5) is None  # cosine too low
     assert calibrate.model_choice([cand("1", 1, -3.0, 0.4)], -5.0, 9.0, 0.0) == "1"  # one candidate: no margin test
+    assert calibrate.model_choice(rows, 0.0, 0.5, 0.2, title=0.75) is None  # title similarity 0.0 < 0.75
 
 
 def test_match_uses_the_calibrated_threshold_file(tmp_path, monkeypatch):
     path = tmp_path / "match_thresholds.json"
-    path.write_text(json.dumps({"rerank_logit": -10.0, "margin": 0.5, "cosine": 0.15}))
+    path.write_text(json.dumps({"rerank_logit": -10.0, "margin": 0.5, "cosine": 0.15, "title_similarity": 0.0}))
     monkeypatch.setattr(match, "THRESHOLD_FILE", path)
     rows = [cand("1", 1, -2.0, 0.3, "Heat", 1.0), cand("2", 2, -2.4, 0.2)]
     decision = match.decide({}, rows, "model")
@@ -34,7 +35,8 @@ def test_match_uses_the_calibrated_threshold_file(tmp_path, monkeypatch):
     rows[1]["rerank_logit"] = -3.0
     assert match.decide({}, rows, "model")["status"] == "accepted"
     monkeypatch.setattr(match, "THRESHOLD_FILE", tmp_path / "missing.json")
-    assert match.model_thresholds() == {"rerank_logit": match.RERANK_ACCEPT, "margin": 0.0, "cosine": match.COSINE_ACCEPT}
+    assert match.model_thresholds() == {"rerank_logit": match.RERANK_ACCEPT, "margin": 0.0, "cosine": match.COSINE_ACCEPT,
+                                        "title_similarity": match.MODEL_TITLE_ACCEPT}
 
 
 def test_model_scores_shortens_the_query_after_http_422():

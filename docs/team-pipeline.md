@@ -49,5 +49,9 @@ Open `http://127.0.0.1:8791/` in a browser.
 ## Known limits
 
 - The first full runs used the lexical match rule, before the embedder and reranker were deployed.
+- The first model run used `RERANK_ACCEPT = 0.0` and `COSINE_ACCEPT = 0.30` and accepted 1 of 188 entries.
+  Its output is in `artifacts/runs/match-run1-uncalibrated/`.
+- The model rule reads its thresholds from `docs/evaluation/match_thresholds.json` (logit, margin, cosine, title similarity).
+  Without that file, it accepts the reranker top-1 if its logit is at least -6.0 and its title similarity is at least 0.75.
 - Recalibrate after a change to the candidates or the entry text: `uv run python -c "from pathlib import Path; from nemotron_challenge.calibrate import run; run(Path('artifacts'))"`.
 - `artifacts/evaluate/summary.json` lists the other known limits.

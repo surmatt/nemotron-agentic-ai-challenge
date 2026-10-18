@@ -96,12 +96,17 @@ def test_lexical_decision_prefers_plain_titles_and_rejects_media():
     assert weak["status"] == "rejected" and weak["method"] == "provisional_lexical"
 
 
-def test_model_decision_uses_both_thresholds():
-    rows = [{**row("Heat", 1.0, 1), "rerank_logit": 2.0, "rerank_position": 1, "cosine": 0.5},
-            {**row("Fire", 0.2, 2), "rerank_logit": -1.0, "rerank_position": 2, "cosine": 0.4}]
+def test_fallback_model_decision_needs_rerank_logit_and_headword_title(tmp_path, monkeypatch):
+    # Without docs/evaluation/match_thresholds.json, the first GPU-run rule applies.
+    monkeypatch.setattr(match, "THRESHOLD_FILE", tmp_path / "missing.json")
+    rows = [{**row("Heat", 1.0, 1), "rerank_logit": -4.0, "rerank_position": 1, "cosine": 0.1},
+            {**row("Fire", 0.2, 2), "rerank_logit": -7.0, "rerank_position": 2, "cosine": 0.4}]
     accepted = match.decide({}, rows, "model")
     assert accepted["status"] == "accepted" and accepted["margin_to_next"] == 3.0
-    rows[0]["cosine"] = 0.1
+    rows[0]["title_similarity"] = 0.5
+    assert match.decide({}, rows, "model")["status"] == "rejected"
+    rows[0]["title_similarity"], rows[0]["rerank_logit"] = 1.0, -6.5
+    rows[1]["rerank_logit"] = -8.0
     assert match.decide({}, rows, "model")["status"] == "rejected"
 
 

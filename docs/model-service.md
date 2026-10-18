@@ -63,6 +63,27 @@ Keep one service process per GPU. Both models share one queue. The service runs 
 
 Each GPU microbatch has one item. A request can contain more items within the limits below. The service runs those items in order. These limits bound input size and memory use. GPU execution has no hard time limit. A client timeout does not cancel a GPU kernel. Restart the container if a kernel stops making progress.
 
+## Run on a Nebius Serverless endpoint without a custom image
+
+`nebius_bootstrap.sh` starts the service from the pinned PyTorch base image.
+It fetches the service files from a pinned commit and checks each SHA-256.
+It then installs the locked packages, downloads the pinned models, and starts uvicorn.
+Each start takes about 7 minutes.
+
+```sh
+nebius ai endpoint create --name nemotron-retrieval \
+  --image pytorch/pytorch:2.8.0-cuda12.8-cudnn9-runtime@sha256:417bd75df6365104c283ea4c1651fb3530d9eb5a4c2fafa51943cff2a94e6385 \
+  --platform gpu-rtx6000-a --preset 1gpu-24vcpu-218gb --disk-size 100Gi --shm-size 16Gi \
+  --container-port 8000/http --auth none \
+  --inject-file infra/model-service/nebius_bootstrap.sh:/bootstrap/start.sh \
+  --container-command bash --args /bootstrap/start.sh --async
+```
+
+Set `RETRIEVAL_BASE_URL` to the endpoint URL from `status.public_endpoints`, followed by `/v1`.
+The endpoint costs money until you stop or delete it.
+Stop it with `nebius ai endpoint stop <id>`.
+If you change the service files, update the commit and hashes in the script.
+
 ## Check the service
 
 ```sh
