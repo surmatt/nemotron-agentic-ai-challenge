@@ -66,20 +66,24 @@ def text_note(scan: dict[str, Any]) -> str:
     return "The text below is Parse 3.5 OCR output. It contains recognition errors."
 
 
-def correction_item(scan: dict[str, Any]) -> str:
+def correction_item(scan: dict[str, Any], raw_pattern: str | None = None) -> str:
     counts: dict[str, int] = {}
     for block in scan["blocks"]:
         counts[block.get("text_source", "parse")] = counts.get(block.get("text_source", "parse"), 0) + 1
     if "super_vl" not in counts:
         return ""
-    stem = Path(scan["filename"]).stem
+    raw_pattern = raw_pattern or f"correct/raw/crop_nothink/{Path(scan['filename']).stem}-b*.json"
     return (f"\\item[Correction] model \\texttt{{nvidia/Nemotron-3.5-Super-VL}}, block crops, raw replies "
-            f"\\texttt{{correct/raw/crop\\_nothink/{tex(stem)}-b*.json}}; "
+            f"\\texttt{{{tex(raw_pattern)}}}; "
             + ", ".join(f"{tex(k)}: {v}" for k, v in sorted(counts.items())))
 
 
-def latex_document(scan: dict[str, Any], entries: list[dict[str, Any]], manifest: dict[str, Any]) -> str:
-    """Fill the structure of templates/page.tex with the extracted entries of one scan."""
+def latex_document(scan: dict[str, Any], entries: list[dict[str, Any]], manifest: dict[str, Any] | None,
+                   source_line: str | None = None, correction_raw: str | None = None) -> str:
+    """Fill the structure of templates/page.tex with the extracted entries of one scan.
+
+    The workbench passes `source_line` and `correction_raw` for its copies. Without a manifest, the document
+    has no dataset line, because an uploaded scan is not part of the pinned sample."""
     parts = []
     for entry in entries:
         blocks = [p for p in entry["parts"] if p["page_id"] == scan["page_id"]]
@@ -89,6 +93,9 @@ def latex_document(scan: dict[str, Any], entries: list[dict[str, Any]], manifest
             parts.append("\\textit{Continues an entry from an earlier page.}\n\n")
         parts.extend(tex(b["text"]) + "\n\n" for b in blocks)
     body = "".join(parts) or "No entry text was extracted from this scan.\n"
+    origin = tex(source_line) if source_line else f"Encyclopaedia Britannica scan, source row {scan['row_index']}."
+    dataset = (f"\\item[Dataset] {tex(manifest['dataset'])} at revision \\texttt{{{manifest['revision']}}} "
+               f"({tex(manifest['license']['spdx'])})\n") if manifest else ""
     return f"""\\documentclass{{article}}
 \\usepackage[utf8]{{inputenc}}
 \\usepackage[T1]{{fontenc}}
@@ -97,7 +104,7 @@ def latex_document(scan: dict[str, Any], entries: list[dict[str, Any]], manifest
 \\sloppy
 \\begin{{document}}
 \\section*{{Historical source}}
-Encyclopaedia Britannica scan, source row {scan['row_index']}. {text_note(scan)}
+{origin} {text_note(scan)}
 Page headers, footers, and page numbers are removed.
 
 {body}
@@ -106,10 +113,9 @@ Page headers, footers, and page numbers are removed.
 \\item[Scan ID] \\texttt{{{tex(scan['page_id'])}}}
 \\item[Image file] \\texttt{{{tex(scan['filename'])}}}
 \\item[Image SHA-256] \\texttt{{{scan['image_sha256']}}}
-\\item[Dataset] {tex(manifest['dataset'])} at revision \\texttt{{{manifest['revision']}}} ({tex(manifest['license']['spdx'])})
-\\item[Extraction] model \\texttt{{nvidia/nemotron-3.5-parse}}, raw reply \\texttt{{{tex(scan['raw_path'])}}}
+{dataset}\\item[Extraction] model \\texttt{{nvidia/nemotron-3.5-parse}}, raw reply \\texttt{{{tex(scan['raw_path'])}}}
 \\item[Raw reply SHA-256] \\texttt{{{scan['raw_content_sha256']}}}
-{correction_item(scan)}
+{correction_item(scan, correction_raw)}
 \\item[Running header] {tex(scan['running_header'] or 'none')}
 \\end{{description}}
 \\end{{document}}

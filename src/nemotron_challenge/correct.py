@@ -220,31 +220,51 @@ def evaluate_variants(settings: Settings, work_dir: Path, gold_path: Path,
     return report
 
 
+def correction_jobs(page: dict[str, Any]) -> list[dict[str, Any]]:
+    """The blocks of one page that go to Super VL."""
+    if page["status"] != "ok":
+        return []
+    return [b for b in page["blocks"] if b["cls"] in TEXT_CLASSES and b["text"] and not box_too_small(b)]
+
+
+def assemble_page(page: dict[str, Any], records: dict[int, dict[str, Any]],
+                  vocabulary: set[str]) -> tuple[dict[str, Any], dict[str, int], int]:
+    """Choose the text of each block of one page. Return the page, the decision counts, and long-s changes."""
+    blocks, decisions, long_s_changes = [], {}, 0
+    for block in page["blocks"]:
+        record = records.get(block["index"])
+        source, flag = decide_text(block, record, page["status"] == "ok")
+        key = source if not flag else f"{source}+{flag}"
+        decisions[key] = decisions.get(key, 0) + 1
+        extra = {}
+        if source == "super_vl":
+            # Super VL sometimes keeps the long s as "f". The dictionary rule repairs what is left.
+            text = fix_long_s(record["corrected_text"], vocabulary)
+            extra = {"super_vl_text": record["corrected_text"], "long_s_rule_changed": text != record["corrected_text"]}
+            long_s_changes += text != record["corrected_text"]
+        else:
+            text = block["text"]
+        blocks.append({**block, "parse_text": block["text"], "text": text, "text_source": source,
+                       "review_flag": flag, **extra})
+    return {**page, "blocks": blocks}, decisions, long_s_changes
+
+
 def run(settings: Settings, work_dir: Path, raw_scans: Path = Path("data/raw/britannica"),
         variant: str = DEFAULT_VARIANT) -> dict[str, Any]:
     pages = read_jsonl(work_dir / "extract" / "pages.jsonl")
     wanted = [(p, b) for p in pages if p["status"] == "ok" for b in p["blocks"] if b["cls"] in TEXT_CLASSES and b["text"]]
-    jobs = [(variant, p, b) for p, b in wanted if not box_too_small(b)]
+    jobs = [(variant, p, b) for p in pages for b in correction_jobs(p)]
     results = run_blocks(settings, work_dir, jobs, raw_scans)
     corrected_pages, decisions, long_s_changes, vocabulary = [], {}, 0, word_list()
+    by_page: dict[str, dict[int, dict[str, Any]]] = {}
+    for (_, page_id, index), record in results.items():
+        by_page.setdefault(page_id, {})[index] = record
     for page in pages:
-        blocks = []
-        for block in page["blocks"]:
-            record = results.get((variant, page["page_id"], block["index"]))
-            source, flag = decide_text(block, record, page["status"] == "ok")
-            decisions[source if not flag else f"{source}+{flag}"] = decisions.get(
-                source if not flag else f"{source}+{flag}", 0) + 1
-            extra = {}
-            if source == "super_vl":
-                # Super VL sometimes keeps the long s as "f". The dictionary rule repairs what is left.
-                text = fix_long_s(record["corrected_text"], vocabulary)
-                extra = {"super_vl_text": record["corrected_text"], "long_s_rule_changed": text != record["corrected_text"]}
-                long_s_changes += text != record["corrected_text"]
-            else:
-                text = block["text"]
-            blocks.append({**block, "parse_text": block["text"], "text": text, "text_source": source,
-                           "review_flag": flag, **extra})
-        corrected_pages.append({**page, "blocks": blocks})
+        corrected, counts, changed = assemble_page(page, by_page.get(page["page_id"], {}), vocabulary)
+        corrected_pages.append(corrected)
+        long_s_changes += changed
+        for key, count in counts.items():
+            decisions[key] = decisions.get(key, 0) + count
     entries = segment(corrected_pages)
     out = work_dir / "correct"
     write_jsonl(out / "pages.jsonl", corrected_pages)

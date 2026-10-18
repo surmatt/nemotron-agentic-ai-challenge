@@ -210,6 +210,59 @@ Choose your comparison method with your team.
 
 [Full-size PNG](docs/assets/bertopic-nemotron-implementation.png) · [Editable SVG](docs/assets/bertopic-nemotron-implementation.svg)
 
+## Visual workbench
+
+The workbench shows the pipeline on one scan at a time.
+Upload a scan and run the five steps: extract, correct, match, compare, and document.
+Each view shows the scan with block boxes, the Super VL corrections, the Wikipedia candidates with their scores, the term comparison, the LaTeX document, and the raw model replies.
+
+You need Node.js 20.19 or later.
+For PDFs, install `tectonic` (`brew install tectonic` on macOS). Without it, the document step writes `.tex` files only.
+Start the backend and the frontend with one command.
+
+```sh
+make run
+```
+
+Open <http://127.0.0.1:5173>.
+The command installs the Python and npm packages if necessary.
+It starts the backend on port 8790 and the Vite dev server on port 5173.
+Press Ctrl-C to stop both.
+If one process stops, the command stops the other.
+
+To run only the backend, install the extra packages and build the frontend one time.
+
+```sh
+uv sync --locked --extra ui
+npm --prefix ui ci
+npm --prefix ui run build
+```
+
+Start the server.
+
+```sh
+uv run nemotron-challenge ui
+```
+
+Open <http://127.0.0.1:8790>.
+Use `--port` to change the port.
+Use `--work-dir` to change the artifacts folder. The default is `artifacts`.
+
+- **Workbench tab:** drop a JPEG or PNG scan, then click **Run all steps** or run one step at a time. The server keeps each upload in `artifacts/ui/uploads/<id>/`.
+- **Corpus tab:** browse the 100 pinned scans with the saved stage outputs from `artifacts/`. Click **Run live in workbench** to copy a scan into the workbench and run the steps on it.
+- **Re-run a stage:** click **Re-run** on a stage card. The stage runs again, then each later stage that ran before. The `+N` badge shows the number of other stages that run with it. Hold the pointer on the button to see their names. Earlier outputs move to `history/<time>/` in the upload folder.
+- **Re-run on a corpus scan:** the workbench copies the scan and reuses the saved Parse and Super VL replies of the corpus run. Then it runs the chosen stage and the later stages. Match has no per-scan saved output, so a compare re-run also runs match. The corpus artifacts stay unchanged.
+- **Check services:** runs the live check on Parse, Super VL, the retrieval service, and the Wikipedia API.
+- **LaTeX document tab:** step V writes one LaTeX document for the scan with the code in `site.py`, and tectonic compiles it. The tab shows the PDF next to the `.tex` source. On a corpus scan, the tab shows the document from the last site build.
+- **Static site:** on the overview, click **Build site** to run the site stage on the saved corpus artifacts. The same command is `uv run nemotron-challenge run site`. Then click **Open static site**. The server serves it at `/site/index.html`. The first build downloads the LaTeX packages for tectonic, so it takes longer.
+
+The live steps read the service URLs and keys from `.env`.
+Extract calls Parse. Correct calls Super VL. Match calls the Wikipedia API and the retrieval service. Compare and document run locally.
+If `RETRIEVAL_BASE_URL` is not set or does not answer, match uses lexical mode and the step summary says so.
+The Corpus tab needs `uv run nemotron-challenge data fetch` and the saved stage runs.
+
+Other targets: `make install`, `make build`, and `make test`.
+
 ## Check the foundation
 
 ```sh

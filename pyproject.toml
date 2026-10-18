@@ -22,6 +22,14 @@ dependencies = [
 [project.scripts]
 nemotron-challenge = "nemotron_challenge.cli:main"
 
+[project.optional-dependencies]
+ui = [
+    "fastapi==0.143.0",
+    "python-multipart==0.0.32",
+    "starlette==1.7.0",
+    "uvicorn==0.54.0",
+]
+
 [dependency-groups]
 dev = ["pytest==9.1.1"]
 

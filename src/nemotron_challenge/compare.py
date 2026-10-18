@@ -193,21 +193,14 @@ def bar_chart(path: Path, title: str, rows: list[tuple[str, float]], colour: str
     write_text(path, "\n".join(parts) + "\n")
 
 
-def run(settings: Settings, work_dir: Path) -> dict[str, Any]:
-    del settings
-    source = text_dir(work_dir)
-    entries = {e["entry_id"]: e for e in read_jsonl(source / "entries.jsonl")}
-    matches = [m for m in read_jsonl(work_dir / "match" / "matches.jsonl") if m["decision"]["status"] == "accepted"]
-    if not matches:
-        raise ValueError("The match stage accepted no pairs. Nothing to compare.")
-    articles = {pid: read_json(work_dir / "match" / "articles" / f"{pid}.json")
-                for pid in {m["article"]["page_id"] for m in matches}}
+def compare_matches(entries: dict[str, dict[str, Any]], matches: list[dict[str, Any]],
+                    articles: dict[str, dict[str, Any]]) -> dict[str, Any]:
+    """Compare each accepted match. The prior and the reference vocabulary come from these pairs only."""
     vocabulary, vocabulary_sources = reference_vocabulary(articles)
     prior = Counter(w for a in articles.values() for w in tokens(a["text"]))
     for entry_id in {m["entry_id"] for m in matches}:
         prior.update(britannica_tokens(entries[entry_id]["text"], Counter()))
     log: Counter = Counter()
-    out = work_dir / "compare"
     pairs = []
     for match in matches:
         entry, article = entries[match["entry_id"]], articles[match["article"]["page_id"]]
@@ -220,6 +213,23 @@ def run(settings: Settings, work_dir: Path) -> dict[str, Any]:
             "article": {k: article[k] for k in ("page_id", "revision_id", "title", "url", "revision_url", "text_sha256")},
             **result,
         })
+    return {"pairs": pairs, "vocabulary": vocabulary, "vocabulary_sources": vocabulary_sources, "prior": prior,
+            "log": log}
+
+
+def run(settings: Settings, work_dir: Path) -> dict[str, Any]:
+    del settings
+    source = text_dir(work_dir)
+    entries = {e["entry_id"]: e for e in read_jsonl(source / "entries.jsonl")}
+    matches = [m for m in read_jsonl(work_dir / "match" / "matches.jsonl") if m["decision"]["status"] == "accepted"]
+    if not matches:
+        raise ValueError("The match stage accepted no pairs. Nothing to compare.")
+    articles = {pid: read_json(work_dir / "match" / "articles" / f"{pid}.json")
+                for pid in {m["article"]["page_id"] for m in matches}}
+    compared = compare_matches(entries, matches, articles)
+    pairs, vocabulary, vocabulary_sources = compared["pairs"], compared["vocabulary"], compared["vocabulary_sources"]
+    prior, log = compared["prior"], compared["log"]
+    out = work_dir / "compare"
     write_jsonl(out / "pairs.jsonl", pairs)
 
     # Corpus level. Count each matched entry once and each distinct article once.

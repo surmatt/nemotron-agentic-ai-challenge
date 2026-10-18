@@ -81,12 +81,24 @@ def parser() -> argparse.ArgumentParser:
     fetch = data_sub.add_parser("fetch")
     fetch.add_argument("--output-dir", type=Path, default=Path("data/raw/britannica"))
     fetch.add_argument("--cache-dir", type=Path, default=Path("data/cache"))
+    ui = sub.add_parser("ui", help="start the visual pipeline workbench (needs: uv sync --extra ui)")
+    ui.add_argument("--host", default="127.0.0.1")
+    ui.add_argument("--port", type=int, default=8790)
+    ui.add_argument("--work-dir", type=Path, default=Path("artifacts"))
     return result
 
 
 def main(argv: list[str] | None = None) -> int:
     args = parser().parse_args(argv)
     try:
+        if args.command == "ui":
+            try:
+                from .ui_server import serve
+            except ImportError:
+                print("The UI needs extra packages. Run: uv sync --extra ui", file=sys.stderr)
+                return 1
+            serve(args.host, args.port, args.work_dir)
+            return 0
         if args.command == "stages":
             result = [stage_status(stage, args.work_dir) for stage in tasks.STAGES]
         elif args.command == "data":

@@ -142,10 +142,14 @@ def test_variant_adds_a_query_and_counts_for_title_similarity(monkeypatch):
             seen.append(query)
             return SimpleNamespace(hits=hits)
 
-    used, rows = match.candidates(Wiki(), {"headword": "PHILLOOGY", "text": "words grammar language words"})
+    searches = []
+    used, rows = match.candidates(Wiki(), {"headword": "PHILLOOGY", "text": "words grammar language words"}, searches)
     assert used[:2] == ["philloogy", "philology"] and seen == used
     assert [r["title"] for r in rows] == ["Philology"] and rows[0]["title_similarity"] == 1.0
     assert match.decide({}, rows, "lexical")["status"] == "accepted"
+    assert [s["query"] for s in searches] == used
+    assert [s["kind"] for s in searches] == ["headword", "OCR headword variant", "headword + keywords"]
+    assert [h["removed"] for h in searches[0]["hits"]] == [None, "list page", "disambiguation page"]
 
 
 def test_list_page_rule_reads_only_the_opening():

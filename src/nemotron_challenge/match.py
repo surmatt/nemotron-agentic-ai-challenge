@@ -155,13 +155,39 @@ def queries(entry: dict[str, Any], variant: str | None = None) -> list[str]:
     return result
 
 
-def candidates(wiki: WikiClient, entry: dict[str, Any]) -> tuple[list[str], list[dict[str, Any]]]:
-    """Merge BM25 hits of all queries. Remove disambiguation pages and list pages."""
+def removal_reason(title: str, excerpt_offset: int, excerpt: str) -> str | None:
+    if "(disambiguation)" in title:
+        return "disambiguation page"
+    if excerpt_offset == 0 and is_list_page(excerpt):
+        return "list page"
+    return None
+
+
+def query_kind(query: str, entry: dict[str, Any], variant: str | None) -> str:
+    if query == clean_headword(entry["headword"]):
+        return "headword"
+    if variant and query == variant:
+        return "OCR headword variant"
+    return "headword + keywords" if clean_headword(entry["headword"]) else "keywords"
+
+
+def candidates(wiki: WikiClient, entry: dict[str, Any],
+               searches: list[dict[str, Any]] | None = None) -> tuple[list[str], list[dict[str, Any]]]:
+    """Merge BM25 hits of all queries. Remove disambiguation pages and list pages.
+
+    When `searches` is a list, append each query with every hit it returned, in rank order."""
     merged: dict[str, dict[str, Any]] = {}
     variant = headword_variant(entry["headword"])
     used = queries(entry, variant)
     for query_index, query in enumerate(used):
         result = with_retry(lambda: wiki.search(query, top_k=TOP_K, excerpt_chars=EXCERPT_CHARS))
+        if searches is not None:
+            searches.append({"id": f"q{query_index}", "query": query, "kind": query_kind(query, entry, variant),
+                             "top_k": TOP_K, "excerpt_chars": EXCERPT_CHARS,
+                             "hits": [{"page_id": h.page_id, "title": h.title, "url": h.url, "rank": h.rank,
+                                       "bm25": round(h.bm25_score, 4),
+                                       "removed": removal_reason(h.title, h.excerpt_offset, h.excerpt)}
+                                      for h in result.hits]})
         for hit in result.hits:
             row = merged.setdefault(hit.page_id, {
                 "page_id": hit.page_id, "revision_id": hit.revision_id, "title": hit.title, "url": hit.url,
@@ -170,8 +196,8 @@ def candidates(wiki: WikiClient, entry: dict[str, Any]) -> tuple[list[str], list
             })
             row["bm25"][f"q{query_index}"] = {"rank": hit.rank, "score": round(hit.bm25_score, 4)}
             row["best_rank"] = min(row["best_rank"], hit.rank)
-    rows = sorted((r for r in merged.values() if "(disambiguation)" not in r["title"]
-                   and not (r["excerpt_offset"] == 0 and is_list_page(r["excerpt"]))), key=lambda r: r["best_rank"])
+    rows = sorted((r for r in merged.values() if not removal_reason(r["title"], r["excerpt_offset"], r["excerpt"])),
+                  key=lambda r: r["best_rank"])
     entry_words = set(words(entry["text"]))
     for row in rows:
         row["title_similarity"] = max(title_similarity(entry["headword"], row["title"]),
@@ -297,6 +323,55 @@ def retrieval_mode(settings: Settings) -> tuple[str, str]:
         return "lexical", f"retrieval service unavailable: {exc}"
 
 
+def skip_reason(entry: dict[str, Any]) -> str | None:
+    """The reason the match stage does not search an entry, or None."""
+    if entry["chars"] < MIN_ENTRY_CHARS:
+        return f"fewer than {MIN_ENTRY_CHARS} characters"
+    if not entry["headword"] and entry["chars"] < MIN_UNTITLED_CHARS:
+        return "no headword and short text"
+    return None
+
+
+def match_entry(settings: Settings, entry: dict[str, Any], mode: str, out: Path, failures: Path) -> dict[str, Any]:
+    """Search, score, and decide one entry. Write its candidates to out/candidates and articles to out/articles."""
+    record: dict[str, Any] = {"entry_id": entry["entry_id"], "headword": entry["headword"],
+                              "entry_text_sha256": entry["text_sha256"], "mode": mode}
+    try:
+        with WikiClient(settings.wikipedia_api_url) as wiki:
+            searches: list[dict[str, Any]] = []
+            used, rows = candidates(wiki, entry, searches)
+            record["queries"] = used
+            record["searches"] = searches
+            if mode == "model" and rows:
+                with RetrievalClient(settings.retrieval_base_url, settings.retrieval_api_key) as retrieval:
+                    record["query_chars"] = model_scores(retrieval, entry, rows)
+            record["headword_variant"] = headword_variant(entry["headword"])
+            record["candidate_count"] = len(rows)
+            record["list_pages_removed_after_fetch"] = []
+            remaining = list(rows)
+            for _ in range(MAX_DECISIONS):
+                record["decision"] = decide(entry, remaining, mode)
+                if record["decision"]["status"] != "accepted":
+                    break
+                article = fetch_article(wiki, record["decision"]["page_id"], out / "articles")
+                if not is_list_page(article["text"]):
+                    record["article"] = {k: article[k] for k in (
+                        "page_id", "revision_id", "title", "url", "revision_url", "text_sha256", "chars")}
+                    break
+                record["list_pages_removed_after_fetch"].append(
+                    {"page_id": article["page_id"], "title": article["title"]})
+                remaining = [r for r in remaining if r["page_id"] != article["page_id"]]
+            else:
+                record["decision"] = {"status": "rejected", "method": record["decision"].get("method"),
+                                      "reason": f"{MAX_DECISIONS} accepted candidates were list pages"}
+            write_json(out / "candidates" / f"{entry['entry_id']}.json", {**record, "candidates": rows})
+    except (ServiceError, ValueError) as exc:
+        record["decision"] = {"status": "error", "error_type": type(exc).__name__, "error": str(exc)}
+        append_jsonl(failures, {"stage": "match", "entry_id": entry["entry_id"], "error_type": type(exc).__name__,
+                                "error": str(exc), "at": utc_now()})
+    return record
+
+
 def run(settings: Settings, work_dir: Path) -> dict[str, Any]:
     from .storage import LanceArtifactStore
 
@@ -306,52 +381,15 @@ def run(settings: Settings, work_dir: Path) -> dict[str, Any]:
     mode, mode_detail = retrieval_mode(settings)
     selected, skipped = [], []
     for entry in entries:
-        if entry["chars"] < MIN_ENTRY_CHARS:
-            skipped.append({"entry_id": entry["entry_id"], "reason": f"fewer than {MIN_ENTRY_CHARS} characters"})
-        elif not entry["headword"] and entry["chars"] < MIN_UNTITLED_CHARS:
-            skipped.append({"entry_id": entry["entry_id"], "reason": "no headword and short text"})
+        reason = skip_reason(entry)
+        if reason:
+            skipped.append({"entry_id": entry["entry_id"], "reason": reason})
         else:
             selected.append(entry)
 
-    def one(entry: dict[str, Any]) -> dict[str, Any]:
-        record: dict[str, Any] = {"entry_id": entry["entry_id"], "headword": entry["headword"],
-                                  "entry_text_sha256": entry["text_sha256"], "mode": mode}
-        try:
-            with WikiClient(settings.wikipedia_api_url) as wiki:
-                used, rows = candidates(wiki, entry)
-                record["queries"] = used
-                if mode == "model" and rows:
-                    with RetrievalClient(settings.retrieval_base_url, settings.retrieval_api_key) as retrieval:
-                        record["query_chars"] = model_scores(retrieval, entry, rows)
-                record["headword_variant"] = headword_variant(entry["headword"])
-                record["candidate_count"] = len(rows)
-                record["list_pages_removed_after_fetch"] = []
-                remaining = list(rows)
-                for _ in range(MAX_DECISIONS):
-                    record["decision"] = decide(entry, remaining, mode)
-                    if record["decision"]["status"] != "accepted":
-                        break
-                    article = fetch_article(wiki, record["decision"]["page_id"], out / "articles")
-                    if not is_list_page(article["text"]):
-                        record["article"] = {k: article[k] for k in (
-                            "page_id", "revision_id", "title", "url", "revision_url", "text_sha256", "chars")}
-                        break
-                    record["list_pages_removed_after_fetch"].append(
-                        {"page_id": article["page_id"], "title": article["title"]})
-                    remaining = [r for r in remaining if r["page_id"] != article["page_id"]]
-                else:
-                    record["decision"] = {"status": "rejected", "method": record["decision"].get("method"),
-                                          "reason": f"{MAX_DECISIONS} accepted candidates were list pages"}
-                write_json(out / "candidates" / f"{entry['entry_id']}.json", {**record, "candidates": rows})
-        except (ServiceError, ValueError) as exc:
-            record["decision"] = {"status": "error", "error_type": type(exc).__name__, "error": str(exc)}
-            append_jsonl(work_dir / "runs" / "failures.jsonl", {
-                "stage": "match", "entry_id": entry["entry_id"], "error_type": type(exc).__name__,
-                "error": str(exc), "at": utc_now()})
-        return record
-
+    failures = work_dir / "runs" / "failures.jsonl"
     with ThreadPoolExecutor(max_workers=4) as pool:
-        records = list(pool.map(one, selected))
+        records = list(pool.map(lambda entry: match_entry(settings, entry, mode, out, failures), selected))
     write_jsonl(out / "matches.jsonl", records)
     write_jsonl(out / "skipped.jsonl", skipped)
 
