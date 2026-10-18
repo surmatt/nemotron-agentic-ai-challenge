@@ -23,6 +23,7 @@ from __future__ import annotations
 
 import base64
 from concurrent.futures import ThreadPoolExecutor
+import os
 from pathlib import Path
 import time
 from typing import Any
@@ -141,8 +142,13 @@ def raw_path(work_dir: Path, variant: str, page: dict[str, Any], block_index: in
     return work_dir / "correct" / "raw" / variant / f"{Path(page['filename']).stem}-b{block_index:02d}.json"
 
 
+def correct_workers() -> int:
+    """Parallel Super VL calls. Token Factory serves many at once; HTTP 429 replies back off in with_retry."""
+    return int(os.environ.get("CHALLENGE_CORRECT_WORKERS", "8"))
+
+
 def run_blocks(settings: Settings, work_dir: Path, jobs: list[tuple[str, dict[str, Any], dict[str, Any]]],
-               raw_scans: Path, workers: int = 4) -> dict[tuple[str, str, int], dict[str, Any]]:
+               raw_scans: Path, workers: int | None = None) -> dict[tuple[str, str, int], dict[str, Any]]:
     """Correct (variant, page, block) jobs in parallel. Record each failure with its error."""
     results: dict[tuple[str, str, int], dict[str, Any]] = {}
 
@@ -158,7 +164,7 @@ def run_blocks(settings: Settings, work_dir: Path, jobs: list[tuple[str, dict[st
                 "stage": "correct", "variant": variant, "page_id": page["page_id"], "block_index": block["index"],
                 "error_type": type(exc).__name__, "error": str(exc), "at": utc_now()})
 
-    with ThreadPoolExecutor(max_workers=workers) as pool:
+    with ThreadPoolExecutor(max_workers=workers or correct_workers()) as pool:
         list(pool.map(one, jobs))
     return results
 
