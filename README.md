@@ -5,28 +5,40 @@ We compare historical Britannica scans with Wikipedia and use a Hermes agent to 
 Our solution adds OCR correction, article matching, vocabulary analysis, summaries of differences, semantic search, and a visual workbench to the challenge starter.
 The outputs include a static website, compiled LaTeX documents, saved model replies, and three success and three failure case studies.
 
-## Latest end-to-end results
+## First and latest results
 
-The latest recorded end-to-end run is **e2e4**, on 2026-10-18 at commit `61e8d29`.
+The table compares our first run, before our changes, with the latest recorded end-to-end run.
+
+The first run used the starter stages on 2026-10-18 at 11:55 UTC: Parse text, no OCR correction, and a lexical title rule (title similarity >= 0.85) without the retrieval models.
+Its outputs are in [`artifacts/match-parse-text-2026-10-18/`](artifacts/match-parse-text-2026-10-18/) and [`artifacts/compare-parse-text-2026-10-18/`](artifacts/compare-parse-text-2026-10-18/).
+That run had no correction, index, or site stage.
+
+The latest run is **e2e4**, on 2026-10-18 at commit `61e8d29`.
 It ran in `artifacts-e2e4/` in about 12 minutes.
 All eight stages in that revision exited with code 0.
 Before the run, 169 tests passed and the live service check passed for Wikipedia, Parse, retrieval, and Super VL.
 See [the run report](docs/evaluation/e2e-runs.md) for thresholds, failures, and the match-output checksum.
 
-| Result | e2e4 | Previous run, e2e3 |
+| Result | First run (before our changes) | Latest run, e2e4 |
 | --- | --- | --- |
 | Scans parsed | 98 of 100 | 98 of 100 |
-| Text blocks corrected | 1,147 of 1,148 | 1,146 of 1,148 |
-| Entries in the site | 250 | 248 |
-| Wikipedia matches | 176 accepted, 25 rejected, 201 searched | 86 accepted, 113 rejected, 199 searched |
-| Compared pairs / distinct Wikipedia articles | 176 / 171 | 86 / 84 |
-| Indexed Britannica / Wikipedia passages | 687 / 1,948 | 685 / 900 |
-| Hermes questions completed / automatic passes | 8 of 8 / 5 | 8 of 8 / 6 |
-| Scan pages / compiled PDFs | 98 / 98, no LaTeX failures | 98 / 98, no LaTeX failures |
-| Agent runs checked / case studies generated | 8 / 0 | 8 / 0 |
+| Text blocks corrected by Super VL | not run | 1,147 of 1,148 |
+| Entries | 241 | 250 |
+| Wikipedia matches | 53 accepted, 135 rejected, 188 searched | 176 accepted, 25 rejected, 201 searched |
+| Compared pairs / distinct Wikipedia articles | 53 / 51 | 176 / 171 |
+| Britannica tokens outside the vocabulary | 18.8% | 6.9% |
+| Mean word-frequency cosine of the pairs | 0.14 | 0.22 |
+| Indexed Britannica / Wikipedia passages | not run | 687 / 1,948 |
+| Hermes questions completed / automatic passes | 7 of 8 / 6 (run `2026-10-18T115609Z`) | 8 of 8 / 5 |
+| Scan pages / compiled PDFs | not run | 98 / 98, no LaTeX failures |
+| Agent runs checked / case studies generated | not run | 8 / 0 |
 
-The current matching method adds Super VL search terms and removes the score-margin gate.
-Accepted matches rose from 86 to 176, but nobody has measured the precision of e2e4.
+The Hermes row for the first run is an inference: run `2026-10-18T115609Z` started 17 seconds after the first compare stage finished, but its record does not name the evidence folder.
+The question set and expected behaviours changed between the two runs.
+The e2e4 vocabulary and cosine values come from `artifacts-e2e4/compare/summary.json`. They are proxies, not accuracy measurements.
+
+e2e4 adds Super VL OCR correction, embedder and reranker matching with Super VL search terms, and no score-margin gate.
+Accepted matches rose from 53 to 176, but nobody has measured the precision of e2e4.
 More accepted pairs do not prove better matching.
 Automatic agent checks are text rules, not a factual-accuracy score.
 
