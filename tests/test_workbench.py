@@ -127,6 +127,7 @@ def test_steps_run_in_order_and_keep_raw_replies(tmp_path, stubs):
     assert entry["headword"] == "HEAT" and entry["match"]["decision"]["status"] == "accepted"
     assert entry["match"]["searches_complete"] is True
     assert [s["kind"] for s in entry["match"]["searches"]] == ["headword", "headword + keywords"]
+    assert entry["match"]["search_terms"]["llm"]["status"] == "skipped"
     assert entry["match"]["searches"][0]["hits"][0] | {"status": "candidate"} == entry["match"]["searches"][0]["hits"][0]
     assert entry["match"]["article"]["revision_id"] == "7" and entry["pair"]["article"]["page_id"] == "42"
     assert view["steps"]["compare"]["summary"]["pairs"] == 1
@@ -147,6 +148,111 @@ def wait(upload_id):
     thread = workbench._RUNNING.get(upload_id)
     if thread:
         thread.join(timeout=30)
+
+
+def legacy_model_upload(tmp_path):
+    upload_id = workbench.create_upload(tmp_path, png(), "heat.png")
+    folder = tmp_path / "ui" / "uploads" / upload_id
+    for step in workbench.STEPS:
+        workbench.run_step(Settings(), folder, step)
+    [record] = workbench.read_json(folder / "match" / "matches.json")
+    saved = workbench.read_json(folder / "match" / "candidates" / f"{record['entry_id']}.json")
+    top = {**saved["candidates"][0], "rerank_position": 1, "rerank_logit": -2.424185, "cosine": 0.424879}
+    second = {**top, "page_id": "43", "title": "Heat transfer", "rerank_position": 2, "rerank_logit": -2.690706}
+    record.pop("article")
+    record["mode"] = "model"
+    record["decision"] = {"status": "rejected", "reason": "margin < 0.5",
+                          "thresholds": {"rerank_logit": -10.0, "margin": 0.5, "cosine": 0.15,
+                                         "title_similarity": 0.0}}
+    workbench.write_json(folder / "match" / "matches.json", [record])
+    workbench.write_json(folder / "match" / "candidates" / f"{record['entry_id']}.json",
+                         {**record, "candidates": [top, second]})
+    workbench.write_json(folder / "match" / "terms" / f"{record['entry_id']}.json", {"response": "unchanged"})
+    workbench.write_json(folder / "compare" / "pairs.json", [])
+    return upload_id, folder
+
+
+def test_reapply_match_updates_real_decisions_and_downstream_without_model_calls(tmp_path, stubs, monkeypatch):
+    upload_id, folder = legacy_model_upload(tmp_path)
+    before = (folder / "match" / "matches.json").read_bytes()
+
+    def no_models(*args, **kwargs):
+        raise AssertionError("cached scores must not repeat search or model calls")
+
+    monkeypatch.setattr(match, "retrieval_mode", no_models)
+    monkeypatch.setattr(match, "match_entry", no_models)
+    monkeypatch.setattr(FakeWiki, "search", no_models)
+    client = TestClient(create_app(tmp_path, tmp_path / "scans", settings_loader=Settings))
+    response = client.post(f"/api/uploads/{upload_id}/reapply-match")
+    assert response.status_code == 200 and response.json()["started"] == ["match", "compare", "document"]
+    wait(upload_id)
+    view = client.get(f"/api/uploads/{upload_id}").json()
+    assert all(view["steps"][s]["status"] == "done" for s in workbench.STEPS), view["steps"]
+    [entry] = view["entries"]
+    assert entry["match"]["decision"]["status"] == "accepted"
+    assert entry["match"]["article"]["page_id"] == "42" and entry["pair"]["article"]["page_id"] == "42"
+    assert "margin" not in entry["match"]["decision"]["thresholds"]
+    summary = view["steps"]["match"]["summary"]
+    assert summary["scores_reused"] is True and summary["accepted"] == 1
+    old = folder / "history" / view["steps"]["match"]["archived_previous"] / "match"
+    assert (old / "matches.json").read_bytes() == before
+    assert (old / "terms" / "E0001.json").read_bytes() == (folder / "match" / "terms" / "E0001.json").read_bytes()
+    saved = workbench.read_json(folder / "match" / "candidates" / "E0001.json")
+    assert saved["decision"]["status"] == "accepted" and saved["decision_reapplied_at"]
+    assert saved["candidates"] == workbench.read_json(old / "candidates" / "E0001.json")["candidates"]
+
+
+@pytest.mark.parametrize("invalid", ["changed_text", "missing_scores", "lexical"])
+def test_reapply_refuses_invalid_cached_scores_without_touching_saved_outputs(tmp_path, stubs, invalid):
+    upload_id, folder = legacy_model_upload(tmp_path)
+    path = folder / "match" / "candidates" / "E0001.json"
+    saved = workbench.read_json(path)
+    if invalid == "changed_text":
+        saved["entry_text_sha256"] = "different"
+    elif invalid == "missing_scores":
+        saved["candidates"][0].pop("rerank_logit")
+    else:
+        saved["mode"] = "lexical"
+    workbench.write_json(path, saved)
+    before = path.read_bytes()
+    state = (folder / "state.json").read_bytes()
+    client = TestClient(create_app(tmp_path, tmp_path / "scans", settings_loader=Settings))
+    assert client.post(f"/api/uploads/{upload_id}/reapply-match").status_code == 409
+    assert path.read_bytes() == before and (folder / "state.json").read_bytes() == state
+    assert not (folder / "history").exists()
+
+
+def test_reapply_does_not_accept_when_article_fetch_fails(tmp_path, stubs, monkeypatch):
+    _, folder = legacy_model_upload(tmp_path)
+    saved = workbench.read_json(folder / "match" / "candidates" / "E0001.json")
+    [entry] = workbench.read_json(folder / "correct" / "entries.json")
+
+    def unavailable(*args, **kwargs):
+        raise match.ServiceError("Wikipedia unavailable", status_code=400)
+
+    monkeypatch.setattr(FakeWiki, "article", unavailable)
+    result = match.reapply_entry(Settings(), entry, saved, tmp_path / "new", tmp_path / "failures.jsonl")
+    assert result["decision"]["status"] == "error" and "article" not in result
+    [failure] = workbench.read_jsonl(tmp_path / "failures.jsonl")
+    assert failure["step"] == "reapply" and failure["error"] == "Wikipedia unavailable"
+
+
+def test_reapply_checks_full_article_for_list_pages(tmp_path, stubs, monkeypatch):
+    _, folder = legacy_model_upload(tmp_path)
+    saved = workbench.read_json(folder / "match" / "candidates" / "E0001.json")
+    [entry] = workbench.read_json(folder / "correct" / "entries.json")
+    article = FakeWiki.article
+
+    def full_text(self, page_id, offset, max_chars):
+        result = article(self, page_id, offset, max_chars)
+        result.text = "Heat may refer to: several meanings." if page_id == "42" else ARTICLE_TEXT
+        result.provenance.text_sha256 = sha256_text(result.text)
+        return result
+
+    monkeypatch.setattr(FakeWiki, "article", full_text)
+    result = match.reapply_entry(Settings(), entry, saved, tmp_path / "new", tmp_path / "failures.jsonl")
+    assert result["decision"]["status"] == "accepted" and result["article"]["page_id"] == "43"
+    assert result["list_pages_removed_after_fetch"] == [{"page_id": "42", "title": "Heat"}]
 
 
 def test_rerun_includes_later_steps_that_ran():

@@ -242,7 +242,14 @@ export function Workspace({
             }}
           />
         )}
-        {tab === "match" && <MatchTab view={view} focus={matchFocus} />}
+        {tab === "match" && (
+          <MatchTab
+            view={view}
+            focus={matchFocus}
+            onApplyRule={kind === "upload" ? () => track(() => api.reapplyMatch(id)) : undefined}
+            busy={busy || view.running}
+          />
+        )}
         {tab === "compare" && <CompareTab view={view} />}
         {tab === "document" && <DocumentTab view={view} />}
         {tab === "raw" && <RawTab view={view} />}

@@ -41,6 +41,7 @@ export const api = {
   run: (id: string, steps: StepName[] | "all") =>
     request<{ started: StepName[] }>(`/api/uploads/${id}/run`, json(steps === "all" ? { all: true } : { steps })),
   rerun: (id: string, step: StepName) => request<{ started: StepName[] }>(`/api/uploads/${id}/rerun`, json({ step })),
+  reapplyMatch: (id: string) => request<{ started: StepName[] }>(`/api/uploads/${id}/reapply-match`, { method: "POST" }),
   corpusRerun: (row: number, step: StepName) =>
     request<{ id: string; seeded: StepName[]; started: StepName[] }>(`/api/corpus/${row}/rerun`, json({ step })),
   corpus: () => request<CorpusIndex>("/api/corpus"),

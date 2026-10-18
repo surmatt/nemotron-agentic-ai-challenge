@@ -15,7 +15,7 @@ Our pipeline has eight stages. Run each one with `uv run nemotron-challenge run 
 | --- | --- | --- |
 | `extract` | Parses each scan, keeps the raw reply, removes page furniture, and splits entries at headwords | Parse 3.5 |
 | `correct` | Corrects the Parse text of each block from an enlarged crop of the scan | Super 3.5 VL |
-| `match` | Gets BM25 candidates, ranks them with the reranker, and accepts by calibrated thresholds | Embed VL, Rerank VL |
+| `match` | Gets BM25 candidates (headword, cleaned frequency keywords, Super VL terms), ranks them with the reranker, and accepts by calibrated thresholds | Super 3.5 VL, Embed VL, Rerank VL |
 | `compare` | Compares word frequencies with log-odds and cites a snippet from both sources | – |
 | `index` | Embeds Britannica and Wikipedia passages and stores them with citations in LanceDB | Embed VL |
 | `agent` | Runs Hermes with five team tools (search, semantic search, compare, read, corpus) and evidence rules | Super 3.5 VL |
@@ -42,8 +42,11 @@ We measured the result against hand transcriptions of 30 blocks from 15 scans
 
 ### 2. Calibrated matching with the embedder and reranker
 
-We labelled 60 entries by hand, with the model scores hidden, and calibrated the accept rule on them
+We labelled 60 entries by hand, with the model scores hidden, and measured the previous accept rule
 ([docs/evaluation/match-calibration.md](docs/evaluation/match-calibration.md)).
+The current rule takes the top reranked page when its logit, cosine, and title similarity pass their
+thresholds. It does not require a gap to the second candidate. Future calibration fits for F2.
+The results below describe the previous rule, which used a margin threshold.
 
 | Ranker | First candidate correct (43 labelled entries) |
 | --- | --- |
@@ -60,7 +63,8 @@ We labelled 60 entries by hand, with the model scores hidden, and calibrated the
 - The full run accepted 86 of 201 searched entries with the model rule.
 - The reranker found articles that the title rule missed. For example, COINAGE matches "Coining (mint)".
 - It also rejected wrong title matches, such as NAXOS → "Naxos (Crete)".
-- It still makes errors: it rejected HEAT → "Heat" because the margin to the second candidate was 0.15.
+- The previous rule rejected HEAT → "Heat" because the margin to the second candidate was 0.15.
+  The current rule removes that condition. These results do not measure the current rule.
 
 ### 3. LanceDB passage index and semantic search
 
@@ -264,6 +268,7 @@ Use `--work-dir` to change the artifacts folder. The default is `artifacts`.
 - **Workbench tab:** drop a JPEG or PNG scan, then click **Run all steps** or run one step at a time. The server keeps each upload in `artifacts/ui/uploads/<id>/`.
 - **Corpus tab:** browse the 100 pinned scans with the saved stage outputs from `artifacts/`. Click **Run live in workbench** to copy a scan into the workbench and run the steps on it.
 - **Re-run a stage:** click **Re-run** on a stage card. The stage runs again, then each later stage that ran before. The `+N` badge shows the number of other stages that run with it. Hold the pointer on the button to see their names. Earlier outputs move to `history/<time>/` in the upload folder.
+- **Apply a new match rule:** in an upload's Matching tab, click **Apply current rule (reuse scores)**. This updates the saved decisions from the existing candidate scores without search or model calls. It fetches full text for newly accepted Wikipedia articles and rebuilds later outputs that ran. Changed entry text requires a full Match re-run.
 - **Re-run on a corpus scan:** the workbench copies the scan and reuses the saved Parse and Super VL replies of the corpus run. Then it runs the chosen stage and the later stages. Match has no per-scan saved output, so a compare re-run also runs match. The corpus artifacts stay unchanged.
 - **Check services:** runs the live check on Parse, Super VL, the retrieval service, and the Wikipedia API.
 - **LaTeX document tab:** step V writes one LaTeX document for the scan with the code in `site.py`, and tectonic compiles it. The tab shows the PDF next to the `.tex` source. On a corpus scan, the tab shows the document from the last site build.
@@ -273,6 +278,7 @@ The live steps read the service URLs and keys from `.env`.
 Extract calls Parse. Correct calls Super VL. Match calls the Wikipedia API and the retrieval service. Compare and document run locally.
 If `RETRIEVAL_BASE_URL` is not set or does not answer, match uses lexical mode and the step summary says so.
 The Corpus tab needs `uv run nemotron-challenge data fetch` and the saved stage runs.
+The Python backend loads code at startup. After changing backend code, restart `make run` before applying a new rule.
 
 Other targets: `make install`, `make build`, and `make test`.
 

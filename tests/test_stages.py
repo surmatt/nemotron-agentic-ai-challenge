@@ -1,13 +1,18 @@
 """Fixture tests for the team's stage methods. They prove the chosen rules, not OCR or match quality."""
 from collections import Counter
 import importlib.util
+from io import BytesIO
 import json
 from pathlib import Path
 from types import SimpleNamespace
 
 import pytest
+from PIL import Image
 
 from nemotron_challenge import agent, compare, evaluate, extract, match, site
+from nemotron_challenge.clients import ServiceError
+from nemotron_challenge.common import sha256_bytes
+from nemotron_challenge.config import Settings
 
 REPO = Path(__file__).resolve().parents[1]
 
@@ -110,13 +115,43 @@ def test_fallback_model_decision_needs_rerank_logit_and_headword_title(tmp_path,
     assert match.decide({}, rows, "model")["status"] == "rejected"
 
 
-def test_queries_use_headword_then_keywords():
+def test_queries_use_headword_then_keywords(monkeypatch):
+    monkeypatch.setattr(match, "system_words",
+                        lambda: frozenset({"heat", "fire", "produced", "warm", "bodies"}))
     entry = {"headword": "HEAT", "text": "Heat is produced by fire. Fire and heat and fire again warm bodies."}
     first, second = match.queries(entry)
-    assert first == "heat" and second.startswith("heat fire")
+    assert first == ("heat", "headword")
+    assert second[0].startswith("heat fire") and second[1] == "headword + keywords"
 
 
 VOCABULARY = frozenset({"philology", "philosophy", "willing", "wildling", "endymion", "heat"})
+
+
+def test_keywords_repair_long_s_and_read_the_whole_text():
+    vocabulary = frozenset({"vessel", "water", "heat", "tailword"})
+    text = "veffel veffel illands " + "water " * 3000 + "tailword tailword"
+    found = match.keywords(text, limit=6, vocabulary=vocabulary)
+    assert found == ["water", "vessel", "tailword"] and "illands" not in found
+
+
+def test_keyword_source_adds_the_headword_and_running_headers():
+    entry = {"headword": "BLEACHING", "text": "body text",
+             "pages": [{"page_id": "p1"}, {"page_id": "p2"}]}
+    pages = {"p1": {"running_header": "BLEACHING."}, "p2": {"running_header": "DYEING."}}
+    assert match.keyword_source(entry, pages) == "BLEACHING BLEACHING. DYEING. body text"
+
+
+def test_queries_add_the_llm_query(monkeypatch):
+    monkeypatch.setattr(match, "system_words", lambda: VOCABULARY)
+    entry = {"headword": "PHILLOOGY", "text": "words grammar language words"}
+    pairs = match.queries(entry, "philology",
+                          llm={"status": "ok", "title": "Philology", "terms": ["linguistics", "grammar"]})
+    assert [kind for _, kind in pairs] == ["headword", "OCR headword variant", "LLM title + terms"]
+    assert pairs[2][0] == "Philology linguistics grammar"
+    assert all(len(q.split()) <= 64 and len(q) <= 512 for q, _ in pairs)
+    assert len({q for q, _ in pairs}) == len(pairs)
+    without_llm = match.queries(entry, "philology", llm={"status": "failed", "error": "down"})
+    assert [kind for _, kind in without_llm] == ["headword", "OCR headword variant"]
 
 
 @pytest.mark.parametrize("headword,variant", [
@@ -143,7 +178,7 @@ def test_variant_adds_a_query_and_counts_for_title_similarity(monkeypatch):
             return SimpleNamespace(hits=hits)
 
     searches = []
-    used, rows = match.candidates(Wiki(), {"headword": "PHILLOOGY", "text": "words grammar language words"}, searches)
+    used, rows = match.candidates(Wiki(), {"headword": "PHILLOOGY", "text": "philosophy philology words"}, searches)
     assert used[:2] == ["philloogy", "philology"] and seen == used
     assert [r["title"] for r in rows] == ["Philology"] and rows[0]["title_similarity"] == 1.0
     assert match.decide({}, rows, "lexical")["status"] == "accepted"
@@ -156,6 +191,60 @@ def test_list_page_rule_reads_only_the_opening():
     assert match.is_list_page("Willin' may refer to: Willin' (album), a 1999 album")
     assert match.is_list_page("Coinage may also refer to: a tax")
     assert not match.is_list_page("Heat is energy in transfer. " + "x" * 700 + " may refer to")
+
+
+def test_match_entry_survives_a_failed_terms_call(tmp_path, monkeypatch):
+    monkeypatch.setattr(match, "system_words", lambda: VOCABULARY)
+
+    class BrokenChat:
+        def __init__(self, *args, **kwargs):
+            pass
+
+        def __enter__(self):
+            return self
+
+        def __exit__(self, *args):
+            return None
+
+        def complete(self, *args, **kwargs):
+            raise ServiceError("service returned HTTP 400", status_code=400)
+
+    hit = SimpleNamespace(page_id="7", revision_id="1", title="Unrelated", url="u",
+                          excerpt="nothing about the subject", excerpt_offset=0, total_chars=26,
+                          rank=1, bm25_score=1.0)
+
+    class Wiki:
+        def __enter__(self):
+            return self
+
+        def __exit__(self, *args):
+            return None
+
+        def search(self, query, top_k, excerpt_chars):
+            return SimpleNamespace(hits=[hit])
+
+    monkeypatch.setattr(match, "ChatClient", BrokenChat)
+    monkeypatch.setattr(match, "WikiClient", lambda *args, **kwargs: Wiki())
+    buffer = BytesIO()
+    Image.new("RGB", (60, 80), "white").save(buffer, format="JPEG")
+    (tmp_path / "scan.jpg").write_bytes(buffer.getvalue())
+    entry = {"entry_id": "E0001", "headword": "PHILLOOGY", "text": "philosophy philology words " * 30,
+             "text_sha256": "a" * 64, "chars": 840,
+             "pages": [{"page_id": "p1", "filename": "scan.jpg",
+                        "image_sha256": sha256_bytes(buffer.getvalue())}],
+             "parts": []}
+    pages = {"p1": {"page_id": "p1", "running_header": "", "blocks": []}}
+    failures = tmp_path / "failures.jsonl"
+
+    record = match.match_entry(Settings(super_api_key="key"), entry, "lexical", tmp_path / "m1",
+                               failures, pages, tmp_path)
+    assert len(record["queries"]) == 3 and record["search_terms"]["llm"]["status"] == "failed"
+    assert record["decision"]["status"] == "rejected"
+    rows = [json.loads(line) for line in failures.read_text().splitlines()]
+    assert [r["stage"] for r in rows] == ["match_terms"] and rows[0]["entry_id"] == "E0001"
+
+    record = match.match_entry(Settings(), entry, "lexical", tmp_path / "m2", failures, pages, tmp_path)
+    assert record["search_terms"]["llm"]["status"] == "skipped" and record["decision"]["status"] == "rejected"
 
 
 def test_brit_abbreviation_expands_before_counting():
