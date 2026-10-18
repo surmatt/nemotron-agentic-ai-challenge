@@ -1,4 +1,4 @@
-"""Commands for setup checks, source data, and unfinished milestones."""
+"""Commands for setup checks, source data, and the team's challenge stages."""
 from __future__ import annotations
 
 import argparse
@@ -49,8 +49,18 @@ def doctor(settings: Settings, *, live: bool) -> tuple[dict[str, Any], int]:
     failed = any(check["status"] in {"failed", "missing"} for check in checks)
     return {
         "mode": "live" if live else "offline", "checks": checks,
-        "challenge_stages": "not implemented", "inference": "not tested",
+        "challenge_stages": "implemented; run them with: nemotron-challenge run <stage>", "inference": "not tested",
     }, int(failed)
+
+
+def stage_status(stage: str, work_dir: Path) -> dict[str, Any]:
+    summary = work_dir / stage / "summary.json"
+    row: dict[str, Any] = {"stage": stage, "status": "implemented", "guide": f"docs/milestones.md#{stage}"}
+    if summary.is_file():
+        row["last_run"] = json.loads(summary.read_text(encoding="utf-8")).get("finished_at")
+    else:
+        row["last_run"] = None
+    return row
 
 
 def parser() -> argparse.ArgumentParser:
@@ -60,7 +70,8 @@ def parser() -> argparse.ArgumentParser:
     mode = check.add_mutually_exclusive_group()
     mode.add_argument("--offline", action="store_true", help="check packages without network access")
     mode.add_argument("--live", action="store_true", help="check resource catalogs and readiness; does not run inference")
-    sub.add_parser("stages", help="list unfinished challenge milestones")
+    stages = sub.add_parser("stages", help="list challenge stages and their last saved run")
+    stages.add_argument("--work-dir", type=Path, default=Path("artifacts"))
     run = sub.add_parser("run", help="run a team milestone")
     run.add_argument("stage", choices=tasks.STAGES)
     run.add_argument("--work-dir", type=Path, default=Path("artifacts"))
@@ -77,7 +88,7 @@ def main(argv: list[str] | None = None) -> int:
     args = parser().parse_args(argv)
     try:
         if args.command == "stages":
-            result = [{"stage": stage, "status": "TODO", "guide": f"docs/milestones.md#{stage}"} for stage in tasks.STAGES]
+            result = [stage_status(stage, args.work_dir) for stage in tasks.STAGES]
         elif args.command == "data":
             from .data import fetch_sample, load_manifest
 

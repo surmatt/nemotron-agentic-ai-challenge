@@ -3,9 +3,10 @@
 Use your coding agent to develop this project.
 Use Hermes Agent to run the comparison agent that your team builds.
 
-The starter registers one native Hermes tool, `challenge_compare`.
-Its handler raises `NotImplementedError`.
-It has no retrieval process, comparison result, agent prompt, or stopping policy.
+The team plugin registers four native Hermes tools: `challenge_search`, `challenge_compare`, `challenge_read`, and `challenge_corpus`.
+The tools read the saved stage artifacts in `CHALLENGE_WORK_DIR` (default `artifacts`).
+The evidence rules and the question set are in `integrations/hermes/questions.json`.
+`uv run nemotron-challenge run agent` prepares this profile and runs the question set.
 
 ## Set up a separate profile
 

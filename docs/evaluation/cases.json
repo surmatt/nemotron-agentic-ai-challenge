@@ -1,0 +1,71 @@
+{
+  "reviewed_by": "team review of saved Hermes runs, assisted by the coding agent",
+  "reviewed_at": "2026-10-18",
+  "cases": [
+    {
+      "case_id": "S1-heat",
+      "classification": "success",
+      "run_id": "2026-10-18T114003Z",
+      "question_id": "q01-heat",
+      "reason": "The agent found entry E0087, read both sources, and compared the Britannica account of heat as an idea in the mind with the Wikipedia account of heat as energy transfer. It cited the scan page ID and Wikipedia revision 1333417689. The quotes it gives occur in the saved source text.",
+      "limits": "The match is provisional_lexical, not checked by the Nemotron embedder and reranker. The Britannica text is OCR with errors; the agent marked its own corrections."
+    },
+    {
+      "case_id": "S2-willin-wrong-match",
+      "classification": "success",
+      "run_id": "2026-10-18T114003Z",
+      "question_id": "q07-willin",
+      "reason": "The matcher paired entry E0012 (OCR headword WILLIN) with the Wikipedia page \"Willin'\", which lists an album and a song. The agent read both texts, cited the comparison metrics, and stated that the match is wrong. The Britannica text mentions the East India Company, Bengal, and the Ganges, which the agent quoted.",
+      "limits": "The agent's identification of the place as Fort William in Calcutta is an inference from garbled OCR. It labelled it as an inference."
+    },
+    {
+      "case_id": "S3-locomotive-missing",
+      "classification": "success",
+      "run_id": "2026-10-18T114003Z",
+      "question_id": "q06-locomotive",
+      "reason": "No entry about the steam locomotive exists in the sample. The agent searched four queries, reported no_results, and did not fill the gap from memory. It rejected the ENGINE entry as a different subject.",
+      "limits": "The sample has 100 scans, so absence in the sample says nothing about the full encyclopaedia."
+    },
+    {
+      "case_id": "F1-philology-false-absence",
+      "classification": "failure",
+      "run_id": "2026-10-18T114003Z",
+      "question_id": "q05-philology",
+      "reason": "The agent stated that the corpus has no Britannica article on PHILOLOGY. Entry E0019 is that article: its OCR headword and running header read PHILLOOGY (scan row 403). challenge_search uses exact word overlap, so it did not find the OCR form, and the agent did not try other spellings. The automatic check passed this run because the answer said that evidence was missing.",
+      "limits": "The match stage also rejected E0019, so a comparison would still be missing. The failure is the claim that the entry does not exist.",
+      "repair": "Add fuzzy headword search to challenge_search, and an OCR-tolerant title query to the match stage. Record the repaired run separately."
+    },
+    {
+      "case_id": "F2-corpus-brit-inference",
+      "classification": "failure",
+      "run_id": "2026-10-18T114003Z",
+      "question_id": "q04-corpus",
+      "reason": "The agent reported the corpus terms and counts correctly, but explained the top term \"brit\" as \"almost certainly an OCR fragment\" of British or Britannia. All 33 counted occurrences are the printed abbreviation \"Brit.\" in entry E0002 (WEIGHTS AND MEASURES), for example \"27/430 Brit. cubic inches\". The agent did not read the source before it made the claim.",
+      "limits": "The agent labelled the explanation as an interpretation. The term list itself is correct. The comparison stage should expand or exclude the abbreviation.",
+      "repair": "Expand abbreviations such as Brit. in the compare stage, and require a challenge_read call before the agent explains a term."
+    },
+    {
+      "case_id": "F3-heat-no-rules-edition",
+      "classification": "failure",
+      "run_id": "2026-10-18T113829Z-trial",
+      "question_id": "q01-heat-nopolicy",
+      "reason": "In the first trial, the prompt had no evidence rules. The agent called the source the \"1911 Encyclopaedia Britannica\". No tool result gives an edition or year, and the long s in the scans indicates an earlier printing (inference). The automatic check passed because it does not test unsupported metadata.",
+      "limits": "This trial used the same tools and artifacts but a different prompt. The repaired prompt (rule: do not state an edition or year without tool evidence) produced run 2026-10-18T114003Z q01-heat, which states no edition.",
+      "repair": "Evidence rule added to integrations/hermes/questions.json. See case S1-heat for the repaired run."
+    }
+  ],
+  "quote_check_review": [
+    {
+      "run": "2026-10-18T114003Z/q02-huguenots",
+      "quote_start": "in common use by around 1550).",
+      "verdict": "checker false alarm",
+      "reason": "The line has an odd number of quote marks, so the checker paired the wrong marks. The quoted Wikipedia phrase 'was in common use by around 1550' occurs in the tool result."
+    },
+    {
+      "run": "2026-10-18T114003Z/q05-philology",
+      "quote_start": "the philology (did-dialyksia menus",
+      "verdict": "checker false alarm",
+      "reason": "The source has an OCR line-break hyphen ('di-\\ndialyksia'). The agent joined the parts. Ratio 0.846 is just below the 0.85 limit."
+    }
+  ]
+}
