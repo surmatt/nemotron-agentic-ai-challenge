@@ -21,6 +21,7 @@ from pathlib import Path
 import re
 import shutil
 import subprocess
+import sys
 import tempfile
 from typing import Any
 
@@ -52,7 +53,9 @@ def hermes_env(settings: Settings, home: Path, work_dir: Path) -> dict[str, str]
     if not settings.super_api_key:
         raise ValueError("SUPER_API_KEY is missing in .env")
     env.update({"HERMES_HOME": str(home), "CHALLENGE_WORK_DIR": str(work_dir.resolve()),
-                "SUPER_API_KEY": settings.super_api_key})
+                "SUPER_API_KEY": settings.super_api_key,
+                # The semantic search tool runs the project Python, which has LanceDB and the clients.
+                "CHALLENGE_PYTHON": sys.executable, "CHALLENGE_REPO": str(REPO)})
     return env
 
 

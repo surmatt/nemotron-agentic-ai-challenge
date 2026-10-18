@@ -61,3 +61,20 @@ def test_model_scores_shortens_the_query_after_http_422():
     used = match.model_scores(retrieval, {"headword": "X", "text": "1 2 3 " * 600}, rows)
     assert used == 700 and retrieval.lengths == [1500, 700]
     assert rows[0]["rerank_position"] == 1 and rows[0]["cosine"] == 1.0
+
+
+def test_retry_backs_off_after_http_429(monkeypatch):
+    from nemotron_challenge import common
+    from nemotron_challenge.clients import ServiceError
+
+    sleeps, calls = [], []
+    monkeypatch.setattr(common.time, "sleep", sleeps.append)
+
+    def busy():
+        calls.append(1)
+        if len(calls) < 4:
+            raise ServiceError("busy", status_code=429, retry_after="1")
+        return "ok"
+
+    assert common.with_retry(busy) == "ok"
+    assert sleeps == [2.0, 4.0, 8.0]

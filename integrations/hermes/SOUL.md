@@ -6,6 +6,7 @@ Your evidence comes only from the challenge_* tools.
 ## Evidence rules
 
 - Use only the challenge_* tools as evidence. Call challenge_search first to find entry IDs.
+- If challenge_search finds nothing or the headword may be misspelled by OCR, call challenge_semantic_search before you say that evidence is missing.
 - Cite every factual statement: Britannica entry ID and scan page ID, or Wikipedia page ID and revision ID.
 - Quote short source passages for claims about what a source says. Use challenge_read for quotes.
 - Copy quotes exactly as the tool returned them. Mark your own corrections of OCR errors in [brackets].

@@ -8,7 +8,7 @@ Your team builds the extraction workflow, article matching, comparisons, agent t
 
 ## Team solution and results
 
-Our pipeline has seven stages. Run each one with `uv run nemotron-challenge run <stage>`.
+Our pipeline has eight stages. Run each one with `uv run nemotron-challenge run <stage>`.
 [docs/team-pipeline.md](docs/team-pipeline.md) describes the method of each stage.
 
 | Stage | What it does | Models |
@@ -17,7 +17,8 @@ Our pipeline has seven stages. Run each one with `uv run nemotron-challenge run 
 | `correct` | Corrects the Parse text of each block from an enlarged crop of the scan | Super 3.5 VL |
 | `match` | Gets BM25 candidates, ranks them with the reranker, and accepts by calibrated thresholds | Embed VL, Rerank VL |
 | `compare` | Compares word frequencies with log-odds and cites a snippet from both sources | – |
-| `agent` | Runs Hermes with four team tools (search, compare, read, corpus) and evidence rules | Super 3.5 VL |
+| `index` | Embeds Britannica and Wikipedia passages and stores them with citations in LanceDB | Embed VL |
+| `agent` | Runs Hermes with five team tools (search, semantic search, compare, read, corpus) and evidence rules | Super 3.5 VL |
 | `site` | Builds a static website and one compiled LaTeX document per scan | – |
 | `evaluate` | Checks quotes against tool results and writes three success and three failure cases | – |
 
@@ -61,7 +62,19 @@ We labelled 60 entries by hand, with the model scores hidden, and calibrated the
 - It also rejected wrong title matches, such as NAXOS → "Naxos (Crete)".
 - It still makes errors: it rejected HEAT → "Heat" because the margin to the second candidate was 0.15.
 
-### 3. Hermes agent on the improved evidence
+### 3. LanceDB passage index and semantic search
+
+The `index` stage embeds 692 Britannica passages and 856 Wikipedia passages (84 accepted articles) with Embed VL in about 40 seconds and stores them with their citations in LanceDB.
+The Hermes tool `challenge_semantic_search` searches this index by meaning.
+
+- Word search could not find the entry with the OCR headword "PHILLOOGY". Semantic search for "philology, the study of languages" returns that entry (E0021).
+- "how coins were struck with dies and a hammer" returns the Wikipedia article "Coining (mint)" and the Britannica entry COINAGE.
+- Each stage now replaces its own provenance records. The old runs left 154 match records for 86 current matches; these are gone.
+- In agent run `2026-10-18T132500Z` (q06), Hermes called `challenge_semantic_search` after word search found no "locomotive" entry.
+  It got Wikipedia passages on early steam locomotives and the Britannica STEAM-ENGINE entry, and reported that Britannica has no locomotive entry.
+- The first full agent run with the tool (`2026-10-18T131943Z`) shows a failure: the tool returned an error, because the Hermes environment variables (`PYTHON*`, `VIRTUAL_ENV`) reached the project Python. The plugin now removes them and reports the exit code and last error line.
+
+### 4. Hermes agent on the improved evidence
 
 Hermes runs `nvidia/Nemotron-3.5-Super-VL` through Nebius Token Factory with the four team tools.
 The latest run (`artifacts/agent/runs/2026-10-18T124947Z/`) completed all 8 questions, and 6 passed the automatic checks.
@@ -72,7 +85,7 @@ The other 2 gave the expected answer in words that the text rules do not detect.
 - When an entry has no accepted match (HEAT), it says that the comparison evidence is missing.
 - [docs/evaluation/cases.json](docs/evaluation/cases.json) lists the three success cases and three failure cases from the saved runs.
 
-### 4. Overall effect
+### 5. Overall effect
 
 | Measure | First run (Parse text, title rule) | Now (Super VL text, model rule) |
 | --- | --- | --- |
