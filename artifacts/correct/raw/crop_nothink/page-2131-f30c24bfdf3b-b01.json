@@ -1,0 +1,93 @@
+{
+  "variant": "crop_nothink",
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2131",
+  "block_index": 1,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T12:24:05+00:00",
+  "elapsed_seconds": 3.01,
+  "finish_reason": "stop",
+  "parse_text": "Bombay: AQUULY.\nSEPTEMBER.\nDay of Quantity of the month.\nLain in In. Tenths.\n19 - 0 22 22 - 0 2\n20 - 0 2 23 - 0 3\n21 - 0 1 24 - 3\n22 - 0 4 25 - 0 2\n25 - 0 4 20 - 0 2\n26 - 0 7 27-30 - 0 0\n27 - 0 5 Octobre.\n28 - 0 2 2-7 - 2 1\n30 - 0 1 9 - 0\n31 - 0 0 2 15 - 0 3\nSEPTEMBER. 16, 17 - 1 - 1 1\n1 - 0 2 13 The air fine and\n3 - 0 3\nclear, without a cloud, the\n9 - 0 1\nhad and fee-breczes re-\n9 - 4 pulter.\n10 - 0 5 While quantity of rain in\n11 - 0 9\n11 - 0 0 9\n12 - 0 2 May - 1\n13 - 0 5 June - 44 7\n16 - 0 4 July - 19 9\n17 - 0 0 4 August - 19 9\n18 - 0 5 September - 11 2\n19 - 9 - 6 October - 4 5\n20 - 3 2\n21 - 0 4 Total 10 3\nIn this journal one author makes no mention of the\nelephants above mentioned from Mr Grefe as the fore-\nrunner of the rainy fashion, though he mentions at form\nunder that reason on the pH of October. It was an\nexceller hard gole with violent thunders, lightning,\nand rainy of which left there fill over inches in our\nmore than our home. Neither is the quantity of\nthunder and lightning at all comparable to what people\nunexamined with her element might be apg to see\npeel. The only thunder-forms mentioned in the\njournal were on May 1st. June 3d, 5th, 12th, 14th;\nSeptember 20th, October, an elephant s and font\nthunder on the 12th of this time month.",
+  "corrected_text": "Bombay. AUGUST. SEPTEMBER.\nDays of Quantity of Days of Quantity of\nthe month. rain in the month. rain in\nIn. Tenths. In. Tenths.\n19 0 2 22 0 6\n20 0 2 23 0 3\n21 0 1 24 0 3\n22 0 4 25 0 2\n25 0 4 26 0 2\n26 0 7 27-30 0 0\n27 0 5 OCTOBER.\n28 0 2 2-7 2 1\n30 0 1 9 0\n31 0 2 15 0 3\nSEPTEMBER. 16, 17 0 1\n1 0 2 13 The air fine and\n3 0 3\nclear, without a cloud, the\n9 0 1\nland and sea-breezes re-\n9 4 gular.\n10 0 5 While quantity of rain in\n11 0 9\n11 0 0 9\n12 0 2 May 1\n13 0 5 June 44 7\n16 0 4 July 19 9\n17 0 0 4 August 19 9\n18 0 5 September 11 2\n19 9 6 October 4 5\n20 3 2\n21 0 4 Total 110 3\nIn this journal our author makes no mention of the\nelephants above mentioned from Mr Grote as the fore-\nrunner of the rainy feafon, though he mentions a form\nunder that name on the 9th of October. It was an\nexceffive hard gale, with violent thunder, lightning,\nand rain; of which left there fell two inches in no\nmore than four hours. Neither is the quantity of\nthunder and lightning at all comparable to what people\nunacquainted with hot climates might be apt to ex-\npect. The only thunder-storms mentioned in the\njournal were on May 31ft, June 3d, 5th, 12th, 14th;\nSeptember 7th, October 9th, an elephant; and fome\nthunder on the 15th of the fame month.",
+  "reasoning_tokens": 0,
+  "usage": {
+    "completion_tokens": 555,
+    "prompt_tokens": 1871,
+    "total_tokens": 2426,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 1120
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 3000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows this region of the page. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\nBombay: AQUULY.\nSEPTEMBER.\nDay of Quantity of the month.\nLain in In. Tenths.\n19 - 0 22 22 - 0 2\n20 - 0 2 23 - 0 3\n21 - 0 1 24 - 3\n22 - 0 4 25 - 0 2\n25 - 0 4 20 - 0 2\n26 - 0 7 27-30 - 0 0\n27 - 0 5 Octobre.\n28 - 0 2 2-7 - 2 1\n30 - 0 1 9 - 0\n31 - 0 0 2 15 - 0 3\nSEPTEMBER. 16, 17 - 1 - 1 1\n1 - 0 2 13 The air fine and\n3 - 0 3\nclear, without a cloud, the\n9 - 0 1\nhad and fee-breczes re-\n9 - 4 pulter.\n10 - 0 5 While quantity of rain in\n11 - 0 9\n11 - 0 0 9\n12 - 0 2 May - 1\n13 - 0 5 June - 44 7\n16 - 0 4 July - 19 9\n17 - 0 0 4 August - 19 9\n18 - 0 5 September - 11 2\n19 - 9 - 6 October - 4 5\n20 - 3 2\n21 - 0 4 Total 10 3\nIn this journal one author makes no mention of the\nelephants above mentioned from Mr Grefe as the fore-\nrunner of the rainy fashion, though he mentions at form\nunder that reason on the pH of October. It was an\nexceller hard gole with violent thunders, lightning,\nand rainy of which left there fill over inches in our\nmore than our home. Neither is the quantity of\nthunder and lightning at all comparable to what people\nunexamined with her element might be apg to see\npeel. The only thunder-forms mentioned in the\njournal were on May 1st. June 3d, 5th, 12th, 14th;\nSeptember 20th, October, an elephant s and font\nthunder on the 12th of this time month.",
+  "response": {
+    "id": "chatcmpl-9d8ef1554c64c888",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "Bombay. AUGUST. SEPTEMBER.\nDays of Quantity of Days of Quantity of\nthe month. rain in the month. rain in\nIn. Tenths. In. Tenths.\n19 0 2 22 0 6\n20 0 2 23 0 3\n21 0 1 24 0 3\n22 0 4 25 0 2\n25 0 4 26 0 2\n26 0 7 27-30 0 0\n27 0 5 OCTOBER.\n28 0 2 2-7 2 1\n30 0 1 9 0\n31 0 2 15 0 3\nSEPTEMBER. 16, 17 0 1\n1 0 2 13 The air fine and\n3 0 3\nclear, without a cloud, the\n9 0 1\nland and sea-breezes re-\n9 4 gular.\n10 0 5 While quantity of rain in\n11 0 9\n11 0 0 9\n12 0 2 May 1\n13 0 5 June 44 7\n16 0 4 July 19 9\n17 0 0 4 August 19 9\n18 0 5 September 11 2\n19 9 6 October 4 5\n20 3 2\n21 0 4 Total 110 3\nIn this journal our author makes no mention of the\nelephants above mentioned from Mr Grote as the fore-\nrunner of the rainy feafon, though he mentions a form\nunder that name on the 9th of October. It was an\nexceffive hard gale, with violent thunder, lightning,\nand rain; of which left there fell two inches in no\nmore than four hours. Neither is the quantity of\nthunder and lightning at all comparable to what people\nunacquainted with hot climates might be apt to ex-\npect. The only thunder-storms mentioned in the\njournal were on May 31ft, June 3d, 5th, 12th, 14th;\nSeptember 7th, October 9th, an elephant; and fome\nthunder on the 15th of the fame month.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792326246,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 555,
+      "prompt_tokens": 1871,
+      "total_tokens": 2426,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 1120
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

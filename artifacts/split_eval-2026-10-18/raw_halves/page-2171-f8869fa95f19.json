@@ -1,0 +1,260 @@
+{
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2171",
+  "filename": "page-2171-f8869fa95f19.jpg",
+  "image_sha256": "f8869fa95f190d0e556bf8d2397c0c36da436ea1b23405995f0aac0f398f26d5",
+  "model": "nvidia/nemotron-3.5-parse",
+  "request": {
+    "prompt": "</s><s><predict_bbox><predict_classes><output_markdown><predict_text_in_pic>",
+    "max_tokens": 8744
+  },
+  "split": {
+    "x": 317,
+    "mean": 228.76,
+    "std": 7.52,
+    "centre": 300,
+    "search": [
+      200,
+      400
+    ],
+    "width": 600,
+    "height": 832,
+    "angle": 0.0,
+    "straight_std": 7.52,
+    "fill": [
+      220,
+      209,
+      191
+    ],
+    "source_width": 600,
+    "source_height": 832,
+    "tried": [
+      {
+        "angle": 0.0,
+        "x": 317,
+        "std": 7.52
+      },
+      {
+        "angle": -3.0,
+        "x": 249,
+        "std": 34.61
+      },
+      {
+        "angle": -2.75,
+        "x": 323,
+        "std": 34.89
+      },
+      {
+        "angle": -2.5,
+        "x": 274,
+        "std": 35.97
+      },
+      {
+        "angle": -2.25,
+        "x": 344,
+        "std": 34.59
+      },
+      {
+        "angle": -2.0,
+        "x": 343,
+        "std": 33.93
+      },
+      {
+        "angle": -1.75,
+        "x": 331,
+        "std": 34.64
+      },
+      {
+        "angle": -1.5,
+        "x": 327,
+        "std": 34.56
+      },
+      {
+        "angle": -1.25,
+        "x": 326,
+        "std": 32.01
+      },
+      {
+        "angle": -1.0,
+        "x": 327,
+        "std": 26.89
+      },
+      {
+        "angle": -0.75,
+        "x": 324,
+        "std": 16.9
+      },
+      {
+        "angle": -0.5,
+        "x": 323,
+        "std": 7.74
+      },
+      {
+        "angle": -0.25,
+        "x": 320,
+        "std": 7.36
+      },
+      {
+        "angle": 0.25,
+        "x": 324,
+        "std": 7.37
+      },
+      {
+        "angle": 0.5,
+        "x": 324,
+        "std": 7.01
+      },
+      {
+        "angle": 0.75,
+        "x": 326,
+        "std": 6.63
+      },
+      {
+        "angle": 1.0,
+        "x": 327,
+        "std": 9.4
+      },
+      {
+        "angle": 1.25,
+        "x": 329,
+        "std": 24.57
+      },
+      {
+        "angle": 1.5,
+        "x": 333,
+        "std": 28.33
+      },
+      {
+        "angle": 1.75,
+        "x": 326,
+        "std": 30.23
+      },
+      {
+        "angle": 2.0,
+        "x": 339,
+        "std": 32.14
+      },
+      {
+        "angle": 2.25,
+        "x": 332,
+        "std": 34.99
+      },
+      {
+        "angle": 2.5,
+        "x": 345,
+        "std": 34.76
+      },
+      {
+        "angle": 2.75,
+        "x": 327,
+        "std": 35.8
+      },
+      {
+        "angle": 3.0,
+        "x": 262,
+        "std": 35.2
+      }
+    ]
+  },
+  "started_at": "2026-10-18T13:34:52+00:00",
+  "elapsed_seconds": 3.09,
+  "halves": [
+    {
+      "side": "left",
+      "box": [
+        0,
+        0,
+        317,
+        832
+      ],
+      "png_sha256": "827f77f50bebfd0f003a14812634b8fd60828bc657d11dd65086076644d4406e",
+      "response": {
+        "id": "chatcmpl-6a0dd4fb-dba9-4d31-a59c-b359b0ac7f19",
+        "object": "chat.completion",
+        "created": 1792330492,
+        "model": "nvidia/nemotron-3.5-parse",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "<x_0.2383><y_0.0305>A S T  |  8<x_0.9912><y_0.0516><class_Page-header>\n\n<x_0.1055><y_0.0555>Ataraxy Atlele.<x_0.2139><y_0.0914><class_Caption>\n\n<x_0.2246><y_0.0547>ATARAXY, a term eded by the floes and fopples, to denote that calmefs of mind which feureus from all emotions arising from vanity and fell-conceit.<x_0.9902><y_0.1><class_Text>\n\n<x_0.2256><y_0.0984>ATARNEA, an ancient town of Myfn, flatened between Admnyton and Plano, remarkable for the marriage of Arifolite with the filter or execution of the tyrant Hermias; also for the dotage of that phi-lolopher.<x_0.9922><y_0.1625><class_Text>\n\n<x_0.2266><y_0.1609>ATAXY, in a general fenfe, the want of order: With phyticians, it signifies irregularity of critics and provoytion of fevers.<x_0.9893><y_0.1992><class_Text>\n\n<x_0.2236><y_0.1984>ATCHE, a commerce, a small liver coin ufed in Turky, and worth only one third of the English penny.<x_0.958><y_0.2844><class_Text>\n\n<x_0.2227><y_0.2852>ATCHIEVEN. This term is derived from the French _acharne_, i.e., to find to make an end of, but figuties, in heralby, to perform great actions or ex-plots.<x_0.9883><y_0.3641><class_Text>\n\n<x_0.2217><y_0.3625>ATE, the goddels of michiefs in the Pagan theo- hogy. She was daughter of Jupiter, and call down from heaven at the birth of Hercules. For Juno ha-ving decided Jupiter, in causing Eumithers to be born before Hercules, Jupiter expected for the retirement on Alex, as the author of that michiefs, and threw her headlong from heaven to earth, favoring the floold never return thidier again (_Humeri L._ six. 125). The name of the goddish comes from _minor_ _mean_, to _hart_. Her being the daughter of Jupiter means, according to mythologically, that no cell happens to us, but by the permitifer of confidence, since her health ment to earth denotes the terrible effects of divine jul- ties change men.<x_0.9873><y_0.55><class_Text>\n\n<x_0.2207><y_0.5492>ATEGUA, or ATEGUA, an ancient town of Spain, placed by fame in the road from Antigura, now Antquera, Hipplaix, or Scivilis. In others near Aleala Real, which left in the more probable fi- tuation, because the flumen fallum, now the Salado, was in its neighborhood. Now _Tebalei Vieja, or Yirrela._<x_0.9863><y_0.6281><class_Text>\n\n<x_0.2197><y_0.6297>ATELILA, an ancient town of Compania in Italy, between Aqua and Nepalis. From this town the _at- fillana fabula, or Atelami Indi,_ took their name. There were also called Oly, from their inventory in whole territory Aleda bay. They were generally a factor of force, interlarded with much ribalry and buffooners; and functions were records or irreducible preferred between the each of other plays. The above three fields faces were not reckoned among the common players, non elected infamous , but retained the rights of their tribe, and might be killed for follders, the privilege only of free men. The ruins of this town are full to be fleen about 1. miles from the modern Averfa, which was built out of the materials.<x_0.9854><y_0.8156><class_Text>\n\n<x_0.2188><y_0.8148>A TEMPO rossoy in multe, figifies to flag or play in an equal, tries, and juil time<x_0.9844><y_0.8422><class_Text>\n\n<x_0.2178><y_0.8414>ATERNUM, s town of Lacanna in Italy, now _Alterni_, (Chorus) is Alfo a town in the territory of the Picni, now _Pajcara_, a port-town of Naples, fitu- atheism the Afarinie. E. Logan, 15. zg. N. Lat. 43. 55<x_0.9873><y_0.8945><class_Text>\n\n<x_0.2168><y_0.8938>ATESTE, a town in the territory of Venate in Italy, now called _Elle_. E. Long, 12. 6. Nat. 45.25<x_0.9873><y_0.9234><class_Text>",
+              "refusal": null,
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "reasoning": null
+            },
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": null,
+            "token_ids": null,
+            "routed_experts": null
+          }
+        ],
+        "service_tier": null,
+        "system_fingerprint": "vllm-0.26.0-d51b4524",
+        "usage": {
+          "prompt_tokens": 268,
+          "total_tokens": 1167,
+          "completion_tokens": 899,
+          "prompt_tokens_details": null
+        },
+        "prompt_logprobs": null,
+        "prompt_token_ids": null,
+        "prompt_text": null,
+        "kv_transfer_params": null,
+        "ec_transfer_params": null,
+        "metrics": null
+      }
+    },
+    {
+      "side": "right",
+      "box": [
+        317,
+        0,
+        600,
+        832
+      ],
+      "png_sha256": "a3172015c042b40fdb9aecd40f4c7420d1886d99118938d5dd3a5c78bc621c00",
+      "response": {
+        "id": "chatcmpl-225e58ab-38f4-4b12-ae70-9f7c90199bcb",
+        "object": "chat.completion",
+        "created": 1792330494,
+        "model": "nvidia/nemotron-3.5-parse",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "<x_0.0><y_0.0289>2 1 A S T<x_0.4951><y_0.0516><class_Page-header>\n\n<x_0.0166><y_0.0539>ATHAMADULET, the prime minifier of the Abrams Perian empire, as the grand wizer is of the Turkish empire. He is great chancellor of the kingdom, pre- fident of the council, superintendent of the finances, and it changed with all foreign affairs.<x_0.8691><y_0.1227><class_Text>\n\n<x_0.0176><y_0.1234>ATHAMANTA, SPIROLI; e genus of the di- nyria order, belonging to the pentandria clafs of plants. Of this genus Lamente essential for species: but none of them merit, particular notice except the creais, otherwise called _danceu criticus_. This is an unbeliferous plant growing wild in the Levant and the woman parts of Europe. The leaves the irgger- larly dipofed, and formed like thoof of friend. The flower-falki rries about two feet high, feeding on many branches, terminated at the top by compound umbels, compelled of near 20 final ones. Thief have white flowers with fine petals, which are fucected by colony hairy, channeled fruits, divided into two parts, containing one collong hairy feeds. The feed have a warm biting table, with an agreeable aromatic fmell. They are keyin in the hops as a medicine, are cormi- native, and had to be distracted. I can are little used in practice. The plant may be propagated from feeds, which should be flown on an open bed of light dry ground. It the following autumn the plants should be taken up, and planted at about a foot dilance in a bed of light fandy earth, where the roots will continue fe- verl years.<x_0.8701><y_0.4297><class_Text>\n\n<x_0.0156><y_0.4281>ATHANASIA, GOLDLOKIS; a genus of the polygramia equalia order, belonging to the fyngendia clats of plants. Of this genus, the Lamente mentions 1<x_0.7998><y_0.4719><class_Text>\n\n<x_0.0146><y_0.4711>_Spices_ of which the following its are by Mr Miller reckoned worthy of a place in those gardens where there no convocatories for preferring tender plants, as none of the defects will matter the waters of that country. 1. The donatats grows naturally at the Cape of Good Hope. Is rifles three or four feet high, feeding out many ride-bernches, gamified with pretty long narrow leaves, having some refinance to thole of buckthorn plants. The branches are generally terminated by yellow flowers formed around kind of lumber. Their flowers appear early in summer, and the feeds ripen in autumn. 2. The trifunants is also a native of Africa, as are the three following form. It is a shrubby plants, about the height of the former, fending out several weak shoots, garnished with awil-flapest until leaves the cloé to them, of a pair likely color. The flowers are yellow, and tomatoes the branches in a corymus. They appear in August, and the feeds ripen in October. 3. The mothoidea rides with a strong thrush like to the bigist of six or eight feet, finding out many ligneous branches granified with long narrow leaves terminating in four or five areas like thoof of impirore. The flowers are like thoof of the former, and appear in July and Au- gelt, being focceeding by feeds which ripen in October. 4. The pobefens bath broogody talks for or free feet high covered with a woody bars, as are allo the branches, which are closely garnished with entire, faperhaped, locally leaves, and are fermented by yel- low flowers having along four-blas, and are harmonies faced by feeds that ripen in the autumn. 5. The aman is a low annual plant, éldon rifug above a face high, and feeding forth two or three lunder branches garnished with wing-pointed leaves : the Ralks are ser- minated<x_0.8711><y_0.9352><class_Text>",
+              "refusal": null,
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "reasoning": null
+            },
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": null,
+            "token_ids": null,
+            "routed_experts": null
+          }
+        ],
+        "service_tier": null,
+        "system_fingerprint": "vllm-0.26.0-d51b4524",
+        "usage": {
+          "prompt_tokens": 268,
+          "total_tokens": 1142,
+          "completion_tokens": 874,
+          "prompt_tokens_details": null
+        },
+        "prompt_logprobs": null,
+        "prompt_token_ids": null,
+        "prompt_text": null,
+        "kv_transfer_params": null,
+        "ec_transfer_params": null,
+        "metrics": null
+      }
+    }
+  ]
+}

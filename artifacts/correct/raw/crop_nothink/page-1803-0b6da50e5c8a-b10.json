@@ -1,0 +1,93 @@
+{
+  "variant": "crop_nothink",
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1803",
+  "block_index": 10,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T12:23:16+00:00",
+  "elapsed_seconds": 1.35,
+  "finish_reason": "stop",
+  "parse_text": "There is a fine influence of linear effect in a print of eFrench convenient piece by Wille. One of the figures is thinking out of a glide, and the artist has small deceptively described the texture of the drinker's face through the gids. In the tune print, a female figure these great little in this way, given the floor is characterterized by lines: and the whole filmy marks the molt proper mode of treating falsely due of where local nature. The beautiful print of the Petrì Phalecies, is also as al-mobula stimulation, particularly the little polluted globals which has just mounted from the hall. When there are engraved in a figure some method of crafting, they go exactly every day late after she refused to the fluight reprefeuted. The scientific Picart forms to have been in much aware of this, that is a print of his organizing of a large sample group of beliefs, upon the estimated child of Perriere, he adopted this flyle in order to highlight the imbalance.",
+  "corrected_text": "There is a fine influence of linear effect in a print of a Flemish conversation piece by Wille. One of the figures is drinking out of a glass, and the artist has most deceptively described the texture of the drinker's face through the glass. In the same print, a female figure shows great skill in this way, even the floor is characterized by lines; and the whole strongly marks the most proper mode of treating subjects of a mere local nature. The beautiful print of the Petit Phylicien, is also an admirable imitation, particularly the little pellucid globule which has just mounted from the hill. When lines are engraved in a square acute method of crolling, they generally convey the idea of hardness to the figure represented. The scientific Picart seems to have been so much aware of this, that in a print of his engraving of a large marble groupe of horses, from the animated chisel of Perriere, he adopted this style in order to heighten the imitation.",
+  "reasoning_tokens": 0,
+  "usage": {
+    "completion_tokens": 203,
+    "prompt_tokens": 788,
+    "total_tokens": 991,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 398
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 3000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows this region of the page. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\nThere is a fine influence of linear effect in a print of eFrench convenient piece by Wille. One of the figures is thinking out of a glide, and the artist has small deceptively described the texture of the drinker's face through the gids. In the tune print, a female figure these great little in this way, given the floor is characterterized by lines: and the whole filmy marks the molt proper mode of treating falsely due of where local nature. The beautiful print of the Petrì Phalecies, is also as al-mobula stimulation, particularly the little polluted globals which has just mounted from the hall. When there are engraved in a figure some method of crafting, they go exactly every day late after she refused to the fluight reprefeuted. The scientific Picart forms to have been in much aware of this, that is a print of his organizing of a large sample group of beliefs, upon the estimated child of Perriere, he adopted this flyle in order to highlight the imbalance.",
+  "response": {
+    "id": "chatcmpl-9bcabaea3e978cc8",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "There is a fine influence of linear effect in a print of a Flemish conversation piece by Wille. One of the figures is drinking out of a glass, and the artist has most deceptively described the texture of the drinker's face through the glass. In the same print, a female figure shows great skill in this way, even the floor is characterized by lines; and the whole strongly marks the most proper mode of treating subjects of a mere local nature. The beautiful print of the Petit Phylicien, is also an admirable imitation, particularly the little pellucid globule which has just mounted from the hill. When lines are engraved in a square acute method of crolling, they generally convey the idea of hardness to the figure represented. The scientific Picart seems to have been so much aware of this, that in a print of his engraving of a large marble groupe of horses, from the animated chisel of Perriere, he adopted this style in order to heighten the imitation.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792326196,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 203,
+      "prompt_tokens": 788,
+      "total_tokens": 991,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 398
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

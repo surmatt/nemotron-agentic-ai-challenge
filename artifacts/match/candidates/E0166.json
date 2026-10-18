@@ -1,0 +1,452 @@
+{
+  "entry_id": "E0166",
+  "headword": null,
+  "entry_text_sha256": "0edf331be46c0b6665a74e60457bd11589b378e28b5b8eb338a6b1d2ebe0d831",
+  "mode": "model",
+  "queries": [
+    "lyre instrument strings added made time found tortoise shell musical account invention"
+  ],
+  "query_chars": 1500,
+  "headword_variant": null,
+  "candidate_count": 20,
+  "list_pages_removed_after_fetch": [],
+  "decision": {
+    "status": "rejected",
+    "method": "nemotron_embed_rerank",
+    "thresholds": {
+      "rerank_logit": -10.0,
+      "margin": 0.5,
+      "cosine": 0.15,
+      "title_similarity": 0.0
+    },
+    "reason": "rerank_logit < -10.0, margin < 0.5, cosine < 0.15, or title_similarity < 0.0",
+    "page_id": "81774",
+    "title": "Lyre",
+    "rerank_logit": -4.881687,
+    "cosine": 0.384447,
+    "margin_to_next": 0.279053,
+    "title_similarity": 0.0
+  },
+  "candidates": [
+    {
+      "page_id": "2514313",
+      "revision_id": "1329690312",
+      "title": "Chelys",
+      "url": "https://en.wikipedia.org/wiki/Chelys",
+      "excerpt": "The chelys or chelus (Greek: χέλυς, Latin: testudo, both meaning \"turtle\" or \"tortoise\") was a string instrument, the common lyre of the ancient Greeks, which had a convex back of tortoiseshell or of wood shaped like the shell. The word chelys was used in allusion to the oldest lyre of the Greeks, which was said to have been invented by Hermes. According to the Homeric Hymn to Hermes, he came across a tortoise near the threshold of his mother's home and decided to hollow out the shell to make the soundbox of an instrument with seven strings.\n\nThe word has been applied arbitrarily since classic times to various stringed instruments, some bowed and some plucked, probably owing to the back being much vaulted. Athanasius Kircher (Musurgia universalis, 486) applied the name of chelys to a kind of viol with eight strings. Numerous representations of the chelys lyre or testudo occur on Greek vases, in which the actual tortoiseshell is depicted. A good illustration is given in Le Antichità di Ercolano Esposte (vol. I, p. 1, 43). Propertius (iv. 6) calls the instrument the lyra testudinea. Joseph Justus Scaliger was probably the first writer to draw attention to the difference between the c",
+      "excerpt_offset": 0,
+      "total_chars": 2055,
+      "bm25": {
+        "q0": {
+          "rank": 1,
+          "score": 56.6506
+        }
+      },
+      "best_rank": 1,
+      "title_similarity": 0.0,
+      "context_overlap": 0.2529,
+      "cosine": 0.525258,
+      "rerank_logit": -5.511793,
+      "rerank_position": 5
+    },
+    {
+      "page_id": "4116363",
+      "revision_id": "1346821046",
+      "title": "Music of ancient Greece",
+      "url": "https://en.wikipedia.org/wiki/Music_of_ancient_Greece",
+      "excerpt": "Music was almost universally present in ancient Greek society, from marriages, funerals, and religious ceremonies to theatre, folk music, and the ballad-like reciting of epic poetry. This played an integral role in the lives of ancient Greeks. There are some fragments of actual Greek musical notation, many literary references, depictions on ceramics and relevant archaeological remains, such that some things can be known—or reasonably surmised—about what the music sounded like, the general role of music in society, the economics of music, the importance of a professional caste of musicians, etc.\n\nThe word music comes from the Muses, the daughters of Zeus and patron goddesses of creative and intellectual endeavours.\n\nConcerning the origin of music and musical instruments: the history of music in ancient Greece is so closely interwoven with Greek mythology and legend that it is often difficult to surmise what is historically true and what is myth. The music and music theory of ancient Greece laid the foundation for western music and western music theory, as it would go on to influence the ancient Romans, the early Christian church and the medieval composers.: x Our understanding of an",
+      "excerpt_offset": 0,
+      "total_chars": 25657,
+      "bm25": {
+        "q0": {
+          "rank": 2,
+          "score": 52.2736
+        }
+      },
+      "best_rank": 2,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1951,
+      "cosine": 0.240529,
+      "rerank_logit": -5.426413,
+      "rerank_position": 3
+    },
+    {
+      "page_id": "49646776",
+      "revision_id": "1322326526",
+      "title": "Music technology (mechanical)",
+      "url": "https://en.wikipedia.org/wiki/Music_technology_(mechanical)",
+      "excerpt": "oser to make or perform music; to compose, notate, play back or record songs or pieces; or to analyze or edit music. The earliest known applications of technology to music was prehistoric peoples' use of a tool to hand-drill holes in bones to make simple flutes. Ancient Egyptians developed stringed instruments, such as harps, lyres and lutes, which required making thin strings and some type of peg system for adjusting the pitch of the strings. Ancient Egyptians also used wind instruments such as double clarinets and percussion instruments such as cymbals. In Ancient Greece, instruments included the double-reed aulos and the lyre. Numerous instruments are referred to in the Bible, including the horn, pipe, lyre, harp, and bagpipe. During Biblical times, the cornet, flute, horn, organ, pipe, and trumpet were also used. During the Middle Ages, hand-written music notation was developed to write down the notes of religious Plainchant melodies; this notation enabled the Catholic church to disseminate the same chant melodies across its entire empire.\n\nDuring the Renaissance music era, the printing press was invented, which made it much easier to mass-produce music (which had previously be",
+      "excerpt_offset": 102,
+      "total_chars": 35689,
+      "bm25": {
+        "q0": {
+          "rank": 3,
+          "score": 48.5758
+        }
+      },
+      "best_rank": 3,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1562,
+      "cosine": 0.256676,
+      "rerank_logit": -5.811416,
+      "rerank_position": 7
+    },
+    {
+      "page_id": "49182501",
+      "revision_id": "1331080259",
+      "title": "Music technology",
+      "url": "https://en.wikipedia.org/wiki/Music_technology",
+      "excerpt": "ser to make or perform music; to compose, notate, playback or record songs or pieces; or to analyze or edit music.\n\nThe earliest known applications of technology to music was prehistoric peoples' use of a tool to hand-drill holes in bones to make simple flutes.\n\nAncient Egyptians developed stringed instruments, such as harps, lyres and lutes, which required making thin strings and some type of peg system for adjusting the pitch of the strings. Ancient Egyptians also used wind instruments such as double clarinets and percussion instruments such as cymbals.\n\nIn ancient Greece, instruments included the double-reed aulos and the lyre.\n\nNumerous instruments are referred to in the Bible, including the cornu, pipe, lyre, harp, and bagpipe. During Biblical times, the cornu, flute, horn, pipe organ, pipe, and trumpet were also used.\n\nDuring the Middle Ages, music notation was used to create a written record of the notes of plainchant melodies.\n\nDuring the Renaissance music era (c. 1400–1600), the printing press was invented, allowing for sheet music to be mass-produced (previously having been hand-copied). This helped to spread musical styles more quickly and across a larger area.\n\nDuring t",
+      "excerpt_offset": 105,
+      "total_chars": 45397,
+      "bm25": {
+        "q0": {
+          "rank": 4,
+          "score": 48.195
+        }
+      },
+      "best_rank": 4,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1474,
+      "cosine": 0.253603,
+      "rerank_logit": -5.652185,
+      "rerank_position": 6
+    },
+    {
+      "page_id": "35884130",
+      "revision_id": "1335222515",
+      "title": "Classical kemençe",
+      "url": "https://en.wikipedia.org/wiki/Classical_kemen%C3%A7e",
+      "excerpt": "The classical kemenche (Turkish: Klasik kemençe), Armudî kemençe ('pear-shaped kemenche') or Politiki lyra (Greek: πολίτικη λύρα, 'Constantinopolitan lyre') is a pear-shaped bowed instrument with three strings that derives from the medieval Greek Byzantine lyre.\n\nIt was mainly used by Greek immigrants from Asia Minor and in classical Ottoman music. The instrument was also used earlier for popular music, such as early \"Smyrna-Style\" rebetiko and continues to be played in the present day. It has become the main bowed instrument of Ottoman classical music since the mid 19th century.\n\nThe name kemençe derives from the Persian Kamancheh, and means merely \"small bow\".\n\nThe name lyra derives from the name of the ancient Greek lyre and was used in medieval times, see Byzantine lyra.\n\nIt is played in the downright position, by resting it between both knees or on one knee when sitting. It is always played \"braccio\", that is, with the tuning head uppermost. The instrument's bow is called either yay (in Turkish) or doksar (Greek: δοξάρι) in Greek.\n\nThe strings are stopped by touching them by the side with the nails, like for many folk fiddles from Southeastern Europe to the Indian sub-continen",
+      "excerpt_offset": 0,
+      "total_chars": 3330,
+      "bm25": {
+        "q0": {
+          "rank": 5,
+          "score": 45.6768
+        }
+      },
+      "best_rank": 5,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1467,
+      "cosine": 0.263058,
+      "rerank_logit": -5.874106,
+      "rerank_position": 9
+    },
+    {
+      "page_id": "81774",
+      "revision_id": "1351626993",
+      "title": "Lyre",
+      "url": "https://en.wikipedia.org/wiki/Lyre",
+      "excerpt": "The lyre (/ ˈ l aɪər /) (from Greek λύρα and Latin lyra) is a stringed musical instrument that is classified by Hornbostel–Sachs as a member of the lute family of instruments. In organology, a lyre is considered a yoke lute, since it is a lute in which the strings are attached to a yoke that lies in the same plane as the sound table, and consists of two arms and a crossbar.\n\nThe lyre has its origins in ancient history. Lyres were used in several ancient cultures surrounding the Mediterranean Sea. The earliest known examples of the lyre have been recovered at archeological sites that date to c. 2700 BC in Mesopotamia. The oldest lyres from the Fertile Crescent are known as the eastern lyres and are distinguished from other ancient lyres by their flat base. They have been found at archaeological sites in Egypt, Syria, Anatolia, and the Levant. In a discussion of the Nubian lyre, Carl Engel notes that modern Egyptians call it qytarah barbarîyeh, reflecting its association with the Barbaras (Berbers) —linked to the brbrta of ancient Egyptian references to Punt, a region identified with present-day Somalia, where the shareero lyre remains in use.\n\nThe round lyre or the Western lyre also",
+      "excerpt_offset": 0,
+      "total_chars": 18741,
+      "bm25": {
+        "q0": {
+          "rank": 6,
+          "score": 45.4692
+        }
+      },
+      "best_rank": 6,
+      "title_similarity": 0.0,
+      "context_overlap": 0.2069,
+      "cosine": 0.384447,
+      "rerank_logit": -4.881687,
+      "rerank_position": 1
+    },
+    {
+      "page_id": "79644973",
+      "revision_id": "1350056546",
+      "title": "Rotte (lyre)",
+      "url": "https://en.wikipedia.org/wiki/Rotte_(lyre)",
+      "excerpt": "See Rotte (psaltery) for the medieval psaltery, or Rote for the fiddle\n\nRotte or rotta is a historical name for the Germanic lyre, used in northwestern Europe in the early medieval period (circa 450 A.D.) into the 13th century. Differing from the lyres of the Mediterranean antiquity, Germanic lyres are characterised by a long, shallow and broadly rectangular shape, with a hollow soundbox curving at the base, and two hollow arms connected across the top by an integrated crossbar or ‘yoke’. From northwestern Europe—particularly from England and Germany—an ever-growing number of wooden lyres have been excavated from warrior graves of the first millennium A.D. The plucked variants declined in the medieval era (spreading less often in manuscripts in the 13th century), while bowed variants have survived into modern times.\n\nNon-Greek or Roman lyres were used in pre-Christian Europe as early as the 6th century B.C. by the Hallstatt culture, by Celtic peoples as early as the 1st century B.C., and separately by Germanic peoples. They were played in Anglo-Saxon England, and more widely, in Germanic regions of northwestern Europe. Their existence was recorded in the Scandinavian and Old-Englis",
+      "excerpt_offset": 0,
+      "total_chars": 30409,
+      "bm25": {
+        "q0": {
+          "rank": 7,
+          "score": 45.1696
+        }
+      },
+      "best_rank": 7,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1375,
+      "cosine": 0.271893,
+      "rerank_logit": -5.868855,
+      "rerank_position": 8
+    },
+    {
+      "page_id": "25891359",
+      "revision_id": "1346177565",
+      "title": "Synaulia",
+      "url": "https://en.wikipedia.org/wiki/Synaulia",
+      "excerpt": "archeologists, paleontologists and choreographers dedicated to the application of their historical research to ancient music and dance, in particular to the ancient Etruscan and Roman periods.\n\nThe name comes from the Ancient Greek \"συναυλία\" (sunaulía), which in ancient Rome referred to a group of instruments consisting mainly of wind instruments.\n\nThe group was founded and at first sponsored by the Rijksmuseum van Oudheden in Leiden, Netherlands in 1995 by Italian paleorganologist Walter Maioli and choreographer and anthropologist Natalie Van Ravenstein.\n\nIn the beginning the Synaulia's task was mainly educational: the reconstruction of ancient musical instruments for the Dutch archeological center, Archeon. Later the scope was widened to include a more profound study into Italy's music and dance focusing primarily on ancient Rome. The fruits of Synaulia's intensive study were used as material for films, serials and documentaries about ancient Rome (among them Gladiator by Ridley Scott and the television series Rome), the use of the instruments for scholastic purposes, as well as in the publication of numerous articles on the subject.\n\nIn the absence of a system of musical notati",
+      "excerpt_offset": 33,
+      "total_chars": 5571,
+      "bm25": {
+        "q0": {
+          "rank": 8,
+          "score": 44.383
+        }
+      },
+      "best_rank": 8,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1687,
+      "cosine": 0.192366,
+      "rerank_logit": -6.699315,
+      "rerank_position": 20
+    },
+    {
+      "page_id": "3203065",
+      "revision_id": "1305160122",
+      "title": "Kissar",
+      "url": "https://en.wikipedia.org/wiki/Kissar",
+      "excerpt": "The kissar (also spelled kissir), tanbour or gytarah barbaryeh is the traditional Nubian lyre, still in use in Egypt, Sudan, Eritrea and Ethiopia. It consists of a body having instead of the traditional tortoise -shell back, a shallow, round bowl of wood, covered with a soundboard of sheepskin, in which are two small round sound-holes. The arms, set through the soundboard at points distant about the third of the diameter from the circumference, have the familiar fan shape. Five gut strings, knotted round the bar and raised from the soundboard by means of a bridge tailpiece similar to that in use on the modern guitar, are plucked by means of a plectrum by the right hand for the melody, while the left hand sometimes twangs some of the strings as a soft drone accompaniment.\n\nThe kissar has been a popular instrument in northern Sudan in Nubian and Shaigiya music, but also among the Nuba and Beja people.",
+      "excerpt_offset": 0,
+      "total_chars": 912,
+      "bm25": {
+        "q0": {
+          "rank": 9,
+          "score": 43.971
+        }
+      },
+      "best_rank": 9,
+      "title_similarity": 0.0,
+      "context_overlap": 0.2027,
+      "cosine": 0.260207,
+      "rerank_logit": -6.354852,
+      "rerank_position": 16
+    },
+    {
+      "page_id": "27406894",
+      "revision_id": "1352340625",
+      "title": "Musical instrument",
+      "url": "https://en.wikipedia.org/wiki/Musical_instrument",
+      "excerpt": "A musical instrument is a device created or adapted to make musical sounds. In principle, any object that produces sound can be considered a musical instrument—it is through purpose that the object becomes a musical instrument. A person who plays a musical instrument is known as an instrumentalist.\n\nThe history of musical instruments dates to the beginnings of human culture. Early musical instruments may have been used for rituals, such as a horn to signal success on the hunt, or a drum in a religious ceremony. Cultures eventually developed composition and performance of melodies for entertainment. Musical instruments evolved in step with changing applications and technologies.\n\nThe exact date and specific origin of the first device considered a musical instrument, is widely disputed. The oldest object identified by scholars as a musical instrument, is a simple flute, dated back 50,000–60,000 years. Many scholars date early flutes to about 40,000 years ago. Many historians believe that determining the specific date of musical instrument invention is impossible, as the majority of early musical instruments were constructed of animal skins, bone, wood, and other non-durable, bio-degr",
+      "excerpt_offset": 0,
+      "total_chars": 43702,
+      "bm25": {
+        "q0": {
+          "rank": 10,
+          "score": 43.8169
+        }
+      },
+      "best_rank": 10,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1667,
+      "cosine": 0.252431,
+      "rerank_logit": -5.444184,
+      "rerank_position": 4
+    },
+    {
+      "page_id": "32323685",
+      "revision_id": "1347818359",
+      "title": "Greek musical instruments",
+      "url": "https://en.wikipedia.org/wiki/Greek_musical_instruments",
+      "excerpt": "Greek musical instruments were grouped under the general term \"all developments from the original construction of a tortoise shell with two branching horns, having also a cross piece to which the stringser from an original three to ten or even more in the later period, like the Byzantine era \". Greek musical instruments can be classified into the following categories:\n\nAulos\n\nBarbiton\n\nChelys\n\nCithara (or Kithara)\n\nCrotalum\n\nEpigonion\n\nHarp\n\nKanonaki\n\nKymbalon\n\nLyre\n\nPan flute (Syrinx)\n\nPandura\n\nPhorminx\n\nRhoptron\n\nSambuca\n\nSalpinx\n\nSistrum\n\nPsaltery\n\nTambourine\n\nTrigonon\n\nWater organ (Hydraulis)\n\nBaglamas\n\nByzantine lyra\n\nBouzouki\n\nCretan lyra\n\nCalabrian lira\n\nGuitar\n\nKanonaki\n\nMandolin\n\nMandola\n\nOudola\n\nOud\n\nPsaltery\n\nPolitiki lyra (Constantinople lyra)\n\nSantouri\n\nLaouto (big and small)\n\nLavta (Politiko laouto)\n\nOne stringed lyra (rare)\n\nMacedonian lyra\n\nPontian lyra\n\nViolin\n\nTzouras\n\nTambouras\n\nThaboura\n\nKarantouzeni\n\nBağlama\n\nAskomandoura\n\nAulos\n\nFloghera\n\nGaida\n\nKaramuza\n\nKlarino\n\nLalitsa\n\nMantura\n\nSouravli (Thiamboli)\n\nTsampouna\n\nZurna\n\nCochilia\n\nCrotala\n\nDaouli\n\nKoudounia\n\nToubeleki\n\nTrigono\n\nTympano\n\nZilia",
+      "excerpt_offset": 0,
+      "total_chars": 1131,
+      "bm25": {
+        "q0": {
+          "rank": 11,
+          "score": 43.804
+        }
+      },
+      "best_rank": 11,
+      "title_similarity": 0.0,
+      "context_overlap": 0.15,
+      "cosine": 0.345992,
+      "rerank_logit": -5.16074,
+      "rerank_position": 2
+    },
+    {
+      "page_id": "78064609",
+      "revision_id": "1334125573",
+      "title": "3rd millennium BC in music",
+      "url": "https://en.wikipedia.org/wiki/3rd_millennium_BC_in_music",
+      "excerpt": "3rd millennium BC in music - 2nd millennium BC in music - 1st millennium BC in music\n\nc. 3000 BC - The invention of the castanets in Early Dynastic Egypt.\n\nc. 2800 BC – The invention of the clapper, a basic form of percussion instrument, in Early Dynastic Egypt.\n\nc. 2800 BC - The invention of the harp and the lyre in Mesopotamia.\n\nc. 2686-2181 BC - The invention of the Sistrum, a musical instrument of the percussion family.\n\nc. 2600 BC – The creation of Standard of Ur which includes soundbox of a musical instrument\n\nc. 2550–2450 BC – The invention of the Bull Headed Lyre of Ur, string instrument used in Mesopotamia.\n\nc. 2550–2450 BC – The invention of the Lyres of Ur, a stringed musical instrument from the Early Dynastic III Period of Mesopotamia.\n\nc. 2500 BC - Around ninety royal servants—including soldiers, grooms, and female musicians—were buried alive in the tomb of a royal couple in Ur.\n\nc. 2500 BC - The invention of thin lyres in northern Syria.\n\nc. 2500 BC – The invention of thick lyres in Uruk and Susa.\n\nc. 2300 BC – The earliest known composer is born, Enheduanna, priestess of the moon god Nanna (Sīn).\n\nc. 2200 BC – A song was composed during the Old Kingdom of Egypt and s",
+      "excerpt_offset": 0,
+      "total_chars": 1229,
+      "bm25": {
+        "q0": {
+          "rank": 12,
+          "score": 43.2569
+        }
+      },
+      "best_rank": 12,
+      "title_similarity": 0.0,
+      "context_overlap": 0.2097,
+      "cosine": 0.283729,
+      "rerank_logit": -5.939747,
+      "rerank_position": 10
+    },
+    {
+      "page_id": "20127608",
+      "revision_id": "1337120727",
+      "title": "Kithara",
+      "url": "https://en.wikipedia.org/wiki/Kithara",
+      "excerpt": "The kithara (Greek: κιθάρα, romanized: kithára), Latinized as cithara, was an ancient Greek musical instrument in the yoke lutes family. It was a seven-stringed professional version of the lyre, which was regarded as a rustic, or folk instrument, appropriate for teaching music to beginners. As opposed to the simpler lyre, the cithara was primarily used by professional musicians, called kitharodes. In modern Greek, the word kithara has come to mean \" guitar \"; etymologically, the word guitar derives from kithara.\n\nThe cithara originated from Minoan - Mycenaean swan -neck lyres developed and used during the Aegean Bronze Age. Scholars such as M.L. West, Martha Maas, and Jane M. Snyder have made connections between the cithara and stringed instruments from ancient Anatolia.\n\nWhereas the basic lyra was widely used as a teaching instrument in boys’ schools, the cithara was a virtuoso's instrument and generally known as requiring a great deal of skill. The cithara was played primarily to accompany dance, epic recitations, rhapsodies, odes, and lyric songs. It was also played solo at the receptions, banquets, national games, and trials of skill. Aristotle said that these string instrument",
+      "excerpt_offset": 0,
+      "total_chars": 4285,
+      "bm25": {
+        "q0": {
+          "rank": 13,
+          "score": 41.9557
+        }
+      },
+      "best_rank": 13,
+      "title_similarity": 0.0,
+      "context_overlap": 0.2159,
+      "cosine": 0.334807,
+      "rerank_logit": -5.968895,
+      "rerank_position": 11
+    },
+    {
+      "page_id": "22148292",
+      "revision_id": "1324957468",
+      "title": "Lyres of Ur",
+      "url": "https://en.wikipedia.org/wiki/Lyres_of_Ur",
+      "excerpt": "The Lyres of Ur or Harps of Ur is a group of four string instruments excavated in a fragmentary condition at the Royal Cemetery at Ur in Iraq from 1922 onwards. They date back to the Early Dynastic III Period of Mesopotamia, between about 2550 and 2450 BC, making them the world's oldest surviving stringed instruments. Carefully restored and reconstructed, they are now divided between museums in Iraq, the United Kingdom, and the United States.\n\nStrictly speaking, three lyres and one harp were unearthed, but all are often called lyres. The instrument remains were restored and distributed between the museums that took part in the excavations. The \"Golden Lyre of Ur\" or \"Bull's Lyre\", the finest, is in the Iraq Museum in Baghdad. The British Museum in London has the \"Queen's Lyre\" and \"Silver Lyre\", and the Penn Museum in Philadelphia has the \" Bull-Headed Lyre \".\n\nIn 1929, archaeologists led by the British archaeologist Leonard Woolley, representing a joint expedition of the British Museum and the University of Pennsylvania Museum of Archaeology and Anthropology, found the instruments while excavating the Royal Cemetery at Ur. They excavated pieces of three lyres and one harp in Ur, l",
+      "excerpt_offset": 0,
+      "total_chars": 5002,
+      "bm25": {
+        "q0": {
+          "rank": 14,
+          "score": 40.6716
+        }
+      },
+      "best_rank": 14,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1667,
+      "cosine": 0.290617,
+      "rerank_logit": -6.206358,
+      "rerank_position": 13
+    },
+    {
+      "page_id": "4190460",
+      "revision_id": "1353132862",
+      "title": "Shahrud",
+      "url": "https://en.wikipedia.org/wiki/Shahrud",
+      "excerpt": "The Shahrud (Turkish: Şehrud, from Persian: شاهرود, DMG šāh-rūd or šāh-i-rūd) was a short-necked lute, illustrated in the Surname-i Hümayun, resembling an oud or barbat, but being much larger. The larger size gave the instrument added resonance and a deeper (bass) range, like the modern mandobass, mandolone or Algerian mandole.\n\nThe word also referred to a type of zither written about by Al Farabi and illustrated in his book Kitāb al-mūsīqī al kabīr. That illustration has led scholars to speculate the instrument was a box-zither, or a harp combined with a psaltery. The šāh-rūd was introduced to Samarkand in the early 10th century and spread to Middle Eastern Arabic music.\n\nAnother writer who referred to the instrument was Abd al-Qadir in his work Maqasid al-Alhan (Arabic for: purports of Music)(مقاصد الحان). al-Qadir was interested in the restoration and improvement of stringed musical instruments, and his work provides information about numerous musical instruments, including the shahrud.\n\nThe Persian word šāh-rūd is made up of šāh, \"king\" (shah) and rūd, which, like tār, contains the basic meaning \"string\". Rūd is a historical oriental lute instrument, while the long-necked lute ",
+      "excerpt_offset": 0,
+      "total_chars": 10271,
+      "bm25": {
+        "q0": {
+          "rank": 15,
+          "score": 40.087
+        }
+      },
+      "best_rank": 15,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1446,
+      "cosine": 0.17547,
+      "rerank_logit": -6.511235,
+      "rerank_position": 18
+    },
+    {
+      "page_id": "2626308",
+      "revision_id": "1343756057",
+      "title": "Kinnor",
+      "url": "https://en.wikipedia.org/wiki/Kinnor",
+      "excerpt": "Kinnor (Hebrew: כִּנּוֹר kīnnōr) is an ancient Israelite musical instrument in the yoke lutes family, the first one to be mentioned in the Hebrew Bible.\n\nIts exact identification is unclear, but in the modern day it is generally translated as \"harp\" or \"lyre\",: 440 and associated with a type of lyre depicted in Israelite imagery, particularly the Bar Kokhba coins.: 440 It has been referred to as the \"national instrument\" of the Jewish people, and modern luthiers have created reproduction lyres of the kinnor based on this imagery.\n\nThe word has subsequently come to mean violin in Modern Hebrew.\n\nThe kinnor is generally agreed to be a stringed instrument, and thus the stringed instrument most commonly mentioned in the Old Testament.: 440 The kinnor is also the first string instrument to be mentioned in the Bible, appearing in Genesis 4:21.\n\nJosephus describes the kinnor as having 10 strings, made from a sheep's small intestine,: 442 and played with a plectrum (pick),: 441 though the Book of Samuel notes that David played the kinnor \"with his hand\". The International Standard Bible Encyclopedia also notes that the early church fathers agreed the kithara (kinnor) had its resonator in t",
+      "excerpt_offset": 0,
+      "total_chars": 2170,
+      "bm25": {
+        "q0": {
+          "rank": 16,
+          "score": 39.7685
+        }
+      },
+      "best_rank": 16,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1781,
+      "cosine": 0.255165,
+      "rerank_logit": -6.406833,
+      "rerank_position": 17
+    },
+    {
+      "page_id": "27098269",
+      "revision_id": "1325885791",
+      "title": "Jubal (Bible)",
+      "url": "https://en.wikipedia.org/wiki/Jubal_(Bible)",
+      "excerpt": "Jubal (also Yuval, Yubal or Tubal; Hebrew: יוּבָל – Yūḇāl) is a biblical figure in Genesis 4:21 of the Hebrew Bible and Old Testament. Mentioned only once, he is sometimes regarded by Christians, particularly by medieval commentators, as the 'inventor of music'. A descendant of Cain, his father is Lamech and his brother is Jabal.\n\nJubal is known only from his appearance in Genesis 4:21 of the Hebrew Bible and Old Testament. The account describes him as a descendant of Cain and the son of Lamech and Adah. He is also a brother of Jabal, and half-brother of Tubal-cain and Naamah. Genesis credits him as the forefather of certain instruments: the kinnor (Hebrew: כנור) and ʿuḡāḇ (עוגב, a reed instrument, perhaps a flute). The translations of these vary depending on the edition:\n\n\"he was the ancestor of all those who play the lyre and pipe\" (NRSV)\n\n\"he was the father of all such as handle the harp and organ \" (KJV)\n\n\"he was the father of all who play stringed instruments and pipes\" (NIV)\n\nAccording to an unnamed Jewish source mentioned in al-Tabari 's 915 History of the Prophets and Kings, Jubal invented musical instruments during the time of Mahalalel.",
+      "excerpt_offset": 0,
+      "total_chars": 1164,
+      "bm25": {
+        "q0": {
+          "rank": 17,
+          "score": 39.6516
+        }
+      },
+      "best_rank": 17,
+      "title_similarity": 0.0,
+      "context_overlap": 0.2254,
+      "cosine": 0.243179,
+      "rerank_logit": -6.538428,
+      "rerank_position": 19
+    },
+    {
+      "page_id": "4066094",
+      "revision_id": "1272817909",
+      "title": "Tro (instrument)",
+      "url": "https://en.wikipedia.org/wiki/Tro_(instrument)",
+      "excerpt": "The tro (Khmer: ទ្រ) is Cambodia's traditional spike fiddle, a bowed string instrument that is held and played vertically. Spike fiddles have a handle that passes through the resonator, often forming a spike, on the bottom side where it emerges. The family is similar or distantly related to the Chinese erhu or huqin. The instruments have a soundbox at the bottom of the stick, covered with leather or snake skin. Strings run from pegs at the top of the stick and secured at the bottom, running across the soundbox. The larger the soundbox, the lower the pitch range. Instruments in this family include the two-stringed tro ou, tro sau thom, tro sau toch and tro che, as well as the three-stringed tro Khmer spike fiddle. The two-stringed tros are tuned in a fifth, while the three-stringed tro Khmer is tuned in fourths. The tros, with the exception of the tro Khmer, are strung so that the bowstring is permanently placed between the two stings. When the musician plays, the placement of the bow causes the strings to be played at once, one from below and one from above. In contrast, western fiddles (such as the violin) are played with the bow pushing on each string from the outside, as is also",
+      "excerpt_offset": 0,
+      "total_chars": 4888,
+      "bm25": {
+        "q0": {
+          "rank": 18,
+          "score": 39.6279
+        }
+      },
+      "best_rank": 18,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1351,
+      "cosine": 0.163627,
+      "rerank_logit": -6.289958,
+      "rerank_position": 15
+    },
+    {
+      "page_id": "11698449",
+      "revision_id": "1329905447",
+      "title": "Tanbūra (lyre)",
+      "url": "https://en.wikipedia.org/wiki/Tanb%C5%ABra_(lyre)",
+      "excerpt": "The tanbūra or \" Kissar \" is a bowl lyre of East Africa and the Middle East. Tanbūra traces its etymology to the Persian tanbur via the Arabic tunbur (طنبور), though this term refers to long-necked lutes. The instrument probably originated in Upper Egypt and the Sudan in Nubia and is used in the Fann At-Tanbura in the Persian Gulf Arab States. It also plays an important role in zār rituals.\n\nThe tanbūra is a member of a family of lyres which can be found, with variations, in many areas throughout East Africa: compare the Ugandan Endongo and Kenya Nyatiti. According to ethnomusicologist Christian Poché, the Sudanese style of lyre has been played throughout \" Egypt, Sudan, Djibouti, North Yemen, Southern Iraq and the Gulf States.\"\n\nIn Sudan, the tanbūra (or tanbur) The North Sudanese version is typically five-stringed with a larger size. They're decorated with beads, tassels, charms, cowrie shells, plastic fruit, and small mirrors. The tanbur player is called a sanjak, and plays it by holding it with his left hand, aided by the support of a strap. The fingers (and in the case of six-stringed versions, palm) of the left hand rest on the strings from behind. The right holds a plectrum ",
+      "excerpt_offset": 0,
+      "total_chars": 1498,
+      "bm25": {
+        "q0": {
+          "rank": 19,
+          "score": 39.474
+        }
+      },
+      "best_rank": 19,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1368,
+      "cosine": 0.274084,
+      "rerank_logit": -6.168043,
+      "rerank_position": 12
+    },
+    {
+      "page_id": "60481018",
+      "revision_id": "1345152854",
+      "title": "Hittite music",
+      "url": "https://en.wikipedia.org/wiki/Hittite_music",
+      "excerpt": "s the music of the Hittites of the 17th–12th century BC and of the Syro-Hittite successor states of the 12th–7th century BC.\n\nUnderstanding of Hittite music is based on archaeological finds and literary source material. Hittite texts mainly describe the use of music in religious contexts. The basic musical elements were instrumental music and singing, as well as shouting and other noises, like clapping. Because of the small amount of evidence, Hittite music is poorly understood compared to Mesopotamian and Egyptian music of the same period.\n\nThe inhabitants of the Hittite empire did not belong to a single ethnicity. The north, up to the Black Sea, was inhabited by the Hatti, which had a large influence on Hittite culture. Their language, Hattian, was regularly used in Hittite religious rituals. The Luwians, who were closely related to the Hittites, lived in southern Anatolia, and it seems that the horn played a particularly important role in their religious rituals. Several song introductions in the Luwian language are transmitted in Hittite texts. Influence from the Hurrians who lived to the east of the Hittites only came relatively late. In the later period of the Hittite empire,",
+      "excerpt_offset": 15,
+      "total_chars": 15673,
+      "bm25": {
+        "q0": {
+          "rank": 20,
+          "score": 39.1149
+        }
+      },
+      "best_rank": 20,
+      "title_similarity": 0.0,
+      "context_overlap": 0.175,
+      "cosine": 0.183382,
+      "rerank_logit": -6.273243,
+      "rerank_position": 14
+    }
+  ]
+}

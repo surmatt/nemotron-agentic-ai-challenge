@@ -1,0 +1,93 @@
+{
+  "variant": "crop_nothink",
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:611",
+  "block_index": 6,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T12:21:19+00:00",
+  "elapsed_seconds": 1.36,
+  "finish_reason": "stop",
+  "parse_text": "be, draw km (fig. 20) perpendicular to bF, and the Reflines parallel eq infinitely mean it. The part bn of the fluid contained in the canal hngm would inflation force prefix. find out towards, or from a recorded. Therefore face the fluid in this figure can cancel should be in equilibrio, them and also le forms sellon, as leaf in one of the part bm, n,e, q or to counterbalance the chin on the past bm. But the fluid is important in the space FAM (in consequence of the law so continuity). Therethere is no force which can add on bm, w, q, qy, and the prefiner in the canal in the direction bn or w is nothing, or the force bm, and the force te is perpendicular to the men, and there is therefore no prefiner in the canal FM, except what proceeds from part y F from the force e/, which hit being perpendicular to the canal, there can be no force exerted on the point M, but what is propagated from the part y P.",
+  "corrected_text": "be, draw bm (fig. 20.) perpendicular to bF, and the parallel nq infinitely near it. The part bn of the fluid contained in the canal bnqm would fulain some preffure from b towards n, or from n towards b. Therefore fince the fluid in this flagrant canal fhould be in equilibrio, there muft alfo be fome action, at leaft in one of the parts bm, mq, qn, to counterbalance the action on the part bn. But the fluid is flagrant in the space FAM (in confequence of the law of continuity). Therefore there is no force which can act on bm, mq, qn; and the preffure in the canal in the direction bn or nb is nothing, or the force b=o, and the force ie is perpendicular to the canal; and there is therefore no preffure in the canal FM, except what proceeds from the part y F, or from the force ei; which laft being perpendicular to the canal, there can be no force exerted on the point M, but what is propagated from the part y F.",
+  "reasoning_tokens": 0,
+  "usage": {
+    "completion_tokens": 248,
+    "prompt_tokens": 803,
+    "total_tokens": 1051,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 398
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 3000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows this region of the page. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\nbe, draw km (fig. 20) perpendicular to bF, and the Reflines parallel eq infinitely mean it. The part bn of the fluid contained in the canal hngm would inflation force prefix. find out towards, or from a recorded. Therefore face the fluid in this figure can cancel should be in equilibrio, them and also le forms sellon, as leaf in one of the part bm, n,e, q or to counterbalance the chin on the past bm. But the fluid is important in the space FAM (in consequence of the law so continuity). Therethere is no force which can add on bm, w, q, qy, and the prefiner in the canal in the direction bn or w is nothing, or the force bm, and the force te is perpendicular to the men, and there is therefore no prefiner in the canal FM, except what proceeds from part y F from the force e/, which hit being perpendicular to the canal, there can be no force exerted on the point M, but what is propagated from the part y P.",
+  "response": {
+    "id": "chatcmpl-bb88419adb5df76c",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "be, draw bm (fig. 20.) perpendicular to bF, and the parallel nq infinitely near it. The part bn of the fluid contained in the canal bnqm would fulain some preffure from b towards n, or from n towards b. Therefore fince the fluid in this flagrant canal fhould be in equilibrio, there muft alfo be fome action, at leaft in one of the parts bm, mq, qn, to counterbalance the action on the part bn. But the fluid is flagrant in the space FAM (in confequence of the law of continuity). Therefore there is no force which can act on bm, mq, qn; and the preffure in the canal in the direction bn or nb is nothing, or the force b=o, and the force ie is perpendicular to the canal; and there is therefore no preffure in the canal FM, except what proceeds from the part y F, or from the force ei; which laft being perpendicular to the canal, there can be no force exerted on the point M, but what is propagated from the part y F.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792326079,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 248,
+      "prompt_tokens": 803,
+      "total_tokens": 1051,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 398
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

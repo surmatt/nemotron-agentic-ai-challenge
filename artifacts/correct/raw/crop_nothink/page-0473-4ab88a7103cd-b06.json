@@ -1,0 +1,93 @@
+{
+  "variant": "crop_nothink",
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:473",
+  "block_index": 6,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T12:20:43+00:00",
+  "elapsed_seconds": 1.55,
+  "finish_reason": "stop",
+  "parse_text": "When an unburnt fluef of this description was im-mected in diluted nitric oxide, a rapid foliation and effir-vicosecond took place, and at the end of two days the whole of the carbonate of lime was nearly diffused. A feries of means now only remnants, of which the epidemics constituted the full. These membranes fill retained the figure of the shell. The carbonate of lime was a flat readily diffused, because the acid came easily to contain with it; but the proceeds became flower, as it was more difficult for the acid to indicate itself between the different membranes of which the shell is compelled. The halted iris, and the turbo olearies, were found to rethable this muffel, except that the membranaceous parts were more compact and dendric.",
+  "corrected_text": "When an unburnt shell of this description was immersed in diluted nitric acid, a rapid solution and effervescence took place; and at the end of two days, the whole of the carbonate of lime was nearly dissolved. A series of membranes now only remained, of which the epidermis constituted the first. These membranes still retained the figure of the shell. The carbonate of lime was at first readily dissolved, because the acid came easily in contact with it; but the process became slower, as it was more difficult for the acid to insinuate itself between the different membranes of which the shell is composed. The haliotis iris, and the turbo olearius, were found to resemble this muffel, except that the membranaceous parts were more compact and dense.",
+  "reasoning_tokens": 0,
+  "usage": {
+    "completion_tokens": 155,
+    "prompt_tokens": 725,
+    "total_tokens": 880,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 386
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 3000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows this region of the page. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\nWhen an unburnt fluef of this description was im-mected in diluted nitric oxide, a rapid foliation and effir-vicosecond took place, and at the end of two days the whole of the carbonate of lime was nearly diffused. A feries of means now only remnants, of which the epidemics constituted the full. These membranes fill retained the figure of the shell. The carbonate of lime was a flat readily diffused, because the acid came easily to contain with it; but the proceeds became flower, as it was more difficult for the acid to indicate itself between the different membranes of which the shell is compelled. The halted iris, and the turbo olearies, were found to rethable this muffel, except that the membranaceous parts were more compact and dendric.",
+  "response": {
+    "id": "chatcmpl-b88667022979c1f3",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "When an unburnt shell of this description was immersed in diluted nitric acid, a rapid solution and effervescence took place; and at the end of two days, the whole of the carbonate of lime was nearly dissolved. A series of membranes now only remained, of which the epidermis constituted the first. These membranes still retained the figure of the shell. The carbonate of lime was at first readily dissolved, because the acid came easily in contact with it; but the process became slower, as it was more difficult for the acid to insinuate itself between the different membranes of which the shell is composed. The haliotis iris, and the turbo olearius, were found to resemble this muffel, except that the membranaceous parts were more compact and dense.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792326044,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 155,
+      "prompt_tokens": 725,
+      "total_tokens": 880,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 386
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

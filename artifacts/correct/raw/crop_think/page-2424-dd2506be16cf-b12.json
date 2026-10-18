@@ -1,0 +1,90 @@
+{
+  "variant": "crop_think",
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2424",
+  "block_index": 12,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T12:17:08+00:00",
+  "elapsed_seconds": 4.7,
+  "finish_reason": "stop",
+  "parse_text": "owner, and his skill in so managing the commissariat, as to LiveStock. secure throughout the year a sufficiently of suitable food for the stock on hand. Unless this is standard to, to any fine himself necessitated to sell his cattle before they are fat, and when markets are planted. Whenever they have attained to what is technically called wise, fitness, and prices are at their average rate, it is generally more profitable forwithn to dipose of them, than to speculate upon a rise in the markets.",
+  "corrected_text": "owner, and his skill in so managing the commissariat, as to secure throughout the year a sufficiency of suitable food for the stock on hand. Unless this is attended to, he may find himself necessitated to sell his cattle before they are fat, and when markets are glutted. Whenever they have attained to what is technically called ripe fatness, and prices are at their average rate, it is generally more profitable forthwith to dispose of them, than to speculate upon a rise in the markets.",
+  "reasoning_tokens": 1460,
+  "usage": {
+    "completion_tokens": 1564,
+    "prompt_tokens": 558,
+    "total_tokens": 2122,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 1460,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 277
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 12000,
+    "temperature": 0
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows this region of the page. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\nowner, and his skill in so managing the commissariat, as to LiveStock. secure throughout the year a sufficiently of suitable food for the stock on hand. Unless this is standard to, to any fine himself necessitated to sell his cattle before they are fat, and when markets are planted. Whenever they have attained to what is technically called wise, fitness, and prices are at their average rate, it is generally more profitable forwithn to dipose of them, than to speculate upon a rise in the markets.",
+  "response": {
+    "id": "chatcmpl-8d8920eb64434d11",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "owner, and his skill in so managing the commissariat, as to secure throughout the year a sufficiency of suitable food for the stock on hand. Unless this is attended to, he may find himself necessitated to sell his cattle before they are fat, and when markets are glutted. Whenever they have attained to what is technically called ripe fatness, and prices are at their average rate, it is generally more profitable forthwith to dispose of them, than to speculate upon a rise in the markets.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": "The user wants me to correct the OCR text based on the provided image.\n\n**1. Analyze the Image:**\nThe image shows a paragraph of text from an old book (18th/19th century style font, likely using long 's' which looks like 'f').\nThe text reads:\n\"owner, and his skill in so managing the commissariat, as to secure throughout the year a sufficiency of suitable food for the stock on hand. Unless this is attended to, he may find himself necessitated to sell his cattle before they are fat, and when markets are glutted. Whenever they have attained to what is technically called ripe fatness, and prices are at their average rate, it is generally more profitable forthwith to dispose of them, than to speculate upon a rise in the markets.\"\n\n**2. Analyze the OCR text provided:**\n\"owner, and his skill in so managing the commissariat, as to LiveStock. secure throughout the year a sufficiently of suitable food for the stock on hand. Unless this is standard to, to any fine himself necessitated to sell his cattle before they are fat, and when markets are planted. Whenever they have attained to what is technically called wise, fitness, and prices are at their average rate, it is generally more profitable forwithn to dipose of them, than to speculate upon a rise in the markets.\"\n\n**3. Compare and Correct:**\n- OCR: \"LiveStock.\" -> Image: \"secure\" (Wait, looking closely at the image, the line break is \"as to / secure\". The OCR inserted \"LiveStock.\" which is likely a header or artifact from elsewhere, but looking at the image, the text flows \"as to secure\". Wait, let me look at the very top right of the image. There is a fragment \"as to L\". No, looking at the full crop, the first line ends with \"as to\". The second line starts with \"secure\". The OCR text has \"LiveStock.\" inserted. I need to follow the image text.\n- Image text line 1: \"owner, and his skill in so managing the commissariat, as to\"\n- Image text line 2: \"secure throughout the year a sufficiency of suitable food for\"\n- Image text line 3: \"the stock on hand. Unless this is attended to, he may find\"\n- Image text line 4: \"himself necessitated to sell his cattle before they are fat, and\"\n- Image text line 5: \"when markets are glutted. Whenever they have attained\"\n- Image text line 6: \"to what is technically called ripe fatness, and prices are at\"\n- Image text line 7: \"their average rate, it is generally more profitable forthwith\"\n- Image text line 8: \"to dispose of them, than to speculate upon a rise in the\"\n- Image text line 9: \"markets.\"\n\n**4. Specific Corrections:**\n- \"LiveStock.\" is not in the main text block. It looks like a running head or margin note that got mixed in. The rule says \"Leave out page headers, page numbers, catchwords, and margin notes.\" So I will omit \"LiveStock.\"\n- \"sufficiently\" -> \"sufficiency\"\n- \"standard to, to any fine himself\" -> \"attended to, he may find himself\"\n- \"planted\" -> \"glutted\"\n- \"wise, fitness\" -> \"ripe fatness\" (The image shows \"ripe fatness\" in italics).\n- \"forwithn\" -> \"forthwith\"\n- \"dipose\" -> \"dispose\"\n\n**5. Formatting:**\n- Join word split by line-break hyphen? There are no hyphens splitting words in the visible text that need joining, except maybe implicit line breaks. The text flows continuously.\n- Long s as 's': The image uses long s (ſ). I need to transcribe it as 's'. For example, \"commissariat\" has an 's'. \"sufficiency\" has 's'. \"stock\" has 's'. \"Unless\" has 's'. \"himself\" has 's'. \"necessitated\" has 's'. \"sell\" has 's'. \"cattle\" (no s). \"markets\" has 's'. \"glutted\" (no s). \"Whenever\" has 's'. \"attained\" (no s). \"technically\" (no s). \"called\" (no s). \"ripe\" (no s). \"fatness\" has 's'. \"prices\" has 's'. \"average\" (no s). \"rate\" (no s). \"generally\" (no s). \"profitable\" (no s). \"forthwith\" (no s). \"dispose\" has 's'. \"them\" (no s). \"than\" (no s). \"speculate\" (no s). \"upon\" (no s). \"rise\" has 's'. \"markets\" has 's'.\n\nLet's assemble the text.\n\n\"owner, and his skill in so managing the commissariat, as to secure throughout the year a sufficiency of suitable food for the stock on hand. Unless this is attended to, he may find himself necessitated to sell his cattle before they are fat, and when markets are glutted. Whenever they have attained to what is technically called ripe fatness, and prices are at their average rate, it is generally more profitable forthwith to dispose of them, than to speculate upon a rise in the markets.\"\n\nDouble check against image details.\n- \"commissariat\": visible.\n- \"sufficiency\": visible.\n- \"attended to\": visible.\n- \"he may find\": visible.\n- \"glutted\": visible.\n- \"ripe fatness\": visible (italicized).\n- \"forthwith\": visible.\n- \"dispose\": visible.\n\nThe OCR text had \"LiveStock.\" inserted. I will remove it.\nThe OCR text had \"standard to, to any fine himself\". Image: \"attended to, he may find himself\".\nThe OCR text had \"markets are planted\". Image: \"markets are glutted\".\nThe OCR text had \"wise, fitness\". Image: \"ripe fatness\".\nThe OCR text had \"forwithn\". Image: \"forthwith\".\nThe OCR text had \"dipose\". Image: \"dispose\".\n\nFinal check of the text flow.\n\"owner, and his skill in so managing the commissariat, as to secure throughout the year a sufficiency of suitable food for the stock on hand. Unless this is attended to, he may find himself necessitated to sell his cattle before they are fat, and when markets are glutted. Whenever they have attained to what is technically called ripe fatness, and prices are at their average rate, it is generally more profitable forthwith to dispose of them, than to speculate upon a rise in the markets.\"\n\nLooks correct."
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792325828,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 1564,
+      "prompt_tokens": 558,
+      "total_tokens": 2122,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 1460,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 277
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

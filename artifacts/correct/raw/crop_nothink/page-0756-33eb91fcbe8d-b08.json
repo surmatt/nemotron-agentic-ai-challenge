@@ -1,0 +1,93 @@
+{
+  "variant": "crop_nothink",
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:756",
+  "block_index": 8,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T12:21:30+00:00",
+  "elapsed_seconds": 1.77,
+  "finish_reason": "stop",
+  "parse_text": "Such one of iron as are fulcypible of magnetifi,\nare nearly like hard feel in their effects you that in\nthe time necessary for their _properlift_ impregnation, and\nin the durability of the acquired magnifine. They\neffic exceedingly in respect to the degree of power\nwhich they can attain by mere juxtaption, and the\nvirieties form to depend on heterogeneous mixture.\nWe emit offriever, thus far once of our ones of influence of\nof magnetism of the metal in the fate of my way, and com-\nbred with dolphins, are not magnentable while remain-\ning in that there. Mott core require reading, and a fort\nof cementation, in contact with inflammable fuhlances.\nThis matter is not underdefended, but it would form\nthat complex metallization is far from being the north to\nvotrale condition, and that a certain degree of oxyda-\ntion, and perhaps some other positive yet unknown,\nmake the her lautiness. Our all this is extremely\noblicure. The late Dr Cowin Knight made a compolio-\ntion which required every phono and permanent mag-\nseting, but the recent died with him. Dr Gilbert\npeaks of limilat compositions, in which ferruginous\ndays were ingredients ; but we know nothing of the fate\nof the metal in them, nor their mode of acquiring mag-\nretin.",
+  "corrected_text": "Such ores of iron as are susceptible of magnetism, are nearly like hard steel in their effects; that is, in the time necessary for their great impregnation, and in the durability of the acquired magnetism. They differ exceedingly in respect to the degree of power which they can attain by mere juxtaposition, and the varieties seem to depend on heterogeneous mixture. We must observe, that few ores of iron are susceptible of magnetism in their natural state. The ordinary ores, consisting of the metal in the state of an oxyd, and combined with sulphur, are not magnetizable while remaining in that state. Most ores require roasting, and a sort of cementation, in contact with inflammable substances. This matter is not well understood; but it would seem that complete metallization is far from being the most favourable condition, and that a certain degree of oxidation, and perhaps some other composition, yet unknown, make the best loadstones. But all this is extremely obscure. The late Dr Gowin Knight made a composition which acquired a very strong and permanent magnetism, but the secret died with him. Dr Gilbert speaks of similar compositions, in which ferruginous clays were ingredients; but we know nothing of the state of the metal in them, nor their mode of acquiring magnetism.",
+  "reasoning_tokens": 0,
+  "usage": {
+    "completion_tokens": 269,
+    "prompt_tokens": 1129,
+    "total_tokens": 1398,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 650
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 3000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows this region of the page. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\nSuch one of iron as are fulcypible of magnetifi,\nare nearly like hard feel in their effects you that in\nthe time necessary for their _properlift_ impregnation, and\nin the durability of the acquired magnifine. They\neffic exceedingly in respect to the degree of power\nwhich they can attain by mere juxtaption, and the\nvirieties form to depend on heterogeneous mixture.\nWe emit offriever, thus far once of our ones of influence of\nof magnetism of the metal in the fate of my way, and com-\nbred with dolphins, are not magnentable while remain-\ning in that there. Mott core require reading, and a fort\nof cementation, in contact with inflammable fuhlances.\nThis matter is not underdefended, but it would form\nthat complex metallization is far from being the north to\nvotrale condition, and that a certain degree of oxyda-\ntion, and perhaps some other positive yet unknown,\nmake the her lautiness. Our all this is extremely\noblicure. The late Dr Cowin Knight made a compolio-\ntion which required every phono and permanent mag-\nseting, but the recent died with him. Dr Gilbert\npeaks of limilat compositions, in which ferruginous\ndays were ingredients ; but we know nothing of the fate\nof the metal in them, nor their mode of acquiring mag-\nretin.",
+  "response": {
+    "id": "chatcmpl-ae5e7810a3c1cf42",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "Such ores of iron as are susceptible of magnetism, are nearly like hard steel in their effects; that is, in the time necessary for their great impregnation, and in the durability of the acquired magnetism. They differ exceedingly in respect to the degree of power which they can attain by mere juxtaposition, and the varieties seem to depend on heterogeneous mixture. We must observe, that few ores of iron are susceptible of magnetism in their natural state. The ordinary ores, consisting of the metal in the state of an oxyd, and combined with sulphur, are not magnetizable while remaining in that state. Most ores require roasting, and a sort of cementation, in contact with inflammable substances. This matter is not well understood; but it would seem that complete metallization is far from being the most favourable condition, and that a certain degree of oxidation, and perhaps some other composition, yet unknown, make the best loadstones. But all this is extremely obscure. The late Dr Gowin Knight made a composition which acquired a very strong and permanent magnetism, but the secret died with him. Dr Gilbert speaks of similar compositions, in which ferruginous clays were ingredients; but we know nothing of the state of the metal in them, nor their mode of acquiring magnetism.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792326091,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 269,
+      "prompt_tokens": 1129,
+      "total_tokens": 1398,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 650
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

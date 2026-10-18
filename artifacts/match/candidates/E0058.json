@@ -1,0 +1,717 @@
+{
+  "entry_id": "E0058",
+  "headword": "THRACE",
+  "entry_text_sha256": "71d76e0597e7db36d248947d5c0c8c925c238321ab6eb26b8857a754a5848c73",
+  "mode": "model",
+  "queries": [
+    "thrace",
+    "thrace macedonia name country part aegean rumelia ancient europe forming european turkey"
+  ],
+  "query_chars": 822,
+  "headword_variant": null,
+  "candidate_count": 32,
+  "list_pages_removed_after_fetch": [],
+  "decision": {
+    "status": "accepted",
+    "method": "nemotron_embed_rerank",
+    "thresholds": {
+      "rerank_logit": -10.0,
+      "margin": 0.5,
+      "cosine": 0.15,
+      "title_similarity": 0.0
+    },
+    "page_id": "36857",
+    "title": "Thrace",
+    "rerank_logit": 1.95433,
+    "cosine": 0.679716,
+    "margin_to_next": 2.251165,
+    "title_similarity": 1.0
+  },
+  "article": {
+    "page_id": "36857",
+    "revision_id": "1353074612",
+    "title": "Thrace",
+    "url": "https://en.wikipedia.org/wiki/Thrace",
+    "revision_url": "https://en.wikipedia.org/w/index.php?oldid=1353074612",
+    "text_sha256": "2d86d120168f31457b943b48224d7c011830af4ec5057013c5b551e4ef62aba9",
+    "chars": 12066
+  },
+  "candidates": [
+    {
+      "page_id": "296425",
+      "revision_id": "1344839852",
+      "title": "Rumelia",
+      "url": "https://en.wikipedia.org/wiki/Rumelia",
+      "excerpt": "Rumelia (Ottoman Turkish: روم ايلى, romanized: Rum İli, lit. ' Land of the Romans '; Turkish: Rumeli; Greek: Ρωμυλία) was a historical region in Southeastern Europe that was administered by the Ottoman Empire, roughly corresponding to the Balkans. In its wider sense, it was used to refer to all Ottoman possessions and vassals in Europe. These would later be geopolitically classified as \"the Balkans\", although Hungary and Moldova are sometimes excluded. In contemporary English sources, Rumelia was known as Turkey in Europe.\n\nIn this context, Rûm means “Romans” and ėli means “land”, hence Rumelia (Ottoman Turkish: روم ايلى, Rūm-ėli; Turkish: Rumeli) literally “Land of the Romans” in Ottoman Turkish. The term referred to territories of the Ottoman Empire in Europe that had formerly belonged to the Byzantine Empire (the empire known to its own rulers and subjects as the Roman Empire), whose citizens styled themselves Rhomaioi (“Romans”). Although Greek became the predominant administrative and liturgical language, the empire was multiethnic and its Roman identity was civic and imperial rather than purely linguistic or ethnic.\n\nIn medieval Islamic and Ottoman usage, Rûm denoted the land",
+      "excerpt_offset": 0,
+      "total_chars": 4456,
+      "bm25": {
+        "q1": {
+          "rank": 1,
+          "score": 59.0895
+        }
+      },
+      "best_rank": 1,
+      "title_similarity": 0.3077,
+      "context_overlap": 0.1389,
+      "cosine": 0.433603,
+      "rerank_logit": -2.920828,
+      "rerank_position": 19
+    },
+    {
+      "page_id": "7500007",
+      "revision_id": "1353065866",
+      "title": "East Thrace",
+      "url": "https://en.wikipedia.org/wiki/East_Thrace",
+      "excerpt": "East Thrace or Eastern Thrace, also known as Turkish Thrace or European Turkey, is the part of Turkey that is geographically in Southeast Europe. Turkish Thrace accounts for 3.03% of Turkey's land area and 15% of its population. The largest city is Istanbul, which straddles the Bosporus between Europe and Asia. East Thrace is of historic importance as it is next to a major sea trade corridor and constitutes what remains of the once-vast Ottoman region of Rumelia. It is currently also of specific geostrategic importance because the sea corridor, which includes two narrow straits, provides access to the Mediterranean Sea from the Black Sea for the navies of five countries: Russia, Ukraine, Romania, Bulgaria, and Georgia. The region also serves as a future connector of existing Turkish, Bulgarian, and Greek high-speed rail networks.Due to the guest worker agreement with Turkey and Germany, some Turks in Germany originally come from Eastern Thrace, mostly from the Kırklareli Province.\n\nEast Thrace sometimes refers to the eastern part of the historical region of Thrace. It is also used for the part of Thrace that is inside Turkey. The area includes all the territories of the Turkish pro",
+      "excerpt_offset": 0,
+      "total_chars": 6087,
+      "bm25": {
+        "q1": {
+          "rank": 2,
+          "score": 56.5866
+        }
+      },
+      "best_rank": 2,
+      "title_similarity": 0.7059,
+      "context_overlap": 0.1375,
+      "cosine": 0.444308,
+      "rerank_logit": -1.159232,
+      "rerank_position": 4
+    },
+    {
+      "page_id": "36857",
+      "revision_id": "1353074612",
+      "title": "Thrace",
+      "url": "https://en.wikipedia.org/wiki/Thrace",
+      "excerpt": "Thrace (/ θ r eɪ s /, thrayss) is a geographical and historical region in Southeast Europe roughly corresponding to the province of Thrace in the Roman Empire. Bounded by the Balkan Mountains to the north, the Aegean Sea to the south, and the Black Sea to the east, it comprises present-day southeastern Bulgaria (Northern Thrace), northeastern Greece (Western Thrace), and the European part of Turkey (East Thrace). Lands also inhabited by ancient Thracians extended in the north to modern-day Northern Bulgaria and Romania and to the west into Macedonia.\n\nThe word Thrace, from ancient Greek Thrake (Θρᾴκη), referred originally to the Thracians (ancient Greek Thrâikes Θρᾷκες), an ancient people inhabiting Southeast Europe. The name Europe (ancient Greek Eurṓpē Εὐρώπη), also at first referred to this region, before that term expanded to include its modern sense.\n\nSixth century geographer Stephanus of Byzantium claimed that, long before the ancient Greeks started referring to the region as Thrace, it was known as Aria (Aría Ἀρία) and Perke (Pérkē Πέρκη).\n\nIn Turkish, Thrace is commonly referred to as Rumeli, meaning \"Land of the Romans\", which was the name traditionally given by Turkic soc",
+      "excerpt_offset": 0,
+      "total_chars": 12066,
+      "bm25": {
+        "q0": {
+          "rank": 3,
+          "score": 15.4309
+        },
+        "q1": {
+          "rank": 3,
+          "score": 52.4188
+        }
+      },
+      "best_rank": 3,
+      "title_similarity": 1.0,
+      "context_overlap": 0.2375,
+      "cosine": 0.679716,
+      "rerank_logit": 1.95433,
+      "rerank_position": 1
+    },
+    {
+      "page_id": "4095274",
+      "revision_id": "1275968108",
+      "title": "Northern Thrace",
+      "url": "https://en.wikipedia.org/wiki/Northern_Thrace",
+      "excerpt": "Northern Thrace or North Thrace (Bulgarian: Северна Тракия, Severna Trakiya; Turkish: Kuzey Trakya; Greek: Βόρεια Θράκη), also called Bulgarian Thrace, constitutes the northern and largest part of the historical region of Thrace. It is located in Southern Bulgaria and includes the territory south of the Balkan Mountains and east of the Mesta River, bordering Western Thrace and East Thrace in the south, and the Black Sea in the east. It encompasses Sredna Gora, the Upper Thracian Plain, and 90% of the Rhodopes.\n\nThe climate ranges from subtropical to transitional continental and mountainous. The highest temperature recorded in Bulgaria occurred here: it was 45.2 °C (113.4 °F; 318.3 K) at Sadovo in 1916. The main rivers of the region are the Maritsa and its tributaries. Notable cities include Plovdiv, Burgas, Stara Zagora, Sliven, Haskovo, Yambol, Pazardzhik, Asenovgrad, Kardzhali, Dimitrovgrad, Kazanlak and Smolyan. Northern Thrace has an area of 42,073 km 2.\n\nThe Ottoman Empire created the autonomous province of the newly-named Eastern Rumelia in Northern Thrace in 1878. The region was annexed by the Principality of Bulgaria in 1885.\n\nThe ethnic composition of the population of Eas",
+      "excerpt_offset": 0,
+      "total_chars": 1371,
+      "bm25": {
+        "q0": {
+          "rank": 4,
+          "score": 15.4175
+        }
+      },
+      "best_rank": 4,
+      "title_similarity": 0.5714,
+      "context_overlap": 0.0952,
+      "cosine": 0.42871,
+      "rerank_logit": -1.414081,
+      "rerank_position": 5
+    },
+    {
+      "page_id": "873900",
+      "revision_id": "1353642939",
+      "title": "Western Thrace",
+      "url": "https://en.wikipedia.org/wiki/Western_Thrace",
+      "excerpt": "Western Thrace (Greek: Δυτική Θράκη, IPA:), also known as Greek Thrace or Aegean Thrace, is a geographic and historical region of Greece, between the Thracian Sea and the Nestos and Evros rivers in the northeast of the country. Greek Thrace constitutes the western part of the wider geographical region of Thrace; east of the river Evros, the European part of Turkey constitutes Eastern Thrace, while to the north most of southern Bulgaria constitutes Northern Thrace. Greek Thrace is divided into three regional units (former prefectures): Xanthi, Rhodope and Evros, which together with the Macedonian regional units of Drama, Kavala and Thasos form the region of Eastern Macedonia and Thrace. The largest city of the region is Alexandroupolis.\n\nInhabited since Paleolithic times, it has been under the political, cultural and linguistic influence of the Greek world since the classical era. Under the Byzantine Empire, Western Thrace was part of the theme of Thrace and then of Macedonia and benefited from its position close to the imperial heartland and became a center of medieval Greek commerce and culture; later, under the Ottoman Empire, a number of Muslims settled there, marking the birth ",
+      "excerpt_offset": 0,
+      "total_chars": 13717,
+      "bm25": {
+        "q1": {
+          "rank": 5,
+          "score": 51.8631
+        }
+      },
+      "best_rank": 5,
+      "title_similarity": 0.6,
+      "context_overlap": 0.1948,
+      "cosine": 0.48411,
+      "rerank_logit": -0.576691,
+      "rerank_position": 3
+    },
+    {
+      "page_id": "5081318",
+      "revision_id": "1353674478",
+      "title": "Macedonia (terminology)",
+      "url": "https://en.wikipedia.org/wiki/Macedonia_(terminology)",
+      "excerpt": "The name Macedonia is used in a number of competing or overlapping meanings to describe geographical, political and historical areas, languages and peoples in a part of south-eastern Europe. It has been a major source of political controversy since the early 20th century. The situation is complicated because different ethnic groups use different terminology for the same entity, or the same terminology for different entities, with different political connotations.\n\nMacedon: Approximate borders of the ancient kingdom c. 360 BC, before expansion under Philip II, according to archaeological findings and historic references.\n\nRoman province: Macedonia occupied areas outside the contemporary geographical area to the West (approximate borders of maximum extent). There was also a later diocese of Macedonia.\n\nByzantine province: Theme of Macedonia excluded North Macedonia, Western Macedonia and most of Central Macedonia, and occupied only the Eastern part of the contemporary Greek Macedonia (approximate borders).\n\nOttoman period: Macedonia did not exist as an administrative division of the Ottoman Empire (approximate borders). During the first four centuries of the Ottoman period, western s",
+      "excerpt_offset": 0,
+      "total_chars": 35378,
+      "bm25": {
+        "q1": {
+          "rank": 6,
+          "score": 49.0092
+        }
+      },
+      "best_rank": 6,
+      "title_similarity": 0.4,
+      "context_overlap": 0.1408,
+      "cosine": 0.445514,
+      "rerank_logit": -4.439784,
+      "rerank_position": 30
+    },
+    {
+      "page_id": "23619381",
+      "revision_id": "1334012611",
+      "title": "Thrace (mythology)",
+      "url": "https://en.wikipedia.org/wiki/Thrace_(mythology)",
+      "excerpt": "Thrace (/ θ r eɪ s /; Modern Greek: Θράκη Thráki;) or Thraike in Greek mythology, was the eponymous heroine and sorceress of Thrace. She was the daughter of Oceanus and Parthenope, and sister of Europa. Some of her half-sisters were Asia and Libya.",
+      "excerpt_offset": 0,
+      "total_chars": 248,
+      "bm25": {
+        "q0": {
+          "rank": 7,
+          "score": 15.3432
+        }
+      },
+      "best_rank": 7,
+      "title_similarity": 1.0,
+      "context_overlap": 0.1111,
+      "cosine": 0.332812,
+      "rerank_logit": -0.296835,
+      "rerank_position": 2
+    },
+    {
+      "page_id": "4829",
+      "revision_id": "1352974980",
+      "title": "Balkans",
+      "url": "https://en.wikipedia.org/wiki/Balkans",
+      "excerpt": "The Balkans (/ ˈ b ɔː l k ən z / BAWL -kənz, / ˈ b ɒ l k ən z / BOL -kənz), corresponding partially with the Balkan Peninsula, is a geographical area in southeastern Europe with various geographical and historical definitions. The region takes its name from the Balkan Mountains that stretch throughout the whole of Bulgaria. The Balkan Peninsula is bordered by the Adriatic Sea in the northwest, the Ionian Sea in the southwest, the Aegean Sea in the south, the Turkish straits in the east, and the Black Sea in the northeast. The northern border of the peninsula is variously defined. The highest point of the Balkans is Musala, 2,925 metres (9,596 ft), in the Rila mountain range, Bulgaria.\n\nThe concept of the Balkan Peninsula was created by the German geographer August Zeune in 1808, who mistakenly considered the Balkan Mountains the dominant mountain system of southeastern Europe spanning from the Adriatic Sea to the Black Sea. In the 19th century the term Balkan Peninsula was a synonym for Rumelia, the parts of Europe that were provinces of the Ottoman Empire at the time. It had a geopolitical rather than a geographical definition, which was further promoted during the creation of Yug",
+      "excerpt_offset": 0,
+      "total_chars": 45192,
+      "bm25": {
+        "q1": {
+          "rank": 7,
+          "score": 46.3888
+        }
+      },
+      "best_rank": 7,
+      "title_similarity": 0.1667,
+      "context_overlap": 0.1111,
+      "cosine": 0.3767,
+      "rerank_logit": -4.070011,
+      "rerank_position": 25
+    },
+    {
+      "page_id": "9010140",
+      "revision_id": "1153340050",
+      "title": "Hawks of Thrace",
+      "url": "https://en.wikipedia.org/wiki/Hawks_of_Thrace",
+      "excerpt": "Hawks of Thrace (HoT) is a possibly defunct, anti- Turkish, pro- Kurdish independence Greek terrorist organization based in Thrace, Greece.\n\nThe HoT attacked the Turkish consulate-general in Komotini on 8 February 1999 in support of Kurdistan Workers' Party (PKK) leader Abdullah Öcalan. This was the only attack this group has ever made. HoT attacked the Turkish-Greek population in Thrace throughout the 1990s, particularly politicians running for office in the Greek government.",
+      "excerpt_offset": 0,
+      "total_chars": 481,
+      "bm25": {
+        "q0": {
+          "rank": 8,
+          "score": 15.3153
+        }
+      },
+      "best_rank": 8,
+      "title_similarity": 0.6,
+      "context_overlap": 0.0526,
+      "cosine": 0.212854,
+      "rerank_logit": -2.653349,
+      "rerank_position": 17
+    },
+    {
+      "page_id": "888364",
+      "revision_id": "1349705522",
+      "title": "Southeast Europe",
+      "url": "https://en.wikipedia.org/wiki/Southeast_Europe",
+      "excerpt": "Southeast Europe or Southeastern Europe is a geographical sub-region of Europe, consisting primarily of the region of the Balkans, as well as adjacent regions and archipelagos. There are overlapping and conflicting definitions of the region, due to political, economic, historical, cultural, and geographical considerations.\n\nSovereign states and territories that may be included in the region are Albania, Bosnia and Herzegovina, Bulgaria, Croatia (alternatively placed in Central Europe), Greece (alternatively placed in the broader region of Southern Europe), Kosovo, Montenegro, North Macedonia, Romania (alternatively placed in Eastern Europe), Serbia, and the European part of Turkey (alternatively placed in the broader region of Southern Europe, also in Western Asia with the rest of the country). Sometimes, Cyprus (most often placed in West Asia), Hungary (most often placed in Central Europe), Moldova (most often placed in Eastern Europe), and Slovenia (most often placed in Central Europe) are also included due to cultural or historical factors and affiliation.\n\nThe largest cities of the region are Istanbul, Athens, Bucharest, Sofia, and Belgrade.\n\nThe first known use of the term \"So",
+      "excerpt_offset": 0,
+      "total_chars": 5632,
+      "bm25": {
+        "q1": {
+          "rank": 8,
+          "score": 46.348
+        }
+      },
+      "best_rank": 8,
+      "title_similarity": 0.3636,
+      "context_overlap": 0.1286,
+      "cosine": 0.327161,
+      "rerank_logit": -3.88891,
+      "rerank_position": 23
+    },
+    {
+      "page_id": "24211667",
+      "revision_id": "1253603907",
+      "title": "Army of Thrace",
+      "url": "https://en.wikipedia.org/wiki/Army_of_Thrace",
+      "excerpt": "The Army of Thrace (Greek: Στρατιά Θράκης) was a field army of the Hellenic Army in 1920–1922. It was created out of the National Defence Army Corps on 3 June 1920, and proceeded to occupy Eastern Thrace, defeating the local Ottoman forces led by Djafer Tayyar. Following defeat and evacuation of the Army of Asia Minor from Anatolia in August 1922, and the Armistice of Mudanya, the Army evacuated Eastern Thrace in October 1922. Along with the remnants of the Army of Asia Minor, it was reformed into the Army of the Evros in December 1922.",
+      "excerpt_offset": 0,
+      "total_chars": 542,
+      "bm25": {
+        "q0": {
+          "rank": 9,
+          "score": 15.2866
+        }
+      },
+      "best_rank": 9,
+      "title_similarity": 0.6,
+      "context_overlap": 0.0278,
+      "cosine": 0.258348,
+      "rerank_logit": -2.184114,
+      "rerank_position": 14
+    },
+    {
+      "page_id": "26520220",
+      "revision_id": "1342761449",
+      "title": "List of ecoregions in Turkey",
+      "url": "https://en.wikipedia.org/wiki/List_of_ecoregions_in_Turkey",
+      "excerpt": "The following is a list of ecoregions in Turkey as maintained by One Earth. Alternatively part of Turkey is included by the European Environment Agency: Black Sea Biogeographic Region, Anatolian Biogeographic Region and Mediterranean Biogeographic Region.\n\nThe geography of Turkey is roughly rectangular, being more than 1,600 km (990 mi) east-west and 800 km (500 mi) north-south. Turkey's 783,562 km 2 (302,535 sq mi) of land is divided into two parts by the Bosphorus, the Sea of Marmara and the Dardanelles; European Turkey makes up only 3% of the country, with the rest being in Asia and often known as Anatolia.\n\nThe country has varied topography with fertile coastal plains contrasting with mountainous regions in the centre and eastern part of the country. The climate of Turkey also varies, with the weather systems found near the coasts contrasting with those prevailing in the interior. The Aegean and Mediterranean coasts have hot, dry summers and cool, rainy winters. The interior of the country has a continental climate with severe weather on the Anatolian plateau in winter and hot, dry summers. These large differences in climate are reflected in an extremely diverse wildlife.\n\nBeca",
+      "excerpt_offset": 0,
+      "total_chars": 2803,
+      "bm25": {
+        "q1": {
+          "rank": 9,
+          "score": 45.9772
+        }
+      },
+      "best_rank": 9,
+      "title_similarity": 0.1818,
+      "context_overlap": 0.1333,
+      "cosine": 0.301753,
+      "rerank_logit": -5.47697,
+      "rerank_position": 32
+    },
+    {
+      "page_id": "61152241",
+      "revision_id": "1345065864",
+      "title": "Kampos (Thrace)",
+      "url": "https://en.wikipedia.org/wiki/Kampos_(Thrace)",
+      "excerpt": "Kampos was a town of ancient Thrace, inhabited during Byzantine times.\n\nIts site is located near Veliefendi in European Turkey.",
+      "excerpt_offset": 0,
+      "total_chars": 127,
+      "bm25": {
+        "q0": {
+          "rank": 10,
+          "score": 15.2376
+        }
+      },
+      "best_rank": 10,
+      "title_similarity": 0.1818,
+      "context_overlap": 0.3846,
+      "cosine": 0.274638,
+      "rerank_logit": -1.938035,
+      "rerank_position": 9
+    },
+    {
+      "page_id": "188824",
+      "revision_id": "1353854822",
+      "title": "Thracians",
+      "url": "https://en.wikipedia.org/wiki/Thracians",
+      "excerpt": "The Thracians (/ ˈ θ r eɪ ʃ ən z /) were an Indo-European speaking people who inhabited large parts of Southeast Europe in ancient history. Thracians resided mainly in Southeast Europe in modern-day Bulgaria, Romania, North Macedonia, northern Greece and European Turkey, but also in north-western Anatolia (Asia Minor) in Turkey.\n\nThe exact origin of the Thracians is uncertain, but it is believed that Thracians like other Indo-European speaking groups in Europe descended from a mixture of Proto-Indo-Europeans and Early European Farmers.\n\nDuring the 5th and 4th millennium BC, the inhabitants of the eastern region of the Balkans became organized into different groups of indigenous people that were later named by the ancient Greeks under the single ethnonym of \"Thracians\".\n\nThe Thracian culture emerged during the early Bronze Age, which began about 3500 BC. From it, the Getae, the Dacians and other regional tribal groups also developed. Historical and archaeological records indicate that the Thracian culture flourished in the 3rd and 2nd millennium BC.\n\nAccording to ancient Greek and Roman historians, the Thracians were uncivilized and remained largely disunited, until the establishmen",
+      "excerpt_offset": 0,
+      "total_chars": 39999,
+      "bm25": {
+        "q1": {
+          "rank": 10,
+          "score": 45.3262
+        }
+      },
+      "best_rank": 10,
+      "title_similarity": 0.7143,
+      "context_overlap": 0.1667,
+      "cosine": 0.431584,
+      "rerank_logit": -3.010313,
+      "rerank_position": 20
+    },
+    {
+      "page_id": "61151366",
+      "revision_id": "1345058737",
+      "title": "Delphin (Thrace)",
+      "url": "https://en.wikipedia.org/wiki/Delphin_(Thrace)",
+      "excerpt": "Delphin or Karandas was a town of ancient Thrace, inhabited during Roman times.\n\nIts site is located north of Fındıklı in European Turkey.",
+      "excerpt_offset": 0,
+      "total_chars": 138,
+      "bm25": {
+        "q0": {
+          "rank": 11,
+          "score": 15.2296
+        }
+      },
+      "best_rank": 11,
+      "title_similarity": 0.1538,
+      "context_overlap": 0.5385,
+      "cosine": 0.295228,
+      "rerank_logit": -2.179645,
+      "rerank_position": 13
+    },
+    {
+      "page_id": "22734452",
+      "revision_id": "1344685284",
+      "title": "Geography of Greece",
+      "url": "https://en.wikipedia.org/wiki/Geography_of_Greece",
+      "excerpt": "Greece is a country in Southeastern Europe, on the Balkan Peninsula. It is bordered to the north by Albania, North Macedonia and Bulgaria; to the east by Turkey, and is surrounded to the east by the Aegean Sea, to the south by the Cretan and the Libyan seas, and to the west by the Ionian Sea which separates Greece from Italy.\n\nThe country consists of a mostly mountainous, peninsular mainland jutting out into the Mediterranean Sea at the southernmost tip of the Balkan peninsula, and a large number of islands, the largest being Crete, Euboea, Lesvos, Rhodes, Chios, Kefalonia, and Corfu; groups of smaller islands include the Dodecanese and the Cyclades. Smaller peninsulas projecting from the mainland include the Chalkidiki and the Peloponnese, which is joined to the mainland by the Isthmus of Corinth.\n\nGreece's latitude ranges from 35°N to 42°N and its longitude from 19°E to 28°E. As a result of this and its physical geography, the country has considerable climatic variation.\n\nGreece is located in South Eastern Europe, bordering the Ionian Sea and the Mediterranean Sea. It is a peninsular country, with an archipelago of about 3,000 islands.\n\nIt has a total area of 131,957 km 2 (50,949",
+      "excerpt_offset": 0,
+      "total_chars": 9351,
+      "bm25": {
+        "q1": {
+          "rank": 11,
+          "score": 45.137
+        }
+      },
+      "best_rank": 11,
+      "title_similarity": 0.32,
+      "context_overlap": 0.0986,
+      "cosine": 0.314342,
+      "rerank_logit": -4.271458,
+      "rerank_position": 26
+    },
+    {
+      "page_id": "61151942",
+      "revision_id": "1345053943",
+      "title": "Paulines (Thrace)",
+      "url": "https://en.wikipedia.org/wiki/Paulines_(Thrace)",
+      "excerpt": "Paulines was a town of ancient Thrace, inhabited during Byzantine times.\n\nIts site is located outside the Blachernai walls in European Turkey.",
+      "excerpt_offset": 0,
+      "total_chars": 142,
+      "bm25": {
+        "q0": {
+          "rank": 12,
+          "score": 15.2296
+        }
+      },
+      "best_rank": 12,
+      "title_similarity": 0.3077,
+      "context_overlap": 0.3571,
+      "cosine": 0.241368,
+      "rerank_logit": -2.063772,
+      "rerank_position": 11
+    },
+    {
+      "page_id": "24902386",
+      "revision_id": "1353744476",
+      "title": "Turks in Europe",
+      "url": "https://en.wikipedia.org/wiki/Turks_in_Europe",
+      "excerpt": "The Turks in Europe (sometimes called Euro-Turks; Turkish: Avrupa'daki Türkler or Avrupa'da yaşayan Türkler or Avrupa Türkleri) refers to Turkish people living in Europe.\n\nGenerally, \"Euro-Turks\" refers to the large Turkish diasporas living in Central and Western Europe as well as the Turkish communities in the former Ottoman Empire and those living in Russia and other European Post-Soviet states. When the term \"Euro-Turks\" is taken in its most literal sense, Turkish people living in the European portion of Turkey are also included in the term. Even more broadly, the Turkish Cypriot community for people living in Cyprus, which is located in Asia, has also been defined under the term \"Euro-Turks\" since the island joined the European Union.\n\nIt is less frequently applied to Turkic groups speaking a variety of Turkic languages that have lived in Europe before the Ottoman conquest, such as the Gagauz, Crimean Karaites and Urum Greeks, the Krymchaks, and the Dobrujan Tatars.\n\nTurks have had a long history in Europe, dating back to when the Ottoman Empire began to conquer and migrate during the establishment of Ottoman territories in Europe (\" Rumelia \"), which created significant Turkis",
+      "excerpt_offset": 0,
+      "total_chars": 39054,
+      "bm25": {
+        "q1": {
+          "rank": 12,
+          "score": 44.9795
+        }
+      },
+      "best_rank": 12,
+      "title_similarity": 0.3,
+      "context_overlap": 0.1184,
+      "cosine": 0.22754,
+      "rerank_logit": -5.126139,
+      "rerank_position": 31
+    },
+    {
+      "page_id": "61140008",
+      "revision_id": "1345067342",
+      "title": "Phosphorus (Thrace)",
+      "url": "https://en.wikipedia.org/wiki/Phosphorus_(Thrace)",
+      "excerpt": "Phosphorus was a town of ancient Thrace, inhabited during Roman times.\n\nIts site is located near Karataş Çiftliği in European Turkey.",
+      "excerpt_offset": 0,
+      "total_chars": 133,
+      "bm25": {
+        "q0": {
+          "rank": 13,
+          "score": 15.2296
+        }
+      },
+      "best_rank": 13,
+      "title_similarity": 0.2667,
+      "context_overlap": 0.4286,
+      "cosine": 0.29178,
+      "rerank_logit": -2.11628,
+      "rerank_position": 12
+    },
+    {
+      "page_id": "461063",
+      "revision_id": "1347895765",
+      "title": "Evros (regional unit)",
+      "url": "https://en.wikipedia.org/wiki/Evros_(regional_unit)",
+      "excerpt": "Evros (Greek: Περιφερειακή ενότητα Έβρου, romanized: Perifereiakí enótita Évrou) is one of the regional units of Greece. It is part of the region of East Macedonia and Thrace. Its name is derived from the river Evros, which appears to have been a Thracian hydronym. Evros is the northernmost regional unit. It borders Turkey to the east, across the river Evros, and it borders Bulgaria to the north and the northwest.\n\nIts capital is Alexandroupolis. Together with the regional units Rhodope and Xanthi, it forms the geographical region of Western Thrace. The population density was 32 per km 2 (2021).\n\nEvros is one of the largest regional units of Greece. It forms the eastern part of the geographical region Western Thrace, and includes the island Samothrace in the northern Aegean Sea. Its length is about 150 km from north to south (excluding Samothrace). Its width ranges from 70 to 100 km from east to west. The most important rivers are the Evros and its tributary Arda.\n\nThe Rhodope Mountains lie in the west and the southwest. The Aegean Sea lies to the south. The Evros valley is flat. Samothrace is mountainous.\n\nThe coastal area has a predominantly Mediterranean climate, whereas the nor",
+      "excerpt_offset": 0,
+      "total_chars": 5341,
+      "bm25": {
+        "q1": {
+          "rank": 13,
+          "score": 44.9627
+        }
+      },
+      "best_rank": 13,
+      "title_similarity": 0.2,
+      "context_overlap": 0.1571,
+      "cosine": 0.385921,
+      "rerank_logit": -3.94136,
+      "rerank_position": 24
+    },
+    {
+      "page_id": "61129009",
+      "revision_id": "1345064951",
+      "title": "Dekaton (Thrace)",
+      "url": "https://en.wikipedia.org/wiki/Dekaton_(Thrace)",
+      "excerpt": "Dekaton (Ancient Greek: Δέκατον, Latin: Decatum) was a town of ancient Thrace.\n\nIts site is located north of Yeşilköy in European Turkey.",
+      "excerpt_offset": 0,
+      "total_chars": 137,
+      "bm25": {
+        "q0": {
+          "rank": 14,
+          "score": 15.2296
+        }
+      },
+      "best_rank": 14,
+      "title_similarity": 0.1538,
+      "context_overlap": 0.3846,
+      "cosine": 0.260289,
+      "rerank_logit": -1.860617,
+      "rerank_position": 7
+    },
+    {
+      "page_id": "192991",
+      "revision_id": "1311974540",
+      "title": "Balkan League",
+      "url": "https://en.wikipedia.org/wiki/Balkan_League",
+      "excerpt": "The League of the Balkans was a quadruple alliance formed by a series of bilateral treaties concluded in 1912 between the Eastern Orthodox kingdoms of Greece, Bulgaria, Serbia and Montenegro, and directed against the Ottoman Empire, which still controlled much of Southeastern Europe.\n\nThe Balkans had been in a state of turmoil since the early 1900s, with years of guerrilla warfare in Macedonia followed by the Young Turk Revolution, the protracted Bosnian Crisis, and several Albanian Uprisings. The outbreak of the Italo-Turkish War in 1911 had further weakened the Ottomans and emboldened the Balkan states. Under Russian influence, Serbia and Bulgaria settled their differences and signed an alliance, which was originally directed against Austria-Hungary, on 13 March 1912, but by adding a secret chapter to it essentially redirected the alliance against the Ottoman Empire. Serbia then signed a mutual alliance with Montenegro, and Bulgaria did the same with Greece.\n\nThe League was victorious in the First Balkan War which broke out in October 1912, where it successfully seized control of almost all European Ottoman territories. After the victory, however, unresolved prior differences bet",
+      "excerpt_offset": 0,
+      "total_chars": 14271,
+      "bm25": {
+        "q1": {
+          "rank": 14,
+          "score": 44.9127
+        }
+      },
+      "best_rank": 14,
+      "title_similarity": 0.2105,
+      "context_overlap": 0.0519,
+      "cosine": 0.145854,
+      "rerank_logit": -4.405538,
+      "rerank_position": 29
+    },
+    {
+      "page_id": "61150774",
+      "revision_id": "1345065239",
+      "title": "Kalamos (Thrace)",
+      "url": "https://en.wikipedia.org/wiki/Kalamos_(Thrace)",
+      "excerpt": "Kalamos was a town of ancient Thrace on the Bosphorus, inhabited during Roman times.\n\nIts site is located south of Kuruçeşme in European Turkey.",
+      "excerpt_offset": 0,
+      "total_chars": 144,
+      "bm25": {
+        "q0": {
+          "rank": 15,
+          "score": 15.2296
+        }
+      },
+      "best_rank": 15,
+      "title_similarity": 0.1667,
+      "context_overlap": 0.5,
+      "cosine": 0.328414,
+      "rerank_logit": -1.920836,
+      "rerank_position": 8
+    },
+    {
+      "page_id": "5169480",
+      "revision_id": "1352538186",
+      "title": "Macedonia (theme)",
+      "url": "https://en.wikipedia.org/wiki/Macedonia_(theme)",
+      "excerpt": "The Theme of Macedonia (Greek: θέμα Μακεδονίας théma Makedonías) was a military-civilian province (theme) of the Byzantine Empire established between the late 8th century and the early 9th century. The theme of Macedonia had limited geographical relation to the previous province of Macedonia and mainly lay in the southwestern parts of what previously was the adjacent Diocese of Thrace. Its capital was Adrianople.\n\nFrom the beginning of the 6th century, the former Roman Diocese of Macedonia, then part of the Byzantine Empire became a subject to frequent raids by Slavic tribes which in the course of next centuries, resulted in drastic demographic and cultural changes. The Slavs organized themselves into \" Sklaviniai \", that continued to assault the Byzantine Empire, either independently, or aided by Bulgars or Avars during the 7th century. In the late 7th century, the Byzantines organized a massive expedition against the Slavs in the area. They subdued many Slavic tribes and established a new theme of Thrace in the hinterland of Thessaloniki. Despite these temporary successes, the rule in the region was far from stable. The Empire instead resorted to withdraw its defense-line south a",
+      "excerpt_offset": 0,
+      "total_chars": 5450,
+      "bm25": {
+        "q1": {
+          "rank": 15,
+          "score": 44.6272
+        }
+      },
+      "best_rank": 15,
+      "title_similarity": 0.4,
+      "context_overlap": 0.0789,
+      "cosine": 0.309545,
+      "rerank_logit": -3.609821,
+      "rerank_position": 21
+    },
+    {
+      "page_id": "61130053",
+      "revision_id": "1345061226",
+      "title": "Scylla (Thrace)",
+      "url": "https://en.wikipedia.org/wiki/Scylla_(Thrace)",
+      "excerpt": "Scylla or Scyllae was a town of ancient Thrace, on the Euxine, where the long wall, erected by the emperor Anastasius I Dicorus for the defence of Constantinople, terminated. This wall commenced at Selymbria, on the Propontis, and was carried across the narrow part of Thrace, at the distance of about 40 miles (64 km) from Constantinople, its length being 2 days' journey.\n\nIts site is located near Podima, Yalıköy in European Turkey.",
+      "excerpt_offset": 0,
+      "total_chars": 435,
+      "bm25": {
+        "q0": {
+          "rank": 16,
+          "score": 15.2296
+        }
+      },
+      "best_rank": 16,
+      "title_similarity": 0.1667,
+      "context_overlap": 0.2059,
+      "cosine": 0.35546,
+      "rerank_logit": -2.455924,
+      "rerank_position": 16
+    },
+    {
+      "page_id": "3612476",
+      "revision_id": "1347422895",
+      "title": "Principality of Bulgaria",
+      "url": "https://en.wikipedia.org/wiki/Principality_of_Bulgaria",
+      "excerpt": "ed with a Russian victory, the Treaty of San Stefano was signed by Russia and the Ottoman Empire on 3 March 1878. Under this, a large Bulgarian vassal state was agreed to, which was significantly larger: its lands encompassed nearly all ethnic Bulgarians in the Balkans, and included most of Moesia, Thrace and Macedonia, stretching from the Black Sea to the Aegean. However, the United Kingdom and Austria-Hungary were against the establishment of such a large Russian client state in the Balkans, fearing it would shift the balance of power in the Mediterranean. Due to this, the great powers convened and signed the Treaty of Berlin, superseding the Treaty of San Stefano, which never went into effect. This created a much smaller principality, alongside an autonomous Eastern Rumelia within the Ottoman Empire.\n\nIn practice, Bulgaria's status as an Ottoman vassal was a legal fiction, and Bulgaria only acknowledged the authority of the Sublime Porte in a formal way. It had its own Constitution, flag and anthem, and conducted its own foreign policy. From 1880, it had its own currency as well. In 1885, a bloodless revolution resulted in Eastern Rumelia being de facto annexed by Bulgaria, whic",
+      "excerpt_offset": 242,
+      "total_chars": 7339,
+      "bm25": {
+        "q1": {
+          "rank": 16,
+          "score": 44.5916
+        }
+      },
+      "best_rank": 16,
+      "title_similarity": 0.2,
+      "context_overlap": 0.0602,
+      "cosine": 0.262965,
+      "rerank_logit": -4.302991,
+      "rerank_position": 28
+    },
+    {
+      "page_id": "61157819",
+      "revision_id": "1345052768",
+      "title": "Callum (Thrace)",
+      "url": "https://en.wikipedia.org/wiki/Callum_(Thrace)",
+      "excerpt": "Callum was a settlement and station (mutatio) of ancient Thrace, inhabited during Byzantine times.\n\nIts site is located east of Selymbria in European Turkey.",
+      "excerpt_offset": 0,
+      "total_chars": 157,
+      "bm25": {
+        "q0": {
+          "rank": 17,
+          "score": 15.2217
+        }
+      },
+      "best_rank": 17,
+      "title_similarity": 0.1667,
+      "context_overlap": 0.3333,
+      "cosine": 0.28365,
+      "rerank_logit": -1.78693,
+      "rerank_position": 6
+    },
+    {
+      "page_id": "12117",
+      "revision_id": "1352144392",
+      "title": "Foreign relations of Greece",
+      "url": "https://en.wikipedia.org/wiki/Foreign_relations_of_Greece",
+      "excerpt": "As one of the oldest Euro-Atlantic member states in the region of Southeast Europe, Greece enjoys a prominent geopolitical role as a middle power, due to its political and geographical proximity to Europe. Greece maintains strong relations with the United States, the United Kingdom, France, Italy, Cyprus and the rest of the European Union and NATO, Lebanon, the United Arab Emirates, North Macedonia, Albania, Australia, Armenia, Saudi Arabia, Serbia, Switzerland while at the same time focuses at improving further the good relations with the Arab World, Caucasus, China, India, South Korea, Japan, Mongolia, Vietnam, The Philippines, South Africa, and the rest of the African Union, Arab League, BRICS, CELAC and Nordic Council. As member of the European Union, the Union for the Mediterranean, and the Council of Europe, Greece is a key player in the eastern Mediterranean region and has encouraged the collaboration between neighbors, as well as promoting the Energy Triangle, for gas exports to Europe. Greece also has the largest economy in the Balkans, where it is an important regional investor.\n\nProminent issues in Hellenic foreign policy include the claims in the Aegean Sea and Eastern ",
+      "excerpt_offset": 0,
+      "total_chars": 16934,
+      "bm25": {
+        "q1": {
+          "rank": 17,
+          "score": 44.2816
+        }
+      },
+      "best_rank": 17,
+      "title_similarity": 0.25,
+      "context_overlap": 0.0769,
+      "cosine": 0.165899,
+      "rerank_logit": -4.288989,
+      "rerank_position": 27
+    },
+    {
+      "page_id": "58976063",
+      "revision_id": "1254982184",
+      "title": "Panormus (Thrace)",
+      "url": "https://en.wikipedia.org/wiki/Panormus_(Thrace)",
+      "excerpt": "Panormus or Panormos (Ancient Greek: Πάνορμος) was a harbour at the extremity of the Thracian Chersonesus, in ancient Thrace opposite to the promontory of Sigeum (Cape Kumkale).",
+      "excerpt_offset": 0,
+      "total_chars": 177,
+      "bm25": {
+        "q0": {
+          "rank": 18,
+          "score": 15.2217
+        }
+      },
+      "best_rank": 18,
+      "title_similarity": 0.1538,
+      "context_overlap": 0.1429,
+      "cosine": 0.272296,
+      "rerank_logit": -2.813676,
+      "rerank_position": 18
+    },
+    {
+      "page_id": "1436023",
+      "revision_id": "1331712662",
+      "title": "Music of Thrace",
+      "url": "https://en.wikipedia.org/wiki/Music_of_Thrace",
+      "excerpt": "The music of Thrace, a region in Southeastern Europe spread over southern Bulgaria (Northern Thrace), northeastern Greece (Western Thrace), and European Turkey (Eastern Thrace), contains a written history that extends back to the antiquity, when Orpheus became a legendary musician and lived close to Olympus. Though the Thracian people were eventually assimilated by surrounding Balkan groups, elements of Thracian folk music continue.\n\nTraditional Thracian dances are usually swift in tempo. They are mostly circle dances in which the men dance at the front of the line. The gaida, a kind of bagpipe, is the most characteristic instrument, but clarinets and toumbelekis are also used. The Thracian gaida, also known in ancient Greece as askaulos, is different from the Macedonian or other Bulgarian bagpipes. It is higher in pitch then the Macedonian gaida but less so than the Bulgarian gaida (or Dura). The Thracian gaida is also still widely used throughout Thrace in northeastern Greece.\n\nChelebinsko (Chain Dance of the Gentlemen): is a choreography by Belco Stanev with great music in an interesting meter. It's 9/8 divided : 2 3 2 2. In the vocal part, the steps are exactly on the meter: QS",
+      "excerpt_offset": 0,
+      "total_chars": 10116,
+      "bm25": {
+        "q1": {
+          "rank": 18,
+          "score": 43.9288
+        }
+      },
+      "best_rank": 18,
+      "title_similarity": 0.5714,
+      "context_overlap": 0.1548,
+      "cosine": 0.358706,
+      "rerank_logit": -1.982303,
+      "rerank_position": 10
+    },
+    {
+      "page_id": "61151724",
+      "revision_id": "1345053750",
+      "title": "Canopus (Thrace)",
+      "url": "https://en.wikipedia.org/wiki/Canopus_(Thrace)",
+      "excerpt": "Canopus (Greek: Κάνωπος) was a town of ancient Thrace, inhabited during Roman times.\n\nIts site is located near Hasköy in European Turkey.",
+      "excerpt_offset": 0,
+      "total_chars": 137,
+      "bm25": {
+        "q0": {
+          "rank": 19,
+          "score": 15.2217
+        }
+      },
+      "best_rank": 19,
+      "title_similarity": 0.1667,
+      "context_overlap": 0.4286,
+      "cosine": 0.2903,
+      "rerank_logit": -2.329923,
+      "rerank_position": 15
+    },
+    {
+      "page_id": "4823",
+      "revision_id": "1350584353",
+      "title": "Balkan Wars",
+      "url": "https://en.wikipedia.org/wiki/Balkan_Wars",
+      "excerpt": "The Balkan Wars were two conflicts that took place in the Balkan states in 1912 and 1913. In the First Balkan War, the four Balkan states of Greece, Serbia, Montenegro and Bulgaria declared war upon the Ottoman Empire and defeated it, in the process stripping the Ottomans of their European provinces, leaving only Eastern Thrace under Ottoman control. In the Second Balkan War, Bulgaria fought against the other four combatants of the first war. It also faced an attack from Romania from the north. The Ottoman Empire lost the bulk of its territory in Europe. Although not involved as a combatant, Austria-Hungary became relatively weaker as a much enlarged Serbia pushed for union of the South Slavic peoples. The war set the stage for the July crisis of 1914 and as a prelude to the First World War.\n\nBy the early 20th century, Bulgaria, Greece, Montenegro and Serbia had achieved independence from the Ottoman Empire, but large elements of their ethnic populations remained under Ottoman rule. Over the course of the Macedonian Struggle these states fought for influence between themselves and the Ottoman government within Ottoman Macedonia, during which their governments came under the control",
+      "excerpt_offset": 0,
+      "total_chars": 40325,
+      "bm25": {
+        "q1": {
+          "rank": 19,
+          "score": 43.8982
+        }
+      },
+      "best_rank": 19,
+      "title_similarity": 0.1176,
+      "context_overlap": 0.0811,
+      "cosine": 0.222883,
+      "rerank_logit": -3.648079,
+      "rerank_position": 22
+    }
+  ]
+}

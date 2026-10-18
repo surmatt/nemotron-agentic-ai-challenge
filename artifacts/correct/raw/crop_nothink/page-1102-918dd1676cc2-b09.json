@@ -1,0 +1,93 @@
+{
+  "variant": "crop_nothink",
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1102",
+  "block_index": 9,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T12:21:52+00:00",
+  "elapsed_seconds": 1.47,
+  "finish_reason": "stop",
+  "parse_text": "The people being met together, and murted by the request of good news from the magnent, which may necessary in all the assemblies, the cognitive business to be proposed to them was publicly read. After this, if none of the misti- trates requested, upon the order of him who presided in the comitia, the people divided into their proper cursu, and can be pulled off the matters and then the curtu being called out, as it happened by lot, gave their votes man by man, in ancient times were now, and afterwards by tables; the most votes in every curts going for the voice of the whole curtu, and the most curlar for the general consent of the people.",
+  "corrected_text": "The people being met together, and confirmed by the report of good omens from the augurs, which was necessary in all the assemblies, the rogatio or business to be proposed to them was publicly read. After this, if none of the magistrates interposed, upon the order of him who presided in the comitia the people divided into their proper curiae, and consulted of the matter; and then the curiae on being called out, as it happened by lot, gave their votes man by man, in ancient times viva voce, and afterwards by tablets; the most votes in every curia going for the voice of the whole curia, and the most curiae for the general consent of the people.",
+  "reasoning_tokens": 0,
+  "usage": {
+    "completion_tokens": 147,
+    "prompt_tokens": 602,
+    "total_tokens": 749,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 278
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 3000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows this region of the page. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\nThe people being met together, and murted by the request of good news from the magnent, which may necessary in all the assemblies, the cognitive business to be proposed to them was publicly read. After this, if none of the misti- trates requested, upon the order of him who presided in the comitia, the people divided into their proper cursu, and can be pulled off the matters and then the curtu being called out, as it happened by lot, gave their votes man by man, in ancient times were now, and afterwards by tables; the most votes in every curts going for the voice of the whole curtu, and the most curlar for the general consent of the people.",
+  "response": {
+    "id": "chatcmpl-a5defc93bd3c688a",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "The people being met together, and confirmed by the report of good omens from the augurs, which was necessary in all the assemblies, the rogatio or business to be proposed to them was publicly read. After this, if none of the magistrates interposed, upon the order of him who presided in the comitia the people divided into their proper curiae, and consulted of the matter; and then the curiae on being called out, as it happened by lot, gave their votes man by man, in ancient times viva voce, and afterwards by tablets; the most votes in every curia going for the voice of the whole curia, and the most curiae for the general consent of the people.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792326112,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 147,
+      "prompt_tokens": 602,
+      "total_tokens": 749,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 278
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

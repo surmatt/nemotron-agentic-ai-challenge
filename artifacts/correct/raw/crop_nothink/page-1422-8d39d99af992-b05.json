@@ -1,0 +1,93 @@
+{
+  "variant": "crop_nothink",
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1422",
+  "block_index": 5,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T12:22:33+00:00",
+  "elapsed_seconds": 1.68,
+  "finish_reason": "stop",
+  "parse_text": "Natural philosophy, as being both highly ufeful and entertaining, as well worthy of the attention of all who can talked to appropriate anayment of their time to fictific purifuits; to the man of fortune, a taille for mutual philopholy might often procure the mind de-lightful environment. To trace the wonder of a planetary tytions, to mark the proceeds of vegetation, to examine all the properties of that the elements which we bearbe, to trace the laws by which all the different elements are confined to their proper funcions, and above all to apply the principles of natural philopholy in the cultivated of the ground, and amendments which might agreeably and innocently occupy many of the hitline hours of the man who enjoys a friend and independent fortune.",
+  "corrected_text": "Natural philosophy, as being both highly useful and entertaining, is well worthy of the attention of all who can afford to appropriate any part of their time to scientific pursuits; to the man of fortune, a taste for natural philosophy might often procure the most delightful entertainment. To trace the wonders of the planetary systems, to mark the progress of vegetation, to examine all the properties of that fine element which we breathe, to trace the laws by which all the different elements are confined to their proper functions, and above all to apply the principles of natural philosophy in the cultivation of the ground, are amusements which might agreeably and innocently occupy many of the leisure hours of the man who enjoys a plentiful and independent fortune.",
+  "reasoning_tokens": 0,
+  "usage": {
+    "completion_tokens": 148,
+    "prompt_tokens": 904,
+    "total_tokens": 1052,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 569
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 3000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows this region of the page. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\nNatural philosophy, as being both highly ufeful and entertaining, as well worthy of the attention of all who can talked to appropriate anayment of their time to fictific purifuits; to the man of fortune, a taille for mutual philopholy might often procure the mind de-lightful environment. To trace the wonder of a planetary tytions, to mark the proceeds of vegetation, to examine all the properties of that the elements which we bearbe, to trace the laws by which all the different elements are confined to their proper funcions, and above all to apply the principles of natural philopholy in the cultivated of the ground, and amendments which might agreeably and innocently occupy many of the hitline hours of the man who enjoys a friend and independent fortune.",
+  "response": {
+    "id": "chatcmpl-b1f3094a092e5b6d",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "Natural philosophy, as being both highly useful and entertaining, is well worthy of the attention of all who can afford to appropriate any part of their time to scientific pursuits; to the man of fortune, a taste for natural philosophy might often procure the most delightful entertainment. To trace the wonders of the planetary systems, to mark the progress of vegetation, to examine all the properties of that fine element which we breathe, to trace the laws by which all the different elements are confined to their proper functions, and above all to apply the principles of natural philosophy in the cultivation of the ground, are amusements which might agreeably and innocently occupy many of the leisure hours of the man who enjoys a plentiful and independent fortune.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792326154,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 148,
+      "prompt_tokens": 904,
+      "total_tokens": 1052,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 569
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

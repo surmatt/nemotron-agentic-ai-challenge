@@ -1,0 +1,93 @@
+{
+  "variant": "crop_nothink",
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:914",
+  "block_index": 5,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T12:21:38+00:00",
+  "elapsed_seconds": 2.07,
+  "finish_reason": "stop",
+  "parse_text": "\"In the fluidy of nations and men, we may obectively the cutises the reader them hostile or friendly to each other, thus tend to narrow or enlarging to modify or cease, the focal character. The separation of the Arabia from the end of mankind has cautioned them to content of the ideas of Buranger and caseny; i and the poverty of the land has introduced a ramion of jurisprudence, which they believe and predicate to the preten hour. They pretend, that in the divilion of the earth the rich and fertile climates were aligned to the other branches of the humanity, and that the potifect of the culture Timal might recover, by fraud or force, the portion of inheritance of which he had been multiply deprived. According to the remark of Pliny, the Arabian tribes are equally addicted to theft and merchandile : the caravans that traverse the dictare are numbered to plibged, and the neighbour faces the remote times (JO and Sefdrirs, have been the victims of their rapacious figure. If a Bedownt difcovers from allar a solitary travelling, bride fut-only against him, evying, with a loud voice, \"Uthat's Mytific thy want (my wife) is without a garment.\" A ready fumiffon linitiske him to neoyre, radiance will provide the aggregate, and his own blood mult explorate the blood which he performs to fled in legitimate de- fence. A large robber, no a few allocations, are banded with their genuine names, but the exploits of a numerous hand offline the character of lawful and ho- nounable war. The tempted a so people, this aimed again mankind, was doubly inflamed by the domicile defence of rupine, murder, and revege. In the con-fifution of Europe, the right of peace and war is",
+  "corrected_text": "In the study of nations and men, we may observe the causes that render them hostile or friendly to each other, that tend to narrow or enlarge, to mollify or exasperate, the social character. The separation of the Arabs from the rest of mankind has accustomed them to confound the ideas of stranger and enemy; and the poverty of the land has introduced a maxim of jurisprudence, which they believe and practise to the present hour. They pretend, that in the division of the earth the rich and fertile climates were assigned to the other branches of the human family; and that the poverty of the outlaw Ishmael might recover, by fraud or force, the portion of inheritance of which he had been unjustly deprived. According to the remark of Pliny, the Arabian tribes are equally addicted to theft and merchandise: the caravans that traverse the desert are ransomed or pillaged; and their neighbours, since the remote times of Job and Sefotris, have been the victims of their rapacious spirit. If a Bedoween discovers from afar a solitary traveller, he rides furiously against him, crying, with a loud voice, \"Undre's thyself, thy aunt (my wife) is without a garment.\" A ready submission intitles him to mercy; resistance will provoke the aggressor, and his own blood must expiate the blood which he pretends to shed in legitimate defence. A single robber, or a few associates, are branded with their genuine name; but the exploits of a numerous band assume the character of lawful and honourable war. The temper of a people, thus armed against mankind, was doubly inflamed by the domestic licence of rapine, murder, and revenge. In the constitution of Europe, the right of peace and war is",
+  "reasoning_tokens": 0,
+  "usage": {
+    "completion_tokens": 372,
+    "prompt_tokens": 1481,
+    "total_tokens": 1853,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 912
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 3000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows this region of the page. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\n\"In the fluidy of nations and men, we may obectively the cutises the reader them hostile or friendly to each other, thus tend to narrow or enlarging to modify or cease, the focal character. The separation of the Arabia from the end of mankind has cautioned them to content of the ideas of Buranger and caseny; i and the poverty of the land has introduced a ramion of jurisprudence, which they believe and predicate to the preten hour. They pretend, that in the divilion of the earth the rich and fertile climates were aligned to the other branches of the humanity, and that the potifect of the culture Timal might recover, by fraud or force, the portion of inheritance of which he had been multiply deprived. According to the remark of Pliny, the Arabian tribes are equally addicted to theft and merchandile : the caravans that traverse the dictare are numbered to plibged, and the neighbour faces the remote times (JO and Sefdrirs, have been the victims of their rapacious figure. If a Bedownt difcovers from allar a solitary travelling, bride fut-only against him, evying, with a loud voice, \"Uthat's Mytific thy want (my wife) is without a garment.\" A ready fumiffon linitiske him to neoyre, radiance will provide the aggregate, and his own blood mult explorate the blood which he performs to fled in legitimate de- fence. A large robber, no a few allocations, are banded with their genuine names, but the exploits of a numerous hand offline the character of lawful and ho- nounable war. The tempted a so people, this aimed again mankind, was doubly inflamed by the domicile defence of rupine, murder, and revege. In the con-fifution of Europe, the right of peace and war is",
+  "response": {
+    "id": "chatcmpl-a6fd4f2296908e46",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "In the study of nations and men, we may observe the causes that render them hostile or friendly to each other, that tend to narrow or enlarge, to mollify or exasperate, the social character. The separation of the Arabs from the rest of mankind has accustomed them to confound the ideas of stranger and enemy; and the poverty of the land has introduced a maxim of jurisprudence, which they believe and practise to the present hour. They pretend, that in the division of the earth the rich and fertile climates were assigned to the other branches of the human family; and that the poverty of the outlaw Ishmael might recover, by fraud or force, the portion of inheritance of which he had been unjustly deprived. According to the remark of Pliny, the Arabian tribes are equally addicted to theft and merchandise: the caravans that traverse the desert are ransomed or pillaged; and their neighbours, since the remote times of Job and Sefotris, have been the victims of their rapacious spirit. If a Bedoween discovers from afar a solitary traveller, he rides furiously against him, crying, with a loud voice, \"Undre's thyself, thy aunt (my wife) is without a garment.\" A ready submission intitles him to mercy; resistance will provoke the aggressor, and his own blood must expiate the blood which he pretends to shed in legitimate defence. A single robber, or a few associates, are branded with their genuine name; but the exploits of a numerous band assume the character of lawful and honourable war. The temper of a people, thus armed against mankind, was doubly inflamed by the domestic licence of rapine, murder, and revenge. In the constitution of Europe, the right of peace and war is",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792326099,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 372,
+      "prompt_tokens": 1481,
+      "total_tokens": 1853,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 912
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

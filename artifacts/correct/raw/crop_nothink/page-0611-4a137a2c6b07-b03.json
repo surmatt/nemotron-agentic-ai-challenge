@@ -1,0 +1,93 @@
+{
+  "variant": "crop_nothink",
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:611",
+  "block_index": 3,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T12:21:17+00:00",
+  "elapsed_seconds": 1.62,
+  "finish_reason": "stop",
+  "parse_text": "Let us be the velocity of a particle of the fluid in any infant, and d’ its velocity in the next instant. The velocity may be considered in compounded of d’ a”. If the particles tended to meet with the velocities d’a\"的, the whole fluid would be in equilibrium (general principle), and the preference of the fluid would be the films as it all were fragment, and each particle were urged by a force d’r, t expelling an indenticity final moment of time. (N. B. jt the proper expedition of the accelerating forces, which, by sliding during the mo- ment r, would generate the velocity d’s and d’ is lip- pooled in determining quantities different perhaps for each particle). Now that a he lopped control, or dazd. In this case d’z... That is to fix, no profile whatever will be carried on the fold body until there happen changes in the velocities or directions of the par-ticles.",
+  "corrected_text": "Let a be the velocity of a particle of the fluid in any instant, and a' its velocity in the next instant. The velocity a may be considered as compounded of a' and a\". If the particles tended to move with the velocities a\" only, the whole fluid would be in equilibrium (general principle), and the preasure of the fluid would be the same as if all were frangnant, and each particle were urged by a force a''/r, r expressing an indefinitely small moment of time. (N. B. a''/r is the proper expression of the accelerating force, which, by acting during the moment r, would generate the velocity a''; and a'' is supposed an indeterminate quantity, different perhaps for each particle). Now let a be supposed confiant, or a=a'. In this case a''=0. That is to say, no preasure whatever will be exerted on the solid body unless there happen changes in the velocities or directions of the particles.",
+  "reasoning_tokens": 0,
+  "usage": {
+    "completion_tokens": 205,
+    "prompt_tokens": 818,
+    "total_tokens": 1023,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 442
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 3000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows this region of the page. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\nLet us be the velocity of a particle of the fluid in any infant, and d’ its velocity in the next instant. The velocity may be considered in compounded of d’ a”. If the particles tended to meet with the velocities d’a\"的, the whole fluid would be in equilibrium (general principle), and the preference of the fluid would be the films as it all were fragment, and each particle were urged by a force d’r, t expelling an indenticity final moment of time. (N. B. jt the proper expedition of the accelerating forces, which, by sliding during the mo- ment r, would generate the velocity d’s and d’ is lip- pooled in determining quantities different perhaps for each particle). Now that a he lopped control, or dazd. In this case d’z... That is to fix, no profile whatever will be carried on the fold body until there happen changes in the velocities or directions of the par-ticles.",
+  "response": {
+    "id": "chatcmpl-bcb1130960c75bc8",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "Let a be the velocity of a particle of the fluid in any instant, and a' its velocity in the next instant. The velocity a may be considered as compounded of a' and a\". If the particles tended to move with the velocities a\" only, the whole fluid would be in equilibrium (general principle), and the preasure of the fluid would be the same as if all were frangnant, and each particle were urged by a force a''/r, r expressing an indefinitely small moment of time. (N. B. a''/r is the proper expression of the accelerating force, which, by acting during the moment r, would generate the velocity a''; and a'' is supposed an indeterminate quantity, different perhaps for each particle). Now let a be supposed confiant, or a=a'. In this case a''=0. That is to say, no preasure whatever will be exerted on the solid body unless there happen changes in the velocities or directions of the particles.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792326078,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 205,
+      "prompt_tokens": 818,
+      "total_tokens": 1023,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 442
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

@@ -1,0 +1,725 @@
+{
+  "entry_id": "E0131",
+  "headword": "TRIGONOMETRY",
+  "entry_text_sha256": "894ea326e01cad718c8b8711e5f7ed8f2aeca7a6c6d3486c0180e4d63b778843",
+  "mode": "model",
+  "queries": [
+    "trigonometry",
+    "trigonometry half angles difference angle fine tangent theorem find triangle found radius"
+  ],
+  "query_chars": 1500,
+  "headword_variant": null,
+  "candidate_count": 32,
+  "list_pages_removed_after_fetch": [],
+  "decision": {
+    "status": "rejected",
+    "method": "nemotron_embed_rerank",
+    "thresholds": {
+      "rerank_logit": -10.0,
+      "margin": 0.5,
+      "cosine": 0.15,
+      "title_similarity": 0.0
+    },
+    "reason": "rerank_logit < -10.0, margin < 0.5, cosine < 0.15, or title_similarity < 0.0",
+    "page_id": "18717261",
+    "title": "Trigonometry",
+    "rerank_logit": -3.499006,
+    "cosine": 0.30756,
+    "margin_to_next": 0.308125,
+    "title_similarity": 1.0
+  },
+  "candidates": [
+    {
+      "page_id": "22850636",
+      "revision_id": "1305451622",
+      "title": "Generalized trigonometry",
+      "url": "https://en.wikipedia.org/wiki/Generalized_trigonometry",
+      "excerpt": "Ordinary trigonometry studies triangles in the Euclidean plane R 2 {\\displaystyle \\mathbb {R} ^{2}}. There are a number of ways of defining the ordinary Euclidean geometric trigonometric functions on real numbers, for example right-angled triangle definitions, unit circle definitions, series definitions, definitions via differential equations, and definitions using functional equations. Generalizations of trigonometric functions are often developed by starting with one of the above methods and adapting it to a situation other than the real numbers of Euclidean geometry. Generally, trigonometry can be the study of triples of points in any kind of geometry or space. A triangle is the polygon with the smallest number of vertices, so one direction to generalize is to study higher-dimensional analogs of angles and polygons: solid angles and polytopes such as tetrahedrons and n -simplices.\n\nIn spherical trigonometry, triangles on the surface of a sphere are studied. The spherical triangle identities are written in terms of the ordinary trigonometric functions but differ from the plane triangle identities.\n\nHyperbolic trigonometry:\n\nStudy of hyperbolic triangles in hyperbolic geometry wit",
+      "excerpt_offset": 0,
+      "total_chars": 2845,
+      "bm25": {
+        "q0": {
+          "rank": 1,
+          "score": 18.0238
+        },
+        "q1": {
+          "rank": 7,
+          "score": 58.9149
+        }
+      },
+      "best_rank": 1,
+      "title_similarity": 0.7059,
+      "context_overlap": 0.1343,
+      "cosine": 0.232352,
+      "rerank_logit": -4.173622,
+      "rerank_position": 6
+    },
+    {
+      "page_id": "6785051",
+      "revision_id": "1353226274",
+      "title": "History of trigonometry",
+      "url": "https://en.wikipedia.org/wiki/History_of_trigonometry",
+      "excerpt": ", reaching India as part of Hellenistic astronomy. In Indian astronomy, the study of trigonometric functions flourished in the Gupta period, especially due to Aryabhata (sixth century AD), who discovered the sine function, cosine function, and versine function.\n\nDuring the Middle Ages, the study of trigonometry continued in Islamic mathematics, building on earlier foundations from Indian (notably Aryabhata 's sine and cosine concepts) and Greek (Hipparchus ' chord table) sources. Mathematicians such as al-Khwarizmi and Abu al-Wafa made important contributions, but the field was fundamentally transformed by Nasir al-Din al-Tusi (1201–1274).\n\nAl-Tusi was the first to treat trigonometry as an independent mathematical discipline, separate from astronomy. He fully established all six trigonometric functions (sine, cosine, tangent, cotangent, secant, cosecant) with complete proofs, and formulated the plane and spherical law of sines, the form still taught in schools and universities today. He also rewrote and corrected Ptolemy's Almagest, replacing chords with sine and tangent tables and adding practical, real-world examples.\n\nThrough translations of Arabic and Greek texts, this knowledg",
+      "excerpt_offset": 225,
+      "total_chars": 25518,
+      "bm25": {
+        "q0": {
+          "rank": 14,
+          "score": 15.8226
+        },
+        "q1": {
+          "rank": 1,
+          "score": 71.9152
+        }
+      },
+      "best_rank": 1,
+      "title_similarity": 0.6857,
+      "context_overlap": 0.0538,
+      "cosine": 0.211552,
+      "rerank_logit": -4.277392,
+      "rerank_position": 7
+    },
+    {
+      "page_id": "6600160",
+      "revision_id": "1318180906",
+      "title": "Outline of trigonometry",
+      "url": "https://en.wikipedia.org/wiki/Outline_of_trigonometry",
+      "excerpt": "The following outline is provided as an overview of and topical guide to trigonometry:\n\nTrigonometry – branch of mathematics that studies the relationships between the sides and the angles in triangles. Trigonometry defines the trigonometric functions, which describe those relationships and have applicability to cyclical phenomena, such as waves.\n\nGeometry – mathematics concerned with questions of shape, size, the relative position of figures, and the properties of space. Geometry is used extensively in trigonometry.\n\nAngle – the angle is the figure formed by two rays, called the sides of the angle, sharing a common endpoint, called the vertex of the angle. Angles formed by two rays lie in a plane, but this plane does not have to be a Euclidean plane.\n\nRatio – a ratio indicates how many times one number contains another\n\nTrigonometry\n\nTrigonometric functions\n\nTrigonometric identities\n\nEuler's formula\n\nArchimedes\n\nAristarchus\n\nAryabhata\n\nBhaskara I\n\nClaudius Ptolemy\n\nEuclid\n\nHipparchus\n\nMadhava of Sangamagrama\n\nPtolemy\n\nPythagoras\n\nRegiomontanus\n\nAristarchus's inequality\n\nBhaskara I's sine approximation formula\n\nGreek astronomy\n\nIndian astronomy\n\nJyā, koti-jyā and utkrama-jyā\n\nMadha",
+      "excerpt_offset": 0,
+      "total_chars": 4909,
+      "bm25": {
+        "q0": {
+          "rank": 5,
+          "score": 17.1762
+        },
+        "q1": {
+          "rank": 2,
+          "score": 71.7335
+        }
+      },
+      "best_rank": 2,
+      "title_similarity": 0.6857,
+      "context_overlap": 0.1333,
+      "cosine": 0.292755,
+      "rerank_logit": -4.026867,
+      "rerank_position": 4
+    },
+    {
+      "page_id": "4778172",
+      "revision_id": "705588299",
+      "title": "Hyperbolic trigonometry",
+      "url": "https://en.wikipedia.org/wiki/Hyperbolic_trigonometry",
+      "excerpt": "In mathematics, hyperbolic trigonometry can mean:\n\nThe study of hyperbolic triangles in hyperbolic geometry (traditional trigonometry is the study of triangles in plane geometry)\n\nThe use of the hyperbolic functions\n\nThe use of gyrotrigonometry in hyperbolic geometry",
+      "excerpt_offset": 0,
+      "total_chars": 267,
+      "bm25": {
+        "q0": {
+          "rank": 3,
+          "score": 17.9901
+        }
+      },
+      "best_rank": 3,
+      "title_similarity": 0.6857,
+      "context_overlap": 0.25,
+      "cosine": 0.184857,
+      "rerank_logit": -4.394567,
+      "rerank_position": 9
+    },
+    {
+      "page_id": "18717261",
+      "revision_id": "1353191576",
+      "title": "Trigonometry",
+      "url": "https://en.wikipedia.org/wiki/Trigonometry",
+      "excerpt": "Trigonometry (from Ancient Greek τρίγωνον (trígōnon) ' triangle ' and μέτρον (métron) ' measure ') is a branch of mathematics concerned with relationships between angles and side lengths of triangles. In particular, the trigonometric functions relate the angles of a right triangle with ratios of its side lengths. The field emerged in the Hellenistic world during the 3rd century BC from applications of geometry to astronomical studies. The Greeks focused on the calculation of chords, while mathematicians in India created the earliest-known tables of values for trigonometric ratios (also called trigonometric functions) such as sine.\n\nThroughout history, trigonometry has been applied in areas such as geodesy, surveying, celestial mechanics, and navigation.\n\nTrigonometry is known for its many identities. These trigonometric identities are commonly used for rewriting trigonometrical expressions with the aim to simplify an expression, to find a more useful form of an expression, or to solve an equation.\n\nSumerian astronomers studied angle measure, using a division of circles into 360 degrees. They, and later the Babylonians, studied the ratios of the sides of similar triangles and discov",
+      "excerpt_offset": 0,
+      "total_chars": 17239,
+      "bm25": {
+        "q0": {
+          "rank": 12,
+          "score": 15.9447
+        },
+        "q1": {
+          "rank": 3,
+          "score": 67.5936
+        }
+      },
+      "best_rank": 3,
+      "title_similarity": 1.0,
+      "context_overlap": 0.1282,
+      "cosine": 0.30756,
+      "rerank_logit": -3.499006,
+      "rerank_position": 1
+    },
+    {
+      "page_id": "9258098",
+      "revision_id": "1333385808",
+      "title": "Glen Van Brummelen",
+      "url": "https://en.wikipedia.org/wiki/Glen_Van_Brummelen",
+      "excerpt": "Glen Robert Van Brummelen (born May 20, 1965) is a Canadian historian of mathematics specializing in the history of trigonometry and historical applications of mathematics to astronomy.\n\nHe is president of the Canadian Society for History and Philosophy of Mathematics, and was a co-editor of Mathematics and the Historian's Craft: The Kenneth O. May Lectures (Springer, 2005).\n\nHe has been involved in the summer program Mathpath since 2004 and is the creator of \"Glensheep\" and their evolution.\n\nVan Brummelen earned his PhD degree from Simon Fraser University in 1993, and served as a professor of mathematics at Bennington College from 1999 to 2006. He then transferred to Quest University Canada as a founding faculty member. In 2020, he became the dean of the Faculty of Natural and Applied Sciences at Trinity Western University in Langley, BC.\n\nGlen Van Brummelen has published the first major history in English of the origins and early development of trigonometry, The Mathematics of the Heavens and the Earth: The Early History of Trigonometry. His second book, Heavenly Mathematics: The Forgotten Art of Spherical Trigonometry, concerns spherical trigonometry.\n\nIn 2016 he received a Debo",
+      "excerpt_offset": 0,
+      "total_chars": 1888,
+      "bm25": {
+        "q0": {
+          "rank": 4,
+          "score": 17.5153
+        }
+      },
+      "best_rank": 4,
+      "title_similarity": 0.2,
+      "context_overlap": 0.0435,
+      "cosine": 0.213467,
+      "rerank_logit": -4.638413,
+      "rerank_position": 11
+    },
+    {
+      "page_id": "1283865",
+      "revision_id": "1338322601",
+      "title": "Hyperbolic triangle",
+      "url": "https://en.wikipedia.org/wiki/Hyperbolic_triangle",
+      "excerpt": "In hyperbolic geometry, a hyperbolic triangle is a triangle in the hyperbolic plane. It consists of three line segments called sides or edges and three points called angles or vertices.\n\nJust as in the Euclidean case, three points of a hyperbolic space of an arbitrary dimension always lie on the same plane. Hence planar hyperbolic triangles also describe triangles possible in any higher dimension of hyperbolic spaces.\n\nA hyperbolic triangle consists of three non- collinear points and the three segments between them.\n\nHyperbolic triangles have some properties that are analogous to those of triangles in Euclidean geometry:\n\nEach hyperbolic triangle has an inscribed circle but not every hyperbolic triangle has a circumscribed circle (see below). Its vertices can lie on a horocycle or hypercycle.\n\nHyperbolic triangles have some properties that are analogous to those of triangles in spherical or elliptic geometry:\n\nTwo triangles with the same angle sum are equal in area.\n\nThere is an upper bound for the area of triangles.\n\nThere is an upper bound for radius of the inscribed circle.\n\nTwo triangles are congruent if and only if they correspond under a finite product of line reflections.\n\nT",
+      "excerpt_offset": 0,
+      "total_chars": 15327,
+      "bm25": {
+        "q1": {
+          "rank": 4,
+          "score": 62.3045
+        }
+      },
+      "best_rank": 4,
+      "title_similarity": 0.3226,
+      "context_overlap": 0.22,
+      "cosine": 0.146294,
+      "rerank_logit": -5.198523,
+      "rerank_position": 26
+    },
+    {
+      "page_id": "30654",
+      "revision_id": "1345782532",
+      "title": "Triangle",
+      "url": "https://en.wikipedia.org/wiki/Triangle",
+      "excerpt": "A triangle is a polygon with three corners and three sides, one of the basic shapes in geometry. The corners, also called vertices, are zero- dimensional points while the sides connecting them, also called edges, are one-dimensional line segments. A triangle has three internal angles, each one bounded by a pair of adjacent edges; the sum of angles of a triangle always equals a straight angle (180 degrees or π radians). The triangle is a plane figure and its interior is a planar region. Sometimes an arbitrary edge is chosen to be the base, in which case the opposite vertex is called the apex; the shortest segment between the base and apex is the height. The area of a triangle equals one-half the product of height and base length.\n\nIn Euclidean geometry, any two points determine a unique line segment situated within a unique straight line, and any three points that do not all lie on the same straight line determine a unique triangle situated within a unique flat plane. More generally, four points in three-dimensional Euclidean space determine a solid figure called tetrahedron.\n\nIn non-Euclidean geometries, three \"straight\" segments also determine a \"triangle\", for instance, a spheric",
+      "excerpt_offset": 0,
+      "total_chars": 27409,
+      "bm25": {
+        "q1": {
+          "rank": 5,
+          "score": 61.1884
+        }
+      },
+      "best_rank": 5,
+      "title_similarity": 0.5,
+      "context_overlap": 0.1746,
+      "cosine": 0.181032,
+      "rerank_logit": -5.111559,
+      "rerank_position": 22
+    },
+    {
+      "page_id": "16443675",
+      "revision_id": "1293013170",
+      "title": "Trigonometry (album)",
+      "url": "https://en.wikipedia.org/wiki/Trigonometry_(album)",
+      "excerpt": "Trigonometry is the second album by American rapper Saafir and his only project released under the alias Mr. No No. It was dropped on January 20, 1998, via Hobo/Wrap Records. Production was handled by DJ JZ, J Groove, Shock G and the Porch Monkeys.\n\nAll tracks are written by Reggie Gibson, except for tracks 6 and 7 written with Gregory Jacobs.\n\nReggie \" Saafir \" Gibson — vocals, mixing (tracks: 4, 5)\n\nGregory \" Shock G \" Jacobs — vocals, producer & mixing (tracks: 6, 7)\n\nTy \"Big Nous\" Alston — vocals (track 12)\n\nH. \"Poke Martian\" Norris — vocals (track 12)\n\nRick \"Rashinel\" Trammell — vocals (track 12)\n\nJeremy \"Jay-Z\" Jackson — producer (tracks: 2–5, 11, 12), mixing (tracks: 2, 3)\n\nJames \"J Groove\" Carson — producer (tracks: 8–10), mixing (track 8)\n\nThe Porch Monkeys — producer(s) & mixing (track 1)\n\nKeba Konte — photography",
+      "excerpt_offset": 0,
+      "total_chars": 835,
+      "bm25": {
+        "q0": {
+          "rank": 6,
+          "score": 16.9799
+        }
+      },
+      "best_rank": 6,
+      "title_similarity": 1.0,
+      "context_overlap": 0.0208,
+      "cosine": 0.127123,
+      "rerank_logit": -3.980581,
+      "rerank_position": 3
+    },
+    {
+      "page_id": "1896674",
+      "revision_id": "1333766425",
+      "title": "List of circle topics",
+      "url": "https://en.wikipedia.org/wiki/List_of_circle_topics",
+      "excerpt": "ing\" in which the word does not refer literally to the geometric shape.\n\nCircle\n\nCircle anatomy\n\nAnnulus (mathematics) – Region between two concentric circles\n\nArea of a disk – Concept in geometry\n\nBipolar coordinates – 2-dimensional orthogonal coordinate system based on Apollonian circles\n\nCentral angle – Measure of two radii meeting\n\nCircular sector – Portion of a disk enclosed by two radii and an arc\n\nCircular segment – Area bounded by a circular arc and a straight line\n\nCircumference – Perimeter of a circle or ellipse\n\nConcentric – Geometric objects with a common centre\n\nConcyclic – Points on a common circle\n\nDegree (angle) – Unit of plane angle where a full circle equals 360°\n\nDiameter – Straight line segment that passes through the centre of a circle\n\nDisk (mathematics) – Plane figure, bounded by circle\n\nHorn angle – Type of curvilinear angle\n\nMeasurement of a Circle\n\nπ – Number, approximately 3.14\n\nList of topics related to π\n\nPole and polar – Unique point and line of a conic section\n\nPower of a point – Relative distance of a point from a circle\n\nRadical axis – All points whose relative distances to two circles are same\n\nRadius – Segment in a circle or sphere from its center",
+      "excerpt_offset": 238,
+      "total_chars": 15552,
+      "bm25": {
+        "q1": {
+          "rank": 6,
+          "score": 60.908
+        }
+      },
+      "best_rank": 6,
+      "title_similarity": 0.1875,
+      "context_overlap": 0.075,
+      "cosine": 0.163488,
+      "rerank_logit": -5.456828,
+      "rerank_position": 30
+    },
+    {
+      "page_id": "69031319",
+      "revision_id": "1346001794",
+      "title": "Trigonometry (TV series)",
+      "url": "https://en.wikipedia.org/wiki/Trigonometry_(TV_series)",
+      "excerpt": "Trigonometry is a British comedy-drama television series developed by House Productions. The first two episodes were previewed at the 2019 BFI London Film Festival. It was then showcased at the 2020 Berlinale before premiering on BBC Two on 15 March 2020. It was available that summer to stream on HBO Max.\n\nIn the late 2010s, London couple Gemma and Kieran are forced to take in a lodger to make ends meet. They take in Ray and the polyamorous triad grows closer than they had expected.\n\nGary Carr as Kieran\n\nAriane Labed as Ray\n\nThalissa Teixeira as Gemma\n\nRebecca Humphries as Caroline\n\nIsabella Laughland as Moira\n\nAmbreen Razia as Naima\n\nAnne Consigny as Mathilde\n\nAnn Akinjirin as Dee\n\nIt was announced in October 2017 that Piers Wenger and Peter Hollands of the BBC had commissioned Trigonometry, an 8 30-minute episode drama produced by House Productions and written by Duncan Macmillan and Effie Woods. Executive producers included Tessa Ross and Juliette Howell of House and Tommy Bulfin of the BBC.\n\nGreek director Athina Rachel Tsangari signed on in January 2019 to direct the first five episodes, whilst Stella Corradi directed the last three.\n\nPrincipal photography took place over four",
+      "excerpt_offset": 0,
+      "total_chars": 1899,
+      "bm25": {
+        "q0": {
+          "rank": 7,
+          "score": 16.8945
+        }
+      },
+      "best_rank": 7,
+      "title_similarity": 1.0,
+      "context_overlap": 0.019,
+      "cosine": 0.159897,
+      "rerank_logit": -3.807131,
+      "rerank_position": 2
+    },
+    {
+      "page_id": "753225",
+      "revision_id": "1322907549",
+      "title": "Uses of trigonometry",
+      "url": "https://en.wikipedia.org/wiki/Uses_of_trigonometry",
+      "excerpt": "Amongst the lay public of non-mathematicians and non-scientists, trigonometry is known chiefly for its application to measurement problems, yet is also often used in ways that are far more subtle, such as its place in the theory of music; still other uses are more technical, such as in number theory. The mathematical topics of Fourier series and Fourier transforms rely heavily on knowledge of trigonometric functions and find application in a number of areas, including statistics.\n\nIn Chapter XI of The Age of Reason, the American revolutionary and Enlightenment thinker Thomas Paine wrote:\n\nThe scientific principles that man employs to obtain the foreknowledge of an eclipse, or of any thing else relating to the motion of the heavenly bodies, are contained chiefly in that part of science that is called trigonometry, or the properties of a triangle, which, when applied to the study of the heavenly bodies, is called astronomy; when applied to direct the course of a ship on the ocean, it is called navigation; when applied to the construction of figures drawn by a ruler and compass, it is called geometry; when applied to the construction of plans of edifices, it is called architecture; wh",
+      "excerpt_offset": 0,
+      "total_chars": 9856,
+      "bm25": {
+        "q0": {
+          "rank": 8,
+          "score": 16.2757
+        }
+      },
+      "best_rank": 8,
+      "title_similarity": 0.75,
+      "context_overlap": 0.0488,
+      "cosine": 0.230221,
+      "rerank_logit": -4.040387,
+      "rerank_position": 5
+    },
+    {
+      "page_id": "12830119",
+      "revision_id": "1274453818",
+      "title": "List of triangle topics",
+      "url": "https://en.wikipedia.org/wiki/List_of_triangle_topics",
+      "excerpt": "This list of triangle topics includes things related to the geometric shape, either abstractly, as in idealizations studied by geometers, or in triangular arrays such as Pascal's triangle or triangular matrices, or concretely in physical space. It does not include metaphors like love triangle in which the word has no reference to the geometric shape.\n\nTriangle\n\nAcute and obtuse triangles\n\nAltitude (triangle)\n\nArea bisector of a triangle\n\nAngle bisector of a triangle\n\nAngle bisector theorem\n\nApollonius point\n\nApollonius' theorem\n\nAutomedian triangle\n\nBarrow's inequality\n\nBarycentric coordinates (mathematics)\n\nBernoulli's quadrisection problem\n\nBrocard circle\n\nBrocard points\n\nBrocard triangle\n\nCarnot's theorem (conics)\n\nCarnot's theorem (inradius, circumradius)\n\nCarnot's theorem (perpendiculars)\n\nCatalogue of Triangle Cubics\n\nCentroid\n\nCeva's theorem\n\nCevian\n\nCircumconic and inconic\n\nCircumscribed circle\n\nClawson point\n\nCleaver (geometry)\n\nCongruence (geometry)\n\nCongruent isoscelizers point\n\nContact triangle\n\nConway triangle notation\n\nCPCTC\n\nDelaunay triangulation\n\nde Longchamps point\n\nDesargues' theorem\n\nDroz-Farny line theorem\n\nEncyclopedia of Triangle Centers\n\nEqual incircles theo",
+      "excerpt_offset": 0,
+      "total_chars": 5414,
+      "bm25": {
+        "q1": {
+          "rank": 8,
+          "score": 58.7969
+        }
+      },
+      "best_rank": 8,
+      "title_similarity": 0.2941,
+      "context_overlap": 0.0732,
+      "cosine": 0.219055,
+      "rerank_logit": -5.251204,
+      "rerank_position": 27
+    },
+    {
+      "page_id": "35217283",
+      "revision_id": "1352608618",
+      "title": "Anton von Braunmühl",
+      "url": "https://en.wikipedia.org/wiki/Anton_von_Braunm%C3%BChl",
+      "excerpt": "Johann Anton Edler von Braunmühl (22 December 1853, Tiflis – 7 March 1908, Munich) was a German historian of mathematics and mathematician who worked on synthetic geometry and trigonometry.\n\nBraunmühl was born in Tiflis but came from a Bavarian family and his father had gone as an architect to build a palace. The death of his father in 1856 led to the mother and family moving to Munich where he went to school. His mother died in 1866, after which he was taken care of by an uncle. He passed school in 1873 and joined the Ludwig-Maximilians-Universität München where he studied physics under G. Bauer, L. von Seidel, J. von Lamont, Philip Von Jolly, Friedrich Narr and history under M. Bernays and B. Riehl. He also attended classes in mathematics at the polytechnikum under A. Brill, F. Klein and J.N. Bischoff. He received a doctorate summa cum laude in 1878 and at the same time began to teach at the Realgymnasium. In 1879, he married Franziska Stölzl; they had two daughters. He became a professor in 1892. His teaching were on algebraic analysis, projective geometry, and trigonometry and his students included chemists and architects. Axel Anthon Björnbo was one his students, who worked on",
+      "excerpt_offset": 0,
+      "total_chars": 1592,
+      "bm25": {
+        "q0": {
+          "rank": 9,
+          "score": 16.0382
+        }
+      },
+      "best_rank": 9,
+      "title_similarity": 0.3226,
+      "context_overlap": 0.0233,
+      "cosine": 0.116406,
+      "rerank_logit": -4.82227,
+      "rerank_position": 15
+    },
+    {
+      "page_id": "15685517",
+      "revision_id": "1275495432",
+      "title": "Homothetic center",
+      "url": "https://en.wikipedia.org/wiki/Homothetic_center",
+      "excerpt": "eometry, a homothetic center (also called a center of similarity or a center of similitude) is a point from which at least two geometrically similar figures can be seen as a dilation or contraction of one another. If the center is external, the two figures are directly similar to one another; their angles have the same rotational sense. If the center is internal, the two figures are scaled mirror images of one another; their angles have the opposite sense.\n\nIf two geometric figures possess a homothetic center, they are similar to one another; in other words they must have the same angles at corresponding points and differ only in their relative scaling. The homothetic center and the two figures need not lie in the same plane; they can be related by a projection from the homothetic center.\n\nHomothetic centers may be external or internal. If the center is internal, the two geometric figures are scaled mirror images of one another; in technical language, they have opposite chirality. A clockwise angle in one figure would correspond to a counterclockwise angle in the other. Conversely, if the center is external, the two figures are directly similar to one another; their angles have the",
+      "excerpt_offset": 4,
+      "total_chars": 15534,
+      "bm25": {
+        "q1": {
+          "rank": 9,
+          "score": 58.6152
+        }
+      },
+      "best_rank": 9,
+      "title_similarity": 0.3448,
+      "context_overlap": 0.1304,
+      "cosine": 0.123933,
+      "rerank_logit": -5.167508,
+      "rerank_position": 23
+    },
+    {
+      "page_id": "2696396",
+      "revision_id": "1328144124",
+      "title": "Divine Proportions: Rational Trigonometry to Universal Geometry",
+      "url": "https://en.wikipedia.org/wiki/Divine_Proportions:_Rational_Trigonometry_to_Universal_Geometry",
+      "excerpt": "Divine Proportions: Rational Trigonometry to Universal Geometry is a 2005 book by the mathematician Norman J. Wildberger on a proposed alternative approach to Euclidean geometry and trigonometry, called rational trigonometry. The book advocates replacing the usual basic quantities of trigonometry, Euclidean distance and angle measure, by squared distance and the square of the sine of the angle, respectively. This is logically equivalent to the standard development (as the replacement quantities can be expressed in terms of the standard ones and vice versa). The author claims his approach holds some advantages, such as avoiding the need for irrational numbers.\n\nThe book was \"essentially self-published\" by Wildberger through his publishing company Wild Egg. The formulas and theorems in the book are regarded as correct mathematics but the claims about practical or pedagogical superiority are primarily promoted by Wildberger himself and have received mixed reviews.\n\nThe main idea of Divine Proportions is to replace distances by the squared Euclidean distance, which Wildberger calls the quadrance, and to replace angle measures by the squares of their sines, which Wildberger calls the sp",
+      "excerpt_offset": 0,
+      "total_chars": 7887,
+      "bm25": {
+        "q0": {
+          "rank": 10,
+          "score": 16.0096
+        },
+        "q1": {
+          "rank": 20,
+          "score": 55.915
+        }
+      },
+      "best_rank": 10,
+      "title_similarity": 0.3288,
+      "context_overlap": 0.0667,
+      "cosine": 0.173787,
+      "rerank_logit": -4.433861,
+      "rerank_position": 10
+    },
+    {
+      "page_id": "6220",
+      "revision_id": "1348567211",
+      "title": "Circle",
+      "url": "https://en.wikipedia.org/wiki/Circle",
+      "excerpt": "A circle is a shape consisting of all points in a plane that are at a given distance from a given point, the centre. The distance between any point of the circle and the centre is called the radius. The length of a line segment connecting two points on the circle and passing through the centre is called the diameter. A circle bounds a region of the plane called a disc.\n\nThe circle has been known since before the beginning of recorded history. Natural circles are common, such as the full moon or a slice of round fruit. The circle is the basis for the wheel, which, with related inventions such as gears, makes much of modern machinery possible. In mathematics, the study of the circle has helped inspire the development of geometry, astronomy and calculus.\n\nAnnulus: a ring-shaped object, the region bounded by two concentric circles.\n\nArc: any connected part of a circle. Specifying two end points of an arc and a centre allows for two arcs that together make up a full circle.\n\nCentre: the point equidistant from all points on the circle.\n\nChord: a line segment whose endpoints lie on the circle, thus dividing a circle into two segments.\n\nCircumference: the length of one circuit along the ci",
+      "excerpt_offset": 0,
+      "total_chars": 31259,
+      "bm25": {
+        "q1": {
+          "rank": 10,
+          "score": 58.5218
+        }
+      },
+      "best_rank": 10,
+      "title_similarity": 0.2222,
+      "context_overlap": 0.0822,
+      "cosine": 0.085888,
+      "rerank_logit": -5.086891,
+      "rerank_position": 21
+    },
+    {
+      "page_id": "8019257",
+      "revision_id": "1328024229",
+      "title": "Daniel Murray (mathematician)",
+      "url": "https://en.wikipedia.org/wiki/Daniel_Murray_(mathematician)",
+      "excerpt": "Daniel Alexander Murray (1862–1934) was a Canadian mathematician.\n\nMurray was born in Colchester County, Nova Scotia, and was educated at Dalhousie University and Johns Hopkins University, as well as universities in Berlin and Paris. He was successively associate professor of mathematics at New York University, instructor at Cornell University, professor at Dalhousie University, and, after 1907, professor of applied mathematics at McGill University.\n\nIntroductory Course in Differential Equations (1897)\n\nAn Elementary Course in the Integral Calculus (1898)\n\nPlane and Spherical Trigonometry (1902)\n\nEssentials of Trigonometry and Mensuration (1909)\n\nElements of Plane Trigonometry (1911)\n\nThis article incorporates text from a publication now in the public domain: Gilman, D. C.; Peck, H. T.; Colby, F. M., eds. (1905). New International Encyclopedia (1st ed.). New York: Dodd, Mead. {{ cite encyclopedia }}: Missing or empty | title= (help)",
+      "excerpt_offset": 0,
+      "total_chars": 946,
+      "bm25": {
+        "q0": {
+          "rank": 11,
+          "score": 15.9758
+        }
+      },
+      "best_rank": 11,
+      "title_similarity": 0.24,
+      "context_overlap": 0.0492,
+      "cosine": 0.124641,
+      "rerank_logit": -4.68359,
+      "rerank_position": 14
+    },
+    {
+      "page_id": "10458716",
+      "revision_id": "1351022331",
+      "title": "Visual calculus",
+      "url": "https://en.wikipedia.org/wiki/Visual_calculus",
+      "excerpt": "herwise seem quite difficult yield to the method with hardly a line of calculation. Mamikon collaborated with Tom Apostol on the 2013 book New Horizons in Geometry describing the subject.\n\nMamikon devised his method in 1959 while an undergraduate, first applying it to a well-known geometry problem: find the area of a ring (annulus), given the length of a chord tangent to the inner circumference. Perhaps surprisingly, no additional information is needed; the solution does not depend on the ring's inner and outer dimensions.\n\nThe traditional approach involves algebra and application of the Pythagorean theorem. Mamikon's method, however, envisions an alternate construction of the ring: first the inner circle alone is drawn, then a constant-length tangent is made to travel along its circumference, \"sweeping out\" the ring as it goes.\n\nNow if all the (constant-length) tangents used in constructing the ring are translated so that their points of tangency coincide, the result is a circular disk of known radius (and easily computed area). Indeed, since the inner circle's radius is irrelevant, one could just as well have started with a circle of radius zero (a point) — and sweeping out a rin",
+      "excerpt_offset": 164,
+      "total_chars": 2731,
+      "bm25": {
+        "q1": {
+          "rank": 11,
+          "score": 58.4938
+        }
+      },
+      "best_rank": 11,
+      "title_similarity": 0.0769,
+      "context_overlap": 0.0976,
+      "cosine": 0.164385,
+      "rerank_logit": -5.413588,
+      "rerank_position": 29
+    },
+    {
+      "page_id": "1735473",
+      "revision_id": "1142681939",
+      "title": "Tomahawk (geometry)",
+      "url": "https://en.wikipedia.org/wiki/Tomahawk_(geometry)",
+      "excerpt": "The tomahawk is a tool in geometry for angle trisection, the problem of splitting an angle into three equal parts. The boundaries of its shape include a semicircle and two line segments, arranged in a way that resembles a tomahawk, a Native American axe. The same tool has also been called the shoemaker's knife, but that name is more commonly used in geometry to refer to a different shape, the arbelos (a curvilinear triangle bounded by three mutually tangent semicircles).\n\nThe basic shape of a tomahawk consists of a semicircle (the \"blade\" of the tomahawk), with a line segment the length of the radius extending along the same line as the diameter of the semicircle (the tip of which is the \"spike\" of the tomahawk), and with another line segment of arbitrary length (the \"handle\" of the tomahawk) perpendicular to the diameter. In order to make it into a physical tool, its handle and spike may be thickened, as long as the line segment along the handle continues to be part of the boundary of the shape. Unlike a related trisection using a carpenter's square, the other side of the thickened handle does not need to be made parallel to this line segment.\n\nIn some sources a full circle rather",
+      "excerpt_offset": 0,
+      "total_chars": 3730,
+      "bm25": {
+        "q1": {
+          "rank": 12,
+          "score": 58.3263
+        }
+      },
+      "best_rank": 12,
+      "title_similarity": 0.3,
+      "context_overlap": 0.1408,
+      "cosine": 0.193948,
+      "rerank_logit": -5.290699,
+      "rerank_position": 28
+    },
+    {
+      "page_id": "2685994",
+      "revision_id": "1297208895",
+      "title": "Bartholomaeus Pitiscus",
+      "url": "https://en.wikipedia.org/wiki/Bartholomaeus_Pitiscus",
+      "excerpt": "Bartholomaeus Pitiscus (also Barthélemy or Bartholomeo; August 24, 1561 – August 24, 1613) was a 16th-century German trigonometrist, astronomer and theologian who first coined the word trigonometry.\n\nPitiscus was born to poor parents in Grünberg (now Zielona Góra, Poland), then part of the Duchy of Glogau/Głogów, one of the Habsburg -ruled Duchies of Silesia.\n\nHe studied theology in Zerbst and Heidelberg. A Calvinist, he was appointed to teach the ten-year-old Frederick IV, Elector Palatine of the Rhine, by Frederick's Calvinist uncle Johann Casimir of Simmern, as Frederick's father had died in 1583. Pitiscus was subsequently appointed court chaplain at Breslau (Wrocław) and court preacher to Frederick. Pitiscus supported Frederick's subsequent measures against the Roman Catholic Church.\n\nPitiscus died in Heidelberg. The lunar crater Pitiscus is named after him.\n\nThe classical scholar Samuel Pitiscus (1637–1727) was his nephew.\n\nPitiscus achieved fame with his influential work, Trigonometria: sive de solutione triangulorum tractatus brevis et perspicuus (Trigonometry: A short and clear treatise on the solution of triangles) which was printed as an appendix to work of Abraham Sculte",
+      "excerpt_offset": 0,
+      "total_chars": 2674,
+      "bm25": {
+        "q0": {
+          "rank": 13,
+          "score": 15.8297
+        }
+      },
+      "best_rank": 13,
+      "title_similarity": 0.375,
+      "context_overlap": 0.0349,
+      "cosine": 0.15874,
+      "rerank_logit": -4.367221,
+      "rerank_position": 8
+    },
+    {
+      "page_id": "74122214",
+      "revision_id": "1350738605",
+      "title": "Lexell's theorem",
+      "url": "https://en.wikipedia.org/wiki/Lexell%27s_theorem",
+      "excerpt": "In spherical geometry, Lexell's theorem holds that every spherical triangle with the same surface area on a fixed base has its apex on a small circle, called Lexell's circle or Lexell's locus, passing through each of the two points antipodal to the two base vertices.\n\nA spherical triangle is a shape on a sphere consisting of three vertices (corner points) connected by three sides, each of which is part of a great circle, the analog on the sphere of a straight line in the plane (for example the equator and meridians of a globe); the spherical analog of planar circles, which curve relative to the surface, are called small circles (for example the circles of latitude other than the equator). Any of the sides of a spherical triangle can be considered the base, and the opposite vertex is the corresponding apex. Two points on a sphere are antipodal if they are diametrically opposite, as far apart as possible.\n\nThe theorem is named for Anders Johan Lexell, who presented a paper about it c. 1777 (published 1784) including both a trigonometric proof and a geometric one. Lexell's colleague Leonhard Euler wrote another pair of proofs in 1778 (published 1797), and a variety of proofs have been",
+      "excerpt_offset": 0,
+      "total_chars": 40982,
+      "bm25": {
+        "q1": {
+          "rank": 13,
+          "score": 57.9838
+        }
+      },
+      "best_rank": 13,
+      "title_similarity": 0.2143,
+      "context_overlap": 0.1364,
+      "cosine": 0.165176,
+      "rerank_logit": -5.171246,
+      "rerank_position": 25
+    },
+    {
+      "page_id": "39420",
+      "revision_id": "1341811044",
+      "title": "Right triangle",
+      "url": "https://en.wikipedia.org/wiki/Right_triangle",
+      "excerpt": "A right triangle or right-angled triangle, sometimes called an orthogonal triangle or rectangular triangle, is a triangle in which two sides are perpendicular, forming a right angle (1 ⁄ 4 turn or 90 degrees).\n\nThe side opposite to the right angle is called the hypotenuse (side c {\\displaystyle c} in the figure). The sides adjacent to the right angle are called legs (or catheti, singular: cathetus). Side a {\\displaystyle a} may be identified as the side adjacent to angle B {\\displaystyle B} and opposite (or opposed to) angle A, {\\displaystyle A,} while side b {\\displaystyle b} is the side adjacent to angle A {\\displaystyle A} and opposite angle B. {\\displaystyle B.}\n\nEvery right triangle is half of a rectangle which has been divided along its diagonal. When the rectangle is a square, its right-triangular half is isosceles, with two congruent sides and two congruent angles. When the rectangle is not a square, its right-triangular half is scalene.\n\nEvery triangle whose base is the diameter of a circle and whose apex lies on the circle is a right triangle, with the right angle at the apex and the hypotenuse as the base; conversely, the circumcircle of any right triangle has the hypote",
+      "excerpt_offset": 0,
+      "total_chars": 14325,
+      "bm25": {
+        "q1": {
+          "rank": 14,
+          "score": 57.4277
+        }
+      },
+      "best_rank": 14,
+      "title_similarity": 0.3846,
+      "context_overlap": 0.2558,
+      "cosine": 0.250438,
+      "rerank_logit": -5.085711,
+      "rerank_position": 20
+    },
+    {
+      "page_id": "6328738",
+      "revision_id": "1345403574",
+      "title": "Ibn Mu'adh al-Jayyani",
+      "url": "https://en.wikipedia.org/wiki/Ibn_Mu%27adh_al-Jayyani",
+      "excerpt": "Arabic: أبو عبد الله محمد بن معاذ الجياني; 989, Cordova, Al-Andalus – 1079, Jaén, Al-Andalus) was an Arab mathematician, Islamic scholar, and Qadi from Al-Andalus (in present-day Spain). Al-Jayyānī wrote important commentaries on Euclid 's Elements and he wrote the first known treatise on spherical trigonometry.\n\nLittle is known about his life. Confusion exists over the identity of al-Jayyānī of the same name mentioned by ibn Bashkuwal (died 1183), Qur'anic scholar, Arabic Philologist, and expert in inheritance laws (farāʾiḍī). It is unknown whether they are the same person. There is some evidence that he lived in Cairo from 1012/13 to 1016/17.\n\nAl-Jayyānī wrote The book of unknown arcs of a sphere, which is considered \"the first treatise on spherical trigonometry \", although spherical trigonometry in its ancient Hellenistic form was dealt with by earlier mathematicians such as Menelaus of Alexandria, whose treatise the Spherics included Menelaus' theorem, still a basic tool for solving spherical geometry problems in Al-Jayyānī's time. However, E. S. Kennedy points out that while it was possible in pre-Islamic mathematics to compute the magnitudes of a spherical figure, in principl",
+      "excerpt_offset": 47,
+      "total_chars": 2366,
+      "bm25": {
+        "q0": {
+          "rank": 15,
+          "score": 15.3095
+        }
+      },
+      "best_rank": 15,
+      "title_similarity": 0.2424,
+      "context_overlap": 0.0667,
+      "cosine": 0.151572,
+      "rerank_logit": -4.680251,
+      "rerank_position": 13
+    },
+    {
+      "page_id": "49188683",
+      "revision_id": "1319184558",
+      "title": "Incenter–excenter lemma",
+      "url": "https://en.wikipedia.org/wiki/Incenter%E2%80%93excenter_lemma",
+      "excerpt": "In geometry, the incenter–excenter lemma is the theorem that the line segment between the incenter and any excenter of a triangle, or between two excenters, is the diameter of a circle (an incenter–excenter or excenter–excenter circle) also passing through two triangle vertices with its center on the circumcircle. This theorem is best known in Russia, where it is called the trillium theorem (теорема трилистника) or trident lemma (лемма о трезубце), based on the geometric figure's resemblance to a trillium flower or trident; these names have sometimes also been adopted in English.\n\nThese relationships arise because the incenter and excenters of any triangle form an orthocentric system whose nine-point circle is the circumcircle of the original triangle. The theorem is helpful for solving competitive Euclidean geometry problems, and can be used to reconstruct a triangle starting from one vertex, the incenter, and the circumcenter.\n\nLet ABC be an arbitrary triangle. Let I be its incenter and let D be the point where line BI (the angle bisector of ∠ ABC) crosses the circumcircle of ABC. Then, the theorem states that D is equidistant from A, C, and I.Equivalently:\n\nThe circle through A,",
+      "excerpt_offset": 0,
+      "total_chars": 3905,
+      "bm25": {
+        "q1": {
+          "rank": 15,
+          "score": 57.3293
+        }
+      },
+      "best_rank": 15,
+      "title_similarity": 0.2286,
+      "context_overlap": 0.1404,
+      "cosine": 0.29663,
+      "rerank_logit": -5.647395,
+      "rerank_position": 32
+    },
+    {
+      "page_id": "78640577",
+      "revision_id": "1304641173",
+      "title": "Love Triangle (book)",
+      "url": "https://en.wikipedia.org/wiki/Love_Triangle_(book)",
+      "excerpt": "Love Triangle: The Life-Changing Magic of Trigonometry is a 2024 non-fiction book by Matt Parker. It examines how applications of trigonometry have been foundational throughout history, including in contemporary times.\n\nThe book was published by Riverhead Books.\n\nIn Love Triangle, Matt Parker encourages readers to appreciate the geometry of triangles because it is the foundation of our modern world. It offers \"practical applications of triangles\" in an interesting and humorous narration.\n\nThe book is divided into ten chapters, titled:\n\nGoing the Distance\n\nA New Angle\n\nLaws and Orders\n\nMeshing About\n\nWell Fit\n\nWhere Do Shapes Come From?\n\nGetting Triggy with It\n\nWhere on Earth?\n\nBut Is It Art?\n\nMaking Waves\n\nAn interesting feature of the book is the page numbering system. The introduction begins on page 0.0000000, which is followed by page 0.017452. The decimal numbering continues increasing until 1.0000000 and then decreases to -1.0000000 before increasing back to 0.0000000. The page numbers represent the values of the sine function. Parker initially wanted to make the book exactly 360 pages long (equal to the number of degrees in a circle); however, the publisher would not agree to",
+      "excerpt_offset": 0,
+      "total_chars": 3675,
+      "bm25": {
+        "q0": {
+          "rank": 16,
+          "score": 15.1816
+        }
+      },
+      "best_rank": 16,
+      "title_similarity": 0.4,
+      "context_overlap": 0.0824,
+      "cosine": 0.170457,
+      "rerank_logit": -4.922556,
+      "rerank_position": 18
+    },
+    {
+      "page_id": "5407025",
+      "revision_id": "1347539890",
+      "title": "Sum of angles of a triangle",
+      "url": "https://en.wikipedia.org/wiki/Sum_of_angles_of_a_triangle",
+      "excerpt": "In a Euclidean space, the sum of angles of a triangle equals a straight angle (180 degrees, π radians, two right angles, or a half- turn). A triangle has three angles, and has one at each vertex, bounded by a pair of adjacent sides.\n\nThe sum can be computed directly using the definition of angle based on the dot product and trigonometric identities, or more quickly by reducing to the two-dimensional case and using Euler's identity.\n\nIt was unknown for a long time whether other geometries exist, for which this sum is different. The influence of this problem on mathematics was particularly strong during the 19th century. Ultimately, the answer was proven to be positive: in other spaces (geometries) this sum can be greater or lesser, but it then must depend on the triangle. Its difference from 180° is a case of angular defect and serves as an important distinction for geometric systems.\n\nIn Euclidean geometry, the triangle postulate states that the sum of the angles of a triangle is two right angles. This postulate is equivalent to the parallel postulate. In the presence of the other axioms of Euclidean geometry, the following statements are equivalent:\n\nTriangle postulate: The sum of",
+      "excerpt_offset": 0,
+      "total_chars": 7827,
+      "bm25": {
+        "q1": {
+          "rank": 16,
+          "score": 57.1613
+        }
+      },
+      "best_rank": 16,
+      "title_similarity": 0.2632,
+      "context_overlap": 0.1714,
+      "cosine": 0.273923,
+      "rerank_logit": -5.4833,
+      "rerank_position": 31
+    },
+    {
+      "page_id": "31078704",
+      "revision_id": "1348818086",
+      "title": "Webster Wells",
+      "url": "https://en.wikipedia.org/wiki/Webster_Wells",
+      "excerpt": "Among the many titles were:\n\nWebster Wells. Elementary Treatise on Logarithms (Boston, MA: Robert S. Davies Co., 1878).\n\nWebster Wells. University Algebra (Boston MA: Leach, Shewell & Sanborn, 1880), one of \"Greenleaf's Mathematical Series.\"\n\nWebster Wells. Practical Textbook on Plane and Spherical Trigonometry (Boston, MA: Leach, Shewell & Sanborn, 1883).\n\nWebster Wells. A Complete Course in Algebra for Academies and High Schools (Boston, MA: Leach, Shewell & Sanborn, 1885).\n\nWebster Wells. The Elements of Geometry (Boston, MA: Leach, Shewell & Sanborn, 1886).\n\nWebster Wells. Plane and Solid Geometry (1887).\n\nWebster Wells. The Essentials of Plane and Spherical Trigonometry (Boston, MA: Leach, Shewell & Sanborn, 1887).\n\nWebster Wells. Plane Trigonometry (Boston, MA: Leach, Shewell & Sanborn, 1887).\n\nWebster Wells. Four-place Logarithmic Tables (1888).\n\nWebster Wells. A Short Course in Higher Algebra (Boston, MA: Leach, Shewell & Sanborn, 1889), one of \"Wells' Mathematical Series.\"\n\nWebster Wells. College Algebra (Boston, MA: D.C. Heath & Co., 1890).\n\nWebster Wells. An Academic Arithmetic for Academies, High and Commercial Schools (1893, 1899).\n\nWebster Wells. Plane Trigonometry (B",
+      "excerpt_offset": 1580,
+      "total_chars": 4481,
+      "bm25": {
+        "q0": {
+          "rank": 17,
+          "score": 14.8296
+        }
+      },
+      "best_rank": 17,
+      "title_similarity": 0.25,
+      "context_overlap": 0.093,
+      "cosine": 0.152696,
+      "rerank_logit": -4.852018,
+      "rerank_position": 16
+    },
+    {
+      "page_id": "26563388",
+      "revision_id": "1186505582",
+      "title": "Half-side formula",
+      "url": "https://en.wikipedia.org/wiki/Half-side_formula",
+      "excerpt": "In spherical trigonometry, the half side formula relates the angles and lengths of the sides of spherical triangles, which are triangles drawn on the surface of a sphere and so have curved sides and do not obey the formulas for plane triangles.\n\nFor a triangle △ A B C {\\displaystyle \\triangle ABC} on a sphere, the half-side formula is tan 1 2 a = − cos (S) cos (S − A) cos (S − B) cos (S − C) {\\displaystyle {\\begin{aligned}\\tan {\\tfrac {1}{2}}a&={\\sqrt {\\frac {-\\cos(S)\\,\\cos(S-A)}{\\cos(S-B)\\,\\cos(S-C)}}}\\end{aligned}}}\n\nwhere a, b, c are the angular lengths (measure of central angle, arc lengths normalized to a sphere of unit radius) of the sides opposite angles A, B, C respectively, and S = 1 2 (A + B + C) {\\displaystyle S={\\tfrac {1}{2}}(A+B+C)} is half the sum of the angles. Two more formulas can be obtained for b {\\displaystyle b} and c {\\displaystyle c} by permuting the labels A, B, C. {\\displaystyle A,B,C.}\n\nThe polar dual relationship for a spherical triangle is the half-angle formula,\n\ntan 1 2 A = sin (s − b) sin (s − c) sin (s) sin (s − a) {\\displaystyle {\\begin{aligned}\\tan {\\tfrac {1}{2}}A&={\\sqrt {\\frac {\\sin(s-b)\\,\\sin(s-c)}{\\sin(s)\\,\\sin(s-a)}}}\\end{aligned}}}\n\nwhere s",
+      "excerpt_offset": 0,
+      "total_chars": 2815,
+      "bm25": {
+        "q1": {
+          "rank": 17,
+          "score": 56.9252
+        }
+      },
+      "best_rank": 17,
+      "title_similarity": 0.1379,
+      "context_overlap": 0.3261,
+      "cosine": 0.317572,
+      "rerank_logit": -4.902633,
+      "rerank_position": 17
+    },
+    {
+      "page_id": "48168112",
+      "revision_id": "1215489542",
+      "title": "Enoch Lewis (mathematician)",
+      "url": "https://en.wikipedia.org/wiki/Enoch_Lewis_(mathematician)",
+      "excerpt": "ur seem to have slipped into obscurityin spite of accomplishments that deserve more recognition (William Lenhart, EnochLewis, John Gummere, and John Eberle).\n\nHe edited mathematical works of John Bonnycastle and Thomas Simpson, and he is well known for the first American edition of Thomas Simpson's Trigonometry with an appendix written by him using the initial E.L.\n\nThomas Simpson: Trigonometry, Plane and Spherical: With the Construction and Application of Logarithms. With an appendix on spherical projections. First American edition. Philadelphia 1810.\n\nJohn Bonnycastle: An introduction to algebra; with notes and observations: designed for the use of schools and places of public education, Philadelphia, 1806. and in the second edition in 1811 Lewis writes \"errors of former editions and some improprieties in the original are corrected and removed\".\n\nHe published an advanced textbook on spherical projections expanding the Appendix in Simpson's Trigonometry book.\n\nA Treatise on Plane and Spherical Trigonometry: Including the Construction of the Auxiliary Tables; a Concise Tract on the Conic Sections, and the Principles of Spherical Projection, Philadelphia, 1844 and reprinted in 1872.",
+      "excerpt_offset": 1126,
+      "total_chars": 3314,
+      "bm25": {
+        "q0": {
+          "rank": 18,
+          "score": 14.7789
+        }
+      },
+      "best_rank": 18,
+      "title_similarity": 0.2727,
+      "context_overlap": 0.0429,
+      "cosine": 0.106158,
+      "rerank_logit": -4.981034,
+      "rerank_position": 19
+    },
+    {
+      "page_id": "19480890",
+      "revision_id": "1352726377",
+      "title": "Law of cosines",
+      "url": "https://en.wikipedia.org/wiki/Law_of_cosines",
+      "excerpt": "In trigonometry, the law of cosines (also known as the cosine formula or cosine rule) relates the lengths of the sides of a triangle to the cosine of one of its angles. For a triangle with sides a {\\displaystyle a}, b {\\displaystyle b}, and c {\\displaystyle c}, opposite respective angles α {\\displaystyle \\alpha }, β {\\displaystyle \\beta }, and γ {\\displaystyle \\gamma } (see Fig. 1), the law of cosines states:\n\nc 2 = a 2 + b 2 − 2 a b cos γ, a 2 = b 2 + c 2 − 2 b c cos α, b 2 = a 2 + c 2 − 2 a c cos β. {\\displaystyle {\\begin{aligned}c^{2}&=a^{2}+b^{2}-2ab\\cos \\gamma,\\\\a^{2}&=b^{2}+c^{2}-2bc\\cos \\alpha,\\\\b^{2}&=a^{2}+c^{2}-2ac\\cos \\beta.\\end{aligned}}}\n\nThe law of cosines generalizes the Pythagorean theorem, which holds only for right triangles: if γ {\\displaystyle \\gamma } is a right angle then cos γ = 0 {\\displaystyle \\cos \\gamma =0}, and the law of cosines reduces to c 2 = a 2 + b 2 {\\displaystyle c^{2}=a^{2}+b^{2}}.\n\nThe law of cosines is useful for solving a triangle when all three sides or two sides and their included angle are given.\n\nThe theorem is used in solution of triangles, i.e., to find (see Figure 3):\n\nthe third side of a triangle if two sides and the angle between the",
+      "excerpt_offset": 0,
+      "total_chars": 26928,
+      "bm25": {
+        "q1": {
+          "rank": 18,
+          "score": 55.9368
+        }
+      },
+      "best_rank": 18,
+      "title_similarity": 0.24,
+      "context_overlap": 0.3721,
+      "cosine": 0.293755,
+      "rerank_logit": -5.169271,
+      "rerank_position": 24
+    },
+    {
+      "page_id": "27128722",
+      "revision_id": "1279991918",
+      "title": "Thomas Murray MacRobert",
+      "url": "https://en.wikipedia.org/wiki/Thomas_Murray_MacRobert",
+      "excerpt": "lecturing in mathematics.\n\nIn the First World War he served in the Royal Garrison Artillery and saw active service in France.\n\nIn 1921 he was elected a fellow of the Royal Society of Edinburgh. His proposers were Andrew Gray, George Alexander Gibson, James Gordon Gray and Robert Alexander Houston. He was President of the Edinburgh Mathematical Society 1921/22. He resigned from the RSE in 1940.\n\nGlasgow University granted him an honorary doctorate (LLD) in 1955.\n\nHe retired in 1954 and died in Glasgow on 1 November 1962.\n\nIn 1914, before going to war, he married Violet McIlwraith; they initially lived in a flat in North Kelvinside in Glasgow. They had three children: Violet, Tom and Alexander. He was a member of the Glasgow temperance movement and enjoyed hill-walking.\n\nHis portrait by Norman Hepple is held by the Hunterian Art Gallery in Glasgow.\n\nMacRobert, Thomas M (1913). \"On the sufficiency of the condition for a limit\". Mathematical Notes. 12: 141– 142. doi: 10.1017/S1757748900001109.\n\nFunctions of a Complex Variable (1917)\n\nSpherical Harmonics (1927)\n\nTrigonometry (1938)\n\nHigher Trigonometry (1943)\n\nSpherical Trigonometry (1946)\n\nA Short Introduction to Fine Typography (1957)",
+      "excerpt_offset": 816,
+      "total_chars": 2016,
+      "bm25": {
+        "q0": {
+          "rank": 19,
+          "score": 14.7233
+        }
+      },
+      "best_rank": 19,
+      "title_similarity": 0.2941,
+      "context_overlap": 0.0494,
+      "cosine": 0.102888,
+      "rerank_logit": -4.654114,
+      "rerank_position": 12
+    }
+  ]
+}

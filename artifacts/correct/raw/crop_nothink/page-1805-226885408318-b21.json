@@ -1,0 +1,93 @@
+{
+  "variant": "crop_nothink",
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1805",
+  "block_index": 21,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T12:23:22+00:00",
+  "elapsed_seconds": 1.5,
+  "finish_reason": "stop",
+  "parse_text": "Boershave recommends bodily exercise in diesides of a weak and less. By doing an hardducks, dyss his commentators, the produktions vicerc of the alcohol mad in shaken every moment, and gently robbed as it wore one against number, while in the mean time the pure air acts on the lungs with greater forces. But it is folle to offered that a weak man shall not ride with a until loman, but rather before dinner, or after the de-gellion is nearly finished, by even the illomoah is di-thended, weak people do not bear their classed of the body without difficulty, but when the prima, vise are hardly empty, the remaining force are discharged by the condition. Stilling to a flying like an exercise of great ute to weak people. If the refel moves with an even motion, by increasing, perfieren is usually es-cies a material identity, creates an appetite, and pro-notes digestion. Their exercise are more especially preferable to weak people; but, in order to frequent the body by individual motion, running and bodily co-crides are to be used. Inalée we build begin with the male gentle, fish so walking, and hereide by de-grees till we come to running. Their exercise of the body are more efficiently foreseeable which give delight to the mind in the fine times, as tennis, dressing, Sec.; for which resion, the wilddom of antiquity appointed rewards for those who excelled in their gymnastic ercifer,",
+  "corrected_text": "Boerhaave recommends bodily exercise in difeases of a weak and lax fibre. By riding on horseback, says his commentator, the pendulous vicera of the abdo- med are shaken every moment, and gently rubbed as it were one against another, while in the mean time the pure air acts on the lungs with greater force. But it is to be observed that a weak man should not ride with a full stomach, but either before dinner, or after the digestion is nearly finished; for when the stomach is distended, weak people do not bear the concussions of the horse without difficulty; but when the prime viae are nearly empty, the remaining faeces are discharged by this concussion. Sailing in a ship is also an exercise of great use to weak people. If the vessel moves with an even motion, by increasing perspiration it usually excites a wonderful alacrity, creates an appetite, and promotes digestion. These exercises are more especially serviceable to weak people; but, in order to strengthen the body by muscular motion, running and bodily exercises are to be used. In these we should begin with the most gentle, such as walking, and increase it by degrees till we come to running. Those exercises of the body are more especially serviceable which give delight to the mind at the same time, as tennis, fencing, &c.; for which reason, the wisdom of antiquity appointed rewards for those who excelled in the gymnastic exercises.",
+  "reasoning_tokens": 0,
+  "usage": {
+    "completion_tokens": 302,
+    "prompt_tokens": 1086,
+    "total_tokens": 1388,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 596
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 3000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows this region of the page. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\nBoershave recommends bodily exercise in diesides of a weak and less. By doing an hardducks, dyss his commentators, the produktions vicerc of the alcohol mad in shaken every moment, and gently robbed as it wore one against number, while in the mean time the pure air acts on the lungs with greater forces. But it is folle to offered that a weak man shall not ride with a until loman, but rather before dinner, or after the de-gellion is nearly finished, by even the illomoah is di-thended, weak people do not bear their classed of the body without difficulty, but when the prima, vise are hardly empty, the remaining force are discharged by the condition. Stilling to a flying like an exercise of great ute to weak people. If the refel moves with an even motion, by increasing, perfieren is usually es-cies a material identity, creates an appetite, and pro-notes digestion. Their exercise are more especially preferable to weak people; but, in order to frequent the body by individual motion, running and bodily co-crides are to be used. Inalée we build begin with the male gentle, fish so walking, and hereide by de-grees till we come to running. Their exercise of the body are more efficiently foreseeable which give delight to the mind in the fine times, as tennis, dressing, Sec.; for which resion, the wilddom of antiquity appointed rewards for those who excelled in their gymnastic ercifer,",
+  "response": {
+    "id": "chatcmpl-a7b14259f9d2e381",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "Boerhaave recommends bodily exercise in difeases of a weak and lax fibre. By riding on horseback, says his commentator, the pendulous vicera of the abdo- med are shaken every moment, and gently rubbed as it were one against another, while in the mean time the pure air acts on the lungs with greater force. But it is to be observed that a weak man should not ride with a full stomach, but either before dinner, or after the digestion is nearly finished; for when the stomach is distended, weak people do not bear the concussions of the horse without difficulty; but when the prime viae are nearly empty, the remaining faeces are discharged by this concussion. Sailing in a ship is also an exercise of great use to weak people. If the vessel moves with an even motion, by increasing perspiration it usually excites a wonderful alacrity, creates an appetite, and promotes digestion. These exercises are more especially serviceable to weak people; but, in order to strengthen the body by muscular motion, running and bodily exercises are to be used. In these we should begin with the most gentle, such as walking, and increase it by degrees till we come to running. Those exercises of the body are more especially serviceable which give delight to the mind at the same time, as tennis, fencing, &c.; for which reason, the wisdom of antiquity appointed rewards for those who excelled in the gymnastic exercises.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792326203,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 302,
+      "prompt_tokens": 1086,
+      "total_tokens": 1388,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 596
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

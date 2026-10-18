@@ -1,0 +1,431 @@
+{
+  "entry_id": "E0116",
+  "headword": null,
+  "entry_text_sha256": "565e473e05f80f6387bdd39851d71815b39b55453afabfe76c6c37072b646e05",
+  "mode": "model",
+  "queries": [
+    "horse tail head rubbed part short equisetum swelling well broad oats morning"
+  ],
+  "query_chars": 1500,
+  "headword_variant": null,
+  "candidate_count": 19,
+  "list_pages_removed_after_fetch": [],
+  "decision": {
+    "status": "rejected",
+    "method": "nemotron_embed_rerank",
+    "thresholds": {
+      "rerank_logit": -10.0,
+      "margin": 0.5,
+      "cosine": 0.15,
+      "title_similarity": 0.0
+    },
+    "reason": "rerank_logit < -10.0, margin < 0.5, cosine < 0.15, or title_similarity < 0.0",
+    "page_id": "10630614",
+    "title": "Horse grooming",
+    "rerank_logit": -5.207075,
+    "cosine": 0.177331,
+    "margin_to_next": 0.048344,
+    "title_similarity": 0.0
+  },
+  "candidates": [
+    {
+      "page_id": "8641450",
+      "revision_id": "1327458525",
+      "title": "Equisetum arvense",
+      "url": "https://en.wikipedia.org/wiki/Equisetum_arvense",
+      "excerpt": "Equisetum arvense, commonly known as field horsetail or common horsetail, is a species of vascular plant in the horsetail family Equisetaceae. Like all horsetails, it is a type of fern. It is native throughout the arctic and temperate regions of the Northern Hemisphere. It has two distinct growth forms, a fertile spore -bearing stem and a sterile green stem. It is sometimes confused with mare's tail, Hippuris vulgaris.\n\nEquisetum arvense is a perennial herbaceous plant that spreads by means of an underground rhizome. The slender, felted rhizome freely forks and bears stem tubers. The species is dimorphic, that is, it exhibits two distinct growth forms, both arising from the same rhizome. Fertile spore -bearing stems begin to appear in April. After shedding its spores, a fertile stem promptly whithers and dies. Sterile green stems appear around the same time but last throughout the summer until the first frosts of autumn.\n\nThe erect or prostrate sterile stems are 10–90 cm (3.9–35.4 in) tall and 3–5 mm (0.12–0.20 in) diameter, with jointed segments around 2–5 cm (0.79–1.97 in) long with whorls of side shoots at the segment joints; the side shoots have a diameter of about 1 mm (0.039 ",
+      "excerpt_offset": 0,
+      "total_chars": 6907,
+      "bm25": {
+        "q0": {
+          "rank": 2,
+          "score": 30.5983
+        }
+      },
+      "best_rank": 2,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1125,
+      "cosine": 0.231784,
+      "rerank_logit": -6.098578,
+      "rerank_position": 9
+    },
+    {
+      "page_id": "59821422",
+      "revision_id": "1349894490",
+      "title": "Teratoscincus scincus",
+      "url": "https://en.wikipedia.org/wiki/Teratoscincus_scincus",
+      "excerpt": "Teratoscincus scincus, commonly referred to as the common wonder gecko or the frog-eyed gecko, is a species of lizard in the family Sphaerodactylidae. The species is native to arid parts of Asia and has special adaptations which suit it to desert life.\n\nTeratoscincus scincus is a large gecko growing to a total length (including tail) of about 16 cm (6.3 in). It has a broad head, large eyes, long robust limbs and a short tail. It lacks the expanded toe-pads used by many geckos for climbing, instead having digits fringed with comb-like scales which are adapted for loose sandy conditions. The scales on the head are particularly small, while those on the body, and especially the tail, are large. Adults are buff or yellowish-brown with black broken stripes or irregular dark spotting. The flanks and belly are white. Newly hatched juveniles are more vividly coloured, being bright yellow with dark crossbands.\n\nThe geographic range of T. scincus includes the Middle East, Central Asia, and westernmost East Asia. It extends over central and western Iran, western Afghanistan, northern Baluchistan and Pakistan, through the area to the east of the Caspian Sea, western China, and the Arabian Peni",
+      "excerpt_offset": 0,
+      "total_chars": 2422,
+      "bm25": {
+        "q0": {
+          "rank": 3,
+          "score": 30.5094
+        }
+      },
+      "best_rank": 3,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1531,
+      "cosine": 0.115371,
+      "rerank_logit": -6.194424,
+      "rerank_position": 12
+    },
+    {
+      "page_id": "67077",
+      "revision_id": "1353445029",
+      "title": "Equisetum",
+      "url": "https://en.wikipedia.org/wiki/Equisetum",
+      "excerpt": "Equisetum (/ ˌ ɛ k w ɪ ˈ s iː t əm /; horsetail) is the only living genus in Equisetaceae, a family of vascular plants that reproduce by spores rather than seeds.\n\nEquisetum is a \" living fossil \", the only living genus of the entire subclass Equisetidae, which for over 100 million years was much more diverse and dominated the understorey of late Paleozoic forests. Some equisetids were large trees reaching to 30 m (98 ft) tall. The genus Calamites of the family Calamitaceae, for example, is abundant in coal deposits from the Carboniferous period. The pattern of spacing of nodes in horsetails, wherein those toward the apex of the shoot are increasingly close together, is said to have inspired John Napier to invent logarithms. Modern horsetails first appeared during the Jurassic period.\n\nA superficially similar but entirely unrelated flowering plant genus, mare's tail (Hippuris), is occasionally referred to as \"horsetail\", and adding to confusion, the name \"mare's tail\" is sometimes applied to Equisetum.\n\nThe name \"horsetail\", often used for the entire group, arose because the branched species somewhat resemble a horse 's tail. Similarly, the scientific name Equisetum is derived from",
+      "excerpt_offset": 0,
+      "total_chars": 14208,
+      "bm25": {
+        "q0": {
+          "rank": 4,
+          "score": 30.3669
+        }
+      },
+      "best_rank": 4,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1429,
+      "cosine": 0.254977,
+      "rerank_logit": -5.951763,
+      "rerank_position": 7
+    },
+    {
+      "page_id": "43457083",
+      "revision_id": "1319668143",
+      "title": "Oats (horse)",
+      "url": "https://en.wikipedia.org/wiki/Oats_(horse)",
+      "excerpt": "Oats (27 April 1973 – 13 January 1990) was an Irish-bred, British-trained Thoroughbred racehorse and sire. He showed promise as a two-year-old before establishing himself as one of the best British colts of his generation in the following year when he won the Blue Riband Trial Stakes and finished third in The Derby. As a four-year-old he won the Jockey Club Stakes and the Ormonde Stakes before his career was ended by injury. After his retirement he became a very successful sire of National Hunt horses.\n\nOats was a \"strong, attractive\" bay horse with a small white star bred in Ireland by T E Kelly. He was from the first crop of foals sired by Northfields, an American horse whose biggest win came in the Louisiana Derby in 1971, before spending most of his stud career in Europe. His other winners included Northjet, Northern Treasure (Irish 2,000 Guineas), No Pass No Sale (Poule d'Essai des Poulains) and North Stoke (Joe McGrath Memorial Stakes). Oats' dam Arctic Lace finished third in the 1969 Irish 1,000 Guineas and was a granddaughter of Fair Alycia, whose other descendants included Bold Lad (IRE).\n\nAs a yearling, the colt was offered for sale and bought for 7,000 guineas by David O",
+      "excerpt_offset": 0,
+      "total_chars": 5885,
+      "bm25": {
+        "q0": {
+          "rank": 5,
+          "score": 30.1311
+        }
+      },
+      "best_rank": 5,
+      "title_similarity": 0.0,
+      "context_overlap": 0.0638,
+      "cosine": 0.096877,
+      "rerank_logit": -6.099037,
+      "rerank_position": 10
+    },
+    {
+      "page_id": "31157910",
+      "revision_id": "1340790083",
+      "title": "Cavallo Romano della Maremma Laziale",
+      "url": "https://en.wikipedia.org/wiki/Cavallo_Romano_della_Maremma_Laziale",
+      "excerpt": "The Cavallo Romano della Maremma Laziale, or \"Roman horse of the part of the Maremma that is in Lazio \", is a horse breed native to the Lazio region of Italy. An ancient breed, it was officially recognised only in 2010; it is now one of the fifteen indigenous horse \"breeds of limited distribution\" listed by the AIA, the Italian breeders' association. The Lazio region has assigned it the conservation status \"at risk of erosion\". The population numbers about 800, of which most are in the comune of Monte Romano in the province of Viterbo; a herd of approximately 200 is at Ponzano Romano in the province of Rome, and others are in the province of Rieti.\n\nThe breed register for the Cavallo Romano della Maremma Laziale was opened on 19 October 2010, and the breed standard confirmed by Ministerial Decree 27202, dated 1 December 2010. DNA testing had shown that the traditional working horse of the Maremma of Lazio was not only physically but genetically distinguishable from its counterpart in the Tuscan Maremma, the Maremmano, with which it had previously been classed. The two populations are reported as having common origins but limited overlap, with the Roman horse showing greater variabi",
+      "excerpt_offset": 0,
+      "total_chars": 5202,
+      "bm25": {
+        "q0": {
+          "rank": 6,
+          "score": 29.7233
+        }
+      },
+      "best_rank": 6,
+      "title_similarity": 0.0,
+      "context_overlap": 0.0274,
+      "cosine": 0.141771,
+      "rerank_logit": -5.836068,
+      "rerank_position": 6
+    },
+    {
+      "page_id": "10630614",
+      "revision_id": "1337648612",
+      "title": "Horse grooming",
+      "url": "https://en.wikipedia.org/wiki/Horse_grooming",
+      "excerpt": "Horse grooming is hygienic care given to a horse, or a process by which the horse's physical appearance is enhanced for horse shows or other types of competition.\n\nGrooming is an important part of horse care. Grooming a horse daily allows the handler to check on the horse's general health and well-being. At a minimum, horses are generally groomed before being worked, and are usually groomed and cleaned up after a workout as well. Horse showmanship is a horse show class that considers quality of grooming for as much as 40% of the total score.\n\nThe main reasons for daily grooming include:\n\nImproved health of the skin and coat\n\nDecreases the chance of various health problems such as thrush, scratches, and other skin problems\n\nCleans the horse, so chafing does not occur under areas of tack\n\nGives the groom a chance to check the horse's health, such as looking for cuts, heat, swelling, lameness, a change in temperament (such as depression) which could indicate the horse is sick, and look to see if the horse has loose or missing horseshoes\n\nHelps to form a relationship between horse and handler, which can carry over to other handling duties and riding\n\nThere are several tools that are co",
+      "excerpt_offset": 0,
+      "total_chars": 23612,
+      "bm25": {
+        "q0": {
+          "rank": 7,
+          "score": 29.6741
+        }
+      },
+      "best_rank": 7,
+      "title_similarity": 0.0,
+      "context_overlap": 0.0886,
+      "cosine": 0.177331,
+      "rerank_logit": -5.207075,
+      "rerank_position": 1
+    },
+    {
+      "page_id": "75179760",
+      "revision_id": "1242734100",
+      "title": "Cuban Paso",
+      "url": "https://en.wikipedia.org/wiki/Cuban_Paso",
+      "excerpt": "The Cuban Paso (Spanish: Caballo Cubano de Paso) is a horse breed native to Cuba, with an extra gait like all Paso horses.\n\nLike many horses on the American continent, the Cuban Paso is descended from Iberian ancestors brought over by the Spanish conquistadores.\n\nThe Cuban Paso belongs to the Criollo group of light horses. Average height ranges from 1.40 m to 1.52 m according to CAB International, and from 1.45 m to 1.51 m according to the Delachaux guide.\n\nThe conformation is said to be harmonious. The head is small and fine, with a generally straight profile, large eyes, a broad forehead and small ears. The neck is strong, of medium length, and arched. The chest is broad and muscular. The back is moderately long, with short loins. The rump is slightly sloping, broad and well muscled. Limbs are muscular and short, with strong knees. Mane and tail are well furnished.\n\nAll coat colors are possible, but bay is the most common.\n\nThe breed has additional gaits, in this case the marcha fina y gualdrapeada, also known as marcha or andaruras, a four-beat gait renowned for the comfort it provides in the saddle, and which can be maintained over long distances.\n\nThe Cuban Paso is mainly ridd",
+      "excerpt_offset": 0,
+      "total_chars": 1599,
+      "bm25": {
+        "q0": {
+          "rank": 8,
+          "score": 29.1687
+        }
+      },
+      "best_rank": 8,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1978,
+      "cosine": 0.12975,
+      "rerank_logit": -6.212424,
+      "rerank_position": 14
+    },
+    {
+      "page_id": "45319025",
+      "revision_id": "1338511654",
+      "title": "Big Dick Lake",
+      "url": "https://en.wikipedia.org/wiki/Big_Dick_Lake",
+      "excerpt": "Big Dick Lake is a natural lake in Itasca County, Minnesota, in the United States. It is located within Chippewa National Forest. This lake has a surface area of 256.2 acres (103.7 ha).\n\nBig Dick Lake is known for its good fishing, with large numbers of northern pike, crappies, Large mouth bass, blue gills, and perch, although for the latter two \"the fish are small.\" In addition to those mentioned, there are Brown Bullhead. As well as those species, \"fish species in the lake include Golden Shiner, Hybrid Sunfish and White Sucker.\"\n\nThe Lake has a wide range of plants growing \"immersed\", \"emergent\", and in a \"wetland\". Immersed plants include Najas flexilis (Bushy Pondweed), Potamogeton praelongus (White-stemmed Pondweed), and Utricularia vulgaris (Greater bladderwort). \"Emergent Plants (Plants with leaves extending above the water surface)\" include Equisetum fluviatile (Water horsetail), Sagittaria latifolia (Broad-leaved Arrowhead), and Typha latifolia (Broad-leaved cat-tail).\n\nThe Lake is also known for its unusual hydronym.",
+      "excerpt_offset": 0,
+      "total_chars": 1042,
+      "bm25": {
+        "q0": {
+          "rank": 9,
+          "score": 28.7394
+        }
+      },
+      "best_rank": 9,
+      "title_similarity": 0.0,
+      "context_overlap": 0.125,
+      "cosine": 0.063141,
+      "rerank_logit": -6.15452,
+      "rerank_position": 11
+    },
+    {
+      "page_id": "14851424",
+      "revision_id": "1349894339",
+      "title": "Craspedocephalus trigonocephalus",
+      "url": "https://en.wikipedia.org/wiki/Craspedocephalus_trigonocephalus",
+      "excerpt": "o subspecies are currently recognized.\n\nCraspedocephalus trigonocephalus is a sexually dimorphic, mid-sized, cylindrical species. These snakes measure 20–25 cm (7.9–9.8 in) at birth, and males grow to a maximum total length of 60–75 cm (24–30 in). The neck is distinct from the flattened, triangular head. There is a loreal pit on each side of the head. Mid-sized eyes and a short, rounded, broad snout are present. The males are considerably smaller than females, which can grow up to 130 cm (51 in) in total length. The ground color of the snake is variable and cryptic. Typically, it is a green snake with a black variegated pattern, and a black temporal line is usually present. The wet zone snakes have these black patterns more clearly marked. The vertebral area has a tinge of yellow. The tail is black. The ventral scales are light greenish-yellow or may even be grey. Some snakes have only the black temporal line and the black tail, with the rest of the body being green. In addition, males tend to have a blue coloration, whereas the females are predominantly green. These are bulky snakes with prehensile, short tails, suiting their arboreal lifestyle.\n\nThese are viviparous snakes. About",
+      "excerpt_offset": 206,
+      "total_chars": 3585,
+      "bm25": {
+        "q0": {
+          "rank": 10,
+          "score": 28.7176
+        }
+      },
+      "best_rank": 10,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1,
+      "cosine": 0.147244,
+      "rerank_logit": -6.23675,
+      "rerank_position": 16
+    },
+    {
+      "page_id": "25924685",
+      "revision_id": "1328528018",
+      "title": "Tail (horse)",
+      "url": "https://en.wikipedia.org/wiki/Tail_(horse)",
+      "excerpt": "The tail of the horse and other equines consists of two parts, the dock and the skirt. The dock consists of the muscles and skin covering the coccygeal vertebrae. The term \"skirt\" refers to the long hairs that fall below the dock. On a horse, long, thick tail hairs begin to grow at the base of the tail, and grow along the top and sides of the dock. In donkeys and other members of Equus asinus, as well as some mules, the zebra and the wild Przewalski's horse, the dock has short hair at the top of the dock, with longer, coarser skirt hairs beginning to grow only toward the bottom of the dock. Hair does not grow at all on the underside of the dock.\n\nThe tail is used by the horse and other equidae to keep away biting insects, and the position and movement of the tail may provide clues to the animal's physical or emotional state. Tail carriage may also be a breed trait. Tails of horses are often groomed in a number of ways to make them more stylish for show or practical for work. However, some techniques for managing the tails of horses are also controversial and may constitute animal cruelty.\n\nThe tail can communicate basic information about the horse's physical condition or state of m",
+      "excerpt_offset": 0,
+      "total_chars": 16990,
+      "bm25": {
+        "q0": {
+          "rank": 11,
+          "score": 28.155
+        }
+      },
+      "best_rank": 11,
+      "title_similarity": 0.0,
+      "context_overlap": 0.141,
+      "cosine": 0.257744,
+      "rerank_logit": -5.255419,
+      "rerank_position": 2
+    },
+    {
+      "page_id": "47903958",
+      "revision_id": "1338414882",
+      "title": "Bunting (animal behavior)",
+      "url": "https://en.wikipedia.org/wiki/Bunting_(animal_behavior)",
+      "excerpt": "Bunting is a form of animal behavior, often found in felids, in which the animal butts or rubs its head against other things, including people. Bunting as a behaviour can be viewed as a variation of scent rubbing. This is when an animal, typically a carnivore, will rub its back on a scent, such as that of prey, or on the urine of an animal of the same species. Evolutionarily speaking, scent rubbing is the oldest form of scent communication and bunting is a derivative of this behaviour. Rolling in the scent of another animal was an adaptation to camouflage the scent of a predator or outside male, in order to get closer to mates.\n\nBunting is generally considered to be a form of territorial scent-marking behaviour, where the cat rubs the scent glands on its cheeks and forehead on the object being marked. After a display of aggression, a cat will begin bunting nearby objects as a form of territorial display toward a rival cat. Bunting and allorubbing (using touch to communicate closeness) are also part of feral cat behavior within colonies. An elaborate ritual which can take several minutes, two cats will rub along the side and tail of the other cat. This behaviour in domestic cats inv",
+      "excerpt_offset": 0,
+      "total_chars": 4842,
+      "bm25": {
+        "q0": {
+          "rank": 12,
+          "score": 28.1178
+        }
+      },
+      "best_rank": 12,
+      "title_similarity": 0.0,
+      "context_overlap": 0.0909,
+      "cosine": 0.082128,
+      "rerank_logit": -6.012327,
+      "rerank_position": 8
+    },
+    {
+      "page_id": "41357741",
+      "revision_id": "1351908907",
+      "title": "Equisetum ramosissimum",
+      "url": "https://en.wikipedia.org/wiki/Equisetum_ramosissimum",
+      "excerpt": "Equisetum ramosissimum Desf., known as branched horsetail, is a species of evergreen horsetail (genus Equisetum, subgenus Hippochaete).\n\nHorsetail with untidy branches from the lower parts (which may be prominent or not apparent), with or without main upright stems, able to form a colony from underground roots. Rocky ground tends to constrict root-spread and favours a bushy appearance, unrocky ground favours more slender plants arising from spreading roots, and trampling or cutting affects shape. The general colour may have a blue-grey tinge, sometimes quite strongly, the stem when broad is fairly hollow and compressible, narrower branches rather tough and wiry, the stem ridges are conspicuous (not fine and obscure) and slightly rough. The fertile cones when visible are from stems arising as part of the main plant (not arising early separately) and have pointed cone tips (sometimes obscure).\n\nHabitat: Damp places (stream banks, moist meadows, watered edges, path edges) and shingle.\n\nEquisetum ramosissimum var. ramosissimum (syn. subsp. ramosissimum) has more obvious branching and persistent sheath teeth – Europe (except far N), W and S Asia, Africa (except mid-west), with some loca",
+      "excerpt_offset": 0,
+      "total_chars": 1439,
+      "bm25": {
+        "q0": {
+          "rank": 13,
+          "score": 28.0023
+        }
+      },
+      "best_rank": 13,
+      "title_similarity": 0.0,
+      "context_overlap": 0.0777,
+      "cosine": 0.197406,
+      "rerank_logit": -6.210721,
+      "rerank_position": 13
+    },
+    {
+      "page_id": "34940104",
+      "revision_id": "1270938235",
+      "title": "Bull Chief",
+      "url": "https://en.wikipedia.org/wiki/Bull_Chief",
+      "excerpt": "Bull Chief (c. 1825 - February 4, 1914) was an Apsaroke (Crow) chief.\n\nBull Chief, born in about 1825, died February 4, 1914, was part of the Crow, or Apsaroke tribe. He was interviewed by a man named Edward S. Curtis, who visited many tribes during the 20th century for interviews and to take portraits of the Natives. As a young man Bull Chief was never very successful when he was part of war-parties and always returned home without honor. He believed it was unnecessary for one to fast in order to be successful in a battle, and therefore opted not to fast. Being so unsuccessful after returning from battle after battle, Bull Chief decided to climb Cloud Peak, which is the highest peak of the Bullhorn Mountains in Wyoming. Bull Chief stayed up on Cloud Peak for one day and one night hoping to have a vision, but having no luck he had to leave because mountain-rats were biting through his clothes and a fierce blizzard was causing hazardous conditions. When Bull Chief returned home, his village was getting ready to be moved to a new location. Based on landmarks mentioned in the new location, it appears the tribe was moved near Red Lodge Creek, MT. During this transition time, Bull Chief",
+      "excerpt_offset": 0,
+      "total_chars": 6714,
+      "bm25": {
+        "q0": {
+          "rank": 14,
+          "score": 27.8574
+        }
+      },
+      "best_rank": 14,
+      "title_similarity": 0.0,
+      "context_overlap": 0.0633,
+      "cosine": 0.064902,
+      "rerank_logit": -5.820556,
+      "rerank_position": 5
+    },
+    {
+      "page_id": "12381336",
+      "revision_id": "1313810175",
+      "title": "Abe's salamander",
+      "url": "https://en.wikipedia.org/wiki/Abe%27s_salamander",
+      "excerpt": "The Abe's salamander (Hynobius abei) is a species of salamander in the family Hynobiidae. It is endemic to Japan and known from southwestern Honshu in northern parts of the Fukui, Kyoto, and Hyōgo Prefectures. The specific name abei honours professor Yoshio Abe, a Japanese zoologist.\n\nAdults measure 47–71 mm (1.9–2.8 in) in snout–vent length and 82–122 mm (3.2–4.8 in) in total length. The trunk is stocky, and the limbs are relatively short. There are 11–13 costal grooves. The tail is thick at the base and laterally compressed towards the tip. Dorsal colouration is reddish brown to dark brown. There are small pale spots on the flanks and the limbs. During the breeding season, the tail becomes very high and compressed in males. Their jowls also swell, making the head to appear somewhat triangular.\n\nReproduction starts in November–December, at the time of the snowfall. Females lay paired egg sacs containing 26 to 109 in total. The egg sacs are laid under leaves at the bottom of breeding ponds. Larval development is slow in winter but accelerates after the snow melt. Metamorphosis occurs typically in June–July, but some individuals may metamorphose later and even overwinter as larvae.\n",
+      "excerpt_offset": 0,
+      "total_chars": 1507,
+      "bm25": {
+        "q0": {
+          "rank": 15,
+          "score": 27.8304
+        }
+      },
+      "best_rank": 15,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1212,
+      "cosine": 0.092324,
+      "rerank_logit": -6.235993,
+      "rerank_position": 15
+    },
+    {
+      "page_id": "4213367",
+      "revision_id": "1310351900",
+      "title": "Dresden Trumpeter",
+      "url": "https://en.wikipedia.org/wiki/Dresden_Trumpeter",
+      "excerpt": "The Dresden Trumpeter is a breed of fancy pigeon developed over many years of selective breeding.\n\nSaxony, in the region of Dresden.\n\nOnly slightly sturdier than the Field Pigeon, low carriage, a rather long than short effect required. White wing shield. Double-crested.\n\nHead: Not quite so powerful as the double-crested Trumpeter. The shell crest should be broad and unbroken. The beak crest should be somewhat oval in shape, as unbroken as possible all round; the larger, forward part covering the beak wattles and requiring some foundation to avoid unsightly hanging.\n\nEyes: Dark orange iris, somewhat lighter iris allowed in reds and yellows. Cere fine, flesh-coloured.\n\nBeak: Dark in blacks, flesh-coloured in reds and yellows; in reds a somewhat darker tinge is permitted.\n\nNeck: Short, fairly rounded, throat full, rounded.\n\nBreast: Broad as possible, full and pressed well forward.\n\nBack: Fairly broad at the shoulder, slightly sloping.\n\nWings: Fairly broad, with long primaries reaching almost to the end of the tail.\n\nTail: Long.\n\nLegs: Thighs well feathered. Feet thick and full-muffed. However, muff feathers should not be excessively long. Muffs must spread to the side rather than to t",
+      "excerpt_offset": 0,
+      "total_chars": 1645,
+      "bm25": {
+        "q0": {
+          "rank": 16,
+          "score": 27.7686
+        }
+      },
+      "best_rank": 16,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1489,
+      "cosine": 0.118433,
+      "rerank_logit": -5.673232,
+      "rerank_position": 3
+    },
+    {
+      "page_id": "75179849",
+      "revision_id": "1251298436",
+      "title": "Cuban Trotter",
+      "url": "https://en.wikipedia.org/wiki/Cuban_Trotter",
+      "excerpt": "The Cuban trotter (Spanish: Cubano de trote / Criollo de trote) is a saddle horse breed native to Cuba. It is renowned for its trotting quality, and is used for driving and working cattle.\n\nContrary to what its name suggests, this is not a racing-type horse, but a criollo type. Like most Latin American horses, it is descended from the Colonial Spanish horse brought by the conquistadores, and is therefore \"locally adapted\".\n\nThe breed is named \"Criollo de trote\" in the DAD-IS database and \"Trotteur criollo\" in the Delachaux guide, which also cites the local name Cubano de trote. The breed originates from mixtures of Iberian Criollo horses and Canadian horses, imported before the American Revolution to work on sugarcane plantations.\n\nIt shows the Criollo type. The Delachaux guide (2014) cited an average height of 1.48 m to 1.50 m. CAB International (2016) indicated 1.40 m to 1.52 m.\n\nThe head has a rectilinear or slightly convex profile, a broad forehead, developed jaws, and is topped by rather short ears. The neck is broad and strong, of medium length. The chest is broad and deep. The back is short and strong. The rump is sloping and the legs are strong. The tail is set low, and gen",
+      "excerpt_offset": 0,
+      "total_chars": 1516,
+      "bm25": {
+        "q0": {
+          "rank": 17,
+          "score": 27.2756
+        }
+      },
+      "best_rank": 17,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1667,
+      "cosine": 0.104357,
+      "rerank_logit": -6.265864,
+      "rerank_position": 17
+    },
+    {
+      "page_id": "4202000",
+      "revision_id": "1340251660",
+      "title": "Old German Owl pigeon",
+      "url": "https://en.wikipedia.org/wiki/Old_German_Owl_pigeon",
+      "excerpt": "The Old German Owl (Columbia Livia Domestica) is an elegant and distinctive breed of fancy pigeon, and the originator of the short faced German Shield Owls. It was the first breed in Germany to be called Mövchen or \"little gull\" due to its resemblance to the European Herring Gull in color and patterns. The breed was again formally recognized in Germany in 1956, but the first official standard was not adopted in Europe until 1960. The standard was adopted by the National Pigeon Association of America in 1999.\n\nOrigin:\n\nGeneral characteristics:\n\nElement characteristics:\n\nHead: Nearly round, broad, with a well arched forehead and a small full shell crest, closing with rosettes.\n\nEyes: Large, bright and lively bull eyes. Cere is light and delicate.\n\nBeak: Medium length, broad, light flesh color. The wattle is small and undeveloped.\n\nNeck: Short, stocky, held up, slanting slightly backwards and upright. The throat has a slight dewlap and a well-developed frill.\n\nBreast: Broad, well rounded and held forward prominently.\n\nBack: Broad in the shoulders, becoming narrower toward the tail, and sloping downward.\n\nWings: Lying close to the body, covering the back, and resting on the tail.\n\nTail",
+      "excerpt_offset": 0,
+      "total_chars": 2598,
+      "bm25": {
+        "q0": {
+          "rank": 18,
+          "score": 26.8086
+        }
+      },
+      "best_rank": 18,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1458,
+      "cosine": 0.111207,
+      "rerank_logit": -6.291103,
+      "rerank_position": 18
+    },
+    {
+      "page_id": "25399733",
+      "revision_id": "1347330612",
+      "title": "Mixed-linkage glucan",
+      "url": "https://en.wikipedia.org/wiki/Mixed-linkage_glucan",
+      "excerpt": " beta-glucan in industrial contexts. MLG is highly prevalent within the Poales (which includes the cereals), where it has important properties in the diet.\n\nIn addition, although thought to be confined to the Poales, MLG has been found to be highly prevalent in plants of the distantly related genus Equisetum.\n\nMLG is composed of β-D(1-3) and β-D(1-4)-linked glucosyl residues. Typically there are regions of 2-5 β-D(1-4)-linked residues separated by β-D(1-3)-linkages. The β-D(1-4)-linked residues form rigid regions of the structure while the β-D(1-3)-links are flexible.\n\nMLGs exhibit the physiological properties of dietary fibres and the functional properties of viscous and gel-forming food hydrocolloids.\n\nThe US FDA has approved a health claim for oat beta-glucan, an MLG. \"Intake of at least 3 g of β-glucan from oats per day, as part of a diet low in saturated fat and cholesterol, may reduce the risk of heart disease.\"\n\nMLG is found in the \"type II\" cell walls of the Poales as a structual element, with the synthesis at its peak during cell elongation. Type II cell walls are marked by the use of glucuronoarabinoxylan (GAX) instead of \"type I\" xyloglucan (XG) for cross-linking. Cell w",
+      "excerpt_offset": 203,
+      "total_chars": 1964,
+      "bm25": {
+        "q0": {
+          "rank": 19,
+          "score": 26.7513
+        }
+      },
+      "best_rank": 19,
+      "title_similarity": 0.0,
+      "context_overlap": 0.0864,
+      "cosine": 0.038505,
+      "rerank_logit": -6.313431,
+      "rerank_position": 19
+    },
+    {
+      "page_id": "6357166",
+      "revision_id": "1292762148",
+      "title": "Breastplate (tack)",
+      "url": "https://en.wikipedia.org/wiki/Breastplate_(tack)",
+      "excerpt": "A breastplate (also referred to as a breastcollar, breaststrap or breastgirth) is a piece of tack (equipment) used on horses. Its purpose is to keep a saddle from sliding back. It is also a safety feature—if the saddle's girth or billets break, a rider may have enough time to stop the horse and dismount before the saddle slips off the animal's back. The breastplate is used on both English and Western saddles. Western riding involving working cattle use a thicker sturdier style than in English riding or Western riding horse shows. A breastplate is most helpful for horses with large shoulders and a flat ribcage. A breast collar as part of a harness is used to pull a load.\n\nWhen the Spanish Conquistador Cortez invaded Mexico in 1519 his small group of cavalry men all rode the old centerfire rigged War Saddle. Since the saddle was prone to slip back on the horse, a breast collar was used, usually with a shoulder strap to hold it up. Adding a crupper under the horse's tail, attached to the saddle was also required to maintain stability.\n\nFrom the formation of the American cavalry in 1812 military saddles were single cinched and both a breast collar and crupper were used. Many Civil War ",
+      "excerpt_offset": 0,
+      "total_chars": 9668,
+      "bm25": {
+        "q0": {
+          "rank": 20,
+          "score": 26.6638
+        }
+      },
+      "best_rank": 20,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1548,
+      "cosine": 0.169642,
+      "rerank_logit": -5.687657,
+      "rerank_position": 4
+    }
+  ]
+}

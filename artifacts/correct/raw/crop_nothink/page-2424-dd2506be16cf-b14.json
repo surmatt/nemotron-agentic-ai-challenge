@@ -1,0 +1,93 @@
+{
+  "variant": "crop_nothink",
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2424",
+  "block_index": 14,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T12:24:43+00:00",
+  "elapsed_seconds": 1.8,
+  "finish_reason": "stop",
+  "parse_text": "When Elizabethter so long ago said, \"Sheep is the most prefibilable cattle that a cano can have, he expressed an opinion in which agriculturists of the present day fully con- can. But if this was a true of the flocks of his sheep, how much more of the many animals breeds which now does the rich features, the grassy downs, and healthful mountains of our native countries. Their birds is high estimated with all classes of the community, and constitutes at least one-half of all the butteriest consumed by them. Their forces simply the raw material for one of the most familiar mammalies. They furnish to the farmer of imper- source of evences, and the residents of maintaining the fertility of his fields. The distinct breeds, and sub- varieties of sheep died in Great Britain are very numerous. We have no intention of noticing them in detail, but shall rather confine our observations to those which, by common owners, are the most valuable for their respective oligpropic habitats. They may be fully clased under these three levels, viz. the heavy breeds of the her country, those found on our doors and similar localities, and the mountainous areas.",
+  "corrected_text": "When Fitzherbert so long ago said, \"Sheep is the most profitable cattle that a man can have,\" he expressed an opinion in which agriculturists of the present day fully concur. But if this was true of the flocks of his time, how much more of the many admirable breeds which now adorn the rich pastures, the grassy downs, and heath-clad mountains of our native country. Their flesh is in high estimation with all classes of the community, and constitutes at least one-half of all the butcher meat consumed by them. Their fleeces supply the raw material for one of our most flourishing manufactures. They furnish to the farmer an important source of revenue, and the readiest means of maintaining the fertility of his fields. The distinct breeds, and sub-varieties of sheep found in Great Britain are very numerous. We have no intention of noticing them in detail, but shall rather confine our observations to those which, by common consent, are the most valuable for their respective and appropriate habitats. They may be fitly classed under these three heads, viz. the heavy breeds of the low country, those found on our downs and similar localities, and the mountain breeds.",
+  "reasoning_tokens": 0,
+  "usage": {
+    "completion_tokens": 248,
+    "prompt_tokens": 881,
+    "total_tokens": 1129,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 462
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 3000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows this region of the page. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\nWhen Elizabethter so long ago said, \"Sheep is the most prefibilable cattle that a cano can have, he expressed an opinion in which agriculturists of the present day fully con- can. But if this was a true of the flocks of his sheep, how much more of the many animals breeds which now does the rich features, the grassy downs, and healthful mountains of our native countries. Their birds is high estimated with all classes of the community, and constitutes at least one-half of all the butteriest consumed by them. Their forces simply the raw material for one of the most familiar mammalies. They furnish to the farmer of imper- source of evences, and the residents of maintaining the fertility of his fields. The distinct breeds, and sub- varieties of sheep died in Great Britain are very numerous. We have no intention of noticing them in detail, but shall rather confine our observations to those which, by common owners, are the most valuable for their respective oligpropic habitats. They may be fully clased under these three levels, viz. the heavy breeds of the her country, those found on our doors and similar localities, and the mountainous areas.",
+  "response": {
+    "id": "chatcmpl-913adcc6af20d123",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "When Fitzherbert so long ago said, \"Sheep is the most profitable cattle that a man can have,\" he expressed an opinion in which agriculturists of the present day fully concur. But if this was true of the flocks of his time, how much more of the many admirable breeds which now adorn the rich pastures, the grassy downs, and heath-clad mountains of our native country. Their flesh is in high estimation with all classes of the community, and constitutes at least one-half of all the butcher meat consumed by them. Their fleeces supply the raw material for one of our most flourishing manufactures. They furnish to the farmer an important source of revenue, and the readiest means of maintaining the fertility of his fields. The distinct breeds, and sub-varieties of sheep found in Great Britain are very numerous. We have no intention of noticing them in detail, but shall rather confine our observations to those which, by common consent, are the most valuable for their respective and appropriate habitats. They may be fitly classed under these three heads, viz. the heavy breeds of the low country, those found on our downs and similar localities, and the mountain breeds.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792326284,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 248,
+      "prompt_tokens": 881,
+      "total_tokens": 1129,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 462
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

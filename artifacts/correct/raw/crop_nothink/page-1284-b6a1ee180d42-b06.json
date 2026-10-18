@@ -1,0 +1,93 @@
+{
+  "variant": "crop_nothink",
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1284",
+  "block_index": 6,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T12:22:12+00:00",
+  "elapsed_seconds": 1.97,
+  "finish_reason": "stop",
+  "parse_text": "In the mean time James, who had neither adrefa nor courage to attempt any thing in behalf of his mother, announced her donation to his friend died in jects, and ordered prayers to be fail for her in all the churches. The form of the person for preferred was framed with delivery and caution, that the clever might have no objection to it. He enjoned them to pray, \" that it might pleal Goo to college Mary with the light to the truth, and to proceeds her from the danger which was hanging over her.\" His own chapals, and Mr David Lindley mintier of Lerich, deferred his command. But all the other cergy referful to profitute their pulpits by preferring any pe-titions to the Almighty for a Papil. Jana, shocked with their point of anience and fictitious apportioned a new day for prayers to be fail for Mary, and illued a father injunction to the cergy to obey him, and that his might be for himself from any faults, the commanded the archibihop of St Andrews to preach be-fore him. The recietificates, diligutted with his injunc-",
+  "corrected_text": "In the mean time James, who had neither address nor courage to attempt any thing in behalf of his mother, announced her situation to his bigotted subjects, and ordered prayers to be said for her in all the churches. The form of the petition to be preferred was framed with delicacy and caution, that the clergy might have no objection to it. He enjoined them to pray, \"that it might please God to enlighten Mary with the light of his truth, and to protect her from the danger which was hanging over her.\" His own chaplains, and Mr David Lindley minister of Leith, observed his command. But all the other clergy refused to prostitute their pulpits by preferring any petitions to the Almighty for a Papist. James, shocked with their spirit of intolerance and sedition, appointed a new day for prayers to be said for Mary, and issued a stricter injunction to the clergy to obey him; and that he might be free himself from any insult, he commanded the archbishop of St Andrews to preach before him. The ecclesiastics, disgraced with his injunction,",
+  "reasoning_tokens": 0,
+  "usage": {
+    "completion_tokens": 230,
+    "prompt_tokens": 952,
+    "total_tokens": 1182,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 530
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 3000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows this region of the page. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\nIn the mean time James, who had neither adrefa nor courage to attempt any thing in behalf of his mother, announced her donation to his friend died in jects, and ordered prayers to be fail for her in all the churches. The form of the person for preferred was framed with delivery and caution, that the clever might have no objection to it. He enjoned them to pray, \" that it might pleal Goo to college Mary with the light to the truth, and to proceeds her from the danger which was hanging over her.\" His own chapals, and Mr David Lindley mintier of Lerich, deferred his command. But all the other cergy referful to profitute their pulpits by preferring any pe-titions to the Almighty for a Papil. Jana, shocked with their point of anience and fictitious apportioned a new day for prayers to be fail for Mary, and illued a father injunction to the cergy to obey him, and that his might be for himself from any faults, the commanded the archibihop of St Andrews to preach be-fore him. The recietificates, diligutted with his injunc-",
+  "response": {
+    "id": "chatcmpl-bac4138d171a4388",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "In the mean time James, who had neither address nor courage to attempt any thing in behalf of his mother, announced her situation to his bigotted subjects, and ordered prayers to be said for her in all the churches. The form of the petition to be preferred was framed with delicacy and caution, that the clergy might have no objection to it. He enjoined them to pray, \"that it might please God to enlighten Mary with the light of his truth, and to protect her from the danger which was hanging over her.\" His own chaplains, and Mr David Lindley minister of Leith, observed his command. But all the other clergy refused to prostitute their pulpits by preferring any petitions to the Almighty for a Papist. James, shocked with their spirit of intolerance and sedition, appointed a new day for prayers to be said for Mary, and issued a stricter injunction to the clergy to obey him; and that he might be free himself from any insult, he commanded the archbishop of St Andrews to preach before him. The ecclesiastics, disgraced with his injunction,",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792326133,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 230,
+      "prompt_tokens": 952,
+      "total_tokens": 1182,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 530
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "variant": "crop_nothink",
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:13",
+  "block_index": 8,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T12:19:37+00:00",
+  "elapsed_seconds": 1.29,
+  "finish_reason": "stop",
+  "parse_text": "2 Idly. By chocks, represented in Plate CCCCLV. (m.,) which are placed under all the shelf-pieces in walls of the beams, except the drop in such a manner as to receive the up and down arm of the iron knes. The lower ends of those under the span-deck-pipe step on the ends of the otp-bears; and those of the several decks above, step on the projecting part of the splashing beams. The chosen between the they and gun docks, and of their being driven into their respective places very tightly, thereby eating the pillars. Another advantage attending them is the great tendency to stiffen the shiny side, and to prevent the beans-ends from playing on the fasteners when the sihry is rolling or retaining under press of call.",
+  "corrected_text": "2dly, By chocks, represented in Plate CCCCLV. (m., o,) which are placed under all the shelf-pieces in wake of the beams, except the orlop, in such a manner as to receive the up and down arm of the iron knees. The lower ends of those under the gun-deck shelf-piece step on the ends of the orlop-beams; and those of the several decks above, step on the projecting part of the spirketing below. The chocks, particularly those between the orlop and gun decks, admit of their being driven into their respective places very tightly, thereby acting like pillars. Another advantage attending them is their great tendency to stiffen the ship's side, and to prevent the beam-ends from playing on the fastenings when the ship is rolling, or straining under a press of sail.",
+  "reasoning_tokens": 0,
+  "usage": {
+    "completion_tokens": 178,
+    "prompt_tokens": 696,
+    "total_tokens": 874,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 352
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 3000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows this region of the page. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\n2 Idly. By chocks, represented in Plate CCCCLV. (m.,) which are placed under all the shelf-pieces in walls of the beams, except the drop in such a manner as to receive the up and down arm of the iron knes. The lower ends of those under the span-deck-pipe step on the ends of the otp-bears; and those of the several decks above, step on the projecting part of the splashing beams. The chosen between the they and gun docks, and of their being driven into their respective places very tightly, thereby eating the pillars. Another advantage attending them is the great tendency to stiffen the shiny side, and to prevent the beans-ends from playing on the fasteners when the sihry is rolling or retaining under press of call.",
+  "response": {
+    "id": "chatcmpl-8e94a5b8fc16a280",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "2dly, By chocks, represented in Plate CCCCLV. (m., o,) which are placed under all the shelf-pieces in wake of the beams, except the orlop, in such a manner as to receive the up and down arm of the iron knees. The lower ends of those under the gun-deck shelf-piece step on the ends of the orlop-beams; and those of the several decks above, step on the projecting part of the spirketing below. The chocks, particularly those between the orlop and gun decks, admit of their being driven into their respective places very tightly, thereby acting like pillars. Another advantage attending them is their great tendency to stiffen the ship's side, and to prevent the beam-ends from playing on the fastenings when the ship is rolling, or straining under a press of sail.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792325978,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 178,
+      "prompt_tokens": 696,
+      "total_tokens": 874,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 352
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

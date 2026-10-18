@@ -1,0 +1,93 @@
+{
+  "variant": "crop_nothink",
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:104",
+  "block_index": 5,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T12:19:42+00:00",
+  "elapsed_seconds": 2.01,
+  "finish_reason": "stop",
+  "parse_text": "weight of six Mokes—Of the weights, 128 drachnes = 32 let = 2 marks a 1 bars by barely - 12114 but a novel, which avel. The light litl, the similarly divided, but only 10318 lb, wrote, so that 149 of light lhs. make only 100 of the heavy or content weight. The Copper sample was a two point gali a niv. The Frankfort foot contains 114-2 Brit inches, and of 1014. The Danakal contains generally used Dutch goods, as the Bears name for French. Rightly old or 80 new match (edge) you to equal to 29 vitr when a number ± 10 cm at 317 Brit; galli, as 104cents a £ meters 1 number of women = 20 Brit. baskets.",
+  "corrected_text": "Of the weights, 128 drachmes = 32 lot = 2 marks = 1 pound = 1.1145 lb. avoirdupois. The light pound is similarly divided, but only 1.0318 lb. avoirdupois, so that 108 of the light lbs. make only 100 of the heavy or centner weight. The Cologne mark, here reckoned = 3611 grains troy, is used for gold and silver. The Frankfort foot contains 11.42 Brit. inches, and the ell 21.54. The Brabant ell is generally used for Dutch goods, as the Paris aune for French. Eighty old or 90 new mass (each schoppen) are equal to 20 viertels = 1 ohm = 31.57 Brit. gall.: 16 seeters = 8 metzen = 4 simmers = 1 malter or achtel = 28 Brit. bushels. There are two sorts of pounds, the peso sottile lb., and the peso grosso lb. The latter is a tenth part heavier than the former, so that the cantaro of 100 lbs. peso sottile = 69.89 lbs. avoirdupois, and the cantaro of 100 lbs. peso grosso = 76.88. The latter is used for bulky commodities, and the former for gold, silver, and",
+  "reasoning_tokens": 0,
+  "usage": {
+    "completion_tokens": 324,
+    "prompt_tokens": 743,
+    "total_tokens": 1067,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 362
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 3000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows this region of the page. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\nweight of six Mokes—Of the weights, 128 drachnes = 32 let = 2 marks a 1 bars by barely - 12114 but a novel, which avel. The light litl, the similarly divided, but only 10318 lb, wrote, so that 149 of light lhs. make only 100 of the heavy or content weight. The Copper sample was a two point gali a niv. The Frankfort foot contains 114-2 Brit inches, and of 1014. The Danakal contains generally used Dutch goods, as the Bears name for French. Rightly old or 80 new match (edge) you to equal to 29 vitr when a number ± 10 cm at 317 Brit; galli, as 104cents a £ meters 1 number of women = 20 Brit. baskets.",
+  "response": {
+    "id": "chatcmpl-8cb278ad9d183b6b",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "Of the weights, 128 drachmes = 32 lot = 2 marks = 1 pound = 1.1145 lb. avoirdupois. The light pound is similarly divided, but only 1.0318 lb. avoirdupois, so that 108 of the light lbs. make only 100 of the heavy or centner weight. The Cologne mark, here reckoned = 3611 grains troy, is used for gold and silver. The Frankfort foot contains 11.42 Brit. inches, and the ell 21.54. The Brabant ell is generally used for Dutch goods, as the Paris aune for French. Eighty old or 90 new mass (each schoppen) are equal to 20 viertels = 1 ohm = 31.57 Brit. gall.: 16 seeters = 8 metzen = 4 simmers = 1 malter or achtel = 28 Brit. bushels. There are two sorts of pounds, the peso sottile lb., and the peso grosso lb. The latter is a tenth part heavier than the former, so that the cantaro of 100 lbs. peso sottile = 69.89 lbs. avoirdupois, and the cantaro of 100 lbs. peso grosso = 76.88. The latter is used for bulky commodities, and the former for gold, silver, and",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792325983,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 324,
+      "prompt_tokens": 743,
+      "total_tokens": 1067,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 362
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

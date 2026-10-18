@@ -1,0 +1,93 @@
+{
+  "variant": "crop_nothink",
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1828",
+  "block_index": 2,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T12:23:25+00:00",
+  "elapsed_seconds": 1.94,
+  "finish_reason": "stop",
+  "parse_text": "Our proposition then is, that these emotions are not original emotions, nor produced directly by any qualities in the object which excite them, but are reflections or images of the mora radical and familiar emotions in which we have already studied, and are conscious, not by any inherent virtue in the objects before, but by the sacredents, if we may so express ourselves, by which these may have been enabled to suggest or recalls to our our own past sessions or sympathies. We might do not some of anything, but the fortuma of sufficient beings; and that, everything partaking of the nature of mental emotion must have the to object the feelings, past, present, or possible, of something capable of sensation, independently, therefore, of all evidence, and without the help of an explanation, you should have been apt to conduct that the emotions of beauty and sublining must here for the object the selferings or enjoyment of entent belages, and that every aspect is intrinsically absent and incredible the supptions, that material objects, which obviously do neither hurt nor delight the body, should yet excite, by their more physical qualities, the very powerful",
+  "corrected_text": "Our proposition then is, that these emotions are not original emotions, nor produced directly by any qualities in the objects which excite them; but are reflections or images of the more radical and familiar emotions to which we have already alluded, and are occasioned, not by any inherent virtue in the objects before us, but by the accidents, if we may so express ourselves, by which these may have been enabled to suggest or recall to us our own past sensations or sympathies. We might almost venture, indeed, to lay it down as an axiom, that, except in the plain and palpable case of bodily pain or pleasure, we can never be interested in any thing but the fortunes of sentient beings; and that every thing partaking of the nature of mental emotion must have for its object the feelings, past, present, or possible, of something capable of sensation. Independently, therefore, of all evidence, and without the help of any explanation, we should have been apt to conclude that the emotions of beauty and sublimity must have for their objects the sufferings or enjoyments of sentient beings; and to reject as intrinsically absurd and incredible the supposition, that material objects, which obviously do neither hurt nor delight the body, should yet excite, by their mere physical qualities, the very powerful",
+  "reasoning_tokens": 0,
+  "usage": {
+    "completion_tokens": 265,
+    "prompt_tokens": 988,
+    "total_tokens": 1253,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 578
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 3000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows this region of the page. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\nOur proposition then is, that these emotions are not original emotions, nor produced directly by any qualities in the object which excite them, but are reflections or images of the mora radical and familiar emotions in which we have already studied, and are conscious, not by any inherent virtue in the objects before, but by the sacredents, if we may so express ourselves, by which these may have been enabled to suggest or recalls to our our own past sessions or sympathies. We might do not some of anything, but the fortuma of sufficient beings; and that, everything partaking of the nature of mental emotion must have the to object the feelings, past, present, or possible, of something capable of sensation, independently, therefore, of all evidence, and without the help of an explanation, you should have been apt to conduct that the emotions of beauty and sublining must here for the object the selferings or enjoyment of entent belages, and that every aspect is intrinsically absent and incredible the supptions, that material objects, which obviously do neither hurt nor delight the body, should yet excite, by their more physical qualities, the very powerful",
+  "response": {
+    "id": "chatcmpl-9f5d181bd2b52497",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "Our proposition then is, that these emotions are not original emotions, nor produced directly by any qualities in the objects which excite them; but are reflections or images of the more radical and familiar emotions to which we have already alluded, and are occasioned, not by any inherent virtue in the objects before us, but by the accidents, if we may so express ourselves, by which these may have been enabled to suggest or recall to us our own past sensations or sympathies. We might almost venture, indeed, to lay it down as an axiom, that, except in the plain and palpable case of bodily pain or pleasure, we can never be interested in any thing but the fortunes of sentient beings; and that every thing partaking of the nature of mental emotion must have for its object the feelings, past, present, or possible, of something capable of sensation. Independently, therefore, of all evidence, and without the help of any explanation, we should have been apt to conclude that the emotions of beauty and sublimity must have for their objects the sufferings or enjoyments of sentient beings; and to reject as intrinsically absurd and incredible the supposition, that material objects, which obviously do neither hurt nor delight the body, should yet excite, by their mere physical qualities, the very powerful",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792326206,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 265,
+      "prompt_tokens": 988,
+      "total_tokens": 1253,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 578
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

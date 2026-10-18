@@ -1,0 +1,50 @@
+{
+  "stage": "match",
+  "finished_at": "2026-10-18T11:55:29+00:00",
+  "mode": "lexical",
+  "mode_detail": "retrieval service unavailable: service connection failed",
+  "models": [],
+  "wikipedia_revision": "417c267bb457fa645c22eb3b5c77764963194c70",
+  "thresholds": {
+    "title_similarity": 0.85
+  },
+  "entries": 241,
+  "skipped": 53,
+  "searched": 188,
+  "accepted": 53,
+  "rejected": 135,
+  "headword_variants": {
+    "E0008": "swivel",
+    "E0019": "philology",
+    "E0032": "endower",
+    "E0033": "endymion",
+    "E0037": "enfilade",
+    "E0050": "acroteleutic",
+    "E0064": "ovolo",
+    "E0065": "outlaugh",
+    "E0071": "helleborus hellebore",
+    "E0074": "hellespont",
+    "E0111": "haughtily",
+    "E0165": "silvius taliolos caus",
+    "E0177": "achievement",
+    "E0181": "atellan",
+    "E0195": "bylaw",
+    "E0199": "byssus",
+    "E0224": "eranthemum",
+    "E0236": "erigeron",
+    "E0237": "erinaceus",
+    "E0240": "hindustani",
+    "E0241": "abyssinian"
+  },
+  "list_pages_removed_after_fetch": 0,
+  "errors": 0,
+  "repeated_articles": {
+    "10445940": 2,
+    "82889": 2
+  },
+  "outputs": {
+    "matches": "artifacts/match/matches.jsonl",
+    "candidates": "artifacts/match/candidates",
+    "articles": "artifacts/match/articles"
+  }
+}

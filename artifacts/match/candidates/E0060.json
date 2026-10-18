@@ -1,0 +1,439 @@
+{
+  "entry_id": "E0060",
+  "headword": null,
+  "entry_text_sha256": "6aed9eaaea34817632fcefc2d85774e4c6c91c8eff9768d0c08417d417839e43",
+  "mode": "model",
+  "queries": [
+    "force fluid body particle canal velocity instant particles pressure axis point curve"
+  ],
+  "query_chars": 1500,
+  "headword_variant": null,
+  "candidate_count": 19,
+  "list_pages_removed_after_fetch": [],
+  "decision": {
+    "status": "accepted",
+    "method": "nemotron_embed_rerank",
+    "thresholds": {
+      "rerank_logit": -10.0,
+      "margin": 0.5,
+      "cosine": 0.15,
+      "title_similarity": 0.0
+    },
+    "page_id": "36626070",
+    "title": "Glossary of physics",
+    "rerank_logit": -5.682418,
+    "cosine": 0.161998,
+    "margin_to_next": 0.54045,
+    "title_similarity": 0.0
+  },
+  "article": {
+    "page_id": "36626070",
+    "revision_id": "1349226325",
+    "title": "Glossary of physics",
+    "url": "https://en.wikipedia.org/wiki/Glossary_of_physics",
+    "revision_url": "https://en.wikipedia.org/w/index.php?oldid=1349226325",
+    "text_sha256": "657a8195536316e87dae2306cb7e7fa2f3d7af287d89a6226b45c23ce83bf620",
+    "chars": 75788
+  },
+  "candidates": [
+    {
+      "page_id": "154665",
+      "revision_id": "1347455419",
+      "title": "Vortex",
+      "url": "https://en.wikipedia.org/wiki/Vortex",
+      "excerpt": "In fluid dynamics, a vortex (pl.: vortices or vortexes) is a region in a fluid in which the flow revolves around an axis line, which may be straight or curved. Vortices form in stirred fluids and may be observed in smoke rings, whirlpools in the wake of a boat, and in the winds surrounding a tropical cyclone, tornado, or dust devil.\n\nVortices are a major component of turbulent flow. The distribution of velocity, vorticity (the curl of the flow velocity), as well as the concept of circulation are used to characterize vortices. In most vortices, the fluid flow velocity is greatest next to its axis and decreases in inverse proportion to the distance from the axis.\n\nIn the absence of external forces, viscous friction within the fluid tends to organize the flow into a collection of irrotational vortices, possibly superimposed to larger-scale flows, including larger-scale vortices. Once formed vortices can move, stretch, twist, and interact in complex ways. A moving vortex carries some angular and linear momentum, energy, and mass, with it.\n\nIn the dynamics of fluid, a vortex is fluid that revolves around the line of flow. The flow of fluid might be curved or straight. Vortices form from",
+      "excerpt_offset": 0,
+      "total_chars": 18219,
+      "bm25": {
+        "q0": {
+          "rank": 1,
+          "score": 68.4581
+        }
+      },
+      "best_rank": 1,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1184,
+      "cosine": 0.193757,
+      "rerank_logit": -6.669768,
+      "rerank_position": 15
+    },
+    {
+      "page_id": "166086",
+      "revision_id": "1323769072",
+      "title": "Streamlines, streaklines, and pathlines",
+      "url": "https://en.wikipedia.org/wiki/Streamlines,_streaklines,_and_pathlines",
+      "excerpt": "Streamlines, streaklines and pathlines are field lines in a fluid flow.They differ only when the flow changes with time, that is, when the flow is not steady. Considering a velocity vector field in three-dimensional space in the framework of continuum mechanics:\n\nStreamlines are a family of curves whose tangent vectors constitute the velocity vector field of the flow. These show the direction in which a massless fluid element will travel at any point in time.\n\nStreaklines are the loci of points of all the fluid particles that have passed continuously through a particular spatial point in the past. Dye steadily injected into the fluid at a fixed point (as in dye tracing) extends along a streakline.\n\nPathlines are the trajectories that individual fluid particles follow. These can be thought of as \"recording\" the path of a fluid element in the flow over a certain period. The direction the path takes will be determined by the streamlines of the fluid at each moment in time.\n\nBy definition, different streamlines at the same instant in a flow do not intersect, because a fluid particle cannot have two different velocities at the same point. Pathlines are allowed to intersect themselves or",
+      "excerpt_offset": 0,
+      "total_chars": 8805,
+      "bm25": {
+        "q0": {
+          "rank": 2,
+          "score": 61.8309
+        }
+      },
+      "best_rank": 2,
+      "title_similarity": 0.0,
+      "context_overlap": 0.2687,
+      "cosine": 0.233853,
+      "rerank_logit": -6.607942,
+      "rerank_position": 13
+    },
+    {
+      "page_id": "57109223",
+      "revision_id": "1310346871",
+      "title": "Bjerknes force",
+      "url": "https://en.wikipedia.org/wiki/Bjerknes_force",
+      "excerpt": "Bjerknes forces are translational forces on bubbles in a sound wave. The phenomenon is a type of acoustic radiation force. Primary Bjerknes forces are caused by an external sound field; secondary Bjerknes forces are attractive or repulsive forces between pairs of bubbles in the same sound field caused by the pressure field generated by each bubble volume's oscillations. They were first described by Vilhelm Bjerknes in his 1906 Fields of Force.\n\nIn Fields of Force Bjerknes lay out geometrical and dynamical analogies between the Maxwell's theory of electromagnetism and hydrodynamics. In the light of these analogies the Bjerknes forces are being predicted.\n\nBjerknes writes:\n\n\"Any body which participates in the translatory motion of a fluid mass is subject to a kinematic buoyancy equal to the product of the acceleration of the translatory motion multiplied by the mass of the water displaced by the body\"\n\nThis principle is analogous to Archimedes' principle. Based on this principle the force acting on a particle of volume V {\\displaystyle V} is F = a ρ V = ∂ u ∂ t ρ V {\\displaystyle F={\\mathbf {a}}\\rho V={\\frac {\\partial {\\mathbf {u}}}{\\partial t}}\\rho V}. Where u {\\displaystyle {\\mathb",
+      "excerpt_offset": 0,
+      "total_chars": 5250,
+      "bm25": {
+        "q0": {
+          "rank": 3,
+          "score": 56.2197
+        }
+      },
+      "best_rank": 3,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1846,
+      "cosine": 0.261742,
+      "rerank_logit": -6.525994,
+      "rerank_position": 8
+    },
+    {
+      "page_id": "36626070",
+      "revision_id": "1349226325",
+      "title": "Glossary of physics",
+      "url": "https://en.wikipedia.org/wiki/Glossary_of_physics",
+      "excerpt": "This glossary of physics is a list of definitions of terms and concepts relevant to physics, its sub-disciplines, and related fields, including mechanics, materials science, nuclear physics, particle physics, and thermodynamics. For more inclusive glossaries concerning related fields of science and technology, see Glossary of chemistry terms, Glossary of astronomy, Glossary of areas of mathematics, and Glossary of engineering.\n\nab initio\n\nA mathematical model which seeks to describe atomic nuclei by solving the non-relativistic Schrödinger equation for all constituent nucleons and the forces that exist between them. Such methods yield precise results for very light nuclei but become more approximate for heavier nuclei.\n\nAbbe number\n\nIn optics and lens design, a measure of a transparent material's dispersion (a variation of refractive index versus wavelength). High values of V indicate low dispersion.\n\nabsolute electrode potential\n\nIn electrochemistry, the electrode potential of a metal measured with respect to a universal reference system (without any additional metal–solution interface).\n\nabsolute humidity\n\nThe ratio of the water vapor in a sample of air to the volume of the sampl",
+      "excerpt_offset": 0,
+      "total_chars": 75788,
+      "bm25": {
+        "q0": {
+          "rank": 4,
+          "score": 56.071
+        }
+      },
+      "best_rank": 4,
+      "title_similarity": 0.0,
+      "context_overlap": 0.087,
+      "cosine": 0.161998,
+      "rerank_logit": -5.682418,
+      "rerank_position": 1
+    },
+    {
+      "page_id": "221536",
+      "revision_id": "1350434340",
+      "title": "Right-hand rule",
+      "url": "https://en.wikipedia.org/wiki/Right-hand_rule",
+      "excerpt": "In mathematics and physics, the right-hand rule is a convention and a mnemonic utilized to define the orientation of axes in three-dimensional space and to determine the direction of the cross product of two vectors, as well as to establish the direction of the force on a current-carrying conductor in a magnetic field.\n\nThe various right- and left-hand rules arise from the fact that the three axes of three-dimensional space have two possible orientations. This can be seen by holding your hands together with palms up and fingers curled. If the curl of the fingers represents a movement from the first or x-axis to the second or y-axis, then the third or z-axis can point along either right thumb or left thumb.\n\nThe right-hand rule dates back to the 19th century when it was implemented as a way for identifying the positive direction of coordinate axes in three dimensions. William Rowan Hamilton, recognized for his development of quaternions, a mathematical system for representing three-dimensional rotations, is often attributed with the introduction of this convention. In the context of quaternions, the Hamiltonian product of two vector quaternions yields a quaternion comprising both sc",
+      "excerpt_offset": 0,
+      "total_chars": 12635,
+      "bm25": {
+        "q0": {
+          "rank": 5,
+          "score": 54.8269
+        }
+      },
+      "best_rank": 5,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1053,
+      "cosine": 0.068105,
+      "rerank_logit": -6.493546,
+      "rerank_position": 7
+    },
+    {
+      "page_id": "286454",
+      "revision_id": "1262180705",
+      "title": "Settling",
+      "url": "https://en.wikipedia.org/wiki/Settling",
+      "excerpt": "Settling is the process by which particulates move towards the bottom of a liquid and form a sediment. Particles that experience a force, either due to gravity or due to centrifugal motion will tend to move in a uniform manner in the direction exerted by that force. For gravity settling, this means that the particles will tend to fall to the bottom of the vessel, forming sludge or slurry at the vessel base.Settling is an important operation in many applications, such as mining, wastewater and drinking water treatment, biological science, space propellant reignition, and scooping.\n\nFor settling particles that are considered individually, i.e. dilute particle solutions, there are two main forces enacting upon any particle. The primary force is an applied force, such as gravity, and a drag force that is due to the motion of the particle through the fluid. The applied force is usually not affected by the particle's velocity, whereas the drag force is a function of the particle velocity.\n\nFor a particle at rest no drag force will be exhibited, which causes the particle to accelerate due to the applied force. When the particle accelerates, the drag force acts in the direction opposite to",
+      "excerpt_offset": 0,
+      "total_chars": 8297,
+      "bm25": {
+        "q0": {
+          "rank": 6,
+          "score": 53.4051
+        }
+      },
+      "best_rank": 6,
+      "title_similarity": 0.0,
+      "context_overlap": 0.2239,
+      "cosine": 0.205169,
+      "rerank_logit": -6.599256,
+      "rerank_position": 12
+    },
+    {
+      "page_id": "2684087",
+      "revision_id": "1346986271",
+      "title": "Momentum diffusion",
+      "url": "https://en.wikipedia.org/wiki/Momentum_diffusion",
+      "excerpt": "Momentum diffusion most commonly refers to the diffusion, or spread of momentum between particles (atoms or molecules) of matter, often in the fluid state.This transport of momentum can occur in any direction of the fluid flow. Momentum diffusion can be attributed to either external pressure or shear stress or both.\n\nWhen pressure is applied on an incompressible fluid the velocity of the fluid will change. The fluid accelerates or decelerates depending on the relative direction of pressure with respect to the flow direction. This is because applying pressure on the fluid has caused momentum diffusion in that direction. Understanding the exact nature of diffusion is a key aspect toward understanding momentum diffusion due to pressure.\n\nA fluid flowing along a flat plate will stick to it at the point of contact and this is known as the no-slip condition. This is an outcome of the adhesive forces between the flat plate and the fluid. The presence of the wall has an effect up to a certain distance in the fluid (in the direction perpendicular to the wall area and flow) and this is known as the boundary layer.\n\nAny layer of fluid that is not in contact with the wall will be flowing with ",
+      "excerpt_offset": 0,
+      "total_chars": 3385,
+      "bm25": {
+        "q0": {
+          "rank": 7,
+          "score": 53.3059
+        }
+      },
+      "best_rank": 7,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1803,
+      "cosine": 0.259301,
+      "rerank_logit": -6.768969,
+      "rerank_position": 17
+    },
+    {
+      "page_id": "1437020",
+      "revision_id": "1320844436",
+      "title": "Guiding center",
+      "url": "https://en.wikipedia.org/wiki/Guiding_center",
+      "excerpt": "In physics, the motion of an electrically charged particle such as an electron or ion in a plasma in a magnetic field can be treated as the superposition of a relatively fast circular motion around a point called the guiding center and a relatively slow drift of this point. The drift speeds may differ for various species depending on their charge states, masses, or temperatures, possibly resulting in electric currents or chemical separation.\n\nIf the magnetic field is uniform and all other forces are absent, then the Lorentz force will cause a particle to undergo a constant acceleration perpendicular to both the particle velocity and the magnetic field. This does not affect particle motion parallel to the magnetic field, but results in circular motion at constant speed in the plane perpendicular to the magnetic field. This circular motion is known as the gyromotion or cyclotron motion. For a particle with mass m {\\displaystyle m} and charge q {\\displaystyle q} moving in a magnetic field with strength B {\\displaystyle B}, it has a frequency, called the gyrofrequency or cyclotron frequency, of ω c = | q | B m. {\\displaystyle \\omega _{\\rm {c}}={\\frac {|q|B}{m}}.}\n\nFor a speed perpendic",
+      "excerpt_offset": 0,
+      "total_chars": 11181,
+      "bm25": {
+        "q0": {
+          "rank": 8,
+          "score": 53.2543
+        }
+      },
+      "best_rank": 8,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1562,
+      "cosine": 0.232199,
+      "rerank_logit": -6.7088,
+      "rerank_position": 16
+    },
+    {
+      "page_id": "2467556",
+      "revision_id": "1345237303",
+      "title": "Fluidized bed",
+      "url": "https://en.wikipedia.org/wiki/Fluidized_bed",
+      "excerpt": "A fluidized bed is a physical phenomenon that occurs when a solid particulate substance (usually present in a holding vessel) is under the right conditions so that it behaves like a fluid. The usual way to achieve a fluidized bed is to pump pressurized fluid into the particles. The resulting medium then has many properties and characteristics of normal fluids, such as the ability to free-flow under gravity, or to be pumped using fluid technologies.\n\nThe resulting phenomenon is called fluidization. Fluidized beds are used for several purposes, such as fluidized bed reactors (types of chemical reactors), solids separation, fluid catalytic cracking, fluidized bed combustion, heat or mass transfer or interface modification, such as applying a coating onto solid items. This technique is also becoming more common in aquaculture for the production of shellfish in integrated multi-trophic aquaculture systems.\n\nA fluidized bed consists of fluid-solid mixture that exhibits fluid-like properties. As such, the upper surface of the bed is relatively horizontal, which is analogous to hydrostatic behavior. The bed can be considered to be a heterogeneous mixture of fluid and solid that can be repr",
+      "excerpt_offset": 0,
+      "total_chars": 10282,
+      "bm25": {
+        "q0": {
+          "rank": 9,
+          "score": 52.9406
+        }
+      },
+      "best_rank": 9,
+      "title_similarity": 0.0,
+      "context_overlap": 0.0741,
+      "cosine": 0.153651,
+      "rerank_logit": -6.859908,
+      "rerank_position": 19
+    },
+    {
+      "page_id": "3096395",
+      "revision_id": "1258645741",
+      "title": "Rotation around a fixed axis",
+      "url": "https://en.wikipedia.org/wiki/Rotation_around_a_fixed_axis",
+      "excerpt": "Rotation around a fixed axis or axial rotation is a special case of rotational motion around an axis of rotation fixed, stationary, or static in three-dimensional space. This type of motion excludes the possibility of the instantaneous axis of rotation changing its orientation and cannot describe such phenomena as wobbling or precession. According to Euler's rotation theorem, simultaneous rotation along a number of stationary axes at the same time is impossible; if two rotations are forced at the same time, a new axis of rotation will result.\n\nThis concept assumes that the rotation is also stable, such that no torque is required to keep it going. The kinematics and dynamics of rotation around a fixed axis of a rigid body are mathematically much simpler than those for free rotation of a rigid body; they are entirely analogous to those of linear motion along a single fixed direction, which is not true for free rotation of a rigid body. The expressions for the kinetic energy of the object, and for the forces on the parts of the object, are also simpler for rotation around a fixed axis, than for general rotational motion. For these reasons, rotation around a fixed axis is typically tau",
+      "excerpt_offset": 0,
+      "total_chars": 17365,
+      "bm25": {
+        "q0": {
+          "rank": 10,
+          "score": 52.6753
+        }
+      },
+      "best_rank": 10,
+      "title_similarity": 0.0,
+      "context_overlap": 0.2239,
+      "cosine": 0.197309,
+      "rerank_logit": -6.562843,
+      "rerank_position": 10
+    },
+    {
+      "page_id": "766619",
+      "revision_id": "1351540832",
+      "title": "Cyclonic separation",
+      "url": "https://en.wikipedia.org/wiki/Cyclonic_separation",
+      "excerpt": " of removing particulates from an air, gas or liquid stream, without the use of filters, through vortex separation. When removing particulate matter from liquid, a hydrocyclone is used; while from gas, a gas cyclone is used. Rotational effects and gravity are used to separate mixtures of solids and fluids. The method can also be used to separate fine droplets of liquid from a gaseous stream.\n\nA high-speed rotating (air)flow is established within a cylindrical or conical container called a cyclone. Air flows in a helical pattern, beginning at the top (wide end) of the cyclone and ending at the bottom (narrow) end before exiting the cyclone in a straight stream through the center of the cyclone and out the top. Larger (denser) particles in the rotating stream have too much inertia to follow the tight curve of the stream, and thus strike the outside wall, then fall to the bottom of the cyclone where they can be removed. In a conical system, as the rotating flow moves towards the narrow end of the cyclone, the rotational radius of the stream is reduced, thus separating smaller and smaller particles. The cyclone geometry, together with volumetric flow rate, defines the cut point of the ",
+      "excerpt_offset": 31,
+      "total_chars": 11567,
+      "bm25": {
+        "q0": {
+          "rank": 11,
+          "score": 52.0331
+        }
+      },
+      "best_rank": 11,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1081,
+      "cosine": 0.098713,
+      "rerank_logit": -6.797734,
+      "rerank_position": 18
+    },
+    {
+      "page_id": "2974577",
+      "revision_id": "1272548096",
+      "title": "Added mass",
+      "url": "https://en.wikipedia.org/wiki/Added_mass",
+      "excerpt": "In fluid mechanics, added mass or virtual mass is the inertia added to a system because an accelerating or decelerating body must move (or deflect) some volume of surrounding fluid as it moves through it. Added mass is a common issue because the object and surrounding fluid cannot occupy the same physical space simultaneously. For simplicity this can be modeled as some volume of fluid moving with the object, though in reality \"all\" the fluid will be accelerated, to various degrees.\n\nThe dimensionless added mass coefficient is the added mass divided by the displaced fluid mass – i.e. divided by the fluid density times the volume of the body. In general, the added mass is a second-order tensor, relating the fluid acceleration vector to the resulting force vector on the body.\n\nFriedrich Wilhelm Bessel proposed the concept of added mass in 1828 to describe the motion of a pendulum in a fluid. The period of such a pendulum increased relative to its period in a vacuum (even after accounting for buoyancy effects), indicating that the surrounding fluid increased the effective mass of the system.\n\nThe concept of added mass is arguably the first example of renormalization in physics. The con",
+      "excerpt_offset": 0,
+      "total_chars": 8865,
+      "bm25": {
+        "q0": {
+          "rank": 12,
+          "score": 51.4512
+        }
+      },
+      "best_rank": 12,
+      "title_similarity": 0.0,
+      "context_overlap": 0.2206,
+      "cosine": 0.277234,
+      "rerank_logit": -6.310208,
+      "rerank_position": 3
+    },
+    {
+      "page_id": "221047",
+      "revision_id": "1329236476",
+      "title": "Flow measurement",
+      "url": "https://en.wikipedia.org/wiki/Flow_measurement",
+      "excerpt": "Flow measurement is the quantification of bulk fluid movement. Flow can be measured using devices called flowmeters in various ways. The common types of flowmeters with industrial applications are listed below:\n\nObstruction type (differential pressure or variable area)\n\nInferential (turbine type)\n\nElectromagnetic\n\nPositive-displacement flowmeters, which accumulate a fixed volume of fluid and then count the number of times the volume is filled to measure flow.\n\nFluid dynamic (vortex shedding)\n\nAnemometer\n\nUltrasonic flow meter\n\nMass flow meter (Coriolis force).\n\nFlow measurement methods other than positive-displacement flowmeters rely on forces produced by the flowing stream as it overcomes a known constriction, to indirectly calculate flow. Flow may be measured by measuring the velocity of fluid over a known area. For very large flows, tracer methods may be used to deduce the flow rate from the change in concentration of a dye or radioisotope.\n\nBoth gas and liquid flow can be measured in physical quantities of kind volumetric flow rate or mass flow rates, with respective SI units such as cubic meters per second or kilograms per second, respectively. These measurements are related b",
+      "excerpt_offset": 0,
+      "total_chars": 39465,
+      "bm25": {
+        "q0": {
+          "rank": 13,
+          "score": 51.3682
+        }
+      },
+      "best_rank": 13,
+      "title_similarity": 0.0,
+      "context_overlap": 0.0952,
+      "cosine": 0.119977,
+      "rerank_logit": -6.578506,
+      "rerank_position": 11
+    },
+    {
+      "page_id": "28767",
+      "revision_id": "1337091286",
+      "title": "Statics",
+      "url": "https://en.wikipedia.org/wiki/Statics",
+      "excerpt": "Statics is the branch of classical mechanics that is concerned with the analysis of force and torque acting on a physical system that does not experience an acceleration, but rather is in equilibrium with its environment.\n\nIf F {\\displaystyle {\\textbf {F}}} is the total of the forces acting on the system, m {\\displaystyle m} is the mass of the system and a {\\displaystyle {\\textbf {a}}} is the acceleration of the system, Newton's second law states that F = m a {\\displaystyle {\\textbf {F}}=m{\\textbf {a}}\\,} (the bold font indicates a vector quantity, i.e. one with both magnitude and direction). If a = 0 {\\displaystyle {\\textbf {a}}=0}, then F = 0 {\\displaystyle {\\textbf {F}}=0}. As for a system in static equilibrium, the acceleration equals zero, the system is either at rest, or its center of mass moves at constant velocity.\n\nThe application of the assumption of zero acceleration to the summation of moments acting on the system leads to M = I α = 0 {\\displaystyle {\\textbf {M}}=I\\alpha =0}, where M {\\displaystyle {\\textbf {M}}} is the summation of all moments acting on the system, I {\\displaystyle I} is the moment of inertia of the mass and α {\\displaystyle \\alpha } is the angular acc",
+      "excerpt_offset": 0,
+      "total_chars": 7702,
+      "bm25": {
+        "q0": {
+          "rank": 14,
+          "score": 51.2339
+        }
+      },
+      "best_rank": 14,
+      "title_similarity": 0.0,
+      "context_overlap": 0.2245,
+      "cosine": 0.238498,
+      "rerank_logit": -6.321867,
+      "rerank_position": 4
+    },
+    {
+      "page_id": "65913",
+      "revision_id": "1344119756",
+      "title": "Equations of motion",
+      "url": "https://en.wikipedia.org/wiki/Equations_of_motion",
+      "excerpt": " are usually spatial coordinates and time, but may include momentum components. The most general choice are generalized coordinates which can be any convenient variables characteristic of the physical system. The functions are defined in a Euclidean space in classical mechanics, but are replaced by curved spaces in relativity. If the dynamics of a system is known, the equations are the solutions for the differential equations describing the motion of the dynamics.\n\nThere are two main descriptions of motion: dynamics and kinematics. Dynamics is general, since the momenta, forces and energy of the particles are taken into account. In this instance, sometimes the term dynamics refers to the differential equations that the system satisfies (e.g., Newton's second law or Euler–Lagrange equations), and sometimes to the solutions to those equations.\n\nHowever, kinematics is simpler. It concerns only variables derived from the positions of objects and time. In circumstances of constant acceleration, these simpler equations of motion are usually referred to as the SUVAT equations, arising from the definitions of kinematic quantities: displacement (s), initial velocity (u), final velocity (v),",
+      "excerpt_offset": 307,
+      "total_chars": 39834,
+      "bm25": {
+        "q0": {
+          "rank": 15,
+          "score": 51.1344
+        }
+      },
+      "best_rank": 15,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1765,
+      "cosine": 0.17356,
+      "rerank_logit": -6.37173,
+      "rerank_position": 5
+    },
+    {
+      "page_id": "14005026",
+      "revision_id": "1320537347",
+      "title": "Diffusiophoresis and diffusioosmosis",
+      "url": "https://en.wikipedia.org/wiki/Diffusiophoresis_and_diffusioosmosis",
+      "excerpt": "Diffusiophoresis is the spontaneous motion of colloidal particles or molecules in a fluid, induced by a concentration gradient of a different substance. In other words, it is motion of one species, A, in response to a concentration gradient in another species, B. Typically, A is colloidal particles which are in aqueous solution in which B is a dissolved salt such as sodium chloride, and so the particles of A are much larger than the ions of B. But both A and B could be polymer molecules, and B could be a small molecule. For example, concentration gradients in ethanol solutions in water move 1 μm diameter colloidal particles with diffusiophoretic velocities v dp {\\displaystyle {\\bf {v}}_{\\text{dp}}} of order 0.1 to 1 μm/s, the movement is towards regions of the solution with lower ethanol concentration (and so higher water concentration). Both species A and B will typically be diffusing but diffusiophoresis is distinct from simple diffusion: in simple diffusion a species A moves down a gradient in its own concentration.\n\nDiffusioosmosis, also referred to as capillary osmosis, is flow of a solution relative to a fixed wall or pore surface, where the flow is driven by a concentration ",
+      "excerpt_offset": 0,
+      "total_chars": 18039,
+      "bm25": {
+        "q0": {
+          "rank": 16,
+          "score": 50.9866
+        }
+      },
+      "best_rank": 16,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1967,
+      "cosine": 0.159655,
+      "rerank_logit": -6.465121,
+      "rerank_position": 6
+    },
+    {
+      "page_id": "342113",
+      "revision_id": "1269975278",
+      "title": "Archimedes number",
+      "url": "https://en.wikipedia.org/wiki/Archimedes_number",
+      "excerpt": "In viscous fluid dynamics, the Archimedes number (Ar), is a dimensionless number used to determine the motion of fluids due to density differences, named after the ancient Greek scientist and mathematician Archimedes.\n\nIt is the ratio of gravitational forces to viscous forces and has the form:\n\nA r = g L 3 ρ − ρ ℓ ρ ℓ ν 2 = g L 3 ρ ℓ (ρ − ρ ℓ) μ 2 {\\displaystyle {\\begin{aligned}\\mathrm {Ar} &={\\frac {gL^{3}{\\frac {\\rho -\\rho _{\\ell }}{\\rho _{\\ell }}}}{\\nu ^{2}}}\\\\&={\\frac {gL^{3}\\rho _{\\ell }(\\rho -\\rho _{\\ell })}{\\mu ^{2}}}\\\\\\end{aligned}}}\n\nwhere:\n\ng {\\displaystyle g} is the local external field (for example gravitational acceleration), m/s 2,\n\nL {\\displaystyle L} is the characteristic length of body, m.\n\nρ − ρ ℓ ρ ℓ {\\displaystyle {\\frac {\\rho -\\rho _{\\ell }}{\\rho _{\\ell }}}} is the submerged specific gravity,\n\nρ ℓ {\\displaystyle \\rho _{\\ell }} is the density of the fluid, kg/m 3,\n\nρ {\\displaystyle \\rho } is the density of the body, kg/m 3,\n\nν = μ ρ ℓ {\\displaystyle \\nu ={\\frac {\\mu }{\\rho _{\\ell }}}} is the kinematic viscosity, m 2 /s,\n\nμ {\\displaystyle \\mu } is the dynamic viscosity, Pa·s,\n\nThe Archimedes number is generally used in design of tubular chemical process reactors.",
+      "excerpt_offset": 0,
+      "total_chars": 3925,
+      "bm25": {
+        "q0": {
+          "rank": 17,
+          "score": 50.934
+        }
+      },
+      "best_rank": 17,
+      "title_similarity": 0.0,
+      "context_overlap": 0.14,
+      "cosine": 0.211748,
+      "rerank_logit": -6.222868,
+      "rerank_position": 2
+    },
+    {
+      "page_id": "5587769",
+      "revision_id": "1328111139",
+      "title": "Multiphase flow",
+      "url": "https://en.wikipedia.org/wiki/Multiphase_flow",
+      "excerpt": "In fluid mechanics, multiphase flow is the simultaneous flow of materials with two or more thermodynamic phases. Virtually all processing technologies from cavitating pumps and turbines to paper-making and the construction of plastics involve some form of multiphase flow. It is also prevalent in many natural phenomena.\n\nThese phases may consist of one chemical component (e.g. flow of water and water vapour), or several different chemical components (e.g. flow of oil and water). A phase is classified as continuous if it occupies a continually connected region of space (as opposed to disperse if the phase occupies disconnected regions of space). The continuous phase may be either gaseous or a liquid. The disperse phase can consist of a solid, liquid or gas.\n\nTwo general topologies can be identified: disperse flows and separated flows. The former consists of finite particles, drops or bubbles distributed within a continuous phase, whereas the latter consists of two or more continuous streams of fluids separated by interfaces.\n\nThe study of multiphase flow is strongly linked to the development of fluid mechanics and thermodynamics. A key early discovery was made by Archimedes of Syracu",
+      "excerpt_offset": 0,
+      "total_chars": 17947,
+      "bm25": {
+        "q0": {
+          "rank": 18,
+          "score": 50.6451
+        }
+      },
+      "best_rank": 18,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1053,
+      "cosine": 0.094783,
+      "rerank_logit": -6.619431,
+      "rerank_position": 14
+    },
+    {
+      "page_id": "42287747",
+      "revision_id": "1345523042",
+      "title": "Acoustic tweezers",
+      "url": "https://en.wikipedia.org/wiki/Acoustic_tweezers",
+      "excerpt": "zers and levitators.\n\nStrictly speaking, only a single-beam based configuration can be called acoustical tweezers. However, the broad concept of acoustical tweezers involves two configurations of beams: single beam of sound and a reflector of the sound to create standing waves or two beams of sound pointed directly at each other. The technology works by controlling the position and distance of acoustic pressure nodes and antinodes, this draws objects to the nodes which have an average lower pressure because of acoustic radiation pressure unless the object is 10% or less the size of the wavelength in that case the ponderomotive force will overcome the acoustic radiation and the object will move to the antinode. The target object must be considerably smaller than the wavelength of sound used unless specific circumstances are underplay that tailor distance between the nodes and the wavelength used for the object in question to levitate objects that are much larger than the wavelength in use though this takes some carful math and a lot of trial and error. The use of one-dimensional standing waves to manipulate small particles was first reported in the 1982 research article \"Ultrasonic ",
+      "excerpt_offset": 397,
+      "total_chars": 27399,
+      "bm25": {
+        "q0": {
+          "rank": 19,
+          "score": 50.2199
+        }
+      },
+      "best_rank": 19,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1389,
+      "cosine": 0.094228,
+      "rerank_logit": -6.542118,
+      "rerank_position": 9
+    }
+  ]
+}

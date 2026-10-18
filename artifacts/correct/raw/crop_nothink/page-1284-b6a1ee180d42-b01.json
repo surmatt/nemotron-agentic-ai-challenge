@@ -1,0 +1,93 @@
+{
+  "variant": "crop_nothink",
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1284",
+  "block_index": 1,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T12:22:10+00:00",
+  "elapsed_seconds": 2.16,
+  "finish_reason": "stop",
+  "parse_text": "seetland, the menætft of the human race. To acute me of following the death of the queen my filter, is to brand me with he infany which I sabro molt. It is my nature to employ the direction and Efter, and not the fwof of Judith. Elizabeth herself will attach, that I have often admitted her was to draw upon her head the retention of my friends by the economy of her eruties to me. My innocence cannot finely be doubted; and it is known to the Almighty God, I could not potify think to forcego his mercy, and to ruin my folly, in order to compels a transgirtion fo horrible as that or her murders. But amidt the time ment and impropried pretences which my silverfa-ries are pleased to invent to overvelmim me with cala- mules and angelit, I can trace and discover with erie the next cause of their mobility and promotion. My crimes are my birth, the injuries I have been com- pelled to endure, and y religion. I am proud of the first, I can forgive the freedom, and she tried in a fource to me of fuch comfort and hope, that for its glory I will be contested that my blood fall flow upon the faithful?",
+  "corrected_text": "Scotland. the meanest of the human race. To accuse me of felonying the death of the queen my sister, is to brand me with the infamy which I abhor most. It is my nature to employ the devotions of Esther, and not the sword of Judith. Elizabeth herself will attest, that I have often admonished her not to draw upon her head the resentment of my friends by the enormity of her cruelties to me. My innocence cannot sincerely be doubted; and it is known to the Almighty God, that I could not possibly think to forego his mercy, and to ruin my soul, in order to compass a transgression so horrible as that of her murder. But amidst the inclement and unprincipled pretences which my adversaries are pleased to invent to overwhelm me with calamities and anguish, I can trace and discover with ease the real causes of their hostility and provocation. My crimes are my birth, the injuries I have been compelled to endure, and my religion. I am proud of the first; I can forgive the second; and the third is a source to me of such comfort and hope, that for its glory I will be contented that my blood shall flow upon the scaffold.",
+  "reasoning_tokens": 0,
+  "usage": {
+    "completion_tokens": 258,
+    "prompt_tokens": 1097,
+    "total_tokens": 1355,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 650
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 3000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows this region of the page. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\nseetland, the menætft of the human race. To acute me of following the death of the queen my filter, is to brand me with he infany which I sabro molt. It is my nature to employ the direction and Efter, and not the fwof of Judith. Elizabeth herself will attach, that I have often admitted her was to draw upon her head the retention of my friends by the economy of her eruties to me. My innocence cannot finely be doubted; and it is known to the Almighty God, I could not potify think to forcego his mercy, and to ruin my folly, in order to compels a transgirtion fo horrible as that or her murders. But amidt the time ment and impropried pretences which my silverfa-ries are pleased to invent to overvelmim me with cala- mules and angelit, I can trace and discover with erie the next cause of their mobility and promotion. My crimes are my birth, the injuries I have been com- pelled to endure, and y religion. I am proud of the first, I can forgive the freedom, and she tried in a fource to me of fuch comfort and hope, that for its glory I will be contested that my blood fall flow upon the faithful?",
+  "response": {
+    "id": "chatcmpl-8d99efaaf6666d02",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "Scotland. the meanest of the human race. To accuse me of felonying the death of the queen my sister, is to brand me with the infamy which I abhor most. It is my nature to employ the devotions of Esther, and not the sword of Judith. Elizabeth herself will attest, that I have often admonished her not to draw upon her head the resentment of my friends by the enormity of her cruelties to me. My innocence cannot sincerely be doubted; and it is known to the Almighty God, that I could not possibly think to forego his mercy, and to ruin my soul, in order to compass a transgression so horrible as that of her murder. But amidst the inclement and unprincipled pretences which my adversaries are pleased to invent to overwhelm me with calamities and anguish, I can trace and discover with ease the real causes of their hostility and provocation. My crimes are my birth, the injuries I have been compelled to endure, and my religion. I am proud of the first; I can forgive the second; and the third is a source to me of such comfort and hope, that for its glory I will be contented that my blood shall flow upon the scaffold.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792326131,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 258,
+      "prompt_tokens": 1097,
+      "total_tokens": 1355,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 650
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

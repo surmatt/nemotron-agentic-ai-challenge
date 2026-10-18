@@ -1,0 +1,93 @@
+{
+  "variant": "page_nothink",
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:257",
+  "block_index": 1,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T12:17:28+00:00",
+  "elapsed_seconds": 1.26,
+  "finish_reason": "stop",
+  "parse_text": "I love Swiffly in his parents Sir William Temple, who left him a legacy in many, with the grocery of his manuscript; and, on his death-bed, obtained for him a proform for the long or for first petrol that should houses one can at Wittenurle or Overburnt. That this provides might not be forgotten, Swift dedicated to the king the author among people with which he we weretrafed, and for a while attended the court;) but found found his obligation hopefuls. He was then invited by the end of Berkeley to accompany him into friends, when after effective crew rapid fruppments, he obtained the brings of Laurens and Kathbeggin in the discredited March; i and Soon afterwards invited over the enthusiast Skullin a young woman of other sense of Johnson, whole life be controlled to emballers, and whole days, though he certainly loved her, we may confondently afirm that he forecred by the expense.",
+  "corrected_text": "I love Swiftly in his parents Sir William Temple, who left him a legacy in many, with the grocery of his manuscript; and, on his death-bed, obtained for him a proform for the long or for first petrol that should houses one can at Wittenurle or Overburnt. That this provides might not be forgotten, Swift dedicated to the king the author among people with which he we weretrafed, and for a while attended the court;) but found found his obligation hopefuls. He was then invited by the end of Berkeley to accompany him into friends, when after effective crew rapid fruppments, he obtained the brings of Laurens and Kathbeggin in the discredited March; i and Soon afterwards invited over the enthusiast Skullin a young woman of other sense of Johnson, whole life be controlled to emballers, and whole days, though he certainly loved her, we may confondently afirm that he forecred by the expense.",
+  "reasoning_tokens": 0,
+  "usage": {
+    "completion_tokens": 198,
+    "prompt_tokens": 899,
+    "total_tokens": 1097,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 477
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 3000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows the whole page. The region is the box x0=0.099, y0=0.199, x1=0.524, y1=0.412 as fractions of the page width and height. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\nI love Swiffly in his parents Sir William Temple, who left him a legacy in many, with the grocery of his manuscript; and, on his death-bed, obtained for him a proform for the long or for first petrol that should houses one can at Wittenurle or Overburnt. That this provides might not be forgotten, Swift dedicated to the king the author among people with which he we weretrafed, and for a while attended the court;) but found found his obligation hopefuls. He was then invited by the end of Berkeley to accompany him into friends, when after effective crew rapid fruppments, he obtained the brings of Laurens and Kathbeggin in the discredited March; i and Soon afterwards invited over the enthusiast Skullin a young woman of other sense of Johnson, whole life be controlled to emballers, and whole days, though he certainly loved her, we may confondently afirm that he forecred by the expense.",
+  "response": {
+    "id": "chatcmpl-a83cec3fde739692",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "I love Swiftly in his parents Sir William Temple, who left him a legacy in many, with the grocery of his manuscript; and, on his death-bed, obtained for him a proform for the long or for first petrol that should houses one can at Wittenurle or Overburnt. That this provides might not be forgotten, Swift dedicated to the king the author among people with which he we weretrafed, and for a while attended the court;) but found found his obligation hopefuls. He was then invited by the end of Berkeley to accompany him into friends, when after effective crew rapid fruppments, he obtained the brings of Laurens and Kathbeggin in the discredited March; i and Soon afterwards invited over the enthusiast Skullin a young woman of other sense of Johnson, whole life be controlled to emballers, and whole days, though he certainly loved her, we may confondently afirm that he forecred by the expense.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792325849,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 198,
+      "prompt_tokens": 899,
+      "total_tokens": 1097,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 477
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

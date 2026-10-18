@@ -1,0 +1,93 @@
+{
+  "variant": "crop_nothink",
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:513",
+  "block_index": 2,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T12:20:52+00:00",
+  "elapsed_seconds": 1.55,
+  "finish_reason": "stop",
+  "parse_text": "conquell. William earl of Poièters and duke of Gui- ene had refoled upon an expedition to the holy land; ands for this purpose, had pay himself at the head of a whilmende, according according to formal domains, of 60,000 borfe, and a much greater number of foot. Lale Roberts for Normandy, he offered to mortgage his dominations for money influence to conduct his mindt titute into Afia. The king accepted his offer; and had prepared a fleets and army to take profiofion of the defendants, when an unfortune excellent put an end to his projects and his life. He was engaged in hunting, the feel amulement, and indeed the principal occupation, of private in those rule times. Walter Tyrer), a French gentleman remarkable for his fillfll no archway, attended him in this recreation, of which the new foreld was the fence. William had different– ed after a chesy and Tyrre), impident to flow his dexterity, let by an arrow at a flag which fudduly litrated before him. The arrow glanced from a tree, and finds the king to the here. He initially fell down dead; and Tyrrel, terrified at the accident, clapi figure to his horse, halted to the tea-thows, and embarked for France, where he joined the attitude that was fetting out from that country. This happened on the art of Arydiel, 1:100, after the king had reignent 14 years, and lived about 30. His heart was found in the woods by the country-people, and buried without ceremony at Winchester.",
+  "corrected_text": "conquest. William earl of Poitiers and duke of Guienne had resolved upon an expedition to the holy land; and, for this purpose, had put himself at the head of a vast multitude, confiding, according to some historians, of 60,000 horse, and a much greater number of foot. Like Robert of Normandy, he offered to mortgage his dominions for money sufficient to conduct this multitude into Asia. The king accepted his offer; and had prepared a fleet and army to take possession of these dominions, when an unfortunate accident put an end to his projects and his life. He was engaged in hunting, the sole amusement, and indeed the principal occupation, of princes in those rude times. Walter Tyrrel, a French gentleman remarkable for his skill in archery, attended him in this recreation, of which the new forest was the scene. William had dismounted after a chase; and Tyrrel, impatient to show his dexterity, let fly an arrow at a flag which suddenly started before him. The arrow glanced from a tree, and struck the king to the heart. He instantly fell down dead; and Tyrrel, terrified at the accident, clapt spurs to his horse, hastened to the sea-shore, and embarked for France, where he joined the crusade that was setting out from that country. This happened on the 2d of August 1100, after the king had reigned 13 years, and lived about 40. His body was found in the woods by the country-people, and buried without ceremony at Winchester.",
+  "reasoning_tokens": 0,
+  "usage": {
+    "completion_tokens": 328,
+    "prompt_tokens": 1252,
+    "total_tokens": 1580,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 722
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 3000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows this region of the page. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\nconquell. William earl of Poièters and duke of Gui- ene had refoled upon an expedition to the holy land; ands for this purpose, had pay himself at the head of a whilmende, according according to formal domains, of 60,000 borfe, and a much greater number of foot. Lale Roberts for Normandy, he offered to mortgage his dominations for money influence to conduct his mindt titute into Afia. The king accepted his offer; and had prepared a fleets and army to take profiofion of the defendants, when an unfortune excellent put an end to his projects and his life. He was engaged in hunting, the feel amulement, and indeed the principal occupation, of private in those rule times. Walter Tyrer), a French gentleman remarkable for his fillfll no archway, attended him in this recreation, of which the new foreld was the fence. William had different– ed after a chesy and Tyrre), impident to flow his dexterity, let by an arrow at a flag which fudduly litrated before him. The arrow glanced from a tree, and finds the king to the here. He initially fell down dead; and Tyrrel, terrified at the accident, clapi figure to his horse, halted to the tea-thows, and embarked for France, where he joined the attitude that was fetting out from that country. This happened on the art of Arydiel, 1:100, after the king had reignent 14 years, and lived about 30. His heart was found in the woods by the country-people, and buried without ceremony at Winchester.",
+  "response": {
+    "id": "chatcmpl-9f9322cd8a2b2908",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "conquest. William earl of Poitiers and duke of Guienne had resolved upon an expedition to the holy land; and, for this purpose, had put himself at the head of a vast multitude, confiding, according to some historians, of 60,000 horse, and a much greater number of foot. Like Robert of Normandy, he offered to mortgage his dominions for money sufficient to conduct this multitude into Asia. The king accepted his offer; and had prepared a fleet and army to take possession of these dominions, when an unfortunate accident put an end to his projects and his life. He was engaged in hunting, the sole amusement, and indeed the principal occupation, of princes in those rude times. Walter Tyrrel, a French gentleman remarkable for his skill in archery, attended him in this recreation, of which the new forest was the scene. William had dismounted after a chase; and Tyrrel, impatient to show his dexterity, let fly an arrow at a flag which suddenly started before him. The arrow glanced from a tree, and struck the king to the heart. He instantly fell down dead; and Tyrrel, terrified at the accident, clapt spurs to his horse, hastened to the sea-shore, and embarked for France, where he joined the crusade that was setting out from that country. This happened on the 2d of August 1100, after the king had reigned 13 years, and lived about 40. His body was found in the woods by the country-people, and buried without ceremony at Winchester.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792326052,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 328,
+      "prompt_tokens": 1252,
+      "total_tokens": 1580,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 722
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

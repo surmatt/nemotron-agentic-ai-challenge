@@ -1,0 +1,93 @@
+{
+  "variant": "crop_nothink",
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1678",
+  "block_index": 4,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T12:23:00+00:00",
+  "elapsed_seconds": 2.56,
+  "finish_reason": "stop",
+  "parse_text": "Billinger. Edward, had already had occasion to appreciate his talents, and put them to use. At the time when he carried on the war in Serie, he maintained a regular correspondence with Billinger who had long been known as an able Engineer, and had, indeed, made some improvements of value in the received system of Portification. After his return to Tubingen, he had frequent conversations with the Professor, on different subjects of administration and appointed him, in 1735, Privy-Comseller. This nomination was not a simple honorary title. Billingers saw himself raised at once to a power almost unlimited. He revisited some times pro motion, which he did not think himself qualified to sustain. In accepting office, his first case was to require all the knowledge necessary to the discharge of its duties. He employed almost two years in assiduous laborto to interact himself thoroughly in the statistics of the country, in considering its political situation, its constitution, its interests, and became, at the end of all this study, one of the most enlightened mini- stere that his country had yet proved. Billinger was placed in a situation too elevated not to excite jedowny and harred. He left is, and waited to get the ministry; but the court refused to receive his resignation, soon after the tender of which, the Duke died. Billinger experience from his successor of the consideration and all the friendship which he had experienced in the beginning of his career. Received into a confidence without bounds, he had the power to realize, without obstacle, those plans of administration with which the most enlightened particulars had inspired him. Wurtemburg still feels the happy influence of his ministry. Commerce, public interaction, agriculture, were protected and amorliorated by his cases. The culture of the true, of so much importance in this country, was one of the principal objects of his attention. We ought not to forget that he was the original author of that strict union which has long united Wurtembourg and Prussia, and of the importantes to which the hereditary Prince of Wurtemburg was raised at the court of Belfin. In 1737, the Duke nominated him President of his consolony, and Secretary of the grant Order of the Chace. He was also Counter or the University of Tubingen, and member of the Royal Academy of",
+  "corrected_text": "Billinger. Edward, had already had occasion to appreciate his talents, and put them to use. At the time when he carried on the war in Servia, he maintained a regular correspondence with Billinger who had long been known as an able Engineer, and had, indeed, made some improvements of value in the received system of Fortification. After his return to Tubingen, he had frequent conversations with the Professor, on different subjects of administration and appointed him, in 1735, Privy-Counsellor. This nomination was not a simple honorary title. Billinger saw himself raised at once to a power almost unlimited. He resisted some time a promotion, which he did not think himself qualified to sustain. In accepting office, his first care was to acquire all the knowledge necessary to the discharge of its duties. He employed almost two years in assiduous labour to instruct himself thoroughly in the statistics of the country, in considering its political situation, its constitution, its interests, and became, at the end of all this study, one of the most enlightened ministers that his country had yet produced. Billinger was placed in a situation too elevated not to excite jealousy and hatred. He felt it, and wished to quit the ministry; but the court refused to receive his resignation, soon after the tender of which, the Duke died. Billinger experienced from his successor all the consideration and all the friendship which he had experienced in the beginning of his career. Received into a confidence without bounds, he had the power to realize, without obstacle, those plans of administration which the most enlightened patriotism had inspired him. Wurtemberg still feels the happy influence of his ministry. Commerce, public instruction, agriculture, were protected and ameliorated by his cares. The culture of the vine, of so much importance in this country, was one of the principal objects of his attention. We ought not to forget that he was the original author of that strict union which has long united Wurtemberg and Prussia, and of the importance to which the hereditary Prince of Wurtemberg was raised at the court of Berlin. In 1737, the Duke nominated him President of his consistory, and Secretary of the grand Order of the Chace. He was also Curator of the University of Tubingen, and member of the Royal Academy of",
+  "reasoning_tokens": 0,
+  "usage": {
+    "completion_tokens": 475,
+    "prompt_tokens": 1912,
+    "total_tokens": 2387,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 1250
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 3000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows this region of the page. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\nBillinger. Edward, had already had occasion to appreciate his talents, and put them to use. At the time when he carried on the war in Serie, he maintained a regular correspondence with Billinger who had long been known as an able Engineer, and had, indeed, made some improvements of value in the received system of Portification. After his return to Tubingen, he had frequent conversations with the Professor, on different subjects of administration and appointed him, in 1735, Privy-Comseller. This nomination was not a simple honorary title. Billingers saw himself raised at once to a power almost unlimited. He revisited some times pro motion, which he did not think himself qualified to sustain. In accepting office, his first case was to require all the knowledge necessary to the discharge of its duties. He employed almost two years in assiduous laborto to interact himself thoroughly in the statistics of the country, in considering its political situation, its constitution, its interests, and became, at the end of all this study, one of the most enlightened mini- stere that his country had yet proved. Billinger was placed in a situation too elevated not to excite jedowny and harred. He left is, and waited to get the ministry; but the court refused to receive his resignation, soon after the tender of which, the Duke died. Billinger experience from his successor of the consideration and all the friendship which he had experienced in the beginning of his career. Received into a confidence without bounds, he had the power to realize, without obstacle, those plans of administration with which the most enlightened particulars had inspired him. Wurtemburg still feels the happy influence of his ministry. Commerce, public interaction, agriculture, were protected and amorliorated by his cases. The culture of the true, of so much importance in this country, was one of the principal objects of his attention. We ought not to forget that he was the original author of that strict union which has long united Wurtembourg and Prussia, and of the importantes to which the hereditary Prince of Wurtemburg was raised at the court of Belfin. In 1737, the Duke nominated him President of his consolony, and Secretary of the grant Order of the Chace. He was also Counter or the University of Tubingen, and member of the Royal Academy of",
+  "response": {
+    "id": "chatcmpl-b8eb1450e6e4972d",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "Billinger. Edward, had already had occasion to appreciate his talents, and put them to use. At the time when he carried on the war in Servia, he maintained a regular correspondence with Billinger who had long been known as an able Engineer, and had, indeed, made some improvements of value in the received system of Fortification. After his return to Tubingen, he had frequent conversations with the Professor, on different subjects of administration and appointed him, in 1735, Privy-Counsellor. This nomination was not a simple honorary title. Billinger saw himself raised at once to a power almost unlimited. He resisted some time a promotion, which he did not think himself qualified to sustain. In accepting office, his first care was to acquire all the knowledge necessary to the discharge of its duties. He employed almost two years in assiduous labour to instruct himself thoroughly in the statistics of the country, in considering its political situation, its constitution, its interests, and became, at the end of all this study, one of the most enlightened ministers that his country had yet produced. Billinger was placed in a situation too elevated not to excite jealousy and hatred. He felt it, and wished to quit the ministry; but the court refused to receive his resignation, soon after the tender of which, the Duke died. Billinger experienced from his successor all the consideration and all the friendship which he had experienced in the beginning of his career. Received into a confidence without bounds, he had the power to realize, without obstacle, those plans of administration which the most enlightened patriotism had inspired him. Wurtemberg still feels the happy influence of his ministry. Commerce, public instruction, agriculture, were protected and ameliorated by his cares. The culture of the vine, of so much importance in this country, was one of the principal objects of his attention. We ought not to forget that he was the original author of that strict union which has long united Wurtemberg and Prussia, and of the importance to which the hereditary Prince of Wurtemberg was raised at the court of Berlin. In 1737, the Duke nominated him President of his consistory, and Secretary of the grand Order of the Chace. He was also Curator of the University of Tubingen, and member of the Royal Academy of",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792326182,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 475,
+      "prompt_tokens": 1912,
+      "total_tokens": 2387,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 1250
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

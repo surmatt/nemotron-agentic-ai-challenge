@@ -1,0 +1,36 @@
+{
+  "stage": "compare",
+  "finished_at": "2026-10-18T11:36:39+00:00",
+  "method": "word frequencies, log-odds with Dirichlet prior",
+  "pairs": 57,
+  "britannica_documents": 57,
+  "wikipedia_documents": 55,
+  "match_methods": {
+    "provisional_lexical": 57
+  },
+  "normalisation_changes": {
+    "long_s": 102,
+    "historical": 0
+  },
+  "britannica_unverified_rate": 0.1925,
+  "vocabulary_sources": [
+    {
+      "source": "cached Wikipedia articles",
+      "documents": 55,
+      "words": 12317
+    },
+    {
+      "source": "/usr/share/dict/words",
+      "sha256": "be41ad97963bf8dabedd5871d5d691596175269d540956b0f9965a885c2bbab9",
+      "words": 234456
+    }
+  ],
+  "mean_top_terms_jaccard": 0.0375,
+  "mean_frequency_cosine": 0.1667,
+  "outputs": {
+    "pairs": "artifacts/compare/pairs.jsonl",
+    "corpus": "artifacts/compare/corpus.json",
+    "normalisation_log": "artifacts/compare/normalisation_log.jsonl",
+    "plots": "artifacts/compare/plots"
+  }
+}

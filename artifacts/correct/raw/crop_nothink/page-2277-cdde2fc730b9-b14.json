@@ -1,0 +1,93 @@
+{
+  "variant": "crop_nothink",
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2277",
+  "block_index": 14,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T12:24:27+00:00",
+  "elapsed_seconds": 1.43,
+  "finish_reason": "stop",
+  "parse_text": "On the upper further of this organ was may observe a great number of pupils, which, on occasion of their difference in free and hays, are commonly divided into three clades. The largest are trusted towards the final of the tongue. Their main community varies from fever to nine, and they form to be mucous folicles. Thief of the second clats and tunnels that matter, and of a cylindrical shape. They are most humorous about the middle of the tongue. Those of the third clats are very minute, and of a conical shape. They are",
+  "corrected_text": "On the upper surface of this organ we may observe a great number of papillae, which, on account of their difference in size and shape, are commonly divided into three classes. The largest are situated towards the basis of the tongue. Their number commonly varies from seven to nine, and they seem to be mucous follicles. Those of the second class are somewhat smaller, and of a cylindrical shape. They are most numerous about the middle of the tongue. Those of the third class are very minute, and of a conical shape. They are",
+  "reasoning_tokens": 0,
+  "usage": {
+    "completion_tokens": 110,
+    "prompt_tokens": 570,
+    "total_tokens": 680,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 278
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 3000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows this region of the page. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\nOn the upper further of this organ was may observe a great number of pupils, which, on occasion of their difference in free and hays, are commonly divided into three clades. The largest are trusted towards the final of the tongue. Their main community varies from fever to nine, and they form to be mucous folicles. Thief of the second clats and tunnels that matter, and of a cylindrical shape. They are most humorous about the middle of the tongue. Those of the third clats are very minute, and of a conical shape. They are",
+  "response": {
+    "id": "chatcmpl-9e871cc73f00140e",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "On the upper surface of this organ we may observe a great number of papillae, which, on account of their difference in size and shape, are commonly divided into three classes. The largest are situated towards the basis of the tongue. Their number commonly varies from seven to nine, and they seem to be mucous follicles. Those of the second class are somewhat smaller, and of a cylindrical shape. They are most numerous about the middle of the tongue. Those of the third class are very minute, and of a conical shape. They are",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792326268,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 110,
+      "prompt_tokens": 570,
+      "total_tokens": 680,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 278
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

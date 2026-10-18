@@ -1,0 +1,93 @@
+{
+  "variant": "crop_nothink",
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:257",
+  "block_index": 2,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T12:20:06+00:00",
+  "elapsed_seconds": 2.13,
+  "finish_reason": "stop",
+  "parse_text": "This day is generally believed to have been the daughter of Sir William Temple flower, but her never, a Mrs Hierans, el Mr Heekey, the editor of a women of letters visited _Literary Relics_, that her father was a merchant, and the youngest brother as good family in Nottingham fishers, that her mother was the extreme friend of Idyl Gif ford, Sir Williams is fiker; and that the herself was educated in the family with his name, the Miss Teemie op Moore park by Frankney. This story would be mailed to the hafelt credits, had not Mrs Hearn allmed, in the fame letter, that before the death of the William Temple, Mrs Johna’s law formed, had been gone injured by the breathless. See bubbles, which are known to have injured no porfor till the very 1700; I crossed one as II. Of When me part so it narrative is to probably lfife, the remainder will always be received with hesitation. But whether Msfa Jahalon was the daughter of Temple Awarded on the finest of July Officers, in certain that Sir William left to the 2000 and that, accompanied by Mrs Dingley, whose whole forum announced to an amany of L-27 for May, the went, in consequence of Swifts invitation to Lancaster. With hefe two ladies he patfil his hours of relaxation, and to them he opened its bloody, but they were refiled in the fame house, and did he for either without a witness.",
+  "corrected_text": "This lady is generally believed to have been the daughter of Sir William Temple's reward; but her niece, a Mrs Hearn, assured Mr Berkeley, the editor of a volume of letters entitled Literary Relics, that her father was a merchant, and the youngest brother of a good family in Nottinghamshire; that her mother was the intimate friend of lady Gifford, Sir William's heir; and that the herself was educated in the family with his niece, the late Mrs Temple of Moorpark by Farnham*. This story would be entitled to the fullest credit, had not Mrs Hearn affirmed, in the same letter, that before the death of Sir William Temple, Mrs Johnson's little fortune had been greatly injured by the South-Sea bubbles, which are known to have injured no person till the year 1720: (See Company, II. c.) When one part of a narrative is so palpably false, the remainder will always be received with hesitation. But whether Miss Johnson was the daughter of Temple's Reward or of the friend of lady Gifford, it is certain that Sir William left her L.1000; and that, accompanied by Mrs Dingley, whose whole fortune amounted to an annuity of L.27 for life, she went, in consequence of Swift's invitation, to Laracor. With these two ladies he passed his hours of relaxation, and to them he opened his bosom; but they never resided in the same house, and did he see either without a witness.",
+  "reasoning_tokens": 0,
+  "usage": {
+    "completion_tokens": 314,
+    "prompt_tokens": 1122,
+    "total_tokens": 1436,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 627
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 3000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows this region of the page. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\nThis day is generally believed to have been the daughter of Sir William Temple flower, but her never, a Mrs Hierans, el Mr Heekey, the editor of a women of letters visited _Literary Relics_, that her father was a merchant, and the youngest brother as good family in Nottingham fishers, that her mother was the extreme friend of Idyl Gif ford, Sir Williams is fiker; and that the herself was educated in the family with his name, the Miss Teemie op Moore park by Frankney. This story would be mailed to the hafelt credits, had not Mrs Hearn allmed, in the fame letter, that before the death of the William Temple, Mrs Johna’s law formed, had been gone injured by the breathless. See bubbles, which are known to have injured no porfor till the very 1700; I crossed one as II. Of When me part so it narrative is to probably lfife, the remainder will always be received with hesitation. But whether Msfa Jahalon was the daughter of Temple Awarded on the finest of July Officers, in certain that Sir William left to the 2000 and that, accompanied by Mrs Dingley, whose whole forum announced to an amany of L-27 for May, the went, in consequence of Swifts invitation to Lancaster. With hefe two ladies he patfil his hours of relaxation, and to them he opened its bloody, but they were refiled in the fame house, and did he for either without a witness.",
+  "response": {
+    "id": "chatcmpl-82457d95bac00b1b",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "This lady is generally believed to have been the daughter of Sir William Temple's reward; but her niece, a Mrs Hearn, assured Mr Berkeley, the editor of a volume of letters entitled Literary Relics, that her father was a merchant, and the youngest brother of a good family in Nottinghamshire; that her mother was the intimate friend of lady Gifford, Sir William's heir; and that the herself was educated in the family with his niece, the late Mrs Temple of Moorpark by Farnham*. This story would be entitled to the fullest credit, had not Mrs Hearn affirmed, in the same letter, that before the death of Sir William Temple, Mrs Johnson's little fortune had been greatly injured by the South-Sea bubbles, which are known to have injured no person till the year 1720: (See Company, II. c.) When one part of a narrative is so palpably false, the remainder will always be received with hesitation. But whether Miss Johnson was the daughter of Temple's Reward or of the friend of lady Gifford, it is certain that Sir William left her L.1000; and that, accompanied by Mrs Dingley, whose whole fortune amounted to an annuity of L.27 for life, she went, in consequence of Swift's invitation, to Laracor. With these two ladies he passed his hours of relaxation, and to them he opened his bosom; but they never resided in the same house, and did he see either without a witness.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792326007,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 314,
+      "prompt_tokens": 1122,
+      "total_tokens": 1436,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 627
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

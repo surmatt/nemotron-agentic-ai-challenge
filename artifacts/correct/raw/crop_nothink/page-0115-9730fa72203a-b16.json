@@ -1,0 +1,93 @@
+{
+  "variant": "crop_nothink",
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:115",
+  "block_index": 16,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T12:19:52+00:00",
+  "elapsed_seconds": 1.08,
+  "finish_reason": "stop",
+  "parse_text": "\"It would, therefore, be desirable to have an apparatus\nfor the de la the pure oxygenated muratric acid imply\ndifferent in water, which is at some chopped and\nbell vehicle for it. This apparatus must the limp in\nits condition, and distribute an automatic exposure;\nit muff confine the liquor in such a manner as to pre-\nvent the cleaps of the oxygenated muratric acid gas,\nwhich is not only a loft of power, but alo an inconven-\nmence",
+  "corrected_text": "It would, therefore, be desirable to have an apparatus\nfor the use of the pure oxygenated muriatic acid simply\ndissolved in water, which is at once the cheapest and\nbest vehicle for it. This apparatus must be simple in\nits construction, and obtainable at a moderate expense;\nit must confine the liquor in such a manner as to pre-\nvent the escape of the oxygenated muriatic acid gas,\nwhich is not only a loss of power, but also an inconve-\nnience.",
+  "reasoning_tokens": 0,
+  "usage": {
+    "completion_tokens": 109,
+    "prompt_tokens": 557,
+    "total_tokens": 666,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 277
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 3000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows this region of the page. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\n\"It would, therefore, be desirable to have an apparatus\nfor the de la the pure oxygenated muratric acid imply\ndifferent in water, which is at some chopped and\nbell vehicle for it. This apparatus must the limp in\nits condition, and distribute an automatic exposure;\nit muff confine the liquor in such a manner as to pre-\nvent the cleaps of the oxygenated muratric acid gas,\nwhich is not only a loft of power, but alo an inconven-\nmence",
+  "response": {
+    "id": "chatcmpl-bcae270c2eef0c01",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "It would, therefore, be desirable to have an apparatus\nfor the use of the pure oxygenated muriatic acid simply\ndissolved in water, which is at once the cheapest and\nbest vehicle for it. This apparatus must be simple in\nits construction, and obtainable at a moderate expense;\nit must confine the liquor in such a manner as to pre-\nvent the escape of the oxygenated muriatic acid gas,\nwhich is not only a loss of power, but also an inconve-\nnience.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792325993,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 109,
+      "prompt_tokens": 557,
+      "total_tokens": 666,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 277
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

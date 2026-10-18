@@ -1,0 +1,452 @@
+{
+  "entry_id": "E0017",
+  "headword": null,
+  "entry_text_sha256": "d0273ba134bed777010d76031ee857749b22d98755b24b531abb1eba3281406e",
+  "mode": "model",
+  "queries": [
+    "marriage husband wife right moveable estate blood married goods degrees parties grand"
+  ],
+  "query_chars": 1500,
+  "headword_variant": null,
+  "candidate_count": 20,
+  "list_pages_removed_after_fetch": [],
+  "decision": {
+    "status": "rejected",
+    "method": "nemotron_embed_rerank",
+    "thresholds": {
+      "rerank_logit": -10.0,
+      "margin": 0.5,
+      "cosine": 0.15,
+      "title_similarity": 0.0
+    },
+    "reason": "rerank_logit < -10.0, margin < 0.5, cosine < 0.15, or title_similarity < 0.0",
+    "page_id": "12152878",
+    "title": "Void marriage",
+    "rerank_logit": -5.360637,
+    "cosine": 0.212665,
+    "margin_to_next": 0.49341,
+    "title_similarity": 0.0
+  },
+  "candidates": [
+    {
+      "page_id": "1043351",
+      "revision_id": "1351815415",
+      "title": "Coverture",
+      "url": "https://en.wikipedia.org/wiki/Coverture",
+      "excerpt": "Coverture was a legal doctrine in English common law under which a married woman's legal existence was considered to be merged with that of her husband. Upon marriage, she had no independent legal existence of her own, in keeping with society's expectation that her husband was to provide for and protect her. Under coverture a woman became a feme covert, whose legal rights and obligations were mostly subsumed by those of her husband. An unmarried woman, or feme sole, retained the right to own property and make contracts in her own name.\n\nCoverture became well-established in the common law for several centuries and was inherited by many other common-law jurisdictions, including the United States.\n\nAfter the rise of the women's rights movement in the mid-19th century, coverture came under increasing criticism as oppressive and as hindering women from exercising ordinary property rights or entering professions. Coverture was first substantially modified by late-19th-century Married Women's Property Acts passed in various common-law jurisdictions, and was weakened and eventually eliminated by later reforms. Certain aspects of coverture (mainly concerned with preventing a wife from unila",
+      "excerpt_offset": 0,
+      "total_chars": 49553,
+      "bm25": {
+        "q0": {
+          "rank": 1,
+          "score": 41.597
+        }
+      },
+      "best_rank": 1,
+      "title_similarity": 0.0,
+      "context_overlap": 0.2133,
+      "cosine": 0.082824,
+      "rerank_logit": -5.938466,
+      "rerank_position": 3
+    },
+    {
+      "page_id": "44741825",
+      "revision_id": "1350618866",
+      "title": "Marriage settlement (England)",
+      "url": "https://en.wikipedia.org/wiki/Marriage_settlement_(England)",
+      "excerpt": "A marriage settlement was a legally enforceable agreement made between the families of a bride and bridegroom intending marriage, specifying family assets from both parties that would be available to the couple during their marriage, commonly also reserving contingent portions of the marital assets to be available to the wife for her personal expenses, to support her in widowhood, and to provide for her offspring. While such arrangements have developed in many cultures of property law, commonly labelled as dowry and dower, they took very specific forms in England and Wales in the Early Modern period (1650 to 1850) due to the multiplicity of bodies of property law applying in England in this period, and also to the peculiarities of one of those bodies of law, the common law of England. Equivalent legal instruments are found in this period in other territories with legal jurisprudence deriving from English Common Law, such as colonial New England and the British West Indies.\n\nThe three major forms of marriage settlement in this period are commonly termed settlement by bond, strict settlement and separate estate. The latter two forms were generally found only amongst families with sub",
+      "excerpt_offset": 0,
+      "total_chars": 36035,
+      "bm25": {
+        "q0": {
+          "rank": 2,
+          "score": 41.5672
+        }
+      },
+      "best_rank": 2,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1781,
+      "cosine": 0.110064,
+      "rerank_logit": -6.332072,
+      "rerank_position": 10
+    },
+    {
+      "page_id": "12978292",
+      "revision_id": "1340777282",
+      "title": "Married Women's Property Act 1870",
+      "url": "https://en.wikipedia.org/wiki/Married_Women%27s_Property_Act_1870",
+      "excerpt": "The Married Women's Property Act 1870 (33 & 34 Vict. c. 93) was an act of the Parliament of the United Kingdom that allowed married women to be the legal owners of the money they earned and to inherit property in their own name.\n\nBefore 1870 in England, any money or property received by a married woman in her own name (either through a wage, from investment, by gift, or through inheritance) instantly became absorbed into the property of her husband, as did any property or money held by a woman at the time of her marriage. Thus, under the Common Law doctrine of coverture the identity of the wife became legally absorbed into that of her husband, effectively making them one person in respect of most matters concerned with the ownership and management of land, of payment for goods, and the obtaining of credit.\n\nWhere a woman had brought a dowry into the marriage, simply as property, this would also be absorbed into her husband's ownership and control; except that the freehold title to any dowered land remained legally hers and it could not be sold by the husband without the consent of the wife. Should the wife survive her husband as a widow, any dowered land reverted to her ownership; ",
+      "excerpt_offset": 0,
+      "total_chars": 15433,
+      "bm25": {
+        "q0": {
+          "rank": 3,
+          "score": 40.7939
+        }
+      },
+      "best_rank": 3,
+      "title_similarity": 0.0,
+      "context_overlap": 0.2969,
+      "cosine": 0.034923,
+      "rerank_logit": -6.731769,
+      "rerank_position": 17
+    },
+    {
+      "page_id": "56185544",
+      "revision_id": "1347156149",
+      "title": "Daughters' quarter",
+      "url": "https://en.wikipedia.org/wiki/Daughters%27_quarter",
+      "excerpt": "The daughters' quarter, also known as filial quarter (Hungarian: leánynegyed; Latin: quarta filialis), was the legal doctrine that regulated the right of a Hungarian nobleman 's daughter to inherit her father's property.\n\nOne of the laws of the first king of Hungary, Stephen I, authorized each landowner to freely \"divide his property, to assign it to his wife, his sons and daughters, his relatives or to the church\" in the early 11th century. On the other hand, the aristocratic clans wanted to prevent the members of other clans from acquiring their estates through marriage with their kinswomen. Consequently, restrictions on a daughter's right to inherit her father's developed during the following centuries. Historian Martyn Rady argues that \"a peculiar reading\" of the Lex Falcidia in the Codex Theodosianus gave most probably rise to the formation of the new legal doctrine. Rady also proposes that churchmen must have played a preeminent role in its development, because they could recall \"fathers to their duties\" and specify their obligations towards their children, although the jurisdiction of ecclesiastical courts in cases involving real estates was limited.\n\nThe Golden Bull of 1222",
+      "excerpt_offset": 0,
+      "total_chars": 2234,
+      "bm25": {
+        "q0": {
+          "rank": 4,
+          "score": 36.2785
+        }
+      },
+      "best_rank": 4,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1149,
+      "cosine": 0.1508,
+      "rerank_logit": -6.700635,
+      "rerank_position": 16
+    },
+    {
+      "page_id": "1141191",
+      "revision_id": "1307634556",
+      "title": "Affinity (Catholic canon law)",
+      "url": "https://en.wikipedia.org/wiki/Affinity_(Catholic_canon_law)",
+      "excerpt": "In Catholic canon law, affinity is an impediment to marriage of a couple due to the relationship which either party has as a result of a kinship relationship created by another marriage or as a result of extramarital intercourse. The relationships that give rise to the impediment have varied over time. Marriages and sexual relations between people in an affinity relationship are regarded as incest.\n\nToday, the relevant principle within the Catholic Church is that \"affinity does not beget affinity\"—i.e., there is no affinity between one spouse's relatives and the other spouse's relatives. Canon 109 of the Code of Canon Law of the Catholic Church provides that affinity is an impediment to the marriage of a couple, and is a relationship which \"arises from a valid marriage, even if not consummated, and exists between a man and the blood relatives of the woman and between the woman and the blood relatives of the man.\" Also, affinity \"is reckoned in such a way that the blood relations of the man are related by affinity to the woman in the same line and the same degree, and vice versa.\"\n\nIn the Hebrew Bible, Leviticus 18:8–18 and 20:11–21 contain prohibitions of sexual relations between a",
+      "excerpt_offset": 0,
+      "total_chars": 7578,
+      "bm25": {
+        "q0": {
+          "rank": 5,
+          "score": 35.9615
+        }
+      },
+      "best_rank": 5,
+      "title_similarity": 0.0,
+      "context_overlap": 0.2857,
+      "cosine": 0.415344,
+      "rerank_logit": -6.059402,
+      "rerank_position": 4
+    },
+    {
+      "page_id": "23892113",
+      "revision_id": "1339203133",
+      "title": "Thou shalt not commit adultery",
+      "url": "https://en.wikipedia.org/wiki/Thou_shalt_not_commit_adultery",
+      "excerpt": "Leviticus 18:24)\n\n— Maimonides, in The Guide for the Perplexed\n\nLeviticus 20:10 defines what constitutes adultery in the Hebrew Bible, and it also prescribes the punishment as capital punishment. In this verse, and in the Jewish tradition, adultery consists of sexual intercourse between a man and a married woman who is not his lawful wife:\n\nAnd the man that committeth adultery with another man's wife, even he that committeth adultery with his neighbour's wife, the adulterer and the adulteress shall surely be put to death.\n\nThus, according to the Hebrew Bible, adultery is not committed if the female participant is unmarried (unless she is betrothed to be married), while the marital status of the male participant is irrelevant (he himself could be unmarried or married to another woman).\n\nIf a married woman was raped by a man who is not her husband, only the rapist is punished for adultery. The victim is not punished: as the Bible declares, \"this matter is similar to when a man rises up against his fellow and murders him\"; just as a murder victim is not guilty of murder, a rape victim is not guilty of adultery.\n\nIf a husband suspected his wife of adultery, the ordeal of the bitter wat",
+      "excerpt_offset": 937,
+      "total_chars": 12997,
+      "bm25": {
+        "q0": {
+          "rank": 6,
+          "score": 34.8218
+        }
+      },
+      "best_rank": 6,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1452,
+      "cosine": 0.175662,
+      "rerank_logit": -6.131976,
+      "rerank_position": 7
+    },
+    {
+      "page_id": "21006244",
+      "revision_id": "1352170354",
+      "title": "Marie Anne de Bourbon (1689–1720)",
+      "url": "https://en.wikipedia.org/wiki/Marie_Anne_de_Bourbon_(1689%E2%80%931720)",
+      "excerpt": "Marie Anne de Bourbon, Duchess of Bourbon (French pronunciation:; 18 April 1689 – 21 March 1720) was a princess of the blood at the French court of Versailles. She was the first wife of Louis Henri, Duke of Bourbon. She died childless during the Regency of Philippe II, Duke of Orléans, who was her husband's uncle. Marie Anne was referred to as \"the younger duchess\" to distinguish her from her mother-in-law, Louise-Françoise de Bourbon. Despite her husband being the Prince of Condé, he preferred to use the title of Duke of Bourbon, which his wife was known.\n\nMarie Anne was the eldest daughter of Marie Thérèse de Bourbon and her promiscuous spouse, François Louis, Prince of Conti. Her father did not return his wife's affections; instead, he lived as a libertine, engaging in numerous love affairs with members of both sexes. His sex life caused tension and distance within the family and earned him the nickname of le Grand Conti. Marie Anne was born a Princess of the Blood at the Palace of Versailles. From her birth until her marriage at the age of 24, she was referred to as Mademoiselle de Conti, derived from her father's title. She was the eldest of seven children, although only she a",
+      "excerpt_offset": 0,
+      "total_chars": 5088,
+      "bm25": {
+        "q0": {
+          "rank": 7,
+          "score": 34.5378
+        }
+      },
+      "best_rank": 7,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1447,
+      "cosine": 0.097628,
+      "rerank_logit": -6.434526,
+      "rerank_position": 15
+    },
+    {
+      "page_id": "4197971",
+      "revision_id": "1343482947",
+      "title": "Married Women's Property Act 1882",
+      "url": "https://en.wikipedia.org/wiki/Married_Women%27s_Property_Act_1882",
+      "excerpt": "The Married Women's Property Act 1882 (45 & 46 Vict. c. 75) is an act of the Parliament of the United Kingdom that significantly altered English and Welsh law regarding the property rights of married women, which besides other matters allowed married women to own and control property in their own right.\n\nThe act applied in England (and Wales) and Ireland, but did not extend to Scotland. The Married Women's Property Act was a model for similar legislation in other British territories. For example, Victoria passed legislation in 1884, New South Wales in 1889, and the remaining Australian colonies passed similar legislation between 1890 and 1897.\n\nEnglish common law defined the role of the wife as a feme covert, emphasising her subordination to her husband, and putting her under the \"protection and influence of her husband, her baron, or lord\". Upon marriage, the husband and wife became one person under the law, as the property of the wife was surrendered to her husband, and her status as a separate legal personality — with the ability to own property, and sue and be sued solely in her own name — ceased to exist. Any personal property acquired by the wife during the marriage, unless s",
+      "excerpt_offset": 0,
+      "total_chars": 5387,
+      "bm25": {
+        "q0": {
+          "rank": 8,
+          "score": 34.3379
+        }
+      },
+      "best_rank": 8,
+      "title_similarity": 0.0,
+      "context_overlap": 0.2113,
+      "cosine": 0.049306,
+      "rerank_logit": -6.774948,
+      "rerank_position": 18
+    },
+    {
+      "page_id": "4439792",
+      "revision_id": "1351859704",
+      "title": "Article 809 of the Korean Civil Code",
+      "url": "https://en.wikipedia.org/wiki/Article_809_of_the_Korean_Civil_Code",
+      "excerpt": "Article 809 of the Korean Civil Code (Korean: 민법 제809조) was the codification of a traditional rule prohibiting marriage between men and women who have the same surname resulting from belonging to the same clan and possessing the same genealogical patriline and sharing the same ancestral home (bon-gwan). On 16 July 1997, the Constitutional Court of Korea ruled the article unconstitutional. The National Assembly of South Korea passed an amendment to the Article in March 2002, which came into force on 31 March 2005, and prohibited marriage only between men and women who are closely related (i.e. consanguine marriage, in South Korea, consanguine marriage is defined as marriage between two family members with degree of relationship 8 or less).\n\nIn Korea, a child inherits his or her father’s surname. Traditionally, men and women who have the same surnames and \"ancestral homes\", called dongseong dongbon (동성동본; 同姓同本), are not permitted to marry.\n\nThe rule, called honinbeop (혼인법; 婚姻法), originated in China, and can be traced back at least to the late Joseon period. In the context of Confucianism, the rule was a mechanism to maintain family identities and ensure the integrity of the family as",
+      "excerpt_offset": 0,
+      "total_chars": 7736,
+      "bm25": {
+        "q0": {
+          "rank": 9,
+          "score": 33.9968
+        }
+      },
+      "best_rank": 9,
+      "title_similarity": 0.0,
+      "context_overlap": 0.0704,
+      "cosine": 0.27919,
+      "rerank_logit": -6.91422,
+      "rerank_position": 20
+    },
+    {
+      "page_id": "2604813",
+      "revision_id": "1348329191",
+      "title": "Sororate marriage",
+      "url": "https://en.wikipedia.org/wiki/Sororate_marriage",
+      "excerpt": "Sororate marriage is a type of marriage in which a husband marries or engages in sexual relations with his wife's sister, usually after the death of his wife or if his wife has proven infertile. The fraternal equivalent is levirate marriage.\n\nFrom an anthropological standpoint, this type of marriage strengthens the ties between both groups (the wife's family or clan and the husband's) and preserves the contract between the two to provide children and continue the alliance.\n\nThe Inuit (formerly known as Eskimos) of northern Alaska, Canada and Greenland follow or followed this custom. It is followed by the Chiricahua group of the Western Apache, who are Athabaskan speaking, as is levirate marriage.\n\nSororate marriage is practiced by the Sioux (Lakota) tribes, and some Western Mono tribes in California, such as the Wuksachi or Waksachi.\n\nSororate marriage is practiced by the Swazi people and for the same reasons as stated. This type of marriage is made in Bhutan. The former King Jigme Singye Wangchuck (the current king's father) is married to four wives, all of whom are sisters. There is evidence that sororate marriage existed in ancient China.\n\nLevirate marriage was encouraged among ",
+      "excerpt_offset": 0,
+      "total_chars": 3169,
+      "bm25": {
+        "q0": {
+          "rank": 10,
+          "score": 33.8767
+        }
+      },
+      "best_rank": 10,
+      "title_similarity": 0.0,
+      "context_overlap": 0.0897,
+      "cosine": 0.182355,
+      "rerank_logit": -6.334826,
+      "rerank_position": 11
+    },
+    {
+      "page_id": "71905529",
+      "revision_id": "1320213163",
+      "title": "Intestate succession in South African law",
+      "url": "https://en.wikipedia.org/wiki/Intestate_succession_in_South_African_law",
+      "excerpt": "Intestate succession in South African law takes place whenever the deceased leaves property which has not been disposed of by valid testamentary instrument. In other words, the law of intestate succession applies only:\n\nwhen the testator has left no valid will or testamentary disposition contained in a valid pactum successorium (e.g., antenuptial contract, gift mortis causa); or\n\nwhen he leaves a will which fails for some or other reason.\n\nIntestacy may be total (applying to the whole of the assets left by the deceased) or partial (applying to a portion only of his assets), for the deceased may die partly testate and partly intestate: for example, if the deceased bequeaths his car to his son but does not mention the rest of his estate.\n\nIntestacy is total when none of the assets are disposed of by a valid will: for example, where there is no will at all, or only a will which is void, or which has been revoked. Intestacy is partial when the deceased has left a valid will which, however, does not dispose of all his assets; in this event there is an intestacy as to the undisposed residue. This may happen in many circumstances: for example,\n\nwhere the will does not appoint an heir at a",
+      "excerpt_offset": 0,
+      "total_chars": 26192,
+      "bm25": {
+        "q0": {
+          "rank": 11,
+          "score": 33.8131
+        }
+      },
+      "best_rank": 11,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1379,
+      "cosine": 0.07722,
+      "rerank_logit": -6.425287,
+      "rerank_position": 14
+    },
+    {
+      "page_id": "12152878",
+      "revision_id": "1329325114",
+      "title": "Void marriage",
+      "url": "https://en.wikipedia.org/wiki/Void_marriage",
+      "excerpt": "A void marriage is a marriage that is unlawful or invalid under the laws of the jurisdiction where it is entered. A void marriage is invalid from its beginning, and is generally treated under the law as if it never existed and requires no formal action to terminate. In some jurisdictions a void marriage must still be terminated by annulment, or an annulment may be required to remove any legal impediment to a subsequent marriage. A marriage that is entered into in good faith, but that is later found to be void, may be recognized as a putative marriage and the spouses as putative spouses, with certain rights granted by statute or common law, notwithstanding that the marriage itself is void.\n\nVoid marriages are distinct from those marriages that can be canceled at the option of one of the parties, but otherwise remain valid. Such a marriage is voidable, meaning that it is subject to cancellation through annulment if contested in court.\n\nAccording to Paul J. Goda, the distinction between void and voidable marriages arose in the context of a jurisdictional dispute between the civil and ecclesiastical courts. The civil courts held jurisdiction over property matters, while the church reta",
+      "excerpt_offset": 0,
+      "total_chars": 5459,
+      "bm25": {
+        "q0": {
+          "rank": 12,
+          "score": 33.7322
+        }
+      },
+      "best_rank": 12,
+      "title_similarity": 0.0,
+      "context_overlap": 0.2571,
+      "cosine": 0.212665,
+      "rerank_logit": -5.360637,
+      "rerank_position": 1
+    },
+    {
+      "page_id": "30047282",
+      "revision_id": "1349537749",
+      "title": "Alice de Lacy, Countess of Lincoln",
+      "url": "https://en.wikipedia.org/wiki/Alice_de_Lacy,_Countess_of_Lincoln",
+      "excerpt": "alisbury (25 December 1281 – 2 October 1348) was an English peeress, descendant of both English and Welsh royalty.\n\nBorn on Christmas Day 1281 at Denbigh Castle, Alice was the only daughter and heir of Henry de Lacy, Earl of Lincoln and Margaret Longespée, Countess of Salisbury suo jure (in her own right). Her mother Margaret was the granddaughter of the prince of North Wales, Llywelyn ab Iorwerth, and the great-granddaughter and ultimate heir of one of the illegitimate sons of Henry II of England, William Longespée (Longsword), whose nickname became his surname.\n\nTragic accidents resulted in the deaths of Alice's two brothers in childhood. Edmund drowned in a well at Denbigh Castle and John fell to his death from a parapet at Pontefract Castle. This made Alice the heir presumptive to two earldoms, one from her father and one from her mother, which she would inherit if her parents had no further children. With Alice belonging to such an influential and wealthy family, King Edward I arranged for her betrothal \"in her 9th year\" to his nephew, Thomas of Lancaster, himself heir to the earldoms of Lancaster, Leicester and Derby. They were married on 28 October 1294, when Alice was 13 ye",
+      "excerpt_offset": 75,
+      "total_chars": 15661,
+      "bm25": {
+        "q0": {
+          "rank": 13,
+          "score": 33.4361
+        }
+      },
+      "best_rank": 13,
+      "title_similarity": 0.0,
+      "context_overlap": 0.0988,
+      "cosine": 0.088992,
+      "rerank_logit": -6.378744,
+      "rerank_position": 12
+    },
+    {
+      "page_id": "58225",
+      "revision_id": "1338446359",
+      "title": "Babylonian law",
+      "url": "https://en.wikipedia.org/wiki/Babylonian_law",
+      "excerpt": "ut it conserved early features long after they had disappeared elsewhere.\n\nThe early history of Mesopotamia is the story of a struggle for supremacy between the cities. A metropolis demanded tribute and military support from its subject cities but left their local cults and customs unaffected. City rights and usages were respected by kings and conquerors alike. When the ancient Semitic-speaking peoples settled in the cities of Mesopotamia, their tribal customs passed over into city law.\n\nAs late as the accession of Assur-bani-pal and Shamash-shum-ukin, we find the Babylonians appending to their city laws that groups of aliens to the number of twenty at a time were free to enter the city; that foreign women, once married to Babylonian husbands, could not be enslaved; and that not even a dog that entered the city could be put to death untried.\n\nThe population of Babylonia was multi-ethnic from early times, and intercommunication between the cities was incessant. Every city had a large number of resident aliens. This freedom of intercourse must have tended to assimilate custom. It was, however, reserved for the genius of Hammurabi to make Babylon his metropolis and weld together his v",
+      "excerpt_offset": 2459,
+      "total_chars": 46878,
+      "bm25": {
+        "q0": {
+          "rank": 14,
+          "score": 33.2313
+        }
+      },
+      "best_rank": 14,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1,
+      "cosine": 0.039305,
+      "rerank_logit": -6.111829,
+      "rerank_position": 6
+    },
+    {
+      "page_id": "20633261",
+      "revision_id": "1351066945",
+      "title": "Hindu Marriage Act, 1955",
+      "url": "https://en.wikipedia.org/wiki/Hindu_Marriage_Act,_1955",
+      "excerpt": "The Hindu Marriage Act, 1955 (HMA) is an act of the Parliament of India enacted in 1955. Three other important acts were also enacted as part of the Hindu Code Bills during this time: the Hindu Succession Act, 1956, the Hindu Minority and Guardianship Act, 1956, and the Hindu Adoptions and Maintenance Act, 1956.\n\nThe main purpose of the act was to amend and codify the law relating to marriage among Hindus and others. Besides amending and codifying Shastrik Law, it also included separation and divorce, which also exist in Shastrik Law. This enactment brought uniformity of law for all sections of Hindus. In India, there are religion-specific civil codes that govern adherents of certain other religions separately.\n\nSection 2 of the Hindu Marriage Act, 1955 says:\n\nThis Act applies\n\nThe Act applies to Hindus outside the territory of India only if they are domiciled in India.\n\nThe Act was viewed as conservative because it applied to any person who is Hindu by religion in any of its forms, but it also includes other religions, such as Jains, Buddhists, or Sikhs as specified in Article 44 of the Indian Constitution. However, with the passage of Anand Marriage (Amendment) Bill in 2012, Sikh",
+      "excerpt_offset": 0,
+      "total_chars": 14896,
+      "bm25": {
+        "q0": {
+          "rank": 15,
+          "score": 33.1934
+        }
+      },
+      "best_rank": 15,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1389,
+      "cosine": 0.113884,
+      "rerank_logit": -6.854853,
+      "rerank_position": 19
+    },
+    {
+      "page_id": "3366706",
+      "revision_id": "1352004011",
+      "title": "Affinity (law)",
+      "url": "https://en.wikipedia.org/wiki/Affinity_(law)",
+      "excerpt": "In law and in cultural anthropology, affinity is the kinship relationship created or that exists between two people as a result of someone's marriage. It is the relationship each party in the marriage has to the family of the other party in the marriage. It does not cover the marital relationship itself.\n\nLaws, traditions and customs relating to affinity vary considerably, sometimes ceasing with the death of one of the marriage partners through whom affinity is traced, and sometimes with the divorce of the marriage partners. In addition to kinship by marriage, \"affinity\" can sometimes also include kinship by adoption or a step relationship.\n\nUnlike blood relationships (consanguinity), which may have genetic consequences, affinity is essentially a social or moral construct, at times backed by legal consequences.\n\nIn law, affinity may be relevant in relation to prohibitions on incestuous sexual relations and in relation to whether particular couples are prohibited from marrying. Which relationships are prohibited vary from jurisdiction to jurisdiction, and have varied over time. In some countries, especially in the past, the prohibited relationships were based on religious laws. In s",
+      "excerpt_offset": 0,
+      "total_chars": 4045,
+      "bm25": {
+        "q0": {
+          "rank": 16,
+          "score": 33.1754
+        }
+      },
+      "best_rank": 16,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1875,
+      "cosine": 0.334651,
+      "rerank_logit": -6.090937,
+      "rerank_position": 5
+    },
+    {
+      "page_id": "1354653",
+      "revision_id": "1352088576",
+      "title": "Legal rights of women in history",
+      "url": "https://en.wikipedia.org/wiki/Legal_rights_of_women_in_history",
+      "excerpt": "The legal rights of women refers to the social and human rights of women. One of the first women's rights declarations was the Declaration of Sentiments. The dependent position of women in early law is proved by the evidence of most ancient systems.\n\nIn the Mosaic law, for monetary matters, women's and men's rights were almost exactly equal. A woman was entitled to her own private property, including land, livestock, slaves, and servants. A woman had the right to inherit whatever anyone bequeathed to her as a death gift, and inherited equally with brothers and in the absence of sons would inherit everything. A woman could likewise bequeath her belongings to others as a death gift. Upon dying intestate, a woman's property would be inherited by her children if she had them, her husband if she was married, or her father if she were single. A woman could sue in court and did not need a male to represent her.\n\nIn some situations, women actually had more rights than men. For example, captive women had to be ransomed prior to any male captives. Even though sons inherited property, they had a responsibility to support their mother and sisters from the estate, and had to ensure that both mo",
+      "excerpt_offset": 0,
+      "total_chars": 55345,
+      "bm25": {
+        "q0": {
+          "rank": 17,
+          "score": 33.1138
+        }
+      },
+      "best_rank": 17,
+      "title_similarity": 0.0,
+      "context_overlap": 0.16,
+      "cosine": 0.015176,
+      "rerank_logit": -6.148945,
+      "rerank_position": 8
+    },
+    {
+      "page_id": "1849055",
+      "revision_id": "1307199113",
+      "title": "Zofia Lubomirska",
+      "url": "https://en.wikipedia.org/wiki/Zofia_Lubomirska",
+      "excerpt": "Zofia Lubomirska (1718 – 27 October 1790) was an independently wealthy Polish noblewoman and landowner, known for her political involvement and philanthropy.\n\nShe was born in the Sandomierz Voivodeship the daughter of Aleksander Krasiński (1690–1730) and his wife, Salomea Trzcińska. She married firstly Jan Tarło (d. 1750), who left her the town of Opole Lubelskie in his will. In 1754, she married the magnate, Antoni Lubomirski, with whom she was actively involved in state affairs. She reportedly persuaded Lubomirski to end his alliance with Austria and instead become a French agent by accepting an alliance with France. Both her first spouse and her brother, Stanisław, were pro-French.\n\nOn finding out about it after the event, she opposed the marriage of her niece, Franciszka Korwin-Krasińska to Charles of Saxony, Duke of Courland, but relented having been persuaded by her husband and brother who saw it as an advancement, since Charles had prospects for the Polish throne. She and August Aleksander Czartoryski insisted that the marriage be made legitimate and public. However abroad, outside Polish Szlachta circles, it was considered a Morganatic marriage. During the interregnum of 17",
+      "excerpt_offset": 0,
+      "total_chars": 3201,
+      "bm25": {
+        "q0": {
+          "rank": 18,
+          "score": 32.6291
+        }
+      },
+      "best_rank": 18,
+      "title_similarity": 0.0,
+      "context_overlap": 0.0843,
+      "cosine": 0.076705,
+      "rerank_logit": -6.302839,
+      "rerank_position": 9
+    },
+    {
+      "page_id": "12001726",
+      "revision_id": "1340688798",
+      "title": "Princess Cecilie of Baden",
+      "url": "https://en.wikipedia.org/wiki/Princess_Cecilie_of_Baden",
+      "excerpt": "Grand Duchess Olga Feodorovna of Russia (Russian: Ольга Фёдоровна; 20 September 1839 – 12 April 1891), born Princess Cäcilie of Baden, was the youngest daughter of Grand Duke Leopold of Baden and Sophie Wilhelmine of Sweden.\n\nShe received a strict education at the court of Baden in Karlsruhe, becoming a cultured woman. On 28 August 1857, she married Grand Duke Mikhail Nikolaevich of Russia, the youngest son of Tsar Nicholas I of Russia. Upon her marriage, she converted to the Russian Orthodox faith and took the name Olga Feodorovna with the title of Grand Duchess of Russia. Unusually among the Romanovs of her generation, her marriage was a long and happy union. The couple remained devoted to each other. She raised their seven children with an iron hand.\n\nBetween 1862 and 1882, she lived with her husband and their children in the Caucasus in a palace in Tiflis. She was a strong supporter of her husband's governmental activities as a viceroy of the region and she took an interest in charities, particularly in the field of female education. In 1882, the family moved back to the Imperial court in St Petersburg to a large palace on the bank of the Neva river. With a strong personality a",
+      "excerpt_offset": 0,
+      "total_chars": 11626,
+      "bm25": {
+        "q0": {
+          "rank": 19,
+          "score": 32.1596
+        }
+      },
+      "best_rank": 19,
+      "title_similarity": 0.0,
+      "context_overlap": 0.0854,
+      "cosine": 0.04576,
+      "rerank_logit": -6.424758,
+      "rerank_position": 13
+    },
+    {
+      "page_id": "34928775",
+      "revision_id": "1308059652",
+      "title": "Custom of Paris",
+      "url": "https://en.wikipedia.org/wiki/Custom_of_Paris",
+      "excerpt": "ons') and immovables (biens immeubles: land, buildings, fixtures, etc.).\n\nIn the interest of encouraging trade, movable property could not be mortgaged and was not considered separate property (biens propre s), that is, property in severalty external to the marital community unless specified in the marriage contract. Immovables such as land, offices, and rentcharges (rentes constituées) were considered separate property if acquired by one of the spouses prior to the marriage or inherited directly by either spouse.\n\nImmovable property purchased during the marriage was considered to be after-acquired property (conquêts) and incorporated into the marital property but would become separate property as soon as the estate went into succession. The distinction between separate property (biens propres) and community property (biens communs, or biens de communauté) was very important; many limitations were imposed on the alienation of separate property.\n\nLand was subject to feudal tenure and could be held in allod or fief, the latter coming in two distinct forms—either free socage (seigneurie) or villein socage (roture). Free socage was considered 'noble' (but the owner did not have to be a",
+      "excerpt_offset": 3264,
+      "total_chars": 40735,
+      "bm25": {
+        "q0": {
+          "rank": 20,
+          "score": 32.157
+        }
+      },
+      "best_rank": 20,
+      "title_similarity": 0.0,
+      "context_overlap": 0.2206,
+      "cosine": 0.126101,
+      "rerank_logit": -5.854047,
+      "rerank_position": 2
+    }
+  ]
+}

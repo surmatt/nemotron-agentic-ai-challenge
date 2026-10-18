@@ -1,0 +1,93 @@
+{
+  "variant": "crop_nothink",
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:563",
+  "block_index": 8,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T12:21:10+00:00",
+  "elapsed_seconds": 2.21,
+  "finish_reason": "stop",
+  "parse_text": "The Auto da Fe may be called the lail ads of the important legacy, it is a kind of goal-delivery, as painted as art as a computer number of princes in the imajdition are convicted of herefly, either by their own voluntary, or extendable condition, or on the very dense of certain vitamines. The precects is thus in the morning they are brought into a great hall, where they have certain habits put on, which they were over in the position. The procedure is led up by domic mica frians; after which come the pretents, fome with fan-bentines, and home without according to the ma-ture of their crimes being all in black costs without fleece, and have disclosed, with a wax made in their hands. Those are followed by the patients who have narrowly cleped being burnt, who over their black costs have flames painted with their points turned downwards, _Fong credits_. Next came the negative, and relapted, who are to be burnt, having flames on their habitat pointing upwards. After their coreem fish so profils doethins contrary to the faith of Rome, who, bo-fides flame pointing upwards, have their picture painted on their breasts, with dogs, ferpets, and devils, all",
+  "corrected_text": "ment of heretics, and the abolition of the innocent ac-\ncused. They usually contrive the Auto to fall on some\ngreat festival, that the execution may pass with the\nmore awe and regard; at least it is always on a Sunday.\n\nThe Auto da Fe may be called the last act of the\ninquisitorial tragedy; it is a kind of goal-delivery, ap-\npointed as oft as a competent number of prisoners in\nthe inquisition are convicted of heresy, either by their\nown voluntary, or extorted confession, or on the evi-\ndence of certain witnesses. The process is thus: in the\nmorning they are brought into a great hall, where\nthey have certain habits put on, which they are to wear\nin the procession. The procession is led up by domini-\ncan friars; after which come the penitents, some with\nfan-bentoes, and some without, according to the na-\nture of their crimes; being all in black coats without\nsleeves, and bare-footed, with a wax candle in their\nhands. These are followed by the penitents who have\nnarrowly escaped being burnt, who over their black\ncoats have flames painted with their points turned down-\nwards, Fengo revolto. Next come the negative, and\nrelapsed, who are to be burnt, having flames on their\nhabits pointing upwards. After these come such as pro-\nfess doctrines contrary to the faith of Rome, who, be-\nsides flames pointing upwards, have their picture paint-\ned on their breasts, with dogs, ferrets, and devils, all",
+  "reasoning_tokens": 0,
+  "usage": {
+    "completion_tokens": 351,
+    "prompt_tokens": 1147,
+    "total_tokens": 1498,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 704
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 3000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows this region of the page. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\nThe Auto da Fe may be called the lail ads of the important legacy, it is a kind of goal-delivery, as painted as art as a computer number of princes in the imajdition are convicted of herefly, either by their own voluntary, or extendable condition, or on the very dense of certain vitamines. The precects is thus in the morning they are brought into a great hall, where they have certain habits put on, which they were over in the position. The procedure is led up by domic mica frians; after which come the pretents, fome with fan-bentines, and home without according to the ma-ture of their crimes being all in black costs without fleece, and have disclosed, with a wax made in their hands. Those are followed by the patients who have narrowly cleped being burnt, who over their black costs have flames painted with their points turned downwards, _Fong credits_. Next came the negative, and relapted, who are to be burnt, having flames on their habitat pointing upwards. After their coreem fish so profils doethins contrary to the faith of Rome, who, bo-fides flame pointing upwards, have their picture painted on their breasts, with dogs, ferpets, and devils, all",
+  "response": {
+    "id": "chatcmpl-b95ff701b6cb737e",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "ment of heretics, and the abolition of the innocent ac-\ncused. They usually contrive the Auto to fall on some\ngreat festival, that the execution may pass with the\nmore awe and regard; at least it is always on a Sunday.\n\nThe Auto da Fe may be called the last act of the\ninquisitorial tragedy; it is a kind of goal-delivery, ap-\npointed as oft as a competent number of prisoners in\nthe inquisition are convicted of heresy, either by their\nown voluntary, or extorted confession, or on the evi-\ndence of certain witnesses. The process is thus: in the\nmorning they are brought into a great hall, where\nthey have certain habits put on, which they are to wear\nin the procession. The procession is led up by domini-\ncan friars; after which come the penitents, some with\nfan-bentoes, and some without, according to the na-\nture of their crimes; being all in black coats without\nsleeves, and bare-footed, with a wax candle in their\nhands. These are followed by the penitents who have\nnarrowly escaped being burnt, who over their black\ncoats have flames painted with their points turned down-\nwards, Fengo revolto. Next come the negative, and\nrelapsed, who are to be burnt, having flames on their\nhabits pointing upwards. After these come such as pro-\nfess doctrines contrary to the faith of Rome, who, be-\nsides flames pointing upwards, have their picture paint-\ned on their breasts, with dogs, ferrets, and devils, all",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792326071,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 351,
+      "prompt_tokens": 1147,
+      "total_tokens": 1498,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 704
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

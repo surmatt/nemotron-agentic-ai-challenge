@@ -1,0 +1,452 @@
+{
+  "entry_id": "E0118",
+  "headword": null,
+  "entry_text_sha256": "f84bb65fac75151af80545dfc75e818c79c7c90ca8c072687ccf3d0072222074",
+  "mode": "model",
+  "queries": [
+    "beautiful tree made like flowers growing abyssinia grows kind feet common bread"
+  ],
+  "query_chars": 1500,
+  "headword_variant": null,
+  "candidate_count": 20,
+  "list_pages_removed_after_fetch": [],
+  "decision": {
+    "status": "rejected",
+    "method": "nemotron_embed_rerank",
+    "thresholds": {
+      "rerank_logit": -10.0,
+      "margin": 0.5,
+      "cosine": 0.15,
+      "title_similarity": 0.0
+    },
+    "reason": "rerank_logit < -10.0, margin < 0.5, cosine < 0.15, or title_similarity < 0.0",
+    "page_id": "27749265",
+    "title": "Passiflora macrophylla",
+    "rerank_logit": -6.149833,
+    "cosine": 0.149789,
+    "margin_to_next": 0.029703,
+    "title_similarity": 0.0
+  },
+  "candidates": [
+    {
+      "page_id": "36249971",
+      "revision_id": "1258889295",
+      "title": "Piliostigma thonningii",
+      "url": "https://en.wikipedia.org/wiki/Piliostigma_thonningii",
+      "excerpt": "Piliostigma thonningii is a species of flowering plants in the legume family, Fabaceae. It belongs to the subfamily Cercidoideae. Common names of this tree include camel's foot tree, monkey bread, monkey biscuit tree, \" Rhodesian Bauhinia \" or \"wild bauhinia\" (previously placed in that genus).\n\nPiliostigma thonningii grows quickly relative to some other tree species it competes with, and relies on rapid re-growth to survive bush fires. It grows in African wooded grassland or woodland.\n\nIt grows up to 5–10 m (16–33 ft) tall, with leaves that are similar to a bauhinia, but it differs from bauhinia by having separate male and female flowers on separate trees. The flower petals are white and the thick, calyces (or seed pods) are covered in rust coloured hairs. The pods do not spilt (like other tree pods) but fall from the branches, then rot whilst on the ground, releasing the seeds.\n\nThe inner bark of the tree has been used to make rope.\n\nGignoux, Jacques; Clobert, Jean; Menaut, Jean-Claude (1997-01-01). \"Alternative Fire Resistance Strategies in Savanna Trees\". Oecologia. 110 (4): 576– 583. Bibcode: 1997Oecol.110..576G. doi: 10.1007/s004420050198. ISSN 0029-8549. JSTOR 4221648. PMID 2",
+      "excerpt_offset": 0,
+      "total_chars": 1208,
+      "bm25": {
+        "q0": {
+          "rank": 1,
+          "score": 39.0357
+        }
+      },
+      "best_rank": 1,
+      "title_similarity": 0.0,
+      "context_overlap": 0.25,
+      "cosine": 0.294387,
+      "rerank_logit": -6.6383,
+      "rerank_position": 7
+    },
+    {
+      "page_id": "29226892",
+      "revision_id": "1347208922",
+      "title": "Xeronema callistemon",
+      "url": "https://en.wikipedia.org/wiki/Xeronema_callistemon",
+      "excerpt": "Xeronema callistemon is a species of flowering plant endemic to the Poor Knights Islands and Taranga Island in the north of New Zealand. It was discovered in 1924 and has a common name Poor Knights lily. The plant is listed as vulnerable in the 1997 IUCN Red List of Plants, but As of April 2026 is not listed in the IUCN Red List of Threatened Species.\n\nThe green stalks of Xeronema callistemon start growing vertically, initially sheathed by overlapping leaves. As the flower emerges, the stalk then turn sideways, growing a red flower raceme with prominent red stamens tipped with orange pollen and resembles a giant bottlebrush or toothbrush. The individual flower tepals are 10–15 mm long, the stamens up to 4 centimetres (1.6 in) tall, and the length of the brush is usually between 18 and 25 cm (7.1 and 9.8 in) and can reach 45 cm (18 in). The plant itself is about 1 m (3.3 ft) tall and 1–4 m (3.3–13.1 ft) wide.\n\nPlants grow from fresh falling seeds. Although they germinate easily, it might take 10–15 years for them to grow into the flowering size. They flower between September and December, peaking in October (spring in New Zealand).\n\nThe common name of the plant originates from the P",
+      "excerpt_offset": 0,
+      "total_chars": 2330,
+      "bm25": {
+        "q0": {
+          "rank": 2,
+          "score": 38.0033
+        }
+      },
+      "best_rank": 2,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1711,
+      "cosine": 0.157648,
+      "rerank_logit": -6.746979,
+      "rerank_position": 12
+    },
+    {
+      "page_id": "27749265",
+      "revision_id": "1340064672",
+      "title": "Passiflora macrophylla",
+      "url": "https://en.wikipedia.org/wiki/Passiflora_macrophylla",
+      "excerpt": "Passiflora macrophylla is a species of flowering plant in the family Passifloraceae. It is commonly called the tree passion flower, and is one of the relatively few species in Passiflora with a tree-like growth pattern (growing to 10–20 ft). The leaves can grow up to three feet long by one foot wide. Flowers are borne as inflorescences from the trunk as the plant does not often branch. The flowers have white petals and a yellow corona. Rounded fruits follow and may reach 2 in (5.1 cm) in diameter. It is native to humid and wet lowland regions of Ecuador with one collection reported from Colombia.",
+      "excerpt_offset": 0,
+      "total_chars": 603,
+      "bm25": {
+        "q0": {
+          "rank": 3,
+          "score": 37.2254
+        }
+      },
+      "best_rank": 3,
+      "title_similarity": 0.0,
+      "context_overlap": 0.3696,
+      "cosine": 0.149789,
+      "rerank_logit": -6.149833,
+      "rerank_position": 1
+    },
+    {
+      "page_id": "35504641",
+      "revision_id": "1329472255",
+      "title": "Pennantia corymbosa",
+      "url": "https://en.wikipedia.org/wiki/Pennantia_corymbosa",
+      "excerpt": "Pennantia corymbosa, commonly known as kaikomako (from the Māori kaikōmako), is a small dioecious tree endemic to New Zealand.\n\nSmall, creamy flowers are produced between November and February, followed by a shiny black fruit in autumn. They are a favourite food of the New Zealand bellbird.\n\nThe Māori name kaikōmako means food (kai) of the bellbird (kōmako). Traditionally, Māori used the tree to make fire by repeatedly rubbing a pointed stick into a groove on a piece of māhoe.\n\nAn English name is \"duck's foot\", coming from the shape of the juvenile plant's leaf. Juvenile plants have small leaves with tangled, divaricating stems, while mature plants have much larger leaves and a normal tree architecture.\n\nIdentifying P. corymbosa is different at each stage of its life. As a seedling, Kaikōmako has cotyledons which are entire and oval shaped, and are about 10 by 8 millimetres (0.39 by 0.31 in) in size. As the plant grows, the first true leaves are about 9 x 8mm and are three-toothed. As a juvenile, the plant grows into a dense shrub with branches that zig-zag and tangle. As a juvenile, it has small leaves that are about 7 to 15 millimetres (0.28 to 0.59 in) long. Kaikōmako leaves in ",
+      "excerpt_offset": 0,
+      "total_chars": 6693,
+      "bm25": {
+        "q0": {
+          "rank": 4,
+          "score": 37.1722
+        }
+      },
+      "best_rank": 4,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1772,
+      "cosine": 0.218981,
+      "rerank_logit": -6.812577,
+      "rerank_position": 15
+    },
+    {
+      "page_id": "29151150",
+      "revision_id": "1306378428",
+      "title": "Cunonia capensis",
+      "url": "https://en.wikipedia.org/wiki/Cunonia_capensis",
+      "excerpt": "Cunonia capensis, the butterspoon tree, butterknife tree, African red alder, red alder or rooiels, is a small tree found in the afromontane forests of southern Africa, and along rivers. It is grown as an ornamental in gardens for its attractive glossy foliage and its clusters of tiny, scented, white flowers. It is the only one of 24 species of Cunonia to occur outside of New Caledonia in the Pacific.\n\nCunonia capensis is a beautiful specimen tree, especially for southern African gardens. Its foliage is glossy, with tints of red, and it produces sprays of dense, fragrant, cream-coloured flowers from February to May (late austral summer to autumn). The flowers are bisexual and attract butterflies and honey bees. The fine seeds appear in tiny two-horned capsules, and are dispersed by birds and by wind.\n\nThe large stipules which enclose the growth tip are pressed together in a spoon-like structure, giving the tree one of its common names, the butterspoon tree.\n\nThis evergreen garden tree does not grow well in arid conditions, as it prefers a slightly more temperate climate, and requires a great deal of water in its first few years. It tolerates some frost and it is very fast-growing - ",
+      "excerpt_offset": 0,
+      "total_chars": 2690,
+      "bm25": {
+        "q0": {
+          "rank": 5,
+          "score": 36.6514
+        }
+      },
+      "best_rank": 5,
+      "title_similarity": 0.0,
+      "context_overlap": 0.2447,
+      "cosine": 0.271892,
+      "rerank_logit": -6.879549,
+      "rerank_position": 17
+    },
+    {
+      "page_id": "61350190",
+      "revision_id": "1292633148",
+      "title": "Scaevola chamissoniana",
+      "url": "https://en.wikipedia.org/wiki/Scaevola_chamissoniana",
+      "excerpt": "Scaevola chamissoniana is a shrub in the family Goodeniaceae with a native range of the Hawaiian Islands, where it is known as the Mountain naupaka or Naupaka kuahiwi.\n\nIt is found in wet forests and open areas at elevations of about 1150 feet. It flowers yearround.\n\nIt was first described in 1829, by Charles Gaudichaud-Beaupré. The specific epithet, chamissoniana, honours Adelbert de Chamisso, naturalist to the expedition (\"around the world, by order of the king\").\n\nNaupaka flowers have 5 petals, spiral leaves, and have a single plane of bilateral symmetry. They belong to the subclass Asteridae and family Goodenia. They share many characteristics with many types of fanflower plants. There are eight species of Naupaka plants which are native to Hawaii.\n\nThe two forms of the Naupaka never grow in the same place. The beach naupaka strictly grow in beach environments and are well adapted to grow with the heat from the sun and the salt spray from the ocean. The beach variations of Naupaka are pure white in color. The mountain naupaka needs to be high in elevation at a cooler and rainy area of the mountains. The mountain type of naupaka are all different shades of purple and violet. The",
+      "excerpt_offset": 0,
+      "total_chars": 4911,
+      "bm25": {
+        "q0": {
+          "rank": 6,
+          "score": 36.5264
+        }
+      },
+      "best_rank": 6,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1744,
+      "cosine": 0.188706,
+      "rerank_logit": -6.91202,
+      "rerank_position": 18
+    },
+    {
+      "page_id": "4043584",
+      "revision_id": "1350232201",
+      "title": "Thespesia grandiflora",
+      "url": "https://en.wikipedia.org/wiki/Thespesia_grandiflora",
+      "excerpt": "Thespesia grandiflora, most commonly known as maga and maga colorada (\"red-colored maga\"), and also erroneously referred to as amapola (a Puerto Rican term for hibiscus), is a tree in the Malvaceae family of the rosids clade endemic to Puerto Rico, where its flower is officially recognized as the national flower of Puerto Rico. Originally native to the humid, lower limestone mountains of the Cordillera Central and the Northern Karst Belt in the western and north-central regions of the main island, it grows everywhere in the archipelago due to its extensive cultivation. The maga is mostly used as an ornamental plant, but like the related portia, its wood is also valued for its durable timber. It is grown as an ornamental tree in Florida, Hawaii, Honduras, and various Caribbean islands.\n\nThough the maga is contained within the same family as hibiscus and may sometimes be referred to as such in English and amapola in Puerto Rican Spanish, truly it belongs to a different genus, and is more closely related to cotton.\n\nThe flower of the maga tree is the official national flower of Puerto Rico.\n\nThe flowers are red to pink in color with year-round flowering. The flowers are five-petalled ",
+      "excerpt_offset": 0,
+      "total_chars": 1624,
+      "bm25": {
+        "q0": {
+          "rank": 7,
+          "score": 36.3801
+        }
+      },
+      "best_rank": 7,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1765,
+      "cosine": 0.196996,
+      "rerank_logit": -7.027531,
+      "rerank_position": 19
+    },
+    {
+      "page_id": "21663486",
+      "revision_id": "1327120278",
+      "title": "Cotoneaster salicifolius",
+      "url": "https://en.wikipedia.org/wiki/Cotoneaster_salicifolius",
+      "excerpt": "Cotoneaster salicifolius, the willow-leaved cotoneaster, is a drought-tolerant, evergreen to semi-evergreen, low-lying, small to medium-sized shrub with an arched branching habit. Specimens growing in the wild, however, are generally larger, averaging five meters in height. Although native to the mountains, mixed forests, and open places in western China, it is commonly cultivated in temperate climates worldwide. Cultivars have been bred in a variety of forms, as ornamental groundcovers or shrubs.\n\nThe bark of the willow-leaved cotoneaster is gray-brown, its stems are thin, and its root system is sparse.\n\nThe leaves are alternate, simple, long, lanceolate, dark green and resemble those of willow trees (thus the common name), and have fine gray hairs on their undersides. The scientific name 'salicifolius', described by the botanist Franchet, means 'with leaves like willows' (see: Genus Salix). During the colder months, they turn maroonish in color.\n\nIn June it bears many flowered, compound corymbs of white, 5–6 mm flowers. The fruit grow as small, showy, apple -like, red pomes, ripening in September to October, and enduring into the winter.\n\nThe diploid chromosomal number is 34 (2n=",
+      "excerpt_offset": 0,
+      "total_chars": 3645,
+      "bm25": {
+        "q0": {
+          "rank": 8,
+          "score": 36.2881
+        }
+      },
+      "best_rank": 8,
+      "title_similarity": 0.0,
+      "context_overlap": 0.2476,
+      "cosine": 0.166691,
+      "rerank_logit": -7.056304,
+      "rerank_position": 20
+    },
+    {
+      "page_id": "2904984",
+      "revision_id": "1353799359",
+      "title": "Acacia victoriae",
+      "url": "https://en.wikipedia.org/wiki/Acacia_victoriae",
+      "excerpt": "Acacia victoriae, commonly known as elegant wattle, bramble wattle, prickly wattle, gundabluey, gundabluie or bardi bush, is a shrub-like tree native to Australia. There is a single subspecies: A. victoriae subsp. arida Pedley.\n\nAcacia victoriae matures into a shrub-like tree with multiple trunks. It reaches a height of about 5–6 metres (16 + 1 ⁄ 2 – 19 + 1 ⁄ 2 ft) and is moderately fast growing. It has a life-span of about 10–15 years. The tree has a large root system, known to extend to 20 m (66 ft). It is able to survive drought fairly well, but not in severe drought, though it can regenerate from suckers. Flowering begins in August and continues into late December, depending on the region in which the tree is found.\n\nThe branches of Acacia victoriae are covered in small spines that are about 1 cm in length. During flowering, the branches are fully clustered with yellowish and strongly scented flowers. Each flower is in a pair within the 12 cm cluster. Seeds are found in 8 cm pale-coloured pods. The seeds themselves are about 0.5 cm and brown in colour. The timing of seed maturation varies.\n\nAcacia victoriae is found in arid and semiarid areas, generally in alkaline soils includ",
+      "excerpt_offset": 0,
+      "total_chars": 1895,
+      "bm25": {
+        "q0": {
+          "rank": 9,
+          "score": 36.1461
+        }
+      },
+      "best_rank": 9,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1839,
+      "cosine": 0.249149,
+      "rerank_logit": -6.744772,
+      "rerank_position": 11
+    },
+    {
+      "page_id": "39988821",
+      "revision_id": "1322059550",
+      "title": "Calycophyllum spruceanum",
+      "url": "https://en.wikipedia.org/wiki/Calycophyllum_spruceanum",
+      "excerpt": "Calycophyllum spruceanum, common names capirona and Pau-Mulato, is a canopy tree belonging to the Gardenia Family (Rubiaceae) indigenous to the Amazon rainforest. Its most interesting characteristic is its very shiny, highly polished green bark. The oblong leaves are up to seven inches (18 centimeters) in length. The white flowers are in small terminal clusters.\n\nA tree can grow to a height of 15–27 meters (49–89 feet). Its flowers are in cymes which are densely packed. At first the inflorescences are totally enclosed by the bracts. When they emerge, the flowers are white and 6–7 millimeters long with spreading lobes. The fruit is an oblong capsule 8–11 millimeters long and densely covered with hairs pressed to the surface.\n\nOnce or twice a year, it sheds off its bark entirely. The smooth green bark underneath is somewhat like a sunburnt human. The older the tree, the more of its bark will be unpeeled, creeping up its trunk. It grows white or green flowers between March and April. It fruits between July and November and the seeds are dispersed by the wind and water. Its wood is used for parquet.\n\nThe dried bark is used to treat fungus on the skin. Used also as an antidiabetic and f",
+      "excerpt_offset": 0,
+      "total_chars": 1502,
+      "bm25": {
+        "q0": {
+          "rank": 10,
+          "score": 36.0821
+        }
+      },
+      "best_rank": 10,
+      "title_similarity": 0.0,
+      "context_overlap": 0.2273,
+      "cosine": 0.267974,
+      "rerank_logit": -6.799693,
+      "rerank_position": 14
+    },
+    {
+      "page_id": "41885379",
+      "revision_id": "1335973032",
+      "title": "Caryota mitis",
+      "url": "https://en.wikipedia.org/wiki/Caryota_mitis",
+      "excerpt": "nown as the clustering fishtail palm or fishtail palm, is a species of palm native to Tropical Asia from India to Java to southern China, now sparingly naturalized in southern Florida and in parts of Africa and Latin America. The species was originally described from Vietnam in 1790. In Florida, it grows in hummocks and in disturbed wooded areas.\n\nCaryota mitis has clustered stems up to 10 m (33 feet) tall and 15 cm (6 inches) in diameter. Leaves can be up to 3 m (10 feet) long. Each leaf is made of many pairs of leaflets shaped like tail fins that give this palm its name.\n\nFlowers are purple and grow on hanging spikes. Its fruits turn dark purple or red when they are ripe, they are harmful to humans. The tree slowly deteriorates not long after it bears fruit.\n\nCultivated mainly as an ornament plant in Cambodia, where it is named tunsaé töch, traditional healers burn the heaps of felted hairs from the leaves' axils to treat ill limbs of patients.\n\nIts trunk pith can be extracted to make a kind of flour that has similar properties like sago.\n\nThe fruit of C. mitis is saturated with raphides, sharp, needle-shaped crystals of calcium oxalate. The raphides are strong irritants that cau",
+      "excerpt_offset": 16,
+      "total_chars": 1386,
+      "bm25": {
+        "q0": {
+          "rank": 11,
+          "score": 35.7244
+        }
+      },
+      "best_rank": 11,
+      "title_similarity": 0.0,
+      "context_overlap": 0.2772,
+      "cosine": 0.207413,
+      "rerank_logit": -6.179536,
+      "rerank_position": 2
+    },
+    {
+      "page_id": "30688796",
+      "revision_id": "1352149223",
+      "title": "Quercus oblongifolia",
+      "url": "https://en.wikipedia.org/wiki/Quercus_oblongifolia",
+      "excerpt": "Quercus oblongifolia, commonly known as the Southwestern blue oak, Arizona blue oak, Blue live oak or Sonoran blue oak, is an evergreen small tree or large shrub in the white oak group.\n\nQuercus oblongifolia grows in high grasslands, canyons and mesas in southwestern United States (Texas, Arizona and New Mexico) and northwestern Mexico (Baja California Sur, Chihuahua, Coahuila, Sinaloa and Sonora states). Arizona blue oak is closely related to Engelmann oak \" Quercus engelmannii \" in Southern California. The two species may be conspecific.\n\nThe Arizona blue oak is a small evergreen tree growing 5–8 metres (16–27 feet) tall with a rounded crown. At higher elevations it is typically a large shrub. The trunk is up to 50 centimetres (20 inches) in diameter and the bark is light gray and densely furrowed. The twigs are yellowish brown and hairless with reddish brown buds. The leaves are small, alternate and oblong, with entire margins, leathery, bluish-green above and mid green below. The flowers appear in spring at the same time as the old leaves are being shed and new leaf growth starts. The male flowers form yellowish-green catkins and the female flowers are solitary or paired and gr",
+      "excerpt_offset": 0,
+      "total_chars": 2338,
+      "bm25": {
+        "q0": {
+          "rank": 12,
+          "score": 35.487
+        }
+      },
+      "best_rank": 12,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1889,
+      "cosine": 0.135137,
+      "rerank_logit": -6.681601,
+      "rerank_position": 9
+    },
+    {
+      "page_id": "1857880",
+      "revision_id": "1331279187",
+      "title": "Ochna integerrima",
+      "url": "https://en.wikipedia.org/wiki/Ochna_integerrima",
+      "excerpt": "Ochna integerrima, popularly called yellow Mai flower (Vietnamese: mai vàng, hoa mai, hoàng mai in southern Vietnam, although in the north, mai usually refers to Prunus mume), is a plant species in the genus Ochna (/ ˈ ɒ k n ə /) and family Ochnaceae. In the wild, it is a small tree or shrub species (2-7 m tall). The timing of the yellow flowers of this plant make it very popular in southern Vietnam, where (often bonsai -style) plants are purchased during Tết.\n\nIn Vietnam, the variety of O. integerrima whose flowers have five petals is called mai vàng (yellow mai), whereas mai núi (mountain mai) flowers have between five and nine petals.\n\nIn Cambodia, it is called angkea (អង្គា), angkeasel (អង្គាសីល), angkea loeung អង្គាលឿង or kongkea គង្គា.\n\nOchna integerrima (Thai: ช้างน้าว Chang nao) is the provincial flower of Mukdahan province, Thailand.\n\nOchna integerrima is both easy to grow and to take care of. Farmers choose good seeds, soak them in water, and sow them in moist soil (either in pots or in a garden). Some practices also include coating the seeds with sugar to help them grow stronger.\n\nOchna integerrima likes moist and light soil, cannot stand waterlogging. Therefore, it is n",
+      "excerpt_offset": 0,
+      "total_chars": 2147,
+      "bm25": {
+        "q0": {
+          "rank": 13,
+          "score": 35.3213
+        }
+      },
+      "best_rank": 13,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1646,
+      "cosine": 0.247015,
+      "rerank_logit": -6.765933,
+      "rerank_position": 13
+    },
+    {
+      "page_id": "1903970",
+      "revision_id": "1352238020",
+      "title": "Bletilla",
+      "url": "https://en.wikipedia.org/wiki/Bletilla",
+      "excerpt": "Bletilla, commonly named the urn orchid, is a temperate, terrestrial genus of orchids. The genus currently contains five recognized species distributed through China, Japan, Taiwan, south to Vietnam, Thailand and Myanmar. The name is actually a diminutive of Bletia because of the resemblance between the two genera even though Bletia is a New World genus. The genera Jimensia Raf. and Polytoma Lour. ex Gomes are generally included into Bletilla. This genus is abbreviated Ble in trade journals.\n\nThe pseudobulbs resemble spreading corms which usually sit at ground level. Each pseudobulb generally bears several pleated leaves around 40 cm (16 in) long. The racemes of flowers emerge from the center of the years new growth before it is mature, during spring and early summer. The flowers vary in color from white to purple, and all species have four pollinia.The tubers resemble a horn or claw. They are grayish-white or yellowish-white in appearance, with concentric rings and brown rootlets. They have a hard texture and do not break easily.\n\nAs of August 2025, five species were accepted:\n\nBletilla chartacea (King & Pantl.) Tang & F.T.Wang – Myanmar (Burma)\n\nBletilla formosana (Hayata) Schltr",
+      "excerpt_offset": 0,
+      "total_chars": 5079,
+      "bm25": {
+        "q0": {
+          "rank": 14,
+          "score": 35.282
+        }
+      },
+      "best_rank": 14,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1616,
+      "cosine": 0.105246,
+      "rerank_logit": -6.354907,
+      "rerank_position": 4
+    },
+    {
+      "page_id": "33852484",
+      "revision_id": "1314014066",
+      "title": "Lespedeza bicolor",
+      "url": "https://en.wikipedia.org/wiki/Lespedeza_bicolor",
+      "excerpt": "Lespedeza bicolor is a species of flowering plant in the legume family known by the common names shrubby bushclover, shrub lespedeza, and bicolor lespedeza. It is native to eastern Asia, ranging from southeastern Siberia to eastern China, Mongolia, Korea, and Japan. and it is widely grown as an ornamental plant. In some regions, such as the southeastern United States, it grows in the wild as an introduced and invasive species.\n\nThis plant is quite variable in appearance, and it has been bred into a number of cultivars. In general, this plant is an erect shrub growing to 3 metres (9.8 feet) in height and width, generally remaining smaller in cold climates. It can grow from ground level to 5 feet (1.5 metres) in one growing season. The cultivars \"Little Buddy\" and \"Yakushima\" grow to 3 feet (0.91 metres) and 1.5 feet (0.46 metres), resp. Lespedeza bicolor grows from a thick root system. The stems may be 3 centimetres (1.2 inches) in diameter. The leaves are each made up of three oval leaflets up to 5 centimetres (2.0 inches) long. The inflorescence is a raceme of up to 15 open pealike flowers, which are pink and purple in color. There are also cleistogamous flowers which self-pollina",
+      "excerpt_offset": 0,
+      "total_chars": 2711,
+      "bm25": {
+        "q0": {
+          "rank": 15,
+          "score": 35.1953
+        }
+      },
+      "best_rank": 15,
+      "title_similarity": 0.0,
+      "context_overlap": 0.2683,
+      "cosine": 0.149116,
+      "rerank_logit": -6.289638,
+      "rerank_position": 3
+    },
+    {
+      "page_id": "23224015",
+      "revision_id": "1345363623",
+      "title": "Fremontodendron mexicanum",
+      "url": "https://en.wikipedia.org/wiki/Fremontodendron_mexicanum",
+      "excerpt": "Fremontodendron mexicanum is a rare species of shrub in the mallow family known by the common names Mexican flannelbush, Mexican fremontia, and Southern flannelbush, that is endemic to the central Peninsular Ranges in Mexico and the United States.\n\nThe species is known from about ten occurrences in northern Baja California state and adjacent southern San Diego County, California. However, it has most recently been confirmed to exist in only two of those locales currently. In 1993, fewer than 100 individuals were thought to exist. In the United States it is a federally listed endangered species.\n\nThe shrub grows generally on alluvial plains, in California montane chaparral and woodlands and temperate coniferous forest habitats, among Tecate cypress (Cupressus forbesii) trees.\n\nFremontodendron mexicanum is an erect, flowering shrub or multi-trunked small tree reaching 6–15 feet (1.8–4.6 m) high, with branches spreading to 10 feet (3.0 m) wide.\n\nThe leathery and furry olive green leaves are up to 5 centimeters long and divided into several wide lobes.\n\nThe solitary flowers, each about 6 centimeters wide, appear spread along the branches. The showy flowers are made up of five bright or",
+      "excerpt_offset": 0,
+      "total_chars": 2445,
+      "bm25": {
+        "q0": {
+          "rank": 16,
+          "score": 35.1666
+        }
+      },
+      "best_rank": 16,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1889,
+      "cosine": 0.144442,
+      "rerank_logit": -6.686243,
+      "rerank_position": 10
+    },
+    {
+      "page_id": "55408643",
+      "revision_id": "1296753852",
+      "title": "Ficus arnottiana",
+      "url": "https://en.wikipedia.org/wiki/Ficus_arnottiana",
+      "excerpt": "Ficus arnottiana, commonly known as the Indian rock fig, rock peepal or wavy-leaved fig tree, is a species of fig tree, native to the Indian subcontinent with a preference to rocky habitats. The species was named in honor of the Scottish botanist George Arnott Walker-Arnott.\n\nFicus arnottiana is a medium to large deciduous tree that can grow up to 20 meters (66 feet) in height. The tree has a spreading canopy, and its bark is smooth and grayish-white. The leaves are large, ovate to heart-shaped, and have a distinctive glossy green surface with prominent veins. Unlike Ficus religiosa (a species that it is commonly mistaken for), its leaves have a more pointed and acuminate rather than a long tapering one.\n\nThe tree produces small, round figs that are initially green and turn reddish when ripe. These figs grow in pairs along the branches and serve as a crucial food source for birds, bats, and other wildlife. Like other Ficus species, F. arnottiana has a mutualistic relationship with fig wasps, which pollinate its flowers.\n\nThis species is native to the Indian subcontinent and predominantly found in India, Sri Lanka, and parts of Southeast Asia. It grows in dry deciduous forests, on r",
+      "excerpt_offset": 0,
+      "total_chars": 1416,
+      "bm25": {
+        "q0": {
+          "rank": 17,
+          "score": 35.0815
+        }
+      },
+      "best_rank": 17,
+      "title_similarity": 0.0,
+      "context_overlap": 0.2444,
+      "cosine": 0.206263,
+      "rerank_logit": -6.613798,
+      "rerank_position": 6
+    },
+    {
+      "page_id": "30760731",
+      "revision_id": "1329041427",
+      "title": "Charpentiera densiflora",
+      "url": "https://en.wikipedia.org/wiki/Charpentiera_densiflora",
+      "excerpt": "Charpentiera densiflora is a rare species of tree in the family Amaranthaceae known by the common names dense-flowered pāpala and Nā Pali Coast pāpala. It is endemic to the island of Kauai in Hawaii, where there are 300 to 400 mature trees remaining. This and many other rare Kauaian plants were added to the endangered species list of the United States in 2010.\n\nThis is a tree growing up to 12 meters tall. It occurs in forests in moist mountain gulches which are dominated by hala (Pandanus tectorius), a common tree of the Pacific Islands. The leaves are roughly oval in shape and up to 40 centimeters long. The inflorescence is a branching panicle of flowers, each main branch bearing up to 100 flowers. Like other plants of its genus, this species is gynodioecious; most of the plants have bisexual flowers with male and female parts, but some have only female flowers. Some of the female parts in the bisexual flowers are abortive or nonfunctional, indicating that the species is in the middle of an evolution toward a fully dioecious system; eventually some flowers might start developing without the female parts. If the species becomes dioecious, some individuals will produce all male flow",
+      "excerpt_offset": 0,
+      "total_chars": 2226,
+      "bm25": {
+        "q0": {
+          "rank": 18,
+          "score": 35.0189
+        }
+      },
+      "best_rank": 18,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1772,
+      "cosine": 0.171438,
+      "rerank_logit": -6.564437,
+      "rerank_position": 5
+    },
+    {
+      "page_id": "1821864",
+      "revision_id": "1321167769",
+      "title": "Grias cauliflora",
+      "url": "https://en.wikipedia.org/wiki/Grias_cauliflora",
+      "excerpt": "Grias cauliflora, the anchovy pear, (also called the river pear) is an evergreen fruit tree native to Jamaica, Central America, and Colombia. It is often found near rivers or marshes in large colonies. It belongs to the Lecythidaceae (Brazil nut) family.\n\nThe edible nuts grow clumped together in large, round, woody and extremely hard seed pods the size of a large grapefruit. The meat of the seed (the \"nut\") is very rich in oil and grows from 7 to 9 cm long and 2 to 4 cm in diameter. The tree has fragrant yellow flowers about 5 cm across and grows to a height of about 15 m (50 feet). The anchovy pear tree bears spear-shaped, glossy leaves produced in palm-like tufts that reach an average length of 90 cm. The edible, brown, berrylike fruits for which it is cultivated for pickling are not related to the common pear. The fruit has a taste similar to that of the mango.",
+      "excerpt_offset": 0,
+      "total_chars": 876,
+      "bm25": {
+        "q0": {
+          "rank": 19,
+          "score": 34.9626
+        }
+      },
+      "best_rank": 19,
+      "title_similarity": 0.0,
+      "context_overlap": 0.2778,
+      "cosine": 0.250034,
+      "rerank_logit": -6.662971,
+      "rerank_position": 8
+    },
+    {
+      "page_id": "35969522",
+      "revision_id": "1344444032",
+      "title": "Shawia paniculata",
+      "url": "https://en.wikipedia.org/wiki/Shawia_paniculata",
+      "excerpt": "Shawia paniculata, commonly called akiraho, is a species of shrub or tree in the family Asteraceae, found only in New Zealand. The tree can grow to 6 metres high, and has yellow-green, oval-shaped leaves, with white undersides and wavy margins.\n\nShawia paniculata produces clusters of daisy flowers in late autumn.\n\nShawia paniculata is a small evergreen tree that is indigenous and commonly found in both the North and South Islands of New Zealand. It has reddish twigs bearing very smooth and wavy-edged oval green leaves that are white underneath and twigs that are grooved on the top surface and angular in cross-section. It can grow up to about 6 meters tall. Shawia paniculata branchlets are grooved, sharp-cornered, very short and grow up to short lengths such as 2-4 centimeters. Flowers are small, white, and in dense clusters. Petiole of the akiraho plant which exists as a stalk that attaches the leaf blade to the stem which grows up to 5 millimeters long. It also has a white thin appressed white to buff tomentum below. Shawia paniculata also has a sweet smell to it and is looked at by many people as used for creating hedges. The genus is named after Thomas Shaw, an English scholar a",
+      "excerpt_offset": 0,
+      "total_chars": 4177,
+      "bm25": {
+        "q0": {
+          "rank": 20,
+          "score": 34.9396
+        }
+      },
+      "best_rank": 20,
+      "title_similarity": 0.0,
+      "context_overlap": 0.2,
+      "cosine": 0.290178,
+      "rerank_logit": -6.874898,
+      "rerank_position": 16
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "stage": "match",
+  "finished_at": "2026-10-18T13:17:19+00:00",
+  "entry_text": "correct",
+  "provenance": {
+    "removed": 154,
+    "written": 86
+  },
+  "mode": "model",
+  "mode_detail": "retrieval models verified",
+  "models": [
+    "nvidia/llama-nemotron-embed-vl-1b-v2",
+    "nvidia/llama-nemotron-rerank-vl-1b-v2"
+  ],
+  "wikipedia_revision": "417c267bb457fa645c22eb3b5c77764963194c70",
+  "thresholds": {
+    "rerank_logit": -10.0,
+    "margin": 0.5,
+    "cosine": 0.15,
+    "title_similarity": 0.0
+  },
+  "entries": 249,
+  "skipped": 48,
+  "searched": 201,
+  "accepted": 86,
+  "rejected": 115,
+  "headword_variants": {
+    "E0008": "swivel",
+    "E0021": "philology",
+    "E0050": "ambitus",
+    "E0067": "ovolo",
+    "E0068": "outlaugh",
+    "E0113": "haughtily",
+    "E0117": "adier dragoons and guard",
+    "E0139": "thomist",
+    "E0177": "silvius italicus caius",
+    "E0188": "achievement",
+    "E0192": "atellan",
+    "E0207": "byrrus",
+    "E0221": "cabalist",
+    "E0248": "hindustani",
+    "E0249": "abyssinian"
+  },
+  "list_pages_removed_after_fetch": 1,
+  "errors": 0,
+  "repeated_articles": {
+    "603624": 2,
+    "82889": 2
+  },
+  "outputs": {
+    "matches": "artifacts/match/matches.jsonl",
+    "candidates": "artifacts/match/candidates",
+    "articles": "artifacts/match/articles"
+  }
+}

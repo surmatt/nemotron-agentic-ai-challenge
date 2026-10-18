@@ -1,0 +1,583 @@
+{
+  "entry_id": "E0015",
+  "headword": "WILLIAMSTADT",
+  "entry_text_sha256": "52b458b714efc00556240f594351c606b97c7aef73465ba3634bde5a117e6123",
+  "mode": "model",
+  "queries": [
+    "williamstadt",
+    "williamstadt near oxford practice soon london town holland place frequented built garrison made"
+  ],
+  "query_chars": 1500,
+  "headword_variant": null,
+  "candidate_count": 26,
+  "list_pages_removed_after_fetch": [],
+  "decision": {
+    "status": "rejected",
+    "method": "nemotron_embed_rerank",
+    "thresholds": {
+      "rerank_logit": -10.0,
+      "margin": 0.5,
+      "cosine": 0.15,
+      "title_similarity": 0.0
+    },
+    "reason": "rerank_logit < -10.0, margin < 0.5, cosine < 0.15, or title_similarity < 0.0",
+    "page_id": "13276224",
+    "title": "William Penn Jr.",
+    "rerank_logit": -4.605136,
+    "cosine": 0.232498,
+    "margin_to_next": 0.264781,
+    "title_similarity": 0.5185
+  },
+  "candidates": [
+    {
+      "page_id": "8400924",
+      "revision_id": "1340127004",
+      "title": "Norristown Farm Park",
+      "url": "https://en.wikipedia.org/wiki/Norristown_Farm_Park",
+      "excerpt": "Norristown Farm Park is a 690-acre (279 ha) Pennsylvania state park in East Norriton and West Norriton Townships and Norristown in Montgomery County, Pennsylvania, in the United States. Located just off of Interstate 276 on West Germantown Pike, it is operated in partnership with the Montgomery County Department of Parks.\n\nA working farm on the site of Norristown State Hospital, the park has multiple colonial-era farm buildings and homes on its grounds.\n\nStony Creek flows through the park. Baseball, bicycling, cross-country skiing, hiking, fishing, and picnicking opportunities are available in the park, as are summer musical concerts.\n\nNorristown Farm Park was originally part of a 7,000-acre (2,800 ha) tract of land called \"Williamstadt,\" which originally belonged to William Penn. The property was then transferred to Isaac Norris, the namesake of Norristown, by way of Penn's son, William Penn, Jr. Norris's heirs sold pieces of Williamstadt to the Commonwealth of Pennsylvania and Norristown State Hospital was opened in the 1870s as a mental hospital. The park is on state-owned land that surrounds the hospital.",
+      "excerpt_offset": 0,
+      "total_chars": 1126,
+      "bm25": {
+        "q0": {
+          "rank": 1,
+          "score": 22.8132
+        }
+      },
+      "best_rank": 1,
+      "title_similarity": 0.25,
+      "context_overlap": 0.0986,
+      "cosine": 0.08333,
+      "rerank_logit": -5.220086,
+      "rerank_position": 4
+    },
+    {
+      "page_id": "70805664",
+      "revision_id": "1352183671",
+      "title": "John Sperling (British Army officer)",
+      "url": "https://en.wikipedia.org/wiki/John_Sperling_(British_Army_officer)",
+      "excerpt": "rwards Lord Lynedoch), to assist the Dutch against the French, whose garrisons had been recently much reduced in strength. He was one of nine officers of Royal Engineers under the Commanding Royal Engineer Lieutenant-colonel (afterwards Lieutenant-general Sir) James Carmichael Smyth. They landed at Williamstadt on 18 December. On 31 December Sperling was at Staandaarhuyten making a bridge of boats, and in the early part of January 1814 he restored a tête-de-pont which protected the passage of the river. On 11 January 1814 Sperling, with his sappers, was attached to a column sent to assist the Prussians in dislodging the French from Hoogstraaten.\n\nSperling went to Breda on 21 January to arrange for accommodating a store depôt for the bombardment of Antwerp. On 2 February he advanced his engineer stores to Merxem, and during the night commenced the construction of a mortar battery, which was armed and opened fire on Antwerp on the afternoon of the 3rd. He did duty in the trenches until the 6th, when the siege was raised. The British troops went into cantonments, and Sperling, after taking his engineer stores to Breda, was sent to Tholen, in the neighbourhood of Bergen-op-Zoom, to rep",
+      "excerpt_offset": 794,
+      "total_chars": 6800,
+      "bm25": {
+        "q0": {
+          "rank": 7,
+          "score": 9.4791
+        },
+        "q1": {
+          "rank": 1,
+          "score": 30.721
+        }
+      },
+      "best_rank": 1,
+      "title_similarity": 0.16,
+      "context_overlap": 0.1481,
+      "cosine": 0.271566,
+      "rerank_logit": -4.869917,
+      "rerank_position": 2
+    },
+    {
+      "page_id": "60000091",
+      "revision_id": "1335392847",
+      "title": "HMS Princess (1795)",
+      "url": "https://en.wikipedia.org/wiki/HMS_Princess_(1795)",
+      "excerpt": "HMS Princess was the Dutch East Indiaman Williamstadt en Boetzlaar (or Willemstad en Boetselaar) that the British Royal Navy captured on 18 August 1795 at the Capitulation of Saldanha Bay. The Royal Navy initially rated her a 28-gun sixth rate. She quickly became a receiving ship, a guard ship, and a floating battery. The Navy sold her in 1816.\n\nThe Amsterdam Chapter of the Dutch East India Company hired Williamstadt en Boetzlaar. She sailed from Texel on 22 December 1794, under the command of Captain Simon Koter (or Kooter), bound for Batavia. She arrived at the Cape of Good Hope (the Cape), on 10 May 1795.\n\nShe was one of five merchant vessels that the British Royal Navy captured at Simon's Bay on 18 August 1795.\n\nPrincess was commissioned in November 1795 under Captain John Spanger. Captain Thomas Hardy replaced Spanger in January 1796, only to be replaced by Captain A. Todd (or Tod) in March. In March 1797 Captain N. Kemp replaced Todd. Captain Edward Ramage paid her off in August 1797.\n\nBetween 16 June 1797 and 29 November Princess was at Plymouth being fitted as a receiving ship. Lieutenant Richard Dorril commissioned her in August as a guardship for Waterford. In November he",
+      "excerpt_offset": 0,
+      "total_chars": 1857,
+      "bm25": {
+        "q0": {
+          "rank": 2,
+          "score": 20.8935
+        }
+      },
+      "best_rank": 2,
+      "title_similarity": 0.1905,
+      "context_overlap": 0.08,
+      "cosine": 0.219653,
+      "rerank_logit": -5.107038,
+      "rerank_position": 3
+    },
+    {
+      "page_id": "48260349",
+      "revision_id": "1333748804",
+      "title": "Siege of Hulst (1596)",
+      "url": "https://en.wikipedia.org/wiki/Siege_of_Hulst_(1596)",
+      "excerpt": "The siege of Hulst of 1596 took place between mid-July and August 18, 1596, at the city of Hulst, Province of Zeeland, Low Countries (present-day the Netherlands), during the Eighty Years' War, the Anglo-Spanish War (1585–1604). The siege was won by the Spanish forces of the Archduke of Austria. After a short siege, during which Maurice of Orange launched a failed attempt to relieve the city, the garrison of Dutch and English troops fell into Spanish hands on August 18, 1596.\n\nFrom 1590 to 1594 the Dutch under the leadership of Maurice of Orange achieved great military successes and expanded their territory, capturing numerous strategic towns and cities, including Hulst. In 1595 Maurice commenced a campaign with the objective to expel the Spanish troops from all cities north of the Rhine in the east of the Netherlands. However, at the siege of Groenlo Cristóbal de Mondragón arrived with a relief force, forcing Maurice to break up the siege. The following year began badly for the Dutch and English as the important port Calais fell to Spain after the French garrison surrendered. The Spanish under Albert of Austria returned to Flanders and conducted a counter offensive and was solicit",
+      "excerpt_offset": 0,
+      "total_chars": 5735,
+      "bm25": {
+        "q1": {
+          "rank": 2,
+          "score": 30.5481
+        }
+      },
+      "best_rank": 2,
+      "title_similarity": 0.3077,
+      "context_overlap": 0.1807,
+      "cosine": 0.24526,
+      "rerank_logit": -5.804109,
+      "rerank_position": 14
+    },
+    {
+      "page_id": "25970115",
+      "revision_id": "1353506860",
+      "title": "Sir Peter Halkett, 6th Baronet",
+      "url": "https://en.wikipedia.org/wiki/Sir_Peter_Halkett,_6th_Baronet",
+      "excerpt": " 1765 – 7 October 1839) was a senior Royal Navy officer of the early nineteenth century who is best known for his service in the French Revolutionary Wars. The younger son a Scottish baronet, Halkett joined the Navy and by 1793 was a lieutenant, becoming a post captain after service at the Siege of Williamstadt in the Netherlands. He later commanded the frigate HMS Circe during the Battle of Camperdown in 1797 and later achieved success in the Caribbean in command of HMS Apollo. He was made a rear-admiral in 1812, but his first major command was in the West Indies in 1836, lasting two years. Shortly before his death he inherited the Halkett Baronetcy from his brother Charles, later passing it to his son John.\n\nPeter Halkett was born in 1765, the second son of Sir John Halkett, the 4th Halkett Baronet of Pitfirrane in Fife. At a young age, Halkett entered the Royal Navy and as a lieutenant achieved his first command, that of the tiny sloop HMS Placentia in 1789. By 1793 was serving on HMS Syren, which conveyed the Duke of York to the Netherlands for service in the French Revolutionary Wars. During the campaign, Halkett served in gunboats assisting the Dutch garrison during the Siege",
+      "excerpt_offset": 42,
+      "total_chars": 3376,
+      "bm25": {
+        "q0": {
+          "rank": 3,
+          "score": 18.2771
+        }
+      },
+      "best_rank": 3,
+      "title_similarity": 0.2,
+      "context_overlap": 0.1688,
+      "cosine": 0.246606,
+      "rerank_logit": -5.471708,
+      "rerank_position": 7
+    },
+    {
+      "page_id": "56065052",
+      "revision_id": "1333748697",
+      "title": "Siege of San Andreas (1600)",
+      "url": "https://en.wikipedia.org/wiki/Siege_of_San_Andreas_(1600)",
+      "excerpt": "The siege of San Andreas also known as the siege of Sint-Andries was a military event that took place during the Eighty Years' War and the Anglo–Spanish War from 28 January to 6 March 1600. The Spanish garrison of San Andreas was besieged by an Anglo-Dutch force led by Maurice of Nassau. A Spanish relief force under the command of Luis de Velasco failed to relieve the fort after having been turned back by the besiegers. The fort surrendered after the garrison mutinied and accepted payment from Maurice.\n\nIn April 1599 the Spanish Army of Flanders under the command of Francisco de Mendonza was ordered by the Archduke of Austria to mount an offensive into the Bommelerwaard. To bolster the Spanish attack, they built the forts of Crevecoeur just north of 's-Hertogenbosch and Fort San Andreas near Heerewaarden which could keep the Meuse (Dutch: Maas) and Waal rivers under their close surveillance. Soon after the Spanish besieged Zaltbommel but Maurice of Nassau’s Anglo-Dutch army managed to defend the town, then outmanoeuvred the Spanish forces which forced Mendoza to retreat. As a result of this severe defeat the Spanish army went into turmoil due to mutinies and all further offensive a",
+      "excerpt_offset": 0,
+      "total_chars": 5031,
+      "bm25": {
+        "q1": {
+          "rank": 3,
+          "score": 30.4296
+        }
+      },
+      "best_rank": 3,
+      "title_similarity": 0.2581,
+      "context_overlap": 0.1341,
+      "cosine": 0.227332,
+      "rerank_logit": -5.996789,
+      "rerank_position": 23
+    },
+    {
+      "page_id": "54485158",
+      "revision_id": "1352260604",
+      "title": "Richard Cunningham (English Army officer)",
+      "url": "https://en.wikipedia.org/wiki/Richard_Cunningham_(English_Army_officer)",
+      "excerpt": "8 and was wounded there.\n\nCunningham had reached the rank of captain in March 1688, serving in the Regiment of Foot known as Barthold Balfour's regiment. This regiment fought at the Battle of Killiecrankie on the extreme left with his second, Lieutenant-Colonel Lauder, both were abandoned by their men and Brigadier-General Balfour was killed. In December 1688 Cunningham obtained a majority in the Earl of Arran's Regiment of Cuirassiers.\n\nCunningham was a passionate anti-Jacobite. In 1689 his services were rewarded by the Colonelcy of a Regiment of Foot which was modeled out of the existing forces in Scotland. The regiment was known as Colonel Cunningham's Regiment of Foot.\n\nOn 30 December 1690, Cunningham was given the colonelcy of a newly raised regiment of dragoons, the regiment now known as the 7th Queen's Own Hussars. Ordered to the Netherlands, Cunningham landed with his regiment at Williamstadt. Cunningham remained in command until he was promoted to the rank of brigadier at Mariekirk on 1 June 1696. As a brigadier he served in Flanders during the Nine Years' War. He left £2,500 when he died in 1696.\n\nIn 1695 he married Grisel, daughter of Archibald Primrose, Lord Carrington.",
+      "excerpt_offset": 278,
+      "total_chars": 1478,
+      "bm25": {
+        "q0": {
+          "rank": 4,
+          "score": 17.437
+        }
+      },
+      "best_rank": 4,
+      "title_similarity": 0.2667,
+      "context_overlap": 0.0435,
+      "cosine": 0.126556,
+      "rerank_logit": -5.24234,
+      "rerank_position": 6
+    },
+    {
+      "page_id": "8670195",
+      "revision_id": "1339753499",
+      "title": "Alicia D'Anvers",
+      "url": "https://en.wikipedia.org/wiki/Alicia_D%27Anvers",
+      "excerpt": "Alicia D'Anvers (baptised 1668 – 1725) was an English poet known for her satires of academic life.\n\nBorn in Oxford, her father, Samuel Clarke (bap. 1624, d. 1669), was superior beadle of civil law and first architypographus, or director of printing, for the University of Oxford. He died when she was two. She married barrister Knightley D'Anvers (c.1670–1740), son of Jane Knightly and physician Daniel D'Anvers, in 1688. D'Anvers had no children.\n\nD'Anvers is known to have published two poems with a third generally attributed to her. A Poem Upon His Sacred Majesty, His Voyage For Holland: By way of Dialogue, Between Belgia and Britannia (1691) was dedicated to Queen Mary; it is a poetic dialogue between Britannia and Belgia which addresses criticisms that King William III had divided loyalties between the Netherlands, the country of his birth, and Britain. According to Germaine Greer et al., it is \"as dull as might be expected,\" but another commentator calls it politically \"daring.\" The second and third poems — Academia, or, The Humours of the University of Oxford. In Burlesque Verse (1691) and The Oxford-Act: a Poem (1693) — satirise elements of academic life at the University of Ox",
+      "excerpt_offset": 0,
+      "total_chars": 2547,
+      "bm25": {
+        "q1": {
+          "rank": 4,
+          "score": 29.3698
+        }
+      },
+      "best_rank": 4,
+      "title_similarity": 0.3077,
+      "context_overlap": 0.1392,
+      "cosine": 0.223474,
+      "rerank_logit": -5.838784,
+      "rerank_position": 16
+    },
+    {
+      "page_id": "17532354",
+      "revision_id": "1345235511",
+      "title": "HMS Princess",
+      "url": "https://en.wikipedia.org/wiki/HMS_Princess",
+      "excerpt": "\n\nHMS Princess (1740) was a 70-gun third rate, originally the Spanish ship Princessa. She was captured in 1740, hulked in 1760 and sold in 1784.\n\nHMS Princessa (1780) was a 70-gun third rate, originally the Spanish ship Princessa. She was captured in 1780, became a sheer hulk in 1784 and was broken up in 1809.\n\nHMS Princess (1795) was rated as a 28-gun sixth rate, originally the Dutch East Indiaman Williamstadt en Boetzlaar. She was captured on 18 August 1795 at the Capitulation of Saldanha Bay, and became a 26-gun floating battery in 1800. She was sold in 1816.\n\nHMS Princess (1915) was the former SS Kronprincess Cecilie, launched in 1905. Captured in 1914, she was renamed as Princess and used as a dummy for HMS Ajax.\n\nHMS Princess (1939) was a hired patrol vessel which sank in 1940 after a collision\n\nIn addition, many ships have been named after specific princesses, including:\n\nHMS Princess Alice\n\nHMS Princess Amelia\n\nHMS Princess Anne\n\nHMS Princess Augusta\n\nHMS Princess Carolina\n\nHMS Princess Caroline\n\nHMS Princess Charlotte\n\nHMS Princess Louisa\n\nHMS Princess Margaret\n\nHMS Princess Maria\n\nHMS Princess Mary\n\nHMS Princess of Orange\n\nHMS Princess Royal\n\nHMS Princess Sophia Frederica",
+      "excerpt_offset": 364,
+      "total_chars": 1564,
+      "bm25": {
+        "q0": {
+          "rank": 5,
+          "score": 16.4041
+        }
+      },
+      "best_rank": 5,
+      "title_similarity": 0.1905,
+      "context_overlap": 0.0952,
+      "cosine": 0.134566,
+      "rerank_logit": -5.2283,
+      "rerank_position": 5
+    },
+    {
+      "page_id": "44425629",
+      "revision_id": "1223461680",
+      "title": "John Horatio Lloyd",
+      "url": "https://en.wikipedia.org/wiki/John_Horatio_Lloyd",
+      "excerpt": "John Horatio Lloyd (1 September 1798 – 17 July 1884) was an English barrister and Liberal MP for Stockport from 1832 to 1835.\n\nHe was born the son of John Lloyd, attorney and Town Clerk of Stockport, and Mary Lott.\n\nHe was educated at Stockport Grammar School and Queen's College, Oxford. In 1823 he was made a fellow of both Queen's College, Oxford and Brasenose College, Oxford.\n\nHe went up to London and was called to the Bar at the Inner Temple in 1826. In conjunction with William Newland Welsby he published in three parts \"Reports of Mercantile Cases in the Courts of Common Law\" in 1829 and 1830.\n\nIn 1832 he entered Parliament as Liberal MP for Stockport, following the passing of the Reform Bill, and held the seat until 1835.\n\nAfter a period in Athens working for the Ionian Bank, he returned to England and his legal practice became very successful, particularly in regards to investments in railways, for which is developed the Lloyd's Bond. He became one of the directors of the London Pneumatic Despatch Company.\n\nIn his will, he bequeathed the sum of £92,000, (equivalent to £12,113,300 in 2023).\n\nHe married Caroline Holland Watson, daughter of Major Holland Watson of the Stockport ",
+      "excerpt_offset": 0,
+      "total_chars": 1605,
+      "bm25": {
+        "q1": {
+          "rank": 5,
+          "score": 28.8081
+        }
+      },
+      "best_rank": 5,
+      "title_similarity": 0.2667,
+      "context_overlap": 0.2,
+      "cosine": 0.13326,
+      "rerank_logit": -6.358469,
+      "rerank_position": 26
+    },
+    {
+      "page_id": "13276224",
+      "revision_id": "1308033987",
+      "title": "William Penn Jr.",
+      "url": "https://en.wikipedia.org/wiki/William_Penn_Jr.",
+      "excerpt": "and. He was an unsuccessful candidate for Parliament.\n\nOn his mother's side he was related to the wife of Lord Fairfax, and engaged with him and others in a project to recover sunken treasure. By various means he added to his father's financial embarrassment, and he was obliged to sell the manor of Williamstadt, which had been laid out for him at the founding of the colony. In 1708, he signed the Pennsylvania Mortgage Agreement. Around this time he formally renounced Quakerism and became a member of the Church of England.\n\nAfter William Penn's death in July 1718, his second wife, Hannah Callowhill Penn, had to deal with a challenge to her husband's will. The will had provided William Jr. with the estate of Shanagarry, County Cork, Ireland, which had descended from his grandfather, Admiral William Penn, and certain other property, including all but 40,000 acres (160 km 2) of the American estate.\n\nIn an effort to cut Hannah and her children out of the inheritance, he waged a legal effort to contest his father's will. Although he died before the case was settled, his son Springett attempted to have the court declare the will invalid, asserting that his grandfather was mentally incompe",
+      "excerpt_offset": 850,
+      "total_chars": 2362,
+      "bm25": {
+        "q0": {
+          "rank": 6,
+          "score": 15.4646
+        }
+      },
+      "best_rank": 6,
+      "title_similarity": 0.5185,
+      "context_overlap": 0.1667,
+      "cosine": 0.232498,
+      "rerank_logit": -4.605136,
+      "rerank_position": 1
+    },
+    {
+      "page_id": "55184350",
+      "revision_id": "1353640584",
+      "title": "Siege of Lichfield",
+      "url": "https://en.wikipedia.org/wiki/Siege_of_Lichfield",
+      "excerpt": "The siege of Lichfield occurred on 8–21 April 1643 during the First English Civil War. During the military action, the Royalists under the command of Prince Rupert successfully besieged the Parliamentary garrison of Lichfield in Staffordshire under the command of Colonel Russell.\n\nEarlier in the war the Royalists had occupied the Cathedral Close, Lichfield; Lord Brooke, at the head of the Warwickshire and Staffordshire levies for Parliament, had besieged and taken the Close; during the siege Lord Brooke had been killed.\n\nKing Charles I wanted Lichfield re-taken and turned into a Royal garrison, because the Royalists were in considerable need of ammunition, and their chief supply was drawn from the northern counties. The convoys had, however, to pass through districts sympathetic to Parliament and as:\n\n\"the enemy was much superior in all the counties between Yorkshire and Oxford, and had planted garrisons so near all the roads that the most private messengers travelled with great hazard, three being intercepted for one that escaped,\"\n\nA Royalist party little inferior in strength to an army was necessary to convoy any supply of ammunition from Yorkshire to Oxford. It was, therefore, ",
+      "excerpt_offset": 0,
+      "total_chars": 3897,
+      "bm25": {
+        "q1": {
+          "rank": 6,
+          "score": 28.6111
+        }
+      },
+      "best_rank": 6,
+      "title_similarity": 0.2667,
+      "context_overlap": 0.137,
+      "cosine": 0.230395,
+      "rerank_logit": -6.04855,
+      "rerank_position": 24
+    },
+    {
+      "page_id": "40761467",
+      "revision_id": "1333748514",
+      "title": "Capture of Axel",
+      "url": "https://en.wikipedia.org/wiki/Capture_of_Axel",
+      "excerpt": "The Capture of Axel was a military event during the Dutch Revolt and the Anglo-Spanish War (1585–1604) in which the town of Axel, defended by the Spanish, was captured by an Anglo-Dutch force led by Sir Philip Sidney, with the garrison being put to the sword. It was also the first feat of Maurice of Nassau.\n\nMaurice of Nassau was appointed stadtholder of Holland and Zeeland on his eighteenth birthday in 1585 and in the following year he began leading the fight.\n\nAxel, a town in the County of Zeeland, was an important fortified city on the southwestern edge of the Scheldt estuary and had been in the hands of the Spaniards since 1583 when Alexander Farnese, the later Duke of Parma, had captured the place. The acquisition would make the Dutch and English holdings in the area such as Ostend and Sluys more secure and a reasonable base from which to launch attacks.\n\nOn June 17, 1586, with the assistance of the newly arrived English forces under the Earl of Leicester and Sir Philip Sydney, the stage was set for the capture of the town.\n\nHere they joined with Maurice's men of Zeelanders and marched towards Axel and on arrival began to besiege it. Maurice had opened the dykes which then flo",
+      "excerpt_offset": 0,
+      "total_chars": 2584,
+      "bm25": {
+        "q1": {
+          "rank": 7,
+          "score": 28.5987
+        }
+      },
+      "best_rank": 7,
+      "title_similarity": 0.0741,
+      "context_overlap": 0.122,
+      "cosine": 0.258492,
+      "rerank_logit": -5.614638,
+      "rerank_position": 9
+    },
+    {
+      "page_id": "51518635",
+      "revision_id": "1346194091",
+      "title": "Cautionary Towns",
+      "url": "https://en.wikipedia.org/wiki/Cautionary_Towns",
+      "excerpt": "The Cautionary Towns were three strategic Dutch towns which, under the 1585 Treaty of Nonsuch, were held by English troops as security for assistance provided by Elizabeth I during the Eighty Years' War against Spain. They were Brill (Brielle) in Holland and Flushing (Vlissingen) and Fort Rammekens on the nearby island of Walcheren. The bases were returned to the Dutch Republic in 1616.\n\nEnglish and Scottish volunteers serving with the Dutch Protestants against Spain helped capture Brill, Rammekens and Flushing in 1572 and garrisoned them soon after. When the Anglo-Spanish War began in 1585, it was important to keep these strategic ports out of Spanish hands.\n\nIn the Treaty of Nonsuch, the Dutch effectively ceded control of the three towns to Elizabeth I as security for her assistance and it was agreed that England would garrison them at its own expense. Elizabeth's favourite, Robert Dudley, 1st Earl of Leicester was made governor of Flushing in 1588, with Thomas Cecil, 1st Earl of Exeter, appointed governor of Brill; he was succeeded by Sir Edward Conway who named his daughter Brilliana in honour of the town.\n\nWhen the 1604 Treaty of London ended the Anglo-Spanish War, the Spanish",
+      "excerpt_offset": 0,
+      "total_chars": 2061,
+      "bm25": {
+        "q1": {
+          "rank": 8,
+          "score": 28.5094
+        }
+      },
+      "best_rank": 8,
+      "title_similarity": 0.0741,
+      "context_overlap": 0.1757,
+      "cosine": 0.26915,
+      "rerank_logit": -5.753552,
+      "rerank_position": 12
+    },
+    {
+      "page_id": "20744569",
+      "revision_id": "1217872143",
+      "title": "First English Civil War, 1642",
+      "url": "https://en.wikipedia.org/wiki/First_English_Civil_War,_1642",
+      "excerpt": "The First English Civil War started in 1642. By the end of the year neither side had succeeded in gaining an advantage, although the King's advance on London was the closest Royalist forces came to threatening the city.\n\nWhen the King raised his standard at Nottingham on 22 August 1642, war was already in progress on a small scale in many districts; each side endeavouring to secure, or to deny to the enemy, fortified country-houses, territory, and above all arms and money. On the other hand as the trained bodies who had attended the occasion went home, and his standard blew down that evening it was not clear whether he could rally sufficient forces to his cause to constitute an army. Peace negotiations went on in the midst of these minor events, until there came from the Parliament an ultimatum, so aggressive as to fix the war-like purpose of the still vacillating court at Nottingham, and in the country at large, to convert many thousands of waverers to active Royalism.\n\nEre long, Charles who hitherto had fewer than 1,500 men, was at the head of an army which, though very deficient in arms and equipment, was not greatly inferior in numbers or enthusiasm to that of Parliament. The l",
+      "excerpt_offset": 0,
+      "total_chars": 16349,
+      "bm25": {
+        "q1": {
+          "rank": 9,
+          "score": 28.2813
+        }
+      },
+      "best_rank": 9,
+      "title_similarity": 0.1714,
+      "context_overlap": 0.1264,
+      "cosine": 0.128113,
+      "rerank_logit": -5.528718,
+      "rerank_position": 8
+    },
+    {
+      "page_id": "10595002",
+      "revision_id": "1333573768",
+      "title": "Siege of Reading",
+      "url": "https://en.wikipedia.org/wiki/Siege_of_Reading",
+      "excerpt": "The siege of Reading was an eleven-day blockade of Reading, Berkshire during the First English Civil War. Reading had been garrisoned by 3,000 Royalist troops under Sir Arthur Aston in November 1642. On 14 April 1643, Robert Devereux, 3rd Earl of Essex led a Parliamentarian army of 19,000 troops to lay siege to the town, and began bombarding it two days later.\n\nDuring the siege, Aston was wounded and command of the garrison passed to Richard Feilding. On 25 April, Feilding requested a truce in order to negotiate the town's surrender. Despite a Royalist relief force commanded by Charles I of England and Prince Rupert of the Rhine arriving the following day, Feilding held to the truce, and Essex's army was able to repel the relief army. The surrender terms were agreed on 26 April, and the next day the Royalists left the town for Oxford.\n\nIn August 1642, King Charles I raised his royal standard in Nottingham and declared the Earl of Essex, and by extension Parliament, to be traitors, marking the start of the First English Civil War. That action had been the culmination of religious, fiscal and legislative tensions going back over fifty years.\n\nIn October 1642, King Charles returned to",
+      "excerpt_offset": 0,
+      "total_chars": 8438,
+      "bm25": {
+        "q1": {
+          "rank": 10,
+          "score": 27.8174
+        }
+      },
+      "best_rank": 10,
+      "title_similarity": 0.24,
+      "context_overlap": 0.1294,
+      "cosine": 0.203279,
+      "rerank_logit": -5.851393,
+      "rerank_position": 17
+    },
+    {
+      "page_id": "210399",
+      "revision_id": "1350233357",
+      "title": "Henry Briggs (mathematician)",
+      "url": "https://en.wikipedia.org/wiki/Henry_Briggs_(mathematician)",
+      "excerpt": "(base 10) logarithms, which are sometimes known as Briggsian logarithms in his honor. The specific algorithm for long division in modern use was introduced by Briggs c. 1600 AD.\n\nBriggs was a committed Puritan and an influential professor in his time.\n\nBriggs was born at Daisy Bank, Sowerby Bridge, near Halifax, in Yorkshire, England. After studying Latin and Greek at a local grammar school, he entered St John's College, Cambridge, in 1577, and graduated in 1581. In 1588, he was elected a Fellow of St John's. In 1592, he was made reader of the physical lecture founded by Thomas Linacre; he also read some of the mathematical lectures. During this period, he took an interest in navigation and astronomy, collaborating with Edward Wright.\n\nIn 1596, he became first professor of geometry in the recently founded Gresham College, London, where he also taught astronomy and navigation. He lectured there for nearly 23 years, and made Gresham College a centre of English mathematics, from which he supported the new ideas of Johannes Kepler.\n\nHe was a friend of Christopher Heydon, a writer on astrology, though Briggs himself rejected astrology for religious reasons. He once called astrology, \"a ",
+      "excerpt_offset": 159,
+      "total_chars": 4958,
+      "bm25": {
+        "q1": {
+          "rank": 11,
+          "score": 27.5855
+        }
+      },
+      "best_rank": 11,
+      "title_similarity": 0.087,
+      "context_overlap": 0.1647,
+      "cosine": 0.211794,
+      "rerank_logit": -5.915242,
+      "rerank_position": 20
+    },
+    {
+      "page_id": "29857890",
+      "revision_id": "1310607651",
+      "title": "John Baber (physician)",
+      "url": "https://en.wikipedia.org/wiki/John_Baber_(physician)",
+      "excerpt": ", was an English physician to Charles II, often employed by the king to negotiate with puritans and other non-conformists on account of his sympathies with them.\n\nBaber was the son of John Baber, recorder of Wells, Somersetshire, and was born on 18 April 1625. He was educated at Westminster school, London, then became a student at Christ Church, Oxford, in 1642. He graduated as a Bachelor of medicine on 3 December 1646, being admitted by virtue of the letters of Colonel John Lambert, governor of the garrison of Oxford.\n\nHe travelled abroad, studying medicine at Leyden, in the Netherlands, and on 10 November 1648 took the degree of M.D. at Angers. On his return to England he was made an M.D. at Oxford on 18 July 1650, became a candidate of the College of Physicians, London, on 4 July 1651, and a fellow of the same institution on 17 August 1657. He started to practise in London, his residence being in King Street, Covent Garden. Through the recommendation of a near neighbour, Thomas Manton, rector of St. Paul's, Covent Garden, who, with other presbyterian divines, had taken a prominent part in the restoration of Charles II, he was made physician to the king, the honour of knighthood ",
+      "excerpt_offset": 43,
+      "total_chars": 2043,
+      "bm25": {
+        "q1": {
+          "rank": 12,
+          "score": 27.532
+        }
+      },
+      "best_rank": 12,
+      "title_similarity": 0.0909,
+      "context_overlap": 0.284,
+      "cosine": 0.275655,
+      "rerank_logit": -5.657051,
+      "rerank_position": 10
+    },
+    {
+      "page_id": "20744882",
+      "revision_id": "1313180811",
+      "title": "First English Civil War, 1643",
+      "url": "https://en.wikipedia.org/wiki/First_English_Civil_War,_1643",
+      "excerpt": "1643 was the second year of the First English Civil War. Politically, the latter months of the year were the turning-point of the war. The King made a truce with the Irish rebels on 15 September which united against him nearly every class in Protestant England. Only ten days after the \"Irish Cessation,\" Parliament at Westminster swore to the Solemn League and Covenant, and the die was cast.\n\nIn the winter, while Essex's army lay inactive at Windsor, Charles by degrees consolidated his position in the region of Oxford. The city was fortified as a redoubt for the whole area, and Reading, Wallingford, Abingdon, Brill, Banbury and Marlborough constituted a complete defensive ring which was developed by the creation of smaller posts from time to time.\n\nIn the North and West, winter campaigns were actively carried on: \"It is summer in Yorkshire, summer in Devon, and cold winter at Windsor\", said one of Essex's critics. At the beginning of December 1642, Newcastle crossed the River Tees, defeated Sir John Hotham, the Parliamentary commander in the North Riding. He then joined hands with the hard-pressed Royalists at York, establishing himself between that city and Pontefract. Lord Fairfax",
+      "excerpt_offset": 0,
+      "total_chars": 25719,
+      "bm25": {
+        "q1": {
+          "rank": 13,
+          "score": 27.4065
+        }
+      },
+      "best_rank": 13,
+      "title_similarity": 0.1714,
+      "context_overlap": 0.1327,
+      "cosine": 0.221537,
+      "rerank_logit": -5.718121,
+      "rerank_position": 11
+    },
+    {
+      "page_id": "43420330",
+      "revision_id": "1345708931",
+      "title": "The Boat Race 1857",
+      "url": "https://en.wikipedia.org/wiki/The_Boat_Race_1857",
+      "excerpt": "The 14th Boat Race took place on the River Thames on 4 April 1857. Held annually, The Boat Race is a side-by-side rowing race between crews from the Universities of Oxford and Cambridge. Oxford rowed in a keel-less carvel-built boat, the first time in the history of the race that such a construction method was used for one of the vessels. Umpired by Joseph William Chitty, the race was won by Oxford who triumphed over Cambridge by 11 lengths.\n\nOur boat was built by Matthew Taylor of Newcastle-on-Tyne, and a beauty she was, 55ft. long, 25 in. broad, in fact quite eclipsing in speed all boats turned out of late years by Searle or any southern builder.\n\nThe Boat Race is a side-by-side rowing competition between the University of Oxford (sometimes referred to as the \"Dark Blues\") and the University of Cambridge (sometimes referred to as the \"Light Blues\"). The race was first held in 1829, and since 1845 has taken place on the 4.2-mile (6.8 km) Championship Course on the River Thames in southwest London. Cambridge went into the race as reigning champions, having defeated Oxford by half-a-length in the previous year's race. They led overall with eight wins to Oxford's five.\n\nIt was the fi",
+      "excerpt_offset": 0,
+      "total_chars": 3439,
+      "bm25": {
+        "q1": {
+          "rank": 14,
+          "score": 27.3758
+        }
+      },
+      "best_rank": 14,
+      "title_similarity": 0.24,
+      "context_overlap": 0.1447,
+      "cosine": 0.147957,
+      "rerank_logit": -6.207567,
+      "rerank_position": 25
+    },
+    {
+      "page_id": "31597141",
+      "revision_id": "1345786579",
+      "title": "Old Fort of Nassau",
+      "url": "https://en.wikipedia.org/wiki/Old_Fort_of_Nassau",
+      "excerpt": "The Old Fort of Nassau, also known as Fort Nassau, was a fort in Nassau, Bahamas, first built in 1697. The fort lasted for nearly two hundred years with a rich legacy of history until it was finally demolished in 1897. It was located on the north side of Marlborough Street, on the site of the current British Colonial Hotel. Remnants of the old walls can be seen on the hotel grounds. For many years it was the only fort in Nassau.\n\nEven though Columbus was the first to think of building forts in his newfound islands in Bahamas to secure it for Spain, the idea was put into action only in 1687 by private people with intent on piracy oriented actions, with the tacit compliance of the then governors of the islands, in the Caribbean. The reason for establishing the fort at Bahamas was the sacking of the town and killing of the British Governor by the Spanish with support from French ships which had caused the islanders to flee. In order to prevent further such attacks, at the intervention of Charles II, in 1684 the town was resettled. In order to make the town more secure, an Act was passed in 1695 not only for building of the town but also a defensive fort. This fort was built in 1697 an",
+      "excerpt_offset": 0,
+      "total_chars": 3910,
+      "bm25": {
+        "q1": {
+          "rank": 15,
+          "score": 27.3598
+        }
+      },
+      "best_rank": 15,
+      "title_similarity": 0.2667,
+      "context_overlap": 0.0676,
+      "cosine": 0.140589,
+      "rerank_logit": -5.862945,
+      "rerank_position": 18
+    },
+    {
+      "page_id": "1391046",
+      "revision_id": "1347238739",
+      "title": "Alberico Gentili",
+      "url": "https://en.wikipedia.org/wiki/Alberico_Gentili",
+      "excerpt": "Alberico Gentili (14 January 1552 – 19 June 1608) was an Italian jurist, a tutor of Queen Elizabeth I, and a standing advocate to the Spanish Embassy in London, who served as the Regius Professor of Civil Law at the University of Oxford for 21 years. He is regarded as the co-founder of the field of international law, and thus is known as the \"Father of international law\".\n\nThe first medieval writer on public international law, Gentili became in 1587 the first non-Englishman to be a Regius Professor. He also authored numerous books, which are recognized to be among the most essential sources for international legal doctrines, but also include theological and literary material.\n\nGentili was born into a noble family in the town of San Ginesio, Macerata, Italy. It has been conjectured that Gentili's mother might have been the source of his early love for jurisprudence, but it was his father, Matteo Gentili, a physician, who assumed the role of his tutor in Latin and Greek. His father was a protestant. He obtained a doctoral degree in law at the University of Perugia at the age of 20.\n\nAfter his graduation, Gentili was elected as the chief judge of Ascoli, but he then settled in his nat",
+      "excerpt_offset": 0,
+      "total_chars": 8102,
+      "bm25": {
+        "q1": {
+          "rank": 16,
+          "score": 27.2486
+        }
+      },
+      "best_rank": 16,
+      "title_similarity": 0.2143,
+      "context_overlap": 0.15,
+      "cosine": 0.241344,
+      "rerank_logit": -5.760004,
+      "rerank_position": 13
+    },
+    {
+      "page_id": "478278",
+      "revision_id": "1259027544",
+      "title": "Lemmer",
+      "url": "https://en.wikipedia.org/wiki/Lemmer",
+      "excerpt": "Lemmer (West Frisian: De Lemmer) is a town in the municipality of De Fryske Marren, in the Dutch province of Friesland. Lemmer lies adjacent to the IJsselmeer and the Frisian Lakes and is one of Friesland's best-known surface water sports locations. Lemmer is a bustling lakeside resort in the summer months and attracts not only day-trippers from surrounding communities such as Emmeloord, Urk, and Joure, but also national and international tourists.\n\nIn 2017 the town had 10,225 inhabitants. Residents of Lemmer are called Lemsters. Due to its favorable location in relation to the Randstad, Lemmer attracts many new inhabitants from outside Friesland. As a result, the village has suffered little from the effects of rural flight. The hamlet of Brekkenpolder also belongs to the town, along with most of the hamlet of Tacozijl and a small part of the hamlet of Westend.\n\nThe original Lemsters settled where the rivers Rien and Zijlroede meet, though it remains unknown when they first did so. Lemmer appears in writing at the beginning of the fourteenth century, though it is mentioned as Lenna in the writings of the bishop of the diocese of Utrecht in 1228. A further link can probably be made ",
+      "excerpt_offset": 0,
+      "total_chars": 4717,
+      "bm25": {
+        "q1": {
+          "rank": 17,
+          "score": 27.173
+        }
+      },
+      "best_rank": 17,
+      "title_similarity": 0.2222,
+      "context_overlap": 0.1084,
+      "cosine": 0.165831,
+      "rerank_logit": -5.892465,
+      "rerank_position": 19
+    },
+    {
+      "page_id": "42652402",
+      "revision_id": "1346171179",
+      "title": "Siege of Condé (1793)",
+      "url": "https://en.wikipedia.org/wiki/Siege_of_Cond%C3%A9_(1793)",
+      "excerpt": "The siege of Condé (8 April – 12 July 1793) saw a force made up of Habsburg Austrians and French Royalists commanded by Duke Ferdinand Frederick Augustus of Württemberg lay siege to a Republican French garrison led by Jean Nestor de Chancel. After a blockade lasting about three months the French surrendered the fortress. The operation took place during the War of the First Coalition, part of a larger conflict known as the French Revolutionary Wars. Condé-sur-l'Escaut, France is located near the Belgium border about 14 kilometres (9 mi) northeast of Valenciennes.\n\nThe Austrian victory at Neerwinden in mid-March drove the French occupation army from the Austrian Netherlands. The subsequent defection of Charles François Dumouriez shook the morale of the French soldiers and caused the politicians to suspect most generals of treason. Austria and her Coalition allies moved against the line of fortresses protecting the northeastern border of France, investing first Condé and Valenciennes soon afterward. Meanwhile, the motley French armies, composed of regulars and raw recruits and led by generals fearful of the guillotine, struggled to defend their nation.\n\nOn 18 March 1793, Charles Franç",
+      "excerpt_offset": 0,
+      "total_chars": 9970,
+      "bm25": {
+        "q1": {
+          "rank": 18,
+          "score": 26.8693
+        }
+      },
+      "best_rank": 18,
+      "title_similarity": 0.16,
+      "context_overlap": 0.1053,
+      "cosine": 0.201196,
+      "rerank_logit": -5.940786,
+      "rerank_position": 22
+    },
+    {
+      "page_id": "75801318",
+      "revision_id": "1346010552",
+      "title": "Great Siege of Tangier",
+      "url": "https://en.wikipedia.org/wiki/Great_Siege_of_Tangier",
+      "excerpt": "The Great Siege of Tangier was an unsuccessful siege of English Tangier by the forces of the Alawi Sultanate of Morocco in 1680.\n\nSince the start of their occupation of Tangier in 1661, the English had erected a number of forts around the town to help protect it. By the early 1670s, the English garrison in Tangier was relatively at peace but the supply of food was a concern. The new Alawi sultan, Moulay Isma'il, was initially preoccupied with consolidating his power. Large parts of northern Morocco were controlled by Khadir Ghaïlan (or al-Khadr Ghaylan) a warlord who had previously harassed the English and defeated them in 1664.\n\nIn 1666, Ghaïlan's priorities were different and, in return for a supply of gunpowder, he allowed the Tangier garrison to occupy a large strip of land around the city to meet their food needs, on the condition that they did not fortify it. The English subsequently violated these terms by building additional forts to expand the colony's size. By the late 1670s, a total of 15 forts had been built by the English beyond the city walls of Tangier.\n\nKhadir Ghaïlan was defeated and killed by Moulay Isma'il's forces in 1673. Moulay Isma'il soon consolidated his po",
+      "excerpt_offset": 0,
+      "total_chars": 3534,
+      "bm25": {
+        "q1": {
+          "rank": 19,
+          "score": 26.7886
+        }
+      },
+      "best_rank": 19,
+      "title_similarity": 0.1765,
+      "context_overlap": 0.1333,
+      "cosine": 0.216512,
+      "rerank_logit": -5.816084,
+      "rerank_position": 15
+    },
+    {
+      "page_id": "66949831",
+      "revision_id": "1265545907",
+      "title": "Battle of St Neots (1648)",
+      "url": "https://en.wikipedia.org/wiki/Battle_of_St_Neots_(1648)",
+      "excerpt": "The Battle of St Neots on 10 July 1648 was a skirmish during the Second English Civil War at St Neots in Cambridgeshire. A Royalist force led by the Earl of Holland and Colonel John Dalbier was defeated by 100 veteran troops from the New Model Army, commanded by Colonel Adrian Scrope.\n\nTaken by surprise in the early hours, the Royalists were quickly overpowered; Dalbier and several others were killed, while Holland was taken prisoner and executed for treason on 9 March 1649. Although a relatively minor action, Parliamentarian troops were struggling to deal with a series of local risings and victory ensured there was no central focus for Royalist groups in the East Midlands.\n\nWhen the First English Civil War ended with Royalist defeat in May 1646, most Parliamentarians assumed Charles I would be forced to agree significant political concessions. This proved a fundamental misunderstanding of his character and for the next two years he refused to comply. Parliament went to war in 1642 to curb the power of the monarchy, not remove it, and despite their religious differences, the vast majority of Puritans viewed monarchy as divinely ordered.\n\nThis made Charles essential to a settlement,",
+      "excerpt_offset": 0,
+      "total_chars": 4909,
+      "bm25": {
+        "q1": {
+          "rank": 20,
+          "score": 26.6968
+        }
+      },
+      "best_rank": 20,
+      "title_similarity": 0.2759,
+      "context_overlap": 0.1087,
+      "cosine": 0.149529,
+      "rerank_logit": -5.94012,
+      "rerank_position": 21
+    }
+  ]
+}

@@ -1,0 +1,705 @@
+{
+  "entry_id": "E0001",
+  "headword": "SHIP BUILDING",
+  "entry_text_sha256": "122962689b08b7cc0ede915afdee4650adb4a678aa7af8045d173313f12784db",
+  "mode": "model",
+  "queries": [
+    "ship building",
+    "ship building beams frame several rhomboid decks side shelf plate ends diagonal truss"
+  ],
+  "query_chars": 1500,
+  "headword_variant": null,
+  "candidate_count": 32,
+  "list_pages_removed_after_fetch": [],
+  "decision": {
+    "status": "rejected",
+    "method": "nemotron_embed_rerank",
+    "thresholds": {
+      "rerank_logit": -10.0,
+      "margin": 0.5,
+      "cosine": 0.15,
+      "title_similarity": 0.0
+    },
+    "reason": "rerank_logit < -10.0, margin < 0.5, cosine < 0.15, or title_similarity < 0.0",
+    "page_id": "35717335",
+    "title": "Longitudinal framing",
+    "rerank_logit": -5.730946,
+    "cosine": 0.324759,
+    "margin_to_next": 0.080442,
+    "title_similarity": 0.3636
+  },
+  "candidates": [
+    {
+      "page_id": "36309456",
+      "revision_id": "1302239514",
+      "title": "Mississippi Mills Packing and Shipping Rooms",
+      "url": "https://en.wikipedia.org/wiki/Mississippi_Mills_Packing_and_Shipping_Rooms",
+      "excerpt": "The Mississippi Mills Packing and Shipping Rooms building in Wesson, Mississippi was constructed ca. 1875. The building was listed on the National Register of Historic Places in 1996. According to the NRHP nomination, the building \"is locallysignificant in the area of industry..., representing the importance of the cotton and woolen mills industry to the history anddevelopment of Wesson and the surrounding area.\" The building was part of a textile mill complex known as Mississippi Mills which operated from ca. 1873 to 1910. The packing and shipping room facility is the only remaining building from the Mississippi Mills era.",
+      "excerpt_offset": 0,
+      "total_chars": 631,
+      "bm25": {
+        "q0": {
+          "rank": 1,
+          "score": 11.543
+        }
+      },
+      "best_rank": 1,
+      "title_similarity": 0.2545,
+      "context_overlap": 0.1667,
+      "cosine": 0.024194,
+      "rerank_logit": -6.849929,
+      "rerank_position": 17
+    },
+    {
+      "page_id": "10622169",
+      "revision_id": "1296267254",
+      "title": "King post",
+      "url": "https://en.wikipedia.org/wiki/King_post",
+      "excerpt": "A king post (or king-post or kingpost) is a central vertical post used in architectural or bridge designs, working in tension to support a beam below from a truss apex above (whereas a crown post, though visually similar, supports items above from the beam below).\n\nIn aircraft design a strut called a king post acts in compression, similarly to an architectural crown post. Usage in mechanical plant and marine engineering differs again, as noted below.\n\nA king post extends vertically from a crossbeam (the tie beam) to the apex of a triangular truss. The king post, itself in tension, connects the apex of the truss with its base, holding up the tie beam (also in tension) at the base of the truss. The post can be replaced with an iron rod called a king rod (or king bolt) and thus a king rod truss. The king post truss is also called a \"Latin truss\".\n\nIn traditional timber framing, a crown post looks similar to a king post, but it is very different structurally: whereas the king post is in tension, usually supporting the tie beam as a truss, the crown post is supported by the tie beam and is in compression. The crown post rises to a crown plate immediately below collar beams which it supp",
+      "excerpt_offset": 0,
+      "total_chars": 5038,
+      "bm25": {
+        "q1": {
+          "rank": 1,
+          "score": 53.1706
+        }
+      },
+      "best_rank": 1,
+      "title_similarity": 0.2727,
+      "context_overlap": 0.2258,
+      "cosine": 0.208351,
+      "rerank_logit": -6.388477,
+      "rerank_position": 6
+    },
+    {
+      "page_id": "13926709",
+      "revision_id": "1344684383",
+      "title": "International Ocean Shipping Building",
+      "url": "https://en.wikipedia.org/wiki/International_Ocean_Shipping_Building",
+      "excerpt": "The International Ocean Shipping Building (Chinese: 国际航运金融大厦) is a 50-floor, 232-metre (761 ft) tall skyscraper completed in 2000 located in Shanghai, China. It was designed by East China Architectural Design & Research Institute and Joseph Bogdan Associates. It has a total floor area of 125,000 square metres (1,350,000 square feet).\n\nPart of the building is occupied by the Novotel Atlantis Pudong Shanghai hotel, with 303 guest rooms. The 50th floor is home to a revolving restaurant.",
+      "excerpt_offset": 0,
+      "total_chars": 488,
+      "bm25": {
+        "q0": {
+          "rank": 2,
+          "score": 11.5362
+        }
+      },
+      "best_rank": 2,
+      "title_similarity": 0.52,
+      "context_overlap": 0.0526,
+      "cosine": 0.054409,
+      "rerank_logit": -6.852802,
+      "rerank_position": 18
+    },
+    {
+      "page_id": "8634485",
+      "revision_id": "1352847429",
+      "title": "Howe truss",
+      "url": "https://en.wikipedia.org/wiki/Howe_truss",
+      "excerpt": "A Howe truss is a truss bridge consisting of chords, verticals, and diagonals whose vertical members are in tension and whose diagonal members are in compression. The Howe truss was invented by William Howe in 1840, and was widely used as a bridge in the mid to late 1800s.\n\nThe earliest bridges in North America were made of wood, which was abundant and cheaper than stone or masonry. Early wooden bridges were usually of the Towne lattice truss or Burr truss design. Some later bridges were McCallum trusses (a modification of the Burr truss). About 1840, iron rods were added to wooden bridges. The Pratt truss used wooden vertical members in compression with diagonal iron braces. The Howe truss used iron vertical rods in tension with wooden diagonal braces. Both trusses used counter-bracing, which was becoming essential with heavy railroad trains were using bridges.\n\nIn 1830, Stephen Harriman Long received a patent for an all-wood parallel-chord truss bridge. Long's bridge contained diagonal braces which were prestressed with wedges. The Long truss did not require a connection between the diagonal and the truss, and was able to remain in compression even when the wood shrank somewhat.\n",
+      "excerpt_offset": 0,
+      "total_chars": 16305,
+      "bm25": {
+        "q1": {
+          "rank": 2,
+          "score": 53.0716
+        }
+      },
+      "best_rank": 2,
+      "title_similarity": 0.1053,
+      "context_overlap": 0.1449,
+      "cosine": 0.26893,
+      "rerank_logit": -6.227954,
+      "rerank_position": 4
+    },
+    {
+      "page_id": "81127720",
+      "revision_id": "1351978970",
+      "title": "American Ship Building Co. v. NLRB",
+      "url": "https://en.wikipedia.org/wiki/American_Ship_Building_Co._v._NLRB",
+      "excerpt": "American Ship Building Company v. National Labor Relations Board, 380 U.S. 300 (1965), was a United States Supreme Court case in which the court held that lockouts are not considered unfair labor practices under the National Labor Relations Act of 1935.\n\nThe Supreme Court issued an opinion on March 29, 1965.",
+      "excerpt_offset": 0,
+      "total_chars": 309,
+      "bm25": {
+        "q0": {
+          "rank": 3,
+          "score": 11.5345
+        }
+      },
+      "best_rank": 3,
+      "title_similarity": 0.5778,
+      "context_overlap": 0.2273,
+      "cosine": 0.057779,
+      "rerank_logit": -6.510644,
+      "rerank_position": 7
+    },
+    {
+      "page_id": "35717335",
+      "revision_id": "1305376869",
+      "title": "Longitudinal framing",
+      "url": "https://en.wikipedia.org/wiki/Longitudinal_framing",
+      "excerpt": "Longitudinal framing (also called the Isherwood system after British naval architect Sir Joseph Isherwood, who patented it in 1906) is a method of ship construction in which large, widely spaced transverse frames are used in conjunction with light, closely spaced longitudinal members. This method, Isherwood felt, lent a ship much greater longitudinal strength than in ships built in the traditional method, where a series of closely spaced transverse frames are fitted from the keel to the sheer line, with corresponding deck beams, a method that is well suited to support longitudinal planking.\n\nLongitudinal framing was a known method of shipbuilding before Isherwood. Naval engineer J. Scott Russell, for instance, had built several longitudinally framed ships, including the SS Great Eastern. However, no one had made the process practical from a commercial standpoint, which was Isherwood's achievement. The first commercial vessel constructed with the Isherwood system, the oil-tank steamer Paul Paix, of some 6,600 tons deadweight in 1908, was scrutinized by other shipbuilders and owners. The success of it and the first general cargo liner to be constructed on the \"Isherwood\" system, the ",
+      "excerpt_offset": 0,
+      "total_chars": 3403,
+      "bm25": {
+        "q1": {
+          "rank": 3,
+          "score": 50.4023
+        }
+      },
+      "best_rank": 3,
+      "title_similarity": 0.3636,
+      "context_overlap": 0.2368,
+      "cosine": 0.324759,
+      "rerank_logit": -5.730946,
+      "rerank_position": 1
+    },
+    {
+      "page_id": "46374589",
+      "revision_id": "1346372661",
+      "title": "The Ship, Derriford",
+      "url": "https://en.wikipedia.org/wiki/The_Ship,_Derriford",
+      "excerpt": "The Ship is an office building in Derriford, Plymouth, England. It was designed by Nicholas Grimshaw and is constructed of glass and steel in the form of a ship. It was the offices of The Herald and Western Morning News for many years until their move to Millbay in 2013.\n\nIt was recommended for listing at Grade II* by Historic England in April 2015.\n\nThe building is now in use as Adrenaline trampoline fun park and a Clip ‘n Climb activity centre.\n\nThe Ship was built in 1992-3 as the headquarters for The Evening Herald and the Western Morning News in the Derriford area of Plymouth, Devon. The architect was Sir Nicholas Grimshaw CBE. The building was vacated by the newspapers in 2013, after a change of ownership in 2012 from Daily Mail and General Trust plc to Local World which resulted in relocation to smaller offices at Milbay in Plymouth, and the building has since stood empty.\n\nThe owners advertised the building for sale, but, as of 10 April 2015, no buyers had come forward, and the owners served Plymouth City Council with a notice that they wish to demolish the building, leading the Twentieth Century Society to place it on its Risk List. Sir Nicholas Grimshaw made his own sugges",
+      "excerpt_offset": 0,
+      "total_chars": 1856,
+      "bm25": {
+        "q0": {
+          "rank": 4,
+          "score": 11.5169
+        }
+      },
+      "best_rank": 4,
+      "title_similarity": 0.5,
+      "context_overlap": 0.1481,
+      "cosine": 0.149285,
+      "rerank_logit": -6.797651,
+      "rerank_position": 16
+    },
+    {
+      "page_id": "42451997",
+      "revision_id": "1340622639",
+      "title": "American historic carpentry",
+      "url": "https://en.wikipedia.org/wiki/American_historic_carpentry",
+      "excerpt": "American historic carpentry defines the historic methods with which wooden buildings were built in North America since European settlement. Several methods were used to form the wooden walls, and the types of structural carpentry are often defined by the wall, floor, and roof construction such as log, timber framed, balloon framed, or stacked plank. Some types of historic houses are called plank houses, but plank house has several meanings which are discussed below. Roofs were almost always framed with wood, sometimes with timber roof trusses. Stone and brick buildings also have some wood framing for floors, interior walls and roofs.\n\nBuilding methods were passed down from a master carpenter to an apprentice verbally, through demonstration, and through work experience. Designs, engineering details, floor plans, and methods were time tested and communicated through rules of thumb rather than scientific study and documents. Each region of the world has variations on traditions, tools and materials. The carpenters in the New World based their work on their traditions but adapted to local materials, climate, and culture. Immigrants to America were from all parts of the world so the his",
+      "excerpt_offset": 0,
+      "total_chars": 17675,
+      "bm25": {
+        "q1": {
+          "rank": 4,
+          "score": 47.1199
+        }
+      },
+      "best_rank": 4,
+      "title_similarity": 0.2,
+      "context_overlap": 0.1687,
+      "cosine": 0.142528,
+      "rerank_logit": -6.671333,
+      "rerank_position": 10
+    },
+    {
+      "page_id": "855210",
+      "revision_id": "1285968688",
+      "title": "Lead ship",
+      "url": "https://en.wikipedia.org/wiki/Lead_ship",
+      "excerpt": "The lead ship, name ship, or class leader is the first of a series or class of ships that are all constructed according to the same general design. The term is applicable to naval ships and large civilian vessels.\n\nLarge ships are very complex and may take five to ten years to build. Improvements based on experience with building and operating the lead ship are likely to be incorporated into the design or construction of later ships in the class, so it is rare to have vessels that are identical.\n\nThe second and later ships are often started before the first one is completed, launched and tested. Nevertheless, building copies is still more efficient and cost effective than building prototypes, and the lead ship will usually be followed by copies with some improvements rather than radically different versions. The improvements will sometimes be retrofitted to the lead ship. Occasionally, the lead ship will be launched and commissioned for shakedown testing before following ships are completed, making the lead ship a combination of template and prototype, rather than expending resources on a prototype that will never see actual use.\n\nShip classes are typically named in one of two ways",
+      "excerpt_offset": 0,
+      "total_chars": 1765,
+      "bm25": {
+        "q0": {
+          "rank": 5,
+          "score": 11.5027
+        }
+      },
+      "best_rank": 5,
+      "title_similarity": 0.4211,
+      "context_overlap": 0.137,
+      "cosine": 0.129112,
+      "rerank_logit": -6.700097,
+      "rerank_position": 14
+    },
+    {
+      "page_id": "4635477",
+      "revision_id": "1341627819",
+      "title": "Domestic roof construction",
+      "url": "https://en.wikipedia.org/wiki/Domestic_roof_construction",
+      "excerpt": "Domestic roof construction is the framing and roof covering which is found on most detached houses in cold and temperate climates. Such roofs are built with mostly timber, take a number of different shapes, and are covered with a variety of materials.\n\nModern timber roofs are mostly framed with pairs of common rafters or prefabricated wooden trusses fastened together with truss connector plates. Timber framed and historic buildings may be framed with principal rafters or timber roof trusses. Roofs are also designated as warm or cold roof depending on the way they are designed and built with regard to thermal building insulation and ventilation. The steepness or roof pitch of a sloped roof is determined primarily by the roof covering material and aesthetic design. Flat roofs actually slope up to approximately ten degrees to shed water. Flat roofs on houses are primarily found in arid regions.\n\nIn high-wind areas, such as where a cyclone or hurricane may make landfall, the main engineering consideration is to hold the roof down during severe storms. This is accomplished by using metal ties fastened to each rafter or truss. This is not normally a problem in areas not prone to high win",
+      "excerpt_offset": 0,
+      "total_chars": 9753,
+      "bm25": {
+        "q1": {
+          "rank": 5,
+          "score": 46.7204
+        }
+      },
+      "best_rank": 5,
+      "title_similarity": 0.3077,
+      "context_overlap": 0.1477,
+      "cosine": 0.155739,
+      "rerank_logit": -6.514253,
+      "rerank_position": 8
+    },
+    {
+      "page_id": "77637434",
+      "revision_id": "1345069896",
+      "title": "Abu Dhabi Ship Building",
+      "url": "https://en.wikipedia.org/wiki/Abu_Dhabi_Ship_Building",
+      "excerpt": "Abu Dhabi Ship Building (ADSB) is a shipbuilding company established in 1996 in the United Arab Emirates. It specializes in the construction, repair, and refit of naval and commercial vessels. ADSB serves as a key defense asset for the UAE, providing a range of services including the building and maintenance of various types of ships and marine components.\n\nEstablished in 1995, Abu Dhabi Ship Building was formed as a joint venture between the Government of Abu Dhabi and Newport News Shipbuilding (NNS). Emiri Decree No. 5 of 1995 officially mandated ADSB to develop an industrial base for constructing a wide range of vessels, marine components, and equipment, in addition to conducting maintenance and repair operations. The company has since grown significantly, solidifying its position as a key player in the naval defense sector and a vital asset for the UAE.\n\nADSB constructs and maintains naval and commercial vessels at its shipyard in Abu Dhabi's Mussafah Industrial Zone, spanning over 300,000 square meters. Its portfolio includes frigates, offshore patrol vessels, and fast patrol vessels. It also provides associated maintenance, repair, and engineering services.",
+      "excerpt_offset": 0,
+      "total_chars": 1181,
+      "bm25": {
+        "q0": {
+          "rank": 6,
+          "score": 11.4974
+        }
+      },
+      "best_rank": 6,
+      "title_similarity": 0.7222,
+      "context_overlap": 0.1169,
+      "cosine": 0.10007,
+      "rerank_logit": -6.514772,
+      "rerank_position": 9
+    },
+    {
+      "page_id": "81663315",
+      "revision_id": "1343833460",
+      "title": "Rough Bank Farmhouse",
+      "url": "https://en.wikipedia.org/wiki/Rough_Bank_Farmhouse",
+      "excerpt": "Rough Bank Farmhouse is a Grade II* listed building in Newhey, a village in the town of Milnrow within the Metropolitan Borough of Rochdale, Greater Manchester, England. It is an early 17th-century farmhouse notable for its well-preserved vernacular architecture and historical significance as an example of a yeoman farmer's dwelling.\n\nThe farmhouse dates from 1607, a year inscribed on its door lintel. It was originally constructed during the late Elizabethan or early Jacobean period, reflecting the prosperity of yeoman farmers in the Pennine region. The building has remained largely intact, with only minor alterations over the centuries.\n\nOn 24 January 1967, Rough Bank Farmhouse was designated a Grade II* listed building.\n\nRough Bank Farmhouse is constructed of squared rubble stone and topped with a slate roof. The building follows a traditional three-unit plan arranged over two storeys. A prominent feature of the front elevation is the gabled porch positioned between the second and third bays, which includes a chamfered door surround with an elliptical head. The inner doorway is formed of heavy timber and is set beneath an ogee -arched lintel.\n\nThe windows are mullioned and vary i",
+      "excerpt_offset": 0,
+      "total_chars": 3571,
+      "bm25": {
+        "q1": {
+          "rank": 6,
+          "score": 46.5383
+        }
+      },
+      "best_rank": 6,
+      "title_similarity": 0.2667,
+      "context_overlap": 0.0879,
+      "cosine": -0.002433,
+      "rerank_logit": -7.277229,
+      "rerank_position": 28
+    },
+    {
+      "page_id": "3840160",
+      "revision_id": "1333686329",
+      "title": "Viking Ship Museum (Roskilde)",
+      "url": "https://en.wikipedia.org/wiki/Viking_Ship_Museum_(Roskilde)",
+      "excerpt": "The Viking Ship Museum (Danish: Vikingeskibsmuseet) in Roskilde is Denmark 's national ship museum for ships of the prehistoric and medieval period.\n\nThe main focus of the museum is a permanent exhibition of the Skuldelev ships, five original Viking ships excavated nearby in 1962. The Viking Ship Museum also conducts research and educates researchers in the fields of maritime history, marine archaeology and experimental archaeology. Various academic conferences are held here and there is a research library in association with the museum.\n\nAround the year 1070, five Viking ships were deliberately sunk at Skuldelev in Roskilde Fjord in order to block the most important fairway and to protect Roskilde from an enemy attack from the sea. These ships, later known as the Skuldelev ships, were excavated in 1962. They turned out to be five different types of ships ranging from cargo ships to ships of war.\n\nThe Viking Ship Museum overlooking the inlet of Roskilde Fjord was built in 1969 with the main purpose of exhibiting the five newly discovered Skuldelev ships.\n\nThe original Skuldelev Viking ships are the main focus of the museum, but a small exhibition about the Roskilde ships and variou",
+      "excerpt_offset": 0,
+      "total_chars": 2584,
+      "bm25": {
+        "q0": {
+          "rank": 7,
+          "score": 11.4925
+        }
+      },
+      "best_rank": 7,
+      "title_similarity": 0.4286,
+      "context_overlap": 0.0597,
+      "cosine": 0.102419,
+      "rerank_logit": -7.29118,
+      "rerank_position": 29
+    },
+    {
+      "page_id": "32352600",
+      "revision_id": "1276403051",
+      "title": "Mill Covered Bridge (Belvidere, Vermont)",
+      "url": "https://en.wikipedia.org/wiki/Mill_Covered_Bridge_(Belvidere,_Vermont)",
+      "excerpt": "s in 1974.\n\nThe Mill Covered Bridge stands in a rural area west of the village center of Belvidere, carrying Back Road (which runs west from the town north of the river) to its junction with Vermont Route 109 (which runs west from the town south of the river). The bridge is a single-span Queen post truss structure, 70 feet (21 m) long and 15 feet (4.6 m) wide, with a roadway width of 12 feet (3.7 m) (one lane). Its trusses are set on abutments of dry laid stone that have been capped in concrete. They are set slightly skewed, giving the bridge a parallelogram shape. The exterior of the bridge is finished in vertical board siding, which extends around to the insides of the portals. The siding ends short of the roof on the sides, leaving an open strip. The north portal opening is framed as a segmented-arch opening, while that on the south end is rectangular with diagonal corners. The bridge deck is wooden planking laid in steel I-beams, which now carry the bridge's active load.\n\nThe bridge was built by Lewis Robinson in about 1890. It is one of two bridges in Belvidere (the other, the Morgan Covered Bridge, is east of this one), and one of five bridges across the North Branch Lamoille",
+      "excerpt_offset": 273,
+      "total_chars": 1677,
+      "bm25": {
+        "q1": {
+          "rank": 7,
+          "score": 46.3627
+        }
+      },
+      "best_rank": 7,
+      "title_similarity": 0.375,
+      "context_overlap": 0.1573,
+      "cosine": 0.058578,
+      "rerank_logit": -7.094977,
+      "rerank_position": 24
+    },
+    {
+      "page_id": "17059445",
+      "revision_id": "1352046705",
+      "title": "Spain's National Exhibition of Ship Building",
+      "url": "https://en.wikipedia.org/wiki/Spain%27s_National_Exhibition_of_Ship_Building",
+      "excerpt": "Spain's National Exhibition of Ship Building, or Exponav, is a maritime museum in the town of Ferrol of the Province of A Coruña, in the Galicia region of northwest Spain.\n\nThe Ferrol Naval Station of the Spanish Navy is the location of the permanent space housing the museum. The exhibition is installed in the historic Edificio de Herrerías (Herrerías Building), a fully restored example of 18th century Spanish Neoclassical architecture.\n\nThe museum is dedicated to the maritime history and changing technology of shipbuilding in Spain over the centuries.\n\nThis exhibition opened to the public in 2008, and is free of charge. There are special programs to enrich experiences for visiting students from public schools and other educational institutions.\n\nIt covers shipbuilding in different periods, including: early beginnings in Medieval Spain; the Spanish Renaissance; Age of Sail ships of the Age of Discovery and Spanish global maritime explorers; merchant and naval ships of the Spanish Empire, including the Spanish Armada; Early Modern Spain and the Industrial Revolution, Spanish–American War, the 20th century, and contemporary present day innovations.",
+      "excerpt_offset": 0,
+      "total_chars": 1164,
+      "bm25": {
+        "q0": {
+          "rank": 8,
+          "score": 11.4646
+        }
+      },
+      "best_rank": 8,
+      "title_similarity": 0.4561,
+      "context_overlap": 0.0769,
+      "cosine": 0.11588,
+      "rerank_logit": -6.673017,
+      "rerank_position": 11
+    },
+    {
+      "page_id": "46738634",
+      "revision_id": "1302773228",
+      "title": "Starke County Bridge No. 39",
+      "url": "https://en.wikipedia.org/wiki/Starke_County_Bridge_No._39",
+      "excerpt": "Starke County Bridge No. 39 is a single span Warren Pony Truss structure. The bridge is located on the northern outskirts of the small town of Knox, Indiana, where Main and Water Streets terminate at the former Penn Central Railroad cut. The bridge spans the rail cut in a northwest–southeast direction, allowing access to Wythougan Park.\n\nWhen built in 1915, it was east of Knox, on County Road 1100 East, over the Yellow River. It was moved in 1992. At its original site, metal caisson abutments and concrete wingwalls supported the bridge. When it was relocated, concrete abutments were created. The steel bridge is 103 feet (31 m) long and has a 13.56 feet (4.13 m) roadway.\n\nThe bridge consists of six Warren Truss panels on each side. All the interior verticals are paired laced angles, diagonals were made from pairs of angles. The heaviest are located in the outer panels. Verticals and diagonal members have riveted stay plates. Upper and lower chords are composed of I beams. Where upper or lower chords meet the verticals and diagonals, joins are gussets, which are bolted to all members. The roadbed is created by heavy wooden decking with an overlay of asphalt. The original guardrail re",
+      "excerpt_offset": 0,
+      "total_chars": 2766,
+      "bm25": {
+        "q1": {
+          "rank": 8,
+          "score": 45.6271
+        }
+      },
+      "best_rank": 8,
+      "title_similarity": 0.3333,
+      "context_overlap": 0.191,
+      "cosine": 0.104117,
+      "rerank_logit": -7.206449,
+      "rerank_position": 26
+    },
+    {
+      "page_id": "69497708",
+      "revision_id": "1235536601",
+      "title": "General Federation of Ship Building Workers' Unions",
+      "url": "https://en.wikipedia.org/wiki/General_Federation_of_Ship_Building_Workers%27_Unions",
+      "excerpt": "The General Federation of Ship Building Workers' Unions (Zosensoren) was a trade union representing workers in the shipbuilding industry in Japan.\n\nThe union was established in 1951. It was affiliated with the Japanese Federation of Labour, and by 1958 had 28,462 members. Next, it became affiliated with the Japanese Confederation of Labour, and by 1967 had grown to 58,344 members.\n\nThe union was keen on merging with smaller competitors. In 1972, it achieved this, when it joined the new Japan Confederation of Shipbuilding and Engineering Workers' Unions.",
+      "excerpt_offset": 0,
+      "total_chars": 559,
+      "bm25": {
+        "q0": {
+          "rank": 9,
+          "score": 11.4523
+        }
+      },
+      "best_rank": 9,
+      "title_similarity": 0.4262,
+      "context_overlap": 0.2333,
+      "cosine": 0.063899,
+      "rerank_logit": -6.680339,
+      "rerank_position": 12
+    },
+    {
+      "page_id": "397263",
+      "revision_id": "1352695137",
+      "title": "Truss",
+      "url": "https://en.wikipedia.org/wiki/Truss",
+      "excerpt": "A truss is an assembly of members such as beams, connected by nodes, that creates a rigid structure.\n\nIn engineering, a truss is a structure that \"consists of two-force members only, where the members are organized so that the assemblage as a whole behaves as a single object\". A two-force member is a structural component where force is applied to only two points. Although this rigorous definition allows the members to have any shape connected in any stable configuration, architectural trusses typically comprise five or more triangular units constructed with straight members whose ends are connected at joints referred to as nodes.\n\nIn this typical context, external forces and reactions to those forces are considered to act only at the nodes and result in forces in the members that are either tensile or compressive. For straight members, moments (torques) are explicitly excluded because, and only because, all the joints in a truss are treated as revolutes, as is necessary for the links to be two-force members.\n\nA planar truss is one where all members and nodes lie within a two-dimensional plane, while a space frame has members and nodes that extend into three dimensions. The top beam",
+      "excerpt_offset": 0,
+      "total_chars": 18849,
+      "bm25": {
+        "q1": {
+          "rank": 9,
+          "score": 45.4093
+        }
+      },
+      "best_rank": 9,
+      "title_similarity": 0.1429,
+      "context_overlap": 0.2143,
+      "cosine": 0.267824,
+      "rerank_logit": -6.058503,
+      "rerank_position": 3
+    },
+    {
+      "page_id": "52378729",
+      "revision_id": "1315477504",
+      "title": "The Ship Tavern, Lime Street",
+      "url": "https://en.wikipedia.org/wiki/The_Ship_Tavern,_Lime_Street",
+      "excerpt": "The Ship was a pub at 27 Lime Street, London EC3.\n\nThe building is a Grade II listed building, built in the mid-19th century.\n\nThe pub closed in 2010 and the building is now a Nando's restaurant.",
+      "excerpt_offset": 0,
+      "total_chars": 195,
+      "bm25": {
+        "q0": {
+          "rank": 10,
+          "score": 11.4459
+        }
+      },
+      "best_rank": 10,
+      "title_similarity": 0.3243,
+      "context_overlap": 0.1429,
+      "cosine": 0.052634,
+      "rerank_logit": -6.694813,
+      "rerank_position": 13
+    },
+    {
+      "page_id": "59892486",
+      "revision_id": "1345872727",
+      "title": "Ball Road-Little Salt Creek Bridge",
+      "url": "https://en.wikipedia.org/wiki/Ball_Road-Little_Salt_Creek_Bridge",
+      "excerpt": "The Ball Road-Little Salt Creek Bridge, also known as simply the Ball Road Bridge, was a bridge carrying Ball Road over Little Salt Creek in Jasper Township, Michigan. It was listed on the National Register of Historic Places in 1999. The bridge was later demolished.\n\nThis bridge was constructed in 1901. By the 1990s it was closed to traffic. The Midland County Drain Commission demolished the bridge some time after 2006. No replacement span was constructed. At the time of demolition, it was the only surviving bedstead truss type of bridge in Michigan, a design that was used in the late 1800s.\n\nThe Ball Road-Little Salt Creek Bridge was a single-span steel pin-connected, Pratt bedstead truss bridge. The bridge spanned 40 feet and was 13 feet wide. The upper chord members were constructed from two channels with cover and batten plates, the upright end posts were constructed from two channels with lacing, and the lower chord members were constructed from two angles with batten plates. Verticals were constructed from four angles with double lacing and the diagonals were constructed from two punched rectangular eyebars. The floor was supported with I-beams hung from the lower chord pins",
+      "excerpt_offset": 0,
+      "total_chars": 1372,
+      "bm25": {
+        "q1": {
+          "rank": 10,
+          "score": 43.9009
+        }
+      },
+      "best_rank": 10,
+      "title_similarity": 0.2553,
+      "context_overlap": 0.1286,
+      "cosine": 0.042257,
+      "rerank_logit": -6.928566,
+      "rerank_position": 20
+    },
+    {
+      "page_id": "37225895",
+      "revision_id": "1345070668",
+      "title": "Ship Canal House",
+      "url": "https://en.wikipedia.org/wiki/Ship_Canal_House",
+      "excerpt": "Ship Canal House is a building in Manchester, England, which was built in 1927 for the Manchester Ship Canal Company. The building is located on King Street, historically the centre for Manchester's banking industry.\n\nThe building was designed by Harry S Fairhurst in a neo-classical style and displays some Art Deco and Edwardian Baroque motifs, such as square windows and roof sculptures which were prevalent during the 1920s. It stands 46 metres (151 ft) tall with 11 storeys and is clad in Portland stone. It was one of the tallest office blocks in the United Kingdom when completed in 1927. The building built by J. Gerrard & Sons Ltd of Swinton was Grade II listed in 1982. Ship Canal House was sold in 2011 for £22.8 million. In 2022 it was bought by Grosvenor for £30 million.",
+      "excerpt_offset": 0,
+      "total_chars": 784,
+      "bm25": {
+        "q0": {
+          "rank": 11,
+          "score": 11.419
+        }
+      },
+      "best_rank": 11,
+      "title_similarity": 0.4615,
+      "context_overlap": 0.0545,
+      "cosine": 0.088303,
+      "rerank_logit": -6.976987,
+      "rerank_position": 21
+    },
+    {
+      "page_id": "54055315",
+      "revision_id": "1248055480",
+      "title": "Rhine Bridge, Germersheim (railway)",
+      "url": "https://en.wikipedia.org/wiki/Rhine_Bridge,_Germersheim_(railway)",
+      "excerpt": "f 7.6 m, each span had a length of 87.6 m and they carried two tracks. The bridge was strengthened from 1927 to 1930 in response to increased traffic loads. German troops destroyed the bridge by blowing up of a pier and an abutment on 24 March 1945 at 10.20 am.\n\nSince Deutsche Bundesbahn did not consider the Rhine Bridge necessary for operational reasons, it was not rebuilt immediately after the Second World War. It was not until 1965 that Deutsche Bundesbahn began the construction of a new Rhine crossing and it was opened on 23 October 1967. Funding was provided by the Federal Defence Ministry in response to the strategic interests of NATO. A three-span, pillar-free steel truss bridge with a through beam in the longitudinal direction was built by a joint venture of MAN Werk Gustavsburg and the Aug. Klönne company. The 268 m-long construction has 66 m-long outer spans and a central span of 136 m. The truss structure with parallel beams and an underlying deck has a distance between girders of 11 m in the side spans and 10.46 m in the main span across the ship channel. The height of the truss system is 10.0 m, the total height is 11.5 m and the distance between the main girders is 9.",
+      "excerpt_offset": 824,
+      "total_chars": 2770,
+      "bm25": {
+        "q1": {
+          "rank": 11,
+          "score": 43.1045
+        }
+      },
+      "best_rank": 11,
+      "title_similarity": 0.1765,
+      "context_overlap": 0.2051,
+      "cosine": 0.164775,
+      "rerank_logit": -7.018711,
+      "rerank_position": 22
+    },
+    {
+      "page_id": "50594243",
+      "revision_id": "1344556193",
+      "title": "Old Ship Hotel",
+      "url": "https://en.wikipedia.org/wiki/Old_Ship_Hotel",
+      "excerpt": "The Old Ship Hotel (also known as the Old Ship Inn and previously as The Ship) is a hotel in central Brighton, UK, which contains the Old Ship Assembly Rooms, a Grade II* listed building. The building is the oldest hotel in Brighton, as the hotel is believed to have been built in 1559, with the assembly rooms being added in 1767.\n\nThe Old Ship Hotel is believed to date from 1559, as an unnamed house owned by Richard and John Gilham. It is the oldest hotel in Brighton, and the first known record was in 1665. The building was purchased in 1671 by Nicholas Tettersell, who owned the boat Charles II used to get to France. The assembly rooms were built in 1767 in response to assembly rooms built at the nearby Castle Inn; the rooms were built by Robert Golden, with the Adam style inspired by Robert Adam. The assembly rooms contained a ballroom on the first floor, which hosted the Prince Regent's Ball, as well as card and tea rooms. Until 1777, the building hosted the town's post office.\n\nIn the 18th century, the hotel was visited by Frances Burney and Samuel Johnson; Johnson had an argument with the local priest, Henry Michell. In 1780, the assembly rooms hosted card evenings on Tuesday a",
+      "excerpt_offset": 0,
+      "total_chars": 2057,
+      "bm25": {
+        "q0": {
+          "rank": 12,
+          "score": 11.4094
+        }
+      },
+      "best_rank": 12,
+      "title_similarity": 0.5,
+      "context_overlap": 0.0882,
+      "cosine": 0.084195,
+      "rerank_logit": -7.418643,
+      "rerank_position": 30
+    },
+    {
+      "page_id": "1042798",
+      "revision_id": "1348214949",
+      "title": "Jettying",
+      "url": "https://en.wikipedia.org/wiki/Jettying",
+      "excerpt": "Jettying (jetty, jutty, from Old French getee, jette) is a building technique used in medieval timber-frame buildings in which an upper floor projects beyond the dimensions of the floor below. This has the advantage of increasing the available space in the building without obstructing the street. Jettied floors are also termed jetties. In the U.S., the most common surviving colonial version of this is the garrison house. Most jetties are external, but some early medieval houses were built with internal jetties.\n\nA jetty is an upper floor that depends on a cantilever system in which a horizontal beam, the jetty bressummer, supports the wall above and projects forward beyond the floor below (a technique also called oversailing). The bressummer (or breastsummer) itself rests on the ends of a row of jetty beams or joists which are supported by jetty plates. Jetty joists in their turn were slotted sideways into the diagonal dragon beams at angle of 45° by means of mortise and tenon joints.\n\nThe overhanging corner posts are often reinforced by curved jetty brackets.\n\nThe origins of jettying are unclear but some reasons put forward for their purpose are:\n\nto gain space.\n\nthe structural ad",
+      "excerpt_offset": 0,
+      "total_chars": 3895,
+      "bm25": {
+        "q1": {
+          "rank": 12,
+          "score": 43.0482
+        }
+      },
+      "best_rank": 12,
+      "title_similarity": 0.2857,
+      "context_overlap": 0.2805,
+      "cosine": 0.211088,
+      "rerank_logit": -6.37881,
+      "rerank_position": 5
+    },
+    {
+      "page_id": "45343304",
+      "revision_id": "1349549999",
+      "title": "Sinking Ship",
+      "url": "https://en.wikipedia.org/wiki/Sinking_Ship",
+      "excerpt": "The Sinking Ship is a multi-story parking garage in Pioneer Square, Seattle, United States, bound by James Street to the north, Yesler Way to the south, and 2nd Avenue to the east, and just steps away from the Pioneer Building on the site of the former Occidental Hotels and Seattle Hotel. After the Seattle Hotel was demolished in 1961, the Sinking Ship was built as part of a neighborhood redesign.\n\nIt was designed by Gilbert H. Mandeville (engineer) and Gudmund B. Berge (architect) of the Seattle firm Mandeville and Berge, and built in 1965. They also designed the Logan Building and an addition to the First Presbyterian Church downtown, the Ballard branch of Seattle Public Library, and two buildings at the Seattle World's Fair in 1962 (the Alaska Building and the Transportation 21 Building).\n\nA writer for HistoryLink described the Sinking Ship as \"that skid road parking garage whose nihilistic construction depresses the flatiron block where James Street and Yesler Way meet at Pioneer Square.\"\n\nIt is owned by the Kubota–Fujii family, who had acquired the Seattle Hotel in 1941. Doris Kubota, from the same family, called the garage the \"ugliest building in all of Seattle\". It was also",
+      "excerpt_offset": 0,
+      "total_chars": 1747,
+      "bm25": {
+        "q0": {
+          "rank": 13,
+          "score": 11.3999
+        }
+      },
+      "best_rank": 13,
+      "title_similarity": 0.4211,
+      "context_overlap": 0.0822,
+      "cosine": 0.085677,
+      "rerank_logit": -7.256438,
+      "rerank_position": 27
+    },
+    {
+      "page_id": "51585315",
+      "revision_id": "1273398364",
+      "title": "Thetford Center Covered Bridge",
+      "url": "https://en.wikipedia.org/wiki/Thetford_Center_Covered_Bridge",
+      "excerpt": "The Thetford Center Covered Bridge is a historic covered bridge, carrying Tucker Hill Road across the Ompompanoosuc River in Thetford, Vermont. It is the state's only known example of the Haupt patent truss system. It was listed on the National Register of Historic Places in 1974.\n\nThe Thetford Center Covered Bridge is located a short way west of the village of Thetford Center, spanning the south-flowing Ompompanoosuc River, a tributary of the Connecticut River. The bridge has a span of 128.5 feet (39.2 m), and rests on dry laid stone abutments that have been capped in concrete and a central concrete pier. The bridge is covered by a metal roof and sheathed in vertical board siding. The portal ends project beyond the deck by about 1 foot (0.30 m). The deck is now supported by steel I-beams, and the original bridge trusses support only the bridge superstructure. The bridge has a total width of 20.5 feet (6.2 m), with an 18-foot (5.5 m) wide roadway (one lane). The bridge trusses are a variant of a multiple kingpost truss. Each truss has verticals and diagonals in that style, but is further augmented by a laminated arch, consisting of heavy planks pegged together.\n\nThe bridge's constr",
+      "excerpt_offset": 0,
+      "total_chars": 1490,
+      "bm25": {
+        "q1": {
+          "rank": 13,
+          "score": 42.8329
+        }
+      },
+      "best_rank": 13,
+      "title_similarity": 0.2791,
+      "context_overlap": 0.2143,
+      "cosine": 0.083329,
+      "rerank_logit": -7.180388,
+      "rerank_position": 25
+    },
+    {
+      "page_id": "48833866",
+      "revision_id": "1328409951",
+      "title": "Skibsklarerergaarden",
+      "url": "https://en.wikipedia.org/wiki/Skibsklarerergaarden",
+      "excerpt": "Skibsklarerergaarden, literally \"The Ship Handler's House\"), is a historic house museum and listed building situated on Strandgade in Helsingør, Denmark. A \"ship handler\" handled the paperwork at Øresund Custom House for captains in connection with Denmark's collection of Sound Dues from all ships that passed through the Øresund. The Sound Duty was collected on and off between 1429 and 1857 and was one of Denmark's most important sources of income as well as a major cause of local prosperity in Helsingør. The ground floor of the building contains a Ship-chandler with Denmark's oldest surviving shop interior. The building is also known as Rasmussens Gård.\n\nThe house dates from the 16th century but was adapted in 1781. Christian Simmelkier opened the Ship-chandler in 1809. The building was acquired by Ove Elling Galschiøt in 1823.\n\nRestaurateur Søren Fisker acquired the building in 1993 and the ground floor was subsequently restored by experts from the National Museum before opening as a museum in 1995. In 2000, the property was acquired by Bjarne Rasmussen who renovated the upper floors and made them available to the museum.\n\nThe ship's chandler feature much of its original furnitur",
+      "excerpt_offset": 0,
+      "total_chars": 1854,
+      "bm25": {
+        "q0": {
+          "rank": 14,
+          "score": 11.3997
+        }
+      },
+      "best_rank": 14,
+      "title_similarity": 0.3636,
+      "context_overlap": 0.1351,
+      "cosine": 0.057876,
+      "rerank_logit": -7.045963,
+      "rerank_position": 23
+    },
+    {
+      "page_id": "59890861",
+      "revision_id": "1345874318",
+      "title": "Perrine Road Bridge",
+      "url": "https://en.wikipedia.org/wiki/Perrine_Road_Bridge",
+      "excerpt": "The Perrine Road Bridge (formerly the North Saginaw Road-Salt River Bridge) is a bridge carrying North Saginaw Road over Sturgeon Creek in Larkin Township, Michigan. It was listed on the National Register of Historic Places in 1999. The bridge was moved in 2001 from its location at the time of nomination (North Saginaw Rd. over the Salt River) to the present location, carrying Perrine Road over Sturgeon Creek.\n\nThis bridge was constructed in 1920 in St. Clair County, to carry what was then U.S. 25 (and is now M-3 over the Belle River. The bridge was constructed by the Sarnia Bridge Company of Sarnia, Ontario, from plans drawn by the Michigan State Highway Department. The Sarnia Bridge Company's name is also prominent listed on the plans, implying that the firm may have also been involved in the design of the bridge. The Belle River Bridge quickly became inadequate for the traffic flows of U.S. 25, and in 1932 it was moved to Midland County, where U.S. 10 was being relocated, to carry U.S. 10 over te Salt River. A number of parts of the bridge were revamped, and the roadway was widened from 20 feet to 30 feet.\n\nThe bridge continued to serve traffic until U.S. 10 was again rerouted, ",
+      "excerpt_offset": 0,
+      "total_chars": 2331,
+      "bm25": {
+        "q1": {
+          "rank": 14,
+          "score": 42.7724
+        }
+      },
+      "best_rank": 14,
+      "title_similarity": 0.375,
+      "context_overlap": 0.1186,
+      "cosine": -0.006689,
+      "rerank_logit": -7.483591,
+      "rerank_position": 31
+    },
+    {
+      "page_id": "52366949",
+      "revision_id": "1275529048",
+      "title": "The Ship, Hart Street",
+      "url": "https://en.wikipedia.org/wiki/The_Ship,_Hart_Street",
+      "excerpt": "The Ship is a Victorian-era pub at 3 Hart Street, Aldgate, London EC3.\n\nIt is a Grade II listed building, built in 1887.\n\nThe building has three storeys with one set back. There are elaborate painted doorways and moulded decoration. The pub participates in the CAMRA scheme. It sits between two newer buildings.",
+      "excerpt_offset": 0,
+      "total_chars": 311,
+      "bm25": {
+        "q0": {
+          "rank": 15,
+          "score": 11.3805
+        }
+      },
+      "best_rank": 15,
+      "title_similarity": 0.3333,
+      "context_overlap": 0.0769,
+      "cosine": 0.061566,
+      "rerank_logit": -6.711868,
+      "rerank_position": 15
+    },
+    {
+      "page_id": "37914131",
+      "revision_id": "1334216117",
+      "title": "Post (structural)",
+      "url": "https://en.wikipedia.org/wiki/Post_(structural)",
+      "excerpt": "A post is a main vertical or leaning support in a structure similar to a column or pillar, the term post generally refers to a timber but may be metal or stone. A stud in wooden or metal building construction is similar but lighter duty than a post and a strut may be similar to a stud or act as a brace. In the U.K. a strut may be very similar to a post but not carry a beam. In wood construction posts normally land on a sill, but in rare types of buildings the post may continue through to the foundation called an interrupted sill or into the ground called earthfast, post in ground, or posthole construction. A post is also a fundamental element in a fence. The terms \"jack\" and \"cripple\" are used with shortened studs and rafters but not posts, except in the specialized vocabulary of shoring.\n\nTimber framing is a general term for building with wooden posts and beams. The term post is the namesake of other general names for timber framing such as post-and-beam, post-and-girt construction and more specific types of timber framing such as Post and lintel, post-frame, post in ground, and ridge-post construction. In roof construction such as king post, queen post, and crown post framing. A ",
+      "excerpt_offset": 0,
+      "total_chars": 5089,
+      "bm25": {
+        "q1": {
+          "rank": 15,
+          "score": 42.7507
+        }
+      },
+      "best_rank": 15,
+      "title_similarity": 0.1429,
+      "context_overlap": 0.2029,
+      "cosine": 0.178618,
+      "rerank_logit": -5.811388,
+      "rerank_position": 2
+    },
+    {
+      "page_id": "8480866",
+      "revision_id": "1328008260",
+      "title": "Star Command: Revolution",
+      "url": "https://en.wikipedia.org/wiki/Star_Command:_Revolution",
+      "excerpt": "litical assassinations allow the tyrannical warlord Narvek to take over the galaxy. A small group of rebels who call themselves \"Star Command\" fight back against Narvek in an effort to dethrone him and restore peace to the galaxy.\n\nThe nonlinear campaign mode places the player in control of a mothership commandeered by Star Command, with the objective of destroying Narvek. This mothership is the only ship that can collect resources and build other stations and ships. The campaign is lost if the player allows the mothership to be destroyed.\n\nEach campaign battle occurs in one of 31 separate rectangular sectors, where the player must build enough ships to conquer the enemies' battalions while managing long-term resource consumption; resources are finite, and ships and stations (other than the mothership) cannot be brought between sectors. Most sectors have an objective, usually involving the destruction of enemy fleets or stations. Players who accomplish these tasks are rewarded with permanent bonuses, such as an increase in the mothership's harvesting rate. The battles increase in difficulty as the player nears Narvek's base.\n\nEach battle begins with the sector completely obscured b",
+      "excerpt_offset": 794,
+      "total_chars": 9870,
+      "bm25": {
+        "q0": {
+          "rank": 16,
+          "score": 11.3482
+        }
+      },
+      "best_rank": 16,
+      "title_similarity": 0.1667,
+      "context_overlap": 0.1013,
+      "cosine": 0.021662,
+      "rerank_logit": -7.757941,
+      "rerank_position": 32
+    },
+    {
+      "page_id": "25434855",
+      "revision_id": "1346701570",
+      "title": "Callender-Hamilton bridge",
+      "url": "https://en.wikipedia.org/wiki/Callender-Hamilton_bridge",
+      "excerpt": "The Callender-Hamilton bridge is a modular portable pre-fabricated truss bridge. It is primarily designed for use as permanent civil bridging as well as for emergency bridge replacement and for construction by military engineering units. Assembling a Callender-Hamilton bridge takes much longer than the more familiar Bailey bridge as it is made up of individual lengths of galvanised steel bolted together with galvanised high-strength steel bolts, all of which require torque settings. It is stronger and simpler in design concept than the Bailey bridge.\n\nThe Callender-Hamilton bridge system was designed by New Zealand civil engineer A. M. Hamilton, and patented by him in 1935. The system is currently fabricated by Painter Brothers, Hereford, operating within the Balfour Beatty Power Networks Division formerly British Insulated Callender's Cables.\n\nHamilton's bridge concept was inspired by his work between 1928 and 1932 as principal engineer on the 'Hamilton Road' through Iraqi Kurdistan. He described the building of this road in his book Road Through Kurdistan: Travels in Northern Iraq, 1937. Hamilton became aware of the need for strong, adaptable bridges made from simple components t",
+      "excerpt_offset": 0,
+      "total_chars": 4252,
+      "bm25": {
+        "q1": {
+          "rank": 16,
+          "score": 42.7111
+        }
+      },
+      "best_rank": 16,
+      "title_similarity": 0.3684,
+      "context_overlap": 0.2048,
+      "cosine": 0.146825,
+      "rerank_logit": -6.86545,
+      "rerank_position": 19
+    }
+  ]
+}

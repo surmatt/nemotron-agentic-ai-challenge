@@ -1,0 +1,746 @@
+{
+  "entry_id": "E0192",
+  "headword": "ATELLA",
+  "entry_text_sha256": "1c5942c64aeb9bf175ee5d01b967034d07c2cf5b3102aff0b648a2a72e68df84",
+  "mode": "model",
+  "queries": [
+    "atella",
+    "atellan",
+    "atellan town ancient campania italy capua neapolis atellanae fabulae atellani ludi took"
+  ],
+  "query_chars": 811,
+  "headword_variant": "atellan",
+  "candidate_count": 32,
+  "list_pages_removed_after_fetch": [],
+  "decision": {
+    "status": "accepted",
+    "method": "nemotron_embed_rerank",
+    "thresholds": {
+      "rerank_logit": -10.0,
+      "margin": 0.5,
+      "cosine": 0.15,
+      "title_similarity": 0.0
+    },
+    "page_id": "1190944",
+    "title": "Atella",
+    "rerank_logit": -3.995589,
+    "cosine": 0.45426,
+    "margin_to_next": 1.077187,
+    "title_similarity": 1.0
+  },
+  "article": {
+    "page_id": "1190944",
+    "revision_id": "1325601124",
+    "title": "Atella",
+    "url": "https://en.wikipedia.org/wiki/Atella",
+    "revision_url": "https://en.wikipedia.org/w/index.php?oldid=1325601124",
+    "text_sha256": "252b5ed5516afd342ec2736b9af13d6924422f3a9eb6628577943056752ac1b5",
+    "chars": 4878
+  },
+  "candidates": [
+    {
+      "page_id": "1870400",
+      "revision_id": "1334462247",
+      "title": "Atella, Basilicata",
+      "url": "https://en.wikipedia.org/wiki/Atella,_Basilicata",
+      "excerpt": "Atella (Lucano: Ratèdde) is a town and comune in the province of Potenza, in the Southern Italian region of Basilicata.\n\nIt is bounded by the comuni of Avigliano, Bella, Calitri, Filiano, Rionero in Vulture, Ripacandida, Ruvo del Monte and San Fele.",
+      "excerpt_offset": 0,
+      "total_chars": 249,
+      "bm25": {
+        "q0": {
+          "rank": 1,
+          "score": 22.498
+        }
+      },
+      "best_rank": 1,
+      "title_similarity": 0.5217,
+      "context_overlap": 0.0769,
+      "cosine": 0.216091,
+      "rerank_logit": -5.072776,
+      "rerank_position": 2
+    },
+    {
+      "page_id": "1130838",
+      "revision_id": "1331570747",
+      "title": "Atellan Farce",
+      "url": "https://en.wikipedia.org/wiki/Atellan_Farce",
+      "excerpt": "The Atellan Farce (Latin: Atellanae Fabulae or Fabulae Atellanae, \"favola atellana\"; Atellanicum exhodium, \"Atella comedies\",) also known as the Oscan Games (Latin: ludi Osci, \"Oscan plays\"), were masked improvised farces in Ancient Rome. The Oscan athletic games were very popular, and usually preceded by longer pantomime plays. The origin of the Atellan Farce is uncertain, but the farces are similar to other forms of ancient theatre such as the South Italian Phlyakes, the plays of Plautus and Terence, and Roman mime. Most historians believe the name is derived from Atella, an Oscan town in Campania. The farces were written in Oscan and imported to Rome in 391 B.C. In later Roman versions, only the ridiculous characters speak their lines in Oscan, while the other characters speak in Latin.\n\nThe Atellan Farce was a masked farce that originated in Italy by 300 B.C.and remained popular for more than 500 years. Originally, the farces were improvised and not recorded. Evidence of the original forms is scarce, primarily found in the depictions of scenes and characters on ancient vases.\n\nThe extant literary evidence contains only fragments of the Atellan Farce with 400 lines and the title",
+      "excerpt_offset": 0,
+      "total_chars": 8193,
+      "bm25": {
+        "q1": {
+          "rank": 1,
+          "score": 24.5044
+        },
+        "q2": {
+          "rank": 1,
+          "score": 83.6801
+        }
+      },
+      "best_rank": 1,
+      "title_similarity": 0.7,
+      "context_overlap": 0.1644,
+      "cosine": 0.424836,
+      "rerank_logit": -5.739066,
+      "rerank_position": 3
+    },
+    {
+      "page_id": "1190944",
+      "revision_id": "1325601124",
+      "title": "Atella",
+      "url": "https://en.wikipedia.org/wiki/Atella",
+      "excerpt": "Atella was an ancient Oscan city of Campania, located 20km directly north of Naples.\n\nThe ruins of the city walls, private houses, the so-called garden of Virgil and many tombs remain, on sites in the comuni of Frattaminore, Orta di Atella, Sant'Arpino and Succivo, the last three of which formed the comune of Atella di Napoli in the mid‑20th century. The territory of ancient Atella is now in the comuni of Caivano, Cardito, Cesa, Frattamaggiore, Grumo Nevano and Sant'Antimo. The archaeological museum of Atella is at Succivo.\n\nThe Atellan farce was one of the forms of entertainment of local origin that influenced the Latin theatre.\n\nAtella was a city of Oscan origin, one of the oldest in Campania and one of the first to have obtained the Roman civitas. It was crossed by the Via Atellana, which led southwest to Cumae and northeast to Capua. Part of the route of Via Atellana is preserved today, with the same name, in the stretch that crosses Frattaminore.\n\nAtella is not mentioned until the Second Punic War, when, although an independent city striking its own coinage, it was allied with Capua and the other Campanian cities in siding with Carthage after the battle of Cannae. It was occup",
+      "excerpt_offset": 0,
+      "total_chars": 4878,
+      "bm25": {
+        "q0": {
+          "rank": 2,
+          "score": 22.4919
+        },
+        "q1": {
+          "rank": 15,
+          "score": 10.172
+        },
+        "q2": {
+          "rank": 4,
+          "score": 58.2573
+        }
+      },
+      "best_rank": 2,
+      "title_similarity": 1.0,
+      "context_overlap": 0.0964,
+      "cosine": 0.45426,
+      "rerank_logit": -3.995589,
+      "rerank_position": 1
+    },
+    {
+      "page_id": "82549271",
+      "revision_id": "1344889180",
+      "title": "Exodium",
+      "url": "https://en.wikipedia.org/wiki/Exodium",
+      "excerpt": "An exodium (plural exodia) was a short, comic afterpiece in the ancient Roman theatre, typically performed at the conclusion of a tragedy to provide comic relief. The exodia slots were frequently used to perform Atellan farce.\n\nThe term derives from the Latin concept of an \"end\" or exitus, denoting a finale or a piece played while the theatre company was making its exit from the stage. According to a scholiast commenting on the satirist Juvenal, the primary purpose of the exodium was to raise a laugh and free the audience from the emotional distress caused by the passions of the preceding tragedy, a practice also alluded to by the earlier poet Lucilius.\n\nThe genre was known for its striking visual elements; Juvenal referenced it by describing a country child terrified by the ghastly, open-mouthed masks worn by the actors on stage.\n\nPlutarch compared the funeral of Dionysius to a theatrical finale. He also described the macabre aftermath of the Battle of Carrhae, where the victorious Parthians staged a performance of Euripides 's The Bacchae. During the performance, the actual severed head of the defeated Roman general Crassus was brought out in place of the character Pentheus. When",
+      "excerpt_offset": 0,
+      "total_chars": 4480,
+      "bm25": {
+        "q1": {
+          "rank": 2,
+          "score": 24.1928
+        },
+        "q2": {
+          "rank": 7,
+          "score": 51.6699
+        }
+      },
+      "best_rank": 2,
+      "title_similarity": 0.1538,
+      "context_overlap": 0.051,
+      "cosine": 0.240954,
+      "rerank_logit": -6.940486,
+      "rerank_position": 22
+    },
+    {
+      "page_id": "1832280",
+      "revision_id": "1352767603",
+      "title": "Quintus Novius",
+      "url": "https://en.wikipedia.org/wiki/Quintus_Novius",
+      "excerpt": "Quintus Novius (fl. 30 BC), was a Roman dramatist, and composer of Atellanae Fabulae (Atellan Fables). His efforts seem to have been directed towards giving literary dignity to this form of drama without diminishing their popular quality and traditional cast of characters. He is known to have written his works around the same time as Lucius Pomponius, who also wrote Atellanae Fabulae; Macrobius makes reference to him as a very well-esteemed writer whose atellaniolae (\"little Atellans\") found a receptive audience.\n\nSome of Novius' known works, among the forty-three that are attributed to him, include:\n\nMeyer, Maurice, “Études sur le théâtre latin” (1847)\n\nImago Mundi -Atellanes Archived 2005-03-19 at the Wayback Machine",
+      "excerpt_offset": 0,
+      "total_chars": 728,
+      "bm25": {
+        "q1": {
+          "rank": 3,
+          "score": 22.8787
+        },
+        "q2": {
+          "rank": 2,
+          "score": 61.2051
+        }
+      },
+      "best_rank": 2,
+      "title_similarity": 0.2105,
+      "context_overlap": 0.0667,
+      "cosine": 0.308941,
+      "rerank_logit": -6.97443,
+      "rerank_position": 23
+    },
+    {
+      "page_id": "6769074",
+      "revision_id": "1334640509",
+      "title": "Orta di Atella",
+      "url": "https://en.wikipedia.org/wiki/Orta_di_Atella",
+      "excerpt": "Orta di Atella (Campanian: Ortë) is a comune (municipality) in the Province of Caserta in the Italian region Campania, located about 15 kilometres (9 mi) north of Naples and about 12 kilometres (7 mi) southwest of Caserta.\n\nOrta di Atella borders the following municipalities: Caivano, Crispano, Frattaminore, Marcianise, Sant'Arpino and Succivo.\n\nAccording to the Istituto Nazionale di Statistica Italia, in 2025 there is an estimated population of 27,420 people. a 37% increase from the 2021 census.",
+      "excerpt_offset": 0,
+      "total_chars": 501,
+      "bm25": {
+        "q0": {
+          "rank": 3,
+          "score": 22.4493
+        }
+      },
+      "best_rank": 3,
+      "title_similarity": 0.6,
+      "context_overlap": 0.0556,
+      "cosine": 0.241462,
+      "rerank_logit": -5.805433,
+      "rerank_position": 4
+    },
+    {
+      "page_id": "6769030",
+      "revision_id": "1334640474",
+      "title": "Macerata Campania",
+      "url": "https://en.wikipedia.org/wiki/Macerata_Campania",
+      "excerpt": "Macerata Campania is a comune (municipality) in the Province of Caserta in the Italian region Campania, located about 25 kilometres (16 mi) north of Naples and about 6 kilometres (4 mi) west of Caserta.\n\nMacerata Campania borders the following municipalities: Casagiove, Casapulla, Curti, Marcianise, Portico di Caserta, Recale, Santa Maria Capua Vetere.\n\nIts history is linked, for its origins, with the ancient city of Capua, corresponding to the current Santa Maria Capua Vetere, because it had been part of the latter for many centuries, until the year 841 (the year of the invasion of the Saracens, who destroyed ancient Capua). The population was dominated by Lombards, Normans, Swabians, Angevins and Aragonese. According to Francesco Granata the ancient city of Capua extended in a territory of about six miles and, in the 18th century, it was occupied by the hamlets of S. Maria Maggiore, S. Pietro in Corpo, Curti, Macerata and S. Andrea de' Lagni. Furthermore, near the chapel of the Blessed Virgin of Graces of Macerata Campania there was the ancient Porta Atellana of Capua from which the Via Atellana started, leading to the farmhouse of Macerata that linked ancient Capua with Atella.\n",
+      "excerpt_offset": 0,
+      "total_chars": 1612,
+      "bm25": {
+        "q2": {
+          "rank": 3,
+          "score": 59.2394
+        }
+      },
+      "best_rank": 3,
+      "title_similarity": 0.3333,
+      "context_overlap": 0.08,
+      "cosine": 0.234881,
+      "rerank_logit": -6.482183,
+      "rerank_position": 11
+    },
+    {
+      "page_id": "66358359",
+      "revision_id": "1331073815",
+      "title": "Elpidius of Atella",
+      "url": "https://en.wikipedia.org/wiki/Elpidius_of_Atella",
+      "excerpt": "Elpidius of Atella, or Elpidio in Italian (died 452), is a Christian saint. He was a bishop of the city of Atella, from 432 for about 20 years.\n\nElpidius was born in 388 to a noble family. He had a brother named Canius and a nephew named Elpidius, both priests. In about 420, at the age of 30, he was consecrated bishop. Later, due to the vandalic persecution of Gaiseric, twelve bishops, including Elpidius, were sentenced to death. They were embarked on a ship without oars or sails, but the boat was wrecked near the coast of Castel Volturno, in Campania.\n\nIn 432 he became bishop of Atella. Elpidius, informed of the death of bishop Canius, erected a small temple on the site to guard his venerated remains, and placed this couplet in front of the basilica: Elpidius praesul hoc templum condidit almum, o Canio martyr, ductus amore tuo. On May 24, 452, he died.\n\nOn 11 January 460, his body was buried in the Cathedral of Atella, where it remained until 787, when, following the incursions of the Longobards, it was moved to the city of Salerno, where it still rests in the crypt of the Cathedral of St. Matthew.\n\nIn 1958, archbishop Demetrio Moscato wanted to carry out a canonical exhumation an",
+      "excerpt_offset": 0,
+      "total_chars": 1613,
+      "bm25": {
+        "q0": {
+          "rank": 4,
+          "score": 22.3749
+        }
+      },
+      "best_rank": 4,
+      "title_similarity": 0.5217,
+      "context_overlap": 0.0353,
+      "cosine": 0.188505,
+      "rerank_logit": -6.556769,
+      "rerank_position": 14
+    },
+    {
+      "page_id": "1832353",
+      "revision_id": "1231969526",
+      "title": "Lucius Pomponius",
+      "url": "https://en.wikipedia.org/wiki/Lucius_Pomponius",
+      "excerpt": "Lucius Pomponius (fl. c. 90 BC or earlier) was a Roman dramatist. Called Bononiensis (“native of Bononia” (i.e. Bologna), Pomponius was a writer of Atellanae Fabulae (Atellan Fables), and a near contemporary of Quintus Novius. Pomponius was the first to give artistic dignity to the Atellan Fables by making them less improvised and providing the actors with a script (written in the metrical forms and technical rules of the Greeks) and a predetermined plot. Pomponius’ skill in the utilization of rustic, obscene, quotidian, alliterative, punning, and farcical language was remarked on by Macrobius in his Saturnalia, as well as by Seneca and Marcus Velleius Paterculus. His work included political, religious, social, and mythological satires.\n\nSome of the titles of the seventy works attributed to him are:\n\nMeyer, Maurice, “Études sur le théâtre latin”\n\nImago Mundi -Atellanes",
+      "excerpt_offset": 0,
+      "total_chars": 881,
+      "bm25": {
+        "q1": {
+          "rank": 4,
+          "score": 22.7525
+        },
+        "q2": {
+          "rank": 6,
+          "score": 53.9517
+        }
+      },
+      "best_rank": 4,
+      "title_similarity": 0.1905,
+      "context_overlap": 0.0423,
+      "cosine": 0.305298,
+      "rerank_logit": -7.072216,
+      "rerank_position": 26
+    },
+    {
+      "page_id": "77888028",
+      "revision_id": "1299486941",
+      "title": "Siege of Atella",
+      "url": "https://en.wikipedia.org/wiki/Siege_of_Atella",
+      "excerpt": "The siege of Atella was the concluding battle of the First Italian War, where the French headquarters in Atella was besieged and eventually taken by the League of Venice. The League's forces were commanded by Castilian general Gonzalo Fernández de Córdoba, who received the nom de guerre El Gran Capitán (\"The Great Captain\") for his success in the siege.\n\nFerdinand II had managed to drive French general Gilbert, Count of Montpensier back to his base in Atella, exciting the Neapolitan troops by making up a promise of German reinforcements sent by Maximilian I. However, he decided not to try to take the place without the presence of Fernández de Córdoba, who at the time operated in Calabria. The Castilian considered eminent to secure their Calabrian rear guard before attempting a final attack on the French base, but he accepted to rendezvous with Ferdinand.\n\nCórdoba left Calabria with a small force of 400 cavalry and 1000 infantry handpicked by him. He marched through land, but the renown gained with his success in guerrilla warfare against the French gave him pass led several French-aligned positions to surrender on the way. After being reinforced by another 500 men sent from Spain, ",
+      "excerpt_offset": 0,
+      "total_chars": 2799,
+      "bm25": {
+        "q0": {
+          "rank": 5,
+          "score": 22.0851
+        }
+      },
+      "best_rank": 5,
+      "title_similarity": 0.5714,
+      "context_overlap": 0.0333,
+      "cosine": 0.194711,
+      "rerank_logit": -6.22904,
+      "rerank_position": 7
+    },
+    {
+      "page_id": "3590279",
+      "revision_id": "1239131739",
+      "title": "Maccus",
+      "url": "https://en.wikipedia.org/wiki/Maccus",
+      "excerpt": "Maccus is a personal name which is first attested and possibly coined in the tenth century. The name Maccus, later also written as Mac(c)hus, was especially common in the Border country.\n\nMaccus mac Arailt (fl. 971–974), also Maccus Haraldsson\n\nMaccus son of Anlaf, named as Eric Bloodaxe 's murderer\n\nMaccus, a minor thane who fought at the Battle of Maldon and is mentioned in the poem of the same name\n\nLongformacus (Scottish Gaelic Longphort Maccus)\n\nMaxton (English Maccuses tun)\n\nMaxwell(town) (Maccuses wylle).\n\nMaccus or Macchus, a stock character in Atellan Farce and a related figure in puppetry",
+      "excerpt_offset": 0,
+      "total_chars": 605,
+      "bm25": {
+        "q1": {
+          "rank": 5,
+          "score": 17.9805
+        }
+      },
+      "best_rank": 5,
+      "title_similarity": 0.1818,
+      "context_overlap": 0.08,
+      "cosine": 0.048527,
+      "rerank_logit": -8.113254,
+      "rerank_position": 31
+    },
+    {
+      "page_id": "1685035",
+      "revision_id": "1205883144",
+      "title": "Dorsennus",
+      "url": "https://en.wikipedia.org/wiki/Dorsennus",
+      "excerpt": "Fabius Dorsennus (also spelled Dossennus or Dossenus) was a thespian and author of Atellan Farce in Ancient Rome, known for his careless performances. According to Seneca his epitaph was: \"Halt, stranger, and understand Dossennus' wisdom\".\n\nThere is some confusion regarding this figure from ancient Roman theater. In one of his epistles, Horace mentions a Dossennus:\n\nexceeds all measure in his voracious parasites; with how loose a sock he runs over the stage: for he is glad to put the money in his pocket, after this regardless whether his play stand or fall.\n\nPliny the Elder, however, refers to a Fabius Dossennus as the author of \"Acharistio,\" one of the Atellanae Fabulae, in his Natural History. Pliny writes:\n\nFabius Dossennus quite decides the question, in the following line—; 'I sent them good wine, myrrh -wine'; and in his play called Acharistio, we find these words: 'Bread and pearled barley, myrrh-wine too.'\n\nDossennus was also the name of a stock character of the Atellanae Fabulae, perhaps named after Fabius Dorsennus.\n\n(in English) Pliny the Elder, Natural History, Book XIV (Original text)\n\n(in English) Pliny the Elder, Natural History, Book XIV (English translation)\n\n(in En",
+      "excerpt_offset": 0,
+      "total_chars": 1341,
+      "bm25": {
+        "q1": {
+          "rank": 6,
+          "score": 15.9542
+        },
+        "q2": {
+          "rank": 5,
+          "score": 58.084
+        }
+      },
+      "best_rank": 5,
+      "title_similarity": 0.2667,
+      "context_overlap": 0.0759,
+      "cosine": 0.305948,
+      "rerank_logit": -7.031219,
+      "rerank_position": 25
+    },
+    {
+      "page_id": "50921769",
+      "revision_id": "1218187516",
+      "title": "Santa Maria da Nives, Atella",
+      "url": "https://en.wikipedia.org/wiki/Santa_Maria_da_Nives,_Atella",
+      "excerpt": "The Duomo of Santa Maria ad Nives is a Roman Catholic church, formerly cathedral, located in Atella, province of Potenza, region of Basilicata, Italy.\n\nThe church has undergone a number of reconstructions and contains an eclectic array of styles. The stone façade dates to the 13th century with a gothic -style portal and rose window, but the interiors were completed mainly in the 18th-century. The façade has statues of St Anthony Abbot and San Nicola di Bari. The interior has altarpieces depicting the Annunciation (circa 1500) and a Madonna della Neve from 1800.",
+      "excerpt_offset": 0,
+      "total_chars": 567,
+      "bm25": {
+        "q0": {
+          "rank": 6,
+          "score": 21.9722
+        }
+      },
+      "best_rank": 6,
+      "title_similarity": 0.375,
+      "context_overlap": 0.0408,
+      "cosine": 0.142321,
+      "rerank_logit": -6.851486,
+      "rerank_position": 17
+    },
+    {
+      "page_id": "3085247",
+      "revision_id": "1352078669",
+      "title": "Potenza Calcio",
+      "url": "https://en.wikipedia.org/wiki/Potenza_Calcio",
+      "excerpt": "tenza Calcio S.r.l., formerly A.S.D. Rossoblù Potenza F.C. or just Potenza F.C., is an Italian football club based in Potenza, Basilicata. It currently plays in the Serie C.\n\nPotenza Calcio was founded in June 2012 as F.C.D. Rossoblu Potenza, by a merger of two amateur teams Controsenso Potenza and Atella Monticchio. The club had claimed as a phoenix club of Potenza S.C., which was first founded in 2004, adopting an explicit logo after reaching the professional status in 2018. Potenza S.C.was de-registered from Italian Football Federation in April 2012 after played their last season in 2010–11 Eccellenza Basilicata. From 2011–12 to 2012–13 season, another team, Città di Potenza (formerly: Atletico Potenza, P3F Potenza Giocoleria, Lucania Team Giocoleria) was briefly acted as the major successor of Potenza S.C.\n\nIn the 21st century there have been numerous changes in the football teams in the city of Potenza.\n\nPotenza S.C. was the historical team of the city which under many merger and reformation. The club was expelled from 2009–10 Lega Pro Prima Divisione in the mid-season. The club was re-admitted to 2010–11 Eccellenza Basilicata. In April 2012 the membership of the club in Itali",
+      "excerpt_offset": 2,
+      "total_chars": 5799,
+      "bm25": {
+        "q0": {
+          "rank": 7,
+          "score": 20.3601
+        }
+      },
+      "best_rank": 7,
+      "title_similarity": 0.3,
+      "context_overlap": 0.0323,
+      "cosine": 0.097357,
+      "rerank_logit": -6.899621,
+      "rerank_position": 20
+    },
+    {
+      "page_id": "81375625",
+      "revision_id": "1329771771",
+      "title": "Aretino's Stories of the Three Lustful Daughters",
+      "url": "https://en.wikipedia.org/wiki/Aretino%27s_Stories_of_the_Three_Lustful_Daughters",
+      "excerpt": " one hand in front and the other behind... ') is a 1972 commedia sexy all'italiana film directed by Silvio Amadio and starring Franca Gonella.\n\nFranca Gonella as Nanna\n\nIvana Novak as Concetta\n\nDorit Henke as Fiorenza\n\nElisa Mainardi as Violante\n\nGiorgio Favretto as Friar Fazio\n\nSilvio Spaccesi as Ser Cecco\n\nRenzo Rinaldi as Friar Crispino\n\nCarla Brait as Olimpia\n\nVincenzo Ferro as Ser Alfiuccio da Candelusa\n\nGino Milli as Guidotto\n\nPiero Maria Rossi as Raffaello\n\nGabriele Villa as Pietro Aretino\n\nThe film was produced by Cinematografica Vascello. It is the second decameronico film based on the works by Pietro Aretino, following by two weeks the release of the less successful Le notti peccaminose di Pietro l'Aretino by Silvio Amadio. It was shot in Arpino and in other locations in the Frosinone province. It was filmed back-to-back with its immediate sequel, Aretino's Blue Stories, directed by Enrico Bomba and featuring most of the same cast.\n\nThe film was distributed in Italian cinemas by Peg starting from 19 August 1972.\n\nItalian film critic Manlio Gomarasca panned the film, noting: \"it lacks brilliant writing in its triviality, it lacks the substance of a genuine Atellan Farce \".",
+      "excerpt_offset": 185,
+      "total_chars": 1385,
+      "bm25": {
+        "q1": {
+          "rank": 7,
+          "score": 15.0796
+        }
+      },
+      "best_rank": 7,
+      "title_similarity": 0.1154,
+      "context_overlap": 0.0103,
+      "cosine": 0.169045,
+      "rerank_logit": -7.377685,
+      "rerank_position": 29
+    },
+    {
+      "page_id": "12826503",
+      "revision_id": "1298355315",
+      "title": "Giacinto de Popoli",
+      "url": "https://en.wikipedia.org/wiki/Giacinto_de_Popoli",
+      "excerpt": "Giacinto de Popoli (died 1682 Orta di Atella o Caserta) was an Italian painter of the Baroque period, active near his natal city of Orta di Atella in the Province of Caserta. He was a pupil of Massimo Stanzioni.",
+      "excerpt_offset": 0,
+      "total_chars": 211,
+      "bm25": {
+        "q0": {
+          "rank": 8,
+          "score": 20.1885
+        }
+      },
+      "best_rank": 8,
+      "title_similarity": 0.3333,
+      "context_overlap": 0.0556,
+      "cosine": 0.080678,
+      "rerank_logit": -6.880113,
+      "rerank_position": 19
+    },
+    {
+      "page_id": "4670249",
+      "revision_id": "1350294026",
+      "title": "Joseph Mazilier",
+      "url": "https://en.wikipedia.org/wiki/Joseph_Mazilier",
+      "excerpt": "grapher. He was born as Giulio Mazarini. He was most noted for his ballets Paquita (1844) and Le Corsaire (1856). He created the role of James in La Sylphide with Marie Taglioni. Marie Guy-Stéphan debuted in Aelia et Mysis at the Paris Opéra when she moved in 1853 to Paris.\n\nLa Gypsy (1839)\n\nLa Vendetta (1839)\n\nLe Diable Amoureux (1840)\n\nLady Henrietta, or the Servant of Greenwich (Lady Henriette, ou la Servante de Greenwich) (1944)\n\nLe Diable à Quatre (1845)\n\nPaquita (1846)\n\nBetty (1846)\n\nGriseldis, ou les Cinq sens (1848)\n\nVert-vert (Green-Green) (1851)\n\nOrfa (1852)\n\nAelia et Mysis, ou l'Atellane (1853)\n\nJovita, ou les Boucaniers (1853)\n\nLa Fonti (1855)\n\nLe Corsaire (1856)\n\nLes Elfes (1856)\n\nMarco Spada ou La Fille du Bandit (1857)\n\nUne fête au port (1867)\n\nJames in La Sylphide by Filippo Taglioni in 1832\n\nFernando in La Tempête by Jean Coralli in 1834\n\nStenio in La Gypsy in 1839\n\nMaster of the Paris Opera Ballet from 1839 until 1851.\n\nMaster of the Saint Petersburg Ballet from 1851 until 1852\n\nMaster of the Paris Opera Ballet from 1852 until 1857.\n\nMaster of the Lyon Ballet from 1862 until 1866\n\nMaster of ballet at the Théâtre royal de la Monnaie in Brussels from 1866 until 1867",
+      "excerpt_offset": 102,
+      "total_chars": 1302,
+      "bm25": {
+        "q1": {
+          "rank": 8,
+          "score": 15.009
+        }
+      },
+      "best_rank": 8,
+      "title_similarity": 0.1905,
+      "context_overlap": 0.0,
+      "cosine": 0.060314,
+      "rerank_logit": -7.250931,
+      "rerank_position": 28
+    },
+    {
+      "page_id": "66898238",
+      "revision_id": "1326713288",
+      "title": "Ancient Campania",
+      "url": "https://en.wikipedia.org/wiki/Ancient_Campania",
+      "excerpt": "Ancient Campania (often also identified as Campania Felix or ager Campanus) originally indicated the territory of the ancient city of Capua in the Roman period, and later also the plains of the various neighbouring municipalities. It was a very large territory when compared with the other Italic cities of the Roman and pre-Roman period.\n\nAccording to the Roman philologist Sextus Pompeius Festus (II century BC), the pre-Roman name of Campania was Oscor, the name from which the Osci peoples who lived there (Osci enim a Regione Campaniæ, quae est Oscor, vocati sunt.). The toponym Campania, dating back to the fifth century BC, is of classical origin. The most accredited hypothesis is that it derives from the name of the ancient inhabitants of Capua. From Capuani, in fact, we would have Campani and, therefore, Campania; furthermore, both Livio and Polybius speak of an Ager Campanus with a clear reference to Capua and the surrounding area.\n\nCampania extended from the slopes of Mount Massico (to the north) up to the Phlegraean Fields and the Vesuvian area to the south.\n\nThe main inhabited centers of this historical region were (from north to south) Capua, Atella, Liternum, Cumae, Baiae, P",
+      "excerpt_offset": 0,
+      "total_chars": 6153,
+      "bm25": {
+        "q2": {
+          "rank": 8,
+          "score": 44.9937
+        }
+      },
+      "best_rank": 8,
+      "title_similarity": 0.2727,
+      "context_overlap": 0.075,
+      "cosine": 0.250972,
+      "rerank_logit": -5.943474,
+      "rerank_position": 5
+    },
+    {
+      "page_id": "6769417",
+      "revision_id": "1334640642",
+      "title": "Sant'Arpino",
+      "url": "https://en.wikipedia.org/wiki/Sant%27Arpino",
+      "excerpt": "Sant'Arpino is a comune (municipality) in the Province of Caserta in the Italian region Campania located about 11 kilometres (7 mi) northwest of Naples and about 12 kilometres (7 mi) southwest of Caserta.\n\nSant'Arpino borders the following municipalities: Cesa, Frattamaggiore, Frattaminore, Grumo Nevano, Orta di Atella, Sant'Antimo, Succivo.\n\nSant'Arpino is the vulgarized version of Sant'Elpidio, bishop and patron of the town. The ancient city of Atella was located nearby.",
+      "excerpt_offset": 0,
+      "total_chars": 477,
+      "bm25": {
+        "q0": {
+          "rank": 9,
+          "score": 19.6607
+        }
+      },
+      "best_rank": 9,
+      "title_similarity": 0.3529,
+      "context_overlap": 0.1143,
+      "cosine": 0.194517,
+      "rerank_logit": -6.158055,
+      "rerank_position": 6
+    },
+    {
+      "page_id": "11931475",
+      "revision_id": "1351371875",
+      "title": "Phlyax play",
+      "url": "https://en.wikipedia.org/wiki/Phlyax_play",
+      "excerpt": "often painted in white.\n\nThe phlyakes seems to die out by the late 3rd century, but the Oscan inhabitants of Campania subsequently developed a tradition of farces, parodies, and satires influenced by late Greek models, which became popular in Rome during the 3rd century BCE. This genre was known as Atellan farce, Atella being the name of a Campanian town. Atellan farce introduced a set of stock characters such as Maccus and Bucco to Latin comedy; even in antiquity, these were thought to be the ancestors of the characters found in Plautus, and perhaps distantly of those of commedia dell'arte. Although an older view held that Attic comedy was the only source of Roman comedy, it has been argued that Rhinthon in particular influenced Plautus's Amphitruo.\n\nThe so-called phlyax vases are a principal source of information on the genre. By 1967, 185 of these vases had been identified. Since depictions of theatre and especially comedy are rare in fabrics other than the South Italian, these have been thought to portray the distinctly local theatre tradition. The vases first appeared at the end of the 5th century BCE, but most are 4th century. They represent grotesque characters, the masks of",
+      "excerpt_offset": 3284,
+      "total_chars": 5125,
+      "bm25": {
+        "q1": {
+          "rank": 9,
+          "score": 14.7214
+        }
+      },
+      "best_rank": 9,
+      "title_similarity": 0.3529,
+      "context_overlap": 0.0732,
+      "cosine": 0.351032,
+      "rerank_logit": -6.334249,
+      "rerank_position": 9
+    },
+    {
+      "page_id": "75845",
+      "revision_id": "1350387230",
+      "title": "Capua",
+      "url": "https://en.wikipedia.org/wiki/Capua",
+      "excerpt": "Capua (/ ˈ k æ p j u ə / KAP -yoo-ə; Italian:) is a city and comune in the province of Caserta, in the region of Campania, southern Italy, located on the northeastern edge of the Campanian plain.\n\nCapua's name comes from the Etruscan Capeva, which means 'City of Marshes'. Its foundation is attributed by Cato the Elder to the Etruscans, and the date is given as about 260 years before it was conquered by Rome. That, if true, refers not to its capture in the Second Punic War (211 BC), but to its submission to Rome in 338 BC. That places the date of foundation at about 600 BC, while Etruscan power was at its highest. In the area, several settlements of the Villanovian civilization were present in prehistoric times. These were probably enlarged by the Oscans, and subsequently by the Etruscans.\n\nEtruscan supremacy in Campania came to an end with the Samnites ' invasion in the latter half of the 5th century BC.\n\nIn about 424 BC, Capua was captured by the Samnites, and in 343 BC, it sought Roman help against its conquerors. They allied for protection against the Samnite mountain tribes, along with its dependent communities of Casilinum, Calatia, Atella and so the greater part of Campania n",
+      "excerpt_offset": 0,
+      "total_chars": 17797,
+      "bm25": {
+        "q2": {
+          "rank": 9,
+          "score": 44.8924
+        }
+      },
+      "best_rank": 9,
+      "title_similarity": 0.3636,
+      "context_overlap": 0.075,
+      "cosine": 0.229545,
+      "rerank_logit": -6.440717,
+      "rerank_position": 10
+    },
+    {
+      "page_id": "21642965",
+      "revision_id": "1335717506",
+      "title": "Saint Canius",
+      "url": "https://en.wikipedia.org/wiki/Saint_Canius",
+      "excerpt": "ristianity all who came near him.\n\nWhen the prisoner's resistance was reported to him the prefect ordered him to be decapitated. A violent storm accompanied by an earthquake scattered the soldiers, and in the confusion Canius, with some of the faithful, was able to escape in a boat to Volturno.\n\nAt Atella (on the site of the present hamlet of Sant'Arpino), where he preached the Gospel, many miracles were attributed to him. In the amphitheatre of Atella, a man was healed in the middle of a heart attack by the touch of Canius' hand; a blind woman named Eugenia regained her sight; and a boy was cured of demonic possession.\n\nWhen he was old and ill, Canius retired to a hermitage, where he died. Bishop Elpidius of Atella, when he learnt miraculously of Canius' death, built a little shrine on the site to protect the saint's body.\n\nIn about 800 bishop Leone of Acerenza built a cathedral on the ruins of an old shrine and translated the body of Canius there from Atella. In 1080, according to the chronicler Lupo Protospata, the body of Canius was re-discovered, and the newly rebuilt cathedral and diocese were put under his protection.\n\nIn 1543, on the occasion of a pastoral visit by Cardinal",
+      "excerpt_offset": 893,
+      "total_chars": 3020,
+      "bm25": {
+        "q0": {
+          "rank": 10,
+          "score": 19.1169
+        },
+        "q1": {
+          "rank": 12,
+          "score": 13.0022
+        }
+      },
+      "best_rank": 10,
+      "title_similarity": 0.4444,
+      "context_overlap": 0.0471,
+      "cosine": 0.144326,
+      "rerank_logit": -6.266029,
+      "rerank_position": 8
+    },
+    {
+      "page_id": "35159961",
+      "revision_id": "1292651860",
+      "title": "Piro Pueblo language",
+      "url": "https://en.wikipedia.org/wiki/Piro_Pueblo_language",
+      "excerpt": "itatác nasaul e yapolhua tol húy quiamgiana mi quiamnarinú Jaquié mu gilley nasamagui hikiey quiamsamaé, mukiataxám, hikiey, hiquiquiamo quia inaé, huskilley nafoleguey, gimoréy, y apol y ahuleý, quialiey, nasan e pomo llekeý, quiale mahimnague yo sé mahi kaná rrohoý, se teman quiennatehui mu killey, nani, emolley quinaroy zetasi, na san quianatehueý pemcihipompo y, qui solakuey quifollohipuca. Kuey maihua atellan, folliquitey. Amen.\n\nThe Piro-origin place names listed by Bandelier are Abo, Arti-puy, Genobey, Pataotry, Pil-abó, Qual-a-cú, Quelotetrey, Tabirá (Gran Quivira), Ten-abó, Tey-pam-á, Trenaquel and Zen-ecú (Senecú).\n\nAs Piro was morphologically agglutinative, words were built from prefixes, stems and suffixes. For example, quen-lo-a-tu-ya-é (\"mosquito\") is glossed as \"the insect that bites\".\n\nPiro was reportedly mutually intelligible with Isleta with many shared words and case stems. Of the 180 words in Bartlett's Piro vocabulary, 87% were identical or nearly so to their corresponding stems in Southern Tiwa. The vocabulary created by Harrington also contains several loanwords from Spanish, such as pipa-hem for \"pipe\" (from Spanish pipa).\n\n1894-7 Field Notes by James Mooney",
+      "excerpt_offset": 564,
+      "total_chars": 1764,
+      "bm25": {
+        "q1": {
+          "rank": 10,
+          "score": 14.1904
+        }
+      },
+      "best_rank": 10,
+      "title_similarity": 0.3704,
+      "context_overlap": 0.0183,
+      "cosine": 0.072102,
+      "rerank_logit": -8.296583,
+      "rerank_position": 32
+    },
+    {
+      "page_id": "3083194",
+      "revision_id": "1247800111",
+      "title": "Suessula",
+      "url": "https://en.wikipedia.org/wiki/Suessula",
+      "excerpt": "Suessula was an ancient city of Campania, southern Italy, situated in the interior of the peninsula, near the frontier with Samnium, between Capua and Nola, and about 7 km northeast of Acerrae, Suessula is now a vanished city and the archeological site belongs to the city of Acerra, and not to San Felice a Cancello as reported in some sources.\n\nSuessula is repeatedly mentioned during the wars between Romans and Samnites, as well as in the Second Punic War against Hannibal. Thus in the First Samnite War (343 BC) it was the scene of a decisive victory by Marcus Valerius Corvus over the Samnites, who had gathered together the remains of their army which had been previously defeated at Mount Gaurus (Livy vii. 37). In the following Campanian War the Suessulani followed the fortunes of the citizens of Capua, and shared the same fate, so that at the close of the contest, in 338 BC, they must have obtained the status of civitas, but without the right of suffrage (Id. viii. 14).\n\nIn the Second Punic War the city played a considerable part, though apparently more from its position than its own importance. Suessula was on the line of the Via Popillia, which was here intersected by a road whic",
+      "excerpt_offset": 0,
+      "total_chars": 3531,
+      "bm25": {
+        "q2": {
+          "rank": 10,
+          "score": 44.2202
+        }
+      },
+      "best_rank": 10,
+      "title_similarity": 0.4286,
+      "context_overlap": 0.05,
+      "cosine": 0.224879,
+      "rerank_logit": -6.83998,
+      "rerank_position": 16
+    },
+    {
+      "page_id": "46954385",
+      "revision_id": "1316410324",
+      "title": "Giuseppe Caruso (brigand)",
+      "url": "https://en.wikipedia.org/wiki/Giuseppe_Caruso_(brigand)",
+      "excerpt": "Giuseppe Caruso, nicknamed \" Zi 'Beppe \" (Atella, 18 December 1816 – Atella, 7 August 1891), was an Italian brigand, the most renowned of the Lucan bands. He was, with Giovanni 'Coppa' Fortunato and Ninco Nanco, one of the most ruthless deputies of Carmine Crocco, but also, after being handed over to the Savoy authorities in 1863, one of the men responsible for the suppression of banditry in the Vulture. According to Crocco, Caruso killed 124 people in about four years as a fugitive.\n\nBefore becoming a brigand, Caruso was a rural caretaker for the Saraceno noble family of Atella. In April 1861, after having shot at a national guardsman, he decided to become a brigand to avoid charges and risk the death penalty. Because of his strategic thinking and excellent leadership abilities, he was able to form a band operating in the Ofantino territory.\n\nCarmino Crocco enrolled his companions and both led various clashes with the national guard and the Italian army. Caruso, under the command of Crocco, actively participated in the conquest of Basilicata and distinguished himself in diverse operations. On 6 April 1862, the gang clashed near Muro Lucano with regular troops, killing nine soldier",
+      "excerpt_offset": 0,
+      "total_chars": 4150,
+      "bm25": {
+        "q0": {
+          "rank": 11,
+          "score": 17.8541
+        }
+      },
+      "best_rank": 11,
+      "title_similarity": 0.0952,
+      "context_overlap": 0.0333,
+      "cosine": 0.103316,
+      "rerank_logit": -6.486624,
+      "rerank_position": 12
+    },
+    {
+      "page_id": "53240746",
+      "revision_id": "1028768623",
+      "title": "Novia gens",
+      "url": "https://en.wikipedia.org/wiki/Novia_gens",
+      "excerpt": "med Novius bore it as a praenomen or a nomen gentilicium. In either case, the name itself establishes the Oscan origin of the Novii.\n\nThis list includes abbreviated praenomina. For an explanation of this practice, see filiation.\n\nQuintus Novius, a playwright in the time of Sulla, celebrated for his Atellane plays. He was a contemporary of Pomponius, another playwright specializing in the genre. Novius' work is frequently mentioned by Nonius Marcellus.\n\nLucius Novius, possibly surnamed Niger, a tribune of the plebs in 58 BC, the year that Publius Clodius Pulcher held the office. Novius was strongly opposed to his colleague.\n\nNovius Facundus, a mathematician in the time of Augustus, who devised a means of measuring the length of days using an obelisk erected on the campus Martius.\n\nDecimus Junius Novius Priscus, consul in AD 78. He is probably the same Novius Priscus who was among Seneca 's friends, banished by Nero in AD 66. His wife was Artoria Flacilla.\n\nNovius, a friend of Martial.\n\nNovius Maximus, a person to whom Pliny the Younger addressed two letters.\n\nNovius, a legacy hunter mentioned by Juvenal.\n\nLucius Novius Crispinus Martialis Saturninus, proconsul of Gallia Narbonensis ",
+      "excerpt_offset": 443,
+      "total_chars": 2472,
+      "bm25": {
+        "q1": {
+          "rank": 11,
+          "score": 13.2345
+        }
+      },
+      "best_rank": 11,
+      "title_similarity": 0.3529,
+      "context_overlap": 0.0421,
+      "cosine": 0.255976,
+      "rerank_logit": -7.422502,
+      "rerank_position": 30
+    },
+    {
+      "page_id": "31073216",
+      "revision_id": "1350645921",
+      "title": "Monticchio",
+      "url": "https://en.wikipedia.org/wiki/Monticchio",
+      "excerpt": "Monticchio is an Italian hamlet (frazione) belonging to the municipalities of Rionero in Vulture and Atella, in the Province of Potenza, Basilicata. The village is divided into three zones: Monticchio Laghi (part of Atella), Monticchio Bagni and Monticchio Sgarroni (both in Rionero).\n\nFirst inhabited by the Normans, who occupied the ancient castle near Sgarroni (Castrum Monticuli), it became, in the second half of the 19th century, a strategic point for brigands after Italian unification. It was the shelter for brigands such as Carmine Crocco and his subordinates Ninco Nanco (Giuseppe Summa), Giuseppe Caruso, Teodoro Gioseffi and Giovanni Fortunato. Nowadays it is a touristic place admired for its natural environment and for mineral waters, due to the presence of some extinct volcanoes.\n\nMonticchio is part of the Vulture region and lies near the borders with the Province of Avellino, Campania. The three tiny villages composing it are located to the west of Mount Vulture and few kilometres away from each other. A regional road links Monticchio Bagni and Monticchio Laghi.\n\nMonticchio Bagni (M. Baths, 40°56′57.23″N 15°34′7.08″E / 40.9492306°N 15.5686333°E) is the northernmost locality",
+      "excerpt_offset": 0,
+      "total_chars": 2585,
+      "bm25": {
+        "q0": {
+          "rank": 12,
+          "score": 17.8298
+        }
+      },
+      "best_rank": 12,
+      "title_similarity": 0.125,
+      "context_overlap": 0.0385,
+      "cosine": 0.155874,
+      "rerank_logit": -6.998056,
+      "rerank_position": 24
+    },
+    {
+      "page_id": "1232223",
+      "revision_id": "1334639435",
+      "title": "Frattamaggiore",
+      "url": "https://en.wikipedia.org/wiki/Frattamaggiore",
+      "excerpt": "est of Caserta. It was awarded the title of \"City of art\" in 2008 and named Benedictine city in 1997.\n\nIt is located in the Naples hinterland. It is bordered by the comuni of Afragola, Cardito, Crispano, Frattaminore, Grumo Nevano, and Sant'Arpino.\n\nThe first records of Frattamaggiore date to 921 AD, although the area was probably settled in pre-Roman times. The people of Atella built a watchtower in response to the Vandal invasion of 455 AD, around which refugees from Miseno settled when their town was razed by the Saracens; here they also built a Catholic church in honour of Sossius, now the patron saint of Frattamaggiore.\n\nFrattamaggiore is served by:\n\nProvincial road 162, a freeway that connects the city to the Milano-Napoli freeway;\n\na railway station on the Rome–Formia–Naples railway;\n\nNapoli Afragola railway station on the Rome–Naples high-speed line, 6 km (3.7 mi) from Frattamaggiore;\n\nseveral bus lines of the Naples Public Transport Company that connect the city to Naples, Caserta, Afragola, Casoria, Sant'Antimo, Orta di Atella, Frattaminore and other closer cities;\n\nthe Naples International Airport, A104 bis, 10 km (6.2 mi) from Frattamaggiore.\n\nStriano, Italy, since 2006",
+      "excerpt_offset": 181,
+      "total_chars": 1381,
+      "bm25": {
+        "q0": {
+          "rank": 13,
+          "score": 17.6904
+        }
+      },
+      "best_rank": 13,
+      "title_similarity": 0.3,
+      "context_overlap": 0.0494,
+      "cosine": 0.198744,
+      "rerank_logit": -6.816765,
+      "rerank_position": 15
+    },
+    {
+      "page_id": "25567989",
+      "revision_id": "1349924057",
+      "title": "Annaea gens",
+      "url": "https://en.wikipedia.org/wiki/Annaea_gens",
+      "excerpt": "eca, a rhetorician and native of Corduba in Hispania Ulterior, known as Seneca the Elder.\n\nMarcus Annaeus L. f. Novatus, afterward called Lucius Junius Gallio Annaeanus, the eldest son of Lucius Annaeus Seneca, and a rhetorician.\n\nLucius Annaeus L. f. Seneca, the second son of Lucius Annaeus Seneca, and a philosopher, known as Seneca the Younger.\n\nStatius Annaeus, a friend of the younger Seneca, and a physician who assisted Seneca in two attempts to commit suicide.\n\nMarcus Annaeus L. f. Mela, the youngest son of the elder Lucius Annaeus Seneca, and father of the poet Marcus Annaeus Lucanus.\n\nMarcus Annaeus M. f. Longinus, a maccus (an actor in Atellan farces or clown), first century.\n\nMarcus Annaeus M. f. L. n. Lucanus, son of Marcus Annaeus Mela, and a celebrated poet in the time of Nero.\n\nLucius Annaeus Cornutus, a freedman and notable commentator on Aristotle, exiled by the emperor Nero in AD 68.\n\nLucius Annaeus Florus, one of several names assigned to the author of a history of Rome, from the founding of the city to the time of Augustus.\n\nAnnaeus Florus, a poet who flourished during the time of the emperor Hadrian.\n\nMarcus Annaeus Syriacus, governor of Egypt from AD 161 to 164.",
+      "excerpt_offset": 2489,
+      "total_chars": 3689,
+      "bm25": {
+        "q1": {
+          "rank": 13,
+          "score": 11.4961
+        }
+      },
+      "best_rank": 13,
+      "title_similarity": 0.3529,
+      "context_overlap": 0.0308,
+      "cosine": 0.228532,
+      "rerank_logit": -6.87532,
+      "rerank_position": 18
+    },
+    {
+      "page_id": "3196467",
+      "revision_id": "1323191288",
+      "title": "Casilinum",
+      "url": "https://en.wikipedia.org/wiki/Casilinum",
+      "excerpt": "Casilinum (Ancient Greek: Κασιλῖνον) was an ancient city of Campania, Italy, situated some 3 miles north-west of the ancient Capua. The position of Casilinum at the junction of the Via Appia and Via Latina, at their crossing of the river Volturnus by a still-existing three-arched bridge, gave the town considerable strategic importance during the Roman Republic.\n\nCasilinum was located where the modern city of Capua now stands, while the ancient Capua was located on the site of the modern Santa Maria Capua Vetere.\n\nWhile the original pre-Roman town, doubtless dependent on neighboring Capua, stood entirely on the left (south) bank surrounded on three sides by the river, the Roman city extended to the right bank also. Remains of this later town have been found at some 25 feet below the modern ground-level, the river-bed having since risen considerably.\n\nDuring the Second Punic War, Casilinum was first occupied by Quintus Fabius Maximus Verrucosus in 217 BCE. The town was taken by Hannibal after a gallant defence by troops from Praeneste and Perusia in the winter of 216-215 BCE, but recaptured by Roman forces the following year, thereafter serving the Romans as a base of operations agai",
+      "excerpt_offset": 0,
+      "total_chars": 1965,
+      "bm25": {
+        "q2": {
+          "rank": 13,
+          "score": 42.8935
+        }
+      },
+      "best_rank": 13,
+      "title_similarity": 0.375,
+      "context_overlap": 0.093,
+      "cosine": 0.172229,
+      "rerank_logit": -6.926392,
+      "rerank_position": 21
+    },
+    {
+      "page_id": "6770896",
+      "revision_id": "1334639422",
+      "title": "Crispano",
+      "url": "https://en.wikipedia.org/wiki/Crispano",
+      "excerpt": "Crispano is a comune (municipality) in the Metropolitan City of Naples in the Italian region Campania, located about 13 km north of Naples.\n\nCrispano borders the following municipalities: Caivano, Cardito, Frattamaggiore, Frattaminore, Orta di Atella.",
+      "excerpt_offset": 0,
+      "total_chars": 251,
+      "bm25": {
+        "q0": {
+          "rank": 14,
+          "score": 17.5657
+        }
+      },
+      "best_rank": 14,
+      "title_similarity": 0.2667,
+      "context_overlap": 0.1,
+      "cosine": 0.163605,
+      "rerank_logit": -6.507166,
+      "rerank_position": 13
+    },
+    {
+      "page_id": "316935",
+      "revision_id": "1353735032",
+      "title": "Pulcinella",
+      "url": "https://en.wikipedia.org/wiki/Pulcinella",
+      "excerpt": " the character's popularity in various forms since his introduction to commedia dell'arte by Silvio Fiorillo in 1620.\n\nHis visual appearance includes a humpback, a crooked nose, gangly legs, a potbelly, large cheeks, and a gigantic mouth. These traits were inherited from two stock characters of the Atellan Farce. He typically wears a conical hat. When depicted as a member of the upper class, Pulcinella is a cunning thief and schemer. When depicted as a member of the servant class, Pulcinella is a perverted country bumpkin. In either case, he is a social climber, striving to rise above his station in life. He is an opportunist who always sides with the winner in any situation and who fears no consequences. His main motivations are self-interest and self-preservation, yet Pulcinella tends to rescue other characters from trouble. He is said to be every character's savior, despite acting as a rebel and a delinquent.\n\nPulcinella embodies the Neapolitan plebeians, the simplest man who occupies the bottom place on the social scale, the man who, although aware of his problems, always manages to come out of them with a smile.\n\nPulcinella represents the soul of the people and its primitive i",
+      "excerpt_offset": 251,
+      "total_chars": 11002,
+      "bm25": {
+        "q1": {
+          "rank": 14,
+          "score": 10.4932
+        }
+      },
+      "best_rank": 14,
+      "title_similarity": 0.5,
+      "context_overlap": 0.0109,
+      "cosine": 0.161357,
+      "rerank_logit": -7.183792,
+      "rerank_position": 27
+    }
+  ]
+}

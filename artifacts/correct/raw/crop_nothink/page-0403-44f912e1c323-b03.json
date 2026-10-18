@@ -1,0 +1,93 @@
+{
+  "variant": "crop_nothink",
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:403",
+  "block_index": 3,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T12:20:39+00:00",
+  "elapsed_seconds": 2.38,
+  "finish_reason": "stop",
+  "parse_text": "The original Ethiopians were a highly civilized people; and their laws, their institutions, and especially their religion, and celebrated far and wide. Hence talks to physics as the piety of the Ethiopians, and sends his gods every now and then to read twelve days with that devout people. The Sciland produces a number of very speakers arguments to prove that those two nations equally sprung from the same stock. He mentions a similarity of features, of manners, of anatomy of law, of letters, of the fashion of statuses, and of religion, as evidences of the relation between these two neighboring nations. There was, since every body knows a common, in regard to sacrifice it, even the two countries. The Egyptians sent annually a deputation of their priests, limited with the probable nature of their gods, to visit the fines of the devon Ethiopians. Upon this occasion, a solemal religious banque was prepared, which lasted twelve days, and of which the priest of both nations were parties. It was a kind of sacramental institution, we imagine, by which both parties publicly awarded their agreement in the creation of their religion respectively. These observations plainly show, that the most ancient Ethiopians were people highly utilized in need to much, but the Egyptians were all one time connected to be their scholars. The tone of their language was certainly the same with that of the Chaldeau or Arabica Cunha, whom whom they are descended. We know not whether there are any books in the ancient Ethiopians now act; so that it is not easy to procide instance of its coincidence with the Chaldaic. But Diogenes Lacertas’ Roman us, that Tarnayihus, in his catalogue of the books composed by Democritus, mentions one,",
+  "corrected_text": "The original Ethiopians were a highly civilized people; and their laws, their institutions, and especially their religion, were celebrated far and wide. Homer talks in raptures of the piety of the Ethiopians, and sends his gods every now and then to revel twelve days with that devout people. The Sicilian produces a number of very specious arguments to prove that these two nations originally sprung from the same stock. He mentions a similarity of features, of manners, of customs, of laws, of letters, of the fabrication of statues, and of religion, as evidences of the relation between these two neighbouring nations. There was, as every body knows, a communion, in regard to sacred rites, between the two countries. The Egyptians sent annually a deputation of their priests, furnished with the portable statues of their gods, to visit the fanes of the devout Ethiopians. Upon this occasion, a solemn religious banquet was prepared, which lasted twelve days, and of which the priests of both nations were partakers. It was a kind of sacramental institution, we imagine, by which both parties publicly avouched their agreement in the ceremonies of their religion respectively. These observations plainly show, that the most ancient Ethiopians were a people highly civilized; indeed so much, that the Egyptians were at one time contented to be their scholars. The tone of their language was certainly the same with that of the Chaldeans or Arabian Cusheim, from whom they are descended. We know not whether there are any books in the ancient Ethiopian now extant; so that it is not easy to produce instances of its coincidence with the Chaldaic. But Diogenes Laertius informs us, that Thrasyllus, in his catalogue of the books composed by Democritus, mentions one,",
+  "reasoning_tokens": 0,
+  "usage": {
+    "completion_tokens": 368,
+    "prompt_tokens": 1398,
+    "total_tokens": 1766,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 860
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 3000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows this region of the page. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\nThe original Ethiopians were a highly civilized people; and their laws, their institutions, and especially their religion, and celebrated far and wide. Hence talks to physics as the piety of the Ethiopians, and sends his gods every now and then to read twelve days with that devout people. The Sciland produces a number of very speakers arguments to prove that those two nations equally sprung from the same stock. He mentions a similarity of features, of manners, of anatomy of law, of letters, of the fashion of statuses, and of religion, as evidences of the relation between these two neighboring nations. There was, since every body knows a common, in regard to sacrifice it, even the two countries. The Egyptians sent annually a deputation of their priests, limited with the probable nature of their gods, to visit the fines of the devon Ethiopians. Upon this occasion, a solemal religious banque was prepared, which lasted twelve days, and of which the priest of both nations were parties. It was a kind of sacramental institution, we imagine, by which both parties publicly awarded their agreement in the creation of their religion respectively. These observations plainly show, that the most ancient Ethiopians were people highly utilized in need to much, but the Egyptians were all one time connected to be their scholars. The tone of their language was certainly the same with that of the Chaldeau or Arabica Cunha, whom whom they are descended. We know not whether there are any books in the ancient Ethiopians now act; so that it is not easy to procide instance of its coincidence with the Chaldaic. But Diogenes Lacertas’ Roman us, that Tarnayihus, in his catalogue of the books composed by Democritus, mentions one,",
+  "response": {
+    "id": "chatcmpl-b1ca614ca9449d98",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "The original Ethiopians were a highly civilized people; and their laws, their institutions, and especially their religion, were celebrated far and wide. Homer talks in raptures of the piety of the Ethiopians, and sends his gods every now and then to revel twelve days with that devout people. The Sicilian produces a number of very specious arguments to prove that these two nations originally sprung from the same stock. He mentions a similarity of features, of manners, of customs, of laws, of letters, of the fabrication of statues, and of religion, as evidences of the relation between these two neighbouring nations. There was, as every body knows, a communion, in regard to sacred rites, between the two countries. The Egyptians sent annually a deputation of their priests, furnished with the portable statues of their gods, to visit the fanes of the devout Ethiopians. Upon this occasion, a solemn religious banquet was prepared, which lasted twelve days, and of which the priests of both nations were partakers. It was a kind of sacramental institution, we imagine, by which both parties publicly avouched their agreement in the ceremonies of their religion respectively. These observations plainly show, that the most ancient Ethiopians were a people highly civilized; indeed so much, that the Egyptians were at one time contented to be their scholars. The tone of their language was certainly the same with that of the Chaldeans or Arabian Cusheim, from whom they are descended. We know not whether there are any books in the ancient Ethiopian now extant; so that it is not easy to produce instances of its coincidence with the Chaldaic. But Diogenes Laertius informs us, that Thrasyllus, in his catalogue of the books composed by Democritus, mentions one,",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792326040,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 368,
+      "prompt_tokens": 1398,
+      "total_tokens": 1766,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 860
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

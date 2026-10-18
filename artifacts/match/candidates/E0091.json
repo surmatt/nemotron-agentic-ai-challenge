@@ -1,0 +1,452 @@
+{
+  "entry_id": "E0091",
+  "headword": null,
+  "entry_text_sha256": "69fffa642205dbf5ab4f034a97e9a64baf48c06855dcaf68e80501382391bfb5",
+  "mode": "model",
+  "queries": [
+    "comines louis moires paris important last charles viii appeared life himself name"
+  ],
+  "query_chars": 1500,
+  "headword_variant": null,
+  "candidate_count": 20,
+  "list_pages_removed_after_fetch": [],
+  "decision": {
+    "status": "rejected",
+    "method": "nemotron_embed_rerank",
+    "thresholds": {
+      "rerank_logit": -10.0,
+      "margin": 0.5,
+      "cosine": 0.15,
+      "title_similarity": 0.0
+    },
+    "reason": "rerank_logit < -10.0, margin < 0.5, cosine < 0.15, or title_similarity < 0.0",
+    "page_id": "89440",
+    "title": "Philippe de Commines",
+    "rerank_logit": -3.833107,
+    "cosine": 0.419201,
+    "margin_to_next": 0.410919,
+    "title_similarity": 0.0
+  },
+  "candidates": [
+    {
+      "page_id": "18847792",
+      "revision_id": "1311731140",
+      "title": "Guillaume Briçonnet (cardinal)",
+      "url": "https://en.wikipedia.org/wiki/Guillaume_Bri%C3%A7onnet_(cardinal)",
+      "excerpt": " pronunciation:; 1445 – 1514) was a French cardinal and statesman.\n\nBorn at Tours, Guillaume Briçonnet was a younger son of Jean Briçonnet, Lord of Varennes, in Touraine, Secretary to the king and collector-general of Customs. Appointed Superintendent of Finances for the Province of Languedoc under Louis XI of France, Guillaume Briçonnet discharged the duties of his office with such integrity and efficiency, and showed himself so devoted to the interests of Louis that that monarch recommended him to his successor. Charles VIII of France made him Secretary of the Treasury, raised him to the first place in the Council of State, and, according to the historian Francesco Guicciardini, would undertake nothing in the government of his kingdom without the advice of Briçonnet.\n\nLudovico Sforza, called the Moor, wishing to dispossess his nephew of the Duchy of Milan, and finding himself opposed by Ferdinand I of Naples, sent an embassy under the Carlo Barbiano di Belgioioso to Charles to induce the king of France to assert his claims to the Kingdom of Naples as heir to the house of Anjou. Sforza promised to place all his troops at the king's service. Briçonnet having shortly before this los",
+      "excerpt_offset": 27,
+      "total_chars": 6174,
+      "bm25": {
+        "q0": {
+          "rank": 1,
+          "score": 33.4781
+        }
+      },
+      "best_rank": 1,
+      "title_similarity": 0.0,
+      "context_overlap": 0.119,
+      "cosine": 0.261404,
+      "rerank_logit": -4.69477,
+      "rerank_position": 6
+    },
+    {
+      "page_id": "89440",
+      "revision_id": "1332424841",
+      "title": "Philippe de Commines",
+      "url": "https://en.wikipedia.org/wiki/Philippe_de_Commines",
+      "excerpt": "Philippe de Commines (also Commynes or Comines; Latin: Philippus Cominaeus; 1447 – 18 October 1511) was a writer and diplomat in the courts of Burgundy and France. He has been called \"the first truly modern writer\" (Charles Augustin Sainte-Beuve) and \"the first critical and philosophical historian since classical times\" (Oxford Companion to English Literature). Neither a chronicler nor a historian in the usual sense of the word, his analyses of the contemporary political scene are what made him virtually unique in his own time.\n\nCommines was born at Renescure (in what was then the county of Flanders), to an outwardly wealthy family. His parents were Colard van den Clyte (or de La Clyte) and Marguerite d'Armuyden. In addition to being seigneur of Renescure, Watten and Saint-Venant, Clyte became bailiff of Flanders for the Duke of Burgundy in 1436, and had been taken prisoner at the Battle of Agincourt in 1415. Philippe took his surname from a seigneurie on the river Lys which had belonged to the family of his paternal grandmother, Jeanne de Waziers. His paternal grandfather, also named Colard van den Clyte (d. 1404), had been governor first of Cassel and then of Lille. However, the ",
+      "excerpt_offset": 0,
+      "total_chars": 9903,
+      "bm25": {
+        "q0": {
+          "rank": 2,
+          "score": 32.665
+        }
+      },
+      "best_rank": 2,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1358,
+      "cosine": 0.419201,
+      "rerank_logit": -3.833107,
+      "rerank_position": 1
+    },
+    {
+      "page_id": "79458322",
+      "revision_id": "1280663723",
+      "title": "Société Cuvierienne",
+      "url": "https://en.wikipedia.org/wiki/Soci%C3%A9t%C3%A9_Cuvierienne",
+      "excerpt": "The Société Cuvierienne was a zoological society founded in Paris in 1838, named after the zoologist Georges Cuvier, who had died six years earlier It existed until about 1848 the year of the February Revolution.The society published the monthly journal Revue zoologique par la Société Cuvierienne, the first volume of which appeared in 1838 and the last volume in 1848 (the last issue was from December 1848). The editor was the entomologist and zoological illustrator Félix Édouard Guérin-Méneville, who continued Cuvier's zoological encyclopedia from 1829 as Iconographie du règne animal de G. Cuvier, and also published the annual journal Magasin de zoologie, d'anatomie comparée et de palaeontologie from 1831 (which appeared until 1849). Guérin-Méneville also published the monthly zoological journal Revue et magasin de zoologie pure et appliquée from 1849. However, it had no connection to the Cuvier Society, which had been dissolved shortly before.According to its statutes, the society dealt not only with zoology, but also with comparative anatomy and paleontology.When it was founded, the Société Cuvierienne had 140 members including important French biologists. Members included Alexan",
+      "excerpt_offset": 0,
+      "total_chars": 2415,
+      "bm25": {
+        "q0": {
+          "rank": 3,
+          "score": 31.6285
+        }
+      },
+      "best_rank": 3,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1515,
+      "cosine": 0.060646,
+      "rerank_logit": -5.381046,
+      "rerank_position": 19
+    },
+    {
+      "page_id": "77296317",
+      "revision_id": "1314959546",
+      "title": "Jean de Ganay",
+      "url": "https://en.wikipedia.org/wiki/Jean_de_Ganay",
+      "excerpt": "Jean de Ganay (1455–1512) was an ambassador and chancellor of the Kingdom of Naples under Charles VIII and Chancellor of France under Louis XII.\n\nHe belonged to a family originally from Nivernais that was established in Burgundy in the 15th century.\n\nHis grandfather was Guichard de Ganay, lord of Savigny and advisor to Duke Philip the Good of Burgundy. He was also judiciary of the County of Charolais and a knight of Burgundy. His father Guillaume served in the same capacity until 1480.\n\nHis brother Germain de Ganay (d.1520) was a clerical advisor to the Parlement of Paris in 1485 and Dean of Beauvais Cathedral.\n\nJean de Ganay was lord of Persan and La Bussière.\n\nHe was first a lawyer at the Parlement of Paris in 1478 and then as an advisor to the Court of Aids in October 1481. He also attended the Parlement of Paris in 1490.\n\nJean de Ganay advised King Charles VIII to conquer the Kingdom of Naples, asserting his rights that the last princes of the House of Anjou had bequeathed it to his family. The King sent de Ganay and Louis de la Trémoille as ambassadors to Pope Alexander VI.\n\nOn the death of King Ferdinand I of Naples in 1494, Charles VIII claimed the titles of King of Naples a",
+      "excerpt_offset": 0,
+      "total_chars": 1907,
+      "bm25": {
+        "q0": {
+          "rank": 4,
+          "score": 30.6655
+        }
+      },
+      "best_rank": 4,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1765,
+      "cosine": 0.249904,
+      "rerank_logit": -4.718894,
+      "rerank_position": 8
+    },
+    {
+      "page_id": "148697",
+      "revision_id": "1341383199",
+      "title": "Jean Balue",
+      "url": "https://en.wikipedia.org/wiki/Jean_Balue",
+      "excerpt": "Jean Balue (c. 1421 – 5 October 1491) was a French cardinal and minister of Louis XI. Born without resources, he managed to climb the political ladder by exploiting connections, to whom he often did not remain loyal, and by making himself an indispensable agent of the king's purposes in a time of political disorder in France. His services were as much military as ecclesiastical, bringing him the critical task of defending the city of Paris against the King's enemies. His work as a diplomat in dealing with Duke Francis of Brittany and with Charles de France brought him the office of first minister to the King. Balue overreached himself in negotiating a treaty between the King and Charles the Bold, who had become Duke of Burgundy and was trying to recover all his family inheritance. Secret correspondence revealed that he might have been playing both sides in the negotiation, and he was arrested, and held on charges of treason from 1469 to 1481, while King and Pope argued over jurisdiction. After the death of King Louis and Pope Sixtus IV, the new French king, Charles VIII, appointed Balue his ambassador in Rome.\n\nHe was born of very humble parentage at Angles-sur-l'Anglin in Poitou. ",
+      "excerpt_offset": 0,
+      "total_chars": 17879,
+      "bm25": {
+        "q0": {
+          "rank": 5,
+          "score": 30.515
+        }
+      },
+      "best_rank": 5,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1707,
+      "cosine": 0.310058,
+      "rerank_logit": -4.487434,
+      "rerank_position": 5
+    },
+    {
+      "page_id": "8840862",
+      "revision_id": "1329949801",
+      "title": "Étienne de Vesc",
+      "url": "https://en.wikipedia.org/wiki/%C3%89tienne_de_Vesc",
+      "excerpt": "Étienne de Vesc (ca 1445 – 6 October 1501), was a courtier of Louis XI of France and a formative influence on Charles VIII, whom he strongly encouraged in the French adventure into Italy in the First Italian War (1494–95).\n\nÉtienne de Vesc's forebears originated in Provence, appearing since the eleventh century, as modest seigneurs of Comps, Dieulefit, Béconne, Montjoux and Espeluche, with some experience in the Crusades; the chronicler Philippe de Commines, an enemy of Vesc, belittled his background. He spent his youth in the Dauphiné, not part of France until 1486, finishing a courtly training in the household of the Dauphin at Plessis-les-Tours, where he served as valet de chambre from the age of seventeen, about 1462. In 1470, Louis XI, looking for persons who would prove affidés et sûrs made Vesc the governor of the household at Amboise of Charles, the future Charles VIII, who remained attached to Vesc and to the château d'Amboise the rest of his life. The education he provided his young charge was largely derived from fanciful romans courtois the romances of chivalry; his services to the King included some embassies, as far away as Spain. In 1475 he took a wife, from a rich f",
+      "excerpt_offset": 0,
+      "total_chars": 6314,
+      "bm25": {
+        "q0": {
+          "rank": 6,
+          "score": 30.4159
+        }
+      },
+      "best_rank": 6,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1136,
+      "cosine": 0.325196,
+      "rerank_logit": -4.385453,
+      "rerank_position": 3
+    },
+    {
+      "page_id": "45432419",
+      "revision_id": "1297724920",
+      "title": "Charles-Louis Verboeckhoven",
+      "url": "https://en.wikipedia.org/wiki/Charles-Louis_Verboeckhoven",
+      "excerpt": "Charles-Louis Verboeckhoven (5 February 1802, Comines-Warneton - 25 September 1889, Brussels) was a Belgian marine painter in the Romantic style. His first names are often given as Louis-Charles.\n\nHis father, Barthélemy Verboeckhoven, was a sculptor and his older brother, Eugène, was an animal painter, both of whom provided his first artistic training. In 1815, the family moved to Ghent, where he developed an interest in marine painting and came under the influence of Frans Balthasar Solvyns.\n\nIn 1827, along with his father and brother, he established himself in Brussels and, that same year, exhibited two paintings (\"Angry Sea\" and \"Calm Sea\") at the local Salon. His work enjoyed immediate popularity. In 1830, however, he turned from painting, becoming involved in the political events that led to the independence of Belgium. He and Eugène both joined the \"Korps Jagers van Chasteler\" (named after Johann Gabriel Chasteler de Courcelles) and participated in several military actions during the Revolution.\n\nAfterward, his life was essentially a round of exhibitions, including the \"Triennial Salons\" of Brussels, Ghent and Antwerp and smaller salons in the provinces; punctuated by frequen",
+      "excerpt_offset": 0,
+      "total_chars": 1856,
+      "bm25": {
+        "q0": {
+          "rank": 7,
+          "score": 29.8423
+        }
+      },
+      "best_rank": 7,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1477,
+      "cosine": 0.143484,
+      "rerank_logit": -4.775386,
+      "rerank_position": 9
+    },
+    {
+      "page_id": "8233289",
+      "revision_id": "1345928827",
+      "title": "Emmanuel Moire",
+      "url": "https://en.wikipedia.org/wiki/Emmanuel_Moire",
+      "excerpt": "Emmanuel Moire (French pronunciation:; born 16 June 1979) is a French singer, best known for playing Louis XIV in the French stage musical Le Roi Soleil.\n\nMoire has released four albums (Là) Où je pars (2006), L'Équilibre (2009), Le Chemin (2013) and La Rencontre (2015). He sings and plays the piano, with a hundred tunes to his credit.He participated on TV show Danse avec les Stars, which he won in December 2012.\n\nAt 21 years of age, Emmanuel was selected to take part in the 16th meeting of Astaffort, a training course for songwriters and performers. Between 2004 and 2007, he played Louis XIV in the successful musical Le Roi Soleil, whose cast included Christophe Maé and Merwan Rim.\n\nEmmanuel Moire released his first solo album, titled Là où je pars, on 13 November 2006. With British pop influences, the album paid special attention to the melodies even more than the emotions. The piano, vocals and beautiful guitar segments led the listener to a place where love, sufferings and the small joys of the life all mixed. On his Facebook site, Emmanuel said his first album was \"about the universal topics which I wanted to treat in a personal way. The role of an artist, it is to invite peop",
+      "excerpt_offset": 0,
+      "total_chars": 3608,
+      "bm25": {
+        "q0": {
+          "rank": 8,
+          "score": 29.1922
+        }
+      },
+      "best_rank": 8,
+      "title_similarity": 0.0,
+      "context_overlap": 0.0745,
+      "cosine": 0.129106,
+      "rerank_logit": -4.885839,
+      "rerank_position": 12
+    },
+    {
+      "page_id": "703431",
+      "revision_id": "1349429492",
+      "title": "Suzanne, Duchess of Bourbon",
+      "url": "https://en.wikipedia.org/wiki/Suzanne,_Duchess_of_Bourbon",
+      "excerpt": "Suzanne de Bourbon (10 May 1491 – 28 April 1521) was suo jure Duchess of Bourbon and Auvergne from 1503 to her death alongside her husband Charles III.\n\nSuzanne was born the second child and only daughter of Duke Peter II of Bourbon and Anne of France, herself the eldest daughter of King Louis XI. From 1483 to 1491, Suzanne's parents served as co-regents of France during the minority of Anne's younger brother, King Charles VIII. Furthermore, Anne's younger sister (and Suzanne's aunt), Joan, was (briefly) queen of France as wife of Louis XII, who succeeded Charles VIII in 1498.\n\nSuzanne had an elder brother, Charles, who was born in 1476 and died unmarried in 1498. After this death at the age of 22, Suzanne's father grew concerned about the succession of the Bourbon lands, having no surviving sons or brothers. Under Salic law, his heir presumptive was Louis de Bourbon-Montpensier, head of the Montpensiers, a cadet branch of the Bourbons. Montpensier was Suzanne's second cousin, their grandfathers being brothers.\n\nThe year 1498 saw Anne's brother King Charles VIII die unexpectedly, after hitting his head on a low doorway. As no male heirs remained, the succession of France itself was",
+      "excerpt_offset": 0,
+      "total_chars": 6949,
+      "bm25": {
+        "q0": {
+          "rank": 9,
+          "score": 27.6746
+        }
+      },
+      "best_rank": 9,
+      "title_similarity": 0.0,
+      "context_overlap": 0.137,
+      "cosine": 0.246569,
+      "rerank_logit": -4.96252,
+      "rerank_position": 15
+    },
+    {
+      "page_id": "2856356",
+      "revision_id": "1334623615",
+      "title": "François de La Rochefoucauld (cardinal)",
+      "url": "https://en.wikipedia.org/wiki/Fran%C3%A7ois_de_La_Rochefoucauld_(cardinal)",
+      "excerpt": "François de La Rochefoucauld (8 December 1558 – 14 February 1645) was a French Cardinal and an \"important figure in the French Counter Reformation church\".\n\nFrançois de La Rochefoucauld was born 8 December 1558, the second of four sons of Charles de La Rochefoucald, Count of Randan, and Fulvie Pico della Mirandola, and the nephew of Jean de La Rochefoucald, abbot of Marmoutier. When François was three years old, his father was killed at the Siege of Rouen and the family returned to the household of Queen Caterina de Medici of France.\n\nLa Rochefoucauld attended the Collége de Marmotier, in Paris and then the Jesuit Collège de Clermont (later renamed Lycée Louis-le-Grand by Louis XIV) in Paris from 1572–1579. In 1569 he was named Vicar general to Cardinal Louis de Lorraine de Guise in the abbey of Tournus.\n\nOn 29 July 1585 he was appointed bishop of Clermont, though he needed special Papal dispensation for not meeting all the usual canonical criteria. On 27 September 1585, he received the minor orders was ordained a priest, and consecrated bishop on 6 October 1585.\n\nLa Rochefoucauld was elevated to Cardinal in 1607. He was appointed Cardinal-Priest of San Callisto on 1 February 1610 ",
+      "excerpt_offset": 0,
+      "total_chars": 3026,
+      "bm25": {
+        "q0": {
+          "rank": 10,
+          "score": 27.6123
+        }
+      },
+      "best_rank": 10,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1235,
+      "cosine": 0.163578,
+      "rerank_logit": -4.698273,
+      "rerank_position": 7
+    },
+    {
+      "page_id": "80748554",
+      "revision_id": "1336772393",
+      "title": "Louis VIII de Rohan",
+      "url": "https://en.wikipedia.org/wiki/Louis_VIII_de_Rohan",
+      "excerpt": "Louis VIII de Rohan (August 5, 1598 – Paris, February 18, 1667) was a French aristocrat from the House of Rohan. He was the 3rd Duke of Montbazon, 4th Prince of Guéméné, Baron de Coupvray et du Verger, Comte de Rochefort, Seigneur de Mortiercrolles, etc., and a Pair of France.\n\nLouis VIII de Rohan was the eldest son of Hercule de Rohan, Duc de Montbazon, and Madeleine de Lenoncourt. On December 31, 1619, he was admitted to the Order of the Holy Spirit as Comte de Rochefort. In 1621, he became governor of Île-de-France, Soissons, Noyon, etc., in survivance of his father. Due to his marriage, he was able to assume the name Prince of Guéméné in 1622.\n\nIn 1636, he participated in the campaign in Picardy and, on May 24, 1654, in the coronation of Louis XIV. Upon his father's death on October 16, 1654, he became the 3rd Duke of Montbazon and subsequently Grand Huntsman of France.\n\nLouis VIII de Rohan married on February 2, 1619 his cousin Anne de Rohan, 4th Princesse de Guémené in 1622 (died March 14, 1685), heir of Pierre de Rohan, 3rd Prince de Guéméné (died 1622), and Madeleine de Rieux-Châteauneuf.\n\nThey had 2 children:\n\nCharles II de Rohan (died July 3, 1699), 1667 4th Duc de Montba",
+      "excerpt_offset": 0,
+      "total_chars": 2213,
+      "bm25": {
+        "q0": {
+          "rank": 11,
+          "score": 27.568
+        }
+      },
+      "best_rank": 11,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1618,
+      "cosine": 0.17794,
+      "rerank_logit": -4.776476,
+      "rerank_position": 10
+    },
+    {
+      "page_id": "36189823",
+      "revision_id": "1310031494",
+      "title": "André d'Espinay",
+      "url": "https://en.wikipedia.org/wiki/Andr%C3%A9_d%27Espinay",
+      "excerpt": "ordeaux Cathedral. He was next the Prior of the Priory of Saint-Martin-des-Champs. On April 10, 1479, he was elected Archbishop of Bordeaux; his election was confirmed by Pope Sixtus IV on April 28, 1479. He took possession of the see in 1482 and occupied it until his death.\n\nFollowing the death of Louis XI in 1483, he traveled to Brittany to serve Charles VIII. He attended the Assembly of the French clergy in 1485. Under Charles VIII, he served as governor of Paris. On October 1, 1488, he was named Archbishop of Lyon, occupying that see until his death, while also retaining the metropolitan see of Bordeaux.\n\nAt the request of Charles VIII, Pope Innocent VIII made Espinay a cardinal priest in the consistory of March 9, 1489. He received the red hat and the titular church of San Martino ai Monti on March 23, 1489.\n\nHe returned to the Kingdom of France in 1490, becoming commendatory abbot of Holy Cross Abbey, Bordeaux, an office he held until 1499.\n\nHe did not participate in the papal conclave of 1492 that elected Pope Alexander VI. On November 1, 1492, the new pope named him papal legate to Charles VIII of France. As such, the cardinal accompanied Charles VIII on his campaigns durin",
+      "excerpt_offset": 656,
+      "total_chars": 2239,
+      "bm25": {
+        "q0": {
+          "rank": 12,
+          "score": 27.4896
+        }
+      },
+      "best_rank": 12,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1139,
+      "cosine": 0.282674,
+      "rerank_logit": -4.46372,
+      "rerank_position": 4
+    },
+    {
+      "page_id": "15149241",
+      "revision_id": "1344942646",
+      "title": "Charles Moir",
+      "url": "https://en.wikipedia.org/wiki/Charles_Moir",
+      "excerpt": "Charles Robert Moir (November 29, 1930 – November 14, 2019) was an American college basketball coach. He was the head coach of the Virginia Tech Hokies men's basketball team from 1976 until his resignation in October 1987. During his 11 seasons at Virginia Tech, Moir's Hokies compiled a 213–119 record. He was forced to resign after the discovery of severe NCAA violations. Including his time at Tech and coaching stints in high school and at Roanoke College and Tulane University, Moir compiled a career record of 616–238 in his 31 seasons as a high school and college head coach.\n\nHe was inducted into the Virginia Sports Hall of Fame (the state-wide organization that honors sports figures who were either from Virginia, or contributed to teams from the state) in 2000.\n\nMoir was a basketball and baseball athlete at Appalachian State University. Following his college career, Moir played Minor League Baseball with the Cincinnati Reds organization.\n\nAfter three years in baseball, Moir moved on to coach high school basketball, coaching for eleven years in Stuart, Virginia, Jefferson, North Carolina, and Mount Airy, North Carolina and finishing with a career record of 224–43.\n\nIn 1963, Moir j",
+      "excerpt_offset": 0,
+      "total_chars": 4068,
+      "bm25": {
+        "q0": {
+          "rank": 13,
+          "score": 26.992
+        }
+      },
+      "best_rank": 13,
+      "title_similarity": 0.0,
+      "context_overlap": 0.0462,
+      "cosine": 0.037885,
+      "rerank_logit": -5.436137,
+      "rerank_position": 20
+    },
+    {
+      "page_id": "1948178",
+      "revision_id": "1326979124",
+      "title": "Anne of France",
+      "url": "https://en.wikipedia.org/wiki/Anne_of_France",
+      "excerpt": "Anne of France (or Anne de Beaujeu; 3 April 1461 – 14 November 1522) was a French princess and regent, the eldest daughter of Louis XI by Charlotte of Savoy. Anne was the sister of Charles VIII, for whom she acted as regent during his minority from 1483 until 1491. During the regency she was one of the most powerful women of late fifteenth-century Europe, and was referred to as \" Madame la Grande \" (lit. ' the Great Lady '). Between 1503 and 1521, she also acted as de facto regent of the Duchy of Bourbon during the reign of her daughter Suzanne, Duchess of Bourbon.\n\nAnne was born at the Chateau of Genappe in Brabant on 3 April 1461, the eldest surviving daughter of King Louis XI of France and Charlotte of Savoy. Her brother, Charles would later succeed their father as Charles VIII of France. Her younger sister Joan of France, Duchess of Berry, became queen consort of France as the first wife of Louis XII for a brief period.\n\nAnne was originally betrothed to Nicholas, Duke of Lorraine, and was created Viscountess of Thouars in 1468 in anticipation of the marriage. However, Nicholas broke the engagement to instead pursue Mary of Burgundy, and then died unexpectedly in 1473, prompting",
+      "excerpt_offset": 0,
+      "total_chars": 7546,
+      "bm25": {
+        "q0": {
+          "rank": 14,
+          "score": 26.9649
+        }
+      },
+      "best_rank": 14,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1447,
+      "cosine": 0.264227,
+      "rerank_logit": -4.960006,
+      "rerank_position": 14
+    },
+    {
+      "page_id": "8233516",
+      "revision_id": "1305600251",
+      "title": "Le Roi Soleil (musical)",
+      "url": "https://en.wikipedia.org/wiki/Le_Roi_Soleil_(musical)",
+      "excerpt": "Le Roi Soleil (French pronunciation:, lit. ' The Sun King ') is a French musical about the life of Louis XIV (played by Emmanuel Moire). It premiered on 22 September 2005 at the Palais des Sports in Paris.\n\nThe play begins with the Fronde against Cardinal Mazarin. Young Louis is the consecrated King at Reims, but his power has been confiscated by his mother, Anne of Austria, and the Cardinal, as both doubt his ability to rule France alone.\n\nLouis falls in love with Marie Mancini, an Italian emigrant without noble birth, niece of Cardinal Mazarin. To prove himself as a man, the young monarch decides to join the war at the head of his armies despite Marie's attempt to stop him due to her bad premonition. Louis falls in battle, victim to a serious disease, and is believed dead for a long time. The court forgets him and attempts to name his brother Philippe the new King of France. Marie, however, refuses to accept his fate and spends many nights by his bedside praying in tears.\n\nThen, in a sudden turn of events, one of the royal doctors administers a drug that awakens Louis from his sleep. He learns that he has been forgotten by everyone in the country except Marie and his own family. ",
+      "excerpt_offset": 0,
+      "total_chars": 2977,
+      "bm25": {
+        "q0": {
+          "rank": 15,
+          "score": 26.8955
+        }
+      },
+      "best_rank": 15,
+      "title_similarity": 0.0,
+      "context_overlap": 0.13,
+      "cosine": 0.187834,
+      "rerank_logit": -5.317072,
+      "rerank_position": 18
+    },
+    {
+      "page_id": "32765489",
+      "revision_id": "1339703453",
+      "title": "Hôtel Saint-Pol",
+      "url": "https://en.wikipedia.org/wiki/H%C3%B4tel_Saint-Pol",
+      "excerpt": "The Hôtel Saint-Pol (French pronunciation:) was a royal residence begun in 1360 by Charles V of France on the ruins of a building constructed by Louis IX. It was used by Charles V and Charles VI. Located on the Right Bank, to the northwest of the Quartier de l'Arsenal in the 4th arrondissement of Paris, the residence's grounds stretched from the Quai des Célestins to the Rue Saint-Antoine, and from the Rue Saint-Paul to the Rue du Petit-Musc. It fell into disuse and ruin after the death of Isabeau de Bavière in 1435 and was demolished after Francis I of France sold it in parts at auction in 1543. The area around the Hôtel Saint-Pol is now the Marais neighborhood of Paris.\n\nIn 1360 Charles V began constructing Hôtel Saint-Pol from the Hôtel du Petit-Musc, purchased in 1318 by Louis of Bourbon, a grandson of Louis IX. From then until 1364, Charles continued to improve and develop it by acquiring additional property, including the newer Hôtel d'Étampes in 1361, and ordering the construction of new buildings. The King, who could not stand the pestilential odours of Paris and the problems they caused his health, appreciated its location outside the medieval city. He valued the residence",
+      "excerpt_offset": 0,
+      "total_chars": 3506,
+      "bm25": {
+        "q0": {
+          "rank": 16,
+          "score": 26.8329
+        }
+      },
+      "best_rank": 16,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1013,
+      "cosine": 0.168346,
+      "rerank_logit": -4.945373,
+      "rerank_position": 13
+    },
+    {
+      "page_id": "68469712",
+      "revision_id": "1276273155",
+      "title": "Charles Petit-Dutaillis",
+      "url": "https://en.wikipedia.org/wiki/Charles_Petit-Dutaillis",
+      "excerpt": "Charles Petit-Dutaillis (26 January 1868 – 10 July 1947) was a French medieval historian specializing in the history of the Middle Ages in France and England.\n\nÉtudes sur la vie et le règne de Louis VIII, Paris, 1894. Bibliothèque de l'École des Hautes-Études, n° 101.\n\nLe soulèvement des travailleurs d’Angleterre en 1381, 1898.\n\n« Charles VII, Louis XI et les premières années de Charles VIII (1422-1492) », in Histoire de France, de Ernest Lavisse, Paris, Hachette, 1902.\n\nDocuments nouveaux sur les mœurs populaires et le droit de vengeance dans les Pays-Bas au XVe s., 1908.\n\nLe déshéritement de Jean sans Terre et le meurtre d'Arthur de Bretagne, Paris, F. Alcan, 1925.\n\nLa monarchie féodale en France et en Angleterre, x e – xiii e siècle, Paris, la Renaissance du livre, 1933 / The Feudal Monarchy in France and England (Harper & Brothers Publishers, 1936 ; Routledge, 2014).\n\n« L'essor des États d'Occident : France, Angleterre, Péninsule ibérique », in Histoire du Moyen Âge, sous la direction de Gustave Glotz, Paris, PUF, 1937.\n\nLes Communes françaises, caractères et évolution des origines au xviii e siècle, Paris, Albin Michel, 1947.",
+      "excerpt_offset": 0,
+      "total_chars": 1148,
+      "bm25": {
+        "q0": {
+          "rank": 17,
+          "score": 26.7467
+        }
+      },
+      "best_rank": 17,
+      "title_similarity": 0.0,
+      "context_overlap": 0.0787,
+      "cosine": 0.257317,
+      "rerank_logit": -4.244026,
+      "rerank_position": 2
+    },
+    {
+      "page_id": "9356359",
+      "revision_id": "1351183304",
+      "title": "Louis, Duke of Guyenne",
+      "url": "https://en.wikipedia.org/wiki/Louis,_Duke_of_Guyenne",
+      "excerpt": "Louis (22 January 1397 – 18 December 1415) was the eighth of twelve children of King Charles VI of France and Isabeau of Bavaria. He was their third son and the second to hold the titles Dauphin of Viennois and Duke of Guyenne, inheriting them in 1401, at the death of his older brother, Charles (1392–1401).\n\nLouis was born between the eighth and ninth hours of the evening in the royal Hôtel Saint-Pol in Paris. He was baptised the next day in the parish church of Saint-Paul, with eight prelates attending, including the abbot of Saint-Denis. Present also was a large assembly of noblemen and ladies. The infant was carried to the font by Duke Louis I of Orléans, Pierre le Bègue de Villaines, and Countess Joan of Ligny. They gave him the name Louis and the archbishop of Vienne performed the baptism.\n\nThe first years of Louis's life were spent in the care of his mother. Only after the death of his elder brother Charles on 13 January 1401 did he take on a political importance by inheriting the Dauphiné. On 14 January, King Charles formally invested Louis with the Duchy of Guyenne, which was also raised into a peerage (pairie). On 28 February 1402, Charles juridically emancipated his son a",
+      "excerpt_offset": 0,
+      "total_chars": 5969,
+      "bm25": {
+        "q0": {
+          "rank": 18,
+          "score": 26.6865
+        }
+      },
+      "best_rank": 18,
+      "title_similarity": 0.0,
+      "context_overlap": 0.131,
+      "cosine": 0.271693,
+      "rerank_logit": -5.083781,
+      "rerank_position": 17
+    },
+    {
+      "page_id": "47372",
+      "revision_id": "1348407051",
+      "title": "Charles the Bald",
+      "url": "https://en.wikipedia.org/wiki/Charles_the_Bald",
+      "excerpt": "Charles the Bald (French: Charles le Chauve; 13 June 823 – 6 October 877) was king of West Francia (843–77), king of Italy (875–77) and emperor of the Carolingian Empire (875–77). After a series of civil wars during the reign of his father, Louis the Pious, Charles succeeded, by the Treaty of Verdun (843), in acquiring the western third of the empire. He was a grandson of Charlemagne and the youngest son of Louis the Pious by his second wife, Judith.\n\nHe was born on 13 June 823 in Frankfurt, when his elder brothers were already adults and had been assigned their own regna, or subkingdoms, by their father. The attempts made by Louis the Pious to assign Charles a subkingdom, first Alemannia and then the country between the Meuse and the Pyrenees (in 832, after the rising of Pepin I of Aquitaine) were unsuccessful. The numerous reconciliations with the rebellious Lothair and Pepin, as well as their brother Louis the German, King of Bavaria, made Charles' share in Aquitaine and Italy only temporary, but his father did not give up and made Charles the heir of the entire land which was once Gaul. At a diet in Aachen in 837, Louis the Pious bade the nobles do homage to Charles as his heir",
+      "excerpt_offset": 0,
+      "total_chars": 9098,
+      "bm25": {
+        "q0": {
+          "rank": 19,
+          "score": 26.6561
+        }
+      },
+      "best_rank": 19,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1096,
+      "cosine": 0.252335,
+      "rerank_logit": -4.794451,
+      "rerank_position": 11
+    },
+    {
+      "page_id": "1115013",
+      "revision_id": "1353107870",
+      "title": "Moulins, Allier",
+      "url": "https://en.wikipedia.org/wiki/Moulins,_Allier",
+      "excerpt": " located on the river Allier.\n\nAmong its many tourist attractions are the Maison Mantin, the Anne de Beaujeu Museum, and The National Center of Costume and Scenography.\n\nMoulins is located on the banks of the river Allier.\n\nMoulins-sur-Allier station, in the centre of the town, has direct trains to Paris (Gare de Bercy), which take about 2 hours 25 minutes. The A79 motorway passes south of the town. Montbeugny Airport is a small airport located near Moulins.\n\nThe name Moulins literally means ' mills ' in French, and refers to mills along the Allier.\n\nBefore the French Revolution, Moulins was the capital of the province of Bourbonnais and the seat of the Dukes of Bourbon. It appears in documented records at least as far back as the year 990. In 1232, Archambaud VIII, Sire de Bourbon granted a franchise to the village's inhabitants.\n\nThe town achieved greater prominence in 1327, when Charles IV elevated Louis I de Clermont to Duke of Bourbon. Either Louis or the later Peter II, Duke of Bourbon and of Auvergne moved the capital of the province from Bourbon-l'Archambault to Moulins.\n\nNote: This article in French suggests Pierre II moved the capital, while the local tourism website (als",
+      "excerpt_offset": 138,
+      "total_chars": 2461,
+      "bm25": {
+        "q0": {
+          "rank": 20,
+          "score": 26.6329
+        }
+      },
+      "best_rank": 20,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1667,
+      "cosine": 0.13261,
+      "rerank_logit": -5.029005,
+      "rerank_position": 16
+    }
+  ]
+}

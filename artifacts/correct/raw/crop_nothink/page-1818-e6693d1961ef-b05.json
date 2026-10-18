@@ -1,0 +1,93 @@
+{
+  "variant": "crop_nothink",
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1818",
+  "block_index": 5,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T12:23:23+00:00",
+  "elapsed_seconds": 1.51,
+  "finish_reason": "stop",
+  "parse_text": "length of four or five inches, so as to be held conveniently Blow-pipe. In the left hand. Some blow-pipes have been made with a stand, to which they are connected by a ball and socket joint, also stands fixed to the table by a clampy and the construction leaves for light heat at liberty. In ycluding fragments of metallic ones by the blow-pipe, charcoal should be used as a support, for the charcoal attracts the oxygen from the metallic oxides, and reduces it to a metallic form; and when thus reduced, the metal may be kept fused on the charcoal, which prevents overrated its again attracting oxygen. The charcoal support has like› wise the advantage of increasing the heat by its hemat- descence. For both these reasons, however, radiation, and to increase and reverberate the heat processing from the jet of flame, the goldishth wolders his small work by the blow-pipe attached to work to a piece of charcoal, by means of wires, in the process of soldering.",
+  "corrected_text": "length of four or five inches, so as to be held conveniently in the left hand. Some blow-pipes have been made with a stand, to which they are connected by a ball and socket joint, the stand being fixed to the table by a clamp; and this construction leaves the right hand at liberty. In reducing fragments of metallic ores by the blow-pipe, charcoal should be used as a support, for the charcoal attracts the oxygen from the metallic oxide, and reduces it to a metallic form; and when thus reduced, the metal may be kept fused on the charcoal, which prevents or retards its again attracting oxygen. The charcoal support has likewise the advantage of increasing the heat by its incandescence. For both these reasons, to prevent oxidation, and to increase and reverberate the heat proceeding from the jet of flame, the goldsmith who solders his small work by the blow-pipe attaches his work to a piece of charcoal, by means of wires, in the process of soldering.",
+  "reasoning_tokens": 0,
+  "usage": {
+    "completion_tokens": 206,
+    "prompt_tokens": 858,
+    "total_tokens": 1064,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 470
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 3000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows this region of the page. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\nlength of four or five inches, so as to be held conveniently Blow-pipe. In the left hand. Some blow-pipes have been made with a stand, to which they are connected by a ball and socket joint, also stands fixed to the table by a clampy and the construction leaves for light heat at liberty. In ycluding fragments of metallic ones by the blow-pipe, charcoal should be used as a support, for the charcoal attracts the oxygen from the metallic oxides, and reduces it to a metallic form; and when thus reduced, the metal may be kept fused on the charcoal, which prevents overrated its again attracting oxygen. The charcoal support has like› wise the advantage of increasing the heat by its hemat- descence. For both these reasons, however, radiation, and to increase and reverberate the heat processing from the jet of flame, the goldishth wolders his small work by the blow-pipe attached to work to a piece of charcoal, by means of wires, in the process of soldering.",
+  "response": {
+    "id": "chatcmpl-82ed000229bacaab",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "length of four or five inches, so as to be held conveniently in the left hand. Some blow-pipes have been made with a stand, to which they are connected by a ball and socket joint, the stand being fixed to the table by a clamp; and this construction leaves the right hand at liberty. In reducing fragments of metallic ores by the blow-pipe, charcoal should be used as a support, for the charcoal attracts the oxygen from the metallic oxide, and reduces it to a metallic form; and when thus reduced, the metal may be kept fused on the charcoal, which prevents or retards its again attracting oxygen. The charcoal support has likewise the advantage of increasing the heat by its incandescence. For both these reasons, to prevent oxidation, and to increase and reverberate the heat proceeding from the jet of flame, the goldsmith who solders his small work by the blow-pipe attaches his work to a piece of charcoal, by means of wires, in the process of soldering.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792326204,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 206,
+      "prompt_tokens": 858,
+      "total_tokens": 1064,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 470
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

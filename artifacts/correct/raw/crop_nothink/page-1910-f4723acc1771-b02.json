@@ -1,0 +1,93 @@
+{
+  "variant": "crop_nothink",
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1910",
+  "block_index": 2,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T12:23:32+00:00",
+  "elapsed_seconds": 1.73,
+  "finish_reason": "stop",
+  "parse_text": "\" If indeed the quantity of electric field naturally contained in the body of a man, forrindance, were often mefe, or induding, the author's ultimate between the effects producible by a cloud, and those caned by a prime conductor might be admitted. But fairly electronic cloud,—how great forces may be its extent, and the height of its charge, when compared with the scenes and change of a prime conductor-- cannot cepel from a mared (way (only other key)) more than the natural quantity of electricity which it contains. On the fodder removal, therefore of the preffure by which this natural quantity had been expelled, in consequence of the equation of the cloud into the earth) so more (at the utmost) than his _robole natural lack_ of electricity can re-enter the body (c). But we have no reason to fopate that this quantity is fo great, as that its fudden re-entrance into his body found delivery on even injury third",
+  "corrected_text": "If indeed the quantity of electric fluid naturally contained in the body of a man, for instance, were immense, or indefinite, the author's estimate between the effects producible by a cloud, and those caused by a prime conductor, might be admitted. But surely an electrified cloud,—how great soever may be its extent, and the height of its charge, when compared with the extent and charge of a prime conductor—cannot expel from a man's body (or any other body) more than the natural quantity of electricity which it contains. On the sudden removal, therefore, of the pressure by which this natural quantity had been expelled, in consequence of the explosion of the cloud into the earth; no more (at the utmost) than his whole natural flock of electricity can re-enter his body (c). But we have no reason to suppose that this quantity is so great, as that its sudden re-entrance into his body should destroy or even injure him.",
+  "reasoning_tokens": 0,
+  "usage": {
+    "completion_tokens": 198,
+    "prompt_tokens": 867,
+    "total_tokens": 1065,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 482
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 3000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows this region of the page. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\n\" If indeed the quantity of electric field naturally contained in the body of a man, forrindance, were often mefe, or induding, the author's ultimate between the effects producible by a cloud, and those caned by a prime conductor might be admitted. But fairly electronic cloud,—how great forces may be its extent, and the height of its charge, when compared with the scenes and change of a prime conductor-- cannot cepel from a mared (way (only other key)) more than the natural quantity of electricity which it contains. On the fodder removal, therefore of the preffure by which this natural quantity had been expelled, in consequence of the equation of the cloud into the earth) so more (at the utmost) than his _robole natural lack_ of electricity can re-enter the body (c). But we have no reason to fopate that this quantity is fo great, as that its fudden re-entrance into his body found delivery on even injury third",
+  "response": {
+    "id": "chatcmpl-bc914546d659fc0d",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "If indeed the quantity of electric fluid naturally contained in the body of a man, for instance, were immense, or indefinite, the author's estimate between the effects producible by a cloud, and those caused by a prime conductor, might be admitted. But surely an electrified cloud,—how great soever may be its extent, and the height of its charge, when compared with the extent and charge of a prime conductor—cannot expel from a man's body (or any other body) more than the natural quantity of electricity which it contains. On the sudden removal, therefore, of the pressure by which this natural quantity had been expelled, in consequence of the explosion of the cloud into the earth; no more (at the utmost) than his whole natural flock of electricity can re-enter his body (c). But we have no reason to suppose that this quantity is so great, as that its sudden re-entrance into his body should destroy or even injure him.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792326213,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 198,
+      "prompt_tokens": 867,
+      "total_tokens": 1065,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 482
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

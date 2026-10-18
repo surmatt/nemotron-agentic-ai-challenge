@@ -1,0 +1,93 @@
+{
+  "variant": "crop_nothink",
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2402",
+  "block_index": 14,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T12:24:40+00:00",
+  "elapsed_seconds": 1.18,
+  "finish_reason": "stop",
+  "parse_text": "The number and shape of the ribs varied in the differ. The ribs\ndid tribes, in number, indeed, the riba always correspond\nwith that of the coral cerebretne. Thus, in the Qaradara NAJZODRAGA, RODSTATA, EENSTATA, and DCIMAMATIA,\nthey vary from 18 to 10 pair with one three exceptions,\nthe glutton byrena, and ante-teier. In the Chinese monkey,\ncommon bat, and armadillo, they are a pair less than in",
+  "corrected_text": "The number and shape of the ribs varies in the different tribes. In number, indeed, the ribs always correspond with that of the costal vertebrae. Thus, in the Quadrumana, Zoophaga, Rodentia, Edentata, and Ruminantia, they vary from 12 to 15 pair, with only three exceptions, the glutton, hyena, and ant-eater. In the Chinese monkey, common bat, and armadillo, they are a pair less than in",
+  "reasoning_tokens": 0,
+  "usage": {
+    "completion_tokens": 106,
+    "prompt_tokens": 569,
+    "total_tokens": 675,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 272
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 3000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows this region of the page. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\nThe number and shape of the ribs varied in the differ. The ribs\ndid tribes, in number, indeed, the riba always correspond\nwith that of the coral cerebretne. Thus, in the Qaradara NAJZODRAGA, RODSTATA, EENSTATA, and DCIMAMATIA,\nthey vary from 18 to 10 pair with one three exceptions,\nthe glutton byrena, and ante-teier. In the Chinese monkey,\ncommon bat, and armadillo, they are a pair less than in",
+  "response": {
+    "id": "chatcmpl-9353b81c781ad4d4",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "The number and shape of the ribs varies in the different tribes. In number, indeed, the ribs always correspond with that of the costal vertebrae. Thus, in the Quadrumana, Zoophaga, Rodentia, Edentata, and Ruminantia, they vary from 12 to 15 pair, with only three exceptions, the glutton, hyena, and ant-eater. In the Chinese monkey, common bat, and armadillo, they are a pair less than in",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792326280,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 106,
+      "prompt_tokens": 569,
+      "total_tokens": 675,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 272
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

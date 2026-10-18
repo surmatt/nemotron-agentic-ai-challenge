@@ -1,0 +1,93 @@
+{
+  "variant": "crop_nothink",
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1942",
+  "block_index": 24,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T12:23:49+00:00",
+  "elapsed_seconds": 1.28,
+  "finish_reason": "stop",
+  "parse_text": "The conferve of wormwood has been celebrated in\ndroplets. Mathihulus relates, that several persons were\ncured by it of that diltemper, without the diffiance\nof any other medicine. Where the diforder indeed\nproceeds from a simple laxity or flagidity of the fo-\nlids, the contained use of this medicine may be of bone\nferives, as it appears to be a not malignant mild cor-\nrobranant. It is directed to be given in the dole of\nhalf an ounce, about three hours before meals.",
+  "corrected_text": "The conferve of wormwood has been celebrated in\ndropsies: Matthiolus relates, that several persons were\ncured by it of that distemper, without the assistance\nof any other medicine. Where the disorder indeed\nproceeds from a simple laxity or flaccidity of the fo-\nlids, the continued use of this medicine may be of some\nservice, as it appears to be a not inelegant mild cor-\nroborant. It is directed to be given in the dose of\nhalf an ounce, about three hours before meals.",
+  "reasoning_tokens": 0,
+  "usage": {
+    "completion_tokens": 120,
+    "prompt_tokens": 574,
+    "total_tokens": 694,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 277
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 3000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows this region of the page. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\nThe conferve of wormwood has been celebrated in\ndroplets. Mathihulus relates, that several persons were\ncured by it of that diltemper, without the diffiance\nof any other medicine. Where the diforder indeed\nproceeds from a simple laxity or flagidity of the fo-\nlids, the contained use of this medicine may be of bone\nferives, as it appears to be a not malignant mild cor-\nrobranant. It is directed to be given in the dole of\nhalf an ounce, about three hours before meals.",
+  "response": {
+    "id": "chatcmpl-95027b51c043a5da",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "The conferve of wormwood has been celebrated in\ndropsies: Matthiolus relates, that several persons were\ncured by it of that distemper, without the assistance\nof any other medicine. Where the disorder indeed\nproceeds from a simple laxity or flaccidity of the fo-\nlids, the continued use of this medicine may be of some\nservice, as it appears to be a not inelegant mild cor-\nroborant. It is directed to be given in the dose of\nhalf an ounce, about three hours before meals.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792326230,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 120,
+      "prompt_tokens": 574,
+      "total_tokens": 694,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 277
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

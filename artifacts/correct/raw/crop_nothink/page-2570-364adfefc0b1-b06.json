@@ -1,0 +1,93 @@
+{
+  "variant": "crop_nothink",
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2570",
+  "block_index": 6,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T12:25:22+00:00",
+  "elapsed_seconds": 1.22,
+  "finish_reason": "stop",
+  "parse_text": "After the death of Theophilus, the line of Solomon by the queen of Sheba was superseded a second time, and a stranger of the name of _Outsay seated on the Abyusina theme._ The extreme severity of Theophilus in punishing the murderers of both Yasuous and Techa Hanamout gave occasion to this, for all the prime had been assassination in consequence of compatriots formed by the principal people of the nation, the number of congriators was as great, that the parties con-cerned had interns sufficient to influence the election of the new monarch, even in this most capital respect, of his not being a descendant of Solomon. Excepting this single defect, he was in every respect worthy of",
+  "corrected_text": "and a stranger of the name of Outsas seated on the Abyssinian throne. The extreme severity of Theophilus in punishing the murderers of both Yasous and Tecla Haimanout gave occasion to this; for as both princes had been assassinated in consequence of conspiracies formed by the principal people of the nation, the number of conspirators was so great, that the parties concerned had interest sufficient to influence the election of the new monarch, even in this most capital respect, of his not being a descendant of Solomon. Excepting this single defect, he was in every respect worthy of",
+  "reasoning_tokens": 0,
+  "usage": {
+    "completion_tokens": 124,
+    "prompt_tokens": 654,
+    "total_tokens": 778,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 326
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 3000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows this region of the page. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\nAfter the death of Theophilus, the line of Solomon by the queen of Sheba was superseded a second time, and a stranger of the name of _Outsay seated on the Abyusina theme._ The extreme severity of Theophilus in punishing the murderers of both Yasuous and Techa Hanamout gave occasion to this, for all the prime had been assassination in consequence of compatriots formed by the principal people of the nation, the number of congriators was as great, that the parties con-cerned had interns sufficient to influence the election of the new monarch, even in this most capital respect, of his not being a descendant of Solomon. Excepting this single defect, he was in every respect worthy of",
+  "response": {
+    "id": "chatcmpl-80df00f6411d8d86",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "and a stranger of the name of Outsas seated on the Abyssinian throne. The extreme severity of Theophilus in punishing the murderers of both Yasous and Tecla Haimanout gave occasion to this; for as both princes had been assassinated in consequence of conspiracies formed by the principal people of the nation, the number of conspirators was so great, that the parties concerned had interest sufficient to influence the election of the new monarch, even in this most capital respect, of his not being a descendant of Solomon. Excepting this single defect, he was in every respect worthy of",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792326323,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 124,
+      "prompt_tokens": 654,
+      "total_tokens": 778,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 326
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

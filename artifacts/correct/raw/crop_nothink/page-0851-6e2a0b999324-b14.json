@@ -1,0 +1,93 @@
+{
+  "variant": "crop_nothink",
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:851",
+  "block_index": 14,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T12:21:36+00:00",
+  "elapsed_seconds": 2.02,
+  "finish_reason": "stop",
+  "parse_text": "Dass. Let ED, RB, (fig. 8) reported two convergency rays inside to the convex fur- End, and tending towards F, which we will now loppole to be the focus of parallel rays; and he DR be the refleted ray and Cash center of coronavity of the re- flefling surfaces. Through C draw the line CD, and produces to FR, drawing ARH parallel to ED prod-cut to F. Now it has been demottemical Cade ? when the incident rays are loppodof to tend to the point Y, that RB is to FB as RC to CF; but F in the Cafe being loppold to be the focus of parallel rays, it is the middle point between C and B (by pro- position all), and therefore FB and FC are equal and confiantly the two outer corners in the proportion, viz. RB and RC, mitb fe toto ; which can only be upon a loppodiation that R is at an infinite diffuse from B; that is, that the refleted ray DR and DR be parallel. _@E.D._",
+  "corrected_text": "Dem. Let ED, RB, (fig. 7.) represent two converging rays incident on the convex surface BD, and tending towards F, which we will now suppose to be the focus of parallel rays; and let DR be the reflected ray, and C the centre of convexity of the reflecting surface. Through C draw the line CD, and produce it to H, drawing RH parallel to ED produced to F. Now it has been demonstrated (Cafe 5.) where the incident rays are supposed to tend to the point F, that RB is to FB as RC to CF; but F in this Cafe being supposed to be the focus of parallel rays, it is the middle point between C and B (by proposition 2d), and therefore FB and FC are equal; and consequently the two other terms in the proportion, viz. RB and RC, must be fo too; which can only be upon a supposition that R is at an infinite distance from B; that is, that the reflected rays BR and DR be parallel. Q. E. D.",
+  "reasoning_tokens": 0,
+  "usage": {
+    "completion_tokens": 218,
+    "prompt_tokens": 848,
+    "total_tokens": 1066,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 439
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 3000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows this region of the page. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\nDass. Let ED, RB, (fig. 8) reported two convergency rays inside to the convex fur- End, and tending towards F, which we will now loppole to be the focus of parallel rays; and he DR be the refleted ray and Cash center of coronavity of the re- flefling surfaces. Through C draw the line CD, and produces to FR, drawing ARH parallel to ED prod-cut to F. Now it has been demottemical Cade ? when the incident rays are loppodof to tend to the point Y, that RB is to FB as RC to CF; but F in the Cafe being loppold to be the focus of parallel rays, it is the middle point between C and B (by pro- position all), and therefore FB and FC are equal and confiantly the two outer corners in the proportion, viz. RB and RC, mitb fe toto ; which can only be upon a loppodiation that R is at an infinite diffuse from B; that is, that the refleted ray DR and DR be parallel. _@E.D._",
+  "response": {
+    "id": "chatcmpl-8be086a42e515a54",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "Dem. Let ED, RB, (fig. 7.) represent two converging rays incident on the convex surface BD, and tending towards F, which we will now suppose to be the focus of parallel rays; and let DR be the reflected ray, and C the centre of convexity of the reflecting surface. Through C draw the line CD, and produce it to H, drawing RH parallel to ED produced to F. Now it has been demonstrated (Cafe 5.) where the incident rays are supposed to tend to the point F, that RB is to FB as RC to CF; but F in this Cafe being supposed to be the focus of parallel rays, it is the middle point between C and B (by proposition 2d), and therefore FB and FC are equal; and consequently the two other terms in the proportion, viz. RB and RC, must be fo too; which can only be upon a supposition that R is at an infinite distance from B; that is, that the reflected rays BR and DR be parallel. Q. E. D.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792326097,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 218,
+      "prompt_tokens": 848,
+      "total_tokens": 1066,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 439
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

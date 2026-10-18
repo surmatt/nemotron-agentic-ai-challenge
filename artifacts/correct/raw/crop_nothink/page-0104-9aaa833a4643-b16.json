@@ -1,0 +1,93 @@
+{
+  "variant": "crop_nothink",
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:104",
+  "block_index": 16,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T12:19:45+00:00",
+  "elapsed_seconds": 1.23,
+  "finish_reason": "stop",
+  "parse_text": "Holland...In 129, the decimal system of France was introu- ted, but with the old Dutch manufacture, be explained under the Kingdom. Of the old weights still used in any place, 10240 as a 320 engels = 16 oz. = 2 marks a Dutch lie; try to 114911 a revolves. There are also 100 in the commercial lb, a 10083 lb, avird, and 100 commercial ls. = 1 centner. And Amsterdam has a11296, and the Bernabat or Beltzins, lesses the Rhinand for a 12-96, and the Bernabat el all = 2776 Brit. inches. Nineteen Dutch leguses make one degree of the mentalities.",
+  "corrected_text": "= 1'0851 lb. avoirdupois. There are also 16 oz. in the commercial lb. = 1'0893 lb. avoirdupois., and 100 commercial lbs. = 1 centner. The old Amsterdam foot = 11'15, and the ell = 27'08 Brit. inches; the Rhineland foot = 12'36, and the Flemish or Brabant ell = 27'58 Brit. inches. Nineteen Dutch leagues make one degree of the meridian.",
+  "reasoning_tokens": 0,
+  "usage": {
+    "completion_tokens": 125,
+    "prompt_tokens": 627,
+    "total_tokens": 752,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 266
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 3000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows this region of the page. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\nHolland...In 129, the decimal system of France was introu- ted, but with the old Dutch manufacture, be explained under the Kingdom. Of the old weights still used in any place, 10240 as a 320 engels = 16 oz. = 2 marks a Dutch lie; try to 114911 a revolves. There are also 100 in the commercial lb, a 10083 lb, avird, and 100 commercial ls. = 1 centner. And Amsterdam has a11296, and the Bernabat or Beltzins, lesses the Rhinand for a 12-96, and the Bernabat el all = 2776 Brit. inches. Nineteen Dutch leguses make one degree of the mentalities.",
+  "response": {
+    "id": "chatcmpl-8edadc1d3de781c1",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "= 1'0851 lb. avoirdupois. There are also 16 oz. in the commercial lb. = 1'0893 lb. avoirdupois., and 100 commercial lbs. = 1 centner. The old Amsterdam foot = 11'15, and the ell = 27'08 Brit. inches; the Rhineland foot = 12'36, and the Flemish or Brabant ell = 27'58 Brit. inches. Nineteen Dutch leagues make one degree of the meridian.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792325986,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 125,
+      "prompt_tokens": 627,
+      "total_tokens": 752,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 266
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

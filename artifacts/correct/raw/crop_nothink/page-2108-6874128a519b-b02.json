@@ -1,0 +1,93 @@
+{
+  "variant": "crop_nothink",
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2108",
+  "block_index": 2,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T12:24:04+00:00",
+  "elapsed_seconds": 2.06,
+  "finish_reason": "stop",
+  "parse_text": "Snow after this capitulation, both fides began in The Horror complain that the treaty was not firmly oblivered. The version has Hanoverians explained again the capacity of the up arms. French general, and the mortality of his dollars. The French trusted the change against them, accused them sif violence and infortions, and, being fina- flide of their own footeroriy, refiled to bind them fairly to their terms of agreement. The Hanoveriians only withinled for a presence to take arms, and age- as to heal them. Neither were longrunning. The oppressed of the tax-gatherers whom the French had appointed, were ordered at its fewer, that the army is violated the freedom of their country, while Ferdinand, price of Brunfivick, put himself at their head. A box an this was known in Britain large supplies were granted that for the review of the king of Pruffia, and to enable the Hanoverian army to act vigorously in conjunction with him. A final body of British forces was first over to join people Ferdinand under the dule of Marthborough. After home inconferder to Cevrely, the dude of Marthongdy-ying, the command of the British forces developed on Lord George Skaville. A mindunderfunding arole be-French de- the banin pral Prince Ferdinand, which appeared at least as the battle of Muthish that was fought shortly after Vladimir. Lond forcege pretended that he did not undermined the letters but they the prizes and of consequences did not obey them. The alien gained the victory, which would have been more decline had the British com- mander-doed his outlaw. He was from about are recalled, tried by a court-martial, found guilty of dilobedience, and declined incapable of living in any military com- sent for the future.",
+  "corrected_text": "Soon after this capitulation, both sides began to complain that the treaty was not strictly observed. The Hanoverians exclaimed against the rapacity of the French general, and the brutality of his soldiers. The French retorted the charge against them; accused them of insolence and infraction; and, being sensible of their own superiority, refused to bind them strictly to their terms of agreement. The Hanoverians only wished for a pretence to take arms, and a general to head them. Neither were long wanting. The oppressions of the tax-gatherers whom the French had appointed, were considered as so severe, that the army rose to vindicate the freedom of their country, while Ferdinand, prince of Brunswick, put himself at their head. As soon as this was known in Britain, large supplies were granted both for the service of the king of Prussia, and to enable the Hanoverian army to act vigorously in conjunction with him. A small body of British forces was sent over to join prince Ferdinand under the duke of Marlborough. After some inconsiderable successes at Crevelt, the duke of Marlborough dying, the command of the British forces devolved on lord George Sackville. A misunderstanding arose between him and prince Ferdinand, which appeared at the battle of Minden that was fought shortly after. Lord George pretended that he did not understand the orders sent him by the prince, and of consequence did not obey them. The allies gained the victory, which would have been more decisive had the British commander obeyed his orders. He was soon after recalled, tried by a court-martial, found guilty of disobedience, and declared incapable of serving in any military command for the future.",
+  "reasoning_tokens": 0,
+  "usage": {
+    "completion_tokens": 343,
+    "prompt_tokens": 1349,
+    "total_tokens": 1692,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 784
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 3000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows this region of the page. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\nSnow after this capitulation, both fides began in The Horror complain that the treaty was not firmly oblivered. The version has Hanoverians explained again the capacity of the up arms. French general, and the mortality of his dollars. The French trusted the change against them, accused them sif violence and infortions, and, being fina- flide of their own footeroriy, refiled to bind them fairly to their terms of agreement. The Hanoveriians only withinled for a presence to take arms, and age- as to heal them. Neither were longrunning. The oppressed of the tax-gatherers whom the French had appointed, were ordered at its fewer, that the army is violated the freedom of their country, while Ferdinand, price of Brunfivick, put himself at their head. A box an this was known in Britain large supplies were granted that for the review of the king of Pruffia, and to enable the Hanoverian army to act vigorously in conjunction with him. A final body of British forces was first over to join people Ferdinand under the dule of Marthborough. After home inconferder to Cevrely, the dude of Marthongdy-ying, the command of the British forces developed on Lord George Skaville. A mindunderfunding arole be-French de- the banin pral Prince Ferdinand, which appeared at least as the battle of Muthish that was fought shortly after Vladimir. Lond forcege pretended that he did not undermined the letters but they the prizes and of consequences did not obey them. The alien gained the victory, which would have been more decline had the British com- mander-doed his outlaw. He was from about are recalled, tried by a court-martial, found guilty of dilobedience, and declined incapable of living in any military com- sent for the future.",
+  "response": {
+    "id": "chatcmpl-bcf537fb4162b7c2",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "Soon after this capitulation, both sides began to complain that the treaty was not strictly observed. The Hanoverians exclaimed against the rapacity of the French general, and the brutality of his soldiers. The French retorted the charge against them; accused them of insolence and infraction; and, being sensible of their own superiority, refused to bind them strictly to their terms of agreement. The Hanoverians only wished for a pretence to take arms, and a general to head them. Neither were long wanting. The oppressions of the tax-gatherers whom the French had appointed, were considered as so severe, that the army rose to vindicate the freedom of their country, while Ferdinand, prince of Brunswick, put himself at their head. As soon as this was known in Britain, large supplies were granted both for the service of the king of Prussia, and to enable the Hanoverian army to act vigorously in conjunction with him. A small body of British forces was sent over to join prince Ferdinand under the duke of Marlborough. After some inconsiderable successes at Crevelt, the duke of Marlborough dying, the command of the British forces devolved on lord George Sackville. A misunderstanding arose between him and prince Ferdinand, which appeared at the battle of Minden that was fought shortly after. Lord George pretended that he did not understand the orders sent him by the prince, and of consequence did not obey them. The allies gained the victory, which would have been more decisive had the British commander obeyed his orders. He was soon after recalled, tried by a court-martial, found guilty of disobedience, and declared incapable of serving in any military command for the future.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792326245,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 343,
+      "prompt_tokens": 1349,
+      "total_tokens": 1692,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 784
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

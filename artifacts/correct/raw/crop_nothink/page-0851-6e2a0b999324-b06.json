@@ -1,0 +1,93 @@
+{
+  "variant": "crop_nothink",
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:851",
+  "block_index": 6,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T12:21:33+00:00",
+  "elapsed_seconds": 1.6,
+  "finish_reason": "stop",
+  "parse_text": "Dass. Let ED and FB represent two diverging rays flowing from the point 3 as a radiant, which was the imaginary focus of the incident rays in the forgoing cafe. Then an SD as in the cafe selected with anDR, FD will be reflected into DR(, (for the region unem- tioned in Cafc the feecond), lo that the refleted ray will proceed as from the point 3, but it cane demon- flatred in the cafe manufacturing forceing, that RB is to FB as CR to CF; that is, the distance of the fo-cus from the surface is to that of the radiant from the fame, as the distance of the former from the centre is to that of the latter from the fame. _@E.D._",
+  "corrected_text": "Demon. Let FD and FB represent two diverging rays flowing from the point F as a radiant, which was the imaginary focus of the incident rays in the foregoing cafe. Then as ED was in that cafe reflected into DR, FD will be reflected into DK, (for the reason mentioned in Cafe the second), so that the reflected ray will proceed as from the point R: but it was demonstrated in the cafe immediately foregoing, that RB is to FB as CR to CF; that is, the distance of the focus from the surface is to that of the radiant from the same, as the distance of the former from the centre is to that of the latter from the same. Q. E. D.",
+  "reasoning_tokens": 0,
+  "usage": {
+    "completion_tokens": 145,
+    "prompt_tokens": 652,
+    "total_tokens": 797,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 314
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 3000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows this region of the page. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\nDass. Let ED and FB represent two diverging rays flowing from the point 3 as a radiant, which was the imaginary focus of the incident rays in the forgoing cafe. Then an SD as in the cafe selected with anDR, FD will be reflected into DR(, (for the region unem- tioned in Cafc the feecond), lo that the refleted ray will proceed as from the point 3, but it cane demon- flatred in the cafe manufacturing forceing, that RB is to FB as CR to CF; that is, the distance of the fo-cus from the surface is to that of the radiant from the fame, as the distance of the former from the centre is to that of the latter from the fame. _@E.D._",
+  "response": {
+    "id": "chatcmpl-b79e090d6ccd6943",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "Demon. Let FD and FB represent two diverging rays flowing from the point F as a radiant, which was the imaginary focus of the incident rays in the foregoing cafe. Then as ED was in that cafe reflected into DR, FD will be reflected into DK, (for the reason mentioned in Cafe the second), so that the reflected ray will proceed as from the point R: but it was demonstrated in the cafe immediately foregoing, that RB is to FB as CR to CF; that is, the distance of the focus from the surface is to that of the radiant from the same, as the distance of the former from the centre is to that of the latter from the same. Q. E. D.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792326094,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 145,
+      "prompt_tokens": 652,
+      "total_tokens": 797,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 314
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

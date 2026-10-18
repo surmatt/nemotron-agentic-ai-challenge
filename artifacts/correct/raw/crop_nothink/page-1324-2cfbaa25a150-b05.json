@@ -1,0 +1,93 @@
+{
+  "variant": "crop_nothink",
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1324",
+  "block_index": 5,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T12:15:11+00:00",
+  "elapsed_seconds": 1.17,
+  "finish_reason": "stop",
+  "parse_text": "Much has been laid of the excellence of the holly Red me as a material of hedges and indeed the beauty of what of plants with its extreme clolerés, and containing and rolling green throughout the winter, evidently gives the peo only for ference to all others and could it be rafted with equal hedges, they, is no doubt that it would come into our vertical practice. Hidden the above properties, the holly will thrive almost upon any foil; but thin-folded flowy heights (em to be its natural fiturions; and it may plogely enough be fail, that holly will grow",
+  "corrected_text": "Much has been said of the excellence of the holly as a material for hedges; and indeed the beauty of the plant, with its extreme closeness, and continuing green throughout the winter, evidently give it the preference to all others; and could it be raised with equal ease, there is no doubt that it would come into universal practice. Besides the above properties, the holly will thrive almost upon any soil; but thin-soiled stony heights seem to be its natural situation; and it may probably enough be said, that holly will grow",
+  "reasoning_tokens": 0,
+  "usage": {
+    "completion_tokens": 112,
+    "prompt_tokens": 604,
+    "total_tokens": 716,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 299
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 3000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows this region of the page. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\nMuch has been laid of the excellence of the holly Red me as a material of hedges and indeed the beauty of what of plants with its extreme clolerés, and containing and rolling green throughout the winter, evidently gives the peo only for ference to all others and could it be rafted with equal hedges, they, is no doubt that it would come into our vertical practice. Hidden the above properties, the holly will thrive almost upon any foil; but thin-folded flowy heights (em to be its natural fiturions; and it may plogely enough be fail, that holly will grow",
+  "response": {
+    "id": "chatcmpl-ab8923e29b223484",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "Much has been said of the excellence of the holly as a material for hedges; and indeed the beauty of the plant, with its extreme closeness, and continuing green throughout the winter, evidently give it the preference to all others; and could it be raised with equal ease, there is no doubt that it would come into universal practice. Besides the above properties, the holly will thrive almost upon any soil; but thin-soiled stony heights seem to be its natural situation; and it may probably enough be said, that holly will grow",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792325712,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 112,
+      "prompt_tokens": 604,
+      "total_tokens": 716,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 299
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

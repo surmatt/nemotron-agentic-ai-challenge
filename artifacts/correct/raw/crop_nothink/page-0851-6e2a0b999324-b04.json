@@ -1,0 +1,93 @@
+{
+  "variant": "crop_nothink",
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:851",
+  "block_index": 4,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T12:21:33+00:00",
+  "elapsed_seconds": 1.99,
+  "finish_reason": "stop",
+  "parse_text": "tre is C, and focus of parallel rays is at P; and let the imaginary focus of the incident rays be as F, a point between P and B, and he DR be the refleth ray. From C and R draw the lines CH, RH, the one palling through D, the other parallel to FE. Then will the angle RHD be equal to HDD the angle of incidence, as alterant to is; and therefore equal to HDD, the angle of reflections is reflected the triangle HDR is indicates, and consequently DR is equal to RH. Now the lines FD and RH being parallel, the complex DDC and RHD are similar; and therefore RH/ or RD, is to PD as CR on CF: but BD vanthing, RD and FD coincide with RB and IB, whether RF is to TR as CR in CF; that is, the distance of the focus from the surface is to the dilance of the imaginary focus of the incident rays, at the distance of the focus from the centre is to the dilance of the imaginary focus of the incident rays from the fame. _@E.D._",
+  "corrected_text": "tre is C, and focus of parallel rays is at P; and let the imaginary focus of the incident rays be at F, a point between P and B; and let DR be the reflected ray. From C and R draw the lines CH, RH, the one passing through D, the other parallel to FE. Then will the angle RHD be equal to HDE the angle of incidence, as alternate to it; and therefore equal to HDR, the angle of reflection: wherefore the triangle HDR is isosceles, and consequently DR is equal to RH. Now the lines FD and RH being parallel, the triangles FDC and RHC are similar; and therefore RH, or RD, is to FD as CR to CF: but BD vanishing, RD and FD coincide with RB and FB, wherefore RB is to FB as CR to CF; that is, the distance of the focus from the surface is to the distance of the imaginary focus of the incident rays, as the distance of the focus from the centre is to the distance of the imaginary focus of the incident rays from the same. Q. E. D.",
+  "reasoning_tokens": 0,
+  "usage": {
+    "completion_tokens": 232,
+    "prompt_tokens": 889,
+    "total_tokens": 1121,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 482
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 3000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows this region of the page. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\ntre is C, and focus of parallel rays is at P; and let the imaginary focus of the incident rays be as F, a point between P and B, and he DR be the refleth ray. From C and R draw the lines CH, RH, the one palling through D, the other parallel to FE. Then will the angle RHD be equal to HDD the angle of incidence, as alterant to is; and therefore equal to HDD, the angle of reflections is reflected the triangle HDR is indicates, and consequently DR is equal to RH. Now the lines FD and RH being parallel, the complex DDC and RHD are similar; and therefore RH/ or RD, is to PD as CR on CF: but BD vanthing, RD and FD coincide with RB and IB, whether RF is to TR as CR in CF; that is, the distance of the focus from the surface is to the dilance of the imaginary focus of the incident rays, at the distance of the focus from the centre is to the dilance of the imaginary focus of the incident rays from the fame. _@E.D._",
+  "response": {
+    "id": "chatcmpl-98746b451fca6179",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "tre is C, and focus of parallel rays is at P; and let the imaginary focus of the incident rays be at F, a point between P and B; and let DR be the reflected ray. From C and R draw the lines CH, RH, the one passing through D, the other parallel to FE. Then will the angle RHD be equal to HDE the angle of incidence, as alternate to it; and therefore equal to HDR, the angle of reflection: wherefore the triangle HDR is isosceles, and consequently DR is equal to RH. Now the lines FD and RH being parallel, the triangles FDC and RHC are similar; and therefore RH, or RD, is to FD as CR to CF: but BD vanishing, RD and FD coincide with RB and FB, wherefore RB is to FB as CR to CF; that is, the distance of the focus from the surface is to the distance of the imaginary focus of the incident rays, as the distance of the focus from the centre is to the distance of the imaginary focus of the incident rays from the same. Q. E. D.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792326094,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 232,
+      "prompt_tokens": 889,
+      "total_tokens": 1121,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 482
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

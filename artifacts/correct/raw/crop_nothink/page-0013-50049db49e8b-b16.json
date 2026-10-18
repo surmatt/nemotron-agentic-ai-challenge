@@ -1,0 +1,93 @@
+{
+  "variant": "crop_nothink",
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:13",
+  "block_index": 16,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T12:19:39+00:00",
+  "elapsed_seconds": 2.28,
+  "finish_reason": "stop",
+  "parse_text": "We concern when, with the gun-dedic of a three-decker. The gun-deck, from its proximity to the line of inaction, from the support of the trussed frame, which extended to the shell and from the walks, may be assumed, at least in a new ship, as a most firm base on which to raise a series of supports. At some point on the upper edge of the greck skpirishing a, above, that is, the truss, firmly closed at its heel, extended upwards and at, in the after-body of the ship, to the lower edge of the middle-dock clamp, where it was secured (denoted), immediately above the head of this shore a second was fixed on the upper edge of the middle, deck spiriting, and extended upwards to the lower edge of the main-deck clamp, where it was secured, and immediate ly over the head of this shore a third was secured on the edge of the main-deck spiritting, and extended upwards to the lower edge of the quarter-deck clamp, where it was finally secured to that is point in the power of scientists to the quarter-deck was continuously and firmly shoel up from a point in the most rigid and unattereble part of the ship; and, in the same manner, a sister of points along the range of ex-certies to the counter-deck become shoutp from the same foundation. This is in the after-body. In the first-body a corresponding system of shorting run in an opposite direction, fun forward, and in a similar manner supported the range of securities of the forecasts, while each intervening deck periods, the same situation.",
+  "corrected_text": "We commence, then, with the gun-deck of a three-decker. The gun-deck, from its proximity to the line of inaction, from the support of the trussed frame, which extended to the shell, and from the wales, may be assumed, at least in a new ship, as a most firm base on which to raise a series of supports. At some point on the upper edge of the gun-deck spirketing, a shore, that is, the truss, firmly cleated at its heel, extended upwards and aft, in the after-body of the ship, to the lower edge of the middle-deck clamp, where it was securely cleated; immediately above the head of this shore a second was fixed on the upper edge of the middle-deck spirketing, and extended upwards to the lower edge of the main-deck clamp, where it was secured; and immediately over the head of this shore a third was secured on the edge of the main-deck spirketing, and extended upwards to the lower edge of the quarter-deck clamp, where it was finally secured; so that a point in the range of securities to the quarter-deck was continuously and firmly shored up from a point in the most rigid and unalterable part of the ship; and, in the same manner, a series of points along the range of securities to the quarter-deck became shored up from the same foundation. This is in the after-body. In the fore-body a corresponding system of shoring ran in an opposite direction, fun forward, and in a similar manner supported the range of securities of the forecastle, while each intervening deck partook of the same advantage.",
+  "reasoning_tokens": 0,
+  "usage": {
+    "completion_tokens": 348,
+    "prompt_tokens": 1194,
+    "total_tokens": 1542,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 677
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 3000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows this region of the page. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\nWe concern when, with the gun-dedic of a three-decker. The gun-deck, from its proximity to the line of inaction, from the support of the trussed frame, which extended to the shell and from the walks, may be assumed, at least in a new ship, as a most firm base on which to raise a series of supports. At some point on the upper edge of the greck skpirishing a, above, that is, the truss, firmly closed at its heel, extended upwards and at, in the after-body of the ship, to the lower edge of the middle-dock clamp, where it was secured (denoted), immediately above the head of this shore a second was fixed on the upper edge of the middle, deck spiriting, and extended upwards to the lower edge of the main-deck clamp, where it was secured, and immediate ly over the head of this shore a third was secured on the edge of the main-deck spiritting, and extended upwards to the lower edge of the quarter-deck clamp, where it was finally secured to that is point in the power of scientists to the quarter-deck was continuously and firmly shoel up from a point in the most rigid and unattereble part of the ship; and, in the same manner, a sister of points along the range of ex-certies to the counter-deck become shoutp from the same foundation. This is in the after-body. In the first-body a corresponding system of shorting run in an opposite direction, fun forward, and in a similar manner supported the range of securities of the forecasts, while each intervening deck periods, the same situation.",
+  "response": {
+    "id": "chatcmpl-a8eb63f7ec563c24",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "We commence, then, with the gun-deck of a three-decker. The gun-deck, from its proximity to the line of inaction, from the support of the trussed frame, which extended to the shell, and from the wales, may be assumed, at least in a new ship, as a most firm base on which to raise a series of supports. At some point on the upper edge of the gun-deck spirketing, a shore, that is, the truss, firmly cleated at its heel, extended upwards and aft, in the after-body of the ship, to the lower edge of the middle-deck clamp, where it was securely cleated; immediately above the head of this shore a second was fixed on the upper edge of the middle-deck spirketing, and extended upwards to the lower edge of the main-deck clamp, where it was secured; and immediately over the head of this shore a third was secured on the edge of the main-deck spirketing, and extended upwards to the lower edge of the quarter-deck clamp, where it was finally secured; so that a point in the range of securities to the quarter-deck was continuously and firmly shored up from a point in the most rigid and unalterable part of the ship; and, in the same manner, a series of points along the range of securities to the quarter-deck became shored up from the same foundation. This is in the after-body. In the fore-body a corresponding system of shoring ran in an opposite direction, fun forward, and in a similar manner supported the range of securities of the forecastle, while each intervening deck partook of the same advantage.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792325981,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 348,
+      "prompt_tokens": 1194,
+      "total_tokens": 1542,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 677
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

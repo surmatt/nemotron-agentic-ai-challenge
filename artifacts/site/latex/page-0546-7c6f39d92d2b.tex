@@ -1,0 +1,25 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[margin=2cm]{geometry}
+\usepackage{hyperref}
+\sloppy
+\begin{document}
+\section*{Historical source}
+Encyclopaedia Britannica scan, source row 546. Parse 3.5 extracted the text. Super 3.5 VL corrected it from an enlarged crop of each block. It can still contain recognition errors.
+Page headers, footers, and page numbers are removed.
+
+No entry text was extracted from this scan.
+
+\section*{Source record}
+\begin{description}
+\item[Scan ID] \texttt{britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:546}
+\item[Image file] \texttt{page-0546-7c6f39d92d2b.jpg}
+\item[Image SHA-256] \texttt{7c6f39d92d2b138c157a67a3e8fd5165574195cf6643aa1a15c03a243e962708}
+\item[Dataset] NationalLibraryOfScotland/encyclopaedia\_britannica\_illustrated at revision \texttt{309f765b1ecc83e0a7f7762e44b4a927a7555443} (CC0-1.0)
+\item[Extraction] model \texttt{nvidia/nemotron-3.5-parse}, raw reply \texttt{extract/raw/page-0546-7c6f39d92d2b.json}
+\item[Raw reply SHA-256] \texttt{e15ca5c21a58b39e9ba4e00470fd6e555989b8048675817dee4d6925080b80f7}
+\item[Correction] model \texttt{nvidia/Nemotron-3.5-Super-VL}, block crops, raw replies \texttt{correct/raw/crop\_nothink/page-0546-7c6f39d92d2b-b*.json}; super\_vl: 1
+\item[Running header] none
+\end{description}
+\end{document}

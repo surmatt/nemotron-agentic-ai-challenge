@@ -1,0 +1,705 @@
+{
+  "entry_id": "E0212",
+  "headword": "ANATOMY",
+  "entry_text_sha256": "081982b6d8adb2fd160a72fee2f5b5f4344f59f36113dc5ddbb22644c0be9ca3",
+  "mode": "model",
+  "queries": [
+    "anatomy",
+    "anatomy nerves muscles teguments supply formed inferior part cervical plexus organs medulla touch"
+  ],
+  "query_chars": 1500,
+  "headword_variant": null,
+  "candidate_count": 32,
+  "list_pages_removed_after_fetch": [],
+  "decision": {
+    "status": "rejected",
+    "method": "nemotron_embed_rerank",
+    "thresholds": {
+      "rerank_logit": -10.0,
+      "margin": 0.5,
+      "cosine": 0.15,
+      "title_similarity": 0.0
+    },
+    "reason": "rerank_logit < -10.0, margin < 0.5, cosine < 0.15, or title_similarity < 0.0",
+    "page_id": "13268",
+    "title": "Human anatomy",
+    "rerank_logit": -3.80153,
+    "cosine": 0.22825,
+    "margin_to_next": 0.153192,
+    "title_similarity": 0.7
+  },
+  "candidates": [
+    {
+      "page_id": "3054933",
+      "revision_id": "1313571490",
+      "title": "Nerve plexus",
+      "url": "https://en.wikipedia.org/wiki/Nerve_plexus",
+      "excerpt": "A nerve plexus is a plexus (branching network) of intersecting nerves. A nerve plexus is composed of afferent and efferent fibers that arise from the merging of the anterior rami of spinal nerves and blood vessels. There are five spinal nerve plexuses, except in the thoracic region, as well as other forms of autonomic plexuses, many of which are a part of the enteric nervous system. The nerves that arise from the plexuses have both sensory and motor functions. These functions include muscle contraction, the maintenance of body coordination and control, and the reaction to sensations such as heat, cold, pain, and pressure. There are several plexuses in the body, including:\n\nSpinal plexuses\n\nCervical plexus – serves the head, neck and shoulders\n\nBrachial plexus – serves the chest, shoulders, arms and hands\n\nLumbosacral plexus\n\nLumbar plexus – serves the back, abdomen, groin, thighs, knees, and calves\n\nSubsartorial plexus – below the sartorius muscle of thigh\n\nSacral plexus – serves the pelvis, buttocks, genitals, thighs, calves, and feet\n\nPudendal plexus\n\nCoccygeal plexus – serves a small region over the coccyx\n\nAutonomic plexuses\n\nCeliac plexus (solar plexus) – serves internal organ",
+      "excerpt_offset": 0,
+      "total_chars": 6214,
+      "bm25": {
+        "q1": {
+          "rank": 1,
+          "score": 83.9855
+        }
+      },
+      "best_rank": 1,
+      "title_similarity": 0.1111,
+      "context_overlap": 0.2,
+      "cosine": 0.465779,
+      "rerank_logit": -4.959362,
+      "rerank_position": 18
+    },
+    {
+      "page_id": "30912624",
+      "revision_id": "1302617215",
+      "title": "System anatomy",
+      "url": "https://en.wikipedia.org/wiki/System_anatomy",
+      "excerpt": "A system anatomy is simple visual description of a system, focusing on the dependencies between system capabilities.\n\nThe system anatomy was first used in a project at Ericsson, and Jack Järkvik is considered the inventor of the concept. After that, the system anatomy and the similar project anatomy (also integration anatomies) have been used widely in different Ericsson projects and now they are being spread to other major companies with complex system development as well.\n\nAnatomies can be said to be a human centric way of describing a system, since they are used as a means to obtain a common view of the system under development.\n\nThe anatomies are especially useful in development of large complex systems in incremental and integration driven development, and as a means to coordinate agile development teams.\n\nThe system anatomy, unlike its siblings (project anatomy, integration anatomy), is actually just another view of the system, different from product structure modeling, UML diagrams and flowcharts. By focusing on the system's capabilities – both internal and money making ones – and the dependencies between those, the development team gets a common picture of the system to be ",
+      "excerpt_offset": 0,
+      "total_chars": 2031,
+      "bm25": {
+        "q0": {
+          "rank": 2,
+          "score": 12.4841
+        }
+      },
+      "best_rank": 2,
+      "title_similarity": 0.6667,
+      "context_overlap": 0.0952,
+      "cosine": 0.09685,
+      "rerank_logit": -4.352144,
+      "rerank_position": 3
+    },
+    {
+      "page_id": "240462",
+      "revision_id": "1333849960",
+      "title": "Spinal nerve",
+      "url": "https://en.wikipedia.org/wiki/Spinal_nerve",
+      "excerpt": "A spinal nerve is a mixed nerve, which carries motor, sensory, and autonomic signals between the spinal cord and the body. In the human body there are 31 pairs of spinal nerves, one on each side of the vertebral column. These are grouped into the corresponding cervical, thoracic, lumbar, sacral and coccygeal regions of the spine. There are eight pairs of cervical nerves, twelve pairs of thoracic nerves, five pairs of lumbar nerves, five pairs of sacral nerves, and one pair of coccygeal nerves. The spinal nerves are part of the peripheral nervous system.\n\nEach spinal nerve is a mixed nerve, formed from the combination of nerve root fibers from its dorsal and ventral roots. The dorsal root is the afferent sensory root and carries sensory information to the brain. The ventral root is the efferent motor root and carries motor information from the brain. The spinal nerve emerges from the spinal column through an opening (intervertebral foramen) between adjacent vertebrae. This is true for all spinal nerves except for the first spinal nerve pair (C1), which emerges between the occipital bone and the atlas (the first vertebra). Thus the cervical nerves are numbered by the vertebra below, ",
+      "excerpt_offset": 0,
+      "total_chars": 9623,
+      "bm25": {
+        "q1": {
+          "rank": 2,
+          "score": 68.2345
+        }
+      },
+      "best_rank": 2,
+      "title_similarity": 0.2105,
+      "context_overlap": 0.2931,
+      "cosine": 0.451724,
+      "rerank_logit": -5.418996,
+      "rerank_position": 27
+    },
+    {
+      "page_id": "15859827",
+      "revision_id": "1315015367",
+      "title": "Spinal root of accessory nerve",
+      "url": "https://en.wikipedia.org/wiki/Spinal_root_of_accessory_nerve",
+      "excerpt": "The spinal root of accessory nerve (or part) is firm in texture, and its fibers arise from the motor cells in the lateral part of the anterior column of the gray substance of the medulla spinalis as low as the fifth cervical nerve.\n\nPassing through the lateral funiculus of the medulla spinalis, they emerge on its surface and unite to form a single trunk, which ascends between the ligamentum denticulatum and the posterior roots of the spinal nerves; enters the skull through the foramen magnum, and is then directed to the jugular foramen, through which it passes, lying in the same sheath of dura mater as the vagus, but separated from it by a fold of the arachnoid.\n\nIn the jugular foramen, it receives one or two filaments from the cranial part of the nerve, or else joins it for a short distance and then separates from it again.\n\nAs it exits from the jugular foramen, it runs backward in front of the internal jugular vein in 66.6% of cases, and behind it in 33% of cases.\n\nThe nerve then descends obliquely behind the Digastricus and Stylohyoideus to the upper part of the Sternocleidomastoideus; it pierces this muscle, and courses obliquely across the posterior triangle of the neck, to en",
+      "excerpt_offset": 0,
+      "total_chars": 1609,
+      "bm25": {
+        "q1": {
+          "rank": 3,
+          "score": 67.847
+        }
+      },
+      "best_rank": 3,
+      "title_similarity": 0.2703,
+      "context_overlap": 0.2051,
+      "cosine": 0.335671,
+      "rerank_logit": -5.254511,
+      "rerank_position": 23
+    },
+    {
+      "page_id": "64139219",
+      "revision_id": "1263829963",
+      "title": "Roots of the ciliary ganglion",
+      "url": "https://en.wikipedia.org/wiki/Roots_of_the_ciliary_ganglion",
+      "excerpt": "g axons are arranged into three roots of the ciliary ganglion, which join enter the posterior surface of the ganglion.\n\nThe sympathetic root of ciliary ganglion is one of three roots of the ciliary ganglion. It contains postganglionic sympathetic fibers whose cell bodies are located in the superior cervical ganglion. Their axons ascend with the internal carotid artery as a plexus of nerves, the internal carotid plexus. Sympathetic fibers supplying the eye separate from the carotid plexus within the cavernous sinus. They run forward through the superior orbital fissure and merge with the long ciliary nerves (branches of the nasociliary nerve) and the short ciliary nerves (from the ciliary ganglion). Sympathetic fibers in the short ciliary nerves pass through the ciliary ganglion without forming synapses.\n\nPreganglionic sympathetic fibers originate from neurons in the intermediolateral column of the thoracic spinal cord, at the level of thoracic spinal nerve 1 (T1) and thoracic spinal nerve 2 (T2). They form synapses in the superior cervical ganglion. The ratio of incoming to outgoing fibers (the “convergence”) in this ganglion is approximately 100:1. Sympathetic motor neurons in the",
+      "excerpt_offset": 226,
+      "total_chars": 5573,
+      "bm25": {
+        "q1": {
+          "rank": 4,
+          "score": 67.3596
+        }
+      },
+      "best_rank": 4,
+      "title_similarity": 0.1714,
+      "context_overlap": 0.2,
+      "cosine": 0.308142,
+      "rerank_logit": -5.464508,
+      "rerank_position": 31
+    },
+    {
+      "page_id": "243327",
+      "revision_id": "1338274391",
+      "title": "Glossopharyngeal nerve",
+      "url": "https://en.wikipedia.org/wiki/Glossopharyngeal_nerve",
+      "excerpt": "The glossopharyngeal nerve (/ ˌ ɡ l ɒ s oʊ f ə ˈ r ɪ n (d) ʒ i ə l, - ˌ f ær ən ˈ dʒ iː ə l /), also known as the ninth cranial nerve, cranial nerve IX, or simply CN IX, is a cranial nerve that exits the brainstem from the sides of the upper medulla, just anterior (closer to the nose) to the vagus nerve. Being a mixed nerve (sensorimotor), it carries afferent sensory and efferent motor information. The motor division of the glossopharyngeal nerve is derived from the basal plate of the embryonic medulla oblongata, whereas the sensory division originates from the cranial neural crest.\n\nFrom the anterior portion of the medulla oblongata, the glossopharyngeal nerve passes laterally across or below the flocculus, and leaves the skull through the central part of the jugular foramen. From the superior and inferior ganglia in jugular foramen, it has its own sheath of dura mater. The inferior ganglion on the inferior surface of petrous part of temporal is related with a triangular depression into which the aqueduct of cochlea opens. On the inferior side, the glossopharyngeal nerve is lateral and anterior to the vagus nerve and accessory nerve.\n\nIn its passage through the foramen (with X and",
+      "excerpt_offset": 0,
+      "total_chars": 12591,
+      "bm25": {
+        "q1": {
+          "rank": 5,
+          "score": 66.0727
+        }
+      },
+      "best_rank": 5,
+      "title_similarity": 0.2069,
+      "context_overlap": 0.2308,
+      "cosine": 0.291827,
+      "rerank_logit": -5.32985,
+      "rerank_position": 26
+    },
+    {
+      "page_id": "2043357",
+      "revision_id": "1329700345",
+      "title": "Anatomy of Britain",
+      "url": "https://en.wikipedia.org/wiki/Anatomy_of_Britain",
+      "excerpt": "Anatomy of Britain was a book written by Anthony Sampson and published by Hodder & Stoughton in 1962. The book is an examination of the purported ruling classes of the United Kingdom, looking at the holders of political, bureaucratic, and financial power. He completely rewrote the book over four decades, thus enabling changes in power structures to be considered over time. Sampson died in 2004, shortly after Who Runs This Place? was published. The published versions were:\n\nAnatomy of Britain (1962) online free\n\nAnatomy of Britain today (1965)\n\nThe New Anatomy of Britain (1971) online free\n\nChanging Anatomy of Britain (1982)\n\nThe Essential Anatomy of Britain: Democracy in Crisis (1992) online free\n\nWho Runs This Place? The Anatomy of Britain in the 21st Century (2004)",
+      "excerpt_offset": 0,
+      "total_chars": 777,
+      "bm25": {
+        "q0": {
+          "rank": 6,
+          "score": 12.3446
+        }
+      },
+      "best_rank": 6,
+      "title_similarity": 0.56,
+      "context_overlap": 0.1136,
+      "cosine": 0.048165,
+      "rerank_logit": -4.576019,
+      "rerank_position": 9
+    },
+    {
+      "page_id": "25096",
+      "revision_id": "1349534558",
+      "title": "Peripheral nervous system",
+      "url": "https://en.wikipedia.org/wiki/Peripheral_nervous_system",
+      "excerpt": "The peripheral nervous system (PNS) is one of two components that make up the nervous system of bilateral animals, with the other part being the central nervous system (CNS). The PNS consists of nerves and ganglia, which lie outside the brain and the spinal cord. The main function of the PNS is to connect the CNS to the limbs and organs, essentially serving as a relay between the brain and spinal cord and the rest of the body. Unlike the CNS, the PNS is not protected by the vertebral column and skull, which protect the CNS from physical injury or by the blood–brain barrier, which protects the CNS from blood-borne pathogens and toxins, leaving the PNS more vulnerable than the CNS.\n\nThe peripheral nervous system can be divided into a somatic division and an autonomic division. Each of these can further be differentiated into a sensory and a motor sector. In the somatic nervous system, the cranial nerves are part of the PNS with the exceptions of the olfactory nerve and epithelia and the optic nerve (cranial nerve II) along with the retina, which are considered parts of the central nervous system based on developmental origin. The second cranial nerve is not a true peripheral nerve bu",
+      "excerpt_offset": 0,
+      "total_chars": 8832,
+      "bm25": {
+        "q1": {
+          "rank": 6,
+          "score": 65.4579
+        }
+      },
+      "best_rank": 6,
+      "title_similarity": 0.2581,
+      "context_overlap": 0.209,
+      "cosine": 0.305681,
+      "rerank_logit": -5.277202,
+      "rerank_position": 24
+    },
+    {
+      "page_id": "30912813",
+      "revision_id": "1214649425",
+      "title": "Project anatomy",
+      "url": "https://en.wikipedia.org/wiki/Project_anatomy",
+      "excerpt": "A project anatomy (also integration anatomy or organic integration plan) is a tool for integration planning that visualizes dependencies between work items in development projects. It is mainly used in incremental development and Integration Driven Development projects.\n\nThe project anatomy has evolved from the system anatomy and in its purest form the work items (called work packages) reflect the development of system capabilities. Often a more pragmatic approach is taken, though, where work packages may contain other items with important dependencies as well, e.g. HW deliveries for embedded systems.\n\nSimple\n\nEasy to grasp view of what to do, what is done and the dependencies between work packages\n\nCollaborative\n\nCommon view for developers, project managers and sponsors\n\nHelps in finding and managing risks and delays\n\nCan be used to manage dependencies between teams and sprints in large agile development projects\n\nCan include, but not manage, lead time aspects\n\nCan include, but not manage, resource aspects\n\nProject anatomies evolved from system anatomies at Ericsson since the late 1990s. Both the terminology and the methodology have differed between organizations and the differenc",
+      "excerpt_offset": 0,
+      "total_chars": 1984,
+      "bm25": {
+        "q0": {
+          "rank": 7,
+          "score": 12.3296
+        }
+      },
+      "best_rank": 7,
+      "title_similarity": 0.6364,
+      "context_overlap": 0.0597,
+      "cosine": 0.048395,
+      "rerank_logit": -4.753832,
+      "rerank_position": 13
+    },
+    {
+      "page_id": "3520722",
+      "revision_id": "1350002760",
+      "title": "Posterior inferior cerebellar artery",
+      "url": "https://en.wikipedia.org/wiki/Posterior_inferior_cerebellar_artery",
+      "excerpt": "The posterior inferior cerebellar artery (PICA) is the largest branch of the vertebral artery. It is one of the three main arteries that supply blood to the cerebellum, a part of the brain. Blockage of the posterior inferior cerebellar artery can result in a type of stroke called lateral medullary syndrome.\n\nThe PICA supplies blood to the medulla oblongata; the choroid plexus and tela choroidea of the fourth ventricle; the cerebellar tonsils; the inferior vermis, and the inferior parts of the cerebellum.\n\nIt winds backward around the upper part of the medulla oblongata, passing between the origins of the vagus nerve and the accessory nerve, over the inferior cerebellar peduncle to the undersurface of the cerebellum, where it divides into two branches.\n\nThe medial branch continues backward to the notch between the two hemispheres of the cerebellum; while the lateral supplies the under surface of the cerebellum, as far as its lateral border, where it anastomoses with the anterior inferior cerebellar and the superior cerebellar branches of the basilar artery.\n\nBranches from this artery supply the choroid plexus of the fourth ventricle.\n\nA disrupted blood supply to posterior inferior c",
+      "excerpt_offset": 0,
+      "total_chars": 1518,
+      "bm25": {
+        "q1": {
+          "rank": 7,
+          "score": 64.8925
+        }
+      },
+      "best_rank": 7,
+      "title_similarity": 0.186,
+      "context_overlap": 0.339,
+      "cosine": 0.289862,
+      "rerank_logit": -5.550766,
+      "rerank_position": 32
+    },
+    {
+      "page_id": "37965111",
+      "revision_id": "791296301",
+      "title": "Regius Professor of Anatomy",
+      "url": "https://en.wikipedia.org/wiki/Regius_Professor_of_Anatomy",
+      "excerpt": "Regius Professor of Anatomy is the title of a chair held at a two universities in Scotland.\n\nRegius Professor of Anatomy (Aberdeen), for the University of Aberdeen\n\nRegius Professor of Anatomy (Glasgow), for the University of Glasgow",
+      "excerpt_offset": 0,
+      "total_chars": 233,
+      "bm25": {
+        "q0": {
+          "rank": 8,
+          "score": 12.2642
+        }
+      },
+      "best_rank": 8,
+      "title_similarity": 0.4242,
+      "context_overlap": 0.0909,
+      "cosine": 0.094674,
+      "rerank_logit": -4.449954,
+      "rerank_position": 5
+    },
+    {
+      "page_id": "2991724",
+      "revision_id": "1321843608",
+      "title": "Ansa cervicalis",
+      "url": "https://en.wikipedia.org/wiki/Ansa_cervicalis",
+      "excerpt": "The ansa cervicalis (or ansa hypoglossi in older literature) is a loop formed by muscular branches of the cervical plexus formed by branches of cervical spinal nerves C1-C3. The ansa cervicalis has two roots - a superior root (formed by branch of C1) and an inferior root (formed by union of branches of C2 and C3) - that unite distally, forming a loop. It is situated anterior to the carotid sheath.: 334\n\nBranches of the ansa cervicalis innervate three of the four infrahyoid muscles: the sternothyroid, sternohyoid, and omohyoid muscles (note that the thyrohyoid muscle is the one infrahyoid muscle not innervated by the ansa cervicalis - it is instead innervated by cervical spinal nerve 1 via a separate thyrohyoid branch: 582, 600).\n\nIts name means \"handle of the neck\" in Latin.\n\nThe ansa cervicalis is typically embedded within the anterior wall of the carotid sheath anterior to the internal jugular vein.: 344\n\nThe superior root of the ansa cervicalis (formerly known as descendens hypoglossi: 500) is by fibres of the cervical spinal nerve 1: 344 (and, according to some sources, of cervical spinal nerve 2 as well) that have joined and run with the hypoglossal nerve (CN XII) for some dis",
+      "excerpt_offset": 0,
+      "total_chars": 2615,
+      "bm25": {
+        "q1": {
+          "rank": 8,
+          "score": 64.1193
+        }
+      },
+      "best_rank": 8,
+      "title_similarity": 0.2857,
+      "context_overlap": 0.2188,
+      "cosine": 0.435987,
+      "rerank_logit": -4.700219,
+      "rerank_position": 10
+    },
+    {
+      "page_id": "43328221",
+      "revision_id": "1259430887",
+      "title": "Radiographic anatomy",
+      "url": "https://en.wikipedia.org/wiki/Radiographic_anatomy",
+      "excerpt": "Radioanatomy (x-ray anatomy) is an anatomy discipline that involves studying anatomy through the use of radiographic films. The x-ray film represents a two-dimensional image of a three-dimensional object due to the summary projection of different anatomical structures onto a planar surface.\n\nIt requires certain skills for the correct interpretation of such images. Radiological anatomy is a necessary component of training for medical students and radiologists.",
+      "excerpt_offset": 0,
+      "total_chars": 463,
+      "bm25": {
+        "q0": {
+          "rank": 9,
+          "score": 12.2642
+        }
+      },
+      "best_rank": 9,
+      "title_similarity": 0.5185,
+      "context_overlap": 0.1622,
+      "cosine": 0.131247,
+      "rerank_logit": -4.707109,
+      "rerank_position": 11
+    },
+    {
+      "page_id": "2580333",
+      "revision_id": "1342364469",
+      "title": "List of nerves of the human body",
+      "url": "https://en.wikipedia.org/wiki/List_of_nerves_of_the_human_body",
+      "excerpt": "The following is a list of nerves in the human body:\n\nStructure of the nervous system\n\nDevelopment of the nervous system\n\nThe spinal cord or medulla spinalis\n\nThe brain or encephalon\n\nThe hindbrain or rhombencephalon\n\nThe midbrain or mesencephalon\n\nThe forebrain or prosencephalon\n\nComposition and central connections of the spinal nerves\n\nPathways from the brain to the spinal cord\n\nThe meninges of the brain and medulla spinalis\n\nThe cerebrospinal fluid\n\nThe cranial nerves\n\nThe olfactory nerves\n\nThe optic nerve\n\nThe oculomotor nerve\n\nThe trochlear nerve\n\nThe trigeminal nerve\n\nThe abducens nerve\n\nThe facial nerve\n\nThe vestibulocochlear nerve\n\nThe glossopharyngeal nerve\n\nThe vagus nerve\n\nThe accessory nerve\n\nThe hypoglossal nerve\n\nThe spinal nerves\n\nThe posterior divisions\n\nThe anterior divisions\n\nThe thoracic nerves\n\nThe lumbosacral plexus\n\nThe sacral and coccygeal nerves\n\nThe sympathetic nerves\n\nThe cephalic portion of the sympathetic system\n\nThe cervical portion of the sympathetic system\n\nThe thoracic portion of the sympathetic system\n\nThe abdominal portion of the sympathetic system\n\nThe pelvic portion of the sympathetic system\n\nThe great plexuses of the sympathetic system\n\nAbdomina",
+      "excerpt_offset": 0,
+      "total_chars": 6505,
+      "bm25": {
+        "q1": {
+          "rank": 9,
+          "score": 63.7231
+        }
+      },
+      "best_rank": 9,
+      "title_similarity": 0.2105,
+      "context_overlap": 0.2542,
+      "cosine": 0.440474,
+      "rerank_logit": -5.097167,
+      "rerank_position": 21
+    },
+    {
+      "page_id": "15701686",
+      "revision_id": "1333247666",
+      "title": "Anatomy for Beginners",
+      "url": "https://en.wikipedia.org/wiki/Anatomy_for_Beginners",
+      "excerpt": "Anatomy for Beginners is a television show created by Gunther von Hagens.\n\nIn this 4-part series, von Hagens and Professor John Lee demonstrated the anatomical structure and workings of the body. The 4 episodes (Movement, Circulation, Digestion, and Reproduction) were screened in the United Kingdom on Channel 4 in 2005.\n\nThe show features public anatomy demonstrations with the use of real human cadavers and live nude models (for surface anatomy and surface markings), carried out at von Hagens' Institute for Plastination in Heidelberg, Germany.\n\nVon Hagens’ public demonstrations are not formal anatomy dissections performed by medical students in some countries as part of their medical training. Actual formal dissections are performed slowly and take dozens of hours of dissection. Anatomy for Beginners performs quicker autopsy procedures, and also combines demonstrations of plastinated body parts and specimens to give a glimpse of human anatomy.\n\nThe individuals on whom the demonstrations were performed had, before their death, enrolled in von Hagens’ body donor programme and consented to the use of their bodies for public education in anatomy, including public demonstration.",
+      "excerpt_offset": 0,
+      "total_chars": 1192,
+      "bm25": {
+        "q0": {
+          "rank": 10,
+          "score": 12.2317
+        }
+      },
+      "best_rank": 10,
+      "title_similarity": 0.5185,
+      "context_overlap": 0.1039,
+      "cosine": 0.120179,
+      "rerank_logit": -4.575173,
+      "rerank_position": 8
+    },
+    {
+      "page_id": "3142455",
+      "revision_id": "1341343910",
+      "title": "Medial pectoral nerve",
+      "url": "https://en.wikipedia.org/wiki/Medial_pectoral_nerve",
+      "excerpt": "The medial pectoral nerve (also known as the medial anterior thoracic nerve) is (typically) a branch of the medial cord of the brachial plexus and is derived from spinal nerve roots C8-T1. It provides motor innervation to the pectoralis minor muscle, and the lower half (sternal part) of the pectoralis major muscle. It runs along the inferior border of the pectoralis minor muscle.\n\nDamage to the medial pectoral nerve can result in inability to elevate the shoulder.\n\nThe medial pectoral nerve usually arises from the medial cord of the brachial plexus; it can however occasionally arise directly from the anterior division of the inferior trunk of the brachial plexus. It is derived from the eighth cervical (C8) and first thoracic (T1) spinal nerve roots.\n\nThe origin is situated posterior to the axillary artery.\n\nIt passes behind the first part of the axillary artery, curves forward between the axillary artery and vein, and unites in front of the artery with a filament from the lateral nerve.\n\nIt then enters the deep surface of the pectoralis minor muscle, where it divides into a number of branches, which supply the muscle.\n\nTwo or three branches pierce the muscle and end in the sternoco",
+      "excerpt_offset": 0,
+      "total_chars": 1559,
+      "bm25": {
+        "q1": {
+          "rank": 10,
+          "score": 63.598
+        }
+      },
+      "best_rank": 10,
+      "title_similarity": 0.2143,
+      "context_overlap": 0.2836,
+      "cosine": 0.330404,
+      "rerank_logit": -5.298026,
+      "rerank_position": 25
+    },
+    {
+      "page_id": "3469770",
+      "revision_id": "1259432369",
+      "title": "Molecular anatomy",
+      "url": "https://en.wikipedia.org/wiki/Molecular_anatomy",
+      "excerpt": "Molecular anatomy is the subspecialty of microscopic anatomy concerned with the identification and description of molecular structures of cells, tissues, and organs in an organism.",
+      "excerpt_offset": 0,
+      "total_chars": 180,
+      "bm25": {
+        "q0": {
+          "rank": 11,
+          "score": 12.2156
+        }
+      },
+      "best_rank": 11,
+      "title_similarity": 0.5833,
+      "context_overlap": 0.1667,
+      "cosine": 0.108479,
+      "rerank_logit": -3.954722,
+      "rerank_position": 2
+    },
+    {
+      "page_id": "231479",
+      "revision_id": "1352399354",
+      "title": "Brachial plexus",
+      "url": "https://en.wikipedia.org/wiki/Brachial_plexus",
+      "excerpt": "The brachial plexus is a network of nerves (nerve plexus) formed by the anterior rami of the lower four cervical nerves and the first thoracic nerve (C5, C6, C7, C8, and T1). This plexus extends from the spinal cord, through the cervicoaxillary canal in the neck, over the first rib, and into the armpit. It supplies afferent and efferent nerve fibers to the chest, shoulder, arm, forearm, and hand.\n\nThe brachial plexus is divided into five roots, three trunks, six divisions (three anterior and three posterior), three cords, and five branches. There are five \"terminal\" branches and numerous other \"pre-terminal\" or \"collateral\" branches, such as the subscapular nerve, the thoracodorsal nerve, and the long thoracic nerve, that leave the plexus at various points along its length. A common structure used to identify part of the brachial plexus in cadaver dissections is the M or W shape made by the musculocutaneous nerve, lateral cord, median nerve, medial cord, and ulnar nerve. There is a mnemonic to easily remember the structure: R ich (Root) T ourists (Trunk) D rink (Division) C old (Cord) B eer (Branch).\n\nThe five roots are the five anterior primary rami of the spinal nerves, after the",
+      "excerpt_offset": 0,
+      "total_chars": 10534,
+      "bm25": {
+        "q1": {
+          "rank": 11,
+          "score": 63.4965
+        }
+      },
+      "best_rank": 11,
+      "title_similarity": 0.1905,
+      "context_overlap": 0.2821,
+      "cosine": 0.505396,
+      "rerank_logit": -5.123729,
+      "rerank_position": 22
+    },
+    {
+      "page_id": "13268",
+      "revision_id": "1339492317",
+      "title": "Human anatomy",
+      "url": "https://en.wikipedia.org/wiki/Human_anatomy",
+      "excerpt": "Human anatomy (gr. ἀνατομία, \"dissection\", from ἀνά, \"up\", and τέμνειν, \"cut\") is primarily the scientific study of the morphology of the human body. Anatomy is subdivided into gross anatomy and microscopic anatomy. Gross anatomy (also called macroscopic anatomy, topographical anatomy, regional anatomy, or anthropotomy) is the study of anatomical structures that can be seen by the naked eye. Microscopic anatomy is the study of minute anatomical structures assisted with microscopes, which includes histology (the study of the organization of tissues), and cytology (the study of cells). Anatomy, human physiology (the study of function), and biochemistry (the study of the chemistry of living structures) are complementary basic medical sciences that are generally together (or in tandem) to students studying medical sciences.\n\nIn some of its facets human anatomy is closely related to embryology, comparative anatomy and comparative embryology, through common roots in evolution; for example, much of the human body maintains the ancient segmental pattern that is present in all vertebrates with basic units being repeated, which is particularly obvious in the vertebral column and in the ribca",
+      "excerpt_offset": 0,
+      "total_chars": 7139,
+      "bm25": {
+        "q0": {
+          "rank": 12,
+          "score": 12.2105
+        }
+      },
+      "best_rank": 12,
+      "title_similarity": 0.7,
+      "context_overlap": 0.0746,
+      "cosine": 0.22825,
+      "rerank_logit": -3.80153,
+      "rerank_position": 1
+    },
+    {
+      "page_id": "519008",
+      "revision_id": "1278554940",
+      "title": "Internal carotid artery",
+      "url": "https://en.wikipedia.org/wiki/Internal_carotid_artery",
+      "excerpt": "The internal carotid artery is an artery in the neck which supplies the anterior and middle cerebral circulation.\n\nIn human anatomy, the internal and external carotid arise from the common carotid artery, where it bifurcates at cervical vertebrae C3 or C4. The internal carotid artery supplies the brain, including the eyes, while the external carotid nourishes other portions of the head, such as the face, scalp, skull, and meninges.\n\nTerminologia Anatomica in 1998 subdivided the artery into four parts: \"cervical\", \"petrous\", \"cavernous\", and \"cerebral\".\n\nIn clinical settings, however, usually the classification system of the internal carotid artery follows the 1996 recommendations by Bouthillier, describing seven anatomical segments of the internal carotid artery, each with a corresponding alphanumeric identifier: C1 cervical; C2 petrous; C3 lacerum; C4 cavernous; C5 clinoid; C6 ophthalmic; and C7 communicating. The Bouthillier nomenclature remains in widespread use by neurosurgeons, neuroradiologists and neurologists.\n\nThe segments are subdivided based on anatomical and microsurgical landmarks and surrounding anatomy, more than angiographic appearance of the artery. An alternative ",
+      "excerpt_offset": 0,
+      "total_chars": 11305,
+      "bm25": {
+        "q1": {
+          "rank": 12,
+          "score": 63.0976
+        }
+      },
+      "best_rank": 12,
+      "title_similarity": 0.2667,
+      "context_overlap": 0.1791,
+      "cosine": 0.294222,
+      "rerank_logit": -5.454843,
+      "rerank_position": 29
+    },
+    {
+      "page_id": "39678605",
+      "revision_id": "1341804326",
+      "title": "Johannes Sobotta",
+      "url": "https://en.wikipedia.org/wiki/Johannes_Sobotta",
+      "excerpt": "Robert Heinrich Johannes Sobotta (31 January 1869 in Berlin – 20 April 1945 in Bonn) was a German anatomist.\n\nHe studied medicine in Berlin, where he subsequently worked as a second assistant at the institute of anatomy. From 1895 he served as prosector at the institute for comparative anatomy, embryology and histology at Würzburg. In 1903 he became an associate professor and in 1912 a full professor of topographical anatomy. In 1916 he relocated to the University of Königsberg as director of the anatomical institute, afterwards performing similar duties at the University of Bonn (from 1919).\n\nHe is remembered today for the Sobotta atlas of human anatomy, a masterpiece of macroscopic anatomy acclaimed for its high quality and detail. First issued in 1904 with the title Atlas der deskriptiven Anatomie des Menschen (\"Atlas of descriptive human anatomy\"), it has been published in more than 300 editions in 19 languages (15 editions in English). Sobotta was also the author of Atlas und Grundriß der Histologie und mikroskopischen Anatomie des Menschen (1902), later translated into English and published as Textbook and atlas of human histology and microscopic anatomy.\n\nIn 1944 he was awar",
+      "excerpt_offset": 0,
+      "total_chars": 1467,
+      "bm25": {
+        "q0": {
+          "rank": 13,
+          "score": 12.1939
+        }
+      },
+      "best_rank": 13,
+      "title_similarity": 0.2727,
+      "context_overlap": 0.0145,
+      "cosine": 0.090902,
+      "rerank_logit": -4.894322,
+      "rerank_position": 15
+    },
+    {
+      "page_id": "12945323",
+      "revision_id": "945972097",
+      "title": "Posterior branches of cervical nerves",
+      "url": "https://en.wikipedia.org/wiki/Posterior_branches_of_cervical_nerves",
+      "excerpt": "The posterior branches of cervical nerves branch from the dorsal rami of the cervical nerves.\n\nThe posterior division of the first cervical or suboccipital nerve is larger than the anterior division, and emerges above the posterior arch of the atlas and beneath the vertebral artery. It enters the suboccipital triangle and supplies the muscles which bound this triangle, viz., the Rectus capitis posterior major, and the Obliquus capitis superior and Obliquus capitis inferior; it gives branches also to the Rectus capitis posterior minor and the Semispinalis capitis. A filament from the branch to the Obliquus capitis inferior joins the posterior division of the second cervical nerve.\n\nThe nerve occasionally gives off a cutaneous branch which accompanies the occipital artery to the scalp, and communicates with the greater and lesser occipital nerves.\n\nThe posterior division of the second cervical nerve is much larger than the anterior division, and is the greatest of all the cervical posterior divisions. It emerges between the posterior arch of the atlas and the lamina of the axis, below the Obliquus capitis inferior. It supplies a twig to this muscle, receives a communicating filament ",
+      "excerpt_offset": 0,
+      "total_chars": 3620,
+      "bm25": {
+        "q1": {
+          "rank": 13,
+          "score": 63.0553
+        }
+      },
+      "best_rank": 13,
+      "title_similarity": 0.1429,
+      "context_overlap": 0.26,
+      "cosine": 0.432785,
+      "rerank_logit": -4.924046,
+      "rerank_position": 17
+    },
+    {
+      "page_id": "44772239",
+      "revision_id": "1214936471",
+      "title": "John C. Boileau Grant",
+      "url": "https://en.wikipedia.org/wiki/John_C._Boileau_Grant",
+      "excerpt": "John Charles Boileau Grant (1886 – 1973) was a British-Canadian anatomist, who was the Chair of Anatomy at the University of Toronto Faculty of Medicine from 1930 to 1956. Grant is best known for his textbook Grant's Atlas of Anatomy and Grant's Dissector which is now in its 17th edition and used by medical students all over the world.\n\nBorn in Loanhead (south of Edinburgh) in 1886, Grant studied medicine at the University of Edinburgh Medical School and graduated with an M.B., Ch.B. degree in 1908. While at Edinburgh, he worked under the renowned anatomist Daniel John Cunningham. and was awarded the junior and senior medals in Practical Anatomy and the Mackenzie Bursary for dissecting. From 1909 to 1911 he worked as an anatomy demonstrator under Prof. Howden at the University of Durham. He was elected a fellow of the Royal College of Surgeons of Edinburgh in 1913.\n\nGrant enlisted in the army as a medical officer during the First World War. He served with gallantry and was awarded the Military Cross while serving with the Grenadier Guards in 1916 and the Military Cross with Bar while serving with the Black Watch in 1918.\n\nIn 1919, he worked briefly in anatomy at Newcastle Universit",
+      "excerpt_offset": 0,
+      "total_chars": 2364,
+      "bm25": {
+        "q0": {
+          "rank": 14,
+          "score": 12.1864
+        }
+      },
+      "best_rank": 14,
+      "title_similarity": 0.2222,
+      "context_overlap": 0.058,
+      "cosine": 0.172156,
+      "rerank_logit": -4.752268,
+      "rerank_position": 12
+    },
+    {
+      "page_id": "894707",
+      "revision_id": "1300901246",
+      "title": "Cervical plexus",
+      "url": "https://en.wikipedia.org/wiki/Cervical_plexus",
+      "excerpt": "The cervical plexus is a nerve plexus of the anterior rami of the first (i.e. upper-most) four cervical spinal nerves C1-C4. The cervical plexus provides motor innervation to some muscles of the neck, and the diaphragm; it provides sensory innervation to parts of the head, neck, and chest.\n\nThey are located laterally to the transverse processes between prevertebral muscles from the medial side and vertebral (m. scalenus, m. levator scapulae, m. splenius cervicis) from lateral side. There is anastomosis with accessory nerve, hypoglossal nerve and sympathetic trunk. It is located in the neck, deep to the sternocleidomastoid muscle.\n\nThe branches of the cervical plexus emerge from the posterior triangle at the nerve point, a point which lies midway on the posterior border of the sternocleidomastoid.\n\nThe cervical plexus is situated deep to the sternocleidomastoid muscle, internal jugular vein, and deep cervical fascia.\n\nIt is situated anterior to the middle scalene muscle, and levator scapulae muscle.\n\nThe cervical plexus has two types of branches: cutaneous and muscular.\n\nCutaneous (4 branches):\n\nLesser occipital nerve - innervates the skin and the scalp posterosuperior to the auricl",
+      "excerpt_offset": 0,
+      "total_chars": 2202,
+      "bm25": {
+        "q1": {
+          "rank": 14,
+          "score": 62.9206
+        }
+      },
+      "best_rank": 14,
+      "title_similarity": 0.0952,
+      "context_overlap": 0.2727,
+      "cosine": 0.516483,
+      "rerank_logit": -4.901259,
+      "rerank_position": 16
+    },
+    {
+      "page_id": "61821343",
+      "revision_id": "1328722172",
+      "title": "Surgical and Radiologic Anatomy",
+      "url": "https://en.wikipedia.org/wiki/Surgical_and_Radiologic_Anatomy",
+      "excerpt": "Surgical and Radiologic Anatomy is a peer-reviewed medical journal that publishes original research and review articles on the bases of medical, surgical and radiologic anatomy. According to the Journal Citation Reports, it has a current impact factor of 1.2, ranking it 13th out of 20 journals in the category \"Anatomy & Morphology\". It ranked 116th out of 135 categorized under \"Surgery\".",
+      "excerpt_offset": 0,
+      "total_chars": 390,
+      "bm25": {
+        "q0": {
+          "rank": 15,
+          "score": 12.1856
+        }
+      },
+      "best_rank": 15,
+      "title_similarity": 0.3684,
+      "context_overlap": 0.0385,
+      "cosine": 0.16928,
+      "rerank_logit": -4.516346,
+      "rerank_position": 7
+    },
+    {
+      "page_id": "37186",
+      "revision_id": "1351509782",
+      "title": "Vagus nerve",
+      "url": "https://en.wikipedia.org/wiki/Vagus_nerve",
+      "excerpt": "rve, also known as the tenth cranial nerve (CN X), plays a crucial role in the autonomic nervous system, which is responsible for regulating involuntary functions within the human body. This nerve carries both sensory and motor fibers and serves as a major pathway that connects the brain to various organs, including the heart, lungs, and digestive tract. As a key part of the parasympathetic nervous system, the vagus nerve helps regulate essential involuntary functions like heart rate, breathing, and digestion. By controlling these processes, the vagus nerve contributes to the body's \"rest and digest\" response, helping to calm the body after stress, lower heart rate, improve digestion, and maintain homeostasis.\n\nThere are two separate vagus nerves: the right vagus and the left vagus. In the neck, the right vagus nerve contains on average approximately 105,000 fibers, while the left vagus nerve has about 87,000 fibers, according to one source. Other sources report different figures, with around 25,000 fibers in the right vagus nerve and 23,000 fibers in the left.\n\nThe vagus nerve is the longest nerve of the autonomic nervous system in the human body, consisting of both sensory – the ",
+      "excerpt_offset": 12,
+      "total_chars": 14959,
+      "bm25": {
+        "q1": {
+          "rank": 15,
+          "score": 62.7546
+        }
+      },
+      "best_rank": 15,
+      "title_similarity": 0.2353,
+      "context_overlap": 0.1622,
+      "cosine": 0.337656,
+      "rerank_logit": -5.458148,
+      "rerank_position": 30
+    },
+    {
+      "page_id": "48161607",
+      "revision_id": "1195571574",
+      "title": "Italian Journal of Anatomy and Embryology",
+      "url": "https://en.wikipedia.org/wiki/Italian_Journal_of_Anatomy_and_Embryology",
+      "excerpt": "The Italian Journal of Anatomy and Embryology (sometimes abbreviated as the IJAE) is a quarterly peer-reviewed academic journal of anatomy and embryology. It was established in 1901 by Giulio Chiarugi and is published by Firenze University Press. It is the official journal of the Italian Society of Anatomy and Histology. All articles are submitted in English.\n\nThe journal publishes original papers, invited review articles, historical article, commentaries, obituaries, and book reviews. Its main focus is to understand anatomy through an analysis of structure, function, development and evolution.\n\nFocal areas include:\n\nexperimental studies\n\nmolecular and cell biology\n\napplication of modern imaging techniques\n\ncomparative functional morphology\n\ndevelopmental biology\n\nfunctional human anatomy\n\nmethodological innovations in anatomical research\n\nsignificant advances in anatomical education",
+      "excerpt_offset": 0,
+      "total_chars": 896,
+      "bm25": {
+        "q0": {
+          "rank": 16,
+          "score": 12.1779
+        }
+      },
+      "best_rank": 16,
+      "title_similarity": 0.2917,
+      "context_overlap": 0.0588,
+      "cosine": 0.13105,
+      "rerank_logit": -5.00538,
+      "rerank_position": 19
+    },
+    {
+      "page_id": "6695120",
+      "revision_id": "1351825345",
+      "title": "Posterior spinal artery",
+      "url": "https://en.wikipedia.org/wiki/Posterior_spinal_artery",
+      "excerpt": "The posterior spinal artery (dorsal spinal arteries) arises from the vertebral artery in 25% of humans or the posterior inferior cerebellar artery in 75% of humans, adjacent to the medulla oblongata. It is usually double, and spans the length of the spinal cord. It supplies the grey and white posterior columns of the spinal cord.\n\nThe posterior spinal artery arises above the foramen magnum. It passes posteriorly to descend the medulla passing through and behind of the posterior roots of the spinal nerves. Along its course it is reinforced by a succession of segmental or radiculopial branches, which enter the vertebral canal through the intervertebral foramina, forming a plexus called the vasocorona with the anterior vertebral arteries.\n\nBelow the medulla spinalis and upper cervical spine, the posterior spinal arteries are rather discontinuous; unlike the anterior spinal artery, which can be traced as a distinct channel throughout its course, the posterior spinal arteries are seen as somewhat larger longitudinal channels of an extensive pial arterial meshwork. At the level of the conus medullaris, the posterior spinals are more frequently seen as distinct arteries, communicating wit",
+      "excerpt_offset": 0,
+      "total_chars": 2866,
+      "bm25": {
+        "q1": {
+          "rank": 16,
+          "score": 62.2589
+        }
+      },
+      "best_rank": 16,
+      "title_similarity": 0.2667,
+      "context_overlap": 0.2432,
+      "cosine": 0.323743,
+      "rerank_logit": -5.42526,
+      "rerank_position": 28
+    },
+    {
+      "page_id": "7555884",
+      "revision_id": "1337134968",
+      "title": "Plant anatomy",
+      "url": "https://en.wikipedia.org/wiki/Plant_anatomy",
+      "excerpt": "Plant anatomy or phytotomy is the general term for the study of the internal structure of plants. Originally, it included plant morphology, the description of the physical form and external structure of plants, but since the mid-20th century, plant anatomy has been considered a separate field referring only to internal plant structure. Plant anatomy is now frequently investigated at the cellular level, and often involves the sectioning of tissues and microscopy.\n\nSome studies of plant anatomy use a systems approach, organized on the basis of the plant's activities, such as nutrient transport, flowering, pollination, embryogenesis or seed development. Others are more classically divided into the following structural categories:\n\nFlower anatomy, including study of the calyx, corolla, androecium, and gynoecium\n\nLeaf anatomy, including study of the epidermis, stomata and palisade cells\n\nStem anatomy, including stem structure and vascular tissues, buds and shoot apex\n\nFruit/Seed anatomy, including structure of the ovule, seed, pericarp and accessory fruit\n\nWood anatomy, including structure of the bark, cork, xylem, phloem, vascular cambium, heartwood and sapwood and branch collar\n\nRoot ",
+      "excerpt_offset": 0,
+      "total_chars": 5641,
+      "bm25": {
+        "q0": {
+          "rank": 17,
+          "score": 12.1737
+        }
+      },
+      "best_rank": 17,
+      "title_similarity": 0.7,
+      "context_overlap": 0.122,
+      "cosine": 0.146874,
+      "rerank_logit": -4.402411,
+      "rerank_position": 4
+    },
+    {
+      "page_id": "7816037",
+      "revision_id": "1335595315",
+      "title": "Pharyngeal plexus",
+      "url": "https://en.wikipedia.org/wiki/Pharyngeal_plexus",
+      "excerpt": "The pharyngeal plexus is a nerve plexus located upon the outer surface of the pharynx. It contains a motor component (derived from the vagus nerve (cranial nerve X)), a sensory component (derived from the glossopharyngeal nerve (cranial nerve IX)), and sympathetic component (derived from the superior cervical ganglion).\n\nThe plexus provides motor innervation to most muscles of the soft palate (all but the tensor veli palatini muscle) and most muscles of the pharynx (all but the stylopharyngeus muscle). The larynx meanwhile receives motor innervation from the vagus nerve (CN X) via its external branch of the superior laryngeal nerve and its recurrent laryngeal nerve, and not through the pharyngeal plexus.\n\nThe pharyngeal plexus occurs upon the outer surface of the pharynx - especially superficial to the middle pharyngeal constrictor muscle.\n\nIt has the following components:\n\nMotor – pharyngeal branch of vagus nerve (CN X) which arises from the superior portion of the inferior ganglion of vagus nerve, with the neuron cell bodies of its axons residing in the nucleus ambiguus. The pharyngeal branch ramifies upon reaching the superior border of the middle pharyngeal constrictor muscle. ",
+      "excerpt_offset": 0,
+      "total_chars": 2761,
+      "bm25": {
+        "q1": {
+          "rank": 17,
+          "score": 62.1337
+        }
+      },
+      "best_rank": 17,
+      "title_similarity": 0.2609,
+      "context_overlap": 0.1897,
+      "cosine": 0.386903,
+      "rerank_logit": -5.072223,
+      "rerank_position": 20
+    },
+    {
+      "page_id": "28882369",
+      "revision_id": "1329610270",
+      "title": "Anatomie d'un rapport",
+      "url": "https://en.wikipedia.org/wiki/Anatomie_d%27un_rapport",
+      "excerpt": "Anatomie d'un rapport (English title: Anatomy of a Relationship; German title: Anatomie einer Beziehung), is a 1976 French film directed by Luc Moullet and Antonietta Pizzorno. The director plays himself in a docudrama fashion, an actress (Christine Hébert) plays his wife and his real-life partner, Antonietta Pizzorno, co-directs and handles the camera. Unlike more conventional drama centered narrative film, Anatomie d'un Rapport presents itself as a diary.\n\nA woman's feminist awakening drives an intellectual couple to a relationship crisis.\n\nLuc Moullet\n\nChristine Hébert\n\nViviane Berthommier\n\nAntonietta Pizzorno",
+      "excerpt_offset": 0,
+      "total_chars": 620,
+      "bm25": {
+        "q0": {
+          "rank": 18,
+          "score": 12.1672
+        }
+      },
+      "best_rank": 18,
+      "title_similarity": 0.4286,
+      "context_overlap": 0.0213,
+      "cosine": 0.075472,
+      "rerank_logit": -4.460023,
+      "rerank_position": 6
+    },
+    {
+      "page_id": "4250021",
+      "revision_id": "1301331260",
+      "title": "Posterior triangle of the neck",
+      "url": "https://en.wikipedia.org/wiki/Posterior_triangle_of_the_neck",
+      "excerpt": "The posterior triangle (or lateral cervical region) is a region of the neck.\n\nThe posterior triangle has the following boundaries:\n\nApex: Union of the sternocleidomastoid and the trapezius muscles at the superior nuchal line of the occipital bone\n\nAnteriorly: Posterior border of the sternocleidomastoideus\n\nPosteriorly: Anterior border of the trapezius\n\nInferiorly: Middle one third of the clavicle\n\nRoof: Investing layer of the deep cervical fascia\n\nFloor: (From superior to inferior)\n\n1) M. semispinalis capitis\n\n2) M. splenius capitis\n\n3) M. levator scapulae\n\n4) M. scalenus posterior\n\n5) M. scalenus medius\n\nThe posterior triangle is crossed, about 2.5 cm above the clavicle, by the inferior belly of the omohyoid muscle, which divides the space into two triangles:\n\nan upper or occipital triangle\n\na lower or subclavian triangle (or supraclavicular triangle)\n\nA) Nerves and plexuses:\n\nSpinal accessory nerve (Cranial Nerve XI)\n\nBranches of cervical plexus\n\nRoots and trunks of brachial plexus\n\nPhrenic nerve (C3,4,5)\n\nB) Vessels:\n\nSubclavian artery (Third part)\n\nTransverse cervical artery\n\nSuprascapular artery\n\nTerminal part of external jugular vein\n\nC) Lymph nodes:\n\nOccipital\n\nSupraclavicul",
+      "excerpt_offset": 0,
+      "total_chars": 1696,
+      "bm25": {
+        "q1": {
+          "rank": 18,
+          "score": 62.075
+        }
+      },
+      "best_rank": 18,
+      "title_similarity": 0.1622,
+      "context_overlap": 0.25,
+      "cosine": 0.408035,
+      "rerank_logit": -4.859607,
+      "rerank_position": 14
+    }
+  ]
+}

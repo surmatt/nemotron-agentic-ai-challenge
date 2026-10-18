@@ -1,0 +1,452 @@
+{
+  "entry_id": "E0122",
+  "headword": null,
+  "entry_text_sha256": "30c60055f30f598e02914c9286e648b8085416713fae9284b48701f9c754355a",
+  "mode": "model",
+  "queries": [
+    "blue lixivium made colour heat alkali acid water prussian quantity metals paper"
+  ],
+  "query_chars": 1500,
+  "headword_variant": null,
+  "candidate_count": 20,
+  "list_pages_removed_after_fetch": [],
+  "decision": {
+    "status": "rejected",
+    "method": "nemotron_embed_rerank",
+    "thresholds": {
+      "rerank_logit": -10.0,
+      "margin": 0.5,
+      "cosine": 0.15,
+      "title_similarity": 0.0
+    },
+    "reason": "rerank_logit < -10.0, margin < 0.5, cosine < 0.15, or title_similarity < 0.0",
+    "page_id": "58727",
+    "title": "Alum",
+    "rerank_logit": -6.070173,
+    "cosine": 0.185067,
+    "margin_to_next": 0.016665,
+    "title_similarity": 0.0
+  },
+  "candidates": [
+    {
+      "page_id": "41807186",
+      "revision_id": "1302521589",
+      "title": "Perchloratoborate",
+      "url": "https://en.wikipedia.org/wiki/Perchloratoborate",
+      "excerpt": "Perchloratoborate is an anion of the form −. It can form partly stable solid salts with heavy alkali metals. They are more stable than nitratoborate salts. K decomposes at 35 °C, Rb is stable to 50 °C, and Cs can exist up to 80 °C.\n\nPerchloratoborates are analogous to perchloratoaluminates (−).\n\nAnother related anion is the chloroperchloratoborate, Cl B(ClO).\n\nBoron perchlorate itself is unstable above −5 °C.\n\nOn thermal decomposition the alkali perchloratoborate salts form an alkali perchlorate, and boron trioxide as a solid residue, and gas containing dichlorine heptoxide, chlorine dioxide, chlorine, and oxygen.\n\n2 M → 2 MClO + B O + (3 Cl O or 6 ClO + 4 + 1 / 2 O or 6 Cl + 10 + 1 / 2 O)\n\nWhen the alkali perchloratoborates first start to decompose at the lower temperatures, the reaction is endothermic, and dichlorine heptoxide is formed. However, if caesium perchloratoborate is heated the decomposition becomes exothermic above 90 °C, and at 100 °C it explodes exothermically forming chlorine and oxygen.\n\nWhen rubidium perchloratoborate is reacted with extra perchloric acid, it forms RbBO(ClO).\n\nIn water, alkali perchloratoborates decompose exothermically to form boric acid, perchl",
+      "excerpt_offset": 0,
+      "total_chars": 2375,
+      "bm25": {
+        "q0": {
+          "rank": 1,
+          "score": 43.7899
+        }
+      },
+      "best_rank": 1,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1356,
+      "cosine": 0.132239,
+      "rerank_logit": -6.644142,
+      "rerank_position": 9
+    },
+    {
+      "page_id": "12306281",
+      "revision_id": "1321047276",
+      "title": "Molybdenum blue",
+      "url": "https://en.wikipedia.org/wiki/Molybdenum_blue",
+      "excerpt": "Molybdenum blue is a term applied to:\n\nreduced heteropolymolybdate complexes, polyoxometalates containing Mo(V), Mo(VI), and a hetero atom such as phosphorus or silicon\n\nreduced isopolymolybdate complexes, polyoxometalates containing Mo(V), Mo(VI) formed when solutions of Mo(VI) are reduced\n\na blue pigment containing molybdenum(VI) oxide\n\nThe \"heteropoly-molybdenum blues\", are used extensively in analytical chemistry and as catalysts. The formation of \"isopoly-molybdenum blues\" which are intense blue has been used as a sensitive test for reducing reagents. They have recently been shown to contain very large anionic species based on the so-called \"big wheel\" containing 154 Mo atoms, with a formula 14−.\n\nThe molybdenum blue pigment is historically documented but may not be in use today.\n\nThe first heteropoly molybdate and first heteropolymetallate, yellow ammonium phosphomolybdate, (NH) PMo O was discovered by Berzelius in 1826. The phosphorus atom in the anion is termed the heteroatom, other heteroatoms are silicon and arsenic. The heteropoly-molybdenum blues have structures based on the Keggin structure. The blue colour arises because the near-colourless anion, such as the phosphom",
+      "excerpt_offset": 0,
+      "total_chars": 9493,
+      "bm25": {
+        "q0": {
+          "rank": 2,
+          "score": 43.0186
+        }
+      },
+      "best_rank": 2,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1618,
+      "cosine": 0.187884,
+      "rerank_logit": -6.479927,
+      "rerank_position": 5
+    },
+    {
+      "page_id": "34143120",
+      "revision_id": "1315877624",
+      "title": "Metal halides",
+      "url": "https://en.wikipedia.org/wiki/Metal_halides",
+      "excerpt": "Metal halides are compounds between metals and halogens. Some, such as sodium chloride are ionic, while others are covalently bonded. A few metal halides are discrete molecules, such as uranium hexafluoride, but most adopt polymeric structures, such as palladium chloride.\n\nThe halogens can all react with metals to form metal halides according to the following equation:\n\n2M + nX → 2MX\n\nwhere M is the metal, X is the halogen, and MX is the metal halide.\n\nIn practice, this type of reaction may be very exothermic, hence impractical as a preparative technique. Additionally, many transition metals can adopt multiple oxidation states, which complicates matters. As the halogens are strong oxidizers, direct combination of the elements usually leads to a highly oxidized metal halide. For example, ferric chloride can be prepared thus, but ferrous chloride cannot. Heating the higher halides may produce the lower halides; this occurs by thermal decomposition or by disproportionation. For example, gold(III) chloride to gold(I) chloride:\n\nAuCl → AuCl + Cl at 160°C\n\nMetal halides are also prepared by the neutralization of a metal oxide, hydroxide, or carbonate with the appropriate halogen acid. Fo",
+      "excerpt_offset": 0,
+      "total_chars": 7188,
+      "bm25": {
+        "q0": {
+          "rank": 3,
+          "score": 42.8566
+        }
+      },
+      "best_rank": 3,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1667,
+      "cosine": 0.04224,
+      "rerank_logit": -6.945852,
+      "rerank_position": 18
+    },
+    {
+      "page_id": "48894713",
+      "revision_id": "1340129007",
+      "title": "Hydrogen chalcogenide",
+      "url": "https://en.wikipedia.org/wiki/Hydrogen_chalcogenide",
+      "excerpt": "Hydrogen chalcogenides (also chalcogen hydrides or hydrogen chalcides) are binary compounds of hydrogen with chalcogen atoms (elements of group 16: oxygen, sulfur, selenium, tellurium, polonium, and livermorium). Water, the first chemical compound in this series, contains one oxygen atom and two hydrogen atoms, and is the most common compound on the Earth's surface.\n\nThe most important series, including water, has the chemical formula H X, with X representing any chalcogen. They are therefore triatomic. They take on a bent structure and as such are polar molecules. Water is an essential compound to life on Earth today, covering 70.9% of the planet's surface. The other hydrogen chalcogenides are usually extremely toxic, and have strong unpleasant scents usually resembling rotting eggs or vegetables. Hydrogen sulfide is a common product of decomposition in oxygen -poor environments and as such is one chemical responsible for the smell of flatulence. It is also a volcanic gas. Despite its toxicity, the human body intentionally produces it in small quantities for use as a signaling molecule.\n\nWater can dissolve the other hydrogen chalcogenides (at least those up to hydrogen telluride),",
+      "excerpt_offset": 0,
+      "total_chars": 9098,
+      "bm25": {
+        "q0": {
+          "rank": 4,
+          "score": 42.4534
+        }
+      },
+      "best_rank": 4,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1233,
+      "cosine": 0.048884,
+      "rerank_logit": -6.914106,
+      "rerank_position": 17
+    },
+    {
+      "page_id": "1910119",
+      "revision_id": "1346160819",
+      "title": "Vanadium(V) oxide",
+      "url": "https://en.wikipedia.org/wiki/Vanadium(V)_oxide",
+      "excerpt": "Vanadium(V) oxide (vanadia) is the inorganic compound with the formula V O. Commonly known as vanadium pentoxide, it is a dark yellow solid, although when freshly precipitated from aqueous solution, its colour is deep orange. Because of its high oxidation state, it is both an amphoteric oxide and an oxidizing agent. From the industrial perspective, it is the most important compound of vanadium, being the principal precursor to alloys of vanadium and is a widely used industrial catalyst.\n\nThe mineral form of this compound, shcherbinaite, is extremely rare, almost always found among fumaroles. A mineral trihydrate, V O ·3H O, is also known under the name of navajoite.\n\nUpon heating a mixture of vanadium(V) oxide and vanadium(III) oxide, comproportionation occurs to give vanadium(IV) oxide, as a deep-blue solid:\n\nV O + V O → 4 VO\n\nThe reduction can also be effected by oxalic acid, carbon monoxide, and sulfur dioxide. Further reduction using hydrogen or excess CO can lead to complex mixtures of oxides such as V O and V O before black V O is reached.\n\nV O is an amphoteric oxide, and unlike most transition metal oxides, it is slightly water soluble, giving a pale yellow, acidic solution.",
+      "excerpt_offset": 0,
+      "total_chars": 6086,
+      "bm25": {
+        "q0": {
+          "rank": 5,
+          "score": 41.6211
+        }
+      },
+      "best_rank": 5,
+      "title_similarity": 0.0,
+      "context_overlap": 0.2469,
+      "cosine": 0.143885,
+      "rerank_logit": -6.660795,
+      "rerank_position": 10
+    },
+    {
+      "page_id": "140459",
+      "revision_id": "1347676424",
+      "title": "Base (chemistry)",
+      "url": "https://en.wikipedia.org/wiki/Base_(chemistry)",
+      "excerpt": "In chemistry, there are three definitions in common use of the word \" base \": Arrhenius bases, Brønsted bases, and Lewis bases. All definitions agree that bases are substances that react with acids, as originally proposed by G.-F. Rouelle in the mid-18th century.\n\nIn 1884, Svante Arrhenius proposed that a base is a substance which dissociates in aqueous solution to form hydroxide ions OH −. These ions can react with hydrogen ions (H + according to Arrhenius) from the dissociation of acids to form water in an acid–base reaction. A base was therefore a metal hydroxide such as NaOH or Ca(OH). Such aqueous hydroxide solutions were also described by certain characteristic properties. They are slippery to the touch, can taste bitter and change the color of pH indicators (e.g., turn red litmus paper blue).\n\nIn water, by altering the autoionization equilibrium, bases yield solutions in which the hydrogen ion activity is lower than it is in pure water, i.e., the water has a pH higher than 7.0 at standard conditions. A soluble base is called an alkali if it contains and releases OH − ions quantitatively. Metal oxides, hydroxides, and especially alkoxides are basic, and conjugate bases of wea",
+      "excerpt_offset": 0,
+      "total_chars": 16228,
+      "bm25": {
+        "q0": {
+          "rank": 6,
+          "score": 41.4046
+        }
+      },
+      "best_rank": 6,
+      "title_similarity": 0.0,
+      "context_overlap": 0.24,
+      "cosine": 0.100309,
+      "rerank_logit": -6.483464,
+      "rerank_position": 6
+    },
+    {
+      "page_id": "57877",
+      "revision_id": "1353025860",
+      "title": "Sodium hydroxide",
+      "url": "https://en.wikipedia.org/wiki/Sodium_hydroxide",
+      "excerpt": "Sodium hydroxide, also known as caustic soda and, more generically, as lye, is an inorganic compound with the formula NaOH. It is a white solid ionic compound consisting of sodium cations Na + and hydroxide anions OH −.\n\nSodium hydroxide is a highly corrosive base and alkali that decomposes lipids and proteins at ambient temperatures, and may cause severe chemical burns at high concentrations. It is highly soluble in water, and readily absorbs moisture and carbon dioxide from the air. It forms a series of hydrates NaOH · n H O. The monohydrate NaOH · H O crystallizes from water solutions between 12.3 and 61.8 °C. The commercially available \"sodium hydroxide\" is often this monohydrate, and published data may refer to it instead of the anhydrous compound.\n\nAs one of the simplest hydroxides, sodium hydroxide is frequently used alongside neutral water and acidic hydrochloric acid to demonstrate the pH scale to chemistry students.\n\nSodium hydroxide is used in many industries: in the making of wood pulp and paper, textiles, drinking water, soaps and detergents, and as a drain cleaner. Worldwide production in 2022 was approximately 83 million tons.\n\nPure sodium hydroxide is a colorless cr",
+      "excerpt_offset": 0,
+      "total_chars": 27916,
+      "bm25": {
+        "q0": {
+          "rank": 7,
+          "score": 40.6961
+        }
+      },
+      "best_rank": 7,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1294,
+      "cosine": 0.160061,
+      "rerank_logit": -6.290707,
+      "rerank_position": 3
+    },
+    {
+      "page_id": "74048986",
+      "revision_id": "1344283571",
+      "title": "Tin(II) acetate",
+      "url": "https://en.wikipedia.org/wiki/Tin(II)_acetate",
+      "excerpt": "Tin(II) acetate is the acetate salt of tin (II), with the chemical formula of Sn(CH COO). It was first discovered in 1822.\n\nTo obtain tin(II) acetate, tin(II) oxide is dissolved in glacial acetic acid and refluxed to obtain yellow Sn(CH COO) ·2CH COOH when cooled. The acetic acid can be removed by heating under reduced pressure, and the white Sn(CH COO) crystals can be obtained by sublimation.\n\nSn(CH COO) ·2CH COOH undergoes disproportionation and decomposition when heated under normal pressure, and products such as tin(IV) oxide and hydrogen are generated. The decomposition of anhydrous Sn(CH COO) is to the blue-black tin(II) oxide.\n\nAnhydrous Sn(CH COO) decomposes in water, but complexes such as KSn(CH COO) and Ba can be formed in alkali metal or alkaline earth metal acetates.",
+      "excerpt_offset": 0,
+      "total_chars": 789,
+      "bm25": {
+        "q0": {
+          "rank": 8,
+          "score": 40.2445
+        }
+      },
+      "best_rank": 8,
+      "title_similarity": 0.0,
+      "context_overlap": 0.3696,
+      "cosine": 0.1079,
+      "rerank_logit": -6.760356,
+      "rerank_position": 13
+    },
+    {
+      "page_id": "666",
+      "revision_id": "1351332317",
+      "title": "Alkali metal",
+      "url": "https://en.wikipedia.org/wiki/Alkali_metal",
+      "excerpt": "The alkali metals consist of the chemical elements lithium (Li), sodium (Na), potassium (K), rubidium (Rb), caesium (Cs), and francium (Fr). Together with hydrogen they constitute group 1, which lies in the s-block of the periodic table. All alkali metals have their outermost electron in an s-orbital: this shared electron configuration results in them having very similar characteristic properties. Indeed, the alkali metals provide the best example of group trends in properties in the periodic table, with elements exhibiting well-characterised homologous behaviour. This family of elements is also known as the lithium family after its leading element.\n\nThe alkali metals are all shiny, soft, highly reactive metals at standard temperature and pressure and readily lose their outermost electron to form cations with charge +1. They can all be cut easily with a knife due to their softness, exposing a shiny surface that tarnishes rapidly in air due to oxidation by atmospheric moisture and oxygen (and in the case of lithium, nitrogen). Because of their high reactivity, they must be stored under oil to prevent reaction with air, and are found naturally only in salts and never as the free elem",
+      "excerpt_offset": 0,
+      "total_chars": 100859,
+      "bm25": {
+        "q0": {
+          "rank": 9,
+          "score": 39.9344
+        }
+      },
+      "best_rank": 9,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1341,
+      "cosine": 0.042996,
+      "rerank_logit": -6.732301,
+      "rerank_position": 11
+    },
+    {
+      "page_id": "30850738",
+      "revision_id": "1312573468",
+      "title": "Purpuric acid",
+      "url": "https://en.wikipedia.org/wiki/Purpuric_acid",
+      "excerpt": "Purpuric acid is a nitrogenous acid related to barbituric acid that yields alloxan and uramil upon hydrolysis. It is noteworthy for its purple-red salts, such as its ammonium salt murexide. Purpuric acid was first described in 1818 by the English chemist William Prout (1785-1850). Though colourless itself, purpuric acid has a tendency to form red or purple-coloured salts with alkaline bases. This characteristic led the English doctor William Hyde Wollaston (1766-1828) to suggest the name purpuric acid.\n\nPurpuric acid can be synthesized by nitration of uric acid (previously known as lithic acid). In 1818, Prout obtained lithic acid from the excrement of a boa constrictor (which largely consists of this substance) or else used urinary calculi. He dissolved the lithic acid in dilute nitric acid and after effervescence took place, a purple liquid was formed. After neutralization of the solution with ammonia, granular crystals begin to separate out.\n\nPurpuric acid is insoluble in alcohol and ether. The mineral acids dissolve it only when they are concentrated. It does not affect litmus paper. Purpuric acid combines with the alkalis, alkaline earths, and metallic oxides. It is capable of",
+      "excerpt_offset": 0,
+      "total_chars": 1461,
+      "bm25": {
+        "q0": {
+          "rank": 10,
+          "score": 39.6842
+        }
+      },
+      "best_rank": 10,
+      "title_similarity": 0.0,
+      "context_overlap": 0.2469,
+      "cosine": 0.168515,
+      "rerank_logit": -6.764427,
+      "rerank_position": 14
+    },
+    {
+      "page_id": "59483",
+      "revision_id": "1349293094",
+      "title": "Carl Wilhelm Scheele",
+      "url": "https://en.wikipedia.org/wiki/Carl_Wilhelm_Scheele",
+      "excerpt": "man:, Swedish:; 9 December 1742 – 21 May 1786) was a German-Swedish pharmaceutical chemist.\n\nScheele discovered oxygen (although Joseph Priestley published his findings first), and identified the elements molybdenum, tungsten, barium, nitrogen, and chlorine, among others. Scheele discovered organic acids tartaric, oxalic, uric, lactic, and citric, as well as hydrofluoric, hydrocyanic, and arsenic acids. He preferred speaking German to Swedish his whole life, as German was commonly spoken among Swedish pharmacists.\n\nDoctors said that he died of mercury poisoning, having spent his life working as a chemist.\n\nScheele was born in Stralsund, in western Pomerania, which at the time was a Swedish Dominion inside the Holy Roman Empire. Scheele's father, Joachim (or Johann) Christian Scheele, was a grain dealer and brewer from a respected Pomeranian family. His mother was Margaretha Eleanore Warnekros.\n\nFriends of Scheele's parents taught him the art of reading prescriptions and the meaning of chemical and pharmaceutical signs. Then, in 1757, at the age of fourteen, Carl was sent to Gothenburg as an apprentice pharmacist to another family friend and apothecary, Martin Andreas Bauch. Scheele",
+      "excerpt_offset": 25,
+      "total_chars": 13411,
+      "bm25": {
+        "q0": {
+          "rank": 11,
+          "score": 39.6192
+        }
+      },
+      "best_rank": 11,
+      "title_similarity": 0.0,
+      "context_overlap": 0.0532,
+      "cosine": 0.128171,
+      "rerank_logit": -6.530128,
+      "rerank_position": 7
+    },
+    {
+      "page_id": "46941334",
+      "revision_id": "1350808702",
+      "title": "Difluorophosphate",
+      "url": "https://en.wikipedia.org/wiki/Difluorophosphate",
+      "excerpt": "ly bound to one or two metal atoms, or go on to form a networked solid. It may be covalently bound to a non metal or an organic moiety to make an ester or an amide.\n\nAmmonium difluorophosphate (PO F) is formed from treating phosphorus pentoxide with ammonium fluoride. This was how the ion was first made by its discoverer, Willy Lange, in 1929.\n\nAlkali metal chlorides can react with dry difluorophosphoric acid to form alkali metal salts.\n\nNaCl + HPO F → NaPO F + HCl(g)\n\nFluorination of dichlorophosphates can produce difluorophosphates. Another method is fluorination of phosphates or polyphosphates.\n\nTrimethylsilyl difluorophosphate ((CH) Si−O−P(=O)F) reacts with metal chlorides to give difluorophosphates.\n\nThe anhydride of difluorophosphoric acid (HPO F), phosphoryl difluoride oxide (P O F) reacts with oxides such as UO to yield difluorophosphates. Phosphoryl difluoride oxide also reacts with alkali metal fluorides to yield difluorophosphates.\n\nThe difluorophosphate ion in ammonium difluorophosphate and potassium difluorophosphate has these interatomic dimensions:\n\nHydrogen bonding from ammonium ion to oxygen atoms causes a change to the difluorophosphate ion in the ammonium salt.\n\n",
+      "excerpt_offset": 648,
+      "total_chars": 4752,
+      "bm25": {
+        "q0": {
+          "rank": 12,
+          "score": 39.4554
+        }
+      },
+      "best_rank": 12,
+      "title_similarity": 0.0,
+      "context_overlap": 0.127,
+      "cosine": 0.099417,
+      "rerank_logit": -6.906025,
+      "rerank_position": 16
+    },
+    {
+      "page_id": "5292091",
+      "revision_id": "1312624939",
+      "title": "Indium(III) sulfate",
+      "url": "https://en.wikipedia.org/wiki/Indium(III)_sulfate",
+      "excerpt": "Indium(III) sulfate (In (SO)) is a sulfate salt of the metal indium. It is a sesquisulfate, meaning that the sulfate group occurs 1 1 / 2 times as much as the metal. It may be formed by the reaction of indium, its oxide, or its carbonate with sulfuric acid. An excess of strong acid is required, otherwise insoluble basic salts are formed. As a solid indium sulfate can be anhydrous, or take the form of a pentahydrate with five water molecules or a nonahydrate with nine molecules of water. Indium sulfate is used in the production of indium or indium containing substances. Indium sulfate also can be found in basic salts, acidic salts or double salts including indium alum.\n\nIn water solution, the indium ion forms a complex with water and sulfate, examples being In(H O) (SO) + and In(H O) (SO) − 2. Indium is unusual in forming a sulfate complex. The effect on the sulfate ion is revealed in the Raman spectrum. The proportion of sulfate complex increases with temperature showing the reaction that forms it is endothermic. The proportion also increases with concentration of the solution and can be over a half. The sulfate complex rapidly exchanges with water at a rate of over 10,000,000 per ",
+      "excerpt_offset": 0,
+      "total_chars": 10157,
+      "bm25": {
+        "q0": {
+          "rank": 13,
+          "score": 39.0767
+        }
+      },
+      "best_rank": 13,
+      "title_similarity": 0.0,
+      "context_overlap": 0.2656,
+      "cosine": 0.103415,
+      "rerank_logit": -6.614274,
+      "rerank_position": 8
+    },
+    {
+      "page_id": "6482457",
+      "revision_id": "1347242617",
+      "title": "Edward Schunck",
+      "url": "https://en.wikipedia.org/wiki/Edward_Schunck",
+      "excerpt": "h Rose (1795–1864) who discovered niobium, diligently analysed minerals and other inorganic substances and studied the chemistry of titanium, phosphorus, arsenic, antimony, sulphur, selenium and tellurium. Schunck also studied at Berlin under Heinrich Gustav Magnus (1802–1870) who published over 80 papers on many diverse topics in chemistry and physics. After studying in Berlin he received his PhD under Justus Liebig at the University of Gießen.\n\nIt was from Gießen that in 1841 he published his first research paper, in Liebig's famous journal Annalen der Chemie. His topic concerned the effect of nitric acid on aloes. Schunck published his results in two papers in 1841 and 1848. The reaction between the aloe and nitric acid gives among other products, aloetic acid which on further reaction is converted into chrysammic acid. Glover (1855) describes the preparation: \"Chrysammic acid... is obtained by steeping 1 part of aloes in 8 of nitric acid, sp. gr. 1.37, and heating the mass in a porcelain capsule until the chief part of the action is over, then distilling off in a retort two-thirds of the nitric acid; three or four parts of nitric acid are afresh introduced into the retort, and ",
+      "excerpt_offset": 464,
+      "total_chars": 8985,
+      "bm25": {
+        "q0": {
+          "rank": 14,
+          "score": 39.0543
+        }
+      },
+      "best_rank": 14,
+      "title_similarity": 0.0,
+      "context_overlap": 0.0933,
+      "cosine": 0.185009,
+      "rerank_logit": -6.977427,
+      "rerank_position": 20
+    },
+    {
+      "page_id": "42079",
+      "revision_id": "1352577209",
+      "title": "Potassium ferrocyanide",
+      "url": "https://en.wikipedia.org/wiki/Potassium_ferrocyanide",
+      "excerpt": " inorganic compound with formula K ·3H O. It is the potassium salt of the coordination complex 4−. This salt forms lemon-yellow monoclinic crystals.\n\nIn 1752, the French chemist Pierre Joseph Macquer (1718–1784) first reported the preparation of potassium ferrocyanide, which he achieved by reacting Prussian blue (iron(III) ferrocyanide) with potassium hydroxide.\n\nPotassium ferrocyanide is produced industrially from hydrogen cyanide, iron(II) chloride, and calcium hydroxide, the combination of which affords Ca ·11H O. This solution is then treated with potassium salts to precipitate the mixed calcium-potassium salt CaK, which in turn is treated with potassium carbonate to give the tetrapotassium salt.\n\nHistorically, the compound was manufactured from nitrogenous organic material, iron filings, and potassium carbonate. Common nitrogen and carbon sources were torrified horn, leather scrap, offal, or dried blood. It was also obtained commercially from gasworks spent oxide (purification of city gas from hydrogen cyanide).\n\nTreatment of potassium ferrocyanide with nitric acid gives H. After neutralization of this intermediate with sodium carbonate, red crystals of sodium nitroprusside ca",
+      "excerpt_offset": 29,
+      "total_chars": 4175,
+      "bm25": {
+        "q0": {
+          "rank": 15,
+          "score": 38.9216
+        }
+      },
+      "best_rank": 15,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1772,
+      "cosine": 0.173977,
+      "rerank_logit": -6.34462,
+      "rerank_position": 4
+    },
+    {
+      "page_id": "3140419",
+      "revision_id": "1344347120",
+      "title": "Bluing (steel)",
+      "url": "https://en.wikipedia.org/wiki/Bluing_(steel)",
+      "excerpt": "Bluing, sometimes spelled as blueing, is a passivation process in which steel is partially protected against rust using a black oxide coating. It is named after the blue-black appearance of the resulting protective finish. Bluing involves an electrochemical conversion coating resulting from an oxidizing chemical reaction with iron on the surface selectively forming magnetite (Fe O), the black oxide of iron. In comparison, rust, the red oxide of iron (Fe O), undergoes an extremely large volume change upon hydration; as a result, the oxide easily flakes off, causing the typical reddish rusting away of iron. Black oxide provides minimal protection against corrosion, unless also treated with a water-displacing oil to reduce wetting and galvanic action. In colloquial use, thin coatings of black oxide are often termed \"gun bluing\", while heavier coatings are termed \"black oxide\". Both refer to the same chemical process for providing true gun bluing.\n\nVarious processes are used to produce the oxide coating.\n\n\"Cold\" bluing is generally a selenium dioxide -based compound that colours steel black, or more often a very dark grey. It is a difficult product to apply evenly, offers minimal prote",
+      "excerpt_offset": 0,
+      "total_chars": 12189,
+      "bm25": {
+        "q0": {
+          "rank": 16,
+          "score": 38.8102
+        }
+      },
+      "best_rank": 16,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1556,
+      "cosine": 0.09451,
+      "rerank_logit": -6.745295,
+      "rerank_position": 12
+    },
+    {
+      "page_id": "58727",
+      "revision_id": "1352551772",
+      "title": "Alum",
+      "url": "https://en.wikipedia.org/wiki/Alum",
+      "excerpt": "rally, for salts with the same formula and structure, except that aluminium is replaced by another trivalent metal ion like chromium III, or sulfur is replaced by another chalcogen like selenium. The most common of these analogs is chrome alum KCr(SO) · 12H O.\n\nIn most industries, the name alum (or papermaker's alum) is used to refer to aluminium sulfate, Al (SO) · n H O, which is used for most industrial flocculation: 766 (the variable n is an integer whose size depends on the amount of water absorbed into the alum). For medicine, the word alum may also refer to aluminium hydroxide gel used as a vaccine adjuvant.\n\nThe western desert of Egypt was a major source of alum substitutes in antiquity. These evaporites were mainly FeAl (SO) · 22H O, MgAl (SO) · 22H O, NaAl(SO) · 6H O, MgSO · 7H O, and Al (SO) · 17H O. The Ancient Greek Herodotus mentions Egyptian alum as a valuable commodity in his Histories.\n\nThe production of potassium alum from alunite is archaeologically attested on the island Lesbos. The site was abandoned during the 7th century CE, but dates back at least to the 2nd century CE. Native alumen from the island of Melos appears to have been a mixture mainly of alunogen (",
+      "excerpt_offset": 424,
+      "total_chars": 13328,
+      "bm25": {
+        "q0": {
+          "rank": 17,
+          "score": 38.7313
+        }
+      },
+      "best_rank": 17,
+      "title_similarity": 0.0,
+      "context_overlap": 0.0976,
+      "cosine": 0.185067,
+      "rerank_logit": -6.070173,
+      "rerank_position": 1
+    },
+    {
+      "page_id": "35370028",
+      "revision_id": "1342945850",
+      "title": "Lead compounds",
+      "url": "https://en.wikipedia.org/wiki/Lead_compounds",
+      "excerpt": "Compounds of lead exist with lead in two main oxidation states: +2 and +4. The former is more common. Inorganic lead(IV) compounds are typically strong oxidants or exist only in highly acidic solutions.\n\nVarious oxidized forms of lead are easily reduced to the metal. An example is heating PbO with mild organic reducing agents such as glucose. The mixture of the oxide and the sulfide heated together will also form the metal.\n\n2 PbO + PbS → 3 Pb + SO\n\nMetallic lead is attacked (oxidized) only superficially by air, forming a thin layer of lead oxide that protects it from further oxidation. The metal is not attacked by sulfuric or hydrochloric acids. It dissolves in nitric acid with the evolution of nitric oxide gas to form dissolved Pb(NO).\n\n3 Pb + 8 H + + 8 NO − → 3 Pb 2+ + 6 NO − + 2 NO + 4 H O\n\nWhen heated with nitrates of alkali metals, metallic lead oxidizes to form PbO (also known as litharge), leaving the corresponding alkali nitrite. PbO is representative of lead's +2 oxidation state. It is soluble in nitric and acetic acids, from which solutions it is possible to precipitate halide, sulfate, chromate, carbonate (PbCO), and basic carbonate (Pb (OH) (CO)) salts of lead. The sul",
+      "excerpt_offset": 0,
+      "total_chars": 7502,
+      "bm25": {
+        "q0": {
+          "rank": 18,
+          "score": 38.6814
+        }
+      },
+      "best_rank": 18,
+      "title_similarity": 0.0,
+      "context_overlap": 0.2368,
+      "cosine": 0.105037,
+      "rerank_logit": -6.94972,
+      "rerank_position": 19
+    },
+    {
+      "page_id": "182765",
+      "revision_id": "1349532211",
+      "title": "Prussian blue",
+      "url": "https://en.wikipedia.org/wiki/Prussian_blue",
+      "excerpt": "Prussian blue (also known as Berlin blue, Brandenburg blue, Parisian and Paris blue) is a dark blue pigment produced by oxidation of ferrous ferrocyanide salts. It has the chemical formula Fe. It consists of Fe 3+ cations, where iron is in the oxidation state of +3, and 4− anions, where iron is in the oxidation state of +2, so, the other name of this salt is iron(III) hexacyanoferrate(II). Turnbull's blue is essentially identical chemically, excepting that it has different impurities and particle sizes—because it is made from different reagents —and thus it has a slightly different color.\n\nPrussian blue was created in the early 18th century and is the first modern synthetic pigment. It is prepared as a very fine colloidal dispersion, because the compound is not soluble in water. It contains variable amounts of other ions and its appearance depends sensitively on the size of the colloidal particles. The pigment is used in paints, it became prominent in 19th-century aizuri-e (藍摺り絵) Japanese woodblock prints, and it is the traditional \"blue\" in technical blueprints.\n\nIn medicine, orally administered Prussian blue is used as an antidote for certain kinds of heavy metal poisoning, e.g.,",
+      "excerpt_offset": 0,
+      "total_chars": 18474,
+      "bm25": {
+        "q0": {
+          "rank": 19,
+          "score": 38.3624
+        }
+      },
+      "best_rank": 19,
+      "title_similarity": 0.0,
+      "context_overlap": 0.2152,
+      "cosine": 0.262449,
+      "rerank_logit": -6.086838,
+      "rerank_position": 2
+    },
+    {
+      "page_id": "28954125",
+      "revision_id": "1353610368",
+      "title": "Xanthoproteic reaction",
+      "url": "https://en.wikipedia.org/wiki/Xanthoproteic_reaction",
+      "excerpt": "The xanthoproteic reaction (xanthoprotic test) is a method that can be used to detect a presence of protein soluble in a solution, using concentrated nitric acid. The test gives a positive result in amino acids carrying aromatic groups, especially in the presence of tyrosine. If the test is positive the proof is neutralized with an alkali, turning dark yellow. The yellow colour is due to xanthoproteic acid which is formed due to nitration of certain amino acids, most common examples being tyrosine and tryptophan. This chemical reaction is a qualitative test, determining the presence or absence of proteins.\n\nAdd 1 ml of concentrated HNO to 1 ml of the test sample. Gently heat the mixture and cool it. Slowly add sodium hydroxide (NaOH, 40 % w/v in water) solution until the mixture becomes alkaline and a colour change is observed. If the colour changes from yellow to orange, this indicates the presence of an aromatic amino acid.\n\nWhen human skin or nails are exposed to nitric acid, they turn yellow after some time, indicating the presence of protein. The finger nails show a bright yellow colour (finger nails are made up of keratin, which is a protein) which cannot be scraped off, unli",
+      "excerpt_offset": 0,
+      "total_chars": 1263,
+      "bm25": {
+        "q0": {
+          "rank": 20,
+          "score": 38.3399
+        }
+      },
+      "best_rank": 20,
+      "title_similarity": 0.0,
+      "context_overlap": 0.2692,
+      "cosine": 0.133545,
+      "rerank_logit": -6.866179,
+      "rerank_position": 15
+    }
+  ]
+}

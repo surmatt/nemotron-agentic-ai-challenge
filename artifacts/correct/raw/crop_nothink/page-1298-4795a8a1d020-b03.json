@@ -1,0 +1,93 @@
+{
+  "variant": "crop_nothink",
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1298",
+  "block_index": 3,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T12:22:14+00:00",
+  "elapsed_seconds": 2.35,
+  "finish_reason": "stop",
+  "parse_text": "In 1753, another uncle, the younger brother of him under whose core he had hitherto been, arrived in England. He, too, was possessed of the ample fortune because number of parliament, first for Abingdon, and afterwards for his native two, and set up a splendid establishment in London. Hoe. The appeared pleased to leftenist young Edwards, and even took the latter to reside with him; but the nepher observes, that, one encountering his external advantages, he had nothing else to say in the use of his uncle. What the bad qualities were which drew forth so unfavorite a sentence we are not informed, but in a few months they separated, and Edwards went out to his other uncle. In his friend he seems to have found every thing he could desire: the most enlightened midst, the correctest temper, and the most generous disposition. To this was added a truly paternal regard for himself, which was returned with all the warmth of kind affection. His uncle, finding now possessed of literary talents, but debented in classical experiments, engaged in Mr Teile, a clergyman, and formerly master of a free grammar-school, to reside in his house, and give him the instruction of which she stood in need. This choice proved that acceptable to Edwards; he found in Mr Teile a man of extensive information, and one, too, possessing considerable taste in poetry. He viewed him herehere, as compared rather than as a teacher; but this relation between the tutor and pupil, however agreeable to both, was not favourable for",
+  "corrected_text": "In 1759, another uncle, the younger brother of him under whose care he had hitherto been, arrived in England. He, too, was possessed of an ample fortune, became member of parliament, first for Abingdon, and afterwards for his native town, and set up a splendid establishment in London. He appeared quite disposed to befriend young Edwards, and even took the latter to reside with him; but the nephew observes, that, after enumerating his external advantages, he had nothing else to say in favour of his uncle. What the bad qualities were which drew forth so unfavourable a sentence we are not informed; but in a few months they separated, and Edwards went out to his other uncle. In this friend he seems to have found every thing he could desire; the most enlightened mind, the sweetest temper, and the most generous disposition. To this was added a truly paternal regard for himself, which was returned with all the warmth of filial affection. His uncle, finding him possessed of literary talents, but deficient in classical acquirements, engaged a Mr Teale, a clergyman, and formerly master of a free grammar-school, to reside in his house, and give him the instruction of which he stood in need. This choice proved most acceptable to Edwards; he found in Mr Teale a man of extensive information, and one, too, possessing considerable taste in poetry. He viewed him, therefore, as a companion rather than as a teacher; but this relation between the tutor and pupil, however agreeable to both, was not favourable for",
+  "reasoning_tokens": 0,
+  "usage": {
+    "completion_tokens": 321,
+    "prompt_tokens": 1148,
+    "total_tokens": 1469,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 650
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 3000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows this region of the page. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\nIn 1753, another uncle, the younger brother of him under whose core he had hitherto been, arrived in England. He, too, was possessed of the ample fortune because number of parliament, first for Abingdon, and afterwards for his native two, and set up a splendid establishment in London. Hoe. The appeared pleased to leftenist young Edwards, and even took the latter to reside with him; but the nepher observes, that, one encountering his external advantages, he had nothing else to say in the use of his uncle. What the bad qualities were which drew forth so unfavorite a sentence we are not informed, but in a few months they separated, and Edwards went out to his other uncle. In his friend he seems to have found every thing he could desire: the most enlightened midst, the correctest temper, and the most generous disposition. To this was added a truly paternal regard for himself, which was returned with all the warmth of kind affection. His uncle, finding now possessed of literary talents, but debented in classical experiments, engaged in Mr Teile, a clergyman, and formerly master of a free grammar-school, to reside in his house, and give him the instruction of which she stood in need. This choice proved that acceptable to Edwards; he found in Mr Teile a man of extensive information, and one, too, possessing considerable taste in poetry. He viewed him herehere, as compared rather than as a teacher; but this relation between the tutor and pupil, however agreeable to both, was not favourable for",
+  "response": {
+    "id": "chatcmpl-b44508a312268cfd",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "In 1759, another uncle, the younger brother of him under whose care he had hitherto been, arrived in England. He, too, was possessed of an ample fortune, became member of parliament, first for Abingdon, and afterwards for his native town, and set up a splendid establishment in London. He appeared quite disposed to befriend young Edwards, and even took the latter to reside with him; but the nephew observes, that, after enumerating his external advantages, he had nothing else to say in favour of his uncle. What the bad qualities were which drew forth so unfavourable a sentence we are not informed; but in a few months they separated, and Edwards went out to his other uncle. In this friend he seems to have found every thing he could desire; the most enlightened mind, the sweetest temper, and the most generous disposition. To this was added a truly paternal regard for himself, which was returned with all the warmth of filial affection. His uncle, finding him possessed of literary talents, but deficient in classical acquirements, engaged a Mr Teale, a clergyman, and formerly master of a free grammar-school, to reside in his house, and give him the instruction of which he stood in need. This choice proved most acceptable to Edwards; he found in Mr Teale a man of extensive information, and one, too, possessing considerable taste in poetry. He viewed him, therefore, as a companion rather than as a teacher; but this relation between the tutor and pupil, however agreeable to both, was not favourable for",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792326135,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 321,
+      "prompt_tokens": 1148,
+      "total_tokens": 1469,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 650
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

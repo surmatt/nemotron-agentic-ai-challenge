@@ -1,0 +1,93 @@
+{
+  "variant": "crop_nothink",
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1910",
+  "block_index": 9,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T12:23:35+00:00",
+  "elapsed_seconds": 1.81,
+  "finish_reason": "stop",
+  "parse_text": "\" It would be no difficult talk, we think, to account for these appearances in different manner, were all the circumstances attending the cage minutely after-tained, but without interrogating the dead on this futjels, we may more falsifiedly appeal to the ex-perience of the living (a), to flew, that though the _returning fireks_ mult take place, in all thunder-forms, _in June degree or other_; yet it is now of that alarming magnitude within the author afterhes to it. If, a non particular thunder-form, a man in the open fields could be killed, at the infant of a dillank explotion, merely by the returners of his new electric fire, which had before been driven out of his body; lureely numerous obferations of persons who had experienced the _returning firele_, in fighting degrees, would be families, and favors a great teacher-theme must have occurred, in which one perform or another mult not, at theinflated an explosion, have felt the effects of the _returning firele_, in _foon degree or other_ from that of a violent sanctions, to that of a flight and almost impregnible pollution. But no observances we this kind are known to us say how we ever heard of any person's experiencing any kind of electrical com- motion in a thunder-loria, except fish as have either been directly frocks, or have happened to be in the _royar near neighborhood_ of the foot where the explodes took place.",
+  "corrected_text": "It would be no difficult talk, we think, to account for these appearances in a different manner; were all the circumstances attending the case minutely ascertained: but without interrogating the dead on this subject, we may more satisfactorily appeal to the experience of the living (a), to shew, that though the returning stroke must take place, in all thunder-storms, in some degree or other; yet it is not of that alarming magnitude which the author ascribes to it. If, in any particular thunder-storm, a man in the open fields could be killed, at the instant of a distant explosion, merely by the return of his own electric fire, which had before been driven out of his body; surely numerous observations of persons who had experienced the returning stroke, in slighter degrees, would be familiar; and scarce a great thunder-storm must have occurred, in which one person or another must not, at the instant of an explosion, have felt the effects of the returning stroke, in some degree or other—from that of a violent concussion, to that of a slight and almost imperceptible pulsation. But no observations of this kind are known to us; nor have we ever heard of any person's experiencing any kind of electrical commotion in a thunder-storm, except such as have either been directly struck, or have happened to be in the very near neighbourhood of the spot where the explosion took place.",
+  "reasoning_tokens": 0,
+  "usage": {
+    "completion_tokens": 294,
+    "prompt_tokens": 1191,
+    "total_tokens": 1485,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 698
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 3000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows this region of the page. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\n\" It would be no difficult talk, we think, to account for these appearances in different manner, were all the circumstances attending the cage minutely after-tained, but without interrogating the dead on this futjels, we may more falsifiedly appeal to the ex-perience of the living (a), to flew, that though the _returning fireks_ mult take place, in all thunder-forms, _in June degree or other_; yet it is now of that alarming magnitude within the author afterhes to it. If, a non particular thunder-form, a man in the open fields could be killed, at the infant of a dillank explotion, merely by the returners of his new electric fire, which had before been driven out of his body; lureely numerous obferations of persons who had experienced the _returning firele_, in fighting degrees, would be families, and favors a great teacher-theme must have occurred, in which one perform or another mult not, at theinflated an explosion, have felt the effects of the _returning firele_, in _foon degree or other_ from that of a violent sanctions, to that of a flight and almost impregnible pollution. But no observances we this kind are known to us say how we ever heard of any person's experiencing any kind of electrical com- motion in a thunder-loria, except fish as have either been directly frocks, or have happened to be in the _royar near neighborhood_ of the foot where the explodes took place.",
+  "response": {
+    "id": "chatcmpl-b0dae1bffbec7c0e",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "It would be no difficult talk, we think, to account for these appearances in a different manner; were all the circumstances attending the case minutely ascertained: but without interrogating the dead on this subject, we may more satisfactorily appeal to the experience of the living (a), to shew, that though the returning stroke must take place, in all thunder-storms, in some degree or other; yet it is not of that alarming magnitude which the author ascribes to it. If, in any particular thunder-storm, a man in the open fields could be killed, at the instant of a distant explosion, merely by the return of his own electric fire, which had before been driven out of his body; surely numerous observations of persons who had experienced the returning stroke, in slighter degrees, would be familiar; and scarce a great thunder-storm must have occurred, in which one person or another must not, at the instant of an explosion, have felt the effects of the returning stroke, in some degree or other—from that of a violent concussion, to that of a slight and almost imperceptible pulsation. But no observations of this kind are known to us; nor have we ever heard of any person's experiencing any kind of electrical commotion in a thunder-storm, except such as have either been directly struck, or have happened to be in the very near neighbourhood of the spot where the explosion took place.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792326216,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 294,
+      "prompt_tokens": 1191,
+      "total_tokens": 1485,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 698
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

@@ -1,0 +1,705 @@
+{
+  "entry_id": "E0002",
+  "headword": "WEIGHTS AND MEASURES",
+  "entry_text_sha256": "0c1c2eeb50a24b7fa18c98463ed2f794b021660c245e1f7136623e1599978cfc",
+  "mode": "model",
+  "queries": [
+    "weights and measures",
+    "weights and measures brit inches avoirdupois cubic system usuel troy metrical used peso palmi"
+  ],
+  "query_chars": 1500,
+  "headword_variant": null,
+  "candidate_count": 32,
+  "list_pages_removed_after_fetch": [],
+  "decision": {
+    "status": "rejected",
+    "method": "nemotron_embed_rerank",
+    "thresholds": {
+      "rerank_logit": -10.0,
+      "margin": 0.5,
+      "cosine": 0.15,
+      "title_similarity": 0.0
+    },
+    "reason": "rerank_logit < -10.0, margin < 0.5, cosine < 0.15, or title_similarity < 0.0",
+    "page_id": "2752651",
+    "title": "History of measurement",
+    "rerank_logit": -4.484232,
+    "cosine": 0.355243,
+    "margin_to_next": 0.330586,
+    "title_similarity": 0.5946
+  },
+  "candidates": [
+    {
+      "page_id": "32308",
+      "revision_id": "1352860468",
+      "title": "United States customary units",
+      "url": "https://en.wikipedia.org/wiki/United_States_customary_units",
+      "excerpt": "United States customary units form a system of measurement units commonly used in the United States and most U.S. territories since being standardized and adopted in 1832. The United States customary system developed from English units that were in use in the British Empire before the U.S. became an independent country. The United Kingdom's system of measures evolved by 1824 to create the imperial system, with imperial units, which was officially adopted in 1826, changing the definitions of some of its units. Consequently, while many U.S. units are essentially similar to their imperial counterparts, there are noticeable differences between the systems.\n\nThe majority of U.S. customary units were redefined in terms of the meter and kilogram with the Mendenhall Order of 1893 and, in practice, for many years before. These definitions were refined by the international yard and pound agreement of 1959.\n\nThe United States uses customary units in commercial activities, as well as for personal and social use. In science, medicine, many sectors of industry, and some government and military areas, metric units are used. The International System of Units (SI), the modern form of the metric sys",
+      "excerpt_offset": 0,
+      "total_chars": 19486,
+      "bm25": {
+        "q1": {
+          "rank": 1,
+          "score": 67.8119
+        }
+      },
+      "best_rank": 1,
+      "title_similarity": 0.2667,
+      "context_overlap": 0.2308,
+      "cosine": 0.295545,
+      "rerank_logit": -5.581623,
+      "rerank_position": 20
+    },
+    {
+      "page_id": "3279786",
+      "revision_id": "1340233706",
+      "title": "Comparison of the imperial and US customary measurement systems",
+      "url": "https://en.wikipedia.org/wiki/Comparison_of_the_imperial_and_US_customary_measurement_systems",
+      "excerpt": "Both the British imperial measurement system and United States customary systems of measurement derive from earlier English unit systems used prior to 1824 that were the result of a combination of the local Anglo-Saxon units inherited from Germanic tribes and Roman units.\n\nHaving this shared heritage, the two systems are quite similar, but there are differences. The US customary system is based on English systems of the 18th century, while the imperial system was defined in 1824, almost a half-century after American independence.\n\nVolume may be measured either in terms of units of cubic length or with specific volume units. The units of cubic length (the cubic inch, cubic foot, cubic mile, etc.) are the same in the imperial and US customary systems, but they differ in their specific units of volume (the bushel, gallon, fluid ounce, etc.).\n\nThe US customary system has a set of units for fluids, it has a different measure for dry goods for the pint, quart and barrel, and a peck and bushel for dry goods only. The imperial system has only one set of measurements, defined independently of the US customary system.\n\nBy the end of the 18th century, various systems of volume measurement wer",
+      "excerpt_offset": 0,
+      "total_chars": 7907,
+      "bm25": {
+        "q1": {
+          "rank": 2,
+          "score": 67.7988
+        }
+      },
+      "best_rank": 2,
+      "title_similarity": 0.3636,
+      "context_overlap": 0.2769,
+      "cosine": 0.315226,
+      "rerank_logit": -5.423989,
+      "rerank_position": 15
+    },
+    {
+      "page_id": "77331432",
+      "revision_id": "1308762523",
+      "title": "Standards of Weights and Measures Act, 1976",
+      "url": "https://en.wikipedia.org/wiki/Standards_of_Weights_and_Measures_Act,_1976",
+      "excerpt": "The Standards of Weights and Measures Act, 1976 was an Act of the Parliament of India enacted to establish standards of weights and measures, and to regulate trade or commerce in weights, measures, and other goods sold or distributed by weight, measure, or number. The Act aimed to ensure uniformity and accuracy in weights and measures across India.\n\nThe Act was introduced to replace the Standards of Weights and Measures Act, 1956, which was based on the metric system and international units recognized by the International Organization of Legal Metrology (OIML). The 1976 Act was enacted to keep pace with rapid advances in science and technology worldwide and to adopt the International System of Units (SI units) as recommended by the General Conference of Weights and Measures (CGPM).\n\nThe Act established weights and measures based on SI units, as adopted by the CGPM and recognized by the OIML. It provided specifications for measuring instruments used in commercial transactions, industrial production, and measurements involved in public health and human safety.\n\nThe Act regulated inter-state trade and commerce in weights and measures, as well as commodities sold, distributed, or suppl",
+      "excerpt_offset": 0,
+      "total_chars": 2536,
+      "bm25": {
+        "q0": {
+          "rank": 3,
+          "score": 15.2434
+        }
+      },
+      "best_rank": 3,
+      "title_similarity": 0.6923,
+      "context_overlap": 0.2174,
+      "cosine": 0.210425,
+      "rerank_logit": -5.128973,
+      "rerank_position": 9
+    },
+    {
+      "page_id": "39913055",
+      "revision_id": "1337115155",
+      "title": "Imperial and US customary measurement systems",
+      "url": "https://en.wikipedia.org/wiki/Imperial_and_US_customary_measurement_systems",
+      "excerpt": "The imperial and US customary measurement systems are both derived from an earlier English system of measurement which in turn can be traced back to Ancient Roman units of measurement, and Carolingian and Saxon units of measure.\n\nThe US Customary system of units was developed and used in the United States after the American Revolution, based on a subset of the English units used in the Thirteen Colonies. It is the predominant system of units in the United States and its territories, except for Puerto Rico and Guam, where the metric system was introduced under Spanish rule and remains prevalent. The imperial system of units was developed and used in the United Kingdom and its empire beginning in 1824. The metric system has, to varying degrees, replaced the imperial system in the countries that once used it.\n\nMost of the units of measure have been adapted in one way or another since the Norman Conquest (1066). The units of linear measure have changed the least – the yard (which replaced the ell) and the chain were measures derived in England. The foot used by craftsmen supplanted the longer foot used in agriculture. The agricultural foot was reduced to 10 ⁄ 11 of its former size, cau",
+      "excerpt_offset": 0,
+      "total_chars": 37468,
+      "bm25": {
+        "q1": {
+          "rank": 3,
+          "score": 64.6656
+        }
+      },
+      "best_rank": 3,
+      "title_similarity": 0.4746,
+      "context_overlap": 0.2353,
+      "cosine": 0.251446,
+      "rerank_logit": -5.170867,
+      "rerank_position": 12
+    },
+    {
+      "page_id": "76451534",
+      "revision_id": "1253806030",
+      "title": "Weights and Measures Act (Japan)",
+      "url": "https://en.wikipedia.org/wiki/Weights_and_Measures_Act_(Japan)",
+      "excerpt": "The Weights and Measures Act (Japanese: 度量衡取締条例, Doryokori Shimarijorei) (Dajokan No. 135, August 5, 1875) were promulgated on August 5, 1875, and were the first weights and measures regulations in modern Japan. A weights and measures certification office was established in Wakayama by 1889. It was abolished with the enactment of the Weights and Measures Act in 1891. The act defined the shaku as the fundamental unit of length, and the kan as the fundamental unit of mass.",
+      "excerpt_offset": 0,
+      "total_chars": 475,
+      "bm25": {
+        "q0": {
+          "rank": 4,
+          "score": 15.0697
+        }
+      },
+      "best_rank": 4,
+      "title_similarity": 0.9,
+      "context_overlap": 0.16,
+      "cosine": 0.175958,
+      "rerank_logit": -5.407002,
+      "rerank_position": 14
+    },
+    {
+      "page_id": "169946",
+      "revision_id": "1351093846",
+      "title": "Grain (unit)",
+      "url": "https://en.wikipedia.org/wiki/Grain_(unit)",
+      "excerpt": "A grain is a unit of measurement of mass, and in the troy weight, avoirdupois, and apothecaries' systems, equal to exactly 64.798 91 milligrams. It is nominally based upon the mass of a single ideal seed of a cereal. From the Bronze Age into the Renaissance, the average masses of wheat and barley grains were part of the legal definitions of units of mass. Expressions such as \"thirty-two grains of wheat, taken from the middle of the ear\" appear to have been ritualistic formulas.: 27 Another source states that it was defined such that 252.458 units would balance 1 cubic inch (16 cm 3) of distilled water at an ambient air-water pressure and temperature of 30 inches of mercury (100 kPa) and 62 °F (17 °C) respectively. Another book states that Captain Henry Kater, of the British Standards Commission, arrived at this value experimentally.\n\nThe grain was the legal foundation of traditional English weight systems, and is the only unit that is equal throughout the troy, avoirdupois, and apothecaries' systems of mass.: C-6 The unit was based on the weight of a single grain of barley which was equal to about + 4 ⁄ 3 the weight of a single grain of wheat.: 95 The fundamental unit of the pre-15",
+      "excerpt_offset": 0,
+      "total_chars": 8162,
+      "bm25": {
+        "q1": {
+          "rank": 4,
+          "score": 61.4723
+        }
+      },
+      "best_rank": 4,
+      "title_similarity": 0.1739,
+      "context_overlap": 0.2958,
+      "cosine": 0.324657,
+      "rerank_logit": -5.761753,
+      "rerank_position": 24
+    },
+    {
+      "page_id": "51143693",
+      "revision_id": "1256534587",
+      "title": "Weights and Measures Act 1972",
+      "url": "https://en.wikipedia.org/wiki/Weights_and_Measures_Act_1972",
+      "excerpt": "The Weights and Measures Act 1972 (Malay: Akta Timbang dan Sukat 1972) is an Act of the Parliament of Malaysia. It was enacted to establish units of measurement and standards of mass and measure based on the International System of Units, to regulate weights and measures and instruments for weighing and measuring and to make provisions for matters connected therewith and ancillary thereto.\n\nThe Weights and Measures Act 1972, in its current form (1 January 2009), consists of 5 Parts containing 35 sections and 4 schedules (including 7 amendments).\n\nPart I: Preliminary\n\nPart II: Units of Measurement\n\nPart III: Weights and Measures for Trade Purposes\n\nPart IV: Administration\n\nPart V: General\n\nSchedules",
+      "excerpt_offset": 0,
+      "total_chars": 707,
+      "bm25": {
+        "q0": {
+          "rank": 5,
+          "score": 15.0667
+        }
+      },
+      "best_rank": 5,
+      "title_similarity": 0.9,
+      "context_overlap": 0.2917,
+      "cosine": 0.228702,
+      "rerank_logit": -5.168419,
+      "rerank_position": 11
+    },
+    {
+      "page_id": "180279",
+      "revision_id": "1326550449",
+      "title": "Ounce",
+      "url": "https://en.wikipedia.org/wiki/Ounce",
+      "excerpt": "The ounce (/ ˈ aʊ n s /) is any of several different units of mass, weight, or volume and is derived almost unchanged from the uncia, an Ancient Roman unit of measurement.\n\nThe avoirdupois ounce (exactly 28.349 523 125 g) is 1 ⁄ 16 avoirdupois pound; this is the United States customary and British imperial ounce. It is primarily used in the United States.\n\nAlthough the avoirdupois ounce is the mass measure used for most purposes, the ' troy ounce ' of exactly 31.103 4768 g is used instead for the mass of precious metals such as gold, silver, platinum, palladium, rhodium, etc.\n\nThe term 'ounce' is also used in other contexts:\n\nThe ounce-force is a measure of force (see below).\n\nThe fluid ounce is a measure of volume.\n\nHistorically, a variety of different ounces measuring mass or volume were used in different jurisdictions by different trades and at different times in history.\n\nOunce derives from the Ancient Roman uncia (meaning: a twelfth), a unit in the Ancient Roman units of measurement weighing about 27.4 grams or 96.7% of an avoirdupois ounce, that was one-twelfth (1 ⁄ 12) of the Roman pound (libra). This in turn comes from Latin unus ('one'), and thus originally meant simply 'u",
+      "excerpt_offset": 0,
+      "total_chars": 6553,
+      "bm25": {
+        "q1": {
+          "rank": 5,
+          "score": 59.7514
+        }
+      },
+      "best_rank": 5,
+      "title_similarity": 0.087,
+      "context_overlap": 0.3016,
+      "cosine": 0.289439,
+      "rerank_logit": -5.359104,
+      "rerank_position": 13
+    },
+    {
+      "page_id": "43963034",
+      "revision_id": "1286083620",
+      "title": "Standards of Weights, Measures, and Coinage Act 1866",
+      "url": "https://en.wikipedia.org/wiki/Standards_of_Weights,_Measures,_and_Coinage_Act_1866",
+      "excerpt": "The Standards of Weights, Measures, and Coinage Act 1866 (29 & 30 Vict. c. 82) was an act of the Parliament of the United Kingdom.\n\nThe act created a department of the Board of Trade called the Standard Weights and Measures Department. This department was responsible for maintaining the weights and measures used in the country – in particular, the primary and secondary standards, the physical \"master\" weights and lengths that other measuring devices could be compared against. These had previously been the responsibility of the Exchequer.\n\nSection 14 of the act repealed 5 enactments, listed in the schedule to the act.\n\nThe whole act was repealed by section 86 of the Weights and Measures Act 1878 (41 & 42 Vict. c. 49).",
+      "excerpt_offset": 0,
+      "total_chars": 726,
+      "bm25": {
+        "q0": {
+          "rank": 6,
+          "score": 15.0167
+        }
+      },
+      "best_rank": 6,
+      "title_similarity": 0.4667,
+      "context_overlap": 0.1944,
+      "cosine": 0.167683,
+      "rerank_logit": -5.051914,
+      "rerank_position": 7
+    },
+    {
+      "page_id": "23316",
+      "revision_id": "1351691985",
+      "title": "Pound (mass)",
+      "url": "https://en.wikipedia.org/wiki/Pound_(mass)",
+      "excerpt": "The pound or pound-mass is a unit of mass used in both the British imperial and United States customary systems of measurement. Various definitions have been used; the most common today is the international avoirdupois pound, which is legally defined as exactly 0.453 592 37 kilograms, and which is divided into 16 avoirdupois ounces. The international standard symbol for the avoirdupois pound is lb; an alternative symbol (when there might otherwise be a risk of confusion with the pound-force) is lb (for most pound definitions), # (chiefly in the U.S.), and ℔ or ″ ̶ (specifically for the apothecaries' pound).\n\nThe unit is descended from the Roman libra (hence the symbol lb, descended from the scribal abbreviation, ℔). The English word pound comes from the Roman libra pondo ('the weight measured in libra '), and is cognate with, among others, German Pfund, Dutch pond, and Swedish pund. These units remain in common use in many territories especially those which have not fully adopted the metric system.\n\nUsage of the unqualified term pound reflects the historical conflation of mass and weight. This accounts for the modern distinguishing terms pound-mass and pound-force.\n\nThe word 'pound",
+      "excerpt_offset": 0,
+      "total_chars": 20208,
+      "bm25": {
+        "q1": {
+          "rank": 6,
+          "score": 59.6518
+        }
+      },
+      "best_rank": 6,
+      "title_similarity": 0.1739,
+      "context_overlap": 0.274,
+      "cosine": 0.294131,
+      "rerank_logit": -5.662678,
+      "rerank_position": 22
+    },
+    {
+      "page_id": "77336128",
+      "revision_id": "1315906837",
+      "title": "Legal Metrology Act, 2009",
+      "url": "https://en.wikipedia.org/wiki/Legal_Metrology_Act,_2009",
+      "excerpt": "The Legal Metrology Act, 2009 is an Act of the Parliament of India that establishes and enforces standards of weights and measures in India. It was enacted to replace the Standards of Weights and Measures Act, 1976 and the Standards of Weights and Measures (Enforcement) Act, 1985.\n\nThe Legal Metrology Act, 2009 was introduced to consolidate and amend the laws relating to weights and measures in India. It aims to establish and enforce standards of weights and measures and regulate trade and commerce in weights, measures, and other goods sold or distributed by weight, measure, or number.\n\nThe Act contains several key provisions:\n\nEstablishment of standard units of weights and measures based on the metric system.\n\nRegulation of manufacturing, selling, and repairing of weights and measures.\n\nAppointment of legal metrology officers to enforce the Act.\n\nPenalties for offenses related to weights and measures.\n\nThe Act came into force on 1 April 2011. It is administered by the Department of Consumer Affairs, Ministry of Consumer Affairs, Food and Public Distribution, Government of India.",
+      "excerpt_offset": 0,
+      "total_chars": 1096,
+      "bm25": {
+        "q0": {
+          "rank": 7,
+          "score": 15.0061
+        }
+      },
+      "best_rank": 7,
+      "title_similarity": 0.3784,
+      "context_overlap": 0.1967,
+      "cosine": 0.187785,
+      "rerank_logit": -5.450672,
+      "rerank_position": 17
+    },
+    {
+      "page_id": "1201381",
+      "revision_id": "1344214947",
+      "title": "Apothecaries' system",
+      "url": "https://en.wikipedia.org/wiki/Apothecaries%27_system",
+      "excerpt": "The apothecaries' system, or apothecaries' weights and measures, is a historical system of mass and volume units that were used by physicians and apothecaries for medical prescriptions, and also sometimes by scientists. The English version of the system is closely related to the English troy system of weights, the pound and grain being exactly the same in both. It divides a pound into 12 ounces, an ounce into 8 drachms, and a drachm into 3 scruples of 20 grains each. This exact form of the system was used in the United Kingdom; in some of its former colonies, it survived well into the 20th century. The apothecaries' system of measures is a similar system of volume units based on the fluid ounce. For a long time, medical recipes were written in Latin, often using special symbols to denote weights and measures.\n\nThe use of different measure and weight systems depending on the purpose was an almost universal phenomenon in Europe between the decline of the Roman Empire and metrication. This was connected with international commerce, especially with the need to use the standards of the target market and to compensate for a common weighing practice that caused a difference between actual",
+      "excerpt_offset": 0,
+      "total_chars": 30941,
+      "bm25": {
+        "q1": {
+          "rank": 7,
+          "score": 59.5386
+        }
+      },
+      "best_rank": 7,
+      "title_similarity": 0.2222,
+      "context_overlap": 0.3086,
+      "cosine": 0.357827,
+      "rerank_logit": -4.949561,
+      "rerank_position": 4
+    },
+    {
+      "page_id": "53717267",
+      "revision_id": "1213023981",
+      "title": "United States House Committee on Coinage, Weights, and Measures",
+      "url": "https://en.wikipedia.org/wiki/United_States_House_Committee_on_Coinage,_Weights,_and_Measures",
+      "excerpt": "The Committee on Coinage, Weights, and Measures (established as the Committee on a Uniform System of Coinage, Weights, and Measures) was a standing committee of the United States House of Representatives from 1864 to 1946.\n\nIn 1864, the Committee on a Uniform System of Coinage, Weights, and Measures was established to relieve the House Committee on Ways and Means of part of its workload. The name was shortened to Committee on Coinage, Weights, and Measures in 1867. In 1921, the portion of the committee's jurisdiction relating to stabilization of the currency was transferred to the House Committee on Banking and Currency. Under the Legislative Reorganization Act of 1946, the coinage portion of its jurisdiction was also transferred to that committee, while its weights and measures jurisdiction was transferred to the House Committee on Interstate and Foreign Commerce, thus dissolving the committee.\n\nThe jurisdiction of the Committee on Coinage, Weights, and Measures included the subjects listed in its name: coinage, weights, and measures. The coinage part of the jurisdiction included the defining and fixing of standards of value and the regulation of coinage and exchange. This include",
+      "excerpt_offset": 0,
+      "total_chars": 1547,
+      "bm25": {
+        "q0": {
+          "rank": 8,
+          "score": 14.9473
+        }
+      },
+      "best_rank": 8,
+      "title_similarity": 0.4865,
+      "context_overlap": 0.1628,
+      "cosine": 0.163163,
+      "rerank_logit": -5.80543,
+      "rerank_position": 26
+    },
+    {
+      "page_id": "1586499",
+      "revision_id": "1282204213",
+      "title": "Weighting curve",
+      "url": "https://en.wikipedia.org/wiki/Weighting_curve",
+      "excerpt": "A weighting curve is a graph of a set of factors, that are used to 'weight' measured values of a variable according to their importance in relation to some outcome. An important example is frequency weighting in sound level measurement where a specific set of weighting curves known as A-, B-, C-, and D-weighting as defined in IEC 61672 are used. Unweighted measurements of sound pressure do not correspond to perceived loudness because the human ear is less sensitive at low and high frequencies, with the effect more pronounced at lower sound levels. The four curves are applied to the measured sound level, for example by the use of a weighting filter in a sound level meter, to arrive at readings of loudness in phons or in decibels (dB) above the threshold of hearing (see A-weighting).\n\nAlthough A-weighting with a slow RMS detector, as commonly used in sound level meters is frequently used when measuring noise in audio circuits, a different weighting curve, ITU-R 468 noise weighting uses a psophometric weighting curve and a quasi-peak detector. This method, formerly known as CCIR weighting, is preferred by the telecommunications industry, broadcasters, and some equipment manufacturers ",
+      "excerpt_offset": 0,
+      "total_chars": 2801,
+      "bm25": {
+        "q0": {
+          "rank": 9,
+          "score": 14.8209
+        }
+      },
+      "best_rank": 9,
+      "title_similarity": 0.6667,
+      "context_overlap": 0.1013,
+      "cosine": 0.136198,
+      "rerank_logit": -6.148795,
+      "rerank_position": 30
+    },
+    {
+      "page_id": "169942",
+      "revision_id": "1349474241",
+      "title": "Troy weight",
+      "url": "https://en.wikipedia.org/wiki/Troy_weight",
+      "excerpt": "Troy weight is a system of units of mass whose origin is uncertain. By far the most common troy unit is the troy ounce (oz t), the standard mass unit for precious metals in industry and in trade; it equals 31.1034768 grams. The troy weight units are the grain, the pennyweight (24 grains), the troy ounce (20 pennyweights), and the troy pound (12 troy ounces). The troy grain is equal to the grain unit of the avoirdupois and apothecaries' systems, but the troy ounce is heavier than the avoirdupois ounce, and the troy pound is lighter than the avoirdupois pound.\n\nTroy weight is generally supposed to take its name from the French market town of Troyes where English merchants traded at least as early as the early 9th century. The name troy is first attested in 1390, describing the weight of a platter, in an account of the travels in Europe of the Earl of Derby.\n\nCharles Moore Watson (1844–1916) proposes an alternative etymology: The Assize of Weights and Measures (also known as Tractatus de Ponderibus et Mensuris), one of the statutes of uncertain date from the reign of either Henry III or Edward I, thus before 1307, specifies \" troni ponderacionem \"—which the Public Record Commissioners",
+      "excerpt_offset": 0,
+      "total_chars": 7145,
+      "bm25": {
+        "q1": {
+          "rank": 9,
+          "score": 57.2965
+        }
+      },
+      "best_rank": 9,
+      "title_similarity": 0.4138,
+      "context_overlap": 0.2763,
+      "cosine": 0.345592,
+      "rerank_logit": -5.098858,
+      "rerank_position": 8
+    },
+    {
+      "page_id": "41002",
+      "revision_id": "1331280094",
+      "title": "Weighting filter",
+      "url": "https://en.wikipedia.org/wiki/Weighting_filter",
+      "excerpt": "ement or other purposes.\n\nIn each field of audio measurement, special units are used to indicate a weighted measurement as opposed to a basic physical measurement of energy level. For sound, the unit is the phon (1 kHz equivalent level).\n\nSound has three basic components, the wavelength, frequency, and speed. In sound measurement, we measure the loudness of the sound in decibels (dB). Decibels are logarithmic with 0 dB as the reference. There are also a range of frequencies that sounds can have. Frequency is the number of times a sine wave repeats itself in a second. Normal auditory systems can usually hear between 20 and 20,000 Hz. When we measure sound, the measurement instrument takes the incoming auditory signal and analyzes it for these different features. Weighting filters in these instruments then filter out certain frequencies and decibel levels depending on the filter. A weighted filters are most similar to natural human hearing. This allows the sound level meter to determine what decibel level the incoming sound would likely be for a normal hearing human's auditory system.\n\nIn the measurement of loudness, for example, an A-weighting filter is commonly used to emphasize fr",
+      "excerpt_offset": 111,
+      "total_chars": 8683,
+      "bm25": {
+        "q0": {
+          "rank": 10,
+          "score": 14.808
+        }
+      },
+      "best_rank": 10,
+      "title_similarity": 0.5806,
+      "context_overlap": 0.1014,
+      "cosine": 0.192954,
+      "rerank_logit": -6.184535,
+      "rerank_position": 31
+    },
+    {
+      "page_id": "15492",
+      "revision_id": "1348231739",
+      "title": "Imperial units",
+      "url": "https://en.wikipedia.org/wiki/Imperial_units",
+      "excerpt": "The imperial system of units, imperial system or imperial units (also known as British Imperial or Exchequer Standards of 1826) is the system of units first defined in the British Weights and Measures Act 1824 and continued to be developed through a series of Weights and Measures Acts and amendments.\n\nThe imperial system developed from earlier English units as did the related but differing system of customary units of the United States. The imperial units replaced the Winchester Standards, which were in effect from 1588 to 1825. The system came into official use across the British Empire in 1826.\n\nBy the late 20th century, most nations of the former empire had officially adopted the metric system as their main system of measurement, but imperial units are still used alongside metric units in the United Kingdom and in some other parts of the former empire, notably Canada.\n\nThe modern UK legislation defining the imperial system of units is given in the Weights and Measures Act 1985 (as amended).\n\nThe Weights and Measures Act 1824 was initially scheduled to go into effect on 1 May 1825. The Weights and Measures Act 1825 pushed back the date to 1 January 1826. The 1824 act allowed the ",
+      "excerpt_offset": 0,
+      "total_chars": 23214,
+      "bm25": {
+        "q1": {
+          "rank": 10,
+          "score": 56.2667
+        }
+      },
+      "best_rank": 10,
+      "title_similarity": 0.1935,
+      "context_overlap": 0.25,
+      "cosine": 0.297157,
+      "rerank_logit": -5.607809,
+      "rerank_position": 21
+    },
+    {
+      "page_id": "41421",
+      "revision_id": "1253813905",
+      "title": "Noise weighting",
+      "url": "https://en.wikipedia.org/wiki/Noise_weighting",
+      "excerpt": "telecommunications.\n\nA major use of noise weighting is in the measurement of residual noise in audio equipment, usually present as hiss or hum in quiet moments of programme material. The purpose of weighting here is to emphasise the parts of the audible spectrum that our ears perceive most readily, and attenuate the parts that contribute less to our perception of loudness, in order to get a measured figure that correlates well with subjective effect.\n\nThe ITU-R 468 noise weighting was devised specifically for this purpose, and is widely used in broadcasting, especially in the UK and Europe. A-weighting is also used, especially in the United States, though this is only really valid for the measurement of tones, not noise, and is widely incorporated into sound level meters.\n\nIn telecommunications, noise weightings are used by agencies concerned with public telephone service, and various standard curves are based on the characteristics of specific commercial telephone instruments, representing successive stages of technological development. The coding of commercial apparatus appears in the nomenclature of certain weightings. The same weighting nomenclature and units are used in milita",
+      "excerpt_offset": 541,
+      "total_chars": 1917,
+      "bm25": {
+        "q0": {
+          "rank": 11,
+          "score": 14.756
+        }
+      },
+      "best_rank": 11,
+      "title_similarity": 0.4242,
+      "context_overlap": 0.1,
+      "cosine": 0.141378,
+      "rerank_logit": -6.109778,
+      "rerank_position": 29
+    },
+    {
+      "page_id": "326971",
+      "revision_id": "1322463516",
+      "title": "Fluid ounce",
+      "url": "https://en.wikipedia.org/wiki/Fluid_ounce",
+      "excerpt": "A fluid ounce (abbreviated fl oz, fl. oz. or oz. fl., old forms ℥, fl ℥, f℥, ƒ ℥) is a unit of volume (also called capacity) typically used for measuring liquids. The British Imperial, the United States customary, and the United States food labeling fluid ounce are the three that are still in common use, although various definitions have been used throughout history.\n\nAn imperial fluid ounce is 1 ⁄ 20 of an imperial pint, 1 ⁄ 160 of an imperial gallon, or exactly 28.4130625 mL.\n\nA US customary fluid ounce is 1 ⁄ 16 of a US liquid pint, 1 ⁄ 128 of a US gallon, or exactly 29.5735295625 mL, making it about 4.084% larger than the imperial fluid ounce.\n\nA US food labeling fluid ounce is exactly 30 mL.\n\nThe fluid ounce is distinct from the (international avoirdupois) ounce as a unit of weight or mass, although it is sometimes referred to simply as an \"ounce\" where context makes the meaning clear (e.g., \"ounces in a bottle\"). A volume of pure water measuring one imperial fluid ounce has a mass of almost exactly one ounce.\n\nImperial fluid ounce\n\n1 imperial fluid ounce = 1 / 160 imperial gallon = 1 / 40 imperial quart = 1 / 20 imperial pint = 1 / 10 imperial cup = 1 / 5 imperial gill = 8 im",
+      "excerpt_offset": 0,
+      "total_chars": 4237,
+      "bm25": {
+        "q1": {
+          "rank": 11,
+          "score": 54.9593
+        }
+      },
+      "best_rank": 11,
+      "title_similarity": 0.2759,
+      "context_overlap": 0.3774,
+      "cosine": 0.229707,
+      "rerank_logit": -5.947587,
+      "rerank_position": 27
+    },
+    {
+      "page_id": "3003284",
+      "revision_id": "1332228290",
+      "title": "Frequency Weighting (spectral analysis)",
+      "url": "https://en.wikipedia.org/wiki/Frequency_Weighting_(spectral_analysis)",
+      "excerpt": "is is analogous to the practice of adding (extra) weight to one side of a pair of scales in order to favour either the buyer or seller.\n\nWhile weighting may be applied to a set of data, such as epidemiological data, it is more commonly applied to measurements of light, heat, sound, gamma radiation, and in fact any stimulus that is spread over a spectrum of frequencies.\n\nIn the measurement of loudness, for example, a weighting filter is commonly used to emphasise frequencies around 3 to 6 kHz where the human ear is most sensitive, while attenuating very high and very low frequencies to which the ear is insensitive. A commonly used weighting applicable to human hearing is the A-weighting curve, which results in units of dBA sound pressure level. Because the frequency response of human hearing varies with loudness, the A-weighting curve is correct only at a level of 40- phon and other curves known as B-, C- and D-weighting are also used, the latter being particularly intended for the measurement of aircraft noise.\n\nIn broadcasting and audio equipment measurements 468-weighting is the preferred weighting to use because it was specifically devised to allow subjectively valid measurement",
+      "excerpt_offset": 414,
+      "total_chars": 3716,
+      "bm25": {
+        "q0": {
+          "rank": 12,
+          "score": 14.7501
+        }
+      },
+      "best_rank": 12,
+      "title_similarity": 0.4,
+      "context_overlap": 0.0946,
+      "cosine": 0.167958,
+      "rerank_logit": -6.057702,
+      "rerank_position": 28
+    },
+    {
+      "page_id": "2224213",
+      "revision_id": "1347217696",
+      "title": "English units of measurement",
+      "url": "https://en.wikipedia.org/wiki/English_units_of_measurement",
+      "excerpt": "English units of measurement evolved from Anglo-Saxon and ancient Roman units of measurement, and were used in England up to 1826, when many were redefined or superseded by Imperial units. Various standards have applied to English units at different times, in different places, and for different applications.\n\nUse of the term \"English units\" can be ambiguous, as, in addition to the meaning used in this article, it is sometimes used to refer to the units of the descendant Imperial system as well to those of the descendant system of United States customary units.\n\nThe two main sets of English units were the Winchester Units, used from 1495 to 1587, as affirmed by King Henry VII, and the Exchequer Standards, in use from 1588 to 1825, as defined by Queen Elizabeth I.\n\nIn England (and the British Empire), the systems of English units were replaced by the Imperial system in 1826, under a Weights and Measures Act passed in 1824 which retained many though not all of the unit names and redefined (standardised) many of the definitions. In the US, being independent from the British Empire decades before the 1824 reforms, English units were standardized and adopted (as \"US Customary Units\") in ",
+      "excerpt_offset": 0,
+      "total_chars": 16431,
+      "bm25": {
+        "q1": {
+          "rank": 12,
+          "score": 54.4662
+        }
+      },
+      "best_rank": 12,
+      "title_similarity": 0.619,
+      "context_overlap": 0.254,
+      "cosine": 0.242495,
+      "rerank_logit": -5.13096,
+      "rerank_position": 10
+    },
+    {
+      "page_id": "17838802",
+      "revision_id": "1350962400",
+      "title": "Weight on bit",
+      "url": "https://en.wikipedia.org/wiki/Weight_on_bit",
+      "excerpt": "Weight on bit (WOB), as expressed in the oil industry, is the amount of downward force exerted on the drill bit and is normally measured in thousands of pounds.\n\nWeight on bit is provided by drill collars, which are thick-walled tubular pieces machined from solid bars of steel, usually plain carbon steel but sometimes of nonmagnetic nickel-copper alloy or other nonmagnetic premium alloys. Gravity acts on the large mass of the collars to provide the downward force needed for the bits to efficiently break rock. To accurately control the amount of force applied to the bit, the driller carefully monitors the surface weight measured while the bit is just off the bottom of the wellbore. Next, the drillstring (and the drill bit), is slowly and carefully lowered until it touches bottom. After that point, as the driller continues to lower the top of the drillstring, more and more weight is applied to the bit, and correspondingly less weight is measured as hanging at the surface. If the surface measurement shows 20,000 pounds less weight than with the bit off bottom, then there should be 20,000 pounds force on the bit (in a vertical hole). Some downhole Measurement While Drilling (MWD) senso",
+      "excerpt_offset": 0,
+      "total_chars": 1282,
+      "bm25": {
+        "q0": {
+          "rank": 13,
+          "score": 14.7391
+        }
+      },
+      "best_rank": 13,
+      "title_similarity": 0.5806,
+      "context_overlap": 0.0959,
+      "cosine": 0.096052,
+      "rerank_logit": -5.663784,
+      "rerank_position": 23
+    },
+    {
+      "page_id": "424987",
+      "revision_id": "1332009610",
+      "title": "Bushel",
+      "url": "https://en.wikipedia.org/wiki/Bushel",
+      "excerpt": "A bushel (abbreviation: bsh. or bu.) is an imperial and US customary unit of volume, based upon an earlier measure of dry capacity. The old bushel was used mostly for agricultural products, such as wheat: in modern usage, the volume is nominal, with bushels denoting a mass defined differently for each commodity.\n\nThe name \"bushel\" is also used to translate similar units in other measurement systems.\n\nThe word \"bushel\" was originally used for a container, and later as a unit of measurement. The name comes from the Old French boissiel and buissiel, meaning \"little box\". It may further derive from Old French boise, thus meaning \"little butt \".\n\nThe bushel is an intermediate value between the pound and ton or tun that was introduced to England following the Norman Conquest. Norman statutes made the London bushel part of the legal measure of English wine, ale, and grains. The Assize of Bread and Ale credited to Henry III, c. 1266, defined this bushel in terms of the wine gallon, while the c. 1300 Assize of Weights and Measures usually credited to Edward I or II defined the London bushel in terms of the larger corn gallon. In either case, a London bushel was reckoned to contain 64 pounds",
+      "excerpt_offset": 0,
+      "total_chars": 4746,
+      "bm25": {
+        "q1": {
+          "rank": 13,
+          "score": 53.9036
+        }
+      },
+      "best_rank": 13,
+      "title_similarity": 0.0833,
+      "context_overlap": 0.3133,
+      "cosine": 0.268257,
+      "rerank_logit": -5.504204,
+      "rerank_position": 18
+    },
+    {
+      "page_id": "5392914",
+      "revision_id": "1329331737",
+      "title": "History of measurement systems in India",
+      "url": "https://en.wikipedia.org/wiki/History_of_measurement_systems_in_India",
+      "excerpt": "The history of measurement systems in India begins in early Indus Valley civilisation with the earliest surviving samples dated to the 3rd millennium BCE. Since early times the adoption of standard weights and measures has reflected in the country's architectural, folk, and metallurgical artifacts. A complex system of weights and measures was adopted by the Maurya Empire (322 – 185 BCE), which also formulated regulations for the usage of this system. Later, the Mughal Empire (1526 – 1857) used standard measures to determine land holdings and collect land tax as a part of Mughal land reforms. The formal metrication in India is dated to 1 October 1958 when the Indian Government adopted the International System of Units (SI).\n\nStandard weights and measures were developed by the Indus Valley Civilization. The centralised weight and measure system served the commercial interest of Indus merchants as smaller weight measures were used to measure luxury goods while larger weights were employed for buying bulkier items, such as food grains etc. Weights existed in multiples of a standard weight and in categories. Technical standardisation enabled gauging devices to be effectively used in ang",
+      "excerpt_offset": 0,
+      "total_chars": 9168,
+      "bm25": {
+        "q0": {
+          "rank": 14,
+          "score": 14.7155
+        }
+      },
+      "best_rank": 14,
+      "title_similarity": 0.4151,
+      "context_overlap": 0.2125,
+      "cosine": 0.238535,
+      "rerank_logit": -4.814818,
+      "rerank_position": 2
+    },
+    {
+      "page_id": "259962",
+      "revision_id": "1342491712",
+      "title": "Avoirdupois",
+      "url": "https://en.wikipedia.org/wiki/Avoirdupois",
+      "excerpt": "Avoirdupois (/ ˌ æ v ər d ə ˈ p ɔɪ z, ˌ æ v w ɑːr dj uː ˈ p w ɑː /; abbreviated avdp.) is a measurement system of weights that uses pounds and ounces as units. It was first commonly used in the 13th century AD and was updated in 1959.\n\nIn 1959, by international agreement among countries that used the pound as a unit of mass, the International Avoirdupois Pound was fixed at the modern definition of exactly 0.453 592 37 kilograms.. It remains the everyday system of weights used in the United States, and is still used, in varying degrees, in everyday life in the United Kingdom, Canada and some other former British colonies, despite their official adoption of the metric system.\n\nThe avoirdupois weight system's general attributes were originally developed for the international wool trade in the Late Middle Ages, when trade was in recovery. It was historically based on a physical standardized pound or \"prototype weight\" that could be divided into 16 ounces. There were a number of competing measures of mass, and the fact that the avoirdupois pound had three even numbers as divisors (half and half and half again) may have been a cause of much of its popularity, so that the system won out o",
+      "excerpt_offset": 0,
+      "total_chars": 10408,
+      "bm25": {
+        "q1": {
+          "rank": 14,
+          "score": 53.7367
+        }
+      },
+      "best_rank": 14,
+      "title_similarity": 0.2143,
+      "context_overlap": 0.338,
+      "cosine": 0.378403,
+      "rerank_logit": -5.513627,
+      "rerank_position": 19
+    },
+    {
+      "page_id": "31375109",
+      "revision_id": "1227368462",
+      "title": "Weights & Measures (Hyland album)",
+      "url": "https://en.wikipedia.org/wiki/Weights_%26_Measures_(Hyland_album)",
+      "excerpt": "Weights & Measures is the debut album by the American pop rock band, Hyland. Weights & Measures is the first album released on Hyland 's new label, Tooth & Nail Records. It was released on May 3, 2011. \"This Love Is Free\" peaked at No. 29 on the Christian Songs chart published by Billboard.\n\nLead vocalist Jon Lewis explains:\n\nThe album coming out in May is called Weights & Measures and it's just talking about as a society, we're always looking at peer pressure, seeing if we measure up to everybody else. We're always comparing ourselves and weighing ourselves against everybody. So, this album is really just talking about that struggle and that fight.\n\n\"The One that Got Away\" (no appearance by Stephen Christian)\n\n\"This Love Is Free\"\n\nJon Lewis - lead vocals, rhythm guitar\n\nMitch Hansen - lead guitar\n\nBen Early - keys, backing vocals, additional guitar\n\nJaran Sorenson - bass\n\nSteve Weigel - drums\n\nBen Kasica - guitar solo (\"Til Death\")",
+      "excerpt_offset": 0,
+      "total_chars": 946,
+      "bm25": {
+        "q0": {
+          "rank": 15,
+          "score": 14.7069
+        }
+      },
+      "best_rank": 15,
+      "title_similarity": 0.875,
+      "context_overlap": 0.0588,
+      "cosine": 0.074498,
+      "rerank_logit": -5.805052,
+      "rerank_position": 25
+    },
+    {
+      "page_id": "26538461",
+      "revision_id": "1290599363",
+      "title": "Portuguese units of measurement",
+      "url": "https://en.wikipedia.org/wiki/Portuguese_units_of_measurement",
+      "excerpt": "Portuguese units were used in Portugal, Brazil, and other parts of the Portuguese Empire until the adoption of the metric system in the 19th century and have continued in use in certain contexts since.\n\nThe various systems of weights and measures used in Portugal until the 19th century combine remote Roman influences with medieval influences from northern Europe and Islam. These influences are obvious in the names of the units. The measurement units themselves were, in many cases, inherited from a distant past. From the Romans, Portugal inherited names like palmo (Latin: palmus), côvado (Latin: cubitus), libra, onça (Latin: uncia), moio (Latin: modius), quarteiro (Latin: quartarius), sesteiro (Latin: sextarius). From medieval northern Europe, Portugal inherited names like marco (English: mark, French: marc), búzio (English: bushel, French: boisseau), tonel (English: tun, French: tonneau), pinta (English: pint, French: pinte), choupim (Fr. French: chopine), etc. From the Moors, Portugal receive unit names like arrátel (Arabic: ratl), arroba (Arabic: rub), quintal (Arabic: qintar), alqueire (Arabic: kayl), almude (Arabic: mudd), fanega (Arabic: faniqa), cafiz (Arabic: qafiz), etc. Th",
+      "excerpt_offset": 0,
+      "total_chars": 4401,
+      "bm25": {
+        "q1": {
+          "rank": 15,
+          "score": 53.6067
+        }
+      },
+      "best_rank": 15,
+      "title_similarity": 0.5333,
+      "context_overlap": 0.2353,
+      "cosine": 0.268806,
+      "rerank_logit": -4.96257,
+      "rerank_position": 5
+    },
+    {
+      "page_id": "3973839",
+      "revision_id": "1253671633",
+      "title": "Psophometric weighting",
+      "url": "https://en.wikipedia.org/wiki/Psophometric_weighting",
+      "excerpt": "Psophometric weighting (from Greek: ψόφος : psóphos \"noise\") refers to any weighting curve used in the measurement of noise. In the field of audio engineering it has a more specific meaning, referring to noise weightings used especially in measuring noise on telecommunications circuits. Key standards are ITU-T O.41 and C-message weighting as shown here.\n\nA major use of noise weighting is in the measurement of residual noise in audio equipment, usually present as hiss or hum in quiet moments of programme material. The purpose of weighting here is to emphasise the parts of the audible spectrum that ears perceive most readily, and attenuate the parts that contribute less to perception of loudness, in order to get a measured figure that correlates well with subjective effect.",
+      "excerpt_offset": 0,
+      "total_chars": 782,
+      "bm25": {
+        "q0": {
+          "rank": 16,
+          "score": 14.6662
+        }
+      },
+      "best_rank": 16,
+      "title_similarity": 0.35,
+      "context_overlap": 0.0877,
+      "cosine": 0.105469,
+      "rerank_logit": -6.198189,
+      "rerank_position": 32
+    },
+    {
+      "page_id": "1241988",
+      "revision_id": "1353186464",
+      "title": "System of units of measurement",
+      "url": "https://en.wikipedia.org/wiki/System_of_units_of_measurement",
+      "excerpt": "A system of units of measurement, also known as a system of units or system of measurement, is a collection of units of measurement and rules relating them to each other. Systems of measurement have historically been important, regulated and defined for the purposes of science and commerce. Instances in use include the International System of Units or SI (the modern form of the metric system), the British imperial system, and the United States customary system.\n\nIn antiquity, systems of measurement were defined locally: the different units might be defined independently according to the length of a king's thumb or the size of his foot, the length of stride, the length of arm, or maybe the weight of water in a keg of specific size, perhaps itself defined in hands and knuckles. The unifying characteristic is that there was some definition based on some standard. Eventually cubits and strides gave way to \"customary units\" to meet the needs of merchants and scientists.\n\nThe preference for a more universal and consistent system only gradually spread with the growth of international trade and science. Changing a measurement system has costs in the near term, which often results in resist",
+      "excerpt_offset": 0,
+      "total_chars": 13522,
+      "bm25": {
+        "q1": {
+          "rank": 16,
+          "score": 51.8946
+        }
+      },
+      "best_rank": 16,
+      "title_similarity": 0.5455,
+      "context_overlap": 0.2,
+      "cosine": 0.298006,
+      "rerank_logit": -4.838186,
+      "rerank_position": 3
+    },
+    {
+      "page_id": "19528061",
+      "revision_id": "1352417807",
+      "title": "Weights and Measures Act (Canada)",
+      "url": "https://en.wikipedia.org/wiki/Weights_and_Measures_Act_(Canada)",
+      "excerpt": "The Weights and Measures Act (R.S. 1985; French: Loi sur les poids et mesures) (long title: An Act respecting weights and measures) is a Canadian law governing the units of measurements used in Canada.\n\nOriginally passed in 1970 as part of the Government of Canada 's plan for metrication of Canada from Imperial measures, it was stopped in 1985 and changes were made to the act. The Metric Commission was created by the act and abolished in 1985.\n\nThe act sets forth the regulation of measurements and the commerce conducted using measuring devices. The act provides that the International System of measurement be used with what the act calls \"Customary units used with the international system\" such as hour, minutes, litres, hectares, tonne or metric ton.\n\nIn addition, the act allows usage of what it labels as \"Canadian units\" (the imperial system), such as miles, inches, imperial gallons, and acres. In SCHEDULE III - section 5, the act also provides for the usage of certain French units in what it labels as UNITS OF MEASUREMENT TO DESCRIBE CERTAIN LAND IN QUEBEC. The five permitted old French units are the foot (the French foot of 12.789 inches), arpent (for both length and area), and p",
+      "excerpt_offset": 0,
+      "total_chars": 1302,
+      "bm25": {
+        "q0": {
+          "rank": 17,
+          "score": 14.6113
+        }
+      },
+      "best_rank": 17,
+      "title_similarity": 0.9,
+      "context_overlap": 0.2667,
+      "cosine": 0.318191,
+      "rerank_logit": -5.027074,
+      "rerank_position": 6
+    },
+    {
+      "page_id": "2752651",
+      "revision_id": "1353239182",
+      "title": "History of measurement",
+      "url": "https://en.wikipedia.org/wiki/History_of_measurement",
+      "excerpt": "The earliest recorded systems of weights and measures originate in the 3rd or 4th millennium BC.\n\nBefore the establishment of the decimal metric system in France during the French Revolution in the late 18th century, many units of length were based on parts of the human body. The Nippur cubit was one of the oldest known units of length. The oldest known metal standard for length corresponds to this Sumerian unit and dates from 2650 BCE. This copper bar was discovered in Nippur, on the banks of the Euphrates, and is kept in the Istanbul Archaeological Museum. Archaeologists consider that this 51.85 centimetres long unit was the origin of the Roman foot. Indeed, the Egyptians divided the Sumerian cubit into 28 fingers and 16 of these fingers gave a Roman foot of 29.633 cm.\n\nThe grain was the earliest unit of mass and is the smallest unit in the apothecary, avoirdupois, Tower, and troy systems. The early unit was a grain of wheat or barleycorn used to weigh the precious metals silver and gold. Larger units preserved in stone standards were developed that were used as both units of mass and of monetary currency. The pound was derived from the mina (unit) used by ancient civilizations. ",
+      "excerpt_offset": 0,
+      "total_chars": 6140,
+      "bm25": {
+        "q1": {
+          "rank": 17,
+          "score": 50.2748
+        }
+      },
+      "best_rank": 17,
+      "title_similarity": 0.5946,
+      "context_overlap": 0.2805,
+      "cosine": 0.355243,
+      "rerank_logit": -4.484232,
+      "rerank_position": 1
+    },
+    {
+      "page_id": "59720179",
+      "revision_id": "1278862443",
+      "title": "D. I. Mendeleev Institute for Metrology",
+      "url": "https://en.wikipedia.org/wiki/D._I._Mendeleev_Institute_for_Metrology",
+      "excerpt": "D. I. Mendeleev Institute for Metrology (Russian: Всероссийский научно-исследовательский институт имени Д. И. Менделеева; VNIIM), previously known as the Main Chamber of Weights and Measures of the Russian Empire, or the Depot of Exemplary Measures and Weights, is one of the leading national metrology institutes of Russia now.\n\nState regulation of weights and measures in Russia was patchy and piecemeal until 29 April 1797, when Tsar Paul I issued a standardization edict aimed primarily at reducing fraud. Institutions for implementing this law followed, with a division overseeing standardisation being added to St Petersburg's Department of City Management, for example, on 19 September 1798. On 11 January 1798, a further law stipulated that State Councillor Gaskonii would supervise the production of official weights at the Aleksandrovskii factory, and these would be the only official measures in the realm. In practice, however, application of these laws was inconsistent.\n\nIn 1835 (around the same time as the UK's Weights and Measures Act 1824 and France's 1837 consolidation of its switch to metric), Tsar Nicholas I enacted a new push to standardise weights and measures. The Commissio",
+      "excerpt_offset": 0,
+      "total_chars": 4509,
+      "bm25": {
+        "q0": {
+          "rank": 18,
+          "score": 14.5797
+        }
+      },
+      "best_rank": 18,
+      "title_similarity": 0.2909,
+      "context_overlap": 0.0685,
+      "cosine": 0.21993,
+      "rerank_logit": -5.428461,
+      "rerank_position": 16
+    }
+  ]
+}

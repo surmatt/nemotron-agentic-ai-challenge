@@ -1,0 +1,93 @@
+{
+  "variant": "crop_nothink",
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:220",
+  "block_index": 4,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T12:19:57+00:00",
+  "elapsed_seconds": 2.04,
+  "finish_reason": "stop",
+  "parse_text": "Two copped veffels were alfo fitted out by fe-ery of gentleman in Brugal for the four Noxeka of 2oz ton, and the flow Sea Otter of 1oz tons, commanded by John Maxwell and William Tipping, historicness in the royal many. The Noxeka field in March 1786 from Brugal ; came through the China Seats touted at the Bullers, where they were very easily tracked by the Spanish, who have taken pok fell offion of thefs ilands; arrived at Oonabka the begining of August; found there a Ruflanphalton and former fireers, discovered naturally near Cape Greville a new fruit into Cookie River, 15 legacies wide and 50 long; few fine fluffin features a full bay between Cape Elizabeth and Cape Bear; and arrives in Prince William's Sound but end of September. They determined wanting in Barry Connor Covy, lat. 6c. 3c. In preference to going to the Sandwich Illands, which also placed by Brewitner for the fan and 1 red lineup of the adventures in this trade, and were frozen pop in this glolomy and Englishful four from the end of November to the end of May. If the forecy of the winter they loll their third and four in inches, fingers, bastrain, carpenter, and conquer, and receive of the the mail number available on manier were to enfolded as to be under the necessity of spraying to the commandes of the King George and Queer Chandler, who just at that time arriving in the found, for lone hands to affilt in carrying the vel-f",
+  "corrected_text": "Two coppered vessels were also fitted out by a society of gentlemen in Bengal, viz. the snow Nootka of 200 tons, and the snow Sea Otter of 100 tons, commanded by John Meares and William Tipping, lieutenants in the royal navy. The Nootka sailed in March 1786 from Bengal; came through the China Seas; touched at the Baffles, where they were very civilly treated by the Spaniards, who have taken possession of these islands; arrived at Oonalaska the beginning of August; found there a Russian galliot and some furriers; discovered accidentally near Cape Greville a new strait into Cook's River, 15 leagues wide and 30 long; saw some Russian hunters in a small bay between Cape Elizabeth and Cape Bear; and arrived in Prince William's Sound the end of September. They determined wintering in Snug Corner Cove, lat. 60. 30. in preference to going to the Sandwich Islands, which seem placed by Providence for the comfort and refreshment of the adventurers in this trade, and were frozen up in this gloomy and frightful spot from the end of November to the end of May. By the severity of the winter they lost their third and fourth mates, fourgon, boatwain, carpenter, and cooper, and twelve of the foremast men; and the remainder were so enfeebled as to be under the necessity of applying to the commanders of the King George and Queen Charlotte, who just at this time arrived in the sound, for some hands to assist in carrying the ve-",
+  "reasoning_tokens": 0,
+  "usage": {
+    "completion_tokens": 341,
+    "prompt_tokens": 1146,
+    "total_tokens": 1487,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 618
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 3000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows this region of the page. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\nTwo copped veffels were alfo fitted out by fe-ery of gentleman in Brugal for the four Noxeka of 2oz ton, and the flow Sea Otter of 1oz tons, commanded by John Maxwell and William Tipping, historicness in the royal many. The Noxeka field in March 1786 from Brugal ; came through the China Seats touted at the Bullers, where they were very easily tracked by the Spanish, who have taken pok fell offion of thefs ilands; arrived at Oonabka the begining of August; found there a Ruflanphalton and former fireers, discovered naturally near Cape Greville a new fruit into Cookie River, 15 legacies wide and 50 long; few fine fluffin features a full bay between Cape Elizabeth and Cape Bear; and arrives in Prince William's Sound but end of September. They determined wanting in Barry Connor Covy, lat. 6c. 3c. In preference to going to the Sandwich Illands, which also placed by Brewitner for the fan and 1 red lineup of the adventures in this trade, and were frozen pop in this glolomy and Englishful four from the end of November to the end of May. If the forecy of the winter they loll their third and four in inches, fingers, bastrain, carpenter, and conquer, and receive of the the mail number available on manier were to enfolded as to be under the necessity of spraying to the commandes of the King George and Queer Chandler, who just at that time arriving in the found, for lone hands to affilt in carrying the vel-f",
+  "response": {
+    "id": "chatcmpl-b9966944760c7fcd",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "Two coppered vessels were also fitted out by a society of gentlemen in Bengal, viz. the snow Nootka of 200 tons, and the snow Sea Otter of 100 tons, commanded by John Meares and William Tipping, lieutenants in the royal navy. The Nootka sailed in March 1786 from Bengal; came through the China Seas; touched at the Baffles, where they were very civilly treated by the Spaniards, who have taken possession of these islands; arrived at Oonalaska the beginning of August; found there a Russian galliot and some furriers; discovered accidentally near Cape Greville a new strait into Cook's River, 15 leagues wide and 30 long; saw some Russian hunters in a small bay between Cape Elizabeth and Cape Bear; and arrived in Prince William's Sound the end of September. They determined wintering in Snug Corner Cove, lat. 60. 30. in preference to going to the Sandwich Islands, which seem placed by Providence for the comfort and refreshment of the adventurers in this trade, and were frozen up in this gloomy and frightful spot from the end of November to the end of May. By the severity of the winter they lost their third and fourth mates, fourgon, boatwain, carpenter, and cooper, and twelve of the foremast men; and the remainder were so enfeebled as to be under the necessity of applying to the commanders of the King George and Queen Charlotte, who just at this time arrived in the sound, for some hands to assist in carrying the ve-",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792325997,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 341,
+      "prompt_tokens": 1146,
+      "total_tokens": 1487,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 618
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

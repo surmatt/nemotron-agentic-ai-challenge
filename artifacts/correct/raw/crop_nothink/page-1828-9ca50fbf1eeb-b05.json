@@ -1,0 +1,93 @@
+{
+  "variant": "crop_nothink",
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1828",
+  "block_index": 5,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T12:23:27+00:00",
+  "elapsed_seconds": 1.15,
+  "finish_reason": "stop",
+  "parse_text": "It appears to say, then, that objects are siblings or bears until _Jules._ When they are the natural signs and perpeutual concomitants of plausible sensations, or, at any rate, of some lively feeling or emotion to survive as some other senenties beings (or, secondly). When they are the arbitrary or accidental concomitants of such feelings (or, _Identity_. When they give some analogy or careful resemblance to things with which these conditions are necessarily connected. In endeavouring to illustrate the nature of these several relations, we shall be led to lay before our readers some proof that impact to its satisfaction of the truth of the general theory.",
+  "corrected_text": "It appears to us, then, that objects are sublime or beautiful, first, When they are the natural signs and perpetual concomitants of pleasurable sensations, or, at any rate, of some lively feeling or emotion in ourselves or in some other sentient beings; or, secondly, When they are the arbitrary or accidental concomitants of such feelings; or, thirdly, When they bear some analogy or fanciful resemblance to things with which these emotions are necessarily connected. In endeavouring to illustrate the nature of these several relations, we shall be led to lay before our readers some proofs that appear to us satisfactory of the truth of the general theory.",
+  "reasoning_tokens": 0,
+  "usage": {
+    "completion_tokens": 134,
+    "prompt_tokens": 637,
+    "total_tokens": 771,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 327
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 3000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows this region of the page. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\nIt appears to say, then, that objects are siblings or bears until _Jules._ When they are the natural signs and perpeutual concomitants of plausible sensations, or, at any rate, of some lively feeling or emotion to survive as some other senenties beings (or, secondly). When they are the arbitrary or accidental concomitants of such feelings (or, _Identity_. When they give some analogy or careful resemblance to things with which these conditions are necessarily connected. In endeavouring to illustrate the nature of these several relations, we shall be led to lay before our readers some proof that impact to its satisfaction of the truth of the general theory.",
+  "response": {
+    "id": "chatcmpl-a7ad588e02d7c3dc",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "It appears to us, then, that objects are sublime or beautiful, first, When they are the natural signs and perpetual concomitants of pleasurable sensations, or, at any rate, of some lively feeling or emotion in ourselves or in some other sentient beings; or, secondly, When they are the arbitrary or accidental concomitants of such feelings; or, thirdly, When they bear some analogy or fanciful resemblance to things with which these emotions are necessarily connected. In endeavouring to illustrate the nature of these several relations, we shall be led to lay before our readers some proofs that appear to us satisfactory of the truth of the general theory.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792326207,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 134,
+      "prompt_tokens": 637,
+      "total_tokens": 771,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 327
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

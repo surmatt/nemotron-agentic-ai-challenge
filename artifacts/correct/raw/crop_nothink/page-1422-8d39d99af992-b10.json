@@ -1,0 +1,93 @@
+{
+  "variant": "crop_nothink",
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1422",
+  "block_index": 10,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T12:22:35+00:00",
+  "elapsed_seconds": 2.35,
+  "finish_reason": "stop",
+  "parse_text": "Wars modern literature in a lefs flourishing flare; were the English and French language along with fewer tenents social, albidental, and philosophical compositions; we might perhaps infinit on it as ne-efficacy to give the boy, who is designed for a mercun-tile emplements, a classification function. At present this does not appear absolutely necellary; yet we do not perform to forbid it as improperly. Even the Elegantile members will never lead reason to repon, his he cannot, vying been introduced to the acquaintance of Plato and Cicero. But fall, of the circumnation of the parents, or any other part radios, should render it inconvenient to fend the young man who is intand- ed to trade in a few feebed to fluly the ancient languages, means may be really adopted to make up for his lofa. Confine him not to writing and accounts alone. Thief, though, appropriately useful to the mer-clans, have no great power to refrain the force of evil pallions, or to injure the mind with generous and written feminements. Though you burger him not with Latin and Greek, yet drive to injure him with a tale for deaf knowledge and for elegant literature. Some of the pureft and molt elegant of our posts, the excellent periodicals works which have appeared in new languages, facts as the Spectator, the Adventures, the Mirror, and the composition of our fresh blibrarians, together with tone of the belt translations of the claf-fas which are profits, that’s you may with great pro- pristry put into go-b hands. They will teach him how to think and realon jolly, and to express himself in conversation or in writing with coretherla and elegance, they shall online and publish his mind, and raife him above low and greats pleafures.” And as soon, who has any occasion to freak or write, ought to be entirely ignorant of the principles of grammar, you will",
+  "corrected_text": "Were modern literature in a less flourishing state; were the English and French languages adorned with fewer eminent poetical, historical, and philosophical compositions; we might perhaps insist on it as necessary to give the boy, who is designed for a mercantile employment, a classical education. At present this does not appear absolutely necessary; yet we do not presume to forbid it as improper. Even the merchant will scarce find reason to repent his having been introduced to the acquaintance of Plato and Cicero. But still, if the circumstances of the parent, or any other just reason, should render it inconvenient to send the young man who is intended for trade to a free school to study the ancient languages, means may be easily adopted to make up for his loss. Confine him not to writing and accounts alone. These, though particularly useful to the merchant, have no great power to restrain the force of evil passions, or to inspire the mind with generous and virtuous sentiments. Though you burden him not with Latin and Greek, yet strive to inspire him with a taste for useful knowledge and for elegant literature. Some of the purest and most elegant of our poets, the excellent periodical works which have appeared in our language, such as the Spectator, the Adventurer, the Mirror, and the compositions of our British historians, together with some of the best translations of the classics which we possess; these you may with great propriety put into his hands. They will teach him how to think and reason justly, and to express himself in conversation or in writing with correctness and elegance; they will refine and polish his mind, and raise him above low and gross pleasures. And as no man, who has any occasion to speak or write, ought to be entirely ignorant of the principles of grammar, you will",
+  "reasoning_tokens": 0,
+  "usage": {
+    "completion_tokens": 371,
+    "prompt_tokens": 1421,
+    "total_tokens": 1792,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 830
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 3000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows this region of the page. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\nWars modern literature in a lefs flourishing flare; were the English and French language along with fewer tenents social, albidental, and philosophical compositions; we might perhaps infinit on it as ne-efficacy to give the boy, who is designed for a mercun-tile emplements, a classification function. At present this does not appear absolutely necellary; yet we do not perform to forbid it as improperly. Even the Elegantile members will never lead reason to repon, his he cannot, vying been introduced to the acquaintance of Plato and Cicero. But fall, of the circumnation of the parents, or any other part radios, should render it inconvenient to fend the young man who is intand- ed to trade in a few feebed to fluly the ancient languages, means may be really adopted to make up for his lofa. Confine him not to writing and accounts alone. Thief, though, appropriately useful to the mer-clans, have no great power to refrain the force of evil pallions, or to injure the mind with generous and written feminements. Though you burger him not with Latin and Greek, yet drive to injure him with a tale for deaf knowledge and for elegant literature. Some of the pureft and molt elegant of our posts, the excellent periodicals works which have appeared in new languages, facts as the Spectator, the Adventures, the Mirror, and the composition of our fresh blibrarians, together with tone of the belt translations of the claf-fas which are profits, that’s you may with great pro- pristry put into go-b hands. They will teach him how to think and realon jolly, and to express himself in conversation or in writing with coretherla and elegance, they shall online and publish his mind, and raife him above low and greats pleafures.” And as soon, who has any occasion to freak or write, ought to be entirely ignorant of the principles of grammar, you will",
+  "response": {
+    "id": "chatcmpl-9aea6ee9bd2ee112",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "Were modern literature in a less flourishing state; were the English and French languages adorned with fewer eminent poetical, historical, and philosophical compositions; we might perhaps insist on it as necessary to give the boy, who is designed for a mercantile employment, a classical education. At present this does not appear absolutely necessary; yet we do not presume to forbid it as improper. Even the merchant will scarce find reason to repent his having been introduced to the acquaintance of Plato and Cicero. But still, if the circumstances of the parent, or any other just reason, should render it inconvenient to send the young man who is intended for trade to a free school to study the ancient languages, means may be easily adopted to make up for his loss. Confine him not to writing and accounts alone. These, though particularly useful to the merchant, have no great power to restrain the force of evil passions, or to inspire the mind with generous and virtuous sentiments. Though you burden him not with Latin and Greek, yet strive to inspire him with a taste for useful knowledge and for elegant literature. Some of the purest and most elegant of our poets, the excellent periodical works which have appeared in our language, such as the Spectator, the Adventurer, the Mirror, and the compositions of our British historians, together with some of the best translations of the classics which we possess; these you may with great propriety put into his hands. They will teach him how to think and reason justly, and to express himself in conversation or in writing with correctness and elegance; they will refine and polish his mind, and raise him above low and gross pleasures. And as no man, who has any occasion to speak or write, ought to be entirely ignorant of the principles of grammar, you will",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792326156,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 371,
+      "prompt_tokens": 1421,
+      "total_tokens": 1792,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 830
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "variant": "crop_nothink",
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1298",
+  "block_index": 2,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T12:22:13+00:00",
+  "elapsed_seconds": 2.92,
+  "finish_reason": "stop",
+  "parse_text": "but as this did not exceed L.100 per annum, he found it insuficient for the maintenance of a numerous family, and endeavored to improve his circumstances by dealing in central mailn. This instructional trade proved, let is often does, only a means of more deeply involving his affairs; and lie died in 1756, leaving a whole way to children in a very distressed situation. Mrz Edwards, however had two spoken brothers in the West Indies, the eldest of whom, Zachary Bayly, possessing a pricely fortune, and being of a very amable and generous disposition, undertook the support and education of young Edwards. He had already been placed by the father at the end of M. Foot, a dissenting ciergyman at Bristol, where he had been taught the eleventry branches of educators, but, for some reason which he never was able to divine, that person was strictly prohibited from initiating him in any business of classical learning. He gave a specific of his structure, however, no usual in schools, and from which his pupil probably derived the greatest benefits. He were accused to make the boys wrist letters or rather essays, on various subjects, such as the beauty and digity of truth, the obligations to a religious life, the founder of good education, and that like, giving them, where it appeared necesery, an outline of the arguments which might be employed in the subject. When the papers were gone in, he made such observations as appeared proper, insisting at least that they should be corrected in point of grammar and orthography. These exercises gave occasion to display the superior talent of Edwards, whose powers of elegant composition already begun to appear. He also went became the favorite of his master, who liberally praised these youtubeful performances, and other transused them for the gratification of his parents. They were entirely satisfied, but when the care of his education devolved on his uncle, the spent employed by hisan Bristol was sent out surprised to find an entire deficiency in classial language, and imputing the blame to the master, removed him impelable by oa French buring school in the states, remove him impelable by oa French buring school about the States. Like not said that the acquired here any great portion of Greek and Latin, but he became master of the French language, and having access to an extensive circulating library, cultivated a taste for reading which adhered to him throughout the whole of his future.",
+  "corrected_text": "but as this did not exceed L.100 per annum, he found it insufficient for the maintenance of a numerous family, and endeavoured to improve his circumstances by dealing in corn and malt. This hazardous trade proved, as it often does, only a means of more deeply involving his affairs; and he died in 1756, leaving a widow and six children in a very distressed situation. Mrs Edwards, however, had two opulent brothers in the West Indies, the eldest of whom, Zachary Bayly, possessing a princely fortune, and being of a very amiable and generous disposition, undertook the support and education of young Edwards. He had already been placed by his father at the school of Mr Foot, a dissenting clergyman at Bristol, where he had been taught the elementary branches of education; but, for some reason which he never was able to divine, that person was strictly prohibited from initiating him in any branches of classical learning. He gave a species of instruction, however, not usual in schools, and from which his pupil probably derived the greatest benefit. He was accustomed to make the boys write letters, or rather essays, on various subjects, such as the beauty and dignity of truth, the obligations to a religious life, the benefits of good education, and the like, giving them, where it appeared necessary, an outline of the arguments which might be employed on the subject. When the papers were given in, he made such observations as appeared proper, insisting at least that they should be correct in point of grammar and orthography. These exercises gave occasion to display the superior talents of Edwards, whose powers of elegant composition already began to appear. He soon became the favourite of his master, who liberally praised these youthful performances, and often transmitted them for the gratification of his parents. They were entirely satisfied; but when the care of his education devolved on his uncle, the agent employed by him at Bristol was much surprised to find an entire deficiency in classical knowledge, and, imputing the blame to the master, removed him immediately to a French boarding school in the same city. It is not said that he acquired here any great portion of Greek and Latin, but he became master of the French language, and having access to an extensive circulating library, cultivated a taste for reading which adhered to him throughout the whole of his future life.",
+  "reasoning_tokens": 0,
+  "usage": {
+    "completion_tokens": 484,
+    "prompt_tokens": 1740,
+    "total_tokens": 2224,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 1052
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 3000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows this region of the page. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\nbut as this did not exceed L.100 per annum, he found it insuficient for the maintenance of a numerous family, and endeavored to improve his circumstances by dealing in central mailn. This instructional trade proved, let is often does, only a means of more deeply involving his affairs; and lie died in 1756, leaving a whole way to children in a very distressed situation. Mrz Edwards, however had two spoken brothers in the West Indies, the eldest of whom, Zachary Bayly, possessing a pricely fortune, and being of a very amable and generous disposition, undertook the support and education of young Edwards. He had already been placed by the father at the end of M. Foot, a dissenting ciergyman at Bristol, where he had been taught the eleventry branches of educators, but, for some reason which he never was able to divine, that person was strictly prohibited from initiating him in any business of classical learning. He gave a specific of his structure, however, no usual in schools, and from which his pupil probably derived the greatest benefits. He were accused to make the boys wrist letters or rather essays, on various subjects, such as the beauty and digity of truth, the obligations to a religious life, the founder of good education, and that like, giving them, where it appeared necesery, an outline of the arguments which might be employed in the subject. When the papers were gone in, he made such observations as appeared proper, insisting at least that they should be corrected in point of grammar and orthography. These exercises gave occasion to display the superior talent of Edwards, whose powers of elegant composition already begun to appear. He also went became the favorite of his master, who liberally praised these youtubeful performances, and other transused them for the gratification of his parents. They were entirely satisfied, but when the care of his education devolved on his uncle, the spent employed by hisan Bristol was sent out surprised to find an entire deficiency in classial language, and imputing the blame to the master, removed him impelable by oa French buring school in the states, remove him impelable by oa French buring school about the States. Like not said that the acquired here any great portion of Greek and Latin, but he became master of the French language, and having access to an extensive circulating library, cultivated a taste for reading which adhered to him throughout the whole of his future.",
+  "response": {
+    "id": "chatcmpl-866c9491d8b67f3e",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "but as this did not exceed L.100 per annum, he found it insufficient for the maintenance of a numerous family, and endeavoured to improve his circumstances by dealing in corn and malt. This hazardous trade proved, as it often does, only a means of more deeply involving his affairs; and he died in 1756, leaving a widow and six children in a very distressed situation. Mrs Edwards, however, had two opulent brothers in the West Indies, the eldest of whom, Zachary Bayly, possessing a princely fortune, and being of a very amiable and generous disposition, undertook the support and education of young Edwards. He had already been placed by his father at the school of Mr Foot, a dissenting clergyman at Bristol, where he had been taught the elementary branches of education; but, for some reason which he never was able to divine, that person was strictly prohibited from initiating him in any branches of classical learning. He gave a species of instruction, however, not usual in schools, and from which his pupil probably derived the greatest benefit. He was accustomed to make the boys write letters, or rather essays, on various subjects, such as the beauty and dignity of truth, the obligations to a religious life, the benefits of good education, and the like, giving them, where it appeared necessary, an outline of the arguments which might be employed on the subject. When the papers were given in, he made such observations as appeared proper, insisting at least that they should be correct in point of grammar and orthography. These exercises gave occasion to display the superior talents of Edwards, whose powers of elegant composition already began to appear. He soon became the favourite of his master, who liberally praised these youthful performances, and often transmitted them for the gratification of his parents. They were entirely satisfied; but when the care of his education devolved on his uncle, the agent employed by him at Bristol was much surprised to find an entire deficiency in classical knowledge, and, imputing the blame to the master, removed him immediately to a French boarding school in the same city. It is not said that he acquired here any great portion of Greek and Latin, but he became master of the French language, and having access to an extensive circulating library, cultivated a taste for reading which adhered to him throughout the whole of his future life.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792326134,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 484,
+      "prompt_tokens": 1740,
+      "total_tokens": 2224,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 1052
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

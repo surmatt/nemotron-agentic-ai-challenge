@@ -1,0 +1,93 @@
+{
+  "variant": "crop_nothink",
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2524",
+  "block_index": 8,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T12:25:16+00:00",
+  "elapsed_seconds": 1.8,
+  "finish_reason": "stop",
+  "parse_text": "1 The following is his description of this monument of Hindus art--is--It stands in a square area of about forty English acres, enclosed by an enathalled wall, with estagaml towers at the angles, surrounded by my problems, and four very noble gardens of red genius, the palephol of which is inland with white marble, and has four high maybe minarets. The space within a limited with trees, and divided into groups, where the recreation buildings, which is next of solid pyramid, armonarily with disksters, galleries, and homes, diminishing gradually in ascending it, till it, ends in a square platform of white marble, surrounded by most elaborate latticeworks of the same material, in the center of which is a small later touch, also of white marble, carved with a delicacy and beauty which do full paths to the materials, and to the graceful forms of which characters, and form the chief come murd.",
+  "corrected_text": "The following is his description of this monument of Hindu art:—\"It stands in a square area of about forty English acres, enclosed by an embattled wall, with octagonal towers at the angles, surrounded by open pavilions, and four very noble gateways of red granite, the principal of which is inlaid with white marble, and has four high marble minarets. The space within is planted with trees, and divided into green alleys, leading to the central building, which is a sort of solid pyramid, surrounded externally with cloisters, galleries, and domes, diminishing gradually in ascending it, till it ends in a square platform of white marble, surrounded by most elaborate lattice-work of the same material, in the centre of which is a small altar tomb, also of white marble, carved with a delicacy and beauty which do full justice to the material, and to the graceful forms of Arabic characters, which form the chief orna-",
+  "reasoning_tokens": 0,
+  "usage": {
+    "completion_tokens": 196,
+    "prompt_tokens": 755,
+    "total_tokens": 951,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 386
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 3000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows this region of the page. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\n1 The following is his description of this monument of Hindus art--is--It stands in a square area of about forty English acres, enclosed by an enathalled wall, with estagaml towers at the angles, surrounded by my problems, and four very noble gardens of red genius, the palephol of which is inland with white marble, and has four high maybe minarets. The space within a limited with trees, and divided into groups, where the recreation buildings, which is next of solid pyramid, armonarily with disksters, galleries, and homes, diminishing gradually in ascending it, till it, ends in a square platform of white marble, surrounded by most elaborate latticeworks of the same material, in the center of which is a small later touch, also of white marble, carved with a delicacy and beauty which do full paths to the materials, and to the graceful forms of which characters, and form the chief come murd.",
+  "response": {
+    "id": "chatcmpl-9be093c1a2acf3eb",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "The following is his description of this monument of Hindu art:—\"It stands in a square area of about forty English acres, enclosed by an embattled wall, with octagonal towers at the angles, surrounded by open pavilions, and four very noble gateways of red granite, the principal of which is inlaid with white marble, and has four high marble minarets. The space within is planted with trees, and divided into green alleys, leading to the central building, which is a sort of solid pyramid, surrounded externally with cloisters, galleries, and domes, diminishing gradually in ascending it, till it ends in a square platform of white marble, surrounded by most elaborate lattice-work of the same material, in the centre of which is a small altar tomb, also of white marble, carved with a delicacy and beauty which do full justice to the material, and to the graceful forms of Arabic characters, which form the chief orna-",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792326317,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 196,
+      "prompt_tokens": 755,
+      "total_tokens": 951,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 386
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

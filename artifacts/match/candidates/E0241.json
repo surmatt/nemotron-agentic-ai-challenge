@@ -1,0 +1,709 @@
+{
+  "entry_id": "E0241",
+  "headword": "ERICA",
+  "entry_text_sha256": "7aff4e942dc257c200bdacca449a9860e51c634d67ec8779c76760bee3bb5a41",
+  "mode": "model",
+  "queries": [
+    "erica",
+    "erica heath leaved four botany genus octan dria monogynia class calix consists"
+  ],
+  "query_chars": 508,
+  "headword_variant": null,
+  "candidate_count": 32,
+  "list_pages_removed_after_fetch": [],
+  "decision": {
+    "status": "rejected",
+    "method": "nemotron_embed_rerank",
+    "thresholds": {
+      "rerank_logit": -10.0,
+      "margin": 0.5,
+      "cosine": 0.15,
+      "title_similarity": 0.0
+    },
+    "reason": "rerank_logit < -10.0, margin < 0.5, cosine < 0.15, or title_similarity < 0.0",
+    "page_id": "59594801",
+    "title": "List of Erica species",
+    "rerank_logit": -3.10985,
+    "cosine": 0.431474,
+    "margin_to_next": 0.100082,
+    "title_similarity": 0.4
+  },
+  "candidates": [
+    {
+      "page_id": "59594801",
+      "revision_id": "1323140401",
+      "title": "List of Erica species",
+      "url": "https://en.wikipedia.org/wiki/List_of_Erica_species",
+      "excerpt": "Erica (heaths or heathers) is a large genus of flowering trees, shrubs, and subshrubs most diverse in southern Africa but found throughout the continent and in Europe. They have been introduced to Australia and North America. Erica is the type genus of the heath family, Ericaceae. As of January 2019, there are over 850 accepted species in Kew 's Plants of the World Online.\n\nErica abbottii (E.G.H.Oliv.)\n\nErica abelii (E.G.H.Oliv.)\n\nErica abietina (L.)\n\nErica accommodata (Klotzsch ex Benth.)\n\nErica acuta (Andrews)\n\nErica adaequata (Tausch)\n\nErica adnata (L.Bolus)\n\nErica adunca (Benth.)\n\nErica aemula (Guthrie & Bolus)\n\nErica aestiva (Markötter)\n\nErica affinis (Benth.)\n\nErica afra (L.)\n\nErica afrorum (Bolus)\n\nErica agglutinans (E.G.H.Oliv.)\n\nErica aggregata (J.C.Wendl.)\n\nErica aghillana (Guthrie & Bolus)\n\nErica albens (L.)\n\nErica albertyniae (E.G.H.Oliv.)\n\nErica albescens (Klotzsch ex Benth.)\n\nErica albospicata (Hilliard & B.L.Burtt)\n\nErica alexandri (Guthrie & Bolus)\n\nErica alfredii (Guthrie & Bolus)\n\nErica algida (Bolus)\n\nErica alnea (E.G.H.Oliv.)\n\nErica alopecurus (Harv.)\n\nErica altevirens (H.A.Baker)\n\nErica alticola (Guthrie & Bolus)\n\nErica altiphila (E.G.H.Oliv.)\n\nErica amalophyll",
+      "excerpt_offset": 0,
+      "total_chars": 27312,
+      "bm25": {
+        "q0": {
+          "rank": 1,
+          "score": 14.7167
+        }
+      },
+      "best_rank": 1,
+      "title_similarity": 0.4,
+      "context_overlap": 0.0541,
+      "cosine": 0.431474,
+      "rerank_logit": -3.10985,
+      "rerank_position": 1
+    },
+    {
+      "page_id": "326115",
+      "revision_id": "1344604803",
+      "title": "Erica (plant)",
+      "url": "https://en.wikipedia.org/wiki/Erica_(plant)",
+      "excerpt": "Erica is a genus of roughly 857 species of flowering plants in the family Ericaceae. The English common names heath and heather are shared by some closely related genera of similar appearance. The genus Calluna was formerly included in Erica; it differs in having even smaller scale-leaves (less than 2–3 millimetres long), and the flower corolla consisting of separate petals. Erica is sometimes referred to as \"winter (or spring) heather\" to distinguish it from Calluna \"summer (or autumn) heather\".\n\nMost European species are dwarf shrubs, growing 20–80 cm tall. The largest are the tree heather (Erica arborea) and the broom heather (Erica scoparia), which can reach 6–10 meters.\n\nThe majority of the more than 750 African heather species occur in the Cape fynbosse of South Africa growing alongside proteas and other shrubs. Most South African species have long, disc-shaped flowers. In the Afromontane zones of East Africa, heather species that grow to several meters tall, such as Erica arborea and Erica rossii grow.\n\nMost of the species of Erica are small shrubs from 20–150 centimetres (8–59 inches) high, though some are taller; the tallest are E. arborea (tree heath) and E. scoparia (bes",
+      "excerpt_offset": 0,
+      "total_chars": 5554,
+      "bm25": {
+        "q0": {
+          "rank": 3,
+          "score": 14.5077
+        },
+        "q1": {
+          "rank": 1,
+          "score": 34.5774
+        }
+      },
+      "best_rank": 1,
+      "title_similarity": 1.0,
+      "context_overlap": 0.0897,
+      "cosine": 0.492073,
+      "rerank_logit": -3.209932,
+      "rerank_position": 2
+    },
+    {
+      "page_id": "65748463",
+      "revision_id": "1350745579",
+      "title": "List of Ericales of South Africa",
+      "url": "https://en.wikipedia.org/wiki/List_of_Ericales_of_South_Africa",
+      "excerpt": "The Ericales are a large, diverse and cosmopolitan order of dicotyledonous flowering plants, The order includes trees, bushes, lianas, and herbaceous plants. Together with ordinary autophytic plants, the Ericales include chlorophyll -deficient mycoheterotrophic plants (e.g., Sarcodes sanguinea) and carnivorous plants (e.g., genus Sarracenia). Many species have five petals, often grown together. Fusion of the petals as a trait was traditionally used to place the order in the subclass Sympetalae. Mycorrhizal associations are quite common among the order representatives, and three kinds of mycorrhiza are found exclusively among Ericales (namely, ericoid, arbutoid and monotropoid mycorrhiza). In addition, some families among the order are notable for their exceptional ability to accumulate aluminum. The entire order contains over 8,000 species, of which the Ericaceae account for 2,000-4,000 species (by various estimates).\n\nThe anthophytes are a grouping of plant taxa bearing flower-like reproductive structures. They were formerly thought to be a clade comprising plants bearing flower-like structures. The group contained the angiosperms - the extant flowering plants, such as roses and g",
+      "excerpt_offset": 0,
+      "total_chars": 85734,
+      "bm25": {
+        "q0": {
+          "rank": 2,
+          "score": 14.5772
+        }
+      },
+      "best_rank": 2,
+      "title_similarity": 0.2778,
+      "context_overlap": 0.0488,
+      "cosine": 0.302303,
+      "rerank_logit": -6.770646,
+      "rerank_position": 31
+    },
+    {
+      "page_id": "81226638",
+      "revision_id": "1323141717",
+      "title": "Erica taxifolia",
+      "url": "https://en.wikipedia.org/wiki/Erica_taxifolia",
+      "excerpt": "Erica taxifolia, the yew-leaved heath, is a plant belonging to the genus Erica. The species is endemic to the Western Cape.",
+      "excerpt_offset": 0,
+      "total_chars": 123,
+      "bm25": {
+        "q1": {
+          "rank": 2,
+          "score": 33.0376
+        }
+      },
+      "best_rank": 2,
+      "title_similarity": 0.5,
+      "context_overlap": 0.4167,
+      "cosine": 0.295788,
+      "rerank_logit": -4.56878,
+      "rerank_position": 4
+    },
+    {
+      "page_id": "25122684",
+      "revision_id": "1334381465",
+      "title": "Erica spiculifolia",
+      "url": "https://en.wikipedia.org/wiki/Erica_spiculifolia",
+      "excerpt": "Erica spiculifolia, commonly known as spike heath or Balkan heath, is a species of plant in the Erica genus, native to southeastern Europe and northern Asia Minor. It is a dwarf evergreen shrub and heath-like plant to 10 in high. Leaves are dark green. The flowers are rose-pink and bell-shaped, appearing in terminal clusters in early summer. It was first identified in 1802.\n\nIt inhabits sub-alpine areas with acid soils up to 2,800 meters elevation in the mountains of southeastern Europe (Romania, Bulgaria, Bosnia and Herzegovina, Serbia, Montenegro, North Macedonia, Albania, and Greece) and northern Turkey.\n\nThe plant prefers sandy peat with lime-free. Propagate from seed, cuttings or division. It is suitable for rock gardens and borders.",
+      "excerpt_offset": 0,
+      "total_chars": 748,
+      "bm25": {
+        "q1": {
+          "rank": 3,
+          "score": 32.7406
+        }
+      },
+      "best_rank": 3,
+      "title_similarity": 0.4348,
+      "context_overlap": 0.0735,
+      "cosine": 0.353045,
+      "rerank_logit": -5.1316,
+      "rerank_position": 18
+    },
+    {
+      "page_id": "79439441",
+      "revision_id": "1323141527",
+      "title": "Erica quadrisulcata",
+      "url": "https://en.wikipedia.org/wiki/Erica_quadrisulcata",
+      "excerpt": "Erica quadrisulcata, the orange rock-heath, four-groove heath, or Swartkop heath, is a plant belonging to the genus Erica and is part of the fynbos. The species is endemic to the Western Cape. Here it occurs in the southern part of the Cape Peninsula on the mountain above Simon's Town. Here there is one population in an area of 12 km². The habitat is safe, it is still safe from invasive plants and is protected in the Table Mountain National Park. The plant is considered rare.",
+      "excerpt_offset": 0,
+      "total_chars": 480,
+      "bm25": {
+        "q1": {
+          "rank": 4,
+          "score": 32.6445
+        }
+      },
+      "best_rank": 4,
+      "title_similarity": 0.4167,
+      "context_overlap": 0.1389,
+      "cosine": 0.342694,
+      "rerank_logit": -5.20165,
+      "rerank_position": 20
+    },
+    {
+      "page_id": "2181007",
+      "revision_id": "1323140660",
+      "title": "Erica carnea",
+      "url": "https://en.wikipedia.org/wiki/Erica_carnea",
+      "excerpt": "Erica carnea, the winter heath, winter-flowering heather, spring heath or alpine heath, is a species of flowering plant in the family Ericaceae, native to mountainous areas of central, eastern and southern Europe, where it grows in coniferous woodlands or stony slopes.\n\nIt is a low-growing, spreading subshrub reaching 10–25 centimetres (4–10 inches) tall, with evergreen needle-like leaves 4–8 millimetres (1 ⁄ 8 – 3 ⁄ 8 in) long, borne in whorls of four. The flowers are produced in racemes in late winter to early spring, often starting to flower while the plant is still covered in snow; the individual flower is a slender bell-shape, 4–6 mm (3 ⁄ 16 – 1 ⁄ 4 in) long, dark reddish-pink, rarely white.\n\nThe first published name for the species was Erica herbacea; however, the name E. carnea (published three pages later in the same book) is so widely used, and the earlier name so little, that a formal proposal to conserve the name E. carnea over E. herbacea was accepted by the International Botanical Congress in 1999.\n\nThe Latin specific epithet carnea means \"flesh pink\".\n\nErica carnea was being cultivated in the United Kingdom as early as 1763. It is very widely grown as an ornamental pl",
+      "excerpt_offset": 0,
+      "total_chars": 2094,
+      "bm25": {
+        "q1": {
+          "rank": 5,
+          "score": 32.5435
+        }
+      },
+      "best_rank": 5,
+      "title_similarity": 0.5882,
+      "context_overlap": 0.0568,
+      "cosine": 0.385811,
+      "rerank_logit": -5.116748,
+      "rerank_position": 17
+    },
+    {
+      "page_id": "81383363",
+      "revision_id": "1323140536",
+      "title": "Erica banksia",
+      "url": "https://en.wikipedia.org/wiki/Erica_banksia",
+      "excerpt": "Erica banksia, also known as Erica banksii, is a plant belonging to the genus Erica and forming part of the fynbos. The species is endemic to the Western Cape.\n\nThe plant also has three subspecies:\n\nErica banksia subsp. banksia\n\nErica banksia subsp. comptonii (T.M.Salter) E.G.H.Oliv. & I.M.Oliv.\n\nErica banksia subsp. purpurea (Andrews) E.G.H.Oliv. & I.M.Oliv.",
+      "excerpt_offset": 0,
+      "total_chars": 361,
+      "bm25": {
+        "q0": {
+          "rank": 6,
+          "score": 14.2645
+        }
+      },
+      "best_rank": 6,
+      "title_similarity": 0.5556,
+      "context_overlap": 0.1429,
+      "cosine": 0.216132,
+      "rerank_logit": -5.538612,
+      "rerank_position": 24
+    },
+    {
+      "page_id": "4710379",
+      "revision_id": "1329732221",
+      "title": "Erica ciliaris",
+      "url": "https://en.wikipedia.org/wiki/Erica_ciliaris",
+      "excerpt": "Erica ciliaris, the dorset heath, is a species of flowering plant in the genus Erica.\n\nIt grows to 60 centimetres (24 inches), and has leaves 2–4 millimetres (1 ⁄ 16 – 3 ⁄ 16 in) long, with long, glandular hairs. The flowers are 8–12 mm (3 ⁄ 8 – 1 ⁄ 2 in) long, bright pink, and arranged in long racemes.\n\nErica ciliaris has a Lusitanian distribution, stretching from Morocco in the south, along the Atlantic coasts of Portugal, Spain and France to south-western parts of the British Isles in the north. In the British Isles, it is only found natively in Dorset, Devon, Cornwall and one location in County Galway, where it lives in bogs and wet heaths. It has also been introduced to Hampshire.\n\nE. ciliaris was voted the county flower of Dorset in 2002 following a poll by the wild flora conservation charity Plantlife.",
+      "excerpt_offset": 0,
+      "total_chars": 820,
+      "bm25": {
+        "q1": {
+          "rank": 6,
+          "score": 31.8206
+        }
+      },
+      "best_rank": 6,
+      "title_similarity": 0.5556,
+      "context_overlap": 0.1017,
+      "cosine": 0.386874,
+      "rerank_logit": -4.198444,
+      "rerank_position": 3
+    },
+    {
+      "page_id": "81225930",
+      "revision_id": "1329732632",
+      "title": "Erica lucida",
+      "url": "https://en.wikipedia.org/wiki/Erica_lucida",
+      "excerpt": "Erica lucida is a plant belonging to the genus Erica and is part of the fynbos. The species is endemic to the Western Cape.\n\nThe species has three varieties:\n\nErica lucida var. laxa (Kuntze) Bolus\n\nErica lucida var. lucida\n\nErica lucida var. pauciflora Bolus",
+      "excerpt_offset": 0,
+      "total_chars": 258,
+      "bm25": {
+        "q0": {
+          "rank": 7,
+          "score": 14.2602
+        }
+      },
+      "best_rank": 7,
+      "title_similarity": 0.5882,
+      "context_overlap": 0.1765,
+      "cosine": 0.243073,
+      "rerank_logit": -5.703909,
+      "rerank_position": 27
+    },
+    {
+      "page_id": "8132571",
+      "revision_id": "1059009040",
+      "title": "British NVC community H4",
+      "url": "https://en.wikipedia.org/wiki/British_NVC_community_H4",
+      "excerpt": "NVC community H4 (Ulex gallii - Agrostis curtisii heath) is one of the heath communities in the British National Vegetation Classification system. It is one of three communities which are considered transitional between the lowland dry heaths and the wetter communities classified in the NVC as mires.\n\nIt is a relatively localised community. There are four subcommunities.\n\nThe following constant species are found in this community:\n\nBristle Bent (Agrostis curtisii)\n\nHeather (Calluna vulgaris)\n\nBell Heather (Erica cinerea)\n\nCross-leaved Heath (Erica tetralix)\n\nPurple Moor-grass (Molinia caerulea)\n\nTormentil (Potentilla erecta)\n\nWestern Gorse (Ulex gallii)\n\nThe following rare species are associated with the community:\n\nBristle Bent (Agrostis curtisii)\n\nSoft-leaved Sedge (Carex montana)\n\nDorset Heath (Erica ciliaris)\n\nCornish Heath (Erica vagans)\n\nThis community is confined to southwest England, from Dorset and Somerset westwards, and the southern coastal region of Wales.\n\nThere are four subcommunities:\n\nthe Agrostis curtisii - Erica cinerea subcommunity\n\nthe Festuca ovina subcommunity\n\nthe Erica tetralix subcommunity\n\nthe Scirpus cespitosus subcommunity",
+      "excerpt_offset": 0,
+      "total_chars": 1168,
+      "bm25": {
+        "q1": {
+          "rank": 7,
+          "score": 31.7958
+        }
+      },
+      "best_rank": 7,
+      "title_similarity": 0.2143,
+      "context_overlap": 0.1351,
+      "cosine": 0.398681,
+      "rerank_logit": -4.871263,
+      "rerank_position": 14
+    },
+    {
+      "page_id": "81385515",
+      "revision_id": "1329732375",
+      "title": "Erica embothriifolia",
+      "url": "https://en.wikipedia.org/wiki/Erica_embothriifolia",
+      "excerpt": "Erica embothriifolia is a plant belonging to the genus Erica and forming part of the fynbos. The species is endemic to the Western Cape.\n\nThe species has three varieties:\n\nErica embothriifolia var. embothriifolia\n\nErica embothriifolia var. longiflora (Andrews) Bolus\n\nErica embothriifolia var. subaequalis Bolus",
+      "excerpt_offset": 0,
+      "total_chars": 311,
+      "bm25": {
+        "q0": {
+          "rank": 8,
+          "score": 14.256
+        }
+      },
+      "best_rank": 8,
+      "title_similarity": 0.4,
+      "context_overlap": 0.1667,
+      "cosine": 0.243237,
+      "rerank_logit": -5.512597,
+      "rerank_position": 23
+    },
+    {
+      "page_id": "28710777",
+      "revision_id": "1336092539",
+      "title": "Erica cerinthoides",
+      "url": "https://en.wikipedia.org/wiki/Erica_cerinthoides",
+      "excerpt": "Erica cerinthoides is a species of heath native to South Africa (the Cape Provinces, the Free State, KwaZulu-Natal, the Northern Provinces), Lesotho and Eswatini. Common names include fire erica, fire heath, red hairy heath, rooihaartjie or klipheide. Throughout its range the species shows marked variation in habit, flower characteristics and hairiness. A form with white flowers is found in Eswatini and the South African province of Mpumalanga while the variety E. cerinthoides var. barbertona has shorter flowers.\n\nErica cerinthoides is a variable plant over different parts of its range, varying in habit of growth, the hairiness of the leaves and the flowers, and the colour, size and shape of the flowers. Where it remains unburnt it can be a straggly bush over 1 metre (3 + 1 ⁄ 2 feet) tall, bare of leaves apart from a few extremities, and producing few flowers. Elsewhere it can be a compact small plant covered in blooms.\n\nThe Latin specific epithet cerinthoides means \"resembling honeywort (Cerinthe)\". The flowers bear a superficial resemblance to flowers of that genus in the family Boraginaceae, though it is only distantly related.\n\nE. cerinthoides is endemic to southern Africa. Its",
+      "excerpt_offset": 0,
+      "total_chars": 2085,
+      "bm25": {
+        "q1": {
+          "rank": 8,
+          "score": 30.7736
+        }
+      },
+      "best_rank": 8,
+      "title_similarity": 0.4545,
+      "context_overlap": 0.0805,
+      "cosine": 0.389492,
+      "rerank_logit": -5.460088,
+      "rerank_position": 22
+    },
+    {
+      "page_id": "81436721",
+      "revision_id": "1323141501",
+      "title": "Erica pulchella",
+      "url": "https://en.wikipedia.org/wiki/Erica_pulchella",
+      "excerpt": "Erica pulchella, the pink rattle heath, is a plant belonging to the genus Erica and is part of the fynbos. The species is endemic to the Western Cape and occurs from the Cape Peninsula to Mossel Bay and is frequently confused with Erica longiaristata.\n\nThe species has two varieties:\n\nErica pulchella var. major T.M.Salter\n\nErica pulchella var. pulchella",
+      "excerpt_offset": 0,
+      "total_chars": 354,
+      "bm25": {
+        "q0": {
+          "rank": 9,
+          "score": 14.2348
+        }
+      },
+      "best_rank": 9,
+      "title_similarity": 0.5,
+      "context_overlap": 0.16,
+      "cosine": 0.295356,
+      "rerank_logit": -5.200199,
+      "rerank_position": 19
+    },
+    {
+      "page_id": "1177603",
+      "revision_id": "1352459591",
+      "title": "Francis Guthrie",
+      "url": "https://en.wikipedia.org/wiki/Francis_Guthrie",
+      "excerpt": "Francis Guthrie (born 22 January 1831 in London; d. 19 October 1899 in Claremont, Cape Town) was a Cape Colony mathematician and botanist who first posed the Four Colour Problem in 1852. He studied mathematics under Augustus De Morgan, and botany under John Lindley at University College London. Guthrie obtained his B.A. in 1850, and LL.B. in 1852 with first class honours. While colouring a map of the counties of England, he noticed that at least four colours were required so that no two regions sharing a common border were the same colour. He postulated that four colours would be sufficient to colour any map. This became known as the Four Color Problem, and remained one of the most famous unsolved problems in graph theory for more than a century until it was eventually proven in 1976 using a lengthy computer-aided proof by Appel and Haken.\n\nGuthrie arrived in South Africa on 10 April 1861 and was met and entertained by Dr Dale (later Sir Langham Dale), who was instrumental in the establishing of the University of the Cape of Good Hope in June 1873. Guthrie took up the post of mathematics master at the Graaff-Reinet College. While there he gave a course of acclaimed public lectures ",
+      "excerpt_offset": 0,
+      "total_chars": 3551,
+      "bm25": {
+        "q1": {
+          "rank": 9,
+          "score": 30.6559
+        }
+      },
+      "best_rank": 9,
+      "title_similarity": 0.2105,
+      "context_overlap": 0.0471,
+      "cosine": 0.084637,
+      "rerank_logit": -7.602031,
+      "rerank_position": 32
+    },
+    {
+      "page_id": "81233636",
+      "revision_id": "1329733163",
+      "title": "Erica shannonea",
+      "url": "https://en.wikipedia.org/wiki/Erica_shannonea",
+      "excerpt": "Erica shannonea, also spelled as Erica shannonii, and known by its common name Countess of Shannon's erica, is a plant belonging to the genus Erica. The species is endemic to the Western Cape.",
+      "excerpt_offset": 0,
+      "total_chars": 192,
+      "bm25": {
+        "q0": {
+          "rank": 10,
+          "score": 14.2311
+        }
+      },
+      "best_rank": 10,
+      "title_similarity": 0.5,
+      "context_overlap": 0.25,
+      "cosine": 0.208704,
+      "rerank_logit": -4.575481,
+      "rerank_position": 5
+    },
+    {
+      "page_id": "81436615",
+      "revision_id": "1323141177",
+      "title": "Erica longiaristata",
+      "url": "https://en.wikipedia.org/wiki/Erica_longiaristata",
+      "excerpt": "Erica longiaristata, the Agulhas heath, longiaristata heath and long-awned heath, is a plant belonging to the genus Erica. The species is endemic to the Western Cape and is frequently confused with the similar species Erica pulchella.",
+      "excerpt_offset": 0,
+      "total_chars": 234,
+      "bm25": {
+        "q1": {
+          "rank": 10,
+          "score": 30.595
+        }
+      },
+      "best_rank": 10,
+      "title_similarity": 0.4167,
+      "context_overlap": 0.2353,
+      "cosine": 0.295576,
+      "rerank_logit": -4.645772,
+      "rerank_position": 7
+    },
+    {
+      "page_id": "2896241",
+      "revision_id": "1153610925",
+      "title": "Erica, Victoria",
+      "url": "https://en.wikipedia.org/wiki/Erica,_Victoria",
+      "excerpt": "Erica is a town in Victoria, Australia, on Rawson Road, in the Shire of Baw Baw.\n\nThe area was generally known as Upper Moondarra in the early 1900s, the township of Erica beginning to grow after construction of the railway line from Moe to Walhalla, which passed through the area. When the station opened in 1910 it was named Harris, but had been renamed Erica after a nearby mountain by 1914. As a consequence, the Post Office opened on 14 July 1910 as Upper Moondarra and was renamed Erica in 1914.\n\nThe township of Erica lived mainly from forestry and agriculture, and owing to Walhalla's decline by the 1920s was the largest town on the Moe-Walhalla railway. The section of line past Erica closed to traffic in 1944, save for occasional goods services to Platina station, and the line from Moe to Erica closed completely in 1954.\n\nThe Erica Court of Petty Sessions closed in 1968.\n\nErica still maintains agricultural and timber industry connections, as well as being a service town for local tourist destinations such as the Thomson Dam, the Walhalla Goldfields Railway, Mount Baw Baw and Mount St Gwinear.\n\nThe history of the town and surrounding area is the focus of the Erica and District His",
+      "excerpt_offset": 0,
+      "total_chars": 1394,
+      "bm25": {
+        "q0": {
+          "rank": 11,
+          "score": 14.2262
+        }
+      },
+      "best_rank": 11,
+      "title_similarity": 0.5263,
+      "context_overlap": 0.0133,
+      "cosine": 0.127894,
+      "rerank_logit": -4.610343,
+      "rerank_position": 6
+    },
+    {
+      "page_id": "80713611",
+      "revision_id": "1323140572",
+      "title": "Erica blenna",
+      "url": "https://en.wikipedia.org/wiki/Erica_blenna",
+      "excerpt": "Erica blenna, the orange heath, Riversdale heath and lantern heath, is a plant belonging to the genus Erica and forming part of the fynbos. The species is endemic to the Western Cape.",
+      "excerpt_offset": 0,
+      "total_chars": 183,
+      "bm25": {
+        "q1": {
+          "rank": 11,
+          "score": 30.5793
+        }
+      },
+      "best_rank": 11,
+      "title_similarity": 0.5882,
+      "context_overlap": 0.25,
+      "cosine": 0.274176,
+      "rerank_logit": -4.900501,
+      "rerank_position": 15
+    },
+    {
+      "page_id": "81315259",
+      "revision_id": "1323141146",
+      "title": "Erica lecomtei",
+      "url": "https://en.wikipedia.org/wiki/Erica_lecomtei",
+      "excerpt": "Erica lecomtei is a plant belonging to the genus Erica. The plant is endemic to Madagascar.\n\nThe plant also has two subspecies:\n\nErica lecomtei subsp. lecomtei\n\nErica lecomtei subsp. ravinakely Dorr",
+      "excerpt_offset": 0,
+      "total_chars": 198,
+      "bm25": {
+        "q0": {
+          "rank": 12,
+          "score": 14.2216
+        }
+      },
+      "best_rank": 12,
+      "title_similarity": 0.5263,
+      "context_overlap": 0.1818,
+      "cosine": 0.179832,
+      "rerank_logit": -5.412261,
+      "rerank_position": 21
+    },
+    {
+      "page_id": "81233103",
+      "revision_id": "1323140445",
+      "title": "Erica ampullacea",
+      "url": "https://en.wikipedia.org/wiki/Erica_ampullacea",
+      "excerpt": "Erica ampullacea, the flask heath, bottle heath and heath sissie, is a plant belonging to the genus Erica and forming part of the fynbos. The species is endemic to the Western Cape.",
+      "excerpt_offset": 0,
+      "total_chars": 181,
+      "bm25": {
+        "q1": {
+          "rank": 12,
+          "score": 30.5793
+        }
+      },
+      "best_rank": 12,
+      "title_similarity": 0.4762,
+      "context_overlap": 0.25,
+      "cosine": 0.302343,
+      "rerank_logit": -5.025717,
+      "rerank_position": 16
+    },
+    {
+      "page_id": "81416805",
+      "revision_id": "1336092527",
+      "title": "Erica afrorum",
+      "url": "https://en.wikipedia.org/wiki/Erica_afrorum",
+      "excerpt": "Erica afrorum, also known as Erica caffrorum, and known by its common name mountain tree erica, is a plant belonging to the genus Erica. The species is native to KwaZulu-Natal, Mpumalanga, Lesotho, Eastern Cape and the Free State.",
+      "excerpt_offset": 0,
+      "total_chars": 230,
+      "bm25": {
+        "q0": {
+          "rank": 13,
+          "score": 14.2026
+        }
+      },
+      "best_rank": 13,
+      "title_similarity": 0.5556,
+      "context_overlap": 0.1905,
+      "cosine": 0.225409,
+      "rerank_logit": -4.747663,
+      "rerank_position": 10
+    },
+    {
+      "page_id": "80729783",
+      "revision_id": "1323140620",
+      "title": "Erica cameronii",
+      "url": "https://en.wikipedia.org/wiki/Erica_cameronii",
+      "excerpt": "Erica cameronii, the Hex River heath, Cameron’s heath and crimson heath, is a plant belonging to the genus Erica and forming part of the fynbos. The species is endemic to the Western Cape.",
+      "excerpt_offset": 0,
+      "total_chars": 188,
+      "bm25": {
+        "q1": {
+          "rank": 13,
+          "score": 30.5526
+        }
+      },
+      "best_rank": 13,
+      "title_similarity": 0.5,
+      "context_overlap": 0.2353,
+      "cosine": 0.293412,
+      "rerank_logit": -4.83569,
+      "rerank_position": 13
+    },
+    {
+      "page_id": "81435306",
+      "revision_id": "1329732341",
+      "title": "Erica desmantha",
+      "url": "https://en.wikipedia.org/wiki/Erica_desmantha",
+      "excerpt": "Erica desmantha is a plant belonging to the genus Erica and forming part of the fynbos. The species is endemic to the Western Cape.\n\nThe species has two varieties:\n\nErica desmantha var. desmantha\n\nErica desmantha var. urceolata H.A.Baker",
+      "excerpt_offset": 0,
+      "total_chars": 237,
+      "bm25": {
+        "q0": {
+          "rank": 14,
+          "score": 14.2026
+        }
+      },
+      "best_rank": 14,
+      "title_similarity": 0.5,
+      "context_overlap": 0.1875,
+      "cosine": 0.204943,
+      "rerank_logit": -5.658273,
+      "rerank_position": 26
+    },
+    {
+      "page_id": "81401053",
+      "revision_id": "1329732440",
+      "title": "Erica fascicularis",
+      "url": "https://en.wikipedia.org/wiki/Erica_fascicularis",
+      "excerpt": "Erica fascicularis, the sticky heath, taaiheath, Tygerhoek heath and volstruis heath, is a plant belonging to the genus Erica and forming part of the fynbos. The species is endemic to the Western Cape.",
+      "excerpt_offset": 0,
+      "total_chars": 201,
+      "bm25": {
+        "q1": {
+          "rank": 14,
+          "score": 30.5526
+        }
+      },
+      "best_rank": 14,
+      "title_similarity": 0.4545,
+      "context_overlap": 0.2353,
+      "cosine": 0.315158,
+      "rerank_logit": -4.747316,
+      "rerank_position": 9
+    },
+    {
+      "page_id": "81870363",
+      "revision_id": "1328680411",
+      "title": "Erica chamissonis",
+      "url": "https://en.wikipedia.org/wiki/Erica_chamissonis",
+      "excerpt": "Erica chamissonis is a plant belonging to the genus Erica. The species is endemic to the Eastern Cape. This plant is one of eight species of the fynbos biome that are the main sources of pollen and honey for Apis mellifera capensis, the Cape honeybee.\n\nThe plant has three varieties:\n\nErica chamissonis var. chamissonis\n\nErica chamissonis var. hirtifolia Dulfer\n\nErica chamissonis var. polyantha (Klotzsch ex Benth.) Dulfer",
+      "excerpt_offset": 0,
+      "total_chars": 423,
+      "bm25": {
+        "q0": {
+          "rank": 15,
+          "score": 14.1967
+        }
+      },
+      "best_rank": 15,
+      "title_similarity": 0.4762,
+      "context_overlap": 0.1481,
+      "cosine": 0.211875,
+      "rerank_logit": -5.746741,
+      "rerank_position": 29
+    },
+    {
+      "page_id": "81233224",
+      "revision_id": "1323141895",
+      "title": "Erica walkeria",
+      "url": "https://en.wikipedia.org/wiki/Erica_walkeria",
+      "excerpt": "Erica walkeria, the Swellendam heath, quality heath or Walker’s heath, is a plant belonging to the genus Erica. The species is endemic to the Western Cape.\n\nThe plant has one variety: Erica walkeria var. praestans (Andrews) Bolus.",
+      "excerpt_offset": 0,
+      "total_chars": 230,
+      "bm25": {
+        "q1": {
+          "rank": 15,
+          "score": 30.5437
+        }
+      },
+      "best_rank": 15,
+      "title_similarity": 0.5263,
+      "context_overlap": 0.2222,
+      "cosine": 0.296168,
+      "rerank_logit": -4.712204,
+      "rerank_position": 8
+    },
+    {
+      "page_id": "81443433",
+      "revision_id": "1323140418",
+      "title": "Erica aestiva",
+      "url": "https://en.wikipedia.org/wiki/Erica_aestiva",
+      "excerpt": "Erica aestiva, the summer heath, is a plant that belongs to the genus Erica. The species is native to KwaZulu-Natal, Lesotho and the Free State.\n\nThe species also has two varieties:\n\nErica aestiva var. aestiva\n\nErica aestiva var. minor Duffer",
+      "excerpt_offset": 0,
+      "total_chars": 242,
+      "bm25": {
+        "q0": {
+          "rank": 17,
+          "score": 14.1931
+        }
+      },
+      "best_rank": 17,
+      "title_similarity": 0.5556,
+      "context_overlap": 0.2222,
+      "cosine": 0.327931,
+      "rerank_logit": -4.822443,
+      "rerank_position": 12
+    },
+    {
+      "page_id": "81408867",
+      "revision_id": "1329732803",
+      "title": "Erica nivalis",
+      "url": "https://en.wikipedia.org/wiki/Erica_nivalis",
+      "excerpt": "Erica nivalis, also known as Erica peziza, and known by its common names the woollysnow heath, velvet bell heath and white heath, is a plant belonging to the genus Erica and is part of the fynbos. The species is endemic to the Western Cape.\n\nThe plant is capable of growing up to 2 m (6 ft 7 in) in height, though it generally only grows up to half that or less.",
+      "excerpt_offset": 0,
+      "total_chars": 362,
+      "bm25": {
+        "q1": {
+          "rank": 17,
+          "score": 30.1669
+        }
+      },
+      "best_rank": 17,
+      "title_similarity": 0.5882,
+      "context_overlap": 0.1923,
+      "cosine": 0.318982,
+      "rerank_logit": -4.794975,
+      "rerank_position": 11
+    },
+    {
+      "page_id": "81443277",
+      "revision_id": "1323140898",
+      "title": "Erica filiformis",
+      "url": "https://en.wikipedia.org/wiki/Erica_filiformis",
+      "excerpt": "Erica filiformis is a plant that belongs to the genus Erica and forms part of the fynbos. The species is endemic to the Western Cape where it occurs from Paarl to Elgin. The plant has an area of occurrence of 1,463 km² and its habitat is threatened by invasive plants and the high frequency of fires.\n\nThe species has three varieties:\n\nErica filiformis var. filiformis\n\nErica filiformis var. longibracteata Bolus\n\nErica filiformis var. maritima Bolus",
+      "excerpt_offset": 0,
+      "total_chars": 450,
+      "bm25": {
+        "q0": {
+          "rank": 18,
+          "score": 14.1925
+        }
+      },
+      "best_rank": 18,
+      "title_similarity": 0.5,
+      "context_overlap": 0.1034,
+      "cosine": 0.2754,
+      "rerank_logit": -5.543321,
+      "rerank_position": 25
+    },
+    {
+      "page_id": "636872",
+      "revision_id": "1329731423",
+      "title": "Daboecia",
+      "url": "https://en.wikipedia.org/wiki/Daboecia",
+      "excerpt": "Daboecia / d æ ˈ b iː ʃ i ə /, or St. Dabeoc's heath, is a small genus of flowering plants in the family Ericaceae, containing two evergreen shrubs, closely related to the genus Erica. They are native to cliffs and heathland in southern Atlantic Europe and the Azores.\n\nThey produce urn-shaped flowers in shades of white, pink and red. Daboecia differ from European Erica species in having a substantially larger corolla. The leaves are always alternate in Daboecia, never whorled. The generic name comes from the Irish Saint Dabheog.\n\nDaboecia has an oceanic distribution in western Europe, including western Ireland, western France, northwestern Spain, northwestern mainland Portugal and the Central Group of the Azores. Like Erica and Calluna species, Daboecia are calcifuges, but will tolerate neutral soils and avoid peat. The plant is also found on mountain trails and roadsides in the west of Ireland, brought with Spanish wine by traders from mediaeval times.\n\nDaboecia azorica Tutin & E. F. Warb.\n\nDaboecia cantabrica (Huds.) K. Koch (Irish heath)\n\nSome botanists regard D. azorica as a subspecies of D. cantabrica, which would render the genus monospecific.\n\nThe two species have been exten",
+      "excerpt_offset": 0,
+      "total_chars": 1614,
+      "bm25": {
+        "q1": {
+          "rank": 18,
+          "score": 30.0832
+        }
+      },
+      "best_rank": 18,
+      "title_similarity": 0.4615,
+      "context_overlap": 0.0659,
+      "cosine": 0.37771,
+      "rerank_logit": -5.936717,
+      "rerank_position": 30
+    },
+    {
+      "page_id": "54265074",
+      "revision_id": "1323140990",
+      "title": "Erica grandiflora",
+      "url": "https://en.wikipedia.org/wiki/Erica_grandiflora",
+      "excerpt": "Erica grandiflora is a species of Erica found in fynbos on the mainland Western Cape, South Africa. E. grandiflora was described by Carl Linnaeus the Younger in 1782, and was reclassified as Erica abietina subsp. aurantiaca by Oliver & Oliver in 2002. More recently, phylogenetic analyses of DNA sequence data have revealed that it is more closely related to mainland Western Cape species including Erica viscaria than it is to Cape Peninsula endemic Erica abietina subspecies, and should therefore be treated as a separate species. It includes two subspecies which can be most easily distinguished on the basis of their distinctive flower colours.\n\nErica grandiflora subsp. grandiflora is widespread in fynbos on the mainland Western Cape. Flowers are reddish-orange. Corresponds to Erica abietina L. ssp. aurantiaca E.G.H.Oliv. & I.M.Oliv.\n\nErica grandiflora subsp. perfoliosa (E.G.H.Oliv. & I.M.Oliv.) E.G.H.Oliv. & Pirie. Produces bright yellow flowers. Found only in the Jonkershoek Valley. Critically endangered. Corresponds to Erica abietina L. subsp. perfoliosa E.G.H.Oliv. & I.M.Oliv.",
+      "excerpt_offset": 0,
+      "total_chars": 1093,
+      "bm25": {
+        "q0": {
+          "rank": 19,
+          "score": 14.1882
+        }
+      },
+      "best_rank": 19,
+      "title_similarity": 0.4545,
+      "context_overlap": 0.0345,
+      "cosine": 0.25663,
+      "rerank_logit": -5.73977,
+      "rerank_position": 28
+    }
+  ]
+}

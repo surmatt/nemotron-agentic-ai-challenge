@@ -1,0 +1,93 @@
+{
+  "variant": "crop_noparse",
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1017",
+  "block_index": 5,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T12:17:20+00:00",
+  "elapsed_seconds": 1.32,
+  "finish_reason": "stop",
+  "parse_text": "HELLEBORUS, HELLEBORR, in botany, a genus of the polyandria polygynia clafs. I has an cally, the pe- rais are five or more; the reclaim is tubular and blue biarded; and the capital contains many feeds. There are five species, two of them native of Britain, viz. the females, or great balham black hellebore; and the visida, or wild black hellebore. The hellebors, when taken in large quantities, is polinous; but the root, in final dates, is fuppeded to attenuate the humours, and to promote urinary and uterine discharge.",
+  "corrected_text": "HELLEBORUS, hellebore, in botany, a genus of the\npolyandria polygynia clasfs. It has no calix; the pe-\ntals are five or more; the nectarium is tubular and bila-\nbiated; and the capfule contains many feeds. There\nare five fpecies, two of them natives of Britain, viz.\nthe fetidus, or great baftard black hellebore; and the\nviridis, or wild black hellebore. The hellebore, when\ntaken in large quantities, is poifonous; but the root,\nin fmall dofes, is fuppofed to attenuate the humours,\nand to promote urinary and uterine difcharges.\nHELLENISM, in matters of language, a phrafe, in",
+  "reasoning_tokens": 0,
+  "usage": {
+    "completion_tokens": 178,
+    "prompt_tokens": 451,
+    "total_tokens": 629,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 302
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 3000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "prompt": "Transcribe the text in this image of an 18th- or 19th-century encyclopaedia page region. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.",
+  "response": {
+    "id": "chatcmpl-96643363d1012f0d",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "HELLEBORUS, hellebore, in botany, a genus of the\npolyandria polygynia clasfs. It has no calix; the pe-\ntals are five or more; the nectarium is tubular and bila-\nbiated; and the capfule contains many feeds. There\nare five fpecies, two of them natives of Britain, viz.\nthe fetidus, or great baftard black hellebore; and the\nviridis, or wild black hellebore. The hellebore, when\ntaken in large quantities, is poifonous; but the root,\nin fmall dofes, is fuppofed to attenuate the humours,\nand to promote urinary and uterine difcharges.\nHELLENISM, in matters of language, a phrafe, in",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792325841,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 178,
+      "prompt_tokens": 451,
+      "total_tokens": 629,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 302
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "variant": "crop_nothink",
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2131",
+  "block_index": 7,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T12:24:08+00:00",
+  "elapsed_seconds": 1.75,
+  "finish_reason": "stop",
+  "parse_text": "Here and there are interperfed fome few _berab_\n_trees_, or rather will palm trees (the wood trail being\nderived from limbs, which in the Portuguese, figuifies\nwild). They bear an infipid kind of fruit, about the\nbigogods of a common type), but the chief profit from\nthem in the colon by an-\ncifions at the top, of which the attack is rekesoned bet-\nter than the podderby the concount tree. They\nare generally wear the facilities, as they delight mod in\nfamily folk. It is on this tree that the _today birds_, fo\ncalled from their attachment to, make their equip-\nfiely curious petits, brought out of the thumb seeds\nand filament of branches, with an inimable melocha.\nThe bird themselves are about the face of a\npartridge, but are of no way either the plumage, long,\nor the table.",
+  "corrected_text": "Here and there are interspersed some few _brab_\n_trees_, or rather wild palm trees (the word _brab_ being\nderived from _brabas_, which in the Portuguese signifies\nwild.) They bear an insipid kind of fruit, about the\nbigness of a common pear; but the chief profit from\nthem is the toddy, or liquor drawn from them by in-\ncisions at the top, of which the arrack is reckoned bet-\nter than that produced by the cocoa-nut trees. They\nare generally near the sea-side, as they delight most in\na sandy soil. It is on this tree that the _toddy birds_, so\ncalled from their attachment to it, make their exqui-\nsitely curious nests, wrought out of the thinnest reeds\nand filaments of branches, with an inimitable mecha-\nnism. The birds themselves are about the size of a\npartridge, but are of no value either for plumage, song,\nor the table.",
+  "reasoning_tokens": 0,
+  "usage": {
+    "completion_tokens": 222,
+    "prompt_tokens": 771,
+    "total_tokens": 993,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 393
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 3000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows this region of the page. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\nHere and there are interperfed fome few _berab_\n_trees_, or rather will palm trees (the wood trail being\nderived from limbs, which in the Portuguese, figuifies\nwild). They bear an infipid kind of fruit, about the\nbigogods of a common type), but the chief profit from\nthem in the colon by an-\ncifions at the top, of which the attack is rekesoned bet-\nter than the podderby the concount tree. They\nare generally wear the facilities, as they delight mod in\nfamily folk. It is on this tree that the _today birds_, fo\ncalled from their attachment to, make their equip-\nfiely curious petits, brought out of the thumb seeds\nand filament of branches, with an inimable melocha.\nThe bird themselves are about the face of a\npartridge, but are of no way either the plumage, long,\nor the table.",
+  "response": {
+    "id": "chatcmpl-b03dfacef1d18575",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "Here and there are interspersed some few _brab_\n_trees_, or rather wild palm trees (the word _brab_ being\nderived from _brabas_, which in the Portuguese signifies\nwild.) They bear an insipid kind of fruit, about the\nbigness of a common pear; but the chief profit from\nthem is the toddy, or liquor drawn from them by in-\ncisions at the top, of which the arrack is reckoned bet-\nter than that produced by the cocoa-nut trees. They\nare generally near the sea-side, as they delight most in\na sandy soil. It is on this tree that the _toddy birds_, so\ncalled from their attachment to it, make their exqui-\nsitely curious nests, wrought out of the thinnest reeds\nand filaments of branches, with an inimitable mecha-\nnism. The birds themselves are about the size of a\npartridge, but are of no value either for plumage, song,\nor the table.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792326249,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 222,
+      "prompt_tokens": 771,
+      "total_tokens": 993,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 393
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

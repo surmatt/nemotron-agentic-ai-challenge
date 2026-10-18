@@ -1,0 +1,93 @@
+{
+  "variant": "crop_nothink",
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1670",
+  "block_index": 14,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T12:23:00+00:00",
+  "elapsed_seconds": 0.88,
+  "finish_reason": "stop",
+  "parse_text": "The goat is an animal of more fugacity than the fleece. Instead of having an autopity, at mankind, they voluntarily simple earth, them, and carefully named. Even an inhabited countries, they literary no favage diffusions. In the year 1608, an English vel-fel having put in to the Bland of Bonavilla, two ac- grote cung aboard, and offered gratis to the captain as many",
+  "corrected_text": "The goat is an animal of more sagacity than the sheep. Instead of having an antipathy at mankind, they voluntarily mingle with them, and are easily tamed. Even in uninhabited countries, they betray no savage dispositions. In the year 1698, an English vessel having put in to the island of Bonavilla, two negroes came aboard, and offered gratis to the captain as many",
+  "reasoning_tokens": 0,
+  "usage": {
+    "completion_tokens": 88,
+    "prompt_tokens": 555,
+    "total_tokens": 643,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 288
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 3000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows this region of the page. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\nThe goat is an animal of more fugacity than the fleece. Instead of having an autopity, at mankind, they voluntarily simple earth, them, and carefully named. Even an inhabited countries, they literary no favage diffusions. In the year 1608, an English vel-fel having put in to the Bland of Bonavilla, two ac- grote cung aboard, and offered gratis to the captain as many",
+  "response": {
+    "id": "chatcmpl-98e6ad3021f31594",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "The goat is an animal of more sagacity than the sheep. Instead of having an antipathy at mankind, they voluntarily mingle with them, and are easily tamed. Even in uninhabited countries, they betray no savage dispositions. In the year 1698, an English vessel having put in to the island of Bonavilla, two negroes came aboard, and offered gratis to the captain as many",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792326180,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 88,
+      "prompt_tokens": 555,
+      "total_tokens": 643,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 288
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

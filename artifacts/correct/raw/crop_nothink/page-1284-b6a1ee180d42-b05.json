@@ -1,0 +1,93 @@
+{
+  "variant": "crop_nothink",
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1284",
+  "block_index": 5,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T12:22:12+00:00",
+  "elapsed_seconds": 2.27,
+  "finish_reason": "stop",
+  "parse_text": "The reference against Mary was very foon afterwards ratified by the English parliament. King James there is there with herner as hearing of the execution of his English mattres; but that spiritilled prince could how his re-fentant so darker than by unwailing cheatles and remontances. France integrated in the flame in effectual manner, and on the 6th of December 1986, Elizabeth caufed the femeence of the commalliance against her to be proclaimed. After this the was made acquainted with her fate, and received the news with the greatest monopolies, and even apparent faith-fiction. Her keepers now refused to test her with any reverence or respect. They entered her apartments with their hands covered, and make no balance to her. They took down her canopy of date, and deprived her of all the budget of royalty. By thefe infringning institutions they meant to inform do that the had fnuk from the digity of a princely to the abject that of a criminal. She findeld, and fails. \" Is defite of your foreign and one for laborivental judges, I will live and die a queen. My royal characters in-delibs; and it will fororder it with my finite to the Almaghy Goo, from whom I received it, and to whom my honor and my convinces are fully known.\" In this melancholy duration Mary adderfield a magan nouve letter Elizabeth, in which almost making the faultlicitation for her life, the only requested that her body might be carried to France; (that the might be publicly executed), that her terrains might be per-mitted to depart out of England undemolded, and enjoy the legacies which lie bequearched them. But to this letter no answer was given.",
+  "corrected_text": "The sentence against Mary was very soon afterwards ratified by the English parliament. King James was struck with horror at hearing of the execution of his mother; but that spirited prince could show his resentment no farther than by unavailing embassies and remonstrances. France interposed in the same ineffectual manner; and on the 6th of December 1586, Elizabeth caused the sentence of the commissioners against her to be proclaimed. After this she was made acquainted with her fate, and received the news with the greatest composure, and even apparent satisfaction. Her keepers now refused to treat her with any reverence or respect. They entered her apartment with their heads covered, and made no obeisance to her. They took down her canopy of state, and deprived her of all the badges of royalty. By these insulting mortifications they meant to inform her, that she had sunk from the dignity of a princess to the abject state of a criminal. She smiled, and said, \"In despite of your sovereign and her subservient judges, I will live and die a queen. My royal character is indelible; and I will surrender it with my spirit to the Almighty God, from whom I received it, and to whom my honour and my innocence are fully known.\" In this melancholy situation Mary addressed a magnanimous letter to Elizabeth, in which, without making the least solicitation for her life, she only requested that her body might be carried to France; that she might be publicly executed; that her servants might be permitted to depart out of England unmolested, and enjoy the legacies which she bequeathed them. But to this letter no answer was given.",
+  "reasoning_tokens": 0,
+  "usage": {
+    "completion_tokens": 352,
+    "prompt_tokens": 1367,
+    "total_tokens": 1719,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 818
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 3000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows this region of the page. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\nThe reference against Mary was very foon afterwards ratified by the English parliament. King James there is there with herner as hearing of the execution of his English mattres; but that spiritilled prince could how his re-fentant so darker than by unwailing cheatles and remontances. France integrated in the flame in effectual manner, and on the 6th of December 1986, Elizabeth caufed the femeence of the commalliance against her to be proclaimed. After this the was made acquainted with her fate, and received the news with the greatest monopolies, and even apparent faith-fiction. Her keepers now refused to test her with any reverence or respect. They entered her apartments with their hands covered, and make no balance to her. They took down her canopy of date, and deprived her of all the budget of royalty. By thefe infringning institutions they meant to inform do that the had fnuk from the digity of a princely to the abject that of a criminal. She findeld, and fails. \" Is defite of your foreign and one for laborivental judges, I will live and die a queen. My royal characters in-delibs; and it will fororder it with my finite to the Almaghy Goo, from whom I received it, and to whom my honor and my convinces are fully known.\" In this melancholy duration Mary adderfield a magan nouve letter Elizabeth, in which almost making the faultlicitation for her life, the only requested that her body might be carried to France; (that the might be publicly executed), that her terrains might be per-mitted to depart out of England undemolded, and enjoy the legacies which lie bequearched them. But to this letter no answer was given.",
+  "response": {
+    "id": "chatcmpl-8831a39db8c320ab",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "The sentence against Mary was very soon afterwards ratified by the English parliament. King James was struck with horror at hearing of the execution of his mother; but that spirited prince could show his resentment no farther than by unavailing embassies and remonstrances. France interposed in the same ineffectual manner; and on the 6th of December 1586, Elizabeth caused the sentence of the commissioners against her to be proclaimed. After this she was made acquainted with her fate, and received the news with the greatest composure, and even apparent satisfaction. Her keepers now refused to treat her with any reverence or respect. They entered her apartment with their heads covered, and made no obeisance to her. They took down her canopy of state, and deprived her of all the badges of royalty. By these insulting mortifications they meant to inform her, that she had sunk from the dignity of a princess to the abject state of a criminal. She smiled, and said, \"In despite of your sovereign and her subservient judges, I will live and die a queen. My royal character is indelible; and I will surrender it with my spirit to the Almighty God, from whom I received it, and to whom my honour and my innocence are fully known.\" In this melancholy situation Mary addressed a magnanimous letter to Elizabeth, in which, without making the least solicitation for her life, she only requested that her body might be carried to France; that she might be publicly executed; that her servants might be permitted to depart out of England unmolested, and enjoy the legacies which she bequeathed them. But to this letter no answer was given.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792326133,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 352,
+      "prompt_tokens": 1367,
+      "total_tokens": 1719,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 818
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

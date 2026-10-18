@@ -1,0 +1,93 @@
+{
+  "variant": "crop_nothink",
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1614",
+  "block_index": 17,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T12:22:52+00:00",
+  "elapsed_seconds": 1.55,
+  "finish_reason": "stop",
+  "parse_text": "THOMISM, the doctrine of St Thomas Aquinat, and his followers the Thomas, clearly with regard to predellination and grace. There is some doubts what the true ge mine thomlim is, but there are authors who diflingwith the thomall of St Thomas from that of the dominicians. Other agents make themomin so more than a kind of inni-fenim olugted: bat janfenim, it is known, has been condemned by the repys, which give thomlim never was: in effect, the writings of diverse Lesencés, who were appointed by their order to lay down and defend, before the baby fire, the depunts of their School, have face been reported the role of pure thomlim.",
+  "corrected_text": "THOMISM, the doctrine of St Thomas Aquinas, and his followers the Thomists, chiefly with regard to predestination and grace. There is some doubt what the true genuine thomism is, but there are authors who distinguish the thomism of St Thomas from that of the dominicans. Others again make thomism no other than a kind of jansenism disguised: but jansenism, it is known, has been condemned by the popes, which pure thomism never was: in effect, the writings of Alvarez and Lemos, who were appointed by their order to lay down and defend, before the holy see, the dogmata of their school, have since been reputed the rule of pure thomism.",
+  "reasoning_tokens": 0,
+  "usage": {
+    "completion_tokens": 153,
+    "prompt_tokens": 648,
+    "total_tokens": 801,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 314
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 3000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows this region of the page. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\nTHOMISM, the doctrine of St Thomas Aquinat, and his followers the Thomas, clearly with regard to predellination and grace. There is some doubts what the true ge mine thomlim is, but there are authors who diflingwith the thomall of St Thomas from that of the dominicians. Other agents make themomin so more than a kind of inni-fenim olugted: bat janfenim, it is known, has been condemned by the repys, which give thomlim never was: in effect, the writings of diverse Lesencés, who were appointed by their order to lay down and defend, before the baby fire, the depunts of their School, have face been reported the role of pure thomlim.",
+  "response": {
+    "id": "chatcmpl-b633690a7b84cb5a",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "THOMISM, the doctrine of St Thomas Aquinas, and his followers the Thomists, chiefly with regard to predestination and grace. There is some doubt what the true genuine thomism is, but there are authors who distinguish the thomism of St Thomas from that of the dominicans. Others again make thomism no other than a kind of jansenism disguised: but jansenism, it is known, has been condemned by the popes, which pure thomism never was: in effect, the writings of Alvarez and Lemos, who were appointed by their order to lay down and defend, before the holy see, the dogmata of their school, have since been reputed the rule of pure thomism.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792326173,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 153,
+      "prompt_tokens": 648,
+      "total_tokens": 801,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 314
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "variant": "crop_nothink",
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2277",
+  "block_index": 9,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T12:24:26+00:00",
+  "elapsed_seconds": 1.47,
+  "finish_reason": "stop",
+  "parse_text": "140 IN treating of the feeling, we mean to confine ourselves to the external ones of touch, triple, fineing, hearing, and vision. The word [only], when applied to their lives, fears us imply not only the forlation occurred in the limited by certain impurities made on the body, but likewise the organ defined to receive and transmit basic ingredients in the forbidden. Each of these organs being at a peculiar threat, is if dependible only of particular impretions, which will be pointed out as we proceed to define each of them fe parately.",
+  "corrected_text": "IN treating of the fenfes, we mean to confine ourfelves to the external ones of touch, taft, fmelling, hearing, and vision. The word fenfe, when applied to thefe five, feems to imply not only the fenfation excited in the mind by certain impreffions made on the body, but likewife the organ defined to receive and tranfmit thefe impreffions to the fenforium. Each of thefe organs being of a peculiar ftructure, is fufceptible only of particular impreffions, which will be pointed out as we proceed to defcribe each of them fe parately.",
+  "reasoning_tokens": 0,
+  "usage": {
+    "completion_tokens": 137,
+    "prompt_tokens": 582,
+    "total_tokens": 719,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 290
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 3000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows this region of the page. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\n140 IN treating of the feeling, we mean to confine ourselves to the external ones of touch, triple, fineing, hearing, and vision. The word [only], when applied to their lives, fears us imply not only the forlation occurred in the limited by certain impurities made on the body, but likewise the organ defined to receive and transmit basic ingredients in the forbidden. Each of these organs being at a peculiar threat, is if dependible only of particular impretions, which will be pointed out as we proceed to define each of them fe parately.",
+  "response": {
+    "id": "chatcmpl-bb102ac05c5de114",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "IN treating of the fenfes, we mean to confine ourfelves to the external ones of touch, taft, fmelling, hearing, and vision. The word fenfe, when applied to thefe five, feems to imply not only the fenfation excited in the mind by certain impreffions made on the body, but likewife the organ defined to receive and tranfmit thefe impreffions to the fenforium. Each of thefe organs being of a peculiar ftructure, is fufceptible only of particular impreffions, which will be pointed out as we proceed to defcribe each of them fe parately.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792326267,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 137,
+      "prompt_tokens": 582,
+      "total_tokens": 719,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 290
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

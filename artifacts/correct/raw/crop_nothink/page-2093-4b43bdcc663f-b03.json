@@ -1,0 +1,93 @@
+{
+  "variant": "crop_nothink",
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2093",
+  "block_index": 3,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T12:24:00+00:00",
+  "elapsed_seconds": 1.49,
+  "finish_reason": "stop",
+  "parse_text": "we houls the truth of fish felt, we must all tell an -\nknowledge their probability, fines we meet every day with a number of similar examples. When we fee a\nchodply to develop numerical in thoughts to be in a\nmoment let to the outward funds, should we not imagine him to be wholly engroffed with the cure of his own private affairs, or at the public west but the do-\njed all all this product mediums in its plethora of ex-\nerdles like mind, by the movement of a piece of ivory. From this careful of the mind that writes the picture we\nw fortunities take in refined and delicate fenitments, which, after the moment of highly dependents, (_Ed\\)_\nfact of all federal, fell out case country, are sometimes strictly contested, but fo as to afford us the pleasure of dilovering them.\"",
+  "corrected_text": "we doubt the truth of such facts, we must at least ac-\nknowledge their probability, since we meet every day\nwith a number of similar examples. When we see a\nchess-player so deeply immersed in thought as to be in a\nmanner lost to his outward senses, should we not ima-\ngine him to be wholly engrossed with the care of his\nown private affairs, or of the public weal? but the ob-\nject of all this profound meditation is the pleasure of ex-\nercising the mind by the movement of a piece of ivory.\nFrom this exercise of the mind also arises the pleasure\nwe sometimes take in refined and delicate sentiments,\nwhich, after the manner of Virgil's shepherds, (Et\nfugit ad salices, fed se cupit ante videri), are sometimes\nartfully concealed, but so as to afford us the pleasure of\ndiscovering them.",
+  "reasoning_tokens": 0,
+  "usage": {
+    "completion_tokens": 192,
+    "prompt_tokens": 729,
+    "total_tokens": 921,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 370
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 3000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows this region of the page. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\nwe houls the truth of fish felt, we must all tell an -\nknowledge their probability, fines we meet every day with a number of similar examples. When we fee a\nchodply to develop numerical in thoughts to be in a\nmoment let to the outward funds, should we not imagine him to be wholly engroffed with the cure of his own private affairs, or at the public west but the do-\njed all all this product mediums in its plethora of ex-\nerdles like mind, by the movement of a piece of ivory. From this careful of the mind that writes the picture we\nw fortunities take in refined and delicate fenitments, which, after the moment of highly dependents, (_Ed\\)_\nfact of all federal, fell out case country, are sometimes strictly contested, but fo as to afford us the pleasure of dilovering them.\"",
+  "response": {
+    "id": "chatcmpl-a71dc69817b60708",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "we doubt the truth of such facts, we must at least ac-\nknowledge their probability, since we meet every day\nwith a number of similar examples. When we see a\nchess-player so deeply immersed in thought as to be in a\nmanner lost to his outward senses, should we not ima-\ngine him to be wholly engrossed with the care of his\nown private affairs, or of the public weal? but the ob-\nject of all this profound meditation is the pleasure of ex-\nercising the mind by the movement of a piece of ivory.\nFrom this exercise of the mind also arises the pleasure\nwe sometimes take in refined and delicate sentiments,\nwhich, after the manner of Virgil's shepherds, (Et\nfugit ad salices, fed se cupit ante videri), are sometimes\nartfully concealed, but so as to afford us the pleasure of\ndiscovering them.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792326240,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 192,
+      "prompt_tokens": 729,
+      "total_tokens": 921,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 370
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

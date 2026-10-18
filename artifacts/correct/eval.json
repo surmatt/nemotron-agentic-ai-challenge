@@ -1,0 +1,3392 @@
+{
+  "stage": "correct-eval",
+  "finished_at": "2026-10-18T12:36:16+00:00",
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "gold": "docs/evaluation/ocr_gold.json",
+  "gold_blocks": 30,
+  "scored_blocks": 29,
+  "totals": {
+    "parse": {
+      "blocks_scored": 29,
+      "blocks_missing": 0,
+      "cer": 0.1216,
+      "wer": 0.2507,
+      "words_not_in_reference_per_100": 21.08,
+      "blocks_better_than_parse": null,
+      "cer_without_G08": 0.1213,
+      "blocks_worse_than_parse": null
+    },
+    "parse_long_s_rule": {
+      "blocks_scored": 29,
+      "blocks_missing": 0,
+      "cer": 0.1206,
+      "wer": 0.2462,
+      "words_not_in_reference_per_100": 20.64,
+      "blocks_better_than_parse": 8,
+      "cer_without_G08": 0.1203,
+      "blocks_worse_than_parse": 1
+    },
+    "crop_nothink": {
+      "blocks_scored": 29,
+      "blocks_missing": 0,
+      "cer": 0.018,
+      "wer": 0.0301,
+      "words_not_in_reference_per_100": 2.52,
+      "blocks_better_than_parse": 28,
+      "cer_without_G08": 0.008,
+      "blocks_worse_than_parse": 1
+    },
+    "crop_think": {
+      "blocks_scored": 28,
+      "blocks_missing": 1,
+      "cer": 0.0287,
+      "wer": 0.0371,
+      "words_not_in_reference_per_100": 2.84,
+      "blocks_better_than_parse": 25,
+      "cer_without_G08": 0.016,
+      "blocks_worse_than_parse": 3
+    },
+    "crop_noparse": {
+      "blocks_scored": 29,
+      "blocks_missing": 0,
+      "cer": 0.0701,
+      "wer": 0.1205,
+      "words_not_in_reference_per_100": 10.81,
+      "blocks_better_than_parse": 19,
+      "cer_without_G08": 0.0588,
+      "blocks_worse_than_parse": 10
+    },
+    "page_nothink": {
+      "blocks_scored": 29,
+      "blocks_missing": 0,
+      "cer": 0.2491,
+      "wer": 0.353,
+      "words_not_in_reference_per_100": 23.83,
+      "blocks_better_than_parse": 16,
+      "cer_without_G08": 0.2511,
+      "blocks_worse_than_parse": 3
+    },
+    "crop_nothink_long_s_rule": {
+      "blocks_scored": 29,
+      "blocks_missing": 0,
+      "cer": 0.0178,
+      "wer": 0.0292,
+      "words_not_in_reference_per_100": 2.44,
+      "blocks_better_than_parse": 28,
+      "cer_without_G08": 0.0078,
+      "blocks_worse_than_parse": 1
+    }
+  },
+  "timing": {
+    "crop_nothink": {
+      "calls": 30,
+      "mean_seconds": 1.14,
+      "mean_completion_tokens": 102
+    },
+    "crop_think": {
+      "calls": 29,
+      "mean_seconds": 13.92,
+      "mean_completion_tokens": 4215
+    },
+    "crop_noparse": {
+      "calls": 30,
+      "mean_seconds": 1.12,
+      "mean_completion_tokens": 117
+    },
+    "page_nothink": {
+      "calls": 30,
+      "mean_seconds": 1.43,
+      "mean_completion_tokens": 112
+    }
+  },
+  "empty_region_cases": [
+    {
+      "gold_id": "G21",
+      "outputs_chars": {
+        "parse": 204,
+        "parse_long_s_rule": 204,
+        "crop_nothink": 0,
+        "crop_think": 0,
+        "crop_noparse": 0,
+        "page_nothink": 0,
+        "crop_nothink_long_s_rule": 0
+      }
+    }
+  ],
+  "per_block": [
+    {
+      "gold_id": "G01",
+      "row_index": 251,
+      "block_index": 3,
+      "parse": {
+        "ref_chars": 780,
+        "char_edits": 106,
+        "cer": 0.1359,
+        "ref_words": 120,
+        "word_edits": 44,
+        "wer": 0.3667,
+        "words_not_in_reference": 39,
+        "examples_not_in_reference": [
+          "fluff",
+          "toboyen,",
+          "lines",
+          "forks,",
+          "here,",
+          "threads,",
+          "folk,",
+          "worried"
+        ]
+      },
+      "parse_long_s_rule": {
+        "ref_chars": 780,
+        "char_edits": 105,
+        "cer": 0.1346,
+        "ref_words": 120,
+        "word_edits": 44,
+        "wer": 0.3667,
+        "words_not_in_reference": 39,
+        "examples_not_in_reference": [
+          "fluff",
+          "toboyen,",
+          "lines",
+          "forks,",
+          "here,",
+          "threads,",
+          "folk,",
+          "worried"
+        ]
+      },
+      "crop_nothink": {
+        "ref_chars": 780,
+        "char_edits": 8,
+        "cer": 0.0103,
+        "ref_words": 120,
+        "word_edits": 3,
+        "wer": 0.025,
+        "words_not_in_reference": 3,
+        "examples_not_in_reference": [
+          "flockings,",
+          "flax,",
+          "drefs"
+        ]
+      },
+      "crop_think": {
+        "ref_chars": 780,
+        "char_edits": 7,
+        "cer": 0.009,
+        "ref_words": 120,
+        "word_edits": 2,
+        "wer": 0.0167,
+        "words_not_in_reference": 2,
+        "examples_not_in_reference": [
+          "flockings,",
+          "flax,"
+        ]
+      },
+      "crop_noparse": {
+        "ref_chars": 780,
+        "char_edits": 23,
+        "cer": 0.0295,
+        "ref_words": 120,
+        "word_edits": 16,
+        "wer": 0.1333,
+        "words_not_in_reference": 16,
+        "examples_not_in_reference": [
+          "filk,",
+          "worfled",
+          "flockings,",
+          "filks",
+          "feveral",
+          "filver",
+          "fome",
+          "flax,"
+        ]
+      },
+      "page_nothink": {
+        "ref_chars": 780,
+        "char_edits": 106,
+        "cer": 0.1359,
+        "ref_words": 120,
+        "word_edits": 44,
+        "wer": 0.3667,
+        "words_not_in_reference": 39,
+        "examples_not_in_reference": [
+          "fluff",
+          "toboyen,",
+          "lines",
+          "forks,",
+          "here,",
+          "threads,",
+          "folk,",
+          "worried"
+        ]
+      },
+      "crop_nothink_long_s_rule": {
+        "ref_chars": 780,
+        "char_edits": 8,
+        "cer": 0.0103,
+        "ref_words": 120,
+        "word_edits": 3,
+        "wer": 0.025,
+        "words_not_in_reference": 3,
+        "examples_not_in_reference": [
+          "flockings,",
+          "flax,",
+          "savour."
+        ]
+      }
+    },
+    {
+      "gold_id": "G02",
+      "row_index": 251,
+      "block_index": 4,
+      "parse": {
+        "ref_chars": 520,
+        "char_edits": 104,
+        "cer": 0.2,
+        "ref_words": 80,
+        "word_edits": 33,
+        "wer": 0.4125,
+        "words_not_in_reference": 25,
+        "examples_not_in_reference": [
+          "incredible,",
+          "regular,",
+          "every",
+          "foreignee,",
+          "domestic,",
+          "gradually,",
+          "fate",
+          "falls,"
+        ]
+      },
+      "parse_long_s_rule": {
+        "ref_chars": 520,
+        "char_edits": 104,
+        "cer": 0.2,
+        "ref_words": 80,
+        "word_edits": 33,
+        "wer": 0.4125,
+        "words_not_in_reference": 25,
+        "examples_not_in_reference": [
+          "incredible,",
+          "regular,",
+          "every",
+          "foreignee,",
+          "domestic,",
+          "gradually,",
+          "fate",
+          "falls,"
+        ]
+      },
+      "crop_nothink": {
+        "ref_chars": 520,
+        "char_edits": 6,
+        "cer": 0.0115,
+        "ref_words": 80,
+        "word_edits": 3,
+        "wer": 0.0375,
+        "words_not_in_reference": 3,
+        "examples_not_in_reference": [
+          "foreigne,",
+          "feized",
+          "basel,"
+        ]
+      },
+      "crop_think": {
+        "ref_chars": 520,
+        "char_edits": 1,
+        "cer": 0.0019,
+        "ref_words": 80,
+        "word_edits": 1,
+        "wer": 0.0125,
+        "words_not_in_reference": 1,
+        "examples_not_in_reference": [
+          "basel,"
+        ]
+      },
+      "crop_noparse": {
+        "ref_chars": 520,
+        "char_edits": 13,
+        "cer": 0.025,
+        "ref_words": 80,
+        "word_edits": 10,
+        "wer": 0.125,
+        "words_not_in_reference": 10,
+        "examples_not_in_reference": [
+          "incon",
+          "siderable,",
+          "foreig",
+          "n,",
+          "proteflant",
+          "alfo",
+          "feized",
+          "bafil,"
+        ]
+      },
+      "page_nothink": {
+        "ref_chars": 520,
+        "char_edits": 104,
+        "cer": 0.2,
+        "ref_words": 80,
+        "word_edits": 33,
+        "wer": 0.4125,
+        "words_not_in_reference": 25,
+        "examples_not_in_reference": [
+          "incredible,",
+          "regular,",
+          "every",
+          "foreignee,",
+          "domestic,",
+          "gradually,",
+          "fate",
+          "falls,"
+        ]
+      },
+      "crop_nothink_long_s_rule": {
+        "ref_chars": 520,
+        "char_edits": 6,
+        "cer": 0.0115,
+        "ref_words": 80,
+        "word_edits": 3,
+        "wer": 0.0375,
+        "words_not_in_reference": 3,
+        "examples_not_in_reference": [
+          "foreigne,",
+          "feized",
+          "basel,"
+        ]
+      }
+    },
+    {
+      "gold_id": "G03",
+      "row_index": 257,
+      "block_index": 0,
+      "parse": {
+        "ref_chars": 635,
+        "char_edits": 140,
+        "cer": 0.2205,
+        "ref_words": 109,
+        "word_edits": 44,
+        "wer": 0.4037,
+        "words_not_in_reference": 35,
+        "examples_not_in_reference": [
+          "indarwify.",
+          "that",
+          "person",
+          "(10/3)",
+          "different,",
+          "matter's",
+          "tellimonal",
+          "world"
+        ]
+      },
+      "parse_long_s_rule": {
+        "ref_chars": 635,
+        "char_edits": 141,
+        "cer": 0.222,
+        "ref_words": 109,
+        "word_edits": 45,
+        "wer": 0.4128,
+        "words_not_in_reference": 36,
+        "examples_not_in_reference": [
+          "indarwify.",
+          "that",
+          "person",
+          "(10/3)",
+          "different,",
+          "matter's",
+          "tellimonal",
+          "world"
+        ]
+      },
+      "crop_nothink": {
+        "ref_chars": 635,
+        "char_edits": 6,
+        "cer": 0.0094,
+        "ref_words": 109,
+        "word_edits": 4,
+        "wer": 0.0367,
+        "words_not_in_reference": 3,
+        "examples_not_in_reference": [
+          "year,",
+          "connor;",
+          "refused"
+        ]
+      },
+      "crop_think": {
+        "ref_chars": 635,
+        "char_edits": 15,
+        "cer": 0.0236,
+        "ref_words": 109,
+        "word_edits": 7,
+        "wer": 0.0642,
+        "words_not_in_reference": 4,
+        "examples_not_in_reference": [
+          "200",
+          "year,",
+          "connor;",
+          "refused"
+        ]
+      },
+      "crop_noparse": {
+        "ref_chars": 635,
+        "char_edits": 8,
+        "cer": 0.0126,
+        "ref_words": 109,
+        "word_edits": 5,
+        "wer": 0.0459,
+        "words_not_in_reference": 4,
+        "examples_not_in_reference": [
+          "difgrace",
+          "revolved",
+          "l.200",
+          "refused"
+        ]
+      },
+      "page_nothink": {
+        "ref_chars": 635,
+        "char_edits": 140,
+        "cer": 0.2205,
+        "ref_words": 109,
+        "word_edits": 44,
+        "wer": 0.4037,
+        "words_not_in_reference": 35,
+        "examples_not_in_reference": [
+          "indarwify.",
+          "that",
+          "person",
+          "(10/3)",
+          "different,",
+          "matter's",
+          "tellimonal",
+          "world"
+        ]
+      },
+      "crop_nothink_long_s_rule": {
+        "ref_chars": 635,
+        "char_edits": 7,
+        "cer": 0.011,
+        "ref_words": 109,
+        "word_edits": 5,
+        "wer": 0.0459,
+        "words_not_in_reference": 4,
+        "examples_not_in_reference": [
+          "year,",
+          "connor;",
+          "refused",
+          "savour"
+        ]
+      }
+    },
+    {
+      "gold_id": "G04",
+      "row_index": 257,
+      "block_index": 1,
+      "parse": {
+        "ref_chars": 899,
+        "char_edits": 200,
+        "cer": 0.2225,
+        "ref_words": 152,
+        "word_edits": 56,
+        "wer": 0.3684,
+        "words_not_in_reference": 47,
+        "examples_not_in_reference": [
+          "i",
+          "love",
+          "swiffly",
+          "parents",
+          "many,",
+          "grocery",
+          "manuscript;",
+          "proform"
+        ]
+      },
+      "parse_long_s_rule": {
+        "ref_chars": 899,
+        "char_edits": 200,
+        "cer": 0.2225,
+        "ref_words": 152,
+        "word_edits": 56,
+        "wer": 0.3684,
+        "words_not_in_reference": 47,
+        "examples_not_in_reference": [
+          "i",
+          "love",
+          "swiffly",
+          "parents",
+          "many,",
+          "grocery",
+          "manuscript;",
+          "proform"
+        ]
+      },
+      "crop_nothink": {
+        "ref_chars": 899,
+        "char_edits": 6,
+        "cer": 0.0067,
+        "ref_words": 152,
+        "word_edits": 1,
+        "wer": 0.0066,
+        "words_not_in_reference": 1,
+        "examples_not_in_reference": [
+          "voluminous"
+        ]
+      },
+      "crop_think": {
+        "ref_chars": 899,
+        "char_edits": 12,
+        "cer": 0.0133,
+        "ref_words": 152,
+        "word_edits": 2,
+        "wer": 0.0132,
+        "words_not_in_reference": 2,
+        "examples_not_in_reference": [
+          "voluminous",
+          "foresaw"
+        ]
+      },
+      "crop_noparse": {
+        "ref_chars": 899,
+        "char_edits": 5,
+        "cer": 0.0056,
+        "ref_words": 152,
+        "word_edits": 2,
+        "wer": 0.0132,
+        "words_not_in_reference": 2,
+        "examples_not_in_reference": [
+          "wellminster",
+          "pollumous"
+        ]
+      },
+      "page_nothink": {
+        "ref_chars": 899,
+        "char_edits": 199,
+        "cer": 0.2214,
+        "ref_words": 152,
+        "word_edits": 56,
+        "wer": 0.3684,
+        "words_not_in_reference": 47,
+        "examples_not_in_reference": [
+          "i",
+          "love",
+          "swiftly",
+          "parents",
+          "many,",
+          "grocery",
+          "manuscript;",
+          "proform"
+        ]
+      },
+      "crop_nothink_long_s_rule": {
+        "ref_chars": 899,
+        "char_edits": 6,
+        "cer": 0.0067,
+        "ref_words": 152,
+        "word_edits": 1,
+        "wer": 0.0066,
+        "words_not_in_reference": 1,
+        "examples_not_in_reference": [
+          "voluminous"
+        ]
+      }
+    },
+    {
+      "gold_id": "G05",
+      "row_index": 258,
+      "block_index": 4,
+      "parse": {
+        "ref_chars": 325,
+        "char_edits": 42,
+        "cer": 0.1292,
+        "ref_words": 61,
+        "word_edits": 20,
+        "wer": 0.3279,
+        "words_not_in_reference": 14,
+        "examples_not_in_reference": [
+          "pulled",
+          "nahoof",
+          "its,",
+          "met",
+          "resilience",
+          "blak",
+          "hels,",
+          "foreshored."
+        ]
+      },
+      "parse_long_s_rule": {
+        "ref_chars": 325,
+        "char_edits": 42,
+        "cer": 0.1292,
+        "ref_words": 61,
+        "word_edits": 20,
+        "wer": 0.3279,
+        "words_not_in_reference": 14,
+        "examples_not_in_reference": [
+          "pulled",
+          "nahoof",
+          "its,",
+          "met",
+          "resilience",
+          "blak",
+          "hels,",
+          "foreshored."
+        ]
+      },
+      "crop_nothink": {
+        "ref_chars": 325,
+        "char_edits": 2,
+        "cer": 0.0062,
+        "ref_words": 61,
+        "word_edits": 2,
+        "wer": 0.0328,
+        "words_not_in_reference": 2,
+        "examples_not_in_reference": [
+          "k.",
+          "o."
+        ]
+      },
+      "crop_think": {
+        "ref_chars": 325,
+        "char_edits": 5,
+        "cer": 0.0154,
+        "ref_words": 61,
+        "word_edits": 3,
+        "wer": 0.0492,
+        "words_not_in_reference": 3,
+        "examples_not_in_reference": [
+          "resilience",
+          "k.",
+          "o."
+        ]
+      },
+      "crop_noparse": {
+        "ref_chars": 325,
+        "char_edits": 40,
+        "cer": 0.1231,
+        "ref_words": 61,
+        "word_edits": 9,
+        "wer": 0.1475,
+        "words_not_in_reference": 9,
+        "examples_not_in_reference": [
+          "reliefence",
+          "moft",
+          "finothered.",
+          "fet",
+          "k.",
+          "o.",
+          "sweet-william.",
+          "see"
+        ]
+      },
+      "page_nothink": {
+        "ref_chars": 325,
+        "char_edits": 17,
+        "cer": 0.0523,
+        "ref_words": 61,
+        "word_edits": 8,
+        "wer": 0.1311,
+        "words_not_in_reference": 4,
+        "examples_not_in_reference": [
+          "pulled",
+          "suffocated.",
+          "lon.",
+          "o."
+        ]
+      },
+      "crop_nothink_long_s_rule": {
+        "ref_chars": 325,
+        "char_edits": 2,
+        "cer": 0.0062,
+        "ref_words": 61,
+        "word_edits": 2,
+        "wer": 0.0328,
+        "words_not_in_reference": 2,
+        "examples_not_in_reference": [
+          "k.",
+          "o."
+        ]
+      }
+    },
+    {
+      "gold_id": "G06",
+      "row_index": 258,
+      "block_index": 5,
+      "parse": {
+        "ref_chars": 599,
+        "char_edits": 58,
+        "cer": 0.0968,
+        "ref_words": 107,
+        "word_edits": 23,
+        "wer": 0.215,
+        "words_not_in_reference": 18,
+        "examples_not_in_reference": [
+          "willlamsburg,",
+          "e",
+          "fact.",
+          "fuated",
+          "rocks;",
+          "chief",
+          "advantage",
+          "wells,"
+        ]
+      },
+      "parse_long_s_rule": {
+        "ref_chars": 599,
+        "char_edits": 58,
+        "cer": 0.0968,
+        "ref_words": 107,
+        "word_edits": 23,
+        "wer": 0.215,
+        "words_not_in_reference": 18,
+        "examples_not_in_reference": [
+          "willlamsburg,",
+          "e",
+          "fact.",
+          "fuated",
+          "rocks;",
+          "chief",
+          "advantage",
+          "wells,"
+        ]
+      },
+      "crop_nothink": {
+        "ref_chars": 599,
+        "char_edits": 0,
+        "cer": 0.0,
+        "ref_words": 107,
+        "word_edits": 0,
+        "wer": 0.0,
+        "words_not_in_reference": 0,
+        "examples_not_in_reference": []
+      },
+      "crop_think": {
+        "ref_chars": 599,
+        "char_edits": 0,
+        "cer": 0.0,
+        "ref_words": 107,
+        "word_edits": 0,
+        "wer": 0.0,
+        "words_not_in_reference": 0,
+        "examples_not_in_reference": []
+      },
+      "crop_noparse": {
+        "ref_chars": 599,
+        "char_edits": 1,
+        "cer": 0.0017,
+        "ref_words": 107,
+        "word_edits": 1,
+        "wer": 0.0093,
+        "words_not_in_reference": 1,
+        "examples_not_in_reference": [
+          "slate."
+        ]
+      },
+      "page_nothink": {
+        "ref_chars": 599,
+        "char_edits": 32,
+        "cer": 0.0534,
+        "ref_words": 107,
+        "word_edits": 11,
+        "wer": 0.1028,
+        "words_not_in_reference": 6,
+        "examples_not_in_reference": [
+          "rivers;",
+          "chief",
+          "advantage",
+          "services",
+          "overran",
+          "purple."
+        ]
+      },
+      "crop_nothink_long_s_rule": {
+        "ref_chars": 599,
+        "char_edits": 0,
+        "cer": 0.0,
+        "ref_words": 107,
+        "word_edits": 0,
+        "wer": 0.0,
+        "words_not_in_reference": 0,
+        "examples_not_in_reference": []
+      }
+    },
+    {
+      "gold_id": "G07",
+      "row_index": 403,
+      "block_index": 4,
+      "parse": {
+        "ref_chars": 391,
+        "char_edits": 83,
+        "cer": 0.2123,
+        "ref_words": 62,
+        "word_edits": 19,
+        "wer": 0.3065,
+        "words_not_in_reference": 16,
+        "examples_not_in_reference": [
+          "regi",
+          "ruse",
+          "le",
+          "mopoe",
+          "oppaar",
+          "oppaarna,",
+          "last.",
+          "chahidic"
+        ]
+      },
+      "parse_long_s_rule": {
+        "ref_chars": 391,
+        "char_edits": 83,
+        "cer": 0.2123,
+        "ref_words": 62,
+        "word_edits": 19,
+        "wer": 0.3065,
+        "words_not_in_reference": 16,
+        "examples_not_in_reference": [
+          "regi",
+          "ruse",
+          "le",
+          "mopoe",
+          "oppaar",
+          "oppaarna,",
+          "last.",
+          "chahidic"
+        ]
+      },
+      "crop_nothink": {
+        "ref_chars": 391,
+        "char_edits": 2,
+        "cer": 0.0051,
+        "ref_words": 62,
+        "word_edits": 1,
+        "wer": 0.0161,
+        "words_not_in_reference": 1,
+        "examples_not_in_reference": [
+          "μερω"
+        ]
+      },
+      "crop_think": {
+        "ref_chars": 391,
+        "char_edits": 3,
+        "cer": 0.0077,
+        "ref_words": 62,
+        "word_edits": 2,
+        "wer": 0.0323,
+        "words_not_in_reference": 1,
+        "examples_not_in_reference": [
+          "μερω"
+        ]
+      },
+      "crop_noparse": {
+        "ref_chars": 391,
+        "char_edits": 3,
+        "cer": 0.0077,
+        "ref_words": 62,
+        "word_edits": 2,
+        "wer": 0.0323,
+        "words_not_in_reference": 2,
+        "examples_not_in_reference": [
+          "δε",
+          "μερου"
+        ]
+      },
+      "page_nothink": {
+        "ref_chars": 391,
+        "char_edits": 83,
+        "cer": 0.2123,
+        "ref_words": 62,
+        "word_edits": 19,
+        "wer": 0.3065,
+        "words_not_in_reference": 16,
+        "examples_not_in_reference": [
+          "regi",
+          "ruse",
+          "le",
+          "mopoe",
+          "oppaar",
+          "oppaarna,",
+          "last.",
+          "chahidic"
+        ]
+      },
+      "crop_nothink_long_s_rule": {
+        "ref_chars": 391,
+        "char_edits": 2,
+        "cer": 0.0051,
+        "ref_words": 62,
+        "word_edits": 1,
+        "wer": 0.0161,
+        "words_not_in_reference": 1,
+        "examples_not_in_reference": [
+          "μερω"
+        ]
+      }
+    },
+    {
+      "gold_id": "G08",
+      "row_index": 403,
+      "block_index": 10,
+      "parse": {
+        "ref_chars": 222,
+        "char_edits": 31,
+        "cer": 0.1396,
+        "ref_words": 31,
+        "word_edits": 10,
+        "wer": 0.3226,
+        "words_not_in_reference": 8,
+        "examples_not_in_reference": [
+          "casslodorus",
+          "sesurs",
+          "inserted",
+          "cheliska",
+          "palestry.\"",
+          "intentery",
+          "discovers",
+          "refused"
+        ]
+      },
+      "parse_long_s_rule": {
+        "ref_chars": 222,
+        "char_edits": 31,
+        "cer": 0.1396,
+        "ref_words": 31,
+        "word_edits": 10,
+        "wer": 0.3226,
+        "words_not_in_reference": 8,
+        "examples_not_in_reference": [
+          "casslodorus",
+          "sesurs",
+          "inserted",
+          "cheliska",
+          "palestry.\"",
+          "intentery",
+          "discovers",
+          "refused"
+        ]
+      },
+      "crop_nothink": {
+        "ref_chars": 222,
+        "char_edits": 130,
+        "cer": 0.5856,
+        "ref_words": 31,
+        "word_edits": 21,
+        "wer": 0.6774,
+        "words_not_in_reference": 17,
+        "examples_not_in_reference": [
+          "we",
+          "find",
+          "same",
+          "observation",
+          "confirmed",
+          "by",
+          "heliodorus",
+          "(ethiopica,"
+        ]
+      },
+      "crop_think": {
+        "ref_chars": 222,
+        "char_edits": 161,
+        "cer": 0.7252,
+        "ref_words": 31,
+        "word_edits": 26,
+        "wer": 0.8387,
+        "words_not_in_reference": 21,
+        "examples_not_in_reference": [
+          "we",
+          "find",
+          "same",
+          "observation",
+          "confirmed",
+          "by",
+          "heliodorus",
+          "(aethiopica,"
+        ]
+      },
+      "crop_noparse": {
+        "ref_chars": 222,
+        "char_edits": 158,
+        "cer": 0.7117,
+        "ref_words": 31,
+        "word_edits": 26,
+        "wer": 0.8387,
+        "words_not_in_reference": 22,
+        "examples_not_in_reference": [
+          "we",
+          "find",
+          "same",
+          "observation",
+          "confirmed",
+          "by",
+          "heliodorus",
+          "(ethiopica,"
+        ]
+      },
+      "page_nothink": {
+        "ref_chars": 222,
+        "char_edits": 30,
+        "cer": 0.1351,
+        "ref_words": 31,
+        "word_edits": 9,
+        "wer": 0.2903,
+        "words_not_in_reference": 7,
+        "examples_not_in_reference": [
+          "sesurs",
+          "inserted",
+          "cheliska",
+          "palestry.\"",
+          "intentery",
+          "discovers",
+          "refused"
+        ]
+      },
+      "crop_nothink_long_s_rule": {
+        "ref_chars": 222,
+        "char_edits": 130,
+        "cer": 0.5856,
+        "ref_words": 31,
+        "word_edits": 21,
+        "wer": 0.6774,
+        "words_not_in_reference": 17,
+        "examples_not_in_reference": [
+          "we",
+          "find",
+          "same",
+          "observation",
+          "confirmed",
+          "by",
+          "heliodorus",
+          "(ethiopica,"
+        ]
+      }
+    },
+    {
+      "gold_id": "G09",
+      "row_index": 681,
+      "block_index": 1,
+      "parse": {
+        "ref_chars": 182,
+        "char_edits": 9,
+        "cer": 0.0495,
+        "ref_words": 42,
+        "word_edits": 7,
+        "wer": 0.1667,
+        "words_not_in_reference": 7,
+        "examples_not_in_reference": [
+          "a:",
+          "fo",
+          "h",
+          "on",
+          "dif.",
+          "stance",
+          "6"
+        ]
+      },
+      "parse_long_s_rule": {
+        "ref_chars": 182,
+        "char_edits": 9,
+        "cer": 0.0495,
+        "ref_words": 42,
+        "word_edits": 7,
+        "wer": 0.1667,
+        "words_not_in_reference": 7,
+        "examples_not_in_reference": [
+          "a:",
+          "fo",
+          "h",
+          "on",
+          "dis.",
+          "stance",
+          "6"
+        ]
+      },
+      "crop_nothink": {
+        "ref_chars": 182,
+        "char_edits": 2,
+        "cer": 0.011,
+        "ref_words": 42,
+        "word_edits": 2,
+        "wer": 0.0476,
+        "words_not_in_reference": 2,
+        "examples_not_in_reference": [
+          "fo",
+          "diftance"
+        ]
+      },
+      "crop_think": {
+        "ref_chars": 182,
+        "char_edits": 0,
+        "cer": 0.0,
+        "ref_words": 42,
+        "word_edits": 0,
+        "wer": 0.0,
+        "words_not_in_reference": 0,
+        "examples_not_in_reference": []
+      },
+      "crop_noparse": {
+        "ref_chars": 182,
+        "char_edits": 2,
+        "cer": 0.011,
+        "ref_words": 42,
+        "word_edits": 2,
+        "wer": 0.0476,
+        "words_not_in_reference": 2,
+        "examples_not_in_reference": [
+          "fo",
+          "diftance"
+        ]
+      },
+      "page_nothink": {
+        "ref_chars": 182,
+        "char_edits": 3,
+        "cer": 0.0165,
+        "ref_words": 42,
+        "word_edits": 2,
+        "wer": 0.0476,
+        "words_not_in_reference": 2,
+        "examples_not_in_reference": [
+          "h",
+          "6"
+        ]
+      },
+      "crop_nothink_long_s_rule": {
+        "ref_chars": 182,
+        "char_edits": 1,
+        "cer": 0.0055,
+        "ref_words": 42,
+        "word_edits": 1,
+        "wer": 0.0238,
+        "words_not_in_reference": 1,
+        "examples_not_in_reference": [
+          "fo"
+        ]
+      }
+    },
+    {
+      "gold_id": "G10",
+      "row_index": 681,
+      "block_index": 10,
+      "parse": {
+        "ref_chars": 888,
+        "char_edits": 46,
+        "cer": 0.0518,
+        "ref_words": 179,
+        "word_edits": 25,
+        "wer": 0.1397,
+        "words_not_in_reference": 19,
+        "examples_not_in_reference": [
+          "fun,",
+          "paths",
+          "fluter",
+          "fun.",
+          "confufed",
+          "spotlight",
+          "fun,",
+          "notwithflanking"
+        ]
+      },
+      "parse_long_s_rule": {
+        "ref_chars": 888,
+        "char_edits": 42,
+        "cer": 0.0473,
+        "ref_words": 179,
+        "word_edits": 21,
+        "wer": 0.1173,
+        "words_not_in_reference": 15,
+        "examples_not_in_reference": [
+          "fun,",
+          "paths",
+          "fluter",
+          "fun.",
+          "spotlight",
+          "fun,",
+          "notwithflanking",
+          "condition,"
+        ]
+      },
+      "crop_nothink": {
+        "ref_chars": 888,
+        "char_edits": 8,
+        "cer": 0.009,
+        "ref_words": 179,
+        "word_edits": 7,
+        "wer": 0.0391,
+        "words_not_in_reference": 5,
+        "examples_not_in_reference": [
+          "fun,",
+          "fun.",
+          "fun,",
+          "window-shutter",
+          "fun"
+        ]
+      },
+      "crop_think": {
+        "ref_chars": 888,
+        "char_edits": 2,
+        "cer": 0.0023,
+        "ref_words": 179,
+        "word_edits": 1,
+        "wer": 0.0056,
+        "words_not_in_reference": 0,
+        "examples_not_in_reference": []
+      },
+      "crop_noparse": {
+        "ref_chars": 888,
+        "char_edits": 32,
+        "cer": 0.036,
+        "ref_words": 179,
+        "word_edits": 21,
+        "wer": 0.1173,
+        "words_not_in_reference": 21,
+        "examples_not_in_reference": [
+          "fun,",
+          "paffes",
+          "flutter",
+          "fun.",
+          "confufed",
+          "fpot",
+          "fun,",
+          "fhall"
+        ]
+      },
+      "page_nothink": {
+        "ref_chars": 888,
+        "char_edits": 46,
+        "cer": 0.0518,
+        "ref_words": 179,
+        "word_edits": 25,
+        "wer": 0.1397,
+        "words_not_in_reference": 19,
+        "examples_not_in_reference": [
+          "fun,",
+          "paths",
+          "fluter",
+          "fun.",
+          "confufed",
+          "spotlight",
+          "fun,",
+          "notwithflanking"
+        ]
+      },
+      "crop_nothink_long_s_rule": {
+        "ref_chars": 888,
+        "char_edits": 8,
+        "cer": 0.009,
+        "ref_words": 179,
+        "word_edits": 7,
+        "wer": 0.0391,
+        "words_not_in_reference": 5,
+        "examples_not_in_reference": [
+          "fun,",
+          "fun.",
+          "fun,",
+          "window-shutter",
+          "fun"
+        ]
+      }
+    },
+    {
+      "gold_id": "G11",
+      "row_index": 756,
+      "block_index": 14,
+      "parse": {
+        "ref_chars": 622,
+        "char_edits": 51,
+        "cer": 0.082,
+        "ref_words": 121,
+        "word_edits": 21,
+        "wer": 0.1736,
+        "words_not_in_reference": 15,
+        "examples_not_in_reference": [
+          "reprefened",
+          "fourth",
+          "8",
+          "take",
+          "there",
+          "supposedly",
+          "magnifin",
+          "d"
+        ]
+      },
+      "parse_long_s_rule": {
+        "ref_chars": 622,
+        "char_edits": 51,
+        "cer": 0.082,
+        "ref_words": 121,
+        "word_edits": 21,
+        "wer": 0.1736,
+        "words_not_in_reference": 15,
+        "examples_not_in_reference": [
+          "reprefened",
+          "fourth",
+          "8",
+          "take",
+          "there",
+          "supposedly",
+          "magnifin",
+          "d"
+        ]
+      },
+      "crop_nothink": {
+        "ref_chars": 622,
+        "char_edits": 2,
+        "cer": 0.0032,
+        "ref_words": 121,
+        "word_edits": 1,
+        "wer": 0.0083,
+        "words_not_in_reference": 1,
+        "examples_not_in_reference": [
+          "fourth"
+        ]
+      },
+      "crop_think": {
+        "ref_chars": 622,
+        "char_edits": 2,
+        "cer": 0.0032,
+        "ref_words": 121,
+        "word_edits": 1,
+        "wer": 0.0083,
+        "words_not_in_reference": 1,
+        "examples_not_in_reference": [
+          "fourth"
+        ]
+      },
+      "crop_noparse": {
+        "ref_chars": 622,
+        "char_edits": 18,
+        "cer": 0.0289,
+        "ref_words": 121,
+        "word_edits": 4,
+        "wer": 0.0331,
+        "words_not_in_reference": 3,
+        "examples_not_in_reference": [
+          "attracted.",
+          "fourth",
+          "fourth"
+        ]
+      },
+      "page_nothink": {
+        "ref_chars": 622,
+        "char_edits": 49,
+        "cer": 0.0788,
+        "ref_words": 121,
+        "word_edits": 20,
+        "wer": 0.1653,
+        "words_not_in_reference": 12,
+        "examples_not_in_reference": [
+          "fourth",
+          "take",
+          "these",
+          "supposed",
+          "magnif",
+          "d",
+          "i",
+          "enough"
+        ]
+      },
+      "crop_nothink_long_s_rule": {
+        "ref_chars": 622,
+        "char_edits": 2,
+        "cer": 0.0032,
+        "ref_words": 121,
+        "word_edits": 1,
+        "wer": 0.0083,
+        "words_not_in_reference": 1,
+        "examples_not_in_reference": [
+          "fourth"
+        ]
+      }
+    },
+    {
+      "gold_id": "G12",
+      "row_index": 756,
+      "block_index": 15,
+      "parse": {
+        "ref_chars": 493,
+        "char_edits": 35,
+        "cer": 0.071,
+        "ref_words": 90,
+        "word_edits": 17,
+        "wer": 0.1889,
+        "words_not_in_reference": 15,
+        "examples_not_in_reference": [
+          "§.",
+          "he",
+          "three",
+          "magnetifism",
+          "flow,",
+          "gilbers.",
+          "fleet",
+          "temps,"
+        ]
+      },
+      "parse_long_s_rule": {
+        "ref_chars": 493,
+        "char_edits": 35,
+        "cer": 0.071,
+        "ref_words": 90,
+        "word_edits": 17,
+        "wer": 0.1889,
+        "words_not_in_reference": 15,
+        "examples_not_in_reference": [
+          "§.",
+          "he",
+          "three",
+          "magnetifism",
+          "flow,",
+          "gilbers.",
+          "fleet",
+          "temps,"
+        ]
+      },
+      "crop_nothink": {
+        "ref_chars": 493,
+        "char_edits": 7,
+        "cer": 0.0142,
+        "ref_words": 90,
+        "word_edits": 3,
+        "wer": 0.0333,
+        "words_not_in_reference": 2,
+        "examples_not_in_reference": [
+          "§.",
+          "three"
+        ]
+      },
+      "crop_think": {
+        "ref_chars": 493,
+        "char_edits": 4,
+        "cer": 0.0081,
+        "ref_words": 90,
+        "word_edits": 1,
+        "wer": 0.0111,
+        "words_not_in_reference": 0,
+        "examples_not_in_reference": []
+      },
+      "crop_noparse": {
+        "ref_chars": 493,
+        "char_edits": 43,
+        "cer": 0.0872,
+        "ref_words": 90,
+        "word_edits": 7,
+        "wer": 0.0778,
+        "words_not_in_reference": 4,
+        "examples_not_in_reference": [
+          "polarity,",
+          "its",
+          "weight",
+          "prevails."
+        ]
+      },
+      "page_nothink": {
+        "ref_chars": 493,
+        "char_edits": 35,
+        "cer": 0.071,
+        "ref_words": 90,
+        "word_edits": 17,
+        "wer": 0.1889,
+        "words_not_in_reference": 15,
+        "examples_not_in_reference": [
+          "§.",
+          "he",
+          "three",
+          "magnetifism",
+          "flow,",
+          "gilbers.",
+          "fleet",
+          "temps,"
+        ]
+      },
+      "crop_nothink_long_s_rule": {
+        "ref_chars": 493,
+        "char_edits": 7,
+        "cer": 0.0142,
+        "ref_words": 90,
+        "word_edits": 3,
+        "wer": 0.0333,
+        "words_not_in_reference": 2,
+        "examples_not_in_reference": [
+          "§.",
+          "three"
+        ]
+      }
+    },
+    {
+      "gold_id": "G13",
+      "row_index": 1017,
+      "block_index": 5,
+      "parse": {
+        "ref_chars": 527,
+        "char_edits": 52,
+        "cer": 0.0987,
+        "ref_words": 86,
+        "word_edits": 21,
+        "wer": 0.2442,
+        "words_not_in_reference": 21,
+        "examples_not_in_reference": [
+          "helleborr,",
+          "clafs.",
+          "i",
+          "an",
+          "cally,",
+          "perais",
+          "reclaim",
+          "blue"
+        ]
+      },
+      "parse_long_s_rule": {
+        "ref_chars": 527,
+        "char_edits": 51,
+        "cer": 0.0968,
+        "ref_words": 86,
+        "word_edits": 20,
+        "wer": 0.2326,
+        "words_not_in_reference": 20,
+        "examples_not_in_reference": [
+          "helleborr,",
+          "i",
+          "an",
+          "cally,",
+          "perais",
+          "reclaim",
+          "blue",
+          "biarded;"
+        ]
+      },
+      "crop_nothink": {
+        "ref_chars": 527,
+        "char_edits": 1,
+        "cer": 0.0019,
+        "ref_words": 86,
+        "word_edits": 1,
+        "wer": 0.0116,
+        "words_not_in_reference": 1,
+        "examples_not_in_reference": [
+          "feeds."
+        ]
+      },
+      "crop_think": {
+        "ref_chars": 527,
+        "char_edits": 0,
+        "cer": 0.0,
+        "ref_words": 86,
+        "word_edits": 0,
+        "wer": 0.0,
+        "words_not_in_reference": 0,
+        "examples_not_in_reference": []
+      },
+      "crop_noparse": {
+        "ref_chars": 527,
+        "char_edits": 60,
+        "cer": 0.1139,
+        "ref_words": 86,
+        "word_edits": 19,
+        "wer": 0.2209,
+        "words_not_in_reference": 15,
+        "examples_not_in_reference": [
+          "clasfs.",
+          "capfule",
+          "feeds.",
+          "fpecies,",
+          "fetidus,",
+          "baftard",
+          "poifonous;",
+          "fmall"
+        ]
+      },
+      "page_nothink": {
+        "ref_chars": 527,
+        "char_edits": 50,
+        "cer": 0.0949,
+        "ref_words": 86,
+        "word_edits": 19,
+        "wer": 0.2209,
+        "words_not_in_reference": 19,
+        "examples_not_in_reference": [
+          "helleborr,",
+          "an",
+          "cally,",
+          "perais",
+          "reclaim",
+          "blue",
+          "biarded;",
+          "capital"
+        ]
+      },
+      "crop_nothink_long_s_rule": {
+        "ref_chars": 527,
+        "char_edits": 1,
+        "cer": 0.0019,
+        "ref_words": 86,
+        "word_edits": 1,
+        "wer": 0.0116,
+        "words_not_in_reference": 1,
+        "examples_not_in_reference": [
+          "feeds."
+        ]
+      }
+    },
+    {
+      "gold_id": "G14",
+      "row_index": 1017,
+      "block_index": 18,
+      "parse": {
+        "ref_chars": 181,
+        "char_edits": 21,
+        "cer": 0.116,
+        "ref_words": 29,
+        "word_edits": 7,
+        "wer": 0.2414,
+        "words_not_in_reference": 7,
+        "examples_not_in_reference": [
+          "femme",
+          "excerite",
+          "on",
+          "fupplying",
+          "necefairs",
+          "develop",
+          "filters."
+        ]
+      },
+      "parse_long_s_rule": {
+        "ref_chars": 181,
+        "char_edits": 21,
+        "cer": 0.116,
+        "ref_words": 29,
+        "word_edits": 7,
+        "wer": 0.2414,
+        "words_not_in_reference": 7,
+        "examples_not_in_reference": [
+          "femme",
+          "excerite",
+          "on",
+          "fupplying",
+          "necefairs",
+          "develop",
+          "filters."
+        ]
+      },
+      "crop_nothink": {
+        "ref_chars": 181,
+        "char_edits": 0,
+        "cer": 0.0,
+        "ref_words": 29,
+        "word_edits": 0,
+        "wer": 0.0,
+        "words_not_in_reference": 0,
+        "examples_not_in_reference": []
+      },
+      "crop_think": {
+        "ref_chars": 181,
+        "char_edits": 0,
+        "cer": 0.0,
+        "ref_words": 29,
+        "word_edits": 0,
+        "wer": 0.0,
+        "words_not_in_reference": 0,
+        "examples_not_in_reference": []
+      },
+      "crop_noparse": {
+        "ref_chars": 181,
+        "char_edits": 35,
+        "cer": 0.1934,
+        "ref_words": 29,
+        "word_edits": 6,
+        "wer": 0.2069,
+        "words_not_in_reference": 4,
+        "examples_not_in_reference": [
+          "them",
+          "into",
+          "condition",
+          "slaves."
+        ]
+      },
+      "page_nothink": {
+        "ref_chars": 181,
+        "char_edits": 4,
+        "cer": 0.0221,
+        "ref_words": 29,
+        "word_edits": 1,
+        "wer": 0.0345,
+        "words_not_in_reference": 1,
+        "examples_not_in_reference": [
+          "women"
+        ]
+      },
+      "crop_nothink_long_s_rule": {
+        "ref_chars": 181,
+        "char_edits": 0,
+        "cer": 0.0,
+        "ref_words": 29,
+        "word_edits": 0,
+        "wer": 0.0,
+        "words_not_in_reference": 0,
+        "examples_not_in_reference": []
+      }
+    },
+    {
+      "gold_id": "G15",
+      "row_index": 1166,
+      "block_index": 4,
+      "parse": {
+        "ref_chars": 286,
+        "char_edits": 9,
+        "cer": 0.0315,
+        "ref_words": 52,
+        "word_edits": 7,
+        "wer": 0.1346,
+        "words_not_in_reference": 7,
+        "examples_not_in_reference": [
+          "rightly",
+          "benedit",
+          "choices",
+          "as",
+          "were",
+          "an",
+          "we"
+        ]
+      },
+      "parse_long_s_rule": {
+        "ref_chars": 286,
+        "char_edits": 9,
+        "cer": 0.0315,
+        "ref_words": 52,
+        "word_edits": 7,
+        "wer": 0.1346,
+        "words_not_in_reference": 7,
+        "examples_not_in_reference": [
+          "rightly",
+          "benedit",
+          "choices",
+          "as",
+          "were",
+          "an",
+          "we"
+        ]
+      },
+      "crop_nothink": {
+        "ref_chars": 286,
+        "char_edits": 0,
+        "cer": 0.0,
+        "ref_words": 52,
+        "word_edits": 0,
+        "wer": 0.0,
+        "words_not_in_reference": 0,
+        "examples_not_in_reference": []
+      },
+      "crop_think": {
+        "ref_chars": 286,
+        "char_edits": 52,
+        "cer": 0.1818,
+        "ref_words": 52,
+        "word_edits": 10,
+        "wer": 0.1923,
+        "words_not_in_reference": 7,
+        "examples_not_in_reference": [
+          "that",
+          "upon",
+          "it",
+          "whole",
+          "value",
+          "former",
+          "depends."
+        ]
+      },
+      "crop_noparse": {
+        "ref_chars": 286,
+        "char_edits": 52,
+        "cer": 0.1818,
+        "ref_words": 52,
+        "word_edits": 10,
+        "wer": 0.1923,
+        "words_not_in_reference": 7,
+        "examples_not_in_reference": [
+          "that",
+          "upon",
+          "it",
+          "whole",
+          "value",
+          "former",
+          "depends."
+        ]
+      },
+      "page_nothink": {
+        "ref_chars": 286,
+        "char_edits": 8,
+        "cer": 0.028,
+        "ref_words": 52,
+        "word_edits": 6,
+        "wer": 0.1154,
+        "words_not_in_reference": 6,
+        "examples_not_in_reference": [
+          "rightly",
+          "choices",
+          "as",
+          "were",
+          "an",
+          "we"
+        ]
+      },
+      "crop_nothink_long_s_rule": {
+        "ref_chars": 286,
+        "char_edits": 0,
+        "cer": 0.0,
+        "ref_words": 52,
+        "word_edits": 0,
+        "wer": 0.0,
+        "words_not_in_reference": 0,
+        "examples_not_in_reference": []
+      }
+    },
+    {
+      "gold_id": "G16",
+      "row_index": 1166,
+      "block_index": 11,
+      "parse": {
+        "ref_chars": 247,
+        "char_edits": 14,
+        "cer": 0.0567,
+        "ref_words": 44,
+        "word_edits": 6,
+        "wer": 0.1364,
+        "words_not_in_reference": 4,
+        "examples_not_in_reference": [
+          "publishes",
+          "proceeding",
+          "me",
+          "alone."
+        ]
+      },
+      "parse_long_s_rule": {
+        "ref_chars": 247,
+        "char_edits": 14,
+        "cer": 0.0567,
+        "ref_words": 44,
+        "word_edits": 6,
+        "wer": 0.1364,
+        "words_not_in_reference": 4,
+        "examples_not_in_reference": [
+          "publishes",
+          "proceeding",
+          "me",
+          "alone."
+        ]
+      },
+      "crop_nothink": {
+        "ref_chars": 247,
+        "char_edits": 0,
+        "cer": 0.0,
+        "ref_words": 44,
+        "word_edits": 0,
+        "wer": 0.0,
+        "words_not_in_reference": 0,
+        "examples_not_in_reference": []
+      },
+      "crop_think": {
+        "ref_chars": 247,
+        "char_edits": 0,
+        "cer": 0.0,
+        "ref_words": 44,
+        "word_edits": 0,
+        "wer": 0.0,
+        "words_not_in_reference": 0,
+        "examples_not_in_reference": []
+      },
+      "crop_noparse": {
+        "ref_chars": 247,
+        "char_edits": 101,
+        "cer": 0.4089,
+        "ref_words": 44,
+        "word_edits": 18,
+        "wer": 0.4091,
+        "words_not_in_reference": 16,
+        "examples_not_in_reference": [
+          "are",
+          "ill",
+          "governed,",
+          "will",
+          "often",
+          "presented",
+          "to",
+          "them."
+        ]
+      },
+      "page_nothink": {
+        "ref_chars": 247,
+        "char_edits": 14,
+        "cer": 0.0567,
+        "ref_words": 44,
+        "word_edits": 6,
+        "wer": 0.1364,
+        "words_not_in_reference": 4,
+        "examples_not_in_reference": [
+          "publishers",
+          "proceeding",
+          "me",
+          "alone."
+        ]
+      },
+      "crop_nothink_long_s_rule": {
+        "ref_chars": 247,
+        "char_edits": 0,
+        "cer": 0.0,
+        "ref_words": 44,
+        "word_edits": 0,
+        "wer": 0.0,
+        "words_not_in_reference": 0,
+        "examples_not_in_reference": []
+      }
+    },
+    {
+      "gold_id": "G17",
+      "row_index": 1250,
+      "block_index": 3,
+      "parse": {
+        "ref_chars": 225,
+        "char_edits": 24,
+        "cer": 0.1067,
+        "ref_words": 40,
+        "word_edits": 9,
+        "wer": 0.225,
+        "words_not_in_reference": 8,
+        "examples_not_in_reference": [
+          "are",
+          "diagonal,",
+          "wife,",
+          "fluid-cafe,",
+          "fering",
+          "entalature",
+          "fuipputting",
+          "room."
+        ]
+      },
+      "parse_long_s_rule": {
+        "ref_chars": 225,
+        "char_edits": 23,
+        "cer": 0.1022,
+        "ref_words": 40,
+        "word_edits": 9,
+        "wer": 0.225,
+        "words_not_in_reference": 8,
+        "examples_not_in_reference": [
+          "are",
+          "diagonal,",
+          "wife,",
+          "fluid-case,",
+          "fering",
+          "entalature",
+          "fuipputting",
+          "room."
+        ]
+      },
+      "crop_nothink": {
+        "ref_chars": 225,
+        "char_edits": 4,
+        "cer": 0.0178,
+        "ref_words": 40,
+        "word_edits": 1,
+        "wer": 0.025,
+        "words_not_in_reference": 1,
+        "examples_not_in_reference": [
+          "diagonally,"
+        ]
+      },
+      "crop_think": {
+        "ref_chars": 225,
+        "char_edits": 52,
+        "cer": 0.2311,
+        "ref_words": 40,
+        "word_edits": 11,
+        "wer": 0.275,
+        "words_not_in_reference": 8,
+        "examples_not_in_reference": [
+          "is",
+          "also",
+          "used",
+          "for",
+          "solid",
+          "angle",
+          "composed",
+          "two"
+        ]
+      },
+      "crop_noparse": {
+        "ref_chars": 225,
+        "char_edits": 56,
+        "cer": 0.2489,
+        "ref_words": 40,
+        "word_edits": 12,
+        "wer": 0.3,
+        "words_not_in_reference": 9,
+        "examples_not_in_reference": [
+          "diagonally,",
+          "is",
+          "also",
+          "used",
+          "for",
+          "solid",
+          "angle",
+          "composed"
+        ]
+      },
+      "page_nothink": {
+        "ref_chars": 225,
+        "char_edits": 24,
+        "cer": 0.1067,
+        "ref_words": 40,
+        "word_edits": 9,
+        "wer": 0.225,
+        "words_not_in_reference": 8,
+        "examples_not_in_reference": [
+          "are",
+          "diagonal,",
+          "wife,",
+          "fluid-cafe,",
+          "fering",
+          "entalature",
+          "fuipputting",
+          "room."
+        ]
+      },
+      "crop_nothink_long_s_rule": {
+        "ref_chars": 225,
+        "char_edits": 4,
+        "cer": 0.0178,
+        "ref_words": 40,
+        "word_edits": 1,
+        "wer": 0.025,
+        "words_not_in_reference": 1,
+        "examples_not_in_reference": [
+          "diagonally,"
+        ]
+      }
+    },
+    {
+      "gold_id": "G18",
+      "row_index": 1250,
+      "block_index": 4,
+      "parse": {
+        "ref_chars": 217,
+        "char_edits": 16,
+        "cer": 0.0737,
+        "ref_words": 42,
+        "word_edits": 7,
+        "wer": 0.1667,
+        "words_not_in_reference": 7,
+        "examples_not_in_reference": [
+          "allo",
+          "uled",
+          "field",
+          "compofol",
+          "fcc",
+          "chimary.",
+          "qouo."
+        ]
+      },
+      "parse_long_s_rule": {
+        "ref_chars": 217,
+        "char_edits": 16,
+        "cer": 0.0737,
+        "ref_words": 42,
+        "word_edits": 7,
+        "wer": 0.1667,
+        "words_not_in_reference": 7,
+        "examples_not_in_reference": [
+          "allo",
+          "uled",
+          "field",
+          "compofol",
+          "fcc",
+          "chimary.",
+          "qouo."
+        ]
+      },
+      "crop_nothink": {
+        "ref_chars": 217,
+        "char_edits": 0,
+        "cer": 0.0,
+        "ref_words": 42,
+        "word_edits": 0,
+        "wer": 0.0,
+        "words_not_in_reference": 0,
+        "examples_not_in_reference": []
+      },
+      "crop_think": {
+        "ref_chars": 217,
+        "char_edits": 0,
+        "cer": 0.0,
+        "ref_words": 42,
+        "word_edits": 0,
+        "wer": 0.0,
+        "words_not_in_reference": 0,
+        "examples_not_in_reference": []
+      },
+      "crop_noparse": {
+        "ref_chars": 217,
+        "char_edits": 47,
+        "cer": 0.2166,
+        "ref_words": 42,
+        "word_edits": 12,
+        "wer": 0.2857,
+        "words_not_in_reference": 9,
+        "examples_not_in_reference": [
+          "alfo",
+          "ufed",
+          "folid",
+          "compofed",
+          "coinage,",
+          "coining,",
+          "art",
+          "making"
+        ]
+      },
+      "page_nothink": {
+        "ref_chars": 217,
+        "char_edits": 8,
+        "cer": 0.0369,
+        "ref_words": 42,
+        "word_edits": 3,
+        "wer": 0.0714,
+        "words_not_in_reference": 2,
+        "examples_not_in_reference": [
+          "allowed",
+          "field"
+        ]
+      },
+      "crop_nothink_long_s_rule": {
+        "ref_chars": 217,
+        "char_edits": 0,
+        "cer": 0.0,
+        "ref_words": 42,
+        "word_edits": 0,
+        "wer": 0.0,
+        "words_not_in_reference": 0,
+        "examples_not_in_reference": []
+      }
+    },
+    {
+      "gold_id": "G19",
+      "row_index": 1324,
+      "block_index": 2,
+      "parse": {
+        "ref_chars": 469,
+        "char_edits": 47,
+        "cer": 0.1002,
+        "ref_words": 83,
+        "word_edits": 15,
+        "wer": 0.1807,
+        "words_not_in_reference": 14,
+        "examples_not_in_reference": [
+          "warnish",
+          "efficient",
+          "holder,",
+          "expected",
+          "titanium",
+          "resting",
+          "prefere",
+          "smaller"
+        ]
+      },
+      "parse_long_s_rule": {
+        "ref_chars": 469,
+        "char_edits": 47,
+        "cer": 0.1002,
+        "ref_words": 83,
+        "word_edits": 15,
+        "wer": 0.1807,
+        "words_not_in_reference": 14,
+        "examples_not_in_reference": [
+          "warnish",
+          "efficient",
+          "holder,",
+          "expected",
+          "titanium",
+          "resting",
+          "prefere",
+          "smaller"
+        ]
+      },
+      "crop_nothink": {
+        "ref_chars": 469,
+        "char_edits": 3,
+        "cer": 0.0064,
+        "ref_words": 83,
+        "word_edits": 1,
+        "wer": 0.012,
+        "words_not_in_reference": 1,
+        "examples_not_in_reference": [
+          "prefer"
+        ]
+      },
+      "crop_think": {
+        "ref_chars": 469,
+        "char_edits": 3,
+        "cer": 0.0064,
+        "ref_words": 83,
+        "word_edits": 1,
+        "wer": 0.012,
+        "words_not_in_reference": 1,
+        "examples_not_in_reference": [
+          "prefer"
+        ]
+      },
+      "crop_noparse": {
+        "ref_chars": 469,
+        "char_edits": 3,
+        "cer": 0.0064,
+        "ref_words": 83,
+        "word_edits": 1,
+        "wer": 0.012,
+        "words_not_in_reference": 1,
+        "examples_not_in_reference": [
+          "prefer"
+        ]
+      },
+      "page_nothink": {
+        "ref_chars": 469,
+        "char_edits": 36,
+        "cer": 0.0768,
+        "ref_words": 83,
+        "word_edits": 11,
+        "wer": 0.1325,
+        "words_not_in_reference": 11,
+        "examples_not_in_reference": [
+          "warnish",
+          "efficient",
+          "holder,",
+          "resting",
+          "prefer",
+          "smaller",
+          "income",
+          "treats."
+        ]
+      },
+      "crop_nothink_long_s_rule": {
+        "ref_chars": 469,
+        "char_edits": 3,
+        "cer": 0.0064,
+        "ref_words": 83,
+        "word_edits": 1,
+        "wer": 0.012,
+        "words_not_in_reference": 1,
+        "examples_not_in_reference": [
+          "prefer"
+        ]
+      }
+    },
+    {
+      "gold_id": "G20",
+      "row_index": 1324,
+      "block_index": 5,
+      "parse": {
+        "ref_chars": 528,
+        "char_edits": 88,
+        "cer": 0.1667,
+        "ref_words": 92,
+        "word_edits": 33,
+        "wer": 0.3587,
+        "words_not_in_reference": 25,
+        "examples_not_in_reference": [
+          "laid",
+          "excellence",
+          "red",
+          "me",
+          "what",
+          "plants",
+          "cloleres,",
+          "containing"
+        ]
+      },
+      "parse_long_s_rule": {
+        "ref_chars": 528,
+        "char_edits": 88,
+        "cer": 0.1667,
+        "ref_words": 92,
+        "word_edits": 33,
+        "wer": 0.3587,
+        "words_not_in_reference": 25,
+        "examples_not_in_reference": [
+          "laid",
+          "excellence",
+          "red",
+          "me",
+          "what",
+          "plants",
+          "cloleres,",
+          "containing"
+        ]
+      },
+      "crop_nothink": {
+        "ref_chars": 528,
+        "char_edits": 5,
+        "cer": 0.0095,
+        "ref_words": 92,
+        "word_edits": 3,
+        "wer": 0.0326,
+        "words_not_in_reference": 2,
+        "examples_not_in_reference": [
+          "excellence",
+          "probably"
+        ]
+      },
+      "crop_think": {
+        "ref_chars": 528,
+        "char_edits": 5,
+        "cer": 0.0095,
+        "ref_words": 92,
+        "word_edits": 3,
+        "wer": 0.0326,
+        "words_not_in_reference": 2,
+        "examples_not_in_reference": [
+          "excellence",
+          "probably"
+        ]
+      },
+      "crop_noparse": {
+        "ref_chars": 528,
+        "char_edits": 9,
+        "cer": 0.017,
+        "ref_words": 92,
+        "word_edits": 7,
+        "wer": 0.0761,
+        "words_not_in_reference": 7,
+        "examples_not_in_reference": [
+          "clofenefs,",
+          "railed",
+          "foil;",
+          "thin-foiled",
+          "feem",
+          "fituation;",
+          "faid,"
+        ]
+      },
+      "page_nothink": {
+        "ref_chars": 528,
+        "char_edits": 88,
+        "cer": 0.1667,
+        "ref_words": 92,
+        "word_edits": 33,
+        "wer": 0.3587,
+        "words_not_in_reference": 25,
+        "examples_not_in_reference": [
+          "laid",
+          "excellence",
+          "red",
+          "me",
+          "what",
+          "plants",
+          "cloleres,",
+          "containing"
+        ]
+      },
+      "crop_nothink_long_s_rule": {
+        "ref_chars": 528,
+        "char_edits": 5,
+        "cer": 0.0095,
+        "ref_words": 92,
+        "word_edits": 3,
+        "wer": 0.0326,
+        "words_not_in_reference": 2,
+        "examples_not_in_reference": [
+          "excellence",
+          "probably"
+        ]
+      }
+    },
+    {
+      "gold_id": "G22",
+      "row_index": 1614,
+      "block_index": 7,
+      "parse": {
+        "ref_chars": 576,
+        "char_edits": 84,
+        "cer": 0.1458,
+        "ref_words": 104,
+        "word_edits": 33,
+        "wer": 0.3173,
+        "words_not_in_reference": 29,
+        "examples_not_in_reference": [
+          "origin",
+          "flat",
+          "river",
+          "circled,",
+          "borders",
+          "offered",
+          "through",
+          "pink,"
+        ]
+      },
+      "parse_long_s_rule": {
+        "ref_chars": 576,
+        "char_edits": 84,
+        "cer": 0.1458,
+        "ref_words": 104,
+        "word_edits": 33,
+        "wer": 0.3173,
+        "words_not_in_reference": 29,
+        "examples_not_in_reference": [
+          "origin",
+          "flat",
+          "river",
+          "circled,",
+          "borders",
+          "offered",
+          "through",
+          "pink,"
+        ]
+      },
+      "crop_nothink": {
+        "ref_chars": 576,
+        "char_edits": 3,
+        "cer": 0.0052,
+        "ref_words": 104,
+        "word_edits": 3,
+        "wer": 0.0288,
+        "words_not_in_reference": 2,
+        "examples_not_in_reference": [
+          "pendant",
+          "crofs,"
+        ]
+      },
+      "crop_think": {
+        "ref_chars": 576,
+        "char_edits": 4,
+        "cer": 0.0069,
+        "ref_words": 104,
+        "word_edits": 2,
+        "wer": 0.0192,
+        "words_not_in_reference": 2,
+        "examples_not_in_reference": [
+          "flat",
+          "pendant"
+        ]
+      },
+      "crop_noparse": {
+        "ref_chars": 576,
+        "char_edits": 6,
+        "cer": 0.0104,
+        "ref_words": 104,
+        "word_edits": 5,
+        "wer": 0.0481,
+        "words_not_in_reference": 5,
+        "examples_not_in_reference": [
+          "flar",
+          "pendant",
+          "crofs,",
+          "fometimes",
+          "fame"
+        ]
+      },
+      "page_nothink": {
+        "ref_chars": 576,
+        "char_edits": 1198,
+        "cer": 2.0799,
+        "ref_words": 104,
+        "word_edits": 220,
+        "wer": 2.1154,
+        "words_not_in_reference": 138,
+        "examples_not_in_reference": [
+          "order",
+          "military",
+          "order",
+          "knighthood,",
+          "instituted",
+          "james",
+          "v.",
+          "king"
+        ]
+      },
+      "crop_nothink_long_s_rule": {
+        "ref_chars": 576,
+        "char_edits": 2,
+        "cer": 0.0035,
+        "ref_words": 104,
+        "word_edits": 2,
+        "wer": 0.0192,
+        "words_not_in_reference": 1,
+        "examples_not_in_reference": [
+          "pendant"
+        ]
+      }
+    },
+    {
+      "gold_id": "G23",
+      "row_index": 2001,
+      "block_index": 2,
+      "parse": {
+        "ref_chars": 486,
+        "char_edits": 41,
+        "cer": 0.0844,
+        "ref_words": 89,
+        "word_edits": 15,
+        "wer": 0.1685,
+        "words_not_in_reference": 13,
+        "examples_not_in_reference": [
+          "excife",
+          "fame",
+          "mmunific",
+          "coun-try",
+          "time",
+          "var.",
+          "revenues",
+          "berlher"
+        ]
+      },
+      "parse_long_s_rule": {
+        "ref_chars": 486,
+        "char_edits": 40,
+        "cer": 0.0823,
+        "ref_words": 89,
+        "word_edits": 14,
+        "wer": 0.1573,
+        "words_not_in_reference": 12,
+        "examples_not_in_reference": [
+          "fame",
+          "mmunific",
+          "coun-try",
+          "time",
+          "var.",
+          "revenues",
+          "berlher",
+          "clugas."
+        ]
+      },
+      "crop_nothink": {
+        "ref_chars": 486,
+        "char_edits": 1,
+        "cer": 0.0021,
+        "ref_words": 89,
+        "word_edits": 1,
+        "wer": 0.0112,
+        "words_not_in_reference": 1,
+        "examples_not_in_reference": [
+          "breilaw"
+        ]
+      },
+      "crop_think": {
+        "ref_chars": 486,
+        "char_edits": 6,
+        "cer": 0.0123,
+        "ref_words": 89,
+        "word_edits": 2,
+        "wer": 0.0225,
+        "words_not_in_reference": 2,
+        "examples_not_in_reference": [
+          "margraviate",
+          "breslau"
+        ]
+      },
+      "crop_noparse": {
+        "ref_chars": 486,
+        "char_edits": 10,
+        "cer": 0.0206,
+        "ref_words": 89,
+        "word_edits": 9,
+        "wer": 0.1011,
+        "words_not_in_reference": 9,
+        "examples_not_in_reference": [
+          "fame",
+          "marquifate",
+          "reft",
+          "fame",
+          "feveral",
+          "brellaw",
+          "arifing",
+          "pruflia"
+        ]
+      },
+      "page_nothink": {
+        "ref_chars": 486,
+        "char_edits": 13,
+        "cer": 0.0267,
+        "ref_words": 89,
+        "word_edits": 5,
+        "wer": 0.0562,
+        "words_not_in_reference": 4,
+        "examples_not_in_reference": [
+          "time",
+          "revenues",
+          "berlin",
+          "cleves."
+        ]
+      },
+      "crop_nothink_long_s_rule": {
+        "ref_chars": 486,
+        "char_edits": 1,
+        "cer": 0.0021,
+        "ref_words": 89,
+        "word_edits": 1,
+        "wer": 0.0112,
+        "words_not_in_reference": 1,
+        "examples_not_in_reference": [
+          "breilaw"
+        ]
+      }
+    },
+    {
+      "gold_id": "G24",
+      "row_index": 2001,
+      "block_index": 3,
+      "parse": {
+        "ref_chars": 464,
+        "char_edits": 60,
+        "cer": 0.1293,
+        "ref_words": 79,
+        "word_edits": 17,
+        "wer": 0.2152,
+        "words_not_in_reference": 14,
+        "examples_not_in_reference": [
+          "sliela",
+          "localities;",
+          "justifiable",
+          "purity",
+          "diately",
+          "foreigners,",
+          "walks.",
+          "employ"
+        ]
+      },
+      "parse_long_s_rule": {
+        "ref_chars": 464,
+        "char_edits": 60,
+        "cer": 0.1293,
+        "ref_words": 79,
+        "word_edits": 17,
+        "wer": 0.2152,
+        "words_not_in_reference": 14,
+        "examples_not_in_reference": [
+          "sliela",
+          "localities;",
+          "justifiable",
+          "purity",
+          "diately",
+          "foreigners,",
+          "walks.",
+          "employ"
+        ]
+      },
+      "crop_nothink": {
+        "ref_chars": 464,
+        "char_edits": 6,
+        "cer": 0.0129,
+        "ref_words": 79,
+        "word_edits": 2,
+        "wer": 0.0253,
+        "words_not_in_reference": 2,
+        "examples_not_in_reference": [
+          "silefia",
+          "foreigner,"
+        ]
+      },
+      "crop_think": {
+        "ref_chars": 464,
+        "char_edits": 3,
+        "cer": 0.0065,
+        "ref_words": 79,
+        "word_edits": 1,
+        "wer": 0.0127,
+        "words_not_in_reference": 1,
+        "examples_not_in_reference": [
+          "foreign,"
+        ]
+      },
+      "crop_noparse": {
+        "ref_chars": 464,
+        "char_edits": 25,
+        "cer": 0.0539,
+        "ref_words": 79,
+        "word_edits": 13,
+        "wer": 0.1646,
+        "words_not_in_reference": 13,
+        "examples_not_in_reference": [
+          "per",
+          "annum.",
+          "silefia",
+          "thefe",
+          "lordfhips;",
+          "fome",
+          "fovereign,",
+          "fubjects"
+        ]
+      },
+      "page_nothink": {
+        "ref_chars": 464,
+        "char_edits": 464,
+        "cer": 1.0,
+        "ref_words": 79,
+        "word_edits": 88,
+        "wer": 1.1139,
+        "words_not_in_reference": 48,
+        "examples_not_in_reference": [
+          "revenues,",
+          "excise",
+          "here",
+          "levied",
+          "only",
+          "walled",
+          "towns,",
+          "being"
+        ]
+      },
+      "crop_nothink_long_s_rule": {
+        "ref_chars": 464,
+        "char_edits": 5,
+        "cer": 0.0108,
+        "ref_words": 79,
+        "word_edits": 1,
+        "wer": 0.0127,
+        "words_not_in_reference": 1,
+        "examples_not_in_reference": [
+          "foreigner,"
+        ]
+      }
+    },
+    {
+      "gold_id": "G25",
+      "row_index": 2171,
+      "block_index": 5,
+      "parse": {
+        "ref_chars": 265,
+        "char_edits": 16,
+        "cer": 0.0604,
+        "ref_words": 42,
+        "word_edits": 9,
+        "wer": 0.2143,
+        "words_not_in_reference": 9,
+        "examples_not_in_reference": [
+          "heralyly",
+          "ornament",
+          "fluid;",
+          "helmes,",
+          "credit,",
+          "fcrolls,",
+          "fuch",
+          "aliiances,"
+        ]
+      },
+      "parse_long_s_rule": {
+        "ref_chars": 265,
+        "char_edits": 15,
+        "cer": 0.0566,
+        "ref_words": 42,
+        "word_edits": 8,
+        "wer": 0.1905,
+        "words_not_in_reference": 8,
+        "examples_not_in_reference": [
+          "heralyly",
+          "ornament",
+          "fluid;",
+          "helmes,",
+          "credit,",
+          "fcrolls,",
+          "aliiances,",
+          "marhalled"
+        ]
+      },
+      "crop_nothink": {
+        "ref_chars": 265,
+        "char_edits": 2,
+        "cer": 0.0075,
+        "ref_words": 42,
+        "word_edits": 1,
+        "wer": 0.0238,
+        "words_not_in_reference": 1,
+        "examples_not_in_reference": [
+          "field;"
+        ]
+      },
+      "crop_think": {
+        "ref_chars": 265,
+        "char_edits": 0,
+        "cer": 0.0,
+        "ref_words": 42,
+        "word_edits": 0,
+        "wer": 0.0,
+        "words_not_in_reference": 0,
+        "examples_not_in_reference": []
+      },
+      "crop_noparse": {
+        "ref_chars": 265,
+        "char_edits": 6,
+        "cer": 0.0226,
+        "ref_words": 42,
+        "word_edits": 6,
+        "wer": 0.1429,
+        "words_not_in_reference": 6,
+        "examples_not_in_reference": [
+          "perfon,",
+          "fhield;",
+          "creft,",
+          "fcrolls,",
+          "fuch",
+          "marfhalled"
+        ]
+      },
+      "page_nothink": {
+        "ref_chars": 265,
+        "char_edits": 8,
+        "cer": 0.0302,
+        "ref_words": 42,
+        "word_edits": 6,
+        "wer": 0.1429,
+        "words_not_in_reference": 6,
+        "examples_not_in_reference": [
+          "heralry,",
+          "ornament",
+          "field;",
+          "helmes,",
+          "credit,",
+          "fuch"
+        ]
+      },
+      "crop_nothink_long_s_rule": {
+        "ref_chars": 265,
+        "char_edits": 2,
+        "cer": 0.0075,
+        "ref_words": 42,
+        "word_edits": 1,
+        "wer": 0.0238,
+        "words_not_in_reference": 1,
+        "examples_not_in_reference": [
+          "field;"
+        ]
+      }
+    },
+    {
+      "gold_id": "G26",
+      "row_index": 2171,
+      "block_index": 8,
+      "parse": {
+        "ref_chars": 298,
+        "char_edits": 41,
+        "cer": 0.1376,
+        "ref_words": 50,
+        "word_edits": 18,
+        "wer": 0.36,
+        "words_not_in_reference": 14,
+        "examples_not_in_reference": [
+          "fame",
+          "antiquars,",
+          "antquers,",
+          "a",
+          "filipin,",
+          "aleala",
+          "reil;",
+          "left"
+        ]
+      },
+      "parse_long_s_rule": {
+        "ref_chars": 298,
+        "char_edits": 41,
+        "cer": 0.1376,
+        "ref_words": 50,
+        "word_edits": 18,
+        "wer": 0.36,
+        "words_not_in_reference": 14,
+        "examples_not_in_reference": [
+          "fame",
+          "antiquars,",
+          "antquers,",
+          "a",
+          "filipin,",
+          "aleala",
+          "reil;",
+          "left"
+        ]
+      },
+      "crop_nothink": {
+        "ref_chars": 298,
+        "char_edits": 6,
+        "cer": 0.0201,
+        "ref_words": 50,
+        "word_edits": 4,
+        "wer": 0.08,
+        "words_not_in_reference": 3,
+        "examples_not_in_reference": [
+          "fame",
+          "hifpalis,",
+          "falum,"
+        ]
+      },
+      "crop_think": {
+        "ref_chars": 298,
+        "char_edits": 6,
+        "cer": 0.0201,
+        "ref_words": 50,
+        "word_edits": 3,
+        "wer": 0.06,
+        "words_not_in_reference": 2,
+        "examples_not_in_reference": [
+          "falum,",
+          "tejeda."
+        ]
+      },
+      "crop_noparse": {
+        "ref_chars": 298,
+        "char_edits": 24,
+        "cer": 0.0805,
+        "ref_words": 50,
+        "word_edits": 9,
+        "wer": 0.18,
+        "words_not_in_reference": 9,
+        "examples_not_in_reference": [
+          "tice",
+          "among",
+          "men.",
+          "fome",
+          "hifpalis,",
+          "laft",
+          "fitation,",
+          "becaufe"
+        ]
+      },
+      "page_nothink": {
+        "ref_chars": 298,
+        "char_edits": 41,
+        "cer": 0.1376,
+        "ref_words": 50,
+        "word_edits": 18,
+        "wer": 0.36,
+        "words_not_in_reference": 14,
+        "examples_not_in_reference": [
+          "fame",
+          "antiquars,",
+          "antquers,",
+          "a",
+          "filipin,",
+          "aleala",
+          "reil;",
+          "left"
+        ]
+      },
+      "crop_nothink_long_s_rule": {
+        "ref_chars": 298,
+        "char_edits": 6,
+        "cer": 0.0201,
+        "ref_words": 50,
+        "word_edits": 4,
+        "wer": 0.08,
+        "words_not_in_reference": 3,
+        "examples_not_in_reference": [
+          "fame",
+          "hifpalis,",
+          "falum,"
+        ]
+      }
+    },
+    {
+      "gold_id": "G27",
+      "row_index": 2250,
+      "block_index": 2,
+      "parse": {
+        "ref_chars": 263,
+        "char_edits": 27,
+        "cer": 0.1027,
+        "ref_words": 52,
+        "word_edits": 13,
+        "wer": 0.25,
+        "words_not_in_reference": 12,
+        "examples_not_in_reference": [
+          "batment",
+          "archwife,",
+          "mals",
+          "flouse",
+          "birds,",
+          "ferving",
+          "flapper",
+          "fides"
+        ]
+      },
+      "parse_long_s_rule": {
+        "ref_chars": 263,
+        "char_edits": 25,
+        "cer": 0.0951,
+        "ref_words": 52,
+        "word_edits": 11,
+        "wer": 0.2115,
+        "words_not_in_reference": 10,
+        "examples_not_in_reference": [
+          "batment",
+          "mals",
+          "flouse",
+          "birds,",
+          "flapper",
+          "fides",
+          "6e,",
+          "fultain"
+        ]
+      },
+      "crop_nothink": {
+        "ref_chars": 263,
+        "char_edits": 0,
+        "cer": 0.0,
+        "ref_words": 52,
+        "word_edits": 0,
+        "wer": 0.0,
+        "words_not_in_reference": 0,
+        "examples_not_in_reference": []
+      },
+      "crop_think": {
+        "ref_chars": 263,
+        "char_edits": 0,
+        "cer": 0.0,
+        "ref_words": 52,
+        "word_edits": 0,
+        "wer": 0.0,
+        "words_not_in_reference": 0,
+        "examples_not_in_reference": []
+      },
+      "crop_noparse": {
+        "ref_chars": 263,
+        "char_edits": 53,
+        "cer": 0.2015,
+        "ref_words": 52,
+        "word_edits": 18,
+        "wer": 0.3462,
+        "words_not_in_reference": 18,
+        "examples_not_in_reference": [
+          "long.",
+          "and",
+          "between",
+          "60°",
+          "and",
+          "66°",
+          "n.",
+          "lat."
+        ]
+      },
+      "page_nothink": {
+        "ref_chars": 263,
+        "char_edits": 1,
+        "cer": 0.0038,
+        "ref_words": 52,
+        "word_edits": 1,
+        "wer": 0.0192,
+        "words_not_in_reference": 1,
+        "examples_not_in_reference": [
+          "batment"
+        ]
+      },
+      "crop_nothink_long_s_rule": {
+        "ref_chars": 263,
+        "char_edits": 0,
+        "cer": 0.0,
+        "ref_words": 52,
+        "word_edits": 0,
+        "wer": 0.0,
+        "words_not_in_reference": 0,
+        "examples_not_in_reference": []
+      }
+    },
+    {
+      "gold_id": "G28",
+      "row_index": 2250,
+      "block_index": 3,
+      "parse": {
+        "ref_chars": 422,
+        "char_edits": 43,
+        "cer": 0.1019,
+        "ref_words": 75,
+        "word_edits": 17,
+        "wer": 0.2267,
+        "words_not_in_reference": 17,
+        "examples_not_in_reference": [
+          "butteflies",
+          "fleeples",
+          "flone,",
+          "6e,",
+          "confiile,",
+          "fuch",
+          "at",
+          "shrull"
+        ]
+      },
+      "parse_long_s_rule": {
+        "ref_chars": 422,
+        "char_edits": 40,
+        "cer": 0.0948,
+        "ref_words": 75,
+        "word_edits": 15,
+        "wer": 0.2,
+        "words_not_in_reference": 15,
+        "examples_not_in_reference": [
+          "butteflies",
+          "fleeples",
+          "slone,",
+          "6e,",
+          "confiile,",
+          "at",
+          "shrull",
+          "once,"
+        ]
+      },
+      "crop_nothink": {
+        "ref_chars": 422,
+        "char_edits": 3,
+        "cer": 0.0071,
+        "ref_words": 75,
+        "word_edits": 1,
+        "wer": 0.0133,
+        "words_not_in_reference": 1,
+        "examples_not_in_reference": [
+          "fleepies"
+        ]
+      },
+      "crop_think": null,
+      "crop_noparse": {
+        "ref_chars": 422,
+        "char_edits": 20,
+        "cer": 0.0474,
+        "ref_words": 75,
+        "word_edits": 16,
+        "wer": 0.2133,
+        "words_not_in_reference": 16,
+        "examples_not_in_reference": [
+          "buttreflies",
+          "ufed",
+          "againft",
+          "fleeples",
+          "ftone,",
+          "fuch",
+          "fubject",
+          "thrutt"
+        ]
+      },
+      "page_nothink": {
+        "ref_chars": 422,
+        "char_edits": 40,
+        "cer": 0.0948,
+        "ref_words": 75,
+        "word_edits": 16,
+        "wer": 0.2133,
+        "words_not_in_reference": 16,
+        "examples_not_in_reference": [
+          "butteffes",
+          "fleeples",
+          "flone,",
+          "confines,",
+          "fuch",
+          "at",
+          "shrull",
+          "once,"
+        ]
+      },
+      "crop_nothink_long_s_rule": {
+        "ref_chars": 422,
+        "char_edits": 3,
+        "cer": 0.0071,
+        "ref_words": 75,
+        "word_edits": 1,
+        "wer": 0.0133,
+        "words_not_in_reference": 1,
+        "examples_not_in_reference": [
+          "fleepies"
+        ]
+      }
+    },
+    {
+      "gold_id": "G29",
+      "row_index": 2424,
+      "block_index": 12,
+      "parse": {
+        "ref_chars": 489,
+        "char_edits": 34,
+        "cer": 0.0695,
+        "ref_words": 85,
+        "word_edits": 11,
+        "wer": 0.1294,
+        "words_not_in_reference": 10,
+        "examples_not_in_reference": [
+          "livestock.",
+          "sufficiently",
+          "standard",
+          "any",
+          "fine",
+          "planted.",
+          "wise,",
+          "fitness,"
+        ]
+      },
+      "parse_long_s_rule": {
+        "ref_chars": 489,
+        "char_edits": 34,
+        "cer": 0.0695,
+        "ref_words": 85,
+        "word_edits": 11,
+        "wer": 0.1294,
+        "words_not_in_reference": 10,
+        "examples_not_in_reference": [
+          "livestock.",
+          "sufficiently",
+          "standard",
+          "any",
+          "fine",
+          "planted.",
+          "wise,",
+          "fitness,"
+        ]
+      },
+      "crop_nothink": {
+        "ref_chars": 489,
+        "char_edits": 0,
+        "cer": 0.0,
+        "ref_words": 85,
+        "word_edits": 0,
+        "wer": 0.0,
+        "words_not_in_reference": 0,
+        "examples_not_in_reference": []
+      },
+      "crop_think": {
+        "ref_chars": 489,
+        "char_edits": 0,
+        "cer": 0.0,
+        "ref_words": 85,
+        "word_edits": 0,
+        "wer": 0.0,
+        "words_not_in_reference": 0,
+        "examples_not_in_reference": []
+      },
+      "crop_noparse": {
+        "ref_chars": 489,
+        "char_edits": 0,
+        "cer": 0.0,
+        "ref_words": 85,
+        "word_edits": 0,
+        "wer": 0.0,
+        "words_not_in_reference": 0,
+        "examples_not_in_reference": []
+      },
+      "page_nothink": {
+        "ref_chars": 489,
+        "char_edits": 21,
+        "cer": 0.0429,
+        "ref_words": 85,
+        "word_edits": 9,
+        "wer": 0.1059,
+        "words_not_in_reference": 8,
+        "examples_not_in_reference": [
+          "standard",
+          "any",
+          "fine",
+          "planted.",
+          "wise,",
+          "fitness,",
+          "forwithn",
+          "dipose"
+        ]
+      },
+      "crop_nothink_long_s_rule": {
+        "ref_chars": 489,
+        "char_edits": 0,
+        "cer": 0.0,
+        "ref_words": 85,
+        "word_edits": 0,
+        "wer": 0.0,
+        "words_not_in_reference": 0,
+        "examples_not_in_reference": []
+      }
+    },
+    {
+      "gold_id": "G30",
+      "row_index": 2424,
+      "block_index": 16,
+      "parse": {
+        "ref_chars": 346,
+        "char_edits": 40,
+        "cer": 0.1156,
+        "ref_words": 60,
+        "word_edits": 9,
+        "wer": 0.15,
+        "words_not_in_reference": 7,
+        "examples_not_in_reference": [
+          "another...",
+          "these",
+          "unpainly",
+          "lincoln",
+          "threat",
+          "wolf.",
+          "minority"
+        ]
+      },
+      "parse_long_s_rule": {
+        "ref_chars": 346,
+        "char_edits": 40,
+        "cer": 0.1156,
+        "ref_words": 60,
+        "word_edits": 9,
+        "wer": 0.15,
+        "words_not_in_reference": 7,
+        "examples_not_in_reference": [
+          "another...",
+          "these",
+          "unpainly",
+          "lincoln",
+          "threat",
+          "wolf.",
+          "minority"
+        ]
+      },
+      "crop_nothink": {
+        "ref_chars": 346,
+        "char_edits": 18,
+        "cer": 0.052,
+        "ref_words": 60,
+        "word_edits": 2,
+        "wer": 0.0333,
+        "words_not_in_reference": 2,
+        "examples_not_in_reference": [
+          "lincoln",
+          "breeding,"
+        ]
+      },
+      "crop_think": {
+        "ref_chars": 346,
+        "char_edits": 13,
+        "cer": 0.0376,
+        "ref_words": 60,
+        "word_edits": 2,
+        "wer": 0.0333,
+        "words_not_in_reference": 2,
+        "examples_not_in_reference": [
+          "lincoln",
+          "breedcrossing"
+        ]
+      },
+      "crop_noparse": {
+        "ref_chars": 346,
+        "char_edits": 47,
+        "cer": 0.1358,
+        "ref_words": 60,
+        "word_edits": 6,
+        "wer": 0.1,
+        "words_not_in_reference": 4,
+        "examples_not_in_reference": [
+          "palatableness",
+          "market",
+          "value.",
+          "lincoln"
+        ]
+      },
+      "page_nothink": {
+        "ref_chars": 346,
+        "char_edits": 338,
+        "cer": 0.9769,
+        "ref_words": 60,
+        "word_edits": 58,
+        "wer": 0.9667,
+        "words_not_in_reference": 0,
+        "examples_not_in_reference": []
+      },
+      "crop_nothink_long_s_rule": {
+        "ref_chars": 346,
+        "char_edits": 18,
+        "cer": 0.052,
+        "ref_words": 60,
+        "word_edits": 2,
+        "wer": 0.0333,
+        "words_not_in_reference": 2,
+        "examples_not_in_reference": [
+          "lincoln",
+          "breeding,"
+        ]
+      }
+    }
+  ],
+  "note": "CER and WER ignore case and accents. Gold made by one transcriber; see the gold file."
+}

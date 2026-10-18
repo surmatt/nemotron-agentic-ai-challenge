@@ -1,0 +1,93 @@
+{
+  "variant": "crop_nothink",
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1828",
+  "block_index": 6,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T12:23:27+00:00",
+  "elapsed_seconds": 2.08,
+  "finish_reason": "stop",
+  "parse_text": "The most obvious and the strongest association that First class can be established between inward feelings and external of associ-objects is, where the object is necessarily and universally <sup>ditions</sup> concerned with the feeling by the law of nature, so that it is always presented to the senses when the feeling is impressed upon the mind—as the sight or sound of daughter, with the feeling of guilty, of keeping with dis-trees—of the sound of thunder, with ideas of anger and power. Let us dwell for a moment on the last instance. -Nothing perhaps, in the whole range is now strikingly and universally within than the sound we hear just mentioned yet it seems obvious that the sense of sublinity is produced, not by any quality that is perceived by the car, but altogether by the impression of power and of danger that is reasonably well done the mind whenever that sound is heard. That it, is not produced by any peculiarity in the sound itself, is comma, from the mistakes that are frequently made with regard to it. The mean of a cart rattling over the stones is often mistaken forthum,\" and as long as the mistake lasts, this very vulger and insignificant loss is actually felt to be proficional ability. It is sofst, however, it is perfectly plain, merely because it is then associated with ideas of prejudices poorer and unuledined danger; and the sublinity is de- stared the moment the assuration is dissolved, though the sound itself and it effect on the organs, continue exactly the same. This, therefore, is an instance in which sublinity is distinctly proved to consist, not in any physical quality of the object to which it is ascribed, but in its necessary connection with that vast and uncontrolled Power which is the natural aspect of use and voracious.",
+  "corrected_text": "The most obvious and the strongest association that can be established between inward feelings and external objects is, where the object is necessarily and universally connected with the feeling by the law of nature, so that it is always presented to the senses when the feeling is impressed upon the mind, as the sight or sound of laughter, with the feeling of gaiety, of weeping, with distress, of the sound of thunder, with ideas of danger and power. Let us dwell for a moment on the last instance. Nothing, perhaps, in the whole range, is more strikingly and universally sublime than the sound we have just mentioned; yet it seems obvious that the sense of sublimity is produced, not by any quality that is perceived by the ear, but altogether by the impression of power and of danger that is necessarily made upon the mind whenever that sound is heard. That it is not produced by any peculiarity in the sound itself, is certain, from the mistakes that are frequently made with regard to it. The noise of a cart rattling over the stones is often mistaken for thunder; and as long as the mistake lasts, this very vulgar and insignificant noise is actually felt to be prodigiously sublime. It is so felt, however, it is perfectly plain, merely because it is then associated with ideas of prodigious power and undefined danger; and the sublimity is destroyed the moment the association is dissolved, though the sound itself, and its effect on the organ, continue exactly the same. This, therefore, is an instance in which sublimity is distinctly proved to consist, not in any physical quality of the object to which it is ascribed, but in its necessary connection with that vast and uncontrolled Power which is the natural object of awe and veneration.",
+  "reasoning_tokens": 0,
+  "usage": {
+    "completion_tokens": 355,
+    "prompt_tokens": 1415,
+    "total_tokens": 1770,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 870
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 3000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows this region of the page. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\nThe most obvious and the strongest association that First class can be established between inward feelings and external of associ-objects is, where the object is necessarily and universally <sup>ditions</sup> concerned with the feeling by the law of nature, so that it is always presented to the senses when the feeling is impressed upon the mind—as the sight or sound of daughter, with the feeling of guilty, of keeping with dis-trees—of the sound of thunder, with ideas of anger and power. Let us dwell for a moment on the last instance. -Nothing perhaps, in the whole range is now strikingly and universally within than the sound we hear just mentioned yet it seems obvious that the sense of sublinity is produced, not by any quality that is perceived by the car, but altogether by the impression of power and of danger that is reasonably well done the mind whenever that sound is heard. That it, is not produced by any peculiarity in the sound itself, is comma, from the mistakes that are frequently made with regard to it. The mean of a cart rattling over the stones is often mistaken forthum,\" and as long as the mistake lasts, this very vulger and insignificant loss is actually felt to be proficional ability. It is sofst, however, it is perfectly plain, merely because it is then associated with ideas of prejudices poorer and unuledined danger; and the sublinity is de- stared the moment the assuration is dissolved, though the sound itself and it effect on the organs, continue exactly the same. This, therefore, is an instance in which sublinity is distinctly proved to consist, not in any physical quality of the object to which it is ascribed, but in its necessary connection with that vast and uncontrolled Power which is the natural aspect of use and voracious.",
+  "response": {
+    "id": "chatcmpl-a485368754b0a837",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "The most obvious and the strongest association that can be established between inward feelings and external objects is, where the object is necessarily and universally connected with the feeling by the law of nature, so that it is always presented to the senses when the feeling is impressed upon the mind, as the sight or sound of laughter, with the feeling of gaiety, of weeping, with distress, of the sound of thunder, with ideas of danger and power. Let us dwell for a moment on the last instance. Nothing, perhaps, in the whole range, is more strikingly and universally sublime than the sound we have just mentioned; yet it seems obvious that the sense of sublimity is produced, not by any quality that is perceived by the ear, but altogether by the impression of power and of danger that is necessarily made upon the mind whenever that sound is heard. That it is not produced by any peculiarity in the sound itself, is certain, from the mistakes that are frequently made with regard to it. The noise of a cart rattling over the stones is often mistaken for thunder; and as long as the mistake lasts, this very vulgar and insignificant noise is actually felt to be prodigiously sublime. It is so felt, however, it is perfectly plain, merely because it is then associated with ideas of prodigious power and undefined danger; and the sublimity is destroyed the moment the association is dissolved, though the sound itself, and its effect on the organ, continue exactly the same. This, therefore, is an instance in which sublimity is distinctly proved to consist, not in any physical quality of the object to which it is ascribed, but in its necessary connection with that vast and uncontrolled Power which is the natural object of awe and veneration.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792326208,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 355,
+      "prompt_tokens": 1415,
+      "total_tokens": 1770,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 870
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}
