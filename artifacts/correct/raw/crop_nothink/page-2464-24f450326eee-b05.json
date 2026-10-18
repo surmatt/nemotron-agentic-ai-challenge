@@ -1,0 +1,93 @@
+{
+  "variant": "crop_nothink",
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2464",
+  "block_index": 5,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T12:24:53+00:00",
+  "elapsed_seconds": 0.91,
+  "finish_reason": "stop",
+  "parse_text": "In the opinion of thefe men, there is not a word, letter, or accent in the law, without fome mystery in it. The Jies are divided into two general feels, the karaice, who refute to receive either tradition or the talmud, or any thing but the pure text of ferripture; and the rabbinills, or talmudits, who, befedes this, receive the traditions of the ancients, and follow the talmud.",
+  "corrected_text": "In the opinion of these men, there is not a word, letter, or accent in the law, without some mystery in it. The Jews are divided into two general sects; the karaites, who refuse to receive either tradition or the talmud, or any thing but the pure text of scripture; and the rabbinists, or talmudists, who, besides this, receive the traditions of the ancients, and follow the talmud.",
+  "reasoning_tokens": 0,
+  "usage": {
+    "completion_tokens": 94,
+    "prompt_tokens": 547,
+    "total_tokens": 641,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 272
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 3000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows this region of the page. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\nIn the opinion of thefe men, there is not a word, letter, or accent in the law, without fome mystery in it. The Jies are divided into two general feels, the karaice, who refute to receive either tradition or the talmud, or any thing but the pure text of ferripture; and the rabbinills, or talmudits, who, befedes this, receive the traditions of the ancients, and follow the talmud.",
+  "response": {
+    "id": "chatcmpl-82fa14af6759b18c",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "In the opinion of these men, there is not a word, letter, or accent in the law, without some mystery in it. The Jews are divided into two general sects; the karaites, who refuse to receive either tradition or the talmud, or any thing but the pure text of scripture; and the rabbinists, or talmudists, who, besides this, receive the traditions of the ancients, and follow the talmud.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792326294,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 94,
+      "prompt_tokens": 547,
+      "total_tokens": 641,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 272
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

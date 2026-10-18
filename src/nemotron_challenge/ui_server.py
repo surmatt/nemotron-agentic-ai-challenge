@@ -105,6 +105,10 @@ def create_app(work_dir: Path = Path("artifacts"), raw_scans: Path = Path("data/
     def rerun(upload_id: str, body: RerunRequest) -> dict[str, Any]:
         return {"started": guard(lambda: workbench.rerun(work_dir, upload_id, body.step, settings_loader))}
 
+    @api.post("/api/uploads/{upload_id}/reapply-match")
+    def reapply_match(upload_id: str) -> dict[str, Any]:
+        return {"started": guard(lambda: workbench.reapply_match(work_dir, upload_id, settings_loader))}
+
     @api.get("/api/uploads/{upload_id}/image")
     def upload_image(upload_id: str, w: int | None = Query(None, ge=64, le=1600)) -> Response:
         folder = guard(lambda: workbench.upload_dir(work_dir, upload_id))

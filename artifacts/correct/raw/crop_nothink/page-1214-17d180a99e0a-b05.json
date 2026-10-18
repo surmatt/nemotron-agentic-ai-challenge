@@ -1,0 +1,93 @@
+{
+  "variant": "crop_nothink",
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1214",
+  "block_index": 5,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T12:21:58+00:00",
+  "elapsed_seconds": 2.1,
+  "finish_reason": "stop",
+  "parse_text": "The formation of unintractable air in mines cannot be attributed to any variation of atmospheric or there is no natural process with which we are ac- quanted, by which fish a change could be accom- plished. In one influence, however, we have an ex- ample of a champ being produced, not only with- out any confidential flagation of atmospheric air, has where there is the belt circularism recognizable. This is in large bellows ufeid in metallurgie works, which are foretime birth by an explosion of infam- make matter processing from the mind matters with which the leather is greeded. Dr Priefley has flown, that inflammable air is comprised of pure ele- mentary fire charcoal or phologines and stable veter; and that this composition may take place even _in_ _wason._ All the materials are to be met with in the bowels of the earth. Coal, a bitumen imbalance, is abundantly able to supply the phogililon; the na- tural motions of the earth affords water, and the heat, between goods, which constantly calls in the bowels of the earth, may be sufficient to produce a quantity of fullammable air, which gradually occurring- falling in chois places where it is not a constant threat of atmospheric air to carry it off, will foam produce the desirable effects already mentioned.",
+  "corrected_text": "The formation of unintractable air in mines cannot be attributed to any variation of atmospheric or there is no natural process with which we are acquainted, by which such a change could be accomplished. In one instance, however, we have an example of a fire-damp being produced, not only without any considerable flagration of atmospheric air, but where there is the belt circulation imaginable. This is in large bellows used in metallurgic works, which are sometimes burst by an explosion of inflammable matter proceeding from the rancid matters with which the leather is greased. Dr Priestley has shown, that inflammable air is composed of pure elementary fire, charcoal or phlogiston, and a little water; and that this composition may take place even in vacuo. All the materials are to be met with in the bowels of the earth. Coal, a bituminous substance, is abundantly able to supply the phlogiston; the natural moisture of the earth affords water, and the heat, however gentle, which constantly exists in the bowels of the earth, may be sufficient to produce a quantity of inflammable air, which gradually accumulating in those places where there is not a constant stream of atmospheric air to carry it off, will soon produce the dreadful effects already mentioned.",
+  "reasoning_tokens": 0,
+  "usage": {
+    "completion_tokens": 262,
+    "prompt_tokens": 1058,
+    "total_tokens": 1320,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 600
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 3000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows this region of the page. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\nThe formation of unintractable air in mines cannot be attributed to any variation of atmospheric or there is no natural process with which we are ac- quanted, by which fish a change could be accom- plished. In one influence, however, we have an ex- ample of a champ being produced, not only with- out any confidential flagation of atmospheric air, has where there is the belt circularism recognizable. This is in large bellows ufeid in metallurgie works, which are foretime birth by an explosion of infam- make matter processing from the mind matters with which the leather is greeded. Dr Priefley has flown, that inflammable air is comprised of pure ele- mentary fire charcoal or phologines and stable veter; and that this composition may take place even _in_ _wason._ All the materials are to be met with in the bowels of the earth. Coal, a bitumen imbalance, is abundantly able to supply the phogililon; the na- tural motions of the earth affords water, and the heat, between goods, which constantly calls in the bowels of the earth, may be sufficient to produce a quantity of fullammable air, which gradually occurring- falling in chois places where it is not a constant threat of atmospheric air to carry it off, will foam produce the desirable effects already mentioned.",
+  "response": {
+    "id": "chatcmpl-aa752065b383ebe6",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "The formation of unintractable air in mines cannot be attributed to any variation of atmospheric or there is no natural process with which we are acquainted, by which such a change could be accomplished. In one instance, however, we have an example of a fire-damp being produced, not only without any considerable flagration of atmospheric air, but where there is the belt circulation imaginable. This is in large bellows used in metallurgic works, which are sometimes burst by an explosion of inflammable matter proceeding from the rancid matters with which the leather is greased. Dr Priestley has shown, that inflammable air is composed of pure elementary fire, charcoal or phlogiston, and a little water; and that this composition may take place even in vacuo. All the materials are to be met with in the bowels of the earth. Coal, a bituminous substance, is abundantly able to supply the phlogiston; the natural moisture of the earth affords water, and the heat, however gentle, which constantly exists in the bowels of the earth, may be sufficient to produce a quantity of inflammable air, which gradually accumulating in those places where there is not a constant stream of atmospheric air to carry it off, will soon produce the dreadful effects already mentioned.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792326119,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 262,
+      "prompt_tokens": 1058,
+      "total_tokens": 1320,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 600
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

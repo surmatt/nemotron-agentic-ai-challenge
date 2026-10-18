@@ -1,0 +1,93 @@
+{
+  "variant": "crop_nothink",
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2424",
+  "block_index": 15,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T12:24:43+00:00",
+  "elapsed_seconds": 2.55,
+  "finish_reason": "stop",
+  "parse_text": "Of the first class, the improved Leicester are still like Lebanese most important the country. They are more willing of bread. fixed in the kingdom than any of their congress. Al- though, from the altered taste of the community, their mute to less lessened than formerly, they still constitute the simple breed of the multilocuice in England. Leicester name and also more in demand than ever, for crossing with other breeds. It is now about a century since the breed was produced by the grains and provenance of laborewell, in whole hands they attained a degree of excellence that has probably not yet been exceeded by the hay who have cultivated them as dairy. The characteristics of this breed are extreme dwelling, extraordinary upstate to fazen, and the dievelope age at which they come to nature! The most marked feature in their structure is the smallest of their friends, and of their bones generally, as contrasted with their weight of carcass. They were clean in the jaws, with a full vory, thin care, and placed counterness. Their backs for strength, broad, and flex, the fish included, the help carried very light, so that they present nearly as straight a line below as above, the clear is wide, the skin to yellow, and covered with a beautiful fleece in lung soft wool, which weigh on the average from 6 to 7 ft. On good, soils, and under careful treatment these days are currently brought to weigh from 18 to 20 lb per quartet at 14 months old, as which you bring new nonquality slaughter. At this age their fish is tender and just; I am even carried on until they are older and heavier, fat accumulates on un- daily is proportion to the lean meat, as to detract from its paltabenes and market value.",
+  "corrected_text": "Of the first class, the improved Leicesters are still the most important to the country. They are more widely diffused in the kingdom than any of their congeners. Although, from the altered taste of the community, their mutton is less esteemed than formerly, they still constitute the staple breed of the midland counties of England. Leicester rams are also more in demand than ever, for crossing with other breeds. It is now about a century since this breed was produced by the genius and perseverance of Bakewell, in whose hands they attained a degree of excellence that has probably not yet been exceeded by the many who have cultivated them since his day. The characteristics of this breed are extreme docility, extraordinary aptitude to fatten, and the early age at which they come to maturity. The most marked feature in their structure is the smallness of their heads, and of their bones generally, as contrasted with their weight of carcase. They are clean in the jaws, with a full eye, thin ears, and placid countenance. Their backs are straight, broad, and flat, the ribs arched, the belly carried very light, so that they present nearly as straight a line below as above, the chest is wide, the skin very mellow, and covered with a beautiful fleece of long, soft wool, which weighs on the average from 6 to 7 lb. On good soils, and under careful treatment these sheep are currently brought to weigh from 18 to 20 lb. per quarter at 14 months old, at which age they are now usually slaughtered. At this age their flesh is tender and juicy; but when carried on until they are older and heavier, fat accumulates so unduly in proportion to the lean meat, as to detract from its palatableness and market value.",
+  "reasoning_tokens": 0,
+  "usage": {
+    "completion_tokens": 380,
+    "prompt_tokens": 1280,
+    "total_tokens": 1660,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 730
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 3000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows this region of the page. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\nOf the first class, the improved Leicester are still like Lebanese most important the country. They are more willing of bread. fixed in the kingdom than any of their congress. Al- though, from the altered taste of the community, their mute to less lessened than formerly, they still constitute the simple breed of the multilocuice in England. Leicester name and also more in demand than ever, for crossing with other breeds. It is now about a century since the breed was produced by the grains and provenance of laborewell, in whole hands they attained a degree of excellence that has probably not yet been exceeded by the hay who have cultivated them as dairy. The characteristics of this breed are extreme dwelling, extraordinary upstate to fazen, and the dievelope age at which they come to nature! The most marked feature in their structure is the smallest of their friends, and of their bones generally, as contrasted with their weight of carcass. They were clean in the jaws, with a full vory, thin care, and placed counterness. Their backs for strength, broad, and flex, the fish included, the help carried very light, so that they present nearly as straight a line below as above, the clear is wide, the skin to yellow, and covered with a beautiful fleece in lung soft wool, which weigh on the average from 6 to 7 ft. On good, soils, and under careful treatment these days are currently brought to weigh from 18 to 20 lb per quartet at 14 months old, as which you bring new nonquality slaughter. At this age their fish is tender and just; I am even carried on until they are older and heavier, fat accumulates on un- daily is proportion to the lean meat, as to detract from its paltabenes and market value.",
+  "response": {
+    "id": "chatcmpl-9bd29881f7dd8e07",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "Of the first class, the improved Leicesters are still the most important to the country. They are more widely diffused in the kingdom than any of their congeners. Although, from the altered taste of the community, their mutton is less esteemed than formerly, they still constitute the staple breed of the midland counties of England. Leicester rams are also more in demand than ever, for crossing with other breeds. It is now about a century since this breed was produced by the genius and perseverance of Bakewell, in whose hands they attained a degree of excellence that has probably not yet been exceeded by the many who have cultivated them since his day. The characteristics of this breed are extreme docility, extraordinary aptitude to fatten, and the early age at which they come to maturity. The most marked feature in their structure is the smallness of their heads, and of their bones generally, as contrasted with their weight of carcase. They are clean in the jaws, with a full eye, thin ears, and placid countenance. Their backs are straight, broad, and flat, the ribs arched, the belly carried very light, so that they present nearly as straight a line below as above, the chest is wide, the skin very mellow, and covered with a beautiful fleece of long, soft wool, which weighs on the average from 6 to 7 lb. On good soils, and under careful treatment these sheep are currently brought to weigh from 18 to 20 lb. per quarter at 14 months old, at which age they are now usually slaughtered. At this age their flesh is tender and juicy; but when carried on until they are older and heavier, fat accumulates so unduly in proportion to the lean meat, as to detract from its palatableness and market value.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792326284,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 380,
+      "prompt_tokens": 1280,
+      "total_tokens": 1660,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 730
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

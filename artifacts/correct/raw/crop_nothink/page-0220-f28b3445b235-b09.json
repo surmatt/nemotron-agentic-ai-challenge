@@ -1,0 +1,93 @@
+{
+  "variant": "crop_nothink",
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:220",
+  "block_index": 9,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T12:19:58+00:00",
+  "elapsed_seconds": 2.37,
+  "finish_reason": "stop",
+  "parse_text": "Thick veffish filed from England the beginning of September 1785; touched at the Pikshini Ilands, Sandwich Illands, and arrived in Cook's River in the month of Augest. They filtered in the end of September for Past. They filtered at the end of September for Prince William's Sound, including, it said to winter there; but was never protected criterion by her form and courses bad weather, which obliged them to bear away, as if both force other part of the court is winner as \"The Renard and hahe weather compared them till they arrived off Noxeka Sound, when they were to raise the flows, that a cause some of us them; but though than now accomplishing their purpose, a Fifth items came on, and obliged them finally to ban away from the sidewind Iland, where they remained the writer ter months; and returning again to the coast, arrived in Prince William's Sound the middle of May. The New Orleans remained in Prince Willask's Sound; and during her,tay, her long-boat-divered a new paligry from the Santa Cruz Cook's River. The Decor Charlotte proceeded along the cold to the fourth I looked into Betting's Bay, where the Hollow have now a facthents' part of the coalt, from 50 to 50, which was not deny Captain Cook, and which condalks of shelter inflated since the Cap- Draix Space _Chaudich? Islands_, in a comfortable distance from the Main, which is thus removed farther to the railroad than it was impossible to be from part of the continent may. However, be from from the east fide of their islands; and it is probable, the difference does not say where recently so happen. On this effect, Houston, HoHoia Hot, 59 long, 60’s ‘very well, not be more than 800 million than that part of this era in the time parallel. It is therefore not improbable, that the enterprising fiirf of our Canadina durante my penetrate to the coat (the com-munication with which probably most he facilitated by lakes or rivers), and add to the comforts and insist",
+  "corrected_text": "Thofo vessels failed from England the beginning of September 1785; touched at the Falkland Islands, Sandwich Islands, and arrived in Cook's River in the month of August. From thence, after collecting a few furs, they fleered in the end of September for Prince William's Sound, intending, it is said, to winter there; but were prevented entering, by heavy forms and extreme bad weather, which obliged them to bear away, and seek some other part of the coast to winter at. The forms and bad weather accompanied them till they arrived off Nootka Sound, when they were to raise the flows, that a cause some of us them; but though then now accomplishing their purpose, a Fifth items came on, and obliged them finally to bear away for the Sandwich Islands, where they remained the winter months; and returning again to the coast, arrived in Prince William's Sound the middle of May. The King George remained in Prince William's Sound; and during her stay, her long-boat discovered a new passage from the Sound into Cook's River. The Queen Charlotte proceeded along the coast to the fourth; looked into Behring's Bay, where the Ruffians have now a settlement; examined that part of the coast from 56 to 50, which was not seen by Captain Cook, and which consists of a cluster of islands, called by Captain Dixon Queen Charlotte's Islands, at a considerable distance from the Main, which is thus removed farther to the eastward than it was supposed to be; some part of the continent may, however, be seen from the east side of these islands; and it is probable, the distance does not any where exceed 50 leagues. On this elucidation, Hudson's Houle, lat. 53 long. 106 27 west, will not be more than 800 miles distant from that part of this coast in the same parallel. It is therefore not improbable, that the enterprising spirit of our Canadian furriers may penetrate to this coast (the communication with which is probably much facilitated by lakes or rivers), and add to the comforts and luxu",
+  "reasoning_tokens": 0,
+  "usage": {
+    "completion_tokens": 446,
+    "prompt_tokens": 1474,
+    "total_tokens": 1920,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 838
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 3000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows this region of the page. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\nThick veffish filed from England the beginning of September 1785; touched at the Pikshini Ilands, Sandwich Illands, and arrived in Cook's River in the month of Augest. They filtered in the end of September for Past. They filtered at the end of September for Prince William's Sound, including, it said to winter there; but was never protected criterion by her form and courses bad weather, which obliged them to bear away, as if both force other part of the court is winner as \"The Renard and hahe weather compared them till they arrived off Noxeka Sound, when they were to raise the flows, that a cause some of us them; but though than now accomplishing their purpose, a Fifth items came on, and obliged them finally to ban away from the sidewind Iland, where they remained the writer ter months; and returning again to the coast, arrived in Prince William's Sound the middle of May. The New Orleans remained in Prince Willask's Sound; and during her,tay, her long-boat-divered a new paligry from the Santa Cruz Cook's River. The Decor Charlotte proceeded along the cold to the fourth I looked into Betting's Bay, where the Hollow have now a facthents' part of the coalt, from 50 to 50, which was not deny Captain Cook, and which condalks of shelter inflated since the Cap- Draix Space _Chaudich? Islands_, in a comfortable distance from the Main, which is thus removed farther to the railroad than it was impossible to be from part of the continent may. However, be from from the east fide of their islands; and it is probable, the difference does not say where recently so happen. On this effect, Houston, HoHoia Hot, 59 long, 60’s ‘very well, not be more than 800 million than that part of this era in the time parallel. It is therefore not improbable, that the enterprising fiirf of our Canadina durante my penetrate to the coat (the com-munication with which probably most he facilitated by lakes or rivers), and add to the comforts and insist",
+  "response": {
+    "id": "chatcmpl-9cf923bfb39c0a1d",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "Thofo vessels failed from England the beginning of September 1785; touched at the Falkland Islands, Sandwich Islands, and arrived in Cook's River in the month of August. From thence, after collecting a few furs, they fleered in the end of September for Prince William's Sound, intending, it is said, to winter there; but were prevented entering, by heavy forms and extreme bad weather, which obliged them to bear away, and seek some other part of the coast to winter at. The forms and bad weather accompanied them till they arrived off Nootka Sound, when they were to raise the flows, that a cause some of us them; but though then now accomplishing their purpose, a Fifth items came on, and obliged them finally to bear away for the Sandwich Islands, where they remained the winter months; and returning again to the coast, arrived in Prince William's Sound the middle of May. The King George remained in Prince William's Sound; and during her stay, her long-boat discovered a new passage from the Sound into Cook's River. The Queen Charlotte proceeded along the coast to the fourth; looked into Behring's Bay, where the Ruffians have now a settlement; examined that part of the coast from 56 to 50, which was not seen by Captain Cook, and which consists of a cluster of islands, called by Captain Dixon Queen Charlotte's Islands, at a considerable distance from the Main, which is thus removed farther to the eastward than it was supposed to be; some part of the continent may, however, be seen from the east side of these islands; and it is probable, the distance does not any where exceed 50 leagues. On this elucidation, Hudson's Houle, lat. 53 long. 106 27 west, will not be more than 800 miles distant from that part of this coast in the same parallel. It is therefore not improbable, that the enterprising spirit of our Canadian furriers may penetrate to this coast (the communication with which is probably much facilitated by lakes or rivers), and add to the comforts and luxu",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792325999,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 446,
+      "prompt_tokens": 1474,
+      "total_tokens": 1920,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 838
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

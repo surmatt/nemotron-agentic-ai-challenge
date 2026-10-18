@@ -1,0 +1,90 @@
+{
+  "variant": "crop_think",
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1166",
+  "block_index": 11,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T12:16:20+00:00",
+  "elapsed_seconds": 7.56,
+  "finish_reason": "stop",
+  "parse_text": "One thing more is necessary, and so necessary, that if it is wanting, the other might as well be wanting also. The publishes of the proceeding tells me that it alone. This, however, is useless, unless a correct judgment is passed upon what is done.",
+  "corrected_text": "One thing more is necessary, and so necessary, that if it is wanting, the other might as well be wanting also. The publication of the proceedings tells what is done. This, however, is useless, unless a correct judgment is passed upon what is done.",
+  "reasoning_tokens": 1498,
+  "usage": {
+    "completion_tokens": 1553,
+    "prompt_tokens": 521,
+    "total_tokens": 2074,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 1498,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 290
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 12000,
+    "temperature": 0
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows this region of the page. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\nOne thing more is necessary, and so necessary, that if it is wanting, the other might as well be wanting also. The publishes of the proceeding tells me that it alone. This, however, is useless, unless a correct judgment is passed upon what is done.",
+  "response": {
+    "id": "chatcmpl-8c6184543ae01baf",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "One thing more is necessary, and so necessary, that if it is wanting, the other might as well be wanting also. The publication of the proceedings tells what is done. This, however, is useless, unless a correct judgment is passed upon what is done.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": "The user wants me to correct the OCR text based on the provided image.\n\n**1. Analyze the Image:**\nThe image shows a snippet of text from an old book (18th or 19th century).\nThe text is in English.\nIt uses the long 's' (ſ) in some places, but the rule says \"write the long s as 's'\".\nI need to transcribe the visible text exactly as it appears, correcting the OCR errors.\n\n**2. Transcribe line by line:**\n\n*   **Line 1 (partial):** \"are in governed, will be often presented to them.\" -> Wait, looking at the image, the top line is cut off. The rule says \"Ignore lines cut at the top or bottom edge of the image.\" So I should ignore the very top line \"are in governed...\".\n*   **Line 2:** \"One thing more is necessary, and so necessary, that if\" -> This matches the OCR mostly.\n*   **Line 3:** \"it is wanting, the other might as well be wanting also.\" -> Matches.\n*   **Line 4:** \"The publication of the proceedings tells what is done.\" -> The OCR said \"publishes of the proceeding tells me that it alone.\" This is very wrong. The image clearly says \"The publication of the proceedings tells what is done.\"\n*   **Line 5:** \"This, however, is useless, unless a correct judgment is\" -> Matches.\n*   **Line 6:** \"passed upon what is done.\" -> Matches.\n*   **Line 7 (partial):** \"We have brought this inquiry then to an important\" -> This line is at the bottom. Is it cut off? It looks like the bottom of the letters are visible but maybe slightly cut. Let's look closely. The bottom edge cuts through the descenders of 'g', 'y', 'p'. The rule says \"Ignore lines cut at the top or bottom edge of the image.\" The line starting with \"We have brought...\" is cut at the bottom. So I should probably ignore it. Wait, let's re-read the rule: \"Ignore lines cut at the top or bottom edge of the image.\" The line \"We have brought this inquiry then to an important\" is clearly cut at the bottom. So I will exclude it.\n\n**3. Construct the final text:**\n\nText block to transcribe:\nOne thing more is necessary, and so necessary, that if\nit is wanting, the other might as well be wanting also.\nThe publication of the proceedings tells what is done.\nThis, however, is useless, unless a correct judgment is\npassed upon what is done.\n\nLet's double check the OCR provided vs Image.\nOCR: \"One thing more is necessary, and so necessary, that if it is wanting, the other might as well be wanting also. The publishes of the proceeding tells me that it alone. This, however, is useless, unless a correct judgment is passed upon what is done.\"\n\nImage text:\nLine 1 (visible full line): One thing more is necessary, and so necessary, that if\nLine 2: it is wanting, the other might as well be wanting also.\nLine 3: The publication of the proceedings tells what is done.\nLine 4: This, however, is useless, unless a correct judgment is\nLine 5: passed upon what is done.\n\nThe top line \"are in governed...\" is cut off at the top.\nThe bottom line \"We have brought...\" is cut off at the bottom.\n\nSo the text to output is the middle block.\n\n**4. Formatting:**\n- Write long s as 's'. (The image uses standard 's' mostly, maybe some long s in \"necessary\"? No, looks like standard s. Wait, \"necessary\" has an 's'. \"proceedings\" has 's'. \"judgment\" has no s. \"passed\" has 's'. \"wanting\" no s. \"also\" has 's'. \"done\" no s. \"publication\" has 's'. \"tells\" has 's'. \"is\" has 's'. \"unless\" has 's'. \"correct\" no s. \"judgment\" no s. \"upon\" no s. \"what\" no s. \"done\" no s.\n- Keep original spelling, capitals, punctuation.\n- Join word split by line-break hyphen. (None visible in the main block).\n- Leave out headers, numbers, etc.\n- Answer with text only.\n\n**Final check of the text:**\n\"One thing more is necessary, and so necessary, that if it is wanting, the other might as well be wanting also. The publication of the proceedings tells what is done. This, however, is useless, unless a correct judgment is passed upon what is done.\"\n\nLet's look at the image again to be precise about line breaks. The prompt implies I should just write the text. Usually, for these tasks, preserving line breaks is good unless it's a paragraph. The OCR provided is a paragraph. I will output it as a paragraph or with line breaks? The prompt says \"Answer with the text only\". Usually, preserving the flow is best. I will combine it into a coherent block of text as it appears semantically, but respecting the visual lines if possible or just flowing it. The OCR provided is a single block. I will output the corrected text as a single block.\n\nWait, let's look at the very top line again. \"are in governed, will be often presented to them.\" It is cut off at the top. So ignore.\nLet's look at the bottom line. \"We have brought this inquiry then to an important\". It is cut off at the bottom. So ignore.\n\nSo the text is:\nOne thing more is necessary, and so necessary, that if\nit is wanting, the other might as well be wanting also.\nThe publication of the proceedings tells what is done.\nThis, however, is useless, unless a correct judgment is\npassed upon what is done.\n\nI will combine these lines into a single paragraph as per standard transcription unless line breaks are crucial. The OCR input was a paragraph. I will output a paragraph.\n\nText: One thing more is necessary, and so necessary, that if it is wanting, the other might as well be wanting also. The publication of the proceedings tells what is done. This, however, is useless, unless a correct judgment is passed upon what is done.\n\nLet's check spelling in image:\n\"necessary\" - correct.\n\"proceedings\" - correct.\n\"judgment\" - correct (no 'e' after g).\n\"passed\" - correct.\n\nOne detail: \"The publication of the proceedings tells what is done.\"\nOCR said: \"The publishes of the proceeding tells me that it alone.\" -> Completely wrong.\nImage says: \"The publication of the proceedings tells what is done.\"\n\nFinal string:\nOne thing more is necessary, and so necessary, that if it is wanting, the other might as well be wanting also. The publication of the proceedings tells what is done. This, however, is useless, unless a correct judgment is passed upon what is done."
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792325781,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 1553,
+      "prompt_tokens": 521,
+      "total_tokens": 2074,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 1498,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 290
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

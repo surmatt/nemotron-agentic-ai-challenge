@@ -1,0 +1,93 @@
+{
+  "variant": "page_nothink",
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2001",
+  "block_index": 3,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T12:17:36+00:00",
+  "elapsed_seconds": 1.44,
+  "finish_reason": "stop",
+  "parse_text": "Sliela is divided into Upper and Lower, and each of their again into principalities and localities; of some of which both the property and justifiable belong, purity diately to the foreigners, but of others to his subjects and walks. In regard to the character of the employ the bears are accurate very dull and lupid; but of thofo of a higher rank, many have dilinguished themselves by their virtual learning, as well as by their military and political talents.",
+  "corrected_text": "As to the revenues, the excise here is levied only in the walled towns, being on the fame footing as in the marquisate of Brandenburgh; but in the reft of the country the contribution is fixed, and the both in money and in kind. The management of the war and the domain of Breslaw and Glogau. The whole revenue arising from these two sources is estimated at about 1,200,000 rix dollars of Glatz amounts to about four millions of rix-dollars per annum. divided into Upper and Lower; and each of them again into principalities and lordships; of some of which both the property and jurisdiction belong immediately to the king, and of others to his subjects and vassals. In regard to the character of the people, the Poles are accounted very dull and stupid; but of those of a higher rank, many have distinguished themselves by their virtuous learning, as well as by their military and political talents.",
+  "reasoning_tokens": 0,
+  "usage": {
+    "completion_tokens": 205,
+    "prompt_tokens": 815,
+    "total_tokens": 1020,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 496
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 3000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows the whole page. The region is the box x0=0.468, y0=0.203, x1=0.862, y1=0.319 as fractions of the page width and height. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\nSliela is divided into Upper and Lower, and each of their again into principalities and localities; of some of which both the property and justifiable belong, purity diately to the foreigners, but of others to his subjects and walks. In regard to the character of the employ the bears are accurate very dull and lupid; but of thofo of a higher rank, many have dilinguished themselves by their virtual learning, as well as by their military and political talents.",
+  "response": {
+    "id": "chatcmpl-abdc8825aa6b318e",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "As to the revenues, the excise here is levied only in the walled towns, being on the fame footing as in the marquisate of Brandenburgh; but in the reft of the country the contribution is fixed, and the both in money and in kind. The management of the war and the domain of Breslaw and Glogau. The whole revenue arising from these two sources is estimated at about 1,200,000 rix dollars of Glatz amounts to about four millions of rix-dollars per annum. divided into Upper and Lower; and each of them again into principalities and lordships; of some of which both the property and jurisdiction belong immediately to the king, and of others to his subjects and vassals. In regard to the character of the people, the Poles are accounted very dull and stupid; but of those of a higher rank, many have distinguished themselves by their virtuous learning, as well as by their military and political talents.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792325856,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 205,
+      "prompt_tokens": 815,
+      "total_tokens": 1020,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 496
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

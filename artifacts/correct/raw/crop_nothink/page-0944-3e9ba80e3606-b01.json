@@ -1,0 +1,93 @@
+{
+  "variant": "crop_nothink",
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:944",
+  "block_index": 1,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T12:21:40+00:00",
+  "elapsed_seconds": 1.17,
+  "finish_reason": "stop",
+  "parse_text": "Meature. cobres ten wherever are equal to three Paris ella. In Perla, and fame parts of the Indies, the guerz where there are two kinds a the royal pueze, called allo the _guers mondifer_, containing two Paris feet ten inches eleven lines, or four-fifths of the Paris eli and the thorter gucet, called simply means, only two finds of the former. At Goa and Ormuz, the meafore is the vars, as fans with this one of the Porugente, having been introduced by them. In Pegu, and some other parts of the Indies, the cando or candi, equal to",
+  "corrected_text": "Measure. cobres ten whereof are equal to three Paris ells. In Persia, and some parts of the Indies, the guze, whereof there are two kinds; the royal guze, called also the guze monkefer, containing two Paris feet ten inches eleven lines, or four-fifths of the Paris ell; and the shorter guze, called simply guze, only two thirds of the former. At Goa and Ormuz, the measure is the vara, the same with that of the Portuguese, having been introduced by them. In Pegu, and some other parts of the Indies, the cando or candi, equal to",
+  "reasoning_tokens": 0,
+  "usage": {
+    "completion_tokens": 135,
+    "prompt_tokens": 641,
+    "total_tokens": 776,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 326
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 3000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows this region of the page. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\nMeature. cobres ten wherever are equal to three Paris ella. In Perla, and fame parts of the Indies, the guerz where there are two kinds a the royal pueze, called allo the _guers mondifer_, containing two Paris feet ten inches eleven lines, or four-fifths of the Paris eli and the thorter gucet, called simply means, only two finds of the former. At Goa and Ormuz, the meafore is the vars, as fans with this one of the Porugente, having been introduced by them. In Pegu, and some other parts of the Indies, the cando or candi, equal to",
+  "response": {
+    "id": "chatcmpl-a08d706031893add",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "Measure. cobres ten whereof are equal to three Paris ells. In Persia, and some parts of the Indies, the guze, whereof there are two kinds; the royal guze, called also the guze monkefer, containing two Paris feet ten inches eleven lines, or four-fifths of the Paris ell; and the shorter guze, called simply guze, only two thirds of the former. At Goa and Ormuz, the measure is the vara, the same with that of the Portuguese, having been introduced by them. In Pegu, and some other parts of the Indies, the cando or candi, equal to",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792326101,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 135,
+      "prompt_tokens": 641,
+      "total_tokens": 776,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 326
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "variant": "crop_nothink",
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1818",
+  "block_index": 3,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T12:23:22+00:00",
+  "elapsed_seconds": 1.22,
+  "finish_reason": "stop",
+  "parse_text": "The blow-pipe is useful to the method is obtained as offering a ready method of knowing what the com- pourer parts of bodies are. Trials with the blow-pipe are generally made by the chemists in order to know the no rule of the constituent part, before to figure the need to the other steps of dry or humid analysis, which are requisite for ascertaining the quantities of the constituent rate. Then recourses is had to occur means than the blow-pipe; far in order to come as it a knowledge of the proportions of the constituent part, it is necessary that the quantity of each constituent part be large enough to be weighed in a balance, and, if in this purpose, the quantity of the sub- stance employed must be larger than what can be mang- ed with the blow-pipe.",
+  "corrected_text": "The blow-pipe is useful to the mineralogist and chemist, as affording a ready method of knowing what the component parts of bodies are. Trials with the blow-pipe are generally made by the chemist in order to know the nature of the constituent parts, before he proceeds to the other steps of dry or humid analysis, which are requisite for ascertaining the quantities of the constituent parts. Then recourse is had to other means than the blow-pipe; for, in order to come at a knowledge of the proportions of the constituent parts, it is necessary that the quantity of each constituent part be large enough to be weighed in a balance, and, for this purpose, the quantity of the substance employed must be larger than what can be managed with the blow-pipe.",
+  "reasoning_tokens": 0,
+  "usage": {
+    "completion_tokens": 158,
+    "prompt_tokens": 719,
+    "total_tokens": 877,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 377
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 3000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows this region of the page. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\nThe blow-pipe is useful to the method is obtained as offering a ready method of knowing what the com- pourer parts of bodies are. Trials with the blow-pipe are generally made by the chemists in order to know the no rule of the constituent part, before to figure the need to the other steps of dry or humid analysis, which are requisite for ascertaining the quantities of the constituent rate. Then recourses is had to occur means than the blow-pipe; far in order to come as it a knowledge of the proportions of the constituent part, it is necessary that the quantity of each constituent part be large enough to be weighed in a balance, and, if in this purpose, the quantity of the sub- stance employed must be larger than what can be mang- ed with the blow-pipe.",
+  "response": {
+    "id": "chatcmpl-85fd814f4177edc5",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "The blow-pipe is useful to the mineralogist and chemist, as affording a ready method of knowing what the component parts of bodies are. Trials with the blow-pipe are generally made by the chemist in order to know the nature of the constituent parts, before he proceeds to the other steps of dry or humid analysis, which are requisite for ascertaining the quantities of the constituent parts. Then recourse is had to other means than the blow-pipe; for, in order to come at a knowledge of the proportions of the constituent parts, it is necessary that the quantity of each constituent part be large enough to be weighed in a balance, and, for this purpose, the quantity of the substance employed must be larger than what can be managed with the blow-pipe.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792326203,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 158,
+      "prompt_tokens": 719,
+      "total_tokens": 877,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 377
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

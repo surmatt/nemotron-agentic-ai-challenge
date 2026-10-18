@@ -1,0 +1,93 @@
+{
+  "variant": "crop_nothink",
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:247",
+  "block_index": 2,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T12:19:59+00:00",
+  "elapsed_seconds": 1.95,
+  "finish_reason": "stop",
+  "parse_text": "(our author fays) it would be difficult to make people, who have never engaged in this enterprise, company hend all the oblidies they had to encounter. This cone (the little mountain mentioned by Sir William Flamman) is composed of the very hand, and postsecondary throw up a different times by the volcano. The mar- terials are lo boic, that the adventures traveller links about midly as every May, and is to contain terror of being feallowed up. Ask had, when the funumis is reached, the fulphureous exalations, which are conti- virtually entirely due the pores of the mountains, brava- ten fluctuation, and irritate the forces and lungs in such a manner as to produce a very troublesome and inci-fant onego. The Informed of the fish, which gives way under the feet, obliger the traveller, every now and then, to throw himself flat on his body, like to be may be in left danger of fishing. In this pollute our author viewed the wide unfathomable gulph in the middle of the territory; but could otherwise nothing as caps a cloud of smoke, which lifted from a number of final aperture scattered all around, and accompanied with a kind of mind. Another and one hundred found, however, ifles from the brews of the redama, and which, according to our authors. \"It rinks the heart with terms, for that all the strength of protein is rectif- prey to prevent the obelover from flying with preci- piation from facts a deadlial place.\" Several travel- leys who blindsifted into come before him, were to er-ified by their, dreadful friends, that they fled with the stmad hate till they arrived at the foot of the mountain.",
+  "corrected_text": "(our author fays) it would be difficult to make people, who have never engaged in fuch enterprises, comprehend all the obstacles they had to encounter. This cone (the little mountain mentioned by Sir William Hamilton) is composed of ashes, fand, and pozzolano, thrown up at different times by the volcano. The materials are fo loose, that the adventurous traveller finks about mid-leg at every ftep, and is in constant terror of being fwallowed up. At laft, when the fummit is reached, the fulphureous exhalations, which are continually emitted from the pores of the mountain, threaten fuffocation, and irritate the faces and lungs in fuch a manner as to produce a very troublefome and inceffant cough. The loofenefs of the foil, which gives way under the feet, obliges the traveller, every now and then, to throw himfelf flat on his belly, that fo he may be in lefs danger of finking. In this pofture our author viewed the wide unfathomable gulph in the middle of the crater; but could difcover nothing except a cloud of fmoke, which iffued from a number of fmall apertures fcattered all around, and accompanied with a kind of noiſe. Another and more dreadful found, however, iffues from the bowels of the volcano, and which, according to our author, \"frikes the heart with terror, fo that all the ftrength of reafon is neceffary to prevent the obferver from flying with precipi-tation from fuch a dreadful place.\" Several travellers who had vifited this cone before him, were fo terrified by the dreadful founds, that they fled with the utmoft hafte till they arrived at the foot of the mountain.",
+  "reasoning_tokens": 0,
+  "usage": {
+    "completion_tokens": 391,
+    "prompt_tokens": 1293,
+    "total_tokens": 1684,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 738
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 3000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows this region of the page. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\n(our author fays) it would be difficult to make people, who have never engaged in this enterprise, company hend all the oblidies they had to encounter. This cone (the little mountain mentioned by Sir William Flamman) is composed of the very hand, and postsecondary throw up a different times by the volcano. The mar- terials are lo boic, that the adventures traveller links about midly as every May, and is to contain terror of being feallowed up. Ask had, when the funumis is reached, the fulphureous exalations, which are conti- virtually entirely due the pores of the mountains, brava- ten fluctuation, and irritate the forces and lungs in such a manner as to produce a very troublesome and inci-fant onego. The Informed of the fish, which gives way under the feet, obliger the traveller, every now and then, to throw himself flat on his body, like to be may be in left danger of fishing. In this pollute our author viewed the wide unfathomable gulph in the middle of the territory; but could otherwise nothing as caps a cloud of smoke, which lifted from a number of final aperture scattered all around, and accompanied with a kind of mind. Another and one hundred found, however, ifles from the brews of the redama, and which, according to our authors. \"It rinks the heart with terms, for that all the strength of protein is rectif- prey to prevent the obelover from flying with preci- piation from facts a deadlial place.\" Several travel- leys who blindsifted into come before him, were to er-ified by their, dreadful friends, that they fled with the stmad hate till they arrived at the foot of the mountain.",
+  "response": {
+    "id": "chatcmpl-84bda885a039f192",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "(our author fays) it would be difficult to make people, who have never engaged in fuch enterprises, comprehend all the obstacles they had to encounter. This cone (the little mountain mentioned by Sir William Hamilton) is composed of ashes, fand, and pozzolano, thrown up at different times by the volcano. The materials are fo loose, that the adventurous traveller finks about mid-leg at every ftep, and is in constant terror of being fwallowed up. At laft, when the fummit is reached, the fulphureous exhalations, which are continually emitted from the pores of the mountain, threaten fuffocation, and irritate the faces and lungs in fuch a manner as to produce a very troublefome and inceffant cough. The loofenefs of the foil, which gives way under the feet, obliges the traveller, every now and then, to throw himfelf flat on his belly, that fo he may be in lefs danger of finking. In this pofture our author viewed the wide unfathomable gulph in the middle of the crater; but could difcover nothing except a cloud of fmoke, which iffued from a number of fmall apertures fcattered all around, and accompanied with a kind of noiſe. Another and more dreadful found, however, iffues from the bowels of the volcano, and which, according to our author, \"frikes the heart with terror, fo that all the ftrength of reafon is neceffary to prevent the obferver from flying with precipi-tation from fuch a dreadful place.\" Several travellers who had vifited this cone before him, were fo terrified by the dreadful founds, that they fled with the utmoft hafte till they arrived at the foot of the mountain.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792326000,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 391,
+      "prompt_tokens": 1293,
+      "total_tokens": 1684,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 738
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

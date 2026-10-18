@@ -1,0 +1,93 @@
+{
+  "variant": "crop_nothink",
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:268",
+  "block_index": 6,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T12:20:29+00:00",
+  "elapsed_seconds": 2.37,
+  "finish_reason": "stop",
+  "parse_text": "On cutting-forme part of the fallafras tree, or its shoots, and holding it to the nofe, it has a throng but pleasant feel. Some people peel the root, and boil they get with the beer which they are brewing, because they believe it wishfulness. For the fine realtion, the peel is put into branch either whiff it is diffilling or her it turned. Profefits Kale returns so that a de-ceflow of the root of fallafras in warn drank every morning, is used with fucsels in the droopy—When part of a wood is defined for conflitration, the fallafras tree are commonly left upon it, because they say a very thick foliage, and afford a cool finish to the cattle during the great heats. Some people get their bel-pulle made of fallafras wood, in order to expel the bugs, for its strong focus; it is fail, prevents those verin from settling in them. For two or three years together that has the dried effect, or about as long as the wood keeps its frong economic fresh; but after the time it has been observed to loof the effect. In Perlybania some people put chips of fallafras into their chefts, where they keep all fans of woolen fluffs, in order to expel the moths (or these or caterpillars of moths or traits) which commonly feite in them in firmmer. The root keeps its smell for a long while it Profefits Kale for our who which had him for ofx yers in the drawn of a table, and full preferred the strength of its feces. The people also gather its flowers, and uile it acts.",
+  "corrected_text": "On cutting some part of the sassafras tree, or its shoots, and holding it to the nose, it has a strong but pleasant smell. Some people peel the root, and boil the peel with the beer which they are brewing, because they believe it wholesome. For the same reason, the peel is put into brandy either while it is distilling or after it is made. Professor Kalm informs us, that a decoction of the root of sassafras in water, drank every morning, is used with success in the dropsy.—When part of a wood is destined for cultivation, the sassafras trees are commonly left upon it, because they have a very thick foliage, and afford a cool shade to the cattle during the great heats. Some people get their bed-poles made of sassafras wood, in order to expel the bugs; for its strong scent, it is said, prevents those vermin from settling in them. For two or three years together this has the desired effect, or about as long as the wood keeps its strong aromatic smell; but after that time it has been observed to lose its effect. In Pennsylvania some people put chips of sassafras into their chests, where they keep all sorts of woollen stuffs, in order to expel the moths (or larvæ or caterpillars of moths or tinies) which commonly settle in them in summer. The root keeps its smell for a long while: Professor Kalm saw one which had lain five or six years in the drawer of a table, and still preferred the strength of its scent. The people also gather its flowers, and use it as tea.",
+  "reasoning_tokens": 0,
+  "usage": {
+    "completion_tokens": 350,
+    "prompt_tokens": 1260,
+    "total_tokens": 1610,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 722
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 3000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows this region of the page. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\nOn cutting-forme part of the fallafras tree, or its shoots, and holding it to the nofe, it has a throng but pleasant feel. Some people peel the root, and boil they get with the beer which they are brewing, because they believe it wishfulness. For the fine realtion, the peel is put into branch either whiff it is diffilling or her it turned. Profefits Kale returns so that a de-ceflow of the root of fallafras in warn drank every morning, is used with fucsels in the droopy—When part of a wood is defined for conflitration, the fallafras tree are commonly left upon it, because they say a very thick foliage, and afford a cool finish to the cattle during the great heats. Some people get their bel-pulle made of fallafras wood, in order to expel the bugs, for its strong focus; it is fail, prevents those verin from settling in them. For two or three years together that has the dried effect, or about as long as the wood keeps its frong economic fresh; but after the time it has been observed to loof the effect. In Perlybania some people put chips of fallafras into their chefts, where they keep all fans of woolen fluffs, in order to expel the moths (or these or caterpillars of moths or traits) which commonly feite in them in firmmer. The root keeps its smell for a long while it Profefits Kale for our who which had him for ofx yers in the drawn of a table, and full preferred the strength of its feces. The people also gather its flowers, and uile it acts.",
+  "response": {
+    "id": "chatcmpl-952af9ecd495412c",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "On cutting some part of the sassafras tree, or its shoots, and holding it to the nose, it has a strong but pleasant smell. Some people peel the root, and boil the peel with the beer which they are brewing, because they believe it wholesome. For the same reason, the peel is put into brandy either while it is distilling or after it is made. Professor Kalm informs us, that a decoction of the root of sassafras in water, drank every morning, is used with success in the dropsy.—When part of a wood is destined for cultivation, the sassafras trees are commonly left upon it, because they have a very thick foliage, and afford a cool shade to the cattle during the great heats. Some people get their bed-poles made of sassafras wood, in order to expel the bugs; for its strong scent, it is said, prevents those vermin from settling in them. For two or three years together this has the desired effect, or about as long as the wood keeps its strong aromatic smell; but after that time it has been observed to lose its effect. In Pennsylvania some people put chips of sassafras into their chests, where they keep all sorts of woollen stuffs, in order to expel the moths (or larvæ or caterpillars of moths or tinies) which commonly settle in them in summer. The root keeps its smell for a long while: Professor Kalm saw one which had lain five or six years in the drawer of a table, and still preferred the strength of its scent. The people also gather its flowers, and use it as tea.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792326030,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 350,
+      "prompt_tokens": 1260,
+      "total_tokens": 1610,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 722
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

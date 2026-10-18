@@ -1,0 +1,93 @@
+{
+  "variant": "crop_nothink",
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2402",
+  "block_index": 11,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T12:24:38+00:00",
+  "elapsed_seconds": 1.46,
+  "finish_reason": "stop",
+  "parse_text": "The coceyed or cranial vertebrae of the Mamatta\nmay be distinguished into two kinds, those which con-\nma in canal in continuity with that of the vertebral co-\nhauman and stern, and those in which the places are sold.\nThe first, which are next the secum, have articular,\ntransverse, and spinous processes, distinct in proportion\nas the animal move over the tails. The latter are generally\npromised in shape, diminish in size towards the very-\nmity, and have only slight tubercles for macular attachments.\nAtimals with prebiotics tails, as the American\nque (_ampeyona_), have above, at the base of the body of\neach vertebra, two and attacheders, between which pass\nhe tendons at the flexor muscles. By means of this\nmechanism these animals can twine the tail round the\nbranch of a tree with sufficient force to support the weight\nof the body.",
+  "corrected_text": "The coccygeal or caudal vertebrae of the Mammalia may be distinguished into two kinds; those which contain a canal in continuity with that of the vertebral column and sacrum, and those in which the pieces are solid. The first, which are next the sacrum, have articular, transverse, and spinous processes, distinct in proportion as the animals move their tails. The latter are generally prismatic in shape, diminish in size towards the extremity, and have only slight tubercles for muscular attachments. Animals with prehensile tails, as the American ape (sapajous), have above, at the base of the body of each vertebra, two small tubercles, between which pass the tendons of the flexor muscles. By means of this mechanism these animals can twine the tail round the branch of a tree with sufficient force to support the weight of the body.",
+  "reasoning_tokens": 0,
+  "usage": {
+    "completion_tokens": 177,
+    "prompt_tokens": 785,
+    "total_tokens": 962,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 410
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 3000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows this region of the page. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\nThe coceyed or cranial vertebrae of the Mamatta\nmay be distinguished into two kinds, those which con-\nma in canal in continuity with that of the vertebral co-\nhauman and stern, and those in which the places are sold.\nThe first, which are next the secum, have articular,\ntransverse, and spinous processes, distinct in proportion\nas the animal move over the tails. The latter are generally\npromised in shape, diminish in size towards the very-\nmity, and have only slight tubercles for macular attachments.\nAtimals with prebiotics tails, as the American\nque (_ampeyona_), have above, at the base of the body of\neach vertebra, two and attacheders, between which pass\nhe tendons at the flexor muscles. By means of this\nmechanism these animals can twine the tail round the\nbranch of a tree with sufficient force to support the weight\nof the body.",
+  "response": {
+    "id": "chatcmpl-bd2a8fa8cb5e8b70",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "The coccygeal or caudal vertebrae of the Mammalia may be distinguished into two kinds; those which contain a canal in continuity with that of the vertebral column and sacrum, and those in which the pieces are solid. The first, which are next the sacrum, have articular, transverse, and spinous processes, distinct in proportion as the animals move their tails. The latter are generally prismatic in shape, diminish in size towards the extremity, and have only slight tubercles for muscular attachments. Animals with prehensile tails, as the American ape (sapajous), have above, at the base of the body of each vertebra, two small tubercles, between which pass the tendons of the flexor muscles. By means of this mechanism these animals can twine the tail round the branch of a tree with sufficient force to support the weight of the body.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792326279,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 177,
+      "prompt_tokens": 785,
+      "total_tokens": 962,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 410
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

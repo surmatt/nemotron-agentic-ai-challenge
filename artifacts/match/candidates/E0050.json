@@ -1,0 +1,706 @@
+{
+  "entry_id": "E0050",
+  "headword": "AMICTUS",
+  "entry_text_sha256": "38fd0fa5372fb4108b7ac60c1f1f2343b955f4c1b3f9559718f7b304234a50ef",
+  "mode": "model",
+  "queries": [
+    "amictus",
+    "ambitus",
+    "ambitus garment worn roman antiquity religious abroad amicus term denote upper tunica"
+  ],
+  "query_chars": 746,
+  "headword_variant": "ambitus",
+  "candidate_count": 32,
+  "list_pages_removed_after_fetch": [],
+  "decision": {
+    "status": "rejected",
+    "method": "nemotron_embed_rerank",
+    "thresholds": {
+      "rerank_logit": -10.0,
+      "margin": 0.5,
+      "cosine": 0.15,
+      "title_similarity": 0.0
+    },
+    "reason": "rerank_logit < -10.0, margin < 0.5, cosine < 0.15, or title_similarity < 0.0",
+    "page_id": "27873442",
+    "title": "Monoplex amictus",
+    "rerank_logit": -4.030717,
+    "cosine": 0.148709,
+    "margin_to_next": 0.012482,
+    "title_similarity": 0.5714
+  },
+  "candidates": [
+    {
+      "page_id": "12762565",
+      "revision_id": "1341152424",
+      "title": "Omorgus amictus",
+      "url": "https://en.wikipedia.org/wiki/Omorgus_amictus",
+      "excerpt": "Omorgus amictus is a beetle of the Family Trogidae found in Australia.",
+      "excerpt_offset": 0,
+      "total_chars": 70,
+      "bm25": {
+        "q0": {
+          "rank": 1,
+          "score": 25.2165
+        }
+      },
+      "best_rank": 1,
+      "title_similarity": 0.6316,
+      "context_overlap": 0.1429,
+      "cosine": 0.092851,
+      "rerank_logit": -4.043199,
+      "rerank_position": 2
+    },
+    {
+      "page_id": "4895150",
+      "revision_id": "1301267878",
+      "title": "Ambitus (music)",
+      "url": "https://en.wikipedia.org/wiki/Ambitus_(music)",
+      "excerpt": "In medieval music, ambitus (Ecclesiastical Latin:) is a Latin term literally meaning enclose, and in Medieval Latin means the \"range\" of a melodic line, most usually referring to the range of scale degrees attributed to a given mode, particularly in Gregorian chant. In Gregorian chant specifically, the ambitus is the range, or the distance between the highest and lowest note. Different chants vary widely in their ambitus. Even relatively florid chants like Alleluias may have a narrow ambitus. Earlier writers termed the modal ambitus \"perfect\" when it was a ninth or tenth (that is, an octave plus one or two notes, either at the top or bottom or both), but from the late fifteenth century onward \"perfect ambitus\" usually meant one octave, and the ambitus was called \"imperfect\" when it was less, and \"pluperfect\" when it was more than an octave.\n\nAll of the church modes are distinguished in part by their ambitus. The plagal modes have the final in the middle of the ambitus, while the authentic modes generally go no more than one note below the final.\n\nAmbitus may also mean the range of a voice, of an instrument, or more generally, of an entire piece of music, and describes its pitch ext",
+      "excerpt_offset": 0,
+      "total_chars": 1398,
+      "bm25": {
+        "q1": {
+          "rank": 1,
+          "score": 23.3047
+        }
+      },
+      "best_rank": 1,
+      "title_similarity": 1.0,
+      "context_overlap": 0.0405,
+      "cosine": 0.197463,
+      "rerank_logit": -5.79397,
+      "rerank_position": 24
+    },
+    {
+      "page_id": "981466",
+      "revision_id": "1341996128",
+      "title": "Tunic",
+      "url": "https://en.wikipedia.org/wiki/Tunic",
+      "excerpt": "A tunic is a garment for the torso, usually simple in style, reaching from the shoulders to a length somewhere between the hips and the ankles. It might have arm-sleeves, either short or full-length. Most forms have no fastenings. The name derives from the Latin tunica, the basic garment worn by both men and women in ancient Rome, which in turn was based on earlier Greek garments that covered wearers' waists.\n\nThe term is likely borrowed from a Semitic word * kittan with metathesis. The word khiton (Ancient Greek: χῐτών) is of the same origin.\n\nThe Roman tunica was adopted by Roman citizens in the 3rd century BC. It was often worn by Roman citizens and by non-citizens alike. However, citizens might wear it under the toga, especially at formal occasions.\n\nThe length of the garment, the presence or lack of stripes, as well as their width and ornamentation, would indicate the wearer's status in Roman society. Roman senators, for example, used the laticlavus, with broad purple stripes, and members of the equestrian class wore the Angusticlavia, with narrower stripes. Soldiers, slaves and manual workers generally had tunics to a little above the knee; those in more sedentary occupations",
+      "excerpt_offset": 0,
+      "total_chars": 8753,
+      "bm25": {
+        "q2": {
+          "rank": 1,
+          "score": 49.8523
+        }
+      },
+      "best_rank": 1,
+      "title_similarity": 0.3636,
+      "context_overlap": 0.0674,
+      "cosine": 0.374593,
+      "rerank_logit": -5.088758,
+      "rerank_position": 10
+    },
+    {
+      "page_id": "42817844",
+      "revision_id": "1307663730",
+      "title": "Mephritus amictus",
+      "url": "https://en.wikipedia.org/wiki/Mephritus_amictus",
+      "excerpt": "Mephritus amictus is a species of beetle in the family Cerambycidae. It was described by Newman in 1841.",
+      "excerpt_offset": 0,
+      "total_chars": 104,
+      "bm25": {
+        "q0": {
+          "rank": 2,
+          "score": 25.1901
+        }
+      },
+      "best_rank": 2,
+      "title_similarity": 0.5714,
+      "context_overlap": 0.125,
+      "cosine": 0.106834,
+      "rerank_logit": -4.373302,
+      "rerank_position": 3
+    },
+    {
+      "page_id": "3687452",
+      "revision_id": "1276669615",
+      "title": "Ambitus",
+      "url": "https://en.wikipedia.org/wiki/Ambitus",
+      "excerpt": "In ancient Roman law, ambitus was a crime of political corruption, mainly a candidate's attempt to influence the outcome (or direction) of an election through bribery or other forms of soft power. The Latin word ambitus is the origin of the English word \"ambition\" which is another of its original meanings; ambitus was the process of \"going around and commending oneself or one's protégés to the people,\" an activity liable to unethical excesses. In practice, bringing a charge of ambitus against a public figure became a favored tactic for undermining a political opponent.\n\nThe Lex Baebia was the first law criminalizing electoral bribery, instituted by M. Baebius Tamphilus during his consulship in 181 BC. The passage of Rome's first sumptuary law the previous year suggests that the two forms of legislation are related; both were aimed at curbing wealth-based inequities of power and status within the governing classes. The temptation to indulge in bribery indicates that the traditional patron-client relationship was insufficient to gather enough votes to win election.\n\nThe word ambitus for electoral corruption is a general term for the crime; defendants would have been charged under a s",
+      "excerpt_offset": 0,
+      "total_chars": 11757,
+      "bm25": {
+        "q1": {
+          "rank": 2,
+          "score": 21.4577
+        }
+      },
+      "best_rank": 2,
+      "title_similarity": 1.0,
+      "context_overlap": 0.0455,
+      "cosine": 0.254888,
+      "rerank_logit": -4.877983,
+      "rerank_position": 7
+    },
+    {
+      "page_id": "2944357",
+      "revision_id": "1348763617",
+      "title": "Burnous",
+      "url": "https://en.wikipedia.org/wiki/Burnous",
+      "excerpt": "A burnous (Arabic: برنوس, romanized: burnūs), also burnoose, burnouse, bournous or barnous, is a long cloak of coarse woollen fabric with a pointed hood, often white, traditionally worn by Arab and Berber men in North Africa. Historically, the white burnous was worn during important events by men of high positions. Today, men of different social standing may wear it for ceremonial occasions, such as weddings or on religious and national holidays.\n\nThe word burnous (Arabic: برنوس) is an Arabic word for a \"long, loose hooded cloak worn by Arabs,\" which itself is derived from the Greek word \"birros\". The word is found in a hadith by Muhammad that prohibited the burnous and various other clothing during Hajj. In Mashriqi sources, it denotes a long hood or body garment. The burnous was also present in the early Muslim Arabian Peninsula. Various nineteenth century sources have referred to the burnous as an Arab cloak.\n\nIn antiquity this garment was referred to as byruss Numidicus meaning \"Numidian hooded cloak\" and was mentioned as such in the Expositio totius mundi et gentium. In the Maghreb, the colour of the burnous may be white, beige, or dark brown. The burnous was worn by the Numid",
+      "excerpt_offset": 0,
+      "total_chars": 2830,
+      "bm25": {
+        "q2": {
+          "rank": 2,
+          "score": 43.4028
+        }
+      },
+      "best_rank": 2,
+      "title_similarity": 0.3333,
+      "context_overlap": 0.0482,
+      "cosine": 0.264742,
+      "rerank_logit": -6.275402,
+      "rerank_position": 31
+    },
+    {
+      "page_id": "27873442",
+      "revision_id": "1347950839",
+      "title": "Monoplex amictus",
+      "url": "https://en.wikipedia.org/wiki/Monoplex_amictus",
+      "excerpt": "Monoplex amictus is a species of predatory sea snail, a marine gastropod mollusk in the family Cymatiidae.",
+      "excerpt_offset": 0,
+      "total_chars": 106,
+      "bm25": {
+        "q0": {
+          "rank": 3,
+          "score": 25.1637
+        }
+      },
+      "best_rank": 3,
+      "title_similarity": 0.5714,
+      "context_overlap": 0.0909,
+      "cosine": 0.148709,
+      "rerank_logit": -4.030717,
+      "rerank_position": 1
+    },
+    {
+      "page_id": "72290722",
+      "revision_id": "1296472647",
+      "title": "Lex Pompeia de ambitu",
+      "url": "https://en.wikipedia.org/wiki/Lex_Pompeia_de_ambitu",
+      "excerpt": "oposed and enacted by Pompey the Great, who used it to prosecute and exile his political enemies.\n\nThe law originated in the political crisis of the 50s BCE, in which electoral violence and corruption led to political paralysis and deepened Rome's growing political crisis. The precise definition of ambitus — the crime that could be prosecuted under the law — was ambiguous even to the Romans, but it centred around the improper use of wealth or bribery for political advantage. The lex Pompeia followed a series of similar laws, including the lex Baebia de ambitu of 181 BCE, the lex Acilia Calpurnia of 67 BCE and the lex Tullia of 63 BCE, which imposed increasingly severe penalties for ambitus, eventually punishing the crime with exile. Pompey's law allowed those prosecuted under it to escape punishment by naming and prosecuting others who had also breached its terms.\n\nPompey used accusations of ambitus under the law to persecute his political enemies, notably Gaius Memmius, a former praetor who was tried and exiled under the law in 52 BCE. The law was also perceived as a means of attacking Julius Caesar, Pompey's political rival, as it theoretically opened him up to prosecution for hi",
+      "excerpt_offset": 144,
+      "total_chars": 7915,
+      "bm25": {
+        "q1": {
+          "rank": 3,
+          "score": 20.1488
+        }
+      },
+      "best_rank": 3,
+      "title_similarity": 0.4444,
+      "context_overlap": 0.0125,
+      "cosine": 0.180297,
+      "rerank_logit": -4.665138,
+      "rerank_position": 4
+    },
+    {
+      "page_id": "57965596",
+      "revision_id": "1337416631",
+      "title": "Origins of ecclesiastical vestments",
+      "url": "https://en.wikipedia.org/wiki/Origins_of_ecclesiastical_vestments",
+      "excerpt": "The liturgical vestments of the Christian churches grew out of normal civil clothing, but the dress of church leaders began to be differentiated as early as the 4th century. By the end of the 13th century the forms used in the Roman Catholic, Evangelical-Lutheran and Eastern Orthodox churches had become established, while the Reformation led to changes in Churches of the Reformed tradition (Continental Reformed, Anglican, Presbyterian and Congregationalist) from the 16th century onward.\n\nThe vestments of the Nicene Church, East and West, developed out of the various articles of everyday dress worn by citizens of the Greco-Roman world under the Roman Empire. The officers of the Church during the first few centuries of its existence were content to officiate in the dress of civil life, though their garments were expected to be scrupulously clean and of decent quality. The few scattered references in contemporary records to the dress of the clergy all point to this as the only recognized rule. Thus in the 37th of the 4th-century Canons of Hippolytus we read: \"As often as the bishops would partake of the Mysteries, the presbyters and deacons shall gather round him clad in white, quite ",
+      "excerpt_offset": 0,
+      "total_chars": 13904,
+      "bm25": {
+        "q2": {
+          "rank": 3,
+          "score": 40.377
+        }
+      },
+      "best_rank": 3,
+      "title_similarity": 0.2222,
+      "context_overlap": 0.0366,
+      "cosine": 0.238631,
+      "rerank_logit": -5.078594,
+      "rerank_position": 9
+    },
+    {
+      "page_id": "9758615",
+      "revision_id": "1314540588",
+      "title": "Red-bearded bee-eater",
+      "url": "https://en.wikipedia.org/wiki/Red-bearded_bee-eater",
+      "excerpt": "The red-bearded bee-eater (Nyctyornis amictus) is a large species of bee-eater found in southern Myanmar, the Thai-Malay Peninsula, Borneo, Sumatra and nearby smaller islands. This species is found in openings in patches of dense forest.\n\nLike other bee-eaters, they are colourful birds with long tails, long decurved beaks and pointed wings. They are large bee-eaters, predominantly green, with a red colouration to face that extends on to the slightly hanging throat feathers to form the \"beard\". Their eyes are orange.\n\nLike other bee-eaters, they predominantly eat insects, especially bees, wasps and hornets, which are caught in flight from perches concealed in foliage. They hunt alone or in pairs, rather than in flocks, and sit motionless for long periods before pursuing their prey.\n\nLike other bee-eaters, they nest in burrows tunnelled into the side of sandy banks, but do not form colonies.",
+      "excerpt_offset": 0,
+      "total_chars": 902,
+      "bm25": {
+        "q0": {
+          "rank": 4,
+          "score": 16.7487
+        }
+      },
+      "best_rank": 4,
+      "title_similarity": 0.24,
+      "context_overlap": 0.0135,
+      "cosine": 0.006885,
+      "rerank_logit": -5.983497,
+      "rerank_position": 28
+    },
+    {
+      "page_id": "13421451",
+      "revision_id": "1350809498",
+      "title": "Richard Fuller (pianist)",
+      "url": "https://en.wikipedia.org/wiki/Richard_Fuller_(pianist)",
+      "excerpt": "r and Liebhaber Wq. 59; Palatine 9-0202\n\nSonata in E minor Wq. 59/i\n\nRondo in G major Wq. 59/ii\n\nSonata in B♭ major Wq. 59/iii\n\nRondo in C minor Wq. 59/iv\n\nFantasy in F major Wq. 59/v\n\nFantasy in C major Wq. 59/vi\n\nBeethoven, L. van\n\nSonata in F major for Piano and Naturhorn, Op. 17; (J. Schroeder) Ambitus 97981\n\nSerenade in D for piano and flute Op. 41 (D. Johansen); Spectrum/Portland, Oregon\n\nRondo in C Major for piano op. 51 Nr. 1; MA 10 98 839\n\nScottish Songs op. l08: (Mertens, Sepie, terLinden) MA 98 10 839\n\nBonny laddie, highland laddie\n\nSympathy\n\nOh sweet were the hours\n\nFaithfu' Johnnie\n\nCould this ill world have been contriv'd\n\nThe Shepherd's Song\n\nOh, had my fate been join'd with thine\n\nSunset\n\nSally in our alley\n\nThe lovely lass of Inverness\n\nPolly Stewart\n\nO Mary, at thy Window be\n\nThe Maid of lsla\n\nEnchantress, fare well\n\nTrio in B♭ major for piano, violin and cello WwO 39; (Sepie, terLinden) MA 98 10 839\n\nDanzi, Franz\n\nSonata in E♭ major for Piano and Naturhorn, Op. 28; (J. Schroeder) Ambitus 97 981\n\nDeKrufFt, Mcholas\n\nSonata in F major for Piano and Naturhorn; (J. Schroeder) Ambitus 97 981\n\nThree Preludes and Fugues, WDR, Cologne, BRD\n\nDussek, J. L.\n\nSonata in D majo",
+      "excerpt_offset": 3672,
+      "total_chars": 8532,
+      "bm25": {
+        "q1": {
+          "rank": 4,
+          "score": 18.6447
+        }
+      },
+      "best_rank": 4,
+      "title_similarity": 0.3,
+      "context_overlap": 0.0,
+      "cosine": 0.020615,
+      "rerank_logit": -5.438293,
+      "rerank_position": 19
+    },
+    {
+      "page_id": "187797",
+      "revision_id": "1318197824",
+      "title": "Stola",
+      "url": "https://en.wikipedia.org/wiki/Stola",
+      "excerpt": "The stola (Classical Latin:) (pl. stolae) was the traditional garment of Roman women, corresponding to the toga that was worn by men. It was also called vestis longa in Latin literary sources, pointing to its length.\n\nThe stola was a staple of fashion in ancient Rome spanning from the early Roman Republic until the beginning of the 2nd century CE. The garment was first identified on statues by Margarete Bieber. The first evidence of the stola / vestis longa dates to the 3rd century BCE, but the form of the garment is common in the Mediterranean world and so it must be much older. In Republican times, it was simply part of Roman female dress practice. In Augustan times, when it was used much less, the stola was taken up by Imperial cultural policy and was turned – like the vitta (plaited headband) – into a dress insigne of married Roman women. It may even have been a legal privilege. By this time, it was worn only by women of the social elite. At the beginning of the 2nd century CE, the stola fell completely out of use. However, the term matrona stolata, referring to married women of equestrian rank, remained a technical term in inscriptions.\n\nA well-known image of the stola is the ",
+      "excerpt_offset": 0,
+      "total_chars": 3356,
+      "bm25": {
+        "q2": {
+          "rank": 4,
+          "score": 39.355
+        }
+      },
+      "best_rank": 4,
+      "title_similarity": 0.1818,
+      "context_overlap": 0.05,
+      "cosine": 0.384557,
+      "rerank_logit": -5.479471,
+      "rerank_position": 21
+    },
+    {
+      "page_id": "59549569",
+      "revision_id": "1259672610",
+      "title": "Cythereinae",
+      "url": "https://en.wikipedia.org/wiki/Cythereinae",
+      "excerpt": "Cythereinae is a subfamily of bee flies in the family Bombyliidae. There are about 19 genera and 150 species in Cythereinae.\n\nThese 19 genera belong to the subfamily Cythereinae:\n\nAmictus Wiedemann, 1817 c g\n\nCallostoma Macquart, 1840 c g\n\nChalcochiton Loew, 1844 c g\n\nCyllenia Latreille, 1802 c g\n\nCytherea Fabricius, 1794 c g\n\nEnica Macquart, 1834 c g\n\nGyrocraspedum Becker, 1912 c g\n\nNeosardus Roberts, 1929 c g\n\nNomalonia Rondani, 1863 c g\n\nPantarbes Osten Sacken, 1877 i c g b\n\nSericosoma Macquart, 1850 c g\n\nSericothrix Hall, 1976 c g\n\nSinaia Hermann, 1909 c g\n\nSphenoidoptera Williston, 1901 i c g\n\n† Amictites Hennig, 1966 g\n\n† Glaesamictus Hennig, 1966 g\n\n† Palaeoamictus Meunier, 1916 g\n\n† Paleolomatia Nel, 2008 g\n\n† Praecytherea Théobald, 1937 g\n\nData sources: i = ITIS, c = Catalogue of Life, g = GBIF, b = Bugguide.net",
+      "excerpt_offset": 0,
+      "total_chars": 832,
+      "bm25": {
+        "q0": {
+          "rank": 5,
+          "score": 16.3774
+        }
+      },
+      "best_rank": 5,
+      "title_similarity": 0.1176,
+      "context_overlap": 0.0189,
+      "cosine": 0.09962,
+      "rerank_logit": -5.101517,
+      "rerank_position": 11
+    },
+    {
+      "page_id": "82360501",
+      "revision_id": "1338541222",
+      "title": "Marcus Calidius",
+      "url": "https://en.wikipedia.org/wiki/Marcus_Calidius",
+      "excerpt": "Marcus Calidius (fl. 64–47 BC) was a Roman politician and orator.\n\nJerome, in his Chronicon under the year 64 BC, notes that Calidius studied oratory under Apollodorus of Pergamum. He was one of the earliest Atticists in Rome. In 64, he prosecuted Quintus Gallius for ambitus, even accusing Gallius, who was defended by Cicero, of trying to poison him. Gallius was acquitted. As a praetor in 57, he helped Cicero return from exile and recover his house. This was probably the occasion on which he delivered his speech De domo Ciceronis, cited by Quintilian in his Institutio Oratoria.\n\nIn 52, Calidius defended Titus Annius Milo for the murder of Clodius Pulcher. He was twice an unsuccessful candidate for the consulship, in 51–50 or 50–49. After his first failed candidacy, he unsuccessfully prosecuted one of the winners, Gaius Claudius Marcellus. He was himself prosecuted for ambitus in 51 by two Gallii, perhaps sons of Quintus Gallius.\n\nAt the start of the civil war in 49, Calidius sided with Julius Caesar. He spoke eloquently in favour of Caesar and against Pompey on the floor of the Senate, arguing that the latter should leave Rome with his troops for his own province. In his Commentary",
+      "excerpt_offset": 0,
+      "total_chars": 1681,
+      "bm25": {
+        "q1": {
+          "rank": 5,
+          "score": 17.5705
+        }
+      },
+      "best_rank": 5,
+      "title_similarity": 0.3158,
+      "context_overlap": 0.0122,
+      "cosine": 0.145147,
+      "rerank_logit": -5.170909,
+      "rerank_position": 13
+    },
+    {
+      "page_id": "6995018",
+      "revision_id": "1331889132",
+      "title": "Palla (garment)",
+      "url": "https://en.wikipedia.org/wiki/Palla_(garment)",
+      "excerpt": "The palla was an elegant cloak or mantle that was wrapped around the body. It was worn outside the house by (affluent) Roman women. It was a luxurious version of the Roman men's pallium. The palla was a traditional ancient Roman mantle worn by women, fastened by brooches. The shape was rectangular instead of semi-circular, as with the traditional toga. The garment dates to the 3rd century BC, but the type of dress must be much older. In Latin literature, the term palla is used ambiguously. It can denote not only a cloak, but also a foot-length sleeveless dress with straps (or a brooch) worn directly on the skin. The second is a common dress form in the entire Mediterranean world. In a Greek cultural context, this is called peplos. In a Roman cultural context, if worn by a Roman matron, it also takes the name stola.\n\nRadicke, Jan (2022). Roman Women’s Dress. Berlin: De Gruyter. doi: 10.1515/9783110711554 ISBN 978-3-11-071155-4",
+      "excerpt_offset": 0,
+      "total_chars": 939,
+      "bm25": {
+        "q2": {
+          "rank": 5,
+          "score": 39.0355
+        }
+      },
+      "best_rank": 5,
+      "title_similarity": 0.1818,
+      "context_overlap": 0.0769,
+      "cosine": 0.413905,
+      "rerank_logit": -5.00348,
+      "rerank_position": 8
+    },
+    {
+      "page_id": "35915137",
+      "revision_id": "1307659662",
+      "title": "Mephritus",
+      "url": "https://en.wikipedia.org/wiki/Mephritus",
+      "excerpt": "Mephritus is a genus of beetles in the family Cerambycidae, containing the following species:\n\nMephritus adelphus (Martins, 1973)\n\nMephritus amictus (Newman, 1841)\n\nMephritus apicatus (Linsley, 1935)\n\nMephritus apicepullus Galileo & Martins, 2011\n\nMephritus auricolle Tavakilian & Martins, 1991\n\nMephritus blandus (Newman, 1841)\n\nMephritus bonasoi Galileo, Martins & Santos-Silva, 2014\n\nMephritus callidioides (Bates, 1870)\n\nMephritus castaneus Martins & Napp, 1992\n\nMephritus citreus Napp & Martins, 1982\n\nMephritus costae Garcia & Nascimento, 2020\n\nMephritus destitutus Napp & Martins, 1982\n\nMephritus eleandroi Galileo, Martins & Santos-Silva, 2014\n\nMephritus estoni Galileo & Martins, 2011\n\nMephritus flavipes (Gounelle, 1909)\n\nMephritus fraterculus Martins & Napp, 1992\n\nMephritus genuinus Napp & Martins, 1982\n\nMephritus guttatus Napp & Martins, 1982\n\nMephritus hovorei Santos-Silva & Lingafelter, 2021\n\nMephritus meyeri Galileo, Martins & Santos-Silva, 2014\n\nMephritus punctulatus Galileo, Martins & Santos-Silva, 2014\n\nMephritus quadrimaculatus Martins & Napp, 1992\n\nMephritus serius (Newman, 1841)\n\nMephritus vescus Galileo & Martins, 2011",
+      "excerpt_offset": 0,
+      "total_chars": 1148,
+      "bm25": {
+        "q0": {
+          "rank": 6,
+          "score": 16.0759
+        }
+      },
+      "best_rank": 6,
+      "title_similarity": 0.5714,
+      "context_overlap": 0.0222,
+      "cosine": 0.061271,
+      "rerank_logit": -5.134548,
+      "rerank_position": 12
+    },
+    {
+      "page_id": "254621",
+      "revision_id": "1197764714",
+      "title": "Marcus Duronius",
+      "url": "https://en.wikipedia.org/wiki/Marcus_Duronius",
+      "excerpt": "Marcus Duronius was a tribune of the plebs, most likely in 97 BC. He abrogated a sumptuary law, one of the Leges Liciniae. In retaliation, the Roman censors Lucius Valerius Flaccus and Marcus Antonius expelled him from the Senate. Duronius then brought an accusation of ambitus against Antonius.",
+      "excerpt_offset": 0,
+      "total_chars": 295,
+      "bm25": {
+        "q1": {
+          "rank": 6,
+          "score": 17.3605
+        }
+      },
+      "best_rank": 6,
+      "title_similarity": 0.3158,
+      "context_overlap": 0.0909,
+      "cosine": 0.186256,
+      "rerank_logit": -4.79213,
+      "rerank_position": 5
+    },
+    {
+      "page_id": "7959918",
+      "revision_id": "1287823473",
+      "title": "Cotte",
+      "url": "https://en.wikipedia.org/wiki/Cotte",
+      "excerpt": "The cotte (or cote) was a medieval outer garment, a long sleeved shift, or tunic, usually girded, and worn by men and women. In medieval texts, it was used to translate tunica or chiton. Synonyms included tunic or gown. It was worn over a shirt (chemise), and a sleeveless surcote could be worn over it. By the sixteenth century, it had become a woman's undergarment. By the seventeenth century, it split into an upper 'corps' and a lower 'cotte', or skirt, amongst the poorer classes.\n\nIn modern French, it survives in the expression cotte de mailles (\" chainmail \"). The Old French cote also gave rise to the word cotillon (\" cotillion \", a dance). Petticoat is another indirect descendant of cote.",
+      "excerpt_offset": 0,
+      "total_chars": 700,
+      "bm25": {
+        "q2": {
+          "rank": 6,
+          "score": 37.5106
+        }
+      },
+      "best_rank": 6,
+      "title_similarity": 0.3636,
+      "context_overlap": 0.0877,
+      "cosine": 0.28751,
+      "rerank_logit": -5.325521,
+      "rerank_position": 15
+    },
+    {
+      "page_id": "72300338",
+      "revision_id": "1209940346",
+      "title": "Frederik Bernard Albinus",
+      "url": "https://en.wikipedia.org/wiki/Frederik_Bernard_Albinus",
+      "excerpt": "was a Dutch anatomist. He was the fourth and youngest son of Bernhardus Albinus, and succeeded his brother Bernhard Siegfried Albinus (1697–1770) at the University of Leiden as professor of anatomy.\n\nAlbinus was born in Leiden where he was educated. Matriculating in literature in 1731, he went to Leiden University and studied mathematics and philosophy under Willem 's Gravesande; botany under Adriaan van Royen; and medicine under Herman Boerhaave, his brother Bernhard and Hieronymus David Gaubius. Receiving a doctorate in 1740 he became a physician in Amsterdam. In 1745 he became a lecturer in anatomy at the University of Leiden and in 1770 he replaced his brother as professor of human physiology after 1770. His most important work was De natura hominis libellus (1775) which included works by his deceased brother.\n\nOther publications included:\n\nDe meteoris ignitis (Leiden, 1740)\n\nDissertatio medica inauguralis de deglutitione (Leiden, 1740)\n\nDe amoenitatibus anatomicis (Leiden, 1745)\n\nDe causis dissensionum inter anatomices (Leiden, 1748)\n\nDe praestantia chirurgiae (Leiden, 1755)\n\nDe amictus noxis (Leiden, 1767)\n\nDe ambulatione, eaque utili, et necessaria, et jucunda (Leiden, 1771)",
+      "excerpt_offset": 84,
+      "total_chars": 1284,
+      "bm25": {
+        "q0": {
+          "rank": 7,
+          "score": 15.7852
+        }
+      },
+      "best_rank": 7,
+      "title_similarity": 0.2759,
+      "context_overlap": 0.0135,
+      "cosine": 0.109633,
+      "rerank_logit": -5.866511,
+      "rerank_position": 27
+    },
+    {
+      "page_id": "57329633",
+      "revision_id": "1347209650",
+      "title": "Derallus",
+      "url": "https://en.wikipedia.org/wiki/Derallus",
+      "excerpt": "Derallus is a genus of water scavenger beetles in the family Hydrophilidae. There are about six described species in Derallus.\n\nThese six species belong to the genus Derallus:\n\nDerallus altus (LeConte, 1855)\n\nDerallus ambitus d'Orchymont, 1940\n\nDerallus angustus Sharp, 1882\n\nDerallus intermedius Oliva, 1995\n\nDerallus rudis Sharp, 1882\n\nDerallus terraenovae Oliva, 1983",
+      "excerpt_offset": 0,
+      "total_chars": 370,
+      "bm25": {
+        "q1": {
+          "rank": 7,
+          "score": 17.0868
+        }
+      },
+      "best_rank": 7,
+      "title_similarity": 0.3077,
+      "context_overlap": 0.0,
+      "cosine": 0.06577,
+      "rerank_logit": -5.640478,
+      "rerank_position": 22
+    },
+    {
+      "page_id": "339769",
+      "revision_id": "1344596744",
+      "title": "Coat",
+      "url": "https://en.wikipedia.org/wiki/Coat",
+      "excerpt": "A coat is typically an outer garment for the upper body, worn by any gender for warmth or fashion. Coats typically have long sleeves and are open down the front, and closing by means of buttons, zippers, hook-and-loop fasteners (AKA velcro), toggles, a belt, or a combination of some of these. Other possible features include collars, shoulder straps, and hoods.\n\nCoat is one of the earliest clothing category words in English, attested as far back as the early Middle Ages. (See also Clothing terminology.) The Oxford English Dictionary traces coat in its modern meaning to c. 1300, when it was written cote or cotte. The word coat stems from Old French and then Latin cottus. It originates from the Proto-Indo-European word for woolen clothes.\n\nAn early use of coat in English is coat of mail (chainmail), a tunic -like garment of metal rings, usually knee- or mid-calf length.\n\nThe origins of the Western-style coat may be traced to the sleeved, close-fitted and front-fastened coats worn by the Scythian nomads of the eurasian steppes, though this style of coat may be much older, having been found with four-thousand-year-old Tarim mummies and in five-thousand-year-old mummy of Otzi The medieva",
+      "excerpt_offset": 0,
+      "total_chars": 5530,
+      "bm25": {
+        "q2": {
+          "rank": 7,
+          "score": 37.278
+        }
+      },
+      "best_rank": 7,
+      "title_similarity": 0.4,
+      "context_overlap": 0.0392,
+      "cosine": 0.22912,
+      "rerank_logit": -5.739065,
+      "rerank_position": 23
+    },
+    {
+      "page_id": "5013797",
+      "revision_id": "1311886865",
+      "title": "Focale",
+      "url": "https://en.wikipedia.org/wiki/Focale",
+      "excerpt": "focalia among the \"badges of illness\" (insignia morbi). In describing the correct attire for public speaking, Quintilian advises against wearing a focale, unless required by poor health.\n\nAlthough a sudarium often is used as a handkerchief, it can be worn like the focale as a neckerchief. When Suetonius describes the overly casual attire of Nero, the emperor is barefoot, unbelted, and dressed in evening wear (synthesis), with a sudarium around his neck. The sudarium may be the precursor to the focale. In late antiquity, orarium (Greek orarion) might be synonymous with focale, as in the description of military attire in the Vision of Dorotheus, and in a papyrus (dated 350–450 AD) listing military clothes. From the sudarium derives the name of the Near Eastern sudra, a similar piece of cloth with various functions over time.\n\nThe focale is sometimes seen as one of the precursors of the necktie. Cesare Vecellio (1530–1606) mentions the focale, calling it a cravata (cravat), as worn by Roman soldiers in his book on the history of fashion. It has been compared to the amice (amictus) worn by Roman Catholic priests, which is depicted from the 6th century onward, as in the Ravenna mosaics.",
+      "excerpt_offset": 725,
+      "total_chars": 1925,
+      "bm25": {
+        "q0": {
+          "rank": 8,
+          "score": 14.7432
+        }
+      },
+      "best_rank": 8,
+      "title_similarity": 0.1667,
+      "context_overlap": 0.0652,
+      "cosine": 0.329531,
+      "rerank_logit": -5.339988,
+      "rerank_position": 16
+    },
+    {
+      "page_id": "32324934",
+      "revision_id": "1293201599",
+      "title": "Souravli",
+      "url": "https://en.wikipedia.org/wiki/Souravli",
+      "excerpt": "The souravli (Greek: σουραύλι; Cretan Greek: θιαμπόλι thiamboli, or φιαμπόλι fiamboli; Cypriot Greek: πιθκιαύλιν \"pithkiavlin\") is a Greek folk instrument, a type of a fipple flute made of reed or wood. It has a 2 octave ambitus.\n\nA double flute is called a disavli (δισαύλι), one with no holes and the other one having holes to play the melody.\n\nIn Cyclades, the souravli is very widespread, especially in the Greek island of Naxos.",
+      "excerpt_offset": 0,
+      "total_chars": 433,
+      "bm25": {
+        "q1": {
+          "rank": 8,
+          "score": 16.9531
+        }
+      },
+      "best_rank": 8,
+      "title_similarity": 0.2857,
+      "context_overlap": 0.0,
+      "cosine": 0.030746,
+      "rerank_logit": -6.248139,
+      "rerank_position": 30
+    },
+    {
+      "page_id": "331200",
+      "revision_id": "1352750626",
+      "title": "Cassock",
+      "url": "https://en.wikipedia.org/wiki/Cassock",
+      "excerpt": "The cassock, or soutane, is a Christian clerical robe used by the clergy and male religious of the Catholic Church, Eastern Orthodox Church and the Oriental Orthodox Churches, in addition to some clergy in certain Protestant denominations such as Anglicans, Presbyterians and Lutherans. \"Ankle-length garment\" is the literal meaning of the corresponding Latin term, vestis talaris. It is related to the habits traditionally worn by nuns, monks, and friars.\n\nThe cassock derives historically from the tunic of classical antiquity that in ancient Rome was worn underneath the toga, and the chiton that was worn beneath the himation in ancient Greece. In religious services, it has traditionally been worn underneath vestments, such as the alb.\n\nIn the West, the cassock is little used today except for religious services, save for traditionalist and those other Catholic clergy and religious who continue to wear the cassock as their standard attire. However, in many countries it was the normal everyday wear of the clergy until the 1960s, when it was largely replaced by clerical suits, distinguished from lay dress by being generally black and by a black shirt incorporating a clerical collar.\n\nThe ",
+      "excerpt_offset": 0,
+      "total_chars": 16194,
+      "bm25": {
+        "q2": {
+          "rank": 8,
+          "score": 37.2536
+        }
+      },
+      "best_rank": 8,
+      "title_similarity": 0.3077,
+      "context_overlap": 0.0759,
+      "cosine": 0.32929,
+      "rerank_logit": -5.461574,
+      "rerank_position": 20
+    },
+    {
+      "page_id": "27873630",
+      "revision_id": "1321808969",
+      "title": "Monoplex",
+      "url": "https://en.wikipedia.org/wiki/Monoplex",
+      "excerpt": "Monoplex is a genus of predatory sea snails, marine gastropod mollusks in the family Cymatiidae.\n\nSpecies within the genus Monoplex include:\n\nMonoplex amictus (Reeve, 1844)\n\nMonoplex aquatilis (Reeve, 1844)\n\n† Monoplex cecilianus (Dall, 1916)\n\n† Monoplex cercadicus (Maury, 1917)\n\nMonoplex comptus (A. Adams, 1855)\n\nMonoplex corrugatus (Lamarck, 1816)\n\n† Monoplex dissimilis Landau, Beu, Breitenberger & Dekkers, 2020\n\n† Monoplex distortus (Brocchi, 1814)\n\n† Monoplex doderleini (D'Ancona, 1873)\n\nMonoplex durbanensis (E.A. Smith, 1899)\n\nMonoplex exaratus (Reeve, 1844)\n\n† Monoplex gatunicus Beu, 2010\n\nMonoplex gemmatus (Reeve, 1844)\n\n† Monoplex gradatus Craig, Tracey & Gain, 2020\n\n† Monoplex gurabonicus (Maury, 1917)\n\n† Monoplex heptagonus (Brocchi, 1814)\n\nMonoplex intermedius (Pease, 1869)\n\n† Monoplex jackwinorum Beu, 2010\n\nMonoplex keenae Beu, 1970\n\nMonoplex klenei (G.B. Sowerby III, 1889)\n\nMonoplex krebsii (Mörch, 1877)\n\nMonoplex lignarius (Broderip, 1833)\n\n† Monoplex longispira Beu, 2010\n\nMonoplex macrodon (Valenciennes, 1832)\n\nMonoplex mundus (Gould, 1849)\n\nMonoplex nicobaricus (Röding, 1798)\n\nMonoplex norai (Garcia-Talavera & de Vera, 2004)\n\n† Monoplex panamensis Beu, 2010\n\nMonople",
+      "excerpt_offset": 0,
+      "total_chars": 2197,
+      "bm25": {
+        "q0": {
+          "rank": 9,
+          "score": 13.3496
+        }
+      },
+      "best_rank": 9,
+      "title_similarity": 0.1429,
+      "context_overlap": 0.0149,
+      "cosine": 0.09971,
+      "rerank_logit": -5.357437,
+      "rerank_position": 18
+    },
+    {
+      "page_id": "11142350",
+      "revision_id": "1098071601",
+      "title": "Lex Baebia",
+      "url": "https://en.wikipedia.org/wiki/Lex_Baebia",
+      "excerpt": "Lex Baebia was one of many laws enacted during the Roman Republic to combat ambitus (bribery or corruption) in the electoral process.\n\nThere is some confusion over the exact nature of this law, namely whether it was indeed a single law or two. Lex Baebia de praetoribus mandated the election of four and then six praetors in successive years. This law, however, was never observed. A second, Lex Baebia de ambitu, involved combating electoral bribery. Both laws had a similar purpose. The laws were championed by the plebeian consul Marcus Baebius Tamphilus in 181 BC.",
+      "excerpt_offset": 0,
+      "total_chars": 568,
+      "bm25": {
+        "q1": {
+          "rank": 9,
+          "score": 16.2844
+        }
+      },
+      "best_rank": 9,
+      "title_similarity": 0.375,
+      "context_overlap": 0.05,
+      "cosine": 0.19431,
+      "rerank_logit": -4.817611,
+      "rerank_position": 6
+    },
+    {
+      "page_id": "3245785",
+      "revision_id": "1340081513",
+      "title": "Chiton (garment)",
+      "url": "https://en.wikipedia.org/wiki/Chiton_(garment)",
+      "excerpt": "A chiton (/ ˈ k aɪ t ɒ n, - t ən /; Ancient Greek: χιτών, romanized: khitṓn) is a form of tunic that fastens at the shoulder, worn by men and women of ancient Greece and Rome. There are two forms of chiton: the Doric and the later Ionic. According to Herodotus, popular legend was that Athenian women began to wear the chiton as opposed to the peplos after several women stabbed a messenger to death with the bronze pins characteristic of the peplos.\n\nThe word chiton is derived from Ancient Greek χιτών (khitṓn, “tunic”), from a Central Semitic language * kittān (as in Maltese) from the Akkadian 𒌆𒃰 (kitû, literally “flax, linen”), from Sumerian 𒄑𒃰 (kitû).\n\nA shorter version of the chiton was called the chitoniskos.\n\nThe Doric chiton is a single rectangle of woolen or linen fabric. It can be worn plain or with an overfold called an apoptygma (ἀπόπτυγμα), which is more common to women. It can be draped and fastened at the shoulder by pins (Greek: peronai; Latin: fibulae) or sewing, or by buttons.\n\nThe Ionic chiton could also be made from linen or wool and was draped without the fold and held in place from neck to wrist by several small pins or buttons.\n\nHerodotus states the dress of the w",
+      "excerpt_offset": 0,
+      "total_chars": 3994,
+      "bm25": {
+        "q2": {
+          "rank": 9,
+          "score": 37.1427
+        }
+      },
+      "best_rank": 9,
+      "title_similarity": 0.3333,
+      "context_overlap": 0.04,
+      "cosine": 0.359338,
+      "rerank_logit": -5.848814,
+      "rerank_position": 26
+    },
+    {
+      "page_id": "31134854",
+      "revision_id": "1278683071",
+      "title": "Leptocoris",
+      "url": "https://en.wikipedia.org/wiki/Leptocoris",
+      "excerpt": "s common in urban settings, although it is frequently misidentified as Leptocoris augur.\n\nThe Coreoidea Species File lists:\n\nLeptocoris abdominalis (Fabricius, 1803)\n\nLeptocoris aethiops (Distant, 1901)\n\nLeptocoris affinis Göllner-Scheiding, 1980\n\nLeptocoris albisoleata (Bergroth, 1912)\n\nLeptocoris amictus Germar, 1838\n\nLeptocoris augur (Fabricius, 1781)\n\nLeptocoris bahram Kirkaldy, 1899\n\nLeptocoris capitis (Hsiao, 1963)\n\nLeptocoris chevreuxi (Noualhier, 1893)\n\nLeptocoris cinnamonensis Izzard, 1960\n\nLeptocoris corniculatus (Stål, 1867)\n\nLeptocoris coxalis (Kirby, 1891)\n\nLeptocoris dispar (Hsiao, 1963)\n\nLeptocoris griseiventris (Westwood, 1842)\n\nLeptocoris hexophthalmus (Thunberg, 1784)\n\nLeptocoris insularis Kirkaldy, 1908\n\nLeptocoris intermedius (Distant, 1914)\n\nLeptocoris isolatus (Distant, 1914)\n\nLeptocoris lanuginosus (Lethierry, 1881)\n\nLeptocoris latus Göllner-Scheiding, 1980\n\nLeptocoris longiusculus (Walker, 1872)\n\nLeptocoris marquesensis Cheesman, 1926\n\nLeptocoris minusculus Blöte, 1934\n\nLeptocoris mitellatus Bergroth, 1916\n\nLeptocoris mutilatus (Gerstaecker, 1873)\n\nLeptocoris nigrofasciatus (Distant, 1914)\n\nLeptocoris obscurus Göllner-Scheiding, 1980\n\nLeptocoris paramictus G",
+      "excerpt_offset": 887,
+      "total_chars": 2718,
+      "bm25": {
+        "q0": {
+          "rank": 10,
+          "score": 12.9885
+        }
+      },
+      "best_rank": 10,
+      "title_similarity": 0.1333,
+      "context_overlap": 0.0179,
+      "cosine": 0.086134,
+      "rerank_logit": -5.814179,
+      "rerank_position": 25
+    },
+    {
+      "page_id": "65814758",
+      "revision_id": "1306308410",
+      "title": "Harry Geraerts",
+      "url": "https://en.wikipedia.org/wiki/Harry_Geraerts",
+      "excerpt": "s, Harry van der Kamp, Fiori musicali).\n\nHeinrich Schütz / Johann Seb. Bach: Musikalische Exequien / Gottes Zeit ist die allerbeste Zeit. Teldec 66.23335-0, 1983 with Staats- Und Domchor Berlin, Christian Grube)\n\nHeinrich Schütz and Giovanni Gabrieli: Psalmen, Concerti und Motetten. Musikproduktion Ambitus amb 97843, 1985 (with Musicalische Compagney).\n\nHeinrich Schütz: Weihnachtshistorie. MD+G L 3229, 1986 (with Musicalische Compagney).\n\nHeinrich Schütz: Liebe und Klage. Hochzeits-Concerti, Dialoge und Hohe-Lied-Kompositionen. MD+G L 3230, 1986 (with Musicalische Compagney).\n\nVincent Lübeck: Sämtliche Kantaten. Motette CD 50181, 1986 (with David Cordier, Graham Pushee, Harry van der Kamp, New College Choir Oxford).\n\nFrançois Couperin: Mis voor orgel, „Messe propre pour les couvents de religieux et de religieuses“. 1990 (with Pierre-Yves Asselin).\n\nFranz Schubert: Die Winterreise. MD+G L 3391, 1991 (with Ludger Rémy).\n\nPalestrina/Bach: Missa sine nomine. EMI CDC 7544552, 1991 (with Concerto Palatino).\n\nOrlando di Lasso: Deutsche Lieder. Ambitius, 1991 (with Musica Canterey Bamberg, Gerhard Weinzierl).\n\nThe Apocryphal Bach Cantatas BWV 217–222. CPO 999 139–2, 1992 (with Alsfelder Vo",
+      "excerpt_offset": 3431,
+      "total_chars": 6754,
+      "bm25": {
+        "q1": {
+          "rank": 10,
+          "score": 16.0597
+        }
+      },
+      "best_rank": 10,
+      "title_similarity": 0.2105,
+      "context_overlap": 0.0,
+      "cosine": 0.037677,
+      "rerank_logit": -5.353558,
+      "rerank_position": 17
+    },
+    {
+      "page_id": "1322028",
+      "revision_id": "1353232047",
+      "title": "Chimere",
+      "url": "https://en.wikipedia.org/wiki/Chimere",
+      "excerpt": "A chimere (/ ˈ tʃ ɪ m ər / CHIM -ər or / tʃ ɪ ˈ m ɪər / chim- EER) is a garment primarily worn by Anglican bishops in choir dress, and, formally as part of academic dress.\n\nA descendant of a riding cloak, the chimere resembles an academic gown but without sleeves, and is usually made of scarlet or black cloth. In modern English use the garment is worn as part of the ceremonial dress of Anglican bishops. It is a long sleeveless gown of silk or satin, open down the front, gathered in at the back between the shoulders, and with slits for the arms. It is worn over the rochet, colored either black or scarlet (a combination referred to as \"convocation robes\").\n\nThe chimere is worn by the bishops of the Anglican Communion as a component of their choir habit. It is traditionally coloured either scarlet or black, although some bishops have innovated a purple chimere. The wrist-bands of the bishop's rochet typically match the colour of the chimere. The garment has also been adopted and reappropriated in African-American Pentecostal circles, primarily through J. Delano Ellis of the Pentecostal Churches of Christ who taught that it was an ancient prophetic mantle; in Africa, there have been ac",
+      "excerpt_offset": 0,
+      "total_chars": 9205,
+      "bm25": {
+        "q2": {
+          "rank": 10,
+          "score": 36.4085
+        }
+      },
+      "best_rank": 10,
+      "title_similarity": 0.1538,
+      "context_overlap": 0.04,
+      "cosine": 0.223471,
+      "rerank_logit": -6.063748,
+      "rerank_position": 29
+    },
+    {
+      "page_id": "57339317",
+      "revision_id": "1319245086",
+      "title": "Hilipinus",
+      "url": "https://en.wikipedia.org/wiki/Hilipinus",
+      "excerpt": "weevils in the beetle family Curculionidae. There are at least 50 described species in Hilipinus.\n\nThese 50 species belong to the genus Hilipinus:\n\nHilipinus acatium Kuschel, 1955\n\nHilipinus acutissimus Kuschel, 1955\n\nHilipinus aequabilis Kuschel, 1955\n\nHilipinus alternatus Kuschel, 1955\n\nHilipinus amictus Kuschel, 1955\n\nHilipinus ascius Champion & G.C., 1902\n\nHilipinus bartelsi Champion & G.C., 1902\n\nHilipinus biannulatus Champion, 1910\n\nHilipinus biguttatus Champion & G.C., 1902\n\nHilipinus biplagiatus Chevrolat & Laa, 1902\n\nHilipinus brulei Rheinheimer, 2010\n\nHilipinus cadivus Kuschel, 1955\n\nHilipinus corruptor Champion & G.C., 1902\n\nHilipinus costirostris Kuschel, 1955\n\nHilipinus curvirostris Champion & G.C., 1902\n\nHilipinus dahlbomi Champion & G.C., 1902\n\nHilipinus dentirostris Champion & G.C., 1902\n\nHilipinus egenus Champion & G.C., 1902\n\nHilipinus friesi Champion & G.C., 1902\n\nHilipinus fusiformis Champion & G.C., 1902\n\nHilipinus granicostatus Champion & G.C., 1902\n\nHilipinus granosus Champion & G.C., 1906\n\nHilipinus guatemalensis Champion & G.C., 1902\n\nHilipinus guyanensis (Hustache, 1938)\n\nHilipinus ingens Champion & G.C., 1902\n\nHilipinus integellus Champion & G.C., 1902\n\nH",
+      "excerpt_offset": 29,
+      "total_chars": 2209,
+      "bm25": {
+        "q0": {
+          "rank": 11,
+          "score": 12.9187
+        }
+      },
+      "best_rank": 11,
+      "title_similarity": 0.2857,
+      "context_overlap": 0.0244,
+      "cosine": 0.05498,
+      "rerank_logit": -5.198381,
+      "rerank_position": 14
+    },
+    {
+      "page_id": "24941269",
+      "revision_id": "1181391824",
+      "title": "Hypolocrian mode",
+      "url": "https://en.wikipedia.org/wiki/Hypolocrian_mode",
+      "excerpt": "The Hypolocrian mode is an almost entirely theoretical mode, introduced into chant theory in the 19th century by the editors of the Pustet - Ratisbon, Mechlin, and Rheims - Cambrai Office-Books, who designated it mode 12. It is the plagal counterpart to the authentic Locrian mode, mode 11 in that system of numbering, in which the Ionian and Hypoionian become modes 13 and 14. The ambitus of the mode lies between F and the F an octave higher, divided at the final, B. Its reciting tone (or tenor), is E, and its mediant is D. It has two participants, G and C. Although a few plainchant melodies, as well as polyphonic compositions, have been attributed to this mode by some writers, it will generally be found that they are really derived, by transposition, from some other tonality.",
+      "excerpt_offset": 0,
+      "total_chars": 785,
+      "bm25": {
+        "q1": {
+          "rank": 11,
+          "score": 15.9842
+        }
+      },
+      "best_rank": 11,
+      "title_similarity": 0.1818,
+      "context_overlap": 0.0189,
+      "cosine": 0.083831,
+      "rerank_logit": -6.457398,
+      "rerank_position": 32
+    }
+  ]
+}

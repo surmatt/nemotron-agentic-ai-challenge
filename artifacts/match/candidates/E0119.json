@@ -1,0 +1,452 @@
+{
+  "entry_id": "E0119",
+  "headword": null,
+  "entry_text_sha256": "8b9c89f5a1108b275b912564ec7ae157bf0d43b176541d3c10c2f18bcc27624f",
+  "mode": "model",
+  "queries": [
+    "fortune young history philosophy make rank natural trace principles political carefully highly"
+  ],
+  "query_chars": 1500,
+  "headword_variant": null,
+  "candidate_count": 20,
+  "list_pages_removed_after_fetch": [],
+  "decision": {
+    "status": "rejected",
+    "method": "nemotron_embed_rerank",
+    "thresholds": {
+      "rerank_logit": -10.0,
+      "margin": 0.5,
+      "cosine": 0.15,
+      "title_similarity": 0.0
+    },
+    "reason": "rerank_logit < -10.0, margin < 0.5, cosine < 0.15, or title_similarity < 0.0",
+    "page_id": "3969458",
+    "title": "Aristocles of Messene",
+    "rerank_logit": -3.807476,
+    "cosine": 0.152586,
+    "margin_to_next": 0.056616,
+    "title_similarity": 0.0
+  },
+  "candidates": [
+    {
+      "page_id": "206362",
+      "revision_id": "1350683895",
+      "title": "David George Ritchie",
+      "url": "https://en.wikipedia.org/wiki/David_George_Ritchie",
+      "excerpt": " the General Assembly of the Church of Scotland in 1870. His mother was Elizabeth Bradfute Dudgeon. The family was connected with the Carlyles, and early in 1889 Ritchie edited a volume of Early Letters of Jane Welsh Carlyle.\n\nRitchie received his early schooling at Jedburgh Academy. Not allowed to make friends with other boys of his own age, he never learned to play games, and lived a solitary life, concentrating his mind on purely intellectual subjects. He matriculated in 1869 at the University of Edinburgh, where he made a special study of classics under Professors William Young Sellar and J. S. Blackie, while he began to study philosophy under Professor Campbell Fraser, in whose class and in that of Professor Henry Calderwood (on moral philosophy) he gained the highest prizes. After graduating M.A. at Edinburgh in 1875 with first-class honours in classics, Ritchie gained a classical exhibition at Balliol College, Oxford, and won a first-class both in classical moderations (Michaelmas, 1875) and in the final classical school (Trinity term, 1878). In 1878 he became a fellow of Jesus College, Oxford and in 1881 a tutor. From 1882 to 1886 he was also a tutor at Balliol College. At ",
+      "excerpt_offset": 606,
+      "total_chars": 5766,
+      "bm25": {
+        "q0": {
+          "rank": 1,
+          "score": 30.7875
+        }
+      },
+      "best_rank": 1,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1829,
+      "cosine": 0.111677,
+      "rerank_logit": -4.257787,
+      "rerank_position": 8
+    },
+    {
+      "page_id": "42755364",
+      "revision_id": "1335660173",
+      "title": "Philosophy of archaeology",
+      "url": "https://en.wikipedia.org/wiki/Philosophy_of_archaeology",
+      "excerpt": "The philosophy of archaeology seeks to investigate the foundations, methods and implications of the discipline of archaeology in order to further understand the human past and present.\n\nCore questions address the definition of archaeology, its theoretical foundations, and the ways in which the discipline conceptualizes time. They also examine the purposes of archaeology, including why it is conducted and for whose benefit, as well as the nature and reality of the materials and processes that constitute archaeological inquiry. Analytic philosophy of archaeology explores the conceptual structure underlying terms such as artefact, site, archaeological record, and archaeological culture. These issues represent part of the broader metaphysical, aesthetic, epistemological, ethical, and theoretical concerns central to archaeological practice.\n\nIn addition to these general questions, the philosophy of archaeology is also concerned with fieldwork methodology, integration of theory and collaboration with other disciplines, theories of measurement and data representation.\n\nPhilosophy of archaeology can also denote a certain approach or attitude applied to the discipline, such as feminist, Mar",
+      "excerpt_offset": 0,
+      "total_chars": 8850,
+      "bm25": {
+        "q0": {
+          "rank": 2,
+          "score": 30.2925
+        }
+      },
+      "best_rank": 2,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1467,
+      "cosine": 0.067735,
+      "rerank_logit": -4.566025,
+      "rerank_position": 16
+    },
+    {
+      "page_id": "11335700",
+      "revision_id": "1325414325",
+      "title": "Alan Ryan",
+      "url": "https://en.wikipedia.org/wiki/Alan_Ryan",
+      "excerpt": "s educated at Christ's Hospital, Balliol College, Oxford, and University College, London. Elected a fellow of New College in 1969, he later taught at Princeton University, and returned to New College, Oxford, in 1996 to take up the Wardenship. He was made a Fellow of the British Academy in 1986.\n\nA political theorist and historian of political thought, Ryan is a recognized authority on the development of modern liberalism, especially the work of John Stuart Mill, having contributed directly to the 'Reversionary' school, which led to a re-examination of Mill's work from the 1970s. His academic work also takes in broader themes in political theory, including the philosophy of social science, the nature of property, the history of political thought, and liberalism of the 19th and 20th centuries.\n\nRyan has held positions at the Universities of Oxford, Essex, Keele and Princeton University and University of Virginia School of Law. He was also a Visiting Professor of Political Science at The University of Texas at Austin, Australian National University, The New School and many others.\n\nRyan is a regular contributor to The New York Review of Books, the London Review of Books, and The Time",
+      "excerpt_offset": 322,
+      "total_chars": 2887,
+      "bm25": {
+        "q0": {
+          "rank": 3,
+          "score": 29.831
+        }
+      },
+      "best_rank": 3,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1486,
+      "cosine": -0.005309,
+      "rerank_logit": -4.310928,
+      "rerank_position": 9
+    },
+    {
+      "page_id": "44379567",
+      "revision_id": "1353353048",
+      "title": "Dialectical materialism",
+      "url": "https://en.wikipedia.org/wiki/Dialectical_materialism",
+      "excerpt": "Dialectical materialism is a philosophy of science and nature, based on the writings of Karl Marx and Friedrich Engels. By synthesising Georg Wilhelm Friedrich Hegel 's dialectic with philosophical materialism, dialectical materialism proposes that the world is material, that all phenomena are the result of matter in motion, and that the world's evolution is the product of a dialectical process driven by internal contradiction. It posits a set of general laws—most notably the transformation of quantity into quality, the interpenetration of opposites, and the negation of the negation—that are claimed to govern nature, society, and thought. The philosophy was developed in the late 19th century and became the official state philosophy of the Soviet Union and other Marxist–Leninist states.\n\nThe intellectual origins of dialectical materialism can be traced to 19th-century German idealism, particularly Hegel's theory of the dialectic as a logical process of development. Marx and Engels inverted Hegel's idealist system, proposing that the dialectic was not a process of the \"Concept\" or \"Idea\" but of the real, material world. While Marx never used the term \"dialectical materialism\", he app",
+      "excerpt_offset": 0,
+      "total_chars": 48727,
+      "bm25": {
+        "q0": {
+          "rank": 4,
+          "score": 29.5982
+        }
+      },
+      "best_rank": 4,
+      "title_similarity": 0.0,
+      "context_overlap": 0.0789,
+      "cosine": 0.052197,
+      "rerank_logit": -4.337513,
+      "rerank_position": 11
+    },
+    {
+      "page_id": "1491671",
+      "revision_id": "1329162931",
+      "title": "Wang Fuzhi",
+      "url": "https://en.wikipedia.org/wiki/Wang_Fuzhi",
+      "excerpt": " 1; 1619–1692), courtesy name Ernong (而農), pseudonym Chuanshan (船山), was a Chinese essayist, historian, and philosopher of the late Ming and early Qing dynasties.\n\nBorn to a scholarly family in Hengyang in Hunan province in 1619, Wang Fuzhi began his education in the Chinese classic texts when very young. He passed his civil-service examination at the age of twenty-four, but his projected career was diverted by the invasion of China by the Manchus, the founders of the Qing dynasty.\n\nStaying loyal to the Ming emperors, Wang first fought against the invaders, and then spent the rest of his life in hiding from them. His refuge was at the foot of the mountain Chuanshan, from which he gained his alternative name). He died in 1693, though it is not known for certain where or how.\n\nWang Fuzhi is said to have written over a hundred books, but many of them have been lost. The rest of his works have been collected in the Chuanshan yishu quanji (船山遺書全集). He also wrote a commentary on Zizhi Tongjian, titled \"Comments after reading the Tongjian \" (讀通鑒論, \"Du Tongjian Lun\").\n\nWang was a follower of Confucius, but he believed that the neo-Confucian philosophy which dominated China at the time had ",
+      "excerpt_offset": 75,
+      "total_chars": 4592,
+      "bm25": {
+        "q0": {
+          "rank": 5,
+          "score": 29.4563
+        }
+      },
+      "best_rank": 5,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1071,
+      "cosine": 0.057861,
+      "rerank_logit": -4.1689,
+      "rerank_position": 6
+    },
+    {
+      "page_id": "11987681",
+      "revision_id": "1237554194",
+      "title": "Joseph Priestley and education",
+      "url": "https://en.wikipedia.org/wiki/Joseph_Priestley_and_education",
+      "excerpt": "Joseph Priestley (24 March 1733 – 8 February 1804) was a British natural philosopher, Dissenting clergyman, political theorist, and theologian. While his achievements in all of these areas are renowned, he was also dedicated to improving education in Britain; he did this on an individual level and through his support of the Dissenting academies. His grammar textbook was innovative and highly influential. More importantly, though, Priestley introduced a liberal arts curriculum at Warrington Academy, arguing that a practical education would be more useful to students than a classical one. He was also the first to advocate the study and teaching of modern history, an interest driven by his belief that humanity was improving and could bring about Christ's Millennium.\n\nPriestley was a teacher in one way or another throughout his entire adult life. Once he discovered how much he enjoyed teaching, he consistently returned to this calling. At the school he established in Nantwich, Cheshire, he taught a wide range of topics to the town's children: Latin (and perhaps Greek), geography, mathematics, and English grammar. Unusually for the time, he also taught natural philosophy. Following the ",
+      "excerpt_offset": 0,
+      "total_chars": 17496,
+      "bm25": {
+        "q0": {
+          "rank": 6,
+          "score": 29.2222
+        }
+      },
+      "best_rank": 6,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1765,
+      "cosine": 0.158181,
+      "rerank_logit": -4.205549,
+      "rerank_position": 7
+    },
+    {
+      "page_id": "8527425",
+      "revision_id": "1312847276",
+      "title": "G. A. den Hartogh",
+      "url": "https://en.wikipedia.org/wiki/G._A._den_Hartogh",
+      "excerpt": "Govert A. den Hartogh (born 1943, Kampen) is a Dutch moral, legal and political philosopher. He studied theology in Kampen and philosophy in Leiden and Oxford. He received his PhD in philosophy in 1985 from the University of Amsterdam (supervisor Trudy van Asperen). From 1974 on he worked at the University of Amsterdam as assistant and associate professor of ethics and jurisprudence in the Philosophy Department and the Faculty of Law, as an extra-ordinary professor of medical ethics in the Faculty of Medicine, and as a full professor of ethics and its history in the Philosophy Department. In 1992 he took the initiative of founding the Netherlands School for Research in Practical Philosophy, together with Robert Heeger and Bert Musschenga, and functioned as the school's first director. He retired in 2008. At his retirement his former Ph.D. students published a Festschrift.\n\nIn 2002 Den Hartogh published Mutual Expectations: a Conventionalist Theory of Law. The book develops a theory of duties and rights, and of the relation between ethics and law, that situates itself in the modern natural law tradition from Grotius to Hume. Other topics that he published on include: the meaning of ",
+      "excerpt_offset": 0,
+      "total_chars": 4638,
+      "bm25": {
+        "q0": {
+          "rank": 7,
+          "score": 28.9839
+        }
+      },
+      "best_rank": 7,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1053,
+      "cosine": 0.087418,
+      "rerank_logit": -4.562864,
+      "rerank_position": 15
+    },
+    {
+      "page_id": "61913020",
+      "revision_id": "1339087865",
+      "title": "Shaj Mohan",
+      "url": "https://en.wikipedia.org/wiki/Shaj_Mohan",
+      "excerpt": "Shaj Mohan is an Indian philosopher. His philosophical works are in the areas of metaphysics, reason, philosophy of technology, philosophy of politics, and secrecy. Mohan's works are based on the principle of anastasis according to which philosophy is an ever-present possibility on the basis of a reinterpretation of reason.\n\nMohan completed his early education in Thiruvananthapuram, Kerala, and studied philosophy at St. Stephen's College, Delhi where he taught for some time. He has academic degrees in economics and philosophy. Mohan is originally from Tirunelveli. His grandfather Nadaraja Pillai participated in the Indian independence movement with the Indian National Congress.\n\nHe has published in the areas of metaphysics, reason, nature, secrecy, philosophy of technology, and philosophy of politics.\n\nHe has written philosophical essays against the rise of Hindu nationalism in The Indian Express, Mediapart, Outlook, La Croix, The Wire, The Caravan, Le Monde and Libération. As per Le Monde he has faced difficulties due to his political writings.\n\nIn 2021 the American critical theory journal Episteme published a special issue on the philosophy of Mohan and Divya Dwivedi.\n\nMohan's wo",
+      "excerpt_offset": 0,
+      "total_chars": 8911,
+      "bm25": {
+        "q0": {
+          "rank": 8,
+          "score": 28.9157
+        }
+      },
+      "best_rank": 8,
+      "title_similarity": 0.0,
+      "context_overlap": 0.0921,
+      "cosine": 0.064951,
+      "rerank_logit": -4.409149,
+      "rerank_position": 13
+    },
+    {
+      "page_id": "175401",
+      "revision_id": "1352482259",
+      "title": "Adam Ferguson",
+      "url": "https://en.wikipedia.org/wiki/Adam_Ferguson",
+      "excerpt": "oducing courage and loyalty. He criticized commercial society as making men weak, dishonourable, and unconcerned for their community.\n\nFerguson has been called \"the father of modern sociology \" for his contributions to the early development of the discipline. His best-known work is his Essay on the History of Civil Society.\n\nBorn at Logierait in Atholl, Perthshire, Scotland, the son of Rev Adam Ferguson, he received his education at Logierait Parish School, Perth Grammar School, and at the University of Edinburgh and the University of St Andrews (M.A., 1742). In 1745, owing to his knowledge of Gaelic, he gained appointment as deputy chaplain of the 43rd (afterwards the 42nd) regiment (the Black Watch), the licence to preach being granted him by special dispensation, although he had not completed the required six years of theological study.\n\nIt remains a matter of debate as to whether, at the Battle of Fontenoy (1745), Ferguson fought in the ranks throughout the day, and refused to leave the field, though ordered to do so by his colonel. Nevertheless, he certainly did well, becoming principal chaplain in 1746. He continued attached to the regiment till 1754, when, disappointed at no",
+      "excerpt_offset": 294,
+      "total_chars": 12789,
+      "bm25": {
+        "q0": {
+          "rank": 9,
+          "score": 28.8786
+        }
+      },
+      "best_rank": 9,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1573,
+      "cosine": 0.173937,
+      "rerank_logit": -4.150352,
+      "rerank_position": 4
+    },
+    {
+      "page_id": "2849675",
+      "revision_id": "1352059674",
+      "title": "Japanese management culture",
+      "url": "https://en.wikipedia.org/wiki/Japanese_management_culture",
+      "excerpt": "報告, to report), \" Renraku \" (連絡, to inform) and \" Sōdan \" (相談, to consult), and is more memorable as a homonym of hōrensō, the Japanese word for \" spinach \". The term refers to \"getting your hands dirty\", to identify or solve immediate problems and leaders are not exempt from this. Aspects of these principles are often mistaken by western managers as \"micromanagement\". In contrast, these principles are used as tools to shepherd processes.\n\nMohammed Ala and William Cordeiro (1999) described the Japanese decision-making process of ringiseido (稟議制度). Ringiseido provides the opportunity for equal ranking managers or employees of a group within a company to partake in an individual's idea. The process adheres to the Japanese cultural desire of harmony among people. The physical action of ringiseido is referred to as the \"ringi decision-making process.\" It fosters an environment of support and agreement for a decision once a higher ranking manager has reviewed and accepted the recommended decision.\n\nThe term of ringi (稟議) has two meanings. The first meaning being of \"rin\", 'submitting a proposal to one's supervisors and receiving their approval,' and \"gi\" meaning 'deliberations and decis",
+      "excerpt_offset": 444,
+      "total_chars": 6419,
+      "bm25": {
+        "q0": {
+          "rank": 10,
+          "score": 28.7134
+        }
+      },
+      "best_rank": 10,
+      "title_similarity": 0.0,
+      "context_overlap": 0.0366,
+      "cosine": 0.030661,
+      "rerank_logit": -5.002215,
+      "rerank_position": 20
+    },
+    {
+      "page_id": "74597113",
+      "revision_id": "1350570005",
+      "title": "Dmitri V. Nikulin",
+      "url": "https://en.wikipedia.org/wiki/Dmitri_V._Nikulin",
+      "excerpt": "Dmitri V. Nikulin (born 1962) is a philosopher and the Agnes Heller Research Professor of Philosophy at The New School for Social Research in New York City, U.S. He has been a visiting professor at the École pratique des hautes études, Paris and the École des hautes études en sciences sociales, Paris. He has been a Fellow at the Alexander von Humboldt Foundation in Tübingen, Heidelberg, and Bonn - Bad Godesberg, Germany, at the University of Notre Dame, Indiana, where he worked with Alvin Plantinga, and at the Forschungskolleg Humanwissenschaften in Bad Homburg, Germany.\n\nNikulin has written extensively on a number of different yet intrinsically connected themes.\n\nNikulin’s work in ancient philosophy addresses ontology, mathematics, and science in Plato, Aristotle, Plotinus, and Proclus. In his work on philosophy of nature, he argues that the realm of the geometrical in ancient philosophy was considered intermediate between the thinkable and the physical, and was represented by imagination. In early modernity, geometry becomes identified with the mathematically measured and uniformly extended matter, which substitutes nature, making it malleable, measurable, and transformable throu",
+      "excerpt_offset": 0,
+      "total_chars": 5341,
+      "bm25": {
+        "q0": {
+          "rank": 11,
+          "score": 28.475
+        }
+      },
+      "best_rank": 11,
+      "title_similarity": 0.0,
+      "context_overlap": 0.092,
+      "cosine": 0.080304,
+      "rerank_logit": -3.864092,
+      "rerank_position": 2
+    },
+    {
+      "page_id": "210244",
+      "revision_id": "1352655606",
+      "title": "Leo Strauss",
+      "url": "https://en.wikipedia.org/wiki/Leo_Strauss",
+      "excerpt": "Leo Strauss (September 20, 1899 – October 18, 1973) was a German-American political philosopher and historian of philosophy whose work greatly influenced twentieth-century political theory in the United States and the study of classical political thought. He is known best for his interpretation of ancient and medieval philosophy, his account of classical natural right, and his claim that philosophers often wrote esoterically, presenting different teachings to general and specialist readers. Strauss argued that the modern turn in philosophy, beginning with Niccolò Machiavelli and culminating in historicism and relativism, marked a decisive break with the classical understanding of politics and the good life. His work sought to recover the questions and methods of ancient political philosophy as a corrective to the perceived crisis of modern thought.\n\nBorn in Germany to Jewish parents, he emigrated to the United States in 1937, going on to hold positions at the New School for Social Research and later at the University of Chicago, where he taught from 1949 to 1969. His seminars shaped several generations of political theorists, many of whom became influential scholars in their own ri",
+      "excerpt_offset": 0,
+      "total_chars": 36988,
+      "bm25": {
+        "q0": {
+          "rank": 12,
+          "score": 28.4268
+        }
+      },
+      "best_rank": 12,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1264,
+      "cosine": 0.118092,
+      "rerank_logit": -3.868171,
+      "rerank_position": 3
+    },
+    {
+      "page_id": "1731084",
+      "revision_id": "1342266062",
+      "title": "A. D. Gordon",
+      "url": "https://en.wikipedia.org/wiki/A._D._Gordon",
+      "excerpt": "n as A. D. Gordon, was a Labour Zionist thinker and the spiritual force behind practical Zionism and Labor Zionism. He founded Hapoel Hatzair, a movement that set the tone for the Zionist movement for many years to come.\n\nGordon moved to Ottoman Palestine in 1904, at age 48, where he was revered by younger Zionist pioneers for leading by example. He was an anti-Marxist and avoided Zionist politics, declaring that \"The Land of Israel is acquired through labor, not through fire and not through blood.\"\n\nAaron David Gordon was the only child of a well-to-do family of Orthodox Jews. He was self-educated in both religious and general studies, and spoke several languages. For thirty years, he managed an estate, where he proved to be a charismatic educator and community activist. Gordon married his cousin, Faige Tartakov, at a young age and had seven children with her, though only two of them survived.\n\nGordon died of throat cancer on Kibbutz Degania Alef in 1922 at the age of 65.\n\nGordon was an early member of the Hibbat Zion movement and made aliyah to Ottoman Palestine in 1904, when he was 48, after being persuaded by his wife not to emigrate to America. His daughter Yael followed him i",
+      "excerpt_offset": 96,
+      "total_chars": 9874,
+      "bm25": {
+        "q0": {
+          "rank": 13,
+          "score": 28.4174
+        }
+      },
+      "best_rank": 13,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1023,
+      "cosine": -0.005353,
+      "rerank_logit": -4.349317,
+      "rerank_position": 12
+    },
+    {
+      "page_id": "3969458",
+      "revision_id": "1347974751",
+      "title": "Aristocles of Messene",
+      "url": "https://en.wikipedia.org/wiki/Aristocles_of_Messene",
+      "excerpt": "t that work had been published recently.\n\nAccording to the Suda and Eudokia, Aristocles wrote several works:\n\nΠότερον σπουδαιότερος Ὅμηρος ἢ Πλάτων – Whether Homer or Plato is more Worthy.\n\nΤέχναι ῥητορικαί – Arts of Rhetoric.\n\nA work on the god Serapis.\n\nA work on Ethics, in nine books.\n\nA work on Philosophy, in ten books.\n\nThe last of these works appears to have been a history of philosophy in which he wrote about the philosophers, their schools, and doctrines. Although it has been lost, several fragments of it are preserved in Eusebius ' work Praeparatio Evangelica.\n\nAristocles proves to be a faithful follower of Aristotle, whose teachings he intended to promote. Asclepius of Tralles and John Philoponus, in their commentaries on Nicomachus of Gerasa 's Introduction to Arithmetic, reproduce five meanings of the word \"wise\" that were set out in the treatise On Philosophy. Aristocles connected the five uses of the word with a theory of five levels of human culture. According to this teaching, the survivors of natural disasters (plagues and especially great floods like that of the time of Deucalion) were forced to rediscover inventions such as agriculture because of the lack of food",
+      "excerpt_offset": 1092,
+      "total_chars": 5480,
+      "bm25": {
+        "q0": {
+          "rank": 14,
+          "score": 28.0034
+        }
+      },
+      "best_rank": 14,
+      "title_similarity": 0.0,
+      "context_overlap": 0.0988,
+      "cosine": 0.152586,
+      "rerank_logit": -3.807476,
+      "rerank_position": 1
+    },
+    {
+      "page_id": "4419644",
+      "revision_id": "1350728503",
+      "title": "Nishi Amane",
+      "url": "https://en.wikipedia.org/wiki/Nishi_Amane",
+      "excerpt": "Baron Nishi Amane (西周; 7 March 1829 – 30 January 1897) was a Japanese philosopher. He studied law and economics in the Netherlands. He became a political advisor to Tokugawa Yoshinobu before and after the Meiji Restoration. He served as a bureaucrat in the Ministry of War, the Ministry of Education, the Ministry of Popular Affairs, and the Ministry of the Imperial Household under the Meiji government. He was involved in the drafting of the Military Precepts and the Imperial Rescript to Soldiers and Sailors. With Mori Arinori and others, he formed the Meirokusha and worked to introduce Western philosophy.\n\nNishi was born in the Tsuwano Domain of Iwami Province (present day Tsuwano town, Shimane Prefecture) as the son of a samurai physician who practiced Chinese medicine. A child prodigy, he is said to have read the Classic of Filial Piety at the age of four and Four Books and Five Classics at the age of six. In 1853, after studying Confucianism at his domain school and in Osaka, Nishi was sent to Edo to study rangaku, with the goal of becoming an interpreter for conducting business with the outside world via Dutch traders based at Dejima in Nagasaki. His duties also included the tra",
+      "excerpt_offset": 0,
+      "total_chars": 15386,
+      "bm25": {
+        "q0": {
+          "rank": 15,
+          "score": 27.9535
+        }
+      },
+      "best_rank": 15,
+      "title_similarity": 0.0,
+      "context_overlap": 0.0825,
+      "cosine": 0.103822,
+      "rerank_logit": -4.152773,
+      "rerank_position": 5
+    },
+    {
+      "page_id": "22166879",
+      "revision_id": "1353314788",
+      "title": "Philosophy of accounting",
+      "url": "https://en.wikipedia.org/wiki/Philosophy_of_accounting",
+      "excerpt": "The philosophy of accounting is the conceptual framework for the professional preparation and auditing of financial statements and accounts. The issues which arise include the difficulty of establishing a true and fair value of an enterprise and its assets; the moral basis of disclosure and discretion; the standards and laws required to satisfy the political needs of investors, employees and other stakeholders.\n\nThe discipline of accounting insists that transparency is achievable. Fairness has an important role in the practice of accounting. Accordingly, it seems appropriate that philosophy as a relevant way of understanding truth and fairness in accounting is well considered. Some authors have already underlined the key role played by philosophy in accounting with principles such as substance over form, ethics, and accountability, therefore more abstract concepts like fairness, justice, equity, and truth have a due place in accounting.\n\nOften, accountants are trusted to provide the information upon which financial/managerial decisions are based. According to the IASB project, conceptual framework, it states the role of financial report as\n\n'The primary users need information about",
+      "excerpt_offset": 0,
+      "total_chars": 12770,
+      "bm25": {
+        "q0": {
+          "rank": 16,
+          "score": 27.9286
+        }
+      },
+      "best_rank": 16,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1446,
+      "cosine": 0.094876,
+      "rerank_logit": -4.904907,
+      "rerank_position": 18
+    },
+    {
+      "page_id": "539034",
+      "revision_id": "1318453163",
+      "title": "Applied philosophy",
+      "url": "https://en.wikipedia.org/wiki/Applied_philosophy",
+      "excerpt": "Applied philosophy (philosophy from Greek: φιλοσοφία, philosophia, 'love of wisdom ') is a branch of philosophy that studies philosophical problems of practical concern. The topic covers a broad spectrum of issues in environment, medicine, science, engineering, policy, law, politics, economics and education. The term was popularised in 1982 by the founding of the Society for Applied Philosophy by Brenda Almond, and its subsequent journal publication Journal of Applied Philosophy edited by Elizabeth Brake. Methods of applied philosophy are similar to other philosophical methods including questioning, dialectic, critical discussion, rational argument, systematic presentation, thought experiments and logical argumentation.\n\nApplied philosophy is differentiated from pure philosophy primarily by dealing with specific topics of practical concern, whereas pure philosophy does not take an object; metaphorically it is philosophy applied to itself; exploring standard philosophical problems and philosophical objects (e.g. metaphysical properties) such as the fundamental nature of reality, epistemology and morality among others. Applied philosophy is therefore a subsection of philosophy, broad",
+      "excerpt_offset": 0,
+      "total_chars": 37076,
+      "bm25": {
+        "q0": {
+          "rank": 17,
+          "score": 27.7313
+        }
+      },
+      "best_rank": 17,
+      "title_similarity": 0.0,
+      "context_overlap": 0.0921,
+      "cosine": 0.113691,
+      "rerank_logit": -4.314638,
+      "rerank_position": 10
+    },
+    {
+      "page_id": "58819051",
+      "revision_id": "1283119169",
+      "title": "Hobbes's moral and political philosophy",
+      "url": "https://en.wikipedia.org/wiki/Hobbes%27s_moral_and_political_philosophy",
+      "excerpt": "Thomas Hobbes’s moral and political philosophy is constructed around the basic premise of social and political order, explaining how humans should live in peace under a sovereign power so as to avoid conflict within the ‘ state of nature ’. Hobbes’s moral philosophy and political philosophy are intertwined; his moral thought is based around ideas of human nature, which determine the interactions that make up his political philosophy. Hobbes’s moral philosophy therefore provides justification for, and informs, the theories of sovereignty and the state of nature that underpin his political philosophy.\n\nIn utilising methods of deductive reasoning and motion science, Hobbes examines human emotion, reason and knowledge to construct his ideas of human nature (moral philosophy). This methodology critically influences his politics, determining the interactions of conflict (in the state of nature) which necessitate the creation of a politically authoritative state to ensure the maintenance of peace and cooperation. This method is used and developed in works such as The Elements of Law (1640), De Cive (1642), Leviathan (1651) and Behemoth (1681).\n\nIn developing his moral and political philos",
+      "excerpt_offset": 0,
+      "total_chars": 10352,
+      "bm25": {
+        "q0": {
+          "rank": 18,
+          "score": 27.677
+        }
+      },
+      "best_rank": 18,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1594,
+      "cosine": 0.141378,
+      "rerank_logit": -4.916065,
+      "rerank_position": 19
+    },
+    {
+      "page_id": "69589949",
+      "revision_id": "1309465743",
+      "title": "Scott L. Pratt",
+      "url": "https://en.wikipedia.org/wiki/Scott_L._Pratt",
+      "excerpt": "Scott L. Pratt (born 1959) is a professor of philosophy at the University of Oregon. His research and teaching is focused primarily upon American philosophy, especially in the areas of Native American philosophy, pragmatism, philosophy of race and gender, philosophy of education, and the history of logic. He has previously served in various administrative roles at the University of Oregon, including executive vice provost for academic affairs (2017–2019), dean of the graduate school (2015–2017), and associate dean for the humanities in the College of Arts and Sciences (2006–2009).\n\nPratt was born in Rock Falls, Illinois. He briefly attended Sewanee: The University of the South before transferring to Beloit College, where he graduated with a BA in philosophy. Pratt worked in college admissions for the next dozen years, before attending graduate school at the University of Minnesota. Pratt completed his PhD in 1995, writing his dissertation on John Dewey 's philosophy of education, and began his career at the University of Oregon that year. He is a member of the Society for the Advancement of American Philosophy, and served in various leadership roles, including as President (2016–20",
+      "excerpt_offset": 0,
+      "total_chars": 5218,
+      "bm25": {
+        "q0": {
+          "rank": 19,
+          "score": 27.6623
+        }
+      },
+      "best_rank": 19,
+      "title_similarity": 0.0,
+      "context_overlap": 0.0986,
+      "cosine": 0.044478,
+      "rerank_logit": -4.426104,
+      "rerank_position": 14
+    },
+    {
+      "page_id": "219447",
+      "revision_id": "1352906545",
+      "title": "German idealism",
+      "url": "https://en.wikipedia.org/wiki/German_idealism",
+      "excerpt": "riedrich Hegel, who is considered the most influential figure of the movement. Other thinkers, such as Friedrich Heinrich Jacobi, Karl Leonhard Reinhold, Friedrich Schlegel, and Novalis, also made major contributions. The period of German idealism is one of the most intellectually fertile in modern philosophy, and its prominence has been compared to the golden age of philosophy in ancient Athens.\n\nThe movement is best understood as a manifestation of the modern demand for rationality and freedom. It originated in Kant's attempt to reconcile the empiricism of thinkers like David Hume with the rationalism of Gottfried Wilhelm Leibniz and Baruch Spinoza. Hume's skepticism had challenged the core tenets of the Enlightenment, arguing that reason was subordinate to custom and habit and that free will was an \"unattainable fantasy\". All forms of German idealism sought to resolve the crisis of the Enlightenment by attempting to \"save criticism from skepticism, and naturalism from materialism \". Kant's transcendental idealism sought to rescue philosophy by asserting that the mind is not a passive recipient of sensory information, but actively structures our experience of the world through an",
+      "excerpt_offset": 437,
+      "total_chars": 35954,
+      "bm25": {
+        "q0": {
+          "rank": 20,
+          "score": 27.2359
+        }
+      },
+      "best_rank": 20,
+      "title_similarity": 0.0,
+      "context_overlap": 0.0814,
+      "cosine": 0.079482,
+      "rerank_logit": -4.567748,
+      "rerank_position": 17
+    }
+  ]
+}

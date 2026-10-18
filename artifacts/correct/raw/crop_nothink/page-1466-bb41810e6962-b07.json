@@ -1,0 +1,93 @@
+{
+  "variant": "crop_nothink",
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1466",
+  "block_index": 7,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T12:22:40+00:00",
+  "elapsed_seconds": 1.35,
+  "finish_reason": "stop",
+  "parse_text": "Native gold is very felddom, if every, free from hote- Native rogreous matters; the molt uful mixtures are cop-gold, per, silver, and formtimes iron. The first of the remaining the medium, and may be particularly calefed by diffusing the gold in auguegies, and precipitating by by martial virtvel; the second falls during the following yielding a flatelry, which, being washed and dried, allows the weight of the fiber cou-tained, and the iron may be discovered by pholgills- coated alkali. The precipitate occurred by martial vis-fold in pure gold in its metallic base, but very definitely divided, and therefore its weight requires so correction.",
+  "corrected_text": "Native gold is very seldom, if ever, free from heterogeneous matters; the most usual mixtures are copper, silver, and sometimes iron. The first of these remains in the menstruum, and may be separately collected by diffusing the gold in aqua-regia, and precipitating it by martial vitriol: the second falls during the solution, yielding a salted silver; which, being washed and dried, shows the weight of the silver contained; and the iron may be discovered by phlogisticated alkali. The precipitate occasioned by martial vitriol is pure gold in its metallic state, but very subtilely divided, and therefore its weight requires no correction.",
+  "reasoning_tokens": 0,
+  "usage": {
+    "completion_tokens": 136,
+    "prompt_tokens": 650,
+    "total_tokens": 786,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 327
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 3000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows this region of the page. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\nNative gold is very felddom, if every, free from hote- Native rogreous matters; the molt uful mixtures are cop-gold, per, silver, and formtimes iron. The first of the remaining the medium, and may be particularly calefed by diffusing the gold in auguegies, and precipitating by by martial virtvel; the second falls during the following yielding a flatelry, which, being washed and dried, allows the weight of the fiber cou-tained, and the iron may be discovered by pholgills- coated alkali. The precipitate occurred by martial vis-fold in pure gold in its metallic base, but very definitely divided, and therefore its weight requires so correction.",
+  "response": {
+    "id": "chatcmpl-8b7ee1ef616c37bf",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "Native gold is very seldom, if ever, free from heterogeneous matters; the most usual mixtures are copper, silver, and sometimes iron. The first of these remains in the menstruum, and may be separately collected by diffusing the gold in aqua-regia, and precipitating it by martial vitriol: the second falls during the solution, yielding a salted silver; which, being washed and dried, shows the weight of the silver contained; and the iron may be discovered by phlogisticated alkali. The precipitate occasioned by martial vitriol is pure gold in its metallic state, but very subtilely divided, and therefore its weight requires no correction.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792326161,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 136,
+      "prompt_tokens": 650,
+      "total_tokens": 786,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 327
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

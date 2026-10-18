@@ -163,9 +163,26 @@ export interface ModelQuery {
   note: string | null;
 }
 
+export interface SearchTerms {
+  frequency: string[];
+  dictionary_filter: boolean;
+  llm: {
+    status: "ok" | "failed" | "skipped";
+    title?: string | null;
+    terms?: string[];
+    model?: string;
+    cached?: boolean;
+    reason?: string;
+    error?: string;
+    error_type?: string;
+    raw_path?: string;
+  };
+}
+
 export interface MatchView {
   mode: "model" | "lexical";
   searches: WikiSearch[];
+  search_terms?: SearchTerms;
   searches_complete: boolean;
   model_query: ModelQuery | null;
   queries?: string[];

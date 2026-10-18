@@ -1,0 +1,93 @@
+{
+  "variant": "crop_nothink",
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2277",
+  "block_index": 3,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T12:24:25+00:00",
+  "elapsed_seconds": 2.02,
+  "finish_reason": "stop",
+  "parse_text": "Of the muticles 12 12, The first cervical nerves; 13 13, The Brain and femoral cervical nerves both front upon in muticles that lie on the neck, and teguration of the neck and head. 14 14. The third cervical nerves, which after feeding off (12 15, Scc) the placenta nerve to the diaphragm, supply the mufles and tegurements that lie on the fide of the neck and top of the shoulder. 16 16, The brachial plexus, formed by the fourth, fifth, forth, towards cervical, and frit dorial nerves--which lupply the mufles, and tegurement of the effective extremity. 17 17, The twelve dorial, or proper intercedul nerves, which is peut upon the intercedul muscles and tone of the large mufles which are upon the thorax. 18 18, The five lumbar part of the nerves, which puppy the lumbar and abdominal muscles, and forms of the tegurism and mufles of the inferior extremity. 10 17, The fourscoles, as preferred cranial nerve, formed by the two inferior lumber, and three superior of the os Herman. This large nerve fulpthe the general part of the medicale and teguements of the inferior extremity. 20. The thoracic plexus, formed by the eighth pair. 21 21, Branches of the follor or callic plexus, formed by the eighth pair and inter-",
+  "corrected_text": "Of the muscles. 12 12, The first cervical nerves; 13 13, The second cervical nerves; both spent upon the muscles that lie on the neck, and teguments of the neck and head. 14 14, The third cervical nerves, which, after fending off (15 15, &c.) the phrenic nerves to the diaphragm, supply the muscles and teguments that lie on the side of the neck and top of the shoulder. 16 16, The brachial plexus, formed by the fourth, fifth, sixth, seventh cervicals, and first dorsal nerves,—which supply the muscles, and teguments of the superior extremity. 17 17, The twelve dorsal, or proper intercostal nerves, which are spent upon the intercostal muscles and some of the large muscles which lie upon the thorax. 18 18, The five lumbar pairs of nerves, which supply the lumbar and abdominal muscles, and some of the teguments and muscles of the inferior extremity. 19 19, The facro-sciatic, or posterior crural nerve, formed by the two inferior lumbar, and three superior of the os sacrum. This large nerve supplies the greatest part of the muscles and teguments of the inferior extremity. 20, The lumbosac plexus, formed by the eighth pair. 21 21, Branches of the solar or caulic plexus, formed by the eighth pair and inter-",
+  "reasoning_tokens": 0,
+  "usage": {
+    "completion_tokens": 320,
+    "prompt_tokens": 1109,
+    "total_tokens": 1429,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 600
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 3000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows this region of the page. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\nOf the muticles 12 12, The first cervical nerves; 13 13, The Brain and femoral cervical nerves both front upon in muticles that lie on the neck, and teguration of the neck and head. 14 14. The third cervical nerves, which after feeding off (12 15, Scc) the placenta nerve to the diaphragm, supply the mufles and tegurements that lie on the fide of the neck and top of the shoulder. 16 16, The brachial plexus, formed by the fourth, fifth, forth, towards cervical, and frit dorial nerves--which lupply the mufles, and tegurement of the effective extremity. 17 17, The twelve dorial, or proper intercedul nerves, which is peut upon the intercedul muscles and tone of the large mufles which are upon the thorax. 18 18, The five lumbar part of the nerves, which puppy the lumbar and abdominal muscles, and forms of the tegurism and mufles of the inferior extremity. 10 17, The fourscoles, as preferred cranial nerve, formed by the two inferior lumber, and three superior of the os Herman. This large nerve fulpthe the general part of the medicale and teguements of the inferior extremity. 20. The thoracic plexus, formed by the eighth pair. 21 21, Branches of the follor or callic plexus, formed by the eighth pair and inter-",
+  "response": {
+    "id": "chatcmpl-9957596cb7d48825",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "Of the muscles. 12 12, The first cervical nerves; 13 13, The second cervical nerves; both spent upon the muscles that lie on the neck, and teguments of the neck and head. 14 14, The third cervical nerves, which, after fending off (15 15, &c.) the phrenic nerves to the diaphragm, supply the muscles and teguments that lie on the side of the neck and top of the shoulder. 16 16, The brachial plexus, formed by the fourth, fifth, sixth, seventh cervicals, and first dorsal nerves,—which supply the muscles, and teguments of the superior extremity. 17 17, The twelve dorsal, or proper intercostal nerves, which are spent upon the intercostal muscles and some of the large muscles which lie upon the thorax. 18 18, The five lumbar pairs of nerves, which supply the lumbar and abdominal muscles, and some of the teguments and muscles of the inferior extremity. 19 19, The facro-sciatic, or posterior crural nerve, formed by the two inferior lumbar, and three superior of the os sacrum. This large nerve supplies the greatest part of the muscles and teguments of the inferior extremity. 20, The lumbosac plexus, formed by the eighth pair. 21 21, Branches of the solar or caulic plexus, formed by the eighth pair and inter-",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792326266,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 320,
+      "prompt_tokens": 1109,
+      "total_tokens": 1429,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 600
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

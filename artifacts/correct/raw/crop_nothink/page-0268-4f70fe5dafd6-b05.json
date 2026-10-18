@@ -1,0 +1,93 @@
+{
+  "variant": "crop_nothink",
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:268",
+  "block_index": 5,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T12:20:29+00:00",
+  "elapsed_seconds": 1.2,
+  "finish_reason": "stop",
+  "parse_text": "The bark of this tree is used by the women in Pen-flyingia and other part of North America in dying worried a fine falling orange-colour, which does not fade in the form. They are in white infested alum in dying; and both the dye in a brafs boiler, becard in an iron wildt it does not yield to fine a colour. The wood is made up of for polls belonging to the indo-fares, herit it fails to do a long time in the ground: but it is likewife laid, that there is hardly any kind of wood which is more stacked by worms than this way it is expected to the air without cover, and that in a short time it is quite worm-teaten through and through.",
+  "corrected_text": "The bark of this tree is used by the women in Pennsylvania and other parts of North America in dyeing worsted a fine fading orange-colour, which does not fade in the sun. They use urine instead of alum in dyeing; and boil the dye in a brass boiler, because in an iron vessel it does not yield so fine a colour. The wood is made use of for polls belonging to the inclosures, for it is said to last a long time in the ground: but it is likewise said, that there is hardly any kind of wood which is more attacked by worms than this when it is exposed to the air without cover; and that in a short time it is quite worm-eaten through and through.",
+  "reasoning_tokens": 0,
+  "usage": {
+    "completion_tokens": 148,
+    "prompt_tokens": 669,
+    "total_tokens": 817,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 338
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 3000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows this region of the page. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\nThe bark of this tree is used by the women in Pen-flyingia and other part of North America in dying worried a fine falling orange-colour, which does not fade in the form. They are in white infested alum in dying; and both the dye in a brafs boiler, becard in an iron wildt it does not yield to fine a colour. The wood is made up of for polls belonging to the indo-fares, herit it fails to do a long time in the ground: but it is likewife laid, that there is hardly any kind of wood which is more stacked by worms than this way it is expected to the air without cover, and that in a short time it is quite worm-teaten through and through.",
+  "response": {
+    "id": "chatcmpl-b31173e9f39a592d",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "The bark of this tree is used by the women in Pennsylvania and other parts of North America in dyeing worsted a fine fading orange-colour, which does not fade in the sun. They use urine instead of alum in dyeing; and boil the dye in a brass boiler, because in an iron vessel it does not yield so fine a colour. The wood is made use of for polls belonging to the inclosures, for it is said to last a long time in the ground: but it is likewise said, that there is hardly any kind of wood which is more attacked by worms than this when it is exposed to the air without cover; and that in a short time it is quite worm-eaten through and through.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792326029,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 148,
+      "prompt_tokens": 669,
+      "total_tokens": 817,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 338
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

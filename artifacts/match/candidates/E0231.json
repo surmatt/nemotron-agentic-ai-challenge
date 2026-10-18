@@ -1,0 +1,452 @@
+{
+  "entry_id": "E0231",
+  "headword": null,
+  "entry_text_sha256": "4a94529d9f31c1e6c308b88de48e514871b244fa52332ee72e3092d6db882d76",
+  "mode": "model",
+  "queries": [
+    "asses wild zebra horse onager shape beautiful make insomuch common colour white"
+  ],
+  "query_chars": 1500,
+  "headword_variant": null,
+  "candidate_count": 20,
+  "list_pages_removed_after_fetch": [],
+  "decision": {
+    "status": "rejected",
+    "method": "nemotron_embed_rerank",
+    "thresholds": {
+      "rerank_logit": -10.0,
+      "margin": 0.5,
+      "cosine": 0.15,
+      "title_similarity": 0.0
+    },
+    "reason": "rerank_logit < -10.0, margin < 0.5, cosine < 0.15, or title_similarity < 0.0",
+    "page_id": "34460",
+    "title": "Zebra",
+    "rerank_logit": -6.420094,
+    "cosine": 0.357685,
+    "margin_to_next": 0.278092,
+    "title_similarity": 0.0
+  },
+  "candidates": [
+    {
+      "page_id": "140953",
+      "revision_id": "1348314849",
+      "title": "Onager",
+      "url": "https://en.wikipedia.org/wiki/Onager",
+      "excerpt": "The onager (/ ˈ ɒ n ə ɡ ər /, / ˈ ɒ n ə dʒ ər /) (Equus hemionus), also known as hemione or Asiatic wild ass, is a species of the family Equidae native to Asia. A member of the subgenus Asinus, the onager was described and given its binomial name by German zoologist Peter Simon Pallas in 1775. Six subspecies are accepted.\n\nThe onager is reddish-brown or yellowish-brown and has a broad dorsal stripe on the middle of the back. It weighs about 200–260 kg (440–570 lb) and reaches about 2.1 m (6 ft 11 in) head-body length. It is among the fastest mammals, capable of running 64–70 km/h (40–43 mph).\n\nThe onager had a wider range from southwest and central to northern Asia including the Levant region, Arabian Peninsula, Afghanistan and Siberia; the prehistoric European wild ass subspecies ranged through Europe until the Bronze Age. During the early 20th century, it lost most of its range in the Middle East and Eastern Asia and lives today in Iran, Kazakhstan, Uzbekistan, Turkmenistan, India, Mongolia and China. It inhabits deserts and arid regions, grasslands, plains, steppes, and savannahs. Like many other large grazing animals, its range has contracted greatly under the pressures of poac",
+      "excerpt_offset": 0,
+      "total_chars": 12770,
+      "bm25": {
+        "q0": {
+          "rank": 1,
+          "score": 59.142
+        }
+      },
+      "best_rank": 1,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1042,
+      "cosine": 0.456514,
+      "rerank_logit": -6.698186,
+      "rerank_position": 2
+    },
+    {
+      "page_id": "35035198",
+      "revision_id": "1352342968",
+      "title": "Persian onager",
+      "url": "https://en.wikipedia.org/wiki/Persian_onager",
+      "excerpt": "The Persian onager (Equus hemionus onager), also called the Persian wild ass or Persian zebra, is a subspecies of onager (Asiatic wild ass) native to Iran. It is listed as Critically Endangered, with no more than 600 individuals left in the wild.\n\nPersian onagers are 6.7–8.3 feet (2.0–2.5 m) long, reach 3.3–4.8 feet (1.0–1.5 m) at the shoulder, and weigh 200–260 kg (440–570 lb). Females are slightly smaller than males.\n\nTypically the coat is a sandy red, with a brown dorsal stripe. Thin strips of white on either side of the dorsal stripe merge with the white patch on the rear. There is also white on the underside and flanks.\n\nThe Persian onager is also simply named gur (گور) meaning \"zebra\" in Persian. \"Onager\" is from the Greek ὄναγρος (onagros), meaning \"wild ass\".\n\nSometimes, the term \"onager\" is reserved specifically for this subspecies. However, as the whole species of the Asiatic wild ass is known simply as onager, it now also serves as the Persian wild ass's scientific name, as well (Equus hemionus onager). Information on the basic biology of the subspecies and how it differs from others is lacking, which hampers conservation efforts.\n\nAsiatic wild ass used to be numerous fr",
+      "excerpt_offset": 0,
+      "total_chars": 3957,
+      "bm25": {
+        "q0": {
+          "rank": 2,
+          "score": 54.7367
+        }
+      },
+      "best_rank": 2,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1286,
+      "cosine": 0.424212,
+      "rerank_logit": -7.246496,
+      "rerank_position": 13
+    },
+    {
+      "page_id": "34203066",
+      "revision_id": "1353666750",
+      "title": "Turkmenian kulan",
+      "url": "https://en.wikipedia.org/wiki/Turkmenian_kulan",
+      "excerpt": "The Turkmenian kulan (Equus hemionus kulan), also called Transcaspian wild ass, Turkmenistani onager or simply the kulan, is a subspecies of onager (Asiatic wild ass) native to Central Asia. It was declared endangered in 2016.\n\nThe species's population had recently been in decline in the country while it slowly increases in reintroduction sites. The Turkmenian kulan has been reintroduced to Kazakhstan and Uzbekistan, as well as Israel, where the subspecies are hybridizing with Persian onagers in the wild.\n\nIn 2005, the population was estimated at 1,295-1,345 in Turkmenistan. No other data existed on the condition of the Turkmenistan populations, but hope remained that small groups of animals still resided in inaccessible areas around Badkhyz, and were thriving in the West Kopetdagh (Sumbar-Chandyr Valley) and Ustyurt Plateau around Lake Sarakamish. However, certain fragmented populations of Transcaspian wild ass are currently on the rise to even more than 2,000 individuals in the wild. It is also estimated that over 6,000 kulans live in Central Asia. In 2017, there were 3,900 kulans in total roaming in Kazakhstan, of which the largest Kazakh population (3,400) resided in Altyn-Emel",
+      "excerpt_offset": 0,
+      "total_chars": 8641,
+      "bm25": {
+        "q0": {
+          "rank": 3,
+          "score": 54.375
+        }
+      },
+      "best_rank": 3,
+      "title_similarity": 0.0,
+      "context_overlap": 0.0667,
+      "cosine": 0.236215,
+      "rerank_logit": -7.403306,
+      "rerank_position": 16
+    },
+    {
+      "page_id": "3696045",
+      "revision_id": "1333538507",
+      "title": "African wild ass",
+      "url": "https://en.wikipedia.org/wiki/African_wild_ass",
+      "excerpt": "The African wild ass (Equus africanus) or African wild donkey, is a wild member of the horse family, Equidae. This species is thought to be the ancestor of the domestic donkey (Equus asinus), which is sometimes placed within the same species. They live in the deserts and other arid areas of the Horn of Africa, in Eritrea, Ethiopia and Somalia. It formerly had a wider range north and west into Sudan, Egypt, and Libya. It is Critically Endangered, with about 570 existing in the wild.\n\nThe African wild ass is about 1.2 metres (4 ft) tall and weighs approximately 250 kilograms (600 lb). The short, smooth coat is a light grey to fawn colour, fading quickly to white on the undersides and legs. There is a slender, dark dorsal stripe in all subspecies, while in the Nubian wild ass (E. a. africanus), as well as the domestic donkey, there is a stripe across the shoulder. The legs of the Somali wild ass (E. a. somaliensis) are horizontally striped with black, resembling those of a zebra. On the nape of the neck, there is a stiff, upright mane, the hairs of which are tipped with black. The ears are large with black margins. The tail terminates with a black brush. The hooves are slender and app",
+      "excerpt_offset": 0,
+      "total_chars": 8809,
+      "bm25": {
+        "q0": {
+          "rank": 4,
+          "score": 52.5226
+        }
+      },
+      "best_rank": 4,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1412,
+      "cosine": 0.37085,
+      "rerank_logit": -6.956864,
+      "rerank_position": 6
+    },
+    {
+      "page_id": "1597976",
+      "revision_id": "1353688412",
+      "title": "Kiang",
+      "url": "https://en.wikipedia.org/wiki/Kiang",
+      "excerpt": "The kiang (Equus kiang) is the largest of the Asinus subgenus. It is native to the Tibetan Plateau in Ladakh India, northern Pakistan, Tajikistan, China and northern Nepal. It inhabits montane grasslands and shrublands. Other common names for this species include Tibetan wild ass, khyang and gorkhar.\n\nThe kiang is the largest of the wild asses, with an average height at the withers of 140 cm (55 in). They range from 132 to 142 cm (52 to 56 in) high at the withers, with a body 182 to 214 cm (72 to 84 in) long, and a tail of 32 to 45 cm (13 to 18 in). Kiangs have only slight sexual dimorphism, with the males weighing from 350 to 400 kg (770 to 880 lb), while females weigh 250 to 300 kg (550 to 660 lb). They have a large head, with a blunt muzzle and a convex nose. The mane is upright and relatively short. The coat is a rich chestnut colour, darker brown in winter and a sleek reddish brown in late summer, when the animal moults its woolly fur. The summer coat is 1.5 cm (0.6 in) long and the winter coat is double that length. The legs, underparts, end of the muzzle, and the inside of the ears are all white. A broad, dark chocolate-coloured dorsal stripe extends from the mane to the end",
+      "excerpt_offset": 0,
+      "total_chars": 9589,
+      "bm25": {
+        "q0": {
+          "rank": 5,
+          "score": 52.1948
+        }
+      },
+      "best_rank": 5,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1548,
+      "cosine": 0.323841,
+      "rerank_logit": -7.156565,
+      "rerank_position": 10
+    },
+    {
+      "page_id": "9137486",
+      "revision_id": "1321906878",
+      "title": "Syrian wild ass",
+      "url": "https://en.wikipedia.org/wiki/Syrian_wild_ass",
+      "excerpt": "The Syrian wild ass (Equus hemionus hemippus), less commonly known as a hemippe, an achdari, or a Mesopotamian or Syrian onager, is an extinct subspecies of onager native to the Arabian Peninsula and surrounding areas. It ranged across present-day Iraq, Palestine, Israel, Iran, Jordan, Saudi Arabia, Syria, and Turkey.\n\nIt is believed this may be the \"wild ass\" that Ishmael was prophesied to be in Genesis in the Old Testament. References to this wild ass also appear in the Old Testament books of Job, Psalms, Jeremiah, and the Deuterocanonical Book of Sirach.\n\nThe Syrian wild ass, one metre high at its shoulder, was the smallest equine, and it could not be domesticated. Its coloring changed with the seasons—a tawny olive coat for the summer months, and pale sandy yellow for the winter. It was known, like other onagers, to be untameable, and was compared to a thoroughbred horse for its beauty and strength.\n\nThe Syrian wild ass lived in deserts, semi-deserts, arid grasslands, and mountain steppes. Native to West Asia, they were found in Israel, Palestine, Jordan, Turkey, Syria, Saudi Arabia, and Iraq.\n\nThe Syrian wild ass was a grazer and a browser. It fed on grass, herbs, leaves, shru",
+      "excerpt_offset": 0,
+      "total_chars": 5303,
+      "bm25": {
+        "q0": {
+          "rank": 6,
+          "score": 51.9254
+        }
+      },
+      "best_rank": 6,
+      "title_similarity": 0.0,
+      "context_overlap": 0.0778,
+      "cosine": 0.332566,
+      "rerank_logit": -7.455312,
+      "rerank_position": 18
+    },
+    {
+      "page_id": "80399142",
+      "revision_id": "1352481946",
+      "title": "Zebro",
+      "url": "https://en.wikipedia.org/wiki/Zebro",
+      "excerpt": "A zebro was a wild horse or horse-like animal that many medieval authors reported living in the Iberian Peninsula until the 16th century. Medieval sources described it as an ashen-colored animal with a dorsal stripe, smaller than domesticated horses, and difficult to tame. It is not certain if they had stripes on other areas. They were hunted as a game animal during the medieval period. Their hides were used to make shoes and shields. Their meat was described as delicious and reported to cure laziness. The zebro likely went extinct by the 16th century.\n\nPortuguese explorers may have named the African zebra after the zebro. Modern scholars are not certain what species they were. The four leading theories are that the zebro was a native wild horse possibly related to the Sorraia breed, the extinct European wild ass, another name for the Asiatic wild ass, or a feralized equid.\n\nThe origin of the term zebro is debated, but the most accepted theory is that it comes from the Latin equus ferus (\"wild horse\"), which evolved into equiferus. The unattested form eciferus was likely used in the Vulgar Latin. In Iberia, this became enzebro or ezebro, later shortened to zebro. Historical Spanish",
+      "excerpt_offset": 0,
+      "total_chars": 12062,
+      "bm25": {
+        "q0": {
+          "rank": 7,
+          "score": 50.6977
+        }
+      },
+      "best_rank": 7,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1379,
+      "cosine": 0.374353,
+      "rerank_logit": -7.565583,
+      "rerank_position": 20
+    },
+    {
+      "page_id": "18154352",
+      "revision_id": "1321728838",
+      "title": "Primitive markings",
+      "url": "https://en.wikipedia.org/wiki/Primitive_markings",
+      "excerpt": "Primitive markings are a group of hair coat markings and qualities seen in several equine species, including horses, donkeys, and asses. In horses, they are associated with primitive breeds, though not limited to such breeds. The markings are particularly associated with the dun coat color family. All dun horses possess at least the dorsal stripe, but the presence of the other primitive markings varies. Other common markings may include horizontal striping on the legs, transverse striping across the shoulders, and lighter guard hairs along the edges of a dark mane and tail.\n\nThe dun coat and attendant primitive or \"dun factor\" markings reflect the wild type coat and are observed in all equine species. Some cave paintings depict horses as being dun and with the primitive markings. The Przewalski's horse is dun-colored with primitive markings. So, too, are horse breeds such as the Konik and the Heck horse, \"bred back\" to resemble the now-extinct tarpan, many of which are grullo or mouse dun in color.\n\nEvery dun horse has a dorsal stripe, and some dun horses also have additional primitive markings. Some non-dun horses may also show primitive markings, namely newborn foals and horses w",
+      "excerpt_offset": 0,
+      "total_chars": 7611,
+      "bm25": {
+        "q0": {
+          "rank": 8,
+          "score": 50.515
+        }
+      },
+      "best_rank": 8,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1159,
+      "cosine": 0.17129,
+      "rerank_logit": -7.47176,
+      "rerank_position": 19
+    },
+    {
+      "page_id": "701610",
+      "revision_id": "1339066368",
+      "title": "Zebroid",
+      "url": "https://en.wikipedia.org/wiki/Zebroid",
+      "excerpt": "A zebroid is the offspring of any cross between a zebra and any other equine to create a hybrid. In most cases, the sire is a zebra stallion but not every time. The offspring of a donkey sire and zebra dam, called a donkra, and the offspring of a horse sire and a zebra dam, called a hebra, do exist, but are rare and are usually sterile. Zebroids have been bred since the 19th century. Charles Darwin noted several zebra hybrids in his works.\n\nZebroid is the term generally used for all zebra hybrids. The different hybrids are generally named using a portmanteau of the sire 's name and the dam 's name. Generally, no distinction is made as to which zebra species is used. Many times, when zebras are crossbred, they develop some form of dwarfism. Breeding of different branches of the equine family, which does not occur in the wild, generally results in sterile offspring. The combination of sire and dam also affects the offspring phenotype.\n\nA zorse is the offspring of a zebra stallion and a horse mare. This cross is also called a zebrose, zebrula, zebrule, or zebra mule. The rarer reverse pairing is sometimes called a hebra, horsebra, zebrinny, or zebra hinny. The zorse is sterile.\n\nA zon",
+      "excerpt_offset": 0,
+      "total_chars": 9687,
+      "bm25": {
+        "q0": {
+          "rank": 9,
+          "score": 49.9729
+        }
+      },
+      "best_rank": 9,
+      "title_similarity": 0.0,
+      "context_overlap": 0.087,
+      "cosine": 0.279717,
+      "rerank_logit": -6.835612,
+      "rerank_position": 4
+    },
+    {
+      "page_id": "62460916",
+      "revision_id": "1351136289",
+      "title": "List of perissodactyls",
+      "url": "https://en.wikipedia.org/wiki/List_of_perissodactyls",
+      "excerpt": " is an order of placental mammals composed of odd-toed ungulates – hooved animals which bear weight on one or three of their five toes with the other toes either present, absent, vestigial, or pointing backwards. Members of this order are called perissodactyls, and include rhinoceroses, tapirs, and horses. They are primarily found in Africa, southern and southeastern Asia, and Central America, and are found in a variety of biomes, most typically grassland, savanna, inland wetlands, shrubland, and desert. Perissodactyls range in size from the 1.8 m (6 ft) long Baird's tapir to the 4 m (13 ft) long white rhinoceros. Over 50 million domesticated donkeys and 58 million horses are used in farming worldwide, while four species of perissodactyl have potentially fewer than 200 members remaining. Three subspecies of the black rhinoceros, the Syrian wild ass subspecies of the onager, and the tarpan subspecies of the wild horse have gone extinct in the last 200 years.\n\nThe eighteen extant species of Perissodactyla are divided into two suborders: Ceratomorpha, containing the families Rhinocerotidae and Tapiridae, and Hippomorpha, containing the family Equidae. Rhinocerotidae contains five spec",
+      "excerpt_offset": 14,
+      "total_chars": 3503,
+      "bm25": {
+        "q0": {
+          "rank": 10,
+          "score": 48.2395
+        }
+      },
+      "best_rank": 10,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1609,
+      "cosine": 0.249545,
+      "rerank_logit": -7.198196,
+      "rerank_position": 11
+    },
+    {
+      "page_id": "1070735",
+      "revision_id": "1349607711",
+      "title": "Equus (genus)",
+      "url": "https://en.wikipedia.org/wiki/Equus_(genus)",
+      "excerpt": "Equus (/ ˈ ɛ k w ə s, ˈ iː k w ə s /) is a genus of mammals in the perissodactyl family Equidae, which includes horses, asses, and zebras. Within the Equidae, Equus is the only recognized extant genus, comprising seven living species. Like Equidae more broadly, Equus has numerous extinct species known only from fossils. The genus originated in North America and dispersed into the Old World and South America during the Early and Middle Pleistocene. Equines are odd-toed ungulates with slender legs, long heads, relatively long necks, manes (erect in most subspecies), and long tails. All species are herbivorous, and mostly grazers, with simpler digestive systems than ruminants but able to subsist on lower-quality vegetation.\n\nWhile the domestic horse and donkey (along with their feral descendants) exist worldwide, wild equine populations are limited to Africa and Asia. Wild equine social systems are in two forms; a harem system with tight-knit groups consisting of one adult male or stallion / jackass, several females or mares / jennets, and their young or foals; and a territorial system where males establish territories with resources that attract females, which associate very fluidly.",
+      "excerpt_offset": 0,
+      "total_chars": 21135,
+      "bm25": {
+        "q0": {
+          "rank": 11,
+          "score": 45.8982
+        }
+      },
+      "best_rank": 11,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1224,
+      "cosine": 0.316688,
+      "rerank_logit": -6.715344,
+      "rerank_position": 3
+    },
+    {
+      "page_id": "23562",
+      "revision_id": "1353135911",
+      "title": "Perissodactyla",
+      "url": "https://en.wikipedia.org/wiki/Perissodactyla",
+      "excerpt": "Perissodactyla (/ p ə ˌ r ɪ s oʊ ˈ d æ k t ɪ l ə /, from Ancient Greek περισσός, perissós ' odd ' and δάκτυλος, dáktylos ' finger, toe '), or odd-toed ungulates, is an order of ungulates. The order includes about 17 living species divided into three families: Equidae (horses, asses, and zebras), Rhinocerotidae (rhinoceroses), and Tapiridae (tapirs). They typically have reduced the weight-bearing toes to three or one of the five original toes, though tapirs retain four toes on their front feet. The nonweight-bearing toes are either present, absent, vestigial, or positioned posteriorly. By contrast, artiodactyls (even-toed ungulates) bear most of their weight equally on four or two (an even number) of the five toes: their third and fourth toes. Another difference between the two is that perissodactyls digest plant cellulose in their intestines, rather than in one or more stomach chambers as artiodactyls, with the exception of Suina, do.\n\nThe order was considerably more diverse in the past, with notable extinct groups including the brontotheres, palaeotheres, chalicotheres, and the paraceratheres, with the paraceratheres including the largest known land mammals to have ever existed.\n\n",
+      "excerpt_offset": 0,
+      "total_chars": 32545,
+      "bm25": {
+        "q0": {
+          "rank": 12,
+          "score": 45.3452
+        }
+      },
+      "best_rank": 12,
+      "title_similarity": 0.0,
+      "context_overlap": 0.0519,
+      "cosine": 0.264152,
+      "rerank_logit": -7.100782,
+      "rerank_position": 8
+    },
+    {
+      "page_id": "6219080",
+      "revision_id": "1344702380",
+      "title": "Asinus",
+      "url": "https://en.wikipedia.org/wiki/Asinus",
+      "excerpt": "Asinus is a subgenus of Equus that encompasses several subspecies of the Equidae commonly known as wild asses or wild donkeys, characterized by long ears, a lean, straight-backed build, lack of a true withers, a coarse mane and tail, and a reputation for considerable toughness and endurance.\n\nThe common donkey is the best-known domesticated representative of the subgenus, with both domesticated and feral varieties. Among the wild ass species, several never-domesticated species live in Asia and Africa, with the extinct European wild ass species formerly inhabiting Europe.\n\nGenus: Equus\n\nSubgenus: Asinus\n\nAfrican wild ass, Equus africanus\n\nNubian wild ass, Equus africanus africanus\n\nSomali wild ass, Equus africanus somaliensis\n\nAtlas wild ass, † Equus africanus atlanticus (extinct 1st millennium AD)\n\nDonkey, Equus africanus asinus\n\nOnager or Asiatic wild ass, Equus hemionus\n\nMongolian wild ass or khulan, Equus hemionus hemionus\n\nIndian wild ass or khur, Equus hemionus khur\n\nTurkmenian kulan, Equus hemionus kulan\n\nPersian onager or gur, Equus hemionus onager\n\nSyrian wild ass or achdari, † Equus hemionus hemippus (extinct 1927)\n\nKiang or Tibetan wild ass, Equus kiang\n\nWestern kiang, Eq",
+      "excerpt_offset": 0,
+      "total_chars": 1473,
+      "bm25": {
+        "q0": {
+          "rank": 13,
+          "score": 43.6819
+        }
+      },
+      "best_rank": 13,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1486,
+      "cosine": 0.400165,
+      "rerank_logit": -6.876778,
+      "rerank_position": 5
+    },
+    {
+      "page_id": "34460",
+      "revision_id": "1350445236",
+      "title": "Zebra",
+      "url": "https://en.wikipedia.org/wiki/Zebra",
+      "excerpt": "Zebras (US: / ˈ z iː b r ə z /, UK: / ˈ z ɛ b r ə z, ˈ z iː -/) (subgenus Hippotigris) are African equines with distinctive black-and-white striped coats. There are three living species: Grévy's zebra (Equus grevyi), the plains zebra (E. quagga), and the mountain zebra (E. zebra). Zebras share the genus Equus with horses and asses, the three groups being the only living members of the family Equidae. Zebra stripes come in different patterns, unique to each individual. Several theories have been proposed for the function of these patterns, with most evidence supporting them as a deterrent for biting flies. Zebras inhabit eastern and southern Africa and can be found in a variety of habitats such as savannahs, grasslands, woodlands, shrublands, and mountainous areas.\n\nZebras are primarily grazers and can subsist on lower-quality vegetation. They are preyed on mainly by lions, and typically flee when threatened but also bite and kick. Zebra species differ in social behaviour, with plains and mountain zebra living in stable harems consisting of an adult male or stallion, several adult females or mares, and their young or foals; while Grévy's zebra live alone or in loosely associated her",
+      "excerpt_offset": 0,
+      "total_chars": 33351,
+      "bm25": {
+        "q0": {
+          "rank": 14,
+          "score": 43.6571
+        }
+      },
+      "best_rank": 14,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1294,
+      "cosine": 0.357685,
+      "rerank_logit": -6.420094,
+      "rerank_position": 1
+    },
+    {
+      "page_id": "74386576",
+      "revision_id": "1341236521",
+      "title": "Equus ovodovi",
+      "url": "https://en.wikipedia.org/wiki/Equus_ovodovi",
+      "excerpt": "Equus ovodovi is an extinct species of equine known from the late Middle Pleistocene to the mid-late Holocene of North and East Asia.\n\nEquus ovodovi was slightly larger than the Asiatic wild ass, with one individual from Proskurjakov cave having an estimated body mass of around 196.5 kilograms (433 lb). E. ovodovi can be distinguished from wild asses based on its larger and more robust limb bones. The skull differs from that of the European wild ass (Equus hydruntinus), with which they were previously confused, by having a narrower supra-occipital crest, and having less broad choanae. Their teeth also differ from those of European wild ass by having more elongate protocones.\n\nIsotopic analysis of specimens from the Holocene of China suggests a preference for C plants.\n\nEquus ovodovi has been suggested to be the last surviving member of the subgenus Sussemionus, which first appeared in North America over 2 million years ago, and was formerly present across Afro-Eurasia. Some later studies questioned its relationship to the subgenus Sussemionus.\n\nGenetic evidence suggests that it was more closely related to zebras and asses than to horses. Initial genetic analysis based on the mitoch",
+      "excerpt_offset": 0,
+      "total_chars": 2435,
+      "bm25": {
+        "q0": {
+          "rank": 15,
+          "score": 41.6685
+        }
+      },
+      "best_rank": 15,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1071,
+      "cosine": 0.226553,
+      "rerank_logit": -7.264468,
+      "rerank_position": 14
+    },
+    {
+      "page_id": "55526",
+      "revision_id": "1339420393",
+      "title": "Donkey",
+      "url": "https://en.wikipedia.org/wiki/Donkey",
+      "excerpt": "The donkey or ass is a domesticated equine. It derives from the African wild ass, Equus africanus, and may be classified either as a subspecies thereof, Equus africanus asinus, or as a separate species, Equus asinus.: 1 It was domesticated in Africa some 5000–7000 years ago,: 2 : 3715 and has been used mainly as a working animal since that time.\n\nThere are more than 40 million donkeys in the world, mostly in underdeveloped countries, where they are used principally as draught or pack animals. While working donkeys are often associated with those living at or below subsistence, small numbers of donkeys or asses are kept for breeding, as pets, and for livestock protection in developed countries.\n\nAn adult male donkey is a jack or jackass, an adult female is a jenny or jennet, and an immature donkey of either sex is a foal. Jacks are often mated with female horses (mares) to produce mules; the less common hybrid of a male horse (stallion) and jenny is a hinny.\n\nTraditionally, the scientific name for the donkey is Equus asinus asinus, on the basis of the principle of priority used for scientific names of animals. However, the International Commission on Zoological Nomenclature ruled in",
+      "excerpt_offset": 0,
+      "total_chars": 22779,
+      "bm25": {
+        "q0": {
+          "rank": 16,
+          "score": 41.3413
+        }
+      },
+      "best_rank": 16,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1392,
+      "cosine": 0.283222,
+      "rerank_logit": -6.992552,
+      "rerank_position": 7
+    },
+    {
+      "page_id": "49587999",
+      "revision_id": "1309161761",
+      "title": "Réserve Africaine de Sigean",
+      "url": "https://en.wikipedia.org/wiki/R%C3%A9serve_Africaine_de_Sigean",
+      "excerpt": "ded drive.\n\nThe area is divided in eight parks, 1, 2 and 3 represent scrubland or bush; 4 and 5 are the predator enclosures and 6, 7 and 8 depict the savanna. Lar gibbons are held on an island in the background of the savanna exhibit.\n\nAfrican forest buffaloes, blesbok, sable antelopes and impalas\n\nCommon ostriches, blue wildebeest, springbok, Grévy's zebras and defassa waterbuck\n\nKordofan giraffes, roan antelopes, lowland nyalas and Nile lechwes.\n\nA group of ten Asiatic black bears\n\nAfrican lions.\n\nEight Southern white rhinos, Nile lechwes and Speke's sitatungas\n\nGrant's zebras, Watusi cattle, blue wildebeest, common ostriches and common elands\n\nSomali wild asses, common warthogs and Cuvier's gazelles.\n\nLaid around the Œil de Ca, this part has an array of pens holding many species of ungulates, birds and primates. Some of the species held are Barbary sheep, greater kudus, reticulated giraffes, Hartmann's mountain zebras, emus, greater rheas, black-capped squirrel monkeys, white-headed marmosets, Barbary macaques, dromedary camels, Persian onagers, macaws (blue-and-yellow, scarlet and green-winged), red river hogs, Cape porcupines, meerkats, African spurred tortoises, red-necked wa",
+      "excerpt_offset": 537,
+      "total_chars": 4423,
+      "bm25": {
+        "q0": {
+          "rank": 17,
+          "score": 40.5358
+        }
+      },
+      "best_rank": 17,
+      "title_similarity": 0.0,
+      "context_overlap": 0.0857,
+      "cosine": 0.177086,
+      "rerank_logit": -7.294448,
+      "rerank_position": 15
+    },
+    {
+      "page_id": "9175711",
+      "revision_id": "1349880804",
+      "title": "Indian wild ass",
+      "url": "https://en.wikipedia.org/wiki/Indian_wild_ass",
+      "excerpt": "The Indian wild ass (Equus hemionus khur), also called the Indian wild donkey, Indian onager or, in the local Gujarati language, Ghudkhur and Khur, is a subspecies of the onager native to South Asia.\n\nIt is currently listed as Vulnerable by the IUCN. In the wild the species is found only in the Indian state of Gujarat, where it is protected under the Indian Wild Ass Sanctuary. In 2024, there were 7,672 wild asses up from 720 in 1976.\n\nThe Indian wild ass, as with most other Asian wild ass subspecies, is quite different from the African wild ass species. The coat is usually sandy, but varies from reddish grey, fawn, to pale chestnut. The animal possesses an erect, dark mane which runs from the back of the head and along the neck. The mane is then followed by a dark brown stripe running along the back, to the root of the tail.\n\nThe Indian wild ass's range once extended from western India, southern Pakistan, i.e. provinces of Sindh and Baluchistan, Afghanistan, and south-eastern Iran. Today, its last refuge lies in the Indian Wild Ass Sanctuary, Little Rann of Kutch and its surrounding areas of the Great Rann of Kutch in the Gujarat state of India. The animal, however, is also seen in",
+      "excerpt_offset": 0,
+      "total_chars": 6621,
+      "bm25": {
+        "q0": {
+          "rank": 18,
+          "score": 38.8082
+        }
+      },
+      "best_rank": 18,
+      "title_similarity": 0.0,
+      "context_overlap": 0.2025,
+      "cosine": 0.345721,
+      "rerank_logit": -7.202875,
+      "rerank_position": 12
+    },
+    {
+      "page_id": "18155283",
+      "revision_id": "1329146731",
+      "title": "Pangaré",
+      "url": "https://en.wikipedia.org/wiki/Pangar%C3%A9",
+      "excerpt": "Pangaré is a coat trait found in some horses that features pale hair around the eyes, muzzle, and underside of the body. These pale areas can extend up to the flanks, throat and chest, behind the elbows, in front of the stifle, and up the buttock. Animals with the pangaré trait are sometimes called \"mealy\" or \"light-pointed\". The color of these lighter areas depends on the underlying color and ranges from off-white to light tan. This type of coloration is most often found in breeds such as the Fjord horse, Exmoor Pony, and Haflinger. Wild equids like the Przewalski's horse, onager, African wild ass, kiang as well as the domestic donkey exhibit pangaré as a rule. Pangaré is thought to be a type of protective countershading.Horse foals are often born with \"foal pangaré\" or light points, especially over black haired areas, which they lose when they shed their foal coats.\n\nAt one time, the seal brown coat color was hypothesized to occur from the action of pangaré on a black coat. However, this has been disproven; seal brown horses are a variation of the bay color.\n\nIn donkeys, no light points (loss of pangare) is caused by a recessive missense mutation at agouti. The light points (pang",
+      "excerpt_offset": 0,
+      "total_chars": 1568,
+      "bm25": {
+        "q0": {
+          "rank": 19,
+          "score": 38.2377
+        }
+      },
+      "best_rank": 19,
+      "title_similarity": 0.0,
+      "context_overlap": 0.125,
+      "cosine": 0.194621,
+      "rerank_logit": -7.41379,
+      "rerank_position": 17
+    },
+    {
+      "page_id": "2576129",
+      "revision_id": "1341828229",
+      "title": "Burchell's zebra",
+      "url": "https://en.wikipedia.org/wiki/Burchell%27s_zebra",
+      "excerpt": "Burchell's zebra (Equus quagga burchellii) is a southern subspecies of the plains zebra. It is named after the British explorer and naturalist William John Burchell. Common names include bontequagga, Damaraland zebra, and Zululand zebra (Gray, 1824). Burchell's zebra is the only subspecies of zebra which may be legally farmed for human consumption.\n\nLike most plains zebras, females and males are about the same size, standing 1.1 to 1.4 metres (3 ft 7 in to 4 ft 7 in) at the shoulder. They weigh between 230 and 320 kilograms (500 and 700 lb). Year-round reproduction observed in this subspecies in Etosha National Park, Namibia, concludes synchronization of a time budget between males and females, possibly explaining the lack of sexual dimorphism.\n\nBurchell's zebras are described as being striped on the head, the neck, and the flanks, and sparsely down the upper segments of the limbs then fading to white. One or two shadow stripes rest between the bold, broad stripes on the haunch. This main distinguishing characteristic sets the Burchell's zebra apart from the other subspecies. Gray (1824) observed a distinct dorsal line, the tail only bristly at the end, and the body distinctly whit",
+      "excerpt_offset": 0,
+      "total_chars": 5441,
+      "bm25": {
+        "q0": {
+          "rank": 20,
+          "score": 38.0747
+        }
+      },
+      "best_rank": 20,
+      "title_similarity": 0.0,
+      "context_overlap": 0.0964,
+      "cosine": 0.308188,
+      "rerank_logit": -7.140613,
+      "rerank_position": 9
+    }
+  ]
+}

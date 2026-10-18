@@ -1,0 +1,725 @@
+{
+  "entry_id": "E0156",
+  "headword": "EXECUTORY",
+  "entry_text_sha256": "46994b7dbb7dd1a92748c7679e2e22a54abc30446addef7baf4d123e56d526b2",
+  "mode": "model",
+  "queries": [
+    "executory",
+    "executory estate made deed fine executed afterwards entry livery writ lease years"
+  ],
+  "query_chars": 225,
+  "headword_variant": null,
+  "candidate_count": 32,
+  "list_pages_removed_after_fetch": [],
+  "decision": {
+    "status": "rejected",
+    "method": "nemotron_embed_rerank",
+    "thresholds": {
+      "rerank_logit": -10.0,
+      "margin": 0.5,
+      "cosine": 0.15,
+      "title_similarity": 0.0
+    },
+    "reason": "rerank_logit < -10.0, margin < 0.5, cosine < 0.15, or title_similarity < 0.0",
+    "page_id": "4893539",
+    "title": "Future interest",
+    "rerank_logit": -4.309064,
+    "cosine": 0.415297,
+    "margin_to_next": 0.42695,
+    "title_similarity": 0.25
+  },
+  "candidates": [
+    {
+      "page_id": "603596",
+      "revision_id": "1157667338",
+      "title": "Executorial trustee",
+      "url": "https://en.wikipedia.org/wiki/Executorial_trustee",
+      "excerpt": "An executorial trustee is someone who is appointed to be an executor (the person who carries out the directions set forth in a will) and also be a trustee of a testamentary trust created by the will.",
+      "excerpt_offset": 0,
+      "total_chars": 199,
+      "bm25": {
+        "q0": {
+          "rank": 1,
+          "score": 22.3364
+        }
+      },
+      "best_rank": 1,
+      "title_similarity": 0.5714,
+      "context_overlap": 0.0,
+      "cosine": 0.310072,
+      "rerank_logit": -6.370275,
+      "rerank_position": 12
+    },
+    {
+      "page_id": "11950877",
+      "revision_id": "1254933544",
+      "title": "Lease and release",
+      "url": "https://en.wikipedia.org/wiki/Lease_and_release",
+      "excerpt": "A lease and release is a form of conveyance of real property involving the lease of land by its owner to a tenant, followed by a release (relinquishment) of the landlord's interest in the property to the tenant. This sequence of transactions was commonly used to transfer full freehold title to real estate under real property law. The lease and release was a mode of conveyance of freehold estates formerly common in England and in New York. Between its parties it achieves the same outcome as a deed of grant/transfer/conveyance.\n\nThe lease and release is said by Blackstone to have been invented by Serjeant Moore, soon after the enactment of the Statute of Uses. It was a way of avoiding the Statute of Enrolments which required enrolment of a bargain and sale. A lease, in fact being a bargain and sale upon some pecuniary consideration for one year or some other nominal term, is made by the bargainor of a whole freehold (with no fetter on alienation) to a lessee who is in fact the bargainee (buyer), \"by the force of the Statute made for transferring Uses into possession\". This, without any enrolment, makes the bargainor stand seised to the use of the bargainee, and vests in the bargainee",
+      "excerpt_offset": 0,
+      "total_chars": 2159,
+      "bm25": {
+        "q1": {
+          "rank": 1,
+          "score": 37.5635
+        }
+      },
+      "best_rank": 1,
+      "title_similarity": 0.2308,
+      "context_overlap": 0.0676,
+      "cosine": 0.327584,
+      "rerank_logit": -6.357125,
+      "rerank_position": 10
+    },
+    {
+      "page_id": "10826418",
+      "revision_id": "1333100227",
+      "title": "Executory contract",
+      "url": "https://en.wikipedia.org/wiki/Executory_contract",
+      "excerpt": "An executory contract is a contract that has not yet been fully performed or fully executed. It is a contract in which both sides still have important performance remaining. However, an obligation to pay money, even if such obligation is material, does not usually make a contract executory. An obligation is material if a breach of contract would result from the failure to satisfy the obligation. A contract that has been fully performed by one party but not by the other party is not an executory contract.\n\nMany installment contracts are commonly executory such as installment credit loans, period loan payments, mortgages, paychecks, and contracts for the delivery of goods or the performance of services over a period of time in discrete elements.\n\nMissed deliveries under an installment have on occasion given rise to the legal question of whether they are indicative of a breach of contract, allowing the other party to terminate the contract, or whether the contract should continue. In the case of Maple Flock Co Ltd v Universal Furniture Products (Wembley) Ltd., decided in 1934, Hewart LCJ used reasoning drawn from an earlier case, Freeth v Burr, and approved in Mersey Steel and Iron Co",
+      "excerpt_offset": 0,
+      "total_chars": 17335,
+      "bm25": {
+        "q0": {
+          "rank": 2,
+          "score": 21.7482
+        },
+        "q1": {
+          "rank": 4,
+          "score": 35.5779
+        }
+      },
+      "best_rank": 2,
+      "title_similarity": 0.6667,
+      "context_overlap": 0.0286,
+      "cosine": 0.370096,
+      "rerank_logit": -4.937593,
+      "rerank_position": 3
+    },
+    {
+      "page_id": "4403906",
+      "revision_id": "1183934603",
+      "title": "Defeasible estate",
+      "url": "https://en.wikipedia.org/wiki/Defeasible_estate",
+      "excerpt": "f their property and as such has made it difficult to create a valid future interest. Unless a defeasible estate is clearly intended, modern courts will construe the language against this type of estate. Three types of defeasible estates are the fee simple determinable, the fee simple subject to an executory limitation or interest, and the fee simple subject to a condition subsequent. A life estate may also be defeasible.\n\nBecause a defeasible estate always grants less than a full fee simple, a defeasible estate will always create one or more future interests.\n\nA fee simple determinable is an estate that will end automatically when the stated event or condition occurs. The interest will revert to the grantor or the heirs of the grantor. Normally, a possibility of reverter follows a fee simple determinable. However, a possibility of reverter does not follow a fee simple determinable subject to an executory interest, because a possibility of reverter is in the grantor while an executory interest is in a third party. Durational language such as \"to A as long as the property is used for a park\" creates a fee simple determinable and a possibility of reverter. Other durational words inte",
+      "excerpt_offset": 399,
+      "total_chars": 4876,
+      "bm25": {
+        "q0": {
+          "rank": 7,
+          "score": 17.1212
+        },
+        "q1": {
+          "rank": 2,
+          "score": 36.0944
+        }
+      },
+      "best_rank": 2,
+      "title_similarity": 0.2308,
+      "context_overlap": 0.0741,
+      "cosine": 0.424221,
+      "rerank_logit": -5.390795,
+      "rerank_position": 5
+    },
+    {
+      "page_id": "4893539",
+      "revision_id": "1305030477",
+      "title": "Future interest",
+      "url": "https://en.wikipedia.org/wiki/Future_interest",
+      "excerpt": "ct to open), or\n\nwhen the property can't vest because the (known) beneficiary is subject to a condition precedent which has not yet occurred.\n\nLegislatures and courts tend to prefer vested remainders over contingent remainders, to reduce uncertainty in ambiguous grants, and to speed up probate.\n\nAn executory interest is a future interest, held by a third-party transferee (i.e. someone other than the grantor), which either cuts off another's interest or begins some time after the natural termination of a preceding estate. An executory interest vests upon any condition subsequent except the natural termination of the original grantee's rights. In other words, an executory interest is any future interest held by a third party that isn't a remainder.\n\nExecutory interests usually arise when a grantor gives property to one person, provided that they use it a certain way. If the person fails to use it properly, the property transfers to a third party. There are two different types of executory interests: shifting and springing. Executory limitations transferring ownership from the grantor to a third party are called springing executory interests, and those that transfer from the grantee t",
+      "excerpt_offset": 9420,
+      "total_chars": 14512,
+      "bm25": {
+        "q0": {
+          "rank": 3,
+          "score": 20.2515
+        },
+        "q1": {
+          "rank": 8,
+          "score": 30.895
+        }
+      },
+      "best_rank": 3,
+      "title_similarity": 0.25,
+      "context_overlap": 0.0294,
+      "cosine": 0.415297,
+      "rerank_logit": -4.309064,
+      "rerank_position": 1
+    },
+    {
+      "page_id": "17820378",
+      "revision_id": "1335157995",
+      "title": "Fine of lands",
+      "url": "https://en.wikipedia.org/wiki/Fine_of_lands",
+      "excerpt": "A fine of lands, also called a final concord, or simply a fine, was a species of property conveyance which existed in England (and later in Wales) from at least the 12th century until its abolition by the Fines and Recoveries Act 1833.\n\nThe conveyance took the form of the record of a fictitious lawsuit, compromised or terminated by the acknowledgment of the existing owner (known as the deforciant, impedient or tenant, depending on the original writ used to levy the fine) that the land in question was the rightful property of the claimant (the plaintiff, querent or demandant). In reality, the deforciant had already agreed to sell the land, and the plaintiff to buy it. The suit was a collusive action to ensure the \"levying of a fine\" between the two parties. Typically the plaintiff(s) would bring a writ of covenant alleging:\n\n1. He/she/they and the deforciant had entered into a covenant to transfer some real property\n\n2. The deforciant had not held up his end of the bargain.\n\nIn all actions like this, before the court could render judgment, and typically on the same day the writ was returned, the parties would seek leave of the court to compromise, and then do so on terms where the d",
+      "excerpt_offset": 0,
+      "total_chars": 2488,
+      "bm25": {
+        "q1": {
+          "rank": 3,
+          "score": 35.8079
+        }
+      },
+      "best_rank": 3,
+      "title_similarity": 0.1905,
+      "context_overlap": 0.0267,
+      "cosine": 0.306418,
+      "rerank_logit": -6.767252,
+      "rerank_position": 21
+    },
+    {
+      "page_id": "49991328",
+      "revision_id": "1239393893",
+      "title": "Decree (Catholic canon law)",
+      "url": "https://en.wikipedia.org/wiki/Decree_(Catholic_canon_law)",
+      "excerpt": "e under their particular jurisdiction, but were forbidden from continuing to do so under Pope Benedict XV in 1917. Each ecclesiastical province, and also each diocese may issue decrees in their periodical synods within their sphere of authority.\n\nDecrees can be distinguished between legislative and executory decrees. A general legislative decree enacts law (lex) and stands on its own, while executory decrees determine the implementation of a legislative act and are dependent upon such for their efficacy.\n\nExecutory decrees can further be distinguished between general executory decrees and singular executory decrees. A general executory decree binds all those for whom the original law was made, while a singular executory decree makes a decision or makes provision for the appointment of a specific office. Precepts are a kind of singular executory decree, which bind specific person(s) to do or refrain from some act, especially to observe the law. Singular executory decrees are administrative acts subject to administrative recourse.\n\nCanon 29 of the 1983 Code of Canon Law offers a definition of general legislative decrees:\n\nGeneral decrees, by which a competent legislator makes common ",
+      "excerpt_offset": 468,
+      "total_chars": 5397,
+      "bm25": {
+        "q0": {
+          "rank": 4,
+          "score": 20.1735
+        }
+      },
+      "best_rank": 4,
+      "title_similarity": 0.4,
+      "context_overlap": 0.0526,
+      "cosine": 0.207917,
+      "rerank_logit": -6.517754,
+      "rerank_position": 17
+    },
+    {
+      "page_id": "1139295",
+      "revision_id": "1339753709",
+      "title": "Charles Fearne",
+      "url": "https://en.wikipedia.org/wiki/Charles_Fearne",
+      "excerpt": "arles Fearne, judge-advocate of the Admiralty, he was born in London, and was educated at Westminster School.\n\nFearne adopted the legal profession, but devoted time and money to experiments: he saw a commercial application to morocco leather, and designed a musket. He died in 1794, leaving his widow and family in impecunious circumstances.\n\nFearne's 1772 work, \"Essay on the Learning of Contingent Remainders and Executory Devices\", is deemed to have done \"more than any other to preserve the Rule in Shelley's Case as black letter law (as distinguished from a rule of construction).\" His Essay on the Learning of Contingent Remainders and Executory Devises, the work which has made his reputation as a legal authority, and which passed through numerous editions, was called forth by a decision of Lord Mansfield in the case of Perrin v. Blake, and had the effect of reversing that decision.\n\nAn edition in 1797 was by his former pupil John Joseph Powell, and the Essay on the Nature and Operation of Fines and Recoveries (1783) by William Cruise was inspired by Contingent Remainders.\n\nA volume entitled Fearne's Posthumous Works was published by subscription in 1797 for the benefit of his widow.",
+      "excerpt_offset": 64,
+      "total_chars": 1264,
+      "bm25": {
+        "q0": {
+          "rank": 5,
+          "score": 18.1205
+        }
+      },
+      "best_rank": 5,
+      "title_similarity": 0.2727,
+      "context_overlap": 0.0357,
+      "cosine": 0.267283,
+      "rerank_logit": -6.03661,
+      "rerank_position": 7
+    },
+    {
+      "page_id": "500990",
+      "revision_id": "1348467365",
+      "title": "Estate in land",
+      "url": "https://en.wikipedia.org/wiki/Estate_in_land",
+      "excerpt": "e exclusive possession and use, having immobility and indeterminate duration\n\nfee simple\n\nfee simple absolute — most rights, least limitations, indefeasible\n\ndefeasible estate — voidable possession and use\n\nfee simple determinable\n\nfee simple subject to a condition subsequent\n\nfee simple subject to executory limitation\n\nfinite estate — limited to lifetimes\n\nlife estate — fragmented possession and use for duration of someone's life\n\nfee tail — inalienable rights of inheritance for duration of family line\n\nLeasehold estates: rights of possession and use but not ownership. The lessor (owner/ landlord) gives this right to the lessee (tenant). There are four categories of leasehold estates:\n\nestate for years (a term of year absolute or tenancy for years) — lease of any length with specific begin and end date\n\nperiodic estate (periodic tenancy) — automatically renewing lease (month to month, week to week)\n\nestate at will (tenancy at will) — leasehold for no fixed time or period. It lasts as long as both parties desire. Termination is bilateral (either party may terminate at any time) or by operation of law.\n\ntenancy at sufferance — created when tenant remains after lease expires and beco",
+      "excerpt_offset": 835,
+      "total_chars": 3291,
+      "bm25": {
+        "q0": {
+          "rank": 14,
+          "score": 15.0019
+        },
+        "q1": {
+          "rank": 5,
+          "score": 33.316
+        }
+      },
+      "best_rank": 5,
+      "title_similarity": 0.1739,
+      "context_overlap": 0.0779,
+      "cosine": 0.452444,
+      "rerank_logit": -4.736014,
+      "rerank_position": 2
+    },
+    {
+      "page_id": "80463647",
+      "revision_id": "1351343296",
+      "title": "Mission Product Holdings, Inc. v. Tempnology, LLC",
+      "url": "https://en.wikipedia.org/wiki/Mission_Product_Holdings,_Inc._v._Tempnology,_LLC",
+      "excerpt": "Mission Product Holdings, Inc. v. Tempnology, LLC, 587 U.S. ___ (2019), was a United States Supreme Court case in which the court held that a debtor 's rejection of an executory contract under Section 365 of the Bankruptcy Code has the same effect as a breach of that contract outside bankruptcy. Such an act cannot rescind rights that the contract previously granted.\n\nMission Product Holdings, Inc., entered into a contract with Tempnology, LLC, which gave Mission a license to use Tempnology's trademarks in connection with the distribution of certain clothing and accessories. Tempnology filed for Chapter 11 bankruptcy and sought to reject its agreement with Mission. Section 365 of the Bankruptcy Code enables a debtor to \"reject any executory contract\"—meaning a contract that neither party has finished performing. It further provides that rejection \"constitutes a breach of such contract.\" The Bankruptcy Court approved Tempnology's rejection and further held that the rejection terminated Mission's rights to use Tempnology's trademarks. The Bankruptcy Appellate Panel reversed, relying on Section 365(g)'s statement that rejection \"constitutes a breach\" to hold that rejection does not ter",
+      "excerpt_offset": 0,
+      "total_chars": 1387,
+      "bm25": {
+        "q0": {
+          "rank": 6,
+          "score": 17.4185
+        }
+      },
+      "best_rank": 6,
+      "title_similarity": 0.08,
+      "context_overlap": 0.0169,
+      "cosine": 0.095877,
+      "rerank_logit": -6.537825,
+      "rerank_position": 18
+    },
+    {
+      "page_id": "29649847",
+      "revision_id": "1342025763",
+      "title": "Infangthief and outfangthief",
+      "url": "https://en.wikipedia.org/wiki/Infangthief_and_outfangthief",
+      "excerpt": "ords (and various corporate bodies such as abbeys and cities) under Anglo-Saxon law by the kings of England. They permitted their bearers to execute summary justice (including capital punishment) on thieves within the borders of their own manors or fiefs.\n\nThe terms are frequently attested in royal writs and charters using formulas such as \" sake and soke, toll and team, and infangthief\", which specified the usual rights accompanying grants of land.\n\nInfangthief (Old English: infangene-þēof, lit. \"thief seized within\") applied to thieves captured within a landowner's estate, although it sometimes permitted them to be chased in other jurisdictions and brought back for trial. Under the 13th-century Leges Edwardi Confessoris, the privilege was restricted to the lord's \"own thief\"—that is, the lord's serfs and staff. According to Henry de Bracton, the privilege was further restricted to those caught in flagrante delicto or in possession of the stolen object.\n\nOutfangthief (Old English: ūtfangene-þēof, lit. \"thief seized without\") is a more problematic term, as it is unattested prior to a forged charter included in the 3rd edition of William of Malmesbury 's Deeds of the English Kings (",
+      "excerpt_offset": 64,
+      "total_chars": 2727,
+      "bm25": {
+        "q1": {
+          "rank": 6,
+          "score": 32.7058
+        }
+      },
+      "best_rank": 6,
+      "title_similarity": 0.1622,
+      "context_overlap": 0.0222,
+      "cosine": 0.217859,
+      "rerank_logit": -7.471791,
+      "rerank_position": 31
+    },
+    {
+      "page_id": "810192",
+      "revision_id": "1343678972",
+      "title": "Statute of Frauds",
+      "url": "https://en.wikipedia.org/wiki/Statute_of_Frauds",
+      "excerpt": "The Statute of Frauds (29 Cha. 2. c. 3) (1677) is an act of the Parliament of England. In its original form it required that certain types of contracts, wills, and grants, and assignment or surrender of leases or interest in real property must be in writing and signed to avoid fraud on the court by perjury and the subornation of perjury. It also required that documents of the courts be signed and dated. Today it is mostly repealed; only section 4 remains, which is about guarantors.\n\nThe attested date for the enactment of the Statute of Frauds is 16 April 1677 (New Style). The act is believed to have been primarily drafted by Lord Nottingham assisted by Sir Matthew Hale, Sir Francis North and Sir Leoline Jenkins.: 334–42\n\nWhen the Statute of Frauds was originally enacted, its sections and the clauses within section 4 were not numbered. Numbers where added when the act was republished in the Statutes at Large. The Statute at Large, Cambridge Edition published in 1770 divided the act into 25 sections. The section on the sale of goods was section 17. In The Statutes of the Realm published in 1818, the Statute of Frauds was divided into 24 sections. The section on the sale of goods beca",
+      "excerpt_offset": 0,
+      "total_chars": 11862,
+      "bm25": {
+        "q1": {
+          "rank": 7,
+          "score": 31.902
+        }
+      },
+      "best_rank": 7,
+      "title_similarity": 0.32,
+      "context_overlap": 0.0,
+      "cosine": 0.219306,
+      "rerank_logit": -6.927176,
+      "rerank_position": 25
+    },
+    {
+      "page_id": "9931373",
+      "revision_id": "1305512461",
+      "title": "Legislative districts of Dinagat Islands",
+      "url": "https://en.wikipedia.org/wiki/Legislative_districts_of_Dinagat_Islands",
+      "excerpt": "ebiscite three months later separated seven municipalities from Surigao del Norte's first congressional district to form the new province of Dinagat Islands. The new province first elected its separate representative in the 2007 elections.\n\nDespite Dinagat Islands being nullified as a province by the Supreme Court of the Philippines on February 11, 2010 the decision was not yet rendered final and executory before the May 10, 2010 elections; therefore the Commission on Elections still organized the elections for Dinagat Islands' congressional representative along with its provincial officials. Even after the Supreme Court rendered its original decision final and executory on May 18, 2010, the representatives of the reconfigured first district of Surigao del Norte and the lone district of Dinagat Islands continued to represent their own constituencies.\n\nAfter the Supreme Court reversed its previous ruling on April 12, 2011, and subsequently upheld with finality the constitutionality of R.A. 9355 and the creation of Dinagat Islands as a province through an Entry of Judgment on October 24, 2012, the separation of Dinagat Islands from Surigao del Norte's first district became permanent.",
+      "excerpt_offset": 587,
+      "total_chars": 1787,
+      "bm25": {
+        "q0": {
+          "rank": 8,
+          "score": 16.9518
+        }
+      },
+      "best_rank": 8,
+      "title_similarity": 0.2128,
+      "context_overlap": 0.0333,
+      "cosine": 0.007606,
+      "rerank_logit": -6.90448,
+      "rerank_position": 24
+    },
+    {
+      "page_id": "8879931",
+      "revision_id": "1327287827",
+      "title": "Provision (accounting)",
+      "url": "https://en.wikipedia.org/wiki/Provision_(accounting)",
+      "excerpt": "rties have valid expectations that the entity will discharge its responsibilities.\n\nNo provision, however, is recognized for costs that need to be incurred to operate in the future. Also, an obligation always involves another party to whom the obligation is owed (even if this party is unknown).\n\nAn executory contract is defined as a contract under which neither party has performed any of its obligations (e.g. delivering an object and paying for that object) or both parties have partially performed their obligations to an equal extent. In case of an executory contract, IAS 37 does not apply and neither an asset nor a liability is recorded. However, a provision needs to be recognized if the executory contract becomes onerous to the entity. An onerous contract is defined as a contract in which the unavoidable costs resulting from the entity meeting its contractual obligations exceed the economic benefits expected to be received under that contract.\n\nA restructuring is defined as programme that is planned and controlled by management, and materially changes either the scope of a business undertaken by an entity, or the manner in which that business is conducted. If a restructuring is a",
+      "excerpt_offset": 2014,
+      "total_chars": 4087,
+      "bm25": {
+        "q0": {
+          "rank": 9,
+          "score": 16.7247
+        }
+      },
+      "best_rank": 9,
+      "title_similarity": 0.1111,
+      "context_overlap": 0.0159,
+      "cosine": 0.238128,
+      "rerank_logit": -6.477173,
+      "rerank_position": 14
+    },
+    {
+      "page_id": "19309189",
+      "revision_id": "1330672952",
+      "title": "Kansas Pacific Railway Co. v. Dunmeyer",
+      "url": "https://en.wikipedia.org/wiki/Kansas_Pacific_Railway_Co._v._Dunmeyer",
+      "excerpt": "Kansas Pacific R. Co. v. Dunmeyer, 113 U.S. 629 (1885), was a writ of error to the Supreme Court of Kansas. The action was brought in that court on a covenant of warranty of title to two pieces of land in a deed of conveyance made by the Kansas Pacific Railroad Company to Dunmeyer. The Pacific Railroad Acts generally allowed railroads to sell public land adjacent to their routes as part of a land grant to raise funds but made an exception for land that already had a homestead filed. G. B. Dunmeyer claimed he purchased land that already had an existing claim.\n\nThe suit was brought for breach of covenant of warranty of title to a tract of land in Kansas. Plaintiff in error was defendant below. Its title was derived from grants of public land to aid in the construction of a railway to the Pacific. The tract was within the location of the railroad grants, but was excepted from those grants by reason of a homestead entry and possession. Subsequent to this entry and possession, the party so in possession took title from the railroad company, and the homestead entry was cancelled. The alleged paramount adverse title was derived from a land patent from the United States issued on a homeste",
+      "excerpt_offset": 0,
+      "total_chars": 5483,
+      "bm25": {
+        "q1": {
+          "rank": 9,
+          "score": 30.5193
+        }
+      },
+      "best_rank": 9,
+      "title_similarity": 0.1364,
+      "context_overlap": 0.0606,
+      "cosine": 0.13471,
+      "rerank_logit": -6.936014,
+      "rerank_position": 26
+    },
+    {
+      "page_id": "32516955",
+      "revision_id": "1324093114",
+      "title": "Borland's Trustee v Steel Bros & Co Ltd",
+      "url": "https://en.wikipedia.org/wiki/Borland%27s_Trustee_v_Steel_Bros_%26_Co_Ltd",
+      "excerpt": "ticle was valid. The transfer could be made, because the contract engendered in the articles of association are prior to the rights contained in a share. He said the argument that the article was repugnant to absolute ownership needed to assert, wrongly, that a share is a sum of money dealt with by executory limitations. But in fact a share is an interest and consists of 'a series of mutual covenants entered into by all the shareholders inter se in accordance with section 16 of the Companies Act 1862.' The argument about perpetuity has no application because the rule against perpetuities does not apply to personal contracts.\n\nIt is said that the provisions of these articles compel a man at any time during the continuance of this company to sell his shares to particular persons at a particular price to be ascertained in the manner prescribed in the articles. Two arguments have been founded on that. It is said, first of all, that such provisions are repugnant to absolute ownership. It is said, further, that they tend to perpetuity. They are likened to the case of a settlor or testator who settles or gives a sum of money subject to executory limitations which are to arise in the futur",
+      "excerpt_offset": 936,
+      "total_chars": 6374,
+      "bm25": {
+        "q0": {
+          "rank": 10,
+          "score": 16.0817
+        }
+      },
+      "best_rank": 10,
+      "title_similarity": 0.087,
+      "context_overlap": 0.0278,
+      "cosine": 0.180071,
+      "rerank_logit": -6.226596,
+      "rerank_position": 8
+    },
+    {
+      "page_id": "273204",
+      "revision_id": "1307441536",
+      "title": "Index of real estate articles",
+      "url": "https://en.wikipedia.org/wiki/Index_of_real_estate_articles",
+      "excerpt": "This aims to be a complete list of the articles on real estate.\n\n72-hour clause\n\nAbandonment\n\nAbstract of title\n\nAcceleration clause\n\nAccession\n\nAcknowledgment\n\nAcre – a measure of land area\n\nAction to quiet title\n\nAd valorem tax\n\nADA\n\nAdjustable-rate mortgage (ARM)\n\nAdjusted basis\n\nAdministrator/Administratrix\n\nAdverse possession\n\nAgency – Real estate agency, Buyer brokerage\n\nAgent – Real estate agent or broker, Estate agent\n\nAgreement\n\nAir rights\n\nAlienation\n\nAllodial, Allodium\n\nAllodial title\n\nAlluvion\n\nAmenity\n\nAmerican Land Title Association (ALTA)\n\nAmericans with Disabilities Act of 1990\n\nAmortization calculator\n\nAmortization schedule\n\nAmortizing loan\n\nAnchor store\n\nAnnexation\n\nAnnual percentage rate\n\nApartment\n\nAppraisal, real estate\n\nAppraised value – An estimate of the present worth of a property\n\nAppreciation\n\nAPR\n\nAppurtenance\n\nAppurtenant easement\n\nARELLO\n\nArm's length transaction\n\nArrears\n\nArticle 4 of the United States Constitution\n\nArtificial person\n\nAsking price\n\nAssemblage\n\nAssignee\n\nAssignment\n\nAssignment of contract\n\nAssignor\n\nAssessed value – The value set upon a property for taxation purposes\n\nAssessment\n\nAssociation of Real Estate License Law Officials (ARELLO",
+      "excerpt_offset": 0,
+      "total_chars": 18167,
+      "bm25": {
+        "q1": {
+          "rank": 10,
+          "score": 30.1546
+        }
+      },
+      "best_rank": 10,
+      "title_similarity": 0.2162,
+      "context_overlap": 0.02,
+      "cosine": 0.235712,
+      "rerank_logit": -6.382973,
+      "rerank_position": 13
+    },
+    {
+      "page_id": "7439490",
+      "revision_id": "1341256856",
+      "title": "Legislative districts of Surigao del Norte",
+      "url": "https://en.wikipedia.org/wiki/Legislative_districts_of_Surigao_del_Norte",
+      "excerpt": "first congressional district to form the new province of Dinagat Islands, which began to elect its own representative in the 2007 elections. Despite Dinagat Islands being nullified as a province by the Supreme Court of the Philippines on February 11, 2010 the decision was not yet rendered final and executory before the 10 May 2010 elections; therefore the Commission on Elections still organized separate elections for the Dinagat Islands' congressional representative and provincial officials. The representatives of the reconfigured first district of Surigao del Norte and the lone district of Dinagat Islands continued to represent their respective constituencies even after the Supreme Court rendered its original decision final and executory on 18 May 2010.\n\nAfter the Supreme Court reversed its previous ruling on April 12, 2011, and subsequently upheld with finality the constitutionality of Republic Act No. 9355 and the creation of Dinagat Islands as a province through an Entry of Judgment on October 24, 2012, the separation of Dinagat Islands from Surigao del Norte's first district became permanent.\n\nLakas–CMD (1) Nacionalista (1)\n\nincludes the present-day province of Dinagat Islands",
+      "excerpt_offset": 1591,
+      "total_chars": 2845,
+      "bm25": {
+        "q0": {
+          "rank": 11,
+          "score": 15.3386
+        }
+      },
+      "best_rank": 11,
+      "title_similarity": 0.24,
+      "context_overlap": 0.0317,
+      "cosine": 0.011792,
+      "rerank_logit": -6.975037,
+      "rerank_position": 27
+    },
+    {
+      "page_id": "15666896",
+      "revision_id": "1330671845",
+      "title": "Northern Liberty Market Co. v. Kelly",
+      "url": "https://en.wikipedia.org/wiki/Northern_Liberty_Market_Co._v._Kelly",
+      "excerpt": "Northern Liberty Market Co. v. Kelly, 113 U.S. 199 (1885), was a writ of error to reverse a judgment for the defendant in an action brought on April 4, 1884, by a corporation formed for the purpose of erecting a markethouse in the City of Washington and carrying on a marketing business there, upon twenty promissory notes made by him to the plaintiff, dated January 1, 1875.\n\nA twenty-year-old incorporated markethouse company with power to purchase, hold, and convey real or personal estate necessary to enable it to carry on its business, built a markethouse on land owned by it in fee simple, and sold by public auction leases for ninety-nine years, renewable forever, of stalls therein at a specified rent. The highest bidder for one of the stalls gave the corporation several promissory notes in part payment for the option of that stall, received such a lease, and took and kept possession of the stall, and afterwards gave it a note for a less sum in compromise of the original notes, and upon express agreement that if this note should not be paid at maturity, the corporation might surrender it to the maker and thereupon the cause of action on those notes should revive. Held that the new ",
+      "excerpt_offset": 0,
+      "total_chars": 2748,
+      "bm25": {
+        "q1": {
+          "rank": 11,
+          "score": 29.891
+        }
+      },
+      "best_rank": 11,
+      "title_similarity": 0.1395,
+      "context_overlap": 0.0778,
+      "cosine": 0.20973,
+      "rerank_logit": -6.500641,
+      "rerank_position": 15
+    },
+    {
+      "page_id": "4023604",
+      "revision_id": "1255311341",
+      "title": "Conditional limitation",
+      "url": "https://en.wikipedia.org/wiki/Conditional_limitation",
+      "excerpt": "Conditional Limitation, in law, is a phrase used in two senses.\n\n(1) The qualification annexed to the grant of an estate or interest in land, providing for the determination of that grant or interest upon a particular contingency happening. An estate with such a limitation can endure only until the particular contingency happens; it is a present interest, to be divested on a future contingency. The grant of an estate to a man so long as he is parson of Dale, or while he continues unmarried, are instances of conditional limitations of estates for life.\n\n(2) A use or interest in land limited to take effect upon a given contingency. For instance, a grant to X. and his heirs to the use of A., provided that when C. returns from Rome the land shall go to the use of B. in fee simple. B. is said to take under a conditional limitation, operating by executory devise or springing or shifting use.\n\nIn American law, this creates a fee simple on condition subsequent.",
+      "excerpt_offset": 0,
+      "total_chars": 967,
+      "bm25": {
+        "q0": {
+          "rank": 12,
+          "score": 15.1895
+        }
+      },
+      "best_rank": 12,
+      "title_similarity": 0.1935,
+      "context_overlap": 0.0741,
+      "cosine": 0.357073,
+      "rerank_logit": -5.390001,
+      "rerank_position": 4
+    },
+    {
+      "page_id": "23318120",
+      "revision_id": "1272661116",
+      "title": "Grant (law)",
+      "url": "https://en.wikipedia.org/wiki/Grant_(law)",
+      "excerpt": "A grant, in law, is a transfer of property, generally from a person or other entity giving the property (the grantor) to a person or entity receiving the property (the grantee).\n\nHistorically, a grant was a transfer by deed of that which could not be passed by livery, an act evidenced by letters patent under the Great Seal, granting something from the king to a subject, and a technical term made use of in deeds of conveyance of lands to import a transfer.\n\nThough the word \"grant\" was originally made use of, in treating of conveyances of interests in lands, to denote a transfer by deed of that which could not be passed by livery, and was applied only to incorporeal hereditaments, it became a generic term, applicable to the transfer of all classes of real property.\n\nAs distinguished from a mere license, a grant passes some estate or interest, corporeal or incorporeal, in the lands which it embraces; can only he made by an instrument in writing, under seal; and is irrevocable, when made, unless an express power of revocation is reserved. A license is a mere authority; passes no estate or interest whatever; may be made by parol; is revocable at will; and, when revoked, the protection w",
+      "excerpt_offset": 0,
+      "total_chars": 1609,
+      "bm25": {
+        "q1": {
+          "rank": 12,
+          "score": 29.621
+        }
+      },
+      "best_rank": 12,
+      "title_similarity": 0.1429,
+      "context_overlap": 0.0725,
+      "cosine": 0.316838,
+      "rerank_logit": -6.348209,
+      "rerank_position": 9
+    },
+    {
+      "page_id": "63429907",
+      "revision_id": "1340684391",
+      "title": "Robert Rainie",
+      "url": "https://en.wikipedia.org/wiki/Robert_Rainie",
+      "excerpt": "Robert Rainie (25 September 1860 – c. October 1945) was a Scottish rugby union player. He later became an international referee and was the 24th President of the Scottish Rugby Union.\n\nRainie played for Edinburgh Wanderers.\n\nHe refereed the England versus Wales match in the 1890 Home Nations Championship and the Wales versus England match in the 1891 Home Nations Championship. and the Ireland versus Wales match in the 1894 Home Nations Championship.\n\nRainie became the 24th President of the Scottish Rugby Union. He served the 1897–98 term in office.\n\nRainie was a Chartered Accountant. He was a partner in the firm Brewis, Rainie and Boyd.\n\nHe was an auditor of Mortonhall Golf Club.\n\nHis brother was the Rev. William Rainie, a minister of Newton-on-Ayr parish for 47 years.\n\nRobert Rainie died circa October 1945. The Executory Notice of his estate was advertised in The Scotsman on 6 October 1945.",
+      "excerpt_offset": 0,
+      "total_chars": 904,
+      "bm25": {
+        "q0": {
+          "rank": 13,
+          "score": 15.0027
+        }
+      },
+      "best_rank": 13,
+      "title_similarity": 0.1818,
+      "context_overlap": 0.0566,
+      "cosine": 0.053013,
+      "rerank_logit": -6.733908,
+      "rerank_position": 20
+    },
+    {
+      "page_id": "1561125",
+      "revision_id": "1253507047",
+      "title": "Warrant of execution",
+      "url": "https://en.wikipedia.org/wiki/Warrant_of_execution",
+      "excerpt": "A warrant of execution is a form of writ of execution used in the County Court in England and Wales (only). It is a method of enforcing judgments and empowers a County Court bailiff to attend a judgment debtor ’s (hereafter, debtor) address to take goods for sale. The closest equivalent in Scotland is a charge for payment, executed by sheriff officers after a decree (a Scots Law judgment) is granted in a sheriff court in favour of a pursuer (claimant) seeking recovery of a debt or other sum due.\n\nAn application for a warrant of execution can be made by the judgment creditor (hereafter, creditor) at any point following the entry of judgment.\n\nThe request can be made for any amount up to the outstanding value of the judgment along with an application for the costs of requesting the warrant.\n\nA warrant of execution can be issued in the County Court to recover a debt between £50 (£600 if the debtor is in Scotland) and £5,000. If amount sought is more than £600 it can be enforced in the High Court using a writ of control.\n\nThe value of the warrant will calculated by adding the amount of the request, plus the court fee and creditor's costs (if granted).\n\nAs the warrant can only be sought",
+      "excerpt_offset": 0,
+      "total_chars": 5860,
+      "bm25": {
+        "q1": {
+          "rank": 13,
+          "score": 28.484
+        }
+      },
+      "best_rank": 13,
+      "title_similarity": 0.5385,
+      "context_overlap": 0.0909,
+      "cosine": 0.26072,
+      "rerank_logit": -7.158393,
+      "rerank_position": 30
+    },
+    {
+      "page_id": "17845087",
+      "revision_id": "1337175487",
+      "title": "Deed of trust (real estate)",
+      "url": "https://en.wikipedia.org/wiki/Deed_of_trust_(real_estate)",
+      "excerpt": "A deed of trust refers to a type of legal instrument which is used to create a security interest in real property and real estate. In a deed of trust, a person who wishes to borrow money conveys legal title in real property to a trustee, who holds the property as security for a loan (debt) from the lender to the borrower. The equitable title remains with the borrower. The borrower is referred to as the trustor, while the lender is referred to as the beneficiary.\n\nTransactions involving deeds of trust are normally structured, at least in theory, so that the lender/beneficiary gives the borrower/trustor the money to buy the property; the borrower/trustor tenders the money to the seller; the seller executes a grant deed giving the property to the borrower/trustor; and the borrower/trustor immediately executes a deed of trust giving the property to the trustee to be held in trust for the lender/beneficiary. In reality, an escrow holder is always used so that the transaction does not close until the escrow holder has the funds, grant deed, and deed of trust in their possession. This ensures the transaction can be easily rescinded if one party is unable to complete its part of the deal.\n",
+      "excerpt_offset": 0,
+      "total_chars": 7393,
+      "bm25": {
+        "q1": {
+          "rank": 14,
+          "score": 28.4725
+        }
+      },
+      "best_rank": 14,
+      "title_similarity": 0.3636,
+      "context_overlap": 0.0328,
+      "cosine": 0.267571,
+      "rerank_logit": -7.495208,
+      "rerank_position": 32
+    },
+    {
+      "page_id": "25643106",
+      "revision_id": "1327554709",
+      "title": "Slade's Case",
+      "url": "https://en.wikipedia.org/wiki/Slade%27s_Case",
+      "excerpt": "ssumpsit had several advantages over a writ of debt; the plaintiff could count on always having a jury, while in writs of debt the defendant could rely on wager of law, where he produced twelve people to swear he did not owe the plaintiff money and had the case dismissed. In addition, it worked for executory agreements, not just normal contracts. In 1585 a new form of the Court of Exchequer Chamber was set up, an appellate court where the Common Pleas judges held a majority, and regularly began to reverse King's Bench judgments which were based on assumpsit. This, and the conflict between the King's Bench and the Common Pleas as a whole, was problematic; a plaintiff at assizes could not be sure which sort of judge his case would come before, lending uncertainty to the law. Boyer suggests that, in this environment, the Chief Justice of the King's Bench John Popham deliberately provoked the Common Pleas to resolve the matter, and did so through Slade's Case.\n\nJohn Slade was a grain merchant, who claimed that Humphrey Morley had agreed to buy a crop of wheat and rye from him, paying £16, and had reneged on the agreement. He brought the case before the assizes in 1596, where it was hea",
+      "excerpt_offset": 2582,
+      "total_chars": 8175,
+      "bm25": {
+        "q0": {
+          "rank": 15,
+          "score": 14.8129
+        },
+        "q1": {
+          "rank": 17,
+          "score": 27.724
+        }
+      },
+      "best_rank": 15,
+      "title_similarity": 0.1905,
+      "context_overlap": 0.0349,
+      "cosine": 0.191804,
+      "rerank_logit": -6.511953,
+      "rerank_position": 16
+    },
+    {
+      "page_id": "1560958",
+      "revision_id": "1353192972",
+      "title": "Seisin",
+      "url": "https://en.wikipedia.org/wiki/Seisin",
+      "excerpt": "Seisin (or seizin) is a legal concept that denotes the right to legal possession of a thing, usually a fiefdom, fee, or an estate in land. It is similar to, but legally separate from, the idea of ownership.\n\nThe term is traditionally used in the context of inheritance law in the form of \"the son and heir of X has obtained seisin of his inheritance\", and thus is a term primarily concerned with conveyancing. The person holding such estate is said to be \"seized of it\", a phrase which commonly appears in inquisitions post mortem. It has varying relevance in modern legal systems, with distinctions between Common law and Civil law jurisdictions.\n\nSeisin comes from Middle English saysen, seysen, in the legal sense of ' to put in possession of, or to take possession of, hence, to grasp, to seize '. The Old French variations seisir, saisir, are from Low Latin sacīre, generally referred to the same source as Gothic 𐍃𐌰𐍄𐌾𐌰𐌽 satjan, or the Old English settan, ' to put in place, set '. The French phrase \"le mort saisit le vif\" (\"the dead give seisin to the living\") is often used to express the word's role in the civil law.\n\nSeisin is primarily used in two forms, \"in law\" and \"in deed\". Each carr",
+      "excerpt_offset": 0,
+      "total_chars": 8330,
+      "bm25": {
+        "q1": {
+          "rank": 15,
+          "score": 28.4581
+        }
+      },
+      "best_rank": 15,
+      "title_similarity": 0.1333,
+      "context_overlap": 0.0449,
+      "cosine": 0.28321,
+      "rerank_logit": -6.862478,
+      "rerank_position": 22
+    },
+    {
+      "page_id": "61364522",
+      "revision_id": "1353541290",
+      "title": "Joy Bernos",
+      "url": "https://en.wikipedia.org/wiki/Joy_Bernos",
+      "excerpt": "Maria Jocelyn \"Joy\" Valera Bernos (born January 9, 1977) is a Filipina politician who served as the vice governor of Abra before her final suspension on September 23, 2024. She was previously the governor of the province from 2016 to 2022, a member of the House of Representatives representing Abra's at-large congressional district from 2010 to 2016, and a member of the Abra Provincial Board from 2007 to 2010.\n\nShe stood for the 2016 gubernatorial election under the banner of the NUP, however, since 2019, she has stood as a member of Asenso Abrenio.\n\nOn August 12, 2024, she was ordered suspended by President Bongbong Marcos for 18 months following an investigation into her unilaterally ordering the lockdown of a hospital in Bangued during the COVID-19 pandemic in 2020, when she was governor. However, her suspension was halted on technical grounds by a court in Abra, which issued a 20-day temporary restraining order against the decision on September 2. The TRO expired on September 23, rendering the suspension final and executory.\n\nBernos ran again for vice governor in 2025 but lost to Anne Bersamin.",
+      "excerpt_offset": 0,
+      "total_chars": 1114,
+      "bm25": {
+        "q0": {
+          "rank": 16,
+          "score": 14.6931
+        }
+      },
+      "best_rank": 16,
+      "title_similarity": 0.2222,
+      "context_overlap": 0.0147,
+      "cosine": 0.014762,
+      "rerank_logit": -7.088113,
+      "rerank_position": 29
+    },
+    {
+      "page_id": "71159411",
+      "revision_id": "1348209245",
+      "title": "List of writs",
+      "url": "https://en.wikipedia.org/wiki/List_of_writs",
+      "excerpt": "This is a list of writs. Some of the writs listed below are abolished or obsolete in certain countries.\n\nAcquietandis Plegiis, a writ that lies for a surety against a creditor who refuses to acquit him after a debt is paid.\n\nWrit of assistance issues out of the exchequer to authorise any person to take a constable to seize goods prohibited or uncustomed.\n\nArrestandis bonis ne dissipentur, a writ which lies for a man whose goods etc. are taken by another, who during the contest does or is like to make them away.\n\nArrestando ipsum qui pecuniam recepit, a writ that lies for apprehending a person who hath taken the King's prest money to serve in the wars, and hides himself when he should go.\n\nArresto facto super bonis mercatorum alienigenorum, a writ which lies for a denizen against the goods of an alien in recompense of goods taken from him in a foreign country after denial of restitution.\n\nAttachment\n\nAttaint\n\nAudita querela\n\nBahio amovendo, a writ to remove a bailiff from his office for want of sufficient land in his bailiwick.\n\nBeaupleader\n\nBesayle is a writ directed to the sheriff, in case of an abatement or disseisin, to summon a jury to view the land in question, and to recognis",
+      "excerpt_offset": 0,
+      "total_chars": 20378,
+      "bm25": {
+        "q1": {
+          "rank": 16,
+          "score": 28.0332
+        }
+      },
+      "best_rank": 16,
+      "title_similarity": 0.2857,
+      "context_overlap": 0.0114,
+      "cosine": 0.228657,
+      "rerank_logit": -7.05828,
+      "rerank_position": 28
+    },
+    {
+      "page_id": "78116925",
+      "revision_id": "1340082056",
+      "title": "Ernest Ramel",
+      "url": "https://en.wikipedia.org/wiki/Ernest_Ramel",
+      "excerpt": "lipino political party official who currently serves as chairman of Aksyon Demokratiko since August 12, 2021. Before serving as Aksyon's chairman, he formerly served as its secretary-general.\n\nRamel served as executive director, and later from 2013 as secretary-general of Aksyon Demokratiko. After the death of Herminio Aquino in 2021, Ramel was elected to replace Aquino's position, with Manila Mayor Isko Moreno elected as party president. In the campaign team of Moreno, Ramel was tapped as spokesperson for party-related and election issues.\n\nWhile in the middle of 2022 presidential elections, Ramel and Moreno's campaign manager Lito Banayo called out the Bureau of Internal Revenue (BIR) to collect the Php 203 billion unpaid estate tax of Bongbong Marcos, Moreno's opponent. He also stated that BIR sent letters to Marcos, and also called out the Presidential Commission on Good Government (PCGG) about the issue. BIR later confirmed that they send a demand letter to Marcos. Marcos camp later said that the case is still pending and only an \"all-political\" issue. Aksyon rejected those statement by the Marcos camp. Later, PCGG stated that the decision of the court was final and executory.",
+      "excerpt_offset": 28,
+      "total_chars": 1228,
+      "bm25": {
+        "q0": {
+          "rank": 17,
+          "score": 14.2281
+        }
+      },
+      "best_rank": 17,
+      "title_similarity": 0.381,
+      "context_overlap": 0.0253,
+      "cosine": 0.103379,
+      "rerank_logit": -6.889476,
+      "rerank_position": 23
+    },
+    {
+      "page_id": "56830807",
+      "revision_id": "1328167050",
+      "title": "Abe Bonnema",
+      "url": "https://en.wikipedia.org/wiki/Abe_Bonnema",
+      "excerpt": "es in Leeuwarden.\n\nExhibitions of his work took place in various museums, including Museum Boijmans Van Beuningen in Rotterdam and the Museum of Modern Art in New York.\n\nThe Abe Bonnema Foundation manages the legacy of the Frisian architect. The Foundation aims to contribute to stimulating the quality of architecture in the Netherlands by awarding the Abe Bonnema Prize. At the same time, the Foundation wishes to draw renewed attention to the ideas and oeuvre of the architect ir. Bonnema in this way.\n\nBonnema has left a legacy to the city of Leeuwarden under certain conditions (executory bequest). The money had to be spent on a new accommodation for the Fries Museum. This new museum had to be built on the Zaailand and the design had to be made by Hubert-Jan Henket in collaboration with his architectural firm Bonnema Architects. The building has been realized and was opened in 2013.\n\nThe Abe Bonnema Prize is an initiative of the Abe Bonnema Foundation. The purpose of the Abe Bonnema Prize is to focus attention on the architects of projects that are exemplary through the application of innovative concepts and aspects, set a new standard or be a model of innovation of the architecture.",
+      "excerpt_offset": 394,
+      "total_chars": 1594,
+      "bm25": {
+        "q0": {
+          "rank": 18,
+          "score": 13.9266
+        }
+      },
+      "best_rank": 18,
+      "title_similarity": 0.2,
+      "context_overlap": 0.0385,
+      "cosine": 0.092625,
+      "rerank_logit": -6.591714,
+      "rerank_position": 19
+    },
+    {
+      "page_id": "339764",
+      "revision_id": "1318132810",
+      "title": "Deed",
+      "url": "https://en.wikipedia.org/wiki/Deed",
+      "excerpt": "A deed is a legal document that is signed and delivered, especially concerning the ownership of property or legal rights. Specifically, in common law, a deed is any legal instrument in writing which passes, affirms or confirms an interest, right, or property and that is signed, attested, delivered, and in some jurisdictions, sealed. It is commonly associated with transferring (conveyancing) title to property. The deed has a greater presumption of validity and is less rebuttable than an instrument signed by the party to the deed. A deed can be unilateral or bilateral. Deeds include conveyances, commissions, licenses, patents, diplomas, and conditionally powers of attorney if executed as deeds. The deed is the modern descendant of the medieval charter, and delivery is thought to symbolically replace the ancient ceremony of livery of seisin.\n\nThe traditional phrase signed, sealed and delivered refers to the practice of using seals; however, attesting witnesses have replaced seals to some extent. An agreement under seal may also be called a contract by deed or a specialty; in the United States, a specialty is enforceable without consideration. In some jurisdictions, specialties have a ",
+      "excerpt_offset": 0,
+      "total_chars": 15151,
+      "bm25": {
+        "q1": {
+          "rank": 18,
+          "score": 27.1709
+        }
+      },
+      "best_rank": 18,
+      "title_similarity": 0.3077,
+      "context_overlap": 0.0519,
+      "cosine": 0.313393,
+      "rerank_logit": -6.357162,
+      "rerank_position": 11
+    },
+    {
+      "page_id": "3487686",
+      "revision_id": "1267306881",
+      "title": "Remainder (law)",
+      "url": "https://en.wikipedia.org/wiki/Remainder_(law)",
+      "excerpt": "to language in the conveyance which can enlarge the class of persons which have a future interest in the property. Thus, C may have more children than just D and E who will also have a future interest in Blackacre.\n\nVested remainders subject to divestment are remainders that may be terminated by an executory interest before becoming possessory.\n\nFor example\n\n\" A conveys Blackacre to B for life, then to C, but if C ever becomes a lawyer, then to D.\"\n\nThe future interest of C is not certain, thus it is \"defeasible\". Additionally, the interest cannot become smaller by the addition of more remainder owners, thus it is not \"open\". The identifying component is the possibility of being divested by D who owns an executory interest from the remainder if C becomes a lawyer.\n\nThe contingent remainder is one that is surrounded in uncertainty. A remainder is contingent if one or more of the following is true: (1) it is conveyed to an unascertained or unborn person, (2) it is made contingent on anything but the natural termination of the preceding estate.\n\nFor example, if we assume that C is alive, and A conveys \"to B for life, then to the heirs of C...\", then the remainder is contingent because",
+      "excerpt_offset": 2400,
+      "total_chars": 7160,
+      "bm25": {
+        "q0": {
+          "rank": 19,
+          "score": 13.8354
+        }
+      },
+      "best_rank": 19,
+      "title_similarity": 0.3333,
+      "context_overlap": 0.0536,
+      "cosine": 0.328575,
+      "rerank_logit": -5.530958,
+      "rerank_position": 6
+    }
+  ]
+}

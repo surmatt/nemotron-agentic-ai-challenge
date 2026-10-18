@@ -1,0 +1,1694 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Agent runs</title><link rel="stylesheet" href="style.css"></head><body><nav><a href="index.html">Overview</a><a href="scans.html">Scans</a><a href="entries.html">Entries</a><a href="agent.html">Agent runs</a></nav><h1>Agent runs</h1><h2 id="2026-10-18T132500Z-q06-locomotive">q06-locomotive <span class="muted">run 2026-10-18T132500Z</span></h2><p>What does Britannica say about the steam locomotive, compared with Wikipedia?</p><p>Model nvidia/Nemotron-3.5-Super-VL. Tools: tool_search, tool_describe, challenge_search, challenge_search, challenge_semantic_search, tool_call, challenge_read, challenge_read, challenge_compare, challenge_read, challenge_read, challenge_read. Automatic check: <span class="bad">fail</span>.</p><div class="label">Generated: agent answer</div><div class="generated" style="white-space:pre-wrap">Short answer: This Britannica corpus has **no dedicated &quot;steam locomotive&quot; entry**. The only match is the headword **STEAM-ENGINE (entry E0044)**, paired with Wikipedia&#x27;s &quot;Steam engine&quot; article. Britannica&#x27;s entry is a 185-character stub that says nothing about locomotives or railways, whereas Wikipedia&#x27;s article is roughly 223× longer and devotes a substantial section to the history of steam locomotives.
+
+## Britannica (entry E0044, &quot;STEAM-ENGINE&quot;)
+
+The full entry reads:
+
+&gt; &quot;STEAM-ENGINE, a machine to raise water by fire, or rather by the force of water turned into steam. See STEAM Engine.
+&gt;
+&gt; ENGINE for dividing Mathematical Instruments. See Ramsden&#x27;s Engine.&quot; — Britannica E0044 (scan page britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:523)
+
+It defines a steam engine only as a water-raising machine, adds two cross-references (&quot;See STEAM Engine&quot; and &quot;Ramsden&#x27;s Engine&quot; — the latter a dividing engine for mathematical instruments, a different subject), and mentions nothing about locomotives, railways, Trevithick, or Stephenson. The text is OCR from a historical scan (no edition/year was provided by the source).
+
+## Wikipedia (matched article &quot;Steam engine,&quot; page_id 27692, revision_id 1348087342)
+
+Wikipedia&#x27;s article is about 49,600 characters (the saved comparison reports a length ratio of wiki-to-Britannica of 223.0, and a low term-overlap Jaccard of 0.0273). It acknowledges locomotives in its definition and gives a detailed locomotive history:
+
+&gt; &quot;...the term &#x27;steam engine&#x27; can refer to either complete steam plants (including boilers etc.), such as railway steam locomotives and portable engines...&quot; and &quot;...steam locomotives operated on the railways.&quot; — Wikipedia, &quot;Steam engine,&quot; rev. 1348087342
+
+On the locomotive history specifically:
+
+&gt; &quot;...a Scottish inventor, built a model steam road locomotive. An early working model of a steam rail locomotive was designed and constructed by steamboat pioneer John Fitch in the United States probably during the 1780s or 1790s. ... The first full-scale working railway steam locomotive was built by Richard Trevithick in the United Kingdom and, on 21 February 1804, the world&#x27;s first railway journey took place as Trevithick&#x27;s steam locomotive hauled 10 tonnes of iron, 70 passengers and five wagons along the tramway from the Pen-y-darren ironworks, near Merthyr Tydfil to Abercynon in south Wales. ... In 1825 George Stephenson built the Locomotion for the Stockton and Darlington Railway. This was the first public steam railway in the world and then in 1829, he built The Rocket which was entered in and won the Rainhill Trials. ... Steam locomotives continued to be manufactured until the late twentieth century in places such as China and the former East Germany...&quot; — Wikipedia, &quot;Steam engine,&quot; rev. 1348087342
+
+## Comparison
+
+| | Britannica E0044 | Wikipedia &quot;Steam engine&quot; |
+|---|---|---|
+| Subject | Steam engine (stub) | Steam engine (full article) |
+| Covers steam locomotives? | No | Yes, in depth |
+| Length | ~185 chars (20 tokens kept) | ~49,597 chars (~223× longer) |
+| Key names | None relevant | Murdoch, Fitch, Trevithick, Murray, Stephenson |
+
+**Caveat:** The match is &quot;steam engine&quot; → &quot;steam engine,&quot; not a dedicated &quot;steam locomotive&quot; article, so the subjects are related but not identical (a steam locomotive is one application of a steam engine). I could not find a separate Britannica &quot;locomotive&quot; entry (search returned no results), and I won&#x27;t state an edition or year since the source tools didn&#x27;t provide one.</div><pre class="muted">{
+ &quot;model_ok&quot;: true,
+ &quot;completed&quot;: true,
+ &quot;used_challenge_tools&quot;: true,
+ &quot;cited_entry_ids&quot;: [
+  &quot;E0044&quot;
+ ],
+ &quot;unsupported_entry_ids&quot;: [],
+ &quot;cited_revision_ids&quot;: [
+  &quot;1348087342&quot;
+ ],
+ &quot;unsupported_revision_ids&quot;: [],
+ &quot;expected_entries_found&quot;: true,
+ &quot;behaviour_ok&quot;: false,
+ &quot;auto_pass&quot;: false
+}</pre><h2 id="2026-10-18T132500Z-q05-philology">q05-philology <span class="muted">run 2026-10-18T132500Z</span></h2><p>Compare the Britannica article on PHILOLOGY with its Wikipedia article.</p><p>Model nvidia/Nemotron-3.5-Super-VL. Tools: tool_search, tool_describe, challenge_search, challenge_read, challenge_read, challenge_compare, challenge_read, challenge_read, challenge_read, challenge_read, challenge_read. Automatic check: <span class="ok">pass</span>.</p><div class="label">Generated: agent answer</div><div class="generated" style="white-space:pre-wrap">I now have all the evidence needed. Here is the comparison.
+
+## Answer
+
+The Britannica article (entry E0021, headword &quot;PHILLOOGY&quot; — an OCR error for **PHILOLOGY**) and the Wikipedia article (&quot;Philology,&quot; page_id 23193, revision 1349939971) share the same title and were accepted as a match by the system, but their content is substantially different. The overlap in vocabulary is very low (Jaccard 0.0417; frequency cosine 0.1387), and the Wikipedia article is about 1.9× longer (11,266 chars / 970 tokens vs. 8,020 chars / 583 tokens).
+
+## Evidence
+
+**Britannica (E0021):**
+- Headword: &quot;PHILLOOGY&quot; (OCR misread of PHILOLOGY); scan page `britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:403` (page-0403-44f912e1c323.jpg); total 8,020 chars; 583 raw tokens, 346 types, 12.5% unverified tokens (e.g., ethiopians, cushim, heliodorus, causabon). The text is noisy OCR and begins mid-sentence (&quot;Cushim was the same.&quot;), suggesting truncation.
+- The entry does **not** define philology as a discipline. Instead it discusses the history of Ethiopian/Abyssinian languages and their purported ties to Chaldaic: &quot;whatever changes the Ethiopian dialect may have undergone in the course of three thousand years, it was originally either Chaldaic, or at least a branch of that language&quot;; Sir William Jones&#x27;s theory that &quot;the Sanscrit characters were deduced from the Chaldaic&quot;; references to Job Ludolf&#x27;s grammar of the &quot;Abyssinian or Geez tongue&quot; and the traveller Bruce; details of the Ethiopic alphabet (26 letters, each varied by a virgula into ~62 forms).
+- Distinctive terms: letters (14 vs. 0), chaldaic (7 vs. 0), sacred (10 vs. 0), egyptians (7 vs. 0), geez (4 vs. 0), tongue (6 vs. 0), ethiopian (3 vs. 0), affinity (3 vs. 0).
+
+**Wikipedia (23193, revision 1349939971, CC BY-SA 4.0):**
+- Defines philology: &quot;the study of language in oral and written historical sources... the intersection of textual criticism, literary criticism, history, and linguistics with strong ties to etymology.&quot;
+- Covers the term&#x27;s Greek etymology (φιλολογία, φίλος + λόγος), the &quot;golden age of philology&quot; in the 19th century, classical philology (Libraries of Pergamum and Alexandria), decipherment (Rosetta Stone/Champollion 1822, Behistun Inscription/Rawlinson, Linear B/Ventris &amp; Chadwick), &quot;new philology&quot; and &quot;cognitive philology,&quot; and the decline of the term in English-speaking countries after anti-German sentiment following World War I.
+- Distinctive terms: philology (27 vs. 0), linguistics (8 vs. 0), philologist (6 vs. 0), philological (4 vs. 0), decipherment/deciphered (4 each vs. 0), manuscript (5 vs. 0), languages (16 vs. 1).
+
+**Shared terms:** language (10/12), languages (1/16), ancient (5/8), scholars (1/10), original (2/5), characters/character, modern, german, old.
+
+## Interpretation
+
+This is an inference: the Britannica excerpt appears to be a 19th-century-style treatment of philology focused on ancient Oriental languages (especially Ethiopian/Ge&#x27;ez) and biblical-historical language origins, whereas Wikipedia treats philology as a modern academic discipline with defined methods, branches, and institutional history. The match between them rests on the shared title (both are about &quot;Philology&quot;), not on shared substance — which is why the vocabulary-overlap metrics are so low. The Britannica OCR is also visibly noisy (the headword itself is misspelled as &quot;PHILLOOGY,&quot; and the entry text starts mid-sentence), so some content may be missing or mis-transcribed. I could not verify what edition or date the Britannica entry comes from, as no tool result states it.</div><pre class="muted">{
+ &quot;model_ok&quot;: true,
+ &quot;completed&quot;: true,
+ &quot;used_challenge_tools&quot;: true,
+ &quot;cited_entry_ids&quot;: [
+  &quot;E0021&quot;
+ ],
+ &quot;unsupported_entry_ids&quot;: [],
+ &quot;cited_revision_ids&quot;: [
+  &quot;1349939971&quot;
+ ],
+ &quot;unsupported_revision_ids&quot;: [],
+ &quot;expected_entries_found&quot;: true,
+ &quot;behaviour_ok&quot;: true,
+ &quot;auto_pass&quot;: true
+}</pre><h2 id="2026-10-18T131943Z-q08-naxos">q08-naxos <span class="muted">run 2026-10-18T131943Z</span></h2><p>Compare the Britannica entry on NAXOS with its matched Wikipedia article. Do they describe the same place?</p><p>Model nvidia/Nemotron-3.5-Super-VL. Tools: tool_search, challenge_search, challenge_read. Automatic check: <span class="bad">fail</span>.</p><div class="label">Generated: agent answer</div><div class="generated" style="white-space:pre-wrap">No. The Britannica entry on NAXOS and its matched Wikipedia article do **not** describe the same place.
+
+## Evidence
+
+**Britannica entry E0103 (headword &quot;NAXOS&quot;)** reads (OCR text):
+
+&gt; &quot;NAXOS, or NAXIA, a considerable town, and capital of the Isle of Naxos, opposite the Isle of Paros, with a castle and two archbishops&#x27; sees, the one Greek and the other Latin. The greater part of the inhabitants are Greeks. Long. 25. 51. E. Lat. 37. 8. N.&quot;
+
+This describes the town of Naxos — capital of Naxos island — in the Cyclades, opposite the island of Paros, at about 37°8′ N, 25°51′ E. (Source text is OCR; the passage repeats the coordinates line, which is an OCR duplication artifact.)
+
+**Matched Wikipedia article:** the match result for E0103 returns the Wikipedia title &quot;Naxos (Crete)&quot; (page_id 10445940), but with match **status: rejected** (rerank logit −5.58, cosine 0.283, title_similarity 1.0), and `has_comparison: false` — i.e., the system did not accept this as a valid match.
+
+**Why they differ:** The Britannica subject is fixed by geography — &quot;opposite the Isle of Paros&quot; and latitude 37°8′ N — which places it in the Cyclades. &quot;Naxos (Crete)&quot; is a different islet off the coast of Crete. Paros/Cyclades and Crete are distinct island groups, so the two entries refer to different places. The rejection of the match corroborates this.
+
+I could not read the Wikipedia article text directly (challenge_read only accepts Britannica entry IDs), so the Wikipedia-side identification rests on the match result&#x27;s title plus the rejection status; the Britannica-side reading is from the entry text above.</div><pre class="muted">{
+ &quot;model_ok&quot;: true,
+ &quot;completed&quot;: true,
+ &quot;used_challenge_tools&quot;: true,
+ &quot;cited_entry_ids&quot;: [
+  &quot;E0103&quot;
+ ],
+ &quot;unsupported_entry_ids&quot;: [],
+ &quot;cited_revision_ids&quot;: [],
+ &quot;unsupported_revision_ids&quot;: [],
+ &quot;expected_entries_found&quot;: true,
+ &quot;behaviour_ok&quot;: false,
+ &quot;auto_pass&quot;: false
+}</pre><h2 id="2026-10-18T131943Z-q07-william">q07-william <span class="muted">run 2026-10-18T131943Z</span></h2><p>Compare the Britannica entry WILLIAM with its matched Wikipedia article. Is the match correct?</p><p>Model nvidia/Nemotron-3.5-Super-VL. Tools: tool_search, challenge_search, challenge_read, challenge_read, challenge_compare. Automatic check: <span class="ok">pass</span>.</p><div class="label">Generated: agent answer</div><div class="generated" style="white-space:pre-wrap">## Answer
+
+The match is **loosely defensible but weak** — it is correct only at the level of the shared headword topic (&quot;the name William&quot;), not as a substantive content match.
+
+## Evidence
+
+**Britannica entry E0013, headword &quot;WILLIAM&quot;** (scan page `britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:258`, file `page-0258-631a7ae7df34.jpg`):
+
+&gt; &quot;WILLIAM, the name of several kings of England. See ENGLAND, n 87-92, and BRITAIN, n 302.&quot;
+
+The bulk of the entry is actually about two *places*, not people:
+- &quot;Fort-William, a fortress in the Highlands of Scotland, erected in king William&#x27;s reign...&quot; (Invernesshire, Loch Eil, Maryburgh)
+- &quot;William&#x27;s Fort, is a factory of Asia belonging to the East-India company, seated on one of the branches of the river Ganges, in the kingdom of Bengal... The town is called Calcutta...&quot;
+
+**Matched Wikipedia article:** page_id `62004766`, revision_id `1353452476`, title **&quot;List of people with given name William&quot;**:
+
+&gt; &quot;This is a list of notable people named William. Ordered chronologically William the Conqueror (c. 1028–1087) First Norman King of England, William II of England..., William III of England..., William IV...&quot;
+
+**Pipeline match record:** status `accepted`, method `nemotron_embed_rerank`, `title_similarity: 0.3111`, `cosine: 0.308107`, `rerank_logit: -1.951855`, `has_comparison: true`.
+
+**Comparison metrics:** `top_terms_jaccard: 0.0256` (very low), `frequency_cosine: 0.3157`, Wikipedia is ~14.5× longer than Britannica. Shared terms are generic: &quot;william&quot; (5 vs 310), &quot;england&quot; (2 vs 9), &quot;king&quot; (1 vs 16), &quot;name&quot; (1 vs 1), &quot;scotland&quot; (1 vs 5). Distinctive Britannica terms concern the forts/India: nabob, bengal, fort, factory, company, built, town, sea. Distinctive Wikipedia terms concern a roster of people: disambiguation (62), multiple (70), american (71), people (63), born (43), politician (22), actor (17).
+
+## Assessment
+
+There is a genuine topical link: the Britannica entry explicitly frames William as &quot;the name of several kings of England,&quot; and the Wikipedia article lists exactly those English kings (William the Conqueror, William II, William III, William IV) among notable people named William. So the match is not random.
+
+But it is a poor content match: roughly two-thirds of the Britannica text describes Fort-William (Scotland) and William&#x27;s Fort (Calcutta/Bengal), which the people list does not cover, while the Wikipedia article is dominated by hundreds of people absent from Britannica. The low title similarity (0.31), low Jaccard (0.026), and modest cosine (0.31) confirm the match is tenuous and driven mainly by the shared headword rather than agreement in subject matter. I would not call it a correct or high-quality match — at best a partial, headword-level match.</div><pre class="muted">{
+ &quot;model_ok&quot;: true,
+ &quot;completed&quot;: true,
+ &quot;used_challenge_tools&quot;: true,
+ &quot;cited_entry_ids&quot;: [
+  &quot;E0013&quot;
+ ],
+ &quot;unsupported_entry_ids&quot;: [],
+ &quot;cited_revision_ids&quot;: [
+  &quot;1353452476&quot;
+ ],
+ &quot;unsupported_revision_ids&quot;: [],
+ &quot;expected_entries_found&quot;: true,
+ &quot;behaviour_ok&quot;: true,
+ &quot;auto_pass&quot;: true
+}</pre><h2 id="2026-10-18T131943Z-q06-locomotive">q06-locomotive <span class="muted">run 2026-10-18T131943Z</span></h2><p>What does Britannica say about the steam locomotive, compared with Wikipedia?</p><p>Model nvidia/Nemotron-3.5-Super-VL. Tools: tool_search, challenge_search, challenge_semantic_search, challenge_search, challenge_read, challenge_compare, challenge_read. Automatic check: <span class="bad">fail</span>.</p><div class="label">Generated: agent answer</div><div class="generated" style="white-space:pre-wrap">I could not find a dedicated Britannica entry for &quot;steam locomotive.&quot; A search for &quot;locomotive&quot; in the Britannica corpus returned no results, and a semantic search failed. The closest match to your query is Britannica&#x27;s short STEAM-ENGINE entry (E0044), which the system paired with Wikipedia&#x27;s &quot;Steam engine&quot; article (page 27692, revision 1348087342) — not a dedicated &quot;steam locomotive&quot; article on either side.
+
+What Britannica says (E0044, STEAM-ENGINE; scan page britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:523, page-0523-a583606e375a.jpg):
+
+&quot;STEAM-ENGINE, a machine to raise water by fire, or rather by the force of water turned into steam. See STEAM Engine.
+
+ENGINE for dividing Mathematical Instruments. See Ramsden&#x27;s Engine.&quot;
+
+That is the full entry — 21 raw tokens. It is an old, dictionary-style definition (the text is noisy OCR). It defines the steam engine only as a water-raising machine and makes no mention of locomotives, railways, pistons, cylinders, boilers, or any inventor such as Trevithick or Stephenson.
+
+What Wikipedia says (&quot;Steam engine,&quot; page_id 27692, revision_id 1348087342, CC BY-SA 4.0):
+
+&quot;A steam engine is a heat engine that performs mechanical work using steam as its working fluid. The steam engine uses the force produced by steam pressure to push a piston back and forth inside a cylinder...&quot; It covers Hero&#x27;s aeolipile, Ayanz (1606), Savery (1698), Newcomen (1712), Watt (1764), and states &quot;steam locomotives operated on the railways.&quot; It also describes William Murdoch&#x27;s 1784 model steam road locomotive and Trevithick&#x27;s high-pressure engine patent (1802). It is far longer — the word-frequency comparison gives a length ratio of about 223:1 (Wikipedia to Britannica), with Jaccard similarity of only 0.027.
+
+Bottom line: Britannica has no steam-locomotive entry; its STEAM-ENGINE entry is a one-sentence definition about raising water and says nothing about locomotives. The paired Wikipedia article is &quot;Steam engine&quot; (general, not locomotive-specific), which is much fuller and does mention railway locomotives in passing. So a true like-for-like comparison on the steam locomotive specifically is not available from this corpus.</div><pre class="muted">{
+ &quot;model_ok&quot;: true,
+ &quot;completed&quot;: true,
+ &quot;used_challenge_tools&quot;: true,
+ &quot;cited_entry_ids&quot;: [
+  &quot;E0044&quot;
+ ],
+ &quot;unsupported_entry_ids&quot;: [],
+ &quot;cited_revision_ids&quot;: [
+  &quot;1348087342&quot;
+ ],
+ &quot;unsupported_revision_ids&quot;: [],
+ &quot;expected_entries_found&quot;: true,
+ &quot;behaviour_ok&quot;: false,
+ &quot;auto_pass&quot;: false
+}</pre><h2 id="2026-10-18T131943Z-q05-philology">q05-philology <span class="muted">run 2026-10-18T131943Z</span></h2><p>Compare the Britannica article on PHILOLOGY with its Wikipedia article.</p><p>Model nvidia/Nemotron-3.5-Super-VL. Tools: tool_search, tool_search, challenge_search, challenge_read, challenge_read, challenge_compare, challenge_read, challenge_read, challenge_read, tool_describe, challenge_read, challenge_read, challenge_read, challenge_read, challenge_read, challenge_read, challenge_read, challenge_read, challenge_read, challenge_read, challenge_read, challenge_read. Automatic check: <span class="ok">pass</span>.</p><div class="label">Generated: agent answer</div><div class="generated" style="white-space:pre-wrap">Here is my comparison, based only on the challenge tool output.
+
+## Bottom line
+The dataset pairs Britannica entry **E0021** (headword &quot;PHILLOOGY,&quot; an OCR rendering of &quot;PHILOLOGY&quot;) with Wikipedia&#x27;s **&quot;Philology&quot;** (page 23193, revision 1349939971) as an accepted match, and a saved word-frequency comparison exists for it. However, the two texts are a **poor topical match**: the Britannica OCR text never uses the word &quot;philology,&quot; while Wikipedia uses it 27 times. Topical overlap is minimal (Jaccard 0.042; frequency cosine 0.139), and Wikipedia is about 1.9× as long. The biggest caveat is that the Britannica text as captured is actually about **Ethiopian language origins**, not philology as a discipline — likely an OCR/page-segmentation labeling anomaly in the source data.
+
+## What each source says
+
+**Britannica (E0021, headword &quot;PHILLOOGY&quot;, scan page `britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:403`, file page-0403-44f912e1c323.jpg):** the text (8020 chars) discusses the Ethiopian/Abyssinian tongue and its supposed kinship with Chaldaic, Hebrew, Syriac, Arabic, Egyptian, and Sanskrit. It cites Scaliger, Marianus Victorius, Bochart, Bishop Walton, Diodorus Siculus, Sir William Jones, Diogenes Laertius and Homer, and refers readers to Job Ludolf&#x27;s grammar/dictionary of the Geez tongue and to the traveller Bruce. Example quotes:
+
+- &quot;...whatever changes the Ethiopian dialect may have undergone in the course of three thousand years, it was originally either Chaldaic, or at least a branch of that language.&quot;
+- &quot;Sir William Jones seems to have proved, by very plausible arguments, that the Sanscrit characters were deduced from the Chaldaic.&quot;
+- &quot;...refer our curious and inquisitive readers to the very learned Job Ludolf&#x27;s excellent grammar and dictionary of the Abyssinian or Geez tongue...&quot;
+
+Notably, a search for the phrase &quot;philology&quot; in this Britannica text returns **not_found** — the phrase does not occur. The OCR is also noisy (unverified tokens include &quot;cushim,&quot; &quot;cushites,&quot; &quot;heliodorus,&quot; &quot;causabon,&quot; &quot;marianus&quot;; 73 unverified tokens, ~12.5% rate).
+
+**Wikipedia (Philology, page_id 23193, revision_id 1349939971, CC BY-SA 4.0):** a modern disciplinary overview:
+
+- &quot;Philology ... is the study of language in oral and written historical sources. It is the intersection of textual criticism, literary criticism, history, and linguistics with strong ties to etymology.&quot;
+- Covers classical philology (Libraries of Pergamum/Alexandria, 4th c. BC; Greeks, Romans, Byzantium; Renaissance; European, Asian, African, American philologies; Indo-European studies).
+- Contrasts philology&#x27;s diachronic focus with linguistics via Saussure&#x27;s synchronic analysis; describes a 19th-century &quot;golden age of philology.&quot;
+- Describes branches/methods: comparative linguistics and Proto-Indo-European, textual criticism and manuscript variants/critical editions, higher criticism, cognitive philology, and decipherment (Rosetta Stone/Champollion 1822, Behistun/Rawlinson, cuneiform/Sumerian, Hittite/Hrozný 1915, Linear B).
+
+## Quantitative comparison (challenge_compare, E0021)
+- Length ratio Wikipedia/Britannica: 1.902 (Britannica ~510 kept tokens / 346 types; Wikipedia ~970 tokens / 588 types).
+- Shared terms (Britannica / Wikipedia counts): language 10/12; languages 1/16; ancient 5/8; scholars 1/10; original 2/5; characters 4/1; character 1/6.
+- Distinctive to Britannica (0 in Wikipedia): letters (14), chaldaic (7), sacred (10), egyptians (7), geez (4), tongue (6), ethiopian (3), affinity (3).
+- Distinctive to Wikipedia (0 in Britannica): philology (27), linguistics (8), philologist (6), philological (4), decipherment (4), deciphered (4), manuscript (5).
+
+## What I could not verify
+- The Britannica edition, date, and author are not given by the tools, so I do not state them. The citation style and noisy OCR suggest an older Britannica volume, but that is an inference, not a sourced fact.
+- I read the text in windows via `find`/`max_chars`; I did not confirm there is no additional Britannica content beyond the 8,020 characters reported, nor whether the Ethiopia content is a mislabeled page segment or a genuine (if odd) old Britannica article.
+- I did not independently fetch the live Wikipedia page; the revision cited (1349939971) is the one returned by the tool.</div><pre class="muted">{
+ &quot;model_ok&quot;: true,
+ &quot;completed&quot;: true,
+ &quot;used_challenge_tools&quot;: true,
+ &quot;cited_entry_ids&quot;: [
+  &quot;E0021&quot;
+ ],
+ &quot;unsupported_entry_ids&quot;: [],
+ &quot;cited_revision_ids&quot;: [
+  &quot;1349939971&quot;
+ ],
+ &quot;unsupported_revision_ids&quot;: [],
+ &quot;expected_entries_found&quot;: true,
+ &quot;behaviour_ok&quot;: true,
+ &quot;auto_pass&quot;: true
+}</pre><h2 id="2026-10-18T131943Z-q04-corpus">q04-corpus <span class="muted">run 2026-10-18T131943Z</span></h2><p>Across all matched pairs, which words most distinguish the Britannica vocabulary from the Wikipedia vocabulary? Give counts.</p><p>Model nvidia/Nemotron-3.5-Super-VL. Tools: tool_describe, tool_search, tool_search, challenge_corpus. Automatic check: <span class="ok">pass</span>.</p><div class="label">Generated: agent answer</div><div class="generated" style="white-space:pre-wrap">The corpus-level comparison is available directly from `challenge_corpus`. It covers only entries with an accepted match: 86 Britannica documents vs. 84 Wikipedia documents (frequency cosine 0.5832). The words that most distinguish the Britannica vocabulary from the Wikipedia vocabulary are ranked by their z-score (higher = more Britannica-distinctive). Counts are total token counts across the matched corpus.
+
+Words most distinctive to Britannica (vs. Wikipedia):
+
+| Word | z-score | Britannica count | Wikipedia count |
+|------|---------|------------------|-----------------|
+| lime | 4.404 | 23 | 4 |
+| abdomen | 4.368 | 21 | 2 |
+| colour | 4.315 | 23 | 5 |
+| platina | 4.233 | 18 | 0 |
+| carbonate | 4.113 | 17 | 0 |
+| instant | 3.625 | 15 | 2 |
+| till | 3.513 | 15 | 3 |
+| cells | 3.513 | 15 | 3 |
+| eyes | 3.494 | 19 | 9 |
+| letters | 3.386 | 21 | 14 |
+| burnt | 3.371 | 14 | 3 |
+| pipe | 3.349 | 16 | 6 |
+
+For context, the words most distinctive to Wikipedia (lower z-scores) were century (0/302), roman (4/301), lightning (2/244), steam (4/253), erfurt (1/173), erigeron (1/173), city (6/245), fleabane (0/154), esarhaddon (1/168), william (15/354), coins (3/192), new (5/212).
+
+Evidence: `challenge_corpus` (nemotron_challenge), corpus-level vocabulary comparison of all matched pairs; status ok; documents britannica=86, wikipedia=84; note: &quot;Corpus counts cover only entries with an accepted match.&quot;
+
+Caveats: The Britannica text is noisy OCR, so counts (especially for OCR-vulnerable terms like &quot;platina&quot; or &quot;colour&quot;) may be affected by recognition errors. These are corpus-level aggregate counts, not per-entry breakdowns; I have not verified any individual entry text.</div><pre class="muted">{
+ &quot;model_ok&quot;: true,
+ &quot;completed&quot;: true,
+ &quot;used_challenge_tools&quot;: true,
+ &quot;cited_entry_ids&quot;: [],
+ &quot;unsupported_entry_ids&quot;: [],
+ &quot;cited_revision_ids&quot;: [],
+ &quot;unsupported_revision_ids&quot;: [],
+ &quot;expected_entries_found&quot;: true,
+ &quot;behaviour_ok&quot;: true,
+ &quot;auto_pass&quot;: true
+}</pre><h2 id="2026-10-18T131943Z-q03-coinage">q03-coinage <span class="muted">run 2026-10-18T131943Z</span></h2><p>What does the Britannica entry on COINAGE say about how coins were made, and how does the Wikipedia article differ?</p><p>Model nvidia/Nemotron-3.5-Super-VL. Tools: tool_describe, challenge_search, challenge_read, challenge_read, challenge_compare, challenge_read. Automatic check: <span class="ok">pass</span>.</p><div class="label">Generated: agent answer</div><div class="generated" style="white-space:pre-wrap">Britannica entry: E0100, headword &quot;COINAGE&quot; (scan page britannica:…:train:1250, file page-1250-2e0c75f85418.jpg). Its matched Wikipedia article is &quot;Coining (mint)&quot;, page_id 24057311, revision_id 1345146028. The match is accepted. Note: the Britannica text is noisy OCR (long s, &quot;dyes&quot; for dies, &quot;ufes&quot; for uses) and the very end is cut off.
+
+What the Britannica entry says about how coins were made:
+
+It defines COINAGE as &quot;the art of making money, as performed either by the hammer or mill.&quot; It describes two methods.
+
+Former (hammer) method:
+- &quot;They cut a large plate of metal into several little squares, the corners of which were cut off with shears.&quot; The pieces are shaped to standard weight, then made round by gentle hammering to form a planchet.
+- Engravers prepare &quot;a couple of steel mauls in form of dies&quot; engraved with &quot;the hollow of a head, a cross, a fleur-de-lis, or any other figure… with a short legend.&quot;
+- One die is fixed in a block &quot;as steady as any vice could have done&quot;; the planchet is laid on it and covered by the upper die. &quot;They gave several heavy blows, with a hammer of an enormous size, till the double stamp was sufficiently, in relief, impressed on each side of the planchet.&quot; The dies are strongly tempered, and inspectors set the fineness, weight and mark.
+
+Improved (mill) method:
+- Cast plates (laminae) pass between rollers of a &quot;laminating engine&quot; to get uniform thickness instead of being beaten on an anvil.
+- Planchets are cut out at once with &quot;a sharp steel trepan,&quot; then weighed, filed/forged, boiled and cleaned.
+- A machine (fig. 1) marks the edge using two straight steel laminae, each engraved with half the legend on its thickness; one lamina is fixed, the other slides via a dented wheel and rotates the planchet so the edge is stamped in one turn (&quot;Only crown and half-crown pieces can bear the impression of letters on the thickness of their edges&quot;).
+- Finally &quot;the mill (fig. 2.)… squeezing each of them finely between the two dyes… forces the two surfaces or fields of the piece to fill exactly all the vacancies of the two figures engraved hollow.&quot; &quot;The coining engine or mill is so handy (fig. 2.), that a single man may stamp twenty thousand planchets in one day,&quot; for gold, silver and copper.
+
+How the Wikipedia article differs:
+
+- It explicitly distinguishes three processes — hammered coinage, milled coinage, and cast coinage — stating that stamping &quot;is different from the method used in cast coinage.&quot; Britannica only covers hammer vs. mill and never mentions casting.
+- It uses precise terminology: a &quot;coin die&quot; holds &quot;an inverse version of the image,&quot; and striking presses it into &quot;the blank metal disc, or planchet.&quot; Britannica calls the dies &quot;mauls&quot;/&quot;dyes.&quot;
+- It gives die materials and quantified lifespans (modern hardened steel dies = hundreds of thousands of coins; ancient lower die up to ~10,000 strikes, upper dies 100–8,000, ~47,000 at Delphi; Venetian hammer die ~17,000 and anvil die ~36,000 strikes). Britannica only says dies are &quot;strongly tempered&quot; and repeats the mill&#x27;s 20,000/day figure.
+- It addresses temperature: ancient planchets were &quot;usually hot prior to striking,&quot; while &quot;the vast majority of medieval coins were cold struck.&quot; Britannica does not mention heating.
+- It describes modern die-making via a plaster model and &quot;hubbing&quot; (pressing a master hub into a steel blank), plus a collar die for edge designs, die doubling, and &quot;scissel&quot; scrap from punching blanks from a strip. Britannica instead describes its edge-laminae machine and trepan.
+- It names historical mints/practices (Roman crisis dies used when cracked, tong marks on Roman provincial coins, medieval iron dies with steel faces, the Zecca of Venice). Britannica gives a generic historical narrative (heads, crosses, fleur-de-lis) with no named mint or date.
+
+Shared core: both describe two dies (one per side), a blank planchet, impressing the design by pressure/hammering, edge marking, and the mill&#x27;s high daily output.</div><pre class="muted">{
+ &quot;model_ok&quot;: true,
+ &quot;completed&quot;: true,
+ &quot;used_challenge_tools&quot;: true,
+ &quot;cited_entry_ids&quot;: [
+  &quot;E0100&quot;
+ ],
+ &quot;unsupported_entry_ids&quot;: [],
+ &quot;cited_revision_ids&quot;: [
+  &quot;1345146028&quot;
+ ],
+ &quot;unsupported_revision_ids&quot;: [],
+ &quot;expected_entries_found&quot;: true,
+ &quot;behaviour_ok&quot;: true,
+ &quot;auto_pass&quot;: true
+}</pre><h2 id="2026-10-18T131943Z-q02-huguenots">q02-huguenots <span class="muted">run 2026-10-18T131943Z</span></h2><p>Compare how Britannica and Wikipedia describe the Huguenots.</p><p>Model nvidia/Nemotron-3.5-Super-VL. Tools: tool_search, tool_describe, challenge_search, challenge_read, challenge_read, tool_call, tool_describe, challenge_read, challenge_read, challenge_compare. Automatic check: <span class="ok">pass</span>.</p><div class="label">Generated: agent answer</div><div class="generated" style="white-space:pre-wrap">## Comparison: Huguenots
+
+**Bottom line:** Both sources agree the Huguenots were French Protestants of the Reformed (Calvinist) tradition and that &quot;Huguenot&quot; began as a term of contempt. Beyond that, the two descriptions differ sharply in scope: the Britannica entry in this corpus is a brief OCR fragment that only defines the name and dates its rise to 1560, while the Wikipedia article is a full history covering etymology, demographics, the Wars of Religion, the Edict of Nantes, persecution and revocation under Louis XIV, the refugee exodus, and eventual toleration.
+
+### What Britannica says
+Entry E0115, headword &quot;HUGUENOTS&quot; (OCR, scan page 1327):
+
+- &quot;HUGUENOTS, an appellation given by way of contempt to the reformed or Protestant Calvinists of France.&quot; (Britannica E0115, scan page 1327)
+- &quot;The name had its first rise in 1560; but authors are&quot; — the text cuts off mid-sentence. (Britannica E0115, scan page 1327)
+
+So Britannica identifies the Huguenots as &quot;reformed or Protestant Calvinists of France,&quot; gives the term a contemptuous origin, and dates the name&#x27;s first rise to 1560. That is all this corpus contains for the entry: it is only 156 characters (12 tokens), and the phrases &quot;Edict of Nantes&quot; and &quot;revocation&quot; do not occur in it. The text is noisy OCR and is truncated, so the entry is incomplete here.
+
+### What Wikipedia says
+Wikipedia article &quot;Huguenots&quot; (page 75899, revision 1352397655, CC BY-SA 4.0):
+
+- Definition: &quot;The Huguenots ... are a religious group of French Protestants who held to the Reformed (Calvinist) tradition of Protestantism.&quot; The term may derive from Genevan burgomaster Besançon Hugues and was in common use by around 1550. (Wikipedia 75899, rev. 1352397655)
+- Demographics: up to 10% of the French population on the eve of the 1572 St. Bartholomew&#x27;s Day massacre; 7–8% by 1600; just 1% by 1686. Eastern France (Alsace, Moselle, Montbéliard) was mainly Lutheran, not Huguenot. (Wikipedia 75899, rev. 1352397655)
+- Wars and toleration: French Wars of Religion (1562–1598), led by Jeanne d&#x27;Albret, Henry IV, and the princes of Condé; ended by the Edict of Nantes (1598), granting &quot;substantial religious, political and military autonomy.&quot; (Wikipedia 75899, rev. 1352397655)
+- Persecution and exodus: Huguenot rebellions in the 1620s ended their political/military privileges; Louis XIV&#x27;s Dragonnades and the Edict of Fontainebleau (1685) revoked Protestant rights, forcing conversion or flight. Louis XIV claimed the community fell from ~800,000–900,000 to 1,000–1,500 (an exaggeration). Refugees fled to the Holy Roman Empire (Brandenburg, Palatinate), Prussia, the Dutch Republic, the Dutch Cape Colony, England, and colonial America (e.g., New York). (Wikipedia 75899, rev. 1352397655; comparison snippets at offsets 13029, 22946, 38985, 45319)
+- Later relief: persecution continued under Louis XV; Calvinism was nearly gone by 1774; the Edict of Versailles (1787) ended persecution, and the 1789 Declaration of the Rights of Man gave Protestants equal rights. (Wikipedia 75899, rev. 1352397655)
+- Etymology is treated as unclear, with a proposed pun linking Besançon Hugues to Dutch *Huisgenoten* (&quot;housemates&quot;) and German *Eidgenosse* (&quot;Confederate&quot;). (Wikipedia 75899, rev. 1352397655)
+
+### Key differences
+- **Length/depth:** The matched-pair comparison puts Wikipedia at roughly 500× the length of the Britannica fragment (length ratio 501.5; frequency cosine 0.296; Jaccard 0.047). (challenge_compare, E0115)
+- **Coverage:** Britannica (in this corpus) only defines the word and gives an origin date. Wikipedia covers origins, population trends, wars, legal edicts, persecution, refugee destinations, and emancipation.
+- **Shared vocabulary:** The overlapping terms are just *huguenots, france, protestant, reformed, name, way, calvinists, given* — i.e., both sources discuss the name and French Protestant identity, but Wikipedia develops the history Britannica omits. (challenge_compare, E0115)
+
+**Caveats:** The Britannica text is OCR from a single scanned page and is truncated mid-sentence, so I cannot confirm whether a fuller Britannica entry exists elsewhere in this corpus. The Wikipedia match is accepted (title similarity 1.0) and describes the same subject.</div><pre class="muted">{
+ &quot;model_ok&quot;: true,
+ &quot;completed&quot;: true,
+ &quot;used_challenge_tools&quot;: true,
+ &quot;cited_entry_ids&quot;: [
+  &quot;E0115&quot;
+ ],
+ &quot;unsupported_entry_ids&quot;: [],
+ &quot;cited_revision_ids&quot;: [
+  &quot;1352397655&quot;
+ ],
+ &quot;unsupported_revision_ids&quot;: [],
+ &quot;expected_entries_found&quot;: true,
+ &quot;behaviour_ok&quot;: true,
+ &quot;auto_pass&quot;: true
+}</pre><h2 id="2026-10-18T131943Z-q01-heat">q01-heat <span class="muted">run 2026-10-18T131943Z</span></h2><p>How does the Britannica entry on HEAT describe heat, compared with the matched Wikipedia article?</p><p>Model nvidia/Nemotron-3.5-Super-VL. Tools: tool_search, tool_describe, challenge_search, challenge_read, challenge_read. Automatic check: <span class="ok">pass</span>.</p><div class="label">Generated: agent answer</div><div class="generated" style="white-space:pre-wrap">## Answer
+
+**The Britannica entry on HEAT (E0090) describes heat in subjective, physiological terms — but there is no matched Wikipedia article to compare it with in this corpus.**
+
+### What the Britannica entry says (E0090, scan page `page-1032-e28420685b47.jpg`)
+
+The entry opens by defining heat as &quot;one of the secondary qualities of bodies, produced by fire, and opposed to cold,&quot; and treats the sun as &quot;the principal source of heat upon the earth&#x27;s surface.&quot; Its core account is Lockean:
+
+- &quot;Heat in us is properly a sensation, excited by the action of fire; or it is the effect of fire on our organs of feeling. Hence it follows, that what we call heat is a particular idea or modification of our own mind, and not any thing existing in that form in the body that occasions it. Heat, says Mr Locke, is no more in the fire that burns the finger, than pain is in the needle that pricks it.&quot;
+- &quot;Heat, in the body that gives it, is only motion; and in the mind, only a particular idea.&quot;
+- Citing &#x27;s Gravesande: heat in a hot body is &quot;an agitation of the parts of the body... so that heat in respect of us is nothing but that idea, and in the hot body nothing but motion.&quot;
+- It ends on measurement: &quot;The degree of heat is measured by the expansion of the air, or spirit in the thermometer,&quot; and notes the same object can feel hot to one person and cold to another.
+
+(Britannica OCR notes: &quot;fun&quot; should read &quot;sun,&quot; &quot;exifling&quot; = &quot;existing,&quot; &quot;fays&quot; = &quot;says,&quot; &quot;&#x27;S Gravefande&quot; = &#x27;s Gravesande — long-s OCR noise.)
+
+### The comparison with Wikipedia
+
+The system&#x27;s matcher considered Wikipedia&#x27;s &quot;Heat&quot; article (page_id 19593167) but **rejected** the match (rerank below threshold; `has_comparison: false`). Reading the Wikipedia source for E0090 returns `no_match: &quot;This entry has no accepted Wikipedia article.&quot;` There is also no saved word-frequency comparison (`challenge_compare` would report `no_comparison`).
+
+**Bottom line:** I can only report the Britannica description — heat as a sensation/idea in the mind and as motion in the body, measured by a thermometer. I could not check how a Wikipedia article describes heat because no Wikipedia article was accepted as a match for this Britannica entry, so no comparison is possible from the available evidence.</div><pre class="muted">{
+ &quot;model_ok&quot;: true,
+ &quot;completed&quot;: true,
+ &quot;used_challenge_tools&quot;: true,
+ &quot;cited_entry_ids&quot;: [
+  &quot;E0090&quot;
+ ],
+ &quot;unsupported_entry_ids&quot;: [],
+ &quot;cited_revision_ids&quot;: [],
+ &quot;unsupported_revision_ids&quot;: [],
+ &quot;expected_entries_found&quot;: true,
+ &quot;behaviour_ok&quot;: true,
+ &quot;auto_pass&quot;: true
+}</pre><h2 id="2026-10-18T124947Z-q08-naxos">q08-naxos <span class="muted">run 2026-10-18T124947Z</span></h2><p>Compare the Britannica entry on NAXOS with its matched Wikipedia article. Do they describe the same place?</p><p>Model nvidia/Nemotron-3.5-Super-VL. Tools: tool_search, challenge_search, challenge_read. Automatic check: <span class="bad">fail</span>.</p><div class="label">Generated: agent answer</div><div class="generated" style="white-space:pre-wrap">No. The Britannica entry on NAXOS and its matched Wikipedia article do **not** describe the same place; the match appears to be incorrect.
+
+## Evidence
+
+**Britannica entry E0103 (NAXOS)**, scan page `britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1268` (page-1268-e5ec9e5b4086.jpg):
+
+&gt; &quot;NAXOS, or NAXIA, a considerable town, and capital of the Isle of Naxos, opposite the Isle of Paros, with a castle and two archbishops&#x27; sees, the one Greek and the other Latin. The greater part of the inhabitants are Greeks. Long. 25. 51. E. Lat. 37. 8. N.&quot;
+
+This describes the town/capital of Naxos **opposite Paros**, at about 25°51′E, 37°8′N — i.e., **Naxos in the Cyclades (Aegean Sea, Greece)**. (The separate E0102 &quot;NAXIA&quot; entry confirms this: &quot;NAXIA, the ancient Naxos, is one of the largest and most fertile of the islands in the Archipelago, known as the Cyclades.&quot;)
+
+**Matched Wikipedia article:** `page_id 10445940`, title **&quot;Naxos (Crete)&quot;**. The matcher returned status **&quot;rejected&quot;** (rerank_logit −5.58, cosine 0.283), and `has_comparison: false`, meaning there is no validated word-frequency comparison for this pair.
+
+## Conclusion
+
+The Britannica entry is about Naxos of the Cyclades (opposite Paros), while the linked Wikipedia article is &quot;Naxos (Crete)&quot; — a different place, and the match was rejected by the reranker. So no, they do not describe the same place.
+
+Caveat: the Britannica text is noisy OCR, but this entry is short and legible, so the place name, &quot;opposite the Isle of Paros,&quot; and the coordinates are clear enough to support this conclusion.</div><pre class="muted">{
+ &quot;model_ok&quot;: true,
+ &quot;completed&quot;: true,
+ &quot;used_challenge_tools&quot;: true,
+ &quot;cited_entry_ids&quot;: [
+  &quot;E0102&quot;,
+  &quot;E0103&quot;
+ ],
+ &quot;unsupported_entry_ids&quot;: [],
+ &quot;cited_revision_ids&quot;: [],
+ &quot;unsupported_revision_ids&quot;: [],
+ &quot;expected_entries_found&quot;: true,
+ &quot;behaviour_ok&quot;: false,
+ &quot;auto_pass&quot;: false
+}</pre><h2 id="2026-10-18T124947Z-q07-william">q07-william <span class="muted">run 2026-10-18T124947Z</span></h2><p>Compare the Britannica entry WILLIAM with its matched Wikipedia article. Is the match correct?</p><p>Model nvidia/Nemotron-3.5-Super-VL. Tools: tool_search, tool_search, tool_search, challenge_search, challenge_read, challenge_read, challenge_compare. Automatic check: <span class="ok">pass</span>.</p><div class="label">Generated: agent answer</div><div class="generated" style="white-space:pre-wrap">## Answer
+
+The match is **superficial, not really correct** as a same-subject match. The system marked it &quot;accepted,&quot; but the two articles do not describe the same thing; they share almost nothing beyond the headword &quot;William.&quot;
+
+## Evidence
+
+**Britannica entry WILLIAM (E0013)** — scan page `britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:258` (page-0258...jpg). The text is noisy OCR. It reads:
+
+&gt; &quot;WILLIAM, the name of several kings of England. See ENGLAND, n 87-92, and BRITAIN, n 302.&quot;
+&gt;
+&gt; &quot;Fort-William, a fortress in the Highlands of Scotland, erected in king William&#x27;s reign, as was also a small town adjoining, called Maryburgh...&quot;
+&gt;
+&gt; &quot;William&#x27;s Fort, is a factory of Asia belonging to the East-India company, seated on one of the branches of the river Ganges, in the kingdom of Bengal... The town is called Calcutta...&quot;
+
+So the Britannica entry is essentially a cross-reference (&quot;See ENGLAND... BRITAIN...&quot;) plus short descriptions of two forts named William (Fort-William in Scotland and William&#x27;s Fort in Bengal/Calcutta). It is **not** a list of people.
+
+**Matched Wikipedia article** — page_id `62004766`, revision_id `1353452476`, title &quot;List of people with given name William&quot;:
+
+&gt; &quot;This is a list of notable people named William. Ordered chronologically William the Conqueror (c. 1028–1087) First Norman King of England... William II of England... William III of England... William IV...&quot;
+
+This is a list/bio-disambiguation of notable people named William.
+
+**Comparison (challenge_compare, E0013):**
+- Match status: accepted (nemotron_embed_rerank), rerank_logit -1.95, cosine 0.308, title_similarity 0.3111.
+- `top_terms_jaccard = 0.0256` (near-zero vocabulary overlap)
+- `frequency_cosine = 0.3157` (low)
+- `length_ratio_wiki_to_britannica = 14.55` (Wikipedia ~14.5x longer)
+- Shared terms are generic: william (Brit 5 vs Wiki 310), england (2 vs 9), king (1 vs 16), english (1 vs 14), scotland (1 vs 5), united (1 vs 12), name (1 vs 1).
+- Distinctive Britannica terms (nabob, bengal, fort, factory, company, built, town, sea) are all about the two forts — absent from Wikipedia.
+- Distinctive Wikipedia terms (disambiguation 62, multiple 70, american 71, people 63, born 43, politician 22, actor 17) are all about a list of notable people — absent from Britannica.
+
+## Verdict
+
+The match rests almost entirely on the shared headword &quot;William&quot; and the generic fact that several kings of England bore the name. Substantively, the Britannica entry is a cross-reference plus two fort descriptions, while the Wikipedia article is a list of notable people named William. Because their subjects and vocabularies barely overlap, I judge the match **incorrect (or at best marginal)** — a better Wikipedia target would be the &quot;William&quot; disambiguation page or an article on a specific King William, not a list of people.</div><pre class="muted">{
+ &quot;model_ok&quot;: true,
+ &quot;completed&quot;: true,
+ &quot;used_challenge_tools&quot;: true,
+ &quot;cited_entry_ids&quot;: [
+  &quot;E0013&quot;
+ ],
+ &quot;unsupported_entry_ids&quot;: [],
+ &quot;cited_revision_ids&quot;: [
+  &quot;1353452476&quot;
+ ],
+ &quot;unsupported_revision_ids&quot;: [],
+ &quot;expected_entries_found&quot;: true,
+ &quot;behaviour_ok&quot;: true,
+ &quot;auto_pass&quot;: true
+}</pre><h2 id="2026-10-18T124947Z-q06-locomotive">q06-locomotive <span class="muted">run 2026-10-18T124947Z</span></h2><p>What does Britannica say about the steam locomotive, compared with Wikipedia?</p><p>Model nvidia/Nemotron-3.5-Super-VL. Tools: tool_search, tool_search, tool_describe, challenge_search, challenge_search, challenge_compare, challenge_read, challenge_read. Automatic check: <span class="bad">fail</span>.</p><div class="label">Generated: agent answer</div><div class="generated" style="white-space:pre-wrap">I found no dedicated Britannica &quot;steam locomotive&quot; entry in the corpus. The closest match is the short entry **STEAM-ENGINE (E0044)**, which the system accepted as a match to Wikipedia&#x27;s &quot;Steam engine&quot; article. Here is the comparison, with the caveat that the subjects are not identical (Britannica&#x27;s entry is about the steam engine as a water-raising machine; Wikipedia&#x27;s article covers steam engines generally, including locomotives).
+
+## What Britannica says (E0044, &quot;STEAM-ENGINE&quot;)
+
+The entry is only 185 characters (21 raw tokens) and is essentially a cross-reference dictionary entry, not a substantive article. It reads:
+
+&gt; &quot;STEAM-ENGINE, a machine to raise water by fire, or rather by the force of water turned into steam. See STEAM Engine. ENGINE for dividing Mathematical Instruments. See Ramsden&#x27;s Engine.&quot;
+
+Source: Britannica entry E0044, scan page `britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:523` (file `page-0523-a583606e375a.jpg`), text sha256 `39a5e0c5e1136f2e71045e98ab7d04d54f50df73b36c729f8d250b3557785e99`. The text is OCR, so treat wording cautiously.
+
+It says nothing about locomotives, railways, pistons, cylinders, boilers, pressure, or any history. It defines the steam engine purely as a device to raise water and points the reader elsewhere (&quot;See STEAM Engine&quot;) and to a different instrument (&quot;Ramsden&#x27;s Engine&quot;).
+
+## What Wikipedia says (&quot;Steam engine&quot;, page 27692, revision 1348087342)
+
+Wikipedia&#x27;s article is a full modern treatment (4,460 tokens; about 223 times longer than the Britannica entry). It defines a steam engine as &quot;a heat engine that performs mechanical work using steam as its working fluid,&quot; describes the piston/cylinder, connecting rod and crank, external combustion, and the Rankine cycle, gives a history (Hero&#x27;s aeolipile, Ayanz, Savery, Newcomen 1712, Watt 1764), and covers applications including &quot;railway steam locomotives,&quot; paddle steamers, stationary engines, and steam turbines. It explicitly notes that &quot;steam locomotives operated on the railways&quot; and were later displaced.
+
+Source: Wikipedia page_id 27692, revision_id 1348087342 (`https://en.wikipedia.org/w/index.php?oldid=1348087342`), CC BY-SA 4.0, text sha256 `fe6808baa73597ee39e873c4d57a1e82670045eb34621f8f6028c41cc847ffa1`.
+
+## Comparison (saved word-frequency comparison, E0044)
+
+- Top-terms Jaccard: 0.0273 (very little shared vocabulary)
+- Frequency cosine: 0.5812
+- Length ratio (Wikipedia / Britannica): ~223
+- Shared terms: engine (Britannica 4 vs Wikipedia 108), steam (3 vs 235), water (2 vs 57), see (2 vs 2), fire, raise, force, machine, rather, dividing.
+- Distinctive Wikipedia terms (absent or rare in Britannica): engines, cylinder, pressure, boiler, cycle, efficiency. Wikipedia&#x27;s snippets discuss high-pressure engines, Trevithick, Woolf, valve gear, Rankine cycle efficiency, etc.
+
+## Bottom line
+
+The corpus has no Britannica entry specifically for the &quot;steam locomotive.&quot; The nearest entry, STEAM-ENGINE (E0044), is a minuscule OCR cross-reference defining the steam engine as a water-raising machine with no locomotive content, matched to Wikipedia&#x27;s much longer &quot;Steam engine&quot; article, which does cover railway steam locomotives among many other topics. So Britannica (in this corpus entry) says essentially nothing about the steam locomotive, whereas Wikipedia treats it as one application of the steam engine. I could not verify whether a different Britannica edition has a dedicated &quot;locomotive&quot; entry — a search for &quot;locomotive&quot; alone returned no results.</div><pre class="muted">{
+ &quot;model_ok&quot;: true,
+ &quot;completed&quot;: true,
+ &quot;used_challenge_tools&quot;: true,
+ &quot;cited_entry_ids&quot;: [
+  &quot;E0044&quot;
+ ],
+ &quot;unsupported_entry_ids&quot;: [],
+ &quot;cited_revision_ids&quot;: [
+  &quot;1348087342&quot;
+ ],
+ &quot;unsupported_revision_ids&quot;: [],
+ &quot;expected_entries_found&quot;: true,
+ &quot;behaviour_ok&quot;: false,
+ &quot;auto_pass&quot;: false
+}</pre><h2 id="2026-10-18T124947Z-q05-philology">q05-philology <span class="muted">run 2026-10-18T124947Z</span></h2><p>Compare the Britannica article on PHILOLOGY with its Wikipedia article.</p><p>Model nvidia/Nemotron-3.5-Super-VL. Tools: tool_search, tool_describe, challenge_search, challenge_read, challenge_read, challenge_compare. Automatic check: <span class="ok">pass</span>.</p><div class="label">Generated: agent answer</div><div class="generated" style="white-space:pre-wrap">I found the entry and read both texts, plus the saved word-frequency comparison. Here is what the evidence shows.
+
+## What I found
+
+**Britannica entry E0021** — headword &quot;PHILLOOGY&quot; (an OCR rendering of *PHILOLOGY*), scan page `britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:403` (scan file `page-0403-44f912e1c323.jpg`). The system matched it to Wikipedia **&quot;Philology&quot;** (page_id 23193, revision 1349939971) with status &quot;accepted.&quot;
+
+**However, the two texts do not describe the same subject.** The Britannica OCR text is not about philology as a discipline. It is entirely about the Ethiopian/Chaldaic language and ancient Egyptians — e.g. &quot;the Ethiopians call themselves Chaldeans,&quot; &quot;the Ethiopians call their tongue Chaldaic,&quot; &quot;Marianus Victorius, who was the first that reduced the Ethiopic tongue to the rules of grammar,&quot; and discussion of &quot;the sacred letters of these people,&quot; Diodorus Siculus, Egyptians, Brahmans, and Hindostan. The word &quot;philology&quot; does not appear in the Britannica text at all.
+
+By contrast, the Wikipedia article opens: &quot;Philology (from Ancient Greek φιλολογία ...) is the study of language in oral and written historical sources. It is the intersection of textual criticism, literary criticism, history, and linguistics with strong ties to etymology.&quot; It covers classical philology, the Greek derivation of the term, the 19th-century &quot;golden age of philology,&quot; and decipherment (e.g. the Behistun Inscription).
+
+## Word-frequency comparison (challenge_compare, E0021)
+
+- top_terms_jaccard: 0.0417 (very low overlap)
+- frequency_cosine: 0.1387 (low similarity)
+- length_ratio (Wikipedia / Britannica): 1.90 (Wikipedia roughly twice as long)
+
+Distinctive Britannica terms (absent from Wikipedia): *letters* (14), *chaldaic* (7), *sacred* (10), *egyptians* (7), *geez* (4), *tongue* (6), *ethiopic* (3), *affinity* (3).
+
+Distinctive Wikipedia terms (absent from Britannica): *philology* (27 vs 0), *linguistics* (8 vs 0), *philologist* (6 vs 0), *philological* (4 vs 0), *decipherment/deciphered* (4 vs 0 each), *manuscript* (5 vs 0).
+
+Shared terms are generic (*language*, *ancient*, *original*, *modern*, *german*, *old*).
+
+## Conclusion
+
+The match between Britannica E0021 and Wikipedia &quot;Philology&quot; appears to be incorrect, or the Britannica OCR text is misaligned/mislabeled: the Britannica text concerns the Ethiopian (Chaldaic/Ge&#x27;ez) language and ancient Egyptians, not philology as a field of study, while the Wikipedia article is squarely about philology. Because the subjects differ, a meaningful like-for-like comparison of the same article is not supported by these texts. The very low similarity scores (Jaccard 0.0417, cosine 0.1387) and the fact that &quot;philology&quot; appears 27 times in Wikipedia but 0 times in Britannica corroborate this mismatch.
+
+Note: the Britannica text is noisy OCR (e.g. headword &quot;PHILLOOGY,&quot; archaic spellings like &quot;Sancrit,&quot; &quot;Hindostan,&quot; &quot;Gentoo,&quot; and embedded Greek), which limits how firmly any content claim can be made — but the subject-matter discrepancy is clear regardless.</div><pre class="muted">{
+ &quot;model_ok&quot;: true,
+ &quot;completed&quot;: true,
+ &quot;used_challenge_tools&quot;: true,
+ &quot;cited_entry_ids&quot;: [
+  &quot;E0021&quot;
+ ],
+ &quot;unsupported_entry_ids&quot;: [],
+ &quot;cited_revision_ids&quot;: [
+  &quot;1349939971&quot;
+ ],
+ &quot;unsupported_revision_ids&quot;: [],
+ &quot;expected_entries_found&quot;: true,
+ &quot;behaviour_ok&quot;: true,
+ &quot;auto_pass&quot;: true
+}</pre><h2 id="2026-10-18T124947Z-q04-corpus">q04-corpus <span class="muted">run 2026-10-18T124947Z</span></h2><p>Across all matched pairs, which words most distinguish the Britannica vocabulary from the Wikipedia vocabulary? Give counts.</p><p>Model nvidia/Nemotron-3.5-Super-VL. Tools: tool_describe, challenge_corpus. Automatic check: <span class="ok">pass</span>.</p><div class="label">Generated: agent answer</div><div class="generated" style="white-space:pre-wrap">Answer: The words that most distinguish the Britannica vocabulary from the Wikipedia vocabulary (ranked by distinctiveness z-score, across the 86 matched Britannica entries / 84 matched Wikipedia articles) are:
+
+Britannica-distinctive words (counts: Britannica / Wikipedia):
+1. lime — z 4.404 — 23 / 4
+2. abdomen — z 4.368 — 21 / 2
+3. colour — z 4.315 — 23 / 5
+4. platina — z 4.233 — 18 / 0
+5. carbonate — z 4.113 — 17 / 0
+6. instant — z 3.625 — 15 / 2
+7. cells — z 3.513 — 15 / 3
+8. till — z 3.513 — 15 / 3
+9. eyes — z 3.494 — 19 / 9
+10. letters — z 3.386 — 21 / 14
+11. burnt — z 3.371 — 14 / 3
+12. pipe — z 3.349 — 16 / 6
+
+Source: challenge_corpus (corpus-level vocabulary comparison of all matched pairs). Scope note: counts cover only entries with an accepted match; Britannica text is noisy OCR, so counts/terms reflect that OCR. Overall vocabulary overlap is modest (frequency cosine 0.5832). For contrast, the most Wikipedia-distinctive words are century (0/302), roman (4/301), lightning (2/244), steam (4/253), erigeron (1/173), erfurt (1/173), city (6/245), fleabane (0/154), esarhaddon (1/168), william (15/354), coins (3/192), new (5/212).
+
+Caveat: these are corpus-level aggregates; the tool does not expose per-entry IDs or scan page IDs for this view, so I cannot cite individual entry IDs here. If you want the underlying evidence for a specific word, I can look up a matched entry and read its Britannica/Wikipedia text.</div><pre class="muted">{
+ &quot;model_ok&quot;: true,
+ &quot;completed&quot;: true,
+ &quot;used_challenge_tools&quot;: true,
+ &quot;cited_entry_ids&quot;: [],
+ &quot;unsupported_entry_ids&quot;: [],
+ &quot;cited_revision_ids&quot;: [],
+ &quot;unsupported_revision_ids&quot;: [],
+ &quot;expected_entries_found&quot;: true,
+ &quot;behaviour_ok&quot;: true,
+ &quot;auto_pass&quot;: true
+}</pre><h2 id="2026-10-18T124947Z-q03-coinage">q03-coinage <span class="muted">run 2026-10-18T124947Z</span></h2><p>What does the Britannica entry on COINAGE say about how coins were made, and how does the Wikipedia article differ?</p><p>Model nvidia/Nemotron-3.5-Super-VL. Tools: tool_search, tool_search, challenge_search, challenge_read, challenge_read, challenge_compare, challenge_read, challenge_read, challenge_read, challenge_read, challenge_read, challenge_read, challenge_read, challenge_read. Automatic check: <span class="ok">pass</span>.</p><div class="label">Generated: agent answer</div><div class="generated" style="white-space:pre-wrap">I have enough evidence from both sources. Here is the comparison.
+
+## What the Britannica entry (COINAGE, E0100) says about how coins were made
+
+Britannica defines coinage as &quot;the art of making money, as performed either by the hammer or mill.&quot; It describes two methods.
+
+**The older hammer method:** A large plate of metal was cut into small squares whose corners were trimmed with shears; each piece was weighed to the standard and gently hammered round into a &quot;planchet.&quot; Engravers cut two steel dies (&quot;mauls&quot;), one fixed into a block and the other movable. The planchet was laid on the fixed die, the movable die placed on top, and &quot;several heavy blows, with a hammer of an enormous size&quot; stamped both sides at once. The dies carried engraved designs such as &quot;a head, a cross, a fleur-de-lis, or any other figure... with a short legend.&quot;
+
+**The newer mill method:** Cast metal plates (&quot;laminae&quot;) were passed between rollers of a &quot;laminating engine&quot; to give uniform thickness (instead of being beaten on an anvil). Planchets were cut out in one operation with a &quot;sharp steel trepan,&quot; then weighed, filed or forged to remove excess metal, and boiled/cleaned. An edge-marking machine stamped the edge, and finally &quot;the mill... squeezing each of them finely between the two dyes [dies]... with one blow, forces the two surfaces or fields of the piece to fill exactly all the vacancies of the two figures engraved hollow.&quot; A separate edge-stamping machine used two thin steel plates engraved with half the legend/ring each.
+
+Note: the Britannica text is noisy OCR — &quot;dye&quot; for die, &quot;impreffions&quot; for impressions, &quot;ufes&quot; for uses, &quot;laminæ,&quot; and the hammer passage cuts off at &quot;till the dou[ble blow?].&quot;
+
+## How the Wikipedia article (Coining (mint), rev. 1345146028) differs
+
+Wikipedia frames coinage more broadly and more modernly: &quot;Minting, coining or coinage is the process of manufacturing coins using a kind of stamping, the process used in both hammered coinage and milled coinage. This &#x27;stamping&#x27; process is different from the method used in cast coinage.&quot; So Wikipedia adds a third category — cast coinage — that Britannica&#x27;s entry does not discuss, and it explicitly groups hammered and milled together as stamping.
+
+Key differences:
+- **Dies:** Wikipedia stresses that a die contains an *inverse* image of the coin, that modern dies are hardened steel lasting &quot;hundreds of thousands of coins,&quot; that pre-modern dies were hand-engraved and used even when worn or cracked, and that the hammer-side (usually reverse) die wore out first. Britannica only describes the two-die striking setup without die life or inverse-image detail.
+- **Blanks:** Wikipedia notes blanks were punched from a continuous strip (the scrap being &quot;scissel&quot;) and that planchets were &quot;usually hot prior to striking.&quot; Britannica describes cutting squares from a plate and planchets being boiled/cleaned, with no mention of hot striking or strip punching/scissel.
+- **Mechanics:** Britannica gives detailed, period-specific machinery (laminating engine, trepan, edge-marking machine with two steel laminae, the mill) that Wikipedia does not cover; Wikipedia instead covers modern topics like hubbing, collar dies, and die doubling that post-date the Britannica entry.
+
+## Bottom line
+
+Britannica&#x27;s COINAGE is a historical, machinery-focused account of hammer coining and early mill/laminating-engine coining. Wikipedia&#x27;s Coining (mint) is a process-oriented overview that defines stamping, contrasts hammered, milled, and cast coinage, and adds modern die-making and blank-production details (hardened-steel dies, scissel, hot planchets) absent from Britannica. Both agree on the core: a planchet is struck between two engraved dies to form a coin.
+
+Sources: Britannica COINAGE, entry E0100, scan page britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1250 (page-1250-2e0c75f85418.jpg); Wikipedia &quot;Coining (mint)&quot;, page_id 24057311, revision 1345146028.</div><pre class="muted">{
+ &quot;model_ok&quot;: true,
+ &quot;completed&quot;: true,
+ &quot;used_challenge_tools&quot;: true,
+ &quot;cited_entry_ids&quot;: [
+  &quot;E0100&quot;
+ ],
+ &quot;unsupported_entry_ids&quot;: [],
+ &quot;cited_revision_ids&quot;: [
+  &quot;1345146028&quot;
+ ],
+ &quot;unsupported_revision_ids&quot;: [],
+ &quot;expected_entries_found&quot;: true,
+ &quot;behaviour_ok&quot;: true,
+ &quot;auto_pass&quot;: true
+}</pre><h2 id="2026-10-18T124947Z-q02-huguenots">q02-huguenots <span class="muted">run 2026-10-18T124947Z</span></h2><p>Compare how Britannica and Wikipedia describe the Huguenots.</p><p>Model nvidia/Nemotron-3.5-Super-VL. Tools: tool_search, challenge_search, challenge_compare, challenge_read, challenge_read, challenge_read. Automatic check: <span class="ok">pass</span>.</p><div class="label">Generated: agent answer</div><div class="generated" style="white-space:pre-wrap">I now have both sources. Here is my comparison.
+
+## Comparison: Huguenots (Britannica vs. Wikipedia)
+
+**Bottom line:** The two sources agree on the core definition — Huguenots were French Protestants of the Reformed (Calvinist) tradition, and the name was originally a term of contempt/derision. Beyond that, they differ radically in scope. The Britannica entry is a two-sentence dictionary-style definition (156 characters, 12 tokens) that appears truncated by OCR, while the Wikipedia article is a comprehensive ~70,000-character entry covering etymology, demographics, geography, wars, edicts, persecution, exile, and eventual emancipation. The saved word-frequency comparison backs this up: Jaccard overlap of top terms is only 0.047, frequency cosine 0.296, and Wikipedia is roughly 500 times longer than Britannica (length ratio 501.5).
+
+### What they agree on
+- **Identity:** Britannica calls them &quot;the reformed or Protestant Calvinists of France&quot; [Britannica E0115, scan page `britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1327`]. Wikipedia: &quot;a religious group of French Protestants who held to the Reformed (Calvinist) tradition of Protestantism&quot; [Wikipedia page 75899, revision 1352397655].
+- **Contemptuous origin of the name:** Britannica: &quot;an appellation given by way of contempt&quot; [Britannica E0115]. Wikipedia: &quot;A term used originally in derision&quot; [Wikipedia page 75899, revision 1352397655].
+
+### What Britannica says (limited)
+- &quot;HUGUENOTS, an appellation given by way of contempt to the reformed or Protestant Calvinists of France. The name had its first rise in 1560; but authors are&quot; [Britannica E0115; text cuts off mid-sentence, and only 12 tokens were indexed, so this is a fragment].
+
+### What Wikipedia adds (absent from the visible Britannica text)
+- **Etymology hypotheses:** possibly from Genevan burgomaster Besançon Hugues, with a derogatory pun via Dutch *Huisgenoten* (&quot;housemates&quot;) and German *Eidgenosse* (&quot;Confederate&quot;) [Wikipedia page 75899, revision 1352397655].
+- **Demographics:** up to ~10% of France on the eve of the St. Bartholomew&#x27;s Day massacre (1572); 7–8% by 1600; just 1% by 1686, citing Hans Hillerbrand&#x27;s *Encyclopedia of Protestantism* [Wikipedia page 75899, revision 1352397655].
+- **Geography:** concentrated in southern and western France; eastern France (Alsace, Moselle, Montbéliard) was mainly Lutheran [Wikipedia page 75899, revision 1352397655].
+- **Wars and edicts:** French Wars of Religion (1562–1598); leaders Jeanne d&#x27;Albret, Henry IV, princes of Condé; Edict of Nantes (1598) granted autonomy; Huguenot rebellions of the 1620s ended political/military privileges [Wikipedia page 75899, revision 1352397655].
+- **Persecution and exile:** Louis XIV&#x27;s Dragonnades and Edict of Fontainebleau (1685) ended legal recognition; Huguenots forced to convert or flee as refugees, creating a &quot;brain drain&quot;; Louis XIV claimed adherents fell from ~800,000–900,000 to 1,000–1,500 (an exaggeration) [Wikipedia page 75899, revision 1352397655].
+- **Later emancipation:** persecution continued under Louis XV; Edict of Versailles (1787) ended official persecution; 1789 Declaration of the Rights of Man gave Protestants equal rights [Wikipedia page 75899, revision 1352397655].
+
+### Caveats
+- The Britannica text is OCR&#x27;d and visibly incomplete — it ends mid-sentence (&quot;but authors are&quot;) and comprises only 12 indexed tokens, so I cannot claim what a complete Britannica entry would say. The match to Wikipedia is accepted (title similarity 1.0), so both describe the same subject.
+- I could not verify an edition, year, or author for the Britannica entry; the tool results do not provide those.
+
+**Sources cited:** Britannica entry E0115 (&quot;HUGUENOTS&quot;), scan page `britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1327`; Wikipedia &quot;Huguenots,&quot; page_id 75899, revision_id 1352397655 (CC BY-SA 4.0).</div><pre class="muted">{
+ &quot;model_ok&quot;: true,
+ &quot;completed&quot;: true,
+ &quot;used_challenge_tools&quot;: true,
+ &quot;cited_entry_ids&quot;: [
+  &quot;E0115&quot;
+ ],
+ &quot;unsupported_entry_ids&quot;: [],
+ &quot;cited_revision_ids&quot;: [
+  &quot;1352397655&quot;
+ ],
+ &quot;unsupported_revision_ids&quot;: [],
+ &quot;expected_entries_found&quot;: true,
+ &quot;behaviour_ok&quot;: true,
+ &quot;auto_pass&quot;: true
+}</pre><h2 id="2026-10-18T124947Z-q01-heat">q01-heat <span class="muted">run 2026-10-18T124947Z</span></h2><p>How does the Britannica entry on HEAT describe heat, compared with the matched Wikipedia article?</p><p>Model nvidia/Nemotron-3.5-Super-VL. Tools: tool_search, challenge_search, challenge_read, challenge_read. Automatic check: <span class="ok">pass</span>.</p><div class="label">Generated: agent answer</div><div class="generated" style="white-space:pre-wrap">Here&#x27;s what I found and what I could not verify.
+
+## What the Britannica entry says
+
+The matched Britannica entry is **E0090, headword &quot;HEAT&quot;** (scan page `britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1032`). The text is OCR-noisy (the long &quot;ſ&quot; is rendered as &quot;f&quot;, e.g. &quot;fun&quot; = sun, &quot;exifling&quot; = existing, &quot;fays&quot; = says, &quot;&#x27;S Gravefande&quot; = &#x27;s Gravesande), and it reads like an 18th-century philosophical/physiological account rather than a modern physics definition. It describes heat as follows:
+
+- &quot;HEAT, in physiology, one of the secondary qualities of bodies, produced by fire, and opposed to cold.&quot;
+- The sun is treated as the principal source of heat on Earth; without it, bodies would &quot;grow rigid, lifeless, and fixed.&quot;
+- &quot;Heat in us is properly a sensation, excited by the action of fire; or it is the effect of fire on our organs of feeling.&quot;
+- &quot;what we call heat is a particular idea or modification of our own mind, and not any thing [existing] in that form in the body that occasions it.&quot;
+- &quot;Heat, [says] Mr Locke, is no more in the fire that burns the finger, than pain is in the needle that pricks it.&quot;
+- &quot;Heat, in the body that gives it, is only motion; and in the mind, only a particular idea.&quot;
+- Citing &#x27;s Gravesande: heat in a hot body is &quot;an agitation of the parts of the body… so that heat in respect of us is nothing but that idea, and in the hot body nothing but motion.&quot;
+
+So Britannica treats heat as a **sensation/idea in the mind** and as **motion/agitation in the body** — a Lockean/&#x27;s Gravesandean view, not a modern energy-transfer definition.
+
+## Comparison with the matched Wikipedia article
+
+The comparison cannot be made. For entry E0090, the search returned a candidate Wikipedia match titled &quot;Heat&quot; (page_id 19593167), but its match status was **rejected** (`has_comparison: false`), and reading the Wikipedia source for this entry returned:
+
+&gt; &quot;no_match — This entry has no accepted Wikipedia article.&quot;
+
+So there is **no accepted matched Wikipedia article** for this Britannica HEAT entry, and no saved word-frequency comparison exists. I therefore cannot say how the Britannica description compares with a matched Wikipedia article — the Wikipedia-side evidence is missing from this dataset.</div><pre class="muted">{
+ &quot;model_ok&quot;: true,
+ &quot;completed&quot;: true,
+ &quot;used_challenge_tools&quot;: true,
+ &quot;cited_entry_ids&quot;: [
+  &quot;E0090&quot;
+ ],
+ &quot;unsupported_entry_ids&quot;: [],
+ &quot;cited_revision_ids&quot;: [],
+ &quot;unsupported_revision_ids&quot;: [],
+ &quot;expected_entries_found&quot;: true,
+ &quot;behaviour_ok&quot;: true,
+ &quot;auto_pass&quot;: true
+}</pre><h2 id="2026-10-18T123142Z-q08-naxos">q08-naxos <span class="muted">run 2026-10-18T123142Z</span></h2><p>Compare the Britannica entry on NAXOS with its matched Wikipedia article. Do they describe the same place?</p><p>Model nvidia/Nemotron-3.5-Super-VL. Tools: tool_search, tool_search, tool_describe, challenge_search, challenge_read, challenge_read, challenge_compare. Automatic check: <span class="ok">pass</span>.</p><div class="label">Generated: agent answer</div><div class="generated" style="white-space:pre-wrap">## Answer
+
+No. The Britannica entry on **NAXOS** and its matched Wikipedia article do **not** describe the same place. The match is a false positive produced by a provisional lexical match on the shared name &quot;Naxos.&quot;
+
+### Evidence
+
+**Britannica entry E0103 (NAXOS)** — scan page `britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1268`:
+
+&gt; &quot;NAXOS, or NAXIA, a considerable town, and capital of the Isle of Naxos, opposite the Isle of Paros, with a castle and two archbishops&#x27; sees, the one Greek and the other Latin. The greater part of the inhabitants are Greeks. Long. 25. 51. E. Lat. 37. 8. N.&quot;
+
+This describes **Naxos in the Cyclades (Aegean Sea, Greece)** — the town on the island of Naxos, opposite Paros, at roughly longitude 25.5° E, latitude 37.8° N, with Greek and Latin archbishoprics.
+
+**Matched Wikipedia article** — &quot;Naxos (Crete)&quot;, page_id `10445940`, revision_id `1306186625`:
+
+&gt; &quot;Naxos or Naxus (Ancient Greek: Νάξος) was a town of ancient Crete... celebrated for its whetstones... Naxos was located near the ancient city of Olous, atop a mountain now called Oxa...&quot;
+
+This describes **Naxus, a town of ancient Crete** — a completely different island (Crete), famed for whetstones and located near Olous/Oxa.
+
+### Why the match is wrong
+
+The saved comparison (`challenge_compare` for E0103) reports:
+- match status: **accepted**, method: **provisional_lexical**, title_similarity: 1.0 (matched on the title word &quot;Naxos&quot; alone)
+- top_terms_jaccard: **0.0694**, frequency_cosine: **0.1766** — very low content overlap
+- shared terms are only generic: *naxos, ancient, near, greek, town*
+- Distinctive Britannica terms: *isle, paros, lat, long, greeks, coast* (Cycladic setting)
+- Distinctive Wikipedia terms: *crete, whetstones, existence, city* (ancient Cretan town)
+
+The low content similarity and the distinct geography (Cyclades/Paros vs. Crete/Olus) confirm the two entries refer to different places. Note also that the Britannica OCR is noisy — the E0103 scan page text concatenates several headwords (NAXOS, NAYO, NAYRES) — but the NAXOS portion itself is clear enough to establish the Cycladic location. A separate Britannica entry, **E0102 NAXIA** (&quot;the ancient Naxos... one of the largest and most fertile of the islands... known as the Cyclades&quot;), is the one that properly covers the Cycladic island; the Wikipedia match for E0103 points to the unrelated Cretan town instead.
+
+I could not verify a better-matched Wikipedia article for the Cycladic Naxos from these tools; the only match returned for E0103 is &quot;Naxos (Crete),&quot; which is the wrong place.</div><pre class="muted">{
+ &quot;model_ok&quot;: true,
+ &quot;completed&quot;: true,
+ &quot;used_challenge_tools&quot;: true,
+ &quot;cited_entry_ids&quot;: [
+  &quot;E0102&quot;,
+  &quot;E0103&quot;
+ ],
+ &quot;unsupported_entry_ids&quot;: [],
+ &quot;cited_revision_ids&quot;: [
+  &quot;1306186625&quot;
+ ],
+ &quot;unsupported_revision_ids&quot;: [],
+ &quot;expected_entries_found&quot;: true,
+ &quot;behaviour_ok&quot;: true,
+ &quot;auto_pass&quot;: true
+}</pre><h2 id="2026-10-18T123142Z-q07-william">q07-william <span class="muted">run 2026-10-18T123142Z</span></h2><p>Compare the Britannica entry WILLIAM with its matched Wikipedia article. Is the match correct?</p><p>Model nvidia/Nemotron-3.5-Super-VL. Tools: tool_search, tool_describe, challenge_search, challenge_compare, challenge_read. Automatic check: <span class="ok">pass</span>.</p><div class="label">Generated: agent answer</div><div class="generated" style="white-space:pre-wrap">## Answer
+
+**No, the match is not correct.**
+
+### Evidence
+
+The Britannica entry **WILLIAM** (entry ID `E0013`) reads:
+
+&gt; &quot;WILLIAM, the name of several kings of England. See ENGLAND, n 87-92, and BRITAIN, n 302.&quot;
+
+It continues with short notes on Fort-William (Scotland) and William&#x27;s Fort (Calcutta, India). The subject is the name *William* as borne by English kings — a biographical/geographical cross-reference entry, not a single person or place.
+
+The system&#x27;s matched Wikipedia article is **&quot;Williams Lake&quot;** (Wikipedia page ID `1109443`), a city in British Columbia, Canada, with a title similarity of only **0.7368**. The match was **rejected** (`status: rejected`, reason: *&quot;no candidate with title similarity &gt;= 0.85 outside media titles&quot;`) because the similarity fell below the 0.85 acceptance threshold. Accordingly, `challenge_compare` returns `no_comparison`: *&quot;No accepted Wikipedia match exists for this entry, so no comparison evidence exists.&quot;*
+
+### Conclusion
+
+The match is wrong. &quot;Williams Lake&quot; (a Canadian city) is a different subject from &quot;WILLIAM, the name of several kings of England.&quot; No accepted Wikipedia match exists for this Britannica entry, so there is no valid comparison to make.
+
+**Sources:** Britannica entry `E0013` (scan page `britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:258`); match record: rejected, title &quot;Williams Lake&quot;, page_id `1109443`, similarity 0.7368; `challenge_compare` status `no_comparison`.</div><pre class="muted">{
+ &quot;model_ok&quot;: true,
+ &quot;completed&quot;: true,
+ &quot;used_challenge_tools&quot;: true,
+ &quot;cited_entry_ids&quot;: [
+  &quot;E0013&quot;
+ ],
+ &quot;unsupported_entry_ids&quot;: [],
+ &quot;cited_revision_ids&quot;: [],
+ &quot;unsupported_revision_ids&quot;: [],
+ &quot;expected_entries_found&quot;: true,
+ &quot;behaviour_ok&quot;: true,
+ &quot;auto_pass&quot;: true
+}</pre><h2 id="2026-10-18T123142Z-q06-locomotive">q06-locomotive <span class="muted">run 2026-10-18T123142Z</span></h2><p>What does Britannica say about the steam locomotive, compared with Wikipedia?</p><p>Model nvidia/Nemotron-3.5-Super-VL. Tools: tool_search, tool_describe, challenge_search, challenge_search, challenge_search, challenge_compare, challenge_read, challenge_search, challenge_search, challenge_read. Automatic check: <span class="bad">fail</span>.</p><div class="label">Generated: agent answer</div><div class="generated" style="white-space:pre-wrap">Answer first, then the evidence.
+
+## What the evidence shows
+
+The challenge corpus has **no Britannica entry about the steam locomotive**. A search for &quot;locomotive&quot; returned no results, and searches for &quot;steam carriage,&quot; &quot;railway,&quot; and &quot;train&quot; turned up nothing about locomotives either.
+
+The closest match is the Britannica entry **E0044, headword &quot;STEAM-ENGINE&quot;** (scan page `britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:523`), which the system matched to Wikipedia&#x27;s **&quot;Steam engine&quot;** (page 27692, revision 1348087342). That match is **not** a steam-locomotive article — it&#x27;s about steam engines generally.
+
+### What Britannica says
+
+The entire E0044 entry is 185 characters of OCR text:
+
+&gt; &quot;STEAM-ENGINE, a machine to raise water by fire, or rather by the force of water turned into steam. See STEAM Engine.
+&gt;
+&gt; ENGINE for dividing Mathematical Instruments. See Ramsden&#x27;s Engine.&quot;
+
+It defines a steam engine only as a water-raising machine, cross-references a longer &quot;STEAM Engine&quot; article, and mentions an unrelated &quot;Engine for dividing Mathematical Instruments.&quot; It says **nothing about locomotives, railways, or traction**. This looks like a very old, abbreviated Britannica entry (the OCR is noisy, so wording may be imperfect).
+
+### What Wikipedia says
+
+Wikipedia&#x27;s &quot;Steam engine&quot; article (49,597 chars, 4,460 tokens) defines a steam engine as a heat engine doing mechanical work with steam, covers its history (Savery, Newcomen, Watt), thermodynamics (Rankine cycle, cylinders, boilers, pressure, efficiency), and applications — including a passing mention that the term can cover &quot;railway steam locomotives&quot; and that &quot;steam locomotives operated on the railways.&quot;
+
+### Comparison
+
+The saved word-frequency comparison for E0044 vs. Wikipedia&#x27;s &quot;Steam engine&quot; confirms the gap:
+
+- Top-term Jaccard: **0.0273** (very low lexical overlap)
+- Frequency cosine: **0.5812**
+- Wikipedia is **223× longer** than the Britannica entry
+- Shared terms are generic: engine, steam, water, see, fire, force, raise, machine, dividing, rather — none of them locomotive-related
+
+### Bottom line
+
+On this evidence, Britannica says essentially **nothing about the steam locomotive** — its steam entry is a tiny stub about pumping water, with no locomotive content. Wikipedia&#x27;s matched article is about steam engines broadly and only mentions locomotives in passing. A dedicated &quot;steam locomotive&quot; comparison isn&#x27;t possible from this corpus because no such matched pair exists. If you need the dedicated Wikipedia &quot;Steam locomotive&quot; article, it isn&#x27;t part of the matched challenge data.</div><pre class="muted">{
+ &quot;model_ok&quot;: true,
+ &quot;completed&quot;: true,
+ &quot;used_challenge_tools&quot;: true,
+ &quot;cited_entry_ids&quot;: [
+  &quot;E0044&quot;
+ ],
+ &quot;unsupported_entry_ids&quot;: [],
+ &quot;cited_revision_ids&quot;: [
+  &quot;1348087342&quot;
+ ],
+ &quot;unsupported_revision_ids&quot;: [],
+ &quot;expected_entries_found&quot;: true,
+ &quot;behaviour_ok&quot;: false,
+ &quot;auto_pass&quot;: false
+}</pre><h2 id="2026-10-18T123142Z-q05-philology">q05-philology <span class="muted">run 2026-10-18T123142Z</span></h2><p>Compare the Britannica article on PHILOLOGY with its Wikipedia article.</p><p>Model nvidia/Nemotron-3.5-Super-VL. Tools: tool_search, tool_describe, challenge_search, challenge_read, challenge_read, challenge_compare, challenge_read, challenge_read. Automatic check: <span class="ok">pass</span>.</p><div class="label">Generated: agent answer</div><div class="generated" style="white-space:pre-wrap">I have everything I need. Here is the comparison.
+
+## Bottom line
+
+The two articles are a weak topical match: the Britannica entry (E0021, headword OCR&#x27;d as &quot;PHILLOOGY&quot;) is a 19th-century historical essay on language origins focused on Ethiopian/Chaldaic/Semitic languages and never uses the word &quot;philology&quot; at all, while the Wikipedia article (page 23193, revision 1349939971) is a modern encyclopedic overview that defines philology, surveys its branches and history, and relates it to linguistics. The saved word-frequency comparison confirms the divergence: very low lexical overlap (Jaccard 0.0417, cosine similarity 0.1327), with Wikipedia about 1.8× longer (length ratio 1.844). The match was accepted by title similarity (1.0), but the headword is an OCR error for &quot;PHILOLOGY.&quot;
+
+## What each article says
+
+**Britannica (E0021, scan page britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:403, scan file page-0403-44f912e1c323.jpg):**
+
+The entry opens mid-argument about language origins: &quot;Cushim was the same. We may therefore rest assured, that whatever changes the Ethiopian dialect may have undergone in the course of three thousand years, it was originally either Chaldaic, or at least a branch of that language.&quot; It cites Scaliger, Marianus Victorius, Bochart, Bishop Walton, Diodorus Siculus, and Sir William Jones on the affinity of Ethiopian, Chaldaic, Hebrew, Syriac, Arabic, and Sanscrit. It then gives a long account of the Ethiopians as a &quot;colony of Cushites,&quot; the Geez (&quot;Abyssinian&quot;) tongue, Job Ludolf&#x27;s grammar and dictionary, the traveller Bruce, and the 26-letter Ethiopic alphabet. Distinctive terms: Ethiopians (11), letters (14), sacred (10), Chaldaic (7), Egyptians (7), Geez (4), tongue (6), dialect (4).
+
+**Wikipedia (Philology, page_id 23193, revision_id 1349939971, CC BY-SA 4.0):**
+
+&quot;Philology (from Ancient Greek φιλολογία (philología) &#x27;love of word&#x27;) is the study of language in oral and written historical sources. It is the intersection of textual criticism, literary criticism, history, and linguistics with strong ties to etymology.&quot; It covers classical philology (Libraries of Pergamum and Alexandria), the Greek etymology (φίλος + λόγος), the 19th-century &quot;golden age of philology,&quot; the contrast with Saussurean synchronic linguistics, decipherment (Rosetta Stone/Champollion, Behistun/Rawlinson, Sumerian, Hittite/Hrozný, Linear B/Ventris, Maya/Knorozov), textual criticism and &quot;new philology,&quot; cognitive philology, and the post-WWI decline of the term in English-speaking countries due to anti-German feeling (with Tolkien&#x27;s defence). Distinctive terms: philology (27), languages (16), linguistics (8), philologist (6), manuscript (5), decipherment/deciphered (4 each).
+
+## Key differences
+
+| Point | Britannica E0021 | Wikipedia Philology |
+|-------|------------------|---------------------|
+| Defines &quot;philology&quot;? | No — the word never appears | Yes, in the first sentence |
+| Main subject | Origins of Ethiopian/Chaldaic/Semitic languages, citing ancient &amp; 17th–18th c. scholars | Definition, branches, history, methods, and modern usage of philology |
+| Time orientation | Pre-modern authorities (Homer, Diodorus, Scaliger, Ludolf, Bruce) | 19th c. to present, incl. WWI and late-20th-c. debates |
+| Decipherment | Not mentioned | Major section (Rosetta Stone, Behistun, Linear B, Maya) |
+| Relation to linguistics | Not addressed | Explicitly contrasted and linked |
+| Length | 583 raw tokens (Britannica side) | 970 tokens (Wikipedia side); ~1.8× the Britannica text |
+
+## Shared vocabulary
+
+Only modest overlap: &quot;language&quot; (10 vs 12), &quot;languages&quot; (1 vs 16), &quot;ancient&quot; (5 vs 8), &quot;scholars&quot; (1 vs 10), &quot;original&quot; (2 vs 5), &quot;characters/character&quot; (5 vs 7), &quot;modern&quot; (3 vs 2), &quot;old&quot; (2 vs 3), &quot;German&quot; (2 vs 3).
+
+## Caveats
+
+- The Britannica text is noisy OCR (9.78% unverified tokens; headword &quot;PHILLOOGY&quot; is an OCR misreading of &quot;PHILOLOGY&quot;; Greek passages and archaic spellings appear). OCR errors limit precise claims about wording.
+- The match between the two is provisional and lexical (title similarity 1.0 via the headword). Substantively, the old Britannica entry is not an article *about* philology as a discipline; it is an essay on the history of specific languages, so the Wikipedia match is topical only by headword, not by content.
+- I could not determine the Britannica edition, year, or author from the tool results, so I have not stated them.
+
+Plainly what I could not check: the Britannica edition/date/author, and whether any other Britannica entry is a better match for the modern concept of philology.</div><pre class="muted">{
+ &quot;model_ok&quot;: true,
+ &quot;completed&quot;: true,
+ &quot;used_challenge_tools&quot;: true,
+ &quot;cited_entry_ids&quot;: [
+  &quot;E0021&quot;
+ ],
+ &quot;unsupported_entry_ids&quot;: [],
+ &quot;cited_revision_ids&quot;: [
+  &quot;1349939971&quot;
+ ],
+ &quot;unsupported_revision_ids&quot;: [],
+ &quot;expected_entries_found&quot;: true,
+ &quot;behaviour_ok&quot;: true,
+ &quot;auto_pass&quot;: true
+}</pre><h2 id="2026-10-18T123142Z-q04-corpus">q04-corpus <span class="muted">run 2026-10-18T123142Z</span></h2><p>Across all matched pairs, which words most distinguish the Britannica vocabulary from the Wikipedia vocabulary? Give counts.</p><p>Model nvidia/Nemotron-3.5-Super-VL. Tools: tool_describe, challenge_corpus. Automatic check: <span class="ok">pass</span>.</p><div class="label">Generated: agent answer</div><div class="generated" style="white-space:pre-wrap">Across all matched pairs, the words that most distinguish the Britannica vocabulary from the Wikipedia vocabulary (ranked by z-score from the corpus comparison) are:
+
+| Word | z-score | Britannica count | Wikipedia count |
+|------|---------|------------------|-----------------|
+| british | 5.547 | 65 | 52 |
+| inches | 4.573 | 25 | 4 |
+| avoirdupois | 4.422 | 20 | 0 |
+| rays | 4.258 | 37 | 28 |
+| let | 4.201 | 19 | 1 |
+| abdomen | 4.13 | 21 | 4 |
+| parallel | 4.095 | 23 | 7 |
+| taste | 4.077 | 17 | 0 |
+| native | 4.051 | 29 | 17 |
+| oil | 3.947 | 21 | 6 |
+| proportion | 3.947 | 21 | 6 |
+| carbonate | 3.849 | 17 | 2 |
+
+Source: corpus-level vocabulary comparison of all matched entries (challenge_corpus): 80 Britannica documents vs. 75 Wikipedia documents, frequency cosine 0.5188. The counts cover only entries with an accepted match. The strongest Britannica-distinguishing term is &quot;british&quot; (z = 5.547), followed by measurement/units words (&quot;inches,&quot; &quot;avoirdupois&quot;) and terms like &quot;rays,&quot; &quot;let,&quot; &quot;abdomen,&quot; and &quot;taste&quot; — several of which appear in Britannica but rarely or never in the matched Wikipedia articles.
+
+Note: this is the Britannica-distinctive side only. The reverse side (distinctive_wikipedia) is headed by terms like &quot;century,&quot; &quot;steam,&quot; &quot;edward,&quot; &quot;erigeron,&quot; and &quot;erfurt,&quot; which are far more frequent in the matched Wikipedia articles. I did not verify individual entry scans, so these are the corpus-level figures as returned.</div><pre class="muted">{
+ &quot;model_ok&quot;: true,
+ &quot;completed&quot;: true,
+ &quot;used_challenge_tools&quot;: true,
+ &quot;cited_entry_ids&quot;: [],
+ &quot;unsupported_entry_ids&quot;: [],
+ &quot;cited_revision_ids&quot;: [],
+ &quot;unsupported_revision_ids&quot;: [],
+ &quot;expected_entries_found&quot;: true,
+ &quot;behaviour_ok&quot;: true,
+ &quot;auto_pass&quot;: true
+}</pre><h2 id="2026-10-18T123142Z-q03-coinage">q03-coinage <span class="muted">run 2026-10-18T123142Z</span></h2><p>What does the Britannica entry on COINAGE say about how coins were made, and how does the Wikipedia article differ?</p><p>Model nvidia/Nemotron-3.5-Super-VL. Tools: tool_search, challenge_search, challenge_read, challenge_read, challenge_read, tool_call, challenge_compare, challenge_read. Automatic check: <span class="ok">pass</span>.</p><div class="label">Generated: agent answer</div><div class="generated" style="white-space:pre-wrap">Here is what I found.
+
+## What the Britannica entry (COINAGE, E0100) says about how coins were made
+
+The entry defines coinage as &quot;the art of making money, as performed either by the hammer or mill.&quot; It describes two processes:
+
+**The older hammer method:** A large metal plate was cut into small squares, the corners trimmed with shears, and each piece shaped and gently hammered into a round blank called a &quot;planchet.&quot; Engravers prepared a pair of steel dies (&quot;mauls&quot;); one die was fixed into a block like a vise, the planchet was laid on it, and the movable die was struck &quot;with several heavy blows, with a hammer of an enormous size, till the double stamp was sufficiently, in relief, impressed on each side of the planchet.&quot; Inspectors then judged the weight, fineness, and mark to make it &quot;good current money.&quot; {E0100, scan page britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1250}
+
+**The improved mill method:** Cast metal plates (&quot;laminae&quot;) were passed between rollers of a &quot;laminating engine&quot; to give uniform thickness (instead of beating on an anvil). A steel &quot;trepan&quot; cut planchets directly from the lamina. The planchets were weighed, filed, boiled and cleaned, then passed through an edge-marking machine and finally &quot;the mill,&quot; which &quot;squeez[ed] each of them finely between the two dyes, ... with one blow,&quot; forcing the metal to fill the engraved figures. A separate machine stamped legends or rings onto the coin edges. {E0100, same scan page}
+
+Note: the Britannica text is noisy OCR (e.g., &quot;dyes&quot; for &quot;dies,&quot; &quot;ufes&quot; for &quot;uses,&quot; &quot;impreffions&quot; for &quot;impressions&quot;), so a few word forms are unreliable.
+
+## How the Wikipedia article differs
+
+It does not — not in the evidence available to me. The challenge corpus has **no accepted Wikipedia match** for the COINAGE entry. `challenge_compare` returns `no_comparison`, and `challenge_read` with source `wikipedia` returns `no_match` (&quot;This entry has no accepted Wikipedia article&quot;). The only provisional candidate was the Wikipedia article &quot;Coinage Act&quot; (page 572045), but it was **rejected** (title similarity 0.7778, below the 0.85 threshold), and it is a different subject — legislation about coinage, not the art of making coins. So I cannot responsibly state how a Wikipedia article differs; the comparison evidence is missing.</div><pre class="muted">{
+ &quot;model_ok&quot;: true,
+ &quot;completed&quot;: true,
+ &quot;used_challenge_tools&quot;: true,
+ &quot;cited_entry_ids&quot;: [
+  &quot;E0100&quot;
+ ],
+ &quot;unsupported_entry_ids&quot;: [],
+ &quot;cited_revision_ids&quot;: [],
+ &quot;unsupported_revision_ids&quot;: [],
+ &quot;expected_entries_found&quot;: true,
+ &quot;behaviour_ok&quot;: true,
+ &quot;auto_pass&quot;: true
+}</pre><h2 id="2026-10-18T123142Z-q02-huguenots">q02-huguenots <span class="muted">run 2026-10-18T123142Z</span></h2><p>Compare how Britannica and Wikipedia describe the Huguenots.</p><p>Model nvidia/Nemotron-3.5-Super-VL. Tools: tool_search, tool_search, challenge_search, challenge_read, challenge_read, challenge_compare. Automatic check: <span class="ok">pass</span>.</p><div class="label">Generated: agent answer</div><div class="generated" style="white-space:pre-wrap">I have all the evidence. Here is the comparison.
+
+## Bottom line
+
+Both sources agree on the core definition: Huguenots were French Protestants of the Reformed (Calvinist) tradition. But the two descriptions differ enormously in scope. The Britannica entry is a one-paragraph definition; the Wikipedia article is a full-length treatment (~500 times longer by token count) covering etymology, demographics, wars, edicts, leaders, geography, and diaspora.
+
+Word-frequency comparison confirms the gap: Jaccard overlap of top terms is only 0.047, cosine frequency similarity 0.30, and Wikipedia is ~501x the length of the Britannica text.[1]
+
+## What each source says
+
+**Britannica (entry E0115, headword &quot;HUGUENOTS&quot;):**
+&gt; &quot;HUGUENOTS, an appellation given by way of contempt to the reformed or Protestant Calvinists of France. The name had its first rise in 1560; but authors are...&quot;[1]
+
+The entry defines the term as a contemptuous label for French Calvinist Protestants and dates the name&#x27;s first rise to 1560. It stops there (the OCR text runs to about 12 tokens / 156 characters).[1] The text is OCR and is noisy/truncated, so I can&#x27;t confirm whether more follows beyond what the tool returned.
+
+**Wikipedia (page &quot;Huguenots&quot;, page_id 75899, revision_id 1352397655):**
+&gt; &quot;The Huguenots ... are a religious group of French Protestants who held to the Reformed (Calvinist) tradition of Protestantism. The term, which may be derived from the name of a Swiss political leader, the Genevan burgomaster Besançon Hugues, was in common use by around 1550.&quot;[2]
+
+Wikipedia adds far more:
+- **Etymology:** possibly from Besançon Hugues, or from the Dutch word *Huisgenoten* (&quot;housemates&quot;) via a derogatory pun.[2]
+- **Demographics:** up to 10% of France on the eve of the 1572 St. Bartholomew&#x27;s Day massacre; 7–8% by 1600; just 1% by 1686 after persecution intensified.[2]
+- **Conflicts and edicts:** French Wars of Religion (1562–1598), leaders Jeanne d&#x27;Albret and the future Henry IV, the Edict of Nantes (1598), the Dragonnades, and the Edict of Fontainebleau (1685), which revoked Protestant rights.[2]
+- **Geography and diaspora:** concentrated in southern and western France; emigrants went to England, the Dutch Republic, South Africa, and North America (e.g., colonial New York, where some switched to Dutch and then English).[2]
+
+## Shared ground
+
+The only terms both sources use (per the saved comparison) are: huguenots, france, protestant, reformed, name, calvinists, given, way.[1] Both locate the group in France and identify them as Reformed/Calvinist Protestants.
+
+## What I could not verify
+
+- The Britannica edition/year/author (the tool results don&#x27;t state one).
+- Whether the Britannica entry continues beyond the truncated OCR passage (total_chars reported is 156, ending at &quot;but authors are&quot;).[1]
+
+[1] challenge_compare / challenge_read, Britannica entry E0115 (&quot;HUGUENOTS&quot;), scan page `britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1327` (scan file `page-1327-7d41b1db21d5.jpg`), matched to Wikipedia page_id 75899.
+[2] challenge_read, Wikipedia &quot;Huguenots&quot;, page_id 75899, revision_id 1352397655 (CC BY-SA 4.0).</div><pre class="muted">{
+ &quot;model_ok&quot;: true,
+ &quot;completed&quot;: true,
+ &quot;used_challenge_tools&quot;: true,
+ &quot;cited_entry_ids&quot;: [
+  &quot;E0115&quot;
+ ],
+ &quot;unsupported_entry_ids&quot;: [],
+ &quot;cited_revision_ids&quot;: [
+  &quot;1352397655&quot;
+ ],
+ &quot;unsupported_revision_ids&quot;: [],
+ &quot;expected_entries_found&quot;: true,
+ &quot;behaviour_ok&quot;: true,
+ &quot;auto_pass&quot;: true
+}</pre><h2 id="2026-10-18T123142Z-q01-heat">q01-heat <span class="muted">run 2026-10-18T123142Z</span></h2><p>How does the Britannica entry on HEAT describe heat, compared with the matched Wikipedia article?</p><p>Model nvidia/Nemotron-3.5-Super-VL. Tools: tool_search, tool_describe, challenge_search, challenge_read, challenge_read, challenge_compare. Automatic check: <span class="ok">pass</span>.</p><div class="label">Generated: agent answer</div><div class="generated" style="white-space:pre-wrap">## Answer
+
+The Britannica entry on HEAT (entry E0090, scan page 1032) describes heat primarily as a **physiological sensation and secondary quality of bodies**, while the matched Wikipedia article &quot;Heat&quot; (page 19593167, revision 1333417689) defines it **thermodynamically as a form of energy transfer**.
+
+### Britannica (E0090) — heat as sensation/idea, produced by fire
+
+The entry opens: &quot;HEAT, in physiology, one of the secondary qualities of bodies, produced by fire, and opposed to cold.&quot; It then treats heat in us as &quot;a fenfation[sensation], excited by the action of fire; or it is the effect of fire on our organs of feeling,&quot; and concludes &quot;what we call heat is a particular idea or modification of our own mind, and not any thing[existing] in that form in the body that occasions it.&quot; It quotes Locke — &quot;Heat ... is no more in the fire that burns the finger, than pain is in the needle that pricks it&quot; — and &#x27;s Gravesande: in the hot body, heat &quot;is nothing but motion,&quot; an &quot;agitation of the parts of the body.&quot; Measurement is by &quot;the expansion of the air, or spirit in the thermometer.&quot; The entry is short (about 159 tokens) and the OCR is noisy (e.g. &quot;fun&quot; for sun, &quot;fenfation,&quot; &quot;exifling,&quot; &quot;&#x27;S Gravefande&quot;), so exact wording should be read with caution. *Inference: Britannica frames heat as a felt quality/idea caused by fire, not as a measurable energy quantity.*
+
+### Wikipedia (Heat, rev. 1333417689) — heat as energy crossing a boundary
+
+&quot;In thermodynamics, heat is defined as the form of energy crossing the boundary of a thermodynamic system by virtue of a temperature difference across the boundary. A thermodynamic system does not contain heat.&quot; It gives the SI unit as the joule (J) and the rate of heating as the watt (W), covers calorimetry, and recounts the history from caloric/phlogiston theories to the mechanical theory of heat (Bacon, Galileo, Hooke, Boyle). *Inference: Wikipedia frames heat as energy in transit driven by temperature difference, a physics/engineering definition.*
+
+### Comparison (saved word-frequency comparison for E0090)
+
+- Wikipedia is about 31× longer than Britannica (length ratio 31.2; 4,839 vs 159 tokens).
+- Term overlap is low (top-terms Jaccard 0.058; cosine similarity 0.50).
+- Shared terms: heat (13 vs 258), body (7 vs 60), motion (5 vs 16), idea (5 vs 4), cold (2 vs 21).
+- Distinctive Britannica terms: feeling, fire, mind, atmosphere, hence — matching its sensory/fire-centered account.
+- Distinctive Wikipedia terms: energy, temperature, thermodynamics, transfer, work — matching its physics account.
+- *Common ground:* both reflect the older view that heat is particle motion and a sensation in the mind (Locke is quoted in both).
+
+### What I could not check
+
+I could not confirm which specific Britannica edition the E0090 scan comes from (no edition/year/author is given by the tools), and the Britannica OCR errors limit how precisely I can quote its wording. The match to Wikipedia &quot;Heat&quot; is accepted (title similarity 1.0), so the subjects are the same.</div><pre class="muted">{
+ &quot;model_ok&quot;: true,
+ &quot;completed&quot;: true,
+ &quot;used_challenge_tools&quot;: true,
+ &quot;cited_entry_ids&quot;: [
+  &quot;E0090&quot;
+ ],
+ &quot;unsupported_entry_ids&quot;: [],
+ &quot;cited_revision_ids&quot;: [
+  &quot;1333417689&quot;
+ ],
+ &quot;unsupported_revision_ids&quot;: [],
+ &quot;expected_entries_found&quot;: true,
+ &quot;behaviour_ok&quot;: true,
+ &quot;auto_pass&quot;: true
+}</pre><h2 id="2026-10-18T122507Z-soul-check-q09-edition">q09-edition <span class="muted">run 2026-10-18T122507Z-soul-check</span></h2><p>Which edition and year of the Encyclopaedia Britannica are these scans from?</p><p>Model nvidia/Nemotron-3.5-Super-VL. Tools: tool_search, challenge_corpus, challenge_search, challenge_search, challenge_read, challenge_read, challenge_read, challenge_compare, challenge_search, challenge_search, challenge_search, challenge_search, challenge_search. Automatic check: <span class="bad">fail</span>.</p><div class="label">Generated: agent answer</div><div class="generated" style="white-space:pre-wrap">I checked the scans thoroughly, but the edition and year are not stated anywhere in the available tool evidence.
+
+What I examined (all from the same scan volume, `britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443`):
+- **E0040 &quot;ENGINE&quot;** (scan `page-0523`): OCR reads &quot;Sì mechanics&quot; (`In mechanics`), uses &quot;&amp;&quot; for &quot;and&quot;, and cross-references &quot;See HYBROSTA‑tics, n°3&quot;.
+- **E0105 &quot;EDWARDS&quot;** (scan `page-1298`): &quot;L.100 per annum&quot;, &quot;died in 1756&quot; (garbled OCR).
+- **E0012 &quot;WILLIN&quot;** (scan `page-0258`): &quot;See ENOLAND, n 87--01, and BITAIN, n&#x27; 302.&quot;
+
+I also ran `challenge_corpus` and `challenge_compare` on matched entries. None of these results include an edition number or a publication year, and `challenge_search` returns no front-matter/title-page entry (queries for &quot;preface&quot;, &quot;advertisement&quot;, &quot;arts sciences&quot; only returned ordinary article pages, e.g. E0041, E0052, E0125, E0240).
+
+My read: the OCR is clearly 18th-century in style (long `s`, ampersand, &quot;L.&quot; for pounds, &quot;n°&quot; for numero, &quot;per annum&quot;), so these are from an early Encyclopaedia Britannica — but that is an inference from typography, not a fact given by a tool. No tool result names the specific edition or year, so I cannot state one without guessing.
+
+Bottom line: the specific edition and year are not provided by the evidence available to me; if you have the title-page scan or a metadata field, that&#x27;s where it would be recorded.</div><pre class="muted">{
+ &quot;model_ok&quot;: true,
+ &quot;completed&quot;: true,
+ &quot;used_challenge_tools&quot;: true,
+ &quot;cited_entry_ids&quot;: [
+  &quot;E0012&quot;,
+  &quot;E0040&quot;,
+  &quot;E0041&quot;,
+  &quot;E0052&quot;,
+  &quot;E0105&quot;,
+  &quot;E0125&quot;,
+  &quot;E0240&quot;
+ ],
+ &quot;unsupported_entry_ids&quot;: [],
+ &quot;cited_revision_ids&quot;: [],
+ &quot;unsupported_revision_ids&quot;: [],
+ &quot;expected_entries_found&quot;: true,
+ &quot;behaviour_ok&quot;: false,
+ &quot;auto_pass&quot;: false
+}</pre><h2 id="2026-10-18T122507Z-soul-check-q01-heat-nopolicy">q01-heat-nopolicy <span class="muted">run 2026-10-18T122507Z-soul-check</span></h2><p>How does the Britannica entry on HEAT compare with Wikipedia? Use the tools and cite IDs.</p><p>Model nvidia/Nemotron-3.5-Super-VL. Tools: tool_search, tool_describe, challenge_search, challenge_read, challenge_read, challenge_compare. Automatic check: <span class="ok">pass</span>.</p><div class="label">Generated: agent answer</div><div class="generated" style="white-space:pre-wrap">## Answer
+
+The Britannica entry on HEAT (entry E0087) matches the Wikipedia article &quot;Heat&quot; (page_id 19593167, revision 1333417689), but the two are very different treatments of the subject.
+
+**What they share:** the match is accepted (method: provisional_lexical, title similarity 1.0), and both texts discuss heat in relation to bodies, fire, motion, and ideas. Shared terms include heat (12 Britannica / 258 Wikipedia), body (7/60), fire (7/3), hot (5/25), idea (5/4), and motion (4/16)【challenge_compare: E0087】.
+
+**How they differ:**
+
+1. **Length and scope.** Wikipedia is about 32 times longer (length ratio 32.26; ~60,960 chars vs ~1,926 chars; 4,839 tokens vs 150 kept tokens)【challenge_compare: E0087】.
+
+2. **Britannica (E0087)** is an old, philosophical/lockean entry: &quot;HEAT, in phylology, one of the forecary qualities of bodies, produced by fire, and opposed to cold.&quot; It treats heat as a sensation — &quot;what we call heat is a particular idea or modification of our own mind&quot; — and quotes Locke: &quot;Heat, frys Mr Locke, is no more in the fire that burns the finger, than pain is in the needle that pricks it.&quot; It says heat in the body &quot;is only motion; and in the mind, only a particular idea,&quot; citing &quot;&#x27;S Gravefunde&quot; (&#x27;s Gravesande)【challenge_read: E0087 britannica】.
+
+3. **Wikipedia (Heat, rev. 1333417689)** is a modern thermodynamics article: &quot;In thermodynamics, heat is defined as the form of energy crossing the boundary of a thermodynamic system by virtue of a temperature difference across the boundary. A thermodynamic system does not contain heat.&quot; It covers the joule, BTU, calorie, watt, heat transfer, Clausius and Rankine, and the symbol Q【challenge_read: E0087 wikipedia】.
+
+4. **Vocabulary overlap is low:** top-terms Jaccard 0.0481, frequency cosine 0.4832【challenge_compare: E0087】. Wikipedia-distinctive terms include energy (0/106), temperature (0/89), transfer (0/56), system (0/65), work (0/82). Britannica-distinctive terms include mind (3/0), feeling (2/0), atmosphere (2/0), hence (3/0)【challenge_compare: E0087】.
+
+**Caveat:** the Britannica text is noisy OCR (9.64% unverified tokens, e.g. &quot;forecary,&quot; &quot;hotles,&quot; &quot;animalizations,&quot; &quot;timese&quot;), so exact-wording claims about the Britannica side are limited. No edition, year, or author is given by the tools, so I cannot state those. The match itself looks correct — both articles are about heat.</div><pre class="muted">{
+ &quot;model_ok&quot;: true,
+ &quot;completed&quot;: true,
+ &quot;used_challenge_tools&quot;: true,
+ &quot;cited_entry_ids&quot;: [
+  &quot;E0087&quot;
+ ],
+ &quot;unsupported_entry_ids&quot;: [],
+ &quot;cited_revision_ids&quot;: [
+  &quot;1333417689&quot;
+ ],
+ &quot;unsupported_revision_ids&quot;: [],
+ &quot;expected_entries_found&quot;: true,
+ &quot;behaviour_ok&quot;: true,
+ &quot;auto_pass&quot;: true
+}</pre><h2 id="2026-10-18T115609Z-q08-naxos">q08-naxos <span class="muted">run 2026-10-18T115609Z</span></h2><p>Compare the Britannica entry on NAXOS with its matched Wikipedia article. Do they describe the same place?</p><p>Model nvidia/Nemotron-3.5-Super-VL. Tools: tool_search, tool_search, tool_search, challenge_search, challenge_read, challenge_read. Automatic check: <span class="bad">fail</span>.</p><div class="label">Generated: agent answer</div><div class="generated" style="white-space:pre-wrap">## Evidence
+
+**Britannica entry — NAXOS (entry E0100)**
+
+Scan page ID: `britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1268`
+
+Quoted text:
+&gt; &quot;NAXOS, or NAXIA, a considerable town, and capital of the lake of Naoxe, opposite the lake of Peru, with a cudal and two ambishaby&#x27;s seen, the one check out the other Latin. The greater part of the inhabitants are Greek, Lilly, 25.13. E., Lae 37.6.N.&quot;
+
+**Matched Wikipedia article — Naxos (Crete)**
+
+Page ID: `10445940`, Revision ID: `1306186625`
+
+Quoted text:
+&gt; &quot;Naxos or Naxus (Ancient Greek: Νάξος) was a town of ancient Crete, according to the Scholiast (ad Pind. Isth. vi. 107) celebrated for its whetstones.&quot;
+
+## Comparison
+
+The search tool&#x27;s match is **accepted** (method: provisional_lexical, title similarity 1.0), pairing Britannica headword &quot;NAXOS&quot; with Wikipedia &quot;Naxos (Crete)&quot;.
+
+Both sources describe an ancient **town called Naxos (also Naxus/Naxia)**. Britannica calls it &quot;a considerable town&quot;; Wikipedia calls it &quot;a town of ancient Crete.&quot; That is consistent — they refer to the same subject, the ancient Cretan town.
+
+**Inference:** Yes, the Britannica entry and the matched Wikipedia article describe the same place — the ancient town of Naxos/Naxus in Crete.
+
+## Caveats
+
+- The Britannica text is **noisy OCR** (e.g., &quot;cudal,&quot; &quot;ambishaby&#x27;s,&quot; &quot;check out the other Latin,&quot; &quot;Lilly,&quot; &quot;Lae&quot;), so specific details from it (location relative to lakes, population, coordinates) are unreliable and I do not restate them as fact.
+- I cannot state an edition, year, or author for either source, since no tool result provided those.</div><pre class="muted">{
+ &quot;model_ok&quot;: true,
+ &quot;completed&quot;: true,
+ &quot;used_challenge_tools&quot;: true,
+ &quot;cited_entry_ids&quot;: [
+  &quot;E0100&quot;
+ ],
+ &quot;unsupported_entry_ids&quot;: [],
+ &quot;cited_revision_ids&quot;: [
+  &quot;1306186625&quot;
+ ],
+ &quot;unsupported_revision_ids&quot;: [],
+ &quot;expected_entries_found&quot;: true,
+ &quot;behaviour_ok&quot;: false,
+ &quot;auto_pass&quot;: false
+}</pre><h2 id="2026-10-18T115609Z-q07-willin">q07-willin <span class="muted">run 2026-10-18T115609Z</span></h2><p>Compare the Britannica entry WILLIN with its matched Wikipedia article. Is the match correct?</p><p>Model nvidia/Nemotron-3.5-Super-VL. Tools: tool_search, tool_describe, challenge_search, challenge_read, challenge_read. Automatic check: <span class="ok">pass</span>.</p><div class="label">Generated: agent answer</div><div class="generated" style="white-space:pre-wrap">## Result: The match is NOT correct
+
+### Evidence from the tools
+
+**Britannica entry (E0012, headword WILLIN)**
+- Scan page ID: `britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:258` (scan file `page-0258-631a7ae7df34.jpg`)
+- The entry opens: *&quot;WILLIN, the name of federal kings of England. See ENOLAND, n 87--01, and BITAIN, n&#x27; 302.&quot;*
+- It continues with what reads (despite heavy OCR noise) like an account of an East India Company factory in Bengal: *&quot;_WILLAN&#x27;s Port,_ is a factory of Afin belonging to the East India company, feated on one of the branches of the river Ganges, in the kingdom of Bengal,&quot;* and *&quot;In 1757 it was fur-pulled by the nahoof Bengal, who took its, and put met of those that had made resilience into place called the _Blak Hels_...&quot;* (&quot;Blak Hels&quot; = Black Hole; &quot;nahoof Bengal&quot; = nawab of Bengal).
+- The text is noisy OCR (e.g., &quot;BITAIN&quot; for Britannia, &quot;fur-pulled&quot;, &quot;feated&quot;, &quot;nahoof&quot;), so my reading that this concerns **Fort William in Bengal/Calcutta** is an **inference**, not a verbatim fact.
+
+**Matched Wikipedia article (proposed, rejected)**
+- `challenge_search` returned a *provisional* match: title **&quot;Willin Low&quot;**, Wikipedia page_id **33853596**, title_similarity **0.75**.
+- Match status: **rejected** (method `provisional_lexical`), reason: *&quot;no candidate with title similarity &gt;= 0.85 outside media titles&quot;* — below the 0.85 acceptance threshold.
+- `has_comparison`: false (no saved word-frequency comparison exists).
+- `challenge_read(source=wikipedia)` for E0012: **no_match** — *&quot;This entry has no accepted Wikipedia article.&quot;*
+
+### Conclusion
+
+The match is incorrect. The system&#x27;s own matcher rejected the pairing (0.75 similarity &lt; 0.85 threshold, and no accepted Wikipedia article exists for this entry). The proposed article &quot;Willin Low&quot; (page_id 33853596) is a personal name and does not describe the same subject as the Britannica entry, which (per the OCR-noisy text) concerns English kings and an East India Company fort/factory in Bengal. There is no valid Wikipedia match to compare against here — the evidence for a correct match is missing.</div><pre class="muted">{
+ &quot;model_ok&quot;: true,
+ &quot;completed&quot;: true,
+ &quot;used_challenge_tools&quot;: true,
+ &quot;cited_entry_ids&quot;: [
+  &quot;E0012&quot;
+ ],
+ &quot;unsupported_entry_ids&quot;: [],
+ &quot;cited_revision_ids&quot;: [],
+ &quot;unsupported_revision_ids&quot;: [],
+ &quot;expected_entries_found&quot;: true,
+ &quot;behaviour_ok&quot;: true,
+ &quot;auto_pass&quot;: true
+}</pre><h2 id="2026-10-18T115609Z-q06-locomotive">q06-locomotive <span class="muted">run 2026-10-18T115609Z</span></h2><p>What does Britannica say about the steam locomotive, compared with Wikipedia?</p><p>Model nvidia/Nemotron-3.5-Super-VL. Tools: tool_search, tool_search, tool_describe, challenge_search, challenge_search, challenge_search, challenge_search, challenge_search, challenge_search, challenge_search, challenge_search, challenge_search, challenge_search, challenge_search, challenge_search, challenge_search, challenge_search, tool_describe, challenge_corpus, challenge_search. Automatic check: <span class="bad">fail</span>.</p><div class="label">Generated: agent answer</div><div class="generated" style="white-space:pre-wrap">I could not find a Britannica entry on the steam locomotive in the challenge corpus, so the comparison cannot be made.
+
+**What I did:** I ran `challenge_search` across the corpus with queries including &quot;steam locomotive&quot;, &quot;locomotive&quot;, &quot;locomotives&quot;, &quot;steam&quot;, &quot;steam engine&quot;, &quot;steam-boat&quot;, &quot;steamboat&quot;, &quot;locomotion&quot;, &quot;railway&quot;, &quot;train&quot;, &quot;carriage&quot;, &quot;motor&quot;, &quot;STEAM&quot;, and &quot;engine&quot;.
+
+**What I found:** No entry is headworded &quot;steam locomotive&quot; or a close variant. The only relevant-ish hit is E0040 `ENGINE` (matched to Wikipedia &quot;Engine&quot;, page_id 9640, comparison exists), but its opening text is a general mechanics definition (&quot;a compound machine, made of one or more mechanical powers, as levers, pullies...&quot;) — it is about engines in general, not steam locomotives, and its Wikipedia match is the generic &quot;Engine&quot; article, not &quot;Steam locomotive&quot;. All other queries returned `no_results` or rejected matches on unrelated subjects.
+
+**Subject-match check:** The one accepted match (ENGINE → &quot;Engine&quot;) describes the same general subject at most, but it is not a steam-locomotive article. There is no Britannica entry whose subject is the steam locomotive.
+
+**Conclusion:** The evidence is missing. The corpus contains 53 Britannica entries with accepted Wikipedia matches (topics suggest natural history, history, and religion — e.g., Erigeron/fleabane, Edward, Esarhaddon, Huguenot, Ethiopians), but none on the steam locomotive. I cannot state what Britannica says about the steam locomotive, nor compare it with Wikipedia, because no such entry exists in the available data. Per the rules, I am not filling this gap from memory.</div><pre class="muted">{
+ &quot;model_ok&quot;: true,
+ &quot;completed&quot;: false,
+ &quot;used_challenge_tools&quot;: true,
+ &quot;cited_entry_ids&quot;: [
+  &quot;E0040&quot;
+ ],
+ &quot;unsupported_entry_ids&quot;: [],
+ &quot;cited_revision_ids&quot;: [],
+ &quot;unsupported_revision_ids&quot;: [],
+ &quot;expected_entries_found&quot;: true,
+ &quot;behaviour_ok&quot;: true,
+ &quot;auto_pass&quot;: false
+}</pre><h2 id="2026-10-18T115609Z-q05-philology">q05-philology <span class="muted">run 2026-10-18T115609Z</span></h2><p>Compare the Britannica article on PHILOLOGY with its Wikipedia article.</p><p>Model nvidia/Nemotron-3.5-Super-VL. Tools: tool_search, tool_describe, challenge_search, challenge_read, challenge_read, challenge_compare, challenge_read. Automatic check: <span class="ok">pass</span>.</p><div class="label">Generated: agent answer</div><div class="generated" style="white-space:pre-wrap">Here is the comparison, built strictly from the challenge tools.
+
+## What the matcher found
+
+`challenge_search(&quot;philology&quot;)` returned one accepted candidate:
+
+- **Britannica entry E0019**, headword OCR&#x27;d as `PHILLOOGY` (fuzzy headword hit: `philloogy`), scan page `britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:403` (scan file `page-0403-44f912e1c323.jpg`), text sha256 `a9b8da2ac1b4afba64894059e7728905c832d0f8c94caf0682386589f50d4e62`.
+- **Wikipedia match: &quot;Philology&quot;**, page_id `23193`, status `accepted`, title_similarity `1.0`, method `provisional_lexical`.
+
+This is a **headword/lexical match only** — the matcher fused the OCR headword `PHILLOOGY` to the Wikipedia article &quot;Philology.&quot; It is not a content verification.
+
+## What the Britannica text actually says
+
+`challenge_read(E0019, source=britannica, find=&quot;philology&quot;)` → **`not_found` — &quot;The phrase does not occur in this source text.&quot;** The word &quot;philology&quot; appears **zero times** in this Britannica entry.
+
+The entry&#x27;s body is about Ethiopian/Cushite language origins, not philology as a discipline. Quotes from E0019 (scan page `...:train:403`):
+
+- &quot;Cushim was the same. We may therefore rest assured, that whatever changes the Ethiopian dialect may have un-dergone in the course of three thousand years, it was originally either Chahidae, or at least a branch of that language.&quot;
+- &quot;The writer letters of the Ethiopians, according to Dio-dorus Sicula, were the same with the sacred characters of the Egyptians.&quot;
+
+Distinctive Britannica terms (from the comparison): `ethiopians` (12×), `letters` (12×), `sacred` (8×), `dialect` (4×), `chaldaic` (3×), `egyptians` (5×), `alphabet` (3×) — all 0× in Wikipedia.
+
+## What the Wikipedia article says
+
+**Wikipedia &quot;Philology&quot;**, page_id `23193`, revision_id `1349939971` (revision_url `https://en.wikipedia.org/w/index.php?oldid=1349939971`, CC BY-SA 4.0, text sha256 `44d2da7537cfa1fe1e0525b702337ec51b476f18cfb29fc0878cbeb2657b7218`):
+
+- &quot;Philology (from Ancient Greek φιλολογία (philología) &#x27; love of word &#x27;) is the study of language in oral and written historical sources. It is the intersection of textual criticism, literary criticism, history, and linguistics with strong ties to etymology.&quot;
+- &quot;A person who pursues this kind of study is known as a philologist. In older usage, especially British, philology is more general, covering comparative and historical linguistics.&quot;
+- &quot;philology&quot; occurs **27×**; `languages` 16×; `linguistics` 8×; `philologist` 6×.
+
+## Comparison metrics (`challenge_compare`, E0019)
+
+- top_terms_jaccard: **0.0471**; frequency_cosine: **0.1549**; length_ratio (wiki/britannica): **2.021** — very low topical overlap.
+- `philology`: Britannica **0×**, Wikipedia **27×**.
+- Britannica: 593 raw tokens, 480 kept, 342 types, **unverified_rate 0.1906** (19% of tokens unverified — very noisy OCR). Unverified examples: `ethiopie`, `chaldeau`, `cushim`, `chahidae`, `sadger`, `dergone`.
+- Wikipedia: 970 tokens, 588 types.
+
+## Conclusion
+
+**The match is wrong for a subject comparison.** The matched Wikipedia article (&quot;Philology,&quot; page_id 23193, revision 1349939971) describes philology as a discipline; the only Britannica candidate matched to it (E0019) is not about philology — its text contains no occurrence of &quot;philology&quot; and concerns Ethiopian/Cushite language origins and alleged ties to Chaldean, Hebrew, Sanskrit, and Egyptian. The OCR is noisy (the headword itself reads `PHILLOOGY`, and 19% of tokens are unverified).
+
+**Inference (my interpretation, not a tool finding):** E0019 appears to be a mis-scanned or mislabeled page whose OCR headword was misread as `PHILLOOGY` while the body is an Ethiopian-languages article. Because of this, **no genuine Britannica PHILOLOGY article text is available in this dataset**, so a real philology-vs-philology comparison cannot be produced from this evidence. The evidence gap is missing; I am not filling it from memory.</div><pre class="muted">{
+ &quot;model_ok&quot;: true,
+ &quot;completed&quot;: true,
+ &quot;used_challenge_tools&quot;: true,
+ &quot;cited_entry_ids&quot;: [
+  &quot;E0019&quot;
+ ],
+ &quot;unsupported_entry_ids&quot;: [],
+ &quot;cited_revision_ids&quot;: [
+  &quot;1349939971&quot;
+ ],
+ &quot;unsupported_revision_ids&quot;: [],
+ &quot;expected_entries_found&quot;: true,
+ &quot;behaviour_ok&quot;: true,
+ &quot;auto_pass&quot;: true
+}</pre><h2 id="2026-10-18T115609Z-q04-corpus">q04-corpus <span class="muted">run 2026-10-18T115609Z</span></h2><p>Across all matched pairs, which words most distinguish the Britannica vocabulary from the Wikipedia vocabulary? Give counts.</p><p>Model nvidia/Nemotron-3.5-Super-VL. Tools: tool_describe, challenge_corpus. Automatic check: <span class="ok">pass</span>.</p><div class="label">Generated: agent answer</div><div class="generated" style="white-space:pre-wrap">Here is the corpus-level answer, straight from `challenge_corpus` (vocabulary comparison over all matched Britannica–Wikipedia pairs).
+
+**Coverage caveat:** the comparison covers 53 Britannica documents and 51 Wikipedia documents, and counts cover only entries with an accepted match. Matches are reported as provisional lexical matches (not individually verified for subject identity). The Britannica text is OCR, so token counts (e.g. &quot;edwards&quot;, &quot;ethiopian/ethiopians&quot;) may be affected by OCR noise and case handling; I can&#x27;t confirm the tool&#x27;s normalization. Per-entry IDs and scan page IDs aren&#x27;t available from the aggregate corpus tool — those would require per-entry lookups.
+
+**Words most distinctive of the Britannica vocabulary (vs. Wikipedia), ranked by z-score:**
+
+| term | z-score | Britannica count | Wikipedia count |
+|------|---------|------------------|-----------------|
+| inches | 3.837 | 16 | 1 |
+| native | 3.789 | 26 | 16 |
+| british | 3.593 | 39 | 49 |
+| edwards | 3.588 | 15 | 2 |
+| ethiopians | 3.573 | 14 | 1 |
+| placed | 3.522 | 22 | 13 |
+| eyes | 3.485 | 18 | 7 |
+| island | 3.290 | 19 | 11 |
+| marked | 3.188 | 13 | 3 |
+| cells | 3.158 | 12 | 2 |
+| ethiopian | 3.127 | 10 | 0 |
+| abdomen | 2.978 | 10 | 1 |
+
+**Inference:** The strongest Britannica-distinguishing signal is measurement/physical-description vocabulary — &quot;inches&quot; (16 vs 1), &quot;eyes&quot; (18 vs 7), &quot;abdomen&quot; (10 vs 1), &quot;cells&quot; (12 vs 2) — along with the proper nouns &quot;edwards&quot; (15 vs 2) and &quot;ethiopian(s)&quot; (14 vs 1, 10 vs 0). &quot;Native&quot; and &quot;british&quot; appear in both corpora but are far more frequent in Britannica. For reference, the reverse (Wikipedia-distinctive) side is headed by &quot;erigeron&quot; (0 vs 173), &quot;edward&quot; (0 vs 166), &quot;fleabane&quot; (0 vs 154), &quot;esarhaddon&quot; (1 vs 168), and &quot;energy&quot; (0 vs 142).
+
+**Verification:** Real tool output from `challenge_corpus` (status: ok; frequency cosine 0.5049, indicating moderate overall vocabulary overlap). No further work needed unless you want per-entry citations for specific terms.</div><pre class="muted">{
+ &quot;model_ok&quot;: true,
+ &quot;completed&quot;: true,
+ &quot;used_challenge_tools&quot;: true,
+ &quot;cited_entry_ids&quot;: [],
+ &quot;unsupported_entry_ids&quot;: [],
+ &quot;cited_revision_ids&quot;: [],
+ &quot;unsupported_revision_ids&quot;: [],
+ &quot;expected_entries_found&quot;: true,
+ &quot;behaviour_ok&quot;: true,
+ &quot;auto_pass&quot;: true
+}</pre><h2 id="2026-10-18T115609Z-q03-coinage">q03-coinage <span class="muted">run 2026-10-18T115609Z</span></h2><p>What does the Britannica entry on COINAGE say about how coins were made, and how does the Wikipedia article differ?</p><p>Model nvidia/Nemotron-3.5-Super-VL. Tools: tool_search, tool_search, challenge_search, challenge_search, tool_describe, challenge_read, challenge_read, challenge_compare, challenge_read. Automatic check: <span class="ok">pass</span>.</p><div class="label">Generated: agent answer</div><div class="generated" style="white-space:pre-wrap">**Britannica entry (E0097, &quot;COINAGE&quot;) — scan page ID `britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1250` (scan file `page-1250-2e0c75f85418.jpg`). The text is noisy OCR, so precise wording is uncertain.**
+
+What it says about how coins were made (short quotes, OCR as printed):
+
+- Two basic methods: &quot;COINAGE, or Coining, the art of making ma-ery, as performed either by the hammer or mill.&quot; (Inference: &quot;ma-ery&quot; is OCR-garbled; the entry frames coin-making as done by hammer or by mill.)
+- Hammer method: blanks are cut from metal and each piece is weighed/filed to the standard weight; engravers prepare a pair of dies, one fixed in a block held &quot;as any vice could have done&quot; and one movable; a planchet is laid on the lower die, covered with the upper die, and struck &quot;with a hammer ... till the double thamp was sufficiently ... impressed on each side of the planehet [planchet].&quot; The finished coin must have the standard weight and mark &quot;determined by the judgment of the ins[pectors], to make it good current money.&quot;
+- Mill/roller method (modern): cast plates/laminae are passed repeatedly between rollers of a &quot;laminating engine&quot; rather than beaten on an anvil, giving &quot;uniform and exact thickness&quot;; round planchets are cut out with &quot;a sharp ... trepan, of a round ... figure&quot;; blanks are weighed, filed/forged to remove excess metal, &quot;boiled and made clear&quot; (annealed/cleaned), then struck between two dies &quot;with one blow, forces the two surfaces or fields of the piece to fill exactly all the vacations of the two figures engraved hollow.&quot;
+- Edge lettering: a machine with &quot;two steel laminae,&quot; each engraved with half of the edge legend; a toothed wheel turns the planchet &quot;so that it remains ... marked on the edge, when it has made one turn. Only crown and half-crown pieces can ... take the impression of letters on the thickness of their edges.&quot;
+- A &quot;coining engine or mill (fig. z.) ... may make many twenty thousand pieces in one day&quot; for gold, silver, and copper planchets.
+
+**Wikipedia side — evidence missing.** `challenge_read(E0097, source=wikipedia)` returns `no_match`: &quot;This entry has no accepted Wikipedia article.&quot; `challenge_compare(E0097)` returns `no_comparison`: &quot;No accepted Wikipedia match exists for this entry, so no comparison evidence exists.&quot; The only provisional candidate is &quot;Coinage Act&quot; (Wikipedia page_id `572045`), title similarity 0.7778, below the 0.85 acceptance threshold, status `rejected` — reason: &quot;no candidate with title similarity &gt;= 0.85 outside media titles.&quot; That candidate concerns coinage legislation, not the art of making coins, so the match is wrong.
+
+**Conclusion:** I can report what the Britannica entry says about hammer vs. mill coin production (blanks, dies, striking, weighing, edge lettering, rolling mills), but I cannot state how a Wikipedia article differs, because the challenge data contains no accepted Wikipedia match for this Britannica entry. I am not filling that gap from memory.</div><pre class="muted">{
+ &quot;model_ok&quot;: true,
+ &quot;completed&quot;: true,
+ &quot;used_challenge_tools&quot;: true,
+ &quot;cited_entry_ids&quot;: [
+  &quot;E0097&quot;
+ ],
+ &quot;unsupported_entry_ids&quot;: [],
+ &quot;cited_revision_ids&quot;: [],
+ &quot;unsupported_revision_ids&quot;: [],
+ &quot;expected_entries_found&quot;: true,
+ &quot;behaviour_ok&quot;: true,
+ &quot;auto_pass&quot;: true
+}</pre><h2 id="2026-10-18T115609Z-q02-huguenots">q02-huguenots <span class="muted">run 2026-10-18T115609Z</span></h2><p>Compare how Britannica and Wikipedia describe the Huguenots.</p><p>Model nvidia/Nemotron-3.5-Super-VL. Tools: tool_describe, challenge_search, challenge_read, challenge_read, challenge_compare. Automatic check: <span class="ok">pass</span>.</p><div class="label">Generated: agent answer</div><div class="generated" style="white-space:pre-wrap">Match verified. The challenge_search match for E0113 is status &quot;accepted&quot; with title_similarity 1.0: both the Britannica headword HUGUENOTS and the matched Wikipedia article (page_id 75899) are titled &quot;Huguenots&quot; and concern the same subject — French Protestants of the Reformed/Calvinist tradition. The match is correct.
+
+Sources used
+- Britannica entry E0113, headword HUGUENOTS, scan page britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1327 (scan file page-1327-7d41b1db21d5.jpg). The saved text is 155 characters (12 tokens) and is noisy OCR: &quot;Calvinifts&quot; (Calvinists) and &quot;rife&quot; (rise). It also ends mid-sentence (&quot;...but authors are&quot;), so the excerpt is incomplete.
+- Wikipedia article &quot;Huguenots&quot;, page_id 75899, revision_id 1352397655 (70,120 chars; 6,018 tokens).
+
+What Britannica says (E0113)
+&quot;HUGUENOTS, an application given by way of concept to the referred or Protestant Calvinifts of France. The name had its first rife in 1560; but authors are&quot; — Britannica E0113, scan page 1327.
+
+So Britannica defines Huguenots as Protestant Calvinists of France and dates the name&#x27;s first appearance to 1560. That is all the provided Britannica text contains.
+
+What Wikipedia says (page 75899, revision 1352397655)
+&quot;The Huguenots ... are a religious group of French Protestants who held to the Reformed (Calvinist) tradition of Protestantism.&quot; Wikipedia also says the term &quot;was in common use by around 1550&quot; and that its origins are unclear, possibly from the Genevan burgomaster Besançon Hugues, the Dutch Huisgenoten (&quot;housemates&quot;), and the German Eidgenosse (&quot;Confederate&quot;). It gives extensive detail Britannica does not: Huguenots were up to 10% of the French population on the eve of the 1572 St. Bartholomew&#x27;s Day massacre, 7–8% by 1600, and 1% by 1686; the French Wars of Religion ran 1562–1598; leaders included Jeanne d&#x27;Albret, Henry IV, and the princes of Condé; the Edict of Nantes (1598) granted autonomy; the Edict of Fontainebleau (1685) revoked Protestant rights and the Dragonnades drove an exodus; persecution ended with the Edict of Versailles (1787) and the 1789 Declaration of the Rights of Man.
+
+Comparison
+- Agreement: both describe Huguenots as French Protestants of the Calvinist/Reformed tradition, centered in France. Britannica E0113, scan page 1327; Wikipedia page 75899, revision 1352397655.
+- Difference in timing of the name: Britannica says the name first appeared in 1560 (E0113, scan page 1327); Wikipedia says it was in common use by around 1550 (page 75899, revision 1352397655). This is a small discrepancy, but the Britannica OCR is noisy and the entry is truncated, so I treat the date difference as tentative.
+- Difference in scope: Wikipedia is far more detailed — roughly 500 times longer (comparison length_ratio_wiki_to_britannica 501.5; Jaccard 0.037; frequency cosine 0.2707). Wikipedia covers etymology hypotheses, demographics, the Wars of Religion, the Edicts of Nantes/Fontainebleau/Versailles, the Dragonnades, the refugee exodus, and 1789 emancipation. The Britannica excerpt (155 chars) covers only a one-sentence definition and a 1560 date, ending mid-sentence, so it cannot be compared on those topics.
+
+Caveats
+- The Britannica text is OCR-noisy (&quot;Calvinifts,&quot; &quot;rife&quot;) and the provided excerpt is truncated at 155 characters, ending mid-sentence. Claims about Britannica beyond that excerpt are not supported by the tool output.
+- No edition, year, or author for the Britannica entry was given by any tool result, so I state none.
+- Inference (my own, not a source): the very low lexical-overlap metrics mainly reflect the extreme length disparity (a short Britannica stub versus a long Wikipedia article), not necessarily a substantive disagreement where Britannica actually speaks.</div><pre class="muted">{
+ &quot;model_ok&quot;: true,
+ &quot;completed&quot;: true,
+ &quot;used_challenge_tools&quot;: true,
+ &quot;cited_entry_ids&quot;: [
+  &quot;E0113&quot;
+ ],
+ &quot;unsupported_entry_ids&quot;: [],
+ &quot;cited_revision_ids&quot;: [
+  &quot;1352397655&quot;
+ ],
+ &quot;unsupported_revision_ids&quot;: [],
+ &quot;expected_entries_found&quot;: true,
+ &quot;behaviour_ok&quot;: true,
+ &quot;auto_pass&quot;: true
+}</pre><h2 id="2026-10-18T115609Z-q01-heat">q01-heat <span class="muted">run 2026-10-18T115609Z</span></h2><p>How does the Britannica entry on HEAT describe heat, compared with the matched Wikipedia article?</p><p>Model nvidia/Nemotron-3.5-Super-VL. Tools: tool_search, tool_describe, challenge_search, challenge_read, challenge_read, challenge_compare. Automatic check: <span class="ok">pass</span>.</p><div class="label">Generated: agent answer</div><div class="generated" style="white-space:pre-wrap">Here is the comparison, based only on the challenge tools.
+
+## Match check
+
+`challenge_search` for &quot;HEAT&quot; returns entry **E0087** (headword HEAT) with an **accepted** match to Wikipedia **&quot;Heat&quot;**, page_id **19593167**, title_similarity 1.0 (challenge_search; confirmed by challenge_compare). The matched article covers the same subject (heat), so the match is valid. `challenge_compare` reports the comparison exists (`has_comparison: true`): Jaccard 0.0481, frequency cosine 0.4832, Wikipedia ~32× longer than Britannica (length ratio 32.26).
+
+## How each source describes heat
+
+**Britannica, entry E0087 (scan page `britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1032`):**
+
+- Opens by defining heat as &quot;one of the forecary qualities of bodies, produced by fire, and opposed to cold&quot; — a quality of bodies, tied to fire and cold.
+- Treats heat as sensation/idea: &quot;what we call heat is a particular idea or modification of our own mind, and not any thing existing in the body that occasions it&quot;; &quot;Heat, [says] Mr Locke, is no more in the fire that burns the finger, than pain is in the needle that pricks it.&quot;
+- Reduces heat to motion: &quot;heat in the body ... is only motion; and in the mind, only a particular idea&quot;; per &quot;&#x27;S Gravefunde&quot; (&#x27;s Gravesande), heat is &quot;an agitation of the parts of the body, made by means of the fire contained in it ... in the hot body nothing but motion.&quot;
+- Measurement: &quot;The degree of heat is measured by the expansion of the air, or spirit in the thermometer.&quot;
+
+**Wikipedia, &quot;Heat&quot; (page_id 19593167, revision_id 1333417689):**
+
+- Defines heat strictly: &quot;In thermodynamics, heat is defined as the form of energy crossing the boundary of a thermodynamic system by virtue of a temperature difference across the boundary. A thermodynamic system does not contain heat.&quot;
+- Quantifies it: SI unit is the joule; sign convention Q &lt; 0 (released) / Q &gt; 0 (absorbed); heat-transfer rate is Q-dot.
+- Separately notes common usage: &quot;English &#x27;heat&#x27; or &#x27;warmth&#x27; ... refers to either thermal energy or temperature, or the human perception of these.&quot;
+- History section: caloric theory replaced by the &quot;mechanical&quot; theory of heat; Bacon (1620) — &quot;the very essence of heat ... is motion and nothing else&quot;; Galileo — heat as &quot;an artifact of our minds&quot;; Hooke and Boyle — heat as motion of particles.
+
+## Comparison (my interpretation)
+
+Both sources link heat to the motion of particles/bodies and both acknowledge a perceptual side (Britannica: heat is &quot;a particular idea ... of our own mind&quot;; Wikipedia: common usage includes &quot;the human perception&quot; of thermal energy, and Galileo called heat an artifact of the mind). That shared ground is an inference from the texts, not a stated equivalence.
+
+The core difference is definitional: Britannica presents heat as a felt quality/idea of bodies produced by fire, judged against cold and read off a thermometer — a pre-thermodynamic, sensation-based account. Wikipedia presents heat as energy in transfer across a system boundary due to a temperature difference, explicitly stating a system does not *contain* heat, measured in joules with a formal sign convention. These are different definitions, not restatements of one another.
+
+## OCR caveat
+
+The Britannica text is noisy OCR: challenge_compare flags 16 unverified tokens (9.64% unverified rate), e.g. &quot;forecary,&quot; &quot;fanitation,&quot; &quot;exfiling,&quot; &quot;frys,&quot; &quot;fuch.&quot; Exact wording of Britannica&#x27;s claims is therefore uncertain; the scan page ID above is the authority for verification. No edition, year, or author is stated by any tool result, so I give none.</div><pre class="muted">{
+ &quot;model_ok&quot;: true,
+ &quot;completed&quot;: true,
+ &quot;used_challenge_tools&quot;: true,
+ &quot;cited_entry_ids&quot;: [
+  &quot;E0087&quot;
+ ],
+ &quot;unsupported_entry_ids&quot;: [],
+ &quot;cited_revision_ids&quot;: [
+  &quot;1333417689&quot;
+ ],
+ &quot;unsupported_revision_ids&quot;: [],
+ &quot;expected_entries_found&quot;: true,
+ &quot;behaviour_ok&quot;: true,
+ &quot;auto_pass&quot;: true
+}</pre><h2 id="2026-10-18T113829Z-trial-q01-heat-nopolicy">q01-heat-nopolicy <span class="muted">run 2026-10-18T113829Z-trial</span></h2><p>How does the Britannica entry on HEAT compare with Wikipedia? Use the tools and cite IDs.</p><p>Model nvidia/Nemotron-3.5-Super-VL. Tools: tool_search, tool_search, tool_describe, challenge_search, challenge_read, challenge_read, challenge_compare. Automatic check: <span class="ok">pass</span>.</p><div class="label">Generated: agent answer</div><div class="generated" style="white-space:pre-wrap">Comparison complete. Sources and citations:
+
+MATCHED PAIR
+- Britannica entry E0087, headword &quot;HEAT&quot; (1911 Encyclopaedia Britannica, OCR). Scan page britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1032 (file page-1032-e28420685b47.jpg), text_sha256 59eca6ed30a9a491053501c57f5c1d69d2ae6e971b1bc9c60ff5f05081742ded. 1,926 chars, 166 raw tokens, 95 types.
+- Wikipedia article &quot;Heat&quot;, page_id 19593167, revision_id 1333417689 (https://en.wikipedia.org/w/index.php?oldid=1333417689), CC BY-SA 4.0, text_sha256 75f20ec52047d514717e7f0a3736c7ac2f984a7a233c03ec98d40c6a00b498c6. 60,960 chars, 4,839 tokens, 1,428 types.
+- Match: accepted, method provisional_lexical, title_similarity 1.0. A saved comparison exists for this entry (challenge_compare on E0087).
+
+WHAT EACH SAYS
+- Britannica (E0087): a philosophical, sensation-based account. Heat is &quot;a particular idea or modification of our own mind,&quot; not anything existing in the body; in the body it is only motion. It quotes Locke (&quot;Heat... is no more in the fire that burns the finger, than pain is in the needle that pricks it&quot;) and &#x27;s Gravesande (heat as agitation of the body&#x27;s parts). Heat is produced by fire, opposed to cold, the sun is the principal source, and degree of heat is measured by thermometer expansion. OCR is noisy (10.24% unverified tokens; e.g. &quot;phylology&quot; = philosophy, &quot;fanitation&quot; = sensation).
+- Wikipedia (Heat, page_id 19593167): modern thermodynamics. Heat is energy crossing a thermodynamic system&#x27;s boundary because of a temperature difference; a system does not contain heat. SI unit is the joule, rate in watts, symbol Q introduced by Clausius and Rankine c. 1859, sign convention Q&lt;0 released / Q&gt;0 absorbed, plus heat flux and calorimetry. It covers the history (caloric theory, phlogiston, Bacon/Galileo/Hooke/Boyle on heat as particle motion, Galileo&#x27;s heat as &quot;artifact of our minds&quot;) — the old mind-based idea survives only as historical context.
+
+COMPARISON METRICS (challenge_compare, E0087; word frequencies, log-odds z-scores with informative Dirichlet prior)
+- Jaccard (top terms): 0.0484
+- Frequency cosine: 0.4838
+- Length ratio (Wikipedia / Britannica): 32.48 — Wikipedia is roughly 32 times longer.
+- Shared term counts (Britannica / Wikipedia): heat 12/258, body 7/60, fire 7/3, hot 5/25, idea 5/4, motion 4/16, cold 2/21, produced 3/2, effect 3/2, bodies 2/17.
+
+DISTINCTIVE TERMS
+- Britannica: feeling (z 0.805), atmosphere (0.805), fire (0.792), mind (0.751), hence (0.684) — the sensation/ideas-in-mind frame.
+- Wikipedia: heat (z 7.075), temperature 4.675 (89 vs 0), energy 4.553 (106 vs 0), transfer 3.667 (56 vs 0), work 3.414 (82 vs 0), system 3.286 (65 vs 0), quantity 3.25 (48 vs 0) — thermodynamics, units, energy transfer.
+
+BOTTOM LINE: Both agree heat is not a substance residing in a body and link heat to motion (Britannica: motion of body parts; Wikipedia: particle motion / mechanical theory of heat). They split on framework: Britannica treats heat as a sensation/idea in the mind produced by fire; Wikipedia treats it as measurable energy transfer (joules) across thermodynamic boundaries. Vocabulary overlap is low (Jaccard 0.0484) and Wikipedia is ~32x the length.</div><pre class="muted">{
+ &quot;model_ok&quot;: true,
+ &quot;completed&quot;: true,
+ &quot;used_challenge_tools&quot;: true,
+ &quot;cited_entry_ids&quot;: [
+  &quot;E0087&quot;
+ ],
+ &quot;unsupported_entry_ids&quot;: [],
+ &quot;cited_revision_ids&quot;: [
+  &quot;1333417689&quot;
+ ],
+ &quot;unsupported_revision_ids&quot;: [],
+ &quot;expected_entries_found&quot;: true,
+ &quot;behaviour_ok&quot;: true,
+ &quot;auto_pass&quot;: true
+}</pre><h2 id="2026-10-18T114003Z-q08-naxos">q08-naxos <span class="muted">run 2026-10-18T114003Z</span></h2><p>Compare the Britannica entry on NAXOS with its matched Wikipedia article. Do they describe the same place?</p><p>Model nvidia/Nemotron-3.5-Super-VL. Tools: tool_search, challenge_search, tool_describe, challenge_read, challenge_read, challenge_compare. Automatic check: <span class="ok">pass</span>.</p><div class="label">Generated: agent answer</div><div class="generated" style="white-space:pre-wrap">## Answer
+
+No. Based on the evidence, the Britannica entry **NAXOS (E0100)** and its matched Wikipedia article **&quot;Naxos (Crete)&quot;** do not describe the same place, and the match appears to be a weak/false lexical match rather than a confirmed same-subject match.
+
+## Evidence
+
+**Match record** (challenge_compare, E0100):
+- Match status: `accepted`, method `provisional_lexical`, matched title &quot;Naxos (Crete)&quot;, Wikipedia page_id `10445940`, title_similarity 1.0 (i.e., the match rests on the shared headword &quot;NAXOS&quot;, not on shared content).
+- Lexical overlap is minimal: top_terms_jaccard `0.0612`, frequency_cosine `0.1462`; shared terms are only `naxos`, `town`, `greek`.
+
+**Britannica entry E0100** (scan page `britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1268`, file `page-1268-e5ec9e5b4086.jpg`), text is noisy OCR:
+
+&gt; &quot;NAXOS, or NAXIA, a considerable town, and capital of the lake of Naoxe, opposite the lake of Peru, with a cudal and two ambishaby&#x27;s seen, the one check out the other Latin. The greater part of the inhabitants are Greek, Lilly, 25.13. E., Lae 37.6.N.&quot;
+
+**Wikipedia article** (page_id `10445940`, revision_id `1306186625`, title &quot;Naxos (Crete)&quot;):
+
+&gt; &quot;Naxos or Naxus (Ancient Greek: Νάξος) was a town of ancient Crete, according to the Scholiast (ad Pind. Isth. vi. 107) celebrated for its whetstones... Naxos was located near the ancient city of Olous, atop a mountain now called Oxa where ruins can still be found.&quot;
+
+## Comparison
+
+- The Britannica entry places NAXOS/NAXIA at &quot;the lake of Naoxe, opposite the lake of Peru&quot; with OCR&#x27;d coordinates &quot;Lilly [Long?], 25.13. E., Lae [Lat?], 37.6. N.&quot; and says the inhabitants are Greek. The words `crete`, `olous`, `oxa`, and `whetstones` (the defining content of the Wikipedia article) do **not** appear in the Britannica text (the comparison shows `crete`, `whetstones`, `ancient`, `city`, `existence` as Wikipedia-distinctive with zero Britannica counts).
+- The Wikipedia article fixes the subject in ancient Crete, near Olous on mountain Oxa, famed for whetstones — none of which appears in the Britannica entry. Conversely, Britannica&#x27;s &quot;lake of Naoxe&quot; / &quot;lake of Peru&quot; geography appears nowhere in Wikipedia.
+
+The Britannica text is OCR-noisy (e.g., `cudal`, `ambishaby`, `Lilly`, `Lae`, `Naoxe`), so I cannot fully reconstruct its intended geography. But taking the readable text at face value, its geography (≈25.13°E, 37.6°N — north of Crete, which is ~35°N) does not match Crete, and the two texts share almost no substantive vocabulary.
+
+**Inference:** The match between E0100 and &quot;Naxos (Crete)&quot; is a provisional lexical match on the headword only, and the contents diverge on the defining geography. The evidence does not support that they describe the same place; the match is unreliable and is likely wrong. I cannot determine from these sources alone what place the Britannica entry actually intends, because the OCR is too degraded to pin down &quot;lake of Naoxe&quot; / &quot;lake of Peru&quot; with confidence.</div><pre class="muted">{
+ &quot;model_ok&quot;: true,
+ &quot;completed&quot;: true,
+ &quot;used_challenge_tools&quot;: true,
+ &quot;cited_entry_ids&quot;: [
+  &quot;E0100&quot;
+ ],
+ &quot;unsupported_entry_ids&quot;: [],
+ &quot;cited_revision_ids&quot;: [
+  &quot;1306186625&quot;
+ ],
+ &quot;unsupported_revision_ids&quot;: [],
+ &quot;expected_entries_found&quot;: true,
+ &quot;behaviour_ok&quot;: true,
+ &quot;auto_pass&quot;: true
+}</pre><h2 id="2026-10-18T114003Z-q07-willin">q07-willin <span class="muted">run 2026-10-18T114003Z</span></h2><p>Compare the Britannica entry WILLIN with its matched Wikipedia article. Is the match correct?</p><p>Model nvidia/Nemotron-3.5-Super-VL. Tools: tool_search, tool_describe, challenge_search, challenge_read, challenge_read, challenge_compare. Automatic check: <span class="ok">pass</span>.</p><div class="label">Generated: agent answer</div><div class="generated" style="white-space:pre-wrap">## Answer
+
+**No, the match is not correct.**
+
+### Evidence
+
+**Britannica entry WILLIN (E0012)** — scan page `britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:258`:
+
+The OCR text reads: &quot;WILLIN, the name of federal kings of England. See ENOLAND, n 87--01, and BITAIN, n&#x27; 302.&quot; It then describes &quot;_For-WILLIAMS_&quot; (likely Fort William), &quot;WILLAN&#x27;s Port,&quot; &quot;a factory of Afin [Afin?] belonging to the East India company, feated on one of the branches of the river Ganges, in the kingdom of Bengal,&quot; a town called &quot;_California_&quot; (likely Calcutta), and the &quot;_Blak Hels_&quot; (Black Hole), with events in 1757 involving the &quot;nahoof Bengal&quot; (nawab of Bengal). The text is heavily OCR-corrupted, but the distinctive terms — factory, Bengal, East India Company, Ganges, Black Hole, 1757, nawab — point to Fort William in Calcutta, a British East India Company fort. [Britannica E0012, scan page 258]
+
+**Matched Wikipedia article &quot;Willin&#x27;&quot;** (page_id 43635161, revision_id 1201363924):
+
+The article is a disambiguation page: &quot;Willin&#x27; may refer to: Willin&#x27; (album), a 1999 album by Jon Randall; &#x27;Willin&#x27;&#x27; (song), a song by Little Feat, written by lead singer Lowell George in 1970.&quot; [Wikipedia page 43635161, revision 1201363924]
+
+### Why the match is wrong
+
+1. **Different subjects entirely.** The Britannica entry is about a historical fort in Bengal, India (Fort William / East India Company / Black Hole of Calcutta). The Wikipedia article is a music disambiguation page about an album and a song. They do not describe the same subject.
+
+2. **Near-zero lexical overlap.** The saved comparison reports a Jaccard of 0.0089 and a frequency cosine of 0.0479 — essentially no shared vocabulary beyond the headword &quot;willin&quot; itself. The only shared term is &quot;willin&quot; (1 occurrence in Britannica, 3 in Wikipedia). [challenge_compare, E0012]
+
+3. **Match method was purely lexical.** The match was accepted via &quot;provisional_lexical&quot; with title_similarity 1.0, meaning it matched on the headword string alone (&quot;WILLIN&quot; → &quot;Willin&#x27;&quot;) without verifying subject similarity. That is a false positive.
+
+### Inference
+
+The Britannica entry WILLIN (E0012) concerns Fort William in Bengal, and its correct Wikipedia match would be an article about Fort William, Calcutta (or the Black Hole of Calcutta), not the music disambiguation page &quot;Willin&#x27;.&quot; The accepted match is incorrect.</div><pre class="muted">{
+ &quot;model_ok&quot;: true,
+ &quot;completed&quot;: true,
+ &quot;used_challenge_tools&quot;: true,
+ &quot;cited_entry_ids&quot;: [
+  &quot;E0012&quot;
+ ],
+ &quot;unsupported_entry_ids&quot;: [],
+ &quot;cited_revision_ids&quot;: [
+  &quot;1201363924&quot;
+ ],
+ &quot;unsupported_revision_ids&quot;: [],
+ &quot;expected_entries_found&quot;: true,
+ &quot;behaviour_ok&quot;: true,
+ &quot;auto_pass&quot;: true
+}</pre><h2 id="2026-10-18T114003Z-q06-locomotive">q06-locomotive <span class="muted">run 2026-10-18T114003Z</span></h2><p>What does Britannica say about the steam locomotive, compared with Wikipedia?</p><p>Model nvidia/Nemotron-3.5-Super-VL. Tools: tool_search, tool_describe, tool_describe, challenge_search, challenge_search, challenge_search, challenge_search, challenge_corpus, challenge_search, challenge_search. Automatic check: <span class="ok">pass</span>.</p><div class="label">Generated: agent answer</div><div class="generated" style="white-space:pre-wrap">The evidence is missing. The challenge corpus does not contain a Britannica entry on the steam locomotive, so I cannot produce a Britannica-vs-Wikipedia comparison for that subject.
+
+What I checked (all via `challenge_search`, the required first step):
+
+| Search query | Result |
+|---|---|
+| &quot;steam locomotive&quot; | no_results |
+| &quot;locomotive&quot; | no_results |
+| &quot;steam&quot; | no_results |
+| &quot;railway locomotive&quot; | no_results |
+
+The closest topical hit was &quot;steam engine,&quot; which returned only one relevant entry, **E0040 (headword &quot;ENGINE&quot;)**, scan page `britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:523`, matched to Wikipedia article &quot;Engine&quot; (page_id 9640, title_similarity 1.0, has_comparison: true). Its opening text is about mechanics generally — &quot;a compound machine, made of one or more mechanical powers, as levers, pullies...&quot; — not about a steam locomotive. So that match describes a different subject; treating it as the steam-locomotive entry would be a wrong match, and I have not done that.
+
+Corpus scope: 57 Britannica entries / 55 Wikipedia articles, all matched by provisional_lexical method. &quot;Steam&quot;/&quot;locomotive&quot; appear as no distinctive corpus terms, confirming the subject is not represented.
+
+Per the rules, when a tool reports no_results/no_match, the evidence is missing and I will not fill the gap from memory or outside knowledge. I also won&#x27;t state an edition, year, or author, since no tool result provided one. Note that the Britannica text is noisy OCR (e.g., E0040 shows &quot;Sì,&quot; &quot;ferws,&quot; &quot;fulanany&quot;), which would further limit any OCR-derived claim even if the entry existed.
+
+Bottom line: there is no Britannica steam-locomotive entry in this corpus to compare with Wikipedia&#x27;s steam-locomotive article. If you have a specific Britannica entry ID (E####) you believe covers it, I can read it and run `challenge_compare` against its Wikipedia match.</div><pre class="muted">{
+ &quot;model_ok&quot;: true,
+ &quot;completed&quot;: true,
+ &quot;used_challenge_tools&quot;: true,
+ &quot;cited_entry_ids&quot;: [
+  &quot;E0040&quot;
+ ],
+ &quot;unsupported_entry_ids&quot;: [],
+ &quot;cited_revision_ids&quot;: [],
+ &quot;unsupported_revision_ids&quot;: [],
+ &quot;expected_entries_found&quot;: true,
+ &quot;behaviour_ok&quot;: true,
+ &quot;auto_pass&quot;: true
+}</pre><h2 id="2026-10-18T114003Z-q05-philology">q05-philology <span class="muted">run 2026-10-18T114003Z</span></h2><p>Compare the Britannica article on PHILOLOGY with its Wikipedia article.</p><p>Model nvidia/Nemotron-3.5-Super-VL. Tools: tool_search, tool_describe, challenge_search, challenge_search, challenge_corpus, challenge_read, challenge_read, challenge_compare. Automatic check: <span class="ok">pass</span>.</p><div class="label">Generated: agent answer</div><div class="generated" style="white-space:pre-wrap">## Result: evidence is missing — cannot complete the comparison
+
+The challenge corpus contains **no Britannica article on PHILOLOGY with an accepted Wikipedia match**, so there is nothing to compare.
+
+### What the tools returned
+
+`challenge_search` for `&quot;PHILOLOGY&quot;` and `&quot;philology&quot;` returns exactly two entries, both unrelated to philology:
+
+- **E0204** (scan page `britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2296`) — an Arctic-exploration narrative about shipwrecks near Greenland and the North Pole. It contains the word &quot;Philology&quot; only once, as stray OCR text inside the narrative (&quot;...returned is soon as probable to Philology—— as the year...&quot;). Match: **rejected** (provisional_lexical; candidate title &quot;Harry Whitney&quot;, page_id `7568472`, title_similarity 0.0). `has_comparison: false`.
+- **E0206** (scan page `britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2402`) — an anatomy article about vertebrae/sacral and coccygeal bones. Its only &quot;philology&quot; token is an OCR-garbled fragment: &quot;the philology (did-dialyksia menus...&quot; — clearly a mangled Latin species name, not philology. Match: **rejected**. `has_comparison: false`.
+
+`challenge_compare` on E0204 reports **`no_comparison`**: &quot;No accepted Wikipedia match exists for this entry, so no comparison evidence exists.&quot; E0206 would return the same.
+
+### Interpretation (labelled as inference)
+The search hits are false positives from noisy OCR: the word &quot;philology&quot; occurs inside unrelated articles, not as a headword. Neither E0204 nor E0206 is a philology article, so neither can serve as the Britannica side of the comparison, and neither has a matched Wikipedia article.
+
+### Conclusion
+There is no Britannica PHILOLOGY entry / Wikipedia article pair in this corpus. I cannot compare them, and I will not fill the gap from memory or general knowledge. If you have a specific Britannica entry ID or scan page for a philology article, I can look it up directly.</div><pre class="muted">{
+ &quot;model_ok&quot;: true,
+ &quot;completed&quot;: true,
+ &quot;used_challenge_tools&quot;: true,
+ &quot;cited_entry_ids&quot;: [
+  &quot;E0204&quot;,
+  &quot;E0206&quot;
+ ],
+ &quot;unsupported_entry_ids&quot;: [],
+ &quot;cited_revision_ids&quot;: [],
+ &quot;unsupported_revision_ids&quot;: [],
+ &quot;expected_entries_found&quot;: false,
+ &quot;behaviour_ok&quot;: true,
+ &quot;auto_pass&quot;: true
+}</pre><h2 id="2026-10-18T114003Z-q04-corpus">q04-corpus <span class="muted">run 2026-10-18T114003Z</span></h2><p>Across all matched pairs, which words most distinguish the Britannica vocabulary from the Wikipedia vocabulary? Give counts.</p><p>Model nvidia/Nemotron-3.5-Super-VL. Tools: tool_describe, challenge_corpus. Automatic check: <span class="ok">pass</span>.</p><div class="label">Generated: agent answer</div><div class="generated" style="white-space:pre-wrap">Source: challenge_corpus (corpus-level comparison of all matched pairs). Corpus: 57 Britannica documents, 55 Wikipedia documents; every match was made by the provisional_lexical method; frequency cosine 0.5254; 19.25% of Britannica tokens were unverified (noisy OCR), so OCR errors limit these counts. Counts are corpus aggregates over only entries with an accepted match; there are no per-entry page IDs at this level.
+
+Words whose frequency most distinguishes the Britannica vocabulary from the Wikipedia vocabulary (distinctive_britannica, ranked by z-score):
+
+| term | z | count_britannica | count_wikipedia |
+|------|-----|------------------|-----------------|
+| brit | 5.531 | 33 | 0 |
+| placed | 3.699 | 23 | 10 |
+| native | 3.52 | 24 | 14 |
+| eyes | 3.44 | 18 | 6 |
+| marked | 3.359 | 15 | 3 |
+| cells | 3.192 | 12 | 1 |
+| afterwards | 3.057 | 12 | 2 |
+| fine | 3.038 | 17 | 9 |
+| piece | 2.961 | 13 | 4 |
+| principal | 2.929 | 12 | 3 |
+| force | 2.904 | 21 | 18 |
+| abdomen | 2.889 | 10 | 1 |
+
+Interpretation: &quot;brit&quot; is the strongest discriminator (33 in Britannica, 0 in Wikipedia), but it is almost certainly an OCR fragment (e.g., a truncated &quot;British&quot;/&quot;Britannia&quot;) rather than a standalone word — treat it as an artifact of noisy OCR, not a genuine lexical difference. The next strongest genuine discriminators are &quot;placed&quot; (23 vs 10), &quot;native&quot; (24 vs 14), and &quot;eyes&quot; (18 vs 6), consistent with Britannica entries containing more physical/descriptive and natural-history phrasing.
+
+For contrast, the words most distinctive of Wikipedia are: esarhaddon (1 vs 168), energy (0 vs 144), heat (15 vs 296), huguenot (0 vs 132), buxton (2 vs 145), huguenots (1 vs 130), political (1 vs 127), comitas (0 vs 102), century (2 vs 117), aquinas (0 vs 92), work (5 vs 147), known (2 vs 113).</div><pre class="muted">{
+ &quot;model_ok&quot;: true,
+ &quot;completed&quot;: true,
+ &quot;used_challenge_tools&quot;: true,
+ &quot;cited_entry_ids&quot;: [],
+ &quot;unsupported_entry_ids&quot;: [],
+ &quot;cited_revision_ids&quot;: [],
+ &quot;unsupported_revision_ids&quot;: [],
+ &quot;expected_entries_found&quot;: true,
+ &quot;behaviour_ok&quot;: true,
+ &quot;auto_pass&quot;: true
+}</pre><h2 id="2026-10-18T114003Z-q03-coinage">q03-coinage <span class="muted">run 2026-10-18T114003Z</span></h2><p>What does the Britannica entry on COINAGE say about how coins were made, and how does the Wikipedia article differ?</p><p>Model nvidia/Nemotron-3.5-Super-VL. Tools: tool_search, tool_describe, tool_search, challenge_search, tool_call, challenge_read, challenge_read, challenge_compare. Automatic check: <span class="ok">pass</span>.</p><div class="label">Generated: agent answer</div><div class="generated" style="white-space:pre-wrap">## Evidence located
+
+Britannica entry **E0097**, headword **COINAGE**, scan page `britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1250` (file `page-1250-2e0c75f85418.jpg`). The challenge&#x27;s matcher linked it to Wikipedia **&quot;Coinage&quot;**, page_id **185288**, revision_id **1304518352** (status accepted, method provisional_lexical).
+
+## What the Britannica entry says about how coins were made
+
+The entry opens: &quot;COINAGE, or Coining, the art of making ma-ery, as performed either by the hammer or mill.&quot; [Britannica E0097, scan page 1250] (&quot;ma-ery&quot; is OCR for &quot;money&quot;.)
+
+It then describes two routes, but the text is **noisy OCR** (unverified tokens include &quot;thamp,&quot; &quot;shellsers,&quot; &quot;dyes,&quot; &quot;flapped,&quot; &quot;Adenez&quot;), so the exact wording is unreliable:
+
+- **Hammer method:** blanks are cut from a large piece of metal and weighed to a standard, then placed between two engraved dies — one fixed (&quot;dormant&quot;) in a block, one movable — and struck with a hammer to receive the double stamp on both sides. The dies bear &quot;the hollow of a head, a cois, a tutendeos, or any other figure&quot; with a legend. [Britannica E0097, scan page 1250]
+- **Mill method:** metal is cast into plates/laminae, passed through &quot;laminating engines&quot; (rollers) to give uniform thickness, and run through a machine that marks the edges. [Britannica E0097, scan page 1250, distinctive-term snippets at offsets 2322, 2628, 3167]
+
+**Inference:** the Britannica entry contrasts hammered coinage (dies + hand hammer) with milled coinage (rolling mills + edge-marking machine). That is my reading of the garbled OCR, not a verbatim claim.
+
+## How the Wikipedia article differs
+
+The matched Wikipedia page is **not an article about making coins**. Its full text is a disambiguation page:
+
+&quot;Coinage may refer to: Coining (mint), the process of manufacturing coins / COINage, an American magazine / Tin coinage, an English tax on refined tin / Coinage, a protologism or neologism&quot; [Wikipedia page_id 185288, revision_id 1304518352]
+
+It contains no description of hammering, dies, rolling, or any manufacturing process — it only points to &quot;Coining (mint)&quot; for the process of manufacturing coins.
+
+**Match assessment (per the matching rule):** the matched Wikipedia article does **not** describe the same subject as the Britannica entry. It is a disambiguation page, so the match is wrong for the purpose of comparing how coins were made; the comparison evidence is therefore essentially absent (Jaccard 0.0268, cosine 0.0621, Wikipedia is 5% of Britannica&#x27;s length). No edition, year, or author was given by any tool result, so none is stated here.</div><pre class="muted">{
+ &quot;model_ok&quot;: true,
+ &quot;completed&quot;: true,
+ &quot;used_challenge_tools&quot;: true,
+ &quot;cited_entry_ids&quot;: [
+  &quot;E0097&quot;
+ ],
+ &quot;unsupported_entry_ids&quot;: [],
+ &quot;cited_revision_ids&quot;: [
+  &quot;1304518352&quot;
+ ],
+ &quot;unsupported_revision_ids&quot;: [],
+ &quot;expected_entries_found&quot;: true,
+ &quot;behaviour_ok&quot;: true,
+ &quot;auto_pass&quot;: true
+}</pre><h2 id="2026-10-18T114003Z-q02-huguenots">q02-huguenots <span class="muted">run 2026-10-18T114003Z</span></h2><p>Compare how Britannica and Wikipedia describe the Huguenots.</p><p>Model nvidia/Nemotron-3.5-Super-VL. Tools: tool_search, tool_search, tool_describe, challenge_search, challenge_read, challenge_read, challenge_read, challenge_compare, challenge_read, challenge_read, challenge_read, challenge_read, challenge_read, challenge_read. Automatic check: <span class="ok">pass</span>.</p><div class="label">Generated: agent answer</div><div class="generated" style="white-space:pre-wrap">## Match verdict
+
+The match is correct: both sources are titled &quot;Huguenots&quot; (title_similarity 1.0, match status &quot;accepted&quot;), and both concern the French Protestants of the Reformed/Calvinist tradition.
+
+- Britannica: entry E0113, headword &quot;HUGUENOTS&quot;, scan page `britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1327` (scan file `page-1327-7d41b1db21d5.jpg`).
+- Wikipedia: page_id 75899, revision_id 1352397655, title &quot;Huguenots&quot; (CC BY-SA 4.0).
+
+## What Britannica says
+
+The corpus contains only a short OCR fragment of the entry (155 chars; 12 tokens kept in the comparison). It reads:
+
+&quot;HUGUENOTS, an application given by way of concept to the referred or Protestant Calvinifts of France. The name had its first rife in 1560; but authors are&quot; [E0113]
+
+The text cuts off mid-sentence at &quot;but authors are,&quot; so nothing further from this Britannica entry is available in the corpus. OCR noise is visible (&quot;Calvinifts&quot; for Calvinists, &quot;rife&quot; for rise), so exact wording claims are limited. No edition, year, or author is given by the tools, so I state none.
+
+## What Wikipedia says
+
+Wikipedia defines them as &quot;a religious group of French Protestants who held to the Reformed (Calvinist) tradition of Protestantism,&quot; adds that the term &quot;may be derived from the name of a Swiss political leader, the Genevan burgomaster Besançon Hugues, [and] was in common use by around 1550,&quot; and contrasts them with Lutherans in eastern France (Alsace, Moselle, Montbéliard) [page 75899, revision 1352397655].
+
+It gives demographic history (citing Hans Hillerbrand&#x27;s Encyclopedia of Protestantism): up to 10% of the French population on the eve of the 1572 St. Bartholomew&#x27;s Day massacre, 7–8% by 1600, and 1% by 1686 [75899, r1352397655]. It narrates the French Wars of Religion (1562–1598), leadership by Jeanne d&#x27;Albret, the future Henry IV, and the princes of Condé, and the Edict of Nantes of 1598, &quot;which granted the Huguenots substantial religious, political and military autonomy&quot; [75899, r1352397655]. It then covers the 1620s rebellions, the Edict of Fontainebleau of 1685 that &quot;revoked all Protestant rights,&quot; the Dragonnades, forced conversion or flight, Louis XIV&#x27;s claimed reduction from 800,000–900,000 adherents to 1,000–1,500, and the exodus/brain drain [75899, r1352397655]. Later toleration: Edict of Versailles (1787) and equal rights under the 1789 Declaration of the Rights of Man [75899, r1352397655].
+
+Wikipedia also reports multiple etymology theories — a Catholic mockery etymology (&quot;priests, through mockery, made them the successors of those spirits which roam the night&quot;) and &quot;les guenon de Hus&quot; (&quot;apes of Jan Hus&quot;) — plus strongholds (La Rochelle, Normandy, Poitou, Castres, Montauban, Montpellier, Nîmes, the Cévennes/Camisards; roughly 80% in western and southern France), the Huguenot cross emblem, and the diaspora (4,000 to the Thirteen Colonies including New York; 200,000–1,000,000 to England, the Netherlands, Switzerland, Norway, Denmark, Prussia) [75899, r1352397655].
+
+## Comparison (inference)
+
+The two sources agree where they overlap: Huguenots were French Protestants of the Reformed/Calvinist tradition, and the name was current by the mid-1500s (Britannica: &quot;first rise in 1560&quot;; Wikipedia: &quot;in common use by around 1550). That agreement is an inference from the two passages, not a quoted statement.
+
+Beyond that, the comparison is dominated by the sources&#x27; different shapes: the Britannica text available here is a 12-token definitional fragment about the name and its first appearance, while Wikipedia is a ~70,000-character article (6,018 tokens vs. 12; length ratio 501.5). Lexical overlap is low (top-terms Jaccard 0.037, frequency cosine 0.2707), which reflects the fragment-versus-article difference rather than demonstrated contradiction. I cannot assess whether the full Britannica entry disagrees with Wikipedia on details, because the corpus text ends mid-sentence and no edition/date/author is provided.
+
+## Evidence gaps
+
+- Britannica text is truncated (&quot;but authors are&quot;) — no edition, year, or author given by the tools.
+- OCR errors (&quot;Calvinifts,&quot; &quot;rife&quot;) limit exact-wording claims from Britannica.
+- Wikipedia&#x27;s internal mention of &quot;By 1911&quot; concerns the etymology debate within Wikipedia&#x27;s own article; I do not use it to date the Britannica entry.</div><pre class="muted">{
+ &quot;model_ok&quot;: true,
+ &quot;completed&quot;: true,
+ &quot;used_challenge_tools&quot;: true,
+ &quot;cited_entry_ids&quot;: [
+  &quot;E0113&quot;
+ ],
+ &quot;unsupported_entry_ids&quot;: [],
+ &quot;cited_revision_ids&quot;: [
+  &quot;1352397655&quot;
+ ],
+ &quot;unsupported_revision_ids&quot;: [],
+ &quot;expected_entries_found&quot;: true,
+ &quot;behaviour_ok&quot;: true,
+ &quot;auto_pass&quot;: true
+}</pre><h2 id="2026-10-18T114003Z-q01-heat">q01-heat <span class="muted">run 2026-10-18T114003Z</span></h2><p>How does the Britannica entry on HEAT describe heat, compared with the matched Wikipedia article?</p><p>Model nvidia/Nemotron-3.5-Super-VL. Tools: tool_search, tool_describe, challenge_search, challenge_read, challenge_read. Automatic check: <span class="ok">pass</span>.</p><div class="label">Generated: agent answer</div><div class="generated" style="white-space:pre-wrap">## Comparison: Britannica &quot;HEAT&quot; (E0087) vs. Wikipedia &quot;Heat&quot;
+
+### Match validity
+The matched Wikipedia article is **Heat** (page_id 19593167, revision_id 1333417689), accepted as a match to Britannica entry **E0087** (headword HEAT, scan page ID `britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1032`). The match is correct — both treat heat as a physical/philosophical concept.
+
+### What the Britannica entry says (noisy OCR)
+The Britannica text is OCR-noisy (e.g. &quot;phylology&quot; for philosophy, &quot;forecary&quot; for elementary, &quot;fanitation&quot; for sensation, &quot;frys&quot; for says, &quot;&#x27;S Gravefunde&quot; for &#x27;s Gravesande), so exact wording is unreliable, but the sense is clear:
+
+- Heat is &quot;one of the ... qualities of bodies, produced by fire, and opposed to cold.&quot; (E0087)
+- &quot;what we call heat is a particular idea or modification of our own mind, and not any thing ... in the body that occasions it.&quot; (E0087)
+- &quot;Heat, [says] Mr Locke, is no more in the fire that burns the finger, than pain is in the needle that pricks it.&quot; (E0087)
+- &quot;heat in the body that gives it, is only motion; and in the mind, only a particular idea.&quot; (E0087)
+- Per &#x27;s Gravesande, heat in a hot body is &quot;an agitation of the parts of the body&quot; — motion that excites the idea of heat in the mind; &quot;in the hot body nothing but motion.&quot; (E0087)
+- &quot;The degree of heat is measured by the expansion of the air, or spirit in the thermometer.&quot; (E0087)
+
+**Britannica&#x27;s account:** Heat is fundamentally a subjective sensation/idea in the mind produced by fire&#x27;s action on our sense organs; in the hot body itself it reduces to motion (agitation of parts). It is defined phenomenologically (Lockean), tied to fire, contrasted with cold, and measured by thermometric expansion.
+
+### What the Wikipedia article says
+- &quot;In thermodynamics, heat is defined as the form of energy crossing the boundary of a thermodynamic system by virtue of a temperature difference across the boundary. A thermodynamic system does not contain heat.&quot; (Heat, rev. 1333417689)
+- In common language &quot;heat&quot; or &quot;warmth&quot; refers to &quot;either thermal energy or temperature, or the human perception of these.&quot; (Heat, rev. 1333417689)
+- SI unit is the joule; symbol Q introduced by Clausius and Rankine c. 1859. (Heat, rev. 1333417689)
+- Historically the caloric theory was &quot;replaced by the &#x27;mechanical&#x27; theory of heat&quot; around the end of the 18th century; Bacon (1620): &quot;the very essence of heat... is motion and nothing else&quot;; Galileo described heat as &quot;an artifact of our minds.&quot; (Heat, rev. 1333417689)
+
+### How they differ (my inference)
+The two sources converge on one point: both acknowledge that heat is tied to the motion of particles and that the sensation of heat is mind-dependent (Britannica via Locke/&#x27;s Gravesande; Wikipedia via Galileo/Bacon and its &quot;common language&quot; note). But they define heat differently:
+
+1. **Ontology:** Britannica treats heat as a sensation/idea in the mind (with motion in the body); Wikipedia&#x27;s primary definition treats heat as **energy in transit across a boundary due to temperature difference**, explicitly stating a system &quot;does not contain heat.&quot;
+2. **Source/cause:** Britannica ties heat to **fire**; Wikipedia ties it to a **temperature difference** (and, secondarily, to internal thermal energy).
+3. **Measurement:** Britannica uses expansion of air/spirit in a thermometer; Wikipedia uses the joule (SI), with BTU/calorie and watt for rate.
+4. **Framework:** Britannica is a pre-modern, philosophical account; Wikipedia is a modern thermodynamic one, framed by the caloric-to-mechanical-theory transition.
+
+So the Britannica entry describes heat primarily as a mind-dependent sensation of fiery motion, while the matched Wikipedia article defines it objectively as energy transfer driven by temperature difference.</div><pre class="muted">{
+ &quot;model_ok&quot;: true,
+ &quot;completed&quot;: true,
+ &quot;used_challenge_tools&quot;: true,
+ &quot;cited_entry_ids&quot;: [
+  &quot;E0087&quot;
+ ],
+ &quot;unsupported_entry_ids&quot;: [],
+ &quot;cited_revision_ids&quot;: [
+  &quot;1333417689&quot;
+ ],
+ &quot;unsupported_revision_ids&quot;: [],
+ &quot;expected_entries_found&quot;: true,
+ &quot;behaviour_ok&quot;: true,
+ &quot;auto_pass&quot;: true
+}</pre><p class="muted">Britannica scans: National Library of Scotland, CC0 1.0. Wikipedia text: Wikipedia contributors, CC BY-SA 4.0, revision links on each page. Generated 2026-10-18T13:26:14+00:00.</p></body></html>

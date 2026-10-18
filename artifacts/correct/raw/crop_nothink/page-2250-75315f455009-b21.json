@@ -1,0 +1,93 @@
+{
+  "variant": "crop_nothink",
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2250",
+  "block_index": 21,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T12:24:24+00:00",
+  "elapsed_seconds": 0.93,
+  "finish_reason": "stop",
+  "parse_text": "Pulio Rey, that the byllas is the clearelt and moft beautiful, the whistel, froongel, and molt glolly fore of linesy that it is not made of any thing mortal, that is softy, of wool, or the skin of way animal, but that it comes out of the earth, and becomes always white, and more thinning, when it is waffed as it fluid he.",
+  "corrected_text": "of the tunics of the jewish priests were made. Philo fays, that the byffus is the clearest and moft beautiful, the whitest, ftrongeft, and moft gloffy fort of linen; that it is not made of any thing mortal, that is to fay, of wool, or the fkin of any animal, but that it comes out of the earth, and becomes always whiter, and more fhining, when it is wafhed as it fhould be.",
+  "reasoning_tokens": 0,
+  "usage": {
+    "completion_tokens": 112,
+    "prompt_tokens": 548,
+    "total_tokens": 660,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 282
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 3000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows this region of the page. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\nPulio Rey, that the byllas is the clearelt and moft beautiful, the whistel, froongel, and molt glolly fore of linesy that it is not made of any thing mortal, that is softy, of wool, or the skin of way animal, but that it comes out of the earth, and becomes always white, and more thinning, when it is waffed as it fluid he.",
+  "response": {
+    "id": "chatcmpl-bf55b793a49ef59d",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "of the tunics of the jewish priests were made. Philo fays, that the byffus is the clearest and moft beautiful, the whitest, ftrongeft, and moft gloffy fort of linen; that it is not made of any thing mortal, that is to fay, of wool, or the fkin of any animal, but that it comes out of the earth, and becomes always whiter, and more fhining, when it is wafhed as it fhould be.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792326264,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 112,
+      "prompt_tokens": 548,
+      "total_tokens": 660,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 282
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "variant": "crop_think",
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:756",
+  "block_index": 14,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T12:15:50+00:00",
+  "elapsed_seconds": 8.16,
+  "finish_reason": "stop",
+  "parse_text": "A Each of the magnets A and B, in either of the\npositions reprefened in fig. 12. would alone attract the\npiece of common iron. But when placed together,\nthe fourth pole of 8 tends to render the upper end of\nC a north pole; while the north pole of B tends to\ntake it a South pole. If there actions be nearly equal,\nthe weight of C cannot be supposedly be the magnifin\ninduced by any difference of action that may remain.\nWhile C is hanging D I alone, let. A be gradually\nenough tree, it gradually thorley the action of the\nnorth pole of B, to that C gradually lofos its magnifin\nand polarity, and its weight prends.",
+  "corrected_text": "2. Each of the magnets A and B, in either of the positions represented in fig. 12. would alone attract the piece of common iron C. But when placed together, the fourth pole of A tends to render the upper end of C a north pole; while the north pole of B tends to make it a south pole. If their actions be nearly equal, the weight of C cannot be supported by the magnetism induced by any difference of action that may remain. While C is hanging by B alone, let A be gradually brought near; it gradually destroys the action of the north pole of B, so that C gradually loses its magnetism and polarity, and its weight prevails.",
+  "reasoning_tokens": 1998,
+  "usage": {
+    "completion_tokens": 2141,
+    "prompt_tokens": 655,
+    "total_tokens": 2796,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 1998,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 324
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 12000,
+    "temperature": 0
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows this region of the page. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\nA Each of the magnets A and B, in either of the\npositions reprefened in fig. 12. would alone attract the\npiece of common iron. But when placed together,\nthe fourth pole of 8 tends to render the upper end of\nC a north pole; while the north pole of B tends to\ntake it a South pole. If there actions be nearly equal,\nthe weight of C cannot be supposedly be the magnifin\ninduced by any difference of action that may remain.\nWhile C is hanging D I alone, let. A be gradually\nenough tree, it gradually thorley the action of the\nnorth pole of B, to that C gradually lofos its magnifin\nand polarity, and its weight prends.",
+  "response": {
+    "id": "chatcmpl-b1a2aa8e5cba9170",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "2. Each of the magnets A and B, in either of the positions represented in fig. 12. would alone attract the piece of common iron C. But when placed together, the fourth pole of A tends to render the upper end of C a north pole; while the north pole of B tends to make it a south pole. If their actions be nearly equal, the weight of C cannot be supported by the magnetism induced by any difference of action that may remain. While C is hanging by B alone, let A be gradually brought near; it gradually destroys the action of the north pole of B, so that C gradually loses its magnetism and polarity, and its weight prevails.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": "The user wants me to correct the OCR text based on the provided image.\n\n**1. Analyze the Image:**\nThe image shows a snippet of text from an old book (18th/19th century encyclopedia).\nThe text is numbered \"2.\".\nIt discusses magnets A and B and a piece of iron C.\n\n**2. Transcribe the text from the image:**\n- Line 1: \"2. Each of the magnets A and B, in either of the\"\n- Line 2: \"positions represented in fig. 12. would alone attract the\"\n- Line 3: \"piece of common iron C. But when placed together,\"\n- Line 4: \"the fourth pole of A tends to render the upper end of\"\n- Line 5: \"C a north pole; while the north pole of B tends to\"\n- Line 6: \"make it a south pole. If their actions be nearly equal,\"\n- Line 7: \"the weight of C cannot be supported by the magnetism\"\n- Line 8: \"induced by any difference of action that may remain.\"\n- Line 9: \"While C is hanging by B alone, let A be gradually\"\n- Line 10: \"brought near; it gradually destroys the action of the\"\n- Line 11: \"north pole of B, so that C gradually loses its magnetism\"\n- Line 12: \"and polarity, and its weight prevails.\"\n\n**3. Compare with OCR text provided:**\nThe OCR text provided in the prompt is quite garbled.\n- \"A Each of the magnets A and B...\" -> Image starts with \"2. Each...\"\n- \"reprefened\" -> \"represented\"\n- \"fig. 12.\" -> \"fig. 12.\"\n- \"attrect\" -> \"attract\"\n- \"fourth pole of 8\" -> \"fourth pole of A\" (OCR read A as 8 or B? Wait, looking at image line 4: \"the fourth pole of A\". OCR said \"fourth pole of 8\". Wait, let's look closer at image. Line 4 says \"the fourth pole of A\". Wait, looking at crop 4, it says \"the fourth pole of A\". Wait, let me re-read carefully.\n    - Image line 4: \"the fourth pole of A tends to render the upper end of\"\n    - OCR line 4: \"the fourth pole of 8 tends to render the upper end of\" -> Correction: A.\n- \"take it a South pole\" -> Image line 5: \"make it a south pole.\" (OCR said \"take it a South pole\").\n- \"supposibly be the magnifin\" -> Image line 7: \"supported by the magnetism\".\n- \"While C is hanging D I alone\" -> Image line 9: \"While C is hanging by B alone,\".\n- \"let. A be gradually enough tree\" -> Image line 9/10: \"let A be gradually brought near;\".\n- \"it gradually thorley the action\" -> Image line 10: \"it gradually destroys the action\".\n- \"north pole of B, to that C gradually lofos its magnifin\" -> Image line 11: \"north pole of B, so that C gradually loses its magnetism\".\n- \"and its weight prends.\" -> Image line 12: \"and polarity, and its weight prevails.\"\n\n**4. Final Transcription Construction:**\nI need to write the text exactly as it appears in the image, joining hyphenated words if any (none visible here really, maybe line breaks), keeping spelling/caps/punctuation.\nThe prompt says \"Join a word that a line-break hyphen splits.\" I don't see any hyphens splitting words across lines in the visible block.\nThe prompt says \"Ignore lines cut at the top or bottom edge\". The top line \"be attracted.\" is cut off. I should ignore it. The text starts at \"2. Each...\".\n\nLet's assemble the text block.\n\n\"2. Each of the magnets A and B, in either of the\npositions represented in fig. 12. would alone attract the\npiece of common iron C. But when placed together,\nthe fourth pole of A tends to render the upper end of\nC a north pole; while the north pole of B tends to\nmake it a south pole. If their actions be nearly equal,\nthe weight of C cannot be supported by the magnetism\ninduced by any difference of action that may remain.\nWhile C is hanging by B alone, let A be gradually\nbrought near; it gradually destroys the action of the\nnorth pole of B, so that C gradually loses its magnetism\nand polarity, and its weight prevails.\"\n\nWait, let's look at the very bottom line. \"and polarity, and its weight prevails.\" is visible.\nIs there a line below? \"2. In all those cases where the induction of...\" is cut off at the bottom. I should ignore lines cut at the bottom edge. The line \"and polarity, and its weight prevails.\" seems complete.\n\nLet's double check specific words.\n- \"represented\" (OCR: reprefened) -> Image: represented.\n- \"attract\" (OCR: attrect) -> Image: attract.\n- \"fourth pole of A\" (OCR: fourth pole of 8) -> Image: fourth pole of A.\n- \"make it a south pole\" (OCR: take it a South pole) -> Image: make it a south pole.\n- \"supported by the magnetism\" (OCR: supposedly be the magnifin) -> Image: supported by the magnetism.\n- \"hanging by B alone\" (OCR: hanging D I alone) -> Image: hanging by B alone.\n- \"brought near\" (OCR: be gradually enough tree) -> Image: brought near.\n- \"destroys\" (OCR: thorley) -> Image: destroys.\n- \"so that\" (OCR: to that) -> Image: so that.\n- \"loses its magnetism\" (OCR: lofos its magnifin) -> Image: loses its magnetism.\n- \"prevails\" (OCR: prends) -> Image: prevails.\n\nThe text block seems to be paragraph 2.\n\nFinal check of the text:\n2. Each of the magnets A and B, in either of the\npositions represented in fig. 12. would alone attract the\npiece of common iron C. But when placed together,\nthe fourth pole of A tends to render the upper end of\nC a north pole; while the north pole of B tends to\nmake it a south pole. If their actions be nearly equal,\nthe weight of C cannot be supported by the magnetism\ninduced by any difference of action that may remain.\nWhile C is hanging by B alone, let A be gradually\nbrought near; it gradually destroys the action of the\nnorth pole of B, so that C gradually loses its magnetism\nand polarity, and its weight prevails.\n\nOne detail: \"fig. 12.\" has a period. \"south pole.\" has a period.\nCapitalization: \"A\", \"B\", \"C\", \"If\", \"While\".\nPunctuation: commas, semicolons, periods.\n\nLet's verify the line breaks. The output should probably be a single block of text or preserve line breaks? The prompt says \"Answer with the text only\". Usually, for OCR correction, preserving the flow is good. I will write it as a continuous paragraph or with line breaks matching the image? The prompt doesn't specify format strictly other than \"text only\". I will output it as a block of text. Wait, looking at the rules: \"Join a word that a line-break hyphen splits.\" This implies I should treat it as text. I will just output the text content.\n\nLet's re-read the first visible line. \"2. Each of the magnets A and B, in either of the\".\nThe line above it \"be attracted.\" is cut off. I ignore it.\n\nLet's check the bottom. The last full line is \"and polarity, and its weight prevails.\".\nBelow that is a line starting with \"2. In all those cases...\". This is cut off at the bottom? Actually, looking at the image, the line \"and polarity, and its weight prevails.\" is the last full line of the main block. Below it is a fragment \"2. In all those cases where the induction of...\". This looks like a new paragraph starting. The prompt says \"Ignore lines cut at the top or bottom edge of the image.\" The line \"2. In all those cases...\" is cut off at the bottom. So I stop at \"prevails.\"\n\nWait, looking closely at the bottom crop.\nThe text \"and polarity, and its weight prevails.\" is visible.\nBelow it, there is text \"2. In all those cases where the induction of...\". This is clearly a new paragraph starting. Is it cut off? Yes, the bottom of the letters is cut off. So I exclude it.\n\nSo the text ends at \"prevails.\"\n\nOne detail on spelling: \"magnetism\" vs \"magnetifn\". Image clearly says \"magnetism\".\n\"south pole\" vs \"South pole\". Image says \"south pole\" (lowercase s).\n\"north pole\" (lowercase n).\n\nLet's assemble."
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792325750,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 2141,
+      "prompt_tokens": 655,
+      "total_tokens": 2796,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 1998,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 324
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

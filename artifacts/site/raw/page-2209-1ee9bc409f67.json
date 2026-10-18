@@ -1,0 +1,51 @@
+{
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2209",
+  "filename": "page-2209-1ee9bc409f67.jpg",
+  "image_sha256": "1ee9bc409f6798b0e4f4e45d63d75caae5197059df72701387ee24385cbff28e",
+  "model": "nvidia/nemotron-3.5-parse",
+  "request": {
+    "prompt": "</s><s><predict_bbox><predict_classes><output_markdown><predict_text_in_pic>",
+    "max_tokens": 8744
+  },
+  "started_at": "2026-10-18T11:27:11+00:00",
+  "elapsed_seconds": 0.25,
+  "response": {
+    "id": "chatcmpl-8c257166-99c9-4f26-85c6-6f2cc93432ca",
+    "object": "chat.completion",
+    "created": 1792322831,
+    "model": "nvidia/nemotron-3.5-parse",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "<x_0.0><y_0.0>Plate. XLVI<x_0.999><y_0.993><class_Picture>",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.26.0-d51b4524",
+    "usage": {
+      "prompt_tokens": 518,
+      "total_tokens": 529,
+      "completion_tokens": 11,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

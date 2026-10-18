@@ -1,0 +1,93 @@
+{
+  "variant": "crop_nothink",
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:104",
+  "block_index": 15,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T12:19:45+00:00",
+  "elapsed_seconds": 1.45,
+  "finish_reason": "stop",
+  "parse_text": "Rute-Derastold...Two Iss a 1 French Kilogramsome = 229488 lb. devol, Then feel a 1 klator = 20 metres a 209 Brit. fact, five olhs a 3 acreses a 209 Brit. four morgens = 1 lecte force a 24711 kitril. acres. Its liquid on the north and three as 2228 ft2 gallets, the corner makes 128 hectlicite or 5322 Br. busheds.",
+  "corrected_text": "Brit. bushels.\nHesse-Darmstadt.—Two lbs. = 1 French kilogramme = 2-20486\nlbs. avoirdu. Ten feet = 1 klafter = 2-5 metres = 8-2023 Brit. feet;\nfive ells = 3 metres = 3-2809 Brit. yds.; four morgens = 1 hec-\ntare = 2-47114 Brit. acres. The liquid ohm = 160 litres = 35-22\nBrit. gallons; the corn malter = 1-28 hectolitre = 3-522 Brit.\nbushels.\nHolland.—In 1820, the decimal system of France was introdu-\nced, but with the old Dutch nomenclature, as explained under the\nhead Belgium. Of the old weights still used in many places,\n10-240 as = 320 engels = 16 oz. = 2 marks = 1 Dutch lb. troy",
+  "reasoning_tokens": 0,
+  "usage": {
+    "completion_tokens": 232,
+    "prompt_tokens": 575,
+    "total_tokens": 807,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 272
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 3000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows this region of the page. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\nRute-Derastold...Two Iss a 1 French Kilogramsome = 229488 lb. devol, Then feel a 1 klator = 20 metres a 209 Brit. fact, five olhs a 3 acreses a 209 Brit. four morgens = 1 lecte force a 24711 kitril. acres. Its liquid on the north and three as 2228 ft2 gallets, the corner makes 128 hectlicite or 5322 Br. busheds.",
+  "response": {
+    "id": "chatcmpl-8d2ca3b8f3c04e7e",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "Brit. bushels.\nHesse-Darmstadt.—Two lbs. = 1 French kilogramme = 2-20486\nlbs. avoirdu. Ten feet = 1 klafter = 2-5 metres = 8-2023 Brit. feet;\nfive ells = 3 metres = 3-2809 Brit. yds.; four morgens = 1 hec-\ntare = 2-47114 Brit. acres. The liquid ohm = 160 litres = 35-22\nBrit. gallons; the corn malter = 1-28 hectolitre = 3-522 Brit.\nbushels.\nHolland.—In 1820, the decimal system of France was introdu-\nced, but with the old Dutch nomenclature, as explained under the\nhead Belgium. Of the old weights still used in many places,\n10-240 as = 320 engels = 16 oz. = 2 marks = 1 Dutch lb. troy",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792325985,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 232,
+      "prompt_tokens": 575,
+      "total_tokens": 807,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 272
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

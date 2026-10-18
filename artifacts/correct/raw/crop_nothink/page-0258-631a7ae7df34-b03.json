@@ -1,0 +1,93 @@
+{
+  "variant": "crop_nothink",
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:258",
+  "block_index": 3,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T12:20:09+00:00",
+  "elapsed_seconds": 2.02,
+  "finish_reason": "stop",
+  "parse_text": "_WILLAN’s Port,_ is a factory of Afin belonging to the East India company, feated on one of the branches of the river Ganges, in the kingdom of Bengal. The tort was first built in the shape of an irregular terrazon of brick and mortar; and the town has nothing regular it is, because every one built a house as he liked beth, and for his or convenience. The governor's house is within the fort, and is the left piece of architecture in their parts. Here there are also convenient lodgings for the factors and writers, with force studies for the company's goods, and magazines or ammunition. About 57 yards near the foot is the church, built by the charity of merchants refiling here. This town is called _California_ and has a pretty good hospital for the fricks, though few come out of it alive. It is go-verned by a mayor and aldernenes, as much of the company's factories in the East Indies now are. In 1757 it was fur-",
+  "corrected_text": "William's Fort, is a factory of Asia belonging to the East-India company, seated on one of the branches of the river Ganges, in the kingdom of Bengal. The fort was first built in the shape of an irregular tetragon of brick and mortar; and the town has nothing regular in it, because every one built a house as he liked best, and for his own convenience. The governor's house is within the fort, and is the best piece of architecture in those parts. Here there are also convenient lodgings for the factors and writers, with store-houses for the company's goods, and magazines for ammunition. About 50 yards from the fort is the church, built by the charity of merchants residing here. The town is called Calcutta, and has a pretty good hospital for the sick, though few come out of it alive. It is governed by a mayor and aldermen, as most of the company's factories in the East Indies now are. In 1757 it was fur-",
+  "reasoning_tokens": 0,
+  "usage": {
+    "completion_tokens": 208,
+    "prompt_tokens": 847,
+    "total_tokens": 1055,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 452
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 3000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows this region of the page. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\n_WILLAN’s Port,_ is a factory of Afin belonging to the East India company, feated on one of the branches of the river Ganges, in the kingdom of Bengal. The tort was first built in the shape of an irregular terrazon of brick and mortar; and the town has nothing regular it is, because every one built a house as he liked beth, and for his or convenience. The governor's house is within the fort, and is the left piece of architecture in their parts. Here there are also convenient lodgings for the factors and writers, with force studies for the company's goods, and magazines or ammunition. About 57 yards near the foot is the church, built by the charity of merchants refiling here. This town is called _California_ and has a pretty good hospital for the fricks, though few come out of it alive. It is go-verned by a mayor and aldernenes, as much of the company's factories in the East Indies now are. In 1757 it was fur-",
+  "response": {
+    "id": "chatcmpl-82015a8c9e7b2529",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "William's Fort, is a factory of Asia belonging to the East-India company, seated on one of the branches of the river Ganges, in the kingdom of Bengal. The fort was first built in the shape of an irregular tetragon of brick and mortar; and the town has nothing regular in it, because every one built a house as he liked best, and for his own convenience. The governor's house is within the fort, and is the best piece of architecture in those parts. Here there are also convenient lodgings for the factors and writers, with store-houses for the company's goods, and magazines for ammunition. About 50 yards from the fort is the church, built by the charity of merchants residing here. The town is called Calcutta, and has a pretty good hospital for the sick, though few come out of it alive. It is governed by a mayor and aldermen, as most of the company's factories in the East Indies now are. In 1757 it was fur-",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792326010,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 208,
+      "prompt_tokens": 847,
+      "total_tokens": 1055,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 452
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

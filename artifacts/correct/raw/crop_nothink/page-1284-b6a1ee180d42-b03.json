@@ -1,0 +1,93 @@
+{
+  "variant": "crop_nothink",
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1284",
+  "block_index": 3,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T12:22:11+00:00",
+  "elapsed_seconds": 1.89,
+  "finish_reason": "stop",
+  "parse_text": "The trial continued during the space of two days but the commitment awaited to deliver their opinions. My lost Burleigh, in whole management Elizabeth chiefly condides, and whom the Scottish quen dicom-pofed in no common degree by her ability and vigors, being eager to consider the findings, demand to know if the bad any thing to add to what the bad gregd in her defence. She informed him, that the would be infinitely placed and geefied, if it should be permitted to her to be heard in her justification before a full meeting of the parliament, or before the queen and her privy-conned. This information was unsecc-ected, and the request implied in it was rejected. The court, in consequence of previous individuals from Elizabeth, adjored to a further day, and appointed that the place of its convention should be the flat- clamber at Wetherden, in accordingly attended these shows and Yaw and Curl, who had not been pro-duced a Motheringy coffee, were now called before the commillions. An cash to dealer the trust was put to then ,) and they definitely affirmed and protected that the declaration they had lubferbed was in every refect juit and faithful. Nothing farther remained,",
+  "corrected_text": "The trial continued during the space of two days; but the commissioners avoided to deliver their opinions. My lord Burleigh, in whose management Elizabeth chiefly confided, and whom the Scottish queen discomposed in no common degree by her ability and vigour, being eager to conclude the business, demanded to know if she had any thing to add to what she had urged in her defence. She informed him, that she would be infinitely pleased and gratified, if it should be permitted to her to be heard in her justification before a full meeting of the parliament, or before the queen and her privy-council. This intimation was unexpected; and the request implied in it was rejected. The court, in consequence of previous instructions from Elizabeth, adjourned to a further day, and appointed that the place of its convention should be the star-chamber at Westminster. It accordingly assembled there; and Naw and Curl, who had not been produced at Fotheringay castle, were now called before the commissioners. An oath to declare the truth was put to them; and they definitely affirmed and protested that the declaration they had subscribed was in every respect just and faithful. Nothing farther remained,",
+  "reasoning_tokens": 0,
+  "usage": {
+    "completion_tokens": 244,
+    "prompt_tokens": 1037,
+    "total_tokens": 1281,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 602
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 3000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows this region of the page. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\nThe trial continued during the space of two days but the commitment awaited to deliver their opinions. My lost Burleigh, in whole management Elizabeth chiefly condides, and whom the Scottish quen dicom-pofed in no common degree by her ability and vigors, being eager to consider the findings, demand to know if the bad any thing to add to what the bad gregd in her defence. She informed him, that the would be infinitely placed and geefied, if it should be permitted to her to be heard in her justification before a full meeting of the parliament, or before the queen and her privy-conned. This information was unsecc-ected, and the request implied in it was rejected. The court, in consequence of previous individuals from Elizabeth, adjored to a further day, and appointed that the place of its convention should be the flat- clamber at Wetherden, in accordingly attended these shows and Yaw and Curl, who had not been pro-duced a Motheringy coffee, were now called before the commillions. An cash to dealer the trust was put to then ,) and they definitely affirmed and protected that the declaration they had lubferbed was in every refect juit and faithful. Nothing farther remained,",
+  "response": {
+    "id": "chatcmpl-9209a5d22005b9eb",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "The trial continued during the space of two days; but the commissioners avoided to deliver their opinions. My lord Burleigh, in whose management Elizabeth chiefly confided, and whom the Scottish queen discomposed in no common degree by her ability and vigour, being eager to conclude the business, demanded to know if she had any thing to add to what she had urged in her defence. She informed him, that she would be infinitely pleased and gratified, if it should be permitted to her to be heard in her justification before a full meeting of the parliament, or before the queen and her privy-council. This intimation was unexpected; and the request implied in it was rejected. The court, in consequence of previous instructions from Elizabeth, adjourned to a further day, and appointed that the place of its convention should be the star-chamber at Westminster. It accordingly assembled there; and Naw and Curl, who had not been produced at Fotheringay castle, were now called before the commissioners. An oath to declare the truth was put to them; and they definitely affirmed and protested that the declaration they had subscribed was in every respect just and faithful. Nothing farther remained,",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792326132,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 244,
+      "prompt_tokens": 1037,
+      "total_tokens": 1281,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 602
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "variant": "crop_nothink",
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:604",
+  "block_index": 6,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T12:21:13+00:00",
+  "elapsed_seconds": 1.59,
+  "finish_reason": "stop",
+  "parse_text": "From this period until his death his time was much rec-ppled in the composition of his history, and except the arrangement of the Zuez of Nations, in which he had an important share, he engaged very little in public business. The death of Henry in 1610 eventually brought his political life to termination. Seevent with high disappointment, and ten by private greids, caused mainly by the death of his second wife, he died at Paris on the 7th of May 1617, in his sixty-fourth year. A son of De Thous by his second wife, François August, full a sacrifice to the inexor-able vegences of Cardinal Richardson, and to 12th of Sept- tender 1642.",
+  "corrected_text": "From this period until his death his time was much occupied in the composition of his history; and except the arrangement of the Edict of Nantes, in which he had an important share, he engaged very little in public business. The death of Henry in 1610 virtually brought his political life to a termination. Soured with public disappointments, and torn by private griefs, caused mainly by the death of his second wife, he died at Paris on the 7th of May 1617, in his sixty-fourth year. A son of De Thou's by his second wife, François August, fell a sacrifice to the inexorable vengeance of Cardinal Richelieu on the 12th of September 1642.",
+  "reasoning_tokens": 0,
+  "usage": {
+    "completion_tokens": 153,
+    "prompt_tokens": 649,
+    "total_tokens": 802,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 314
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 3000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows this region of the page. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\nFrom this period until his death his time was much rec-ppled in the composition of his history, and except the arrangement of the Zuez of Nations, in which he had an important share, he engaged very little in public business. The death of Henry in 1610 eventually brought his political life to termination. Seevent with high disappointment, and ten by private greids, caused mainly by the death of his second wife, he died at Paris on the 7th of May 1617, in his sixty-fourth year. A son of De Thous by his second wife, François August, full a sacrifice to the inexor-able vegences of Cardinal Richardson, and to 12th of Sept- tender 1642.",
+  "response": {
+    "id": "chatcmpl-93b0569c772bfa4a",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "From this period until his death his time was much occupied in the composition of his history; and except the arrangement of the Edict of Nantes, in which he had an important share, he engaged very little in public business. The death of Henry in 1610 virtually brought his political life to a termination. Soured with public disappointments, and torn by private griefs, caused mainly by the death of his second wife, he died at Paris on the 7th of May 1617, in his sixty-fourth year. A son of De Thou's by his second wife, François August, fell a sacrifice to the inexorable vengeance of Cardinal Richelieu on the 12th of September 1642.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792326074,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 153,
+      "prompt_tokens": 649,
+      "total_tokens": 802,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 314
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

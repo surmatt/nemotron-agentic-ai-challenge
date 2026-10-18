@@ -1,0 +1,90 @@
+{
+  "variant": "crop_think",
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2001",
+  "block_index": 2,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T12:16:46+00:00",
+  "elapsed_seconds": 7.22,
+  "finish_reason": "stop",
+  "parse_text": "As to the revenue, the excife here in levied only in the walled towns, being on the fame footing as in the mmunific of Brandenburg; but in the rest of the coun-try the contributions are fixed, and the time both in peace and var. The several branches of the revenues are under the management of the war and domain offices of Berlher and Clugas. The whole revenue arling to the king of Praffia from Sfislio and the country of Glatz amounts to about four millions of rix-dollars per season.",
+  "corrected_text": "As to the revenue, the excise here is levied only in the walled towns, being on the same footing as in the margraviate of Brandenburg; but in the rest of the country the contributions are fixed, and the same both in peace and war. The several branches of the revenue are under the management of the war and domain offices of Breslau and Glogau. The whole revenue arising to the king of Prussia from Silesia and the county of Glatz amounts to about four millions of rix-dollars per annum.",
+  "reasoning_tokens": 1961,
+  "usage": {
+    "completion_tokens": 2076,
+    "prompt_tokens": 583,
+    "total_tokens": 2659,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 1961,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 290
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 12000,
+    "temperature": 0
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows this region of the page. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\nAs to the revenue, the excife here in levied only in the walled towns, being on the fame footing as in the mmunific of Brandenburg; but in the rest of the coun-try the contributions are fixed, and the time both in peace and var. The several branches of the revenues are under the management of the war and domain offices of Berlher and Clugas. The whole revenue arling to the king of Praffia from Sfislio and the country of Glatz amounts to about four millions of rix-dollars per season.",
+  "response": {
+    "id": "chatcmpl-83850d723cba34c6",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "As to the revenue, the excise here is levied only in the walled towns, being on the same footing as in the margraviate of Brandenburg; but in the rest of the country the contributions are fixed, and the same both in peace and war. The several branches of the revenue are under the management of the war and domain offices of Breslau and Glogau. The whole revenue arising to the king of Prussia from Silesia and the county of Glatz amounts to about four millions of rix-dollars per annum.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": "The user wants me to correct the OCR text based on the provided image.\n\n**1. Analyze the Image:**\nThe image shows a snippet of text from an old book (18th/19th century).\nThe text reads:\n\"As to the revenue, the excise here is levied only in the walled towns, being on the same footing as in the margraviate of Brandenburg; but in the rest of the country the contributions are fixed, and the same both in peace and war. The several branches of the revenue are under the management of the war and domain offices of Breslau and Glogau. The whole revenue arising to the king of Prussia from Silesia and the county of Glatz amounts to about four millions of rix-dollars per annum.\"\n\nThere is a cut-off line at the bottom: \"Silesia is divided into Upper and Lower, and each of\". I should ignore lines cut at the bottom edge? Wait, the rule says \"Ignore lines cut at the top or bottom edge of the image.\" The last line \"Silesia is divided...\" is cut off at the bottom. So I should stop before that line.\n\nLet's look at the OCR text provided to see what needs correcting.\nOCR: \"As to the revenue, the excife here in levied only in the walled towns, being on the fame footing as in the mmunific of Brandenburg; but in the rest of the coun-try the contributions are fixed, and the time both in peace and var. The several branches of the revenues are under the management of the war and domain offices of Berlher and Clugas. The whole revenue arling to the king of Praffia from Sfislio and the country of Glatz amounts to about four millions of rix-dollars per season.\"\n\n**2. Compare Image vs OCR:**\n- \"excife\" -> \"excise\" (long s looks like f, rule says write long s as 's')\n- \"here in levied\" -> \"here is levied\" (OCR missed 'is', added 'in'?) Actually image says \"here is levied\".\n- \"fame footing\" -> \"same footing\" (long s)\n- \"mmunific\" -> \"margraviate\" (OCR is very wrong here). Image: \"margraviate of Brandenburg\".\n- \"coun-try\" -> \"country\" (Join hyphen split).\n- \"time both in peace and var\" -> \"same both in peace and war\". Image: \"and the same both in peace and war.\" Wait, let's look closer. Image: \"and the same both in peace and war.\" OCR says \"and the time both in peace and var.\"\n- \"revenues\" -> \"revenue\" (singular in image? \"The several branches of the revenue\"). Image: \"revenue\".\n- \"Berlher and Clugas\" -> \"Breslau and Glogau\". Image: \"offices of Breslau and Glogau.\"\n- \"arling\" -> \"arising\". Image: \"arising\".\n- \"Praffia\" -> \"Prussia\". Image: \"Prussia\".\n- \"Sfislio\" -> \"Silesia\". Image: \"Silesia\".\n- \"per season\" -> \"per annum\". Image: \"per annum.\"\n\n**3. Transcription Rules:**\n- Write long s as 's'.\n- Keep original spelling, capitals, punctuation.\n- Join word split by line-break hyphen.\n- Leave out headers, page numbers, etc.\n- Ignore lines cut at top or bottom. The last visible full paragraph ends with \"per annum.\" The line below \"Silesia is divided...\" is cut off at the bottom. So I will exclude it.\n\n**4. Drafting the text:**\nLine 1: As to the revenue, the excise here is levied only in\nLine 2: the walled towns, being on the same footing as in the\nLine 3: margraviate of Brandenburg; but in the rest of the coun-try (Join: country)\nLine 4: try the contributions are fixed, and the same both in\nLine 5: peace and war. The several branches of the revenue\nLine 6: are under the management of the war and domain offices of\nLine 7: Breslau and Glogau. The whole revenue arising\nLine 8: to the king of Prussia from Silesia and the county\nLine 9: of Glatz amounts to about four millions of rix-dollars\nLine 10: per annum.\n\nLet's assemble the paragraph.\n\"As to the revenue, the excise here is levied only in the walled towns, being on the same footing as in the margraviate of Brandenburg; but in the rest of the country the contributions are fixed, and the same both in peace and war. The several branches of the revenue are under the management of the war and domain offices of Breslau and Glogau. The whole revenue arising to the king of Prussia from Silesia and the county of Glatz amounts to about four millions of rix-dollars per annum.\"\n\nWait, let's re-read the image carefully for line breaks and hyphens.\nImage text:\n\"As to the revenue, the excise here is levied only in\nthe walled towns, being on the same footing as in the\nmargraviate of Brandenburg; but in the rest of the coun-\ntry the contributions are fixed, and the same both in\npeace and war. The several branches of the revenue\nare under the management of the war and domain offices of\nBreslau and Glogau. The whole revenue arising\nto the king of Prussia from Silesia and the county\nof Glatz amounts to about four millions of rix-dollars\nper annum.\"\n\nThe OCR text provided in the prompt is a single block. I need to output the corrected text as a single block or preserving lines? Usually, these tasks want the text content. The prompt says \"Answer with the text only\". I will combine it into a paragraph, joining the hyphenated word.\n\nCorrections:\n- excife -> excise\n- here in levied -> here is levied\n- fame -> same\n- mmunific -> margraviate\n- coun-try -> country (join)\n- time -> same\n- var -> war\n- revenues -> revenue (singular matches image \"branches of the revenue\")\n- Berlher and Clugas -> Breslau and Glogau\n- arling -> arising\n- Praffia -> Prussia\n- Sfislio -> Silesia\n- per season -> per annum\n\nLet's double check \"margraviate\". Image: \"margraviate of Brandenburg\". Yes.\nLet's double check \"Breslau and Glogau\". Image: \"Breslau and Glogau\". Yes.\nLet's double check \"per annum\". Image: \"per annum.\" Yes.\n\nFinal check on the cut-off line. The image shows \"Silesia is divided into Upper and Lower, and each of\" at the very bottom, partially cut off. The rule says \"Ignore lines cut at the top or bottom edge of the image.\" So I stop at \"per annum.\"\n\nFinal Text Construction:\nAs to the revenue, the excise here is levied only in the walled towns, being on the same footing as in the margraviate of Brandenburg; but in the rest of the country the contributions are fixed, and the same both in peace and war. The several branches of the revenue are under the management of the war and domain offices of Breslau and Glogau. The whole revenue arising to the king of Prussia from Silesia and the county of Glatz amounts to about four millions of rix-dollars per annum.\n\nOne detail: \"coun-try\" is split across lines. Rule: \"Join a word that a line-break hyphen splits.\" So \"country\".\n\nLet's verify the text \"the same both in peace and war\".\nImage line 4: \"try the contributions are fixed, and the same both in\". Yes.\nImage line 5: \"peace and war.\" Yes.\n\nLet's verify \"The several branches of the revenue\".\nImage line 5: \"peace and war. The several branches of the revenue\". Yes.\n\nLet's verify \"offices of Breslau and Glogau\".\nImage line 6/7: \"are under the management of the war and domain offices of / Breslau and Glogau.\" Yes.\n\nLet's verify \"The whole revenue arising\".\nImage line 7/8: \"Breslau and Glogau. The whole revenue arising / to the king...\" Yes.\n\nLet's verify \"from Silesia and the county\".\nImage line 8: \"to the king of Prussia from Silesia and the county\". Yes.\n\nLet's verify \"of Glatz amounts to about four millions of rix-dollars\".\nImage line 9/10: \"of Glatz amounts to about four millions of rix-dollars\". Yes.\n\nLet's verify \"per annum.\"\nImage line 10: \"per annum.\" Yes.\n\nThe text looks solid."
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792325807,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 2076,
+      "prompt_tokens": 583,
+      "total_tokens": 2659,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 1961,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 290
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

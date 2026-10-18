@@ -1,0 +1,93 @@
+{
+  "variant": "crop_nothink",
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1298",
+  "block_index": 5,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T12:22:14+00:00",
+  "elapsed_seconds": 3.47,
+  "finish_reason": "stop",
+  "parse_text": "The time was now coming when Mr Edwards’ talents were to be exercised in a wider sphere. His uncle dying, approached to him his property; and in 1728 to become her, or the much larger estate of Mr Harman also of de-maker. His wealth and talents united, now entitled him to take a lead to the presence of the island. In 1754 he published _Thoughts on the Proceedings of Covenancement respected the Year of the Year India Islands with the United States of America._ This was followed by a speech delivered at a free conference between the Council and Assembly at Jamaica, held on the 25th of November 1980, in the analysis of DM Vivenheroberg proportions in the House of Commons concerning the slave trade. It was in 1786, however, that he published his great work, as which he had been many years engaged, entitled Hisory Cryit and Commercied, of the British Colonies to the West Indies, a vote and. He begins to do warto by giving a view of the original inhabitants of the West Indies, their manners, institutions, and the means in which they have been so entirely extramated. This was followed by a sketch of the revolutions through which these islands have passed since the first European invasion. He gives next geographical and statistical description of each particular island. He treats finally, my great thought of the go-vernment, the social status, and above all the comments of this remarkable region. In the course of the discussion, the extent fully into its relations that the African coast and the negore slave trade. Mr Edwards, as a great and long-resident proponies, was almost inevitably led to be a supporter of this traffic. He reasons, however, in a liberal candid manner on the question, and does not even attempt to day the extent of the era's with which will was accompanied. He only insists that there were not large and treated; and that Great Britain, by renounceing it whilst it was well prosecuted by the other nations of Europe, would ruin the own colonies without doing any thing to improve the coalition of the Africans. That 196 he pub­failed, in one volume quarta, a History of St Zamany, an island which had excited a deep interest, in consequence of the insurrection of the slaves, and the consequent sensibilisation of an independent reger governance. In 1800 a new edition of both these works was published, in three vols, Svo, under the general fate of History of the Vlad Italia. A fifth edition issued from the press in the year 1811). When Park returned from his celebrated por- very, Mr Edwards, from his own information done or a report of it, which was submitted to the African Society, and published in their Transactions. Mr Bride afterwards incorporated the greater part of this in the goodt mar-ative of his Travel, in preparing which he awaited bin-and much of the assistance and suggestions of Mr Edwards. It has been currently said that this narrative was entrie- written by Mr Edwards, but as this assertion has been pointedly contradictory but that, who has elsewhere shown respectable talents for composition, it can only be understood in the limited sense which has not been stated. It appears, however that Mr Park was induced, by Mr Edwards influence, to give further a more favorable view of the role in slaves than reflection afterwards led him to a sanction.",
+  "corrected_text": "The time was now coming when Mr Edwards' talents were to be exercised in a wider sphere. His uncle dying, bequeathed to him his property; and in 1773 he became heir to the much larger estate of Mr Hume, also of Jamaica. His wealth and talents united, now entitled him to take a lead in the political concerns of the island. In 1784 he published Thoughts on the Proceedings of Government respecting the Trade of the West India Islands with the United States of America. This was followed by a speech delivered at a free conference between the Council and Assembly at Jamaica, held on the 25th of November 1789, on the subject of Mr Wilberforce's propositions in the House of Commons concerning the slave trade. It was in 1793, however, that he published his great work, on which he had been many years engaged, entitled History, Civil and Commercial, of the British Colonies in the West Indies, 2 vols. 4to. He begins the work by giving a view of the original inhabitants of the West Indies, their manners, institutions, and the means by which they have been so entirely exterminated. This was followed by a sketch of the revolutions through which these islands have passed since the first European invasion. He gives next a geographical and statistical description of each particular island. He treats finally, at great length, of the government, the social state, and above all the commerce, of this remarkable region. In the course of the discussion, he enters fully into its relations with the African coast and the negro slave trade. Mr Edwards, as a great and long-resident proprietor, was almost inevitably led to be a supporter of this traffic. He reasons, however, in a liberal and candid manner on the question, and does not even attempt to deny the extent of the evils with which it was accompanied. He only insists that these evils have been overrated; and that Great Britain, by renouncing it whilst it was still prosecuted by the other nations of Europe, would ruin her own colonies, without doing any thing to improve the condition of the Africans. In 1796 he published, in one volume quarto, a History of St Domingo, an island which had excited a deep interest, in consequence of the insurrection of the slaves, and the consequent establishment of an independent negro government. In 1801 a new edition of both these works was published, in three vols. 8vo, under the general title of History of the West Indies. A fifth edition issued from the press in the year 1819. When Park returned from his celebrated journey, Mr Edwards, from his oral information, drew up a report of it, which was submitted to the African Society, and published in their Transactions. Mr Park afterwards incorporated the greater part of this into the general narrative of his Travels, in preparing which he availed himself much of the assistance and suggestions of Mr Edwards. It has been currently said that this narrative was entirely written by Mr Edwards; but as this assertion has been pointedly contradicted by Park, who has elsewhere shown respectable talents for composition, it can only be understood in the limited sense which has now been stated. It appears, however, that Mr Park was induced, by Mr Edwards' influence, to give rather a more favourable view of the trade in slaves than reflection afterwards led him to sanction.",
+  "reasoning_tokens": 0,
+  "usage": {
+    "completion_tokens": 706,
+    "prompt_tokens": 2262,
+    "total_tokens": 2968,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 1370
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 3000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows this region of the page. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\nThe time was now coming when Mr Edwards’ talents were to be exercised in a wider sphere. His uncle dying, approached to him his property; and in 1728 to become her, or the much larger estate of Mr Harman also of de-maker. His wealth and talents united, now entitled him to take a lead to the presence of the island. In 1754 he published _Thoughts on the Proceedings of Covenancement respected the Year of the Year India Islands with the United States of America._ This was followed by a speech delivered at a free conference between the Council and Assembly at Jamaica, held on the 25th of November 1980, in the analysis of DM Vivenheroberg proportions in the House of Commons concerning the slave trade. It was in 1786, however, that he published his great work, as which he had been many years engaged, entitled Hisory Cryit and Commercied, of the British Colonies to the West Indies, a vote and. He begins to do warto by giving a view of the original inhabitants of the West Indies, their manners, institutions, and the means in which they have been so entirely extramated. This was followed by a sketch of the revolutions through which these islands have passed since the first European invasion. He gives next geographical and statistical description of each particular island. He treats finally, my great thought of the go-vernment, the social status, and above all the comments of this remarkable region. In the course of the discussion, the extent fully into its relations that the African coast and the negore slave trade. Mr Edwards, as a great and long-resident proponies, was almost inevitably led to be a supporter of this traffic. He reasons, however, in a liberal candid manner on the question, and does not even attempt to day the extent of the era's with which will was accompanied. He only insists that there were not large and treated; and that Great Britain, by renounceing it whilst it was well prosecuted by the other nations of Europe, would ruin the own colonies without doing any thing to improve the coalition of the Africans. That 196 he pub­failed, in one volume quarta, a History of St Zamany, an island which had excited a deep interest, in consequence of the insurrection of the slaves, and the consequent sensibilisation of an independent reger governance. In 1800 a new edition of both these works was published, in three vols, Svo, under the general fate of History of the Vlad Italia. A fifth edition issued from the press in the year 1811). When Park returned from his celebrated por- very, Mr Edwards, from his own information done or a report of it, which was submitted to the African Society, and published in their Transactions. Mr Bride afterwards incorporated the greater part of this in the goodt mar-ative of his Travel, in preparing which he awaited bin-and much of the assistance and suggestions of Mr Edwards. It has been currently said that this narrative was entrie- written by Mr Edwards, but as this assertion has been pointedly contradictory but that, who has elsewhere shown respectable talents for composition, it can only be understood in the limited sense which has not been stated. It appears, however that Mr Park was induced, by Mr Edwards influence, to give further a more favorable view of the role in slaves than reflection afterwards led him to a sanction.",
+  "response": {
+    "id": "chatcmpl-b68986d2604b8425",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "The time was now coming when Mr Edwards' talents were to be exercised in a wider sphere. His uncle dying, bequeathed to him his property; and in 1773 he became heir to the much larger estate of Mr Hume, also of Jamaica. His wealth and talents united, now entitled him to take a lead in the political concerns of the island. In 1784 he published Thoughts on the Proceedings of Government respecting the Trade of the West India Islands with the United States of America. This was followed by a speech delivered at a free conference between the Council and Assembly at Jamaica, held on the 25th of November 1789, on the subject of Mr Wilberforce's propositions in the House of Commons concerning the slave trade. It was in 1793, however, that he published his great work, on which he had been many years engaged, entitled History, Civil and Commercial, of the British Colonies in the West Indies, 2 vols. 4to. He begins the work by giving a view of the original inhabitants of the West Indies, their manners, institutions, and the means by which they have been so entirely exterminated. This was followed by a sketch of the revolutions through which these islands have passed since the first European invasion. He gives next a geographical and statistical description of each particular island. He treats finally, at great length, of the government, the social state, and above all the commerce, of this remarkable region. In the course of the discussion, he enters fully into its relations with the African coast and the negro slave trade. Mr Edwards, as a great and long-resident proprietor, was almost inevitably led to be a supporter of this traffic. He reasons, however, in a liberal and candid manner on the question, and does not even attempt to deny the extent of the evils with which it was accompanied. He only insists that these evils have been overrated; and that Great Britain, by renouncing it whilst it was still prosecuted by the other nations of Europe, would ruin her own colonies, without doing any thing to improve the condition of the Africans. In 1796 he published, in one volume quarto, a History of St Domingo, an island which had excited a deep interest, in consequence of the insurrection of the slaves, and the consequent establishment of an independent negro government. In 1801 a new edition of both these works was published, in three vols. 8vo, under the general title of History of the West Indies. A fifth edition issued from the press in the year 1819. When Park returned from his celebrated journey, Mr Edwards, from his oral information, drew up a report of it, which was submitted to the African Society, and published in their Transactions. Mr Park afterwards incorporated the greater part of this into the general narrative of his Travels, in preparing which he availed himself much of the assistance and suggestions of Mr Edwards. It has been currently said that this narrative was entirely written by Mr Edwards; but as this assertion has been pointedly contradicted by Park, who has elsewhere shown respectable talents for composition, it can only be understood in the limited sense which has now been stated. It appears, however, that Mr Park was induced, by Mr Edwards' influence, to give rather a more favourable view of the trade in slaves than reflection afterwards led him to sanction.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792326135,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 706,
+      "prompt_tokens": 2262,
+      "total_tokens": 2968,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 1370
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

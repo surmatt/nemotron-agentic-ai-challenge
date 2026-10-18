@@ -1,0 +1,705 @@
+{
+  "entry_id": "E0014",
+  "headword": "WILLIAMSBURG",
+  "entry_text_sha256": "4a0284bc7bf2cf7a24d98be733e77084bdba97da67c3e8faa6a528fc3493dea6",
+  "mode": "model",
+  "queries": [
+    "williamsburg",
+    "williamsburg town north america virginia formerly capital state situated creeks falling james"
+  ],
+  "query_chars": 613,
+  "headword_variant": null,
+  "candidate_count": 32,
+  "list_pages_removed_after_fetch": [],
+  "decision": {
+    "status": "rejected",
+    "method": "nemotron_embed_rerank",
+    "thresholds": {
+      "rerank_logit": -10.0,
+      "margin": 0.5,
+      "cosine": 0.15,
+      "title_similarity": 0.0
+    },
+    "reason": "rerank_logit < -10.0, margin < 0.5, cosine < 0.15, or title_similarity < 0.0",
+    "page_id": "91234",
+    "title": "Williamsburg, Virginia",
+    "rerank_logit": -3.077562,
+    "cosine": 0.497176,
+    "margin_to_next": 0.458421,
+    "title_similarity": 0.7273
+  },
+  "candidates": [
+    {
+      "page_id": "14272325",
+      "revision_id": "1332487134",
+      "title": "Queen's Creek",
+      "url": "https://en.wikipedia.org/wiki/Queen%27s_Creek",
+      "excerpt": "Queen's Creek is located in York County in the Virginia Peninsula area of the Hampton Roads region of southeastern Virginia in the United States. From a point of origin near the Waller Mill Reservoir in western York County, it flows northeasterly across the northern half of the Peninsula as a tributary of the York River.\n\nAs Jamestown in the Colony of Virginia was first settled by English colonists beginning in 1607 along the James River, the colonists had frequent and violent confrontations with the Powhatan people who had long lived there. The two cultures had differing ideas of land use and the Powhatan hunting grounds and territory were encroached on by the increasing number of colonists. In addition, after 1612 they began to clear land and cultivate it for tobacco production, exacerbated by their cultivation of land-hungry tobacco as a cash crop to export after 1612.\n\nQueen's Creek became important to the colony and was fortified in the 1630s. Colonists had discussed the idea of a palisade or fortification across the peninsula as early as 1611. But, colonist John Rolfe married Pocahontas, daughter of the chief Powhatan in 1614 and colonists enjoyed a period of relative peace w",
+      "excerpt_offset": 0,
+      "total_chars": 10262,
+      "bm25": {
+        "q1": {
+          "rank": 1,
+          "score": 44.3373
+        }
+      },
+      "best_rank": 1,
+      "title_similarity": 0.16,
+      "context_overlap": 0.0588,
+      "cosine": 0.277646,
+      "rerank_logit": -6.244235,
+      "rerank_position": 28
+    },
+    {
+      "page_id": "16794292",
+      "revision_id": "1325225627",
+      "title": "History of Williamsburg, Virginia",
+      "url": "https://en.wikipedia.org/wiki/History_of_Williamsburg,_Virginia",
+      "excerpt": "The history of Williamsburg, Virginia dates to the 17th Century. First named Middle Plantation, it changed its name to Williamsburg in 1699.\n\nPrior to the arrival of the English colonists at Jamestown in the Colony of Virginia in 1607, the area that became Williamsburg was largely wooded, and well within the territory of the Native American group known as the Powhatan Confederacy. In the early colonial period, navigable rivers were the equivalent of modern highways. For ease of travel, and security from conflicts with Native Americans, early colonial settlements were established close to rivers.\n\nBy the 1630s, English settlements had grown to dominate the lower (eastern) portion of the Virginia Peninsula. The Natives had abandoned their villages nearby, such as Kiskiack (also spelled \"Chiskiack\"), and settled in more remote locations, but continued to intermittently attack the colonists. To protect the lower peninsula's farming and fishing communities, the colonists built a stockade across the lake.\n\nLying along the center-line of the Virginia Peninsula, the area that became Williamsburg was some distance from both the James River and the York River, and the ground's elevation grad",
+      "excerpt_offset": 0,
+      "total_chars": 17470,
+      "bm25": {
+        "q1": {
+          "rank": 2,
+          "score": 41.4352
+        }
+      },
+      "best_rank": 2,
+      "title_similarity": 0.5455,
+      "context_overlap": 0.0732,
+      "cosine": 0.380174,
+      "rerank_logit": -3.535983,
+      "rerank_position": 2
+    },
+    {
+      "page_id": "2616590",
+      "revision_id": "1273608234",
+      "title": "Falling Creek (James River tributary)",
+      "url": "https://en.wikipedia.org/wiki/Falling_Creek_(James_River_tributary)",
+      "excerpt": "Falling Creek is a tributary of the James River located near Richmond, Virginia, United States. Approximately 23 miles (37 km) in length, it varies in width between 10 feet (3.0 m) at its source to several hundred feet in the Falling Creek Reservoir. Falling Creek rises in the Salisbury section of northwestern Chesterfield County, flows through Southside Richmond and empties into the James River roughly one mile south of the Richmond city limits. A dam located in the Meadowbrook section of the county at Hopkins Road forms the Falling Creek Reservoir, formerly used as northern Chesterfield's drinking water supply.\n\nIn 1619, Falling Creek Ironworks (located just east of the modern-day Jefferson Davis Highway) became the first iron furnace in North America. The site is now part of a park owned by Chesterfield County.\n\nIn 1621, Falling Creek was the site of the first lead mines in North America.\n\nFrom 1750-1781, the port town of Warwick was located at the confluence of Falling Creek with the James River. During this period it was also the site of Chesterfield or Cary's Forge. This was a finery forge used to convert high carbon pig iron to low carbon iron which was built and operated by",
+      "excerpt_offset": 0,
+      "total_chars": 1994,
+      "bm25": {
+        "q1": {
+          "rank": 3,
+          "score": 41.1765
+        }
+      },
+      "best_rank": 3,
+      "title_similarity": 0.32,
+      "context_overlap": 0.15,
+      "cosine": 0.279242,
+      "rerank_logit": -6.454059,
+      "rerank_position": 31
+    },
+    {
+      "page_id": "349174",
+      "revision_id": "1348364524",
+      "title": "Virginia Peninsula",
+      "url": "https://en.wikipedia.org/wiki/Virginia_Peninsula",
+      "excerpt": "The Virginia Peninsula is the natural landform located in southeast Virginia outlined by the York River, James River, Hampton Roads and Chesapeake Bay. It is sometimes known as the Lower Peninsula to distinguish it from two other peninsulas to the north, the Middle Peninsula and the Northern Neck.\n\nIt is the site of historic Jamestown, founded in 1607 as the first permanent English settlement in North America. Geographically located at the northwestern reaches, Charles City and New Kent counties are part of the Virginia Peninsula. In the 21st century, they are also considered part of the Richmond–Petersburg region. The rest of the Virginia Peninsula is all part of the Virginia Beach–Norfolk–Newport News, VA–NC MSA (metropolitan statistical area) with a population of about 1.8 million. The Hampton Roads MSA is the common name for the metropolitan area that surrounds the body of water of the same name. It is the seventh-largest metropolitan area in the Southeast and the 32nd largest in the United States.\n\nThe land portion of Hampton Roads has been historically divided into two regions, the Virginia Peninsula or Peninsula on the north side, and South Hampton Roads on the south side. M",
+      "excerpt_offset": 0,
+      "total_chars": 12993,
+      "bm25": {
+        "q1": {
+          "rank": 4,
+          "score": 41.1623
+        }
+      },
+      "best_rank": 4,
+      "title_similarity": 0.3333,
+      "context_overlap": 0.0972,
+      "cosine": 0.265771,
+      "rerank_logit": -5.570153,
+      "rerank_position": 25
+    },
+    {
+      "page_id": "61855017",
+      "revision_id": "1351269079",
+      "title": "Williamsburg, Mississippi",
+      "url": "https://en.wikipedia.org/wiki/Williamsburg,_Mississippi",
+      "excerpt": "Williamsburg, (also spelled as Williamsburgh), is an Unincorporated community in Covington County, Mississippi, United States. Williamsburg served as the county seat from 1829 until 1906. Three separate courthouses were built and subsequently burned in Williamsburg. The last courthouse was burned by an arsonist. Train service was brought to an area nearby named Williamsburg Depot, which was renamed Collins. Williamsburg lost its status as a county seat and was replaced by Collins.\n\nA post office operated under the name Williamsburgh from 1827 to 1891 and under the name Williamsburg from 1891 to 1907.\n\nA book about the community and its graveyards was published in 2013.\n\nRobert S. Hall, U.S. Representative from Mississippi from 1929 to 1933",
+      "excerpt_offset": 0,
+      "total_chars": 749,
+      "bm25": {
+        "q0": {
+          "rank": 5,
+          "score": 14.9459
+        }
+      },
+      "best_rank": 5,
+      "title_similarity": 0.6667,
+      "context_overlap": 0.0238,
+      "cosine": 0.275173,
+      "rerank_logit": -4.418532,
+      "rerank_position": 8
+    },
+    {
+      "page_id": "4232959",
+      "revision_id": "1339740726",
+      "title": "Kingsmill, Virginia",
+      "url": "https://en.wikipedia.org/wiki/Kingsmill,_Virginia",
+      "excerpt": "Kingsmill is a geographic area in James City County, Virginia, that includes a large planned residential community, a resort complex, a theme park, a brewery, and a commercial park.\n\nThe Kingsmill area is between the north bank of the James River just east (downstream) of the site where the first permanent English settlement in North America at Jamestown was established in 1607 and Interstate Highway 64. Highway access to most of the area's businesses and attractions is from U.S. Route 60 between the eastern city limits of Williamsburg and the adjacent community of Grove, or from Virginia State Route 199, which forms a semi-circular beltway of sorts around Williamsburg's southern side.\n\nA prominent member of the Virginia Company, Richard Kingsmill, became the namesake of the Kingsmill Plantation. The Virginia Company was a for-profit organization chartered in England which was charged with the founding and settlement of Virginia under the reign of King James I. Richard Kingsmill was given one of the first land grants of 300 acres (1.2 km 2) in the southwest area of what later became a much larger plantation. Elizabeth Kingsmill married Col William Tayloe and he inherited the land f",
+      "excerpt_offset": 0,
+      "total_chars": 23141,
+      "bm25": {
+        "q1": {
+          "rank": 5,
+          "score": 41.1284
+        }
+      },
+      "best_rank": 5,
+      "title_similarity": 0.3333,
+      "context_overlap": 0.1154,
+      "cosine": 0.319407,
+      "rerank_logit": -5.223548,
+      "rerank_position": 19
+    },
+    {
+      "page_id": "58520789",
+      "revision_id": "1296952552",
+      "title": "Noah von Williamsburg",
+      "url": "https://en.wikipedia.org/wiki/Noah_von_Williamsburg",
+      "excerpt": "Noah von Williamsburg (20 April 1539 – unknown) was a minor German noble and skilled fencer. He is known for beating famous German artist Thomas Schweicker in a duel that cost the artist both arms.\n\nVon Williamsburg was born in the small town of Judenburg Austria to Johannes von Williamsburg and Eva Graf. His father Johannes von Williamsburg was a noble and landowner around the town. His mother was his father's second wife after his first wife died from an unknown illness.\n\nIn 1561, von Williamsburg challenged German artist Thomas Schweicker to a duel over a woman named Kirsten Engel that both wanted to court. Schweicker was unaware of von Williamsburg's aptitude with swordfighting and was swiftly defeated. Schweicker lost both arms during the duel and was left for dead, but was brought back to Schwäbisch Hall by spectators where a doctor cauterized his wounds and saved his life. Decades after the duel, Schweicker apologized to von Williamsburg. The two reconciled and became good friends. After Schweicker's death in October of 1602, von Williamsburg was distraught. He attended Schweiker's funeral and burial, and paid for the expenses and burial plot.\n\nDays after his duel with Schwe",
+      "excerpt_offset": 0,
+      "total_chars": 1781,
+      "bm25": {
+        "q0": {
+          "rank": 6,
+          "score": 14.9279
+        }
+      },
+      "best_rank": 6,
+      "title_similarity": 0.7273,
+      "context_overlap": 0.0256,
+      "cosine": 0.107066,
+      "rerank_logit": -6.673412,
+      "rerank_position": 32
+    },
+    {
+      "page_id": "14272025",
+      "revision_id": "1282228314",
+      "title": "College Creek",
+      "url": "https://en.wikipedia.org/wiki/College_Creek",
+      "excerpt": "37°13′23″N 76°41′38″W / 37.22306°N 76.69389°W\n\nCollege Creek (formerly named Archer's Hope Creek) is located in James City County in the Virginia Peninsula area of the Hampton Roads region of southeastern Virginia in the United States. From a point of origin near the independent city of Williamsburg, it is a tributary of the James River.\n\nThe College Creek watershed of James City County includes the residential subdivisions of Kingsmill, Kingspoint, James Terrace, and the Vineyards. The watershed also contains Kingsmill Pond, Busch Corporate Center and the Anheuser-Busch Brewery.\n\nAs Jamestown in the Colony of Virginia was first settled by English colonists beginning in 1607, a nearby tributary of the James River was named Archer's Hope Creek. It took its name from a point of land near the mouth named Archer's Hope after Gabriel Archer. Captain Archer was particularly impressed with this location and urged that it be the point of settlement. The soil seemed good, timber and wildlife were abundant, and it appeared adaptable for defensive measures if these should become necessary. It was not possible, however, to bring the ships close to the shore, and consequently Archer's Hope was ",
+      "excerpt_offset": 0,
+      "total_chars": 9496,
+      "bm25": {
+        "q1": {
+          "rank": 6,
+          "score": 40.7153
+        }
+      },
+      "best_rank": 6,
+      "title_similarity": 0.24,
+      "context_overlap": 0.0909,
+      "cosine": 0.356349,
+      "rerank_logit": -5.021966,
+      "rerank_position": 16
+    },
+    {
+      "page_id": "61177231",
+      "revision_id": "1300121562",
+      "title": "Williamsburg, Calhoun County, Georgia",
+      "url": "https://en.wikipedia.org/wiki/Williamsburg,_Calhoun_County,_Georgia",
+      "excerpt": "Williamsburg is an unincorporated community in Calhoun County, in the U.S. state of Georgia.\n\nA post office called Williamsburg was established in 1873, and remained in operation until 1913. Variant names are \"Williamsburg Crossroads\" and \"Williamsburgh\".\n\nThe Georgia General Assembly incorporated Williamsburg as a town in 1887. The town's municipal charter was repealed in 1995.",
+      "excerpt_offset": 0,
+      "total_chars": 381,
+      "bm25": {
+        "q0": {
+          "rank": 7,
+          "score": 14.8933
+        }
+      },
+      "best_rank": 7,
+      "title_similarity": 0.5106,
+      "context_overlap": 0.1304,
+      "cosine": 0.253672,
+      "rerank_logit": -4.251887,
+      "rerank_position": 5
+    },
+    {
+      "page_id": "91303",
+      "revision_id": "1349499479",
+      "title": "James City County, Virginia",
+      "url": "https://en.wikipedia.org/wiki/James_City_County,_Virginia",
+      "excerpt": "James City County is a county located in the Commonwealth of Virginia. As of the 2020 census, the population was 78,254. Although politically separate from the county, the county seat is the adjacent independent city of Williamsburg. Located on the Virginia Peninsula, James City County is included in the Virginia Beach - Norfolk - Newport News, VA- NC Metropolitan Statistical Area. It is often associated with Williamsburg, an independent city, and Jamestown which is within the county.\n\nFirst settled by the English colonists in 1607 at Jamestown in the Virginia Colony, the county was formally created in 1634 as James City Shire by order of King Charles I. James City County is considered one of only five original shires of Virginia to still be extant today in essentially the same political form. The Jamestown 2007 celebration marked the 400th anniversary of the founding of Jamestown.\n\nTourism is a major part of the region's economy, as is high technology. The College of William and Mary is nearby, as well as NASA, Jefferson Laboratory, and numerous defense contractors, giving the region the highest concentration of scientists and engineers per capita in the nation. James City County ",
+      "excerpt_offset": 0,
+      "total_chars": 32836,
+      "bm25": {
+        "q1": {
+          "rank": 7,
+          "score": 40.5921
+        }
+      },
+      "best_rank": 7,
+      "title_similarity": 0.1622,
+      "context_overlap": 0.0519,
+      "cosine": 0.317669,
+      "rerank_logit": -4.751851,
+      "rerank_position": 13
+    },
+    {
+      "page_id": "76338567",
+      "revision_id": "1351953914",
+      "title": "Battle of Williamsburg order of battle",
+      "url": "https://en.wikipedia.org/wiki/Battle_of_Williamsburg_order_of_battle",
+      "excerpt": "The order of battle for the Battle of Williamsburg includes:\n\nBattle of Williamsburg order of battle: Confederate\n\nBattle of Williamsburg order of battle: Union",
+      "excerpt_offset": 0,
+      "total_chars": 160,
+      "bm25": {
+        "q0": {
+          "rank": 8,
+          "score": 14.8898
+        }
+      },
+      "best_rank": 8,
+      "title_similarity": 0.48,
+      "context_overlap": 0.1667,
+      "cosine": 0.206064,
+      "rerank_logit": -4.796981,
+      "rerank_position": 14
+    },
+    {
+      "page_id": "3209399",
+      "revision_id": "1351083188",
+      "title": "Fort Magruder",
+      "url": "https://en.wikipedia.org/wiki/Fort_Magruder",
+      "excerpt": "Fort Magruder was a 30-foot-high (9.1 m) earthen fortification straddling the road between Yorktown and Williamsburg, Virginia, just outside the latter city (and former Virginia state capital) during the American Civil War. At the center of the Williamsburg Line, it was also referred to as Redoubt Number 6.\n\nFort Magruder was strategic in defending Williamsburg during the Peninsula Campaign in 1862 due to its location near the junction of the two roads that led to Williamsburg from Yorktown and Lee's Mill to the east. It became a key point during the Battle of Williamsburg on May 5, 1862.\n\nIn the American Civil War, the Peninsula Campaign was a major Union operation launched in southeastern Virginia from March through July 1862, the first large-scale offensive in the Eastern Theater. The operation, commanded by Maj. Gen. George B. McClellan, was an amphibious turning movement intended to capture the Confederate capital of Richmond by moving up (west) the Virginia Peninsula from Fort Monroe at the eastern tip near the entrance to Hampton Roads to Richmond, about 75 miles (121 km) away.\n\nThe Confederate Army of the Peninsula was the primary defensive force, and was commanded by Brig.",
+      "excerpt_offset": 0,
+      "total_chars": 8633,
+      "bm25": {
+        "q1": {
+          "rank": 8,
+          "score": 40.5211
+        }
+      },
+      "best_rank": 8,
+      "title_similarity": 0.24,
+      "context_overlap": 0.1,
+      "cosine": 0.332679,
+      "rerank_logit": -4.809506,
+      "rerank_position": 15
+    },
+    {
+      "page_id": "33646006",
+      "revision_id": "1326589346",
+      "title": "Williamsburg Historic District (Williamsburg, Pennsylvania)",
+      "url": "https://en.wikipedia.org/wiki/Williamsburg_Historic_District_(Williamsburg,_Pennsylvania)",
+      "excerpt": "The Williamsburg Historic District is a national historic district that is located in Williamsburg, Blair County, Pennsylvania.\n\nIt was added to the National Register of Historic Places in 1995.\n\nThis district includes 362 contributing buildings and six contributing structures that are located in the central business district and surrounding residential areas of Williamsburg. The earliest buildings date to the 1830s, when the community was expanded as a canal town along the Pennsylvania Main Line Canal. The buildings are primarily frame and brick, with notable examples of Federal and Late Victorian style architecture.\n\nNotable non-residential buildings include the Schwab Hotel (c. 1910), the Hollidaysburg Trust Company (1873), the Presbyterian Church (1841), Zion Lutheran Church (1907), the Church of the Brethren (1911), Williamsburg High School (1918), and the Community Elementary School building (1941). Also located in the district are the Presbyterian (c. 1824), Methodist (c. 1831), Lutheran (c. 1835), and Lutheran and German Reformed (c. 1804) cemeteries, Big Spring, and the Pennsylvania Main Line Canal and Pennsylvania Railroad right-of-way.",
+      "excerpt_offset": 0,
+      "total_chars": 1164,
+      "bm25": {
+        "q0": {
+          "rank": 9,
+          "score": 14.8652
+        }
+      },
+      "best_rank": 9,
+      "title_similarity": 0.5714,
+      "context_overlap": 0.0308,
+      "cosine": 0.252307,
+      "rerank_logit": -5.323302,
+      "rerank_position": 20
+    },
+    {
+      "page_id": "1506306",
+      "revision_id": "1328222228",
+      "title": "Virginia State Route 31",
+      "url": "https://en.wikipedia.org/wiki/Virginia_State_Route_31",
+      "excerpt": "State Route 31 (SR 31) is a primary state highway in the U.S. state of Virginia. The state highway runs 24.56 miles (39.53 km) from U.S. Route 460 (US 460) in Wakefield north to SR 5 and SR 199 in Williamsburg. SR 31 is the primary north – south highway of Surry County, where the highway serves the towns of Surry and Dendron. The state highway also connects Williamsburg with Jamestown. The sections of SR 31 on either side of the James River are connected by the Jamestown Ferry.\n\nSR 31 begins at an intersection with US 460 in the town of Wakefield in Sussex County. The state highway heads east on Main Street, which continues west of US 460 as SR 628. At the eastern town limit, SR 31 veers north onto Birch Island Road. The state highway becomes Rolfe Highway when it enters Surry County right before the highway crosses the Blackwater River. SR 31 heads northeast through town of Dendron and the hamlet of Elberon. The state highway runs concurrently with SR 10 (Colonial Trail) while passing through the town of Surry. North of Surry, SR 31 passes Smith's Fort Plantation before reaching the Scotland terminal of the Jamestown Ferry across the James River. The Jamestown Ferry is the only cr",
+      "excerpt_offset": 0,
+      "total_chars": 2941,
+      "bm25": {
+        "q1": {
+          "rank": 9,
+          "score": 40.2884
+        }
+      },
+      "best_rank": 9,
+      "title_similarity": 0.3125,
+      "context_overlap": 0.1429,
+      "cosine": 0.256751,
+      "rerank_logit": -5.58178,
+      "rerank_position": 26
+    },
+    {
+      "page_id": "47529486",
+      "revision_id": "1329227015",
+      "title": "Williamsburg Cinemas",
+      "url": "https://en.wikipedia.org/wiki/Williamsburg_Cinemas",
+      "excerpt": "Williamsburg Cinemas is a first-run multiplex theater located in Williamsburg, Brooklyn in New York City, on the corner of Grand Street and Driggs Avenue. The cinema has seven theaters, is 19,000 square-feet wide, has stadium-seating, and operates a concession stand.\n\nIn early 2012, Harvey Elgart, the owner of Brooklyn's Cobble Hill Cinemas, contracted with developer Blue Zees to build Williamsburg Cinemas. The multiplex is owned by Elgart's son, Noah Elgart.\n\nConstruction of the Williamsburg Cinemas multiplex was finished in 2012, and it officially opened on December 19, 2012.\n\nWilliamsburg Cinemas has served as the site of many movie premieres since its opening, including that of the 2015 Fantastic Four film, which premiered at the multiplex on August 4, 2015.\n\nWilliamsburg Cinemas is notable for its 7.1 Dolby Digital surround sound system, as well as its stadium seating.",
+      "excerpt_offset": 0,
+      "total_chars": 886,
+      "bm25": {
+        "q0": {
+          "rank": 10,
+          "score": 14.8429
+        }
+      },
+      "best_rank": 10,
+      "title_similarity": 0.7742,
+      "context_overlap": 0.0317,
+      "cosine": 0.160145,
+      "rerank_logit": -6.250524,
+      "rerank_position": 29
+    },
+    {
+      "page_id": "2860061",
+      "revision_id": "1315808148",
+      "title": "Grove, Virginia",
+      "url": "https://en.wikipedia.org/wiki/Grove,_Virginia",
+      "excerpt": "Grove is an unincorporated community in the southeastern portion of James City County in the Virginia Peninsula subregion of Virginia, United States. It is located in the center of the Historic Triangle of Colonial Virginia, communities linked by the Colonial Parkway. This area is one of the busiest tourist destinations in the world.\n\nGrove is located approximately 7 miles (11 km) east of Williamsburg along U.S. Route 60. Grove is bordered by the James River and separated from the Newport News city limits near Lee Hall by Skiffe's Creek.\n\nHistoric places in Grove related to Virginia colonial past include the archaeological site of Wolstenholme Towne, the administrative center of Martin's Hundred. It was rediscovered in 1976 on the grounds of Carter's Grove Plantation, built in 1755. The plantation was occupied by private owners through the 1960s. It was owned and operated by the Colonial Williamsburg Foundation and open to the public from the 1970s until 2003. In 2007 the property was sold back into private ownership.\n\nGrove's contemporary development began with African-American settlement by freedmen from Carter's Grove and other plantations following the Civil War. Its population",
+      "excerpt_offset": 0,
+      "total_chars": 27690,
+      "bm25": {
+        "q1": {
+          "rank": 10,
+          "score": 39.7026
+        }
+      },
+      "best_rank": 10,
+      "title_similarity": 0.2308,
+      "context_overlap": 0.0714,
+      "cosine": 0.257094,
+      "rerank_logit": -5.402406,
+      "rerank_position": 23
+    },
+    {
+      "page_id": "24225593",
+      "revision_id": "1345817686",
+      "title": "Williamsburg, West Virginia",
+      "url": "https://en.wikipedia.org/wiki/Williamsburg,_West_Virginia",
+      "excerpt": "Williamsburg is a small unincorporated community in Greenbrier County, West Virginia, United States. Williamsburg is 10 miles (16 km) west of Falling Spring. Williamsburg has a post office with ZIP code 24991.\n\nThe community derives its name from Albert Williams, a local pioneer.",
+      "excerpt_offset": 0,
+      "total_chars": 280,
+      "bm25": {
+        "q0": {
+          "rank": 11,
+          "score": 14.8222
+        }
+      },
+      "best_rank": 11,
+      "title_similarity": 0.6316,
+      "context_overlap": 0.1739,
+      "cosine": 0.279552,
+      "rerank_logit": -4.340835,
+      "rerank_position": 7
+    },
+    {
+      "page_id": "18606629",
+      "revision_id": "1346512944",
+      "title": "Virginia Capital Trail",
+      "url": "https://en.wikipedia.org/wiki/Virginia_Capital_Trail",
+      "excerpt": "The Virginia Capital Trail (VCT) (informally, the Cap Trail, or simply the Cap) is a dedicated, paved bicycle and pedestrian trail crossing four counties and 51.7 miles (83.2 km) between Jamestown and Richmond, Virginia — that is, between the Colony of Virginia 's first capital and Virginia 's current capital. The trail is part of the TransAmerica Trail and connects to the East Coast Greenway.\n\nConstruction began in 2006 and completed to Jamestown in October 2015. With the Williamsburg extension, the trail extends approximately 62 miles (100 km), and attracted 1.2 million users in 2021.\n\nThe VCT largely parallels Virginia Route 5, a Virginia Scenic Byway, with its own physically separated, asphalt-paved lane — including on the Dresser Bridge over the Chickahominy River. Its zero mile marker at Jamestown is directly adjacent to Jamestown Settlement and near the foot of the Colonial Parkway — a scenic road linking Jamestown, Williamsburg and Yorktown. The trail, which crosses Route 5 at marked intersections, ranges in width from eight to ten feet (2.4 to 3.0 m) and is dedicated exclusively to non-motorized pedestrian and bicycle use, with a vegetation barrier separating it from the a",
+      "excerpt_offset": 0,
+      "total_chars": 8302,
+      "bm25": {
+        "q1": {
+          "rank": 11,
+          "score": 39.4295
+        }
+      },
+      "best_rank": 11,
+      "title_similarity": 0.1176,
+      "context_overlap": 0.1026,
+      "cosine": 0.23332,
+      "rerank_logit": -5.390902,
+      "rerank_position": 22
+    },
+    {
+      "page_id": "14154094",
+      "revision_id": "1304219346",
+      "title": "Williamsburg, Indiana",
+      "url": "https://en.wikipedia.org/wiki/Williamsburg,_Indiana",
+      "excerpt": "Williamsburg is an unincorporated community and census designated place (CDP) in Green Township, Wayne County, in the U.S. state of Indiana.\n\nThe children of this community attend Northeastern Wayne Schools.\n\nThe earliest settlers in the Williamsburg area arrived from North Carolina in 1810, before Indiana became a state. The town was laid out and platted in 1830, and was named after its founder, William Johnson. The post office at Williamsburg has been in operation since 1830.\n\nThe United States Census Bureau defined Williamsburg as a census designated place in the 2022 American Community Survey.",
+      "excerpt_offset": 0,
+      "total_chars": 604,
+      "bm25": {
+        "q0": {
+          "rank": 12,
+          "score": 14.8096
+        }
+      },
+      "best_rank": 12,
+      "title_similarity": 0.75,
+      "context_overlap": 0.125,
+      "cosine": 0.325957,
+      "rerank_logit": -5.07669,
+      "rerank_position": 17
+    },
+    {
+      "page_id": "1343479",
+      "revision_id": "1333711617",
+      "title": "Middle Plantation, Virginia",
+      "url": "https://en.wikipedia.org/wiki/Middle_Plantation,_Virginia",
+      "excerpt": "Middle Plantation in the Virginia Colony was the unincorporated town established in 1632 that became Williamsburg in 1699. It was located on high ground about halfway across the Virginia Peninsula between the James River and York River. Middle Plantation represented the first major inland settlement for the colony. It was established by an Act of Assembly to provide a link between Jamestown and Chiskiack, a settlement located across the Peninsula on the York River.\n\nMiddle Plantation's growth was encouraged by the completion in 1634 of a continuous fortification, or palisade, across the peninsula a distance of about 6 miles (10 km) between Archer's Hope Creek (later renamed College Creek), which drained southerly to the James River and Queen's Creek, which drained northerly to the York River. Also in 1634, James City Shire was established by the House of Burgesses to include Middle Plantation and the surrounding area. James City Shire soon thereafter became James City County, the oldest county in the United States.\n\nAs the small town grew, a new Bruton Parish Church was constructed there. In 1693, Middle Plantation was selected as the site of the new College of William & Mary. Afte",
+      "excerpt_offset": 0,
+      "total_chars": 17290,
+      "bm25": {
+        "q1": {
+          "rank": 12,
+          "score": 39.3097
+        }
+      },
+      "best_rank": 12,
+      "title_similarity": 0.2632,
+      "context_overlap": 0.1268,
+      "cosine": 0.358346,
+      "rerank_logit": -4.261697,
+      "rerank_position": 6
+    },
+    {
+      "page_id": "8890852",
+      "revision_id": "1340145968",
+      "title": "Williamsburg High School (Ohio)",
+      "url": "https://en.wikipedia.org/wiki/Williamsburg_High_School_(Ohio)",
+      "excerpt": "Williamsburg High School is a public high school in Williamsburg, Ohio. It is the only high school in the Williamsburg Local School District. It serves around 600 students in the Middle and High Schools. There was a new building built in 1996 and still runs today.\n\nGirls Softball – 2017",
+      "excerpt_offset": 0,
+      "total_chars": 287,
+      "bm25": {
+        "q0": {
+          "rank": 13,
+          "score": 14.7943
+        }
+      },
+      "best_rank": 13,
+      "title_similarity": 0.6667,
+      "context_overlap": 0.05,
+      "cosine": 0.184939,
+      "rerank_logit": -5.471322,
+      "rerank_position": 24
+    },
+    {
+      "page_id": "19815632",
+      "revision_id": "1318208229",
+      "title": "Peninsula Extension",
+      "url": "https://en.wikipedia.org/wiki/Peninsula_Extension",
+      "excerpt": "The Peninsula Extension which created the Peninsula Subdivision of the Chesapeake and Ohio Railway (C&O) was the new railroad line on the Virginia Peninsula from Richmond to southeastern Warwick County. Its principal purpose was to provide an important new pathway for coal mined in West Virginia to reach the harbor of Hampton Roads for coastal and export shipping on collier ships.\n\nCompleted on 16 October 1881, the new double-tracked railroad and the other development visions of industrialist Collis Potter Huntington resulted in a 15-year transition of the rural farm village of Newport News into a new independent city which also became home to the world's largest shipyard. The railroad, one of the later developed in Virginia, became important to many communities, opening transportation options, and stimulating commerce and military operations on the Peninsula throughout the 20th century.\n\nOver 125 years after it opened, many of the stations are gone. Spur lines have both come and gone. Also gone are the steam locomotives, save one on display at Huntington Park in Newport News, another at the Science Museum of Virginia in Richmond, and a third which was left buried in Richmond's Chu",
+      "excerpt_offset": 0,
+      "total_chars": 28137,
+      "bm25": {
+        "q1": {
+          "rank": 13,
+          "score": 38.8577
+        }
+      },
+      "best_rank": 13,
+      "title_similarity": 0.1935,
+      "context_overlap": 0.0341,
+      "cosine": 0.163255,
+      "rerank_logit": -6.256576,
+      "rerank_position": 30
+    },
+    {
+      "page_id": "8734996",
+      "revision_id": "1308748629",
+      "title": "Williamsburg Community Hospital",
+      "url": "https://en.wikipedia.org/wiki/Williamsburg_Community_Hospital",
+      "excerpt": "Williamsburg Community Hospital was located on Mt. Vernon Ave. in Williamsburg, Virginia, and served the community from 1961 until 2006. In August 2006, it was replaced by a newer and larger facility, the 139-bed Sentara Williamsburg Regional Medical Center, located in adjacent York County, Virginia.\n\nAfter patients and equipment were transferred, the vacant older facility was donated to a long time neighboring organization, the College of William and Mary. In the fall of 2006, the college announced plans to build a new School of Education on the site, which is located about one mile from the Historic Area of Colonial Williamsburg.",
+      "excerpt_offset": 0,
+      "total_chars": 639,
+      "bm25": {
+        "q0": {
+          "rank": 14,
+          "score": 14.7754
+        }
+      },
+      "best_rank": 14,
+      "title_similarity": 0.5581,
+      "context_overlap": 0.1522,
+      "cosine": 0.328051,
+      "rerank_logit": -4.681815,
+      "rerank_position": 12
+    },
+    {
+      "page_id": "1539471",
+      "revision_id": "1293707547",
+      "title": "Magruder, Virginia",
+      "url": "https://en.wikipedia.org/wiki/Magruder,_Virginia",
+      "excerpt": "Magruder was a small unincorporated town in Virginia near Williamsburg in York County. Settled mostly by African-American freedmen after the American Civil War, it once had its own church, post office, cemetery, lodge, and homes. After this land was acquired for the development of the US military reservation known as Camp Peary, all the residents and businesses were displaced. Magruder is considered extinct and one of the lost towns of Virginia.\n\nMagruder was located in York County. The site was north of the colonial-era capital of Williamsburg and just west of Queen's Creek, which flows into the York River on the north side of the Virginia Peninsula.\n\nThe small settlement which became Magruder was named for American Civil War Confederate General John B. \"Prince John\" Magruder. During the Peninsula Campaign of the American Civil War in 1862, a large federal force under General George B. McClellan began at Fort Monroe at the entrance to Hampton Roads and moved west to try to capture the Confederate capital city of Richmond.\n\nGeneral Magruder headed a small force known as the Army of the Peninsula. His mission was to delay the federal advance, and he became well known for his decepti",
+      "excerpt_offset": 0,
+      "total_chars": 3049,
+      "bm25": {
+        "q1": {
+          "rank": 14,
+          "score": 38.6291
+        }
+      },
+      "best_rank": 14,
+      "title_similarity": 0.2069,
+      "context_overlap": 0.1111,
+      "cosine": 0.305878,
+      "rerank_logit": -4.539946,
+      "rerank_position": 9
+    },
+    {
+      "page_id": "61177209",
+      "revision_id": "1300121565",
+      "title": "Williamsburg, Clinch County, Georgia",
+      "url": "https://en.wikipedia.org/wiki/Williamsburg,_Clinch_County,_Georgia",
+      "excerpt": "Williamsburg is an unincorporated community in Clinch County, in the U.S. state of Georgia.\n\nIt is unknown why the name \"Williamsburg\" was applied to this place.",
+      "excerpt_offset": 0,
+      "total_chars": 161,
+      "bm25": {
+        "q0": {
+          "rank": 15,
+          "score": 14.7674
+        }
+      },
+      "best_rank": 15,
+      "title_similarity": 0.5217,
+      "context_overlap": 0.2727,
+      "cosine": 0.255818,
+      "rerank_logit": -4.156021,
+      "rerank_position": 4
+    },
+    {
+      "page_id": "27381896",
+      "revision_id": "1339741343",
+      "title": "Rich Neck Plantation",
+      "url": "https://en.wikipedia.org/wiki/Rich_Neck_Plantation",
+      "excerpt": "37°13′23″N 76°41′38″W / 37.22306°N 76.69389°W Rich Neck Plantation was located in James City County, Virginia in the Colony of Virginia.\n\nRich Neck Plantation (not to be confused with Richneck Plantation in nearby Warwick County), was established around 1632 as part of the community of Middle Plantation. The latter was located on a ridge which ran along the center of the Virginia Peninsula separating the watersheds of the York River to the north and the James River to the south. A palisade to secure the area east down the Peninsula to Old Point Comfort ran across the land portion between Queen's Creek and College Creek, with the new community as its centerpiece.\n\nMiddle Plantation was renamed Williamsburg in 1699 after the College of William and Mary was established nearby and the capital of the colony was relocated there from Jamestown. In the early 1700s, a mill pond was constructed to power a gristmill which survives to present as Lake Matoaka.\n\nRich Neck Plantation was home to a number of noted Virginians, including three of seventeenth-century Virginia's big-name secretaries of the colony: Richard Kemp, Sir Thomas Lunsford, Thomas Ludwell, and brother Philip Ludwell, as well a",
+      "excerpt_offset": 0,
+      "total_chars": 2232,
+      "bm25": {
+        "q1": {
+          "rank": 15,
+          "score": 38.4326
+        }
+      },
+      "best_rank": 15,
+      "title_similarity": 0.1875,
+      "context_overlap": 0.1111,
+      "cosine": 0.342868,
+      "rerank_logit": -4.658984,
+      "rerank_position": 11
+    },
+    {
+      "page_id": "108500",
+      "revision_id": "1348297950",
+      "title": "Williamsburg, Colorado",
+      "url": "https://en.wikipedia.org/wiki/Williamsburg,_Colorado",
+      "excerpt": "Williamsburg is a statutory town located in Fremont County, Colorado, United States. The town population was 731 at the 2020 census. The Florence post office (ZIP code 81226) serves Williamsburg.\n\nWilliamsburg is located in southeastern Fremont County at 38°23′1″N 105°9′37″W / 38.38361°N 105.16028°W (38.383623, -105.160337). It is bordered to the east by the city of Florence and to the south by the town of Rockvale. Cañon City, the county seat, is 8 miles (13 km) to the northwest.\n\nAccording to the United States Census Bureau, Williamsburg has a total area of 3.6 square miles (9.2 km 2), all of it land.\n\nIt is in the Fremont RE-2 School District.",
+      "excerpt_offset": 0,
+      "total_chars": 654,
+      "bm25": {
+        "q0": {
+          "rank": 16,
+          "score": 14.6979
+        }
+      },
+      "best_rank": 16,
+      "title_similarity": 0.7273,
+      "context_overlap": 0.1176,
+      "cosine": 0.271303,
+      "rerank_logit": -5.199197,
+      "rerank_position": 18
+    },
+    {
+      "page_id": "91234",
+      "revision_id": "1349506610",
+      "title": "Williamsburg, Virginia",
+      "url": "https://en.wikipedia.org/wiki/Williamsburg,_Virginia",
+      "excerpt": "Williamsburg is an independent city in the U.S. state of Virginia. It had a population of 15,425 at the 2020 census. Located on the Virginia Peninsula, Williamsburg is in the northern part of the Hampton Roads metropolitan area. It is bordered by James City County on the west and south and York County on the east.\n\nIn 1632, English settlers founded Middle Plantation as a fortified settlement on high ground between the James and York rivers and farther inland than their headquarters at Jamestown. The city of Williamsburg was established at the site of Middle Plantation in 1699. It functioned as the capital of the Colony and Commonwealth of Virginia from 1699 to 1780 and became the center of political events in Virginia leading to the American Revolution. The College of William & Mary, established in Middle Plantation in 1693, is the second-oldest institution of higher education in the United States. Of the nine colonial colleges in the U.S., it is the only one located in the American South. Its alumni include three U.S. presidents as well as many other important figures in the nation's early history.\n\nThe city's tourism-based economy is driven by Colonial Williamsburg, the city's re",
+      "excerpt_offset": 0,
+      "total_chars": 36273,
+      "bm25": {
+        "q1": {
+          "rank": 16,
+          "score": 37.9544
+        }
+      },
+      "best_rank": 16,
+      "title_similarity": 0.7273,
+      "context_overlap": 0.1216,
+      "cosine": 0.497176,
+      "rerank_logit": -3.077562,
+      "rerank_position": 1
+    },
+    {
+      "page_id": "2957687",
+      "revision_id": "1351913550",
+      "title": "Williamsburg, Maryland",
+      "url": "https://en.wikipedia.org/wiki/Williamsburg,_Maryland",
+      "excerpt": "Williamsburg is an unincorporated community in Dorchester County on the Eastern Shore of the U.S. state of Maryland.",
+      "excerpt_offset": 0,
+      "total_chars": 116,
+      "bm25": {
+        "q0": {
+          "rank": 17,
+          "score": 14.6836
+        }
+      },
+      "best_rank": 17,
+      "title_similarity": 0.7273,
+      "context_overlap": 0.2222,
+      "cosine": 0.29122,
+      "rerank_logit": -4.122446,
+      "rerank_position": 3
+    },
+    {
+      "page_id": "780649",
+      "revision_id": "1347371318",
+      "title": "Benjamin Stoddert Ewell",
+      "url": "https://en.wikipedia.org/wiki/Benjamin_Stoddert_Ewell",
+      "excerpt": "Benjamin Stoddert Ewell (June 10, 1810 – June 19, 1894) was a United States and Confederate army officer, civil engineer, and educator from James City County, Virginia. He graduated from the U.S. Military Academy at West Point, New York in 1832 and served as an officer and educator.\n\nAlthough he personally did not favor secession of Virginia from the Union, at the outset of the American Civil War (1861–1865), he helped form local militia in the Peninsula region of Hampton Roads. His work designing and constructing the Williamsburg Line of defensive works of the city and Fort Magruder at its center was a factor in delaying Federal troops attempting to chase retreating Confederates during the Peninsula Campaign, a failed attempt to capture the capital city of Richmond in 1862. His younger brother was Confederate General Richard S. Ewell, a senior commander under Stonewall Jackson and Robert E. Lee.\n\nBenjamin Ewell is best remembered for his long tenure as the sixteenth president of the College of William and Mary in Williamsburg before, during and after the American Civil War. Benjamin Ewell's tireless efforts to restore the historic school and its programs during and after Reconstru",
+      "excerpt_offset": 0,
+      "total_chars": 7977,
+      "bm25": {
+        "q1": {
+          "rank": 17,
+          "score": 37.9142
+        }
+      },
+      "best_rank": 17,
+      "title_similarity": 0.1714,
+      "context_overlap": 0.0889,
+      "cosine": 0.317131,
+      "rerank_logit": -4.635249,
+      "rerank_position": 10
+    },
+    {
+      "page_id": "66524010",
+      "revision_id": "1349588886",
+      "title": "Williamsburg Maternity Hospital",
+      "url": "https://en.wikipedia.org/wiki/Williamsburg_Maternity_Hospital",
+      "excerpt": "Williamsburg Maternity Hospital was a Brooklyn hospital that had its birth announcements regularly covered. It was located at 753 Bushwick Avenue, and began in 1918. It closed more than once (and reopened) in the late 1920s/early 1930s. Williamsburg Maternity Hospital was listed in the 1930 census and was still operating in the 1950s.",
+      "excerpt_offset": 0,
+      "total_chars": 336,
+      "bm25": {
+        "q0": {
+          "rank": 18,
+          "score": 14.6835
+        }
+      },
+      "best_rank": 18,
+      "title_similarity": 0.5581,
+      "context_overlap": 0.05,
+      "cosine": 0.160686,
+      "rerank_logit": -5.790976,
+      "rerank_position": 27
+    },
+    {
+      "page_id": "1451532",
+      "revision_id": "1344077947",
+      "title": "Bruton Parish Church",
+      "url": "https://en.wikipedia.org/wiki/Bruton_Parish_Church",
+      "excerpt": "Bruton Parish Church is located in the restored area of Colonial Williamsburg in Williamsburg, Virginia, United States. It was established in 1674 by the consolidation of two previous parishes in the Virginia Colony, and remains an active Episcopal parish. The building, constructed 1711–15, was designated a National Historic Landmark in 1970 as a well-preserved early example of colonial religious architecture.\n\nThe roots of Bruton Parish Church trace back to both the Church of England and the new settlement of the Colony of Virginia at Jamestown in the early 17th century. The role of the church and its relationship to the government had been established by King Henry VIII some years earlier. The same relationship was established in the new colony.\n\nWhen the English colony was established at Jamestown on May 14, 1607, the conduct of worship and the building of a primitive chapel were given priority even as the first fort was built. The Reverend Robert Hunt served as the first chaplain. He had been the chaplain appointed to serve as spiritual leader of the three-ship expedition headed by Christopher Newport, and he lit the candle for the Anglican Church in Virginia a few weeks earlie",
+      "excerpt_offset": 0,
+      "total_chars": 23178,
+      "bm25": {
+        "q1": {
+          "rank": 18,
+          "score": 37.419
+        }
+      },
+      "best_rank": 18,
+      "title_similarity": 0.25,
+      "context_overlap": 0.0263,
+      "cosine": 0.211873,
+      "rerank_logit": -5.37872,
+      "rerank_position": 21
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "variant": "crop_nothink",
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1670",
+  "block_index": 5,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T12:22:57+00:00",
+  "elapsed_seconds": 1.92,
+  "finish_reason": "stop",
+  "parse_text": "The religion of the ancient Cappadocians was much the fames within date of the Persian. At Comana there was a rich and clearly tempted declared to Helians whole battles the prieds and their attendants rifled to terrorists on third days, cutting and wounding each other at if faced with an enthusiastic fory. No he famous and magnificent were the temple of Apallo Culanias, and of Jupiter: the half of which had good folks forward or religious warriaries. The shell prick was next in rank to that of Comana ) and, according to Simba, had an yearly revenue of y students. Diana Perifer was worshipped in a city called _Capadocia_ where women, devoted to the worship of that goldofis, were reported to read barberfooted on burning coal, without receiving any burial. The context of Dimas di Diopolis, and of Arias at Zels, were likewise held in great westernism both by the Cappadocians and Armo- nians, who blocked to them from all parts. In the latter were rendered all costs in interest of conferences and the chief among the pride was now anyway inferior in digitiry power and wealth, to any in the kingdom’s having a royal attendance, and an unlimited authority over all like differing formats and offices of the temple. The Romans, who willingly adopted all the fingerti- ritions and hyperditious rice of the nations they conquered greatly traveled to the venues of this and so that temples is conferring the pretilhood on fish as they thought not fit for carrying out their adigame. We see told that Indian families were offered at Co- mans ; and that this barharous cutom was brought by Qrcites and his filter Iphigenis from Tauries Seytica, where men and women were immolized to Diana. But",
+  "corrected_text": "The religion of the ancient Cappadocians was much the same with that of the Persians. At Comana there was a rich and stately temple dedicated to Bellona; whose battles the priests and their attendants used to repeat on stated days, cutting and wounding each other as if fired with an enthusiastic fury. No less famous and magnificent were the temples of Apollo Cataenius, and of Jupiter: the last of which had 3000 fixed servants, or religious votaries. The chief priest was next in rank to that of Comana; and, according to Strabo, had an yearly revenue of 15 talents. Diana Perica was worshipped in a city called Capadocia, where women, devoted to the worship of that goddess, were reported to tread barefooted on burning coals, without receiving any hurt. The temples of Diana at Diopolis, and of Annis at Zela, were likewise held in great veneration both by the Cappadocians and Armenians, who flocked to them from all parts. In the latter were tended all oaths in matters of consequence; and the chief among the priests was no way inferior in dignity, power, and wealth, to any in the kingdom; having a royal attendance, and an unlimited authority over all the inferior servants and officers of the temple. The Romans, who willingly adopted all the superstitions and superstitious rites of the nations they conquered, greatly increased the revenues of this and other temples; conferring the priesthood on such as they thought most fit for carrying on their designs. We are told that human sacrifices were offered at Comana; and that this barbarous custom was brought by Orestes and his sister Iphigenia from Taurica Scythica, where men and women were immolated to Diana. But",
+  "reasoning_tokens": 0,
+  "usage": {
+    "completion_tokens": 373,
+    "prompt_tokens": 1321,
+    "total_tokens": 1694,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 761
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 3000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows this region of the page. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\nThe religion of the ancient Cappadocians was much the fames within date of the Persian. At Comana there was a rich and clearly tempted declared to Helians whole battles the prieds and their attendants rifled to terrorists on third days, cutting and wounding each other at if faced with an enthusiastic fory. No he famous and magnificent were the temple of Apallo Culanias, and of Jupiter: the half of which had good folks forward or religious warriaries. The shell prick was next in rank to that of Comana ) and, according to Simba, had an yearly revenue of y students. Diana Perifer was worshipped in a city called _Capadocia_ where women, devoted to the worship of that goldofis, were reported to read barberfooted on burning coal, without receiving any burial. The context of Dimas di Diopolis, and of Arias at Zels, were likewise held in great westernism both by the Cappadocians and Armo- nians, who blocked to them from all parts. In the latter were rendered all costs in interest of conferences and the chief among the pride was now anyway inferior in digitiry power and wealth, to any in the kingdom’s having a royal attendance, and an unlimited authority over all like differing formats and offices of the temple. The Romans, who willingly adopted all the fingerti- ritions and hyperditious rice of the nations they conquered greatly traveled to the venues of this and so that temples is conferring the pretilhood on fish as they thought not fit for carrying out their adigame. We see told that Indian families were offered at Co- mans ; and that this barharous cutom was brought by Qrcites and his filter Iphigenis from Tauries Seytica, where men and women were immolized to Diana. But",
+  "response": {
+    "id": "chatcmpl-977370b8edbc102f",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "The religion of the ancient Cappadocians was much the same with that of the Persians. At Comana there was a rich and stately temple dedicated to Bellona; whose battles the priests and their attendants used to repeat on stated days, cutting and wounding each other as if fired with an enthusiastic fury. No less famous and magnificent were the temples of Apollo Cataenius, and of Jupiter: the last of which had 3000 fixed servants, or religious votaries. The chief priest was next in rank to that of Comana; and, according to Strabo, had an yearly revenue of 15 talents. Diana Perica was worshipped in a city called Capadocia, where women, devoted to the worship of that goddess, were reported to tread barefooted on burning coals, without receiving any hurt. The temples of Diana at Diopolis, and of Annis at Zela, were likewise held in great veneration both by the Cappadocians and Armenians, who flocked to them from all parts. In the latter were tended all oaths in matters of consequence; and the chief among the priests was no way inferior in dignity, power, and wealth, to any in the kingdom; having a royal attendance, and an unlimited authority over all the inferior servants and officers of the temple. The Romans, who willingly adopted all the superstitions and superstitious rites of the nations they conquered, greatly increased the revenues of this and other temples; conferring the priesthood on such as they thought most fit for carrying on their designs. We are told that human sacrifices were offered at Comana; and that this barbarous custom was brought by Orestes and his sister Iphigenia from Taurica Scythica, where men and women were immolated to Diana. But",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792326178,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 373,
+      "prompt_tokens": 1321,
+      "total_tokens": 1694,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 761
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

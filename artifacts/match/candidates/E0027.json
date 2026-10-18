@@ -1,0 +1,452 @@
+{
+  "entry_id": "E0027",
+  "headword": null,
+  "entry_text_sha256": "d10eab9269480b6c3cf9d5d76fd6d961e8a1cf20c4b953d51000c5d5a0600605",
+  "mode": "model",
+  "queries": [
+    "indus alexander india country mentioned herodotus countries provinces probable tides tide indeed"
+  ],
+  "query_chars": 1500,
+  "headword_variant": null,
+  "candidate_count": 20,
+  "list_pages_removed_after_fetch": [],
+  "decision": {
+    "status": "rejected",
+    "method": "nemotron_embed_rerank",
+    "thresholds": {
+      "rerank_logit": -10.0,
+      "margin": 0.5,
+      "cosine": 0.15,
+      "title_similarity": 0.0
+    },
+    "reason": "rerank_logit < -10.0, margin < 0.5, cosine < 0.15, or title_similarity < 0.0",
+    "page_id": "1023779",
+    "title": "Scylax of Caryanda",
+    "rerank_logit": -6.311821,
+    "cosine": 0.306607,
+    "margin_to_next": 0.13865,
+    "title_similarity": 0.0
+  },
+  "candidates": [
+    {
+      "page_id": "39849556",
+      "revision_id": "1351646178",
+      "title": "India (Herodotus)",
+      "url": "https://en.wikipedia.org/wiki/India_(Herodotus)",
+      "excerpt": "In ancient Greek geography the basin of the Indus River was on the extreme eastern fringe of the known world. The term \"India\" (Indikē in Greek) was used by Herodotus and later Greek writers in three different senses: the Achaemenid Persian province Hindush which was at the lower Indus basin (Sindh), the entire Indus land, which contained two other Persian provinces— Thatagush and Gandāra, and the whole of Indian subcontinent. The ethnic term \"Indians\" (Indoi) was most often used for Indians in the modern sense, represented by physical appearance and cultural markers such as wearing cotton, driving chariots and carrying iron-tipped arrows.\n\nThe Indus River was called Sindhu in Sanskrit, and the country at the lower Indus basin, modern Sindh, was also called Sindhu. The Persian Achaemenid emperor, Darius the Great, having conquered this country of Sindhu around 513 BC, called it by the Persian equivalent Hinduš (Hindush). The Proto-Iranian sound change *s > h occurred between 850–600 BCE, according to Asko Parpola.\n\nThe Ionian dialects of the Greek language dropped the leading aspirate and made the word Indos, which was used for the Indus River as well as the people of Hindush or th",
+      "excerpt_offset": 0,
+      "total_chars": 6395,
+      "bm25": {
+        "q0": {
+          "rank": 1,
+          "score": 52.7839
+        }
+      },
+      "best_rank": 1,
+      "title_similarity": 0.0,
+      "context_overlap": 0.2262,
+      "cosine": 0.35622,
+      "rerank_logit": -6.478569,
+      "rerank_position": 3
+    },
+    {
+      "page_id": "36787426",
+      "revision_id": "1349007808",
+      "title": "Achaemenid conquest of the Indus Valley",
+      "url": "https://en.wikipedia.org/wiki/Achaemenid_conquest_of_the_Indus_Valley",
+      "excerpt": "Around 535 BCE, the Persian king Cyrus the Great initiated a protracted campaign to absorb parts of northwestern Indian subcontinent into his nascent Achaemenid Empire. In this initial incursion, the Persian army annexed a large region to the west of the Indus River, consolidating the early eastern borders of their new realm. With a brief pause after Cyrus' death around 530 BCE, the campaign continued under Darius the Great, who began to re-conquer former provinces and further expand the Achaemenid Empire's political boundaries. Around 518 BCE, the Persian army pushed further into India to initiate a second period of conquest by annexing regions up to the Jhelum River in what is today known as Punjab. At peak, the Persians managed to take control of most of modern-day Pakistan and incorporate it into their territory.\n\nThe first secure epigraphic evidence through the Behistun Inscription gives a date before or around 518 BCE. Persian penetration into the Indian subcontinent occurred in multiple stages, beginning from the northern parts of the Indus River and moving southward. As mentioned in several Achaemenid-era inscriptions, the Indus Valley was formally incorporated into the Per",
+      "excerpt_offset": 0,
+      "total_chars": 31557,
+      "bm25": {
+        "q0": {
+          "rank": 2,
+          "score": 50.3272
+        }
+      },
+      "best_rank": 2,
+      "title_similarity": 0.0,
+      "context_overlap": 0.2472,
+      "cosine": 0.244718,
+      "rerank_logit": -6.798926,
+      "rerank_position": 16
+    },
+    {
+      "page_id": "1023779",
+      "revision_id": "1320708993",
+      "title": "Scylax of Caryanda",
+      "url": "https://en.wikipedia.org/wiki/Scylax_of_Caryanda",
+      "excerpt": "ens.\n\nScylax was from Caryanda, a small city on an island close to Iasos in Asia Minor. He was probably an ethnic Carian, who might have been familiar with Greek and used it for his writings. Not much is known about Scylax, except for the few fragments of information relayed by later Greek writers. Herodotus calls him a sea- captain from Ionia. He is said to have sailed down the Indus River at the behest of the Achaemenid emperor Darius I (522–486 BCE) and then around the Arabian peninsula to reach Suez. In the narrative of Herodotus:\n\nDarius was the discoverer of the greater part of Asia. Wishing to know where the Indus (the only river with crocodiles, save one) ran into the sea, he sent a number of men, on whose trustworthiness he could rely, and among them Scylax of Caryanda, to sail down the river. They set out from the city of Caspatyrus, in the region called Pactyica, and sailed downstream in an easterly direction to the sea. Here they turned westward, and after a voyage of thirty months, reached the place from which the Egyptian king... sent the Phoenicians to sail round Libya. Once the voyage was completed, Darius conquered the Indians, and made use of the sea in those part",
+      "excerpt_offset": 586,
+      "total_chars": 8037,
+      "bm25": {
+        "q0": {
+          "rank": 3,
+          "score": 45.6944
+        }
+      },
+      "best_rank": 3,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1807,
+      "cosine": 0.306607,
+      "rerank_logit": -6.311821,
+      "rerank_position": 1
+    },
+    {
+      "page_id": "11365424",
+      "revision_id": "1335865843",
+      "title": "Sattagydia",
+      "url": "https://en.wikipedia.org/wiki/Sattagydia",
+      "excerpt": "Sattagydia or Thatagush (Old Persian: 𐎰𐎫𐎦𐎢𐏁 Thataguš, country of the \"hundred cows\") was one of the easternmost regions of the Achaemenid Empire, part of its Seventh tax district according to Herodotus, along with Gandārae, Dadicae and Aparytae. It was situated east of the Sulaiman Mountains up to the Indus in the Kurram River basin around Bannu in modern day's southern Khyber Pakhtunkhwa, Pakistan. Sattagydia was no longer mentioned by the third century BC, probably having been absorbed into one of the adjoining provinces.\n\nThe location of Sattagydia has been subject to debate. Its association with Gandara in the 7th tax district of the Herodotus list implies that it was close to Gandara. Olmstead believed that it stretched from \"the lower slopes of the Hindu Kush\". Based on these considerations, two locations have been proposed: the first being \"the area of the confluence of the Ghorband and Panjshir rivers in Afghanistan\", and the second, \"the area of the middle Indus, around the modern city of Bannu \".\n\nFollowing recent archaeological findings, the Bannu basin has become the favoured choice. David Fleming points out that it is close to Kurram and Tochi rivers and it has four ro",
+      "excerpt_offset": 0,
+      "total_chars": 2760,
+      "bm25": {
+        "q0": {
+          "rank": 4,
+          "score": 45.5203
+        }
+      },
+      "best_rank": 4,
+      "title_similarity": 0.0,
+      "context_overlap": 0.2093,
+      "cosine": 0.183156,
+      "rerank_logit": -6.66041,
+      "rerank_position": 10
+    },
+    {
+      "page_id": "101413",
+      "revision_id": "1319743628",
+      "title": "Nearchus",
+      "url": "https://en.wikipedia.org/wiki/Nearchus",
+      "excerpt": "Nearchus or Nearchos (Greek: Νέαρχος; c. 360 – 300 BC) was one of the Greek officers, a navarch, in the army of Alexander the Great. He is known for his celebrated expeditionary voyage starting from the Indus River, through the Persian Gulf and ending at the mouth of the Tigris River following the Indian campaign of Alexander the Great, in 326 – 324 BC.\n\nA native of Lato in Crete and son of Androtimus, his family settled at Amphipolis in Macedonia at some point during Philip II's reign (we must assume after Philip took the city in 357 BC), at which point Nearchus was probably a young boy. He was almost certainly older than Alexander, as were Ptolemy, Erigyius, and the others of the ‘boyhood friends’; so depending on when Androtimus came to Macedonia Nearchus was quite possibly born in Crete. Nearchus, along with Ptolemy, Erigyius and Laomedon, and Harpalus, was one of Alexander's ‘mentors’ – and he was exiled by Philip as a result of the Pixodarus affair (A 3.6.5; P 10.3). It is not known where the exiles went, but they were recalled only after Philip's death, on Alexander's accession.\n\nAfter their recall, these men were held in the highest honour. Nearchus was appointed as satrap ",
+      "excerpt_offset": 0,
+      "total_chars": 10925,
+      "bm25": {
+        "q0": {
+          "rank": 5,
+          "score": 44.3367
+        }
+      },
+      "best_rank": 5,
+      "title_similarity": 0.0,
+      "context_overlap": 0.24,
+      "cosine": 0.295184,
+      "rerank_logit": -6.450471,
+      "rerank_position": 2
+    },
+    {
+      "page_id": "11358288",
+      "revision_id": "1339815401",
+      "title": "Hindush",
+      "url": "https://en.wikipedia.org/wiki/Hindush",
+      "excerpt": "Hindush (Old Persian: 𐏃𐎡𐎯𐎢𐏁 Hidūš) was an administrative division of the Achaemenid Empire in the lower Indus Valley. Established through the Persian conquest of the Indus Valley in the 6th century BCE, it is believed to have continued as a province for approximately two centuries, ending when it fell to the Macedonian Empire during the Indian campaign of Alexander the Great. According to the Greek historian Herodotus, it was the \"easternmost province\" governed by the Achaemenid dynasty.\n\nHindush was written in Persian inscriptions as Hidūsh (Old Persian cuneiform: 𐏃𐎡𐎯𐎢𐏁, H-i-du-u-š). It is also transliterated as Hiⁿdūš since the nasal \"n\" before consonants was omitted in the Old Persian script, and simplified as Hindush.\n\nIt is widely accepted that the name Hindush derives from Sindhu, the Sanskrit name of the Indus river as well as the region at the lower Indus basin. The Proto-Iranian sound change *s > h occurred between 850–600 BCE, according to Asko Parpola. The -sh suffix is common among the names of many Achaemenid provinces, such as Harauvatish (the land of Harauvati or Haraxvaiti, i.e., Arachosia) or Bakhtrish (Bactria). Accordingly, Hindush would mean the land of Sindhu.\n",
+      "excerpt_offset": 0,
+      "total_chars": 2979,
+      "bm25": {
+        "q0": {
+          "rank": 6,
+          "score": 43.4454
+        }
+      },
+      "best_rank": 6,
+      "title_similarity": 0.0,
+      "context_overlap": 0.24,
+      "cosine": 0.246271,
+      "rerank_logit": -6.612477,
+      "rerank_position": 8
+    },
+    {
+      "page_id": "15814189",
+      "revision_id": "1337855461",
+      "title": "Shashigupta",
+      "url": "https://en.wikipedia.org/wiki/Shashigupta",
+      "excerpt": "Shashigupta IAST: Śaśigupta was a ruler of Paropamisadae (modern north-west Pakistan and eastern Afghanistan), between the Hindu Kush mountains and Indus Valley during the 4th century BCE. The name Shashigupta is a reconstruction of a hypothetical Indo-Aryan name, based on a figure named in ancient Greek and Roman sources as Sisikottos (Arrian), and Sisocostus (Curtius).\n\nThe root shashi is equivalent to chandra (\"moon\") in Indian languages. Consequently, Shashigupta is often linked to various figures known as Chandragupta in ancient Indian sources. Both names mean \"moon-protected\". However, there is no consensus amongst modern scholars as to which of the historical Chadraguptas, if any, may be identified with Shashigupta.\n\nNothing is known about early life of Shashigupta. He was presumably a military adventurer, a leader of corporation of professional soldiers (band of mercenary soldiers) whose main goals were economic and military pursuits.\n\nIn all probability, Shashigupta was a professional soldier and led a corporation of mercenary soldier to help Persians especially Bessus, the Iranian Satrap of Bactria but once his case was lost, Shashigupta, along with band of warriors (obvi",
+      "excerpt_offset": 0,
+      "total_chars": 9717,
+      "bm25": {
+        "q0": {
+          "rank": 7,
+          "score": 41.3114
+        }
+      },
+      "best_rank": 7,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1705,
+      "cosine": 0.171944,
+      "rerank_logit": -6.61172,
+      "rerank_position": 7
+    },
+    {
+      "page_id": "30525458",
+      "revision_id": "1351327495",
+      "title": "Seleucid–Mauryan War",
+      "url": "https://en.wikipedia.org/wiki/Seleucid%E2%80%93Mauryan_War",
+      "excerpt": "The Seleucid–Mauryan War was a confrontation between the Seleucid and Mauryan empires that took place sometime between 305 and 303 BCE, when Seleucus I Nicator of the Seleucid Empire crossed the Indus River into the former Indian satrapies of the Macedonian Empire, which had been conquered by Emperor Chandragupta Maurya of the Maurya Empire.\n\nThe confrontation resulted in a dynastic marriage-alliance between Seleucus and Chandragupta, the gift of war elephants to Seleucus, and the transferring of control over the Indus Valley region and (possibly) part of Afghanistan to Chandragupta. The alliance freed Seleucus to turn his attention toward his rivals in the west, while Chandragupta secured control over the areas that he had sought, the Maurya Empire emerging as the dominant power of the Indian subcontinent.\n\nIn the wake of Alexander's Indian campaign, Chandragupta Maurya led a successful revolt from north-western India against the Nanda Dynasty, rulers at the time of the Gangetic Plain, establishing himself as Emperor of Magadha around 321 BC. He fought the empire for eleven years with successful guerrilla campaigns, and captured the Nanda capital of Pataliputra. This led to the fa",
+      "excerpt_offset": 0,
+      "total_chars": 14920,
+      "bm25": {
+        "q0": {
+          "rank": 8,
+          "score": 41.1014
+        }
+      },
+      "best_rank": 8,
+      "title_similarity": 0.0,
+      "context_overlap": 0.25,
+      "cosine": 0.237433,
+      "rerank_logit": -7.110337,
+      "rerank_position": 20
+    },
+    {
+      "page_id": "47543139",
+      "revision_id": "1276887960",
+      "title": "Paraetacene",
+      "url": "https://en.wikipedia.org/wiki/Paraetacene",
+      "excerpt": "Paraetacene (Παραιτακηνή) was a district of ancient Persis which extended along the whole of its northern frontier in the direction of Media Magna, to which, indeed, it in part belonged. The name is first mentioned by Herodotus, who calls one of the tribes of the Medians Paraetaceni. The same district comprehended what are now called the Bakhtyari mountains and tribes. The whole country was rugged and mountainous and appears to have been inhabited, like the adjacent province of Cossaea, by wild and robber tribes. The inhabitants were called Paraetaceni or Paraetacae.\n\nIt was the location of the Battle of Paraitakene in 317 BCE.\n\nThere has been considerable discussion with regard to the origin of this name. The best determination seems to be that it is derived from a Persian word, Paruta, signifying mountain.. It will be observed that while Herodotus gives the Paraetceni a Median origin, and Stephanus of Byzantium calls Paraetaca a Median town, Strabo gives one portion of the district so named to the Assyrian province of Apolloniatis or Sittacene. There were, however, other places of the same name at considerable distances from the Median or Persian province. Thus, one is mentioned ",
+      "excerpt_offset": 0,
+      "total_chars": 1439,
+      "bm25": {
+        "q0": {
+          "rank": 9,
+          "score": 40.3292
+        }
+      },
+      "best_rank": 9,
+      "title_similarity": 0.0,
+      "context_overlap": 0.2254,
+      "cosine": 0.212761,
+      "rerank_logit": -6.656163,
+      "rerank_position": 9
+    },
+    {
+      "page_id": "764545",
+      "revision_id": "1353123946",
+      "title": "Names of India",
+      "url": "https://en.wikipedia.org/wiki/Names_of_India",
+      "excerpt": "The Republic of India is principally known by two official short names: India and Bharat. An unofficial third name is Hindustan, which is widely used throughout North India. As per Article 300 of the Constitution of India, the Government of India may be referred to as the Union of India in legal proceedings. Although these names now refer to the modern country in most contexts, they historically denoted the broader Indian subcontinent.\n\n\"India\" (Greek: Ἰνδία) is a name derived from the Indus River and remains the country's common name in the Western world, having been used by the ancient Greeks to refer to the lands east of Persia and south of the Himalayas. This name appeared in Old English by the 9th century and re-emerged in Modern English in the 17th century.\n\nThe earliest known epigraphical attestations of the name Bharata occurs in the Hāthigumphā inscription of King Kharavela (1st century BCE) a Jain inscription at Udayagiri Caves, near Bhubaneswar in Odisha. The inscription, which records Kharavela's military campaigns, contains a reference to Bharatavarsha, indicating that the term was already in use as a cultural or territorial designation in ancient India.\n\nThe name \"Bha",
+      "excerpt_offset": 0,
+      "total_chars": 17845,
+      "bm25": {
+        "q0": {
+          "rank": 10,
+          "score": 39.4851
+        }
+      },
+      "best_rank": 10,
+      "title_similarity": 0.0,
+      "context_overlap": 0.2262,
+      "cosine": 0.196886,
+      "rerank_logit": -6.860109,
+      "rerank_position": 17
+    },
+    {
+      "page_id": "11766008",
+      "revision_id": "1344339246",
+      "title": "Shivi",
+      "url": "https://en.wikipedia.org/wiki/Shivi",
+      "excerpt": "Shivi was an ancient Indo-Aryan tribe of north-western South Asia whose existence is attested during the Iron Age (c.1100–500 BCE). The members of the Shivi tribe were called the Shivis.\n\nChinese traveler Faxian records the scene of this story at So-ho-to (Swat), a country to the south of Oddiyana between the Kabol and the Indus rivers.\n\nIn some versions, Sivi appears as a personal name but in others it is the name of the country and its people. According to 7th-century Chinese monk and traveller Xuanzang, Sivika (Sibika) had cut his body to pieces to save a dove from a hawk. Xuanzang described Sivika as a personal name or an epithet. Chinese envoy Song Yun (518-20 AD) also refers to Sivika raja (Sivi king) and connects him to Oddiyana. Thus, the Chinese evidence connects king Sivi/Sivika and the Sivi people or country with the Oddiyana/Swat territory between the Kabol and Indus rivers, which forms part of modern Khyber Pakhtunkhwa province of Pakistan. Aritthapura of the Buddhist Sivi Jataka is same as the Orobatis of Alexander's historians. B. C. Law connects Jataka's Aritthapura with Ptolemy 's Aristobothro in the north of Punjab.\n\nIt has been identified with Shahbazgarhi region",
+      "excerpt_offset": 0,
+      "total_chars": 4880,
+      "bm25": {
+        "q0": {
+          "rank": 11,
+          "score": 38.7136
+        }
+      },
+      "best_rank": 11,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1899,
+      "cosine": 0.218886,
+      "rerank_logit": -6.786543,
+      "rerank_position": 15
+    },
+    {
+      "page_id": "2897727",
+      "revision_id": "1328373367",
+      "title": "Oxyartes",
+      "url": "https://en.wikipedia.org/wiki/Oxyartes",
+      "excerpt": "Oxyartes (Old Persian: 𐎢𐎺𐎧𐏁𐎫𐎼, Greek: Ὀξυάρτης, in Persian: وخشارد (\"Vaxš-ard\"), from an unattested form in an Old Iranian language: *Huxšaθra-) was a Sogdian or Bactrian nobleman and local ruler of Bactria. His daughter, Roxana, was taken as a wife by Alexander the Great.\n\nHe is first mentioned as one of the chiefs who accompanied Bessus on his retreat across the Oxus river into Sogdiana (329 BC). After the death of Bessus, Oxyartes deposited his wife and daughters for safety in a rock fortress in Sogdiana, which was deemed impregnable, but nevertheless soon fell into the hands of Alexander's forces. Alexander not only treated his captives with respect and attention, but was so charmed with the beauty of Roxana as to decide that he wanted to make her his wife. Oxyartes, on learning these tidings, is said to have hastened to make his submission to Alexander, who received him with the utmost distinction. The nuptials of his daughter with the king in 327 BC were celebrated with a magnificent feast. Alexander's marriage to her marks the end of hostilities between him and the inhabitants of Sogdiana and Bactria.\n\nShortly after this event, Oxyartes successfully persuaded Chorienes to su",
+      "excerpt_offset": 0,
+      "total_chars": 2121,
+      "bm25": {
+        "q0": {
+          "rank": 12,
+          "score": 38.1752
+        }
+      },
+      "best_rank": 12,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1169,
+      "cosine": 0.190554,
+      "rerank_logit": -6.908001,
+      "rerank_position": 18
+    },
+    {
+      "page_id": "23487090",
+      "revision_id": "1346452259",
+      "title": "Ariana",
+      "url": "https://en.wikipedia.org/wiki/Ariana",
+      "excerpt": "In the Greco-Roman world, Ariana was a geographical term referring to a general area of land between Central Asia and the Indus River. Situated far to the east in the Achaemenid Empire, it covered a number of satrapies spanning what is today the entirety of Afghanistan, the easternmost parts of Iran, and the westernmost parts of Pakistan. \"Ariana\" is Latinized from Greek: Ἀρ(ε)ιανή Ar(e)ianē; Ἀρ(ε)ιανοί Ar(e)ianoi. The Greek word, in turn, is derived from the term Airyanem (lit. ' Land of the Aryans ') in Avestan.\n\nDuring several periods of history, Ariana was governed by the Persians, such as the Achaemenids, the Kushano-Sasanians, and the Sasanians. Other significant rulers were the Greeks and the Indians, such as the Macedonians, the Seleucids, the Mauryas, the Greco-Bactrians, the Indo-Greeks, the Indo-Scythians, and the Parthians (incl. the Kushans and the Indo-Parthians). A historic presence was also established in parts of Ariana by various Huna peoples and other Central Asian nomads, such as the Xionites (incl. the Kidarites and the Hephthalites).\n\nThe Greek term Arianē (Latin: Ariana), a term found in Avestan Airiiana - (especially in Airyanem Vaejah, the name of the Afgha",
+      "excerpt_offset": 0,
+      "total_chars": 5453,
+      "bm25": {
+        "q0": {
+          "rank": 13,
+          "score": 38.1581
+        }
+      },
+      "best_rank": 13,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1707,
+      "cosine": 0.23324,
+      "rerank_logit": -6.527533,
+      "rerank_position": 5
+    },
+    {
+      "page_id": "11362019",
+      "revision_id": "1304417799",
+      "title": "Maka (satrapy)",
+      "url": "https://en.wikipedia.org/wiki/Maka_(satrapy)",
+      "excerpt": "tal areas of modern Pakistan and Iranian Baluchistan. Alternatively, it may have corresponded to modern day Bahrain, Qatar, and United Arab Emirates, plus the northern half of Oman (see Magan).\n\nMaka was already a part of the Achaemenid Empire before Darius the Great came to power in 522 BC - it is mentioned in the Behistun inscription that it was already there when he inherited the throne. It is possible (because Cambyses and Smerdis are not known to have been there) that it was conquered by Cyrus the Great in 542 BC. He is known to have campaigned on the other side of the Persian Gulf (he seems to have lost most of his army in the Gedrosian Desert). It continued to be a satrapy until Alexander's conquests of Persia, at which point it became independent. According to Herodotus, the \"Mykians\" belonged to the same tax district as the Drangians, Thamanaeans, Utians, Sagartians and \"those deported to the Persian Gulf\".\n\nAccording to Fleming, Maka, in the area of Gedrosia, can be considered one of the Indian satrapies of the Achaemenid Empire.\n\nMaka was an important early eastern satrapy of Cyrus the Great, founder of the Achaemenid Empire. The Babylonians had made voyages using Maka t",
+      "excerpt_offset": 205,
+      "total_chars": 3234,
+      "bm25": {
+        "q0": {
+          "rank": 14,
+          "score": 38.1394
+        }
+      },
+      "best_rank": 14,
+      "title_similarity": 0.0,
+      "context_overlap": 0.2561,
+      "cosine": 0.267497,
+      "rerank_logit": -6.781539,
+      "rerank_position": 14
+    },
+    {
+      "page_id": "59269939",
+      "revision_id": "1353603687",
+      "title": "Ancient Greece–Ancient India relations",
+      "url": "https://en.wikipedia.org/wiki/Ancient_Greece%E2%80%93Ancient_India_relations",
+      "excerpt": "For the ancient Greeks, India (Greek: Ἰνδία) referred to the geographical region located east of Persia and south of the Himalayas, excluding Serica. At later points in history, the term also came to refer either to the more extensive Indian subcontinent or to the less extensive Indus Plain.\n\nThe Greeks referred to the Indo-Aryans as Indoi (Greek: Ἰνδοί), lit. ' people of the Indus River '. The Vedic Aryans referred to the Greeks as Yavanas, Yona or Yonaka, terms derived from the Ionians. Yawan is a Hebrew term that referred to the ancient Greeks. Inscriptions and Pali texts trace the Prakrit equivalent of the Sanskrit word Yavana as Yona. It has been suggested that the Indians adopted the term either from the Persians—who called the Greeks Yaunas —or from a Semitic language.\n\nTraditional Indian grammarians believed that the word Yavanas was derived from the Sanskrit root Yu ('to mix, to mingle'). The earliest written record of the term Yavana appears in the Astadhyayi, a work on grammar by Pāṇini. When demonstrating the use of the suffix - anuk, he cites Yavanani as one of his examples. In addition, Katyayana explains that when the suffix is added to the word Yavana, it indicates ",
+      "excerpt_offset": 0,
+      "total_chars": 34742,
+      "bm25": {
+        "q0": {
+          "rank": 15,
+          "score": 37.7188
+        }
+      },
+      "best_rank": 15,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1341,
+      "cosine": 0.308712,
+      "rerank_logit": -6.934735,
+      "rerank_position": 19
+    },
+    {
+      "page_id": "839658",
+      "revision_id": "1346267337",
+      "title": "Gedrosia",
+      "url": "https://en.wikipedia.org/wiki/Gedrosia",
+      "excerpt": "Gedrosia (/ dʒ ɪ ˈ d r oʊ ʒ ə /; Greek: Γεδρωσία) is the Hellenized name of the part of coastal Makran in what is now Balochistan. In the accounts about Alexander the Great and his successors, the area referred to as Gedrosia runs from the Indus River to the north-eastern edge of the Strait of Hormuz. It is directly to the south of the provinces of Arachosia and Drangiana, to the east of the province of Carmania, and due west of the Indus which formed a natural boundary between it and western India. The native name of Gedrosia might have been Gwadar or Gwatar as there are two towns by that name and three bays with similar names (Gwadar East Bay, Gwadar West Bay and Gwatar Bay) in central Makran.\n\nPliny the Elder while explaining the extent of India included four satrapies Arachosia, Gedrosia, Aria and Parapanisidae as western borders of India.\n\nIndia within the Ganges is bounded on the west by the Paropanisadai, Arakhosia, and Gedrosia along their eastern sides; on the north by Mount Imaos, which is situated near the Sogdiaioi and Sakai; on the east by the river Ganges; and on the south and again on the west by a part of the Indian Ocean.\n\nPtolemy, Geography 7:1\n\nAccording to Arria",
+      "excerpt_offset": 0,
+      "total_chars": 5031,
+      "bm25": {
+        "q0": {
+          "rank": 16,
+          "score": 37.2394
+        }
+      },
+      "best_rank": 16,
+      "title_similarity": 0.0,
+      "context_overlap": 0.2838,
+      "cosine": 0.288318,
+      "rerank_logit": -6.569109,
+      "rerank_position": 6
+    },
+    {
+      "page_id": "3282413",
+      "revision_id": "1318742184",
+      "title": "Daradas",
+      "url": "https://en.wikipedia.org/wiki/Daradas",
+      "excerpt": "Daradas were an ancient people who lived north and north-west to the Kashmir Valley. This kingdom is identified to be the Gilgit region, in the Gilgit-Baltistan region (part of ancient kamboja kingdom and Baloristan) along the river Sindhu or Indus. They are often spoken along with the Kambojas. The Pandava hero Arjuna had visited this country of Daradas during his northern military campaign to collect tribute for Yudhishthira 's Rajasuya sacrifice. The country of Darada has also been mentioned in the Rasa Ratna Samucchaya, a book dealing about Rasasastra\n\nThe Vayu Purana, Brahmanda Purana and Vamana Purana mention the Daradas with the Kambojas, Chinas, Tusharas and the Bahlikas etc. The Bhuvankosha of the Puranas locates the Daradas, Kambojas, Barbaras, Bahlikas, Lampakas etc. in the Uttarapatha division of ancient India. e.g.:\n\nete desha udichyastu\n\nKambojah Daradas hchaiva Barbarashcha Angalaukikah ||\n\nChinashchaiva Tusharashcha Pahlavadhayata narah |\n\nPuranas also refer to river Sindhu as watering the lands of Daradas, Gandharas and the Aurasas (Ursas).\n\nBrhatsamhita groups the Daradas with the Abhisaras and the Tanganas.\n\nMahabharata also mentions the Daradas as neighbors to t",
+      "excerpt_offset": 0,
+      "total_chars": 5853,
+      "bm25": {
+        "q0": {
+          "rank": 17,
+          "score": 36.5222
+        }
+      },
+      "best_rank": 17,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1667,
+      "cosine": 0.226359,
+      "rerank_logit": -6.7616,
+      "rerank_position": 12
+    },
+    {
+      "page_id": "23752873",
+      "revision_id": "1353572562",
+      "title": "Indian campaign of Alexander the Great",
+      "url": "https://en.wikipedia.org/wiki/Indian_campaign_of_Alexander_the_Great",
+      "excerpt": "The Indian campaign of Alexander the Great began in 327 BC and lasted until 325 BC. After conquering the Achaemenid Persian Empire, the Macedonian army undertook an expedition into the Indus Valley of Northwestern Indian subcontinent. Within two years, Alexander expanded the Macedonian Empire, a kingdom closely linked to the broader Greek world, to include Gandhara and the Indus Valley of Punjab and Sindh (now in India and Pakistan), surpassing the earlier frontiers established by the Persian Achaemenid conquest.\n\nFollowing Macedon's absorption of Gandhara (a former Persian satrapy), including the city of Taxila, Alexander and his troops advanced into Punjab, where they were confronted by Porus, the regional Indian king. In 326 BC, Alexander defeated Porus and the Pauravas during the Battle of the Hydaspes, but that engagement was possibly the Macedonians' most costly battle.\n\nAlexander's continued eastward march was leading his army into a confrontation with the Nanda Empire, based in Magadha. According to Greek sources, the Nanda army was five times the size of the Macedonian army; Alexander's troops—increasingly exhausted, homesick, and anxious by the prospects of having to furt",
+      "excerpt_offset": 0,
+      "total_chars": 25663,
+      "bm25": {
+        "q0": {
+          "rank": 18,
+          "score": 35.8254
+        }
+      },
+      "best_rank": 18,
+      "title_similarity": 0.0,
+      "context_overlap": 0.2692,
+      "cosine": 0.277059,
+      "rerank_logit": -6.518157,
+      "rerank_position": 4
+    },
+    {
+      "page_id": "1318939",
+      "revision_id": "1353182085",
+      "title": "Paropamisadae",
+      "url": "https://en.wikipedia.org/wiki/Paropamisadae",
+      "excerpt": "ισάδαι) was a satrapy of the Alexandrian Empire in modern Afghanistan and Pakistan, which largely coincided with the Achaemenid province of Parupraesanna. It consisted of the districts of Sattagydia (Bannu basin), Gandhara (Kabul, Peshawar, and Taxila), and Oddiyana (Swat Valley). Paruparaesanna is mentioned in the Akkadian language and Elamite language versions of the Behistun Inscription of Darius the Great, whereas in the Old Persian version it is called Gandāra. The entire satrapy was subsequently ceded by Seleucus I Nicator to Chandragupta Maurya after Mauryan Victory in Selucid-Mauryan war following a treaty.\n\nParopamisadae is the Latinized form of the Greek name Paropamisádai (Παροπαμισάδαι), which is in turn derived from Old Persian Para-uparisaina, meaning \"Beyond the Hindu Kush\", where the Hindu Kush is referred to as Uparisaina (\"higher than the eagle\").\n\nIn the Greek language and Latin, \"Paropamisus\" (Παροπαμισός, Paropamisós) came to mean the Hindu Kush. In many Greek and Latin sources, particularly editions of Ptolemy 's Geography where their realm is included on the 9th Map of Asia, the names of the people and region are given as Paropanisadae and Paropanisus. They a",
+      "excerpt_offset": 71,
+      "total_chars": 4409,
+      "bm25": {
+        "q0": {
+          "rank": 19,
+          "score": 35.7013
+        }
+      },
+      "best_rank": 19,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1591,
+      "cosine": 0.244628,
+      "rerank_logit": -6.763223,
+      "rerank_position": 13
+    },
+    {
+      "page_id": "1980762",
+      "revision_id": "1335631296",
+      "title": "Potidaea",
+      "url": "https://en.wikipedia.org/wiki/Potidaea",
+      "excerpt": "founded by the Corinthians around 600 BC in the narrowest point of the peninsula of Pallene, the westernmost of three peninsulas at the southern end of Chalcidice in northern Greece.\n\nWhile besieged by the Persians in 479 BC, the town may have been saved by a tsunami rather than a particularly high tide. Herodotus reports how the Persian attackers who tried to exploit an unusual retreat of the water were suddenly surprised by \"a great flood-tide, higher, as the people of the place say, than any one of the many that had been before\". Several tsunamigenic layers have been identified along the Thracian Coast, indicating that the region is prone to tsunamis. While tsunami are generally associated with earthquakes, Herodotus, the source of this story, makes no mention of an earthquake at the time. This makes it more likely that the event was a meteotsunami. Not only are such events relatively common in the Mediterranean, but their effect is amplified in a long, narrow body of water, which is a good description for the situation of Potidaea, which lies at the head of Toroneos gulf.\n\nDuring the time of the Delian League, conflicts occurred between Athens and Corinth. However, the Corinthi",
+      "excerpt_offset": 109,
+      "total_chars": 2510,
+      "bm25": {
+        "q0": {
+          "rank": 20,
+          "score": 35.3976
+        }
+      },
+      "best_rank": 20,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1839,
+      "cosine": 0.274896,
+      "rerank_logit": -6.694834,
+      "rerank_position": 11
+    }
+  ]
+}

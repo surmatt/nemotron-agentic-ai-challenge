@@ -97,6 +97,8 @@ export function Pipeline({
           const pct = progress && progress.total ? Math.round((progress.done / progress.total) * 100) : null;
           const blocked = state.blocked_by;
           const active = state.status === "running" || state.status === "queued";
+          const elapsed = state.elapsed_seconds !== undefined && state.status !== "running" ? seconds(state.elapsed_seconds) : null;
+          const savedAt = view.kind === "corpus" && state.finished_at ? state.finished_at : null;
           return (
             <li key={step} className={`step step--${state.status}`}>
               <div className="step__numeral" aria-hidden>
@@ -141,14 +143,23 @@ export function Pipeline({
                   </p>
                 )}
                 <div className="step__foot">
-                  <span className="step__time">
-                    {state.elapsed_seconds !== undefined && state.status !== "running" && (
-                      <>
-                        <Icon name="clock" size={13} /> {seconds(state.elapsed_seconds)}
-                      </>
-                    )}
-                    {view.kind === "corpus" && state.finished_at && <> saved {state.finished_at.slice(0, 16).replace("T", " ")}</>}
-                  </span>
+                  {(elapsed || savedAt) && (
+                    <span className="step__time">
+                      {elapsed && (
+                        <span className="step__elapsed">
+                          <Icon name="clock" size={13} /> {elapsed}
+                        </span>
+                      )}
+                      {savedAt && (
+                        <time className="step__saved" dateTime={savedAt} title={`Saved ${savedAt}`}>
+                          saved{" "}
+                          <span className="step__stamp">
+                            <span>{savedAt.slice(0, 10)}</span> <span>{savedAt.slice(11, 16)}</span>
+                          </span>
+                        </time>
+                      )}
+                    </span>
+                  )}
                   <button
                     className="btn btn--ghost btn--sm"
                     disabled={busy || anyActive || (editable && Boolean(blocked))}

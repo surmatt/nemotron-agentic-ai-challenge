@@ -1,0 +1,93 @@
+{
+  "variant": "crop_nothink",
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1580",
+  "block_index": 6,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T12:22:47+00:00",
+  "elapsed_seconds": 2.37,
+  "finish_reason": "stop",
+  "parse_text": "To the arches GF, C B, draw the tangents HF, OB, and the finses CM G and the radii DP DB; and draw list the fine of the arch AB, and Ct the fine of AC; and then join IK and OL NowHF, OB, GM, CL are all perpendiculor to the plane ADDB. And HD, GK, OL, the all in the fans plane ADGC. Therefore, the right-angled triangles HHD, CKK, ODL, having the equal angles HDF, CKK OLB, see further. And CK-NOM CI COM; that is, as the fine of the hypothetic: rad:: fine of a leg - fine of its opposite angle. For OM is the fine of the arc GC, which therefore the angle CAB. Both, LB DF+; BO: FH; that is, as the fino of a leg: radius : tangent of the other leg: tangent of its opposite angle, J, E. D. Hence is follows: that the first of the angles of any ex-blique spherical triangle ACD (_this_, o^2), letto one ano- they, directly, as the fins of the opposite fides. Hence it allo follows, that, in right-angled- spherical triangles, having the fame perpendicular, the fino of the bafs will be to each other, inverify, as the tangents of the angles at the bafs.",
+  "corrected_text": "To the arches GF, CB, draw the tangents HF, OB, and the fines GM, CI on the radii DF, DB; also draw BL the fine of the arch AB, and CK the fine of AC; and then join IK and OL. Now HF, OB, GM, CI, are all perpendicular to the plane ADFB. And HD, GK, OL, lie all in the same plane ADGC. Also FD, IK, BL, lie all in the same plane ADGC. Therefore, the right-angled triangles HFD, CIK, ODL, having the equal angles HDF, CKI, OLB, are similar. And CK : DG :: CI : GM; that is, as the fine of the hypotenuse : rad. :: fine of a leg : fine of its opposite angle. For GM is the fine of the arc GF, which measures the angle CAB. Also, LB : DF :: BO : FH; that is, as the fine of a leg : radius :: tangent of the other leg : tangent of its opposite angle. Q. E. D. Hence it follows, that the fines of the angles of any oblique spherical triangle ACD (ibid. n° 2.) are to one another, directly, as the fines of the opposite sides. Hence it also follows, that, in right-angled spherical triangles, having the same perpendicular, the fines of the bases will be to each other, inversely, as the tangents of the angles at the bases.",
+  "reasoning_tokens": 0,
+  "usage": {
+    "completion_tokens": 309,
+    "prompt_tokens": 1052,
+    "total_tokens": 1361,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 577
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 3000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows this region of the page. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\nTo the arches GF, C B, draw the tangents HF, OB, and the finses CM G and the radii DP DB; and draw list the fine of the arch AB, and Ct the fine of AC; and then join IK and OL NowHF, OB, GM, CL are all perpendiculor to the plane ADDB. And HD, GK, OL, the all in the fans plane ADGC. Therefore, the right-angled triangles HHD, CKK, ODL, having the equal angles HDF, CKK OLB, see further. And CK-NOM CI COM; that is, as the fine of the hypothetic: rad:: fine of a leg - fine of its opposite angle. For OM is the fine of the arc GC, which therefore the angle CAB. Both, LB DF+; BO: FH; that is, as the fino of a leg: radius : tangent of the other leg: tangent of its opposite angle, J, E. D. Hence is follows: that the first of the angles of any ex-blique spherical triangle ACD (_this_, o^2), letto one ano- they, directly, as the fins of the opposite fides. Hence it allo follows, that, in right-angled- spherical triangles, having the fame perpendicular, the fino of the bafs will be to each other, inverify, as the tangents of the angles at the bafs.",
+  "response": {
+    "id": "chatcmpl-b39826bcc80b053a",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "To the arches GF, CB, draw the tangents HF, OB, and the fines GM, CI on the radii DF, DB; also draw BL the fine of the arch AB, and CK the fine of AC; and then join IK and OL. Now HF, OB, GM, CI, are all perpendicular to the plane ADFB. And HD, GK, OL, lie all in the same plane ADGC. Also FD, IK, BL, lie all in the same plane ADGC. Therefore, the right-angled triangles HFD, CIK, ODL, having the equal angles HDF, CKI, OLB, are similar. And CK : DG :: CI : GM; that is, as the fine of the hypotenuse : rad. :: fine of a leg : fine of its opposite angle. For GM is the fine of the arc GF, which measures the angle CAB. Also, LB : DF :: BO : FH; that is, as the fine of a leg : radius :: tangent of the other leg : tangent of its opposite angle. Q. E. D. Hence it follows, that the fines of the angles of any oblique spherical triangle ACD (ibid. n° 2.) are to one another, directly, as the fines of the opposite sides. Hence it also follows, that, in right-angled spherical triangles, having the same perpendicular, the fines of the bases will be to each other, inversely, as the tangents of the angles at the bases.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792326168,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 309,
+      "prompt_tokens": 1052,
+      "total_tokens": 1361,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 577
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

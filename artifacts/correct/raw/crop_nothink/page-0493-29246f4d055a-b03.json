@@ -1,0 +1,93 @@
+{
+  "variant": "crop_nothink",
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:493",
+  "block_index": 3,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T12:20:47+00:00",
+  "elapsed_seconds": 2.15,
+  "finish_reason": "stop",
+  "parse_text": "JILLIEFREE, a town on the northern bank of the river Cambia, opposite to James’s island, where the English had formerly a small part. The kingdom of Barrs, in which it is situated, produces abundance of the necessities of life; but the chief trade of the inhabitants in salt, which they carry up the river in mossy and, in recent bring them Italian corn, cotton-colby, elephants teeth, small quantities of gold duty. See. The number of causes and people continually employed in this trade, make the king of Barrs, according to Mr Park, more formalable or European, then one other definition on the river, and have encouraged him to establish those extravaguard duties, which traders of all nations are obliged to pay the entry, assuming almost 30:2), and wasn't great and small. These duties are commonly collected in person by the governor of Jillifires, who is attended by a troublesome train in diplomats, who have some knowledge of the English language, in consequence of their intercourse with them, and be well such importantly, that renders are often under the necessity of supplying with their demands, in order to get rid of them. N. Lat. 13: 16. W. Song. 16, 15, from Greenwich.",
+  "corrected_text": "JILLIEFREE, a town on the northern bank of the river Gambia, opposite to James's island, where the English had formerly a small port. The kingdom of Barra, in which it is situated, produces abundance of the necessaries of life; but the chief trade of the inhabitants is in salt, which they carry up the river in canoes; and, in return, bring down Indian corn, cotton-cloths, elephants teeth, small quantities of gold dust, &c. The number of canoes and people continually employed in this trade, make the king of Barra, according to Mr Park, more formidable to Europeans, than any other chieftain on the river, and have encouraged him to establish those extravagant duties, which traders of all nations are obliged to pay at entry, amounting almost to 20l. on each vessel, great and small. These duties are commonly collected in person by the governor of Jillifree, who is attended by a troublesome train of dependants, who have some knowledge of the English language, in consequence of their intercourse with them, and beg with such importunity, that traders are often under the necessity of complying with their demands, in order to get rid of them. N. Lat. 13. 16. W. Long. 16. 10. from Greenwich.",
+  "reasoning_tokens": 0,
+  "usage": {
+    "completion_tokens": 283,
+    "prompt_tokens": 1027,
+    "total_tokens": 1310,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 578
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 3000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows this region of the page. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\nJILLIEFREE, a town on the northern bank of the river Cambia, opposite to James’s island, where the English had formerly a small part. The kingdom of Barrs, in which it is situated, produces abundance of the necessities of life; but the chief trade of the inhabitants in salt, which they carry up the river in mossy and, in recent bring them Italian corn, cotton-colby, elephants teeth, small quantities of gold duty. See. The number of causes and people continually employed in this trade, make the king of Barrs, according to Mr Park, more formalable or European, then one other definition on the river, and have encouraged him to establish those extravaguard duties, which traders of all nations are obliged to pay the entry, assuming almost 30:2), and wasn't great and small. These duties are commonly collected in person by the governor of Jillifires, who is attended by a troublesome train in diplomats, who have some knowledge of the English language, in consequence of their intercourse with them, and be well such importantly, that renders are often under the necessity of supplying with their demands, in order to get rid of them. N. Lat. 13: 16. W. Song. 16, 15, from Greenwich.",
+  "response": {
+    "id": "chatcmpl-9561dcf31dff9bea",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "JILLIEFREE, a town on the northern bank of the river Gambia, opposite to James's island, where the English had formerly a small port. The kingdom of Barra, in which it is situated, produces abundance of the necessaries of life; but the chief trade of the inhabitants is in salt, which they carry up the river in canoes; and, in return, bring down Indian corn, cotton-cloths, elephants teeth, small quantities of gold dust, &c. The number of canoes and people continually employed in this trade, make the king of Barra, according to Mr Park, more formidable to Europeans, than any other chieftain on the river, and have encouraged him to establish those extravagant duties, which traders of all nations are obliged to pay at entry, amounting almost to 20l. on each vessel, great and small. These duties are commonly collected in person by the governor of Jillifree, who is attended by a troublesome train of dependants, who have some knowledge of the English language, in consequence of their intercourse with them, and beg with such importunity, that traders are often under the necessity of complying with their demands, in order to get rid of them. N. Lat. 13. 16. W. Long. 16. 10. from Greenwich.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792326048,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 283,
+      "prompt_tokens": 1027,
+      "total_tokens": 1310,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 578
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

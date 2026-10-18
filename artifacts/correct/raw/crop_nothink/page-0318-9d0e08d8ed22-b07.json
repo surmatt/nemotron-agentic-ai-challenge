@@ -1,0 +1,93 @@
+{
+  "variant": "crop_nothink",
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:318",
+  "block_index": 7,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T12:20:33+00:00",
+  "elapsed_seconds": 2.09,
+  "finish_reason": "stop",
+  "parse_text": "We regled to the Nile life!I, it has been fatal that the quantity of earth brought down by it from Abyfkina is to great, that the whole land of Egypt is produced from it. This question, however, is disculted under the article [2/vary, where it is flown than this cannot potibily be the cake.--Among other authorities that quoted was that of Mr Volory, who frequentally agree against the opinion of Mr Sivory and others, who have maintained that Egypt is the gift of the Nile. nevertheless they, however, we had him atturting that the fall of Egypt has undoubtedly been augmented by the Nile in which side it is not unreadable if dropped that it has been produced by it altogether. -4 \"He reads ( fay by it will conclude, doubtiels, from what I have field, that writers have flatters themselves are much in fuppeling they could fit the precise limits of the enlargement and ripe of the Delta. But, though I would reject all library circunflances, I am far from decaying the fast to be well founded, it is too plain from realism, and in examination of the country. The rifle of the ground appears not demonstrated by an odibration on which little fresh has been laid. In going near Korkies to Cairo, when the waters are low, as an the mouth of March, we may remark, as we go up the river, that the shore rifles gradually above the water; to that if it overflowed",
+  "corrected_text": "With regard to the Nile itself, it has been said that the quantity of earth brought down by it from Abyssinia is so great, that the whole land of Egypt is produced from it. This question, however, is discussed under the article Egypt, where it is shown that this cannot possibly be the case.—Among other authorities there quoted was that of Mr Volney, who frequently argues against the opinion of Mr Savary and others, who have maintained that Egypt is the gift of the Nile. Notwithstanding this, however, we find him asserting that the soil of Egypt has undoubtedly been augmented by the Nile : in which case it is not unreasonable to suppose that it has been produced by it altogether.—\"The reader (says he) will conclude, doubtless, from what I have said, that writers have flattered themselves too much in supposing they could fix the precise limits of the enlargement and rise of the Delta. But, though I would reject all illusory circumstances, I am far from denying the fact to be well founded ; it is too plain from reason, and an examination of the country. The rise of the ground appears to me demonstrated by an observation on which little stress has been laid. In going from Rosetta to Cairo, when the waters are low, as in the month of March, we may remark, as we go up the river, that the shore rises gradually above the water; so that if it overflowed",
+  "reasoning_tokens": 0,
+  "usage": {
+    "completion_tokens": 294,
+    "prompt_tokens": 1189,
+    "total_tokens": 1483,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 698
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 3000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows this region of the page. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\nWe regled to the Nile life!I, it has been fatal that the quantity of earth brought down by it from Abyfkina is to great, that the whole land of Egypt is produced from it. This question, however, is disculted under the article [2/vary, where it is flown than this cannot potibily be the cake.--Among other authorities that quoted was that of Mr Volory, who frequentally agree against the opinion of Mr Sivory and others, who have maintained that Egypt is the gift of the Nile. nevertheless they, however, we had him atturting that the fall of Egypt has undoubtedly been augmented by the Nile in which side it is not unreadable if dropped that it has been produced by it altogether. -4 \"He reads ( fay by it will conclude, doubtiels, from what I have field, that writers have flatters themselves are much in fuppeling they could fit the precise limits of the enlargement and ripe of the Delta. But, though I would reject all library circunflances, I am far from decaying the fast to be well founded, it is too plain from realism, and in examination of the country. The rifle of the ground appears not demonstrated by an odibration on which little fresh has been laid. In going near Korkies to Cairo, when the waters are low, as an the mouth of March, we may remark, as we go up the river, that the shore rifles gradually above the water; to that if it overflowed",
+  "response": {
+    "id": "chatcmpl-82becb73b966a4a1",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "With regard to the Nile itself, it has been said that the quantity of earth brought down by it from Abyssinia is so great, that the whole land of Egypt is produced from it. This question, however, is discussed under the article Egypt, where it is shown that this cannot possibly be the case.—Among other authorities there quoted was that of Mr Volney, who frequently argues against the opinion of Mr Savary and others, who have maintained that Egypt is the gift of the Nile. Notwithstanding this, however, we find him asserting that the soil of Egypt has undoubtedly been augmented by the Nile : in which case it is not unreasonable to suppose that it has been produced by it altogether.—\"The reader (says he) will conclude, doubtless, from what I have said, that writers have flattered themselves too much in supposing they could fix the precise limits of the enlargement and rise of the Delta. But, though I would reject all illusory circumstances, I am far from denying the fact to be well founded ; it is too plain from reason, and an examination of the country. The rise of the ground appears to me demonstrated by an observation on which little stress has been laid. In going from Rosetta to Cairo, when the waters are low, as in the month of March, we may remark, as we go up the river, that the shore rises gradually above the water; so that if it overflowed",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792326034,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 294,
+      "prompt_tokens": 1189,
+      "total_tokens": 1483,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 698
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

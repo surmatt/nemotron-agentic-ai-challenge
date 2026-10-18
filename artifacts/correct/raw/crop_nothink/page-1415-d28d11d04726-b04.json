@@ -1,0 +1,93 @@
+{
+  "variant": "crop_nothink",
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1415",
+  "block_index": 4,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T12:22:30+00:00",
+  "elapsed_seconds": 2.37,
+  "finish_reason": "stop",
+  "parse_text": "The number of links in this countrysis immerie; nor ... 391 is the of the carnivorous kind as all chickens. Great members of regler cultures, lawks, and soldiers of that kind, and met with, and come practically every year after the tropical rains have existed.\" They tied at first upon the bed-offish which are met with in great quantities on the edges of the defects, where they find lived in the fall fprings but, being forced from their natural habitats when theft fprings were funded by the rare, who afterwards left to permit on dry land. When theffe full, their next reference is from the decades of the large animals, such as the elephant and rhinoceros, which are killed in the first country by the hunters. Their next topply is the multitude of natural didalmics which infelt the country after herself. They said daughter of cattle made by the Abyffinian armies, the multitude of persons killed, which bodies are allowed to root on the field of battle, AC fusion them with another entrance. Thiefe puppies, however, all fail at the beginning of the nearby fashion, when hunters and arms return home, and the val quantity of water which continually overflows the ground renders, it impoillike for them to find any other food.",
+  "corrected_text": "The number of birds in this country is immense; nor are those of the carnivorous kind at all deficient. Great numbers of eagles, vultures, hawks, and others of that kind, are met with, and come punctually every year after the tropical rains have ceased. They feed at first upon the hell-fish which are met with in great quantities on the edges of the deserts, where they had lived in the salt springs; but, being forced from their natural habitations when the springs were swelled by the rains, are afterwards left to perish on dry land. When these fail, their next resource is from the carcases of the large animals, such as the elephant and rhinoceros, which are killed in the flat country by the hunters. Their next supply is the multitude of rats and field-mice which infest the country after harvest. The vast slaughter of cattle made by the Abyssinian armies, the multitude of persons killed, whose bodies are allowed to rot on the field of battle, &c. furnish them also with another resource. These supplies, however, all fail at the beginning of the rainy season, when the hunters and armies return home, and the vast quantity of water which continually overflows the ground renders it impossible for them to find any other food.",
+  "reasoning_tokens": 0,
+  "usage": {
+    "completion_tokens": 266,
+    "prompt_tokens": 1001,
+    "total_tokens": 1267,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 554
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 3000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows this region of the page. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\nThe number of links in this countrysis immerie; nor ... 391 is the of the carnivorous kind as all chickens. Great members of regler cultures, lawks, and soldiers of that kind, and met with, and come practically every year after the tropical rains have existed.\" They tied at first upon the bed-offish which are met with in great quantities on the edges of the defects, where they find lived in the fall fprings but, being forced from their natural habitats when theft fprings were funded by the rare, who afterwards left to permit on dry land. When theffe full, their next reference is from the decades of the large animals, such as the elephant and rhinoceros, which are killed in the first country by the hunters. Their next topply is the multitude of natural didalmics which infelt the country after herself. They said daughter of cattle made by the Abyffinian armies, the multitude of persons killed, which bodies are allowed to root on the field of battle, AC fusion them with another entrance. Thiefe puppies, however, all fail at the beginning of the nearby fashion, when hunters and arms return home, and the val quantity of water which continually overflows the ground renders, it impoillike for them to find any other food.",
+  "response": {
+    "id": "chatcmpl-b45a0b5fca15e6cb",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "The number of birds in this country is immense; nor are those of the carnivorous kind at all deficient. Great numbers of eagles, vultures, hawks, and others of that kind, are met with, and come punctually every year after the tropical rains have ceased. They feed at first upon the hell-fish which are met with in great quantities on the edges of the deserts, where they had lived in the salt springs; but, being forced from their natural habitations when the springs were swelled by the rains, are afterwards left to perish on dry land. When these fail, their next resource is from the carcases of the large animals, such as the elephant and rhinoceros, which are killed in the flat country by the hunters. Their next supply is the multitude of rats and field-mice which infest the country after harvest. The vast slaughter of cattle made by the Abyssinian armies, the multitude of persons killed, whose bodies are allowed to rot on the field of battle, &c. furnish them also with another resource. These supplies, however, all fail at the beginning of the rainy season, when the hunters and armies return home, and the vast quantity of water which continually overflows the ground renders it impossible for them to find any other food.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792326151,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 266,
+      "prompt_tokens": 1001,
+      "total_tokens": 1267,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 554
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

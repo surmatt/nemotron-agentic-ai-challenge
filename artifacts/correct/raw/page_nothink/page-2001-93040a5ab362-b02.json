@@ -1,0 +1,93 @@
+{
+  "variant": "page_nothink",
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2001",
+  "block_index": 2,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T12:17:35+00:00",
+  "elapsed_seconds": 1.53,
+  "finish_reason": "stop",
+  "parse_text": "As to the revenue, the excife here in levied only in the walled towns, being on the fame footing as in the mmunific of Brandenburg; but in the rest of the coun-try the contributions are fixed, and the time both in peace and var. The several branches of the revenues are under the management of the war and domain offices of Berlher and Clugas. The whole revenue arling to the king of Praffia from Sfislio and the country of Glatz amounts to about four millions of rix-dollars per season.",
+  "corrected_text": "As to the revenue, the excise here is levied only in the walled towns, being on the same footing as in the marquisate of Brandenburg; but in the rest of the country the contributions are fixed, and the time both in peace and war. The several branches of the revenues are under the management of the war and domain offices of Berlin and Cleves. The whole revenue arising to the king of Prussia from Silesia and the country of Glatz amounts to about four millions of rix-dollars per annum.",
+  "reasoning_tokens": 0,
+  "usage": {
+    "completion_tokens": 111,
+    "prompt_tokens": 836,
+    "total_tokens": 947,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 496
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 3000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows the whole page. The region is the box x0=0.467, y0=0.067, x1=0.863, y1=0.202 as fractions of the page width and height. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\nAs to the revenue, the excife here in levied only in the walled towns, being on the fame footing as in the mmunific of Brandenburg; but in the rest of the coun-try the contributions are fixed, and the time both in peace and var. The several branches of the revenues are under the management of the war and domain offices of Berlher and Clugas. The whole revenue arling to the king of Praffia from Sfislio and the country of Glatz amounts to about four millions of rix-dollars per season.",
+  "response": {
+    "id": "chatcmpl-96fada79f35164e0",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "As to the revenue, the excise here is levied only in the walled towns, being on the same footing as in the marquisate of Brandenburg; but in the rest of the country the contributions are fixed, and the time both in peace and war. The several branches of the revenues are under the management of the war and domain offices of Berlin and Cleves. The whole revenue arising to the king of Prussia from Silesia and the country of Glatz amounts to about four millions of rix-dollars per annum.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792325856,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 111,
+      "prompt_tokens": 836,
+      "total_tokens": 947,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 496
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "stage": "correct",
+  "finished_at": "2026-10-18T13:13:50+00:00",
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "variant": "crop_nothink",
+  "provenance": {
+    "removed": 0,
+    "written": 249
+  },
+  "text_blocks": 1177,
+  "blocks_requested": 1148,
+  "blocks_corrected": 1147,
+  "blocks_failed": 1,
+  "text_decisions": {
+    "super_vl": 1105,
+    "super_vl+expanded_beyond_parse": 40,
+    "parse_fallback+box_too_small": 29,
+    "parse": 39,
+    "super_vl+emptied": 2,
+    "parse_fallback+super_vl_failed": 1
+  },
+  "post_process": {
+    "long_s_rule": "ocr_eval.fix_long_s with the system word list",
+    "blocks_changed": 168
+  },
+  "entries": 249,
+  "entries_from_parse_only": 241,
+  "gold_evaluation": {
+    "parse": {
+      "blocks_scored": 29,
+      "blocks_missing": 0,
+      "cer": 0.1216,
+      "wer": 0.2507,
+      "words_not_in_reference_per_100": 21.08,
+      "blocks_better_than_parse": null,
+      "cer_without_G08": 0.1213,
+      "blocks_worse_than_parse": null
+    },
+    "parse_long_s_rule": {
+      "blocks_scored": 29,
+      "blocks_missing": 0,
+      "cer": 0.1206,
+      "wer": 0.2462,
+      "words_not_in_reference_per_100": 20.64,
+      "blocks_better_than_parse": 8,
+      "cer_without_G08": 0.1203,
+      "blocks_worse_than_parse": 1
+    },
+    "crop_nothink": {
+      "blocks_scored": 29,
+      "blocks_missing": 0,
+      "cer": 0.018,
+      "wer": 0.0301,
+      "words_not_in_reference_per_100": 2.52,
+      "blocks_better_than_parse": 28,
+      "cer_without_G08": 0.008,
+      "blocks_worse_than_parse": 1
+    },
+    "crop_think": {
+      "blocks_scored": 28,
+      "blocks_missing": 1,
+      "cer": 0.0287,
+      "wer": 0.0371,
+      "words_not_in_reference_per_100": 2.84,
+      "blocks_better_than_parse": 25,
+      "cer_without_G08": 0.016,
+      "blocks_worse_than_parse": 3
+    },
+    "crop_noparse": {
+      "blocks_scored": 29,
+      "blocks_missing": 0,
+      "cer": 0.0701,
+      "wer": 0.1205,
+      "words_not_in_reference_per_100": 10.81,
+      "blocks_better_than_parse": 19,
+      "cer_without_G08": 0.0588,
+      "blocks_worse_than_parse": 10
+    },
+    "page_nothink": {
+      "blocks_scored": 29,
+      "blocks_missing": 0,
+      "cer": 0.2491,
+      "wer": 0.353,
+      "words_not_in_reference_per_100": 23.83,
+      "blocks_better_than_parse": 16,
+      "cer_without_G08": 0.2511,
+      "blocks_worse_than_parse": 3
+    },
+    "crop_nothink_long_s_rule": {
+      "blocks_scored": 29,
+      "blocks_missing": 0,
+      "cer": 0.0178,
+      "wer": 0.0292,
+      "words_not_in_reference_per_100": 2.44,
+      "blocks_better_than_parse": 28,
+      "cer_without_G08": 0.0078,
+      "blocks_worse_than_parse": 1
+    }
+  },
+  "outputs": {
+    "raw": "artifacts/correct/raw/crop_nothink",
+    "pages": "artifacts/correct/pages.jsonl",
+    "entries": "artifacts/correct/entries.jsonl"
+  }
+}

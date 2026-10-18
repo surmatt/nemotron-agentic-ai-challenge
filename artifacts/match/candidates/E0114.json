@@ -1,0 +1,729 @@
+{
+  "entry_id": "E0114",
+  "headword": "HUGONIA",
+  "entry_text_sha256": "56e7620926e90f0b1130e063c1cf8a364d26374109bcf28836d83206478803c6",
+  "mode": "model",
+  "queries": [
+    "hugonia",
+    "hugonia order botany genus decandria belonging monadelphia class plants natural method ranking"
+  ],
+  "query_chars": 259,
+  "headword_variant": null,
+  "candidate_count": 32,
+  "list_pages_removed_after_fetch": [],
+  "decision": {
+    "status": "accepted",
+    "method": "nemotron_embed_rerank",
+    "thresholds": {
+      "rerank_logit": -10.0,
+      "margin": 0.5,
+      "cosine": 0.15,
+      "title_similarity": 0.0
+    },
+    "page_id": "12887652",
+    "title": "Hugonia",
+    "rerank_logit": -1.898989,
+    "cosine": 0.391327,
+    "margin_to_next": 2.320212,
+    "title_similarity": 1.0
+  },
+  "article": {
+    "page_id": "12887652",
+    "revision_id": "1044936012",
+    "title": "Hugonia",
+    "url": "https://en.wikipedia.org/wiki/Hugonia",
+    "revision_url": "https://en.wikipedia.org/w/index.php?oldid=1044936012",
+    "text_sha256": "fbb4a01cffb5c3e0c9632f26d8e32b14c354eba01f1a727e5ed59fcbecfd5c64",
+    "chars": 292
+  },
+  "candidates": [
+    {
+      "page_id": "12887652",
+      "revision_id": "1044936012",
+      "title": "Hugonia",
+      "url": "https://en.wikipedia.org/wiki/Hugonia",
+      "excerpt": "Hugonia is a genus of plant in the family Linaceae. The genus was named by Linnaeus after Augustus Johann von Hugo (1686-1760) of Hannover.\n\nSpecies include:\n\nHugonia deplanchei\n\nHugonia jenkinsii\n\nHugonia macrophylla Oliv.\n\nHugonia micans Engl.\n\nHugonia mystax L.\n\nHugonia planchonii Hook.f.",
+      "excerpt_offset": 0,
+      "total_chars": 292,
+      "bm25": {
+        "q0": {
+          "rank": 1,
+          "score": 26.6227
+        },
+        "q1": {
+          "rank": 6,
+          "score": 38.0563
+        }
+      },
+      "best_rank": 1,
+      "title_similarity": 1.0,
+      "context_overlap": 0.087,
+      "cosine": 0.391327,
+      "rerank_logit": -1.898989,
+      "rerank_position": 1
+    },
+    {
+      "page_id": "17539",
+      "revision_id": "1353135029",
+      "title": "Linnaean taxonomy",
+      "url": "https://en.wikipedia.org/wiki/Linnaean_taxonomy",
+      "excerpt": "Linnaean taxonomy can mean either of two related concepts:\n\nThe particular form of biological classification (taxonomy) established by Carl Linnaeus, as set forth in his Systema Naturae (1735) and subsequent works. In his taxonomy Linnaeus described three kingdoms, each divided into classes, and the classes divided into lower ranks in hierarchical order.\n\nA general term for ranked classification of organisms. That is, taxonomy in the traditional sense of the word: rank-based scientific classification — which especially is used as opposed to the method of cladistic systematics, which groups organisms into clades.\n\nRanked classification is attributed to Linnaeus even though he neither invented the concept (which goes back to Plato and Aristotle), nor gave it its present form(s). In fact, ranked classification does not have a defined form, as \"Linnaean taxonomy\" does not exist as such. Instead it is a collective (abstracting) term for several separate fields used for similar approaches.\n\nLinnaean name also has two meanings, depending on the context: it may either refer to a formal name given by Linnaeus himself, such as Giraffa camelopardalis Linnaeus, 1758; or a formal name in the ac",
+      "excerpt_offset": 0,
+      "total_chars": 12122,
+      "bm25": {
+        "q1": {
+          "rank": 1,
+          "score": 53.9072
+        }
+      },
+      "best_rank": 1,
+      "title_similarity": 0.1667,
+      "context_overlap": 0.0267,
+      "cosine": 0.134566,
+      "rerank_logit": -7.550876,
+      "rerank_position": 30
+    },
+    {
+      "page_id": "12887649",
+      "revision_id": "1314715997",
+      "title": "Hugonia macrophylla",
+      "url": "https://en.wikipedia.org/wiki/Hugonia_macrophylla",
+      "excerpt": "Hugonia macrophylla is a species of plant in the Linaceae family. It is endemic to Cameroon. Its natural habitat is subtropical or tropical moist lowland forests. It is threatened by habitat loss.",
+      "excerpt_offset": 0,
+      "total_chars": 196,
+      "bm25": {
+        "q0": {
+          "rank": 2,
+          "score": 25.6906
+        },
+        "q1": {
+          "rank": 10,
+          "score": 35.1052
+        }
+      },
+      "best_rank": 2,
+      "title_similarity": 0.5385,
+      "context_overlap": 0.1176,
+      "cosine": 0.300311,
+      "rerank_logit": -5.47408,
+      "rerank_position": 4
+    },
+    {
+      "page_id": "79439121",
+      "revision_id": "1323141263",
+      "title": "Erica monadelphia",
+      "url": "https://en.wikipedia.org/wiki/Erica_monadelphia",
+      "excerpt": "Erica monadelphia is a plant belonging to the genus Erica and is part of the fynbos. The species is endemic to the Western Cape.",
+      "excerpt_offset": 0,
+      "total_chars": 128,
+      "bm25": {
+        "q1": {
+          "rank": 2,
+          "score": 44.0721
+        }
+      },
+      "best_rank": 2,
+      "title_similarity": 0.3333,
+      "context_overlap": 0.2727,
+      "cosine": 0.205596,
+      "rerank_logit": -7.038593,
+      "rerank_position": 15
+    },
+    {
+      "page_id": "12887657",
+      "revision_id": "1314930697",
+      "title": "Hugonia micans",
+      "url": "https://en.wikipedia.org/wiki/Hugonia_micans",
+      "excerpt": "Hugonia micans is a species of plant in the Linaceae family. It is found in Cameroon and Gabon. Its natural habitat is subtropical or tropical moist lowland forests. It is threatened by habitat loss.",
+      "excerpt_offset": 0,
+      "total_chars": 199,
+      "bm25": {
+        "q0": {
+          "rank": 3,
+          "score": 25.6771
+        },
+        "q1": {
+          "rank": 11,
+          "score": 35.0726
+        }
+      },
+      "best_rank": 3,
+      "title_similarity": 0.7,
+      "context_overlap": 0.1111,
+      "cosine": 0.314907,
+      "rerank_logit": -5.652578,
+      "rerank_position": 7
+    },
+    {
+      "page_id": "1527777",
+      "revision_id": "1331811186",
+      "title": "Antonio José Cavanilles",
+      "url": "https://en.wikipedia.org/wiki/Antonio_Jos%C3%A9_Cavanilles",
+      "excerpt": "Cavanilles (16 January 1745 – 5 May 1804) was a leading Spanish taxonomic botanist, artist and one of the most important figures in the 18th century period of Enlightenment in Spain.\n\nCavanilles is most famous for his 2-volume book on Spanish flora, published in 1795 and titled ‘Observations on the Natural History, Geography and Agriculture of the Kingdom of Valencia’.He named many plants, particularly from Oceania. He named at least 100 genera, about 54 of which were still used in 2004, including Dahlia, Calycera, Cobaea, Galphimia, and Oleandra. The standard author abbreviation Cav. is used to indicate this person as the author when citing a botanical name.\n\nCavanilles was born in Valencia. He lived in Paris from 1777 to 1781, where he followed careers as a clergyman and a botanist, thanks to André Thouin and Antoine Laurent de Jussieu. He was one of the first Spanish scientists to use the classification method invented by Carl Linnaeus.\n\nAntonio José Cavanilles was born on January 16, 1745, in Valencia, Spain.\n\nIn his youth Cavanilles specialized in the study of mathematics and physics and obtained a doctorate in theology. Because he failed to secure the professorship to which h",
+      "excerpt_offset": 13,
+      "total_chars": 6024,
+      "bm25": {
+        "q1": {
+          "rank": 3,
+          "score": 43.0422
+        }
+      },
+      "best_rank": 3,
+      "title_similarity": 0.2857,
+      "context_overlap": 0.0375,
+      "cosine": 0.226768,
+      "rerank_logit": -7.36069,
+      "rerank_position": 27
+    },
+    {
+      "page_id": "55407959",
+      "revision_id": "1176871997",
+      "title": "Hugonia mystax",
+      "url": "https://en.wikipedia.org/wiki/Hugonia_mystax",
+      "excerpt": "Hugonia mystax is a species of plant in the family Linaceae found mainly in the dry forests of peninsular India and Sri Lanka. It is a scandent shrub, sometimes growing liana-like over other trees and bears yellow flowers and orange to red fruits in the rainy season. The branchlets are leafless at the base and instead have a pair of recurved spines which bear a resemblance to a moustache, giving rise to the epithet mystax, Latin for moustache.\n\nThe Tamil name, mothira-kanni, refers to the resemblance to a ring. The roots of the plant are astringent and bittersweet, and are used to treat fevers, verminosis, and inflammations.\n\nThe species is common in the dry scrub and tropical dry evergreen forests of peninsular India south from Maharashtra to Orissa. It flowers according to the rains, twice a year in some parts of the peninsula. The flowers are pollinated by Apis bees. The fruits are eaten by birds and seeds may be dispersed by them. The leaves are used in traditional medicine and used as an anti-inflammatory.",
+      "excerpt_offset": 0,
+      "total_chars": 1026,
+      "bm25": {
+        "q0": {
+          "rank": 4,
+          "score": 24.6605
+        }
+      },
+      "best_rank": 4,
+      "title_similarity": 0.6667,
+      "context_overlap": 0.0122,
+      "cosine": 0.320349,
+      "rerank_logit": -5.519866,
+      "rerank_position": 6
+    },
+    {
+      "page_id": "1478634",
+      "revision_id": "1352901075",
+      "title": "Systema Naturae",
+      "url": "https://en.wikipedia.org/wiki/Systema_Naturae",
+      "excerpt": "partially developed by the Bauhin brothers, Gaspard and Johann, Linnaeus was the first to use it consistently throughout his book. The first edition was published in 1735. The full title of the 10th edition (1758), which was the most important one, was Systema naturæ per regna tria naturæ, secundum classes, ordines, genera, species, cum characteribus, differentiis, synonymis, locis, which appeared in English in 1806 with the title: \"A General System of Nature, Through the Three Grand Kingdoms of Animals, Vegetables, and Minerals, Systematically Divided Into their Several Classes, Orders, Genera, Species, and Varieties, with their Habitations, Manners, Economy, Structure and Peculiarities\".\n\nThe tenth edition of this book (1758), published in Stockholm, is considered the starting point of zoological nomenclature. In 1766–1768 Linnaeus published the much enhanced 12th edition, the last under his authorship. Another again enhanced work in the same style titled \" Systema Naturae \" was published by Johann Friedrich Gmelin between 1788 and 1793. Since at least the early 20th century, zoologists have commonly recognized this as the last edition belonging to this series.\n\nLinnaeus (later k",
+      "excerpt_offset": 278,
+      "total_chars": 10222,
+      "bm25": {
+        "q1": {
+          "rank": 4,
+          "score": 41.2694
+        }
+      },
+      "best_rank": 4,
+      "title_similarity": 0.1818,
+      "context_overlap": 0.013,
+      "cosine": 0.087014,
+      "rerank_logit": -7.320657,
+      "rerank_position": 24
+    },
+    {
+      "page_id": "68745170",
+      "revision_id": "1301075446",
+      "title": "Hugonia planchonii",
+      "url": "https://en.wikipedia.org/wiki/Hugonia_planchonii",
+      "excerpt": "Hugonia planchonii is a liana with bright yellow flowers that are short-lived and stems producing alternate hooks that is endemic to countries in Tropical West Africa but also occurs in Cameroon and Gabon. It is within the Linaceae family.\n\nIn traditional medicine, leaves are obtained to make a regimen to treat bronchitis or cough\n\nThe species is a liana with brown stem that is hairy when young but glabrescent or with short hairs when matured, the stems have recurved hooks. Leaves are stalked and shiny; stipules are pubescent and 5–10 mm long, petiole is 3–6 mm long; leaf-blade lanceolate to obovate, the species has inconspicuous domatia or sometimes are without the one, the leaf-blade is 5–16 cm long and 2–5 cm wide, surface is slightly coriaceous while the upper surface is glabrous, around the midrib to lower surface, it is glabrescent to pubescent. Flowers are yellow and in axillary cymes; sepals are semi-erect, reddish and densely pubescent.",
+      "excerpt_offset": 0,
+      "total_chars": 959,
+      "bm25": {
+        "q0": {
+          "rank": 5,
+          "score": 24.6112
+        }
+      },
+      "best_rank": 5,
+      "title_similarity": 0.56,
+      "context_overlap": 0.0145,
+      "cosine": 0.347765,
+      "rerank_logit": -5.685396,
+      "rerank_position": 8
+    },
+    {
+      "page_id": "61762",
+      "revision_id": "1353512281",
+      "title": "Class (biology)",
+      "url": "https://en.wikipedia.org/wiki/Class_(biology)",
+      "excerpt": "In biological taxonomy, class (Latin: classis) is a taxonomic rank, as well as a taxonomic unit (i.e., a taxon) in that rank. It is a group of related taxonomic orders. Other well-known ranks in descending order of size are domain, kingdom, phylum, order, family, genus, and species, with class ranking between phylum and order.\n\nThe class as a distinct rank of biological classification having its own distinctive name – and not just called a top-level genus (Latin: genus summum) – was first introduced by French botanist Joseph Pitton de Tournefort in the classification of plants that appeared in his Eléments de botanique of 1694.\n\nInsofar as a general definition of a class is available, it has historically been conceived as embracing taxa that combine a distinct grade of organization—i.e. a 'level of complexity', measured in terms of how differentiated their organ systems are into distinct regions or sub-organs—with a distinct type of construction, which is to say a particular layout of organ systems. This said, the composition of each class is ultimately determined by the subjective judgment of taxonomists.\n\nIn the first edition of his Systema Naturae (1735), Carl Linnaeus divided a",
+      "excerpt_offset": 0,
+      "total_chars": 2256,
+      "bm25": {
+        "q1": {
+          "rank": 5,
+          "score": 38.7463
+        }
+      },
+      "best_rank": 5,
+      "title_similarity": 0.1818,
+      "context_overlap": 0.0625,
+      "cosine": 0.148278,
+      "rerank_logit": -6.849842,
+      "rerank_position": 13
+    },
+    {
+      "page_id": "1269444",
+      "revision_id": "1282734800",
+      "title": "Linaceae",
+      "url": "https://en.wikipedia.org/wiki/Linaceae",
+      "excerpt": "n in the Hugonioideae) and fruit type (capsules in the Linoideae, fleshy drupe-like fruits in the Hugonioideae).\n\nThe largest genus of the Linoideae is Linum, the flaxes, with 180–200 species including the cultivated flax, L. usitatissimum. Members of the Linoideae include herbaceous annuals and perennials, as well as woody subshrubs, shrubs, and small trees (Tirpitzia) inhabiting temperate and tropical latitudes of Eurasia, Africa, Australia, and the Americas.\n\nAnisadenia Wall. ex Meisn. (2 sp.)\n\nHesperolinon (Gray) Small (13 sp.)\n\nLinum L. (approximately 200 species)\n\nRadiola Hill (1 sp.)\n\nReinwardtia Dumort. (1 sp.)\n\nSclerolinon C.M.Rogers (1 sp.)\n\nTirpitzia Hallier f. (3 sp.)\n\nFormerly included: Cliococca (synonym of Linum L.)\n\nThe Hugonioideae subfamily is often recognized as a distinct family, the Hugoniaceae.\n\nThe largest genus of the Hugonioideae is Hugonia (about 40 species); the Hugonioideae are woody vines, shrubs, and trees, and are almost entirely tropical in distribution.\n\nHebepetalum Benth. (3 sp.)\n\nHugonia l. (6 sp.)\n\nIndorouchera Hallier f. (1 sp.)\n\nRoucheria Planch. (7 sp.)\n\nFormerly included: Durandea (synonym of Hugonia L.) and Philbornea (synonym of Hugonia L.)",
+      "excerpt_offset": 855,
+      "total_chars": 2055,
+      "bm25": {
+        "q0": {
+          "rank": 6,
+          "score": 22.5863
+        },
+        "q1": {
+          "rank": 9,
+          "score": 36.1698
+        }
+      },
+      "best_rank": 6,
+      "title_similarity": 0.2667,
+      "context_overlap": 0.0411,
+      "cosine": 0.350068,
+      "rerank_logit": -4.219201,
+      "rerank_position": 2
+    },
+    {
+      "page_id": "37439673",
+      "revision_id": "1250370327",
+      "title": "Meza indusiata",
+      "url": "https://en.wikipedia.org/wiki/Meza_indusiata",
+      "excerpt": "Meza indusiata, the snowy missile, is a butterfly in the family Hesperiidae. It is found in Senegal, Guinea-Bissau, Sierra Leone, Liberia, Ivory Coast, Ghana, Nigeria, Cameroon, Gabon, the Republic of the Congo, Angola, the Democratic Republic of the Congo and Uganda. The habitat consists of forests.\n\nThe larvae feed on Hugonia platysepala.",
+      "excerpt_offset": 0,
+      "total_chars": 342,
+      "bm25": {
+        "q0": {
+          "rank": 7,
+          "score": 19.4712
+        }
+      },
+      "best_rank": 7,
+      "title_similarity": 0.2857,
+      "context_overlap": 0.0312,
+      "cosine": 0.09477,
+      "rerank_logit": -7.212523,
+      "rerank_position": 22
+    },
+    {
+      "page_id": "61763",
+      "revision_id": "1353512288",
+      "title": "Order (biology)",
+      "url": "https://en.wikipedia.org/wiki/Order_(biology)",
+      "excerpt": "Order (Latin: ordo) is one of the eight major hierarchical taxonomic ranks in Linnaean taxonomy. It is classified between family and class. Like the other ranks, orders reflect shared ancestry; for example, all owls belong to the order Strigiformes. In biological classification systems, orders and their usage are defined by nomenclature codes. An immediately higher rank, superorder, is sometimes added directly above order, with suborder directly beneath order.\n\nWhat does and does not belong to each order is determined by a taxonomist, as is whether a particular order should be recognized at all. Often there is no exact agreement, with different taxonomists each taking a different position. There are no hard rules that a taxonomist needs to follow in describing or recognizing an order. Some taxa are accepted almost universally, while others are recognized only rarely.\n\nThe name of an order is usually written with a capital letter. For some groups of organisms, their orders may follow consistent naming schemes. Orders of plants, fungi, and algae use the suffix -ales (e.g. Dictyotales). Orders of birds and fishes use the Latin suffix -iformes meaning 'having the form of' (e.g. Passeri",
+      "excerpt_offset": 0,
+      "total_chars": 4967,
+      "bm25": {
+        "q1": {
+          "rank": 7,
+          "score": 37.8519
+        }
+      },
+      "best_rank": 7,
+      "title_similarity": 0.1667,
+      "context_overlap": 0.0357,
+      "cosine": 0.1301,
+      "rerank_logit": -7.510872,
+      "rerank_position": 28
+    },
+    {
+      "page_id": "39574837",
+      "revision_id": "1253773154",
+      "title": "Neoblastobasis perisella",
+      "url": "https://en.wikipedia.org/wiki/Neoblastobasis_perisella",
+      "excerpt": "Neoblastobasis perisella is a moth in the family Blastobasidae. It is found in Kenya and the Democratic Republic of the Congo, where it is known from coastal lowland habitats.\n\nThe length of the forewings is 5.1–5.5 mm.\n\nThe larvae feed on Hugonia castaneifolia and Ximenia afra.\n\nThe species is named in honour of Peris Machera, a worker in the insect-rearing laboratory in Nairobi, Kenya.",
+      "excerpt_offset": 0,
+      "total_chars": 390,
+      "bm25": {
+        "q0": {
+          "rank": 8,
+          "score": 19.3183
+        }
+      },
+      "best_rank": 8,
+      "title_similarity": 0.2,
+      "context_overlap": 0.0312,
+      "cosine": 0.11023,
+      "rerank_logit": -7.590248,
+      "rerank_position": 31
+    },
+    {
+      "page_id": "443120",
+      "revision_id": "1353512316",
+      "title": "Section (biology)",
+      "url": "https://en.wikipedia.org/wiki/Section_(biology)",
+      "excerpt": "In biology a section (Latin: sectio) is a taxonomic rank that is applied differently in botany and zoology.\n\nWithin flora (plants), 'section' refers to a botanical rank below the genus, but above the species:\n\nDomain > Kingdom > Division > Class > Order > Family > Tribe > Genus > Subgenus > Section > Subsection > Species\n\nWithin fauna (animals), 'section' refers to an uncommonly used zoological rank below the order, but above the family:\n\nDomain > Kingdom > Phylum > Class > Order > Section > Family > Tribe > Genus > Species\n\nThe rank of Superfamily is commonly adopted instead.\n\nThe International Code of Nomenclature for Bacteria states that the Section rank is an informal one, between the subgenus and species (as in botany).",
+      "excerpt_offset": 0,
+      "total_chars": 734,
+      "bm25": {
+        "q1": {
+          "rank": 8,
+          "score": 36.7316
+        }
+      },
+      "best_rank": 8,
+      "title_similarity": 0.2857,
+      "context_overlap": 0.122,
+      "cosine": 0.162032,
+      "rerank_logit": -7.133542,
+      "rerank_position": 19
+    },
+    {
+      "page_id": "36080400",
+      "revision_id": "1220425745",
+      "title": "Euryphura chalcis",
+      "url": "https://en.wikipedia.org/wiki/Euryphura_chalcis",
+      "excerpt": "Euryphura chalcis, the common commander, is a butterfly in the family Nymphalidae. It is found in Senegal, Guinea, Sierra Leone, Liberia, Ivory Coast, Ghana, Togo, Benin, Nigeria, Cameroon, Gabon, the Republic of the Congo, the Central African Republic, the Democratic Republic of the Congo, Uganda, Kenya, Tanzania and Zambia. The habitat consists of forests.\n\nAdults have been recorded feeding on Cleistopholis patens. It is thought the nectar in these flowers had fermented.\n\nThe larvae feed on Hugonia platysepala, Ventilago, Pterocarpus, Dalbergia, Cassia, Celtis, Hippocratea and Chrysophyllum species.\n\nEuryphura chalcis chalcis (Senegal, Guinea, Sierra Leone, Liberia, Ivory Coast, Ghana, Togo, Benin, Nigeria, Cameroon, Gabon, Congo, Central African Republic, Democratic Republic of the Congo, western Uganda, north-western Tanzania, north-western Zambia)\n\nEuryphura chalcis kiellandi Hecq, 1990 (western Tanzania)",
+      "excerpt_offset": 0,
+      "total_chars": 923,
+      "bm25": {
+        "q0": {
+          "rank": 9,
+          "score": 17.3742
+        }
+      },
+      "best_rank": 9,
+      "title_similarity": 0.2609,
+      "context_overlap": 0.0172,
+      "cosine": 0.162827,
+      "rerank_logit": -7.045513,
+      "rerank_position": 16
+    },
+    {
+      "page_id": "35910441",
+      "revision_id": "1275660676",
+      "title": "Charaxes tiridates",
+      "url": "https://en.wikipedia.org/wiki/Charaxes_tiridates",
+      "excerpt": "roon, Gabon, the Republic of the Congo, the Democratic Republic of the Congo, the Central African Republic, Sudan, Ethiopia, Uganda, Rwanda, Burundi, Kenya, Tanzania, Angola and Zambia. The habitat consists of lowland evergreen forests and dense savanna.\n\nThe larvae feed on Phialodiscus unijugatus, Hugonia platysepala, Hugonia castaneifolia, Bombax reflexum, Chaetacme aristata, Celtis africana, Celtis durandi, Grewia tricocarpa, Grewia mollis, Afzelia africana, Flacourtia indica, Indigofera macrophylla, Osyris lanceolata, Blighia unijugata, Grewia forbesi, Bombax buonopozense, Albizia, Berlinia, Lonchocarpus, Hibiscus (including Hibiscus calyphyllus), Trema, Cassia, Dalbergia, Macrolobium, Millettia and Pterocarpus species.\n\nMale upperside forewings have a black ground colour glossed blue. There is a discal arc of five or so spots and a postdiscal sinuous line of eight to ten spots. These spots are light blue and slightly metallic. The margin has pale amorphous lunules. The hindwing has two postdiscal rows of the light blue spots, the second close to the margin which has pale more lineate lunules. There are two short tails.\n\nThe female upperside has light brown basal areas, more ex",
+      "excerpt_offset": 222,
+      "total_chars": 3095,
+      "bm25": {
+        "q0": {
+          "rank": 10,
+          "score": 16.896
+        }
+      },
+      "best_rank": 10,
+      "title_similarity": 0.2609,
+      "context_overlap": 0.0102,
+      "cosine": 0.164888,
+      "rerank_logit": -6.55342,
+      "rerank_position": 11
+    },
+    {
+      "page_id": "21450788",
+      "revision_id": "1337678732",
+      "title": "Conservatoire botanique national de Mascarin",
+      "url": "https://en.wikipedia.org/wiki/Conservatoire_botanique_national_de_Mascarin",
+      "excerpt": " a primary emphasis on management and monitoring of species in their natural habitats.\n\nThe conservatory's ongoing projects include establishing plots in mid-elevation wet forests for long-term study of plant diversity and vegetation dynamics; field surveys to determine locations for rare endemics (such as the highly endangered Ruizia cordata and Carissa xylopicron; replanting the endangered Lomatophyllum macrum in situ; and seed germination studies of endemic plants including Hugonia serrata and Antirhea borbonica.\n\nThe conservatory's garden (3 hectares) contains about 4,000 plant species endemic to the Mascarene Islands, i.e., including Madagascar, Mauritius, and Rodrigues, as well as Réunion itself. It is organized into seven sections as follows:\n\nRéunion collection - indigenous flora, including more than 50 endemic species.\n\nLontan plants - a historical collection of local agriculture, including coffee, spices, fruit trees, sugar cane, and geraniums.\n\nOrchard - more than 50 fruit tree species.\n\nSucculents - succulent plants and exotic cacti, including species from the Americas and Africa.\n\nPalm trees - endemic and exotic palm trees.\n\nOrchids - orchids.\n\nBamboo ravine - bamboos.",
+      "excerpt_offset": 778,
+      "total_chars": 1978,
+      "bm25": {
+        "q0": {
+          "rank": 11,
+          "score": 14.3577
+        }
+      },
+      "best_rank": 11,
+      "title_similarity": 0.1569,
+      "context_overlap": 0.044,
+      "cosine": 0.162578,
+      "rerank_logit": -6.60658,
+      "rerank_position": 12
+    },
+    {
+      "page_id": "35900256",
+      "revision_id": "1271333998",
+      "title": "Charaxes lucretius",
+      "url": "https://en.wikipedia.org/wiki/Charaxes_lucretius",
+      "excerpt": "ed and very common. Similar to Charaxes eudoxus but the silvery markings on the underside are absent\n\nCharaxes lucretius group:\n\nCharaxes lucretius\n\nCharaxes octavus\n\nCharaxes odysseus\n\nCharaxes lemosi\n\nC. l. lucretius (Senegal, Guinea, Sierra Leone, Liberia, Ivory Coast, Ghana, Togo, western Nigeria)\n\nC. l. intermedius van Someren, 1971 (Nigeria, Cameroon, Gabon, Congo, Central African Republic, Democratic Republic of the Congo, Zambia)\n\nC. l. maximus van Someren, 1971 (Democratic Republic of the Congo, Uganda, Rwanda, Burundi, western Kenya, north-western Tanzania)\n\nC. l. saldanhai Bivar de Sousa, 1983 (north-western Angola)\n\nC. l. schofieldi Plantrou, 1989 (north-eastern Zambia)\n\nIt is found in Senegal, Guinea, Sierra Leone, Liberia, Ivory Coast, Ghana, Togo, Nigeria, Cameroon, Equatorial Guinea, Sao Tome and Principe, Gabon, the Republic of the Congo, Angola, the Central African Republic, the Democratic Republic of the Congo, Uganda, Rwanda, Burundi, Kenya, Tanzania and Zambia. The habitat consists of primary forests.\n\nNotes on the biology of lucretius are provided by Larsen (2005) and Larsen (1991)\n\nThe larvae feed on Annona senegalensis, Hugonia platysepala and Trema species.",
+      "excerpt_offset": 1111,
+      "total_chars": 2311,
+      "bm25": {
+        "q0": {
+          "rank": 12,
+          "score": 13.4916
+        }
+      },
+      "best_rank": 12,
+      "title_similarity": 0.2609,
+      "context_overlap": 0.0143,
+      "cosine": 0.130706,
+      "rerank_logit": -7.126467,
+      "rerank_position": 18
+    },
+    {
+      "page_id": "28559148",
+      "revision_id": "1286953846",
+      "title": "Critica Botanica",
+      "url": "https://en.wikipedia.org/wiki/Critica_Botanica",
+      "excerpt": "Critica Botanica (\"Critique of botany\", Leiden, July 1737) was written by Swedish botanist, physician, zoologist and naturalist Carl Linnaeus (1707–1778). The book was published in Germany when Linnaeus was 29 with a discursus by the botanist Johannes Browallius (1707–1755), bishop of Åbo (Turku). The first edition was published in July 1737 under the full title Critica botanica in qua nomina plantarum generica, specifica & variantia examini subjiciuntur, selectoria confirmantur, indigna rejiciuntur; simulque doctrina circa denominationem plantarum traditur. Seu Fundamentorum botanicorum pars IV Accedit Johannis Browallii De necessitate historiae naturalis discursus.\n\nLinnaeus's principles of botanical nomenclature were first expounded in Fundamenta Botanica (\"Foundations of botany\") of 1736, in chapters VII to X which contained the aphorisms (principles) 210 to 324 that outlined the rules for the acceptance and formation of names. These were later elaborated, with numerous examples, in his Critica Botanica of 1737. The practical application of these rules was soon seen in subsequent publications such as Flora Lapponica (\"Flora of Lapland\", 1737), Hortus Cliffortianus (\"In honour o",
+      "excerpt_offset": 0,
+      "total_chars": 16511,
+      "bm25": {
+        "q1": {
+          "rank": 12,
+          "score": 33.6528
+        }
+      },
+      "best_rank": 12,
+      "title_similarity": 0.3478,
+      "context_overlap": 0.012,
+      "cosine": 0.083478,
+      "rerank_logit": -7.164103,
+      "rerank_position": 20
+    },
+    {
+      "page_id": "35910375",
+      "revision_id": "1313402331",
+      "title": "Charaxes numenes",
+      "url": "https://en.wikipedia.org/wiki/Charaxes_numenes",
+      "excerpt": "aks. The female agrees almost entirely with that of tiridates Sierra Leone to Angola and Uganda. - neumanni Rothsch. has larger yellow marginal spots on both wings and somewhat longer tail-appendages on the hindwing; Abyssinia.\n\nThe habitat consists of evergreen lowland forests.\n\nThe larvae feed on Hugonia platysepela, Grewia mollis, Grewia forbesi, Grewia trichocarpa, Deinbollia fulvotomentella, Erythrina abyssinica, Erythrina excelsa, Allophylus, Blighia unijugata and Phialodiscus unijugatus.\n\nCharaxes numenes numenes (Senegal, Guinea-Bissau, Guinea, Sierra Leone, Liberia, Ivory Coast, Ghana, Benin, western Nigeria)\n\nCharaxes numenes aequatorialis van Someren, 1972 (Nigeria, Cameroon, Gabon, Congo, northern Angola, Democratic Republic of the Congo, Zambia, Central African Republic, southern Sudan, Uganda, western Kenya, western Tanzania)\n\nCharaxes numenes malabo Turlin, 1998 (Bioko)\n\nCharaxes numenes neumanni Rothschild, 1902 (southern and western Ethiopia)\n\nCharaxes tiridates group.\n\nThe supposed clade members are:\n\nCharaxes tiridates\n\nCharaxes numenes - similar to next\n\nCharaxes bipunctatus - similar to last\n\nCharaxes violetta\n\nCharaxes fuscus\n\nCharaxes mixtus\n\nCharaxes bubasti",
+      "excerpt_offset": 1070,
+      "total_chars": 2578,
+      "bm25": {
+        "q0": {
+          "rank": 13,
+          "score": 13.0792
+        }
+      },
+      "best_rank": 13,
+      "title_similarity": 0.2857,
+      "context_overlap": 0.011,
+      "cosine": 0.155541,
+      "rerank_logit": -7.01234,
+      "rerank_position": 14
+    },
+    {
+      "page_id": "217858",
+      "revision_id": "1353512310",
+      "title": "Tribe (biology)",
+      "url": "https://en.wikipedia.org/wiki/Tribe_(biology)",
+      "excerpt": "In biology, a tribe is a taxonomic rank above genus, but below family and subfamily. It is sometimes subdivided into subtribes. By convention, all taxa ranked above species are capitalized, including both tribe and subtribe.\n\nIn zoology, the standard ending for the name of a zoological tribe is \"-ini\". Examples include the tribes Caprini (goat-antelopes), Hominini (hominins), Bombini (bumblebees), and Thunnini (tunas). The tribe Hominini is sometimes divided into subtribes; subtribe Hominina then comprises \"humans\". In zoology, the standard ending for the name of a subtribe is \"-ina\".\n\nIn botany, the standard ending for the name of a botanical tribe is \"-eae\". Examples include the tribes Acalypheae and Hyacintheae. The tribe Hyacintheae is divided into subtribes, including the subtribe Massoniinae. The standard ending for the name of a botanical subtribe is \"-inae\".\n\nIn bacteriology, the form of tribe names is as in botany, e.g., Pseudomonadeae, based on the genus name Pseudomonas.\n\nAn unfamiliar taxonomic rank cannot necessarily be identified as a tribe merely by the presence of one of the standard suffixes:\n\nzoological -ini uniquely suffixes the animal tribe\n\nzoological -ina uniq",
+      "excerpt_offset": 0,
+      "total_chars": 1933,
+      "bm25": {
+        "q1": {
+          "rank": 13,
+          "score": 32.478
+        }
+      },
+      "best_rank": 13,
+      "title_similarity": 0.1667,
+      "context_overlap": 0.0317,
+      "cosine": 0.132686,
+      "rerank_logit": -7.817008,
+      "rerank_position": 32
+    },
+    {
+      "page_id": "35912048",
+      "revision_id": "1241532003",
+      "title": "Charaxes zingha",
+      "url": "https://en.wikipedia.org/wiki/Charaxes_zingha",
+      "excerpt": " Nigeria, Cameroon, the Republic of the Congo, Angola, the Central African Republic, the northern part of the Democratic Republic of the Congo, Uganda and western Tanzania. The habitat consists of lowland evergreen forests and sometimes gallery forests and coastal scrubland.\n\nThe larvae feed on the Hugonia species H. platsepala and H. castaneifolia.\n\nMale: The upperside ground color is black. There is a triangular orange-red patch on the forewing contiguous with the orange-red basal area of the black hindwing, a marginal row of red/yellow spots and four pale spots at the tornus.\n\nThe underside of the forewing is grey yellow with a peach-pink area extending from the disc to the dorsum. There are five or six rounded black spots. The very colorful hindwing has a whitish or reddish brown ground color with numerous black markings and stains so that it appears almost netted; the anal lobe is colored yellow on the edge.\n\nCh. zingha Stoll Both wings above deep black with a common red-yellow or red-brown transverse band; on the forewing this is triangular, extends from the hindmargin to vein 6, reaches the base at the hindmargin and encloses a rounded black spot in the basal part of cellule",
+      "excerpt_offset": 159,
+      "total_chars": 2544,
+      "bm25": {
+        "q0": {
+          "rank": 14,
+          "score": 13.0618
+        }
+      },
+      "best_rank": 14,
+      "title_similarity": 0.2857,
+      "context_overlap": 0.0114,
+      "cosine": 0.175949,
+      "rerank_logit": -7.26416,
+      "rerank_position": 23
+    },
+    {
+      "page_id": "12070901",
+      "revision_id": "1305557340",
+      "title": "Philosophia Botanica",
+      "url": "https://en.wikipedia.org/wiki/Philosophia_Botanica",
+      "excerpt": "Philosophia Botanica (\"Botanical Philosophy\", ed. 1, Stockholm & Amsterdam, 1751.) was published by the Swedish naturalist and physician Carl Linnaeus (1707–1778) who greatly influenced the development of botanical taxonomy and systematics in the 18th and 19th centuries. It is \"the first textbook of descriptive systematic botany and botanical Latin\". It also contains Linnaeus's first published description of his binomial nomenclature.\n\nPhilosophia Botanica represents a maturing of Linnaeus's thinking on botany and its theoretical foundations, being an elaboration of ideas first published in his Fundamenta Botanica (1736) and Critica Botanica (1737), and set out in a similar way as a series of stark and uncompromising principles (aphorismen). The book also establishes a basic botanical terminology.\n\nThe following principle §79 demonstrates the style of presentation and Linnaeus's method of introducing his ideas.\n\n§ 79 The parts of the plant are the root (radix), the leafy shoot (herba) and the organs of reproduction (fructificatio), that the leafy shoot consists of the stem (truncus), the leaves (folia), accessory parts (fulcra, according to § 84 stipules, bracts, spines, prickles, ",
+      "excerpt_offset": 0,
+      "total_chars": 14560,
+      "bm25": {
+        "q1": {
+          "rank": 14,
+          "score": 32.435
+        }
+      },
+      "best_rank": 14,
+      "title_similarity": 0.3704,
+      "context_overlap": 0.026,
+      "cosine": 0.142452,
+      "rerank_logit": -7.344765,
+      "rerank_position": 26
+    },
+    {
+      "page_id": "65774612",
+      "revision_id": "1193822938",
+      "title": "List of Malpighiales of South Africa",
+      "url": "https://en.wikipedia.org/wiki/List_of_Malpighiales_of_South_Africa",
+      "excerpt": "invasive\n\nHypericum revolutum Vahl, indigenous\n\nHypericum revolutum Vahl subsp. revolutum, indigenous\n\nHypericum roeperianum G.W.Schimp. ex A.Rich. indigenous\n\nHypericum roeperianum G.W.Schimp. ex A.Rich. var. roeperianum, indigenous\n\nHypericum wilmsii R.Keller, indigenous\n\nFamily: Linaceae,\n\nGenus Hugonia:\n\nHugonia orientalis Engl. indigenous\n\nGenus Linum:\n\nLinum acuticarpum C.M.Rogers, endemic\n\nLinum adustum E.Mey. ex Planch. endemic\n\nLinum aethiopicum Thunb. endemic\n\nLinum africanum L. endemic\n\nLinum brevistylum C.M.Rogers, endemic\n\nLinum comptonii C.M.Rogers, endemic\n\nLinum esterhuyseniae C.M.Rogers, endemic\n\nLinum gracile Planch. endemic\n\nLinum heterostylum C.M.Rogers, endemic\n\nLinum pungens Planch. endemic\n\nLinum quadrifolium L. endemic\n\nLinum thesioides Bartl. endemic\n\nLinum thunbergii Eckl. & Zeyh. indigenous\n\nLinum usitatissimum L. not indigenous, cultivated, naturalised\n\nLinum villosum C.M.Rogers, endemic\n\nFamily: Malpighiaceae,\n\nGenus Acridocarpus:\n\nAcridocarpus natalitius A.Juss. indigenous\n\nAcridocarpus natalitius A.Juss. var. linearifolius Launert, indigenous\n\nAcridocarpus natalitius A.Juss. var. natalitius, indigenous\n\nGenus Sphedamnocarpus:\n\nSphedamnocarpus pruriens",
+      "excerpt_offset": 5467,
+      "total_chars": 19595,
+      "bm25": {
+        "q0": {
+          "rank": 15,
+          "score": 6.4916
+        }
+      },
+      "best_rank": 15,
+      "title_similarity": 0.1429,
+      "context_overlap": 0.0385,
+      "cosine": 0.289402,
+      "rerank_logit": -5.786121,
+      "rerank_position": 9
+    },
+    {
+      "page_id": "14644243",
+      "revision_id": "1353096857",
+      "title": "Taxonomic rank",
+      "url": "https://en.wikipedia.org/wiki/Taxonomic_rank",
+      "excerpt": "In biological taxonomy, a taxonomic rank denotes the level that of a group of organisms — either taxon or clade — occupies in a hierarchical system of classification, which is based on evolutionary relationships. Some authors prefer to use the term nomenclatural rank, contending that, according to some definitions, the ranking of organisms is more accurately described under nomenclature rather than that of taxonomy. Thus, the most inclusive taxa (or clades), such as the Eukarya and Animalia, are assigned the highest ranks of classification, whereas the least inclusive ones, such as Homo sapiens, Bufo bufo, Tyrannosaurus rex, and Vulpes vulpes, are given the lowest ranks.\n\nRanks can be either \"absolute\", in which several descriptive terms (such as species, genus, tribe, family, order, class, phylum, kingdom, and domain) are ranks themselves; or \"relative\", where ranks are designated instead by an indented taxonomy in which the level of indentation reflects the rank. This page emphasizes absolute ranks.\n\nRank-based codes (such as the Zoological Code, the Botanical Code, the Code for Cultivated Plants, the Prokaryotic Code, and the Code for Viruses) all require absolute ranks, but abs",
+      "excerpt_offset": 0,
+      "total_chars": 21568,
+      "bm25": {
+        "q1": {
+          "rank": 15,
+          "score": 32.3335
+        }
+      },
+      "best_rank": 15,
+      "title_similarity": 0.381,
+      "context_overlap": 0.0625,
+      "cosine": 0.09793,
+      "rerank_logit": -7.344722,
+      "rerank_position": 25
+    },
+    {
+      "page_id": "28342650",
+      "revision_id": "1312478213",
+      "title": "Thalamiflorae",
+      "url": "https://en.wikipedia.org/wiki/Thalamiflorae",
+      "excerpt": "ctum, Muntingia, Apeiba, Sloanea, Ablania, Gyrostemon, Christiana, Alegria, Luhea, Vatica, Espera, Wikstroemia, Berrya\n\nOrdo 28. Elaeocarpeae\n\nGenus: Elaeocarpus, Aceratium, Dicera, Friesia, Vallea, Tricuspidaria, Decadia\n\nOrdo 29. Chlenaceae\n\nGenus: Sarcolaena, Leptolaena, Schizolaena, Rhodolaena, Hugonia\n\nOrdo 30. Ternstroemiaceae\n\nTribe 1. Ternstroemieae\n\nGenus: Ternstroemia\n\nTribe 2. Freziereae\n\nGenus: Cleyera, Freziera, Eurya, Lettsomia\n\nTribe 3. Sauraujeae\n\nGenus: Saurauja, Apatelia\n\nTribe 4. Laplaceae\n\nGenus: Cochlospermum, Laplacea, Ventenatia\n\nTribe 5. Gordonieae\n\nGenus: Malachodendron, Stewartia, Gordonia\n\nOrdo 31. Camellieae\n\nGenus: Camellia\n\nOrdo 32. Olacineae\n\nGenus: Olax, Spermaxyrum, Fissilia, Heisteria, Ximenia, Pseudaleia, Pseudaleioides, Icacina\n\nOrdo 33. Aurantiaceae\n\nGenus: Atalantia, Triphasia, Limonia, Cookia, Murraya, Aglaia, Bergera, Clausena, Glycosmis, Feronia, Aegle, Citrus\n\nOrdo 34. Hypericineae\n\nSub-ordo 1. Hypericineae verae\n\nTribe 1. Vismieae\n\nGenus: Haronga, Vismia\n\nTribe 2. Hypericeae\n\nGenus: Androszemum, Hypericum, Lancretia, Ascyrum\n\nSub-ordo 2. Hypericineae anomalae\n\nGenus: Carpodontos, Eucryphia\n\nOrdo 35. Guttiferae\n\nTribe 1. Clusieae\n\nGenus: Ma",
+      "excerpt_offset": 7259,
+      "total_chars": 11190,
+      "bm25": {
+        "q0": {
+          "rank": 16,
+          "score": 5.7267
+        }
+      },
+      "best_rank": 16,
+      "title_similarity": 0.3,
+      "context_overlap": 0.0225,
+      "cosine": 0.340083,
+      "rerank_logit": -5.485682,
+      "rerank_position": 5
+    },
+    {
+      "page_id": "2794074",
+      "revision_id": "1349535246",
+      "title": "Charles Plumier",
+      "url": "https://en.wikipedia.org/wiki/Charles_Plumier",
+      "excerpt": "Charles Plumier (French:; 20 April 1646 – 20 November 1704) was a French botanist after whom the frangipani genus Plumeria is named. Plumier is considered one of the most important of the botanical explorers of his time. He made three botanizing expeditions to the West Indies, which resulted in a massive work Nova Plantarum Americanarum Genera (1703–1704) and was appointed botanist to King Louis XIV.\n\nBorn in Marseille, at the age of 16, he entered the religious order of the Minims. He devoted himself to the study of mathematics and physics, made physical instruments, and was an excellent draughtsman, painter, and turner.\n\nOn being sent to the French monastery of Trinità dei Monti at Rome, Plumier studied botany under two members of the order, and especially under Cistercian botanist, Paolo Boccone. After his return to France, he became a pupil of Joseph Pitton de Tournefort, whom he accompanied on botanical expeditions.\n\nHe also explored the coasts of Provence and Languedoc. His work began in 1689, when, by order of the government, he accompanied collector Joseph Donat Surian to the French Antilles, as Surian's illustrator and writer. They remained a year and a half. As this first",
+      "excerpt_offset": 0,
+      "total_chars": 4847,
+      "bm25": {
+        "q1": {
+          "rank": 16,
+          "score": 31.4873
+        }
+      },
+      "best_rank": 16,
+      "title_similarity": 0.2857,
+      "context_overlap": 0.0353,
+      "cosine": 0.260084,
+      "rerank_logit": -7.532302,
+      "rerank_position": 29
+    },
+    {
+      "page_id": "77807573",
+      "revision_id": "1244499615",
+      "title": "List of endemic plants of the Comoros",
+      "url": "https://en.wikipedia.org/wiki/List_of_endemic_plants_of_the_Comoros",
+      "excerpt": "ea Vatke – Comoros\n\nDicoryphe platyphylla Tul. – Mayotte\n\nTrichomanes hildebrandtii Kuhn – Anjouan and Mayotte\n\nTrichomanes kirkii Hook. – Comoros\n\nGeosiris albiflora Goldblatt & J.C.Manning – Mayotte\n\nOcotea comoriensis Kosterm. – Comoros\n\nFoetidia comorensis Labat, E.Bidault & Viscardi – Mayotte\n\nHugonia johannensis H.Perrier – Comoros\n\nDombeya polyphylla K.Schum. – Comoros\n\nGrewia comorensis Bojer – Comoros\n\nGrewia pamanziana R.Vig. – Comoros\n\nHibiscus comorensis Baill. – Mayotte\n\nNesogordonia suzannae Labat, Munzinger & O.Pascal – Mayotte\n\nSterculia comorensis Baill. – Comoros\n\nSterculia madagascariensis R.Br. – Comoros\n\nMemecylon mayottense R.D.Stone – Mayotte\n\nTrichilia humblotii Harms – Comoros\n\nTriclisia capitata (Baill.) Diels – Comoros\n\nTambourissa comorensis Lorence – Comoros\n\nTambourissa kirkii Cavaco – Comoros\n\nTambourissa moeheliensis Lorence – Comoros\n\nTambourissa paradoxa Perkins – Comoros\n\nFicus antandronarum subsp. bernardii C.C.Berg – Comoros\n\nFicus karthalensis C.C.Berg – Comoros\n\nMyrica dentulata var. comorensis (A.Chev.) J.-F.Leroy – Comoros\n\nEugenia choungiensis Byng & N.Snow – Mayotte\n\nEugenia humblotii Engl. & Brehmer – Comoros\n\nEugenia pascaliana Byng, Ber",
+      "excerpt_offset": 4570,
+      "total_chars": 10992,
+      "bm25": {
+        "q0": {
+          "rank": 17,
+          "score": 5.6349
+        }
+      },
+      "best_rank": 17,
+      "title_similarity": 0.0952,
+      "context_overlap": 0.0132,
+      "cosine": 0.222407,
+      "rerank_logit": -6.001836,
+      "rerank_position": 10
+    },
+    {
+      "page_id": "199556",
+      "revision_id": "1346370372",
+      "title": "Taxon",
+      "url": "https://en.wikipedia.org/wiki/Taxon",
+      "excerpt": "e or more populations of an organism, or organisms, as seen by taxonomists to form a biological unit; (taxon: back-formation from taxonomy; pl.: taxa). Although neither is required, a taxon, once its description has become established, is usually known by a particular name and is given a particular ranking.\n\nTaxonomists consider:\n\nwhich organisms belong to a given taxon\n\nwhich criteria are to be used for deciding inclusion. This is especially the case in context of rank-based nomenclature (Linnaean taxonomy).\n\nOnce a taxon is given a formal scientific name, its use is governed by one of the nomenclature codes that specify the correct scientific name for a particular grouping.\n\nInitial attempts at preserving human knowledge of plants and animals were presumably made in prehistoric times by hunter-gatherers, as suggested by folk taxonomies interpreted from archeological and anthropological studies. Much later, as of Aristotle's teachings, and later still — as of the published works of Magnol, Tournefort, and Carl Linnaeus, (his Systema Naturae, 10th edition (1758)), and as of the unpublished works of Bernard and Antoine Laurent de Jussieu — then did European naturalists and scientist",
+      "excerpt_offset": 36,
+      "total_chars": 5617,
+      "bm25": {
+        "q1": {
+          "rank": 17,
+          "score": 31.4314
+        }
+      },
+      "best_rank": 17,
+      "title_similarity": 0.3333,
+      "context_overlap": 0.0233,
+      "cosine": 0.121121,
+      "rerank_logit": -7.173394,
+      "rerank_position": 21
+    },
+    {
+      "page_id": "79390909",
+      "revision_id": "1341393976",
+      "title": "List of endemic plants of New Caledonia",
+      "url": "https://en.wikipedia.org/wiki/List_of_endemic_plants_of_New_Caledonia",
+      "excerpt": "aledonia\n\nLitsea triflora Guillaumin\n\nLitsea uniflora Guillaumin – north-central and southeastern New Caledonia\n\nBarringtonia integrifolia (Montrouz.) Schltr. – New Caledonia (incl. Loyalty Islands)\n\nBarringtonia longifolia Schltr. – New Caledonia (Mt. Ou-Hinna)\n\nBarringtonia neocaledonica Vieill.\n\nHugonia angustifolia (Stapf) Byng & Christenh.\n\nHugonia deplanchei (Stapf) Vieill. ex Guillaumin\n\nHugonia latifolia (Vieill.) Schltr.\n\nHugonia oreogena Schltr.\n\nHugonia papillosa Guillaumin\n\nHugonia penicillanthemum Baill\n\nHugonia racemosa (Vieill.) Schltr.\n\nHugonia viscosa (Stapf) Byng & Christenh.\n\nLindsaea francii Rosenst.\n\nLindsaea nervosa Mett.\n\nLindsaea prolongata E.Fourn.\n\nLindsaea rufa K.U.Kramer\n\nLindsaea vieillardii Mett.\n\nOdontosoria alutacea (Mett.) Perrie & L.D.Sheph.\n\nOdontosoria angustifolia (Bernh.) C.Chr.\n\nGeniostoma balansanum Baill.\n\nGeniostoma celastrineum Baill.\n\nGeniostoma densiflorum var. oleifolium (S.Moore) B.J.Conn\n\nGeniostoma erythrospermum Baill.\n\nGeniostoma glaucescens Schltr.\n\nGeniostoma imbricatum (Guillaumin) C.S.P.Foster & B.J.Conn\n\nGeniostoma mooreanum B.J.Conn – New Caledonia (Î Lifou)\n\nGeniostoma novae-caledoniae Vieill. ex Baill.\n\nGeniostoma rupestre ",
+      "excerpt_offset": 56854,
+      "total_chars": 159056,
+      "bm25": {
+        "q0": {
+          "rank": 18,
+          "score": 3.8059
+        }
+      },
+      "best_rank": 18,
+      "title_similarity": 0.1778,
+      "context_overlap": 0.0149,
+      "cosine": 0.28596,
+      "rerank_logit": -5.016982,
+      "rerank_position": 3
+    },
+    {
+      "page_id": "56276",
+      "revision_id": "1353096928",
+      "title": "Family (taxonomy)",
+      "url": "https://en.wikipedia.org/wiki/Family_(taxonomy)",
+      "excerpt": "Family (Latin: familia, pl.: familiae) is one of the eight major hierarchical taxonomic ranks in Linnaean taxonomy. It is classified between order and genus. A family may be divided into subfamilies, which are intermediate ranks between the ranks of family and genus. The official family names are Latin in origin; however, popular names are often used: for example, walnut trees and hickory trees belong to the family Juglandaceae, but that family is commonly referred to as the \"walnut family\".\n\nThe delineation of what constitutes a family—or whether a described family should be acknowledged—is established and decided upon by active taxonomists. There are not strict regulations for outlining or acknowledging a family, yet in the realm of plants, these classifications often rely on both the vegetative and reproductive characteristics of plant species. Taxonomists frequently hold varying perspectives on these descriptions, leading to a lack of widespread consensus within the scientific community for extended periods.\n\nThe naming of families is codified by various international bodies using the following suffixes:\n\nIn fungal, algal, and botanical nomenclature, the family names of plants,",
+      "excerpt_offset": 0,
+      "total_chars": 7498,
+      "bm25": {
+        "q1": {
+          "rank": 18,
+          "score": 31.2005
+        }
+      },
+      "best_rank": 18,
+      "title_similarity": 0.1538,
+      "context_overlap": 0.0385,
+      "cosine": 0.20391,
+      "rerank_logit": -7.099836,
+      "rerank_position": 17
+    }
+  ]
+}

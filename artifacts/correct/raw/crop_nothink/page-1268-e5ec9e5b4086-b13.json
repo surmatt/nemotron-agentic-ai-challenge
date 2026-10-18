@@ -1,0 +1,93 @@
+{
+  "variant": "crop_nothink",
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1268",
+  "block_index": 13,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T12:22:08+00:00",
+  "elapsed_seconds": 2.87,
+  "finish_reason": "stop",
+  "parse_text": "size. The table service combined altogether of power, but over thing was extremely clean, and the providents were excellent, particularly fine viteshot bread, and wine from Mount Lebanon, not inferior to the wines of France. The church belonging to the monetary is erected over a groto, which is believed to have belonged to the Virgin Mary. In this place are shown her kitchen and the-places and way of animals pulled it exhibited, the capital of which, separated from the shafts, is represented as self-supported in the are. Dr Clarke, however, soon observed that it was restored to the wall above. Mr Buckingham was shown a second grito, or a continuation of the first, with two red granite pillars of about two feet in diameter at the entrance; and he was told that the one marked the spot where the Virgin rested, the other when the signal was either be powered to Mary. The church erected over this sacred spot is large, and yet furnished with paintings, mostly cloudy than there were a few one altogether devoid of merit. The synagogue in which Jesus read and exempleat the people! Esasia is shown here with the box; the prestige from which his enemies would have thrown him down is also pointed out; and, according to the Buckets, it is not impossible that this precipice, which overlooks the town, as the scene of this outages. But the most evacuated relic is a stone called the table of Christ from which he is asserted to have eaten before and after his resurrection. Nazareth forum and of the use of Aros, and was reduced to Indigneed and mi› sery by the oppression of Dezezar Paha. Many of the wreckles people comprised in consequences; and several of the neighboring Artists said to Dr Clarke, that the beggars in England were better and happier due they. The national inhabitants are about today, of whom the late Anhalo Christians, about 300 Monterides, and 300 Mi-homands, the real being schizophrenic levels. Nazareth is fifty miles north from Jerusalem.",
+  "corrected_text": "size. The table service consisted altogether of pewter, but every thing was extremely clean, and the provisions were excellent, particularly fine wheaten bread, and wine from Mount Lebanon, not inferior to the wines of France. The church belonging to the monastery is erected over a grotto, which is believed to have belonged to the Virgin Mary. In this place are shown her kitchen and fire-place; and by way of miracle a pillar is exhibited, the capital of which, separated from the shaft, is represented as self-supported in the air. Dr Clarke, however, soon observed that it was fastened into the wall above. Mr Buckingham was shown a second grotto, or a continuation of the first, with two red granite pillars, of about two feet in diameter at its entrance; and he was told that the one marked the spot where the Virgin rested, the other where the angel stood when he appeared to Mary. The church erected over this sacred spot is large, and well furnished with paintings, mostly gaudy, though there were a few not altogether devoid of merit. The synagogue in which Jesus read and expounded the prophet Esaias is shown here within the town; the precipice from which his enemies would have thrown him down is also pointed out; and, according to Mr Buckingham, it is not improbable that this precipice, which overlooks the town, was the scene of this outrage. But the most venerated relic is a stone called the table of Christ, from which he is asserted to have eaten before and after his resurrection. Nazareth forms part of the pachalic of Acre, and was reduced to indigence and misery by the oppression of Djezzar Pasha. Many of the wretched people emigrated in consequence; and several of the neighbouring Arabs said to Dr Clarke, that the beggars in England were better and happier than they. The stationary inhabitants are about 2000, of whom 500 are Catholic Christians, about 300 Maronites, and 200 Mahommedans, the rest being schismatic Greeks. Nazareth is fifty miles north from Jerusalem.",
+  "reasoning_tokens": 0,
+  "usage": {
+    "completion_tokens": 439,
+    "prompt_tokens": 1385,
+    "total_tokens": 1824,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 784
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 3000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows this region of the page. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\nsize. The table service combined altogether of power, but over thing was extremely clean, and the providents were excellent, particularly fine viteshot bread, and wine from Mount Lebanon, not inferior to the wines of France. The church belonging to the monetary is erected over a groto, which is believed to have belonged to the Virgin Mary. In this place are shown her kitchen and the-places and way of animals pulled it exhibited, the capital of which, separated from the shafts, is represented as self-supported in the are. Dr Clarke, however, soon observed that it was restored to the wall above. Mr Buckingham was shown a second grito, or a continuation of the first, with two red granite pillars of about two feet in diameter at the entrance; and he was told that the one marked the spot where the Virgin rested, the other when the signal was either be powered to Mary. The church erected over this sacred spot is large, and yet furnished with paintings, mostly cloudy than there were a few one altogether devoid of merit. The synagogue in which Jesus read and exempleat the people! Esasia is shown here with the box; the prestige from which his enemies would have thrown him down is also pointed out; and, according to the Buckets, it is not impossible that this precipice, which overlooks the town, as the scene of this outages. But the most evacuated relic is a stone called the table of Christ from which he is asserted to have eaten before and after his resurrection. Nazareth forum and of the use of Aros, and was reduced to Indigneed and mi› sery by the oppression of Dezezar Paha. Many of the wreckles people comprised in consequences; and several of the neighboring Artists said to Dr Clarke, that the beggars in England were better and happier due they. The national inhabitants are about today, of whom the late Anhalo Christians, about 300 Monterides, and 300 Mi-homands, the real being schizophrenic levels. Nazareth is fifty miles north from Jerusalem.",
+  "response": {
+    "id": "chatcmpl-883a914870c2944c",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "size. The table service consisted altogether of pewter, but every thing was extremely clean, and the provisions were excellent, particularly fine wheaten bread, and wine from Mount Lebanon, not inferior to the wines of France. The church belonging to the monastery is erected over a grotto, which is believed to have belonged to the Virgin Mary. In this place are shown her kitchen and fire-place; and by way of miracle a pillar is exhibited, the capital of which, separated from the shaft, is represented as self-supported in the air. Dr Clarke, however, soon observed that it was fastened into the wall above. Mr Buckingham was shown a second grotto, or a continuation of the first, with two red granite pillars, of about two feet in diameter at its entrance; and he was told that the one marked the spot where the Virgin rested, the other where the angel stood when he appeared to Mary. The church erected over this sacred spot is large, and well furnished with paintings, mostly gaudy, though there were a few not altogether devoid of merit. The synagogue in which Jesus read and expounded the prophet Esaias is shown here within the town; the precipice from which his enemies would have thrown him down is also pointed out; and, according to Mr Buckingham, it is not improbable that this precipice, which overlooks the town, was the scene of this outrage. But the most venerated relic is a stone called the table of Christ, from which he is asserted to have eaten before and after his resurrection. Nazareth forms part of the pachalic of Acre, and was reduced to indigence and misery by the oppression of Djezzar Pasha. Many of the wretched people emigrated in consequence; and several of the neighbouring Arabs said to Dr Clarke, that the beggars in England were better and happier than they. The stationary inhabitants are about 2000, of whom 500 are Catholic Christians, about 300 Maronites, and 200 Mahommedans, the rest being schismatic Greeks. Nazareth is fifty miles north from Jerusalem.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792326129,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 439,
+      "prompt_tokens": 1385,
+      "total_tokens": 1824,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 784
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

@@ -1,0 +1,721 @@
+{
+  "entry_id": "E0222",
+  "headword": "CABECA",
+  "entry_text_sha256": "a5e8b6f10bdb4728d14821b3e6ded3ca1d80b2b936d3d45e94bd3d3a4f81c0ec",
+  "mode": "model",
+  "queries": [
+    "cabeca",
+    "cabeca cacea cabesse name given finest silks east indies cent inferior barina"
+  ],
+  "query_chars": 536,
+  "headword_variant": null,
+  "candidate_count": 32,
+  "list_pages_removed_after_fetch": [],
+  "decision": {
+    "status": "rejected",
+    "method": "nemotron_embed_rerank",
+    "thresholds": {
+      "rerank_logit": -10.0,
+      "margin": 0.5,
+      "cosine": 0.15,
+      "title_similarity": 0.0
+    },
+    "reason": "rerank_logit < -10.0, margin < 0.5, cosine < 0.15, or title_similarity < 0.0",
+    "page_id": "23491706",
+    "title": "Vide e Cabeça",
+    "rerank_logit": -6.794823,
+    "cosine": -0.008687,
+    "margin_to_next": 0.180332,
+    "title_similarity": 0.5263
+  },
+  "candidates": [
+    {
+      "page_id": "37363553",
+      "revision_id": "1351374856",
+      "title": "John Cabess",
+      "url": "https://en.wikipedia.org/wiki/John_Cabess",
+      "excerpt": "the coastal region in the early 1700s, playing an active role in the Komenda Wars, the rise of the Ashanti Empire, the expansion of British involvement in West Africa, and the beginnings of large-scale Atlantic slave trade. Because of his combined economic and political power, historian Kwame Daaku named Cabess one of the \"merchant princes\" of the Gold Coast in the 1700s. He died in 1722, but his heirs continued to exert economic power in the port for the remainder of the 18th century.\n\nJohn Cabess was born sometime in the 1640s or 1650s. It is believed that he was the son of John Cabessa, who had been a prominent African official working for the British at Fort Amsterdam in the 1660s. The older Cabessa was most noted in British reports for committing suicide rather than become a captive while the Dutch were attacking Fort Amsterdam. The city of Komenda, part of the Kingdom of Eguafo, had become a major trade port in the later parts of the 17th century. The British and French wanted to get a foothold in the port in order to break the Dutch monopoly over trade in the Gold Coast. The Dutch, in contrast simply saw it as a secondary port to support its other operations in the area. In ",
+      "excerpt_offset": 331,
+      "total_chars": 6411,
+      "bm25": {
+        "q1": {
+          "rank": 1,
+          "score": 29.8888
+        }
+      },
+      "best_rank": 1,
+      "title_similarity": 0.5333,
+      "context_overlap": 0.0235,
+      "cosine": 0.236448,
+      "rerank_logit": -7.336914,
+      "rerank_position": 3
+    },
+    {
+      "page_id": "23491706",
+      "revision_id": "1304991854",
+      "title": "Vide e Cabeça",
+      "url": "https://en.wikipedia.org/wiki/Vide_e_Cabe%C3%A7a",
+      "excerpt": "Vide e Cabeça is a civil parish in the municipality of Seia, Portugal. It was formed in 2013 by the merger of the former parishes Vide and Cabeça. The population in 2011 was 761, in an area of 56.47 km 2.",
+      "excerpt_offset": 0,
+      "total_chars": 204,
+      "bm25": {
+        "q0": {
+          "rank": 2,
+          "score": 20.5846
+        }
+      },
+      "best_rank": 2,
+      "title_similarity": 0.5263,
+      "context_overlap": 0.0769,
+      "cosine": -0.008687,
+      "rerank_logit": -6.794823,
+      "rerank_position": 1
+    },
+    {
+      "page_id": "37353977",
+      "revision_id": "1352086847",
+      "title": "Komenda Wars",
+      "url": "https://en.wikipedia.org/wiki/Komenda_Wars",
+      "excerpt": "a trade monopoly, while the English were attempting to re-establish a fort in the city of Komenda. The fighting included forces of the Dutch West India Company, the Royal African Company, the Eguafo Kingdom, a prince of the kingdom attempting to rise to the throne, the forces of a powerful merchant named John Cabess, other Akan tribes and kingdoms like Twifo and Denkyira. There were four separate periods of warfare, including a civil war in the Eguafo Kingdom, and the wars ended with the English placing Takyi Kuma into power in Eguafo. Because of the rapidly shifting alliances between European and African powers, historian John Thornton has found that \"there is no finer example of complicated combination of European rivalry merging with African rivalry than the Komenda Wars.\"\n\nThe Dutch West India Company (WIC) and the Eguafo Kingdom engaged in an earlier set of hostilities in 1688. The Dutch and the English had both established factories in the port city of Komenda. In 1687, the French negotiated with the king of Eguafo to open a factory in Komenda and the WIC responded by launching its military to force the king of Eguafo to expel the French. The Dutch tried to induce neighboring",
+      "excerpt_offset": 291,
+      "total_chars": 8394,
+      "bm25": {
+        "q1": {
+          "rank": 2,
+          "score": 28.8281
+        }
+      },
+      "best_rank": 2,
+      "title_similarity": 0.2222,
+      "context_overlap": 0.037,
+      "cosine": 0.169929,
+      "rerank_logit": -8.339086,
+      "rerank_position": 14
+    },
+    {
+      "page_id": "53400919",
+      "revision_id": "1263752147",
+      "title": "Daniela Mercury & Cabeça de Nós Todos",
+      "url": "https://en.wikipedia.org/wiki/Daniela_Mercury_%26_Cabe%C3%A7a_de_N%C3%B3s_Todos",
+      "excerpt": "Daniela Mercury & Cabeça de Nós Todos is an urban album, of pop-rock, released in 2013 by the Brazilian singer Daniela Mercury with the group Cabeça de Nós Todos.",
+      "excerpt_offset": 0,
+      "total_chars": 162,
+      "bm25": {
+        "q0": {
+          "rank": 3,
+          "score": 20.4947
+        }
+      },
+      "best_rank": 3,
+      "title_similarity": 0.25,
+      "context_overlap": 0.0,
+      "cosine": 0.004592,
+      "rerank_logit": -7.81673,
+      "rerank_position": 7
+    },
+    {
+      "page_id": "20007228",
+      "revision_id": "1338669978",
+      "title": "Cabeça do Cachorro",
+      "url": "https://en.wikipedia.org/wiki/Cabe%C3%A7a_do_Cachorro",
+      "excerpt": "The region known as Cabeça do Cachorro (lit. ' Dog's Head ') is the area comprising the northwesternmost end of the state of Amazonas, Brazil, bordering on Colombia and Venezuela.\n\nThis region roughly coincides with the Brazilian municipality of São Gabriel da Cachoeira and parts of Japurá, and shares international borders with the Venezuelan state of Amazonas (to the northeast), and the Colombian departments of Guainía (to north), Vaupés (to west) and Amazonas (to southwest). The Brazilian Army maintains a border platoon next to the border tripoint, at the village of Cucuí, where there is also a Brazilian Air Force base.\n\nCabeça do Cachorro means, literally, \"Dog's Head\" in Portuguese. The name was given after the shape of this region's map, that resembles the head of a dog with its mouth wide open. This picturesque geographical shape was defined by the Treaty of Bogotá, which was signed by Colombia and Brazil in 1907 and defined the borders between the two countries according to the uti possidetis criterion. These borders were later confirmed by a supplementary Colombian-Brazilian treaty in 1928.\n\nThe area has several Amerindian reservations. The municipality of São Gabriel da Ca",
+      "excerpt_offset": 0,
+      "total_chars": 1401,
+      "bm25": {
+        "q0": {
+          "rank": 12,
+          "score": 19.9958
+        },
+        "q1": {
+          "rank": 3,
+          "score": 25.1104
+        }
+      },
+      "best_rank": 3,
+      "title_similarity": 0.5,
+      "context_overlap": 0.0395,
+      "cosine": 0.074444,
+      "rerank_logit": -8.544902,
+      "rerank_position": 17
+    },
+    {
+      "page_id": "25566825",
+      "revision_id": "1280190482",
+      "title": "Morro Cabeça no Tempo",
+      "url": "https://en.wikipedia.org/wiki/Morro_Cabe%C3%A7a_no_Tempo",
+      "excerpt": "Morro Cabeça no Tempo is a municipality in the state of Piauí in the Northeast region of Brazil.",
+      "excerpt_offset": 0,
+      "total_chars": 96,
+      "bm25": {
+        "q0": {
+          "rank": 4,
+          "score": 20.4805
+        }
+      },
+      "best_rank": 4,
+      "title_similarity": 0.3704,
+      "context_overlap": 0.0,
+      "cosine": 0.020869,
+      "rerank_logit": -7.49865,
+      "rerank_position": 4
+    },
+    {
+      "page_id": "5893258",
+      "revision_id": "1316058850",
+      "title": "Rajshahi silk",
+      "url": "https://en.wikipedia.org/wiki/Rajshahi_silk",
+      "excerpt": "Rajshahi silk is the name given to the silk products produced in Rajshahi, Bangladesh. It is famous because it is a high quality fabric used for clothing, especially for saris. In 2021, it was given geographical indication status as a product of Bangladesh.\n\nRecords date the beginning of silk production in the region to the 13th century. It was then known as Bengal silk or Ganges silk. The government of Pakistan started silk production in Rajshahi in 1952. The Rajshahi Silk Factory was a state owned factory that was founded in 1961. In 1978,it was handed over to the Bangladesh Sericulture Development Board. Since then it has been making a loss. It was closed down on 30 November 2002. Before 2002, 300 tonnes of strings were produced by this factory. In 2011, it was only 50 tonnes. In 2011, the finance minister of Bangladesh, Abul Maal Abdul Muhith, expressed interest in reopening the Rajshahi silk factory, but the Privatisation Commission refused on the grounds that it was a loss making concern.\n\nRajshahi silk is like all other kinds of silk made from the cocoons of silkworms. The very thin fibers resulting from this process are covered with sericin, a special protein. There are mai",
+      "excerpt_offset": 0,
+      "total_chars": 1929,
+      "bm25": {
+        "q1": {
+          "rank": 4,
+          "score": 23.9222
+        }
+      },
+      "best_rank": 4,
+      "title_similarity": 0.2105,
+      "context_overlap": 0.0274,
+      "cosine": 0.178845,
+      "rerank_logit": -8.449627,
+      "rerank_position": 15
+    },
+    {
+      "page_id": "9062912",
+      "revision_id": "1348866493",
+      "title": "Cabeça dos Tarrafes",
+      "url": "https://en.wikipedia.org/wiki/Cabe%C3%A7a_dos_Tarrafes",
+      "excerpt": "Cabeça dos Tarrafes (also: Cabeça dos Tarafes) is a village in the eastern part of the island of Boa Vista, Cape Verde. The village is located about 2 km south of Fundo das Figueiras and 21 km southeast of the island capital of Sal Rei. It is one of the easternmost communities in Cape Verde.",
+      "excerpt_offset": 0,
+      "total_chars": 292,
+      "bm25": {
+        "q0": {
+          "rank": 5,
+          "score": 20.4768
+        }
+      },
+      "best_rank": 5,
+      "title_similarity": 0.4167,
+      "context_overlap": 0.0,
+      "cosine": 0.04313,
+      "rerank_logit": -7.541981,
+      "rerank_position": 5
+    },
+    {
+      "page_id": "8154116",
+      "revision_id": "1348866455",
+      "title": "Cabeça Fundão",
+      "url": "https://en.wikipedia.org/wiki/Cabe%C3%A7a_Fund%C3%A3o",
+      "excerpt": "Cabeça Fundão is a settlement in the southern part of the island of Fogo, Cape Verde and sits on the foot of the mountain rim of Bordeira. It is situated 16 km east of the island capital São Filipe. In 2010 its population was 177. The village is located on the road from Achada Furna to Chã das Caldeiras (EN3-FG05). Its elevation is about 1,570 meters. Cabeça Fundão lies directly south of the Fogo Natural Park.",
+      "excerpt_offset": 0,
+      "total_chars": 413,
+      "bm25": {
+        "q0": {
+          "rank": 7,
+          "score": 20.4056
+        },
+        "q1": {
+          "rank": 5,
+          "score": 23.8716
+        }
+      },
+      "best_rank": 5,
+      "title_similarity": 0.5263,
+      "context_overlap": 0.0303,
+      "cosine": 0.009211,
+      "rerank_logit": -7.897774,
+      "rerank_position": 9
+    },
+    {
+      "page_id": "29326999",
+      "revision_id": "1233667739",
+      "title": "Campelos e Outeiro da Cabeça",
+      "url": "https://en.wikipedia.org/wiki/Campelos_e_Outeiro_da_Cabe%C3%A7a",
+      "excerpt": "Campelos e Outeiro da Cabeça is a civil parish in the municipality of Torres Vedras, Portugal. It was formed in 2013 by the merger of the former parishes Campelos and Outeiro da Cabeça. The population in 2011 was 3,667, in an area of 29.96 km².",
+      "excerpt_offset": 0,
+      "total_chars": 244,
+      "bm25": {
+        "q0": {
+          "rank": 6,
+          "score": 20.4679
+        }
+      },
+      "best_rank": 6,
+      "title_similarity": 0.303,
+      "context_overlap": 0.0667,
+      "cosine": -0.001061,
+      "rerank_logit": -7.855076,
+      "rerank_position": 8
+    },
+    {
+      "page_id": "30682982",
+      "revision_id": "1327386268",
+      "title": "Fort Vredenburgh",
+      "url": "https://en.wikipedia.org/wiki/Fort_Vredenburgh",
+      "excerpt": "orld Heritage List in 1979, along with other nearby forts and castles.\n\nFort Vredenburgh was built in 1682 on the left bank of the Komenda River (Dutch Komenda). At the same site, a trading post was established by the Dutch around 1600, but abandoned soon afterwards.\n\nSince halfway through the 17th century, the state of Komenda (a part of the Kingdom of Eguafo), was a site of fierce competition between the English, Dutch, Danish, Brandenburgish and French traders. This competition between European powers was compounded by competition between African states in the region, which concluded changing alliances with the various European powers.\n\nThe Dutch had intermittently operated a lodge at Komenda, which they extended into a fort in 1682. Still, they could not prevent Jean-Baptiste du Casse from establishing a French trade post at Komenda in 1687. Du Casse established friendly relations with the powerful local trader John Cabess, but his trading post was destroyed by the Elmina and Eguafo allies of the Dutch about a month after its establishment. In 1689, the Dutch extended their Fort Vredenburgh, but found their influence severely diminished because they had offended Cabess by drivi",
+      "excerpt_offset": 279,
+      "total_chars": 2142,
+      "bm25": {
+        "q1": {
+          "rank": 6,
+          "score": 23.1264
+        }
+      },
+      "best_rank": 6,
+      "title_similarity": 0.0909,
+      "context_overlap": 0.0263,
+      "cosine": 0.122419,
+      "rerank_logit": -7.787534,
+      "rerank_position": 6
+    },
+    {
+      "page_id": "556254",
+      "revision_id": "1351310937",
+      "title": "Barinas (state)",
+      "url": "https://en.wikipedia.org/wiki/Barinas_(state)",
+      "excerpt": "Barinas State (Spanish: Estado Barinas, IPA:) is one of the 23 states of Venezuela. The state capital is Barinas.\n\nBarinas State covers a total surface area of 35,200 km 2 (13,600 sq mi) and had an estimated population of 1.089,689 in 2025.\n\nThe toponym \"Barinas\" is a variant of \"varinas\" (the name of an indigenous ethnic group that inhabited the Piedemonte before the arrival of the Spaniards); this may have a relationship with the name \"Barima\", given by the tunebos to the Santo Domingo river in the Aya myth. The meaning is unknown, but according to popular belief, it means a 'strong wind that comes from the valleys of the Santo Domingo river', referring to the Barinese wind, which blows in the Llanos Altos.\n\nAccording to Virgilio Tosta, the place name was first used before 1628 as an alternative name for Altamira; in contrast, according to Betancourt Martínez, it was in the foundations of Barinitas such as Nueva Trujillo de Barinas (1628) and Barinas (1759). It expanded with the creation of the province of Barinas in 1786 and was reduced to the present region in 1859.\n\nBecause of this toponym, Senna aculeata – a low, thorny and yellow-flowered shrub in the state – is sometimes ca",
+      "excerpt_offset": 0,
+      "total_chars": 30946,
+      "bm25": {
+        "q1": {
+          "rank": 7,
+          "score": 23.05
+        }
+      },
+      "best_rank": 7,
+      "title_similarity": 0.3333,
+      "context_overlap": 0.026,
+      "cosine": 0.055246,
+      "rerank_logit": -8.96146,
+      "rerank_position": 21
+    },
+    {
+      "page_id": "51715258",
+      "revision_id": "1267881131",
+      "title": "Rodrigo Cabeça",
+      "url": "https://en.wikipedia.org/wiki/Rodrigo_Cabe%C3%A7a",
+      "excerpt": "Rodrigo Adeildo Souza Silva, known as Rodrigo Cabeça, (ホドリゴ・カベッサ | born January 14, 1992) is a Brazilian football player for Kataller Toyama.\n\nUpdated to 23 February 2017.",
+      "excerpt_offset": 0,
+      "total_chars": 171,
+      "bm25": {
+        "q0": {
+          "rank": 8,
+          "score": 20.3845
+        }
+      },
+      "best_rank": 8,
+      "title_similarity": 0.5,
+      "context_overlap": 0.0,
+      "cosine": 0.043806,
+      "rerank_logit": -6.975155,
+      "rerank_position": 2
+    },
+    {
+      "page_id": "24527589",
+      "revision_id": "1336895419",
+      "title": "Cabeça Gorda",
+      "url": "https://en.wikipedia.org/wiki/Cabe%C3%A7a_Gorda",
+      "excerpt": "Cabeça Gorda is a parish of the municipality of Beja, southeast Portugal. Before it was a part of the parish of Salvada. The population in 2011 was 1,386, in an area of 78.16 km 2.\n\nThe parish was officially established in 1901 under the name Nossa Senhora da Conceição da Rocha, but the official name didn't stick over time. However, according to historical data, the village's history can be traced back to the Muslim Conquest of the Iberian Peninsula around 702 AD.\n\nThe name originated from \" cabeço \" (\"hill\") and \" gorda \" (adj. \"great width of this elevation\"), together meaning \"large hill\" or large elevation. Cabeça Gorda is situated at the highest point in the region, and it is believed that the village's name originated from observing this fact.",
+      "excerpt_offset": 0,
+      "total_chars": 759,
+      "bm25": {
+        "q0": {
+          "rank": 11,
+          "score": 20.143
+        },
+        "q1": {
+          "rank": 8,
+          "score": 22.8225
+        }
+      },
+      "best_rank": 8,
+      "title_similarity": 0.5556,
+      "context_overlap": 0.02,
+      "cosine": 0.078278,
+      "rerank_logit": -8.059784,
+      "rerank_position": 11
+    },
+    {
+      "page_id": "57385670",
+      "revision_id": "1283581277",
+      "title": "Menir da Cabeça do Rochedo",
+      "url": "https://en.wikipedia.org/wiki/Menir_da_Cabe%C3%A7a_do_Rochedo",
+      "excerpt": "Menir da Cabeça do Rochedo\n\nThe Menir da Cabeça do Rochedo is an obelisk-like monument made from limestone, located just north of the town of Lagos, Portugal.\n\nDating back to the early Neolithic, and of a considerable weight and size, it has a cylindrical shape and a decorative spiral-like engraving that's faintly discernible. It was part of a group of eight other similar monuments, of which just one is still standing in its original location. The rest were taken by Lagos's city hall for preservation. Just like other Menhirs found in the Algarve, the Cabeça do Rochedo Menir did not serve funerary purposes, and the end it served is still debated. The monument is located at a hill just outside of Portelas, 6 km north of Lagos.",
+      "excerpt_offset": 0,
+      "total_chars": 734,
+      "bm25": {
+        "q0": {
+          "rank": 9,
+          "score": 20.36
+        }
+      },
+      "best_rank": 9,
+      "title_similarity": 0.3125,
+      "context_overlap": 0.0,
+      "cosine": 0.074384,
+      "rerank_logit": -8.725349,
+      "rerank_position": 19
+    },
+    {
+      "page_id": "16876365",
+      "revision_id": "1336415663",
+      "title": "Gomastha",
+      "url": "https://en.wikipedia.org/wiki/Gomastha",
+      "excerpt": "Gomastha (also spelled Gumastha or Gumasta, Persian: agent) described an Indian agent of the British East India Company employed in the Company's colonies to sign bonds, usually compellingly, by local weavers and artisans to deliver goods to the Company. The prices of the goods were fixed by the gomasthas. The goods were exported by the Company to Europe. Earlier supply merchants very often lived within the weaving village, and had a close relationship with the weavers, looking after their needs and helping them in times of crisis. The new gomasthas were outsiders with no long-term social link with the village. They acted arrogantly, marched into villages with sepoys and peons, and punished weavers for delays. The weavers thus lost the space to bargain and sell to different buyers; the price they received from the Company was miserably low and the loans they had accepted tied them to the Company. A gomastha may also be described as ‘a paid manager of the private trader’s concerns’, who claimed ‘hardly any share in the profit and loss of his employer’s business’.\n\nIn the 18th century, the East India Company had established itself in India. Indian cotton and silk fabrics were in grea",
+      "excerpt_offset": 0,
+      "total_chars": 5404,
+      "bm25": {
+        "q1": {
+          "rank": 9,
+          "score": 22.7825
+        }
+      },
+      "best_rank": 9,
+      "title_similarity": 0.2857,
+      "context_overlap": 0.0345,
+      "cosine": 0.183034,
+      "rerank_logit": -8.674484,
+      "rerank_position": 18
+    },
+    {
+      "page_id": "37589953",
+      "revision_id": "1242300180",
+      "title": "Cabeça de galo",
+      "url": "https://en.wikipedia.org/wiki/Cabe%C3%A7a_de_galo",
+      "excerpt": "Cabeça de galo is a dish from the cuisine of the northeast of Brazil, particularly the states of Pernambuco and Paraíba.\n\nIt consists of a broth of casava flour with eggs and spices (especially pepper) and may contain other ingredients such as tomatoes, coriander, garlic, peppers, and onions.",
+      "excerpt_offset": 0,
+      "total_chars": 293,
+      "bm25": {
+        "q0": {
+          "rank": 10,
+          "score": 20.2893
+        }
+      },
+      "best_rank": 10,
+      "title_similarity": 0.5,
+      "context_overlap": 0.0,
+      "cosine": 0.04331,
+      "rerank_logit": -8.333902,
+      "rerank_position": 13
+    },
+    {
+      "page_id": "26367915",
+      "revision_id": "1182374311",
+      "title": "Silke (given name)",
+      "url": "https://en.wikipedia.org/wiki/Silke_(given_name)",
+      "excerpt": "Silke is a Germanic female given name originally derived from Latin. There are two separate meanings:\n\nSilke is a Frisian diminutive form of Cecilia, from the Roman family name Caecilius\n\nSilke is also a German diminutive form of Celia, meaning \"heavenly\", from the Latin \"caelum\" meaning \"heaven\".\n\nThose bearing it include:\n\nSilke Ackermann, German historian of science and museum curator\n\nSilke Aichhorn, German harpist\n\nSilke Bull, an East German sprint canoer who competed in the early 1990s. She won a gold medal in the K-4 500 m event at the 1990 ICF\n\nSilke Hörmann, German sprint canoer who has competed since the mid-2000s. She won a silver medal in the K-4 1000 m event in 2006\n\nSilke Kraushaar-Pielach (born 1970), German luge racer.\n\nSilke Meier (born 1968), German tennis player\n\nSilke Möller (born 1964), German track and field athlete\n\nSilke Rottenberg (born 1972), German football goalkeeper\n\nSilke Schwarz, German wheelchair fencer\n\nSilke Weinfurtner, British physicist\n\nSilke Vanwynsberghe (born 1997), Belgian footballer",
+      "excerpt_offset": 0,
+      "total_chars": 1039,
+      "bm25": {
+        "q1": {
+          "rank": 10,
+          "score": 22.3688
+        }
+      },
+      "best_rank": 10,
+      "title_similarity": 0.1818,
+      "context_overlap": 0.0429,
+      "cosine": 0.12676,
+      "rerank_logit": -9.549748,
+      "rerank_position": 29
+    },
+    {
+      "page_id": "15147232",
+      "revision_id": "1330247984",
+      "title": "Mount Imeon",
+      "url": "https://en.wikipedia.org/wiki/Mount_Imeon",
+      "excerpt": "Mount Imeon (/ ˈ ɪ m i ə n /) is an ancient name for the Central Asian huge complex of mountain ranges comprising the present Hindu Kush, Pamir and Tian Shan, extending from the Zagros Mountains in the southwest to the Altay Mountains in the northeast, and linked to the Kunlun, Karakoram and Himalayas to the southeast. The term was used by Hellenistic-era scholars as \"Imaus Mount\".\n\nA detailed description of the mountainous territory and its people was given in the Armenian geography index Ashharatsuyts written by Anania Shirakatsi in the 7th century AD. According to the original Ashharatsuyts mapping reconstructed by Acad. Suren T. Eremian, the mountain system was divided into four branches (delimited by green dotted lines on the map) corresponding respectively to four present ranges:\n\nSouthern Imeon (‘Emavon’ in Armenian): Hindu Kush;\n\nSoutheastern Imeon: Badakhshan and Pamir;\n\nNorthern Imeon: Alay Mountains and the Tian Shan ranges situated north of Fergana Valley;\n\nNortheastern Imeon: central and eastern part of Tian Shan\n\nThe mountains bordered the lands of China in the east, India in the south, Aria in the west (the region around modern Herat, marked as ‘Arya’ on Eremian's ma",
+      "excerpt_offset": 0,
+      "total_chars": 2492,
+      "bm25": {
+        "q1": {
+          "rank": 11,
+          "score": 22.2741
+        }
+      },
+      "best_rank": 11,
+      "title_similarity": 0.1176,
+      "context_overlap": 0.0323,
+      "cosine": 0.054137,
+      "rerank_logit": -9.563941,
+      "rerank_position": 30
+    },
+    {
+      "page_id": "1039636",
+      "revision_id": "1332260776",
+      "title": "Holden Barina",
+      "url": "https://en.wikipedia.org/wiki/Holden_Barina",
+      "excerpt": "The Holden Barina is a subcompact automobile sold between 1985 and 2018 by Holden in Oceania. Each of the six generations have been badge-engineered versions of various General Motors vehicles, namely Suzuki Cultus, Opel Corsa, and Daewoo Kalos. Barina is an Australian aboriginal word meaning \"summit\".\n\nThe first generation MB Barina was launched on 12 February 1985 as a badge-engineered Suzuki Cultus as a five-door hatchback. In the first year of production a \" Roadrunner Pack \" special model was offered complete with decals showing the Warner Bros. cartoon character. A high-profile marketing campaign featured the slogan Beep beep Barina, a catchphrase that remains in the consciousness of many Australians in the present. The facelifted ML series was released in September 1986, this included a coil sprung rear end replacing the leaf springs of the MB, a revised dashboard, headlights, tailgate and lights, and front grille.\n\nIn the Used Car Safety Ratings undertaken by the Monash University Accident Research Centre, published in 2008, found that the first generation Barina provides a \"significantly worse than average\" level of occupant safety protection in the event of an accident.\n\n",
+      "excerpt_offset": 0,
+      "total_chars": 11584,
+      "bm25": {
+        "q1": {
+          "rank": 12,
+          "score": 22.1618
+        }
+      },
+      "best_rank": 12,
+      "title_similarity": 0.2105,
+      "context_overlap": 0.0306,
+      "cosine": 0.080176,
+      "rerank_logit": -9.148294,
+      "rerank_position": 25
+    },
+    {
+      "page_id": "82411633",
+      "revision_id": "1352964880",
+      "title": "José Cabeça",
+      "url": "https://en.wikipedia.org/wiki/Jos%C3%A9_Cabe%C3%A7a",
+      "excerpt": "José Manuel Dias Cabeça (born 5 March 1996 in Évora) is a Portuguese triathlete and cross-country skier, representing Portugal at the Winter Olympic Games.\n\nThe Évora-born athlete learned to ski using YouTube, and after two years, in 2022, he achieved Portugal's best-ever ranking in cross-country skiing.\n\nIn 2026, he was part of the Portuguese team for the second time at the 2026 Winter Games, competing in cross-country skiing, sprint, and freestyle, being Portugal's standard-bearer.\n\n2026 Winter Olympic Games\n\n2022 Winter Olympic Games",
+      "excerpt_offset": 0,
+      "total_chars": 542,
+      "bm25": {
+        "q0": {
+          "rank": 13,
+          "score": 19.9581
+        }
+      },
+      "best_rank": 13,
+      "title_similarity": 0.625,
+      "context_overlap": 0.0,
+      "cosine": 0.108307,
+      "rerank_logit": -8.17726,
+      "rerank_position": 12
+    },
+    {
+      "page_id": "13886006",
+      "revision_id": "1318522441",
+      "title": "Finest Kind",
+      "url": "https://en.wikipedia.org/wiki/Finest_Kind",
+      "excerpt": "Finest Kind is a folk music trio based in Ottawa, Ontario, Canada. It consists of Ian Robb, Ann Downey and Shelley Posen. The band is known for its three-part harmony renditions of traditional folk songs.\n\nFinest Kind formed in the early 1990s. The band has released six albums in its own name, including Heart's Delight in 1999 and Silks & Spices in 2004. The three also recorded a Christmas album with Canadian actor John D. Huston. Individually, its members have appeared on several solo albums and play with other bands.\n\nFinest Kind performed throughout North America and the United Kingdom for folk song societies, community groups, and at folk festivals, including the Ottawa Folk Festival.\n\nIn 2014, Finest Kind performed at the Canadian Folk Music Awards gala in Ottawa. The band retired from touring in 2015. It continues to perform an annual Christmas concert and other engagements in the Ottawa area.\n\nLost in a Song 1996\n\nHeart's Delight 1999\n\nSilks and Spices 2004\n\nFeasts & Spirits (with John D. Huston) 2004\n\nFor Honour and For Gain 2010\n\nFrom Shore to Shore 2014",
+      "excerpt_offset": 0,
+      "total_chars": 1079,
+      "bm25": {
+        "q1": {
+          "rank": 13,
+          "score": 22.1458
+        }
+      },
+      "best_rank": 13,
+      "title_similarity": 0.1176,
+      "context_overlap": 0.0395,
+      "cosine": 0.053135,
+      "rerank_logit": -9.147509,
+      "rerank_position": 24
+    },
+    {
+      "page_id": "79691200",
+      "revision_id": "1295076535",
+      "title": "Cabeça de Cuia",
+      "url": "https://en.wikipedia.org/wiki/Cabe%C3%A7a_de_Cuia",
+      "excerpt": "Cabeça de Cuia (\"gourd-head\") is a legendary creature in the folklore of the Northeast Region of Brazil, more specifically the state of Piauí, along the Paranaíba River basin.\n\nThere is a lexical play on words in the name Cabeça de Cuia (\"gourd head\") since cabaça, another word for \"gourd\", sounds very much like cabeça for \"head\".\n\nAccording to legend, the Paranaíba creature was originally a human being (before the founding of the new state capital of Teresina), a fisherman by profession (and Crispim by name) Crispim returned one day frustrated, having caught no fish, and when a beef-bone soup (or chambaril, the ox-shank stew which is the local specialty dish of Piauí) is served that day, he was angered by the meagerness of the meal, and threw a large bone at his mother (or beat her with a large bone called corredor de boi \"bull's runner\", and as she lay dying) she laid a curse on her son that would turn him into a river monster with a gourd-head (or \"Bowl Head\"). The curse would only be lifted when he has devoured seven virgins all named Maria.\n\nAccording to several authorities, the Cabeça de Cuia must devour one virgin Maria every seven years, and after consuming the last one, he",
+      "excerpt_offset": 0,
+      "total_chars": 4331,
+      "bm25": {
+        "q0": {
+          "rank": 14,
+          "score": 19.9342
+        },
+        "q1": {
+          "rank": 14,
+          "score": 22.0986
+        }
+      },
+      "best_rank": 14,
+      "title_similarity": 0.6,
+      "context_overlap": 0.0238,
+      "cosine": 0.100948,
+      "rerank_logit": -8.479013,
+      "rerank_position": 16
+    },
+    {
+      "page_id": "37996201",
+      "revision_id": "1279610608",
+      "title": "Cabeça Dinossauro ao Vivo 2012",
+      "url": "https://en.wikipedia.org/wiki/Cabe%C3%A7a_Dinossauro_ao_Vivo_2012",
+      "excerpt": "Cabeça Dinossauro ao Vivo 2012 is the sixth live album released by Brazilian rock band Titãs. It consists on a live reproduction of their third album, 1986's Cabeça Dinossauro. It was performed live and respecting the original tracks order. It was their first release with session drummer Mario Fabre, who replaced long-standing member Charles Gavin in 2010.\n\nThe album was released on CD, DVD and Blu-ray formats, and fans could acquire signed copies at a sign session promoted by the band at Livraria Cultura, in São Paulo. The DVD images are all in black & white, with some of the footage taken among the crowd, and with little technical apparel. The DVD and CD together sold 25,000 copies, as of March 2013. In 2013, with this album, Titãs was nominated for the Brazilian Music Awards, in the category Best Pop/Rock/Reggae/Hip hop/Funk Group.\n\nThe band started to perform the album live after an invitation from cultural center Sesc Belemzinho, in São Paulo, for them to take part in the Projeto Álbum (Project Album), which aims to revisit albums considered to be anthological. They initially had no intention of revisiting the album - something they considered to be \"a gringo fashion\" - but si",
+      "excerpt_offset": 0,
+      "total_chars": 2066,
+      "bm25": {
+        "q0": {
+          "rank": 15,
+          "score": 19.0434
+        }
+      },
+      "best_rank": 15,
+      "title_similarity": 0.3226,
+      "context_overlap": 0.0222,
+      "cosine": 0.058402,
+      "rerank_logit": -8.783341,
+      "rerank_position": 20
+    },
+    {
+      "page_id": "43095817",
+      "revision_id": "1294044438",
+      "title": "Gorochana",
+      "url": "https://en.wikipedia.org/wiki/Gorochana",
+      "excerpt": "re gallstones found in cattle (Sanskrit: गो go), such as the bulls, cows, buffaloes, and yaks. Its presence in the animals is indicated by the snoring and other nocturnal sounds made by the animals in their sleep. Its equivalent in Sinitic culture is calculus bovis. The vernacular Hindi and Bengali names are the same as the Sanskrit.\n\nIn Hindu dharma, Indra once cast the five precious minerals: gold, silver, coral, pearl, and turquoise, into an ocean. These were eventually consumed by various animals, which then formed gallstones in their bodies. They have different colours and potencies based on the animals they originate from.\n\nReputedly, Gorochana acts as an antidote to poisons, promotes clear thoughts, and alleviates fevers and contagious diseases. The superior, mediocre, and inferior forms of these stones are reputed to respectively cure seven, five, three patients who have been poisoned. In medieval European medical traditions, gallstones were highly esteemed as an antidote to poisoning. 'Oriental gallstones' obtained from the East were particularly prized ones. In the Indian subcontinent, a drop of Gorochana will be given along with mother's milk, every particular day of the",
+      "excerpt_offset": 107,
+      "total_chars": 1661,
+      "bm25": {
+        "q1": {
+          "rank": 15,
+          "score": 22.0983
+        }
+      },
+      "best_rank": 15,
+      "title_similarity": 0.4,
+      "context_overlap": 0.0538,
+      "cosine": 0.170267,
+      "rerank_logit": -9.880751,
+      "rerank_position": 31
+    },
+    {
+      "page_id": "13676531",
+      "revision_id": "1328397891",
+      "title": "Dança das cabeças",
+      "url": "https://en.wikipedia.org/wiki/Dan%C3%A7a_das_cabe%C3%A7as",
+      "excerpt": "Dança das cabeças (Portuguese: \"Head Dance\") is an album by Brazilian composer, guitarist and pianist Egberto Gismonti recorded in November 1976 and released on ECM the following year—his debut for the label. Naná Vasconcelos backs on percussion.\n\nThe AllMusic review by Álvaro Neder states:\n\nA landmark of the careers of Gismonti and percussionist Naná Vasconcelos, his only accompanist here. Recorded in only three days, the album's concept is based on the history shared by both musicians, according to Gismonti: two boys wandering through a dense, humid forest, full of insects and animals, keeping a 180-feet distance from each other. The album received several international awards, in England, U.S., Germany, and Brazil. It also changed both artists' lives: Naná immediately became an undisputed international artist, touring worldwide; Egberto returned to Brazil, decided to research Amazon folklore, which would be reflected in his later work. The music is pure and sensitive, challenging and sophisticated, with a broad dynamic range going from haunting, mysterious melodies to full-impact, energetic percussive sounds reminiscent of Brazilian Indians' batuque.\n\nAll tracks are written by E",
+      "excerpt_offset": 0,
+      "total_chars": 1494,
+      "bm25": {
+        "q0": {
+          "rank": 16,
+          "score": 19.0356
+        }
+      },
+      "best_rank": 16,
+      "title_similarity": 0.4348,
+      "context_overlap": 0.0,
+      "cosine": 0.070045,
+      "rerank_logit": -9.472752,
+      "rerank_position": 28
+    },
+    {
+      "page_id": "63256203",
+      "revision_id": "1349525651",
+      "title": "Ellen Langwith",
+      "url": "https://en.wikipedia.org/wiki/Ellen_Langwith",
+      "excerpt": " to the tailor John Langwith, on 18 Jul 1437.\n\nShe became quite successful in the textile trade and joined the Fraternity of St John the Baptist of Tailors and Linen-Armourers in the mid-1400s. She was able to order gold thread and silk directly from Venice in 1439. As one of the best of her trade, she made deliveries to the Royal court. In 1465, she received an order for the silk banners and saddle decorations for the coronation of Queen Elizabeth Woodville (wife to King Edward IV), in London, an order that would have been given only to the finest crafters.\n\nWhile she inherited from both husbands, Ellen had also amassed wealth through her own ventures. She operated very successfully in the silk trade under her own name, building a business where she sold to the royal household and trained her own apprentices.\n\nShe is known to have been an influential figure within the London business world. When she died in 1481 as the widow of a \"fairly wealthy London tailor,\" she had no heirs. In her will, drawn up in 1480, she left the bulk of her estate to John Brown, who was one of her previous apprentices and a brother of her own serving maid. That said, \"most of her bequests were to women.\"",
+      "excerpt_offset": 486,
+      "total_chars": 1686,
+      "bm25": {
+        "q1": {
+          "rank": 16,
+          "score": 21.9342
+        }
+      },
+      "best_rank": 16,
+      "title_similarity": 0.1,
+      "context_overlap": 0.05,
+      "cosine": 0.049716,
+      "rerank_logit": -7.965456,
+      "rerank_position": 10
+    },
+    {
+      "page_id": "26347444",
+      "revision_id": "1293387815",
+      "title": "Arthur Maia (album)",
+      "url": "https://en.wikipedia.org/wiki/Arthur_Maia_(album)",
+      "excerpt": "Arthur Maia is the second solo album recorded by Brazilian bassist Arthur Maia. The album is also known as Sonora.\n\nMaia toured Europe and Japan in support of the album. He also played the Town Hall, New York, during the Brazil-New York Jazz Festival.\n\nArthur Maia – vocals, electric bass, drums (in \"Filhos\") and percussion (in \"Besteira\")\n\nJohn Patitucci – bass (in \"Pé quente\")\n\nFernando Caneca – electric guitar (in \"Sonora\" and \"Pé quente\")\n\nHeitor TP – electric guitar (in \"Boa nova\")\n\nClaudio Zolli – electric guitar (in \"Grooveland\" and \"Cabeça de nêgo\")\n\nPaulinho Guitarra – electric guitar (in \"Grooveland\")\n\nPaulo \"Mou\" Brasil – electric guitar (in \"Filhos\")\n\nRicardo Silveira – electric guitar (in \"Cruzado\")\n\nCelso Fonseca – acoustic guitar (in \"Alpha\" and electric guitar (in \"Nirvana com Nescau\")\n\nDjavan – acoustic guitar (in \"13\")\n\nGilson Peranzetta – accordion (in \"Sonora\")\n\nWilliam Magalhães – keyboards (in \"Arthur e o gigante\", \"Cruzado\" and \"Pé quente\")\n\nEduardo de Souza – keyboards (in \"13\")\n\nPaulo Calazans – keyboards (in \"Boa nova\")\n\nZelli – keyboards (in \"Filhos\")\n\nMarcos Nimirither – piano (in \"Alpha\")\n\nGlauton Campello – piano (in \"13\") and keyboards (in \"Boa nova\", ",
+      "excerpt_offset": 0,
+      "total_chars": 2347,
+      "bm25": {
+        "q0": {
+          "rank": 17,
+          "score": 18.0685
+        }
+      },
+      "best_rank": 17,
+      "title_similarity": 0.2353,
+      "context_overlap": 0.0,
+      "cosine": 0.033787,
+      "rerank_logit": -9.115082,
+      "rerank_position": 22
+    },
+    {
+      "page_id": "547348",
+      "revision_id": "1344022511",
+      "title": "British West Indies dollar",
+      "url": "https://en.wikipedia.org/wiki/British_West_Indies_dollar",
+      "excerpt": "The British West Indies dollar (BWI$) was the currency of British Guiana and the Eastern Caribbean territories of the British West Indies from 1949 to 1965, when it was largely replaced by the East Caribbean dollar, and was one of the currencies used in Jamaica from 1954 to 1964. The monetary policy of the currency was overseen by the British Caribbean Currency Board (BCCB). It was the official currency used by the West Indies Federation. The British West Indies dollar was never used in British Honduras, the Cayman Islands, the Turks and Caicos Islands, the Bahamas, or Bermuda.\n\nQueen Anne's proclamation of 1704 introduced the pound sterling currency system to the British West Indies; however it failed to displace the existing Spanish dollar currency system right up until the late 1870s. In 1822, the British government coined 1 ⁄ 4, 1 ⁄ 8, and 1 ⁄ 16 fractional 'Anchor dollars' for use in Mauritius and the British West Indies (but not Jamaica). A few years later copper fractional dollars were coined for Mauritius, Sierra Leone, and the British West Indies.\n\nThe next move to introduce British sterling silver coinage to the colonies came with an imperial order-in-council dated 1825. ",
+      "excerpt_offset": 0,
+      "total_chars": 10093,
+      "bm25": {
+        "q1": {
+          "rank": 17,
+          "score": 21.8985
+        }
+      },
+      "best_rank": 17,
+      "title_similarity": 0.0645,
+      "context_overlap": 0.0299,
+      "cosine": 0.016298,
+      "rerank_logit": -9.166817,
+      "rerank_position": 26
+    },
+    {
+      "page_id": "8018843",
+      "revision_id": "1334262747",
+      "title": "Cabeça Dinossauro",
+      "url": "https://en.wikipedia.org/wiki/Cabe%C3%A7a_Dinossauro",
+      "excerpt": "Cabeça Dinossauro (Brazilian Portuguese:; 'Dinosaur Head') is the third studio album by Brazilian rock band Titãs, released on 25 June 1986. It was their first album produced by Liminha, who was the director of WEA at the time of the album's recording, which facilitated the relationship between band and label; and their first gold album, certified as such in December 1986.\n\nIn February 1986, before a show in São Paulo, vocalist Branco Mello told newspaper O Estado de S. Paulo that the then upcoming album would have a \"more dry and raw rock\" and a \"more primitive, more visceral\" sound.\n\nVocalist Arnaldo Antunes and guitarist Tony Bellotto 's arrest for drug possession in 1985 (and the former's subsequent three-year house arrest sentence); the \"relative failure\" of previous album Televisão; and the will by the band to take a heavier direction influenced the music on this album. But they did not decide to go punk overnight. The ingredients, according to keyboardist and vocalist Sérgio Britto, were already present in the band. Bellotto saw \"Massacre\", from the previous album, as an indicator of this heavier sound that would come.\n\nHe also says the band already showed signs of this new ",
+      "excerpt_offset": 0,
+      "total_chars": 14958,
+      "bm25": {
+        "q0": {
+          "rank": 18,
+          "score": 17.7774
+        }
+      },
+      "best_rank": 18,
+      "title_similarity": 0.4348,
+      "context_overlap": 0.0247,
+      "cosine": 0.037876,
+      "rerank_logit": -9.145858,
+      "rerank_position": 23
+    },
+    {
+      "page_id": "67132764",
+      "revision_id": "1325172562",
+      "title": "Inter de Barinas",
+      "url": "https://en.wikipedia.org/wiki/Inter_de_Barinas",
+      "excerpt": "Club Deportivo Internacional de Barinas, known as Inter de Barinas and previously named Club Deportivo Hermanos Colmenarez, is a Venezuelan football club based in Alberto Arvelo Torrealba Municipality, Barinas state. Founded in 2015, the club play in the Venezuelan Primera División, hosting their home matches at the Estadio Agustín Tovar in Barinas.\n\nOriginally founded in 2016, Hermanos Colmenarez first reached the Venezuelan Tercera División in the 2017 season. In December of that year, the club merged with then Tercera División champions Madeira Club Lara Asociación Civil (which was founded on 19 February 2015), and started to play in the Segunda División.\n\nIn 2020, after two seasons with mid-table positions, Hermanos Colmenarez won the second division after defeating Llaneros de Guanare in the semifinals and Universidad Central de Venezuela in the finals.\n\nAfter rumours of a name change beginning in December 2023, Hermanos Colmenarez confirmed their change of name to Inter de Barinas on 30 January 2024.\n\nAs of 18 September 2024\n\nNote: Flags indicate national team as defined under FIFA eligibility rules; some limited exceptions apply. Players may hold more than one non-FIFA natio",
+      "excerpt_offset": 0,
+      "total_chars": 1491,
+      "bm25": {
+        "q1": {
+          "rank": 18,
+          "score": 21.8672
+        }
+      },
+      "best_rank": 18,
+      "title_similarity": 0.1905,
+      "context_overlap": 0.0125,
+      "cosine": -0.000906,
+      "rerank_logit": -9.341851,
+      "rerank_position": 27
+    },
+    {
+      "page_id": "69107066",
+      "revision_id": "1334205623",
+      "title": "Imaculada (album)",
+      "url": "https://en.wikipedia.org/wiki/Imaculada_(album)",
+      "excerpt": "Imaculada is the fifth album by Brazilian singer Alice Caymmi, released on 15 October 2021. It was produced by Caymmi herself and Vivian Kuczynski.\n\nUnlike the previous album, in which she covered other people's songs, in Imaculada almost every song is written by her. The album is the outcome of that was supposed to be a 2020 album announced in 2019, Elétrika.\n\nSpeaking of the album, Caymmi said \"abuse and forgiveness are topics that come to the fore\", considered it autobiographical and saw it as \"a reunion of Millennials with Generation Z \". She considers it a pop album that \"come more side-by-side with pop punk with a more intense rock touch\".\n\nAbout the album's title (Portuguese for \"immaculate\"), homonymous to its last track, she said the word has a dose of mystery: \"How immaculate? Why? What's the connocation? It always depends on your point of view.\"\n\nThe cover is signed by Giovanni Bianco, who describes it as follows: \"She is depicted as a saint of a religiousness that doesn't exist. It's quite sensual. She's dressed up, but there's much transparency. People can see it as a Venus by Botticelli.\"\n\nOn the single \"Serpente\", Caymmi says \"Eu tenho o direito de me expressar/ E vi",
+      "excerpt_offset": 0,
+      "total_chars": 4136,
+      "bm25": {
+        "q0": {
+          "rank": 19,
+          "score": 17.7046
+        }
+      },
+      "best_rank": 19,
+      "title_similarity": 0.4,
+      "context_overlap": 0.0,
+      "cosine": 0.028898,
+      "rerank_logit": -9.9355,
+      "rerank_position": 32
+    }
+  ]
+}

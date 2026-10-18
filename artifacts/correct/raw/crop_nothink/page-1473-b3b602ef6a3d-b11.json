@@ -1,0 +1,93 @@
+{
+  "variant": "crop_nothink",
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1473",
+  "block_index": 11,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T12:22:45+00:00",
+  "elapsed_seconds": 1.52,
+  "finish_reason": "stop",
+  "parse_text": "The broad-leaved brownwork, fig. to, when fresh\ntaken out of the tea, it of a spongy salt texture, and\nfinels very little, but when it has fun for time time\non the floor, it becomes iffi and honey, like forms fort\nof nutrients below. Beff furthest, when examined by\nglallies, appears to be covered with cells; and, when a\npiece of it is cut across, one may discover the thin\nnumbers that there was a large to the cell of each face.",
+  "corrected_text": "The broad-leaved hornwrack, fig. to. when fresh taken out of the tea, is of a spongy soft texture, and smells very filthy; but when it has lain for some time on the floor, it becomes stiff and horny, like some fort of withered leaves. Both surfaces, when examined by glasses, appear to be covered with cells; and, when a piece of it is cut across, one may discover the thin membrane that serves as a base to the cells of each fur- face. The form of the cells is very remarkable, each",
+  "reasoning_tokens": 0,
+  "usage": {
+    "completion_tokens": 119,
+    "prompt_tokens": 605,
+    "total_tokens": 724,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 312
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 3000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows this region of the page. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\nThe broad-leaved brownwork, fig. to, when fresh\ntaken out of the tea, it of a spongy salt texture, and\nfinels very little, but when it has fun for time time\non the floor, it becomes iffi and honey, like forms fort\nof nutrients below. Beff furthest, when examined by\nglallies, appears to be covered with cells; and, when a\npiece of it is cut across, one may discover the thin\nnumbers that there was a large to the cell of each face.",
+  "response": {
+    "id": "chatcmpl-90526bc58b3d003a",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "The broad-leaved hornwrack, fig. to. when fresh taken out of the tea, is of a spongy soft texture, and smells very filthy; but when it has lain for some time on the floor, it becomes stiff and horny, like some fort of withered leaves. Both surfaces, when examined by glasses, appear to be covered with cells; and, when a piece of it is cut across, one may discover the thin membrane that serves as a base to the cells of each fur- face. The form of the cells is very remarkable, each",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792326165,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 119,
+      "prompt_tokens": 605,
+      "total_tokens": 724,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 312
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

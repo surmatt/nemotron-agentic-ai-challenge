@@ -1,0 +1,93 @@
+{
+  "variant": "crop_nothink",
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:247",
+  "block_index": 5,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T12:20:00+00:00",
+  "elapsed_seconds": 1.44,
+  "finish_reason": "stop",
+  "parse_text": "Hinry for four time time completed the avulla fpec- tudo, our author whiled to matches the water by walk- ing sound it’s hot found this impulble. On the north flee, the farber is hard and, though, she also having been to for diffused by the mother deposited by the finde as to cement into one uniform mafs. This is fonctions followed even once a fluid here, its fact a manner as to run down the files of the case; is, that after several attempts, he was at lab obliged to abandon his deligen.",
+  "corrected_text": "Having for some time contemplated this awful spectacle, our author wished to measure the crater by walking round it; but found this impracticable. On the north side the surface is hard and smooth, the ashes having been so far dissolved by the moisture deposited by the fume as to cement into one uniform mass. This is sometimes dissolved even into a fluid state, in such a manner as to run down the sides of the cone; so that after several attempts, he was at last obliged to abandon his design.\n\nFig. 2. exhibits a view of the crater of Etna taken",
+  "reasoning_tokens": 0,
+  "usage": {
+    "completion_tokens": 119,
+    "prompt_tokens": 596,
+    "total_tokens": 715,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 301
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 3000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows this region of the page. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\nHinry for four time time completed the avulla fpec- tudo, our author whiled to matches the water by walk- ing sound it’s hot found this impulble. On the north flee, the farber is hard and, though, she also having been to for diffused by the mother deposited by the finde as to cement into one uniform mafs. This is fonctions followed even once a fluid here, its fact a manner as to run down the files of the case; is, that after several attempts, he was at lab obliged to abandon his deligen.",
+  "response": {
+    "id": "chatcmpl-b3a0f0c7dd452da0",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "Having for some time contemplated this awful spectacle, our author wished to measure the crater by walking round it; but found this impracticable. On the north side the surface is hard and smooth, the ashes having been so far dissolved by the moisture deposited by the fume as to cement into one uniform mass. This is sometimes dissolved even into a fluid state, in such a manner as to run down the sides of the cone; so that after several attempts, he was at last obliged to abandon his design.\n\nFig. 2. exhibits a view of the crater of Etna taken",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792326001,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 119,
+      "prompt_tokens": 596,
+      "total_tokens": 715,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 301
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "variant": "crop_nothink",
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:104",
+  "block_index": 4,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T12:19:41+00:00",
+  "elapsed_seconds": 2.19,
+  "finish_reason": "stop",
+  "parse_text": "be System Uncle, or Binary System, of the French, was irure for all 1013. For the accommodation used that trade, to make some companies with the common people, who showed in irreceable version of the innovations from its markets for their ability. Even instead of being fetral, are clearly binary, that is he proved especially by continually linking our domain some classes standards, though partly according to other divisions of this system means that we cannot be used because they have a decent weights and measures are employed, annexing the term of one each. They, the idea sends the ones worth of the tokens, and is subi- sided into wildlife or niches. The same nameules a 13 decks mean a 47-2448 Brit. inches. The line uses a 11 m a 17600 Brit. print. The Boissens uses lao is one eight of of the besthole, and a 25/12 Brit. ambitions, like Torre stands is the Ikblograme, and a 1-10245 lb. avoid. The halvesque, que leggie, dek, the most of the more of the in use. A many of the ancient French system will be found in its pre- recognition of this article.",
+  "corrected_text": "The System Usuel, or Binary System, of the French, was introduced in 1812, for the accommodation of retail trade, to make a sort of compromise with the common people, who shewed an irreconcilable aversion to the innovations of the metrical or decimal system. It has the metrical standards for its basis; but their divisions, &c. instead of being decimal, are chiefly binary, that is, they proceed principally by continually halving or doubling some of those standards, though partly according to other divisions of the old system; and instead of the metrical vocabulary, the names of ancient weights and measures are employed, annexing the term usuel to each. Thus, the toise usuelle = 2 metres = 78.74158 Brit. inches. The pied usuel is one sixth of the toise, and is subdivided into twelfths or inches, &c. The aune usuelle = 12 decimetres = 1.2 metre = 47.2448 Brit. inches. The litron usuel = 1 litre = 1.7608 Brit. pint. The Boisseau usuel is one eighth of an hectolitre, and = 2.7512 Brit. gallons. The livre usuelle is half the kilogramme, and = 1.10243 lb. avoirdupois. The halves, quarters, eighths, &c. of the most of the above are also in use. A summary of the ancient French system will be found in the pre-",
+  "reasoning_tokens": 0,
+  "usage": {
+    "completion_tokens": 332,
+    "prompt_tokens": 905,
+    "total_tokens": 1237,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 458
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 3000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows this region of the page. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\nbe System Uncle, or Binary System, of the French, was irure for all 1013. For the accommodation used that trade, to make some companies with the common people, who showed in irreceable version of the innovations from its markets for their ability. Even instead of being fetral, are clearly binary, that is he proved especially by continually linking our domain some classes standards, though partly according to other divisions of this system means that we cannot be used because they have a decent weights and measures are employed, annexing the term of one each. They, the idea sends the ones worth of the tokens, and is subi- sided into wildlife or niches. The same nameules a 13 decks mean a 47-2448 Brit. inches. The line uses a 11 m a 17600 Brit. print. The Boissens uses lao is one eight of of the besthole, and a 25/12 Brit. ambitions, like Torre stands is the Ikblograme, and a 1-10245 lb. avoid. The halvesque, que leggie, dek, the most of the more of the in use. A many of the ancient French system will be found in its pre- recognition of this article.",
+  "response": {
+    "id": "chatcmpl-907072dff57be6f0",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "The System Usuel, or Binary System, of the French, was introduced in 1812, for the accommodation of retail trade, to make a sort of compromise with the common people, who shewed an irreconcilable aversion to the innovations of the metrical or decimal system. It has the metrical standards for its basis; but their divisions, &c. instead of being decimal, are chiefly binary, that is, they proceed principally by continually halving or doubling some of those standards, though partly according to other divisions of the old system; and instead of the metrical vocabulary, the names of ancient weights and measures are employed, annexing the term usuel to each. Thus, the toise usuelle = 2 metres = 78.74158 Brit. inches. The pied usuel is one sixth of the toise, and is subdivided into twelfths or inches, &c. The aune usuelle = 12 decimetres = 1.2 metre = 47.2448 Brit. inches. The litron usuel = 1 litre = 1.7608 Brit. pint. The Boisseau usuel is one eighth of an hectolitre, and = 2.7512 Brit. gallons. The livre usuelle is half the kilogramme, and = 1.10243 lb. avoirdupois. The halves, quarters, eighths, &c. of the most of the above are also in use. A summary of the ancient French system will be found in the pre-",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792325982,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 332,
+      "prompt_tokens": 905,
+      "total_tokens": 1237,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 458
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

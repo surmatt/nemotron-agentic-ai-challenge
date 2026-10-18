@@ -1,0 +1,713 @@
+{
+  "entry_id": "E0022",
+  "headword": "CONCHOLOGY",
+  "entry_text_sha256": "c54ff6a495c6c10be9b12f86f1c3de67c3bb61d51cc2bb9f99e1cd70117bbada",
+  "mode": "model",
+  "queries": [
+    "conchology",
+    "conchology carbonate lime shells shell pearl composed acid membranes solution proportion matter experiments"
+  ],
+  "query_chars": 1500,
+  "headword_variant": null,
+  "candidate_count": 32,
+  "list_pages_removed_after_fetch": [],
+  "decision": {
+    "status": "accepted",
+    "method": "nemotron_embed_rerank",
+    "thresholds": {
+      "rerank_logit": -10.0,
+      "margin": 0.5,
+      "cosine": 0.15,
+      "title_similarity": 0.0
+    },
+    "page_id": "847900",
+    "title": "Conchology",
+    "rerank_logit": -3.333959,
+    "cosine": 0.270243,
+    "margin_to_next": 0.838106,
+    "title_similarity": 1.0
+  },
+  "article": {
+    "page_id": "847900",
+    "revision_id": "1325824005",
+    "title": "Conchology",
+    "url": "https://en.wikipedia.org/wiki/Conchology",
+    "revision_url": "https://en.wikipedia.org/w/index.php?oldid=1325824005",
+    "text_sha256": "8c43f4665b2bdeff0b2ecb4a87bc136621858433542c19de51e3b328717d0075",
+    "chars": 8072
+  },
+  "candidates": [
+    {
+      "page_id": "40923041",
+      "revision_id": "1183870260",
+      "title": "Journal of Conchology",
+      "url": "https://en.wikipedia.org/wiki/Journal_of_Conchology",
+      "excerpt": "The Journal of Conchology is a peer-reviewed scientific journal published by The Conchological Society of Great Britain and Ireland, covering research in conchology and malacology. It claims to be the world's oldest continuing publication on the subject.\n\nThe journal publishes original research and short communications on molluscs, with emphasis on conservation, biogeography and taxonomy. The contents include descriptions of new species from anywhere in the world, and reports concerning the ecology, distribution, and status of molluscs, both living and fossil.",
+      "excerpt_offset": 0,
+      "total_chars": 566,
+      "bm25": {
+        "q0": {
+          "rank": 1,
+          "score": 19.5739
+        }
+      },
+      "best_rank": 1,
+      "title_similarity": 0.6452,
+      "context_overlap": 0.1905,
+      "cosine": 0.134963,
+      "rerank_logit": -4.172065,
+      "rerank_position": 2
+    },
+    {
+      "page_id": "23158389",
+      "revision_id": "1291135324",
+      "title": "Byne's disease",
+      "url": "https://en.wikipedia.org/wiki/Byne%27s_disease",
+      "excerpt": "Byne's disease, more accurately known as Bynesian decay, is a peculiar and permanently damaging condition resulting from an ongoing chemical reaction which often attacks mollusk shells and other calcareous specimens that are in storage or on display for long periods of time. It is a form of efflorescence of salts formed by the reaction of acidic vapors with the basic calcareous surface. The efflorescence can sometimes superficially resemble a growth of mold. Although first described in the early 19th century, Bynesian decay was not well understood until almost a hundred years later. The condition is named after the man (Loftus Byne) who is best known for describing it in the late 19th century, even though he was not the first person to describe it in print. In addition, Byne mistakenly assumed that the condition was caused by bacteria, and thus the condition came to be referred to as a \"disease\".\n\nIn addition to mollusk shells, various other natural history specimens are susceptible to this form of decay, including eggshells and some fossils and mineral samples that are composed of calcium carbonate. This condition is of concern for museum scientists, and also for anyone who has a ",
+      "excerpt_offset": 0,
+      "total_chars": 9893,
+      "bm25": {
+        "q1": {
+          "rank": 1,
+          "score": 48.0985
+        }
+      },
+      "best_rank": 1,
+      "title_similarity": 0.0833,
+      "context_overlap": 0.2222,
+      "cosine": 0.175684,
+      "rerank_logit": -6.292167,
+      "rerank_position": 26
+    },
+    {
+      "page_id": "4890879",
+      "revision_id": "1328485349",
+      "title": "Conchological Society of Great Britain & Ireland",
+      "url": "https://en.wikipedia.org/wiki/Conchological_Society_of_Great_Britain_%26_Ireland",
+      "excerpt": "The Conchological Society of Great Britain and Ireland is a British-based learned society concerned with the study of molluscs and their shells. Founded in 1876, it is one of the oldest such societies in the world. It is a registered UK charity (no 208205) that anyone can join. It promotes the study of molluscs and their conservation, through meetings, publications, workshops, field meetings, and distribution recording schemes.\n\nTwo periodicals are published by the society:\n\nJournal of Conchology – a scientific publication issued twice a year\n\nMollusc World – the magazine of the Society, previously known as The Conchologists' Newsletter, and issued three times a year",
+      "excerpt_offset": 0,
+      "total_chars": 675,
+      "bm25": {
+        "q0": {
+          "rank": 2,
+          "score": 19.3987
+        }
+      },
+      "best_rank": 2,
+      "title_similarity": 0.3571,
+      "context_overlap": 0.1522,
+      "cosine": 0.161493,
+      "rerank_logit": -4.989359,
+      "rerank_position": 6
+    },
+    {
+      "page_id": "44272132",
+      "revision_id": "1322657775",
+      "title": "Aspein",
+      "url": "https://en.wikipedia.org/wiki/Aspein",
+      "excerpt": "Aspein is an unusually acidic bivalve shell matrix protein, which may have important roles in calcium carbonate biomineralization. The Aspein gene (aspein, Uniprot: Q76K52) encodes a sequence of 413 amino acids, including a high proportion of Asp (60.4%), Gly (16.0%), and Ser (13.2%), and the predicted isoelectric point is 1.78. This is the most acidic of all the molluscan shell matrix proteins sequenced so far, or probably even of all known proteins on earth. The main body of aspein is occupied by (Asp)2–10 sequences punctuated with Ser–Gly dipeptides. RT-PCR demonstrated that the transcript of aspein is expressed at the outer edge of the mantle, corresponding to the calcitic prismatic layer, but not at the inner part of the mantle, corresponding to the aragonitic nacreous layer. Aspein is likely responsible for directed formation of calcite in the shell of the pearl oyster Pinctada fucata.",
+      "excerpt_offset": 0,
+      "total_chars": 904,
+      "bm25": {
+        "q1": {
+          "rank": 2,
+          "score": 45.7683
+        }
+      },
+      "best_rank": 2,
+      "title_similarity": 0.125,
+      "context_overlap": 0.2308,
+      "cosine": 0.17569,
+      "rerank_logit": -6.222043,
+      "rerank_position": 23
+    },
+    {
+      "page_id": "847900",
+      "revision_id": "1325824005",
+      "title": "Conchology",
+      "url": "https://en.wikipedia.org/wiki/Conchology",
+      "excerpt": "Conchology (from Ancient Greek κόγχος (kónkhos) ' cockle ' and -λογία (-logía) ' study of ') is the study of mollusc shells. Conchology is one aspect of malacology, the study of molluscs; however, malacology is the study of molluscs as whole organisms, whereas conchology is confined to the study of their shells. It includes the study of terrestrial and freshwater mollusc shells, as well as seashells and extends to the study of a gastropod 's operculum.\n\nConchology is now sometimes seen as an archaic study, because relying on only one aspect of an organism's morphology can be misleading. However, a shell often gives at least some insight into molluscan taxonomy, and historically the shell was often the only part of exotic species that was available for study. Even in current museum collections it is common for the dry material (shells) to greatly exceed the amount of material that is preserved whole in alcohol.\n\nConchologists mainly deal with four molluscan classes: Gastropoda (snails only), Bivalvia (e.g. clams), Polyplacophora (the chitons), and Scaphopoda (the tusk shells). Cephalopods only have small internal shells, with the exception of the Nautiloidea. Some groups, such as th",
+      "excerpt_offset": 0,
+      "total_chars": 8072,
+      "bm25": {
+        "q0": {
+          "rank": 3,
+          "score": 19.2103
+        }
+      },
+      "best_rank": 3,
+      "title_similarity": 1.0,
+      "context_overlap": 0.1507,
+      "cosine": 0.270243,
+      "rerank_logit": -3.333959,
+      "rerank_position": 1
+    },
+    {
+      "page_id": "2781408",
+      "revision_id": "1347461755",
+      "title": "Eggshell",
+      "url": "https://en.wikipedia.org/wiki/Eggshell",
+      "excerpt": "An eggshell is the outer covering of a hard-shelled egg and of some forms of eggs with soft outer cots.\n\nNematode eggs present a two-layered structure: an external vitellin layer made of chitin that confers mechanical resistance and an internal lipid-rich layer that makes the egg chamber impermeable.\n\nInsects and other arthropods lay a large variety of styles and shapes of eggs. Some of them have gelatinous or skin-like coverings, others have hard eggshells. Softer shells are mostly protein. It may be fibrous or quite liquid. Some arthropod eggs do not actually have shells, rather, their outer covering is actually the outermost embryonic membrane, the choroid, which protects inner layers. This can be a complex structure, and it may have different layers, including an outermost layer called an exochorion. Eggs which must survive in dry conditions usually have hard eggshells, made mostly of dehydrated or mineralized proteins with pore systems to allow respiration. Arthropod eggs can have extensive ornamentation on their outer surfaces.\n\nFish and amphibians generally lay eggs which are surrounded by the extraembryonic membranes but do not develop a shell, hard or soft, around these me",
+      "excerpt_offset": 0,
+      "total_chars": 8069,
+      "bm25": {
+        "q1": {
+          "rank": 3,
+          "score": 45.3246
+        }
+      },
+      "best_rank": 3,
+      "title_similarity": 0.2222,
+      "context_overlap": 0.1765,
+      "cosine": 0.164132,
+      "rerank_logit": -6.013261,
+      "rerank_position": 20
+    },
+    {
+      "page_id": "397934",
+      "revision_id": "1319504201",
+      "title": "William Cooper (conchologist)",
+      "url": "https://en.wikipedia.org/wiki/William_Cooper_(conchologist)",
+      "excerpt": "William Cooper (1798–1864) was an American naturalist, conchologist (shell zoologist) and collector.\n\nCooper studied zoology in Europe from 1821 to 1824, and afterwards travelled to Nova Scotia, Kentucky and the Bahamas collecting specimens.\n\nAlthough he was not an author himself his specimens were of great help to others, such as John James Audubon, Charles Lucien Bonaparte and Thomas Nuttall.\n\nCooper was one of the founders of the New York Lyceum of Natural History (later the New York Academy of Sciences), and the first American member of the Zoological Society of London. Bonaparte named Cooper's hawk for him, after Cooper collected a specimen of it in 1828.\n\nHe was father of James Graham Cooper (1830–1902) a physician and famous naturalist in his own right.",
+      "excerpt_offset": 0,
+      "total_chars": 770,
+      "bm25": {
+        "q0": {
+          "rank": 4,
+          "score": 18.8152
+        }
+      },
+      "best_rank": 4,
+      "title_similarity": 0.25,
+      "context_overlap": 0.1636,
+      "cosine": 0.146145,
+      "rerank_logit": -5.516353,
+      "rerank_position": 15
+    },
+    {
+      "page_id": "33637949",
+      "revision_id": "1323142738",
+      "title": "Eggshell membrane separation process",
+      "url": "https://en.wikipedia.org/wiki/Eggshell_membrane_separation_process",
+      "excerpt": "Eggshell membrane separation is a recycling process to separate the protein-rich eggshell membrane from the eggshell.\n\nNearly 30% of the eggs consumed each year are broken and processed or powdered into foods such as cakes, mixes, mayonnaise, noodles and fast foods. The US food industry generates 150,000 tons of shell waste a year. The disposal methods for waste eggshells are 26.6% as fertilizer, 21.1% as animal feed ingredients, 26.3% discarded in municipal dumps, and 15.8% used in other ways.\n\nMany landfills are unwilling to take the waste because the shells and the attached membrane attract vermin. When unseparated, the calcium carbonate eggshell and protein-rich membrane have little or no value or use; however, the invention of an eggshell and membrane separator has allowed for the recycling of these two products.\n\nChicken eggshells are made up of 95% calcium carbonate by weight and the remaining material is primarily organic matrix.\n\nEggshell membrane is primarily composed of fibrous proteins such as collagen type I.\n\nJoseph H. MacNeil, Professor of Food Science at Penn State University, developed a machine that uses a delicate multi-bladed knife to scrape the membrane from th",
+      "excerpt_offset": 0,
+      "total_chars": 3823,
+      "bm25": {
+        "q1": {
+          "rank": 4,
+          "score": 44.6157
+        }
+      },
+      "best_rank": 4,
+      "title_similarity": 0.1395,
+      "context_overlap": 0.1667,
+      "cosine": 0.15905,
+      "rerank_logit": -6.794193,
+      "rerank_position": 31
+    },
+    {
+      "page_id": "8809170",
+      "revision_id": "1337212874",
+      "title": "The Conchologist's First Book",
+      "url": "https://en.wikipedia.org/wiki/The_Conchologist%27s_First_Book",
+      "excerpt": "The Conchologist's First Book (sometimes subtitled with Or, A System of Testaceous Malacology) is an illustrated textbook on conchology issued in 1839, 1840, and 1845. The book was originally printed under Edgar Allan Poe 's name. The text was based on Manual of Conchology by Thomas Wyatt, an English author and lecturer.\n\nWyatt's original book, Manual of Conchology, had been published by Harper & Brothers. Wyatt's book contained multiple illustrations of shells and carried the cover price of $8, a price too high for both beginners and advanced students of conchology. Wyatt intended a cheaper, concise edition to be used in schools with a price of $1.50, but Harper's did not want to produce a second edition that would compete with sales of the first. Poe was an experienced editor at the time, but was still facing financial difficulties. Wyatt had said, \"Poe needed money very sorely at the time,\" and so Poe allowed the use of his name to popularize the book. The Philadelphia -based publishing firm Haswell, Barrington, and Haswell paid Poe $50 for the right to use his name on the title page. However, Poe's contribution was not just his name. In addition to writing the preface and intro",
+      "excerpt_offset": 0,
+      "total_chars": 3832,
+      "bm25": {
+        "q0": {
+          "rank": 5,
+          "score": 18.557
+        }
+      },
+      "best_rank": 5,
+      "title_similarity": 0.4615,
+      "context_overlap": 0.1282,
+      "cosine": 0.165205,
+      "rerank_logit": -4.845182,
+      "rerank_position": 4
+    },
+    {
+      "page_id": "18457910",
+      "revision_id": "1338678606",
+      "title": "Mollusc shell",
+      "url": "https://en.wikipedia.org/wiki/Mollusc_shell",
+      "excerpt": "The mollusc (or mollusk) shell is typically a calcareous exoskeleton which encloses, supports and protects the soft parts of an animal in the phylum Mollusca, which includes snails, clams, tusk shells, and several other classes. Not all shelled molluscs live in the sea; many live on the land and in freshwater.\n\nThe ancestral mollusc is thought to have had a shell, but this has subsequently been lost or reduced on some families, such as the squid, octopus, and some smaller groups such as the caudofoveata and solenogastres. Today, over 100,000 living species bear a shell; there is some dispute as to whether these shell-bearing molluscs form a monophyletic group (conchifera) or whether shell-less molluscs are interleaved into their family tree.\n\nMalacology, the scientific study of molluscs as living organisms, has a branch devoted to the study of shells, and this is called conchology —although these terms used to be, and to a minor extent still are, used interchangeably, even by scientists (this is more common in Europe).\n\nWithin some species of molluscs, there is often a wide degree of variation in the exact shape, pattern, ornamentation, and color of the shell.\n\nA mollusc shell is f",
+      "excerpt_offset": 0,
+      "total_chars": 19918,
+      "bm25": {
+        "q1": {
+          "rank": 5,
+          "score": 44.3908
+        }
+      },
+      "best_rank": 5,
+      "title_similarity": 0.1739,
+      "context_overlap": 0.1899,
+      "cosine": 0.231975,
+      "rerank_logit": -4.895808,
+      "rerank_position": 5
+    },
+    {
+      "page_id": "80849",
+      "revision_id": "1352765178",
+      "title": "Seashell",
+      "url": "https://en.wikipedia.org/wiki/Seashell",
+      "excerpt": "A seashell (or sea shell), also known simply as a shell, is a hard, protective outer layer usually created by an animal or organism that lives in the sea. Most seashells are made by mollusks, such as snails, clams, and oysters to protect their soft insides. Empty seashells are often found washed up on beaches by beachcombers. The shells are empty because the animal has died and the soft parts have decomposed or been eaten by another organism.\n\nA seashell is usually the exoskeleton of an invertebrate (an animal without a backbone), and is typically composed of calcium carbonate or chitin. Most shells that are found on beaches are the shells of marine mollusks, partly because these shells are usually made of calcium carbonate, and endure better than shells made of chitin.\n\nApart from mollusk shells, other shells that can be found on beaches are those of barnacles, horseshoe crabs and brachiopods. Marine annelid worms in the family Serpulidae create shells which are tubes made of calcium carbonate cemented onto other surfaces. The shells of sea urchins are called \" tests \", and the moulted shells of crabs and lobsters are exuviae. While most seashells are external, some cephalopods ha",
+      "excerpt_offset": 0,
+      "total_chars": 26378,
+      "bm25": {
+        "q1": {
+          "rank": 6,
+          "score": 42.3776
+        }
+      },
+      "best_rank": 6,
+      "title_similarity": 0.2222,
+      "context_overlap": 0.1594,
+      "cosine": 0.238095,
+      "rerank_logit": -5.916978,
+      "rerank_position": 18
+    },
+    {
+      "page_id": "783008",
+      "revision_id": "1280577310",
+      "title": "Thomas Brown (naturalist)",
+      "url": "https://en.wikipedia.org/wiki/Thomas_Brown_(naturalist)",
+      "excerpt": "write books about nature for a living.\n\nHe was elected a Fellow of the Royal Society of Edinburgh in 1818, one of his proposers being James Jardine.\n\nIn 1840 he became curator of the Manchester Museum, where he served for twenty-two years.\n\nHe wrote several natural history books, a few dealing with conchology. He became a fellow of the Linnean Society, a member of the Wernerian, Kirwanian and Phrenological Societies, and president of the Physical Society. Material from his books was used by United States naturalist Thomas Wyatt for his book Manual of Conchology.\n\nA species of sea snail, a marine gastropod, was named after him: Zebina browniana d'Orbigny, 1842.\n\nBrown T. 1827. Illustrations of conchology of Great Britain and Ireland drawn from nature. pp. 1–65, Pl. 1–52. Edinburgh. (Lizars).\n\nBrown T. 1832. The book of butterflies, sphinges, and moths: illustrated by ninety-six engravings, coloured after nature.\n\nBrown T. 1835. The conchologist’s text-book, embracing the arrangements of Jean-Baptiste Lamarck and Linnaeus, with a glossary of technical terms. - illustrated by nineteen engravings on steel. 1835 version, 1853 version.\n\nBrown, T. 1843. The book of butterflies and moths: ",
+      "excerpt_offset": 566,
+      "total_chars": 2704,
+      "bm25": {
+        "q0": {
+          "rank": 7,
+          "score": 18.1092
+        }
+      },
+      "best_rank": 7,
+      "title_similarity": 0.2857,
+      "context_overlap": 0.075,
+      "cosine": 0.124724,
+      "rerank_logit": -5.408463,
+      "rerank_position": 12
+    },
+    {
+      "page_id": "15408905",
+      "revision_id": "1352662918",
+      "title": "Shelly limestone",
+      "url": "https://en.wikipedia.org/wiki/Shelly_limestone",
+      "excerpt": "Shelly limestone is a highly fossiliferous limestone composed of numerous fossilised organisms such as brachiopods, bryozoans, crinoids, sponges, corals and molluscs. It varies in colour, texture and hardness. Coquina is a poorly indurated form of shelly limestone.\n\nShelly limestone is a sedimentary rock because it is made up of fragments. It consists of broken shells that are \"glued\" together by calcite. Calcium carbonate often makes up a significant proportion of the rock, while shell fragments can range in size from fine grains to large pebbles. Its colour is typically grey.\n\nEach shelly limestone is unique, as every specimen is composed of different fossilised organisms and shell fragments. Shelly limestones are mainly found in areas where marine life currently lives or once lived.\n\nThe characteristics of shelly limestone are largely determined by calcite, which acts as a cementing agent binding shell fragments, dead marine organisms and other minerals. Typically, the rock is composed primarily of carbonate minerals, especially calcium carbonate. Its appearance can vary in colour, composition, hardness and texture depending on the environment in which it formed, although visibl",
+      "excerpt_offset": 0,
+      "total_chars": 2282,
+      "bm25": {
+        "q1": {
+          "rank": 7,
+          "score": 42.059
+        }
+      },
+      "best_rank": 7,
+      "title_similarity": 0.1538,
+      "context_overlap": 0.2179,
+      "cosine": 0.209388,
+      "rerank_logit": -6.310277,
+      "rerank_position": 27
+    },
+    {
+      "page_id": "640523",
+      "revision_id": "1323183991",
+      "title": "George Brettingham Sowerby II",
+      "url": "https://en.wikipedia.org/wiki/George_Brettingham_Sowerby_II",
+      "excerpt": "George Brettingham Sowerby II (25 March 1812 – 26 July 1884) was a British naturalist, illustrator, and conchologist. Together with his father, George Brettingham Sowerby I, he published the Thesaurus Conchyliorum and other illustrated works on molluscs. He was an elected a Fellow of the Linnean Society on 7 May 1844. He was the father of George Brettingham Sowerby III, also a malacologist.\n\nHe died on 26 July 1884 and is buried on the west side of Highgate Cemetery with his father George Brettingham Sowerby I and sister Charlotte Caroline Sowerby.\n\nThe shell craze was further hyped with the publication of British Conchology, a five volume set of books written by the lawyer John Gwyn Jeffreys (1809–1885) and which managed to combine scientific exactitude with delicate, informative historical commentary. Published between 1862 and 1869, and beautifully illustrated by the conchological artist George Sowerby (1812–1884), British Conchology would not be bettered during the Victorian era and it remains a usable and readable resource to this day.",
+      "excerpt_offset": 0,
+      "total_chars": 1056,
+      "bm25": {
+        "q0": {
+          "rank": 8,
+          "score": 17.9889
+        }
+      },
+      "best_rank": 8,
+      "title_similarity": 0.2564,
+      "context_overlap": 0.0615,
+      "cosine": 0.167571,
+      "rerank_logit": -5.122318,
+      "rerank_position": 8
+    },
+    {
+      "page_id": "16224889",
+      "revision_id": "1337076259",
+      "title": "Bivalve shell",
+      "url": "https://en.wikipedia.org/wiki/Bivalve_shell",
+      "excerpt": "A bivalve shell is the enveloping exoskeleton or shell of a bivalve mollusc, composed of two hinged halves or valves. The two half-shells, called the \"right valve\" and \"left valve\", are joined by a ligament and usually articulate with one another using structures known as \"teeth\" which are situated along the hinge line. In many bivalve shells, the two valves are symmetrical along the hinge line — when truly symmetrical, such an animal is said to be equivalved; if the valves vary from each other in size or shape, inequivalved. If symmetrical front-to-back, the valves are said to be equilateral, and are otherwise considered inequilateral.\n\nThe bivalve shell not only serves as protection from predators and physical damage, but also for adductor muscle attachment, which can allow the mollusc to \"swim\" short distances by flapping the valves. The shell is secreted by a soft part of the molluscan body known as the mantle and has several layers, typically made of calcium carbonate precipitated out into an organic matrix.\n\nBivalves are very common in essentially all aquatic locales, including saltwater, brackish water and fresh water. The shells of dead bivalves commonly wash up on beaches ",
+      "excerpt_offset": 0,
+      "total_chars": 13520,
+      "bm25": {
+        "q1": {
+          "rank": 8,
+          "score": 41.3802
+        }
+      },
+      "best_rank": 8,
+      "title_similarity": 0.1739,
+      "context_overlap": 0.1667,
+      "cosine": 0.192727,
+      "rerank_logit": -5.955576,
+      "rerank_position": 19
+    },
+    {
+      "page_id": "47623470",
+      "revision_id": "1333484761",
+      "title": "Agnes Catlow",
+      "url": "https://en.wikipedia.org/wiki/Agnes_Catlow",
+      "excerpt": "Agnes Catlow (1806–1889) was a 19th-century British science writer best known for a book on conchology.\n\nCatlow was born in 1806 in Mansfield, Nottinghamshire, the daughter of Samuel and Elizabeth Catlow. By the 1860s Catlow and her sister Maria were living in Chertsey in Surrey.\n\nNot much is known of Catlow's family background and education. It is clear from her publications that she was well-educated, especially in such natural sciences as zoology and entomology. Throughout her life, she travelled widely, sometimes with her sister Maria, who was also a science writer.\n\nCatlow died at her house in Addlestone, Surrey on 10 May 1889 aged 82.\n\nCatlow was one of a group of mid-Victorian-era women scientific writers who published mainly for children, helping to bring science education into the home. As she said of her work in the preface to Drops of Water, her 1851 book on microscopy, \"My experience and observations may be more genial to the beginner, than the scientific treatises of more able authors.\" Catlow was one of the earlier writers to publish an account of microscopy, which became something of a craze in England in the 1850s.\n\nHer greatest success as an author came with her 18",
+      "excerpt_offset": 0,
+      "total_chars": 2697,
+      "bm25": {
+        "q0": {
+          "rank": 9,
+          "score": 17.7418
+        }
+      },
+      "best_rank": 9,
+      "title_similarity": 0.2857,
+      "context_overlap": 0.1392,
+      "cosine": 0.20027,
+      "rerank_logit": -5.619143,
+      "rerank_position": 16
+    },
+    {
+      "page_id": "44731",
+      "revision_id": "1351496671",
+      "title": "Calcium carbonate",
+      "url": "https://en.wikipedia.org/wiki/Calcium_carbonate",
+      "excerpt": "Calcium carbonate is a chemical compound with the chemical formula CaCO. It is a common substance found in rocks as the minerals calcite and aragonite, most notably in chalk and limestone, eggshells, gastropod shells, shellfish skeletons and pearls. Materials containing much calcium carbonate or resembling it are described as calcareous. Calcium carbonate is the active ingredient in agricultural lime. Limescale is calcium carbonate produced when calcium ions in hard water react with carbonate ions. Calcium carbonate has medical use as a calcium supplement or as an antacid, but excessive consumption can be hazardous and cause hypercalcemia and digestive issues.\n\nCalcium carbonate shares the typical properties of other carbonates. Notably, it:\n\nreacts with acids, releasing carbonic acid which quickly disintegrates into carbon dioxide and water:\n\nCaCO (s) + 2 H + (aq) → Ca 2+ (aq) + CO (g) + H O(l)\n\nreleases carbon dioxide upon heating, called a thermal decomposition reaction, or calcination (to above 840 °C in the case of CaCO), to form calcium oxide, CaO, commonly called quicklime, with reaction enthalpy 178 kJ/mol:\n\nCaCO (s) → CaO(s) + CO (g)\n\nreacts with gaseous hydrogen to form m",
+      "excerpt_offset": 0,
+      "total_chars": 30810,
+      "bm25": {
+        "q1": {
+          "rank": 9,
+          "score": 41.0502
+        }
+      },
+      "best_rank": 9,
+      "title_similarity": 0.2222,
+      "context_overlap": 0.1818,
+      "cosine": 0.229321,
+      "rerank_logit": -6.253594,
+      "rerank_position": 25
+    },
+    {
+      "page_id": "42599217",
+      "revision_id": "1282030796",
+      "title": "Charles John Gabriel",
+      "url": "https://en.wikipedia.org/wiki/Charles_John_Gabriel",
+      "excerpt": "hologist. He wrote circa 50 scientific papers and articles. He also co-authored the book, Marine Molluscs of Victoria.\n\nGabriel was born in Collingwood, Melbourne. He was registered as a pharmacist in 1902. In 1910 he married Laura Violet Marian Vale, with whom he had two sons. He was interested in conchology from an early age, an interest instigated and fostered by his father, who was an honorary collector for the National Museum of Victoria. Gabriel joined the Field Naturalists Club of Victoria in 1900.\n\nGabriel undertook a long-term collaboration with John Gatliff on updating the latter's Catalogue of the Marine Shells of Victoria. He was the first local conchologist to make a serious study of the land and freshwater molluscs of the state, in the course of which he described 23 new non-marine taxa. He died at his home in Toorak in 1963. His library and shell collection were bequeathed to the National Museum of Victoria.\n\nHonorary Associate in Conchology, National Museum of Victoria\n\nAustralian Natural History Medallion (1958)\n\nAs well as producing some 50 scientific papers and articles, Gabriel co-authored the definitive:\n\nMacpherson, J. Hope; & Gabriel, C.J. (1962). Marine Moll",
+      "excerpt_offset": 95,
+      "total_chars": 1392,
+      "bm25": {
+        "q0": {
+          "rank": 10,
+          "score": 17.6472
+        }
+      },
+      "best_rank": 10,
+      "title_similarity": 0.2759,
+      "context_overlap": 0.0875,
+      "cosine": 0.154629,
+      "rerank_logit": -5.501892,
+      "rerank_position": 14
+    },
+    {
+      "page_id": "39701693",
+      "revision_id": "1166976873",
+      "title": "Egg taphonomy",
+      "url": "https://en.wikipedia.org/wiki/Egg_taphonomy",
+      "excerpt": "Egg taphonomy is the study of the decomposition and fossilization of eggs. The processes of egg taphonomy begin when the egg either hatches or dies. Eggshell fragments are robust and can often travel great distances before burial. More complete egg specimens gradually begin to fill with sediment, which hardens as minerals precipitate out of water percolating through pores or cracks in the shell. Throughout the fossilization process the calcium carbonate composing the eggshell generally remains unchanged, allowing scientists to study its original structure. However, egg fossils buried under sediments at great depth can be subjected to heat, pressure and chemical processes that can alter the structure of its shell through a process called diagenesis.\n\nThe formation of fossil eggs begins with the original egg itself. Not all eggs that end up fossilizing experience the death of their embryo beforehand. Even eggs that successfully hatch can fossilize. In fact, not only is this possible it's actually common. Many fossil dinosaur eggs are preserved with their tops broken open by the escaping hatchling. Of course not all open fossil eggs made it to a happy ending. Some contain fossil feces",
+      "excerpt_offset": 0,
+      "total_chars": 7966,
+      "bm25": {
+        "q1": {
+          "rank": 10,
+          "score": 40.9111
+        }
+      },
+      "best_rank": 10,
+      "title_similarity": 0.3478,
+      "context_overlap": 0.1905,
+      "cosine": 0.152206,
+      "rerank_logit": -6.613773,
+      "rerank_position": 30
+    },
+    {
+      "page_id": "353091",
+      "revision_id": "1351129921",
+      "title": "Malacology",
+      "url": "https://en.wikipedia.org/wiki/Malacology",
+      "excerpt": " species after the arthropods. Mollusks include snails and slugs, clams, and cephalopods, along with numerous other kinds, many of which have shells.\n\nFields within malacological research include studies of mollusk taxonomy, ecology and evolution. Several subdivisions of malacology exist, including conchology, devoted to the study of mollusk shells, limacology, the study of gastropods, and teuthology, the study of cephalopods such as octopus, squid, and cuttlefish. Applied malacology studies medical, veterinary, and agricultural applications, for example the study of mollusks as vectors of schistosomiasis and other diseases.\n\nZoological methods are used in malacological research. Malacological field methods and laboratory methods (such as collecting, documenting and archiving, and molecular techniques) were summarized by Sturm et al. (2006).\n\nMalacology evolved from the earlier discipline of conchology, which focused solely on the collection and classification of shells. The transformation into a comprehensive field of biological study occurred over several key historical milestones.\n\nBefore the late 18th century, the study of mollusks was limited to conchology, emphasizing the aes",
+      "excerpt_offset": 264,
+      "total_chars": 7072,
+      "bm25": {
+        "q0": {
+          "rank": 11,
+          "score": 17.6294
+        }
+      },
+      "best_rank": 11,
+      "title_similarity": 0.6,
+      "context_overlap": 0.0676,
+      "cosine": 0.197245,
+      "rerank_logit": -4.601078,
+      "rerank_position": 3
+    },
+    {
+      "page_id": "38160276",
+      "revision_id": "1312820238",
+      "title": "Shell growth in estuaries",
+      "url": "https://en.wikipedia.org/wiki/Shell_growth_in_estuaries",
+      "excerpt": "Shell growth in estuaries is an aspect of marine biology that has attracted a number of scientific research studies. Many groups of marine organisms produce calcified exoskeletons, commonly known as shells, hard calcium carbonate structures which the organisms rely on for various specialized structural and defensive purposes. The rate at which these shells form is greatly influenced by physical and chemical characteristics of the water in which these organisms live. Estuaries are dynamic habitats which expose their inhabitants to a wide array of rapidly changing physical conditions, exaggerating the differences in physical and chemical properties of the water.\n\nEstuaries have large variation in salinity, ranging from entirely fresh water upstream to fully marine water at the ocean boundary. Estuarine systems also experience daily, tidal and seasonal swings in temperature, which affect many of the chemical characteristics of the water and in turn affect the metabolic and calcifying processes of shell-producing organisms. Temperature and salinity affect the carbonate balance of the water, influencing carbonate equilibrium, calcium carbonate solubility and the saturation states of cal",
+      "excerpt_offset": 0,
+      "total_chars": 25039,
+      "bm25": {
+        "q1": {
+          "rank": 11,
+          "score": 40.6981
+        }
+      },
+      "best_rank": 11,
+      "title_similarity": 0.1176,
+      "context_overlap": 0.1111,
+      "cosine": 0.199309,
+      "rerank_logit": -5.915452,
+      "rerank_position": 17
+    },
+    {
+      "page_id": "54774522",
+      "revision_id": "1343251173",
+      "title": "Marjorie Mestayer",
+      "url": "https://en.wikipedia.org/wiki/Marjorie_Mestayer",
+      "excerpt": "Marjorie Katherine Mestayer (1880 – 7 September 1955) was a New Zealand curator and conchologist. She is best known for the molluscan, foraminiferal and ostracod species named after her. Beginning as an amateur shell enthusiast, she went on to work as a conchology curator for the Dominion Museum in Wellington. She also received grants for her conchology research. She donated scientific and personal collections to the Museum of New Zealand Te Papa Tongarewa.\n\nIn 1880, Mestayer was born in England. Her family migrated to Australia when she was 2, and to Wellington when she was 12. Her father, Richart Mestayer, was \"an amateur naturalist with interests in things microscopic, like foraminifera. Undoubtedly his enthusiasm for the natural world rubbed off on Marjorie\".\n\nFrom her teens, Mestayer began collecting and analysing shells. At first her displays and publications were in support of other conchologists, including Tom Iredale. Later, independently, she collected and analysed sands and dredgings from New Zealand shorelines including Titahi Bay and deep-water dredgings provided by Captain John Peter Bollins.\n\nMestayer was the conchologist at the Dominion Museum between 1907 and 1932.",
+      "excerpt_offset": 0,
+      "total_chars": 3504,
+      "bm25": {
+        "q0": {
+          "rank": 12,
+          "score": 17.6126
+        }
+      },
+      "best_rank": 12,
+      "title_similarity": 0.1481,
+      "context_overlap": 0.125,
+      "cosine": 0.162287,
+      "rerank_logit": -6.079386,
+      "rerank_position": 21
+    },
+    {
+      "page_id": "43040945",
+      "revision_id": "1353081579",
+      "title": "Eggshell membrane",
+      "url": "https://en.wikipedia.org/wiki/Eggshell_membrane",
+      "excerpt": "Eggshell membrane or shell membrane is the clear film lining eggshells, visible when one peels a boiled bird egg. Chicken eggshell membranes are used as a dietary supplement.\n\nEggshell membrane is derived commercially from the eggshells of industrial processors. In the United States, egg-breaking facilities generate more than 24 billion broken eggshells every year. There are various ways in which the membrane is separated from the shell, including chemical, mechanical, steam, and vacuum processes. Attachment of the soft organic fibrous membrane to the hard calcite shell is essential for proper chick embryonic development and growth (via ensuring association of the chorioallantoic membrane, and in allowing for air-sac formation at the blunt end of the egg). This attachment between dissimilar materials is facilitated by a structural interdigitation of fibers into each mammillae at the microscale, and reciprocally, at the nanoscale, mineral spiking into fibers directly at the interface\n\nEggshell membrane is primarily composed of fibrous proteins such as collagen type I. Eggshell membranes also contain glycosaminoglycans, such as dermatan sulfate, chondroitin sulfate, and sulfated glyc",
+      "excerpt_offset": 0,
+      "total_chars": 1528,
+      "bm25": {
+        "q1": {
+          "rank": 12,
+          "score": 40.3505
+        }
+      },
+      "best_rank": 12,
+      "title_similarity": 0.0741,
+      "context_overlap": 0.1744,
+      "cosine": 0.155301,
+      "rerank_logit": -6.184303,
+      "rerank_position": 22
+    },
+    {
+      "page_id": "1331804",
+      "revision_id": "1348028254",
+      "title": "William Turton",
+      "url": "https://en.wikipedia.org/wiki/William_Turton",
+      "excerpt": "William Turton (21 May 1762 – 28 December 1835) was an English medical doctor and naturalist. He is known for his pioneering work in conchology, and for translating Linnaeus ' Systema Naturae into English.\n\nHe was born at Olveston, Gloucestershire and was educated at Oriel College, Oxford, graduating B.Med. in 1791. He commenced in practice as a physician at Swansea, where he worked for fifteen years. He then moved in turn to Dublin, Teignmouth, and Torquay. He devoted his leisure time to natural history, especially conchology. He published several illustrated shell books, and a translation of Gmelin 's edition of Linnaeus ' Systema Naturae in 1806. His works on conchology have been described as \"seminal\".\n\nIn 1817, while he was a physician at Teignmouth, he treated Tom Keats, youngest brother of the Romantic poet John Keats, for consumption.\n\nHe moved to Bideford, Devon, in 1831, and died there. His shell collection is now located at the Smithsonian Institution.\n\nThe bivalve genus Turtonia (J. Alder, 1848) and the species Galeomma turtoni are named for him.",
+      "excerpt_offset": 0,
+      "total_chars": 1074,
+      "bm25": {
+        "q0": {
+          "rank": 13,
+          "score": 17.3623
+        }
+      },
+      "best_rank": 13,
+      "title_similarity": 0.1667,
+      "context_overlap": 0.0909,
+      "cosine": 0.146478,
+      "rerank_logit": -5.302,
+      "rerank_position": 10
+    },
+    {
+      "page_id": "27111828",
+      "revision_id": "1316377797",
+      "title": "Cobalt extraction",
+      "url": "https://en.wikipedia.org/wiki/Cobalt_extraction",
+      "excerpt": "ey depend on the concentration of cobalt and the exact composition of the ore used.\n\nThe ores are treated by a sulfatizing roast in a fluidized bed furnace to convert copper and cobalt sulfides into soluble sulfates and iron into insoluble hematite. The calcine is subsequently leached with sulfuric acid from the spent copper recovery electrolyte. Oxide concentrates are introduced at this leaching step to maintain the acid balance in the circuit. Iron and aluminum are removed from the leach solution by the addition of lime, and copper is electrowon on copper cathodes. A part of the spent electrolyte enters the cobalt recovery circuit and is purified by the removal of iron, copper, nickel, and zinc prior to the precipitation of cobalt as its hydroxide. This is accomplished by the addition of more lime to raise the pH until the remaining copper precipitates. This copper is sent back to the copper circuit. As more lime is then added, a copper-cobaltite precipitates and is fed back to the leaching process. Sodium hydrosulfide (NaHS) is added (along with some metallic cobalt as a catalyst) to precipitate nickel sulfide (NiS). Hydrogen sulfide (H S) and sodium carbonate (Na CO) are then a",
+      "excerpt_offset": 182,
+      "total_chars": 5972,
+      "bm25": {
+        "q1": {
+          "rank": 13,
+          "score": 40.3409
+        }
+      },
+      "best_rank": 13,
+      "title_similarity": 0.2222,
+      "context_overlap": 0.1184,
+      "cosine": 0.06706,
+      "rerank_logit": -6.319835,
+      "rerank_position": 28
+    },
+    {
+      "page_id": "21665432",
+      "revision_id": "1331822052",
+      "title": "Henry Adams (zoologist)",
+      "url": "https://en.wikipedia.org/wiki/Henry_Adams_(zoologist)",
+      "excerpt": "Henry Adams (1813–1877) was an English naturalist and conchologist.\n\nWith his brother Arthur Adams, also a noted conchologist, he wrote The genera of recent Mollusca: arranged according to their organization three volumes, 1858.\n\nHis father is an architect hired by HM Customs.",
+      "excerpt_offset": 0,
+      "total_chars": 277,
+      "bm25": {
+        "q0": {
+          "rank": 14,
+          "score": 17.2887
+        }
+      },
+      "best_rank": 14,
+      "title_similarity": 0.2,
+      "context_overlap": 0.1,
+      "cosine": 0.137169,
+      "rerank_logit": -5.387663,
+      "rerank_position": 11
+    },
+    {
+      "page_id": "2380144",
+      "revision_id": "1340814558",
+      "title": "Carboxysome",
+      "url": "https://en.wikipedia.org/wiki/Carboxysome",
+      "excerpt": "Carboxysomes are bacterial microcompartments (BMCs) consisting of polyhedral protein shells filled with the enzymes ribulose-1,5-bisphosphate carboxylase/oxygenase (RuBisCO) — the predominant enzyme in carbon fixation and the rate limiting enzyme in the Calvin cycle — and carbonic anhydrase.\n\nCarboxysomes are thought to have evolved as a consequence of the increase in oxygen concentration in the ancient atmosphere; this is because oxygen is a competing substrate to carbon dioxide in the RuBisCO reaction. To overcome the inefficiency of RuBisCO, carboxysomes concentrate carbon dioxide inside the shell by means of co-localized carbonic anhydrase activity, which produces carbon dioxide from the bicarbonate that diffuses into the carboxysome. The resulting concentration of carbon dioxide near RuBisCO decreases the proportion of ribulose-1,5-bisphosphate oxygenation and thereby avoids costly photorespiratory reactions. The surrounding shell provides a barrier to carbon dioxide loss, helping to increase its concentration around RuBisCO.\n\nCarboxysomes are an essential part of the broader metabolic network called the Carbon dioxide-Concentrating Mechanism (CCM), which functions in two part",
+      "excerpt_offset": 0,
+      "total_chars": 14929,
+      "bm25": {
+        "q1": {
+          "rank": 14,
+          "score": 40.0566
+        }
+      },
+      "best_rank": 14,
+      "title_similarity": 0.2857,
+      "context_overlap": 0.0811,
+      "cosine": 0.071724,
+      "rerank_logit": -6.231759,
+      "rerank_position": 24
+    },
+    {
+      "page_id": "21649296",
+      "revision_id": "1306706740",
+      "title": "Sylvanus Charles Thorp Hanley",
+      "url": "https://en.wikipedia.org/wiki/Sylvanus_Charles_Thorp_Hanley",
+      "excerpt": "llent works of natural history, especially conchological works. Sowerby became the best illustrator of conchological works of his time, illustrating such classics as Reeve's monumental twenty-volume Conchologia Iconica.\n\nSylvanus Hanley inherited a fortune, which enabled him to devote a lifetime to conchology. He was especially interested in the bivalves, on which he was a leading authority. He published over 40 books and scientific papers, and described over 200 new species. Hanley collected molluscs extensively; most of his collections are today held at Leeds City Museum in Yorkshire, England. Hanley collected over a period of 60 years, and corresponded frequently with many other naturalists of his time. He acquired several specimens of Unio, now extinct, for Isaac Lea. Several syntypes were collected by him for other leading contemporary biologists, including Arthur Adams, W.H. Dall, Henry B. Guppy, Richard Brinsley Hinds, Jeffries, Leath, Sven Ludvig Lovén, George Montagu, William Harper Pease, Rodolfo Amando Philippi and Tryon Reakirt.\n\nThe Hanley Collections, as it is called, forms one of the largest collections in Leeds City Museum, occupying 13 cabinets and 206 drawers.\n\nHa",
+      "excerpt_offset": 410,
+      "total_chars": 1763,
+      "bm25": {
+        "q0": {
+          "rank": 15,
+          "score": 17.258
+        }
+      },
+      "best_rank": 15,
+      "title_similarity": 0.3243,
+      "context_overlap": 0.0645,
+      "cosine": 0.107828,
+      "rerank_logit": -5.495393,
+      "rerank_position": 13
+    },
+    {
+      "page_id": "1101361",
+      "revision_id": "1319486540",
+      "title": "Liming (soil)",
+      "url": "https://en.wikipedia.org/wiki/Liming_(soil)",
+      "excerpt": "Liming is the application of calcium - (Ca) and magnesium (Mg)-rich materials in various forms, including marl, chalk, limestone, burnt lime or hydrated lime to soil. In acid soils, these materials react as a base and neutralize soil acidity. This often improves plant growth and increases the activity of soil bacteria, but oversupply may result in harm to plant life. Modern liming was preceded by marling, a process of spreading raw chalk and lime debris across soil, in an attempt to modify pH or aggregate size. Evidence of these practices dates to the 1200's and the earliest examples are taken from the modern British Isles.\n\nLiming can also improve aggregate stability on clay soils. For this purpose structure lime, products containing calcium oxide (CaO) or hydroxide (Ca(OH)) in mixes with calcium carbonate (CaCO), are often used. Structure liming can reduce losses of clay and nutrients from soil aggregates. The degree to which a given amount of lime per unit of soil volume will increase soil pH depends on the buffer capacity of the soil (this is generally related to soil cation exchange capacity or CEC).\n\nMost acid soils are saturated with aluminum rather than hydrogen ions. Soil ",
+      "excerpt_offset": 0,
+      "total_chars": 3244,
+      "bm25": {
+        "q1": {
+          "rank": 15,
+          "score": 39.2489
+        }
+      },
+      "best_rank": 15,
+      "title_similarity": 0.25,
+      "context_overlap": 0.1209,
+      "cosine": 0.094255,
+      "rerank_logit": -6.52035,
+      "rerank_position": 29
+    },
+    {
+      "page_id": "31173008",
+      "revision_id": "1259842053",
+      "title": "Conquiliologistas do Brasil",
+      "url": "https://en.wikipedia.org/wiki/Conquiliologistas_do_Brasil",
+      "excerpt": "Conquiliologistas do Brasil (Portuguese: Conchologists of Brazil) is an association created on September 19, 1989, in São Paulo, Brazil, with the main goal of spreading and increasing conchology, the study of mollusc shells.\n\nThe association publishes the magazine Siratus, the monthly bulletin Calliostoma and the biannual peer-reviewed scientific journal Strombus, and maintains a library of more than 1500 scientific papers.",
+      "excerpt_offset": 0,
+      "total_chars": 427,
+      "bm25": {
+        "q0": {
+          "rank": 16,
+          "score": 17.1491
+        }
+      },
+      "best_rank": 16,
+      "title_similarity": 0.3889,
+      "context_overlap": 0.0625,
+      "cosine": 0.132661,
+      "rerank_logit": -5.183944,
+      "rerank_position": 9
+    },
+    {
+      "page_id": "529019",
+      "revision_id": "1334372363",
+      "title": "Hydrogen ion",
+      "url": "https://en.wikipedia.org/wiki/Hydrogen_ion",
+      "excerpt": "en ion (or proton) can readily combine with other particles and therefore is only seen isolated when it is in a gaseous state or a nearly particle-free space. Due to its extremely high charge density of approximately 2 × 10 10 times that of a sodium ion, the bare hydrogen ion cannot exist freely in solution as it readily hydrates, i.e., bonds quickly. The hydrogen ion is recommended by IUPAC as a general term for all ions of hydrogen and its isotopes. Depending on the charge of the ion, two different classes can be distinguished: positively charged ions (hydrons) and negatively charged (hydride) ions.\n\nA hydrogen atom is made up of a nucleus with charge +1, and a single electron. Therefore, the only positively charged ion possible has charge +1. It is notated H +.\n\nDepending on the isotope in question, the hydrogen cation has different names:\n\nHydron: general name referring to the positive ion of any hydrogen isotope (H +)\n\nProton: 1 H + (i.e. the cation of protium)\n\nDeuteron: 2 H +, D +\n\nTriton: 3 H +, T +\n\nIn addition, the ions produced by the reaction of these cations with water as well as their hydrates are called hydrogen ions:\n\nHydronium ion: H O +\n\nZundel cation: H O + 2 (na",
+      "excerpt_offset": 109,
+      "total_chars": 7168,
+      "bm25": {
+        "q1": {
+          "rank": 16,
+          "score": 38.4713
+        }
+      },
+      "best_rank": 16,
+      "title_similarity": 0.1818,
+      "context_overlap": 0.1549,
+      "cosine": -0.026123,
+      "rerank_logit": -6.884797,
+      "rerank_position": 32
+    },
+    {
+      "page_id": "5348059",
+      "revision_id": "1327606901",
+      "title": "George Perry (naturalist)",
+      "url": "https://en.wikipedia.org/wiki/George_Perry_(naturalist)",
+      "excerpt": "had sided with Roscoe against the slave trade. It was around this period that Perry shifted to London and began to concentrate on natural history studies.\n\nPerry is known for two natural history works:\n\nArcana; or the museum of natural history, published monthly from January 1810 to September 1811\n\nConchology, or the natural history of shells, published in 1811\n\nJ. H. Gatliff, 1902. Notes on Perry's “Conchology”. Victorian Naturalist 19(5):75-76\n\nC. Hedley, 1902. On Perry's Australian shells. Proceedings of the Linnean Society of New South Wales 27(1): 24-28\n\nG. M. Mathews & T. Iredale, 1913. “Perry’s Arcana” – an overlooked work. Victorian Naturalist 29: 7-16\n\nA. T. Hopwood, 1946. Miscellaneous notes. 1. Perry's ‘Conchology”. Proceedings of the Malacological Society of London 26(6):152-153\n\nJ. Q. Burch, 1958. Perry's Conchology. Minutes of the Conchological Club of Southern California 178: 2-3\n\nR. I. Johnson, 1970. Perry's Conchology (1811) – more than one edition. Journal of the Society for the Bibliography of Natural History 5(4): 287\n\nA. J. Kohn, 1986. Type specimens and identity of the described species of Conus. VII. The species described 1810-1820. Zoological Journal of the ",
+      "excerpt_offset": 1493,
+      "total_chars": 3067,
+      "bm25": {
+        "q0": {
+          "rank": 17,
+          "score": 17.1154
+        }
+      },
+      "best_rank": 17,
+      "title_similarity": 0.2727,
+      "context_overlap": 0.1129,
+      "cosine": 0.218482,
+      "rerank_logit": -5.034279,
+      "rerank_position": 7
+    }
+  ]
+}

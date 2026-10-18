@@ -1,0 +1,90 @@
+{
+  "variant": "crop_think",
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:403",
+  "block_index": 10,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T12:15:35+00:00",
+  "elapsed_seconds": 10.67,
+  "finish_reason": "stop",
+  "parse_text": "were the sacred characters of the Egyptians.\" Casslodorus likewise sesurs us, \"that the letters inserted upon the Egyptian cheliska were the Palestry.\" Intentery discovers have refused these and other similar statements.",
+  "corrected_text": "We find the same observation confirmed by Heliodorus (Æthiopica, lib. x. p. 476.) \"The royal letters of the Ethiopians,\" says he, \"were the sacred characters of the Egyptians.\" Cassiodorus likewise assures us, \"that the letters inscribed upon the Egyptian obelisks were Chaldean.\" But recent discoveries have refuted these and other similar statements.\nLib. ix. p. 461. Cassiodorus.",
+  "reasoning_tokens": 2548,
+  "usage": {
+    "completion_tokens": 2649,
+    "prompt_tokens": 517,
+    "total_tokens": 3166,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 2548,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 297
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 12000,
+    "temperature": 0
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows this region of the page. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\nwere the sacred characters of the Egyptians.\" Casslodorus likewise sesurs us, \"that the letters inserted upon the Egyptian cheliska were the Palestry.\" Intentery discovers have refused these and other similar statements.",
+  "response": {
+    "id": "chatcmpl-a32c58766a2ed752",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "We find the same observation confirmed by Heliodorus (Æthiopica, lib. x. p. 476.) \"The royal letters of the Ethiopians,\" says he, \"were the sacred characters of the Egyptians.\" Cassiodorus likewise assures us, \"that the letters inscribed upon the Egyptian obelisks were Chaldean.\" But recent discoveries have refuted these and other similar statements.\nLib. ix. p. 461. Cassiodorus.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": "The user wants me to correct the OCR text based on the provided image.\n\n**1. Analyze the Image:**\nThe image shows a snippet of text from an old book (18th or 19th century).\nThe text reads:\n\"We find the same observation confirmed by Heliodorus (Æthiopica, lib. x. p. 476.) \"The royal letters of the Ethiopians,\" says he, \"were the sacred characters of the Egyptians.\" Cassiodorus likewise assures us, \"that the letters inscribed upon the Egyptian obelisks were Chaldean.\" But recent discoveries have refuted these and other similar statements.\nLib. ix. p. 461. Cassiodorus.\"\n\nWait, let me look closer at the image to transcribe it exactly as it appears, following the rules.\n\n**Transcription Line by Line:**\nLine 1: \"We find the same observation confirmed by Heliodorus (Æthiopica, lib. x. p. 476.) \"The royal letters of the Ethiopians,\" says he,\"\nLine 2: \"were the sacred characters of the Egyptians.\" Cassiodorus likewise assures us, \"that the letters inscribed upon the Egyptian obelisks\"\nLine 3: \"were Chaldean.\" But recent discoveries have refuted these and other similar statements.\nLine 4: \"Lib. ix. p. 461. Cassiodorus.\"\n\n**2. Compare with OCR text provided:**\nOCR: \"were the sacred characters of the Egyptians.\" Casslodorus likewise sesurs us, \"that the letters inserted upon the Egyptian cheliska were the Palestry.\" Intentery discovers have refused these and other similar statements.\n\nThe OCR is quite garbled. I need to produce the correct text based on the image.\n\n**3. Apply Rules:**\n- Write long s as 's'. (The image uses standard 's' mostly, maybe some long s? Looking closely at \"characters\", \"inscribed\", \"obelisks\". It looks like standard roman type. Wait, let's look at \"Cassiodorus\". It looks like standard 's'. \"assures\" has standard 's'. \"discoveries\" has standard 's'. I don't see obvious long 's' (ſ) that needs converting, but if I did, I would write 's'. Actually, looking very closely at crop 1 and 2, the font looks like standard modern serif or a very clear old style. Let's assume standard 's'.)\n- Keep original spelling, capitals, and punctuation.\n- Join a word that a line-break hyphen splits. (There are no hyphens splitting words across lines in the visible text).\n- Leave out page headers, page numbers, catchwords, and margin notes. (The bottom line \"Lib. ix. p. 461. Cassiodorus.\" looks like a footnote reference or a continuation. It is part of the text block shown. I should include it if it's part of the main text block. The prompt says \"Ignore lines cut at the top or bottom edge of the image.\" The bottom line is fully visible. The top line starts with \"We find...\". It seems complete.)\n- Do not add any word that you cannot see.\n- Write [?] for an illegible word.\n- Answer with text only.\n\n**4. Final Transcription Construction:**\nText:\nWe find the same observation confirmed by Heliodorus (Æthiopica, lib. x. p. 476.) \"The royal letters of the Ethiopians,\" says he, \"were the sacred characters of the Egyptians.\" Cassiodorus likewise assures us, \"that the letters inscribed upon the Egyptian obelisks were Chaldean.\" But recent discoveries have refuted these and other similar statements.\nLib. ix. p. 461. Cassiodorus.\n\nLet's double check the spelling in the image.\n- \"Heliodorus\" - Capital H.\n- \"(Æthiopica\" - The ligature Æ is visible.\n- \"lib. x. p. 476.)\" - Periods after lib and x and p.\n- \"The royal letters of the Ethiopians,\" - Capital T. Comma after Ethiopians.\n- \"says he,\" - lowercase s.\n- \"were the sacred characters of the Egyptians.\" - Capital E in Egyptians? No, looks like lowercase 'e' in \"were\". Wait, looking at the start of the quote: \"The royal letters...\". Then \"says he,\". Then \"were the sacred characters...\". The 'w' in were is lowercase.\n- \"Cassiodorus\" - Capital C.\n- \"likewise assures us,\" - comma after us.\n- \"that the letters inscribed upon the Egyptian obelisks\" - Capital E in Egyptian.\n- \"were Chaldean.\" - Capital C in Chaldean. Period.\n- \"But recent discoveries have refuted these and other similar statements.\" - Capital B in But. Period at end.\n- \"Lib. ix. p. 461. Cassiodorus.\" - This looks like a footnote line at the bottom.\n\nLet's refine the transcription to match the visual flow exactly.\n\nLine 1: We find the same observation confirmed by Heliodorus (Æthiopica, lib. x. p. 476.) \"The royal letters of the Ethiopians,\" says he,\nLine 2: \"were the sacred characters of the Egyptians.\" Cassiodorus likewise assures us, \"that the letters inscribed upon the Egyptian obelisks\nLine 3: were Chaldean.\" But recent discoveries have refuted these and other similar statements.\nLine 4: Lib. ix. p. 461. Cassiodorus.\n\nWait, looking at the very bottom line \"Lib. ix. p. 461. Cassiodorus.\" It seems to be a separate footnote line. The prompt says \"Leave out page headers, page numbers, catchwords, and margin notes.\" Is this a footnote? It looks like a citation for the previous sentence. It is physically part of the text block in the image. I will include it as it appears to be part of the text region shown.\n\nLet's re-read the OCR errors to ensure I don't miss anything.\nOCR said: \"Casslodorus\" -> Image: \"Cassiodorus\".\nOCR said: \"sesurs\" -> Image: \"assures\".\nOCR said: \"cheliska\" -> Image: \"obelisks\".\nOCR said: \"Palestry\" -> Image: \"Chaldean\" (Wait, looking at line 2 end/line 3 start).\nLine 2 ends with \"obelisks\". Line 3 starts with \"were Chaldean.\"\nOCR said: \"Intentery discovers\" -> Image: \"But recent discoveries\".\n\nOkay, the plan is solid. I will transcribe the text exactly as seen.\n\nOne detail: \"Æthiopica\". The image shows the ligature Æ. I should probably write it as Æ or Ae? The rule says \"Keep the original spelling\". If the image has Æ, I should write Æ. However, standard ASCII might be safer if I can't type special chars, but usually, I should try to represent what is there. The prompt doesn't forbid unicode. I will use Æ.\nActually, looking really closely at crop 1, it looks like \"Æthiopica\".\nAlso \"lib. x.\" has a period after x.\n\"p. 476.)\" has a period after 476 and then a closing paren.\n\nLet's check the bottom line again. \"Lib. ix. p. 461. Cassiodorus.\"\nIt seems to be a footnote reference corresponding to the Cassiodorus mention.\n\nFinal check of the text:\n\"We find the same observation confirmed by Heliodorus (Æthiopica, lib. x. p. 476.) \"The royal letters of the Ethiopians,\" says he, \"were the sacred characters of the Egyptians.\" Cassiodorus likewise assures us, \"that the letters inscribed upon the Egyptian obelisks were Chaldean.\" But recent discoveries have refuted these and other similar statements.\nLib. ix. p. 461. Cassiodorus.\"\n\nWait, looking at the image again, the bottom line \"Lib. ix. p. 461. Cassiodorus.\" is separated by a bit of space. It looks like a footnote. The rule says \"Leave out page headers, page numbers, catchwords, and margin notes.\" Footnotes might be considered margin notes? But it's at the bottom. Usually, if it's part of the main text block, keep it. If it's a separate footer, maybe exclude. However, the OCR text provided by the user *doesn't* include the bottom line. The OCR text ends at \"statements.\"\nThe user provided OCR text: \"...refused these and other similar statements.\"\nThe image has more text below that.\nThe prompt says \"Correct the OCR text of a region...\". The image shows the region. The OCR text provided is a bad transcription of *part* of it or a different version.\nActually, the OCR text provided in the prompt is:\n\"were the sacred characters of the Egyptians.\" Casslodorus likewise sesurs us, \"that the letters inserted upon the Egyptian cheliska were the Palestry.\" Intentery discovers have refused these and other similar statements.\nThis looks like a garbled version of the middle part.\nThe image contains the full paragraph starting with \"We find...\".\nI should transcribe the *entire* visible text in the image region, correcting the OCR.\nThe image shows:\n\"We find the same observation confirmed by Heliodorus (Æthiopica, lib. x. p. 476.) \"The royal letters of the Ethiopians,\" says he, \"were the sacred characters of the Egyptians.\" Cassiodorus likewise assures us, \"that the letters inscribed upon the Egyptian obelisks were Chaldean.\" But recent discoveries have refuted these and other similar statements.\nLib. ix. p. 461. Cassiodorus.\"\n\nI will include the bottom line because it is clearly text in the image region.\n\nOne detail on \"long s\". The font looks like a standard serif font where 's' is just 's'. I don't see the long s character 'ſ'. For example in \"characters\", the 's' is short. In \"inscribed\", the 's' is short. So no conversion needed.\n\nLet's assemble the final string.\n\"We find the same observation confirmed by Heliodorus (Æthiopica, lib. x. p. 476.) \"The royal letters of the Ethiopians,\" says he, \"were the sacred characters of the Egyptians.\" Cassiodorus likewise assures us, \"that the letters inscribed upon the Egyptian obelisks were Chaldean.\" But recent discoveries have refuted these and other similar statements.\nLib. ix. p. 461. Cassiodorus.\"\n\nWait, looking at the very bottom line, is it \"Cassiodorus.\"? Yes.\nIs there a period after statements? Yes.\nIs there a line break? Yes.\n\nLet's verify the text \"Lib. ix. p. 461. Cassiodorus.\"\nIt looks like a footnote marker.\nI will include it.\n\nOne final check on punctuation.\n\"(Æthiopica, lib. x. p. 476.)\" -> There is a closing parenthesis.\n\"The royal letters of the Ethiopians,\" -> Comma inside quotes.\n\"says he,\" -> Comma.\n\"were the sacred characters of the Egyptians.\" -> Period inside quotes.\n\"Cassiodorus likewise assures us,\" -> Comma.\n\"that the letters inscribed upon the Egyptian obelisks\" -> No punctuation at end of line 2.\n\"were Chaldean.\" -> Period inside quotes.\n\"But recent discoveries...\" -> Capital B.\n\nOkay, ready to write."
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792325736,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 2649,
+      "prompt_tokens": 517,
+      "total_tokens": 3166,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 2548,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 297
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "variant": "crop_nothink",
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2402",
+  "block_index": 10,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T12:24:38+00:00",
+  "elapsed_seconds": 1.9,
+  "finish_reason": "stop",
+  "parse_text": "4. 1. 14 16 1c -\nLanantin...16 24 46 Perpoie..13 40 60\nDoping–10 14Vila...13 47 67 Hyperodon...3 30 54\nDiplini...13 47 67 Hyperodon...3 30 45\nTories...19 30 Cedekar or White\nby Globeper –11 37 56 Whalesite 14-130 30 60\nOn Grisques...11 24 42 60 Greenland Walla...12 75 69\nto Congress...12 24 46 Repopial...11 19 32\nIn general, however, if we reckon the first 23, 3, or 5 ver-\ntebres after the coastal, buther, it may be said that the\ncualth vertebron of the Czaraca was from 30 or 33, which\nare the numbers respectively in the humanants and dungory,\non 34, 38; and 42, an adult they may be estimain in the\ndolphin. We shall see that, in the dungog at least, we are\nguided in this estimate by the rudimentary bones of the\npolvis.",
+  "corrected_text": "various genera of this family.\nLamantin.....16 24 46\nDugong.....16 28 46\nDolphin.....13 47 67\nTurso.....13 38 58\nD. Globiceps.....11 37 56\nD. Griseus.....12 42 61\nD. Gangeticus.....11 28 46\nPorpoise.....13 40 60\nNarwal.....12 35 54\nHyperoodon.....9 29 45\nCachalot or White\nWhale.....14-15 39 60\nGreenland Whale.....15 37 69\nRorqual.....14 31 52\n\nIn general, however, if we reckon the first 2, 3, or 5 verte-\nbre after the costal as lumbar, it may be said that the\ncaudal vertebrae of the Cetacea vary from 22 or 25, which\nare the numbers respectively in the lamantin and dugong,\nto 34, 38, and 42, at which they may be estimated in the\ndolphin. We shall see that, in the dugong at least, we are\nguided in this estimate by the rudimentary bones of the\npelvis.",
+  "reasoning_tokens": 0,
+  "usage": {
+    "completion_tokens": 317,
+    "prompt_tokens": 883,
+    "total_tokens": 1200,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 386
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 3000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows this region of the page. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\n4. 1. 14 16 1c -\nLanantin...16 24 46 Perpoie..13 40 60\nDoping–10 14Vila...13 47 67 Hyperodon...3 30 54\nDiplini...13 47 67 Hyperodon...3 30 45\nTories...19 30 Cedekar or White\nby Globeper –11 37 56 Whalesite 14-130 30 60\nOn Grisques...11 24 42 60 Greenland Walla...12 75 69\nto Congress...12 24 46 Repopial...11 19 32\nIn general, however, if we reckon the first 23, 3, or 5 ver-\ntebres after the coastal, buther, it may be said that the\ncualth vertebron of the Czaraca was from 30 or 33, which\nare the numbers respectively in the humanants and dungory,\non 34, 38; and 42, an adult they may be estimain in the\ndolphin. We shall see that, in the dungog at least, we are\nguided in this estimate by the rudimentary bones of the\npolvis.",
+  "response": {
+    "id": "chatcmpl-8bf1918113e836f1",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "various genera of this family.\nLamantin.....16 24 46\nDugong.....16 28 46\nDolphin.....13 47 67\nTurso.....13 38 58\nD. Globiceps.....11 37 56\nD. Griseus.....12 42 61\nD. Gangeticus.....11 28 46\nPorpoise.....13 40 60\nNarwal.....12 35 54\nHyperoodon.....9 29 45\nCachalot or White\nWhale.....14-15 39 60\nGreenland Whale.....15 37 69\nRorqual.....14 31 52\n\nIn general, however, if we reckon the first 2, 3, or 5 verte-\nbre after the costal as lumbar, it may be said that the\ncaudal vertebrae of the Cetacea vary from 22 or 25, which\nare the numbers respectively in the lamantin and dugong,\nto 34, 38, and 42, at which they may be estimated in the\ndolphin. We shall see that, in the dugong at least, we are\nguided in this estimate by the rudimentary bones of the\npelvis.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792326279,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 317,
+      "prompt_tokens": 883,
+      "total_tokens": 1200,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 386
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

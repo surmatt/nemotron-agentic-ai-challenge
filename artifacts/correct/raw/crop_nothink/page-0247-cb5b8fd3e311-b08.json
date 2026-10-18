@@ -1,0 +1,93 @@
+{
+  "variant": "crop_nothink",
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:247",
+  "block_index": 8,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T12:20:01+00:00",
+  "elapsed_seconds": 1.85,
+  "finish_reason": "stop",
+  "parse_text": "The finokes, as reproefident in the figure, ifles from all quarters, other form chains or holes detected over the whole crater. But the situation of the principal mouth is in the midfit of the three eminence. Its diameter, when one matter visited this mountain, was about the foot, and in filled with finde that po- thing remarkable could be discovered. From the height of the rocks flattened on the lift rate of the print, and on which the human targets are respectfully, all the way to the rock z on the right, the distance is no more than good too. Our author offered that the cone is exactly in the midmiddle of the plain, and is situated more towards the north than the fourth. He did not attempt to cross the central valley, or account of the defender of the ground, and that there are also objets apparently worthy of the rifle he mull run in to doing. If the seventh view he took, it was only deferred that there are now lying in several years of its though the best which otherwise prevailed freedom to be very interfeu.",
+  "corrected_text": "The smoke, as represented in the figure, issues from all quarters, either from chinks or holes scattered over the whole crater. But the situation of the principal mouth is in the midst of the three eminences. Its diameter, when our author visited this mountain, was only about 60 feet, and so filled with smoke that no thing remarkable could be discovered. From the height of the rock situated on the left side of the print, and on which the human figures are represented, all the way to the rock s on the right, the distance is no more than 900 feet. Our author offered that the cone is not exactly in the middle of the plain, but is situated more towards the north than the south. He did not attempt to cross the central valley, on account of the looseness of the ground, and that there was no object apparently worthy of the risk he must run in so doing. At the nearest view he took, it was only observed that there was snow lying in several parts of it, though the heat which otherwise prevailed seemed to be very intense.",
+  "reasoning_tokens": 0,
+  "usage": {
+    "completion_tokens": 223,
+    "prompt_tokens": 860,
+    "total_tokens": 1083,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 462
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 3000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows this region of the page. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\nThe finokes, as reproefident in the figure, ifles from all quarters, other form chains or holes detected over the whole crater. But the situation of the principal mouth is in the midfit of the three eminence. Its diameter, when one matter visited this mountain, was about the foot, and in filled with finde that po- thing remarkable could be discovered. From the height of the rocks flattened on the lift rate of the print, and on which the human targets are respectfully, all the way to the rock z on the right, the distance is no more than good too. Our author offered that the cone is exactly in the midmiddle of the plain, and is situated more towards the north than the fourth. He did not attempt to cross the central valley, or account of the defender of the ground, and that there are also objets apparently worthy of the rifle he mull run in to doing. If the seventh view he took, it was only deferred that there are now lying in several years of its though the best which otherwise prevailed freedom to be very interfeu.",
+  "response": {
+    "id": "chatcmpl-a54cca3dd895017d",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "The smoke, as represented in the figure, issues from all quarters, either from chinks or holes scattered over the whole crater. But the situation of the principal mouth is in the midst of the three eminences. Its diameter, when our author visited this mountain, was only about 60 feet, and so filled with smoke that no thing remarkable could be discovered. From the height of the rock situated on the left side of the print, and on which the human figures are represented, all the way to the rock s on the right, the distance is no more than 900 feet. Our author offered that the cone is not exactly in the middle of the plain, but is situated more towards the north than the south. He did not attempt to cross the central valley, on account of the looseness of the ground, and that there was no object apparently worthy of the risk he must run in so doing. At the nearest view he took, it was only observed that there was snow lying in several parts of it, though the heat which otherwise prevailed seemed to be very intense.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792326002,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 223,
+      "prompt_tokens": 860,
+      "total_tokens": 1083,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 462
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

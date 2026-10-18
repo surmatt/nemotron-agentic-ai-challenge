@@ -1,0 +1,705 @@
+{
+  "entry_id": "E0160",
+  "headword": "EXEGETICA",
+  "entry_text_sha256": "d118f20ad91c52039ec4c6c534dc421a77a184663f14a0c22be55446ccf333ba",
+  "mode": "model",
+  "queries": [
+    "exegetica",
+    "exegetica problem algebra finding numbers lines roots equation according numerical geometrical"
+  ],
+  "query_chars": 182,
+  "headword_variant": null,
+  "candidate_count": 32,
+  "list_pages_removed_after_fetch": [],
+  "decision": {
+    "status": "rejected",
+    "method": "nemotron_embed_rerank",
+    "thresholds": {
+      "rerank_logit": -10.0,
+      "margin": 0.5,
+      "cosine": 0.15,
+      "title_similarity": 0.0
+    },
+    "reason": "rerank_logit < -10.0, margin < 0.5, cosine < 0.15, or title_similarity < 0.0",
+    "page_id": "537048",
+    "title": "Equation solving",
+    "rerank_logit": -5.563396,
+    "cosine": 0.324507,
+    "margin_to_next": 0.075752,
+    "title_similarity": 0.2727
+  },
+  "candidates": [
+    {
+      "page_id": "19476365",
+      "revision_id": "1323854315",
+      "title": "Gospel of Basilides",
+      "url": "https://en.wikipedia.org/wiki/Gospel_of_Basilides",
+      "excerpt": "p of Side, and the Venerable Bede. But none of these authors report any quotations from the supposed gospel, nor are they able to give an indication as to its content or character.\n\nMuch more is known about Basilides major work in twenty-four books; for which Clement of Alexandria records the title Exegetica (or 'Treatises') and provides quotations from book twenty-three, while other quotations are preserved in the works of Hegemonius. Eusebius of Caesarea reports Agrippa Castor (mid-2nd century) as describing the Exegetica as \"twenty-four books on the Gospel\", and this notice has been interpreted as characterising the full Exegetica as an extended commentary, whose base text might be inferred as being the lost Gospel of Basilides. From this assumption and the surviving quotations from the Exegetica, a range of theories have been developed as to the nature of the Gospel of Basilides: that it was a redaction of the Gospel of Luke; that it combined the Gospels of Luke and Matthew; that it was a diatessaron, or harmony of all four gospels; that it was an independent account of the life of Jesus; and even that it was an abstract treatise or homily on the religious significance of Jesus",
+      "excerpt_offset": 1163,
+      "total_chars": 4503,
+      "bm25": {
+        "q0": {
+          "rank": 1,
+          "score": 21.4963
+        }
+      },
+      "best_rank": 1,
+      "title_similarity": 0.1481,
+      "context_overlap": 0.0137,
+      "cosine": 0.114673,
+      "rerank_logit": -5.639148,
+      "rerank_position": 2
+    },
+    {
+      "page_id": "239981",
+      "revision_id": "1351221751",
+      "title": "La Géométrie",
+      "url": "https://en.wikipedia.org/wiki/La_G%C3%A9om%C3%A9trie",
+      "excerpt": "th the Discourse to give examples of the kinds of successes he had achieved following his method (as well as, perhaps, considering the contemporary European social climate of intellectual competitiveness, to show off a bit to a wider audience).\n\nThe work was the first to propose the idea of uniting algebra and geometry into a single subject and invented an algebraic geometry called analytic geometry, which involves reducing geometry to a form of arithmetic and algebra and translating geometric shapes into algebraic equations. For its time this was ground-breaking. It also contributed to the mathematical ideas of Leibniz and Newton and was thus important in the development of calculus.\n\nThis appendix is divided into three \"books\".\n\nBook I is titled Problems Which Can Be Constructed by Means of Circles and Straight Lines Only. In this book he introduces algebraic notation that is still in use today. The letters at the end of the alphabet, viz., x, y, z, etc. are to denote unknown variables, while those at the start of the alphabet, a, b, c, etc. denote constants. He introduces modern exponential notation for powers (except for squares, where he kept the older tradition of writing rep",
+      "excerpt_offset": 370,
+      "total_chars": 5915,
+      "bm25": {
+        "q1": {
+          "rank": 1,
+          "score": 51.865
+        }
+      },
+      "best_rank": 1,
+      "title_similarity": 0.0952,
+      "context_overlap": 0.0235,
+      "cosine": 0.258424,
+      "rerank_logit": -5.704486,
+      "rerank_position": 3
+    },
+    {
+      "page_id": "21975702",
+      "revision_id": "1133181920",
+      "title": "Louis Gerlach Pareau",
+      "url": "https://en.wikipedia.org/wiki/Louis_Gerlach_Pareau",
+      "excerpt": "Louis Gerlach Pareau, (August 10, 1800 – October 27, 1866) was a Dutch theologian born in Deventer. He was the son of Jean Henri Pareau (1761 – 1833), a professor of Oriental languages at the University of Utrecht.\n\nIn 1826 he graduated from Utrecht with a dissertation titled Commentatio critica et exegetica in Paulinae Epistolae prioris ad Corinthos caput XIII. In 1831 he was appointed professor of theology at the University of Groningen, where he remained until his death in 1866. At Groningen he taught classes in exegesis and hermeneutics.\n\nPareau was one of the three founders of the so-called \" Groningen School \", a progressive movement within the Dutch Reformed Church. In 1837 he was co-founder, and for many years, editor of the journal Waarheid in Liefde (Truth in Love). With Petrus Hofstede de Groot (1802-1886), he was co-author of the Encyclopaedia theologi Christiani.",
+      "excerpt_offset": 0,
+      "total_chars": 888,
+      "bm25": {
+        "q0": {
+          "rank": 2,
+          "score": 17.4914
+        }
+      },
+      "best_rank": 2,
+      "title_similarity": 0.2857,
+      "context_overlap": 0.0169,
+      "cosine": 0.094904,
+      "rerank_logit": -6.59759,
+      "rerank_position": 18
+    },
+    {
+      "page_id": "9550030",
+      "revision_id": "1353742905",
+      "title": "History of algebra",
+      "url": "https://en.wikipedia.org/wiki/History_of_algebra",
+      "excerpt": "Algebra can essentially be considered as doing computations similar to those of arithmetic but with non-numerical mathematical objects. However, until the 19th century, algebra consisted essentially of the theory of equations. For example, the fundamental theorem of algebra belongs to the theory of equations and is not, nowadays, considered as belonging to algebra (in fact, every proof must use the completeness of the real numbers, which is not an algebraic property).\n\nThis article describes the history of the theory of equations, referred to in this article as \"algebra\", from the origins to the emergence of algebra as a separate area of mathematics.\n\nThe word \"algebra\" is derived from the Arabic word الجبر al-jabr, and this comes from the treatise written in the year 830 by the medieval Persian mathematician, Al-Khwārizmī, whose Arabic title, Kitāb al-muḫtaṣar fī ḥisāb al-ğabr wa-l-muqābala, can be translated as The Compendious Book on Calculation by Completion and Balancing. The treatise provided for the systematic solution of linear and quadratic equations. According to one history, \"t is not certain just what the terms al-jabr and muqabalah mean, but the usual interpretation is",
+      "excerpt_offset": 0,
+      "total_chars": 53444,
+      "bm25": {
+        "q1": {
+          "rank": 2,
+          "score": 48.8627
+        }
+      },
+      "best_rank": 2,
+      "title_similarity": 0.2222,
+      "context_overlap": 0.0548,
+      "cosine": 0.277303,
+      "rerank_logit": -6.090821,
+      "rerank_position": 7
+    },
+    {
+      "page_id": "77708174",
+      "revision_id": "1242055572",
+      "title": "Johann Friedrich Nolte",
+      "url": "https://en.wikipedia.org/wiki/Johann_Friedrich_Nolte",
+      "excerpt": "Johann Friedrich Nolte (15 July 1694 – 12 June 1754) was a German schoolmaster, theologian and philologist.\n\nBorn in Einbeck in the Principality of Grubenhagen, Nolte was educated in Schöningen, where his father, Paul Martin Nolte, was conrector. In 1711, he went to the Martineum Gymnasium in Braunschweig. In 1712, he went to live with Georg Nitsch while attending the Ernestine Gymnasium. In 1713, he transferred to the Joachimsthal Gymnasium in Berlin. In 1714, he enrolled in theology at the University of Helmstedt.\n\nNolte was recognized by contemporaries as an excellent debater and preacher. In 1716, he published the theological Animadversiones exegeticae. He also wrote poetry. After his father's death, Duke Augustus William appointed him conrector of the Schöningen gymnasium in January 1717. He held the post until February 1747, when he was promoted to rector. His health soon declined and he died in office. His posthumous reputation rests largely on his philological work, especially the Lexicon linguae latinae Antibarbarum of 1730.",
+      "excerpt_offset": 0,
+      "total_chars": 1049,
+      "bm25": {
+        "q0": {
+          "rank": 3,
+          "score": 17.2771
+        }
+      },
+      "best_rank": 3,
+      "title_similarity": 0.1935,
+      "context_overlap": 0.0,
+      "cosine": 0.110655,
+      "rerank_logit": -6.902163,
+      "rerank_position": 27
+    },
+    {
+      "page_id": "19374248",
+      "revision_id": "1313405771",
+      "title": "Timeline of geometry",
+      "url": "https://en.wikipedia.org/wiki/Timeline_of_geometry",
+      "excerpt": "The following is a timeline of key developments of geometry:\n\nca. 2000 BC – Scotland, carved stone balls exhibit a variety of symmetries including all of the symmetries of Platonic solids.\n\n1800 BC – Moscow Mathematical Papyrus, findings volume of a frustum\n\n1800 BC – Plimpton 322 contains the oldest reference to the Pythagorean triplets.\n\n1650 BC – Rhind Mathematical Papyrus, copy of a lost scroll from around 1850 BC, the scribe Ahmes presents one of the first known approximate values of π at 3.16, the first attempt at squaring the circle, earliest known use of a sort of cotangent, and knowledge of solving first order linear equations\n\n800 BC – Baudhayana, author of the Baudhayana Sulba Sutra, a Vedic Sanskrit geometric text, contains quadratic equations, and calculates the square root of 2 correct to five decimal places\n\nca. 600 BC – the other Vedic \" Sulba Sutras \" (\"rule of chords\" in Sanskrit) use Pythagorean triples, contain a number of geometrical proofs, and approximate π at 3.16\n\n530 BC – Pythagoras studies propositional geometry and vibrating lyre strings; his group also discover the irrationality of the square root of two,\n\n5th century BC – Hippocrates of Chios utilizes ",
+      "excerpt_offset": 0,
+      "total_chars": 8619,
+      "bm25": {
+        "q1": {
+          "rank": 3,
+          "score": 48.5718
+        }
+      },
+      "best_rank": 3,
+      "title_similarity": 0.3448,
+      "context_overlap": 0.0115,
+      "cosine": 0.185413,
+      "rerank_logit": -7.15852,
+      "rerank_position": 31
+    },
+    {
+      "page_id": "48911736",
+      "revision_id": "1144669663",
+      "title": "Christian Friedrich Fritzsche",
+      "url": "https://en.wikipedia.org/wiki/Christian_Friedrich_Fritzsche",
+      "excerpt": "Christian Friedrich Fritzsche (17 August 1776 in Naundorf near Zeitz – 29 October 1850 in Zürich) was a German Protestant theologian. He was the father of theologian Otto Fridolinus Fritzsche and of philologist Franz Volkmar Fritzsche.\n\nFrom 1792 he studied theology at the University of Halle, afterwards working as a pastor in Steinbach und Lauterbach (from 1799). In 1809 he became a preacher and superintendent in the community of Dobrilugk. In 1827 he was named an honorary professor of theology at Halle, where in 1830 he gained a full professorship. He was interested in public school education, and he wrote monographs and articles on contemporary theological issues from a supernaturalistic viewpoint.\n\nIn 1838 a collection of his writings were published with the title, Fritzschiorum opuscula academica. Later on, a collection of his writings were issued as Nova opuscula academica (1846). The following is a list of a few of his writings:\n\n\"De revelationis notione biblia commentatio\", 1828.\n\n\"De spiritu sancto commentatio exegetica et dogmatica\", 1840.\n\n\"De ratione docendi Socratica in institutione academica\", 1846.",
+      "excerpt_offset": 0,
+      "total_chars": 1130,
+      "bm25": {
+        "q0": {
+          "rank": 4,
+          "score": 17.0092
+        }
+      },
+      "best_rank": 4,
+      "title_similarity": 0.1579,
+      "context_overlap": 0.0133,
+      "cosine": 0.048653,
+      "rerank_logit": -7.178693,
+      "rerank_position": 32
+    },
+    {
+      "page_id": "26855522",
+      "revision_id": "1344448544",
+      "title": "Alhazen's problem",
+      "url": "https://en.wikipedia.org/wiki/Alhazen%27s_problem",
+      "excerpt": "Alhazen's problem is a mathematical problem in optics concerning reflection in a spherical mirror. It asks for the point in the mirror where one given point reflects to another.The special case of a concave spherical mirror is also known as Alhazen's billiard problem, as it can be formulated equivalently as constructing a reflected path from one billiard ball to another on a circular billiard table. Other equivalent formulations ask for the shortest path from one point to the other that touches the circle, or for an ellipse that is tangent to the circle and has the given points as its foci.\n\nAlthough special cases of this problem were studied by Ptolemy in the 2nd century CE, it is named for the 11th-century Arab mathematician Alhazen (Hasan Ibn al-Haytham), who formulated it more generally and presented a solution in his Book of Optics. It has no straightedge and compass construction; instead, al-Haytham and others including Christiaan Huygens found solutions involving the intersection of conic sections. According to Roberto Marcolongo, Leonardo da Vinci invented a mechanical device to solve the problem. Later mathematicians, starting with Jack M. Elkin in 1965, solved the problem",
+      "excerpt_offset": 0,
+      "total_chars": 16398,
+      "bm25": {
+        "q1": {
+          "rank": 4,
+          "score": 48.4064
+        }
+      },
+      "best_rank": 4,
+      "title_similarity": 0.1538,
+      "context_overlap": 0.025,
+      "cosine": 0.186713,
+      "rerank_logit": -7.084213,
+      "rerank_position": 29
+    },
+    {
+      "page_id": "26443475",
+      "revision_id": "1328061037",
+      "title": "Johann Ludwig von Wolzogen",
+      "url": "https://en.wikipedia.org/wiki/Johann_Ludwig_von_Wolzogen",
+      "excerpt": "Johann Ludwig von Wolzogen Freiherr zu Neuhuas Freiherr auf Fahrenfeldt (1599–1661) was an Austrian nobleman and Socinian theologian.\n\nWolzogen was born in Nové Zámky (modern Slovakia), known then as Neuhäusel in German and Érsekújvár in Hungarian. He inherited the titles of Baron of Tarenfeldt and Freiherr of Neuhäusel.\n\nComenius became acquainted with Wolzogen in 1638. And Wolzogen took issue with the followers of Descartes. Wolzogen was a distinguished exegete, and, besides his Bible commentaries, wrote a Compendium religionis Christianae and a criticism of the doctrine of the Trinity. Among the early Unitarians Wolzogen is among those noted for his uncompromising preaching of pacifism. along with Joachim Stegmann and Daniel Zwicker.\n\nHe died in Silesia.\n\nJohann Ludwig Wolzogen - Uwagi do medytacji metafizycznych René Descartes'a (Polish)\n\nBiblioteca Fratrum Polonorum Vol.vii-viii Johannis Ludovici Wolzogenii Baronis Austriaci : Opera omnia, exegetica, didacteca, et polemica, Quorum Seriem versa pagina exhibet, Cum indicibus necessariis. Frans Kuyper Amsterdam 1668\n\nDe Scripturarum interprete adversus exercitatorem paradoxum libri duo 1668\n\nBibliotheca Fratrum Polonorum Online",
+      "excerpt_offset": 0,
+      "total_chars": 1198,
+      "bm25": {
+        "q0": {
+          "rank": 5,
+          "score": 16.388
+        }
+      },
+      "best_rank": 5,
+      "title_similarity": 0.1143,
+      "context_overlap": 0.0099,
+      "cosine": 0.078363,
+      "rerank_logit": -6.740309,
+      "rerank_position": 23
+    },
+    {
+      "page_id": "2479369",
+      "revision_id": "1351549261",
+      "title": "Abu Kamil",
+      "url": "https://en.wikipedia.org/wiki/Abu_Kamil",
+      "excerpt": "as Auoquamel, Arabic: أبو كامل شجاع بن أسلم بن محمد بن شجاع, also known as Al-ḥāsib al-miṣrī — lit. \"The Egyptian Calculator\") (c. 850 – c. 930) was a prominent Egyptian mathematician during the Islamic Golden Age. He is considered the first mathematician to systematically use and accept irrational numbers as solutions and coefficients to equations. His mathematical techniques were later adopted by Fibonacci, thus allowing Abu Kamil an important part in introducing algebra to Europe.\n\nAbu Kamil made important contributions to algebra and geometry. He was the first Islamic mathematician to work easily with algebraic equations with powers higher than x 2 {\\displaystyle x^{2}} (up to x 8 {\\displaystyle x^{8}}), and solved sets of non-linear simultaneous equations with three unknown variables. He illustrated the rules of signs for expanding the multiplication (a ± b) (c ± d) {\\displaystyle (a\\pm b)(c\\pm d)}. He wrote all problems rhetorically, and some of his books lacked any mathematical notation beside those of integers. For example, he uses the Arabic expression \"māl māl shayʾ\" (\"square-square-thing\") for x 5 {\\displaystyle x^{5}} (as x 5 = x 2 ⋅ x 2 ⋅ x {\\displaystyle x^{5}=x^{2}\\c",
+      "excerpt_offset": 62,
+      "total_chars": 7801,
+      "bm25": {
+        "q1": {
+          "rank": 5,
+          "score": 46.2102
+        }
+      },
+      "best_rank": 5,
+      "title_similarity": 0.1111,
+      "context_overlap": 0.029,
+      "cosine": 0.222392,
+      "rerank_logit": -6.070906,
+      "rerank_position": 6
+    },
+    {
+      "page_id": "1473408",
+      "revision_id": "1351228111",
+      "title": "Johann Leonhard Hug",
+      "url": "https://en.wikipedia.org/wiki/Johann_Leonhard_Hug",
+      "excerpt": "n Deutung, 1813), to the effect that the lover represents King Hezekiah, while by his beloved is intended the remnant left in Israel after the deportation of the ten tribes; and treatises on the indissoluble character of the matrimonial bond (De conjugii christiani vinculo indissolubili commentatio exegetica, 1816) and on the Alexandrian version of the Pentateuch (1818).\n\nHis Einleitung in die Schriften des Neuen Testaments, his major work, was completed in 1808 (fourth German edition, 1847; English translations by Daniel Guilford Wait, London, 1827, and by David Fosdick and Moses Stuart, New York, 1836; French partial translation by J. E. Cellerier, Geneva, 1823). In the portion relating to the history of the text he holds it to have been current up to the middle of the 3rd century only in a common edition, of which recensions were afterwards made by Hesychius, an Egyptian bishop, by Lucian of Antioch and by Origen.\n\nFrom 1828 until it ceased to be published in 1834, Hug was a regular contributor to the Zeitschrift für die Geistlichkeit des Erzbisthums Freyburg. Hug was also the first editor (from 1839 until his death in 1846) of the newly founded Zeitschrift für Theologie, publis",
+      "excerpt_offset": 1835,
+      "total_chars": 3961,
+      "bm25": {
+        "q0": {
+          "rank": 6,
+          "score": 15.8862
+        }
+      },
+      "best_rank": 6,
+      "title_similarity": 0.1429,
+      "context_overlap": 0.0111,
+      "cosine": 0.095046,
+      "rerank_logit": -6.62932,
+      "rerank_position": 21
+    },
+    {
+      "page_id": "537048",
+      "revision_id": "1325039164",
+      "title": "Equation solving",
+      "url": "https://en.wikipedia.org/wiki/Equation_solving",
+      "excerpt": "In mathematics, to solve an equation is to find the solutions of an equation, which are the values (numbers, functions, sets, etc.) that fulfill the condition stated by the equation, consisting generally of two expressions related by an equals sign. When seeking a solution, one or more variables are designated as unknowns. A solution is an assignment of values to the unknown variables that makes the equality in the equation true. In other words, a solution is a value or a collection of values (one for each unknown) such that, when substituted for the unknowns, the equation becomes an equality.A solution of an equation is often called a root of the equation, particularly but not only for polynomial equations. The set of all solutions of an equation is its solution set.\n\nAn equation may be solved either numerically or symbolically. Solving an equation numerically means that only numbers are admitted as solutions. Solving an equation symbolically means that expressions can be used for representing the solutions.\n\nFor example, the equation x + y = 2 x – 1 is solved for the unknown x by the expression x = y + 1, because substituting y + 1 for x in the equation results in (y + 1) + y = 2",
+      "excerpt_offset": 0,
+      "total_chars": 12818,
+      "bm25": {
+        "q1": {
+          "rank": 6,
+          "score": 45.5489
+        }
+      },
+      "best_rank": 6,
+      "title_similarity": 0.2727,
+      "context_overlap": 0.0392,
+      "cosine": 0.324507,
+      "rerank_logit": -5.563396,
+      "rerank_position": 1
+    },
+    {
+      "page_id": "72215496",
+      "revision_id": "1223240457",
+      "title": "Ludwig Joseph Uhland",
+      "url": "https://en.wikipedia.org/wiki/Ludwig_Joseph_Uhland",
+      "excerpt": "Ludwig Joseph Uhland (1722–1803) was a German doctor and professor of theology.\n\nLudwig Joseph Uhland was born at Tübingen on 15 May 1722, where he also died on 15 December 1803. Additional information needed\n\nDe Hist. Restaurati post Diluv. Orbis ab Exitu Noæ ex Arcausque ad Dispeisionen Gentiuns (Tübingen, 1761);\n\nDe Ordine Vaticiniorum, quæ in Sedecim Prophet. Scripta Extant, Chrionologico (Tübingen, 1778);\n\nAnnotationes ad Loca quædam Amosi, Imprim. Historica (Tübingen, 1779–80);\n\nAnnotationes in Hoseæ Cap. iii (Tübingen, 1787);\n\nCap. v, vi, 1–3 (Tübingen, 1789);\n\nCap. vi, 4–11; vii, 1–6 (Tübingen, 1790);\n\nCap. viii (Tübingen, 1791);\n\nCap. ix (Tübingen, 1792);\n\nDissertatio Exegetica in Hagg. ii, 1–9 (Tübingen, 1789).\n\nSchott, Theodor (1895). \"Uhland, Ludwig Josef\". In Allgemeine Deutsche Biographie (ADB). Vol. 39. Leipzig: Duncker & Humblot. pp. 146–148.\n\nAttribution:\n\nPick, B. (1881). \"Uhland, Ludwig Joseph\". In McClintock, John; Strong, James (eds.). Cyclopædia of Biblical, Theological and Ecclesiastical Literature. Vol. 10.—Su–Z. New York: Harper & Brothers. pp. 625–626. This article incorporates text from this source, which is in the public domain.",
+      "excerpt_offset": 0,
+      "total_chars": 1174,
+      "bm25": {
+        "q0": {
+          "rank": 7,
+          "score": 15.735
+        }
+      },
+      "best_rank": 7,
+      "title_similarity": 0.1379,
+      "context_overlap": 0.0128,
+      "cosine": 0.069809,
+      "rerank_logit": -6.328762,
+      "rerank_position": 14
+    },
+    {
+      "page_id": "1406909",
+      "revision_id": "1348031305",
+      "title": "Al-Jabr",
+      "url": "https://en.wikipedia.org/wiki/Al-Jabr",
+      "excerpt": "The Concise Book of Calculation by Restoration and Balancing (Arabic: الكتاب المختصر في حساب الجبر والمقابلة, al-Kitāb al-Mukhtaṣar fī Ḥisāb al-Jabr wal-Muqābalah; or Latin: Liber Algebræ et Almucabola), commonly abbreviated Al-Jabr or Algebra (Arabic: الجبر), is an Arabic-language mathematical treatise on algebra written in Baghdad around 820 by the Persian polymath Al-Khwarizmi. It was a landmark work in the history of mathematics, with its title being the ultimate etymology of the word \"algebra\" itself, later borrowed into Medieval Latin as algebrāica.\n\nAl-Jabr provided an exhaustive account of solving for the positive roots of polynomial equations up to the second degree. It was the first text to teach elementary algebra, and the first to teach algebra for its own sake. It also introduced the fundamental concept of \"reduction\" and \"balancing\" (which the term al-jabr originally referred to), the transposition of subtracted terms to the other side of an equation, i.e. the cancellation of like terms on opposite sides of the equation. The mathematics historian Victor J. Katz regards Al-Jabr as the first true algebra text that is still extant. Translated into Latin by Robert of Ches",
+      "excerpt_offset": 0,
+      "total_chars": 6611,
+      "bm25": {
+        "q1": {
+          "rank": 7,
+          "score": 45.4463
+        }
+      },
+      "best_rank": 7,
+      "title_similarity": 0.125,
+      "context_overlap": 0.038,
+      "cosine": 0.307955,
+      "rerank_logit": -6.297785,
+      "rerank_position": 13
+    },
+    {
+      "page_id": "24238703",
+      "revision_id": "1305630980",
+      "title": "David Toshio Tsumura",
+      "url": "https://en.wikipedia.org/wiki/David_Toshio_Tsumura",
+      "excerpt": "David Toshio Tsumura (津村 俊夫, Tsumura Toshio; born February 4, 1944) is a linguist, Old Testament scholar, dean of faculty, and professor of Old Testament professor at Japan Bible Seminary. His degrees are M.Div., M.A., Ph.D. He is a chairman of the Tokyo Museum of Biblical Archaeology, editor of Exegetica: Studies in Biblical Exegesis, chairman of the New Japanese Bible（新改訳）Publishing Association, and author of the volume on 1 Samuel in the New International Commentary on the Old Testament series.\n\nHe is well known as an Ugarit scholar.\n\nTsumura was born in Kobe, Japan, in 1944. He graduated from Hitotsubashi University in 1966, where he majored in commerce before continuing his studies in the USA. While studying ethics, he became interested in the study of the Hebrew Bible. He applied to Asbury Theological Seminary to study for an M.Div., graduating in 1969. He then applied to Brandeis University for a research master's degree in Mediterranean Studies, which he completed in 1971. Tsumura's doctorate, also in Mediterranean Studies, was awarded by the same university in 1973 for his work on Ugarit.\n\nAfter graduating from Brandeis University in 1974, he returned to Japan where he bec",
+      "excerpt_offset": 0,
+      "total_chars": 2106,
+      "bm25": {
+        "q0": {
+          "rank": 8,
+          "score": 14.5093
+        }
+      },
+      "best_rank": 8,
+      "title_similarity": 0.2069,
+      "context_overlap": 0.0147,
+      "cosine": 0.060975,
+      "rerank_logit": -6.837456,
+      "rerank_position": 25
+    },
+    {
+      "page_id": "3304216",
+      "revision_id": "1348487049",
+      "title": "Mathematics in the medieval Islamic world",
+      "url": "https://en.wikipedia.org/wiki/Mathematics_in_the_medieval_Islamic_world",
+      "excerpt": "during the 9th and 10th centuries, was built upon syntheses of Greek mathematics (Euclid, Archimedes, Apollonius) and Indian mathematics (Aryabhata, Brahmagupta). Important developments of the period include extension of the place-value system to include decimal fractions, the systematised study of algebra and advances in geometry and trigonometry.\n\nThe medieval Islamic world underwent significant developments in mathematics. Muhammad ibn Musa al-Khwārizmī played a key role in this transformation, introducing algebra as a distinct field in the 9th century. Al-Khwārizmī 's approach, departing from earlier arithmetical traditions, laid the groundwork for the arithmetization of algebra, influencing mathematical thought for an extended period. Successors like Al-Karaji expanded on his work, contributing to advancements in various mathematical domains. The practicality and broad applicability of these mathematical methods facilitated the dissemination of Arabic mathematics to the West, contributing substantially to the evolution of Western mathematics.\n\nArabic mathematical knowledge spread through various channels during the medieval era, driven by the practical applications of Al-Khwār",
+      "excerpt_offset": 55,
+      "total_chars": 22501,
+      "bm25": {
+        "q1": {
+          "rank": 8,
+          "score": 45.399
+        }
+      },
+      "best_rank": 8,
+      "title_similarity": 0.2041,
+      "context_overlap": 0.0118,
+      "cosine": 0.138901,
+      "rerank_logit": -6.788224,
+      "rerank_position": 24
+    },
+    {
+      "page_id": "21648374",
+      "revision_id": "1346916067",
+      "title": "List of works by Bede",
+      "url": "https://en.wikipedia.org/wiki/List_of_works_by_Bede",
+      "excerpt": "ed at Cologne in 1688. Casimir Oudin 's commentary on the authenticity of the textual attributions to Bede in these editions was published in 1722, and was reproduced by Migne.\n\nCorpus Christianorum, Series Latina. The following volumes of this series contain works by Bede:\n\nVol. 118A (1967): Opera Exegetica. Ed. C.W. Jones. Contains Libri quatuor in principium Genesis usque ad nativitatem Isaac et eiectionem Ismahelis adnotationum.\n\nVol. 119A (1969): Opera Exegetica. Ed.D. Hurst. Contains De tabernaculo, De templo and In Ezram et Neemiam.\n\nVol. 119B (1983): Opera Exegetica. Ed.D. Hurst, J.E. Hudson. Contains In Tobiam, In Proverbia, In Cantica canticorum, and In Habacuc.\n\nVol. 120 (1960): Opera Exegetica. Ed.D. Hurst. In Lucae evangelium expositio, and In Marci evangelium expositio..\n\nVol. 121 (1983): Opera Exegetica. Ed. M.L.W. Laistner, D. Hurst. Contains Expositio Actuum apostolorum, Retractatio in Actus apostolorum, Nomina regionum atque locorum de Actibus apostolorum, and In epistulas VII catholicas.\n\nVol. 121A (2001): Opera Exegetica. Ed. R. Gryson. Contains Expositio Apocalypseos.\n\nVol. 123A (1975): Opera Didascalica. Eds. C.W. Jones, C.B. Kendall, M.H. King, C.W. Jones. Co",
+      "excerpt_offset": 23949,
+      "total_chars": 28643,
+      "bm25": {
+        "q0": {
+          "rank": 9,
+          "score": 14.0962
+        }
+      },
+      "best_rank": 9,
+      "title_similarity": 0.1379,
+      "context_overlap": 0.0145,
+      "cosine": 0.1311,
+      "rerank_logit": -6.241245,
+      "rerank_position": 11
+    },
+    {
+      "page_id": "585143",
+      "revision_id": "1337232790",
+      "title": "Closed-form expression",
+      "url": "https://en.wikipedia.org/wiki/Closed-form_expression",
+      "excerpt": "ions (+, −, ×, /, and integer powers) and function composition. Commonly, the basic functions that are allowed in closed forms are n th root, exponential function, logarithm, and trigonometric functions. However, the set of basic functions depends on the context. For example, if one adds polynomial roots to the basic functions, the functions that have a closed form are called elementary functions.\n\nThe closed-form problem arises when new ways are introduced for specifying mathematical objects, such as limits, series, and integrals: given an object specified with such tools, a natural problem is to find, if possible, a closed-form expression of this object; that is, an expression of this object in terms of previous ways of specifying it.\n\nThe quadratic formula\n\nx = − b ± b 2 − 4 a c 2 a {\\displaystyle x={\\frac {-b\\pm {\\sqrt {b^{2}-4ac}}}{2a}}}\n\nis a closed form of the solutions to the general quadratic equation a x 2 + b x + c = 0. {\\displaystyle ax^{2}+bx+c=0.}\n\nMore generally, in the context of polynomial equations, a closed form of a solution is a solution in radicals; that is, a closed-form expression for which the allowed functions are only n th-roots and field operations (+, −",
+      "excerpt_offset": 178,
+      "total_chars": 9169,
+      "bm25": {
+        "q1": {
+          "rank": 9,
+          "score": 44.9064
+        }
+      },
+      "best_rank": 9,
+      "title_similarity": 0.2759,
+      "context_overlap": 0.0508,
+      "cosine": 0.237164,
+      "rerank_logit": -7.041838,
+      "rerank_position": 28
+    },
+    {
+      "page_id": "521325",
+      "revision_id": "1330608093",
+      "title": "Basilides",
+      "url": "https://en.wikipedia.org/wiki/Basilides",
+      "excerpt": "o have inherited his teachings from the apostle Saint Matthias. He was a pupil of either the Simonian teacher Menander, or a disciple of Peter called Glaucias. He is believed to have written over a 24 book long commentary on the Christian Gospel as reported by Agrippa Castor (now all lost) entitled Exegetica, making him one of the earliest Gospel commentators. Origen of Alexandria informs us of a Gospel according to Basilides but his report is probably nothing more than a distortion of the well-known fact that Basilides had composed a collection of commentaries on the Gospel, his Exegetica. Jerome and Ambrose similarly follow this error.\n\nThe followers of Basilides, the Basilideans, formed a movement that persisted for at least two centuries after him – Epiphanius of Salamis, at the end of the 4th century, recognized a persistent Basilidian presence over the Nile Delta in Egypt. It is probable, however, that the school melded into the mainstream of Gnosticism by the latter half of the 2nd century.\n\nThe two main sources for the mythological and philosophical system of Basilides are from the writings of Irenaeus and Hippolytus of Rome. However, these two sources starkly contradict on",
+      "excerpt_offset": 185,
+      "total_chars": 19568,
+      "bm25": {
+        "q0": {
+          "rank": 10,
+          "score": 13.7409
+        }
+      },
+      "best_rank": 10,
+      "title_similarity": 0.1176,
+      "context_overlap": 0.0241,
+      "cosine": 0.050299,
+      "rerank_logit": -6.097981,
+      "rerank_position": 8
+    },
+    {
+      "page_id": "9284",
+      "revision_id": "1332217882",
+      "title": "Equation",
+      "url": "https://en.wikipedia.org/wiki/Equation",
+      "excerpt": "In mathematics, an equation is a mathematical formula that expresses the equality of two expressions, by connecting them with the equals sign =. The word equation and its cognates in other languages may have subtly different meanings; for example, in French an équation is defined as containing one or more variables, while in English, any well-formed formula consisting of two expressions related with an equals sign is an equation.\n\nSolving an equation containing variables consists of determining which values of the variables make the equality true. The variables for which the equation has to be solved are also called unknowns, and the values of the unknowns that satisfy the equality are called solutions of the equation. There are two kinds of equations: identities and conditional equations. An identity is true for all values of the variables. A conditional equation is only true for particular values of the variables.\n\nThe \" = \" symbol, which appears in every equation, was invented in 1557 by Robert Recorde, who considered that nothing could be more equal than parallel straight lines with the same length.\n\nAn equation is written as two expressions, connected by an equals sign (\"=\"). ",
+      "excerpt_offset": 0,
+      "total_chars": 24381,
+      "bm25": {
+        "q1": {
+          "rank": 10,
+          "score": 44.8638
+        }
+      },
+      "best_rank": 10,
+      "title_similarity": 0.3529,
+      "context_overlap": 0.0351,
+      "cosine": 0.23711,
+      "rerank_logit": -6.341264,
+      "rerank_position": 15
+    },
+    {
+      "page_id": "37535899",
+      "revision_id": "1303077065",
+      "title": "Carolus Gallus",
+      "url": "https://en.wikipedia.org/wiki/Carolus_Gallus",
+      "excerpt": " as Roman Catholics from Spain who infiltrated the city. He was appointed as professor of theology at the University of Leiden in 1587 and maintained this position rather shortly, as he took a call to become minister in Oldenbroek in 1592, where he remained until his death.\n\nLehre de Christelicken geloovens in veer boecken tegen den wedertöpern erdömmen. Bremen, 1577(?).\n\nExegetica adversus catabaptistas: effte gruendtlike und uthuqeorlike vorklaringe. 1577.\n\nClavis prophetica nova apocatypseos, Joannis apostoli et evangeliographi. 1592.\n\nAccesserunt theses de antichristo, & tractatus de magistratu. Apoc. 22 vers 10. Lugd. Bat. 1592.\n\nDe febribus pestilentibus, ac malignis, tractatus bipartitus. In quo elegantissima & copiosa alexipharmaca usuque comprobata per eumdem acurate examinantur. Nec non quaestio an venae sectio cucurbitule hyrudines vel scarificationes conveniant in dictis febribus authoritatib. eximiorum virorum absolvitur. Ferrariae, Apud Victorium Baldinum, 1600.\n\nMalleus Anabaptistarum Een hamer op dat hoeft aller Wederdoperschen secten. Arnhem: Jan Janssen, 1606.\n\nBrevis responsio ad solutiones ad solutiones datas ad Adversariis ad argumenta Maccovii. Franeker, 1642.",
+      "excerpt_offset": 1419,
+      "total_chars": 2619,
+      "bm25": {
+        "q0": {
+          "rank": 11,
+          "score": 13.3697
+        }
+      },
+      "best_rank": 11,
+      "title_similarity": 0.1905,
+      "context_overlap": 0.0091,
+      "cosine": 0.073836,
+      "rerank_logit": -5.716722,
+      "rerank_position": 4
+    },
+    {
+      "page_id": "91110",
+      "revision_id": "1351956306",
+      "title": "Doubling the cube",
+      "url": "https://en.wikipedia.org/wiki/Doubling_the_cube",
+      "excerpt": "Doubling the cube, also known as the Delian problem, is an ancient: 9 geometric problem. Given the edge of a cube, the problem requires the construction of the edge of a second cube whose volume is double that of the first. As with the related problems of squaring the circle and trisecting the angle, doubling the cube is now known to be impossible to construct by using only a compass and straightedge, but even in ancient times solutions were known that employed other methods.\n\nAccording to Eutocius, Archytas was the first to solve the problem of doubling the cube (the so-called Delian problem) with an ingenious geometric construction. The nonexistence of a compass-and-straightedge solution was finally proven by Pierre Wantzel in 1837.\n\nIn algebraic terms, doubling a unit cube requires the construction of a line segment of length x, where x 3 = 2; in other words, x = 2 3 {\\displaystyle {\\sqrt{2}}}, the cube root of two. This is because a cube of side length 1 has a volume of 1 3 = 1, and a cube of twice that volume (a volume of 2) has a side length of the cube root of 2. The impossibility of doubling the cube is therefore equivalent to the statement that 2 3 {\\displaystyle {\\sqrt{2}",
+      "excerpt_offset": 0,
+      "total_chars": 9176,
+      "bm25": {
+        "q1": {
+          "rank": 11,
+          "score": 44.3041
+        }
+      },
+      "best_rank": 11,
+      "title_similarity": 0.1739,
+      "context_overlap": 0.0364,
+      "cosine": 0.193786,
+      "rerank_logit": -6.546656,
+      "rerank_position": 17
+    },
+    {
+      "page_id": "29218309",
+      "revision_id": "1335818397",
+      "title": "Bibliotheca Fratrum Polonorum quos Unitarios vocant",
+      "url": "https://en.wikipedia.org/wiki/Bibliotheca_Fratrum_Polonorum_quos_Unitarios_vocant",
+      "excerpt": "næ Slichtingii... commentaria posthuma, in plerosque Novi Testamenti libros... hactenus inedita, include de magistratu, bello, et privata defensione,... didactica, et polemica etc. (1665, 2 tomes in one volume)\n\nVols VII-VIII: Johann Ludwig von Wolzogen, Johannis Ludovici Wolzogenii... opera omnia, exegetica, didactica, et polemica, etc. (1668)\n\nVol IX. Samuel Przypkowski, Cogitationes sacrae ad initium Evangelii Matthaei et omnes Epistolas apostolicas. 1692 (edited by John Locke's correspondent Philippus van Limborch (1633-1712) the Dutch Remonstrant theologian). This final volume was prepared for publication by Benedykt Wiszowaty (the great-grandson of Faustus Socinius), who added eight brief essays on the history of Polish Socinianism.\n\nThe Eton College library had a collection of the original Racovian books printed by Sternacki about 1630, possibly donated by John Hales, but these had disappeared by 1674. John Locke possessed a full set of Vols I-VIII and was personally involved in commissioning Vol IX. Pierre Bayle appears to have had access to a full set.\n\nOutside the series of the Bibliotheca fratrum Polonorum, various other Racovian and Socinian texts were printed or reprin",
+      "excerpt_offset": 858,
+      "total_chars": 3498,
+      "bm25": {
+        "q0": {
+          "rank": 12,
+          "score": 11.6913
+        }
+      },
+      "best_rank": 12,
+      "title_similarity": 0.1017,
+      "context_overlap": 0.01,
+      "cosine": 0.079248,
+      "rerank_logit": -6.505866,
+      "rerank_position": 16
+    },
+    {
+      "page_id": "18716923",
+      "revision_id": "1353739694",
+      "title": "Algebra",
+      "url": "https://en.wikipedia.org/wiki/Algebra",
+      "excerpt": "Algebra is a branch of mathematics that deals with abstract systems, known as algebraic structures, and the manipulation of expressions within those systems. It is a generalization of arithmetic that introduces variables and algebraic operations other than the standard arithmetic operations, such as addition and multiplication.\n\nElementary algebra is the main form of algebra taught in schools. It examines mathematical statements using variables for unspecified values and seeks to determine for which values the statements are true. To do so, it uses different methods of transforming equations to isolate variables. Linear algebra is a closely related field that investigates linear equations and combinations of them called systems of linear equations. It provides methods to find the values that solve all equations in the system at the same time, and to study the set of these solutions.\n\nAbstract algebra studies algebraic structures, which consist of a set of mathematical objects together with one or several operations defined on that set. It is a generalization of elementary and linear algebra since it allows mathematical objects other than numbers and non-arithmetic operations. It di",
+      "excerpt_offset": 0,
+      "total_chars": 41844,
+      "bm25": {
+        "q1": {
+          "rank": 12,
+          "score": 43.9301
+        }
+      },
+      "best_rank": 12,
+      "title_similarity": 0.375,
+      "context_overlap": 0.0323,
+      "cosine": 0.327906,
+      "rerank_logit": -6.108376,
+      "rerank_position": 9
+    },
+    {
+      "page_id": "6589534",
+      "revision_id": "1336636238",
+      "title": "Oecumenius",
+      "url": "https://en.wikipedia.org/wiki/Oecumenius",
+      "excerpt": "aul) by Donatus (Verona, 1532). Morellus (Paris, 1631) re-edited these with a Latin translation; his edition is reproduced in Patrologia Graeca, vol. CXVIII-CIX. All these were based on manuscripts which were incomplete.\n\nThe most recent edition was published by Marc De Groote in 1999 (in: Traditio exegetica graeca 8, Leuven).\n\nOecumenius is known to have been an early proponent of the sinlessness of the Virgin Mary:\n\nHe calls the mother of God a \"cloud\" on whom he rode, honoring her who is his mother according to the flesh. For, indeed, Isaiah foresaw her in this manner, saying, \"Behold, the Lord is seated on a swift cloud, and he will come to Egypt, and the idols of Egypt will tremble at his presence.\" Interpreting this saying, Aquila says that the cloud is a \"light material.\" \"Material,\" as I think, because she was a human being and flesh, and \"light\" because of her purity and blamelessness and because not even one sin weighed her down, yet also because of the excellence and heavenward character of her soul.\n\n— Commentary on the Apocalypse 14.14-16\n\nOecumenius is attributed with teaching that Christ filled all things according to His flesh:\n\nFor, indeed, He long ago filled all t",
+      "excerpt_offset": 2474,
+      "total_chars": 4617,
+      "bm25": {
+        "q0": {
+          "rank": 13,
+          "score": 11.0625
+        }
+      },
+      "best_rank": 13,
+      "title_similarity": 0.3333,
+      "context_overlap": 0.0253,
+      "cosine": 0.08245,
+      "rerank_logit": -6.88751,
+      "rerank_position": 26
+    },
+    {
+      "page_id": "532653",
+      "revision_id": "1341129389",
+      "title": "Seki Takakazu",
+      "url": "https://en.wikipedia.org/wiki/Seki_Takakazu",
+      "excerpt": " 5, 1708), also known as Seki Kōwa (関 孝和), was a mathematician, samurai, and Kofu feudal officer of the early Edo period of Japan.\n\nSeki laid foundations for the subsequent development of Japanese mathematics, known as wasan from c. 1870. He has been described as \"Japan's Newton\".\n\nHe created a new algebraic notation system and, motivated by astronomical computations, did work on infinitesimal calculus and Diophantine equations. Although he was a contemporary of German polymath mathematician and philosopher Gottfried Leibniz and British polymath physicist and mathematician Isaac Newton, Seki's work was independent. His successors later developed a school dominant in Japanese mathematics until the end of the Edo period.\n\nWhile it is not clear how much of the achievements of wasan are Seki's, since many of them appear only in writings of his pupils, some of the results parallel or anticipate those discovered in Europe. For example, he is credited with the discovery of Bernoulli numbers. The resultant and determinant (the first in 1683, the complete version no later than 1710) are attributed to him.\n\nSeki also calculated the value of pi correct to the 10th decimal place, having used w",
+      "excerpt_offset": 45,
+      "total_chars": 9587,
+      "bm25": {
+        "q1": {
+          "rank": 13,
+          "score": 43.8478
+        }
+      },
+      "best_rank": 13,
+      "title_similarity": 0.2727,
+      "context_overlap": 0.0132,
+      "cosine": 0.181919,
+      "rerank_logit": -6.693233,
+      "rerank_position": 22
+    },
+    {
+      "page_id": "461239",
+      "revision_id": "1350781995",
+      "title": "Lucius Cornelius Balbus (proconsul)",
+      "url": "https://en.wikipedia.org/wiki/Lucius_Cornelius_Balbus_(proconsul)",
+      "excerpt": "meet Bogud, king of Mauretania. His presence in historical records fades away until the year 21 BC.\n\nBalbus seems to have dedicated some of his focus to literature: he wrote a play about his visit to Lentulus in Pompey's camp at Dyrrhachium. As reported by Macrobius, he was the author of Ἐξηγητικά (Exegetica), a work engaging with Gods and their worship.\n\nIn 21 BC, Balbus was appointed as Proconsul of Africa. Mommsen thinks that he had incurred the displeasure of Augustus by his conduct as praetor, and that his African appointment after so many years was due to his exceptional capabilities for the post.\n\nIn 19 BC Balbus defeated the Garamantes, and on 27 March in that year received the honour of a triumph, which was then for the first time granted to one who was not a Roman citizen by birth, and for the last time to a private individual.\n\nBalbus built a new theatre, called theatre of Balbus, in Rome in 13 BC, connected to his Crypta Balbi complex in the South-Eastern part of the Campus Martius.\n\nSome of the reasons for the construction were the high demand of innovative and new buildings in the capital and the desire for fame and favor from his supporters, including the emperor Aug",
+      "excerpt_offset": 1586,
+      "total_chars": 5515,
+      "bm25": {
+        "q0": {
+          "rank": 14,
+          "score": 9.8979
+        }
+      },
+      "best_rank": 14,
+      "title_similarity": 0.2069,
+      "context_overlap": 0.0114,
+      "cosine": 0.102301,
+      "rerank_logit": -6.197047,
+      "rerank_position": 10
+    },
+    {
+      "page_id": "72719782",
+      "revision_id": "1337468140",
+      "title": "Polynomial root-finding",
+      "url": "https://en.wikipedia.org/wiki/Polynomial_root-finding",
+      "excerpt": "Finding the roots of polynomials is a long-standing problem that has been extensively studied throughout the history and substantially influenced the development of mathematics. It involves determining either a numerical approximation or a closed-form expression of the roots of a univariate polynomial, i.e., determining approximate or closed form solutions of x {\\displaystyle x} in the equation\n\na 0 + a 1 x + a 2 x 2 + ⋯ + a n x n = 0 {\\displaystyle a_{0}+a_{1}x+a_{2}x^{2}+\\cdots +a_{n}x^{n}=0}\n\nwhere a i {\\displaystyle a_{i}} are either real or complex numbers.\n\nEfforts to understand and solve polynomial equations led to the development of important mathematical concepts, including irrational and complex numbers, as well as foundational structures in modern algebra such as fields, rings, and groups.\n\nDespite being historically important, finding the roots of higher degree polynomials no longer play a central role in mathematics and computational mathematics, with one major exception in computer algebra.\n\nClosed-form formulas for polynomial roots exist only when the degree of the polynomial is less than 5. The quadratic formula has been known since antiquity, and the cubic and quar",
+      "excerpt_offset": 0,
+      "total_chars": 22086,
+      "bm25": {
+        "q1": {
+          "rank": 14,
+          "score": 43.8208
+        }
+      },
+      "best_rank": 14,
+      "title_similarity": 0.1379,
+      "context_overlap": 0.1014,
+      "cosine": 0.301076,
+      "rerank_logit": -6.020179,
+      "rerank_position": 5
+    },
+    {
+      "page_id": "13149828",
+      "revision_id": "1327044512",
+      "title": "Herman Nicolaas Ridderbos",
+      "url": "https://en.wikipedia.org/wiki/Herman_Nicolaas_Ridderbos",
+      "excerpt": "pp.\n\nThe Epistle of Paul to the Churches of Galatia, translated by Henry Zylstra. The New International Commentary on the New Testament. Grand Rapids: Eerdmans, 1953. 238 pp.\n\n“Israël in het Nieuwe Testament, in het bijzonder volgens Rom. 9 – 11” in G. Ch. Aalders and H. Ridderbos, Israël, 23 – 73. Exegetica. Oud- en nieuw-testamentische studiën II, 2; Den Haag: Van Keulen, 1955.\n\nHeilsgeschiedenis en Heilige Schrift van het Nieuwe Testament. Het gezag van het Nieuwe Testament. Kampen: J. H. Kok, 1955.\n\nThe Authority of the New Testament Scriptures, translated by H. de Jongste. Philadelphia: Presbyterian and Reformed, 1963. 93 pp.\n\nRedemptive History and the New Testament Scriptures, translated by H. De Jongste, revised by Richard B. Gaffin, Jr. Phillipsburg, NJ: Presbyterian and Reformed, 1968; 2nd Rev. ed., 1988. 91 pp.\n\nWhen the Time Had Fully Come: Studies in New Testament Theology. Grand Rapids: Eerdmans, 1957. 104 pp.\n\nHet verborgen Koninkrijk. Handleiding tot het Evangelie van Mattheüs. Kampen: J. H. Kok, 1958.\n\nMatthew’s Witness to Jesus Christ: The King and the Kingdom. World Christian Books 23. London: Lutterworth Press, 1958.\n\nAan de Romeinen. Commentaar op het Nieuwe Te",
+      "excerpt_offset": 1952,
+      "total_chars": 5083,
+      "bm25": {
+        "q0": {
+          "rank": 15,
+          "score": 8.8827
+        }
+      },
+      "best_rank": 15,
+      "title_similarity": 0.25,
+      "context_overlap": 0.0132,
+      "cosine": 0.058231,
+      "rerank_logit": -6.626329,
+      "rerank_position": 20
+    },
+    {
+      "page_id": "19537780",
+      "revision_id": "1353715989",
+      "title": "Timeline of mathematics",
+      "url": "https://en.wikipedia.org/wiki/Timeline_of_mathematics",
+      "excerpt": "This is a timeline of pure and applied mathematics history. It is divided here into three stages, corresponding to stages in the development of mathematical notation: a \"rhetorical\" stage in which calculations are described purely by words, a \"syncopated\" stage in which quantities and common algebraic operations are beginning to be represented by symbolic abbreviations, and finally a \"symbolic\" stage, in which comprehensive notational systems for formulas are the norm.\n\nca. 70,000 BC – South Africa, ochre rocks adorned with scratched geometric patterns (see Blombos Cave).\n\nca. 35,000 BC to 20,000 BC – Africa and France, earliest known prehistoric attempts to quantify time (see Lebombo bone).\n\nc. 20,000 BC – Nile Valley, Ishango bone: possibly the earliest reference to prime numbers and Egyptian multiplication.\n\nc. 3400 BC – Mesopotamia, the Sumerians invent the first numeral system, and a system of weights and measures.\n\nc. 3100 BC – Egypt, the earliest known decimal system allows indefinite counting by way of introducing new symbols.\n\nc. 2800 BC – Indus Valley Civilization on the Indian subcontinent, earliest use of decimal ratios in a uniform system of ancient weights and measure",
+      "excerpt_offset": 0,
+      "total_chars": 48268,
+      "bm25": {
+        "q1": {
+          "rank": 15,
+          "score": 43.2208
+        }
+      },
+      "best_rank": 15,
+      "title_similarity": 0.3871,
+      "context_overlap": 0.0116,
+      "cosine": 0.178797,
+      "rerank_logit": -7.107759,
+      "rerank_position": 30
+    },
+    {
+      "page_id": "7590188",
+      "revision_id": "1306053329",
+      "title": "List of Gnostic texts",
+      "url": "https://en.wikipedia.org/wiki/List_of_Gnostic_texts",
+      "excerpt": "l Heresies\n\nPanarion\n\nActs of Peter\n\nClementine literature\n\nOdes of Solomon\n\nGospel of Judas\n\nGospel of the Saviour\n\nThese texts are mentioned or partially quoted in the writings of the Church Fathers.\n\nGospel of Basilides mentioned by Origen, Jerome, Ambrose, Philip of Side, and Bede.\n\nBasilides ' Exegetica mentioned in Hippolytus of Rome (Refutatio Omnium Haeresium VII, ixv and X, x) and Clement of Alexandria (Stromata IV, xii and IV, xxiv–xxvi)\n\nEpiphanes ' On Righteousness, mentioned in Clement of Alexandria (Str. III, ii).\n\nHeracleon, Fragments from his Commentary on the Gospel of John, mentioned in Origen (Commentary on the Gospel of John)\n\nNaassene Fragment mentioned in Hippolytus (Ref. 5.7.2–9).\n\nOphite Diagrams mentioned in Celsus and Origen\n\nPtolemy's Commentary on the Gospel of John Prologue, mentioned in Irenaeus.\n\nPtolemy's Letter to Flora, mentioned in Epiphanius.\n\nTheodotus: Excerpta Ex Theodoto mentioned in Clement of Alexandria.\n\nAskew Codex contains Pistis Sophia and some other unknown texts.\n\nBerlin Codex, 5th century, contains a fragmentary Gospel of Mary, out of nineteen pages, pages 1–6 and 11–14 are missing entirely, the Apocryphon of John, The Sophia of Jesu",
+      "excerpt_offset": 4310,
+      "total_chars": 6465,
+      "bm25": {
+        "q0": {
+          "rank": 16,
+          "score": 8.6644
+        }
+      },
+      "best_rank": 16,
+      "title_similarity": 0.2759,
+      "context_overlap": 0.0128,
+      "cosine": 0.040165,
+      "rerank_logit": -6.616916,
+      "rerank_position": 19
+    },
+    {
+      "page_id": "1997",
+      "revision_id": "1351054392",
+      "title": "Algebraic geometry",
+      "url": "https://en.wikipedia.org/wiki/Algebraic_geometry",
+      "excerpt": "Algebraic geometry is a branch of mathematics which uses abstract algebraic techniques, mainly from commutative algebra, to solve geometrical problems. Classically, it studies zeros of multivariate polynomials; the modern approach generalizes this in a few different aspects.\n\nThe fundamental objects of study in algebraic geometry are algebraic varieties, which are geometric manifestations of solutions of systems of polynomial equations. Examples of the most studied classes of algebraic varieties are lines, circles, parabolas, ellipses, hyperbolas, cubic curves like elliptic curves, and quartic curves like lemniscates and Cassini ovals. These are plane algebraic curves. A point of the plane lies on an algebraic curve if its coordinates satisfy a given polynomial equation. Basic questions involve the study of points of special interest like singular points, inflection points and points at infinity. More advanced questions involve the topology of the curve and the relationship between curves defined by different equations.\n\nAlgebraic geometry occupies a central place in modern mathematics and has multiple conceptual connections with such diverse fields as complex analysis, topology an",
+      "excerpt_offset": 0,
+      "total_chars": 38395,
+      "bm25": {
+        "q1": {
+          "rank": 16,
+          "score": 42.6421
+        }
+      },
+      "best_rank": 16,
+      "title_similarity": 0.2963,
+      "context_overlap": 0.05,
+      "cosine": 0.262253,
+      "rerank_logit": -6.25594,
+      "rerank_position": 12
+    }
+  ]
+}

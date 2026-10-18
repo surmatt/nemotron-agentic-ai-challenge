@@ -1,0 +1,90 @@
+{
+  "variant": "crop_think",
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:257",
+  "block_index": 1,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T12:18:28+00:00",
+  "elapsed_seconds": 8.9,
+  "finish_reason": "stop",
+  "parse_text": "I love Swiffly in his parents Sir William Temple, who left him a legacy in many, with the grocery of his manuscript; and, on his death-bed, obtained for him a proform for the long or for first petrol that should houses one can at Wittenurle or Overburnt. That this provides might not be forgotten, Swift dedicated to the king the author among people with which he we weretrafed, and for a while attended the court;) but found found his obligation hopefuls. He was then invited by the end of Berkeley to accompany him into friends, when after effective crew rapid fruppments, he obtained the brings of Laurens and Kathbeggin in the discredited March; i and Soon afterwards invited over the enthusiast Skullin a young woman of other sense of Johnson, whole life be controlled to emballers, and whole days, though he certainly loved her, we may confondently afirm that he forecred by the expense.",
+  "corrected_text": "In 1699 Swift lost his patron Sir William Temple, who left him a legacy in money, with the property of his manuscripts ; and, on his death-bed, obtained for him a promise from the king of the first prebend that should become vacant at Westminster or Canterbury. That this promise might not be forgotten, Swift dedicated to the king the voluminous works with which he was entrusted, and for a while attended the court ; but soon found his solicitations hopeless. He was then invited by the earl of Berkeley to accompany him into Ireland, where, after suffering some cruel disappointments, he obtained the livings of Laracor and Rathbeggin in the diocese of Meath ; and soon afterwards invited over the unfortunate Stella, a young woman of the name of Johnson, whose life he contrived to embitter, and whose days, though he certainly loved her, we may confidently affirm that he foresaw by his caprice.",
+  "reasoning_tokens": 2504,
+  "usage": {
+    "completion_tokens": 2700,
+    "prompt_tokens": 819,
+    "total_tokens": 3519,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 2504,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 444
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 12000,
+    "temperature": 0
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows this region of the page. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\nI love Swiffly in his parents Sir William Temple, who left him a legacy in many, with the grocery of his manuscript; and, on his death-bed, obtained for him a proform for the long or for first petrol that should houses one can at Wittenurle or Overburnt. That this provides might not be forgotten, Swift dedicated to the king the author among people with which he we weretrafed, and for a while attended the court;) but found found his obligation hopefuls. He was then invited by the end of Berkeley to accompany him into friends, when after effective crew rapid fruppments, he obtained the brings of Laurens and Kathbeggin in the discredited March; i and Soon afterwards invited over the enthusiast Skullin a young woman of other sense of Johnson, whole life be controlled to emballers, and whole days, though he certainly loved her, we may confondently afirm that he forecred by the expense.",
+  "response": {
+    "id": "chatcmpl-943514da8824ce76",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "In 1699 Swift lost his patron Sir William Temple, who left him a legacy in money, with the property of his manuscripts ; and, on his death-bed, obtained for him a promise from the king of the first prebend that should become vacant at Westminster or Canterbury. That this promise might not be forgotten, Swift dedicated to the king the voluminous works with which he was entrusted, and for a while attended the court ; but soon found his solicitations hopeless. He was then invited by the earl of Berkeley to accompany him into Ireland, where, after suffering some cruel disappointments, he obtained the livings of Laracor and Rathbeggin in the diocese of Meath ; and soon afterwards invited over the unfortunate Stella, a young woman of the name of Johnson, whose life he contrived to embitter, and whose days, though he certainly loved her, we may confidently affirm that he foresaw by his caprice.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": "The user wants me to correct the OCR text based on the provided image.\n\n**1. Analyze the input:**\n- **Image:** A cropped section of an old book page. It contains text about Jonathan Swift.\n- **OCR text:** A block of text that is clearly garbled and incorrect compared to the image.\n- **Rules:**\n    - Write long s as 's'.\n    - Keep original spelling, capitals, punctuation.\n    - Join hyphenated words across line breaks.\n    - Leave out headers, page numbers, etc.\n    - Ignore lines cut at top/bottom.\n    - Do not add invisible words.\n    - Use [?] for illegible words.\n    - Answer with text only.\n\n**2. Transcribe the image text line by line:**\n\n*   **Line 1:** \"In 1699 Swift lost his patron Sir William Temple, who\" -> Wait, looking closely at the first visible line.\n    - The image starts with \"In 1699 Swift lost his patron Sir William Temple, who\".\n    - Wait, let's look at the very top. There is a fragment \"docted him.\" cut off at the top. The rule says \"Ignore lines cut at the top or bottom edge of the image.\" So I start from the first full line.\n    - Line 1: \"In 1699 Swift lost his patron Sir William Temple, who\"\n*   **Line 2:** \"left him a legacy in money, with the property of his manu-\"\n    - Note the hyphen at the end. \"manu-\" needs to be joined with the next line.\n*   **Line 3:** \"scripts ; and, on his death-bed, obtained for him a promise\"\n    - Joining \"manu\" + \"scripts\" = \"manuscripts\".\n    - Wait, looking at the image, line 2 ends with \"manu-\". Line 3 starts with \"scripts\". So \"manuscripts\".\n*   **Line 4:** \"from the king of the first prebend that should become va-\"\n    - Hyphen at end: \"va-\".\n*   **Line 5:** \"cant at Westminster or Canterbury. That this promise might\"\n    - Joining \"va\" + \"cant\" = \"vacant\".\n*   **Line 6:** \"not be forgotten, Swift dedicated to the king the volumi-\"\n    - Hyphen at end: \"volumi-\".\n*   **Line 7:** \"nous works with which he was entrusted, and for a while\"\n    - Joining \"volumi\" + \"nous\" = \"voluminous\".\n*   **Line 8:** \"attended the court ; but soon found his solicitations hopeless.\"\n*   **Line 9:** \"He was then invited by the earl of Berkeley to accompany\"\n*   **Line 10:** \"him into Ireland, where, after suffering some cruel disap-\"\n    - Hyphen at end: \"disap-\".\n*   **Line 11:** \"pointments, he obtained the livings of Laracor and Rath-\"\n    - Joining \"disap\" + \"pointments\" = \"disappointments\".\n    - Hyphen at end: \"Rath-\".\n*   **Line 12:** \"beggin in the diocese of Meath ; and soon afterwards invited\"\n    - Joining \"Rath\" + \"beggin\" = \"Rathbeggin\". Wait, looking at the image, it looks like \"Rathbeggin\". Let me check spelling. Usually \"Rathbeggan\" or similar. The image looks like \"Rathbeggin\". Let's look really closely at crop 4. \"Rath- beggin\". It looks like \"beggin\".\n*   **Line 13:** \"over the unfortunate Stella, a young woman of the name of\"\n*   **Line 14:** \"Johnson, whose life he contrived to embitter, and whose\"\n*   **Line 15:** \"days, though he certainly loved her, we may confidently af-\"\n    - Hyphen at end: \"af-\".\n*   **Line 16:** \"firm that he foresaw by his caprice.\"\n    - Joining \"af\" + \"firm\" = \"affirm\".\n    - Wait, let's look at the bottom line. \"firm that he foresaw by his caprice.\"\n    - There is a fragment below: \"that he was generally believed to have been the daughter\". This is cut off at the bottom. Rule: \"Ignore lines cut at the top or bottom edge of the image.\" So I stop before that fragment.\n\n**3. Construct the final text:**\n\nIn 1699 Swift lost his patron Sir William Temple, who left him a legacy in money, with the property of his manuscripts ; and, on his death-bed, obtained for him a promise from the king of the first prebend that should become vacant at Westminster or Canterbury. That this promise might not be forgotten, Swift dedicated to the king the voluminous works with which he was entrusted, and for a while attended the court ; but soon found his solicitations hopeless. He was then invited by the earl of Berkeley to accompany him into Ireland, where, after suffering some cruel disappointments, he obtained the livings of Laracor and Rathbeggin in the diocese of Meath ; and soon afterwards invited over the unfortunate Stella, a young woman of the name of Johnson, whose life he contrived to embitter, and whose days, though he certainly loved her, we may confidently affirm that he foresaw by his caprice.\n\n**4. Review against rules:**\n- Long s as 's': The text uses standard 's'. The image has some long s's (e.g., \"poffessions\" in OCR, but image says \"solicitations\"). Wait, let's look at the image for long s.\n    - \"manuscripts\": looks like \"manuscripts\".\n    - \"voluminous\": looks like \"voluminous\".\n    - \"solicitations\": looks like \"solicitations\".\n    - \"disappointments\": looks like \"disappointments\".\n    - \"affirm\": looks like \"affirm\".\n    - The OCR provided in the prompt is garbage (\"I love Swiffly...\"). I must ignore it and transcribe from the image.\n- Original spelling: \"manu-scripts\" -> \"manuscripts\". \"volumi-nous\" -> \"voluminous\". \"disap-pointments\" -> \"disappointments\". \"Rath-beggin\" -> \"Rathbeggin\". \"af-firm\" -> \"affirm\".\n- Punctuation: Semicolons, commas, periods.\n- Capitals: \"In\", \"Swift\", \"Sir\", \"William\", \"Temple\", \"Westminster\", \"Canterbury\", \"Swift\", \"Ireland\", \"Laracor\", \"Rathbeggin\", \"Meath\", \"Stella\", \"Johnson\".\n\n**Refining the transcription based on visual inspection:**\n\nLine 1: In 1699 Swift lost his patron Sir William Temple, who\nLine 2: left him a legacy in money, with the property of his manu-\nLine 3: scripts ; and, on his death-bed, obtained for him a promise\nLine 4: from the king of the first prebend that should become va-\nLine 5: cant at Westminster or Canterbury. That this promise might\nLine 6: not be forgotten, Swift dedicated to the king the volumi-\nLine 7: nous works with which he was entrusted, and for a while\nLine 8: attended the court ; but soon found his solicitations hopeless.\nLine 9: He was then invited by the earl of Berkeley to accompany\nLine 10: him into Ireland, where, after suffering some cruel disap-\nLine 11: pointments, he obtained the livings of Laracor and Rath-\nLine 12: beggin in the diocese of Meath ; and soon afterwards invited\nLine 13: over the unfortunate Stella, a young woman of the name of\nLine 14: Johnson, whose life he contrived to embitter, and whose\nLine 15: days, though he certainly loved her, we may confidently af-\nLine 16: firm that he foresaw by his caprice.\n\nLet's double check line 12 \"Rathbeggin\". The image shows \"Rath- beggin\". It looks like \"beggin\".\nLet's double check line 16 \"foresaw\". The image says \"foresaw\".\nLet's double check line 16 \"caprice\". The image says \"caprice\".\n\nFinal check on joining hyphens:\n- manu-scripts -> manuscripts\n- va-cant -> vacant\n- volumi-nous -> voluminous\n- disap-pointments -> disappointments\n- Rath-beggin -> Rathbeggin\n- af-firm -> affirm\n\nThe text block ends at \"caprice.\" The line below is cut off (\"that he was generally...\"). So I exclude it.\n\nFinal Text Assembly:\nIn 1699 Swift lost his patron Sir William Temple, who left him a legacy in money, with the property of his manuscripts ; and, on his death-bed, obtained for him a promise from the king of the first prebend that should become vacant at Westminster or Canterbury. That this promise might not be forgotten, Swift dedicated to the king the voluminous works with which he was entrusted, and for a while attended the court ; but soon found his solicitations hopeless. He was then invited by the earl of Berkeley to accompany him into Ireland, where, after suffering some cruel disappointments, he obtained the livings of Laracor and Rathbeggin in the diocese of Meath ; and soon afterwards invited over the unfortunate Stella, a young woman of the name of Johnson, whose life he contrived to embitter, and whose days, though he certainly loved her, we may confidently affirm that he foresaw by his caprice.\n\nOne detail: \"manu-scripts\". The image has a space before the semicolon? \"scripts ;\". Yes.\n\"death-bed\". Hyphenated.\n\"volumi-nous\".\n\"disap-pointments\".\n\"Rath-beggin\".\n\"af-firm\".\n\nLet's re-read carefully to ensure no words are missed.\nLine 1: In 1699 Swift lost his patron Sir William Temple, who\nLine 2: left him a legacy in money, with the property of his manu-\nLine 3: scripts ; and, on his death-bed, obtained for him a promise\nLine 4: from the king of the first prebend that should become va-\nLine 5: cant at Westminster or Canterbury. That this promise might\nLine 6: not be forgotten, Swift dedicated to the king the volumi-\nLine 7: nous works with which he was entrusted, and for a while\nLine 8: attended the court ; but soon found his solicitations hopeless.\nLine 9: He was then invited by the earl of Berkeley to accompany\nLine 10: him into Ireland, where, after suffering some cruel disap-\nLine 11: pointments, he obtained the livings of Laracor and Rath-\nLine 12: beggin in the diocese of Meath ; and soon afterwards invited\nLine 13: over the unfortunate Stella, a young woman of the name of\nLine 14: Johnson, whose life he contrived to embitter, and whose\nLine 15: days, though he certainly loved her, we may confidently af-\nLine 16: firm that he foresaw by his caprice.\n\nLooks solid."
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792325909,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 2700,
+      "prompt_tokens": 819,
+      "total_tokens": 3519,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 2504,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 444
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

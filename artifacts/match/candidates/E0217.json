@@ -1,0 +1,453 @@
+{
+  "entry_id": "E0217",
+  "headword": "SIEER",
+  "entry_text_sha256": "8c002af8ebd0fdc289af28fbf5c3c51cedb42a4d86fb0de90e3b22e2c55816e2",
+  "mode": "model",
+  "queries": [
+    "sieer",
+    "sieer breeds breed sheep long present country fleece time downs flesh community meat"
+  ],
+  "query_chars": 1500,
+  "headword_variant": null,
+  "candidate_count": 20,
+  "list_pages_removed_after_fetch": [],
+  "decision": {
+    "status": "rejected",
+    "method": "nemotron_embed_rerank",
+    "thresholds": {
+      "rerank_logit": -10.0,
+      "margin": 0.5,
+      "cosine": 0.15,
+      "title_similarity": 0.0
+    },
+    "reason": "rerank_logit < -10.0, margin < 0.5, cosine < 0.15, or title_similarity < 0.0",
+    "page_id": "15453495",
+    "title": "Clun Forest sheep",
+    "rerank_logit": -7.319768,
+    "cosine": 0.25239,
+    "margin_to_next": 0.055243,
+    "title_similarity": 0.2727
+  },
+  "candidates": [
+    {
+      "page_id": "20944065",
+      "revision_id": "1353535694",
+      "title": "North Country Cheviot",
+      "url": "https://en.wikipedia.org/wiki/North_Country_Cheviot",
+      "excerpt": "The North Country Cheviot is a breed of sheep, raised mainly for meat production. It is a variant of the Cheviot sheep that branched off from them in northern Scotland.\n\nIn 1791, John Sinclair brought ewes from the Cheviot Hills near the English border to the counties of Caithness and Sutherland in north Scotland. He named these sheep \"Cheviots\" after the hill area they originated. The Cheviot sheep remained prominent on the Anglo-Scottish border regions, the Scottish Blackface became a prominent breed in mid-Scotland, and the sheep taken to northern Scotland would become the North Country Cheviots. Border Leicesters and Lincoln Longwools may have interbred with the North Country Cheviot line at some point. The result was a larger sheep that had a longer fleece, and one that matured earlier, compared to southern Cheviots. The North Country grows to about twice the size of its southern relative.\n\nIn 1912, Caithness and Sutherland breeders formed the North Country Sheep Breeders Association to manage shows and sales. In 1945, the organization changed its name to the existing North Country Cheviot Sheep Society, which manages registration, exporting, promotion, and breed improvement.\n",
+      "excerpt_offset": 0,
+      "total_chars": 2032,
+      "bm25": {
+        "q1": {
+          "rank": 1,
+          "score": 57.2673
+        }
+      },
+      "best_rank": 1,
+      "title_similarity": 0.0769,
+      "context_overlap": 0.1644,
+      "cosine": 0.247198,
+      "rerank_logit": -7.461699,
+      "rerank_position": 5
+    },
+    {
+      "page_id": "5910261",
+      "revision_id": "1323785475",
+      "title": "Romney sheep",
+      "url": "https://en.wikipedia.org/wiki/Romney_sheep",
+      "excerpt": "The Romney, formerly called the Romney Marsh sheep but generally referred to by the local farmers as the Kent, is a breed of sheep originating in England. The Romney is a \"long-wool\" breed recognized in England by 1800. Exported to other continents, the Romney is an economically important sheep breed, especially to the sheep- meat and wool export trades of New Zealand.\n\nThe breed evolved from medieval longwool types of which the Romney and Leicester breeds are early examples. The sheep recognized by 1800 as \"Romney Marsh\" or \"Kent\" were improved in body type and fleece quality through crossings with Bakewell's English Leicester.\n\nThe first confirmed export of Romneys from England was a shipment of 20 from Stone, Kent, that went on the Cornwall to New Zealand in 1853. With these and a further 30 ewes sent in 1856, Alfred Ludlum established New Zealand's first Romney Marsh stud in 1860 at Newry, in the Hutt Valley, and Ludlam's brother-in-law, Augustus Onslow Manby Gibbes, also bred them around this time in Australia at his famous sheep property, Yarralumla.\n\nIn 1855, 60,000 Merinos had been in New Zealand, but the Romney Marsh sheep thrived more quickly, supplanting the Merino over ",
+      "excerpt_offset": 0,
+      "total_chars": 9939,
+      "bm25": {
+        "q1": {
+          "rank": 2,
+          "score": 57.0283
+        }
+      },
+      "best_rank": 2,
+      "title_similarity": 0.3529,
+      "context_overlap": 0.2105,
+      "cosine": 0.223484,
+      "rerank_logit": -7.510093,
+      "rerank_position": 7
+    },
+    {
+      "page_id": "3144796",
+      "revision_id": "1087355658",
+      "title": "Shropshire sheep",
+      "url": "https://en.wikipedia.org/wiki/Shropshire_sheep",
+      "excerpt": "The Shropshire breed of domestic sheep originated from the hills of Shropshire, and North Staffordshire, England, during the 1840s. The breeders in the area used the local horned black-faced sheep and crossed them with a few breeds of white-faced sheep (Southdown, Cotswold, and Leicester). This produced a medium-sized polled (hornless) sheep that produced good wool and meat. In 1855 the first Shropshires were imported into the United States (Virginia). This breed is raised primarily for meat.\n\nIn 1859 the breed was officially recognized by the Royal Agricultural Society as being a distinct breed. The popularity of the Shropshire breed grew rapidly in England, and in 1882 Shropshire breeders founded the Shropshire Sheep Breeders' Association and Flock Book Society, the world's first such society for sheep. The same year the Society published the first Flock Book, a record of sheep bred and their breeders. The Society still survives, and still publishes a Flock Book annually.\n\nBy 1884 more Shropshires were exhibited at the local shows than all other breeds combined. The first documented flock in the United States (one ram and twenty ewes) was brought to Maryland in 1860 by Samuel Sut",
+      "excerpt_offset": 0,
+      "total_chars": 6239,
+      "bm25": {
+        "q1": {
+          "rank": 3,
+          "score": 55.8864
+        }
+      },
+      "best_rank": 3,
+      "title_similarity": 0.381,
+      "context_overlap": 0.1714,
+      "cosine": 0.241072,
+      "rerank_logit": -7.610332,
+      "rerank_position": 11
+    },
+    {
+      "page_id": "15307566",
+      "revision_id": "1339137682",
+      "title": "Poll Dorset",
+      "url": "https://en.wikipedia.org/wiki/Poll_Dorset",
+      "excerpt": "The Poll Dorset, a short-wool, meat-producing sheep, was developed in Australia between 1937 and 1954 with the aim of breeding a true Dorset type sheep without horns. The poll gene was introduced into Dorset Horn flocks from two other polled breeds and following a strict back-mating programme achieved close to 100% of Dorset Horn blood. Its main distinguishing features are its hornless appearance, long, lean square body set on short legs, pink skin and 'spongy' short-stapled wool. The Poll Dorset produces a fleece of white, dense downs type wool of 30 microns fibre diameter and it has a white wool-free face. The breed was first developed by WJ Dawkins at his property, Newbold, Gawler River, SA. commencing in 1937 using Corriedales to introduce the poll gene. In 1941, Lyall Stuart from Valmore in Whitemore, Tasmania and in 1943, Rex Wilson from Kismet in Howlong, NSW both used Ryelands to introduce the poll gene into the Dorset Horn. In 1954 these three men and Jack Reddin form Newbold, founded the Australian Poll Dorset Association.\n\nPoll Dorset rams are the most commonly used sire for the production of prime lambs in Australia. Ewes are noted for their high fertility, mothering an",
+      "excerpt_offset": 0,
+      "total_chars": 2282,
+      "bm25": {
+        "q1": {
+          "rank": 4,
+          "score": 55.2639
+        }
+      },
+      "best_rank": 4,
+      "title_similarity": 0.25,
+      "context_overlap": 0.172,
+      "cosine": 0.164556,
+      "rerank_logit": -7.911818,
+      "rerank_position": 19
+    },
+    {
+      "page_id": "2484824",
+      "revision_id": "1317773412",
+      "title": "Navajo-Churro",
+      "url": "https://en.wikipedia.org/wiki/Navajo-Churro",
+      "excerpt": "The Navajo-Churro, or Churro for short, (also American or Navajo Four-Horned) is a breed of domestic sheep originating with the Spanish Churra sheep obtained by the Diné around the 16th century during the Spanish Conquest. Its wool consists of a protective topcoat and soft undercoat. Some rams have four fully developed horns, a trait shared with few other breeds in the world. The breed is highly resistant to disease. Ewes often bear twins, and they have good mothering instincts. This breed is raised primarily for wool, although some also eat their meat.\n\nThe common Diné word for the breed, Dibé dits’ozí, means \"long fleeced sheep.\" T’áá Dibé is also occasionally used, meaning \"first sheep.\" The churro is important to Diné subsistence and culture.\n\nThe Spanish Churra (renamed Churro by American frontiersmen) was first imported to North America in 1598 by Juan de Oñate and used to feed Spanish armies and settlers. By the 17th century, Churros were popular with the Spanish settlers in the upper Rio Grande Valley. The Diné acquired Churro flocks by trading. The Churro soon became an important part of the Diné economy and culture. The Navajo bred sheep to adapt to a pastoral lifestyle i",
+      "excerpt_offset": 0,
+      "total_chars": 5746,
+      "bm25": {
+        "q1": {
+          "rank": 5,
+          "score": 54.1287
+        }
+      },
+      "best_rank": 5,
+      "title_similarity": 0.1111,
+      "context_overlap": 0.186,
+      "cosine": 0.187617,
+      "rerank_logit": -7.795568,
+      "rerank_position": 15
+    },
+    {
+      "page_id": "60281588",
+      "revision_id": "1345913191",
+      "title": "Borgoy mutton",
+      "url": "https://en.wikipedia.org/wiki/Borgoy_mutton",
+      "excerpt": "Borgoy mutton is a special type of sheep meat grown under specific conditions in the Dzhida valley in the Uorg Borgoy region (Dzhidinsky District). Is a meat brand of Buryatia.\n\nIn their time, the Borgoysky mutton was delivered to the table of the royal house of the Romanovs. Borgoysky lamb was present on the menu of a solemn dinner on the occasion of the coronation of Nicholas I. In Soviet times, the meat of Dzhida sheep was sold on the Moscow markets with the label \"Borgoiskaya lamb\". It was sold in the famous Yeliseyevsky grocery store..\n\nBorgoy sheep live in ideal climatic conditions and graze on saline lands. This gives a special taste to well-known not only throughout the republic meat. The value of dishes from meat Borgoy said in a number of books, publications and travel guides.\n\nIn Soviet times, the Borgoy mutton was considered one of the best varieties in the country and even had a great demand abroad. Glory Borgoy mutton attracted the attention of Soviet filmmakers, which was filmed the film \"The Shepherds Borghoy\".\n\nIn the area near Beloozersk, which received its name from the location of White Lake next to it, in the spring salt comes out - « hugir ». Salt from the wat",
+      "excerpt_offset": 0,
+      "total_chars": 2979,
+      "bm25": {
+        "q1": {
+          "rank": 6,
+          "score": 53.8713
+        }
+      },
+      "best_rank": 6,
+      "title_similarity": 0.1111,
+      "context_overlap": 0.129,
+      "cosine": 0.169787,
+      "rerank_logit": -7.848519,
+      "rerank_position": 17
+    },
+    {
+      "page_id": "17602884",
+      "revision_id": "1258377459",
+      "title": "Teeswater sheep",
+      "url": "https://en.wikipedia.org/wiki/Teeswater_sheep",
+      "excerpt": "The Teeswater is a breed of sheep from Teesdale, England. It is a longwool breed that produces a generally large-diameter fibre. However, the animals are raised primarily for meat.\n\nTeeswater sheep have been bred in northern England for about two hundred years; the breed was rare by the 1920s, but has seen a renaissance since World War II. The Rare Breeds Survival Trust has categorised the breed as \"at risk\".\n\nThe Teeswater Sheep Breeders' Association was formed in 1949 with the aim to encourage and improve the breeding of Teeswater sheep; to maintain their purity and particularly to establish the supremacy of Teeswater rams for crossing with hill sheep of other breeds for the production of half-bred lambs.\n\nThe wool of the Teeswater should be fine, long-stapled with high lustre with each lock hanging free and with no tendency to felt. There should be no dark fibres in the fleece, which should be uniform in texture over the whole body. The Teeswater produces a kemp free fleece, a characteristic it passes on.\n\nJohn Claudius Loudon 's \"An Encyclopaedia of Agriculture\" of 1825 describes the breed as:\n\nThe Teeswater sheep differ from the Lincolnshire in their wool not being so long and",
+      "excerpt_offset": 0,
+      "total_chars": 1411,
+      "bm25": {
+        "q1": {
+          "rank": 7,
+          "score": 53.4022
+        }
+      },
+      "best_rank": 7,
+      "title_similarity": 0.3,
+      "context_overlap": 0.2105,
+      "cosine": 0.274368,
+      "rerank_logit": -7.676755,
+      "rerank_position": 13
+    },
+    {
+      "page_id": "19500193",
+      "revision_id": "1328380159",
+      "title": "Sarda sheep",
+      "url": "https://en.wikipedia.org/wiki/Sarda_sheep",
+      "excerpt": "The Sarda is an Italian breed of domestic sheep indigenous to the Mediterranean island of Sardinia. It is raised throughout the island, in some regions of mainland Italy, and in some other Mediterranean countries, particularly Tunisia.\n\nIt is both the most economically significant and the most numerous Italian breed of sheep. It is the principal breed for production of sheep's milk; most of the milk is used to make pecorino sardo cheese. The Sarda is highly adaptable; it may be kept on lowland or on mountainous terrains, and is suitable both for intensive and for extensive or transhumant management.: 273 The long, coarse white wool is of little value; it may be used to make carpets or mattresses.\n\nThe Sarda is both the most economically significant and the most numerous Italian breed of sheep. It is a traditional breed of the Mediterranean island of Sardinia. It is reared throughout the island, and in substantial numbers in the mainland Italian regions of Lazio and Tuscany, where there are many Sardinian shepherds; there are small populations in Emilia-Romagna, in Liguria and in Molise.: 4 It is also present in other Mediterranean countries, particularly Tunisia, where it is known ",
+      "excerpt_offset": 0,
+      "total_chars": 3260,
+      "bm25": {
+        "q1": {
+          "rank": 8,
+          "score": 53.3601
+        }
+      },
+      "best_rank": 8,
+      "title_similarity": 0.375,
+      "context_overlap": 0.1111,
+      "cosine": 0.240099,
+      "rerank_logit": -7.438128,
+      "rerank_position": 4
+    },
+    {
+      "page_id": "24547622",
+      "revision_id": "1175276351",
+      "title": "Île-de-France sheep",
+      "url": "https://en.wikipedia.org/wiki/%C3%8Ele-de-France_sheep",
+      "excerpt": "The Île-de-France is a breed of sheep native to the French region of Île-de-France near Paris. It was first developed at a French veterinary college in the 1830s through crosses of Dishley Leicester and Rambouillet, and was originally known as the Dishley Merino. A breed association was formed in 1933, and it was rigorously tested early on its breeding for meat characteristics and maternal qualities.\n\nToday the Île-de-France is one of the top meat breeds worldwide, and is present in South Africa, Australia and the Americas as well as in Europe. It is primarily used as a terminal sire, but is also occasionally found as a dairy breed in the United States. It's a large, naturally polled breed with white fleece.",
+      "excerpt_offset": 0,
+      "total_chars": 717,
+      "bm25": {
+        "q1": {
+          "rank": 9,
+          "score": 53.194
+        }
+      },
+      "best_rank": 9,
+      "title_similarity": 0.2609,
+      "context_overlap": 0.2407,
+      "cosine": 0.196588,
+      "rerank_logit": -7.426372,
+      "rerank_position": 3
+    },
+    {
+      "page_id": "46526289",
+      "revision_id": "1252741435",
+      "title": "Greenlandic sheep",
+      "url": "https://en.wikipedia.org/wiki/Greenlandic_sheep",
+      "excerpt": "The Greenlandic sheep (Greenlandic: kalaallit savaataat or sava, Danish: grønlandsk får) is a breed of domestic sheep. The Greenlandic breed is one of the Northern European short-tailed sheep, which exhibit a fluke-shaped, naturally short tail. The Greenlandic is a mid-sized breed, generally short-legged and stocky, with face and legs free of wool. The fleece of the Greenlandic sheep is dual-coated and comes in white as well as a variety of other colors, including a range of browns, grays, and blacks. They exist in both horned and polled strains. Generally left unshorn for the winter, the breed is very cold-hardy. Multiple births are very common in Greenlandic ewes, with a lambing percentage of 150% - 190%.\n\nThey are seasonal breeders and come into estrus around October. The breeding season can last up to four months. Rams become mature early and can start breeding as early as five months.\n\nThe present Greenlandic sheep is hardy and thrifty. It descends from Faroe and Icelandic sheep, the Spælsau and the Scottish Blackface, brought to Greenland by Greenladic farmers, Greenlandic sheep have been bred since 1906 in a very harsh environment. Consequently, they are quite efficient herb",
+      "excerpt_offset": 0,
+      "total_chars": 4628,
+      "bm25": {
+        "q1": {
+          "rank": 10,
+          "score": 53.0219
+        }
+      },
+      "best_rank": 10,
+      "title_similarity": 0.1818,
+      "context_overlap": 0.1429,
+      "cosine": 0.188789,
+      "rerank_logit": -7.623699,
+      "rerank_position": 12
+    },
+    {
+      "page_id": "24670613",
+      "revision_id": "1335195474",
+      "title": "Faroe sheep",
+      "url": "https://en.wikipedia.org/wiki/Faroe_sheep",
+      "excerpt": "The Faroese sheep (Faroese: Føroyskur seyður) is a breed of sheep native to the Faroe Islands.\n\nFirst introduced in the 9th century, Faroese sheep have long been an integral part of the island traditions: The name \" Faroe Islands\" has been argued to ultimately derive from fær, the word for sheep in Old Norse, and the animal is depicted on the country's coat of arms. One of the Northern European short-tailed sheep, it is a small, very hardy breed. Faroes ewes weigh around 45 pounds (20 kg) at maturity, and rams are 45–90 pounds (20–40 kg). Rams are horned and ewes are usually polled, and the breed occurs naturally in many different colours, with at least 300 different combinations, each of which has its own unique name.\n\nFaroese sheep tend to have very little flocking instinct due to no natural predators, and will range freely year round in small groups in pastureland, which ranges from meadows, to rugged rocky mountaintops and lush bird-cliffs. They are most closely related to the Norwegian Spælsau and Icelandic sheep.\n\nEars are usually cut with various simple designs, to denote ownership and what pastures the sheep belong on. There are 54 different official cuts, which can be pair",
+      "excerpt_offset": 0,
+      "total_chars": 5216,
+      "bm25": {
+        "q1": {
+          "rank": 11,
+          "score": 52.6607
+        }
+      },
+      "best_rank": 11,
+      "title_similarity": 0.375,
+      "context_overlap": 0.1494,
+      "cosine": 0.210684,
+      "rerank_logit": -7.375011,
+      "rerank_position": 2
+    },
+    {
+      "page_id": "24486844",
+      "revision_id": "1303164798",
+      "title": "Panama sheep",
+      "url": "https://en.wikipedia.org/wiki/Panama_sheep",
+      "excerpt": "The Panama is a breed of domestic sheep native to the United States. Though its name is identical to the country of Panama, the breed was in fact named for the Panama–Pacific International Exposition where it was shown early on in its history.\n\nPanama sheep originated in 1912 in Muldoon, Idaho. Today Panama sheep are rare - largely unknown outside Idaho and Montana, and are one of only a few breeds which were started by private individuals in the United States. They were developed by James Laidlaw, a Scottish immigrant to the region who was seeking a large sheep better suited to the range than the Merinos which were most common in the late 19th and early 20th centuries. The foundation of the breed was a cross of Rambouillet rams to Lincoln ewes.\n\nPanamas are polled sheep with white fleece of medium length and a large body suitable for meat production. Panama rams average 250–280 pounds and Panama ewes average 180–210 pounds when fully grown. They are particularly known for hardiness in the rough conditions of the northern Rocky Mountains. A breed registry was formed in 1951, but it has been inactive and it's unclear whether the majority of Panamas present today have not been crossb",
+      "excerpt_offset": 0,
+      "total_chars": 1300,
+      "bm25": {
+        "q1": {
+          "rank": 12,
+          "score": 52.5437
+        }
+      },
+      "best_rank": 12,
+      "title_similarity": 0.3529,
+      "context_overlap": 0.2222,
+      "cosine": 0.158018,
+      "rerank_logit": -7.833509,
+      "rerank_position": 16
+    },
+    {
+      "page_id": "54103410",
+      "revision_id": "1015510536",
+      "title": "German Whiteheaded Mutton",
+      "url": "https://en.wikipedia.org/wiki/German_Whiteheaded_Mutton",
+      "excerpt": "The German Whiteheaded Mutton (German: Weißköpfiges Fleischschaf) is a breed of sheep developed to live along the North Sea coast of Germany. It is a dual-use breed used for both its fine wool and meat production. They often graze along the North Sea dikes in Northern Europe.\n\nAs per its name, the German Whitehead Mutton originated in Germany. It was bred in the mid-20th century by crossing the British breeds English Leicester, Cotswold, Hampshire, and Oxford with the local Wilstermarschscha marsh sheep. The breed has been further improved by cross-breeding it with other varieties, primarily the Dutch Texel starting in 1966 and the French Berrichon du Cher in the 1970s.\n\nThe Whiteheaded Mutton is a breed designed to live in the cold, wet regions around the North Sea marshes. Consequently, the sheep was bred for hardiness and durability to cope with the rough weather in the region. Rams typically weigh about 110-130 kg and ewes normally weigh around 70-80 kg. The Whiteheaded Mutton possesses a very long, rough fleece, with average fleece weight being about 7.4 kg for rams and 5.5 kg for ewes, and a fiber diameter of 37-41 microns. Its fleece is also known for its very good crimp, wh",
+      "excerpt_offset": 0,
+      "total_chars": 2583,
+      "bm25": {
+        "q1": {
+          "rank": 13,
+          "score": 52.5002
+        }
+      },
+      "best_rank": 13,
+      "title_similarity": 0.1429,
+      "context_overlap": 0.2353,
+      "cosine": 0.228545,
+      "rerank_logit": -7.53819,
+      "rerank_position": 8
+    },
+    {
+      "page_id": "12778770",
+      "revision_id": "1083717303",
+      "title": "Portland sheep",
+      "url": "https://en.wikipedia.org/wiki/Portland_sheep",
+      "excerpt": "The Portland is a sheep breed that takes its name from the Isle of Portland in Dorset, England. This breed is raised primarily for meat.\n\nOnce common all over Dorset, the breed was once one of the rarest in Britain and is still at risk. It nearly became extinct in the 1970s, but has now recovered through efforts of dedicated breeders and the help of the Rare Breeds Survival Trust. It is now listed as \"at risk\", being a minority breed. As one of the very old tan-faced breeds native to heathlands, the Portland was a primary contributor to the Dorset breed.\n\nFancy's Family Farm, a community farm on the Isle of Portland is home to the only flock of the Portland Sheep breed on the island.\n\nThe Portland is a small sheep, with a cream fleece and golden tan face and legs. Both sexes are horned: in the adult male the horns are heavy and form double spirals; in the female the horns are lighter and shorter, being a single crescent shape. The horns are cream-coloured, often having one or more thin black lines running along the horn lengthways. Lambs are born with a foxy-red coat which changes in the first few months to a creamy white.\n\nThe face is generally free of wool, but some sheep have a ",
+      "excerpt_offset": 0,
+      "total_chars": 2002,
+      "bm25": {
+        "q1": {
+          "rank": 14,
+          "score": 52.2567
+        }
+      },
+      "best_rank": 14,
+      "title_similarity": 0.3158,
+      "context_overlap": 0.2069,
+      "cosine": 0.229465,
+      "rerank_logit": -7.551103,
+      "rerank_position": 9
+    },
+    {
+      "page_id": "10374276",
+      "revision_id": "1119400041",
+      "title": "Polypay",
+      "url": "https://en.wikipedia.org/wiki/Polypay",
+      "excerpt": "The Polypay sheep breed is a white, medium-sized (65 kg), polled sheep which was developed in the 1960s at the U.S. Sheep Experiment Station in Dubois, Idaho. In general, Polypay sheep are noted for being a highly prolific maternal dual-purpose (meat and wool) breed. It produces yearly about 4.2 kg of wool and is weaned at 120 days.\n\nDr. Clarence V. Hulet, at the U.S. Sheep Experiment Station in Dubois, Idaho, had five main goals when creating the new breed.\n\nHigh lifetime prolificacy\n\nLarge lamb crop at one year of age\n\nAbility to lamb more frequently than once per year\n\nRapid growth rate of lambs\n\nDesirable carcass quality\n\nThe original breeding stock were taken from the Finnsheep for their high prolificacy, early puberty and short gestation, Dorset for their superior mothering ability, carcass quality, early puberty and long breeding season, Targhee for their large body size, long breeding season and quality fleeces, and Rambouillet for their adaptability, hardiness, productivity and quality fleeces. In 1968, Hulet performed the first cross breedings generating Finnsheep x Rambouillet (F x R) and Dorset x Targhee (D x T) lambs, which were born in 1969. The first 4-breed composit",
+      "excerpt_offset": 0,
+      "total_chars": 3937,
+      "bm25": {
+        "q1": {
+          "rank": 15,
+          "score": 52.0813
+        }
+      },
+      "best_rank": 15,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1538,
+      "cosine": 0.141419,
+      "rerank_logit": -8.140766,
+      "rerank_position": 20
+    },
+    {
+      "page_id": "19477211",
+      "revision_id": "1336110283",
+      "title": "Racka",
+      "url": "https://en.wikipedia.org/wiki/Racka",
+      "excerpt": "The Racka (pronounced / r ɑː t s k ɑː / Hungarian), or Hortobágy Racka Sheep, is an endangered breed of sheep originating in Hungary, known for its curly and crimped wool and unusual spiral horns, which are seen on both the rams and the ewes (albeit slightly shorter on the females). These unique appendages are unlike any other domestic sheep horns, and may grow up to 2.0 ft (0.61 m) long, growing at a roughly 45-degree, diagonal angle; the shortest standard length is 20 in (51 cm) for rams and 12–15 in (30–38 cm) for ewes.\n\nAlthough the Racka has been kept by Hungarians for several centuries, once being the most common sheep breed in the country, it is now considered a rare breed, with an estimated 2,500 animals remaining. Today, the largest flocks are found in the Hortobágy steppes of Hungary and, to a lesser extent, in Caraș-Severin, Romania. However, due to its unique features, it has seen popularity abroad, being exported in growing numbers to the United Kingdom, United States and France; while in its home range interest remains limited. It is a hardy, multi-purpose breed used for milking, wool and meat. Their wool is long and coarse, and appears in two general types: a cream o",
+      "excerpt_offset": 0,
+      "total_chars": 3031,
+      "bm25": {
+        "q1": {
+          "rank": 16,
+          "score": 52.0623
+        }
+      },
+      "best_rank": 16,
+      "title_similarity": 0.2,
+      "context_overlap": 0.1647,
+      "cosine": 0.156243,
+      "rerank_logit": -7.901496,
+      "rerank_position": 18
+    },
+    {
+      "page_id": "3049231",
+      "revision_id": "1312134487",
+      "title": "Jacob sheep",
+      "url": "https://en.wikipedia.org/wiki/Jacob_sheep",
+      "excerpt": "The Jacob is a British breed of domestic sheep. It combines two characteristics unusual in sheep: it is piebald —dark-coloured with areas of white wool—and it is often polycerate or multi- horned. It most commonly has four horns. The origin of the breed is not known; broken-coloured polycerate sheep were present in England by the middle of the seventeenth century, and were widespread a century later. A breed society was formed in 1969, and a flock book was published from 1972.\n\nThe Jacob was kept for centuries as a \"park sheep\", to ornament the large estates of landowners. In modern times it is reared mainly for wool, meat and skins.\n\nThe origins of the Jacob are not known.: 4 It has been bred in the British Isles for several hundred years. Sheep of this kind, little different from the modern breed, were shown in paintings from about 1760 at Tabley House in Cheshire, and – by George Stubbs – at Wentworth Woodhouse in Yorkshire.: 77\n\nIn the de Tabley family, the tradition was that the piebald sheep had come ashore in Ireland from a wrecked ship of the Spanish Armada in 1588, and been brought to England by Sir John Byrne on his marriage.: 33\n\nAmong the many accounts of ancient breeds",
+      "excerpt_offset": 0,
+      "total_chars": 13495,
+      "bm25": {
+        "q1": {
+          "rank": 17,
+          "score": 52.0093
+        }
+      },
+      "best_rank": 17,
+      "title_similarity": 0.375,
+      "context_overlap": 0.1395,
+      "cosine": 0.245832,
+      "rerank_logit": -7.467669,
+      "rerank_position": 6
+    },
+    {
+      "page_id": "1106902",
+      "revision_id": "1328070623",
+      "title": "Lincoln Longwool",
+      "url": "https://en.wikipedia.org/wiki/Lincoln_Longwool",
+      "excerpt": "The Lincoln Longwool is an old British breed of sheep. It is the largest sheep of the United Kingdom, and was bred specifically for wool production. The fleece is coarse, wavy, lustrous and long, and hangs in broad staples that separate easily. The heaviest fleece on record was from a Lincoln ram.\n\nMany were exported to other countries, particularly in the twentieth century, and the Lincoln has influenced sheep husbandry in many parts of the world, often through cross-breeding with Merino stock.\n\nIn the twenty-first century it is an endangered breed, categorised by the Rare Breeds Survival Trust as \"priority\" – its highest level of concern.\n\nThe county of Lincolnshire has had a strong connection with the wool trade since Mediaeval times: the City of Lincoln was one of the staple towns designated in the Ordinance of the Staple of 1353.\n\nThe sheep have been exported to a number of other countries, among them Argentina, Australia, Canada, China, New Zealand, Paraguay, the Russian Federation, Tajikistan, the United States and South Africa. The only substantial populations of the sheep are reported by Argentina, with 100 000 to 200 000, and by New Zealand, with 4169. In the United Kingd",
+      "excerpt_offset": 0,
+      "total_chars": 2501,
+      "bm25": {
+        "q1": {
+          "rank": 18,
+          "score": 51.7512
+        }
+      },
+      "best_rank": 18,
+      "title_similarity": 0.0952,
+      "context_overlap": 0.1566,
+      "cosine": 0.266072,
+      "rerank_logit": -7.575415,
+      "rerank_position": 10
+    },
+    {
+      "page_id": "15453495",
+      "revision_id": "1328160945",
+      "title": "Clun Forest sheep",
+      "url": "https://en.wikipedia.org/wiki/Clun_Forest_sheep",
+      "excerpt": "The Clun Forest is a breed of domestic sheep originating from the area surrounding the Clun Forest in Shropshire, England. Similar to many of the British breeds of upland sheep, Clun Forest are hardy, adaptable, good foragers, and are long–lived. With sleek heads and wide pelvic structures, Clun Forest ewes lamb easily. The breed has a short to medium–length wool and dark brown faces. They are a multi–purpose animal, kept for meat, wool, and milk. Like other dark faced sheep, Clun produce quality lamb and mutton. However, in contrast to more common meat breeds such as Suffolks, their wool is free of undesirable black fibres and kemp, and is suitable for handspinning. The breed's alert and stylish appearance, together with its reputation for hardiness and fecundity have made it popular with hobby farmers and large commercial flock owners alike.The Official Clun Sheep Breeders Society Show & Sale for males and females is held annually in early September at Ludlow livestock market by McCartneys.\n\nThe breed takes its name from the old town of Clun and the surrounding forests in the southwest corner of Shropshire, England. One of the first mentions of the breed is in 1803 when the Rev. ",
+      "excerpt_offset": 0,
+      "total_chars": 5311,
+      "bm25": {
+        "q1": {
+          "rank": 19,
+          "score": 51.5464
+        }
+      },
+      "best_rank": 19,
+      "title_similarity": 0.2727,
+      "context_overlap": 0.1875,
+      "cosine": 0.25239,
+      "rerank_logit": -7.319768,
+      "rerank_position": 1
+    },
+    {
+      "page_id": "19612419",
+      "revision_id": "1326086017",
+      "title": "Zwartbles",
+      "url": "https://en.wikipedia.org/wiki/Zwartbles",
+      "excerpt": "The Zwartbles is a breed of domestic sheep originating in the Friesland region of the north Netherlands. There it was primarily used for the production of sheep milk as well as lamb and mutton. They were often kept alongside dairy cattle herds.\n\nThe Zwartbles has a striking appearance: a black/brown fleece, a white blaze on the face, 2 - 4 white socks, and a white tail tip (which is traditionally left un docked). Both rams and ewes are polled. The Zwartbles are relatively large sheep: ewes weigh an average of 85 kg (187 lb), and rams 100 kg (220 lb). The dense fleece ranges from black to brown with sun bleached tips, some silvering may be present in older animals. The wool is medium to fine with excellent crimp and fibre length, a Bradford count of 54-56 and a micron count of 27 making it popular for spinning and felting.\n\nZwartbles are known for being docile, friendly, easy lambing, prolific, milky and being excellent mothers. Also they are good in showing.\n\nTraditionally used for both milk and meat in the Netherlands, they declined significantly in use until listed as critically rare by the Dutch Rare Breed Survival trust in the mid-1970s.\n\nThe first Zwartbles were imported to th",
+      "excerpt_offset": 0,
+      "total_chars": 2138,
+      "bm25": {
+        "q1": {
+          "rank": 20,
+          "score": 51.5155
+        }
+      },
+      "best_rank": 20,
+      "title_similarity": 0.1538,
+      "context_overlap": 0.1705,
+      "cosine": 0.230858,
+      "rerank_logit": -7.685246,
+      "rerank_position": 14
+    }
+  ]
+}

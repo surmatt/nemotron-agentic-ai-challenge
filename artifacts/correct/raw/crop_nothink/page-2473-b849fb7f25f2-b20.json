@@ -1,0 +1,93 @@
+{
+  "variant": "crop_nothink",
+  "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2473",
+  "block_index": 20,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "started_at": "2026-10-18T12:25:02+00:00",
+  "elapsed_seconds": 1.5,
+  "finish_reason": "stop",
+  "parse_text": "ERNIACEUS, or Harca dosc in biology, a genus of arthropods belonging to the order of ferns, the characters of which are thefel; they have two foresteeth in the upperpaw, at a considerable distance from one another, and won in the under jaw. leaf claffant; and they have two recombinant dog-tetth, one on each file. There are three facies, viz. 1. The europeus, or common hedgehog, with round cars, and certified no-frilk. It is about nine inches than the year of the body is usually covered with flap prticles, and the under part is covered with hair. The hedge-hog, even when flanked on hijings, has a very ugly affect. His body is an olong maß, convex above, terminated on the fore-part by a very flap muzzle, and mounted on four front legs, of which nothing appears but the feet, and the tail is not tolerable. His ears are broad, round, and short; and his eyes are small and prouberant. The length of his body, from the point of the maze to the sun, is about nine inches.",
+  "corrected_text": "ERINACEUS, or Hedge-hog, in zoology, a genus of quadrupeds belonging to the order of feræ, the characters of which are these: they have two foreteeth in the upper jaw, at a considerable distance from one another, and two in the under jaw, left distant; and they have two recumbent dog-teeth, one on each side. There are three species, viz. 1. The europæus, or common hedge-hog, with round ears, and creted no-frils. It is about nine inches long; the upper part of the body is totally covered with sharp prickles, and the under part is covered with hair. The hedge-hog, even when flanding on his legs, has a very ugly aspect. His body is an oblong mass, convex above, terminated on the fore-part by a very sharp muzzle, and mounted on four short legs, of which nothing appears but the feet, and the tail is not discernible. His ears are broad, round, and short; and his eyes are small and protuberant. The length of his body, from the point of the muzzle to the anus, is about nine inches.",
+  "reasoning_tokens": 0,
+  "usage": {
+    "completion_tokens": 251,
+    "prompt_tokens": 999,
+    "total_tokens": 1250,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": {
+        "image": 574
+      }
+    }
+  },
+  "request": {
+    "max_tokens": 3000,
+    "temperature": 0,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "prompt": "Correct the OCR text of a region of an 18th- or 19th-century encyclopaedia page. The image shows this region of the page. Use the image as the authority; the OCR text has many errors. Rules: write the long s as 's'. Keep the original spelling, capitals, and punctuation. Join a word that a line-break hyphen splits. Leave out page headers, page numbers, catchwords, and margin notes. Ignore lines cut at the top or bottom edge of the image. Do not add any word that you cannot see in the image. Write [?] for an illegible word. If the region has no text, answer EMPTY. Answer with the text only, with no comments.\n\nOCR text:\nERNIACEUS, or Harca dosc in biology, a genus of arthropods belonging to the order of ferns, the characters of which are thefel; they have two foresteeth in the upperpaw, at a considerable distance from one another, and won in the under jaw. leaf claffant; and they have two recombinant dog-tetth, one on each file. There are three facies, viz. 1. The europeus, or common hedgehog, with round cars, and certified no-frilk. It is about nine inches than the year of the body is usually covered with flap prticles, and the under part is covered with hair. The hedge-hog, even when flanked on hijings, has a very ugly affect. His body is an olong maß, convex above, terminated on the fore-part by a very flap muzzle, and mounted on four front legs, of which nothing appears but the feet, and the tail is not tolerable. His ears are broad, round, and short; and his eyes are small and prouberant. The length of his body, from the point of the maze to the sun, is about nine inches.",
+  "response": {
+    "id": "chatcmpl-9932e009bbcbac33",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "ERINACEUS, or Hedge-hog, in zoology, a genus of quadrupeds belonging to the order of feræ, the characters of which are these: they have two foreteeth in the upper jaw, at a considerable distance from one another, and two in the under jaw, left distant; and they have two recumbent dog-teeth, one on each side. There are three species, viz. 1. The europæus, or common hedge-hog, with round ears, and creted no-frils. It is about nine inches long; the upper part of the body is totally covered with sharp prickles, and the under part is covered with hair. The hedge-hog, even when flanding on his legs, has a very ugly aspect. His body is an oblong mass, convex above, terminated on the fore-part by a very sharp muzzle, and mounted on four short legs, of which nothing appears but the feet, and the tail is not discernible. His ears are broad, round, and short; and his eyes are small and protuberant. The length of his body, from the point of the muzzle to the anus, is about nine inches.",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning_content": null
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792326303,
+    "model": "nvidia/Nemotron-3.5-Super-VL",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g1bed5fc81-tp2-9705eecb",
+    "usage": {
+      "completion_tokens": 251,
+      "prompt_tokens": 999,
+      "total_tokens": 1250,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": {
+          "image": 574
+        }
+      }
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  }
+}

@@ -1,0 +1,452 @@
+{
+  "entry_id": "E0061",
+  "headword": null,
+  "entry_text_sha256": "8b241cd98457f161005a23dc39c77b19c84fdc1a28e3a29fac01ed147a182cf5",
+  "mode": "model",
+  "queries": [
+    "light rays picture object glass image paper lens fall half appear comes"
+  ],
+  "query_chars": 1500,
+  "headword_variant": null,
+  "candidate_count": 20,
+  "list_pages_removed_after_fetch": [],
+  "decision": {
+    "status": "rejected",
+    "method": "nemotron_embed_rerank",
+    "thresholds": {
+      "rerank_logit": -10.0,
+      "margin": 0.5,
+      "cosine": 0.15,
+      "title_similarity": 0.0
+    },
+    "reason": "rerank_logit < -10.0, margin < 0.5, cosine < 0.15, or title_similarity < 0.0",
+    "page_id": "168430",
+    "title": "Circle of confusion",
+    "rerank_logit": -5.447514,
+    "cosine": 0.213258,
+    "margin_to_next": 0.069954,
+    "title_similarity": 0.0
+  },
+  "candidates": [
+    {
+      "page_id": "1578810",
+      "revision_id": "1337776759",
+      "title": "Photogram",
+      "url": "https://en.wikipedia.org/wiki/Photogram",
+      "excerpt": "A photogram is a photographic image made without a camera by placing objects directly onto the surface of a light-sensitive material such as photographic paper and then exposing it to light.\n\nThe usual result is a negative shadow image that shows variations in tone that depends upon the transparency of the objects used. Areas of the paper that have received no light appear white; those exposed for a shorter time or through transparent or semi-transparent objects appear grey, while fully-exposed areas are black in the final print.\n\nThe technique is sometimes called cameraless photography. It was used by Man Ray in his rayographs. Other artists who have experimented with the technique include László Moholy-Nagy, Christian Schad (who called them \"Schadographs\"), Imogen Cunningham and Pablo Picasso.\n\nVariations of the technique have also been used for scientific purposes, in shadowgraph studies of flow in transparent media and in high-speed Schlieren photography, and in the medical X-ray.\n\nThe term photogram comes from the combining form phōtō- (φωτω-) of Ancient Greek phôs (φῶς, \"light\"), and Ancient Greek suffix -gramma (-γραμμα), from grámma (γράμμα, \"written character, letter, that",
+      "excerpt_offset": 0,
+      "total_chars": 11875,
+      "bm25": {
+        "q0": {
+          "rank": 1,
+          "score": 47.3487
+        }
+      },
+      "best_rank": 1,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1585,
+      "cosine": 0.098768,
+      "rerank_logit": -5.750265,
+      "rerank_position": 11
+    },
+    {
+      "page_id": "10432473",
+      "revision_id": "1350219343",
+      "title": "Zograscope",
+      "url": "https://en.wikipedia.org/wiki/Zograscope",
+      "excerpt": "A zograscope is an optical device for magnifying flat pictures that also enhances the sense of the depth shown in the picture. It consists of a large magnifying lens through which the picture is viewed. Devices containing only the lens are sometimes referred to as graphoscopes. Other models have the lens mounted on a stand in front of an angled mirror. This allows someone to sit at a table and to look through the lens at the picture flat on the table. Pictures viewed in this way need to be left-right reversed; this is obvious in the case of writing. A print made for this purpose, typically with extensive graphical projection perspective, is called a vue d'optique or \"perspective view\".\n\nZograscopes were popular during the later half of the 18th century as parlour entertainments. Most existing ones from that time are fine furniture, with turned stands, mouldings, brass fittings, and fine finishes.\n\nAccording to Michael Quinion, the origin of the term is lost, but it is also known as a diagonal mirror, as an optical pillar machine, or as an optical diagonal machine.\n\nIn Japan, the zograscope became known as 和蘭眼鏡 (Oranda megane, 'Dutch glasses') or 覗き眼鏡 (nozoki megane 'peeping glasses",
+      "excerpt_offset": 0,
+      "total_chars": 5731,
+      "bm25": {
+        "q0": {
+          "rank": 2,
+          "score": 45.1982
+        }
+      },
+      "best_rank": 2,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1379,
+      "cosine": 0.118847,
+      "rerank_logit": -5.911121,
+      "rerank_position": 17
+    },
+    {
+      "page_id": "953397",
+      "revision_id": "1323079373",
+      "title": "Real image",
+      "url": "https://en.wikipedia.org/wiki/Real_image",
+      "excerpt": "In optics, an image is defined as the collection of focus points of light rays coming from an object. A real image is the collection of focus points actually made by converging/diverging rays, while a virtual image is the collection of focus points made by extensions of diverging or converging rays. In other words, a real image is an image which is located in the plane of convergence for the light rays that originate from a given object. Examples of real images include the image produced on a detector in the rear of a camera, and the image produced on an eyeball retina (the camera and eye focus light through an internal convex lens).\n\nIn simple terms, a real point image is formed when all the rays of light from a point object passing through an optical system converge at a single point and a virtual point image is formed when all the rays of light from a point object passing through an optical system seem to come from a single point.\n\nIn ray diagrams (such as the images on the right), real rays of light are always represented by full, solid lines; perceived or extrapolated rays of light are represented by dashed lines. A real image occurs at points where rays actually converge, whe",
+      "excerpt_offset": 0,
+      "total_chars": 2088,
+      "bm25": {
+        "q0": {
+          "rank": 3,
+          "score": 44.9538
+        }
+      },
+      "best_rank": 3,
+      "title_similarity": 0.0,
+      "context_overlap": 0.2951,
+      "cosine": 0.25398,
+      "rerank_logit": -5.517468,
+      "rerank_position": 2
+    },
+    {
+      "page_id": "18320",
+      "revision_id": "1346821962",
+      "title": "Lens",
+      "url": "https://en.wikipedia.org/wiki/Lens",
+      "excerpt": "A lens is a transmissive optical device that focuses or disperses a light beam by means of refraction. A simple lens consists of a single piece of transparent material, while a compound lens consists of several simple lenses (elements), usually arranged along a common axis. Lenses are made from materials such as glass or plastic and are ground, polished, or molded to the required shape. A lens can focus light to form an image, unlike a prism, which refracts light without focusing. Devices that similarly focus or disperse waves and radiation other than visible light are also called \"lenses\", such as microwave lenses, electron lenses, acoustic lenses, or explosive lenses.\n\nLenses are used in various imaging devices such as telescopes, binoculars, and cameras. They are also used as visual aids in glasses to correct defects of vision such as myopia and hypermetropia.\n\nThe word lens comes from lēns, the Latin name of the lentil (a seed of a lentil plant), because a double-convex lens is lentil-shaped. The lentil also gives its name to a geometric figure.\n\nSome scholars argue that the archeological evidence indicates that there was widespread use of lenses in antiquity, spanning several ",
+      "excerpt_offset": 0,
+      "total_chars": 39090,
+      "bm25": {
+        "q0": {
+          "rank": 4,
+          "score": 44.826
+        }
+      },
+      "best_rank": 4,
+      "title_similarity": 0.0,
+      "context_overlap": 0.2184,
+      "cosine": 0.204739,
+      "rerank_logit": -5.564277,
+      "rerank_position": 4
+    },
+    {
+      "page_id": "953369",
+      "revision_id": "1342475945",
+      "title": "Virtual image",
+      "url": "https://en.wikipedia.org/wiki/Virtual_image",
+      "excerpt": "In optics, the image of an object is defined as the collection of focus points of light rays coming from the object. A real image is the collection of focus points made by real converging rays, while a virtual image is the collection of focus points made by backward extensions of real diverging rays. A virtual image is found by tracing real rays, that emerge from an optical device (lens, mirror, or some combination), backward to perceived or apparent origins of real ray divergences. In other words, a virtual image point is from which the real rays appear (not actually) to be emitted (while a real image point is to which real rays converge).\n\nThere is a concept virtual object that is similarly defined; an object is virtual when forward extensions of real rays converge toward it. In other words, a virtual object point is to which the real rays appear (not actually) to converge (while a real object point is from which real rays emit). This is observed in ray tracing for a multi-lenses system or a diverging lens. For a diverging lens, forward extension of real converging rays toward it will meet the converging point, so the point is a virtual object.\n\nFor a (refracting) lens, the real ",
+      "excerpt_offset": 0,
+      "total_chars": 3559,
+      "bm25": {
+        "q0": {
+          "rank": 5,
+          "score": 44.5896
+        }
+      },
+      "best_rank": 5,
+      "title_similarity": 0.0,
+      "context_overlap": 0.2708,
+      "cosine": 0.237279,
+      "rerank_logit": -5.804585,
+      "rerank_position": 14
+    },
+    {
+      "page_id": "193977",
+      "revision_id": "1352903088",
+      "title": "Camera lens",
+      "url": "https://en.wikipedia.org/wiki/Camera_lens",
+      "excerpt": "A camera lens, photographic lens or photographic objective is an optical lens or assembly of lenses (compound lens) used in conjunction with a camera body and mechanism to make images of objects either on photographic film or on other media capable of storing an image chemically or electronically.\n\nThere is no major difference in principle between a lens used for a still camera, a video camera, a telescope, a microscope, or other apparatus, but the details of design and construction are different. A lens might be permanently fixed to a camera, or it might be interchangeable with lenses of different focal lengths, apertures, and other properties.\n\nWhile in principle a simple convex lens will suffice, in practice a compound lens made up of a number of optical lens elements is required to correct (as much as possible) the many optical aberrations that arise. Some aberrations will be present in any lens system. It is the job of the lens designer to balance these and produce a design that is suitable for photographic use and possibly mass production.\n\nTypical rectilinear lenses can be thought of as \"improved\" pinhole \"lenses\". As shown, a pinhole \"lens\" is simply a small aperture that b",
+      "excerpt_offset": 0,
+      "total_chars": 17649,
+      "bm25": {
+        "q0": {
+          "rank": 6,
+          "score": 43.5001
+        }
+      },
+      "best_rank": 6,
+      "title_similarity": 0.0,
+      "context_overlap": 0.137,
+      "cosine": 0.164127,
+      "rerank_logit": -5.672735,
+      "rerank_position": 8
+    },
+    {
+      "page_id": "420231",
+      "revision_id": "1322757662",
+      "title": "Objective (optics)",
+      "url": "https://en.wikipedia.org/wiki/Objective_(optics)",
+      "excerpt": "In optical engineering, an objective is an optical element that gathers light from an object being observed and focuses the light rays from it to produce a real image of the object. Objectives can be a single lens or mirror, or combinations of several optical elements. They are used in microscopes, binoculars, telescopes, cameras, slide projectors, CD players and many other optical instruments. Objectives are also called object lenses, object glasses, or objective glasses.\n\nThe objective lens of a microscope is the one at the bottom near the sample. At its simplest, it is a very high-powered magnifying glass, with very short focal length. This is brought very close to the specimen being examined so that the light from the specimen comes to a focus inside the microscope tube. The objective itself is usually a cylinder containing one or more lenses that are typically made of glass; its function is to collect light from the sample.\n\nOne of the most important properties of microscope objectives is their magnification. The magnification typically ranges from 4× to 100×. It is combined with the magnification of the eyepiece to determine the overall magnification of the microscope; a 4× o",
+      "excerpt_offset": 0,
+      "total_chars": 7249,
+      "bm25": {
+        "q0": {
+          "rank": 7,
+          "score": 43.441
+        }
+      },
+      "best_rank": 7,
+      "title_similarity": 0.0,
+      "context_overlap": 0.2121,
+      "cosine": 0.202465,
+      "rerank_logit": -5.69303,
+      "rerank_position": 9
+    },
+    {
+      "page_id": "1807772",
+      "revision_id": "1316243135",
+      "title": "Pinhole glasses",
+      "url": "https://en.wikipedia.org/wiki/Pinhole_glasses",
+      "excerpt": "Pinhole glasses, also known as stenopeic glasses, are eyeglasses with a series of pinhole-sized perforations filling an opaque sheet of plastic in place of each lens. Similar to the workings of a pinhole camera, each perforation allows only a very narrow beam of light to enter the eye which reduces the size of the circle of confusion on the retina and increases depth of field. In eyes with refractive error, the result is often a sharper image. However, a second effect may appear at the common bridge between each two adjacent holes, whereby two different rays of light coming from the same object (but each passing through a different hole) are diffracted back toward the eye and onto different places on the retina.\n\nUnlike conventional prescription glasses, pinhole glasses produce an image without the pincushion effect around the edges (which makes straight lines appear curved). While pinhole glasses are claimed to be useful for people who are both near- and far-sighted, they are not recommended for people with over 6 diopters of myopia. Additionally, pinhole glasses reduce brightness and peripheral vision, and thus should not be used for driving or when operating machinery.\n\nMerchant",
+      "excerpt_offset": 0,
+      "total_chars": 2426,
+      "bm25": {
+        "q0": {
+          "rank": 8,
+          "score": 42.8933
+        }
+      },
+      "best_rank": 8,
+      "title_similarity": 0.0,
+      "context_overlap": 0.2159,
+      "cosine": 0.16072,
+      "rerank_logit": -5.791697,
+      "rerank_position": 12
+    },
+    {
+      "page_id": "48193",
+      "revision_id": "1347514946",
+      "title": "Camera obscura",
+      "url": "https://en.wikipedia.org/wiki/Camera_obscura",
+      "excerpt": "A camera obscura (pl. camerae obscurae or camera obscuras; from Latin camera obscūra ' dark chamber ') is the natural phenomenon in which light passing through the small hole of a dark chamber or box will project an image of a scene outside the chamber (box) onto the surface opposite to the hole, resulting in an inverted (upside down) and reversed (left to right) projection of the view outside.\n\nCamera obscura refers to analogous constructions such as a darkened room, box or tent in which an exterior image is projected inside or onto a translucent screen viewed from outside. Camera obscuras with a lens in the opening have been used since the second half of the 16th century and became popular as aids for drawing and painting. The technology was developed further into the photographic camera in the first half of the 19th century, when camera obscura boxes were used to expose light-sensitive materials to the projected image.\n\nThe image (or the principle of its projection) of a lensless camera obscura is also referred to as a \" pinhole image\".\n\nThe camera obscura was used to study eclipses without the risk of damaging the eyes by looking directly into the Sun. As a drawing aid, it allo",
+      "excerpt_offset": 0,
+      "total_chars": 35334,
+      "bm25": {
+        "q0": {
+          "rank": 9,
+          "score": 42.8018
+        }
+      },
+      "best_rank": 9,
+      "title_similarity": 0.0,
+      "context_overlap": 0.2,
+      "cosine": 0.125779,
+      "rerank_logit": -5.602033,
+      "rerank_position": 5
+    },
+    {
+      "page_id": "1412580",
+      "revision_id": "1319526425",
+      "title": "Science of photography",
+      "url": "https://en.wikipedia.org/wiki/Science_of_photography",
+      "excerpt": "The science of photography is the use of chemistry and physics in all aspects of photography. This applies to the camera, its lenses, physical operation of the camera, electronic camera internals, and the process of developing film in order to take and develop pictures properly.\n\nThe fundamental technology of most photography, whether digital or analog, is the camera obscura effect and its ability to transform of a three dimensional scene into a two dimensional image. At its most basic, a camera obscura consists of a darkened box, with a very small hole in one side, which projects an image from the outside world onto the opposite side. This form is often referred to as a pinhole camera.\n\nWhen aided by a lens, the hole in the camera doesn't have to be tiny to create a sharp and distinct image, and the exposure time can be decreased, which allows cameras to be handheld.\n\nA photographic lens is usually composed of several lens elements, which combine to reduce the effects of chromatic aberration, coma, spherical aberration, and other aberrations. A simple example is the three-element Cooke triplet, still in use over a century after it was first designed, but many current photographic ",
+      "excerpt_offset": 0,
+      "total_chars": 17783,
+      "bm25": {
+        "q0": {
+          "rank": 10,
+          "score": 42.2592
+        }
+      },
+      "best_rank": 10,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1205,
+      "cosine": 0.125566,
+      "rerank_logit": -5.95701,
+      "rerank_position": 18
+    },
+    {
+      "page_id": "266601",
+      "revision_id": "1335809791",
+      "title": "Refracting telescope",
+      "url": "https://en.wikipedia.org/wiki/Refracting_telescope",
+      "excerpt": "A refracting telescope (also called a refractor or dioptric telescope) is a type of optical telescope that uses a lens as its objective to form an image. The refracting telescope design was originally used in spyglasses and astronomical telescopes but is also used for long-focus camera lenses. Although large refracting telescopes were very popular in the second half of the 19th century, for most research purposes, the refracting telescope has been superseded by the reflecting telescope, which allows larger apertures. A refractor's magnification is calculated by dividing the focal length of the objective lens by that of the eyepiece.\n\nRefracting telescopes typically have a lens at the front, then a long tube, then an eyepiece or instrumentation at the rear, where the telescope view comes to focus. Originally, telescopes had an objective of one element, but a century later, two and even three element lenses were made.\n\nRefracting telescopes use technology that has often been applied to other optical devices, such as binoculars and zoom lenses / telephoto lens / long-focus lens.\n\nRefractors were the earliest type of optical telescope. The first record of a refracting telescope appeare",
+      "excerpt_offset": 0,
+      "total_chars": 16095,
+      "bm25": {
+        "q0": {
+          "rank": 11,
+          "score": 42.1746
+        }
+      },
+      "best_rank": 11,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1613,
+      "cosine": 0.190755,
+      "rerank_logit": -5.560344,
+      "rerank_position": 3
+    },
+    {
+      "page_id": "73984419",
+      "revision_id": "1307216125",
+      "title": "Ball lens",
+      "url": "https://en.wikipedia.org/wiki/Ball_lens",
+      "excerpt": "A ball lens is an optical lens in the shape of a sphere. Formally, it is a bi-convex spherical lens with the same radius of curvature on both sides, and diameter equal to twice the radius of curvature. The same optical laws may be applied to analyze its imaging characteristics as for other lenses.\n\nAs a lens, a transparent sphere of any material with refractive index (n) greater than air (n > 1.00) bends parallel rays of light to a focal point. For most glassy materials the focal point is only slightly beyond the surface of the ball, on the side opposite to where the rays entered. Ball lenses have extremely high optical aberration, including large amounts of coma and field curvature compared to conventional lenses.\n\nBall lenses or \" lensballs \" are used by photographers to take novel extreme wide-angle photos.\n\nWhere D = lens diameter and n = refractive index,\n\nEffective focal length, EFL = nD / 4(n − 1) Back focal length, BFL = EFL − D / 2 Numerical aperture, NA = 2 (n − 1) / n\n\nThe first lenses were likely spherical or cylindrical glass containers filled with water, which people noticed had the ability to focus light. Simple convex lenses have surfaces that are small sections of ",
+      "excerpt_offset": 0,
+      "total_chars": 6836,
+      "bm25": {
+        "q0": {
+          "rank": 12,
+          "score": 41.8512
+        }
+      },
+      "best_rank": 12,
+      "title_similarity": 0.0,
+      "context_overlap": 0.2125,
+      "cosine": 0.218821,
+      "rerank_logit": -5.810776,
+      "rerank_position": 16
+    },
+    {
+      "page_id": "2704",
+      "revision_id": "1353446640",
+      "title": "Optical aberration",
+      "url": "https://en.wikipedia.org/wiki/Optical_aberration",
+      "excerpt": "In optics, aberration is a property of optical systems, such as lenses and mirrors, that causes the image created by the optical system to not be a faithful reproduction of the object being observed. Aberrations cause the image formed by a lens to be blurred, distorted in shape or have color fringing or other effects not seen in the object, with the nature of the distortion depending on the type of aberration.\n\nAberration can be defined as a departure of the performance of an optical system from the predictions of paraxial optics. In an imaging system, it occurs when light from one point of an object does not converge into (or does not diverge from) a single point after transmission through the system. Aberrations occur because the simple paraxial theory is not a completely accurate model of the effect of an optical system on light, rather than due to flaws in the optical elements.\n\nAn image-forming optical system with aberration will produce an image which is not sharp. Makers of optical instruments need to correct optical systems to compensate for aberration.\n\nAberration can be analyzed with the techniques of geometrical optics. The articles on reflection, refraction and caustics",
+      "excerpt_offset": 0,
+      "total_chars": 47926,
+      "bm25": {
+        "q0": {
+          "rank": 13,
+          "score": 41.6449
+        }
+      },
+      "best_rank": 13,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1429,
+      "cosine": 0.198969,
+      "rerank_logit": -5.660387,
+      "rerank_position": 7
+    },
+    {
+      "page_id": "23364842",
+      "revision_id": "1269079720",
+      "title": "3D stereo view",
+      "url": "https://en.wikipedia.org/wiki/3D_stereo_view",
+      "excerpt": "A 3D stereo view is the viewing of objects through any stereo pattern.\n\nIn 1833, an English scientist Charles Wheatstone discovered stereopsis, the component of depth perception that arises due to binocular disparity. Binocular disparity comes from the human eyes having a distance between them: A 3D scene viewed through the left eye creates a slightly different image than the same scene viewed with the right eye, with the head kept in the same position. Five years later, according to what he discovered, he invented the stereoscope.\n\nA stereoscope is a binocular device through which a pair of monocular images was projected to both eyes in such a way that the optic axes converge at the same angle, which gives the impression of a 3D image. Since then, people have begun to understand the concept of stereo view. Wheatstone's invention was impractical until Sir David Brewster, a Scottish physicist and experimenter of optics, discovered that a 3D effect could be observed in repeated patterns with small difference in 1844. Brewster used what he discovered in building the stereo camera. The stereo camera combined the refracting stereoscope with two separate cameras which were placed slightl",
+      "excerpt_offset": 0,
+      "total_chars": 7225,
+      "bm25": {
+        "q0": {
+          "rank": 14,
+          "score": 41.5611
+        }
+      },
+      "best_rank": 14,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1358,
+      "cosine": 0.129641,
+      "rerank_logit": -5.995227,
+      "rerank_position": 19
+    },
+    {
+      "page_id": "1246346",
+      "revision_id": "1337304399",
+      "title": "Vignetting",
+      "url": "https://en.wikipedia.org/wiki/Vignetting",
+      "excerpt": "In photography and optics, vignetting (/ v ɪ n ˈ j ɛ t ɪ ŋ / vin- YET -ing) is a reduction of an image's brightness or saturation toward the periphery compared to the image center. The word vignette, from the same root as vine, originally referred to a decorative border in a book. Later, the word came to be used for a photographic portrait that is clear at the center and fades off toward the edges. A similar effect is visible in photographs of projected images or videos off a projection screen, resulting in a so-called \"hotspot\" effect.\n\nVignetting is often an unintended and undesired effect caused by camera settings or lens limitations. However, it is sometimes deliberately introduced for creative effect, such as to draw attention to the center of the frame. A photographer may deliberately choose a lens that is known to produce vignetting to obtain the effect, or it may be introduced with the use of special filters or post-processing procedures.\n\nWhen using zoom lenses, vignetting may occur all along the zoom range, depending on the aperture and the focal length. However, it may not always be visible, except at the widest end (the shortest focal length). In these cases, vignetting",
+      "excerpt_offset": 0,
+      "total_chars": 4952,
+      "bm25": {
+        "q0": {
+          "rank": 15,
+          "score": 40.765
+        }
+      },
+      "best_rank": 15,
+      "title_similarity": 0.0,
+      "context_overlap": 0.0602,
+      "cosine": 0.024403,
+      "rerank_logit": -5.803131,
+      "rerank_position": 13
+    },
+    {
+      "page_id": "3202709",
+      "revision_id": "1344719725",
+      "title": "X-ray specs",
+      "url": "https://en.wikipedia.org/wiki/X-ray_specs",
+      "excerpt": "X-ray specs or X-ray glasses are an American novelty item, purported to allow users to see through or into solid objects. In reality, the spectacles merely create an optical illusion; no X-rays are involved. The current paper version is sold under the name \"X-Ray Spex\"; a similar product is sold under the name \"X-Ray Gogs\".\n\nX-Ray Specs consist of an over-sized pair of spectacles with plastic or cardboard frames and white cardboard \"lenses\" printed with concentric red circles and emblazoned with the legend \"X-RAY VISION\".\n\nThe \"lenses\" consist of two layers of thin cardboard with a small hole about a quarter-inch (6 millimeters) in diameter punched through both layers. The user views objects through the holes. In the original version, a feather is embedded between the layers of each lens. The vanes of the feathers are so close together that light is diffracted, causing the user to receive two slightly offset images. For instance, if viewing a pencil, one would see two offset images of the pencil. Where the images overlap, a darker image is obtained, giving the illusion that one is seeing the graphite embedded within the body of the pencil. Newer versions utilize manufactured diffra",
+      "excerpt_offset": 0,
+      "total_chars": 1326,
+      "bm25": {
+        "q0": {
+          "rank": 16,
+          "score": 40.7191
+        }
+      },
+      "best_rank": 16,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1364,
+      "cosine": 0.131357,
+      "rerank_logit": -5.711363,
+      "rerank_position": 10
+    },
+    {
+      "page_id": "11990241",
+      "revision_id": "1345127098",
+      "title": "Oil immersion",
+      "url": "https://en.wikipedia.org/wiki/Oil_immersion",
+      "excerpt": "In light microscopy, oil immersion is a technique used to increase the resolving power of a microscope. This is achieved by immersing both the objective lens and the specimen in a transparent oil of high refractive index, thereby increasing the numerical aperture of the objective lens.\n\nWithout oil, light waves reflect off the slide specimen through the glass cover, slip through the air, and into the microscope lens (see the colored figure to the right). Unless a wave comes out at a 90-degree angle, it bends when it hits a new substance, the amount of bend depending on the angle. This distorts the image. Air has a different index of refraction than glass, making for a larger bend compared to oil, which has an index similar to glass. Specially manufactured oil can have nearly exactly the same refractive index as glass, making an oil-immersed lens nearly as effective as having glass entirely around the sample (which would be impractical).\n\nImmersion oils are transparent oils that have specific optical and viscosity characteristics necessary for use in microscopy. Typical oils used have an index of refraction of around 1.515. An oil-immersion objective is an objective lens specially d",
+      "excerpt_offset": 0,
+      "total_chars": 6056,
+      "bm25": {
+        "q0": {
+          "rank": 17,
+          "score": 40.6431
+        }
+      },
+      "best_rank": 17,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1781,
+      "cosine": 0.175788,
+      "rerank_logit": -5.806543,
+      "rerank_position": 15
+    },
+    {
+      "page_id": "598536",
+      "revision_id": "1350601799",
+      "title": "Einstein ring",
+      "url": "https://en.wikipedia.org/wiki/Einstein_ring",
+      "excerpt": "An Einstein ring, also known as an Einstein–Chwolson ring or Chwolson ring (named for Orest Chwolson), is created when light from a galaxy or star passes by a massive object en route to the Earth. Due to gravitational lensing, the light is diverted, making it seem to come from different places. If source, lens, and observer are all in perfect alignment (syzygy), the light appears as a ring.\n\nGravitational lensing is predicted by Albert Einstein 's theory of general relativity. Instead of light from a source traveling in a straight line (in three dimensions), it is bent by the presence of a massive body, which distorts spacetime. An Einstein ring is a special case of gravitational lensing, caused by the exact alignment of the source, lens, and observer. This results in symmetry around the lens, causing a ring-like structure.\n\nThe size of an Einstein ring is given by the Einstein radius. In radians, it is\n\nθ 1 = 4 G M c 2 D L S D S D L, {\\displaystyle \\theta _{1}={\\sqrt {{\\frac {4GM}{c^{2}}}\\;{\\frac {D_{LS}}{D_{S}D_{L}}}}},}\n\nwhere\n\nG {\\displaystyle G} is the gravitational constant,\n\nM {\\displaystyle M} is the mass of the lens,\n\nc {\\displaystyle c} is the speed of light,\n\nD L {\\displ",
+      "excerpt_offset": 0,
+      "total_chars": 8309,
+      "bm25": {
+        "q0": {
+          "rank": 18,
+          "score": 40.6421
+        }
+      },
+      "best_rank": 18,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1618,
+      "cosine": 0.181267,
+      "rerank_logit": -6.023626,
+      "rerank_position": 20
+    },
+    {
+      "page_id": "168430",
+      "revision_id": "1335590423",
+      "title": "Circle of confusion",
+      "url": "https://en.wikipedia.org/wiki/Circle_of_confusion",
+      "excerpt": "In optics, a circle of confusion (CoC) is an optical spot caused by a cone of light rays from a lens not coming to a perfect focus when imaging a point source. It is also known as disk of confusion, circle of indistinctness, blur circle, or blur spot.\n\nIn photography, the circle of confusion is used to determine the depth of field, the part of an image that is acceptably sharp. A standard value of CoC is often associated with each image format, but the most appropriate value depends on visual acuity, viewing conditions, and the amount of enlargement. Usages in context include maximum permissible circle of confusion, circle of confusion diameter limit, and the circle of confusion criterion.\n\nReal lenses do not focus all rays perfectly, so that even at best focus, a point is imaged as a spot rather than a point. The smallest such spot that a lens can produce is often referred to as the circle of least confusion.\n\nTwo important uses of this term and concept need to be distinguished:\n\nIn a perfect lens L, all the rays pass through a focal point F. However at other distances from the lens the rays form a circle. For describing the largest blur spot that is indistinguishable from a point",
+      "excerpt_offset": 0,
+      "total_chars": 16949,
+      "bm25": {
+        "q0": {
+          "rank": 19,
+          "score": 40.5751
+        }
+      },
+      "best_rank": 19,
+      "title_similarity": 0.0,
+      "context_overlap": 0.1467,
+      "cosine": 0.213258,
+      "rerank_logit": -5.447514,
+      "rerank_position": 1
+    },
+    {
+      "page_id": "4870318",
+      "revision_id": "1291535485",
+      "title": "Autocollimation",
+      "url": "https://en.wikipedia.org/wiki/Autocollimation",
+      "excerpt": "Autocollimation is an optical setup where a collimated beam (of parallel light rays) leaves an optical system and is reflected back into the same system by a plane mirror.\n\nIt is used for measuring small tilting angles of the mirror, see autocollimator, or for testing the quality of the optical system or of a part of it. Large-aperture optics, however, are tested with a null corrector avoiding the production of a large plane mirror.\n\nOne special application is to determine the focal length of a diverging lens: a light source is placed at twice the focal length of a converging lens on one side and a screen at the same distance on the other side so that the image of the light source is the sharpest possible. When this is achieved, the screen is replaced with a mirror and the diverging lens is inserted between the converging lens and the mirror at such a distance to the mirror that the light returning through the diverging and converging lenses produces a sharp image on top of the luminous object. This is the case when the beam hitting the mirror is collimated. The distance found is the (negative) focal length of the diverging lens.\n\nLight from an origin point O is collimated (made pa",
+      "excerpt_offset": 0,
+      "total_chars": 2590,
+      "bm25": {
+        "q0": {
+          "rank": 20,
+          "score": 40.451
+        }
+      },
+      "best_rank": 20,
+      "title_similarity": 0.0,
+      "context_overlap": 0.2985,
+      "cosine": 0.273542,
+      "rerank_logit": -5.636961,
+      "rerank_position": 6
+    }
+  ]
+}
