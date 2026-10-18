@@ -1,4 +1,4 @@
-"""Offline setup and storage contracts do not implement challenge stages."""
+"""Offline setup, CLI, and storage contracts."""
 from dataclasses import replace
 import json
 
@@ -18,7 +18,7 @@ def test_offline_doctor_needs_no_secrets_or_network(monkeypatch, capsys):
     assert main(["doctor", "--offline"]) == 0
     data = json.loads(capsys.readouterr().out)
     assert data["inference"] == "not tested"
-    assert data["challenge_stages"] == "not implemented"
+    assert data["challenge_stages"].startswith("implemented")
     assert all(row["status"] == "not_tested" for row in data["checks"] if "configured" in row)
 
 
@@ -31,18 +31,19 @@ def test_live_doctor_reports_missing_resources(monkeypatch):
     assert report["inference"] == "not tested"
 
 
-@pytest.mark.parametrize("stage", ["extract", "match", "compare", "agent", "site", "evaluate"])
-def test_unfinished_stage_fails_with_guide_and_creates_no_result(stage, tmp_path, capsys):
+def test_stage_needs_earlier_artifacts_and_reports_the_missing_file(tmp_path, capsys):
     path = tmp_path / "team-artifacts"
-    assert main(["run", stage, "--work-dir", str(path)]) == 2
-    assert f"docs/milestones.md#{stage}" in capsys.readouterr().err
-    assert not path.exists()
+    assert main(["run", "compare", "--work-dir", str(path)]) == 1
+    assert "entries.jsonl" in capsys.readouterr().err
 
 
-def test_stages_list_has_todos(capsys):
-    assert main(["stages"]) == 0
-    rows = json.loads(capsys.readouterr().out)
-    assert len(rows) == 6 and all(row["status"] == "TODO" for row in rows)
+def test_stages_list_reports_last_saved_run(tmp_path, capsys):
+    (tmp_path / "extract").mkdir()
+    (tmp_path / "extract" / "summary.json").write_text('{"finished_at": "2026-10-18T00:00:00+00:00"}')
+    assert main(["stages", "--work-dir", str(tmp_path)]) == 0
+    rows = {row["stage"]: row for row in json.loads(capsys.readouterr().out)}
+    assert len(rows) == 6 and all(row["status"] == "implemented" for row in rows.values())
+    assert rows["extract"]["last_run"] == "2026-10-18T00:00:00+00:00" and rows["match"]["last_run"] is None
 
 
 def test_keys_are_not_exposed_by_settings_repr():

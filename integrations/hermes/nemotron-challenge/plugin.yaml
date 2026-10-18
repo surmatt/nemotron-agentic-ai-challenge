@@ -1,6 +1,9 @@
 name: nemotron-challenge
-version: "0.1.0"
-description: Participant comparison tool scaffold. Team implementation required.
+version: "0.2.0"
+description: Britannica and Wikipedia comparison tools over the team's saved stage artifacts.
 provides_tools:
+  - challenge_search
   - challenge_compare
+  - challenge_read
+  - challenge_corpus
 capabilities: []

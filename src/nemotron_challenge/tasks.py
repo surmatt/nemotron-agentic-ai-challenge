@@ -1,4 +1,4 @@
-"""Teams implement these stages with their coding agents."""
+"""Team stage entry points. Each stage module documents its method at the top."""
 from pathlib import Path
 from typing import Any
 
@@ -7,38 +7,43 @@ from .config import Settings
 STAGES = ("extract", "match", "compare", "agent", "site", "evaluate")
 
 
-def _unfinished(stage: str) -> None:
-    raise NotImplementedError(
-        f"TODO: implement the {stage} milestone. Read docs/milestones.md#{stage}. "
-        "The starter has no result for this stage."
-    )
-
-
 def extract(settings: Settings, work_dir: Path) -> dict[str, Any]:
-    """TODO: define your extraction and entry segmentation process."""
-    _unfinished("extract")
+    """Parse each scan, keep the raw reply, and segment entries. See extract.py for the method."""
+    from . import extract as stage
+
+    return stage.run(settings, work_dir)
 
 
 def match(settings: Settings, work_dir: Path) -> dict[str, Any]:
-    """TODO: define how your team finds and verifies article matches."""
-    _unfinished("match")
+    """Find Wikipedia candidates and decide on matches. See match.py for the method."""
+    from . import match as stage
+
+    return stage.run(settings, work_dir)
 
 
 def compare(settings: Settings, work_dir: Path) -> dict[str, Any]:
-    """TODO: define your vocabulary, frequency, or topic comparison."""
-    _unfinished("compare")
+    """Compare word frequencies of matched pairs. See compare.py for the method."""
+    from . import compare as stage
+
+    return stage.run(settings, work_dir)
 
 
 def agent(settings: Settings, work_dir: Path) -> dict[str, Any]:
-    """TODO: implement your Hermes tools and evidence checks."""
-    _unfinished("agent")
+    """Run the question set through Hermes and check each run. See agent.py for the method."""
+    from . import agent as stage
+
+    return stage.run(settings, work_dir)
 
 
 def site(settings: Settings, work_dir: Path) -> dict[str, Any]:
-    """TODO: build your LaTeX documents and static website."""
-    _unfinished("site")
+    """Build LaTeX documents and the static website. See site.py for the layout."""
+    from . import site as stage
+
+    return stage.run(settings, work_dir)
 
 
 def evaluate(settings: Settings, work_dir: Path) -> dict[str, Any]:
-    """TODO: review your results and document successes and failures."""
-    _unfinished("evaluate")
+    """Check saved agent runs and write the six case studies. See evaluate.py for the method."""
+    from . import evaluate as stage
+
+    return stage.run(settings, work_dir)
